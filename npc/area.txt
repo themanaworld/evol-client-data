@@ -1,0 +1,34 @@
+// Evol scripts.	
+// Authors:
+//    Vasily_Makarov	
+// Description:	
+//    fix me	
+
+000-0-0.gat,0,0,0,0	script	Sailors	0,0,0,{
+
+  mesn;
+  mesn "You are on a raft, adrift in the sea. You don't remember anything before this. You can hear a voice from the sky. As you open your eyes and look around, you see a large ship. Some sailors are trying to talk to you..";
+  next;
+
+  mesn;
+  mesq g(l("Hey lady!"), l("Hey man!"));
+  next;
+
+  mesq l("Hey! Do you hear me? Are you okay?");
+  next;
+
+  menu
+    mesn l("Try to move your hand to show them that you're alive"), -,
+    mesn l("Don't move at all"), -;
+  next;
+
+  mesn;    
+  mesq g(l("This girl needs rescuing, let's help her!"), 
+         l("This guy needs rescuing, let's help him!"));
+  next;
+
+  mesn "The sailors take you aboard their ship to help you.";
+  next;
+  close;
+
+}
