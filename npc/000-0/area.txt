@@ -4,7 +4,7 @@
 // Description:	
 //    fix me	
 
-000-0-0.gat,0,0,0,0	script	Sailors	0,0,0,{
+000-0.gat,0,0,0,0	script	Sailors	0,0,0,{
 
   mesn;
   mesn "You are on a raft, adrift in the sea. You don't remember anything before this. You can hear a voice from the sky. As you open your eyes and look around, you see a large ship. Some sailors are trying to talk to you..";
@@ -29,6 +29,7 @@
 
   mesn "The sailors take you aboard their ship to help you.";
   next;
-  close;
+
+  warp 002-0-x.gat,0,0;
 
 }
