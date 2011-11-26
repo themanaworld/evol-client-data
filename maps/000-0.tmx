@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="41" height="41" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="license" value="CC BY-NC-ND"/>
+  <property name="manaplus version" value="1"/>
+  <property name="music" value="Artis - The Adventure Begins.ogg"/>
+ </properties>
+ <tileset firstgid="1" name="Water" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Water.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Ship_base" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Ship_base.png" width="704" height="320"/>
+ </tileset>
+ <tileset firstgid="477" name="Ship2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Ship2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="733" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Ground" width="41" height="41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TSQrCMBgF4KQHUhFUcFh24QB6AhVFj+BGj6CCrp2WTjtFN+JwBj2QrxCwtqmgtpvyFh8JSfvn8YcYQgiDiIiIQicihYhCTIlL9zdJ6ZZSrP00xgxkIaf5/1+mfFeHPFSVBHSgAEUoOZShIt11TB+zWrXumDyMV8aa5rw+DKABTZsWtD0y+pVV18dPGYeO9S70Asz3a0Z730cwDviuJ6g1hRnMYfFlHy1LWMEaNrAN4N3sUHOvHOAIJw+6fp3hAle4BZCPiIiIiIiIwuMJgfZ2LEQaAAA=
+  </data>
+ </layer>
+ <layer name="Ground 2" width="41" height="41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UvU4CQRhFZ6m0UbQSjT+JCkIrDQ1qbHwC1JfQl9CaQgoNpVJiwSMIBYLSIOrjcEyWZArZbJjdheKe5CSb3cy9X2YzY4wQybCUMmY5Ne8pgtlY8PmEEOFZ8YxZxTSu4boXfUeGzE3c8rO3rY4dnnct93z3LQ/wELOYwyPMYyGGWScck33hW5zS88BdWMPSP9/LvDvBUzxznPPcYf0z871gI+DerpB/iVcOPdcx/gubG4ee2wRmvHPsuI95xkfynxw76gHrq9a5qc7Q02TNa0R70IphL9/IbEeY2yXrHXvYxw/8xEFIh/iFI/zGH/xN6Cz+0UmuSgghhBBCCCEWnjFXhCUZRBoAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="41" height="41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VOQrCQBiG4X9GcSldk8JeG0/vcgOXG2itJ3A5gG8QRcSIWGT+4nvgI5AmLyOMZvJwCGbHkLqi3Im2M7uwq9POEM0iq7F6vL9r8GzGtF2vOrR0WY/12YANWZagsTiXFmt/+PaGd1sH51acS17S4aVxTMPEeeM3O/r2zhsX9C3V+JRxB+dv9/Doh3t5Rd+6osbpn/8TM/rmzn9rERERERERERGpxg0LLsi1RBoAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="41" height="41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Sx0oDYRSG4Zksol6AbjX2jV2Xdm/AcgOWpUKKWzVFrAtjB92Y2EBd2BDUiHVjAQso6NX4BgwZY4iDZMYszgcP+ZOc+c/hJIoikUjMyJJFUZYt0fdWy8+abD7LgQ25yEM+ClCIIhTHeS5Z2eLubewgE1maXiWcS1GGclSgElWoRo2Bc0X2cowTnCKk2UsktZzrUI8GNKIJzWgxaL7YvdziDvd40LGXVr5vQzs6DJoxdi/v+MCRzn6d1HWhGz0G/s7aWFVFSUM6MtTEtXZmcsAJF/pNmjGcA3od6ujnpsYDL3wYNnHGa3rd6Ojnp2YaMybOFskrPd909F2hJoCgzr3/R3aZaw/7Ovfey/+775f/uJ7YucMBJ1wJ7jtnpgtc4irO3gd4dhBDcMMDL3xJmHGEO0YxhnFMYFJzr43zFB6Z6QnPeIFfjQpnltc5zGMBi0mYLVECmvuDnFc11r6sYwObBs/yl4TU785ScEaJRCKRSCQSiUQikaRuPgGWW2jHRBoAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="41" height="41">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQkAAAgEMXH/GX8WwSW0yEH6S1cFAACA7foBAADgiwHoSnhLRBoAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object" width="41" height="41" visible="0">
+  <object name="ToInterior" type="warp" x="4544" y="2208" width="26" height="60">
+   <properties>
+    <property name="dest_map" value="001-2-0"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="864"/>
+   </properties>
+  </object>
+  <object name="ezili-ocean-sounds.ogg" type="music" x="25" y="2530" width="5057" height="937"/>
+  <object x="3928" y="3420"/>
+  <object name="Ezili - Ocean sounds.ogg" type="music" x="2948" y="2268" width="2124" height="252"/>
+  <object name="Ezili - Ocean sounds.ogg" type="music" x="3812" y="1152" width="1256" height="1104"/>
+  <object name="Ezili - Ocean sounds.ogg" type="music" x="536" y="372" width="584" height="2156"/>
+  <object name="Ezili - Ocean sounds.ogg" type="music" x="1124" y="528" width="3928" height="612"/>
+ </objectgroup>
+</map>

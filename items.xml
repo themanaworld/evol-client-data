@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="items.xsl"?>
+<!-- Copyright (C) 2010-2011  Evol Online
+Author : Reid, Piman, 4144.
+
+New management (04/12/11).
+-0 -99 = Hairstyles
+-100 -infiny = Races
+30 500 = Weapons animation
+501 699 = Usable items
+700 999 = Common items
+1000 1299 = Necklaces
+1300 1799 = Chests
+1800 1999 = Boots
+2000 2199 = Gloves
+2200 2499 = Pants
+2500 2699 = Wings
+2700 2899 = Shields
+2900 3199 = Heads
+3200 3499 = Neck
+3500 + = Weapons
+
+Colors is now seted up by itemcolors.xml.
+-->
+
+<items>
+    <version revision="$Revision$" />
+
+
+    <!-- Hairsprites -->
+    <item id="-1" type="hairsprite" name="Flat ponytail">
+        <sprite>hairstyles/hairstyle1.xml</sprite>
+    </item>
+    <item id="-2" type="hairsprite" name="Bowl cut">
+        <sprite>hairstyles/hairstyle2.xml</sprite>
+    </item>
+    <item id="-3" type="hairsprite" name="Combed back">
+        <sprite>hairstyles/hairstyle3.xml</sprite>
+    </item>
+    <item id="-4" type="hairsprite" name="Emo">
+        <sprite>hairstyles/hairstyle4.xml</sprite>
+    </item>
+    <item id="-5" type="hairsprite" name="Mohawk">
+        <sprite>hairstyles/hairstyle5.xml</sprite>
+    </item>
+    <item id="-6" type="hairsprite" name="Pompadour">
+        <sprite>hairstyles/hairstyle6.xml</sprite>
+    </item>
+    <item id="-7" type="hairsprite" name="Center parting">
+        <sprite>hairstyles/hairstyle7.xml</sprite>
+    </item>
+    <item id="-8" type="hairsprite" name="Long and slick">
+        <sprite>hairstyles/hairstyle8.xml</sprite>
+    </item>
+    <item id="-9" type="hairsprite" name="Short and curly">
+        <sprite>hairstyles/hairstyle9.xml</sprite>
+    </item>
+    <item id="-10" type="hairsprite" name="Pigtails">
+        <sprite>hairstyles/hairstyle10.xml</sprite>
+    </item>
+    <item id="-11" type="hairsprite" name="Long and curly">
+        <sprite>hairstyles/hairstyle11.xml</sprite>
+    </item>
+    <item id="-12" type="hairsprite" name="Parted">
+        <sprite>hairstyles/hairstyle12.xml</sprite>
+    </item>
+    <item id="-13" type="hairsprite" name="Perky ponytail">
+        <sprite>hairstyles/hairstyle13.xml</sprite>
+    </item>
+    <item id="-14" type="hairsprite" name="Wave">
+        <sprite>hairstyles/hairstyle14.xml</sprite>
+    </item>
+    <item id="-15" type="hairsprite" name="Mane">
+        <sprite>hairstyles/hairstyle15.xml</sprite>
+    </item>
+    <item id="-16" type="hairsprite" name="Bun">
+        <sprite>hairstyles/hairstyle16.xml</sprite>
+    </item>
+    <item id="-17" type="hairsprite" name="Wavy">
+        <sprite>hairstyles/hairstyle17.xml</sprite>
+    </item>
+    <item id="-18" type="hairsprite" name="Punk">
+        <sprite>hairstyles/hairstyle18.xml</sprite>
+    </item>
+    <item id="-19" type="hairsprite" name="Long ponytail">
+        <sprite>hairstyles/hairstyle19.xml</sprite>
+    </item>
+    <item id="-20" type="hairsprite" name="Wild">
+        <sprite>hairstyles/hairstyle20.xml</sprite>
+    </item>
+    <item id="-21" type="hairsprite" name="Choppy">
+        <sprite>hairstyles/hairstyle21.xml</sprite>
+    </item>
+    <item id="-22" type="hairsprite" name="Infinitely long">
+        <sprite>hairstyles/hairstyle22.xml</sprite>
+    </item>
+    <item id="-23" type="hairsprite" name="Wedding">
+        <sprite>hairstyles/hairstyle23.xml</sprite>
+    </item>
+    <item id="-24" type="hairsprite" name="Imperial">
+        <sprite>hairstyles/hairstyle24.xml</sprite>
+    </item>
+    <item id="-25" type="hairsprite" name="Tousled layers">
+        <sprite>hairstyles/hairstyle25.xml</sprite>
+    </item>
+    <item id="-26" type="hairsprite" name="Short punk">
+        <sprite>hairstyles/hairstyle26.xml</sprite>
+    </item>
+
+
+    <!-- Races -->
+    <item id="-100" type="racesprite" name="Human">
+        <sprite gender="male">players/human_male_base.xml</sprite>
+        <sprite gender="female">players/human_female_base.xml</sprite>
+    </item>
+    <item id="-101" type="racesprite" name="Ukar">
+        <sprite gender="male">players/ukar_male_base.xml</sprite>
+        <sprite gender="female">players/ukar_female_base.xml</sprite>
+    </item>
+    <item id="-102" type="racesprite" name="Demon">
+        <sprite gender="male">players/demon_male_base.xml</sprite>
+        <sprite gender="female">players/demon_female_base.xml</sprite>
+    </item>
+    <item id="-103" type="racesprite" name="Elven">
+        <sprite gender="male">players/elven_male_base.xml</sprite>
+        <sprite gender="female">players/elven_female_base.xml</sprite>
+    </item>
+    <item id="-104" type="racesprite" name="Orc">
+        <sprite gender="male">players/orc_male_base.xml</sprite>
+        <sprite gender="female">players/orc_female_base.xml</sprite>
+    </item>
+	<item id="-105" type="racesprite" name="Raijin">
+        <sprite gender="male">players/raijin_male_base.xml</sprite>
+        <sprite gender="female">players/raijin_female_base.xml</sprite>
+    </item>
+    <item id="-106" type="racesprite" name="Tritan">
+        <sprite gender="male">players/tritan_male_base.xml</sprite>
+        <sprite gender="female">players/tritan_female_base.xml</sprite>
+    </item>
+    
+
+    <!-- Weapons -->
+    <item id="30"
+        type="other"
+        weapon_type="12">
+        <sprite>aurisghard.xml</sprite>
+    </item>
+    <item id="31"
+        type="other"
+        weapon_type="12">
+        <sprite>axe.xml</sprite>
+    </item>
+    <item id="32"
+        type="other"
+        weapon_type="12">
+        <sprite>bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
+    <item id="33"
+        type="other"
+        weapon_type="12">
+        <sprite>dagger.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+    </item>
+    <item id="34"
+        type="other"
+        weapon_type="12">
+        <sprite>death scyth.xml</sprite>
+    </item>
+    <item id="35"
+        type="other"
+        weapon_type="12">
+        <sprite>mining-pick.xml</sprite>
+    </item>
+    <item id="36"
+        type="other"
+        weapon_type="12">
+        <sprite>scythe.xml</sprite>
+    </item>
+    <item id="37"
+        type="other"
+        weapon_type="12">
+        <sprite>staff.xml</sprite>
+    </item>
+    <item id="38"
+        type="other"
+        weapon_type="12">
+        <sprite>sword.xml</sprite>
+    </item>
+    <item id="39"
+        type="other"
+        weapon_type="12">
+        <sprite>whip.xml</sprite>
+    </item>
+
+
+    <!-- Items -->
+    <item id="501"
+        image="generic/use/acorn.png"
+        name="Acorn"
+        description="Squichy's food, should be good in a cake."
+        effect="+15 HP"
+        type="usable"
+        hp="15"
+        weight="2"/>
+    <item id="502"
+        image="generic/use/bread.png"
+        name="Bread"
+        description="Home-made Bread."
+        effect="+30 HP"
+        type="usable"
+        hp="30"
+        weight="5"/>
+    <item id="503"
+        image="generic/use/carrot.png"
+        name="Carrot"
+        description="Good in cakes."
+        effect="+25 HP"
+        type="usable"
+        hp="25"
+        weight="6"/>
+    <item id="504"
+        image="generic/use/cheese.png"
+        name="Cheese"
+        description="A ratto's left-overs."
+        effect="+40 HP"
+        type="usable"
+        hp="40"
+        weight="8"/>
+    <item id="505"
+        image="generic/use/chickleg.png"
+        name="Pious's legs"
+        description="Tasty pious's legs, well epiced!."
+        effect="+50 HP"
+        type="usable"
+        hp="50"
+        weight="10"/>
+    <item id="506"
+        image="generic/use/lettuce.png"
+        name="Lettuce"
+        description="Perfect for when you want to lose some weight."
+        effect="+15 HP"
+        type="usable"
+        hp="15"
+        weight="5"/>
+    <item id="507"
+        image="generic/use/piberries.png"
+        name="Piberries"
+        description="The famous staining-fruit."
+        effect="+20 HP"
+        type="usable"
+        hp="20"
+        weight="3"/>
+
+
+    <!-- Generic -->
+    <item id="700"
+        image="generic/3leafclover.png"
+        name="Three-leaf clover"
+        description="A simple clover."
+        type="generic"
+        weight="5"/>
+     <item id="701"
+        image="generic/feathers.png"
+        name="Pious's feathers"
+        description="Some yellow feathers.. A pious might have dropped them."
+        type="generic"
+        weight="1"/>
+    <item id="702"
+        image="generic/fragmentturtleshell.png"
+        name="Tortugas shell fragment"
+        description="Yeah, it's really a fragment of a tortugas's shell."
+        type="generic"
+        weight="15"/>
+    <item id="703"
+        image="generic/halfeggshell.png"
+        name="Half eggshell"
+        description="Maybe it was broken to prepare a fried egg."
+        type="generic"
+        weight="5"/>
+    <item id="704"
+        image="generic/rattotail.png"
+        name="Ratto tail"
+        description="A long tail from a ratto."
+        type="generic"
+        weight="5"/>
+    <item id="705"
+        image="generic/rattotooth.png"
+        name="Ratto tooth"
+        description="Some Ratto's tooth."
+        type="generic"
+        weight="3"/>
+    <item id="706"
+        image="generic/root.png"
+        name="Root"
+        description="Could be useful for cooking."
+        type="generic"
+        weight="5"/>
+    <item id="707"
+        image="generic/squichyclaw.png"
+        name="Squichy's claws"
+        description="Claws from a wild Squichy."
+        type="generic"
+        weight="10"/>
+    <item id="708"
+        image="generic/tortugasshell.png"
+        name="Tortugas's shell"
+        description="This shell comes from a Tortugas."
+        type="generic"
+        weight="35"/>
+    <item id="709"
+        image="generic/tortugastongue.png"
+        name="Tortugas tongue"
+        description="A tongue from a Tortugas."
+        type="generic"
+        weight="5"/>
+
+
+    <!-- Necklace 
+    <item id="1000"
+        image="equipment/amulet/"
+        name=""
+        description=""
+        effect=""
+        type="equip-necklace"
+        luck=""
+        weight=""/> -->
+
+
+    <!-- Chest -->
+    <item id="1300"
+        image="equipment/chest/usedshirt.png"
+        name="Used Shirt"
+        description="A used shirt given to you by a sailor."
+        effect="+2 Defense"
+        type="equip-torso"
+        weight="50"
+        defense="2">
+        <sprite gender="male">equipment/chest/cottonshirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
+    </item>
+    <item id="1300"
+        image="equipment/chest/usedshirt.png"
+        name="Used Shirt"
+        description="A used shirt given to you by a sailor."
+        effect="+2 Defense"
+        type="equip-torso"
+        weight="30"
+        defense="2">
+        <sprite gender="male">equipment/chest/cottonshirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
+    </item>
+    <item id="1301"
+        image="equipment/chest/sailorshirt.png"
+        name="Sailor Shirt"
+        description="Proof that ye be in the crew, matey!"
+        effect="+4% Defense"
+        type="equip-torso"
+        weight="45"
+        defense="4">
+        <sprite gender="male">equipment/chest/leathershirt-male.xml|#373700,837b00,c5b900;#c2912a,ebbc50</sprite>
+        <sprite gender="female">equipment/chest/leathershirt-female.xml|#373700,837b00,c5b900;#c2912a,ebbc50</sprite>
+    </item>
+
+
+    <!-- Boots -->
+    <item id="1802"
+        image="equipment/feet/boots.png|W"
+        name="%Color% Boots"
+        description="%Color% boots made for beginners."
+        effect="+1% Defense"
+        type="equip-feet"
+        weight="30"
+        defense="1"
+        colors="simple">
+        <sprite gender="male">equipment/feet/boots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml</sprite>
+    </item>
+
+
+    <!-- Gloves -->
+    <item id="2000"
+        image="equipment/hands/bracelets.png"
+        name="Bracelets"
+        description="Made out of wood and iron."
+        effect="+2% Defense"
+        type="equip-arms"
+        weight="30"
+        defense="2">
+        <sprite>equipment/hands/bracelets.xml</sprite>
+    </item>
+
+
+    <!-- Pants -->
+    <item id="2200"
+        image="equipment/leg/shorts.png|W"
+        name="%Color% used shorts"
+        description="%Color% used shorts given to you by a sailor."
+        effect="+2% Defense"
+        type="equip-legs"
+        weight="35"
+        defense="2"
+        colors="simple">
+        <sprite gender="male">equipment/leg/shorts-male.xml</sprite>
+        <sprite gender="female">equipment/leg/shorts-female.xml</sprite>
+    </item>
+
+
+    <!-- Wings
+    <item id="2500"
+        image="equipment/wings/angel wings.png"
+        name="Angel Wings"
+        description="Angel wings."
+        effect="+% Defense"
+        type="equip-charm"
+        weight="200"
+        defense="">
+        <sprite>equipment/wings/angel wings.xml</sprite>
+    </item> -->
+
+
+    <!-- Shield
+    <item id="2700"
+        image="equipment/shield/barrel.png"
+        name="Barrel"
+        description="The perfect hiding place, offering great defense!"
+        effect="+% Defense"
+        type="equip-shield"
+        defense=""
+        weight="600">
+        <replace sprite="wings" />
+        <replace sprite="hat" />
+        <sprite>equipment/shield/barrel.xml</sprite>
+    </item> -->
+
+    <!-- Head -->
+    <item id="2900"
+        image="equipment/head/bandana hat.png"
+        name="Bandana"
+        description="A striped bandana."
+        effect="+2% Defense"
+        type="equip-head"
+        defense="2"
+        weight="13"
+        max-per-slot="1">
+        <sprite>equipment/head/bandana hat.xml</sprite>
+    </item>
+
+
+    <!-- Neck
+    <item id="3200"
+        image="equipment/neck/scarf.png|R"
+        name="%Color% Scarf"
+        description="A beautiful (probably-lost!) %color% scarf."
+        effect="+% Defense"
+        type="equip-ring"
+        defense=""
+        weight="20"
+        colors="simple">
+        <sprite>equipment/neck/scarf.xml</sprite>
+    </item> -->
+
+
+    <!-- Weapons -->
+    <item id="3500"
+        image="equipment/weapon/knife.png"
+        name="Knife"
+        description="A simple knife."
+        effect="Damage +10"
+        type="equip-1hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="25">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+    </item>
+
+</items>

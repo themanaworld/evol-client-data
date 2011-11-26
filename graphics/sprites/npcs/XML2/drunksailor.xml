@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Author : Reid
+Copyright (C) 2010-2011  Evol Online -->
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/sprite/drunksailor.png" width="64" height="96" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+	    <sequence start="0" end="2" delay="120" offsetX ="12" />
+        </animation>
+    </action>
+</sprite>

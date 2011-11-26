@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="53" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Artis indoor - In the Forest of the Birches.ogg"/>
+ </properties>
+ <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="Docks" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Docks.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="641" name="Ship-candle" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Indoor/Ship-candle.png" width="192" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="15"/>
+    <property name="animation-delay1" value="15"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="15"/>
+    <property name="animation-delay4" value="15"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="animation-delay0" value="15"/>
+    <property name="animation-delay1" value="15"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="15"/>
+    <property name="animation-delay4" value="15"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="6"/>
+    <property name="animation-frame1" value="7"/>
+    <property name="animation-frame2" value="8"/>
+    <property name="animation-frame3" value="9"/>
+    <property name="animation-frame4" value="10"/>
+    <property name="animation-frame5" value="11"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="animation-delay0" value="15"/>
+    <property name="animation-delay1" value="15"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="15"/>
+    <property name="animation-delay4" value="15"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="12"/>
+    <property name="animation-frame1" value="13"/>
+    <property name="animation-frame2" value="14"/>
+    <property name="animation-frame3" value="15"/>
+    <property name="animation-frame4" value="16"/>
+    <property name="animation-frame5" value="17"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="659" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Ground" width="52" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt0zsKwCAURUG3aZne/dchXRAV8wHzwhSDpLsHXnJKKQMAAABw29awetPbPZG7Rj0Ru2Z6IjUdW8tpd6m+I/aMOiL1tHaXzrt669V7q2+uvsPVO2e1ttd3Vz6w88nNRf1/ej2rNwEAAAD82Q5w98IK
+  </data>
+ </layer>
+ <layer name="Ground 2" width="52" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJgCAAhlFXkOgQ0fRNUBvUZBkIefBWUMZ78BEoQn8IAAAAANwRU31RV7nrKu++qrYnFt/W9gypqWgM1565OGvZufHcML/9Iw9bUmvuD7bUngMAAAAA4FkHBc4IGA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="52" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztz0EKQGAQBeA/KxtugCNwM2dyU2MrlIimvq9es5jNe6UAAAAA8FS9u0e/LNrq/Ld8V+M1fewZIl1kjEwX+zJotv7JN5DD/HcBAAAAAIAbVpaAAg0=
+  </data>
+ </layer>
+ <layer name="Over" width="52" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt0UsKgzAUheHb3Th0bnTiY+qwZiXdtkswQgQNCVWsNpH/gwPhGuEeIgIAAAAAAHCfwqTyRHm+qT/teEQZmL9NBmfWXbzLWVrCfXw6+0+s1n3G1/f7KfXZgz73emKfz4H7KfR52vuE+vQmmUlrM58bib9PLdudl/O8e27vaOccK+0k98zWAQAAAAAAwG9MM/4X7g==
+  </data>
+ </layer>
+ <layer name="Collision" width="52" height="53" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAMRcHg/mUGdgEbQYjRC1z/H8kRkQAAAABAK6ur3nSq49Webm07V731x//ouV/n7QAAAAAdTd+KJ1s=
+  </data>
+ </layer>
+ <objectgroup name="Object" width="52" height="53">
+  <object name="ToLevel1" type="warp" x="608" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-0"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="864"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

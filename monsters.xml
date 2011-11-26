@@ -1,0 +1,76 @@
+<h1></h1><?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010-2011  Evol Online
+
+monsters.xml parameters explanation:
+
+<monsters>						Parent of the monster strings. 
+
+	<monster>					Monster tag, every new tag contain some specific attribute of the monster, here the list of them :
+		id=""						ID of the monster, it's different for every monsters, it starts from 0.
+		name=""     			Name of the monster which will be displayed in game, it's also used by the server.
+		targetCursor=""		Cursor size used by the client, different size are : small, medium and large.
+		walkType=""				The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. different walktype are : walk walkswim and fly.
+
+	<sprite>						This tag show the path to the xml of the monster.
+
+	<sound>						Sound tag, contain an event which display the sound effects for the corresponding action, here the list of them :
+ 		event=""					Link the sfx to an action, like die, hit, hurt, miss, move and spawn.
+
+exemple :
+    <monster id="0" name="Reid" targetCursor="big" walkType="fly">
+        <sprite>monsters/reid.xml</sprite>
+        <sound event="die">monsters/reid/reid-die-1.ogg</sound>
+    </monster>
+-->
+
+<monsters>
+    <monster id="0" name="Pious" targetCursor="small" walkType="walk">
+        <sprite>monsters/chick.xml</sprite>
+        <sound event="die">monsters/pious/pious-die-1.ogg</sound>
+        <sound event="hit">monsters/pious/pious-hit-1.ogg</sound>
+        <sound event="hit">monsters/pious/pious-hit-2.ogg</sound>
+        <sound event="hurt">monsters/pious/pious-hurt-1.ogg</sound>
+        <sound event="hurt">monsters/pious/pious-hurt-2.ogg</sound>
+        <sound event="miss">monsters/pious/pious-miss-1.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-1.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-2.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-3.ogg</sound>
+        <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
+    </monster>
+    <monster id="1" name="Ratto" targetCursor="small" walkType="walk">
+        <sprite>monsters/ratto.xml</sprite>
+        <sprite>accessories/acc-ratto-tail.xml</sprite>
+    </monster>
+    <monster id="2" name="Tortugas" targetCursor="small" walkType="walkswim">
+        <sound event="die">monsters/tortugas/tortugas-dying1.ogg</sound> 
+        <sound event="hit">monsters/tortugas/tortugas-hit1.ogg</sound>
+        <sound event="hit">monsters/tortugas/tortugas-hit2.ogg</sound>
+        <sound event="hurt">monsters/tortugas/tortugas-hurt1.ogg</sound>
+        <sound event="miss">monsters/tortugas/tortugas-miss1.ogg</sound>
+        <sound event="spawn">monsters/tortugas/tortugas-spawn1.ogg</sound>
+        <sprite>monsters/turtle.xml</sprite>
+    </monster>
+    <monster id="3" name="Croc" targetCursor="small" walkType="walk">
+        <sound event="hit">monsters/croc/croc-hit1.ogg</sound>
+        <sound event="hit">monsters/croc/croc-hit2.ogg</sound>
+        <sound event="hurt">monsters/croc/croc-hurt1.ogg</sound>
+        <sound event="hurt">monsters/croc/croc-hurt2.ogg</sound>
+        <sound event="hurt">monsters/croc/croc-hurt3.ogg</sound>
+        <sound event="miss">monsters/croc/croc-miss1.ogg</sound>
+        <sound event="spawn">monsters/croc/croc-spawn1.ogg</sound>
+        <sprite>monsters/croc.xml</sprite>
+    </monster>
+    <monster id="4" name="Little Blub" targetCursor="small" walkType="walkswim">
+        <sprite>monsters/littleblub.xml</sprite>
+        <sprite>accessories/acc-littleblub-tentacle.xml</sprite>
+    </monster>
+<!--<monster id="5" name="Blub" targetCursor="medium" walkType="walkswim">
+        <sprite>monsters/blub.xml</sprite>
+        <sprite>accessories/acc-blub-tentacle.xml</sprite>
+    </monster>
+    <monster id="6" name="Top Blub" targetCursor="medium" walkType="walkswim">
+        <sprite>monsters/blub.xml</sprite>
+        <sprite>accessories/acc-blub-tentacle.xml</sprite>
+        <sprite>accessories/acc-blub-tophat.xml</sprite>
+    </monster> -->
+</monsters>

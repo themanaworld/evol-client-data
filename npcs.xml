@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author : Reid
+(C) Evol Online 2010-2011.
+
+IDs 100-300 = Unanimated
+IDs 300-600 = Animated(1)
+IDs 600-900 = Animated(2)
+IDs 900-999 = Special
+-->
+<npcs>
+
+<!-- Unanimated NPCs -->
+
+    <npc id="100">
+        <!-- Human-Man, voyager-look with many things on this bags. -->
+        <sprite variant="112">npcs/XML1/npc.xml</sprite>
+    </npc>
+    <npc id="101">
+        <!-- Human-Man, brown clothed, with a beret on his head. -->
+        <sprite variant="129">npcs/XML1/npc.xml</sprite>
+    </npc>
+
+
+<!-- Animated NPCs (1)-->
+
+    <npc id="300">
+        <!-- Human-Man, weird look, showing the inside of his cape. -->
+        <sprite>npcs/XML1/creepysurgeon.xml</sprite>
+    </npc>
+    <npc id="301">
+        <!-- Human-Man, fashion look, look like a french fashion creator. -->
+        <sprite>npcs/XML1/dyer.xml</sprite>
+    </npc>
+    <npc id="302">
+        <!-- Human-Man, gay look, cleaning his scissor. -->
+        <sprite>npcs/XML1/barber.xml</sprite>
+    </npc>
+    <npc id="303">
+        <!-- Undead-Man, shadow mage look, playing with mana particle. -->
+        <sprite>npcs/XML1/undeadmage.xml</sprite>
+    </npc>
+    <npc id="314">
+        <!-- Demon-Man, sleeping demon. -->
+        <sprite>npcs/XML1/dreamer.xml</sprite>
+    </npc>
+    <npc id="305">
+        <!-- Elfen-Man, drunken sailor sitting on a bench. -->
+        <sprite>npcs/XML1/drunksailor.xml</sprite>
+    </npc>
+    <npc id="306">
+        <!-- Human-Man, sailor with a rat on his hand. -->
+        <sprite>npcs/XML1/ratsailor.xml</sprite>
+    </npc>
+    <npc id="307">
+        <!-- Demon-Woman, take care about the ship. -->
+        <sprite>npcs/XML1/shipkeeper.xml</sprite>
+    </npc>
+    <npc id="308">
+        <!-- Orc-Man, sleepy. -->
+        <sprite>npcs/XML1/sleepingorc.xml</sprite>
+    </npc>
+    <npc id="309">
+        <!-- Orc-Man, got a bag on this back. -->
+        <sprite>npcs/XML1/sailororc.xml</sprite>
+    </npc>
+    <npc id="310">
+        <!-- Elfen-Man, a sailor sitting on some wood box. -->
+        <sprite>npcs/XML1/sittingsailor.xml</sprite>
+    </npc>
+    <npc id="311">
+    <!-- Ukar-Man, sleepy. -->
+        <sprite>npcs/XML1/sleepingukar.xml</sprite>
+        </npc>
+    <npc id="312">
+    <!-- Elf-Man, sleepy. -->
+    <sprite>npcs/XML1/sleepingelf.xml</sprite>
+    </npc>
+    <npc id="313">
+        <sprite>npcs/XML1/villagedoor.xml</sprite>
+        <!-- Opening door animation for the Village tileset. -->
+    </npc>
+    <npc id="304">
+        <!-- Human-Female, she is the newbyhelper. -->
+        <sprite>npcs/XML1/enora.xml</sprite>
+        <sprite>accessories/acc-enora-eyes.xml</sprite>
+        <sprite>accessories/acc-enora-hair.xml</sprite>
+    </npc>
+    <npc id="315">
+        <!-- Elfen-Female, she is the librarykeeper. -->
+        <sprite>npcs/XML1/bianca.xml</sprite>
+    </npc>
+    <npc id="316">
+        <!-- Monster-Pious, some jumping and funny yellow pixels. -->
+        <sprite>accessories/acc-market-pious7.xml</sprite>
+        <sprite>accessories/acc-market-pious6.xml</sprite>
+        <sprite>accessories/acc-market-pious5.xml</sprite>
+        <sprite>accessories/acc-market-pious4.xml</sprite>
+        <sprite>accessories/acc-market-pious3.xml</sprite>
+        <sprite>accessories/acc-market-pious2.xml</sprite>
+        <sprite>accessories/acc-market-pious1.xml</sprite>
+    </npc>
+    <npc id="317">
+        <!-- Monster-Pious, some jumping and funny yellow pixels. #5 -->
+        <sprite>accessories/acc-market-pious8.xml</sprite>
+    </npc>
+    <npc id="318">
+        <!-- Monster-Pious, some jumping and funny yellow pixels. #2 -->
+        <sprite>accessories/acc-market-pious9.xml</sprite>
+    </npc>
+<!-- Animated NPCs (2)-->
+
+    <npc id="400">
+        <!-- Human-Man, weird look, showing the inside of his cape. Second xml -->
+        <sprite>npcs/XML2/creepysurgeon.xml</sprite>
+    </npc>
+    <npc id="405">
+        <!-- Elfen-Man, drunken sailor sitting on a bench. Second xml -->
+        <sprite>npcs/XML2/drunksailor.xml</sprite>
+    </npc>
+    <npc id="406">
+        <!-- Human-Man, sailor with a rat on his hand. Second xml -->
+        <sprite>npcs/XML2/ratsailor.xml</sprite>
+    </npc>
+    <npc id="407">
+        <!-- Demon-Woman, take care about the ship. Second xml -->
+        <sprite>npcs/XML2/shipkeeper.xml</sprite>
+    </npc>
+    <npc id="408">
+        <!-- Opening door animation for the Village tileset. Alternate way 1 -->
+        <sprite>npcs/XML2/villagedoor-alternate1.xml</sprite>
+    </npc>
+    <npc id="409">
+        <!-- Opening door animation for the Village tileset. Alternate way 2 -->
+        <sprite>npcs/XML2/villagedoor-alternate2.xml</sprite>
+    </npc>
+    <npc id="410">
+        <!-- Opening door animation for the Village tileset. Alternate way 3 -->
+        <sprite>npcs/XML2/villagedoor-alternate3.xml</sprite>
+    </npc>
+
+
+<!-- Special NPCs -->
+
+    <npc id="999">
+        <!-- blank NPC -->
+        <sprite variant="131">npcs/XML1/npc.xml</sprite>
+    </npc>
+</npcs>
+
+
+<!-- Pad & Reid's work .. November 2010 -->
+<!-- Reid's wipe and redo .. April 2011 -->
+<!-- Reid's re-management of the shape .. May 2011 -->

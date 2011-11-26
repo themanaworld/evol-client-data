@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author : Themanaworld and EvolOnline teams
+Help :
+name : Name of the status effect.
+id : ID of the status effect.
+block-id : Group of different IDs.(maybe)
+persistent-particle-effect : Display if the effect is present during all of the timer.(maybe)
+start-particle : Particles used for the effect, showed when the effect is enable.
+icon : Icon used in the top bar, showed when the effect is enable.
+start-message : Display a message when you launch the effect.
+end-message : Display a message when the effect end.
+-->
+<status-effects>
+    <status-effect name="item-healing" id="70" block-id="24"
+                   persistent-particle-effect="true"
+                   start-particle="graphics/particles/circle.particle.xml"
+    />
+    <status-effect name="magnificat" id="20" block-id="24"
+                   icon="icons/healing.xml"
+                   persistent-particle-effect="true"
+                   start-particle="graphics/particles/circle.particle.xml"
+    />
+    <status-effect name="invisibility" id="4096" block-id="12"
+                   icon="icons/invisible.xml"
+                   start-message="You are now invisible."
+                   end-message="You are no longer invisible."
+                   persistent-particle-effect="true"
+                   start-particle="graphics/particles/sphere-white.particle.xml"
+    />
+    <status-effect name="poison" id="14" block-id="25"
+                   icon="icons/poison.xml"
+                   persistent-particle-effect="true"
+                   start-particle="graphics/particles/green-bubbles.particle.xml"
+    />
+
+    <status-effect name="hide" id="194"
+                   icon="icons/hidden.xml"
+    />
+</status-effects>
