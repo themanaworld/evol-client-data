@@ -340,17 +340,6 @@ Colors is now seted up by itemcolors.xml.
         <sprite gender="male">equipment/chest/cottonshirt-male.xml</sprite>
         <sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
     </item>
-    <item id="1300"
-        image="equipment/chest/usedshirt.png"
-        name="Used Shirt"
-        description="A used shirt given to you by a sailor."
-        effect="+2 Defense"
-        type="equip-torso"
-        weight="30"
-        defense="2">
-        <sprite gender="male">equipment/chest/cottonshirt-male.xml</sprite>
-        <sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
-    </item>
     <item id="1301"
         image="equipment/chest/sailorshirt.png"
         name="Sailor Shirt"
@@ -365,7 +354,7 @@ Colors is now seted up by itemcolors.xml.
 
 
     <!-- Boots -->
-    <item id="1802"
+    <item id="1800"
         image="equipment/feet/boots.png|W"
         name="%Color% Boots"
         description="%Color% boots made for beginners."
@@ -409,29 +398,27 @@ Colors is now seted up by itemcolors.xml.
 
     <!-- Wings
     <item id="2500"
-        image="equipment/wings/angel wings.png"
-        name="Angel Wings"
-        description="Angel wings."
+        image="equipment/wings/"
+        name=""
+        description="."
         effect="+% Defense"
         type="equip-charm"
-        weight="200"
+        weight=""
         defense="">
-        <sprite>equipment/wings/angel wings.xml</sprite>
+        <sprite>equipment/wings/</sprite>
     </item> -->
 
 
     <!-- Shield
     <item id="2700"
-        image="equipment/shield/barrel.png"
-        name="Barrel"
-        description="The perfect hiding place, offering great defense!"
+        image="equipment/shield/.png"
+        name=""
+        description=""
         effect="+% Defense"
         type="equip-shield"
         defense=""
-        weight="600">
-        <replace sprite="wings" />
-        <replace sprite="hat" />
-        <sprite>equipment/shield/barrel.xml</sprite>
+        weight="">
+        <sprite>equipment/shield/</sprite>
     </item> -->
 
     <!-- Head -->
@@ -450,15 +437,14 @@ Colors is now seted up by itemcolors.xml.
 
     <!-- Neck
     <item id="3200"
-        image="equipment/neck/scarf.png|R"
-        name="%Color% Scarf"
-        description="A beautiful (probably-lost!) %color% scarf."
+        image="equipment/neck/.png"
+        name=""
+        description="."
         effect="+% Defense"
         type="equip-ring"
         defense=""
-        weight="20"
-        colors="simple">
-        <sprite>equipment/neck/scarf.xml</sprite>
+        weight=""
+        <sprite>equipment/neck/</sprite>
     </item> -->
 
 
