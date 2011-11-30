@@ -2,7 +2,7 @@
 // Authors:
 //    Vasily_Makarov
 // Description:
-//    fix me
+//    Hidden NPC on a ship'ground hole.
 //
 // 2 bits array:	
 //    ShipQuests	
@@ -12,7 +12,7 @@
 //    0     first talking (before food)
 //    1     already talked
 
-000-2-1.gat,0,0,0,1	script	Alige	0,{
+000-2-1.gat,33,31,0	script	Alige	301,1,1{
 
   if (geta2(ShipQuests, ShipQuests_Alige) == 1) goto l_AskForFood;
 
