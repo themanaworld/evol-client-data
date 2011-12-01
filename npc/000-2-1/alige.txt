@@ -17,7 +17,7 @@
   if (geta2(ShipQuests, ShipQuests_Alige) == 1) goto l_AskForFood;
 
   mesn l("Hidden person");
-  mesq l("Hey, psst, you are not a sailor right?");
+  mesq l("Hey, psst! You're not a sailor, right?");
 
   menu
       l("I am, who are you?"), -,
@@ -29,27 +29,27 @@
   l_NeedHelp:
 
     mesn l("Hidden person");
-    mesq l("Good, good!") + " " + l("Could you help me please?") + " " + l(I beg you, please, pleeeease...");
+    mesq l("Good, good!") + " " + l("Could you help me please?") + " " + l("I beg you, please, pleeeease...");
     
     menu
-        l("Why not... but who are you?") + l("And which kind of help do you need?"), l_CanHelp;
-        l("I don't have time for this, sorry."), -;
+        l("Why not... but, who are you?") + l("And what kind of help do you need?"), l_CanHelp;
+        l("I don't have any time for this, sorry."), -;
 
     mesn l("Hidden person");
-    mesq l("Damn you, don't say to anyone that you've seen me!");
+    mesq l("Damn you! You better not tell anyone that you've seen me!");
     close;
 
   l_CanHelp:
 
     mesn;
-    mesq l("I'm called Alige, and I'm hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("It makes my lose my mind, I need something else to eat!");
+    mesq l("I'm called Alige, and I'm hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;    
 
     mesn;
-    mesq l("Could you bring me something else which isn't a vegetable?") + l("And please, no berries. No more!");
+    mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
     
     menu
-        l("Okay, but what will I get for that?"), l_AboutReward;
+        l("Okay, but what can you do for me?"), l_AboutReward;
         l("But why are you hiding, aren't you a sailor?")+ " " + l("And why don't you go outside to talk?"), -;
 
   l_ExplainHiding;
@@ -62,7 +62,7 @@
     next;
 
     mesn;
-    mesq l("Please, don't say to other people that you've seen me, I don't want to be thrown to sea as a food for the sharks or decapited, not again!");
+    mesq l("Please, don't tell people that you've seen me, I don't want to be thrown to sea as food for sharks or decapitated, not again!");
 
     next;
 
@@ -73,21 +73,21 @@
   l_AboutReward:
 
     mesn;
-    mesq l("I will share my berries with you, if you'll help me.");
+    mesq l("I'll share my berries with you, if you help me.");
     next;
 
   l_Accept:
 
     menu
-        l("Well, I accept to help to you."), l_Accepted,
-        l("I think that I should report you to the crew members, I don't want any problems."), -;
+      l("Ok, I'll help you."), l_Accepted,
+      l("I think I should report you to the crew members, I don't want to have any problems with them."), -;
 
     goto l_DamnYou;
 
   l_Accepted:
 
     mesn;
-    mesq l("Perfect, which food do you got for trade with me today?");
+    mesq l("Perfect, which food did you get for me today?");
     next;
     goto l_GiveFood;
 
@@ -131,7 +131,7 @@
   l_GiveReward:
 
     mesn;
-    mesq l("Thank you so much! Here , have some berries...");
+    mesq l("Thank you so much! Here, have some berries...");
     next;
 
     getitem 507, rand(1,3);
@@ -140,24 +140,24 @@
   l_NoMore:
 
     mesn;
-    mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid!");
+    mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid ... stupid ... stupid!");
     next;
     close;
 
   l_AskForFood:
 
     mesn;
-    mesq "Do you have anything to trade with me today?";
+    mesq "Do you have anything for me today?";
     next;
 
     menu
       l("Yes."), l_GiveFood,
-      l("Why are you hiding, aren't you a sailor?") + " " + l("And why don't you go outside to talk?"), l_ExplainHiding,
-      l("I think that I should report you to the crew, I don't want any problems."), l_DamnYou;
+      l("But why are you hiding, aren't you a sailor?") + " " + l("And why don't you go outside to talk?"), l_ExplainHiding,
+      l("I think I should report you to the crew members, I don't want to have any problems with them."), l_DamnYou;
 
   l_DamnYou:
 
     mesn;
-    mesq l("Damn you, don't say to anyone that you've seen me!");
+    mesq l("Damn you! You better not tell anyone that you've seen me!");
     close;
 }
