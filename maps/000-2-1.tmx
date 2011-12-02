@@ -5,19 +5,19 @@
   <property name="music" value="Artis indoor - In the Forest of the Birches.ogg"/>
  </properties>
  <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
-  <image source="../../privclientdata/graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
+  <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
  </tileset>
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
-  <image source="../../privclientdata/graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" name="Docks" tilewidth="32" tileheight="32">
-  <image source="../../privclientdata/graphics/tiles/Docks.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Docks.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="641" name="Ship-indoor_x2" tilewidth="32" tileheight="32">
-  <image source="../../privclientdata/graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
+  <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
  </tileset>
  <tileset firstgid="689" name="Ship-candle" tilewidth="32" tileheight="64">
-  <image source="../../privclientdata/graphics/tiles/Indoor/Ship-candle.png" width="192" height="192"/>
+  <image source="../graphics/tiles/Indoor/Ship-candle.png" width="192" height="192"/>
   <tile id="0">
    <properties>
     <property name="animation-delay0" value="15"/>
@@ -77,12 +77,12 @@
  </layer>
  <layer name="Ground2" width="83" height="59">
   <data encoding="base64" compression="zlib">
-   eJztmLtOwzAYhd0gBsTUVlQC1IEycVla2EAMjKxsjPAYXEaYuN+egJY7TPAMwBMAL8Ox4iip6ySuGtG4Op90lPQkcZ0T139cIQghhBBCCCGEEEIIIYQQQgjJliVoJUXLfetdvkjLahsqQMPQEDSmFPV2UtoYlKzTxpSkKDrzkZ/L6nhaljZt2PQj72SRgw1ZPI+8Y7qHvPTDtSwPPSGOoGMv9G6w34RaXvx15H+pZ/QsVh15pifo5yl0FunvM/ZfoFdH7sEl1hLUaxsmshrP/00JE/x6od27xb3cQfeeX39LIqwFNeHXgoryhfJnRHz9CtqoqHOnIudKunkfyDMyy+lC/HE9y1kR5iB9mcMIVIdGoaqS9BrK09vQcx+kLCVxv6txaEJ05lNV/qTFd+ht6LnbtOECpYQxaYP+DHahPYvzu6nNrqx7ZJZlaKvHTHUaGdYPV97Va4b58gE5PEJPfa6nslsbwp0sbdiHDoRfJ+bVNvC6RV47J+zWqnJu3RT+3OoC5xh7F9ClF85l+rv6FXStzl8UnV5RbYN8ozmbavRChv13jSbUSvBknZa1JMg32EpvUGq0DaY1pP7fxhv0rl1n8oJ8Tdl3i6trH1s+oE/oS/ODdVOQryln0s439AP9an7SuokQQgghhBBCCCGEEEIIIe7zB8hrSsU=
+   eJztmLtOwzAUht0gBsTUIioB6gBMXBYKG4iBkZWNER6Dywgs3K8vQMsdJuBVgJfhP6qjBJMQp43auPyf9CvpieM6v91z4ipFCCGEEEIIIYQQQgghhBBCSLbMQ4sJWujY6PJFklcbUAHqhXqgQa1wbDOhj27xOmlNCUX12x/5PKCvJ3lp04fNOPJOFj7YkMV85J2oZ8jLOFzzct9T6gA69ILYNc5rUN2Lv4+0l5mM5mLJkTk9wjiPoZPQeJ9w/gy9OPIMLrH8h1rtI4qs1nO7KSHBrxR+xm7wLLfQndeovyUV1IIx1agFZR1XOj6h4uuX30dZtx0NtRXSvA/kGfFyvBB/3fRyUgU+SFx86INmoH6ooiWxqo6ZfZi+d5OXQtzvaggaVr/9qej4iMV3mH2Yvtv04QKlP9akDeYcbEHbFu3T1GZX9j3i5QC03qKnJtUM64cr7+pjEfnyHj48QI8drqcyrFXljpc27EJ7qlEnpvVxR8fTIvdOKbu9quTWNdXIrS5wirV3Bp17QS4z39UvoSvdfk4fL3RcKOqj76/vvRBVo2czHL9r1KEbI1bTcUHqtNQS31/fe4l1S422IWoP2ex/G76/Ud6nxdW9jy2v0Bv0bsTNfZNPszn1P/ABfUJfRjxu3xTOqaQ1wjmVEEIIIYQQQgghhBBCCGk330ifSGs=
   </data>
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="zlib">
-   eJzt2ElKA0EYhuFOguBGEQV3isNOxAEUvIZ4BE8iSoIXUJxHdO1GVy6jHsCoF3C4gMNK/RqrsFJWTAeEdJv3gY+u/OluKn8qJJUoAgAAAAAAAAAAAJBmvbkoajfjLqXTjOPac3OmlGq2VwPe41hbLnzNdVTdS3tNf+Ae/0XoNbm1olJSyuZx2alZs+pnt5c5Zdr0uWCOF8qlcuXcL+k80m4h/3VczH/X1jReVzZMbUVZVSrm+YpTs2r10rLjG+VWuXPu10qOlOM6tUH1asjLsNPLHo3nlQeNH5Un734d+eiHd50/rvpE4Lk0WjLzLDrz3df4QDk0tVPlzLsuVJvMVcdl+/qivCpvjUwyI73E3+kLvOebqm0p26yHVIg/0iNKodkTyZjQ94Y11kJr+7yFXiuy40Trcsar7ai2q+yxZtEkJbP2ln/5rW6VvWMjkuzpa/mo8d9JllW8oxX3ZTRwvltLsqfPutAe0v9vo564L1OBely7N+Mke3okk3RPDwAAAAAAAAAAACTxCcq7SRM=
+   eJzt2M8uQ0EUx/FpG4kNERI7gu5E/ElIvIZ4ItG0yh5t/Sf+rjyAZd9AH8Ej2OJMnInpmKa3IXqvfj/JLzM9da+5x1R7awwAAAAAAAAAAACANJvMGTOs8zHJqM5t7bU/S0o116uZ4LE1lIsf82zae+mOmY6c47+IXZNfq0h2JE19bMey1p0N6ed4kE3Jmva5IGNVxl3Nnne+pOtIu63857id/6rVZF6XNLR2IDmUtPR5O+5r3enUS8fOazLWNQ3vfIPkRnIb1K617sxKr+aCFL1eTsj8TsZ7zUNwvpG8+eZNjlmS+nLkuTQq6TrL3novZH4puerxGlZy7fEVO/xPTSQjvcTvmYr8zY+kdiw5YT+kgn1Jz0sK/V5IxsTeN5zFAdrbTwN0rciOR9mX60HtVGpnknP2LPqkonuvmuCzejMYe/o9pvs9fSfvP/mcn1KtYHRsXxYiP+/XktzTZ13sHjL8bqMb25fVSN3WXnSe5J4eAAAAAAAAAAAAwN/7AKI8P8s=
   </data>
  </layer>
  <layer name="Over" width="83" height="59">

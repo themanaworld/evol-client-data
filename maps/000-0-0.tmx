@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="83" height="59" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="actorsfix" value="1"/>
+  <property name="music" value="Artis indoor - In the Forest of the Birches.ogg"/>
+ </properties>
+ <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="410" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Ground" width="83" height="59">
+  <data encoding="base64" compression="zlib">
+   eJzt1r0KwjAUgNEsjg7iJD6KP4vWd+goCDr0/WcjtlBDwVaHJnCGQ+FOl4+Qpg4h1AAAAAAAAAAAAAAzuSbm3qdkWmqZm110/GKfwZ4lOESr8D6P6+gePZLZJYM9S5C2XLS0/K1ld09uo2Vr05trOa1lEz7/P03vq+W0lkMdX25a/tUypeU4p6hqm1WJbnbOYM+SDL3RvdsBAAAAAKZ7Aj+jodo=
+  </data>
+ </layer>
+ <layer name="Ground2" width="83" height="59">
+  <data encoding="base64" compression="zlib">
+   eJzt0DEOgkAQBVCIpyCWWlhQeBfupDfQG+AN4HqMgWIrWarNmveSn5/8ajJNAwAAAAAAAAAAAABADa6ZG/v6yCPyTLovelGduq1fkXfSX+ciF9Xr1K49Rj5Jc9yw/XKKzElz3KUtfcF/uWVu7LtnbgAAAAAA/LYACX0L6Q==
+  </data>
+ </layer>
+ <layer name="Fringe" width="83" height="59">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJhEAQRcGZnIxQBBHcBRHEhAzBEMxjW9ijFxEclCp4lz41PyUAAAAAAAAAAACActqcUh01UZdLf/Nsfez3+fe15SVD7DdFczTaEl5nKf3Ai6xRdXDfb9vNvwAAAAAAAADn/AD95gmQ
+  </data>
+ </layer>
+ <layer name="Over" width="83" height="59">
+  <data encoding="base64" compression="zlib">
+   eJzt1ckKwkAQBNDk0yPivivi59oDExQRBC+Zhnd4lzoVdege+q4bAAAAAAAAAAAAACayDLMwD+sG+mS2C/vq0ECfzM7hHh7h2kAfGH27mSVbNdAtm0X/upmbj2zqbtls37Y81uxky7+MuxW3mpWfdGmgWzZ+OQAAAAAAwG9PsC65JA==
+  </data>
+ </layer>
+ <layer name="Collision" width="83" height="59" visible="0" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJzt0uEKgyAUgNHt/R+hlx37EYwo85rtWh3hQESZfjm9X68JAAAAAAAAAAK+I3sNd1Fq+aTO8yhd/7tl5Nsj2RsjzJHdqOUMbF1nt7xiz8wOd2m53Ev0XJbm7PE/r9yyZQ9nvB/9HyOIjOjzR0Z2l7Nb1u6/51xXM+LIbtKj5Sht53Vkt+l1HteePzpHdB3ZjaItI9fLe6XGZ/3TEdXsoWaPW/ci6yh9K7tT73NZ23ptbuey7Vy2dNBSy569n9Qhu7WWAAAAAAD7fscHtM2aIw==
+  </data>
+ </layer>
+ <objectgroup name="Object" width="83" height="59" visible="0">
+  <object name="ToLevel2" type="warp" x="1954" y="1090" width="26" height="28">
+   <properties>
+    <property name="dest_map" value="001-2-2"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="992"/>
+   </properties>
+  </object>
+  <object name="ToLevel0" type="warp" x="1954" y="962" width="26" height="28">
+   <properties>
+    <property name="dest_map" value="001-2-0"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
