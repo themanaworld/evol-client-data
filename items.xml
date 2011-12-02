@@ -227,15 +227,15 @@ Colors is now seted up by itemcolors.xml.
         effect="+40 HP"
         type="usable"
         hp="40"
-        weight="8"/>
+        weight="6"/>
     <item id="505"
         image="generic/use/chickleg.png"
-        name="Pious's legs"
+        name="Pious legs"
         description="Tasty pious's legs, well epiced!."
         effect="+50 HP"
         type="usable"
         hp="50"
-        weight="10"/>
+        weight="8"/>
     <item id="506"
         image="generic/use/lettuce.png"
         name="Lettuce"
@@ -271,7 +271,7 @@ Colors is now seted up by itemcolors.xml.
         weight="5"/>
      <item id="701"
         image="generic/feathers.png"
-        name="Pious's feathers"
+        name="Pious feathers"
         description="Some yellow feathers.. A pious might have dropped them."
         type="generic"
         weight="1"/>
@@ -307,13 +307,13 @@ Colors is now seted up by itemcolors.xml.
         weight="5"/>
     <item id="707"
         image="generic/squichyclaw.png"
-        name="Squichy's claws"
+        name="Squichy claws"
         description="Claws from a wild Squichy."
         type="generic"
         weight="10"/>
     <item id="708"
         image="generic/tortugasshell.png"
-        name="Tortugas's shell"
+        name="Tortugas shell"
         description="This shell comes from a Tortugas."
         type="generic"
         weight="35"/>
@@ -350,7 +350,7 @@ Colors is now seted up by itemcolors.xml.
     </item>
     <item id="1301"
         image="equipment/chest/tanktop.png|W"
-        name="%Color% sailor's tank top"
+        name="%Color% sailor tank top"
         description="A %color% tank top used by sailors and seamen."
         effect="+3% Defense"
         type="equip-torso"
@@ -367,7 +367,7 @@ Colors is now seted up by itemcolors.xml.
         description="Proof that ye be in the crew, matey!"
         effect="+4% Defense"
         type="equip-torso"
-        weight="45"
+        weight="75"
         defense="4">
         <sprite gender="male">equipment/chest/shirt-male.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
         <sprite gender="female">equipment/chest/shirt-female.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
@@ -412,8 +412,8 @@ Colors is now seted up by itemcolors.xml.
         weight="35"
         defense="2"
         colors="simple">
-        <sprite gender="male">equipment/leg/shorts-male.xml</sprite>
-        <sprite gender="female">equipment/leg/shorts-female.xml</sprite>
+        <sprite gender="male">equipment/leg/shorts-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
+        <sprite gender="female">equipment/leg/shorts-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
     </item>
 
 
@@ -447,9 +447,9 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/head/bandana hat.png"
         name="Bandana"
         description="A striped bandana."
-        effect="+2% Defense"
+        effect="+1% Defense"
         type="equip-head"
-        defense="2"
+        defense="1"
         weight="13"
         max-per-slot="1">
         <sprite>equipment/head/bandana hat.xml</sprite>
@@ -478,7 +478,7 @@ Colors is now seted up by itemcolors.xml.
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
-        weight="25">
+        weight="50">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
