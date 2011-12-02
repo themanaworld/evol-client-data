@@ -1,0 +1,15 @@
+// Evol scripts.	
+// Authors:
+//    Alastrim, Vasily_Makarov, Reid
+// Description:	
+//    Heal of 25hp and add 1/4 bad luck to be poisoned.
+
+function|script|usePoisonedWater|{
+	set @temp, rand(4);
+	if (!@temp) sc_start sc_poison, 1, 50;
+	if (!@temp) message strcharinfo(0), "Debug: Poisoned";
+	if (@temp) itemheal 15, 0;
+	if (@temp) message strcharinfo(0), "Debug: Healed";
+	set @temp, 0;
+	return;
+}
