@@ -17,7 +17,7 @@
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../../privclientdata/graphics/tiles/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
   <data encoding="base64" compression="zlib">
@@ -39,22 +39,29 @@
    eJztmMtKAzEUhhOLW0W0a/FScKHgooLgZWMrWBUXVsW9VTe6sXWjL+UT6MJH8FGEbj2HTHAMaZLBVOfyf/DTSXLmJPOTmSQVAgAAAAAAAAAAAAAAAAAAAFxmVJWJ6U+ZvY45l9oyX+P5a3hcWwFxT572A9IZeSlJE4bSMS6eA8axLfLt5U5AnM8Hbu9JNTfnSJ9CqSm/52tIDh/7ohpeDuTP97xF1w3Dy77jOwAvw9p1zOYvcrxIeBkzRxW8PCd1PDp23H8V0AdTBC95vX13xJ168nRJ/ClcINVI9URct5jUuXJ0khw2TkgNUpvUEvn30rUmhDBrlHuk6wz31x1tPBfXRDH2lyHveFbuSPeRcrGXGyLfPjLj8nJAeoyUS38ji+Tlx38OxMEFaTe5LsO551C41+ijMebQ6xdThHXcB+9XJoVaj6dIy6RpoZ6T60L3RDoH37tEmk/lKMueyIf5nKuW9hmhPOY1/YZ0a9RxTHfEfmFo6cNGGb1sWtrZD9NjkarDuUeR1YdXmn9v0h2TtQ+mKl7WPPv9Kni5J9T5bCX5TUvXPXjyxPhvo2/p1yzn/QyptW6U03Wj/A71mtFe+XyyjcUsFxXXM/m8tnlVVp9iEDq34RUAAAAAAAAAAAAAAACE8wX5K3I1
   </data>
  </layer>
- <layer name="Collision" width="83" height="59" visible="0">
+ <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="zlib">
-   eJzt0kEKgzAQQFF7/1t5stKFG9GY0aQT9QUeiLTR+Wb+TNMMAAAAAAAAAAG/lf0OT1Fq+abOyypd/7tl5NkjOVoj7JHd6MwZ2LvObnnHnpkdntJyPUv0XJb2bPE979zyygxn/7/37Kd0rJmv58ru0rtl7fwt97qbEVd2kxYtR2m7vEd2m1bncev3V/eIvkd2o2jLyPX6Xqlxr286opoZambcmjnasvSs7E6tz2Wk9V5f5/J4xqsdtNSyZe83dchurSUAAAAAQMwXQIFGCA==
+   eJzt0kEKgzAQQFF7/1t5stKFG9E0o4kT9QUeiLTR+Wb+TNMMAAAAAAAAAAG/lf0OT1Fq+abOyypdX9VyvbLbHG25t0bYI7tRtGXpOrvlHXtmdnhKy/Us0XNZ2rPF97xzyzMzHP3/3rOf0rFmvp4ru0vvlrXzt9zrbkZc2U1atByl7fIe2W1ancet35/dI/oe2Y2iLSPX63ulxr2+6YhqZqiZcWvmaMvSs7I7tT6XkdZ7fZ3L/zOe7aClli17v6lDdmstAQAAAABivmhhRII=
   </data>
  </layer>
- <objectgroup name="Object" width="83" height="59" visible="0">
+ <objectgroup name="Object" width="83" height="59">
   <object name="ToLevel2" type="warp" x="1954" y="1090" width="26" height="28">
    <properties>
-    <property name="dest_map" value="001-2-2"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="992"/>
+    <property name="dest_map" value="000-2-2"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
   <object name="ToLevel0" type="warp" x="1954" y="962" width="26" height="28">
    <properties>
-    <property name="dest_map" value="001-2-0"/>
+    <property name="dest_map" value="000-2-0"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="ToLevel0" type="warp" x="1954" y="962" width="26" height="28">
+   <properties>
+    <property name="dest_map" value="000-2-0"/>
     <property name="dest_x" value="960"/>
     <property name="dest_y" value="832"/>
    </properties>

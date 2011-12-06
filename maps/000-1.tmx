@@ -18,31 +18,31 @@
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="120" height="130">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WSW4TURCAYdsHAoQUkBiWWTBIcAJAIDgCGzgCIJE105JpB4INYjgDHIiyZES73cObq97rf/EpITHtdv2vWtmsVqsNAAAAAAAAAAAAAAAAAACRvqz3ad8P9rukbEtnO8aaTDUbek3qM4M0Tef+7drX5Xran7tVKfay/3vXc0BbW32Hmobs99T/055HLVxnFdumJO2ZWjE3j5qa0ta9rcsz1iqf87tUNe7t1D1rz9MS7T4l9npp+jPQbkFfWvo0XUpf7Xmzt/SlLX1jW7faX3u22u/fvQ/tFrW3tXAf/ZYt7m3p/bF0zsbeV7tJi3urcU9D76ndo+a+1u6Lvvn7jr2m9L202rdkY9f3Lnlv/ffSblFz36m9CX1djjPXGot9XWZPY3t9uzNNMXv62mubqwVt624714S+9F1S61xz12hL37x9Na6f8v20W1hvbWH29E3fNWQ+FnZXe+41tdXuwM6Wazw3N43rLLVtrr5D89O+zhLb9ueVs3eKHrnO3hJY7pvzzCyV9vxpXKZxa627n0d7vlZoN2Fnaeu7v9pztUC7Bftbrm3Nvbv3rj1XK/qz0G7EzubrXJOhe9aeoWXavUL3lLZtdtaeU83Gnn+W+J5X7Zla1J3L1IyHfm6hMfse3nuq7dSZKLW7tE3bfWyOGs/kuXOH9O3p2y7txtqfv3W+7VL0pW3elr59fV5P3/A2MR3HrhP63E3xjEb680DfNvg+K+nbnpi/iVP9HQ36gr4tip0lfW2LmadLW/rWy7XvUK+YcwHbfWP3Hvb6htD+fEuWuy2N2+5K4/a70nlZfencVlvtz90ydrQtLvMu2faUfD0tzuycHWh+bn3o/M729xfk60VxSVzmzMzuUsm+x+t9d8QVcWvnSDwUV8U1cb3nhri5PrzOMZ292ud6Lm87/JZv/mz+97090OqJeCruinsd98WDkb50ttG3v79TfZ/1fv5IPKZtcNtczWP6dvf9uTihbXDbXH3/Xf+FfH0pXonX4o3n/m69Fe/Ee/FBfKTtbDuX16Ta4U/y/eed7c+/im8jhvb0u/ghfopftJ3s5nMGUjZGe23pnL9tyDlwbUVr22L7sN92zc3apQfPcJtK7mbIfWjPp2YuMw3dZ5rpc5m7z+9dX0Nn/bYhz1XtzwS3tiHX0f5MOOyS6oxofx4ctrFwDQAAAAAAAAAAAAAAAGDMX1CtfFfA8wAA
+  <data encoding="base64" compression="zlib">
+   eJzt1kluE1EQgGHbBwKEFJAYllkwSHACQCA4Ahs4AiCRNdOSaQeCDWI4AxyIsmREu93Dm6ve63/xKSEx7Xb9r1rZrFarDQAAAAAAAAAAAAAAAAAAkb6s92nfD/a7pGxLZzvGmkw1G3pN6jODNE3n/u3a1+V62p+7VSn2sv9713NAW1t9h5qG7PfU/9OeRy1cZxXbpiTtmVoxN4+amtLWva3LM9Yqn/O7VDXu7dQ9a8/TEu0+JfZ6afoz0G5BX1r6NF1KX+15s7f0pS19Y1u32l97ttrv370P7Ra1t7VwH/2WLe5t6f2xdM7G3le7SYt7q3FPQ++p3aPmvtbui775+469pvS9tNq3ZGPX9y55b/330m5Rc9+pvQl9XY4z1xqLfV1mT2N7fbszTTF7+tprm6sFbetuO9eEvvRdUutcc9doS9+8fTWun/L9tFtYb21h9vRN3zVkPhZ2V3vuNbXV7sDOlms8NzeN6yy1ba6+Q/PTvs4S2/bnlbN3ih65zt4SWO6b88wslfb8aVymcWutu59He75WaDdhZ2nru7/ac7VAuwX7W65tzb279649Vyv6s9BuxM7m61yToXvWnqFl2r1C95S2bXbWnlPNxp5/lvieV+2ZWtSdy9SMh35uoTH7Ht57qu3UmSi1u7RN231sjhrP5Llzh/Tt6dsu7cban791vu1S9KVt3pa+fX1eT9/wNjEdx64T+txN8YxG+vNA3zb4Pivp256Yv4lT/R0N+oK+LYqdJX1ti5mnS1v61su171CvmHMB231j9x72+obQ/nxLlrstjdvuSuP2u9J5WX3p3FZb7c/dMna0LS7zLtn2lHw9Lc7snB1ofm596PzO9vcX5OtFcUlc5szM7lLJvsfrfXfEFXFr50g8FFfFNXG954a4uT68zjGdvdrnei5vO/yWb/5s/ve9PdDqiXgq7op7HffFg5G+dLbRt7+/U32f9X7+SDymbXDbXM1j+nb3/bk4oW1w21x9/13/hXx9KV6J1+KN5/5uvRXvxHvxQXyk7Ww7l9ek2uFP8v3nne3Pv4pvI4b29Lv4IX6KX7Sd7OZzBlI2Rntt6Zy/bcg5cG1Fa9ti+7Dfds3N2qUHz3CbSu5myH1oz6dmLjMN3Wea6XOZu8/vXV9DZ/22Ic9V7c8Et7Yh19H+TDjskuqMaH8eHLaxcA0AAAAAAAAAAAAAAABgzF99kyUk
   </data>
  </layer>
  <layer name="Ground 2" width="120" height="130">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Yuy5kcQDH8UNF41Yt4pK4a2m2cYnGE+zyErwE9RQUNkqUFPsINLtujbU8jl8xxSkswo6/yOeTfJPJmczJyf/XzExVAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Bl0tFdVZ3vpp6BVvtgWAACe1dVWVd2pJ/WmvrbST0Rdf/YYSIPNXYZq+wzn9Uit0WZjtcbTRJpMU2k6zaRZO39Ic9lltdn8PzbayW/d3fT1kfcXcm0xLaVlGxez8oazP8i2h+noif80vuX+39OajYtYf6dz37BvEZvvcO5bti1mu8Vnv5f7/7BvMftPnH2j9h2r8YqNjvOZE9sW97MFG5zmnme2/RB+ZYff6TxdpMt0la5f2E36k27T33SX7m0LAAAAAAAAAAAAAAAAwH/0ACmiA2fA8wAA
+  <data encoding="base64" compression="zlib">
+   eJzt2LsuZHEAx/FDReNWLeKSuGtptnGJxhPs8hK8BPUUFDZKlBT7CDS7bo21PI5fMcUpLMKOv8jnk3yTyZnMycn/18xMVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAZdLRXVWd76aegVb7YFgAAntXVVlXdqSf1pr620k9EXX/2GEiDzV2GavsM5/VIrdFmY7XG00SaTFNpOs2kWTt/SHPZZbXZ/D822slv3d309ZH3F3JtMS2lZRsXs/KGsz/Itofp6In/NL7l/t/Tmo2LWH+nc9+wbxGb73DuW7YtZrvFZ7+X+/+wbzH7T5x9o/Ydq/GKjY7zmRPbFvezBRuc5p5ntv0QfmWH3+k8XaTLdJWuX9hN+pNu0990l+5tCwAAAAAAAAAAAAAAAMB/9AAiASUX
   </data>
  </layer>
  <layer name="Fringe" width="120" height="130">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YzUoCUQCG4TNjlC1NSxftc+PVm95BP3dQ67qCfi6gT9yJgoipMz4PfAyc1cDLwHBKAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgHH1UpXxWx34L/sNXun5nP9mvxq1T1aXUWSe7qJdnl3le1cd9L/ajl443WT8bZLfZXTbUt1EW32M3u17T7SVnr3o22uJ7HG1oqG/zPaTfWN+z9Ja27/q21ixt5/q2lr7NMKzyD7VyR3G/xZ3FU9o+63vyJjveP03T9lFfAAAAAAAAAAAAAAAAAAAAADioPwzTdUDA8wAA
+  <data encoding="base64" compression="zlib">
+   eJzt2M1KAlEAhuEzY5QtTUsX7XPj1ZveQT93UOu6gn4uoE/ciYKIqTM+D3wMnNXAy8BwSgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Bx9VKV8Vsd+C/7DV7p+Zz/Zr8atU9Wl1Fknu6iXZ5d5XtXHfS/2o5eON1k/G2S32V021LdRFt9jN7te0+0lZ696NtriexxtaKhv8z2k31jfs/SWtu/6ttYsbef6tpa+zTCs8g+1ckdxv8WdxVPaPut78iY73j9N0/ZRXwAAAAAAAAAAAAAAAAAAAAA4qD/6tRO3
   </data>
  </layer>
  <layer name="Over" width="120" height="130">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VSW+McQDH8WfmULwArhTFxc7R7g1Y3oDlSNLFFV3EUgetNeGitSU42CJBxXqxJJaEhFfjJ9F0VFNPiPQZ+XySb+Zp5z+X+eWfKQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sT5elFcqI/93VL/9czs/G9Oak1z07w0P7WlBWlhWjTB55h617PLjXQzzUyzGnZanOclaWlalpanFWllWpVW27SSRu/jg/QwPUojDfdx1Jo8r03r0vq0IW1Mm9Jm21bO+Pv4Kr1Ob9LbEvdxS97fmral7fatnPH38Uv6mu6X3GpHzu1Mu9Ju+1ZeS60opqXpaUZt8rPt2bMjdaautM++TeFudrpXYqvunOlJvakvHbJvU3iRnV6W2GogZwbTSbs2lU/Z63OJzS7mzFAaLnnfaS63suntdKfkfd+T3/O9v/lN599qz/ffkTpT1yRbPMmeT9Oz9HyC+74/nz2QDqbu1JN6U599p9ThfP9H0tF0LPWn4w2btOb5RHqXPd+nD+ljGqiN9d2pvJ5OZ9LZdM6ulTXUsM1wni81dPlHV9LVdM2O/5WR2s89ti8AAAAAAAAAAAAAAAAA8Be+AcB1A7HA8wAA
+  <data encoding="base64" compression="zlib">
+   eJzt1UlvjHEAx/Fn5lC8AK4UxcXO0e4NWN6A5UjSxRVdxFIHrTXhorUlONgiQcV6sSSWhIRX4yfRdFRTT4j0Gfl8km/maec/l/nlnykKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7E+XpRXKiP/d1S//XM7PxvTmpNc9O8ND+1pQVpYVo0weeYetezy410M81Msxp2WpznJWlpWpaWpxVpZVqVVtu0kkbv44P0MD1KIw33cdSaPK9N69L6tCFtTJvSZttWzvj7+Cq9Tm/S2xL3cUve35q2pe32rZzx9/FL+prul9xqR87tTLvSbvtWXkutKKal6WlGbfKz7dmzI3WmrrTPvk3hbna6V2Kr7pzpSb2pLx2yb1N4kZ1elthqIGcG00m7NpVP2etzic0u5sxQGi5532kut7Lp7XSn5H3fk9/zvb/5Teffas/335E6U9ckWzzJnk/Ts/R8gvu+P589kA6m7tSTelOffafU4Xz/R9LRdCz1p+MNm7Tm+UR6lz3fpw/pYxqojfXdqbyeTmfS2XTOrpU11LDNcJ4vNXT5R1fS1XTNjv+VkdrPPbYvAAAAAAAAAAAAAAAAAPAXvgEeXkeu
   </data>
  </layer>
- <layer name="Collision" width="120" height="130" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2cAW7jIBBFq97/jEmOsrIqqywFDHiY4VvvSaNtbGKGeYbYTrSv76+vF9EVikTXTCkUia6ZUigSXTOlUCS6ZkqhSHTNlEKR6JophSLRNVMKRaJrphSKRNdMKRSJrplSKBJdM6VQJLpmSqFIdM2UQpHomimFItE1UwpFomumFIpE10wpFImumVIoEl2znXzh9znRU5MnYF23j0C8H+KuB0W/NfD7l9393qF13NJaXVqT1dfp3fyuYtR1Wh9ldvHrxei6/W64VyDar2XOI4z49T4HLYny65FnD/i19RuR00g/Ofi18Wudh5Xfg/dF7jvj6dej/x5nM+eC6j1zpF8Pt6N+8/bna/y2/a7ud2Q+jr6H9fm5frm+Gvfr6W1mzCn4vfY70mcrz/Tf3rHMjD1vg9///Z5Y+S3VvHcso2Mv9ZOPSwlLtyVG1+Zajq3XrWOPjr3WDr82/ZXa147Tc+zRXFptFYn0q4RavifefhVRHh9+n42l35pj1WuTJ7Da71Pc8vz5r9+nuD3GpToWa78Rv6laDX77/M5+fkdfy+HXzm/ubuQ8WIXyerSb394cvXg1xqOAqt/RuFOfT8CaYcVKvz3fLZS2r8hvtjbnOPA779cjx9m64Ndm/q7OcaYmqVv8lv2mjnefv7Vx4Nff78rx5/njN2b+pvvz9q19vbmvOqc8ifbbU8Oedpb5ltzi18Zv73ybHUPN5ydrg9995u+Vt97A77jf0b56c0z3WbhlfV7jt7S99p70dbr/6OedhPWY8HvP77lvhrMf/JZZ6benr3N7T56ltrnf2tqKX1u/vX3dBb9tdvJbq2FrvuO3jbLftD/8lvH025NLK8e8Xdrf1b1N+p7e7fgt+y2RXt/e/S3xWevWvWvvmC3a7YyH39I9S28+tTYHV88m8vb53619yk5TPP3eyQPm8PA7M2/xa4Pn5y9+/fHyy/yNwcvvQev/Uj63lbzid54Iv1bk91zp9wvwwwq/Pc+vLPhkfb6+2883RuMJePpN+7Ni5PkVfu38tq6jrcFvHW+/FnU7j1HrE7+/rPR7dS98t561zwT8/hLh92hn8R3DeRz81lnt9+paOr2fKdW2Vu/8Xhq/ZTz8Wl1P1+rf088o+L03f2fyKHH1O+Y7dXkCq/2u5srvbC5PWa+t/XpSc2bhOnpsVqj6vXJ0d17jd+8ajPj1/DzxZme/dz3MOn6S8138rqi7ld8neAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw4B+EJ7WXwPMAAA==
+ <layer name="Collision" width="120" height="130">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPBvPAAAE=
   </data>
  </layer>
- <objectgroup name="Object" width="120" height="130" visible="0">
+ <objectgroup name="Object" width="120" height="130">
   <object name="ToInterior" type="warp" x="4544" y="2208" width="26" height="60">
    <properties>
     <property name="dest_map" value="001-2-0"/>
@@ -50,11 +50,7 @@
     <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="ezili-ocean-sounds.ogg" type="music" x="25" y="2530" width="5057" height="937"/>
   <object x="3928" y="3420"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="2948" y="2268" width="2124" height="252"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="3812" y="1152" width="1256" height="1104"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="536" y="372" width="584" height="2156"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="1124" y="528" width="3928" height="612"/>
+  <object name="Ezili - Ocean sounds.ogg" type="music" x="0" y="0" width="3840" height="4160"/>
  </objectgroup>
 </map>

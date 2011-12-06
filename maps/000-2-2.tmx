@@ -30,7 +30,7 @@
  </layer>
  <layer name="Fringe" width="53" height="51">
   <data encoding="base64" compression="zlib">
-   eJzt0bENACAMA8FkdBoalmYFRIMS7iaw9REAAAAAwK2RrxdwSqt6NKtnZs9uq+EnAAAA4G8bGgoDHA==
+   eJzt0SESACAMA8H26RgMn0ZjUbTsmujMRQAAAAAAt0aey7s0qkezemb27LYafgIAAAD+tgGyVgOe
   </data>
  </layer>
  <layer name="Over" width="53" height="51">
@@ -48,10 +48,17 @@
    eJzt0UEKwCAMBED7/6f4Sa9FotAixMAE5pTLLtuf1joAAAAAQGB17192xhN9on5V7Lap2GnOW32nKO9qs+ysfzpV3ORLp+xcpztlZwIAAADuMQBmHe7H
   </data>
  </layer>
- <objectgroup name="Object" width="53" height="51" visible="0">
+ <objectgroup name="Object" width="53" height="51">
   <object name="ToLevel1" type="warp" x="994" y="898" width="26" height="29">
    <properties>
     <property name="dest_map" value="001-2-1"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+  <object name="ToLevel1" type="warp" x="994" y="898" width="26" height="29">
+   <properties>
+    <property name="dest_map" value="000-2-1"/>
     <property name="dest_x" value="1952"/>
     <property name="dest_y" value="1088"/>
    </properties>

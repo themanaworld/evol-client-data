@@ -13,11 +13,11 @@
  <tileset firstgid="385" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
  </tileset>
- <tileset firstgid="410" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="414" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="410" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="426" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="44" height="44">
   <data encoding="base64" compression="zlib">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="Fringe" width="44" height="44">
   <data encoding="base64" compression="zlib">
-   eJzt0r0JgDAUReGX1UX8ARVECBlCx3AER3APb5FS0EZj5HxwIKS6xTMDAAAAvqN2ZoUqVetSr7nWaWMfGzLYO2qjV0FNGezFs1ZVnfw3bw+5aVM+vmfd7xJvOKg90SYAAAAAAP7mADHhDL8=
+   eJzt0r0JgDAUReGX1UX8ARVECBlBB3EER3APb5FS0EZj5HxwIKS6xTMDAAAAvqN2ZoUqVetSr7nWaWMfGzLYO2qjV0FNGezFs1ZVnfw3bw+5aVM+vmfd7xJvOKg90SYAAAAAAP7mALZCDLc=
   </data>
  </layer>
  <layer name="Shadow" width="44" height="44">
@@ -41,10 +41,10 @@
  </layer>
  <layer name="Collision" width="44" height="44" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjENAAAIwDDwLwGzBAc8hKdL+q8yogAAAIAT0/cDAAAAbDUaGZth
+   eJztzjENAAAIwDDwLwWTBAc8hKdL+q8yogAAAIAT0/cDAAAAbDWq0xRg
   </data>
  </layer>
- <objectgroup name="Object" width="44" height="44" visible="0">
+ <objectgroup name="Object" width="44" height="44">
   <object name="ToLevel2" type="warp" x="1954" y="1090" width="26" height="28">
    <properties>
     <property name="dest_map" value="001-2-2"/>

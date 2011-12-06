@@ -1,5 +1,6 @@
-<h1></h1><?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2010-2011  Evol Online
+Author : Reid
 
 monsters.xml parameters explanation:
 
@@ -49,6 +50,11 @@ exemple :
     <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/acc-ratto-tail.xml</sprite>
+        <sound event="hit">monsters/ratto/ratto-dying1.ogg</sound>
+        <sound event="hit">monsters/ratto/ratto-hit1.ogg</sound>
+        <sound event="hit">monsters/ratto/ratto-hit2.ogg</sound>
+        <sound event="hit">monsters/ratto/ratto-hurt1.ogg</sound>
+        <sound event="hit">monsters/ratto/ratto-spawn1.ogg</sound>
     </monster>
 
     <monster id="4" name="Croc" targetCursor="small" walkType="walk">
@@ -64,6 +70,7 @@ exemple :
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim">
         <sprite>monsters/littleblub.xml</sprite>
         <sprite>accessories/acc-littleblub-tentacle.xml</sprite>
+        <sound event="hit">monsters/blub/blub-hit1.ogg</sound>
     </monster>
 <!--<monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
