@@ -12,7 +12,7 @@
 //    0     first talking (before food)
 //    1     already talked
 
-000-2-1.gat,33,31,0	script	Alige	301,1,1{
+000-2-1.gat,33,31,0,1	script	Alige	301,1,1{
 
   if (geta2(ShipQuests, ShipQuests_Alige) == 1) goto l_AskForFood;
 
@@ -29,7 +29,7 @@
   l_NeedHelp:
 
     mesn l("Hidden person");
-    mesq l("Good, good!") + " " + l("Could you help me please?") + " " + l("I beg you, please, pleeeease...");
+    mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease... ");
     
     menu
         l("Why not... but, who are you?") + l("And what kind of help do you need?"), l_CanHelp;
@@ -117,7 +117,7 @@
     set @menulist$[@j], l("I don't have anything good for you today.");
     set @menureference[@j], -1;
 
-    menu @menulist$[0],-,@menulist$[1],-,....@menulist$[150],-;
+    menu @menulist$[0],-,@menulist$[1],-,@menulist$[150],-;
 
     set @id, @menureference[@menu-1];
     if (@id == -1) goto l_DamnYou;
