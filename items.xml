@@ -467,7 +467,7 @@ Colors is now seted up by itemcolors.xml.
 
     <!-- Weapons -->
     <item id="3500"
-        image="equipment/weapon/knife.png"
+        image="equipment/weapons/sword/knife.png"
         name="Knife"
         description="A simple knife."
         effect="Damage +10"
@@ -475,7 +475,7 @@ Colors is now seted up by itemcolors.xml.
         weapon-type="knife"
         attack-action="attack"
         weight="50">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
