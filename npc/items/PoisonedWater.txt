@@ -7,9 +7,9 @@
 function	script	usePoisonedWater	{
 	set @temp, rand(4);
 	if (!@temp) sc_start sc_poison, 1, 50;
-	if (!@temp) message strcharinfo(0), "Debug: Poisoned";
+	if (!@temp) message strcharinfo(0);
 	if (@temp) itemheal 15, 0;
-	if (@temp) message strcharinfo(0), "Debug: Healed";
+	if (@temp) message strcharinfo(0);
 	set @temp, 0;
 	return;
 }
