@@ -199,7 +199,6 @@ Colors is now seted up by itemcolors.xml.
         description="Squichy's food, should be good in a cake."
         effect="+15 HP"
         type="usable"
-        hp="15"
         weight="2"/>
     <item id="502"
         image="generic/use/bread.png"
@@ -207,7 +206,6 @@ Colors is now seted up by itemcolors.xml.
         description="Home-made Bread."
         effect="+30 HP"
         type="usable"
-        hp="30"
         weight="5"/>
     <item id="503"
         image="generic/use/carrot.png"
@@ -215,7 +213,6 @@ Colors is now seted up by itemcolors.xml.
         description="Good in cakes."
         effect="+25 HP"
         type="usable"
-        hp="25"
         weight="6"/>
     <item id="504"
         image="generic/use/cheese.png"
@@ -223,7 +220,6 @@ Colors is now seted up by itemcolors.xml.
         description="A ratto's left-overs."
         effect="+40 HP"
         type="usable"
-        hp="40"
         weight="6"/>
     <item id="505"
         image="generic/use/chickleg.png"
@@ -231,7 +227,6 @@ Colors is now seted up by itemcolors.xml.
         description="Tasty pious's legs, well epiced!."
         effect="+50 HP"
         type="usable"
-        hp="50"
         weight="8"/>
     <item id="506"
         image="generic/use/lettuce.png"
@@ -239,7 +234,6 @@ Colors is now seted up by itemcolors.xml.
         description="Perfect for when you want to lose some weight."
         effect="+15 HP"
         type="usable"
-        hp="15"
         weight="5"/>
     <item id="507"
         image="generic/use/piberries.png"
@@ -247,15 +241,13 @@ Colors is now seted up by itemcolors.xml.
         description="The famous staining-fruit."
         effect="+20 HP"
         type="usable"
-        hp="20"
         weight="3"/>
     <item id="508"
-        image="generic/use/waterdrop.png|W:#7287a0,96abc6,bccce0,dce4ee"
+        image="generic/use/waterdrop.png"
         name="Sea drop"
         description="Some waters drops from the sea, may you shouldn't drink it..."
         effect="+15 HP, Headache"
         type="usable"
-        hp="15"
         weight="2"/>
 
 
@@ -329,7 +321,6 @@ Colors is now seted up by itemcolors.xml.
         description=""
         effect=""
         type="equip-necklace"
-        luck=""
         weight=""/> -->
 
 
@@ -340,8 +331,7 @@ Colors is now seted up by itemcolors.xml.
         description="A used shirt given to you by a sailor."
         effect="+2 Defense"
         type="equip-torso"
-        weight="50"
-        defense="2">
+        weight="50">
         <sprite gender="male">equipment/chest/cottonshirt-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
         <sprite gender="female">equipment/chest/cottonshirt-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
     </item>
@@ -352,7 +342,6 @@ Colors is now seted up by itemcolors.xml.
         effect="+3% Defense"
         type="equip-torso"
         weight="40"
-        defense="3"
         max-per-slot="1"
         colors="simple">
         <sprite gender="male">equipment/chest/tanktop-male.xml</sprite>
@@ -364,8 +353,7 @@ Colors is now seted up by itemcolors.xml.
         description="Proof that ye be in the crew, matey!"
         effect="+4% Defense"
         type="equip-torso"
-        weight="75"
-        defense="4">
+        weight="75">
         <sprite gender="male">equipment/chest/shirt-male.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
         <sprite gender="female">equipment/chest/shirt-female.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
     </item>
@@ -379,7 +367,6 @@ Colors is now seted up by itemcolors.xml.
         effect="+1% Defense"
         type="equip-feet"
         weight="30"
-        defense="1"
         colors="simple">
         <sprite gender="male">equipment/feet/boots-male.xml</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml</sprite>
@@ -391,10 +378,9 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/hands/bracelets.png"
         name="Bracelets"
         description="Made out of wood and iron."
-        effect="+2% Defense"
+        effect="+1% Defense"
         type="equip-arms"
-        weight="30"
-        defense="2">
+        weight="30">
         <sprite>equipment/hands/bracelets.xml</sprite>
     </item>
 
@@ -406,8 +392,7 @@ Colors is now seted up by itemcolors.xml.
         description="An used shorts given to you by a sailor, erk..."
         effect="+2% Defense"
         type="equip-legs"
-        weight="35"
-        defense="2">
+        weight="35">
         <sprite gender="male">equipment/leg/shorts-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
         <sprite gender="female">equipment/leg/shorts-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
     </item>
