@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="83" height="59" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="70" height="62" tilewidth="32" tileheight="32">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="music" value="Artis indoor - In the Forest of the Birches.ogg"/>
@@ -10,42 +10,39 @@
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
- </tileset>
- <tileset firstgid="433" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="401" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
- <layer name="Ground" width="83" height="59">
+ <layer name="Ground" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YMQ+CMBCG4RLjYIyDGgck/jBGwsr/ny0JhFJbKGC8i7wmT4Tq4H05uGJpjCkBAAAAAAAAAAAAqFRZWfe+hXQdGmzNkKzHWZ6si3W2Xh13jSyX92UTyKBfywMZt+eF892aLEe5NSaeayjz/niut6Xr/GWWfo7u+VSWXOODqcxS+pEsP/uSOa4vy1ifS9cpkWUoh6t1sx5m2NcfuvPWfSK/veQY60t/BuXW0wyzuf3MndeFCfejdG1SOa6d2X6G7rF0fRJ5hrJI3V/OOe4oV//VZ+CvrdlT7u16T82y7a+Dl0/mrcWem2oFdWrK0n0+rMwwh/r/Pubut9J1ajF1v0y59hsFNWgRm0lL7qHSNWixdt7seX/07Szpy+V5Sv82AAAAAAAAAMB/egMKYTYphEwAAA==
+   H4sIAAAAAAAAA+3X0WrCMBTG8ap40Y1dDPFiDp/E4Xt4WXbbN9gefikk7HBImzSbPa39Cz9soojfZ4zxVlXVDQAAAAAAAABW7OJcEz5m8D6n9uVsnL2z9ffyeud8r7C3JqOX8JytHx/VuEn0dp1BzpJeaufFefL38vo5s5fQbXj8qOasc5b0ErRqLOdq31XX01mN19BLW/V3FOtP9hbW11l0F+asc5b2ojuR46FeclnnHGsof846edRexn7upaxz3qOX18TjB3Hdt/6sc47VZap9Fr1nhrmuF3lr1fgw0MUSO+m8R/Lo/ffNOYm+GtHhyb9GbJ1YZyuV8xuT2l91H/LaOt9fu4nlyj2/pOwX2lFuvpIzy9K/U7mf+07NbdRc33n5cwYZ/6sjPSfP+E31uweH/0ep/ck61xTraey5t51Bhnv1Evt+jNlzrDNMsV5K9mrrDHPq5dHXS6ob6/cGAAAAAAAAAMDS/QCtUPYn0EMAAA==
   </data>
  </layer>
- <layer name="Ground2" width="83" height="59">
+ <layer name="Ground2" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XTUrDYBAG4BFxIeKiLe1GegCXFneVHsArqV16bmcw1LTUJtRQqT4PvIRMfviYBCaJAAAAAAAAgGEtM6uOPP3a6s7LS2Z2EXGV28vMtEmWNrXX0Ou+2n3b18sy2lOv/UlzvOvd5ktXL/s8D/rRS4BPz9+EbTUj7mN7brTVDB+3zo3WuWUSlOrDdeYhc5OZN6naoqnRz90R1zwOvoq/6S2zHvie/nuG41v95/z3HDbd2R5S8+s2/vf8eu84vjjJKgAAAAAAAABO6wOTCAk8hEwAAA==
+   H4sIAAAAAAAAA+3X2wqCQBDGcSW6iOg2eo7ouqfodepiQzsfnrbrRtyhZaPsIK2t/x98iAdkZnAVkwQAAAAAAAAAAHxqmJZ55vKbUhppn5Y52hnlzqxGYUoK4iR9nyVL71kxdn8r251kJVnb6zaSQ8WzFQPtvWC8njNnf5be5pi1YC4F7TOz68jlzk2vMS2Zy7v8dReTmHv7lq4Hfa+iNH7xGB6bhC4ggLlkUfM9pzXfLxad0AU0TPH67ibMxdeTDCT90IXUJK84r98p/RfAvbb8HwEAAAAAAAAAAAD/6Ar4nSEM0EMAAA==
   </data>
  </layer>
- <layer name="Fringe" width="83" height="59">
+ <layer name="Fringe" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QMQqAMBAEwIiNbwn+zW/4YutcYWEh2EguhBlYuOuWLQUAAAAAAACAp+3j5z9v29obAPpbIjWyZheZXM0uwNSO7ALAMK7Ied97ZhEAAAAAAAAAhtcAfEw+wYRMAAA=
+   H4sIAAAAAAAAA+3XXQqCQBAA4N0HzQvkKTpG9+kMvURBP5fsCuFrgkpLaQQRZX4fyLrjIDujsGwIAAAAAADQL48hXOqxjM181o5lG5+qqifW9SNLelUkuefQzPP46dX9lkNd7y6pufunun5V7X2W5BQ97+mLjc3mybdfDzwbiv+brs77evfx1rdlknOcSF+A983bC3jN6tsLgAnahmavWgR71pBTfDxbAgAAAAAAAIzBFW11Z0TQQwAA
   </data>
  </layer>
- <layer name="Over" width="83" height="59">
+ <layer name="Over" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YzU7CQBSG4UMMV0C4AAmiG8WNslBWivE3mOhC98pON4JuvHjPiW06jtNOSYZN+z7JF+i0ncWX0mkRAQAAAAAAAAAAwPOaQRp0HTdNNA/Xdr0uryL7v2vMcSp0aWJdxvabC6FLQ5f10GU6dJnOpeY6kruK81+ELs2J5knT0WxrtjT9LDY2yMYeKuawrh9L9s01O5qZ5lya3aX9vnve2KtmUXJ8P/scBMZC7Frcl3Y8X4bulW+a90TzW5dH0vweTajLleYz0fz5PbINXX5teH63y6Y709zXOO5Gqtf525Lz2tSlsT5nTkaaXW/sQ9OVYp0fSrHW21jZM1HbuvT/xznQjL2x2PM8Xf7yuzzWTIQuN4Uu06HLdGJdLqVYp/ac7/l7I10W8rXe7cnddjs7lP/3YLr8K9STv41qdAUAAAAAAAAA6/kBKPj0joRMAAA=
+   H4sIAAAAAAAAA+2Xy0rDQBSG/yC+gFJ1Ld4QvGzUhbrSSr2hoILurTvd2OrGje/sA3gOMWScziRTaBcz83/wQ3KSDpyP9GQCEEIIIYQQQgghhBBCcuBpzJBRcvN2PKF1UnvmQryct1z/CljjCOl7GRTN112cIX0v415XUvHyYxxr3w+F50bk5cVE++5n5qUnuWjJtWTo8fKM9LwcSh4l2vKyZEayJFm0ando9nbvWf9GsirpSk4Rjxf9D82jdLCJ0kFf8mLVlDmUzkxfC391H/qMbCG+/YtrtrxK3hx17b+D/746aPeyh7icKC4vQ8nHhNavZkpsXj6nvL7pJSZOJLcB912iee5eeX4XqxdF3XSNrEnWrdq7ZBb1TFlBPWu05ntPx+zF/t7dluxYtba9Xw5e9iUHCPfyXaTpJYQcn5cQ6MVNm5cB6hm9YRxXe/9UvVTvLLNn89zsfxejMytVL4qrZ/s8J3LtmxBCCCGEEEIIIYQQQsh0+AXk10Xa0EMAAA==
   </data>
  </layer>
- <layer name="Collision" width="83" height="59" visible="0">
+ <layer name="Collision" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3S0Q2AIAxAQdx/KyZzARXQxtZ4Te6HD0Jf6FtrHQAAAAAAAAAWjCb7fV8y01Lr91rO3PEHWmpZkZbxPa/OtIz7lzPdzxpn71el45PJ3i27Y2Tj7P0q9Iya7N20/LbVJmdnWh43Wemt5b3GWmpZiZZaVjRqCQAAAAAA0XYbyltvhEwAAA==
+   H4sIAAAAAAAAA+3SMQ6DMAxAUbj/xok7MRTFtMhEJuFZegsghD/Z1mXZAAAAAAAAklpT/U1PcOygz3eHVqeoWfSOaKp3zHTZv7/V5Xjt7IzN2CXaKXN/1C7ZvWfuErW6o9uoXa7uFF2bqUvPiRqOIPqvd3UZVc+p3k2Xmjat5/95R/VePRr92vttXa6eKV3O2+iiiy75LgAAAADAexlj8vMBqlf3jtBDAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="83" height="59">
-  <object name="ToLevel1" type="warp" x="1952" y="960" width="32" height="32">
+ <objectgroup name="Object" width="70" height="62">
+  <object name="ToLevel1" type="warp" x="1536" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-1"/>
     <property name="dest_x" value="1952"/>
