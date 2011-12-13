@@ -9,10 +9,41 @@
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Ship-candle" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Indoor/Ship-candle.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="1"/>
+    <property name="animation-frame4" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="3"/>
+    <property name="animation-frame1" value="4"/>
+    <property name="animation-frame2" value="5"/>
+    <property name="animation-frame3" value="4"/>
+    <property name="animation-frame4" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="401" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="407" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="52" height="53">
@@ -22,22 +53,22 @@
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SMQrCMBiG4b+Ig4gFLSIqHVpv5dgTdHQUwQt4BU/gEbyZX0imIB2qEgPvAy9JoUN+EjMAAAAAAAB8olBTNVErtQ7rUpWqSne0UYbm2Vh+88zUQs3VTtVh3Yb9Pt3RRul0QY1q1UHd3/zj7rA1f4e5uBa+h/aXKDfP0fKYp4++n+oW5d5kZ/5N/rtT6gN82Tn1AQAAAAAAAAD8zAsnzVNmECsAAA==
+   H4sIAAAAAAAAA+3SMQrCMBiG4b+Ig4gFLSIqHVpv5dgTdHQUVzev4Ak8gjfzC8kUpENVYuB94CUpdMhPYgYAAAAAAIBPFGqqJmql1mFdqlJV6Y42ytA8G8tvnplaqLnaqTqs27DfpzvaKJ0uqFGtOqj7m3/cHbbm7zAX18L30P4S5eY5Wh7z9NH3U92i3JvszL/Jf3dKfYAvO6c+AAAAAAAAAICfeQEVddMsECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQkCMRAF0IxevKpYiR1Ygh2IBXjZu4iViLVYgv044EFRFmR3IS68B59AJoE/pQAAAAAwpFntAj1topTITDLTzOVjfqvSqrtt7jDPLDLLzDXv9vGa36s16+cUzzRvu6yj/f0YnFv6r0a81y6+z7Y9/82hw5/j4C0AAAAAAH7zAHZL1YcQKwAA
+   H4sIAAAAAAAAA+3PsQkCQRAF0B1NTFWsxA4swQ7EAkwuNxTLEGuxBPtxwEBRDuTuYD14Dz4LO7vwpxQAAAAAhjSrXaCnTZQSmUlmmrl8zG9VWnW3zR3mmUVmmbnm3T5e83u1Zv2c4pnmbZd1tL8fg3NL/9WI99rF99m25785dPhzHLwFAAAAAMBvHsNXFoAQKwAA
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3USwqAIBSF4dtWGjVs3mNStoVoH0HQ6lNIEIpIB3GN/4NDGQkeuiQCAAAAAAC0WhKimTtfY9O/SCt59OlevjtJvn3W4vrM99E8e2EfU9z38GbRP3sx8+aU51Xr7MX28ejzDXemLWHfLjr/CX/8Pn/rM9iYM1Vw/7QeRW+fMHXkGgAAAAAAAGkOL7b15BArAAA=
+   H4sIAAAAAAAAA+3USwqAIBSF4dtWGjVs3mPSYwvRPoKgWTtPoUAowxzELf4PDmUkeNASAQAAAAAAWo0R0cyurzCpA1LKN/pUge/28t0+U3J+dvTRfPbcPp3psF70OAyi/+z59sfXK92vWs/ek+/HRZ932DXNEfMW0flP+OP+/K1PY9LtyZz7u3Erevu4yR+OAQAAAAAAEGcD3GHzrRArAAA=
   </data>
  </layer>
  <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PQQ4AEBAEQf5/82LxALJOFjVJ3adbLaUBAAAAwKPGTn/Qs+6JNN3SHdlOd/aWWV9WL7XoOf/3tx4AAACA7Drp4y4WECsAAA==
+   H4sIAAAAAAAAA+3P0Q0AEBBEQfpvQLmiAHK+HGaT+d/XaikNAAAAAB41dvqDnnVPpOmW7sh2urO3zPqyeqlFz/m/v/UAAAAAZNcBSJsOzBArAAA=
   </data>
  </layer>
  <objectgroup name="Object" width="52" height="53">

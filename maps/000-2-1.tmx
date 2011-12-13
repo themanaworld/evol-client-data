@@ -13,10 +13,41 @@
  <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
  </tileset>
- <tileset firstgid="433" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="433" name="Ship-candle" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Indoor/Ship-candle.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="1"/>
+    <property name="animation-frame4" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="3"/>
+    <property name="animation-frame1" value="4"/>
+    <property name="animation-frame2" value="5"/>
+    <property name="animation-frame3" value="4"/>
+    <property name="animation-frame4" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="439" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="455" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
@@ -26,30 +57,30 @@
  </layer>
  <layer name="Ground2" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2YyU4CQRRFixgXxpUQSdSwEFcOG4edxg9w686d/obDEtk4D/ADAs4ujOOXqD/jfekq6RQNFLESuuGe5KarH8WjvBT1+qkUIYQQQgghhBBCCCGEEEIIIX5ZhlbbaKVrq4sX7bzahrIppQZxHYBGtRD6i+20ydErXrfbU8KIavRH7jP6dTtuz3XJ4bKOuOPDBxd8fB9xJ+pviMs6kublARZ8CB2l6rErjCtQVceqUK0rq+s9SlDZQ54X6FXrzUO+uHGMvXcCnYb25QPGj9AT96V31lrovzmieE41eSHmpLHudWvtNdxfQzepoP6mVb0W5FVQC7I6rnR8WjWvXyZHVs+dDM0VOnkeiDPi5VSLfWB7OaPqPkhcfBiC5qFhKKclsQUds3PYvveSl0Kz39UYNK4a/cnp+ITDZ9g5bN9dciSBtOezaRfac5jXyZmYlL5HvMxAm5499Vk/kvKsno84L29xfwfdd7meysdvqOR46cI+VFRBnZjT14KOd4q8d1a59apytm6p4GxNAmf48s+hixbP6uG+Z0lfL3VckDpd0OOiqvss46gavehv+Ykjqu+p6LggdVo8Np4bnyVm1+iwz71GVA9p/28jqn82vbXBeFuzxuYcMDmMz+WIHP3EO/QBfVpx6ZuML+JXeFyy5oZ97me+oG/ox4o365vC54Ah7DNxp59/w4QQQgghhBBCCCGEEEK6zy9lZCa9hEwAAA==
+   H4sIAAAAAAAAA+2YyU4CQRRFixgXxpUQSdSwEFcOG4edxg9w686d/obDEtk4D/ADAs6uHPBL1J/xvnSVdIoGilgJ3XBPctPVj+JRXop6/VSKEEIIIYQQQgghhBBCCCGEEL+sQusdtNaz1cWLTl7tQtmUUsO4DkHjWgj9xfY65OgXrzvtKWFMNfsj9xn9uh2357rkcFlH3PHhgws+vo+4E/U3xGUdSfPyCAs+hk5SjdgNxhWoqmNVqNaT1fUfJajsIc8r9Kb17iFf3DjF3juDzkP78gnjZ+iF+9I7G2303xxR1FMtXog5aax701p7Dfe30F0qqL9p1agFeRXUgqyOKx2fVa3rl8mR1XOnQ3OFbp4H4ox4OdNmH9hezqmGDxIXH0agRWgUymlJbEnH7By27/3kpdDqdzUBTapmf3I6PuXwGXYO23eXHEkg7fls2ocOHOZ1cyYmpe8RLzPQtmdPfdaPpDyr5yPOy3vcP0CPPa6n8vFbKjleunAIFVVQJxb0taDj3SLvnVduvaqcrTsqOFuTwAW+/Evoqs2zerjvWdHXax0XpE4X9LioGj7LOKpGL/tbfuKI6nsqOi5InRaPjefGZ4nZNTrsc78R1UPa/9uI6p9Nb20w3tassTkHTA7jczkixyDxAdWhTysufZPxRfwKj0vW3LDPg8wX9A39WPFWfVP4HDCEfSbuDPJvmBBCCCGEEEIIIYQQQkjv+QVUL/XPhEwAAA==
   </data>
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YSU4CQRiGYQhxWBmjexNl586d1zBexQsYDYjuUcBZ47gkiiROG2+AR/AGilu/SqqTotLdCA408D7Jly5+7Er3TwkUqRQAAAAAAAAAAACAJGsq43Y8qUzYsal99OSKki3o1Yz32BhJh5/TSLX2Mm6OQRF2T24tr2x4z+dsPbCkfk55WVYebZ8zOhZ03LTZUl46vI6kW7X3uuasrZLGZaVia9vKjvJmnzfHoq0HonoZMOOSjmWbivL6FzeUcGHr8kw5dx7PqldzXrJOL6c1vtTxyubam+8h5H2irtqT8hzxHpI06/Y6c871Hmt8opzG3MOtUvNqC+nWuLI/6MdNn/QSv6ce8prvqran7LMeEsG8DPNKptcX0meqMZ8R90O0tt+7PK+mHt0NUZ/wv1a0tha92oFqh8oR6w49krdrrxDzXb1p6/7+ebSDdWvmcPdOZi6zp//8xrnVAfz/CPbP/r0FffGZ3o1F7OnNXP6evt+F7SH93zbaCfpiuN+N3N6ZvfuFd56/p0e0sLWK7hTb/wkAAAAAAAAAAMBQ+QJVykxUhEwAAA==
+   H4sIAAAAAAAAA+3YS04CQRSFYQjxMTJG5ybKzJkzt2HcihswGhCdo4Bvjc+5hhglUXEFuAR3oDj1VFKdFJXuRvBBA/+XnHRxsSvdlxIoUikAAAAAAAAAAAAASdZUxu14UpmwY1P76MkVJVvQqxnvsTGSDj+nkWrtZdwcgyLsntxaXtnwns/ZemBJ/Zzysqw82z5ndCzouGmzpdQ7vI6kW7X3uuasrZLGZaVia9vKjvJmnzfHoq0HonoZMOOSjmWbivL6FzeUcGHr8kw5dx7PqldzXrJOL6c1vtTxyubam+8p5H2iplpdeYl4D0madXudOed6jzU+UU5j7uFGufVqC+nWuLI/6Mddn/QSv6cW8prvqran7LMeEsG8DPNKptcX0meqMZ8Rj0O0tt+7PO9ePXoYoj7hf61obS16tQPVDpUj1h16JG/XXiHmu3rT1v3982gH69bM4e6dzFxmT//5jXOrA/j/Eeyf/XsL+uIzvRuL2NObufw9fb8L20P6v220E/TFcL8bub0ze/cL7zx/T49oYWsV3Sm2/xMAAAAAAAAAAICh8gUaDdhDhEwAAA==
   </data>
  </layer>
  <layer name="Over" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Xy0oDMRSGz1jcKqJdi5eCCwUXFQQvG9uCVXFhVdxbdaMbWzf6Ur6Dj+CjCG49h0xwDGmSYqpz+T/4aXOSOZP5ycxJiAAAAAAAAAAAAAAAAAAAAMDVmKoyMf0ps9cx11I7ydd8/hqZ107AuGdP/yHrnL1MWFOGsmNcvATMY5fy7eVewDifD9LfT9TaXGB9kFIz+V6vITl8dKgaXg6Tn+95i/83DC8Hju8AvAzr12O2f5HjNYGXMXNUwcsLVtejE8f11wH3EIrgpdTbN8e4M0+eHks+hUusGqueSmLLacyVo5vmsHHKarDarBbl30tXTQhh3mj3WTdjXF939Mla3KBi7C9D3vFxuWc9RMolXm5Rvn0UJuXlkPUUKZf+RhbJy/f/nIiDS9Z++r8M554jctfo4wnm0PVLKEId9yH7lWlS9XiGtcqaJfWcEgvdE+kccu0KazGToyx7Ih/mc65b+udIeSw1/ZZ1Z8RkTG/EfuHTcg8bZfSyaekXP0yPKRPDuUeBM6SfmF7WPPv9Knh5QOp8tpb+ZqVjj548MdblwHJfs533M6TWptHOxkb5Heq1oL3y+WSbi9kuKq5n8nlt86qsPsUgdG3DKwAAAAAAAAAAAAAAAAjnC/z8V+iETAAA
+   H4sIAAAAAAAAA+2Xy0oDMRSGz1jcKqJdi5eCCwUXFQQvG1vBqriwKu6tutGNrRt9KaHgC/gIPorg1nOYCY4hTTI06lz+D35mcpI5k/nJ5EIEAAAAAAAAAAAAAAAAAAAALjOqyoT0p8xehxxL7Shf/flrpF9bHu2eHPUHrDP2MmJNaEq3sfHs0Y9tyreXOx7tXD5IfS+Kx+Yca8j64Fgz+h6vPjlc7FM1vBxEP//zFt83NC/7lnkAXvrVqzabY+R4jeBlyBxV8PKc1XHo2PL8lcc7hCJ4Kevtm6XdqSNPlyVT4QKrxqonkthiErPl6CQ5TJywGqw2q0X59/JlzL3hrFbusa4zPF+31MlYXKNi7C99/vGs3LHuA+USLzco3z4KysthgDNLmgHrMVAuNUcWxUvh/T87YuGCtZvcl+Hcc0j2NfroF3Oo9UsowjruQvYrkxSvx1OsZdY0xd8pMd89kcohzy6x5lM5yrIncqF/56qhfoZij2VNv2HdajFp0x0xL38a3mGijF42DfXih+4xpWI498TgDOkmpJc1x76qCl7uUXw+W0muaanYgyNPiHHZN7xXL+f9DKm0rpXTsVF++3otKK9cPpn6opeLiu2bXF6bvCqrTyHwHdvwCgAAAAAAAAAAAAAAAPz5AnMywBGETAAA
   </data>
  </layer>
  <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SQQqDMBBAUXv/W3my0oUb0TSjiRP1BR6ItNH5Zv5M0wwAAAAAAAAAAb+V/Q5PUWr5ps7LKl1f1XK9stscbbm3Rtgju1G0Zek6u+Ude2Z2eErL9SzRc1nas8X3vHPLMzMc/f/es5/SsWa+niu7S++WtfO33OtuRlzZTVq0HKXt8h7ZbVqdx63fn90j+h7ZjaItI9fre6XGvb7piGpmqJlxa+Zoy9Kzsju1PpeR1nt9ncv/M57toKWWLXu/qUN2ay0BAAAAAGK+qm6sXYRMAAA=
+   H4sIAAAAAAAAA+3SQQqDMBBAUXv/i3ms0oUb0TSjiRP1BR6ItNH5Zv5M0wwAAAAAAAAAAb+V/Q5PUWr5ps7LKl1f1XK9stscbbm3Rtgju1G0Zek6u+Ude2Z2eErL9SzRc1nas8X3vHPLMzMc/f/es5/SsWa+niu7S++WtfO33OtuRlzZTVq0HKXt8h7ZbVqdx63fn90j+h7ZjaItI9fre6XGvb7piGpmqJlxa+Zoy9Kzsju1PpeR1nt9ncv/M57toKWWLXu/qUN2ay0BAAAAAGK+UXWqdYRMAAA=
   </data>
  </layer>
  <objectgroup name="Object" width="83" height="59">
   <object name="ToLevel2" type="warp" x="1952" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-2"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_x" value="1536"/>
+    <property name="dest_y" value="896"/>
    </properties>
   </object>
   <object name="ToLevel0" type="warp" x="1952" y="960" width="32" height="32">
