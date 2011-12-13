@@ -92,34 +92,17 @@
     goto l_GiveFood;
 
   l_GiveFood:
+    
+    menu
+        rif(countitem(502, 1), l(getitemname(502))), 502,
+        rif(countitem(503, 1), l(getitemname(503))), 503,
+        rif(countitem(504, 1), l(getitemname(504))), 504,
+        rif(countitem(505, 1), l(getitemname(505))), 505,
+        rif(countitem(506, 1), l(getitemname(506))), 506,
+        rif(countitem(507, 1), l(getitemname(507))), 507,
+	l("I don't have anything good for you today."), -1;
 
-    getinventorylist;
-
-    set @i, 0;
-    set @j, 0;
-
-    makemenuloop:
-
-      set @id, @inventorylist_id[@i];
-
-      if ( (500 >= @id) || (@id >= 700) ) goto makemenunext;
-
-      set @menureference[@j], @id;
-      set @menulist$[@j], getitemname(@id);
-      set @j, @j+1;
-
-      makemenunext:
-
-        set @i, @i+1;
-        if (@i <= inventorylist_count)
-          goto makemenuloop;
-
-    set @menulist$[@j], l("I don't have anything good for you today.");
-    set @menureference[@j], -1;
-
-    menu @menulist$[0],-,@menulist$[1],-,....@menulist$[150],-;
-
-    set @id, @menureference[@menu-1];
+    set @id, @menuret;
     if (@id == -1) goto l_DamnYou;
     if ( (@id == 502) || (@id == 504) || (@id == 505) ) goto l_GiveReward;
     if (@id == 507) goto l_NoMore;
