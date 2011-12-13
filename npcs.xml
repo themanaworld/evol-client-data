@@ -3,8 +3,7 @@
 (C) Evol Online 2010-2011.
 
 IDs 100-300 = Unanimated
-IDs 301-700 = Animated(1)
-IDs 701-900 = Animated(2)
+IDs 301-900 = Animated(1)
 IDs 901-999 = Special
 -->
 <npcs>
@@ -21,9 +20,10 @@ IDs 901-999 = Special
         <!-- Orc-Sailor, sleeping. -->
         <sprite>npcs/XML1/sleepingorc.xml</sprite>
     </npc>
-
-<!-- Animated NPCs (2)-->
-
+    <npc id="303">
+        <!-- Human-Man, sailor with a ratto on his hand. -->
+        <sprite>npcs/XML1/rattosailor.xml</sprite>
+    </npc>
 
 <!-- Special NPCs -->
 
