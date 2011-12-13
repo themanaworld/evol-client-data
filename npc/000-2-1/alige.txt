@@ -117,7 +117,7 @@
     set @menulist$[@j], l("I don't have anything good for you today.");
     set @menureference[@j], -1;
 
-    menu @menulist$[0],-,@menulist$[1],-,@menulist$[150],-;
+    menu @menulist$[0],-,@menulist$[1],-,....@menulist$[150],-;
 
     set @id, @menureference[@menu-1];
     if (@id == -1) goto l_DamnYou;
