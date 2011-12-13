@@ -52,7 +52,7 @@
         l("Okay, but what can you do for me?"), l_AboutReward;
         l("But why are you hiding, aren't you a sailor?")+ " " + l("And why don't you go outside to talk?"), -;
 
-  l_ExplainHiding;
+  l_ExplainHiding:
     mesn;
     mesq l("No, I'm not, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
