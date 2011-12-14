@@ -30,7 +30,7 @@
     //If player was warped
     if (@q > 4) goto l_Check;
     //If map is full of mobs and helper is free
-    if (getmapmobs("001-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto l_GiveTask;
+    if (getmapmobs("000-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto l_GiveTask;
     //Otherway
     doevent "Peter::OnDontNeedHelp";
     close;
@@ -41,7 +41,7 @@
 
   l_Warp:
     seta4 ShipQuests, 1, @q+3;
-    warp "001-2-2.gat", 0, 0;
+    warp "000-2-2.gat", 48, 28;
     close;
   
   l_Check:
@@ -70,7 +70,7 @@
   if (@q > 1) goto l_Fail;
 
   //If map is full of mobs and helper is free
-  if (getmapmobs("001-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto OnGiveTask;
+  if (getmapmobs("000-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto OnGiveTask;
 
   goto OnDontNeedHelp;
   close;
@@ -105,7 +105,7 @@
     //Attach player if possible, otherway free helper
     if (attachrid(getcharid(3, $@RAT_SAILOR_HELPER$)) == 0) goto l_KillHelper;
 
-    warp "001-2-1.gat", 61, 37;
+    warp "000-2-1.gat", 61, 37;
     goto OnCheck;
     detachrid;
     close;
@@ -118,7 +118,7 @@
     next;
 
     set @q, geta4(ShipQuests, 1);
-    if (getmapmobs("001-2-2.gat") || $@RAT_SAILOR_HELPER$ != strcharinfo(0)) goto l_Fail;
+    if (getmapmobs("000-2-2.gat") || $@RAT_SAILOR_HELPER$ != strcharinfo(0)) goto l_Fail;
     set $@RAT_SAILOR_HELPER$, "";
 
     if (@q == 5) goto l_Reward;

@@ -1,0 +1,92 @@
+// Evol scripts.
+// Authors:
+//    Vasily_Makarov
+//    4144
+// Description:
+//    Allow change language and some speaking
+//
+// 2 bits Array:
+//    ShipQuests
+// Variable:
+//    ShipQuests_Julia
+// Values:
+//    0     first touch
+//    1     already touched
+
+000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
+  mesn;
+  mesq g(l("Hello, girl!"), l("Hello, stranger!"));
+  mesq l("What do you want today?");
+  set @s$, l("I don't want change my language, sorry.");
+  l_Menu:
+  menu
+    g(l("I made a mistake, I would like to change my language.#0"), l("I made a mistake, I would like to change my language.#1")), l_ChooseLang,
+    l("Do you know some interesting people around here?"), l_People,
+    l("Where are we?"), l_Where,
+    l("Nothing, sorry"), l_Close;
+    mesn;
+    mesq l("Of course! Tell me which language you speak.");
+    goto l_ChooseLang;
+
+  l_First:
+    seta2 ShipQuests, ShipQuests_Julia, 1;
+    mesn;
+    mesq g(l("Hello, girl!"), l("Hello, stranger!"));
+    mesq l("I'm Julia, my job is to register every body which enter or exit the ship.");
+    mesq l("Could I ask you which language do you talk? Like that I add you on the list.");
+    set @s$, "";
+    goto l_ChooseLang;
+
+  l_ChooseLang:
+    menu
+      l("I speak English") + " (English)", -,
+      l("I speak Russian") + " (Русский)", -,
+      l("I speak Italian") + " (Italiano)", -,
+      l("I speak French") + " (Français)", -,
+      l("I speak Spanish") + " (Español)", -,
+      l("I speak Dutch") + " (Nederlands)", -,
+      l("I speak Flemish") + " (West-Vloams)", -,
+      l("I speak Greek") + " (Greek)", -,
+      l("I speak Indonesian") + " (Indonesian)", -,
+      @s$, l_NoChanges;
+    set @lang, @menu-1;
+    if (@lang < 0 || @lang > 8) close;
+    setlang @lang;
+    mesn;
+    mesq l("Ok, Done. You need something else?");
+    goto l_YNMenu;
+    close;
+
+  l_NoChanges:
+    mesn;
+    mesq l("No problem, do you need something else?");
+  l_YNMenu:
+    menu
+      l("Yes, please!"), l_Menu,
+      l("No, thanks!"), -;
+    close;
+
+  l_People:
+    mesn;
+    mesq l("Let me think...");
+    next;
+    mesn;
+    mesq g(l("You should go see the sailors around here.#0"), l("You should go see the sailors around here.#1")) + " " + l("They are really nice and may help you much more than me.");
+    next;
+    mesn;
+    mesq l("There is also Enora on the docks, it will be a pleasure for her to help you!", l("Enora"));
+    goto l_Menu;
+
+  l_Where:
+    mesn;
+    mesq l("We are at Artis, it's a big port-city, many beginners start their adventure here.", l("Enora")) + " " + g(l("Maybe you will be the next?#0"), l("Maybe you will be the next?#1"));
+    goto l_Menu;
+
+  l_Close:
+    close;
+
+  OnTouch:
+    set @q, geta2(ShipQuests, ShipQuests_Julia);
+    if (@q == 0) goto l_First;
+    close;
+}
