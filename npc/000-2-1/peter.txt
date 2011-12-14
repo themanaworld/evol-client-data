@@ -1,0 +1,195 @@
+// Evol scripts.
+// Authors:
+//    Vasily_Makarov
+//    4144
+// Description:
+//    Rat killer NPC
+// 4 bits array:
+//    ShipQuests
+// Variable:
+//    1
+// Values:
+//    0+0+0   default
+//    0+1+0   completed bonus task
+//    0+2+0   got bonus task
+//    0+3+0   got non-bonus task
+//    1+3+0   got non-bonus task and bonus task was completed
+//    0+2+3   was warped with bonus task
+//    0+3+3   was warped with non-bonus task
+//    1+3+3   was warped with non-bonus task and bonus task was completed
+// "000-2-2.gat" - map with mobs
+
+000-2-1.gat,61,34,0,1	script	AreaNPC	0,0,1,{
+  OnTouch:
+    //Stop when level less than 5
+    if (BaseLevel < 5)  goto l_Stop;
+    
+    set @q, geta4(ShipQuests, 1);
+    //If player got task, but wasn't warped
+    if (@q > 1 && @q < 5) goto l_Warp;
+    //If player was warped
+    if (@q > 4) goto l_Check;
+    //If map is full of mobs and helper is free
+    if (getmapmobs("000-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto l_GiveTask;
+    //Otherway
+    doevent "Peter::OnDontNeedHelp";
+    close;
+
+  l_Stop:
+    doevent "Peter::OnStop";
+    close;
+
+  l_Warp:
+    seta4 ShipQuests, 1, @q+3;
+    warp "000-2-2.gat", 48, 28;
+    close;
+  
+  l_Check:
+    doevent "Peter::OnCheck";
+    close;
+
+  l_GiveTask:
+    doevent "Peter::OnGiveTask";
+
+}
+
+000-2-1.gat,60,35,0,1	script	Peter	303,{
+  
+  if (BaseLevel < 5) goto OnStop;
+  
+  mesn;
+  mesq g(l("Hey, girl!"), l("Hey, man!"));
+  next;
+  
+  set @q, geta4(ShipQuests, 1);
+
+  //If player wasn't warped and player is helper
+  if (@q < 5 && $@RAT_SAILOR_HELPER$ == strcharinfo(0)) goto l_TaskWasGiven;
+  
+  //If player got task and helper is other or player was warped
+  if (@q > 1) goto l_Fail;
+
+  //If map is full of mobs and helper is free
+  if (getmapmobs("000-2-2.gat") == 2 && $@RAT_SAILOR_HELPER$ == "") goto OnGiveTask;
+
+  goto OnDontNeedHelp;
+  close;
+
+  OnStop:
+    mesn;
+    mesq l("You can't go there!");
+    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
+    close;
+
+  OnGiveTask:
+    mesn;
+    mesq l("I need somebody who can clean the bottom of the ship, can you help me?");
+    set @q, geta4(ShipQuests, 1);
+    menu
+      rif(@q == 0, l("Yeah, but what reward will I get?")), l_BonusTask,
+      l("Why not, I need to train anyway."), l_Task,
+      l("No, they are way too dangerous for me!"), -;
+    mesq l("Ok, ok. Come back if you change your mind.");
+    close;
+
+  OnDontNeedHelp:
+    mesn;
+    mesq l("I don't need your help right now, come back later.");
+    if ($@RAT_SAILOR_HELPER$ == "") close;
+    mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
+    close;
+
+  OnTimer300000:
+    stopnpctimer;
+
+    //Attach player if possible, otherway free helper
+    if (attachrid(getcharid(3, $@RAT_SAILOR_HELPER$)) == 0) goto l_KillHelper;
+
+    warp "000-2-1.gat", 61, 37;
+    goto OnCheck;
+    detachrid;
+    close;
+
+  OnCheck:
+    stopnpctimer;
+   
+    mesn;
+    mesq l("Let me see your work...");
+    next;
+
+    set @q, geta4(ShipQuests, 1);
+    if (getmapmobs("000-2-2.gat") || $@RAT_SAILOR_HELPER$ != strcharinfo(0)) goto l_Fail;
+    set $@RAT_SAILOR_HELPER$, "";
+
+    if (@q == 5) goto l_Reward;
+
+    set @q, @q - 4;
+    if (@q > 1) set @q, @q - 2;
+    seta4 ShipQuests, 1, @q;
+    mesn;
+    mesq l("Good job!");
+    close;
+
+  l_BonusTask:
+    set @q, geta4(ShipQuests, 1);
+    mesn;
+    mesq l("I will give you @@gp.", 1000);
+    menu
+      g(l("Okay, I'm ready to work!#0"), l("Okay, I'm ready to work!#1")), -,
+      l("What? This reward is too small!"), l_Close;
+    if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
+    seta4 ShipQuests, 1, 2;
+    goto l_Start; 
+
+  l_Task:
+    if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
+    seta4 ShipQuests, 1, geta4(ShipQuests, 1) + 3;
+    goto l_Start;
+
+  l_Start:
+    mesn;
+    mesq l("Okay, you can start!");
+    set $@RAT_SAILOR_HELPER$, strcharinfo(0);
+    startnpctimer;
+    close;
+
+  l_TaskWasGiven:
+    mesn;
+    mesq l("You can start now.");
+    close;
+
+  l_SetCollectDelay:
+    set $@RAT_SAILOR_COLLECT_DELAY, 1;
+    close;
+
+  l_Fail:
+    mesn;
+    mesq g(l("You failed the task!#0"), l("You failed the task!#1"));
+    set $@RAT_SAILOR_HELPER$, "";
+    set @q, geta4(ShipQuests, 1);
+    if (@q == 5 || @q == 2) goto l_FailBonusTask;
+    if (@q > 5) set @q, @q - 6;
+    if (@q > 2) set @q, @q - 3;
+    seta4 ShipQuests, 1, @q;
+    close;
+
+  l_KillHelper:
+    set $@RAT_SAILOR_HELPER$, "";
+    close;    
+
+  l_FailBonusTask:
+    seta4 ShipQuests, 1, 0;
+    close;
+
+  l_Reward:
+    seta4 ShipQuests, 1, 1;
+    mesn;
+    mesq l("Good job!") + " " + l("Here is your reward!");
+    getexp 100, 0;
+    set zeny, zeny + 1500;
+    close;
+
+  l_Close:
+    close;
+
+}
