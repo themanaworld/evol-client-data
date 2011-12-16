@@ -113,6 +113,8 @@
 
   l_GiveReward:
 
+    delitem @id, 1;
+
     mesn;
     mesq l("Thank you so much! Here, have some berries...");
     next;
