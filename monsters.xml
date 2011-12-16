@@ -38,7 +38,21 @@ exemple :
         <sound event="move">monsters/pious/pious-move-3.ogg</sound>
         <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
     </monster>
-    <monster id="1" name="Tortugas" targetCursor="small" walkType="walkswim">
+    <monster id="1" name="Pi-Pious" targetCursor="small" walkType="walk">
+        <sprite>monsters/chick.xml</sprite>
+        <sprite>accessories/acc-chick-egg.xml</sprite>
+        <sound event="die">monsters/pious/pious-die-1.ogg</sound>
+        <sound event="hit">monsters/pious/pious-hit-1.ogg</sound>
+        <sound event="hit">monsters/pious/pious-hit-2.ogg</sound>
+        <sound event="hurt">monsters/pious/pious-hurt-1.ogg</sound>
+        <sound event="hurt">monsters/pious/pious-hurt-2.ogg</sound>
+        <sound event="miss">monsters/pious/pious-miss-1.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-1.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-2.ogg</sound>
+        <sound event="move">monsters/pious/pious-move-3.ogg</sound>
+        <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
+    </monster>
+    <monster id="2" name="Tortugas" targetCursor="small" walkType="walkswim">
         <sound event="die">monsters/tortugas/tortugas-dying1.ogg</sound> 
         <sound event="hit">monsters/tortugas/tortugas-hit1.ogg</sound>
         <sound event="hit">monsters/tortugas/tortugas-hit2.ogg</sound>
@@ -56,7 +70,6 @@ exemple :
         <sound event="hit">monsters/ratto/ratto-hurt1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-spawn1.ogg</sound>
     </monster>
-
     <monster id="4" name="Croc" targetCursor="small" walkType="walk">
         <sound event="hit">monsters/croc/croc-hit1.ogg</sound>
         <sound event="hit">monsters/croc/croc-hit2.ogg</sound>
