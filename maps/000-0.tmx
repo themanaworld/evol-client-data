@@ -3,7 +3,8 @@
  <properties>
   <property name="license" value="CC BY-NC-ND"/>
   <property name="manaplus version" value="1"/>
-  <property name="music" value="Artis - The Adventure Begins.ogg"/>
+  <property name="minimap" value="graphics/minimaps/000-0.png"/>
+  <property name="music" value=""/>
  </properties>
  <tileset firstgid="1" name="Water" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Water.png" width="512" height="512"/>
@@ -50,10 +51,7 @@
     <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="ezili-ocean-sounds.ogg" type="music" x="121" y="2626" width="5057" height="937"/>
   <object x="4024" y="3516"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="3044" y="2364" width="2124" height="252"/>
-  <object name="Ezili - Ocean sounds.ogg" type="music" x="3908" y="1248" width="1256" height="1104"/>
   <object name="Ezili - Ocean sounds.ogg" type="music" x="96" y="96" width="1312" height="1312"/>
  </objectgroup>
 </map>
