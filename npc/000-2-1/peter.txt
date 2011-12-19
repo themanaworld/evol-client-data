@@ -79,6 +79,7 @@
     mesn;
     mesq l("You can't go there!");
     mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
+    warp "000-2-1",61,37;
     close;
 
   OnGiveTask:
@@ -97,6 +98,7 @@
     mesq l("I don't need your help right now, come back later.");
     if ($@RAT_SAILOR_HELPER$ == "") close;
     mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
+    warp "000-2-1",61,37;
     close;
 
   OnTimer300000:
@@ -133,7 +135,7 @@
   l_BonusTask:
     set @q, geta4(ShipQuests, 1);
     mesn;
-    mesq l("I will give you @@gp.", 1000);
+    mesq l("I will give you @@gp.", 500);
     menu
       g(l("Okay, I'm ready to work!#0"), l("Okay, I'm ready to work!#1")), -,
       l("What? This reward is too small!"), l_Close;
