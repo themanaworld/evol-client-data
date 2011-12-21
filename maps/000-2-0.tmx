@@ -49,17 +49,17 @@
  </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SsQqAIABFUX/TMWqJWhr7+wgaIpK0xYwzHMimd9EYQogAAAAAvNZlqL1Rz396pmNzn9HUQtvd9rnhnjHRkbqv2nuf7ma5adm/h0TP15vWY/+1p8WWmNh+/Xc+196b8+ZK1N5b0lVyBgAAAOCdDYZowuUQKwAA
+   H4sIAAAAAAAAA+3SsQqDMBiF0Ww+Y8aiS2mXjr59ERxKSKixw2/oGQ6YTPcj5pRSBgAAAOC0W2Gq3EVv/KWnJnrjP/c89s3zgaYR2mrbnwP33BsdrfeK3vvtbV6Vlu17afRcvWnd95c9I7bkxvby7vMcvffIP9cjem9PV88ZAAAAgHPeoBZAOxArAAA=
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SMQrCMBiG4b+Ig4gFLSIqHVpv5dgTdHQUVzev4Ak8gjfzC8kUpENVYuB94CUpdMhPYgYAAAAAAIBPFGqqJmql1mFdqlJV6Y42ytA8G8tvnplaqLnaqTqs27DfpzvaKJ0uqFGtOqj7m3/cHbbm7zAX18L30P4S5eY5Wh7z9NH3U92i3JvszL/Jf3dKfYAvO6c+AAAAAAAAAICfeQEVddMsECsAAA==
+   H4sIAAAAAAAAA+3SMQrCMBiG4b+Ig4gFFRGVDq23cuwJOjqKq5tX8AQewZv5hQQKoVNVYuB94KVp6ZCfxAwAAAAAAACfKNRUTdQqfHPPpSrVOtG+xorn2Vg/z9bym2emFmqu9qoKz11YH9JtbZRWB1SrRh3VY+Afd4aN+TPMxa3wPbW+Rrl5TpbHPF30/lL3KHcnW/N38t+dU2/gyy6pNwAAAAAAAADgZ95ct34vECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQnCQBAF0B29eFVJQ5ZgB2IBXrx7FMsI1mIJ9uOAB0EJShJYA+/BZ2FnF+aXAgAAAMCYFrUXGGgTpURmlpln2rf5rcpW/W2zwzKzyqwz17zbx2t+r7bZMOd45hjf307FpaNLM+GOu/g8u3r+m0OPP6fRtwAAAAAA+M0D7+cHwBArAAA=
+   H4sIAAAAAAAAA+3PwQnCQBAF0B2tQMWGUoIdBAvw4t2jWIakFkuwnwx4CBiCkggx8B58FnZ2YX4pAAAAANCpopTIrDLrzP1t/phlq/EO2WGT2WZ2mSbvjtHNn7NtNs01XjnH57dLcRvosl9wxzr651DPf3Ma8efy8y0AAAAAAL7TAqC08jsQKwAA
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
@@ -72,7 +72,7 @@
    H4sIAAAAAAAAA+3P0Q0AEBBEQfpvQLmiAHK+HGaT+d/XaikNAAAAAB41dvqDnnVPpOmW7sh2urO3zPqyeqlFz/m/v/UAAAAAZNcBSJsOzBArAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object" width="52" height="53" visible="0">
   <object name="ToLevel1" type="warp" x="608" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>

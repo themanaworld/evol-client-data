@@ -53,7 +53,7 @@
  </tileset>
  <layer name="Ground" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2XTW7CMBBGDYhFirooFYuCOAkV92AZkRXiBu3ha0seMRrZcewSJj/f4inxJIryPZyxuRhjLgAAAAAAAAAAAAAAADBjTpZzgu8BvOer+bEsLGvL0h/5+cryO0NvdQcvdM/Sj3diXCe8nQeQs8RLZXm3vPkjP9909EJu6fpO1LRzlngh7mLMa5V35TwdxXgOXu4m7ijkj3uj+XVk7qimnbPUSyOccEdtXmI0YqydM5e2/G0+rpH8MbRzls6XvtHO2YeXj8T1T3Yem3/aOXNxmSqfRfZMqjkvW/NYY1yd1p2tf0bMxRidOA6BPLz/uj7yZdkzXzVzuPfP4POEeo52tlJCa1Hu2kPuQvdr5/uvm9B+pOv+JcV6pI665stxMYX1KOTmFvndV6K2ELXYfvk6gIzPciRrfI9fm0cPpv9Hcj41oq6d6xXzKdSPUt+gdoa+vMS+jyn3l9z5UtKrtTMMycvU50vKjfa7AQAAAAAAAAAAAAAAAABj5w/UAOco0EMAAA==
+   H4sIAAAAAAAAA+2XQW7CMBBFDYhKKWJRUBel4iQg7sEyIivEDdrD15Y8YjSy49g0TBL+4inxgKL8x2QczsaYMwAAAAAAAAAAAAAAALwwB8spwXEA9/lsfiwzy9Iy90d+vrD8vqC3uoMX+s6bX3+KdZ3wdhpAzhIvlWVtefdHfr5iXubCC61D3qQ77ZwlXoibWPNa5V05T3ux5j0nvVBNO+ejXm4m7ijkj3uj/tozd1TTzlnqpRFOuKM2LzEasdbOmUtb/jYfl0j+GNo5S/ulb7Rz9uHlI/H5lp3H+k87Zy4uU+WzyJlJNedlY+57jKvTvrPx14i5GKMTx3cgD5+/bo58WXbMV80c7vw1eJ/QzNHOVkpoL8rde8hd6Pva+R51E3of6fr+kmI5Ukdd8+W4mMJ+FHJzjfzuC1GbiVrsffkygIz/5UjW+Dt+be4zmP4fyX5qRF071zP6KTSPUs+gdoa+vMSejynPl9x+KZnV2hmG5GXq/ZJyo31vAAAAAAAAAAAAAAAAAMDY+QMYR0Fq0EMAAA==
   </data>
  </layer>
  <layer name="Ground2" width="70" height="62">
@@ -63,7 +63,7 @@
  </layer>
  <layer name="Fringe" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YSwrCMBCA4QRt7QXsDdwUly68gOfxDCIIvj2kHsG6NSGpjCUWXJRW838Q0oyhJGOqjkoBAAAAAAAAABCWaqXups+1G498n/t4rB6BWJWPROQqE3Ovyo1T3fbq+uVo9rut7TkV58fmx14nYk4WuE8o9ms2De/96sNrMj7847NT7bOeh4N2eZvp97knP56YfmHavOGeQGXNmYjOwLSxb1bhY7E6m2fg8sVzULS3FPTYsusFRITfKrBsHWTrI/tdNVWuL1W45ozRTVzL2rKptorNzuRiTz5e5Gdr/b8IAAAAAAAAAAAAoAtPZaWTPtBDAAA=
+   H4sIAAAAAAAAA+3YTQrCMBCG4QRtPYG9gZvi0oUX8DyeQQTBfw+pR1C3ZmgiMdSCi9LivA+EaWOR5KNVR2MAAAAAAAAAAKiXW2Purha2Oh/5Wvh5rZ41cyGPLMkqXHv1NbftrauPjm6/22TPeXT/SD5ynCnIZdOwx9WX1+L54R9nFPaZ5nCwVW4z+3ntyZ9PXF24MW94TyBYc0+oM3Bj7Ico/ZxWZ/cMXH54Dsr2loIeW3a9AEX4rQIhfZD0R/JdNTVVfZj6nlOjW3Qc95ZNvZU2O5fFnjze4s/W9L8IAAAAAAAAAAAAoAsv5jOL7NBDAAA=
   </data>
  </layer>
  <layer name="Over" width="70" height="62">
@@ -76,12 +76,12 @@
    H4sIAAAAAAAAA+3Y3QrCMAyG4e3+L2BOdE6G8wf1Gs0OCiFkUGHOGt+D56ClY81HKcuauqoaAAAAAAAAAACwqKMYHKcC9raGvdiIVmzFITMXPdebZyJkt5upcZzJ5ebkknKIlIs9F6mms7iLh/IUVyeXlNVoxr/MnovcmryspiwvagzgfdNd1dUx7t2lDQXsAQCA6HSfneh+O63pzFx0ts+2/bZe03/g/aXK/S/VFrDXtdmavQz+8fvWOy/f3hMAAAAAAAAAABG8AEHDe2jQQwAA
   </data>
  </layer>
- <layer name="Collision" width="70" height="62">
+ <layer name="Collision" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3TQQ6DIBBAUXv/03jDblscxMTCVHgkb4NNw3xxf23bDgAAAAAAcFO0ss/0D8oO+nx3iDpFbVq9ZulZ3o+oS7l3Nvss32Rrnf3m6v9kz9ijzd3nT+5Sa/WLbjN2iWaq7c3YpceqNXyC2ntdtUeve5I9jy5j25ztfT5r9c2eKavjlbuXfc6RPVozr9Yl+s7cl+Oc5fzRyj7zyPtSm1+XNecHAAAAAICe3q8cR1LQQwAA
   </data>
  </layer>
- <objectgroup name="Object" width="70" height="62">
+ <objectgroup name="Object" width="70" height="62" visible="0">
   <object name="ToLevel1" type="warp" x="1536" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-1"/>

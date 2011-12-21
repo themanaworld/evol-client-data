@@ -21,17 +21,17 @@
  </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SPQrCQBDF8QRsBBsRCwleRKOl4AkkZbDNDTyH33pX30ICQ4ioEcyu/IsfQ7LNe8xkURRlAAAAAAAAPzKXZYO04S31IO8rCxnK2BjJRnbmzf1beZC3bZ9Y1gH2cSYyNZKyz8y8JR7kfFdes5W+9GSvYgc5xt3n/KRPUbL5XZ+T5lkugfWp2PwDfV81b3IPpE/91lwft6dLOavd5R5kbXNvdj+2S0h9bGZ7X3ZvhQc5297cM13n/KZP15kAAAAAAAD+2QN9XS5RECsAAA==
+   H4sIAAAAAAAAA+3SSwrCQBCE4QkIIrgRcSHiRTS6FDyBZBnc5gaew7fe1RqI0ErEF5gZ+RcfQ9KbKroz51wGAAAAAADwI2OZVkgrZmkAeZ+ZSEea0it1ZSErM/P/ZgHkfbVPz932SWRuZrH08foyNAZln5GZDQLI+ar8zlJa0pC1im1km9Sf850+Rcnm9312evdyiKzPlc3f1vdR70nOkfS5vzXfx+/pUL7X3eUBZP3k3ux+bJeY+tjM9r7s3ooAcn56c4/UnfObPnVnAgAAAAAA+GcXwWo0yhArAAA=
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TOQ7CMBSE4bgJNRTpgRMhjsBRWCTWErgAywVYTgYtg3hIrihsZIvwf9LoxUkzT5GLAgAAAAAAADFK95qVzbv37WRzl7JQpIntcfPejWy+d2u4hIUizdR1rqyUobL0uq+VjbLNVS7As//YdljY89TOe+WgHHOV+7KzclGuuYsEGOifNJWW0v+h+/JJr2b7tLVHR+nWZB8AAAAAAADg3z0AnZkU9hArAAA=
+   H4sIAAAAAAAAA+3TOw6CQBSFYWjUVgt7dEXGJbgUlQR8lOoGfGwAdWXacgzXZCoLxjAR/y85uQw054ZMFAEAAAAAAMBHJ67mULOn+XS+FTaPDXfykdo+D+fdwuZ7t27cYCFPubqulK0yVzZO952yVw6hytXw6r+0Hdb2nNn5pJyVS6hyX3ZVbso9dJEaZvonfWWgTH/ovnwyadk+ifYYKeOW7AMAAAAAAAD8uxJzfz0YECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TOwqAMAwA0HbzIl7AyQN4Hxcv4KIe28zaxQ9U5D0ICW2GFJqUAAAAAHiqOeTS3R8sEWvEVnuQi+Zcrrt87oU3tfHH+tpD3DQWzqZ4z2BvAAAAAIAP2gGiIm1HECsAAA==
+   H4sIAAAAAAAAA+3TMQqAMAwAwPYxfsDJB/gfl37Apfpss9uhilCHOwiEkCGBJCUAAAAA6FMjjohz9CAP7bmdz/neC1+a4saW0UO8tDVqJfZZ/Q0AAAAA8EMXCgVMZhArAAA=
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
@@ -39,12 +39,12 @@
    H4sIAAAAAAAAA+3RSwqDMBQF0GdX06EbcNTP1LErcaMuqBkoDUUFwUFiz4FLgrzAuxgBAAAAANczpHQH5t/zm1L9Q5+mibilTCvzNfbZU0Of8cB8DX2u9n+2+vQpryz3lGeU3+cR333zc9l9SZvdS7W2b/vzPQ8AAAAA5/gAPdDiTBArAAA=
   </data>
  </layer>
- <layer name="Collision" width="52" height="53">
+ <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3RIQ4AIQxFQfaoXIkTr8JRBKYpTJNRmPfD+FobAAAAAPCoedkdJ93Rlkp7orthz25ndufJ30Rvvcie2d0v+Z9Vd3TZnfbUawcAAACo6Ad+SKLFECsAAA==
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object" width="52" height="53" visible="0">
   <object name="ToLevel1" type="warp" x="608" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-0"/>
