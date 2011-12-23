@@ -1,6 +1,7 @@
 // Evol scripts.	
 // Authors:
 //    Vasily_Makarov	
+//		Reid
 // Description:	
 //    fix me	
 
@@ -18,8 +19,8 @@
   next;
 
   menu
-    l("Try to move your hand to show them that you're alive"), -,
-    l("Don't move at all"), -;
+    l("*Try to move your hand to show them that you're alive*"), -,
+    l("*Don't move at all*"), -;
   next;
 
   mesn;    
@@ -29,9 +30,9 @@
 
   mesn l("Narrator");
   mesq l("The sailors take you aboard their ship to help you."); //italic
-  next;
+
 
   warp "000-0-0.gat",22,22;
 
-    close;
+  close;
 }
