@@ -78,13 +78,13 @@
   OnStop:
     mesn;
     mesq l("You can't go there!");
-    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
     warp "000-2-1",61,37;
+    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
     close;
 
   OnGiveTask:
     mesn;
-    mesq l("I need somebody who can clean the bottom of the ship, can you help me?");
+    mesq l("I need somebody who can clean the bottom of the ship of these Ratto, can you help me?");
     set @q, geta4(ShipQuests, 1);
     menu
       rif(@q == 0, l("Yeah, but what reward will I get?")), l_BonusTask,
@@ -96,9 +96,9 @@
   OnDontNeedHelp:
     mesn;
     mesq l("I don't need your help right now, come back later.");
+    warp "000-2-1.gat",61,37;
     if ($@RAT_SAILOR_HELPER$ == "") close;
     mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
-    warp "000-2-1",61,37;
     close;
 
   OnTimer300000:
@@ -188,7 +188,7 @@
     mesn;
     mesq l("Good job!") + " " + l("Here is your reward!");
     getexp 100, 0;
-    set zeny, zeny + 1500;
+    set zeny, zeny + 500;
     close;
 
   l_Close:
