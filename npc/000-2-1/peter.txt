@@ -100,7 +100,6 @@
   OnDontNeedHelp:
     mesn;
     mesq l("I don't need your help right now, come back later.");
-    warp "000-2-1.gat",61,37;
     if ($@RAT_SAILOR_HELPER$ == "") close;
     mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
     close;
