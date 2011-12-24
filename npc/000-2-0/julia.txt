@@ -41,6 +41,7 @@
     menu
       l("I speak English") + " (English)", -,
       l("I speak Russian") + " (Русский)", -,
+      l("I speak German") + " (Deutsch)", -,
       l("I speak Italian") + " (Italiano)", -,
       l("I speak French") + " (Français)", -,
       l("I speak Spanish") + " (Español)", -,
@@ -50,7 +51,7 @@
       l("I speak Indonesian") + " (Indonesian)", -,
       @s$, l_NoChanges;
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 8) close;
+    if (@lang < 0 || @lang > 9) close;
     setlang @lang;
     mesn;
     mesq l("Ok, Done. You need something else?");
