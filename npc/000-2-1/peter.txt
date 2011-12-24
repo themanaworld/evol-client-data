@@ -55,7 +55,7 @@
 
 000-2-1.gat,60,35,0,1	script	Peter	303,{
   
-  if (BaseLevel < 5) goto OnStop;
+  if (BaseLevel < 5) goto OnTooWeak;
   
   mesn;
   mesq g(l("Hey, girl!"), l("Hey, man!"));
@@ -75,11 +75,15 @@
   goto OnDontNeedHelp;
   close;
 
+  OnTooWeak:
+    mesn;
+    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
+    close;
+
   OnStop:
     mesn;
     mesq l("You can't go there!");
     warp "000-2-1",61,37;
-    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
     close;
 
   OnGiveTask:
