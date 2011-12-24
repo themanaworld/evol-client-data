@@ -55,6 +55,9 @@
 
 000-2-1.gat,60,35,0,1	script	Peter	303,{
   
+  set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
+  if (@q_julia == 0) goto l_TalkToJulia;
+
   if (BaseLevel < 5) goto OnTooWeak;
   
   mesn;
@@ -133,6 +136,11 @@
     seta4 ShipQuests, ShipQuests_Peter, @q;
     mesn;
     mesq l("Good job!");
+    close;
+
+  l_TalkToJulia:
+    mesn;
+    mesq l("Hey, you should go see Julia to be registred on the ship board.");
     close;
 
   l_BonusTask:
