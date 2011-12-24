@@ -153,6 +153,7 @@
     mesq l("Okay, you can start!");
     set $@RAT_SAILOR_HELPER$, strcharinfo(0);
     startnpctimer;
+    warp "000-2-2.gat", 48, 28;
     close;
 
   l_TaskWasGiven:
