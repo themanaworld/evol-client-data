@@ -86,7 +86,7 @@
   OnStop:
     mesn;
     mesq l("You can't go there!");
-    warp "000-2-1",61,37;
+    warp "000-2-1",61,36;
     close;
 
   OnGiveTask:
@@ -113,7 +113,7 @@
     //Attach player if possible, otherway free helper
     if (attachrid(getcharid(3, $@RAT_SAILOR_HELPER$)) == 0) goto l_KillHelper;
 
-    warp "000-2-1",61,37;
+    warp "000-2-1",61,36;
     goto OnCheck;
     detachrid;
     close;
