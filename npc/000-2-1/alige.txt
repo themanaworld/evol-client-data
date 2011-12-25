@@ -60,7 +60,8 @@
     
     menu
       l("Okay, but what do you offer me?"), l_AboutReward,
-      l("Why are you hiding?") + " " + l("Why not going outside to talk?"), l_ExplainHiding;
+      l("Why are you hiding?"), l_ExplainHiding,
+      l("Why not going outside to talk?"), l_ExplainHiding;
 
   l_ExplainHiding:
 
@@ -148,7 +149,8 @@
 
     menu
       l("Yes."), l_GiveFood,
-      l("Why are you hiding?") + " " + l("Why not going outside to talk?"), l_ExplainHiding;
+      l("Why are you hiding?") l_ExplainHiding,
+      l("Why not going outside to talk?"), l_ExplainHiding;
       l("I think I should report you to the crew members."), l_DamnYou;
 
   l_DamnYou:
