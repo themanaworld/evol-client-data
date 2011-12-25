@@ -92,9 +92,15 @@
 
     menu
       l("Ok, I'll help you."), l_Accepted,
+      l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), -;
-
     goto l_DamnYou;
+
+  l_Artis:
+    mesn;
+    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a fame city through our world... But hey oh, return to topic! I'm hungry!");
+    next;
+    goto l_Accept;
 
   l_Accepted:
 
@@ -150,7 +156,7 @@
     menu
       l("Yes."), l_GiveFood,
       l("Why are you hiding?") l_ExplainHiding,
-      l("Why not going outside to talk?"), l_ExplainHiding;
+      l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
   l_DamnYou:
