@@ -46,7 +46,7 @@
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease... ");
     
     menu
-        l("Why not... but, who are you?") + l("And what kind of help do you need?"), l_CanHelp;
+        l("Why not... but, who are you?") + l(" And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
 
     mesn l("Hidden person");
@@ -64,8 +64,7 @@
     
     menu
       l("Okay, but what do you offer me?"), l_AboutReward,
-      l("Why are you hiding?"), l_ExplainHiding,
-      l("Why not going outside to talk?"), l_ExplainHiding;
+      l("Why are you hiding? ") + " " + l("Why not going outside to talk?"), -;
 
   l_ExplainHiding:
 
@@ -104,6 +103,7 @@
     mesn;
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a fame city through our world... But hey oh, return to topic! I'm hungry!");
     next;
+    if (@q == 2) goto l_AskForFood;
     goto l_Accept;
 
   l_Accepted:
@@ -160,7 +160,7 @@
 
     menu
       l("Yes."), l_GiveFood,
-      l("Why are you hiding?") l_ExplainHiding,
+      l("Why are you hiding? ") + " " + l("Why not going outside to talk?"), l_ExplainHiding,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
