@@ -107,7 +107,7 @@
     mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
     close;
 
-  OnTimer300000:
+  OnTimer500000:
     stopnpctimer;
 
     //Attach player if possible, otherway free helper
