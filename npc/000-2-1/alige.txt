@@ -43,7 +43,7 @@
     
     menu
         l("Why not... but, who are you?") + l("And what kind of help do you need?"), l_CanHelp;
-        l("I don't have any time for this, sorry."), -;
+        l("Sorry but I have no time for this."), -;
 
     mesn l("Hidden person");
     mesq l("Damn you! You better not tell anyone that you've seen me!");
@@ -59,8 +59,8 @@
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
     
     menu
-        l("Okay, but what can you do for me?"), l_AboutReward;
-        l("But why are you hiding, aren't you a sailor?")+ " " + l("And why don't you go outside to talk?"), -;
+        l("Okay, but what will I get?"), l_AboutReward;
+        l("But why are you hiding?")+ " " + l("Why not going outside to talk?"), -;
 
   l_ExplainHiding:
     mesn;
@@ -90,7 +90,7 @@
 
     menu
       l("Ok, I'll help you."), l_Accepted,
-      l("I think I should report you to the crew members, I don't want to have any problems with them."), -;
+      l("I think I should report you to the crew members."), -;
 
     goto l_DamnYou;
 
@@ -148,7 +148,7 @@
     menu
       l("Yes."), l_GiveFood,
       l("But why are you hiding, aren't you a sailor?") + " " + l("And why don't you go outside to talk?"), l_ExplainHiding,
-      l("I think I should report you to the crew members, I don't want to have any problems with them."), l_DamnYou;
+      l("I think I should report you to the crew members."), l_DamnYou;
 
   l_DamnYou:
 
