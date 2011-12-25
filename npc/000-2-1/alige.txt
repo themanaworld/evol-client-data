@@ -22,7 +22,6 @@
 000-2-1.gat,33,31,0,1	script	Alige	301,{
 
   set @q, geta2(ShipQuests, ShipQuests_Alige);
-  mes @q;
   if (@q == 2) goto l_AskForFood;
   goto OnFirstEncounter;
 
