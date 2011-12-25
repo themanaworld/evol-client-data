@@ -21,11 +21,15 @@
 
 000-2-1.gat,33,31,0,1	script	Alige	301,{
 
-  if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
+  set @q, geta2(ShipQuests, ShipQuests_Alige);
+  mes @q;
+  if (@q == 2) goto l_AskForFood;
   goto OnFirstEncounter;
 
   OnFirstEncounter:
     seta2 ShipQuests, ShipQuests_Alige, 1;
+
+  l_Talk:
     mesn l("Hidden person");
     mesq l("Hey, psst! You're not a sailor, right?");
 
@@ -104,6 +108,7 @@
 
   l_Accepted:
 
+    seta4 ShipQuests, ShipQuests_Alige, 2;
     mesn;
     mesq l("Perfect, which food did you get for me today?");
     next;
