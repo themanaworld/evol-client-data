@@ -59,10 +59,11 @@
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
     
     menu
-        l("Okay, but what will I get?"), l_AboutReward;
-        l("But why are you hiding?")+ " " + l("Why not going outside to talk?"), -;
+      l("Okay, but what do you offer me?"), l_AboutReward,
+      l("Why are you hiding?") + " " + l("Why not going outside to talk?"), l_ExplainHiding;
 
   l_ExplainHiding:
+
     mesn;
     mesq l("No, I'm not, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
@@ -147,7 +148,7 @@
 
     menu
       l("Yes."), l_GiveFood,
-      l("But why are you hiding, aren't you a sailor?") + " " + l("And why don't you go outside to talk?"), l_ExplainHiding,
+      l("Why are you hiding?") + " " + l("Why not going outside to talk?"), l_ExplainHiding;
       l("I think I should report you to the crew members."), l_DamnYou;
 
   l_DamnYou:
