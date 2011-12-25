@@ -21,12 +21,17 @@
   OnTouch:
     set @q, geta4(ShipQuests, ShipQuests_Peter);
     // Only let play pass that finished Peters quest
+    if (BaseLevel > 5 && getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto l_Task;
     if (@q < 5) goto l_Stop;
     warp "000-2-1",61,36;
     close;
 
   l_Stop:
     doevent "Peter::OnStop";
+    close;
+
+  l_Task:
+    doevent "Peter::OnGiveTask";
     close;
 }
 
