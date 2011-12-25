@@ -12,19 +12,29 @@
 //    0     first talking (before food)
 //    1     already talked
 
-000-2-1.gat,33,31,0,1	script	Alige	301,1,1{
+000-2-1.gat,33,33,0,1	script	AligeTrigger	0,1,1,{
+    OnTouch:
+      if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
+      doevent "Alige::OnFirstEncounter";
+      close;
+}
 
-  if (geta2(ShipQuests, ShipQuests_Alige) == 1) goto l_AskForFood;
+000-2-1.gat,33,31,0,1	script	Alige	301,{
 
-  mesn l("Hidden person");
-  mesq l("Hey, psst! You're not a sailor, right?");
+  if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
+  goto OnFirstEncounter;
 
-  menu
-      l("I am, who are you?"), -,
-      l("I'm not."), l_NeedHelp;
+  OnFirstEncounter:
+    seta2 ShipQuests, ShipQuests_Alige, 1;
+    mesn l("Hidden person");
+    mesq l("Hey, psst! You're not a sailor, right?");
 
-  mesn l("Hidden person doesn't answer");
-  close;
+    menu
+        l("I am, who are you?"), -,
+        l("I'm not."), l_NeedHelp;
+
+    mesn l("Hidden person doesn't answer");
+    close;
 
   l_NeedHelp:
 
@@ -66,7 +76,7 @@
 
     next;
 
-    if (geta2(ShipQuests, ShipQuests_Alige) == 1) goto l_AskForFood;
+    if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
 
     goto l_Accept;
 
