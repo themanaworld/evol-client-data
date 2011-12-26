@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //		Reid
+//		Ablu
 // Description:
 //    Rat killer NPC
 
@@ -30,7 +31,7 @@ l_Warp:
 	close;
 }
 
-000-2-2.gat,24,31,0,1	script	AreaNPC	0,0,1,{
+000-2-2.gat,24,31,0,1	script	AreaNPC	0,0,0,{
 
 OnTouch:
 

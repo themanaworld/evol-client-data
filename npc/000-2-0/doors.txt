@@ -1,0 +1,15 @@
+// Evol scripts.
+// Authors:
+//		Reid
+// Description:
+//    Door NPC
+
+
+000-2-0.gat,20,27,0,1	script	AreaNPC	0,0,0,{
+
+OnTouch:
+
+	mesq l("This door seems locked");
+	close;
+
+}
