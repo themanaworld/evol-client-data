@@ -1,16 +1,16 @@
 // Evol scripts.
 // Authors:
 //    Vasily_Makarov
-//		Ablu
-//		Reid
+//    Ablu
+//    Reid
 // Description:
 //    Hidden NPC on a ship'ground hole.
 //
-// 2 bits array:	
-//    ShipQuests	
-// Variable:	
+// 2 bits array:
+//    ShipQuests
+// Variable:
 //    ShipQuests_Alige
-// Values:	
+// Values:
 //    0     first talking (before food)
 //    1     already talked
 
@@ -124,7 +124,7 @@
         rif(countitem(505, 1), l(getitemname(505))), 505,
         rif(countitem(506, 1), l(getitemname(506))), 506,
         rif(countitem(507, 1), l(getitemname(507))), 507,
-	l("I don't have anything good for you today."), -1;
+        l("I don't have anything good for you today."), -1;
 
     set @id, @menuret;
     if (@id == -1) goto l_DamnYou;
