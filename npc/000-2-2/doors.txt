@@ -5,7 +5,7 @@
 // Description:
 //    Rat killer NPC
 
-000-2-2.gat,48,29,0,1	script	DoorUpwards 0,0,0,{
+000-2-2.gat,48,29,0,1	script	DoorUpwards	0,0,0,{
 
 OnTouch:
     set @q, geta4(ShipQuests, ShipQuests_Peter);
