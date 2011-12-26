@@ -22,10 +22,11 @@
 000-2-1.gat,61,34,0,1	script	AreaNPC	0,0,1,{
   OnTouch:
     set @q, geta4(ShipQuests, ShipQuests_Peter);
+    mes @q;
     // Only let play pass that finished Peters quest
-    if (BaseLevel > 5 && getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto l_Task;
+    if (@q < 5 && BaseLevel > 5 && getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto l_Task;
     if (@q < 5) goto l_Stop;
-    warp "000-2-1",61,36;
+    warp "000-2-2.gat", 48, 28;
     close;
 
   l_Stop:
