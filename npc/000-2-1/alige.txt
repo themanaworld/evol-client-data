@@ -19,6 +19,22 @@
       if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
       doevent "Alige::OnFirstEncounter";
       close;
+    OnTouchFirst:
+      setnpcdir "Alige" 2;
+      stopnpctimer;
+      initnpctimer;
+      // OnTouch will not be called otherwise when OnTouchFirst got called
+      goto OnTouch;
+    OnUnTouchAll:
+      setnpcdir "Alige" 4;
+      stopnpctimer;
+      initnpctimer;
+      close;
+    OnTimer340:
+      if (getnpcdir ("Alige") == 2) setnpcdir "Alige", 6;
+      if (getnpcdir ("Alige") == 4) setnpcdir "Alige", 8;
+      stopnpctimer;
+      end;
 }
 
 000-2-1.gat,33,31,0,1	script	Alige	301,{
