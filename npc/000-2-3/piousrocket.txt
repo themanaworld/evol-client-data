@@ -1,0 +1,17 @@
+// Evol scripts.
+// Authors:
+//    Ablu
+// Description:
+//    TODO
+
+000-2-3.gat,27,23,4,1	script	PiousRocket	308,{
+    setnpcdir 2;
+    stopnpctimer;
+    initnpctimer;
+    close;
+
+OnTimer1000:
+    setnpcdir 4;
+    stopnpctimer;
+    end;
+}
