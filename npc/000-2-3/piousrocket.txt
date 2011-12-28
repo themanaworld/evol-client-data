@@ -2,7 +2,7 @@
 // Authors:
 //    Ablu
 // Description:
-//    TODO
+//    Jumping pious.
 
 000-2-3.gat,27,23,4,1	script	PiousRocket	308,{
     setnpcdir 2;
@@ -10,7 +10,7 @@
     initnpctimer;
     close;
 
-OnTimer1000:
+OnTimer1420:
     setnpcdir 4;
     stopnpctimer;
     end;
