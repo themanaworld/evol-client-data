@@ -30,7 +30,7 @@
       stopnpctimer;
       initnpctimer;
       close;
-    OnTimer340:
+    OnTimer190:
       if (getnpcdir ("Alige") == 2) setnpcdir "Alige", 6;
       if (getnpcdir ("Alige") == 4) setnpcdir "Alige", 8;
       stopnpctimer;
