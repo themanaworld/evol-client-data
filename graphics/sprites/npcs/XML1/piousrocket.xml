@@ -2,7 +2,7 @@
 <!-- Author : Reid
 Copyright (C) 2011  Evol Online -->
 <sprite>
-    <imageset name="npc" src="graphics/sprites/npcs/sprite/piousrocket.png" width="" height="13" offsetX="50" offsetY="-9"/>
+    <imageset name="npc" src="graphics/sprites/npcs/sprite/piousrocket.png" width="13" height="50" offsetX="9"/>
 
     <action name="stand" imageset="npc">
         <!-- Jump piousrocket -->
@@ -15,7 +15,6 @@ Copyright (C) 2011  Evol Online -->
             <frame index="7" delay="110"/>
 			<sequence start="8" end="10" delay="90" />
             <frame index="11" delay="100"/>
-				<end/>
         </animation>
         <!-- Static piou -->
         <animation direction="up">
