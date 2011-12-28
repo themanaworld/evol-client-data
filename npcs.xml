@@ -3,15 +3,12 @@
 (C) Evol Online 2010-2011.
 
 IDs 100-300 = Unanimated
-IDs 301-900 = Animated(1)
+IDs 301-900 = Animated
 IDs 901-999 = Special
 -->
 <npcs>
-
 <!-- Unanimated NPCs -->
-
-
-<!-- Animated NPCs (1)-->
+<!-- Animated NPCs -->
     <npc id="301">
         <!-- Eye animation. -->
         <sprite>npcs/XML1/alige.xml</sprite>
@@ -33,23 +30,25 @@ IDs 901-999 = Special
         <sprite>npcs/XML1/sailors.xml</sprite>
     </npc>
     <npc id="306">
-        <!-- Sailors group. -->
+        <!-- Mudget-Man, small and not smart at all... -->
         <sprite>npcs/XML1/silvio.xml</sprite>
     </npc>
     <npc id="307">
-        <!-- Sailors group. -->
-        <sprite>npcs/XML1/dirgan.xml</sprite>
+        <!-- Tritan-Man, sitting on a barrel. -->
+        <sprite>npcs/XML1/magic_arpan.xml</sprite>
     </npc>
     <npc id="308">
-        <!-- Sailors group. -->
+        <!-- Piousrocket, sitting on his iron bar. -->
         <sprite>npcs/XML1/piousrocket.xml</sprite>
     </npc>
-
+    <npc id="309">
+        <!-- Human-Man, standing elmo. -->
+        <sprite>npcs/XML1/elmo1.xml</sprite>
+    </npc>
 <!-- Special NPCs -->
-
-
 </npcs>
 <!-- Pad & Reid's work .. November 2010 -->
 <!-- Reid's wipe and redo .. April 2011 -->
 <!-- Reid's re-management of the shape .. May 2011 -->
 <!-- Reid's wipe .. November 2011 -->
+<!-- Reid's ship release .. December 2011 -->
