@@ -1,0 +1,17 @@
+// Evol scripts.
+// Authors:
+//    Vasily_Makarov
+//    Reid
+
+000-2-1.gat,22,38,0,1	script	Devis	310,{
+  mesn;
+  set @q, rand(2);
+  if (@q == 0) goto l_Zzz;
+  goto l_Grm;
+  l_Zzz:
+    mes "Zzzzzzzzzz";
+    close;
+  l_Grm:
+    mes "Ggrmm grmmm...";
+    close;
+}
