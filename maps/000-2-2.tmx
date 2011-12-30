@@ -68,7 +68,7 @@
  </layer>
  <layer name="Over" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YO0sDQRQF4LuIf0DxUYsvBB+NWqiVRnyioIL+gNhpo9HGxsZe8Ad7LrtLLpN9TGBTzMz54JBkNg7MYZxdFSEiIiIiIiIiIqIUPI0ZGpVab0cdzRPbnvPp5bzl+pfHHIcSfy+/WfP1KqcSfy/jXlex9PJn9oSu+yGr+aIMe3H3kRVLL5auu+/RS5PQejlDLlpyjQwS6uUAeUR0yUvIFLKILDhjd9Lc233N/DfICtJDTiScXvR3aFbyDjaQH7zp4/W5GLNmJO/M9jVfjNfRPbIp4T2/VJ0tL8hrR/NrL7sSVieqqpcB8tHR/OWZElovnxOe3/YSkmPk1uN7l9J87l7V/FyovSjtpmeyiqw5Y2/ItORn7RyyXLxmxVjdfTrkXty/d7eQbWes7dkvhV72kH3x60Xv699ZnL34SHG/+HB78f0/Q2q9uN5leEavm/fls3+svZT3LLtm+9muf0dGz6xYe1FVa3Y/pyTVdRMRERERERERERHRZPwD7e1ZONBDAAA=
+   H4sIAAAAAAAAA+3YO0vEQBQF4BvEP6D4qMUXgo9GLdRKV3yioIL+gLXTRlcbGxt7wR/suSRhL7MzSVZiMZPzwWE3kzXZOcRJVISIiIiIiIiIiIi64GHM0Kiu9XbQ0nFSu+aa9HJas/+jwTH2Jf1evrPq/T7Hkn4v4+5XqfTyY64JnfddFvigDHtxryMrlV4snXe/QS9VYuvlBDmrySUy6FAve8g9olNeQCaQeWTOGbuR6t5uA8e/QpaQHnIk8fSiv0PTknewhnzhTR+vj8WYNSV5Z7av2WI8RK+RdYnr+UW/o29teUKeWzqH9rIt8XSiQr0MkLeWzhHTmlLS7/v+z+eItZdD5LrBZ8+let29CPxcrL2U3fRMlpEVZ+wFmZR8rZ1BFovXrBgL3adj7EX5/t7dQDadsbpnv9R68dlBds12VS96X//MutGLi9eLn6+Xpv9n6FovrlcZrtGr5n1Mz/7jsvcsO2e7Xc5fsyWja3mK7PzcObvbRERERERERERERET0N78+sODI0EMAAA==
   </data>
  </layer>
  <layer name="Shadow" width="70" height="62">
@@ -78,15 +78,20 @@
  </layer>
  <layer name="Collision" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TQQ6DIBBAUXv/03jDblscxMTCVHgkb4NNw3xxf23bDgAAAAAAcFO0ss/0D8oO+nx3iDpFbVq9ZulZ3o+oS7l3Nvss32Rrnf3m6v9kz9ijzd3nT+5Sa/WLbjN2iWaq7c3YpceqNXyC2ntdtUeve5I9jy5j25ztfT5r9c2eKavjlbuXfc6RPVozr9Yl+s7cl+Oc5fzRyj7zyPtSm1+XNecHAAAAAICe3q8cR1LQQwAA
+   H4sIAAAAAAAAA+3TWw6DIBBAUbv/1bjD/rY4PBLRafGQnB80hrnB/bVtOwAAAAAAwEnRyj7TLyg76PPdIeoUten1WqVneT+iLuVea/ZV/snear0z+p3sGa9oc/b5P3eptZrRbcUu0Uy1vVqv7DlmNJi5smea2WNGJ/ckbrICXcbatPY+n/X6Zs+U1XHk7mWf884evZmf1iX6z9yX45zl/NHKPvOd96U2vy7PnB8AAAAAAK70Bm7BSVPQQwAA
   </data>
  </layer>
- <objectgroup name="Object" width="70" height="62" visible="0">
+ <objectgroup name="Object" width="70" height="62">
   <object name="ToLevel1" type="warp" x="1536" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-1"/>
     <property name="dest_x" value="1952"/>
     <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+  <object name="ToLevel2" type="warp" x="736" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="000-2-2"/>
    </properties>
   </object>
  </objectgroup>
