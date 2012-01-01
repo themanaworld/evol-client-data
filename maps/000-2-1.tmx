@@ -11,10 +11,74 @@
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="96" tileheight="32">
   <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="50"/>
+    <property name="animation-delay1" value="40"/>
+    <property name="animation-delay2" value="35"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="40"/>
+    <property name="animation-delay5" value="35"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="2"/>
+    <property name="animation-frame5" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="animation-delay0" value="50"/>
+    <property name="animation-delay1" value="40"/>
+    <property name="animation-delay2" value="35"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="40"/>
+    <property name="animation-delay5" value="35"/>
+    <property name="animation-frame0" value="4"/>
+    <property name="animation-frame1" value="5"/>
+    <property name="animation-frame2" value="6"/>
+    <property name="animation-frame3" value="7"/>
+    <property name="animation-frame4" value="6"/>
+    <property name="animation-frame5" value="5"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="animation-delay0" value="50"/>
+    <property name="animation-delay1" value="40"/>
+    <property name="animation-delay2" value="35"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="40"/>
+    <property name="animation-delay5" value="35"/>
+    <property name="animation-frame0" value="8"/>
+    <property name="animation-frame1" value="9"/>
+    <property name="animation-frame2" value="10"/>
+    <property name="animation-frame3" value="11"/>
+    <property name="animation-frame4" value="10"/>
+    <property name="animation-frame5" value="9"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="animation-delay0" value="50"/>
+    <property name="animation-delay1" value="40"/>
+    <property name="animation-delay2" value="35"/>
+    <property name="animation-delay3" value="50"/>
+    <property name="animation-delay4" value="40"/>
+    <property name="animation-delay5" value="35"/>
+    <property name="animation-frame0" value="12"/>
+    <property name="animation-frame1" value="13"/>
+    <property name="animation-frame2" value="14"/>
+    <property name="animation-frame3" value="15"/>
+    <property name="animation-frame4" value="14"/>
+    <property name="animation-frame5" value="13"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="433" name="Candle" tilewidth="32" tileheight="64">
+ <tileset firstgid="401" name="Candle" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/Indoor/Candle.png" width="96" height="128"/>
   <tile id="0">
    <properties>
@@ -45,10 +109,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="439" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="407" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Box.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="455" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="423" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
@@ -58,22 +122,22 @@
  </layer>
  <layer name="Ground2" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2YzU5bMRCFfYW6QKxIRCRAWTRdFdhQugPxAGzZdUdfA9plyIb/tuEFSgIttKvSwpMAL9MzyphYjpPriCvl3uR80pGdiZmMThzPNcYQQgghhBBCCCGEEEIIIYQQki3r0GaKNkZWXb5I82oXqiTGvMI4Bc2pEHqO7aXkGBev0/aUMGt6/RHKOrrxkJc2R2itzRFTR95JdPR9sDEh5KXrQwxpOWLqyDuhPZWXOvy9nXcOUPAhdJR0Y98xv4BaGmtB7ZFUN340ofMM8vyBblV/M8iXN46x906gU2df3mD+C/rNfZk5WwP00hwh7pI+b+ScEure9mpv4/UldJV0+m/JdHtBzXR6QUXjRuNvTf/+ZXNUdO1rZ60wzPNAnhEv3wzYB76XS6brg8TFh2loFZqBqiqJvdOYn8P3fZy8FPr9ruahBdPrT1XjixGf4efwfY/JUQRKGZ9Nn6DPEeuGOROLcu8RL8vQTsaeZtk/ivKsXguclz/w+id0PeJ+Kh//wRTHyxj2oYbp9IkVHesaHxb522UTd1eVs/Wj6ZytReAMX/4X6OuAZ3X33vNex28aF6RP13XeMF2fZR7q0WvZlV84QveeC40L0qfFY+u59Vlifo92fZ4E/P9thO7P9m5tsd62vbk9B2wO6/N5IMck8Q+6g+69uNybrC/ilztvemtdnyeZB+gRevLi/e5N7jlgcX0m8Uzyb5gQQgghhBBCCCGEEELI6PkPYdZwnoRMAAA=
+   H4sIAAAAAAAAA+2XS04CQRCGixgXxpUQSdSwEFc+Nj52Gg/g1h07vYaPncjGrRAPoJzA50nUy1gVqqVTNEyjE5hh/i/505M/TdH5abqmiQAAAAAAAAAAAAAAAAAAAABIl0PWcYKOpra6bJGU1QWrWiKa53GOtaxi69e7TKgxK1kn7SlhiQbzESo6+n4oS1cjNNfViFlH1inpaHNwnhDK0s8hhqQaMevIOqE9lZV12L2ddW5Kg96d8Z5Y3YmsZvZpszop1HlmvaheU6iXNbAvJ8vJCP23RoiHwO+bB8q87lOzdn9fSv8tU78X1KnXC6rqk/qbNLx/uRpVnbvuzRXGeR/IMpLlxoh9YLPcon4O4ksOC6xd1iKrphJvTz1bw+Y+S1kKw/5XK6xVGsynpv5axHfYGjb3mBp5oJzy2XTFuo6YN86ZmJd7j2RZYZ2lnGma/SMv7+r1wHlp34mmhSyjQfnJMoZbVot6fWJHx6b64yKf3aa4u6qcrefUO1vzQMy7un/vOdDxXn1B+nRTn1vUz1meQz16/+/LzT2he8+j+oL0acnYZe5yFs/2aD/nImD3Zej+7O7WDpdt1zy7c8DVcDl3AjWKxBvrnfVhfLk3uVwkL/+5beb6OReZT9YX69v4w+5N/jng8HMG8RT5PwwAAAAAAAAAAAAAAABg+vwAtgTa94RMAAA=
   </data>
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YzUpCQRjGcUUqVxG1D8pdu3bdRnQr3UAUmrW31L6LPveFRAmVXUFdQndQtu0ZmAPTMGpZ6lH/P3g403s6wzmvozklEgAAAAAAAAAAAADirK6k7XhCGbdjU/voyR3FW9Sr6cC5kWT4mpdEuJfRHOnAuUGXU9a9WtbWI4vq56SXJeXJ9jmlY17HDZtNpdb5W++qFfusq87aKmpcUsq2tqVsK2/2vDkWbD3SqJcRMy7qWLIpK6+deKCYC63LU+XM+XlGvZr1knF6OaXxhY6XNlfefI+Bz4mqajXlucFnSNys2fvMOvd7pPGxctLkGa6VG682n/weV+YP/bjtk17i/1QDr/mOarvKHushFszLMKeken0jfabS5G/EwxCt7fc2r7tTj+6HqE/ormWtrQWvtq/agXLIukOP5Ozayzf5rl63dX//PPqLdWvmcPdOZi6zp//8wbWVAXx/RPtn/9mivvhM78Ya7OnNXP6efhD5/9toJeqL4X43cntn9u7n3nX+nh6NhdYq2lNo/SsAAAAAAAAAAABD5QuVEqknhEwAAA==
+   H4sIAAAAAAAAA+3XS07DMBSF4VQV0BFCMEeCzpgxYxuIrbABJkBhXggVVOJRXnNYATuAJbADKFOuJVtyrxxIQ8nz/6Qju25ipbduUkcRAAAAAAAAAAAAgDIbSzq2vyRZtH0z9lnIFZWbq9Vq4L25Vvic1yhcSzdHJ/Be3R1IDtXYvh13tqWeyyo7kmtb57a0PWmPbI4lL/9/6bnaC6ypnho7kZxK3u1r0/btuJNUS8f0Y2nPbAaSt1l9iAoJrcuR5NZ7vSa1WlfperVckf69tA82j2q+q8B3OpSxG8ko4R5SNmnWZciT5FmNbbYm4+v+oR6DitQSszPMuC6RH/N1bEjaRV9IxcQ/PCMuG7TGPzKedy41umhQnZCvXVlbW2qMZw+Klua/+ti2ev88P8X6NXP4eyczl9nTf6U4N67h78Ttn/Vnc3XRTO0W7LF6T2/m0nv6Opr2funqYvj/jfzamb37nTpP7+mRLLRWkU3/90MAAAAAAAAAAAAa5Rt2BR5qhEwAAA==
   </data>
  </layer>
  <layer name="Over" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Xy0oDMRSGz1jcKqJdi5eCCwUXFQQvG1vBqriwKu6tutGNrRt9KaHgC/gIPorg1nOYCY4hTTI06lz+D35mcpI5k/nJ5EIEAAAAAAAAAAAAAAAAAAAALjOqyoT0p8xehxxL7Shf/flrpF9bHu2eHPUHrDP2MmJNaEq3sfHs0Y9tyreXOx7tXD5IfS+Kx+Yca8j64Fgz+h6vPjlc7FM1vBxEP//zFt83NC/7lnkAXvrVqzabY+R4jeBlyBxV8PKc1XHo2PL8lcc7hCJ4Kevtm6XdqSNPlyVT4QKrxqonkthiErPl6CQ5TJywGqw2q0X59/JlzL3hrFbusa4zPF+31MlYXKNi7C99/vGs3LHuA+USLzco3z4KysthgDNLmgHrMVAuNUcWxUvh/T87YuGCtZvcl+Hcc0j2NfroF3Oo9UsowjruQvYrkxSvx1OsZdY0xd8pMd89kcohzy6x5lM5yrIncqF/56qhfoZij2VNv2HdajFp0x0xL38a3mGijF42DfXih+4xpWI498TgDOkmpJc1x76qCl7uUXw+W0muaanYgyNPiHHZN7xXL+f9DKm0rpXTsVF++3otKK9cPpn6opeLiu2bXF6bvCqrTyHwHdvwCgAAAAAAAAAAAAAAAPz5AnMywBGETAAA
+   H4sIAAAAAAAAA+2Xy0oDMRSGz1jcKqJdi5eCCwUXFQQvG1vBqriwKu6tutGNrRt9CaHgC/kIPorg1nOYCY4hTTI06lz+D35mcpI5k/nJ5EIEAAAAAAAAAAAAAAAAAAAALjOqyoT0p8xehxxL7Shf/flrpF9bHu2eHPUHrDP2MmJNaEq3sfHs0Y9tyreXOx7tXD5IfS+Kx+Yca8j64Fgz+h6vPjlc7FM1vBxEP//zFt83NC/7lnkAXvrVqzabY+R4jeBlyBxV8PKc1XHo2PL8lcc7hCJ4Kevtm6XdqSNPlyVT4QKrxqonkthiErPl6CQ5TJywGqw2q0X59/JlzL3hrFbusa4zPF+31MlYXKNi7C99/vGs3LHuA+USLzco3z4KysthgDNLmgHrMVAuNUcWxUvh/T87YuGCtZvcl+Hcc0j2NfroF3Oo9UsowjruQvYrkxSvx1OsZdY0xd8pMd89kcohzy6x5lM5yrIncqF/56qhfoZij2VNv2HdajFp0x0xL38a3mGijF42DfXih+4xpWI498TgDOkmpJc1x76qCl7uUXw+W0muaanYgyNPiHHZN7xXL+f9DKm0rpXTsVF++3otKK9cPpn6opeLiu2bXF6bvCqrTyHwHdvwCgAAAAAAAAAAAAAAAPz5Atp0PvSETAAA
   </data>
  </layer>
  <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SSw6DMAxAQXr/i3GsqotuEKQxODWfiTQSQm3Aj8yvaZoBAAAAAAAAIOCzqt/hLlotn9T5u1rX/2q5XNVt9rbcWmfYo7pRtGXrurrlFXtWdrhLy+Us0XPZ2jPje1655ZEZ9v5/69l36dgz38hV3WV0y975M/e6moy5s1d1k4yWI7rsWdVNss/j2u+P7hF9j+pG0ZaR6+W9VuNR3/SMembomXFt5mjL1rOqO2Wfy0jrrb7O5e8Zj3bQUsvM3k/qUN1aSwAAAACAmDdtU5QPhEwAAA==
+   H4sIAAAAAAAAA+3SSw6DMAxAQXr/i3DMqotuEKQxODWfiTQSQm3Aj8yvaZoBAAAAAAAAIOCzqt/hLlotn9T5u1rX/2q5XNVt9rbcWmfYo7pRtGXrurrlFXtWdrhLy+Us0XPZ2jPje1655ZEZ9v5/69l36dgz38hV3WV0y975M/e6moy5s1d1k4yWI7rsWdVNss/j2u+P7hF9j+pG0ZaR6+W9VuNR3/SMembomXFt5mjL1rOqO2Wfy0jrrb7O5e8Zj3bQUsvM3k/qUN1aSwAAAACAmDeFIWDKhEwAAA==
   </data>
  </layer>
  <objectgroup name="Object" width="83" height="59" visible="0">
