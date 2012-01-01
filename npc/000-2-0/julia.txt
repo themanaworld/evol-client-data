@@ -15,25 +15,25 @@
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
   mesn;
-  mesq g(l("Hello, girl!"), l("Hello, stranger!"));
+  mesq g(l("Hello, girl!"), l("Hello, boy!"));
   mesq l("What do you want today?");
-  set @s$, l("I don't want change my language, sorry.");
+  set @s$, l("I don't want to change my language, sorry.");
   l_Menu:
   menu
     g(l("I made a mistake, I would like to change my language.#0"), l("I made a mistake, I would like to change my language.#1")), l_ChooseLang,
-    l("Do you know some interesting people around here?"), l_People,
-    l("Where are we?"), l_Where,
-    l("Nothing, sorry"), l_Close;
+    l("Could you explain me where I am?"), l_WhereIam,
+    l("What happened to me?"), l_What,
+    l("Nothing, sorry."), l_Close;
     mesn;
-    mesq l("Of course! Tell me which language you speak.");
+    mesq l("Of course! Tell me which language you speak and I will change the note on the ship board list.");
     goto l_ChooseLang;
 
   l_First:
     seta2 ShipQuests, ShipQuests_Julia, 1;
     mesn;
-    mesq g(l("Hello, girl!"), l("Hello, stranger!"));
-    mesq l("I'm Julia, my job is to register every body which enter or exit the ship.");
-    mesq l("Could I ask you which language do you talk? Like that I add you on the list.");
+    mesq l("Hi, nice to see you!");
+    mesq l("I'm called Julia, it's me which took care of you during some days, when we find you back on the sea, I'm very happy to see that you seem okay now!");
+    mesq l("Could I ask you which language do you talk? Like that I add you on the ship board list.");
     set @s$, "";
     goto l_ChooseLang;
 
@@ -54,34 +54,47 @@
     if (@lang < 0 || @lang > 9) close;
     setlang @lang;
     mesn;
-    mesq l("Ok, Done. You need something else?");
+    mesq l("Ok, Done. Do you got an other question for me?");
+    goto l_YNMenu;
+    close;
+
+  l_OtherQuestion:
+    mesn;
+    mesq l("Do you got an other question for me?");
     goto l_YNMenu;
     close;
 
   l_NoChanges:
     mesn;
-    mesq l("No problem, do you need something else?");
+    mesq l("No problem, Do you got an other question for me?");
+
   l_YNMenu:
     menu
       l("Yes, please!"), l_Menu,
       l("No, thanks!"), -;
     close;
 
-  l_People:
+  l_WhereIam:
     mesn;
-    mesq l("Let me think...");
+    mesq l("You are actually on a ship, we make our way to the commercial capital of Artis. ");
+    mesq l("We should be there in some days now, and once we arrive, I will advertise the warrior guild of what happened, I'm sure that they can help you. ");
     next;
     mesn;
-    mesq g(l("You should go see the sailors around here.#0"), l("You should go see the sailors around here.#1")) + " " + l("They are really nice and may help you much more than me.");
+    mesq l("But until, you need to stay here, there is no other things to do anyway.");
     next;
-    mesn;
-    mesq l("There is also Enora on the docks, it will be a pleasure for her to help you!", l("Enora"));
-    goto l_Menu;
+    goto l_OtherQuestion;
 
-  l_Where:
+  l_What:
     mesn;
-    mesq l("We are at Artis, it's a big port-city, many beginners start their adventure here.", l("Enora")) + " " + g(l("Maybe you will be the next?#0"), l("Maybe you will be the next?#1"));
-    goto l_Menu;
+    mesq l("We though that you would had help us to know this, all that we know is that we find you back on the sea, adrifting one your raft.");
+    mesq l("You were in a bad mood and you can be happy that we find you before that the sea takes you.");
+    mesq l("Also, there was this inscription on your raft, the one of the warrior guild of Esperia, the larger and bigger guild of the whole new world, does it remember you something?");
+    next;
+    goto l_EsperiaMenu;
+
+  l_EsperiaMenu:
+  menu
+    l("Sorry but I can't say you anything about it.") + " " + l("Nothing, sorry."), l_NoChanges;
 
   l_Close:
     close;
