@@ -74,7 +74,6 @@ l_Empty:
 000-2-1.gat,39,33,0,1	script	Magic_Arpan	307,{
 OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
-    mes @q;
     mesn;
     if (@q > 0) goto l_Menu;
     mes g(l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#0"), l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#1"));
