@@ -1,0 +1,135 @@
+// Evol scripts.
+// Authors:
+//    Ablu
+// Description:
+//    Magic_Arpan which tells new player how they came here.
+//    A box with clothes for every new player.
+// Variable:
+//    ShipQuests_Arpan
+// Values:
+//    0: Have not talked to Arpan yet
+//    1: Talked to Arpan. Need to get cloths
+//    2: Got cloths
+//    3: Got cloths + equipped them
+
+000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    if (@q == 0) doevent "Magic_Arpan::OnTalk";
+    close;
+}
+
+000-2-1.gat,44,36,0,1	script	RightDoorCheck	0,0,0,{
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    if (@q == 0) doevent "Magic_Arpan::OnTalk";
+    close;
+}
+
+000-2-1.gat,37,32,0,1	script	LeftBarrierCheck	0,0,1,{
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    if (@q > 2) close;
+    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs)) goto l_EquipDone;
+    if (@q == 1) goto l_GetCloth;
+    mes "b";
+    doevent "Magic_Arpan::OnClothNotTaken";
+    //doevent "Magic_Arpan::OnEquip";
+    warp "000-2-1.gat", 39, 32;
+    close;
+
+l_GetCloth:
+    warp "000-2-1.gat", 39, 32;
+    doevent "Magic_Arpan::OnClothNotTaken";
+    close;
+
+l_EquipDone:
+    seta2 ShipQuests, ShipQuests_Arpan, 3;
+    close;
+}
+
+000-2-1.gat,41,37,0,1	script	Box	999,{
+    mesn l("Box");
+	set @q, geta2(ShipQuests, ShipQuests_Arpan);
+	if (@q == 1) goto l_Give;
+    if (@q > 1) goto l_Empty;
+    mes l("The box is locked.");
+    close;
+    
+l_Give:
+    mes l("You see some items in the box. Pick them up?");
+    menu
+        l("Yes."), -,
+        l("No."), l_Close;
+    seta2 ShipQuests, ShipQuests_Arpan, 2;
+    getitem 1300, 1;
+    getitem 2200, 1;
+
+l_Close:
+    close;
+
+l_Empty:
+    mes l("The box is locked.");
+    close;
+}
+
+
+000-2-1.gat,39,33,0,1	script	Magic_Arpan	307,{
+OnTalk:
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    mes @q;
+    mesn;
+    if (@q > 0) goto l_Menu;
+    mes g(l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#0"), l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#1"));
+    seta2 ShipQuests, ShipQuests_Arpan, 1;
+    menu
+        g(l("I just remember that you rescued me.#0"), l("I just remember that you rescued me.#1")), l_Story,
+        g(l("I don't remember of anything.#0"), l("I don't remember of anything.#1")), l_OhWell;
+    close;
+
+OnClothNotTaken:
+    mesn;
+    mes g(l("Hey, you still not get your cloths!#0"), l("Hey, you still not get your cloths!#1"));
+    close;
+
+OnEquip:
+    mes "a";
+    mesn;
+    mes g(l("Open your inventory (F3 key), select these cloths one by one and equip them.#0"), l("Open your inventory (F3 key), select these cloths one by one and equip them.#1"));
+    close;
+
+l_OhWell:
+    mes g(l("Oh well, we rescue you when you were adrift on the sea.#0"), l("Oh well, we rescue you when you were adrift on the sea.#1"));
+
+l_Story:
+    mes g(l("You were sleeping during some days, our shipkeeper, Julia, were here with you, she did her best to fix your wound during this time.#0"), l("You were sleeping during some days, our shipkeeper, Julia, were here with you, she did her best to fix your wound during this time.#1"));
+    next;
+    mes g(l("Oh, you should go see her! She will be happy to see you.#0"), l("Oh, you should go see her! She will be happy to see you.#1"));
+    next;
+    mes g(l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#0"), l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#1"));
+l_Menu:
+    menu
+        l("Could you say me where am I?"), l_Where,
+        l("Where can I found this Julia?"), l_Julia,
+        l("Who are you?"), l_Who,
+        l("Thank you, I go take them."), l_Quit;
+    close;
+
+l_Where:
+    mesn;
+    mes g(l("You are on our ship, we are actually ending our long merchant traveling to the city of Artis!#0"), l("You are on our ship, we are actually ending our long merchant traveling to the city of Artis!#1"));
+    next;
+    mes g(l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#0"), l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#1"));
+    goto l_Menu;
+
+l_Julia:
+    mes g(l("She is on the upper level, you can't miss her, she is the only girl of this crew, oh well, except you now!"), l("She is on the upper level, you can't miss her, she is the only girl of this crew."));
+    next;
+    mes g(l("You can take to your right to go on this upper level.#0"), l("You can take to your right to go on this upper level.#1"));
+    next;
+    goto l_Menu;
+
+l_Who:
+    mes l("Sorry! I forget to present myself, I'm called Arpan, but other sailors call me Magic_Arpan because that I know one or two magic spells.");
+    goto l_Menu;
+
+l_Quit:
+    close;
+}
