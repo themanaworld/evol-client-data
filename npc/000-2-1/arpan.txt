@@ -30,8 +30,8 @@
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs)) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
     doevent "Magic_Arpan::OnClothNotTaken";
-    //doevent "Magic_Arpan::OnEquip";
     warp "000-2-1.gat", 39, 32;
+    doevent "Magic_Arpan::OnEquip";
     close;
 
 l_GetCloth:
@@ -50,8 +50,8 @@ l_EquipDone:
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs)) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
     doevent "Magic_Arpan::OnClothNotTaken";
-    //doevent "Magic_Arpan::OnEquip";
     warp "000-2-1.gat", 45, 32;
+    doevent "Magic_Arpan::OnEquip";
     close;
 
 l_GetCloth:
@@ -152,7 +152,7 @@ l_Who:
     goto l_Menu;
 
 l_WhatCloth:
-    mes l("Click on your inventory icons or press F3, and equip them with clicking on the icon and press 'Equip'.");
+    mes g(l("Open your inventory (F3 key), select these cloths one by one and equip them.#0"), l("Open your inventory (F3 key), select these cloths one by one and equip them.#1"));
     next;
     goto l_Menu;
 
