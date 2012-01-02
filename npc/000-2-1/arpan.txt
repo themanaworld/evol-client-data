@@ -27,7 +27,7 @@
 000-2-1.gat,37,32,0,1	script	LeftBarrierCheck	0,0,2,{
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q > 2) close;
-    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs)) goto l_EquipDone;
+    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
     doevent "Magic_Arpan::OnClothNotTaken";
     warp "000-2-1.gat", 39, 32;
@@ -47,7 +47,7 @@ l_EquipDone:
 000-2-1.gat,46,32,0,1	script	RightBarrierCheck	0,0,2,{
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q > 2) close;
-    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs)) goto l_EquipDone;
+    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
     doevent "Magic_Arpan::OnClothNotTaken";
     warp "000-2-1.gat", 45, 32;
@@ -123,12 +123,13 @@ l_Story:
     mes g(l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#0"), l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#1"));
 l_Menu:
     mes l("What yeye could I do for you today?");
+    set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
     menu
         l("Could you say me where am I?"), l_Where,
         l("Where can I found this Julia?"), l_Julia,
         l("Who are you?"), l_Who,
-        l("What should I add after taking these cloths?"), l_WhatCloth,
-        l("Thank you, I go take them."), l_Quit;
+        rif(!@equipped, l("What should I add after taking these cloths?")), l_WhatCloth,
+        rif(!@equipped, l("Thank you, I go take them."), l("Nothing, sorry.")), l_Quit;
     close;
 
 l_Where:
