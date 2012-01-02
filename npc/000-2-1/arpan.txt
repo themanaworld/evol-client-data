@@ -69,7 +69,7 @@ l_EquipDone:
 	set @q, geta2(ShipQuests, ShipQuests_Arpan);
 	if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Empty;
-    mes l("This box is locked.");
+    mes l("This box is empty.");
     close;
     
 l_Give:
@@ -85,7 +85,7 @@ l_Close:
     close;
 
 l_Empty:
-    mes l("This box is empty.");
+    mes l("This box is locked.");
     close;
 }
 
