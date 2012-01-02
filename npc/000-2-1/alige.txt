@@ -26,8 +26,7 @@
       // OnTouch will not be called otherwise when OnTouchFirst got called
       goto OnTouch;
     OnUnTouchAll:
-      setnpcdir "Alige", 4
-      ;
+      setnpcdir "Alige", 4;
       stopnpctimer;
       initnpctimer;
       close;
@@ -41,9 +40,13 @@
 000-2-1.gat,33,31,0,1	script	Alige	301,{
 
   set @q, geta2(ShipQuests, ShipQuests_Alige);
-  if (@q) goto l_AskForFood;
+  if (@q == 2) goto l_AskForFood;
+  goto OnFirstEncounter;
 
   OnFirstEncounter:
+    seta2 ShipQuests, ShipQuests_Alige, 1;
+
+  l_Talk:
     mesn l("Hidden person");
     mesq l("Hey, psst! You're not a sailor, right?");
 
@@ -55,6 +58,7 @@
     close;
 
   l_NeedHelp:
+
     mesn l("Hidden person");
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease... ");
     
@@ -94,6 +98,10 @@
 
     next;
 
+    if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
+
+    goto l_Accept;
+
   l_AboutReward:
 
     mesn;
@@ -112,12 +120,12 @@
     mesn;
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a fame city through our world... But hey oh, return to topic! I'm hungry!");
     next;
-    if (@q) goto l_AskForFood;
+    if (@q == 2) goto l_AskForFood;
     goto l_Accept;
 
   l_Accepted:
 
-    seta ShipQuests, ShipQuests_Alige, 1;
+    seta2 ShipQuests, ShipQuests_Alige, 2;
     mesn;
     mesq l("Perfect, which food did you get for me today?");
     next;
