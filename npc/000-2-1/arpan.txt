@@ -128,6 +128,7 @@ l_Menu:
         l("Could you say me where am I?"), l_Where,
         l("Where can I found this Julia?"), l_Julia,
         l("Who are you?"), l_Who,
+        rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
         rif(!@equipped, l("What should I add after taking these cloths?")), l_WhatCloth,
         rif(!@equipped, l("Thank you, I go take them."), l("Nothing, sorry.")), l_Quit;
     close;
@@ -138,6 +139,15 @@ l_Where:
     next;
     mes g(l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#0"), l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#1"));
     next;
+    goto l_Menu;
+
+l_WhereOldClothes:
+    mesn;
+    mes g(l("We tried to clean them but the water sea mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."),  l("We tried to clean them but the water sea mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."));
+    next;
+    mes g(l("Oh, now that I remember, we also find some money on your pockets, here they are!"), l("Oh, now that I remember, we also find some money on your pockets, here they are!"));
+    seta ShipQuests, ShipQuests_ArpanMoney, 1;
+    set zeny, zeny+25;
     goto l_Menu;
 
 l_Julia:
