@@ -6,6 +6,7 @@
 
 000-2-0.gat,20,23,0,0	script	Frederico	311,{
     mesn;
+    if (!rand(4)) goto l_Hips;
     mesq l("You?? Here??");
     mesq l("How is *hips* possible??");
     next;
@@ -45,6 +46,11 @@ l_Secret:
     next;
     mesq l("Nobody! *hurps*");
     next;
+    goto l_Quit;
+
+l_Hips:
+    mesq "*hips*";
+    close;
 
 l_Quit:
     mesn;
