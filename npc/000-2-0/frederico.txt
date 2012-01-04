@@ -1,0 +1,64 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Drunken easteregg about player's past activity
+
+000-2-0.gat,20,23,0,0	script	Frederico	311,{
+  mesn;
+  mesq l("You?? Here??");
+  mesq l("How is *hips* possible??");
+  next;
+  mesn l("The sailor is drinking his beer in one shoot");
+
+  menu
+    g(l("Excuse me? Do you know who I am?#0"), l("Excuse me? Do you know who I am?#1")), -;
+
+  mesn;
+  mesq l("Don't do do theee... *hips* with me eh!");
+
+  menu
+    l("Are you ok?"), l_Quit,
+    l("Alright, bye!"), -;
+
+  mesn;
+  mesq g(l("NO and *hips* NO, you and you and your... *hurps* stupi*hips* guild!#0"), l("NO and *hips* NO, you and you and your... *hurps* stupi*hips* guild!#1"));
+  mesq l("You tried to get ride of me eeh?? But suprise! I'm still here...*hips* Or there....");
+  next;
+  mesn;
+  mesq l("But you won't *hips* me this time...");
+
+  menu
+    l("What are you talking about? Which guild?"), l_Quit,
+    l("You are full of wine my friend..."), -,
+    l("You should go and get some sleep."), l_Quit;
+
+  mesn;
+  mesq l("If I saw *hips* who you wereee.... *hips* Would not had help you! ");
+
+  menu
+    l("But who am I?"), -,
+    l("What am I suposed to say?"), l_Quit,
+    l("You should go and get some sleep."), l_Secret;
+
+  mesn;
+  mesq l("The giant bogeyman!");
+  next;
+  goto l_Quit;
+
+	l_Secret:
+    mesn;
+	 mesq l("Hear  me *hips* well, what ever, whatididever you will*hips*said  ab...euh..out wha?! You saw there, the Guild of Esperia won't let it go to public.");
+	 mesq l("Nobody will know about the existence of the Mercurians");
+    next;
+	 mesq l("Nobody! *hurps*");
+    next; 
+
+	l_Quit:
+    mesn;
+	 mesq l("Yeah you're all like *hips* that in Esperia, but you won't get me! *hurps*");
+	 mesq l("I'm not that numb eeh *hips* what did ever you disco*hips*veeered there, the warrior guild won't get me!");
+    next;
+	 mesn l("The sailor is turning his back to you");
+	 close;
+}
