@@ -38,16 +38,15 @@
 }
 
 000-2-1.gat,60,35,0,1	script	Peter	303,{
-  
   set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
   if (@q_julia == 0) goto l_TalkToJulia;
 
   if (BaseLevel < 5) goto OnTooWeak;
-  
+
   mesn;
   mesq g(l("Hey, girl!"), l("Hey, man!"));
   next;
-  
+
   set @q, geta4(ShipQuests, ShipQuests_Peter);
 
   // If player is here but has not finished the quest he aborted it since he
@@ -103,7 +102,7 @@
 
   OnCheck:
     stopnpctimer;
-   
+
     mesn;
     mesq l("Let me see your work...");
     next;
@@ -128,7 +127,7 @@
       l("What? This reward is too small!"), l_Close;
     if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
     seta4 ShipQuests, ShipQuests_Peter, 2;
-    goto l_Start; 
+    goto l_Start;
 
   l_Task:
     if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
@@ -159,7 +158,7 @@
 
   l_KillHelper:
     set $@RAT_SAILOR_HELPER$, "";
-    close;    
+    close;
 
   l_Reward:
     mesn;

@@ -58,10 +58,9 @@
     close;
 
   l_NeedHelp:
-
     mesn l("Hidden person");
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease... ");
-    
+
     menu
         l("Why not... but, who are you?") + l(" And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
@@ -71,20 +70,18 @@
     close;
 
   l_CanHelp:
-
     mesn;
     mesq l("I'm called Alige, and I'm hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
-    next; 
+    next;
 
     mesn;
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
-    
+
     menu
       l("Okay, but what do you offer me?"), l_AboutReward,
       l("Why are you hiding? ") + " " + l("Why not going outside to talk?"), -;
 
   l_ExplainHiding:
-
     mesn;
     mesq l("No, I'm not, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
@@ -103,13 +100,11 @@
     goto l_Accept;
 
   l_AboutReward:
-
     mesn;
     mesq l("I'll share my berries with you, if you help me.");
     next;
 
   l_Accept:
-
     menu
       l("Ok, I'll help you."), l_Accepted,
       l("What is Artis?"), l_Artis,
@@ -124,7 +119,6 @@
     goto l_Accept;
 
   l_Accepted:
-
     seta2 ShipQuests, ShipQuests_Alige, 2;
     mesn;
     mesq l("Perfect, which food did you get for me today?");
@@ -132,7 +126,6 @@
     goto l_GiveFood;
 
   l_GiveFood:
-    
     menu
         rif(countitem(502, 1), l(getitemname(502))), 502,
         rif(countitem(503, 1), l(getitemname(503))), 503,
