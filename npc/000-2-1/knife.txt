@@ -9,11 +9,11 @@
 //    0   default -> not taken
 //    1   knife taken
 
-000-2-1.gat,39,25,0,2	script	#name	100,{
+000-2-1.gat,40,24,0,2	script	#name	100,{
     set @q, geta(ShipQuests, ShipQuests_Knife);
     if (@q) close;
-    mesn l("Knife on the table");
-    mes l("Take the knife?");
+    mesn l("Knifes on the table");
+    mes l("There is some knifes on the table, do you want to take one?");
     menu
         l("Yes."), l_Give,
         l("No."), -;

@@ -94,7 +94,8 @@
 
   l_EsperiaMenu:
   menu
-    l("Sorry but I can't say you anything about it.") + " " + l("Nothing, sorry."), l_NoChanges;
+    l("Sorry but I can't say you anything about it."), l_NoChanges,
+    l("Nothing, sorry."), l_NoChanges;
 
   l_Close:
     close;
