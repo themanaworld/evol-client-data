@@ -4,7 +4,7 @@
 
 IDs 100-300 = Unanimated
 IDs 301-900 = Animated
-IDs 901-999 = Special
+IDs 990-999 = Special
 -->
 <npcs>
 <!-- Unanimated NPCs -->
@@ -53,6 +53,10 @@ IDs 901-999 = Special
     <npc id="310">
 		  <!-- Ukar-Man, sleeping sailor. -->
 		  <sprite variant="0">npcs/XML1/hammock.xml</sprite>
+	 </npc>
+    <npc id="311">
+		  <!-- Elf-Man, drunken sailor. -->
+		  <sprite>npcs/XML1/frederico.xml</sprite>
 	 </npc>
 
 <!-- Special NPCs -->
