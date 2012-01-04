@@ -6,7 +6,7 @@
 
 000-2-0.gat,20,23,0,0	script	BillyBons	311,{
     mesn;
-    if (!rand(4)) goto l_Hips;
+    if (rand(5)==2) goto l_Hips;
     mesq l("You?? Here??");
     mesq l("How is *hips* possible??");
     next;
