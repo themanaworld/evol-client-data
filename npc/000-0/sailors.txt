@@ -12,18 +12,32 @@ OnTouch:
   mesn l("You are on a raft, adrift in the sea. You don't remember anything before this. You can hear a voice from the sky. As you open your eyes and look around, you see a large ship. Some sailors are trying to talk to you..");
   next;
 
-  mesn;
-  mesq g(l("Hey lady!"), l("Hey man!"));
+  mesn l("Orc Voice");
+  mesq g(l("Hey frenchy!#0"), l("Hey frenchy!#1"));
   next;
 
-  mesq l("Hey! Do you hear me? Are you okay?");
+  mesn "Elfen Voice";
+  mesq g("Why frenchy? It's a russian!#0", l"Why frenchy? It's a russian!#1");
   next;
 
-  menu
-    l("*Try to move your hand to show them that you're alive*"), -,
-    l("*Don't move at all*"), -;
-
+  mesn "Tritan Voice";
+  mesq "What do you say guys, it's a yoiis!";
   next;
+
+  mesn l("Raijin Voice");
+  mesq g("You stupid, it's an english, look her head form.", l"You stupid, it's an english, look his head form.");
+  mesq l("Hey you! Do you hear me? Are you okay?");
+  next;
+
+//  menu
+//    "I hear you") + " (English)", -,
+//    "Je t'entends") + " (Français)", -,
+//    "Ti sento") + " (Italiano)", -,
+//    "Да я вас слышу") + " (Русский)", -,
+//    "I höre euch") + " (Deutsch)", -,
+//    "I speak Flemish") + " (West-Vloams)", -,
+//    "I speak Spanish") + " (Español)", -,
+//    "*Don't move at all*") + " (English)", -;
 
   mesn;
   mesq g(l("This girl needs rescuing, let's help her!"),
