@@ -17,7 +17,7 @@ OnTouch:
   next;
 
   mesn "Elfen Voice";
-  mesq g("Why frenchy? It's a russian!#0", l"Why frenchy? It's a russian!#1");
+  mesq g("Why frenchy? It's a russian!#0", "Why frenchy? It's a russian!#1");
   next;
 
   mesn "Tritan Voice";
@@ -25,19 +25,23 @@ OnTouch:
   next;
 
   mesn l("Raijin Voice");
-  mesq g("You stupid, it's an english, look her head form.", l"You stupid, it's an english, look his head form.");
-  mesq l("Hey you! Do you hear me? Are you okay?");
+  mesq g("You stupid, it's an english, look her head form.", "You stupid, it's an english, look his head form.");
+  mesq l("Hey you! Do you hear us? Are you okay?");
   next;
 
-//  menu
-//    "I hear you") + " (English)", -,
-//    "Je t'entends") + " (Français)", -,
-//    "Ti sento") + " (Italiano)", -,
-//    "Да я вас слышу") + " (Русский)", -,
-//    "I höre euch") + " (Deutsch)", -,
-//    "I speak Flemish") + " (West-Vloams)", -,
-//    "I speak Spanish") + " (Español)", -,
-//    "*Don't move at all*") + " (English)", -;
+  menu
+    "I hear you..." + " (English)", -,
+    "Je vous entends..." + " (Français)", -,
+    "Ti sento..." + " (Italiano)", -,
+    "Да я вас слышу..." + " (Русский)", -,
+    "I höre euch..." + " (Deutsch)", -,
+    "Ik hoor je..." + " (Nederlands)", -,
+    "'k hoar ui wel..." + " (West-Vloams)", -,
+    "Te oigo..." + " (Español)", -,
+    "*Don't move at all*" + " (English)", -;
+    set @lang, @menu-1;
+    if (@lang < 0 || @lang > 9) close;
+    setlang @lang;
 
   mesn;
   mesq g(l("This girl needs rescuing, let's help her!"),

@@ -73,7 +73,7 @@ l_EquipDone:
     close;
 
 l_Give:
-    mes l("You see some items in the box. Pick them up?");
+    mes l("You see some items in the box. Take them out?");
     menu
         l("Yes."), -,
         l("No."), l_Close;
@@ -95,49 +95,49 @@ OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     mesn;
     if (@q > 0) goto l_Menu;
-    mes g(l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#0"), l("Hey, you are really lucky to be alive and in enough good health for walking, do you remember what happened?#1"));
+    mes g(l("Yeye, you are really lucky to be alive. You are in good enough shape for walking-do you remember what happened?#0"), l("Yeye, you are really lucky to be alive. You are in good enough shape for walking-do you remember what happened?#1"));
     seta2 ShipQuests, ShipQuests_Arpan, 1;
     menu
-        g(l("I just remember that you rescued me.#0"), l("I just remember that you rescued me.#1")), l_Story,
-        g(l("I don't remember of anything.#0"), l("I don't remember of anything.#1")), l_OhWell;
+        g(l("I only remember I was rescued by you.#0"), l("I only remember I was rescued by you.#1")), l_Story,
+        g(l("I can't remember anything.#0"), l("I don't remember of anything.#1")), l_OhWell;
     close;
 
 OnClothNotTaken:
     mesn;
-    mes g(l("Hey, you still not get your cloths!#0"), l("Hey, you still not get your cloths!#1"));
+    mes g(l("Yeye, you still did not get your clothes!#0"), l("Yeye, you still did not get your clothes!#1"));
     close;
 
 OnEquip:
     mesn;
-    mes g(l("Open your inventory (F3 key), select these cloths one by one and equip them.#0"), l("Open your inventory (F3 key), select these cloths one by one and equip them.#1"));
+    mes g(l("Open your inventory (F3 key), select the clothes one by one and equip them.#0"), l("Open your inventory (F3 key), select the clothes one by one and equip them.#1"));
     close;
 
 l_OhWell:
-    mes g(l("Oh well, we rescue you when you were adrift on the sea.#0"), l("Oh well, we rescue you when you were adrift on the sea.#1"));
+    mes g(l("Oh well, we rescued you when you were yaying adrift on sea.#0"), l("Oh well, we rescued you when you were yaying adrift on sea.#1"));
 
 l_Story:
-    mes g(l("You were sleeping during some days, our shipkeeper, Julia, were here with you, she did her best to fix your wound during this time.#0"), l("You were sleeping during some days, our shipkeeper, Julia, were here with you, she did her best to fix your wound during this time.#1"));
+    mes g(l("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.#0"), l("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.#1"));
     next;
-    mes g(l("Oh, you should go see her! She will be happy to see you.#0"), l("Oh, you should go see her! She will be happy to see you.#1"));
+    mes g(l("Yaya, you should go see her! She will be happy to see you.#0"), l("Yaya, you should go see her! She will be happy to see you.#1"));
     next;
-    mes g(l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#0"), l("Also, we took your cloths, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some cloths inside.#1"));
+    mes g(l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#0"), l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#1"));
 l_Menu:
     mes l("What yeye could I do for you today?");
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
     menu
-        l("Could you say me where am I?"), l_Where,
-        l("Where can I found this Julia?"), l_Julia,
+        g(l("Could you tell me where am I?#0"), l("Could you tell me where am I?#1")), l_Where,
+        g(l("Where can I find Julia?#0"), l("Where can I find Julia?#1")), l_Julia,
         l("Who are you?"), l_Who,
         rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
-        rif(!@equipped, l("What should I add after taking these cloths?")), l_WhatCloth,
-        rif(!@equipped, l("Thank you, I go take them."), l("Nothing, sorry.")), l_Quit;
+        rif(!@equipped, g(l("What should I add after taking these clothes?#0"), l("What should I add after taking these clothes?#1"))), l_WhatCloth,
+        rif(!@equipped, l("Thank you, I'll take them."), l("Nothing, sorry.")), l_Quit;
     close;
 
 l_Where:
     mesn;
-    mes g(l("You are on our ship, we are actually ending our long merchant traveling to the city of Artis!#0"), l("You are on our ship, we are actually ending our long merchant traveling to the city of Artis!#1"));
+    mes g(l("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.#0"), l("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.#1"));
     next;
-    mes g(l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#0"), l("We will be there in some days, so it's there that we will depose you. You will see, citizens are polite and you can still ask for help in the warrior guild, they can found you a job or maybe to help you to found what happened to you on the sea!#1"));
+    mes g(l("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!#0"), l("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out atsea!#1"));
     next;
     goto l_Menu;
 
@@ -151,19 +151,19 @@ l_WhereOldClothes:
     goto l_Menu;
 
 l_Julia:
-    mes g(l("She is on the upper level, you can't miss her, she is the only girl of this crew, oh well, except you now!"), l("She is on the upper level, you can't miss her, she is the only girl of this crew."));
+    mes g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"), l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
     next;
-    mes g(l("You can take to your right to go on this upper level.#0"), l("You can take to your right to go on this upper level.#1"));
+    mes g(l("You can go to your right to go on this upper level.#0"), l("You can go to your right to go on this upper level.#1"));
     next;
     goto l_Menu;
 
 l_Who:
-    mes l("Sorry! I forget to present myself, I'm called Arpan, but other sailors call me Magic Arpan because that I know one or two magic spells.");
+    mes l("Sorry! I forgot to introduce myself. My name is Arpan, but other sailors call me Magic Arpan because I know one or two yaing magic spells.");
     next;
     goto l_Menu;
 
 l_WhatCloth:
-    mes g(l("Open your inventory (F3 key), select these cloths one by one and equip them.#0"), l("Open your inventory (F3 key), select these cloths one by one and equip them.#1"));
+    mes g(l("Open your inventory (F3 key), select the clothes one by one and equip them.#0"), l("Open your inventory (F3 key), select the clothes one by one and equip them.#1"));
     next;
     goto l_Menu;
 
