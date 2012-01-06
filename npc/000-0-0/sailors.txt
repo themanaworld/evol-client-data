@@ -46,6 +46,7 @@ OnTalk:
     mes g(l("OK, I think she's waking up, go see her."), l("OK, I think he's waking up, go see him."));
     next;
     warp "000-2-1.gat", 40, 38;
+    savepoint "000-2-1.gat",40,38;
     close;
 }
 

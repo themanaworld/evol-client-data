@@ -1,0 +1,38 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    End of intro with Nard and Elmo talking about the player.
+
+000-2-3.gat,20,26,0,0	script	AreaTop	0,1,0,{
+OnTouch:
+    mesn "Elmo";
+    mesq g(l("So it's why we wanted to warn you, maybe she comes from this guild, as the sign was on her raft."), l("So it's why we wanted to warn you, maybe he comes from this guild, as the sign was on his raft."));
+    next;
+    mesn "Captain Nard";
+    mesq g(l("I see, warn other sailors about this. But if she is a part of Guild, then she is also our ally."), l("I see, warn other sailors about this. But if he is a part of Guild, then he is also our ally."));
+    next;
+    mesn "Elmo";
+    mesq l("I will.");
+    next;
+    mesq l("About the Guild of Esperia, I wonder what we can think abou them if I can say my opinion. Some rumors say that they did some monstruos things and that they are hidding us a lot of things.");
+    next;
+    mesn "Captain Nard";
+    mesq l("This kind of talk could be punished, but I agree that I don't specially like them too, ") + g(l("keep an eye on her.#0"), l("keep an eye on him.#1"));
+    next;
+    mesq l("But if he is amnesic as said Julia, we won't need to worry about him.");
+    next;
+    mesn "Elmo";
+    mesq l("Sure, cap'tain.");
+    close;
+}
+
+000-2-3.gat,21,27,0,0	script	AreaMiddle	0,1,0,{
+    doevent "AreaTop::OnTouch";
+    close;
+}
+
+000-2-3.gat,20,28,0,0	script	AreaBotton	0,0,0,{
+    doevent "AreaTop::OnTouch";
+    close;
+}
