@@ -1,11 +1,14 @@
 // Evol scripts.
 // Authors:
 //    Reid
+//    Ablu
 // Description:
 //    End of intro with Nard and Elmo talking about the player.
 
 000-2-3.gat,20,26,0,0	script	AreaTop	0,1,0,{
 OnTouch:
+    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
+    seta ShipQuests, ShipQuests_Door, 1;
     mesn "Elmo";
     mesq g(l("So it's why we wanted to warn you, maybe she comes from this guild, as the sign was on her raft."), l("So it's why we wanted to warn you, maybe he comes from this guild, as the sign was on his raft."));
     next;
@@ -29,6 +32,8 @@ OnTouch:
 
 000-2-3.gat,21,27,0,0	script	AreaMiddle	0,0,0,{
 OnTouch:
+    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
+    seta ShipQuests, ShipQuests_Door, 1;
     mesn "Elmo";
     mesq g(l("So it's why we wanted to warn you, maybe she comes from this guild, as the sign was on her raft."), l("So it's why we wanted to warn you, maybe he comes from this guild, as the sign was on his raft."));
     next;
@@ -50,8 +55,10 @@ OnTouch:
     close;
 }
 
-000-2-3.gat,20,28,0,0	script	AreaBotton	0,1,0,{
+000-2-3.gat,20,28,0,0	script	AreaBottom	0,1,0,{
 OnTouch:
+    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
+    seta ShipQuests, ShipQuests_Door, 1;
     mesn "Elmo";
     mesq g(l("So it's why we wanted to warn you, maybe she comes from this guild, as the sign was on her raft."), l("So it's why we wanted to warn you, maybe he comes from this guild, as the sign was on his raft."));
     next;
