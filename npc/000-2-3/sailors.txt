@@ -27,12 +27,12 @@ OnTouch:
     close;
 }
 
-000-2-3.gat,21,27,0,0	script	AreaMiddle	0,1,0,{
+000-2-3.gat,21,27,0,0	script	AreaMiddle	0,0,0,{
     doevent "AreaTop::OnTouch";
     close;
 }
 
-000-2-3.gat,20,28,0,0	script	AreaBotton	0,0,0,{
+000-2-3.gat,20,28,0,0	script	AreaBotton	0,1,0,{
     doevent "AreaTop::OnTouch";
     close;
 }

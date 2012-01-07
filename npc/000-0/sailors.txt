@@ -9,15 +9,23 @@
 
 OnTouch:
   mesn l("Narrator");
-  mesn l("You are on a raft, adrift in the sea. You don't remember anything before this. You can hear a voice from the sky. As you open your eyes and look around, you see a large ship. Some sailors are trying to talk to you..");
+  mesn l("You are on a raft, adrift in the sea.");
+  next;
+  mesn l("You don't remember anything before this.");
+  next;
+  mesn l("Suddenly, you hear a voice from the sky.");
+  next;
+  mesn l("As you open your eyes and look around, you see a large ship.");
+  next;
+  mesn l("Some sailors are trying to talk to you..");
   next;
 
   mesn l("Orc Voice");
-  mesq g(l("Hey frenchy!#0"), l("Hey frenchy!#1"));
+  mesq g(l("Hey Frenchy!#0"), l("Hey Frenchy!#1"));
   next;
 
   mesn "Elfen Voice";
-  mesq g("Why frenchy? It's a russian!#0", "Why frenchy? It's a russian!#1");
+  mesq g("Why Rrenchy? It's a Russian!#0", "Why Frenchy? It's a Russian!#1");
   next;
 
   mesn "Tritan Voice";
@@ -26,6 +34,7 @@ OnTouch:
 
   mesn l("Raijin Voice");
   mesq g("You stupid, it's an english, look her head form.", "You stupid, it's an english, look his head form.");
+  next;
   mesq l("Hey you! Do you hear us? Are you okay?");
   next;
 
@@ -43,13 +52,14 @@ OnTouch:
     setlang @lang;
 
   mesn;
-  mesq g(l("This girl needs rescuing, let's help her!"),
-         l("This guy needs rescuing, let's help him!"));
+  mesq "Oh, " + g(l("she's still alive!"), l("he's still alive!"));
+  next;
+  mesq g(l("This girl needs help, let's rescue her!"), l("This guy needs help, let's rescue him!"));
   next;
 
   mesn l("Narrator");
   mesq l("The sailors take you aboard their ship to help you.");
-
+  next;
 
   warp "000-0-0.gat",22,22;
 

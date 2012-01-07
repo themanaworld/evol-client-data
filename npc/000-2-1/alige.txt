@@ -14,7 +14,9 @@
 //    0     first talking (before food)
 //    1     already talked
 
-000-2-1.gat,33,32,0,1	script	AligeTrigger	0,1,1,{
+
+000-2-1.gat,33,32,0,1  script  AligeTrigger    0,1,1,{
+
     OnTouch:
       if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
       doevent "Alige::OnFirstEncounter";
@@ -37,7 +39,7 @@
       end;
 }
 
-000-2-1.gat,33,31,0,1	script	Alige	301,{
+000-2-1.gat,33,31,0,1  script  Alige   301,{
 
   set @q, geta2(ShipQuests, ShipQuests_Alige);
   if (@q == 2) goto l_AskForFood;
@@ -71,7 +73,7 @@
 
   l_CanHelp:
     mesn;
-    mesq l("I'm called Alige, and I'm hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
+    mesq l("I'm called Alige, and I've been hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;
 
     mesn;
@@ -96,7 +98,6 @@
     next;
 
     if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
-
     goto l_Accept;
 
   l_AboutReward:
@@ -113,7 +114,7 @@
 
   l_Artis:
     mesn;
-    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a fame city through our world... But hey oh, return to topic! I'm hungry!");
+    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a famous city throughout the world... But hey oh, return to topic! I'm hungry!");
     next;
     if (@q == 2) goto l_AskForFood;
     goto l_Accept;
@@ -141,7 +142,7 @@
     if (@id == 507) goto l_NoMore;
 
     mesn;
-    mesq("I dont want this, give me something else.");
+    mesq("I don't want this, give me something else.");
     goto l_GiveFood;
 
   l_GiveReward:
