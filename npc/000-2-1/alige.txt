@@ -147,6 +147,7 @@
 
   l_GiveReward:
 
+    if (countitem(@id) < 1) close;
     delitem @id, 1;
 
     mesn;
