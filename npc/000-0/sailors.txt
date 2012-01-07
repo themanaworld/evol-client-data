@@ -8,20 +8,20 @@
 000-0.gat,23,20,0,1	script	Sailors	304,6,6,{
 
 OnTouch:
-  mesn l("Narrator");
-  mesn l("You are on a raft, adrift in the sea.");
+  mesn "Narrator";
+  mes "##BYou are on a raft, adrift in the sea.##b";
   next;
-  mesn l("You don't remember anything before this.");
+  mes "##BYou don't remember anything before this.##b";
   next;
-  mesn l("Suddenly, you hear a voice from the sky.");
+  mes "##BSuddenly, you hear a voice from the sky.##b";
   next;
-  mesn l("As you open your eyes and look around, you see a large ship.");
+  mes "##BAs you open your eyes and look around, you see a large ship.##b";
   next;
-  mesn l("Some sailors are trying to talk to you..");
+  mes "##BSome sailors are trying to talk to you..##b";
   next;
 
-  mesn l("Orc Voice");
-  mesq g(l("Hey Frenchy!#0"), l("Hey Frenchy!#1"));
+  mesn "Orc Voice";
+  mesq g("Hey Frenchy!#0", "Hey Frenchy!#1");
   next;
 
   mesn "Elfen Voice";
@@ -32,10 +32,10 @@ OnTouch:
   mesq "What do you say guys, it's a yoiis!";
   next;
 
-  mesn l("Raijin Voice");
+  mesn "Raijin Voice";
   mesq g("You stupid, it's an english, look her head form.", "You stupid, it's an english, look his head form.");
   next;
-  mesq l("Hey you! Do you hear us? Are you okay?");
+  mesq "Hey you! Do you hear us? Are you okay?";
   next;
 
   menu
@@ -52,13 +52,17 @@ OnTouch:
     setlang @lang;
 
   mesn;
-  mesq "Oh, " + g(l("she's still alive!"), l("he's still alive!"));
+  mesq l("Oh, ") + g(l("she's still alive!"), l("he's still alive!"));
   next;
   mesq g(l("This girl needs help, let's rescue her!"), l("This guy needs help, let's rescue him!"));
   next;
 
-  mesn l("Narrator");
-  mesq l("The sailors take you aboard their ship to help you.");
+  mesn l("##BNarrator##b");
+  mesq l("##BThe sailors take you aboard their ship to help you.##b");
+  next;
+
+  mesn l("##BNarrator##b");
+  mesq l("##BClick on the NPCs around you to continue the introduction.##b");
   next;
 
   warp "000-0-0.gat",22,22;
