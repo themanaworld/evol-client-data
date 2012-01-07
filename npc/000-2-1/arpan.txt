@@ -66,8 +66,8 @@ l_EquipDone:
 
 000-2-1.gat,41,37,0,1	script	Box	999,{
     mesn l("Box");
-	set @q, geta2(ShipQuests, ShipQuests_Arpan);
-	if (@q == 1) goto l_Give;
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Empty;
     mes l("This box is locked.");
     close;
@@ -95,11 +95,11 @@ OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     mesn;
     if (@q > 0) goto l_Menu;
-    mes g(l("Yeye, you are really lucky to be alive. You are in good enough shape for walking-do you remember what happened?#0"), l("Yeye, you are really lucky to be alive. You are in good enough shape for walking-do you remember what happened?#1"));
+    mes g(l("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?#0"), l("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?#1"));
     seta2 ShipQuests, ShipQuests_Arpan, 1;
     menu
         g(l("I only remember I was rescued by you.#0"), l("I only remember I was rescued by you.#1")), l_Story,
-        g(l("I can't remember anything.#0"), l("I don't remember of anything.#1")), l_OhWell;
+        g(l("I can't remember anything.#0"), l("I don't remember anything.#1")), l_OhWell;
     close;
 
 OnClothNotTaken:
@@ -120,12 +120,12 @@ l_Story:
     next;
     mes g(l("Yaya, you should go see her! She will be happy to see you.#0"), l("Yaya, you should go see her! She will be happy to see you.#1"));
     next;
-    mes g(l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#0"), l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#1"));
+    mes g(l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box by your bed, there is some new ones inside.#0"), l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#1"));
 l_Menu:
     mes l("What yeye could I do for you today?");
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
     menu
-        g(l("Could you tell me where am I?#0"), l("Could you tell me where am I?#1")), l_Where,
+        g(l("Could you tell me where I am?#0"), l("Could you tell me where I am?#1")), l_Where,
         g(l("Where can I find Julia?#0"), l("Where can I find Julia?#1")), l_Julia,
         l("Who are you?"), l_Who,
         rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
@@ -143,7 +143,7 @@ l_Where:
 
 l_WhereOldClothes:
     mesn;
-    mes g(l("We tried to clean them but the water sea mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."),  l("We tried to clean them but the water sea mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."));
+    mes g(l("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."),  l("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."));
     next;
     mes g(l("Oh, now that I remember, we also find some money on your pockets, here they are!"), l("Oh, now that I remember, we also find some money on your pockets, here they are!"));
     seta ShipQuests, ShipQuests_ArpanMoney, 1;

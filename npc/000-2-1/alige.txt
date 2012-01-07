@@ -15,7 +15,7 @@
 //    1     already talked
 
 
-000-2-1.gat,33,32,0,1  script  AligeTrigger    0,1,1,{
+000-2-1.gat,33,32,0,1	script	AligeTrigger	0,1,1,{
 
     OnTouch:
       if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
@@ -39,7 +39,7 @@
       end;
 }
 
-000-2-1.gat,33,31,0,1  script  Alige   301,{
+000-2-1.gat,33,31,0,1	script	Alige	301,{
 
   set @q, geta2(ShipQuests, ShipQuests_Alige);
   if (@q == 2) goto l_AskForFood;
