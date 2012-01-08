@@ -148,6 +148,7 @@ l_WhereOldClothes:
     mes g(l("Oh, now that I remember, we also find some money on your pockets, here they are!"), l("Oh, now that I remember, we also find some money on your pockets, here they are!"));
     seta ShipQuests, ShipQuests_ArpanMoney, 1;
     set zeny, zeny+25;
+    next;
     goto l_Menu;
 
 l_Julia:

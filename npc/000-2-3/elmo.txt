@@ -1,0 +1,46 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Elmo's second dialogs
+
+000-2-3.gat,20,23,0,0	script	Elmo	309,{
+
+    mesn;
+    mesq l("Hey you, sorry for leaving your room as rapid as that, I needed to, speak with the Captain about... The reserve.. eh, you know, now that we got a new mouth on the crew we need to check it!");
+    next;
+    mesq l("So, how it's going? Did you met other crew members?");
+    next;
+
+    menu
+        l("Yes, Arpan gave me these clothes."), l_OhGood,
+        l("No."), -;
+
+    mesn;
+    mesq l("You should go see them.");
+    next;
+    mesq l("You still got a few days awaiting our arrival to the port, maybe they can learn you some things?");
+
+    close;
+
+l_OhGood:
+    mesn;
+    mesq l("Oh good! Did he gaves you back your money too?");
+    next;
+
+    menu
+        l("Yes he did."), l_OhHeDid,
+        l("He said me nothing about it."), -;
+
+    mesn;
+    mesq l("Hehe, he sometimes got his head in clouds, You should go ask him about these.");
+
+    close;
+
+l_HeDid:
+    mesn;
+    mesq l("Ok, be patient, in the next days we will arive to the port of Artis..");
+
+    close;
+
+}
