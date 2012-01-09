@@ -7,16 +7,18 @@
 000-0-0.gat,22,17,0,1	script	Elmo	309,{
 OnTalk:
     mesn "Elmo";
-    mes g(l("This girl is lucky, that we found her before a shark did. I have no idea where this came from. By the way, did you see the logo on her raft?"), l("This guy is lucky, that we found him before a shark did. I have no idea where this came from. By the way, did you see the logo on his raft?"));
+    mes g(l("This girl is lucky, that we found her before a shark did. I have no idea where this came from. By the way, did you see the logo on her raft?"),
+          l("This guy is lucky, that we found him before a shark did. I have no idea where this came from. By the way, did you see the logo on his raft?"));
     next;
     mesn "Magic Arpan";
-    mes g(l("Yeye, it's the logo of the warrior guild of Esperia, I wonder what this yoiis was doing so far away from the coast.#1"), l("Yeye, it's the logo of the warrior guild of Esperia, I wonder what this yoiis was doing so far away from the coast.#2"));
+    mes lg("Yeye, it's the logo of the warrior guild of Esperia, I wonder what this yoiis was doing so far away from the coast.");
     next;
     mesn "Elmo";
     mes l("I wonder too...");
     next;
     mesn "Magic Arpan";
-    mes g(l("Maybe she was one of these who got lost last month? The yoiis that got a secret quest from the Warrior guild, and from Esperia!"), l("Maybe he was one of these who got lost last month? The yoiis that got a secret quest from the Warrior guild, and from Esperia!"));
+    mes g(l("Maybe she was one of these who got lost last month? The yoiis that got a secret quest from the Warrior guild, and from Esperia!"),
+          l("Maybe he was one of these who got lost last month? The yoiis that got a secret quest from the Warrior guild, and from Esperia!"));
     next;
     mesn "Elmo";
     mes l("It makes sense, do you think we should inform the capt'n about it?");
@@ -25,13 +27,15 @@ OnTalk:
     mes l("Yeye.");
     next;
     mesn "Elmo";
-    mes g(l("Ok, I'm going to his room, keep an eye on her, we still don't know if she is an enemy or an ally..."), l("Ok, I'm going to his room, keep an eye on him, we still don't know if he is an enemy or an ally..."));
+    mes g(l("Ok, I'm going to his room, keep an eye on her, we still don't know if she is an enemy or an ally..."),
+          l("Ok, I'm going to his room, keep an eye on him, we still don't know if he is an enemy or an ally..."));
     next;
     mesn "Magic Arpan";
     mes l("I will yaying do.");
     next;
     mesn "Elmo";
-    mes g(l("Oh, and give her some basic coats, poor girl, the one she had was much in worse condition that the ones we have!"), l("Oh, and give him some basic coats, poor guy, the one he had was much in worse condition that the ones we have!"));
+    mes g(l("Oh, and give her some basic coats, poor girl, the one she had was much in worse condition that the ones we have!"),
+          l("Oh, and give him some basic coats, poor guy, the one he had was much in worse condition that the ones we have!"));
     next;
     mesn "Magic Arpan";
     mes l("Yayayaya, for the first time someone is dressed worse then us!");
@@ -40,10 +44,12 @@ OnTalk:
     mes l("He he... OK, I'm going to the upper level, to inform the captain.");
     next;
     mesn "Magic Arpan";
-    mes g(l("I will give her everything she needs, don't worry."), l("I will give him everything he needs, don't worry."));
+    mes g(l("I will give her everything she needs, don't worry."),
+          l("I will give him everything he needs, don't worry."));
     next;
     mesn "Elmo";
-    mes g(l("OK, I think she's waking up, go see her."), l("OK, I think he's waking up, go see him."));
+    mes g(l("OK, I think she's waking up, go see her."),
+          l("OK, I think he's waking up, go see him."));
     next;
     warp "000-2-1.gat", 40, 38;
     savepoint "000-2-1.gat",40,38;

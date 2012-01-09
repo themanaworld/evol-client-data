@@ -16,7 +16,7 @@
     mesn l("The sailor chugs his beer");
 
     menu
-        g(l("Excuse me? Do you know who I am?#0"), l("Excuse me? Do you know who I am?#1")), -;
+        lg("Excuse me? Do you know who I am?"), -;
 
     mesn;
     mesq l("Don't do do theee... *hick* with me eh!");
@@ -26,7 +26,7 @@
         l("Alright, bye!"), -;
 
     mesn;
-    mesq g(l("NO and *hick* NO, you and you and your... *burp* stupi*hick* guild!#0"), l("NO and *hick* NO, you and you and your... *burp* stupi*hick* guild!#1"));
+    mesq lg("NO and *hick* NO, you and you and your... *burp* stupi*hick* guild!");
     mesq l("You tried to get ride of me, eeh?? But suprise! I'm still here...*hick* Or there....");
     next;
 

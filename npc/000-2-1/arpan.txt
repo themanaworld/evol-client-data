@@ -95,66 +95,67 @@ OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     mesn;
     if (@q > 0) goto l_Menu;
-    mes g(l("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?#0"), l("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?#1"));
+    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?");
     seta2 ShipQuests, ShipQuests_Arpan, 1;
     menu
-        g(l("I only remember I was rescued by you.#0"), l("I only remember I was rescued by you.#1")), l_Story,
-        g(l("I can't remember anything.#0"), l("I don't remember anything.#1")), l_OhWell;
+        lg("I only remember I was rescued by you."), l_Story,
+        lg("I can't remember anything."), l_OhWell;
     close;
 
 OnClothNotTaken:
     mesn;
-    mes g(l("Yeye, you still did not get your clothes!#0"), l("Yeye, you still did not get your clothes!#1"));
+    mes lg("Yeye, you still did not get your clothes!");
     close;
 
 OnEquip:
     mesn l("Narrator");
-    mes g(l("##9Open your inventory (F3 key), select the clothes one by one and equip them.##0#0"), l("##9Open your inventory (F3 key), select the clothes one by one and equip them.#1##0"));
+    mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     close;
 
 l_OhWell:
-    mes g(l("Oh well, we rescued you when you were yaying adrift on sea.#0"), l("Oh well, we rescued you when you were yaying adrift on sea.#1"));
+    mes lg("Oh well, we rescued you when you were yaying adrift on sea.");
 
 l_Story:
-    mes g(l("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.#0"), l("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.#1"));
+    mes lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
     next;
-    mes g(l("Yaya, you should go see her! She will be happy to see you.#0"), l("Yaya, you should go see her! She will be happy to see you.#1"));
+    mes lg("Yaya, you should go see her! She will be happy to see you.");
     next;
-    mes g(l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box by your bed, there is some new ones inside.#0"), l("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.#1"));
+    mes lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
 l_Menu:
     mes l("What yeye could I do for you today?");
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
     menu
-        g(l("Could you tell me where I am?#0"), l("Could you tell me where I am?#1")), l_Where,
-        g(l("Where can I find Julia?#0"), l("Where can I find Julia?#1")), l_Julia,
+        lg("Could you tell me where I am?"), l_Where,
+        lg("Where can I find Julia?"), l_Julia,
         l("Who are you?"), l_Who,
         rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
-        rif(!@equipped, g(l("What should I add after taking these clothes?#0"), l("What should I add after taking these clothes?#1"))), l_WhatCloth,
+        rif(!@equipped, lg("What should I add after taking these clothes?")), l_WhatCloth,
         rif(!@equipped, l("Thank you, I'll take them."), l("Nothing, sorry.")), l_Quit;
     close;
 
 l_Where:
     mesn;
-    mes g(l("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.#0"), l("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.#1"));
+    mes lg("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.");
     next;
-    mes g(l("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!#0"), l("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out atsea!#1"));
+    mes lg("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
     next;
     goto l_Menu;
 
 l_WhereOldClothes:
     mesn;
-    mes g(l("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."),  l("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got."));
+    mes lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
     next;
-    mes g(l("Oh, now that I remember, we also find some money on your pockets, here they are!"), l("Oh, now that I remember, we also find some money on your pockets, here they are!"));
+    mes lg("Oh, now that I remember, we also find some money on your pockets, here they are!");
     seta ShipQuests, ShipQuests_ArpanMoney, 1;
     set zeny, zeny+25;
     next;
     goto l_Menu;
 
 l_Julia:
-    mes g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"), l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
+    mes g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
+          l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
     next;
-    mes g(l("You can go to your right to go on this upper level.#0"), l("You can go to your right to go on this upper level.#1"));
+    mes lg("You can go to your right to go on this upper level.");
     next;
     goto l_Menu;
 
@@ -164,10 +165,10 @@ l_Who:
     goto l_Menu;
 
 l_WhatCloth:
-    mes g(l("Oh yeyeye, as they are not eatable, you can try to equip them!#0"), l("Oh yeyeye, as they are not eatable, you can try to equip them!#1"));
+    mes lg("Oh yeyeye, as they are not eatable, you can try to equip them!");
     next;
     mesn l("Narrator");
-    mes g(l("##9Open your inventory (F3 key), select the clothes one by one and equip them.##0#0"), l("##9Open your inventory (F3 key), select the clothes one by one and equip them.#1##0"));
+    mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     next;
     goto l_Menu;
 

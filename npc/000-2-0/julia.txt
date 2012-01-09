@@ -20,7 +20,7 @@
   set @s$, l("I don't want to change my language, sorry.");
   l_Menu:
   menu
-    g(l("I made a mistake, I would like to change my language.#0"), l("I made a mistake, I would like to change my language.#1")), l_ChooseLang,
+    lg("I made a mistake, I would like to change my language."), l_ChooseLang,
     l("Could you explain to me where I am?"), l_WhereIam,
     l("What happened to me?"), l_What,
     l("Nothing, sorry."), l_Close;

@@ -63,7 +63,7 @@
 
   OnTooWeak:
     mesn;
-    mesq g(l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#0"), l("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.#1"));
+    mesq lg("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.");
     close;
 
   OnStop:
@@ -123,7 +123,7 @@
     mesn;
     mesq l("I will give you @@gp.", 500);
     menu
-      g(l("Okay, I'm ready to work!#0"), l("Okay, I'm ready to work!#1")), -,
+      lg("Okay, I'm ready to work!"), -,
       l("What? This reward is too small!"), l_Close;
     if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
     seta4 ShipQuests, ShipQuests_Peter, 2;
