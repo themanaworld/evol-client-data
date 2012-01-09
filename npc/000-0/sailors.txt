@@ -2,6 +2,7 @@
 // Authors:
 //    Vasily_Makarov
 //    Reid
+//    4144
 // Description:	
 //    Start script of Evol Online.
 
@@ -9,33 +10,33 @@
 
 OnTouch:
   mesn "Narrator";
-  mes "##9You are on a raft, adrift in the sea.";
+  mes col(l("You are on a raft, adrift in the sea."), 9);
   next;
-  mes "You don't remember anything before this.";
+  mes col(l("You don't remember anything before this."), 9);
   next;
-  mes "Suddenly, you hear a voice from the sky.";
+  mes col(l("Suddenly, you hear a voice from the sky."), 9);
   next;
-  mes "As you open your eyes and look around, you see a large ship.";
+  mes col(l("As you open your eyes and look around, you see a large ship."), 9);
   next;
-  mes "Some sailors are trying to talk to you..";
+  mes col(l("Some sailors are trying to talk to you.."), 9);
   next;
 
-  mesn "##0Orc Voice";
-  mesq g("Hey Frenchy!#0", "Hey Frenchy!#1");
+  mesn "Orc Voice";
+  mesq lg("Hey Frenchy!");
   next;
 
   mesn "Elfen Voice";
-  mesq g("Why Rrenchy? It's a Russian!#0", "Why Frenchy? It's a Russian!#1");
+  mesq lg("Why Frenchy? It's a Russian!");
   next;
 
   mesn "Tritan Voice";
-  mesq "What do you say guys, it's a yoiis!";
+  mesq l("What do you say guys, it's a yoiis!");
   next;
 
   mesn "Raijin Voice";
-  mesq g("You stupid, it's an english, look her head form.", "You stupid, it's an english, look his head form.");
+  mesq g(l("You stupid, it's an english, look her head form."), l("You stupid, it's an english, look his head form."));
   next;
-  mesq "Hey you! Do you hear us? Are you okay?";
+  mesq l("Hey you! Do you hear us? Are you okay?");
   next;
 
   menu
@@ -52,19 +53,18 @@ OnTouch:
     setlang @lang;
 
   mesn;
-  mesq l("Oh, ") + g(l("she's still alive!"), l("he's still alive!"));
+  mesq g(l("Oh, she's still alive!"), l("Oh, he's still alive!"));
   next;
   mesq g(l("This girl needs help, let's rescue her!"), l("This guy needs help, let's rescue him!"));
   next;
 
-  mesn l("Narrator");
-  mesq l("##9The sailors take you aboard their ship to help you.");
+  mesn "Narrator";
+  mesq col(l("The sailors take you aboard their ship to help you."), 9);
   next;
-  mesq l("##9Click on the NPCs around you to continue the introduction.");
+  mesq col(l("Click on the NPCs around you to continue the introduction."), 9);
   next;
 
   warp "000-0-0.gat",22,22;
 
   close;
-
 }
