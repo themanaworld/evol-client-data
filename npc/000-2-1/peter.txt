@@ -125,12 +125,12 @@
     menu
       lg("Okay, I'm ready to work!"), -,
       l("What? This reward is too small!"), l_Close;
-    if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
+    if ($@RAT_SAILOR_HELPER$ != "") goto OnDontNeedHelp;
     seta4 ShipQuests, ShipQuests_Peter, 2;
     goto l_Start;
 
   l_Task:
-    if ($@RAT_SAILOR_HELPER != "") goto OnDontNeedHelp;
+    if ($@RAT_SAILOR_HELPER$ != "") goto OnDontNeedHelp;
     seta4 ShipQuests, ShipQuests_Peter, 1;
     goto l_Start;
 
@@ -158,7 +158,7 @@
 
   l_KillHelper:
     set $@RAT_SAILOR_HELPER$, "";
-    close;
+    end;
 
   l_Reward:
     mesn;
