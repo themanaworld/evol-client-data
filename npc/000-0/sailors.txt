@@ -9,18 +9,18 @@
 
 OnTouch:
   mesn "Narrator";
-  mes "##BYou are on a raft, adrift in the sea.##b";
+  mes "##9You are on a raft, adrift in the sea.";
   next;
-  mes "##BYou don't remember anything before this.##b";
+  mes "You don't remember anything before this.";
   next;
-  mes "##BSuddenly, you hear a voice from the sky.##b";
+  mes "Suddenly, you hear a voice from the sky.";
   next;
-  mes "##BAs you open your eyes and look around, you see a large ship.##b";
+  mes "As you open your eyes and look around, you see a large ship.";
   next;
-  mes "##BSome sailors are trying to talk to you..##b";
+  mes "Some sailors are trying to talk to you..";
   next;
 
-  mesn "Orc Voice";
+  mesn "##0Orc Voice";
   mesq g("Hey Frenchy!#0", "Hey Frenchy!#1");
   next;
 
@@ -57,12 +57,10 @@ OnTouch:
   mesq g(l("This girl needs help, let's rescue her!"), l("This guy needs help, let's rescue him!"));
   next;
 
-  mesn l("##BNarrator##b");
-  mesq l("##BThe sailors take you aboard their ship to help you.##b");
+  mesn l("Narrator");
+  mesq l("##9The sailors take you aboard their ship to help you.");
   next;
-
-  mesn l("##BNarrator##b");
-  mesq l("##BClick on the NPCs around you to continue the introduction.##b");
+  mesq l("##9Click on the NPCs around you to continue the introduction.");
   next;
 
   warp "000-0-0.gat",22,22;

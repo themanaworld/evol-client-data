@@ -109,7 +109,7 @@ OnClothNotTaken:
 
 OnEquip:
     mesn l("Narrator");
-    mes g(l("##BOpen your inventory (F3 key), select the clothes one by one and equip them.##b#0"), l("##BOpen your inventory (F3 key), select the clothes one by one and equip them.#1##b"));
+    mes g(l("##9Open your inventory (F3 key), select the clothes one by one and equip them.##0#0"), l("##9Open your inventory (F3 key), select the clothes one by one and equip them.#1##0"));
     close;
 
 l_OhWell:
@@ -167,7 +167,7 @@ l_WhatCloth:
     mes g(l("Oh yeyeye, as they are not eatable, you can try to equip them!#0"), l("Oh yeyeye, as they are not eatable, you can try to equip them!#1"));
     next;
     mesn l("Narrator");
-    mes g(l("##BOpen your inventory (F3 key), select the clothes one by one and equip them.##b#0"), l("##BOpen your inventory (F3 key), select the clothes one by one and equip them.#1##b"));
+    mes g(l("##9Open your inventory (F3 key), select the clothes one by one and equip them.##0#0"), l("##9Open your inventory (F3 key), select the clothes one by one and equip them.#1##0"));
     next;
     goto l_Menu;
 
