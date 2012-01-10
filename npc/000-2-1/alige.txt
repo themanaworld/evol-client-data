@@ -81,7 +81,7 @@
 
     menu
       l("Okay, but what do you offer me?"), l_AboutReward,
-      l("Why are you hiding? ") + " " + l("Why not going outside to talk?"), -;
+      l("Why not going outside to talk?"), -;
 
   l_ExplainHiding:
     mesn;
@@ -157,26 +157,33 @@
     close;
 
   l_NoMore:
-
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid ... stupid ... stupid!");
     next;
     close;
 
   l_AskForFood:
-
     mesn;
     mesq l("Do you have anything for me today?");
     next;
 
     menu
       l("Yes."), l_GiveFood,
-      l("Why are you hiding? ") + " " + l("Why not going outside to talk?"), l_ExplainHiding,
+      l("Where can I find some food?"), l_Food,
+      l("Why are you hiding?"), l_ExplainHiding,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
-  l_DamnYou:
+  l_Food:
+    mesn;
+    mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
+    next;
+    mesq l("I would like to catch one of them, but they are flying when I try to.");
+    next;
+    mesq l("As you can walk, it will be an easy task for you. Impale me one of them!!");
+    close;
 
+  l_DamnYou:
     mesn;
     mesq l("Damn you! You better not tell anyone that you've seen me!");
     close;
