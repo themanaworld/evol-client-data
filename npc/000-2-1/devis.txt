@@ -9,9 +9,9 @@
   if (@q == 0) goto l_Zzz;
   goto l_Grm;
   l_Zzz:
-    mes "Zzzzzzzzzz";
+    mes l("Zzzzzzzzzz");
     close;
   l_Grm:
-    mes "Ggrmm grmmm...";
+    mes l("Ggrmm grmmm...");
     close;
 }

@@ -63,7 +63,7 @@ l_Secret:
     goto l_Quit;
 
 l_Hips:
-    mesq "*hick*";
+    mesq l("*hick*");
     close;
 
 l_Quit:
