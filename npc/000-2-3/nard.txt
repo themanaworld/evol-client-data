@@ -7,47 +7,47 @@
 000-2-3.gat,25,26,0,0	script	Nard	306,{
 
     mesn;
-    mesq l("Hello, I present myself, I'm Captain Nard, it's me who is in lead of this ship."); 
+    mesq l("Hello, Let me just present myself, I'm Captain Nard, it's me who's leader of this ship."); 
     next;
 
     mesn;
-    mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to say me this good news!");
+    mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to tell me this good news!");
     next;
 
     mesn "Elmo";
-    mesq l("Oh... Euh, yes I did, or, well, good day at you!");
+    mesq l("Oh... Err, yes I did, or, well, good day to you!");
     next;
 
     mesn;
-    mesq l("Hehehe, he is a bit nervous excuse him, it's not everyday that we got a new member on the crew!");
+    mesq l("Hehehe, he is a bit nervous, please excuse him, it's not everyday that we got a new member in the crew!");
     next;
-    mesq l("So, how do you feel? I see that Julia did a great work! You look in good health now.");
+    mesq l("So, how do you feel? I see that Julia did a marvelous job! You look in good health now.");
     next;
 
 l_Menu:
     menu
         l("I feel ok."), l_Ok,
         l("Who is this Julia?"), l_Julia,
-        l("I'm sick, I go back to bed."), -;
+        l("I'm sick, I'm going back to bed."), -;
 
     mesn;
-    mesq l("It's a good idea, go take some rest and see you tomorow!");
+    mesq l("That's a good idea, go rest a bit and I'll see you tomorow!");
     close;
 
 l_Julia:
     mesn;
-    mesq l("You look really amnesic indeed.");
+    mesq l("You really are quite amnesic.");
     next;
-    mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent cooker!");
+    mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent cook!");
     next;
-    mesq l("But more than everything, she is the one which took care of you when you were in this coma.");
+    mesq l("But more than everything, she is the one which took care of you when you were in coma.");
     close;
 
 l_Ok:
     mesn;
-    mesq l("Good to know, from what reporter me Darlin, we will soon accost on a little island, before to arrive in Artis.");
+    mesq l("Good to know. From what Darlin reported to me, we'll soon come accross a little island, before we arrive in Artis.");
     next;
-    mesq l("It will be a good moment for you to do some exercice, as the ship is not very vast for that.");
+    mesq l("It'll be a good moment for you to do some exercice, as the ship is not very vast for that.");
     close;
 
 }

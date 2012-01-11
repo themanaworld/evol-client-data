@@ -116,7 +116,7 @@
 
   l_TalkToJulia:
     mesn;
-    mesq l("Hey, you should go see Julia to be registred on the ship board.");
+    mesq l("Hey, you should go see Julia to be registered on the ship board.");
     close;
 
   l_BonusTask:
@@ -162,7 +162,7 @@
 
   l_Reward:
     mesn;
-    mesq l("Good job!") + " " + l("Here is your reward!");
+    mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 500;
     close;
