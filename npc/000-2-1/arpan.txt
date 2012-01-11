@@ -95,7 +95,7 @@ OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     mesn;
     if (@q > 0) goto l_Menu;
-    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking - do you remember what happened?");
+    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking do you remember what happened?");
     seta2 ShipQuests, ShipQuests_Arpan, 1;
     menu
         lg("I only remember I was rescued by you."), l_Story,
