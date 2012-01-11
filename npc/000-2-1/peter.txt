@@ -89,7 +89,7 @@
     mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
     close;
 
-  OnTimer500000:
+  OnTimer5000:
     stopnpctimer;
 
     //Attach player if possible, otherway free helper
@@ -105,7 +105,6 @@
 
     mesn;
     mesq l("Let me see your work...");
-    next;
 
     set @q, geta4(ShipQuests, ShipQuests_Peter);
     if (getmapmobs("000-2-2.gat") || $@RAT_SAILOR_HELPER$ != strcharinfo(0)) goto l_QuestAborted;
