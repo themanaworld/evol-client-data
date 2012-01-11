@@ -80,12 +80,12 @@
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
 
     menu
-      l("Okay, but what do you offer me?"), l_AboutReward,
-      l("Why not going outside to talk?"), -;
+      l("Okay, but what can you offer me?"), l_AboutReward,
+      l("Why don't you go outside?"), -;
 
   l_ExplainHiding:
     mesn;
-    mesq l("No, I'm not, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
+    mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
 
     mesn;
@@ -114,7 +114,7 @@
 
   l_Artis:
     mesn;
-    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's a famous city throughout the world... But hey oh, return to topic! I'm hungry!");
+    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's one of the most famous cities throughout the world... But hey oh, returning to the topic! I'm hungry!");
     next;
     if (@q == 2) goto l_AskForFood;
     goto l_Accept;
@@ -170,7 +170,7 @@
     menu
       l("Yes."), l_GiveFood,
       l("Where can I find some food?"), l_Food,
-      l("Why are you hiding?"), l_ExplainHiding,
+      l("Why are you hiding?") + " " + l("Why don't you go outside?"), l_ExplainHiding,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
@@ -178,9 +178,9 @@
     mesn;
     mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
-    mesq l("I would like to catch one of them, but they are flying when I try to.");
+    mesq l("I'd like to catch one of them, but they are flying away when I try.");
     next;
-    mesq l("As you can walk, it will be an easy task for you. Impale me one of them!!");
+    mesq l("As you can walk around, it'll be an easy task for you. Impale me one of them!!");
     close;
 
   l_DamnYou:
