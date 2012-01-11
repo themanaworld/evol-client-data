@@ -15,7 +15,8 @@
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
   mesn;
-  mesq g(l("Hello, girl!"), l("Hello, boy!"));
+  mesq g(l("Hello, girl!"),
+         l("Hello, boy!"));
   mesq l("What do you want today?");
   set @s$, l("I don't want to change my language, sorry.");
   l_Menu:

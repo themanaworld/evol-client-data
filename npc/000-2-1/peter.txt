@@ -44,7 +44,8 @@
   if (BaseLevel < 5) goto OnTooWeak;
 
   mesn;
-  mesq g(l("Hey, girl!"), l("Hey, man!"));
+  mesq g(l("Hey, girl!"),
+         l("Hey, man!"));
   next;
 
   set @q, geta4(ShipQuests, ShipQuests_Peter);
@@ -86,7 +87,7 @@
     mesn;
     mesq l("I don't need your help right now, come back later.");
     if ($@RAT_SAILOR_HELPER$ == "") close;
-    mesq $@RAT_SAILOR_HELPER$ + " " + l("is helping me.");
+    mesq l("@@ is helping me.", $@RAT_SAILOR_HELPER$);
     close;
 
   OnTimer5000:

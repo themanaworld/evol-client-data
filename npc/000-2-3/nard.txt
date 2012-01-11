@@ -26,9 +26,9 @@
 
 l_Menu:
     menu
-        g(l("I feel ok."), l("I feel ok.")), l_Ok,
+        lg("I feel ok."), l_Ok,
         l("Who is this Julia?"), l_Julia,
-        g(l("I'm sick, I'm going back to bed."), l("I'm sick, I'm going back to bed.")), -;
+        lg("I'm sick, I'm going back to bed."), -;
 
     mesn;
     mesq l("That's a good idea, go rest a bit and I'll see you tomorow!");

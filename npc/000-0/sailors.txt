@@ -34,7 +34,8 @@ OnTouch:
   next;
 
   mesn "Raijin Voice";
-  mesq g(l("You stupid, it's an english, look at her head form."), l("You stupid, it's an english, look at his head form."));
+  mesq g(l("You stupid, it's an english, look at her head form."),
+         l("You stupid, it's an english, look at his head form."));
   next;
   mesq l("Hey you! Do you hear us? Are you okay?");
   next;
@@ -53,9 +54,11 @@ OnTouch:
     setlang @lang;
 
   mesn;
-  mesq g(l("Oh, she's still alive!"), l("Oh, he's still alive!"));
+  mesq g(l("Oh, she's still alive!"),
+         l("Oh, he's still alive!"));
   next;
-  mesq g(l("This girl needs help, let's rescue her!"), l("This guy needs help, let's rescue him!"));
+  mesq g(l("This girl needs help, let's rescue her!"),
+         l("This guy needs help, let's rescue him!"));
   next;
 
   mesn "Narrator";
