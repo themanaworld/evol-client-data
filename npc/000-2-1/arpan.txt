@@ -129,7 +129,7 @@ l_Menu:
         lg("Where can I find Julia?"), l_Julia,
         l("Who are you?"), l_Who,
         rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
-        rif(!@equipped, lg("What should I add after taking these clothes?")), l_WhatCloth,
+        rif(!@equipped, lg("What should I do after taking these clothes?")), l_WhatCloth,
         rif(!@equipped, l("Thank you, I'll take them."), l("Nothing, sorry.")), l_Quit;
     close;
 
