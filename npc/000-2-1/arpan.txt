@@ -95,7 +95,7 @@ OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     mesn;
     if (@q > 0) goto l_Menu;
-    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking do you remember what happened?");
+    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking, do you remember what happened?");
     seta2 ShipQuests, ShipQuests_Arpan, 1;
     menu
         lg("I only remember I was rescued by you."), l_Story,
@@ -113,7 +113,7 @@ OnEquip:
     close;
 
 l_OhWell:
-    mes lg("Oh well, we rescued you when you were yaying adrift on sea.");
+    mes lg("Oh well, we rescued you when you were yaying adrift in the sea.");
 
 l_Story:
     mes lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
@@ -128,7 +128,7 @@ l_Menu:
         lg("Could you tell me where I am?"), l_Where,
         lg("Where can I find Julia?"), l_Julia,
         l("Who are you?"), l_Who,
-        rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old cloths?")), l_WhereOldClothes,
+        rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old clothes?")), l_WhereOldClothes,
         rif(!@equipped, lg("What should I add after taking these clothes?")), l_WhatCloth,
         rif(!@equipped, l("Thank you, I'll take them."), l("Nothing, sorry.")), l_Quit;
     close;
@@ -155,7 +155,7 @@ l_Julia:
     mes g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
           l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
     next;
-    mes lg("You can go to your right to go on this upper level.");
+    mes lg("You can go to your right to go to the upper level.");
     next;
     goto l_Menu;
 
