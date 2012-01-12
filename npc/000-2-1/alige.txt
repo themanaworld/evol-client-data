@@ -61,7 +61,7 @@
 
   l_NeedHelp:
     mesn l("Hidden person");
-    mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease... ");
+    mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
 
     menu
         l("Why not... but, who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
