@@ -36,7 +36,7 @@
     next;
     mesq l("I'm called Julia, it's me who took care of you some days ago, when we found you back on the sea, I'm very happy to see that you seem okay now!");
     next;
-    mesq l("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
+    mesq lg("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
     set @s$, "";
     goto l_ChooseLang;
 
@@ -90,7 +90,7 @@
     mesn;
     mesq l("We thought that you could help us understand this, all we know is that we found you back in the sea, adrift on your raft.");
     next;
-    mesq l("You were in a bad mood and you should be happy that we found you before the sea took you.");
+    mesq lg("You were in a bad mood and you should be happy that we found you before the sea took you.");
     next;
     mesq l("Also, there was this inscription on your raft, one of the warrior guild of Esperia, the largest and biggest guild of the whole new world, does that make you remember something?");
     next;
