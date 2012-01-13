@@ -3,7 +3,7 @@
 //    Reid
 //    Ablu
 // Description:
-//    Rat killer NPC
+//    Ratto killer NPC
 
 000-2-2.gat,48,29,0,1	script	DoorUpwards	0,0,0,{
 
@@ -19,7 +19,7 @@ l_Check:
 
 l_Warn:
     mesn;
-    mesq l("There are still some rats left! Do you want to abort the quest?");
+    mesq l("There are still some rattos left! Do you want to abort the quest?");
     menu
       l("Yes."), l_Warp,
       l("No."), -;
