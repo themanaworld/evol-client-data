@@ -49,8 +49,9 @@ OnTouch:
     "I höre euch..." + " (Deutsch)", -,
     "Ik hoor je..." + " (Nederlands)", -,
     "Ti sento..." + " (Italiano)", -;
+    "Eu te ouço..." + " (Português)", -;
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 7) close;
+    if (@lang < 0 || @lang > 8) close;
     setlang @lang;
 
   mesn;
