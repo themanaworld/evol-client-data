@@ -142,7 +142,7 @@
     if (@id == 507) goto l_NoMore;
 
     mesn;
-    mesq("I don't want this, give me something else.");
+    mesq l("I don't want this, give me something else.");
     goto l_GiveFood;
 
   l_GiveReward:
