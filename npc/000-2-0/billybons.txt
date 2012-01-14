@@ -20,6 +20,7 @@
 
     mesn;
     mesq l("Don't do do theee... *hick* with me eh!");
+    next;
 
     menu
         l("Are you ok?"), l_Quit,
@@ -27,11 +28,13 @@
 
     mesn;
     mesq lg("NO and *hick* NO, you and you and your... *burp* stupi*hick* guild!");
+    next;
     mesq l("You tried to get rid of me, eeh?? But surprise! I'm still here...*hick* Or there....");
     next;
 
     mesn;
     mesq l("But you won't *hick* me this time...");
+    next;
 
     menu
         l("What are you talking about? Which guild?"), l_Quit,
@@ -40,6 +43,7 @@
 
     mesn;
     mesq l("If I saw *hick* who you wereee.... *hips* Would not have helped you! ");
+    next;
 
     menu
         l("But who am I?"), -,
@@ -55,6 +59,7 @@
 l_Secret:
     mesn;
     mesq l("Hear me *hick* well, what ever, whatididever you will*hick*said ab...euh..out wha?! You saw there, the Guild of Esperia won't let it go to public.");
+    next;
     mesq l("Nobody will know about the existence of the Mercurians");
     next;
 
@@ -69,6 +74,7 @@ l_Hips:
 l_Quit:
     mesn;
     mesq l("Yeah you're all like *hick* that in Esperia, but you won't get me! *burp*");
+    next;
     mesq l("I'm not that numb eeh *hick* what did ever you disco*hips*veeered there, the warrior guild won't get me!");
     next;
     mesn l("The sailor is turning his back to you.");
