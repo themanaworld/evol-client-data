@@ -46,15 +46,13 @@
       l("I speak French") + " (Français)", -,
       l("I speak Russian") + " (Русский)", -,
       l("I speak Spanish") + " (Español)", -,
-      l("I speak Flemish") + " (West-Vloams)", -,
-      l("I speak German") + " (Deutsch)", -,
-      l("I speak Dutch") + " (Nederlands)", -,
-      l("I speak Italian") + " (Italiano)", -,
       l("I speak Portuguese") + " (Português)", -,
+      l("I speak German") + " (Deutsch)", -,
+      l("I speak Flemish") + " (Vloams)", -,
 
       @s$, l_NoChanges;
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 8) close;
+    if (@lang < 0 || @lang > 6) close;
     setlang @lang;
     mesn;
     mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them!");

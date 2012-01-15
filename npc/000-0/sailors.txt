@@ -45,13 +45,11 @@ OnTouch:
     "Je vous entends..." + " (Français)", -,
     "Да я вас слышу..." + " (Русский)", -,
     "Te oigo..." + " (Español)", -,
-    "'k hoar ui wel..." + " (West-Vloams)", -,
-    "I höre euch..." + " (Deutsch)", -,
-    "Ik hoor je..." + " (Nederlands)", -,
-    "Ti sento..." + " (Italiano)", -,
     "Eu te ouço..." + " (Português)", -;
+    "I höre euch..." + " (Deutsch)", -,
+    "'k hoar ui wel..." + " (Vloams)", -,
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 8) close;
+    if (@lang < 0 || @lang > 6) close;
     setlang @lang;
 
   mesn;
