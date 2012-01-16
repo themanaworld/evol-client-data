@@ -68,7 +68,7 @@
         l("Sorry but I have no time for this."), -;
 
     mesn l("Hidden person");
-    mesq l("Damn you! You better not tell anyone that you've seen me!");
+    mesq lg("Damn you! You better not tell anyone that you've seen me!");
     close;
 
   l_CanHelp:
@@ -185,6 +185,6 @@
 
   l_DamnYou:
     mesn;
-    mesq l("Damn you! You better not tell anyone that you've seen me!");
+    mesq lg("Damn you! You better not tell anyone that you've seen me!");
     close;
 }
