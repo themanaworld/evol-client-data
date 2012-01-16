@@ -78,8 +78,8 @@ l_Give:
         l("Yes."), -,
         l("No."), l_Close;
     seta2 ShipQuests, ShipQuests_Arpan, 2;
-    getitem 1300, 1;
-    getitem 2200, 1;
+    getitem "Usedshirt", 1;
+    getitem "Usedshort", 1;
 
 l_Close:
     close;
