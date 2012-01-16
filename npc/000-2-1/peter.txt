@@ -56,6 +56,7 @@
   if (@q == 3 || @q == 4) goto l_QuestDone;
   if (@q == 5) goto l_Thanks;
 
+  if (getmapusers("000-2-2.gat") == 0 && $@RAT_SAILOR_HELPER$ != "") $@RAT_SAILOR_HELPER$ = "";
   //If map is full of mobs and helper is free
   if (getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto OnGiveTask;
 
