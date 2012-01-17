@@ -13,7 +13,7 @@
     set @q, geta(ShipQuests, ShipQuests_Knife);
     if (@q) close;
     mesn l("Knifes on the table");
-    mes l("There is some knifes on the table, do you want to take one?");
+    mes l("There are some knifes on the table, do you want to take one?");
     menu
         l("Yes."), l_Give,
         l("No."), -;
