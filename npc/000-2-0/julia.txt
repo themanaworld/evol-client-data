@@ -49,10 +49,11 @@
       l("I speak Portuguese") + " (Português)", -,
       l("I speak German") + " (Deutsch)", -,
       l("I speak Flemish") + " (Vloams)", -,
+      l("I speak Polish") + " (Polish)", -,
 
       @s$, l_NoChanges;
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 6) close;
+    if (@lang < 0 || @lang > 7) close;
     setlang @lang;
     mesn;
     mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them!");
