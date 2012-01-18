@@ -64,7 +64,7 @@ l_EquipDone:
     close;
 }
 
-000-2-1.gat,41,37,0,1	script	Box	999,{
+000-2-1.gat,41,37,0	script	Box	999,{
     mesn l("Box");
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 1) goto l_Give;
