@@ -4,18 +4,16 @@ Author : Reid
 
 monsters.xml parameters explanation:
 
-<monsters>						Parent of the monster strings. 
-
-	<monster>					Monster tag, every new tag contain some specific attribute of the monster, here the list of them :
-		id=""						ID of the monster, it's different for every monsters, it starts from 0.
-		name=""     			Name of the monster which will be displayed in game, it's also used by the server.
-		targetCursor=""		Cursor size used by the client, different size are : small, medium and large.
-		walkType=""				The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. different walktype are : walk walkswim and fly.
-
-	<sprite>						This tag show the path to the xml of the monster.
-
-	<sound>						Sound tag, contain an event which display the sound effects for the corresponding action, here the list of them :
- 		event=""					Link the sfx to an action, like die, hit, hurt, miss, move and spawn.
+<monsters>			Parent of the monster strings. 
+	<monster>		Monster tag, every new tag contain some specific attribute of the monster, here the list of them :
+		id=""		ID of the monster, it's different for every monsters, it starts from 0.
+		name=""     	Name of the monster which will be displayed in game, it's also used by the server.
+		targetCursor=""	Cursor size used by the client, different size are : small, medium and large.
+		walkType=""	The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. different walktype are : walk walkswim and fly.
+	<sprite>		This tag show the path to the xml of the monster.
+	<sound>			Sound tag, contain an event which display the sound effects for the corresponding action, here the list of them :
+ 		event=""	Link the sfx to an action, like die, hit, hurt, miss, move and spawn.
+</monsters>			Close monster configuration.
 
 exemple :
     <monster id="0" name="Reid" targetCursor="big" walkType="fly">
@@ -34,7 +32,7 @@ exemple :
         <sound event="miss">monsters/pious/pious-miss-1.ogg</sound>
         <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
     </monster>
-    <monster id="1" name="Pi-Pious" targetCursor="small" walkType="walk">
+    <monster id="1" name="Piousse" targetCursor="small" walkType="walk">
         <sprite>monsters/chick.xml</sprite>
         <sprite>accessories/acc-chick-egg.xml</sprite>
         <sound event="die">monsters/pious/pious-die-1.ogg</sound>
