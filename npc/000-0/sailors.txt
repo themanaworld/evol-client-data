@@ -9,6 +9,14 @@
 000-0.gat,23,20,0,1	script	Sailors	305,6,6,{
 
 OnTouch:
+  if (getclientversion("") > 3) goto intro;
+  mes "Warning: you using old client.";
+  next;
+  mes "Not all features will work.";
+  next;
+  mes "Please update from http://manaplus.evolonline.org/";
+  next;
+intro:
   requestlang @lang;
   if (@lang >= 0 && @lang <= 7) setlang @lang;
   mesn "Narrator";
