@@ -3,12 +3,14 @@
 //    Vasily_Makarov
 //    Reid
 //    4144
-// Description:	
+// Description:
 //    Start script of Evol Online.
 
 000-0.gat,23,20,0,1	script	Sailors	305,6,6,{
 
 OnTouch:
+  requestlang @lang;
+  if (@lang >= 0 && @lang <= 7) setlang @lang;
   mesn "Narrator";
   mes col(l("You are on a raft, adrift in the sea."), 9);
   next;
