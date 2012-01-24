@@ -6,6 +6,7 @@
 
 000-0-0.gat,22,17,0,1	script	Elmo	309,{
 OnTalk:
+    setcamnpc;
     mesn "Elmo";
     mes g(l("This girl is lucky that we found her before a shark did. I have no idea where this came from. By the way, did you see the logo on her raft?"),
           l("This guy is lucky that we found him before a shark did. I have no idea where this came from. By the way, did you see the logo on his raft?"));
@@ -51,6 +52,7 @@ OnTalk:
     mes g(l("OK, I think she's waking up, go see to her."),
           l("OK, I think he's waking up, go see to him."));
     next;
+    restorecam;
     warp "000-2-1.gat", 40, 38;
     savepoint "000-2-1.gat",40,38;
     close;
