@@ -49,25 +49,25 @@
     seta2 ShipQuests, ShipQuests_Alige, 1;
 
   l_Talk:
-    mesn l("Hidden person");
+    mesn "Hidden person";
     mesq l("Hey, psst! You're not a sailor, right?");
 
     menu
         l("I am, who are you?"), -,
         l("I'm not."), l_NeedHelp;
 
-    mesn l("Hidden person doesn't answer");
+    mesq "Hidden person doesn't answer";
     close;
 
   l_NeedHelp:
-    mesn l("Hidden person");
+    mesn "Hidden person";
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
 
     menu
         l("Why not... but, who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
 
-    mesn l("Hidden person");
+    mesn "Hidden person";
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
     close;
 

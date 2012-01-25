@@ -65,7 +65,7 @@ l_EquipDone:
 }
 
 000-2-1.gat,41,37,0	script	Box	999,{
-    mesn l("Box");
+    mesn "Box";
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Empty;
@@ -108,7 +108,7 @@ OnClothNotTaken:
     close;
 
 OnEquip:
-    mesn l("Narrator");
+    mesn "Narrator";
     mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     close;
 
@@ -170,7 +170,7 @@ l_Who:
 l_WhatCloth:
     mes lg("Oh yeyeye, as they are not eatable, you can try to equip them!");
     next;
-    mesn l("Narrator");
+    mesn "Narrator";
     mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     next;
     goto l_Menu;
