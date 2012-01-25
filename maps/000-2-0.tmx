@@ -49,30 +49,30 @@
  </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SsQrCMBSF4ZQiUsSCioiKDxa3oovo4ujbe0vvEErSmjo0gX/4uEnpcA431hhjAQAAAAAAMFkhFqIUW7HUuRG12CWQ8Z8+e6fPIcM+lVi3HaTYSebFdPOo53MCGWM8RSNuOn0K/bdMIO8YX/6Xp881kz6PQA93X5XOVQJ5x3bz9nRpz/fA7poEcg/5aP5+nxy72ED2/jf3PnfeX95cjLnzxvSKuQMAAAAAAGCaL3JPWIwQKwAA
+   H4sIAAAAAAAAC+3SsQrCMBSF4ZQiUsSCioiKDxa3oovo4ujbe0vvEErSmjo0gX/4uEnpcA431hhjAQAAAAAAMFkhFqIUW7HUuRG12CWQ8Z8+e6fPIcM+lVi3HaTYSebFdPOo53MCGWM8RSNuOn0K/bdMIO8YX/6Xp881kz6PQA93X5XOVQJ5x3bz9nRpz/fA7poEcg/5aP5+nxy72ED2/jf3PnfeX95cjLnzxvSKuQMAAAAAAGCaL3JPWIwQKwAA
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PsQmDQBiG4ft1giAOEN3EETKCWSClZbQTu2wQMkFGSJERsk8+iCAckuKiXor3gRfUQ/jOOQAAAAAAAGBSmXOmEpWqq3f+jLIq3EF32KlWZeqmb0ebzl/RloWptX2vClWO95lTbLrqd4N9uuu588rt669/5eS9P9TFq9d96q2HBWpiD1jYOfYAAAAAAAAAAKt5A59QTR8QKwAA
+   H4sIAAAAAAAAC+3PsQmDQBiG4ft1giAOEN3EETKCWSClZbQTu2wQMkFGSJERsk8+iCAckuKiXor3gRfUQ/jOOQAAAAAAAGBSmXOmEpWqq3f+jLIq3EF32KlWZeqmb0ebzl/RloWptX2vClWO95lTbLrqd4N9uuu588rt669/5eS9P9TFq9d96q2HBWpiD1jYOfYAAAAAAAAAAKt5A59QTR8QKwAA
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PsQmAQAxA0csOruQgTmBjL1bi1nKIcIWCqCAe70FIFchPCQAAAADODfH1B881RUNbQU82xzZTJT3ZUlHLrovj/Qf9jZvx9S8AAAAAAK5ZAYEFP9cQKwAA
+   H4sIAAAAAAAAC+3PsQmAQAxA0csOruQgTmBjL1bi1nKIcIWCqCAe70FIFchPCQAAAADODfH1B881RUNbQU82xzZTJT3ZUlHLrovj/Qf9jZvx9S8AAAAAAK5ZAYEFP9cQKwAA
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UQQrCMBAF0DlLVy7dW92ovYJ4EsHT20CFrqTJQqbhPfi0gQTy6dAIAAAAIKtnQzIr9zvNuWzIGPvoc964d4o++2SevZo+j8g/ezV9imF5Zp292j5f+vxHudOr4dw7cv4Tevw+vfW5zrkvOazef61vkbfPOsfKNQAAAABtPpmdQ2gQKwAA
+   H4sIAAAAAAAAC+3UQQrCMBAF0DlLVy7dW92ovYJ4EsHT20CFrqTJQqbhPfi0gQTy6dAIAAAAIKtnQzIr9zvNuWzIGPvoc964d4o++2SevZo+j8g/ezV9imF5Zp292j5f+vxHudOr4dw7cv4Tevw+vfW5zrkvOazef61vkbfPOsfKNQAAAABtPpmdQ2gQKwAA
   </data>
  </layer>
  <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQkAIAwEQe2/gZQrdhAlEAJzMP/b2GsFAAAAADDCXfeH6p5M05TuzF66u/2s+3NlT/dfPXoAAAAAyDuOQp88ECsAAA==
+   H4sIAAAAAAAAC+3PwQkAIAwEQe2/gZQrdhAlEAJzMP/b2GsFAAAAADDCXfeH6p5M05TuzF66u/2s+3NlT/dfPXoAAAAAyDuOQp88ECsAAA==
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53" visible="0">
+ <objectgroup name="Object" width="52" height="53">
   <object name="ToLevel1" type="warp" x="608" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>
@@ -83,13 +83,6 @@
   <object name="ToLevel1" type="warp" x="1024" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-3"/>
-    <property name="dest_x" value="640"/>
-    <property name="dest_y" value="864"/>
-   </properties>
-  </object>
-  <object name="ToLevel1" type="warp" x="1024" y="864" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="000-2-3"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="864"/>
    </properties>
