@@ -121,6 +121,9 @@ l_Story:
     mes lg("Yaya, you should go see her! She will be happy to see you.");
     next;
     mes lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
+    setcamnpc "Box";
+    next;
+    restorecam;
 l_Menu:
     mes l("What yeye could I do for you today?");
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
