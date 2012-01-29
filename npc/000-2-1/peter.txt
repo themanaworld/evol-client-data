@@ -1,9 +1,10 @@
-// Evol scripts.
+// Evol scripts.	
 // Authors:
 //    Vasily_Makarov
 //    4144
 //    Reid
 //    Ablu
+//    alastrim
 // Description:
 //    Rat killer NPC
 // 4 bits array:
@@ -11,169 +12,200 @@
 // Variable:
 //    ShipQuests_Peter
 // Values:
-//    0   default
+//    0   did not start the quest
 //    1   task given
 //    2   task given + reward expected
-//    3   task completed
-//    4   task completed + reward to be given
+//    3   task completed without reward
+//    4   asked for reward after completing it
 //    5   task done + reward given
 // "000-2-2.gat" - map with mobs
-
-000-2-1.gat,61,34,0,1	script	AreaNPC	0,0,1,{
-  OnTouch:
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
-    // Only let play pass that finished Peters quest
-    if (@q < 5 && BaseLevel > 5 && getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto l_Task;
-    if (@q < 5) goto l_Stop;
-    warp "000-2-2.gat", 48, 28;
-    close;
-
-  l_Stop:
-    doevent "Peter::OnStop";
-    close;
-
-  l_Task:
-    doevent "Peter::OnGiveTask";
-    close;
-}
+// "$@RAT_SAILOR_HELPER$" - Name of the participant
+// "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight
+// "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array:
+// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive)
+// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive)
+// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive)
+// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive)
+// [5] = Shows how many seconds passed since Ratto number 1 died
+// [6] = Shows how many seconds passed since Ratto number 2 died
+// [7] = Shows how many seconds passed since Ratto number 3 died
+// [8] = Shows how many seconds passed since Ratto number 4 died
+// [9] = Shows how many seconds passed since the player started the quest
 
 000-2-1.gat,60,35,0,1	script	Peter	303,{
-  set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
-  if (@q_julia == 0) goto l_TalkToJulia;
 
-  if (BaseLevel < 5) goto OnTooWeak;
+    set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
+    if (@q_julia == 0) goto L_TalkToJulia;
+    if (BaseLevel < 5) goto L_TooWeak;
 
-  mesn;
-  mesq g(l("Hey, girl!"),
-         l("Hey, man!"));
-  next;
+    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    if (@q == 1 || @q == 2) goto L_ReturnFail;
+    if (@q >= 3) goto L_ReturnWin;
 
-  set @q, geta4(ShipQuests, ShipQuests_Peter);
-
-  // If player is here but has not finished the quest he aborted it since he
-  // cannot come here before he finished the quest while not aborting the quest
-  if (@q == 1 || @q == 2) goto l_QuestAborted;
-  if (@q == 3 || @q == 4) goto l_QuestDone;
-  if (@q == 5) goto l_Thanks;
-
-  if (getmapusers("000-2-2.gat") == 0 && $@RAT_SAILOR_HELPER$ != "") set $@RAT_SAILOR_HELPER$, "";
-  //If map is full of mobs and helper is free
-  if (getmapmobs("000-2-2.gat") == 4 && $@RAT_SAILOR_HELPER$ == "") goto OnGiveTask;
-
-  goto OnDontNeedHelp;
-  close;
-
-  OnTooWeak:
     mesn;
-    mesq lg("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.");
-    close;
-
-  OnStop:
-    mesn;
-    mesq l("You can't go there!");
-    warp "000-2-1",61,36;
-    close;
-
-  OnGiveTask:
+    mesq g(l("Hey, girl!"),
+        l("Hey, man!"));
+    next;
     mesn;
     mesq l("I need somebody who can clean the bottom of the ship of these Ratto, can you help me?");
     menu
-      l("Yeah, but what reward will I get?"), l_BonusTask,
-      l("Why not, I need to train anyway."), l_Task,
-      l("No, they are way too dangerous for me!"), -;
+        l("Yeah, but what reward will I get?"), L_BonusTask,
+        l("Why not, I need to train anyway."), L_Task,
+        l("No, they are way too dangerous for me!"), -;
+    mesq l("Ok, ok. Come back if you change your mind.");
+    goto L_Close;
+
+L_TalkToJulia:
+    mesn;
+    mesq l("Hey, you should go see Julia to be registered on the ship board.");
+    goto L_Close;
+
+L_TooWeak:
+    mesn;
+    mesq lg("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.");
+    goto L_Close;
+
+L_ReturnFail:
+    mesn;
+    mesq l("I see it is not easy to get rid of those rattos. Do you want to try again?");
+    menu
+        l("Yeah, but I would like to make sure I get a reward."), L_BonusTask,
+        l("Why not, I need to train anyway."), L_Task,
+        l("No, they are way too dangerous for me!"), -;
+    mesq l("Ok, ok. Come back if you change your mind.");
+    goto L_Close;
+
+L_ReturnWin:
+    mesn;
+    mesq l("Thanks again for helping me. But those rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
+    if (@q == 3 || @q == 4)
+    menu
+        l("Did you say reward? I want it!"), L_BonusTask,
+        l("I am not worried about rewards. I just want to train."), L_Task,
+        l("Sorry, I am not in the mood for another fight with those rattos."), -;
+
+    if (@q == 5)
+    menu
+        l("No problem, I can help you anyway."), L_Task,
+        l("Sorry, I am not in the mood for another fight with those rattos."), -;
+
     mesq l("Ok, ok. Come back if you change your mind.");
     close;
 
-  OnDontNeedHelp:
-    mesn;
-    mesq l("I don't need your help right now, come back later.");
-    if ($@RAT_SAILOR_HELPER$ == "") close;
-    mesq l("@@ is helping me.", $@RAT_SAILOR_HELPER$);
-    close;
-
-  OnTimer50000:
-    stopnpctimer;
-
-    //Attach player if possible, otherway free helper
-    if (attachrid(getcharid(3, $@RAT_SAILOR_HELPER$)) == 0) goto l_KillHelper;
-
-    warp "000-2-1",61,36;
-    goto OnCheck;
-    detachrid;
-    close;
-
-  OnCheck:
-    stopnpctimer;
-
-    mesn;
-    mesq l("Let me see your work...");
-
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
-    if (getmapmobs("000-2-2.gat") || $@RAT_SAILOR_HELPER$ != strcharinfo(0)) goto l_QuestAborted;
-    set $@RAT_SAILOR_HELPER$, "";
-
-    if (@q == 2 || @q == 4) goto l_Reward;
-    goto l_Thanks;
-
-  l_TalkToJulia:
-    mesn;
-    mesq l("Hey, you should go see Julia to be registered on the ship board.");
-    close;
-
-  l_BonusTask:
+L_BonusTask:
     mesn;
     mesq l("I will give you @@gp.", 500);
     menu
-      lg("Okay, I'm ready to work!"), -,
-      l("What? This reward is too small!"), l_Close;
-    if ($@RAT_SAILOR_HELPER$ != "") goto OnDontNeedHelp;
-    seta4 ShipQuests, ShipQuests_Peter, 2;
-    goto l_Start;
+    lg("Okay, I'm ready to work!"), -,
+    l("What? This reward is too small!"), L_Close;
+    if ($@RAT_SAILOR_HELPER$ != "") goto L_DontNeedHelp;
+    if (@q == 0) seta4 ShipQuests, ShipQuests_Peter, 2;
+    if (@q == 3) seta4 ShipQuests, ShipQuests_Peter, 4;
+    goto L_Start;
 
-  l_Task:
-    if ($@RAT_SAILOR_HELPER$ != "") goto OnDontNeedHelp;
-    seta4 ShipQuests, ShipQuests_Peter, 1;
-    goto l_Start;
+L_Task:
+    if ($@RAT_SAILOR_HELPER$ != "") goto L_DontNeedHelp;
+    if (@q == 0) seta4 ShipQuests, ShipQuests_Peter, 1;
+    goto L_Start;
 
-  l_QuestDone:
-    stopnpctimer;
-    seta4 ShipQuests, ShipQuests_Peter, 5;
-    if (@q == 4) goto l_Reward;
-    goto l_Thanks;
-
-  l_QuestAborted:
-    stopnpctimer;
-    seta4 ShipQuests, ShipQuests_Peter, 0;
-    set $@RAT_SAILOR_HELPER$, "";
-    mesn;
-    mesq l("Too bad that you do not want to help me.");
-    close;
-
-  l_Start:
+L_Start:
     mesn;
     mesq l("Okay, you can start!");
     set $@RAT_SAILOR_HELPER$, strcharinfo(0);
-    startnpctimer;
+    set $@RAT_SAILOR_DEATHS, PC_DIE_COUNTER;
+    initnpctimer;
     warp "000-2-2.gat", 48, 28;
-    close;
+    doevent "RattosControl::OnSpawn";
+    goto L_Close;
 
-  l_KillHelper:
-    set $@RAT_SAILOR_HELPER$, "";
+OnTimer5000:
+    if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto L_Logoff;
+    set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 5;
+    if ($@RAT_SAILOR_CONTROL[9] > 100) goto L_Timeout;
+    if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto L_Dead;
+    if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto L_Done;
+    if (getmapusers("000-2-2.gat") == 0) goto L_CleaningEnd;
+    goto L_CheckRattos;
     end;
 
-  l_Reward:
+L_CheckRattos:
+    if ($@RAT_SAILOR_CONTROL[1]) set $@RAT_SAILOR_CONTROL[5], $@RAT_SAILOR_CONTROL[5] + 5;
+    if ($@RAT_SAILOR_CONTROL[2]) set $@RAT_SAILOR_CONTROL[6], $@RAT_SAILOR_CONTROL[6] + 5;
+    if ($@RAT_SAILOR_CONTROL[3]) set $@RAT_SAILOR_CONTROL[7], $@RAT_SAILOR_CONTROL[7] + 5;
+    if ($@RAT_SAILOR_CONTROL[4]) set $@RAT_SAILOR_CONTROL[8], $@RAT_SAILOR_CONTROL[8] + 5;
+    if ($@RAT_SAILOR_CONTROL[5] > 40) doevent "RattosControl::OnRatto1Respawn";
+    if ($@RAT_SAILOR_CONTROL[6] > 40) doevent "RattosControl::OnRatto2Respawn";
+    if ($@RAT_SAILOR_CONTROL[7] > 40) doevent "RattosControl::OnRatto3Respawn";
+    if ($@RAT_SAILOR_CONTROL[8] > 40) doevent "RattosControl::OnRatto4Respawn";
+    setnpctimer 0;
+    end;
+
+L_DontNeedHelp:
+    mesn;
+    mesq l("I don't need your help right now, come back later.");
+    mesq l("@@ is helping me.", $@RAT_SAILOR_HELPER$);
+    goto L_Close;
+
+L_Timeout:
+    mesn;
+    mesq l("Hey! Be careful. You can't stay in this basement for so long, you are going to get sick. Come outside and take a break, maybe you can try again later.");
+    warp "000-2-1", 61, 36;
+    goto L_CleaningClose;
+
+L_Logoff:
+    goto L_CleaningEnd;
+
+L_Dead:
+// Warps the dead body outside, so it does not interfere with the getmapusers check.
+    warp "000-2-1", 61, 36;
+    goto L_CleaningEnd;
+
+L_Done:
+    warp "000-2-1", 61, 36;
+    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    if (@q == 2 || @q == 4) goto L_Reward;
+    goto L_Thanks;
+
+L_CleaningEnd:
+    stopnpctimer;
+    set $@RAT_SAILOR_HELPER$, "";
+    set $@RAT_SAILOR_DEATHS, 0;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 9;
+    killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
+    end;
+
+L_CleaningClose:
+    stopnpctimer;
+    set $@RAT_SAILOR_HELPER$, "";
+    set $@RAT_SAILOR_DEATHS, 0;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 9;
+    killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
+    killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
+    close;
+
+L_Reward:
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 500;
-    close;
+    seta4 ShipQuests, ShipQuests_Peter, 5;
+    goto L_CleaningClose;
 
-  l_Thanks:
+L_Thanks:
     mesn;
     mesq l("Thanks for helping me!");
-    close;
+    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    if (@q == 1) seta4 ShipQuests, ShipQuests_Peter, 3;
+    goto L_CleaningClose;
 
-  l_Close:
+L_Close:
+    set @q, 0;
+    set @q_julia, 0;
     close;
 
 }

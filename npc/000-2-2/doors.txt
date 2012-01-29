@@ -2,19 +2,14 @@
 // Authors:
 //    Reid
 //    Ablu
+//    alastrim
 // Description:
 //    Ratto killer NPC
 
 000-2-2.gat,48,29,0,1	script	DoorUpwards	0,0,0,{
 
 OnTouch:
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
-    if (@q == 1 || @q == 2) goto l_Check;
-    goto l_Warp;
-
-l_Check:
     if (getmapmobs("000-2-2.gat") > 0) goto l_Warn;
-    seta4 ShipQuests, ShipQuests_Peter, @q+2;
     goto l_Warp;
 
 l_Warn:
@@ -37,4 +32,64 @@ OnTouch:
     mesq l("This door seems locked");
     close;
 
+}
+
+000-2-2.gat,47,30,0,1	script	RattosControl	32767,{
+// $@RAT_SAILOR_CONTROL array explanation:
+// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive)
+// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive)
+// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive)
+// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive)
+// [5] = Shows how many seconds passed since Ratto number 1 died
+// [6] = Shows how many seconds passed since Ratto number 2 died
+// [7] = Shows how many seconds passed since Ratto number 3 died
+// [8] = Shows how many seconds passed since Ratto number 4 died
+// [9] = Shows how many seconds passed since the player started the quest
+
+OnSpawn:
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto1Death";
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto2Death";
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto3Death";
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto4Death";
+    close;
+
+OnRatto1Respawn:
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto1Death";
+    set $@RAT_SAILOR_CONTROL[1], 0;
+    set $@RAT_SAILOR_CONTROL[5], 0;
+    end;
+
+OnRatto2Respawn:
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto2Death";
+    set $@RAT_SAILOR_CONTROL[2], 0;
+    set $@RAT_SAILOR_CONTROL[6], 0;
+    end;
+
+OnRatto3Respawn:
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto3Death";
+    set $@RAT_SAILOR_CONTROL[3], 0;
+    set $@RAT_SAILOR_CONTROL[7], 0;
+    end;
+
+OnRatto4Respawn:
+    areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto4Death";
+    set $@RAT_SAILOR_CONTROL[4], 0;
+    set $@RAT_SAILOR_CONTROL[8], 0;
+    end;
+
+OnRatto1Death:
+    set $@RAT_SAILOR_CONTROL[1], 1;
+    end;
+
+OnRatto2Death:
+    set $@RAT_SAILOR_CONTROL[2], 1;
+    end;
+
+OnRatto3Death:
+    set $@RAT_SAILOR_CONTROL[3], 1;
+    end;
+
+OnRatto4Death:
+    set $@RAT_SAILOR_CONTROL[4], 1;
+    end;
 }
