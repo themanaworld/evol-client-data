@@ -81,7 +81,7 @@ L_ReturnWin:
     if (@q == 3 || @q == 4)
     menu
         l("Did you say reward? I want it!"), L_BonusTask,
-        l("I am not worried about rewards. I just want to train."), L_Task,
+        l("I am not worried about rewards. I just want to help."), L_Task,
         l("Sorry, I am not in the mood for another fight with those rattos."), -;
 
     if (@q == 5)
@@ -170,7 +170,7 @@ L_CleaningEnd:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
-    cleararray $@RAT_SAILOR_CONTROL, 0, 9;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 10;
     killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
@@ -181,7 +181,7 @@ L_CleaningClose:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
-    cleararray $@RAT_SAILOR_CONTROL, 0, 9;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 10;
     killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
