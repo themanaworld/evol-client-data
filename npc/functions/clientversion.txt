@@ -1,0 +1,17 @@
+// Evol scripts.
+// Authors:
+//    4144
+// Description:
+//    Function checking client version and report if it too old.
+
+function	script	CheckClientVersion	{
+    if (getclientversion("") > 3) return;
+    mes "Warning:";
+    mes "Warning:";
+    mes "Warning: you using old client.";
+    next;
+    mes "Not all features will work.";
+    next;
+    mes "Please install client from http://www.evolonline.org/";
+    next;
+}
