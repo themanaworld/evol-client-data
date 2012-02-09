@@ -153,6 +153,7 @@ L_Start:
     mesq l("Okay, you can start!");
 
 OnStartOutside:
+    if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     set $@RAT_SAILOR_HELPER$, strcharinfo(0);
     set $@RAT_SAILOR_DEATHS, PC_DIE_COUNTER;
     initnpctimer;
