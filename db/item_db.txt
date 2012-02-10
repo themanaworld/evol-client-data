@@ -1,29 +1,29 @@
-#ID,	Name,			Label,			Attr,	Type,	Price,	Sell,	Weight,	ATK,	DEF,	Range,	Mbonus,	Slot,	Gender,	Loc,	wLV,	eLV,	View,	LifeTime,	{UseScript},				{EquipScript}				{UnEquipScript}
-0,	DEFAULT,		Default,		0,	0,	0,	0,	10,	,	,	,	,	,	2,	,	,	,	,	0,		{},					{}					,
-501,	Acorn,			Acorn,			0,	0,	10,	2,	2,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 15, 0; },			{},					,
-502,	Bread,			Bread,			0,	0,	15,	8,	5,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 30, 0; },			{},					,
-503,	Carrot,			Carrot,			0,	0,	20,	10,	6,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 25, 0; },			{},					,
-504,	Cheese,			Cheese,			0,	0,	40,	18,	6,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 50, 0; },			{},					,
-505,	Piouslegs,		Pious legs,		0,	0,	10,	3,	5,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 10, 0; },			{},					,
-506,	Lettuce,		Lettuce,		0,	0,	25,	12,	5,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 15, 0; },			{},					,
-507,	Piberries,		Piberries,		0,	0,	40,	20,	3,	,	,	,	,	,	2,	,	,	0,	,	0,		{ itemheal 20, 0; },			{},					,
-508,	Seadrop,		Sea drop,		0,	0,	5,	1,	2,	,	,	,	,	,	2,	,	,	0,	,	0,		{callfunc "usePoisonedWater";},		{},					,
-700,	Three-leafclover,	Three-leaf clover,	0,	3,	10,	3,	5,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-701,	Piousfeathers,		Pious feathers,		0,	3,	60,	35,	1,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-702,	Tortugasshellfragment,	Tortugas shell fragment,0,	3,	40,	15,	15,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-703,	Halfeggshell,		Half eggshell,		0,	3,	35,	15,	5,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-704,	Rattotail,		Ratto tail,		0,	3,	25,	12,	5,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-705,	Rattotooth,		Ratto tooth,		0,	3,	20,	10,	3,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-706,	Root,			Root,			0,	3,	40,	25,	5,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-707,	Squichyclaws,		Squichy claws,		0,	3,	60,	30,	10,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-708,	Tortugasshell,		Tortugas shell,		0,	3,	100,	50,	35,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-709,	Tortugastongue,		Tortugas tongue,	0,	3,	25,	10,	5,	,	,	,	,	,	,	,	,	,	,	0,		{},					{},					,
-1300,	Usedshirt,		Used shirt,		0,	5,	100,	25,	50,	,	2,	,	,	0,	2,	512,	,	0,	,	0,		{},					{},					,
-1301,	Sailortanktop,		Sailor tank top,	0,	5,	2000,	250,	40,	,	3,	,	,	0,	2,	512,	,	0,	,	0,		{},					{},					,
-1302,	Sailorshirt,		Sailor shirt,		0,	5,	7500,	950,	75,	,	4,	,	,	0,	2,	512,	,	0,	,	0,		{},					{},					,
-1800,	Boots,			Boots,			0,	5,	1000,	150,	30,	,	1,	,	,	0,	2,	64,	,	0,	,	0,		{},					{},					,
-2000,	Bracelets,		Bracelets,		0,	5,	2000,	250,	30,	,	1,	,	,	0,	2,	4,	,	0,	,	0,		{},					{},					,
-2200,	Usedshort,		Used short,		0,	5,	80,	20,	35,	,	2,	,	,	0,	2,	1,	,	0,	,	0,		{},					{},					,
-2900,	Bandana,		Bandana,		0,	5,	500,	100,	13,	,	1,	,	,	0,	2,	256,	,	0,	,	0,		{},					{},					,
-3500,	Knife,			Knife,			0,	4,	50,	25,	50,	10,	,	,	,	0,	2,	2,	1,	1,	1,	0,		{},					{},					,
-#	<------ 23chars ------>	<------ 23chars ------>	
+#ID,   Name,                    Label,                   Attr,  Type,  Price, Sell,  Weight,ATK,   DEF,   Range, Mbonus,Slot,  Gender,Loc,   wLV,   eLV,   View,  LifeTime, {UseScript}         {EquipScript}       {UnEquipScript}
+0,     DEFAULT,                 Default,                 0,     0,     0,     0,     10,    ,      ,      ,      ,      ,      2,     ,      ,      ,      ,      0,        {}                  {}
+501,   Acorn,                   Acorn,                   0,     0,     10,    2,     2,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 150; }   {}
+502,   Bread,                   Bread,                   0,     0,     15,    8,     5,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 300; }   {}
+503,   Carrot,                  Carrot,                  0,     0,     20,    10,    6,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 250; }   {}
+504,   Cheese,                  Cheese,                  0,     0,     40,    18,    6,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 500; }   {}
+505,   Piouslegs,               Pious legs,              0,     0,     10,    3,     5,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 100; }   {}
+506,   Lettuce,                 Lettuce,                 0,     0,     25,    12,    5,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 150; }   {}
+507,   Piberries,               Piberries,               0,     0,     40,    20,    3,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 200; }   {}
+508,   Seadrop,                 Sea drop,                0,     0,     5,     1,     2,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {callfunc "usePoisonedWater";}{}
+700,   Three-leafclover,        Three-leaf clover,       0,     3,     10,    3,     5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+701,   Piousfeathers,           Pious feathers,          0,     3,     60,    35,    1,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+702,   Tortugasshellfragment,   Tortugas shell fragment, 0,     3,     40,    15,    15,    ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+703,   Halfeggshell,            Half eggshell,           0,     3,     35,    15,    5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+704,   Rattotail,               Ratto tail,              0,     3,     25,    12,    5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+705,   Rattotooth,              Ratto tooth,             0,     3,     20,    10,    3,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+706,   Root,                    Root,                    0,     3,     40,    25,    5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+707,   Squichyclaws,            Squichy claws,           0,     3,     60,    30,    10,    ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+708,   Tortugasshell,           Tortugas shell,          0,     3,     100,   50,    35,    ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+709,   Tortugastongue,          Tortugas tongue,         0,     3,     25,    10,    5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {}                  {}
+1300,  Usedshirt,               Used shirt,              0,     5,     100,   25,    50,    ,      2,     ,      ,      0,     2,     512,   ,      0,     ,      0,        {}                  {}
+1301,  Sailortanktop,           Sailor tank top,         0,     5,     2000,  250,   40,    ,      3,     ,      ,      0,     2,     512,   ,      0,     ,      0,        {}                  {}
+1302,  Sailorshirt,             Sailor shirt,            0,     5,     7500,  950,   75,    ,      4,     ,      ,      0,     2,     512,   ,      0,     ,      0,        {}                  {}
+1800,  Boots,                   Boots,                   0,     5,     1000,  150,   30,    ,      1,     ,      ,      0,     2,     64,    ,      0,     ,      0,        {}                  {}
+2000,  Bracelets,               Bracelets,               0,     5,     2000,  250,   30,    ,      1,     ,      ,      0,     2,     4,     ,      0,     ,      0,        {}                  {}
+2200,  Usedshort,               Used short,              0,     5,     80,    20,    35,    ,      2,     ,      ,      0,     2,     1,     ,      0,     ,      0,        {}                  {}
+2900,  Bandana,                 Bandana,                 0,     5,     500,   100,   13,    ,      1,     ,      ,      0,     2,     256,   ,      0,     ,      0,        {}                  {}
+3500,  Knife,                   Knife,                   0,     4,     50,    25,    50,    10,    ,      ,      ,      0,     2,     2,     1,     1,     1,     0,        {}                  {}
+#      <------ 23chars ------>  <------ 23chars ------>
