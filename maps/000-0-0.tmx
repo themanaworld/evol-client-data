@@ -15,9 +15,9 @@
   <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
  </tileset>
  <tileset firstgid="410" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Box.png" width="128" height="128"/>
+  <image source="../graphics/tiles/Box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="426" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="430" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="44" height="44">
@@ -47,7 +47,7 @@
  </layer>
  <layer name="Collision" width="44" height="44" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OMQ0AAAjAMPAvBZMEBzyEp0v6rzKiAAAAgBPT9wMAAABsNeznLnxAHgAA
+   H4sIAAAAAAAAA+3OMQ0AAAjAMPAvBosEBzyEp0v6rzKiAAAAgBPT9wMAAABsNYpV/FlAHgAA
   </data>
  </layer>
 </map>
