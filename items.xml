@@ -336,7 +336,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/chest/cottonshirt.png|W:#3e3c38,514d47,706662,99917b,c0b698,e4dfca"
         name="Used shirt"
         description="A used shirt given to you by a sailor."
-        effect="+2 Defense"
+        effect="Defense +2"
         type="equip-torso"
         weight="50">
         <sprite gender="unisex">equipment/chest/cottonshirt-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
@@ -346,7 +346,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/chest/tanktop.png|W"
         name="%Color% sailor tank top"
         description="A %color% tank top used by sailors and seamen."
-        effect="+3% Defense"
+        effect="Defense +3"
         type="equip-torso"
         weight="40"
         max-per-slot="1"
@@ -358,7 +358,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/chest/sailorshirt.png"
         name="Sailor shirt"
         description="Proof that ye be in the crew, matey!"
-        effect="+4% Defense"
+        effect="Defense +4"
         type="equip-torso"
         weight="75">
         <sprite gender="unisex">equipment/chest/shirt-male.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
@@ -371,7 +371,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/feet/boots.png|W"
         name="%Color% boots"
         description="%Color% boots made for beginners."
-        effect="+1% Defense"
+        effect="Defense +1"
         type="equip-feet"
         weight="30"
         colors="simple">
@@ -385,7 +385,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/hands/bracelets.png"
         name="Bracelets"
         description="Made out of wood and iron."
-        effect="+1% Defense"
+        effect="Defense +1"
         type="equip-arms"
         weight="30">
         <sprite>equipment/hands/bracelets.xml</sprite>
@@ -397,7 +397,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/leg/shorts.png|W:#514d47,706662,99917b,c0b698,e4dfca"
         name="Used shorts"
         description="A used pair of shorts given to you by a sailor, erk..."
-        effect="+2% Defense"
+        effect="Defense +2"
         type="equip-legs"
         weight="35">
         <sprite gender="unisex">equipment/leg/shorts-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e4dfca</sprite>
@@ -410,7 +410,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/wings/"
         name=""
         description="."
-        effect="+% Defense"
+        effect="Defense +"
         type="equip-charm"
         weight=""
         defense="">
@@ -423,7 +423,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/shield/.png"
         name=""
         description=""
-        effect="+% Defense"
+        effect="Defense +"
         type="equip-shield"
         defense=""
         weight="">
@@ -435,7 +435,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/head/bandana hat.png"
         name="Bandana"
         description="A striped bandana."
-        effect="+1% Defense"
+        effect="Defense +1"
         type="equip-head"
         defense="1"
         weight="13"
@@ -457,7 +457,7 @@ Colors is now seted up by itemcolors.xml.
         image="equipment/neck/.png"
         name=""
         description="."
-        effect="+% Defense"
+        effect="Defense +"
         type="equip-ring"
         defense=""
         weight=""
