@@ -49,22 +49,22 @@
  </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SsQrCMBSF4ZQiUsSCioiKDxa3oovo4ujbe0vvEErSmjo0gX/4uEnpcA431hhjAQAAAAAAMFkhFqIUW7HUuRG12CWQ8Z8+e6fPIcM+lVi3HaTYSebFdPOo53MCGWM8RSNuOn0K/bdMIO8YX/6Xp881kz6PQA93X5XOVQJ5x3bz9nRpz/fA7poEcg/5aP5+nxy72ED2/jf3PnfeX95cjLnzxvSKuQMAAAAAAGCaL3JPWIwQKwAA
+   H4sIAAAAAAAAA+3SMQvCMBCG4ZQiUkRBRUTFH1Y30UXs4ui/94oXCCE2pA5J4R0erqUdvo+71hjTAgAAAAAAYLRKzEQtNmKucy1WYltAxn/67Jw++wn2acSy7yDFjjLP5jsP+nwqIGOKp+jETefV0alK/60LyBvjZg91sX0uE+nz8LJbbq9G56KAvLHdvAL5e/fA3uy33LmHvL2d+NO/wdx5Y37dWujuptpnSO68Kb1S3gEAAAAAADDOB7Il5sgQKwAA
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PywnCQBRG4blagYgFJHaSEixhbMClS5NdcJdVtiEVWIILS7AffzAQGIKLiToK54NDHsPAvc4BAAAAAAAAo8KcM7VQS9UF57ckU8XbaYeVKtVa9fq3t/H8nmyyOF6zZypX22GfKflXp5rvbM8ueq+CNvby6k85BN9X1QTV2sfr2f7BXsfUA7zZKfUAAAAAAAAAAD7mAUBUbCIQKwAA
+   H4sIAAAAAAAAA+3PwQnCMBjF8Xx1ApEOYNzEETpCXcCjR/FWeuvJqzhBR+jBEdzHBxUCQTyk1Sj8f/D4EkLgfc4BAAAAAAAAwdacM6VQFsoler9laZWu0g5LG88rzavmzsL7PUurdLW6rxWvbJ77vOK/2mq61sb0Op+ilPb260/ZR/dB6aI02qfWPP/BXofcBWZ2zF0AAAAAAAAAwMc8ANtr2moQKwAA
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PsQmAQAxA0csOruQgTmBjL1aO4LpyiHCFgqggHu9BSBXITwkAAAAAzg3x9QfPNUVDW0FPNsc2UyU92VJRy66L4/0H/Y2b8fUvAAAAAACuWQGuilorECsAAA==
+   H4sIAAAAAAAAA+3PwQmAQAwEwKQHG7QCSxBfV4Lt3uPw50PkQAwzEPJa2I0AAAAAgNqWjDjy6xZztRxXaddZaMtlzfv/B9uLzD69BQAAAADAMx0LrNxGECsAAA==
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UQQrCMBAF0DlLVy7dW92ovYJ4EsHT20CFrqTJQqbhPfi0gQTy6dAIAAAAIKtnQzIr9zvNuWzIGPvoc964d4o++2SevZo+j8g/ezV9imF5Zp292j5f+vxHudOr4dw7cv4Tevw+vfW5zrkvOazef61vkbfPOsfKNQAAAABtPpmdQ2gQKwAA
+   H4sIAAAAAAAAA+3UOwqAMBBF0XErVpb2fhqNWxD3IQiu3gQiCH4wKWQi98BDIwbycFAEAAAAAABoNUVEM3e+yqZ9kVrS6NO8fHeQdPvM2fnZ3kfz7N31MRd9RtE/eyHz5uT+qnX2Qvvs6PMNd6YlYt8qOv8Jf/w+f+vT2Rif4nD/tO5Fb59jysA1AAAAAAAA4mynhHNNECsAAA==
   </data>
  </layer>
  <layer name="Collision" width="52" height="53" visible="0">
@@ -72,7 +72,7 @@
    H4sIAAAAAAAAA+3PsQ0AIAwDQdh/hQyL6CkokBLgLF3vj95aAAAAAABXmMv+cLpnp+mW7p291rPqq+qlFj35f3/rAQAAAKhuAIrrohoQKwAA
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object" width="52" height="53" visible="0">
   <object name="ToLevel1" type="warp" x="608" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>
