@@ -29,7 +29,7 @@ l_Warp:
 000-2-2.gat,24,31,0,1	script	AreaNPC	0,0,0,{
 
 OnTouch:
-    mesq l("This door seems locked");
+    mesq l("This door seems locked.");
     close;
 
 }
