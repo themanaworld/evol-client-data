@@ -20,7 +20,7 @@ New management (04/12/11).
 3200 3499 = Neck
 3500 + = Weapons
 
-Colors is now seted up by itemcolors.xml.
+Multiple's colors dye is now setted up by itemcolors.xml.
 -->
 
 <items>
@@ -250,12 +250,40 @@ Colors is now seted up by itemcolors.xml.
         type="usable"
         weight="3"/>
     <item id="508"
-        image="generic/use/waterdrop.png"
+        image="generic/use/waterdrop.png|S:#898989,7287a0,aeaeae,96abc6,cecece,bccce0,e5e5e5,dce4ee"
         name="Sea drop"
         description="Some waters drops from the sea, may you shouldn't drink it..."
         effect="+15 HP, Headache"
         type="usable"
         weight="2"/>
+    <item id="509"
+        image="generic/use/aquada.png"
+        name="Aquada"
+        description="A strange sea fruit, the blue part seems eatable."
+        effect="+30 HP"
+        type="usable"
+        weight="5"/>
+    <item id="510"
+        image="generic/use/blobime.png|S:#686868,695977,919191,9f79a9,bababa,d69ec0,dcdcdc,eccddf"
+        name="Pink Blobime"
+        description="Some pink residue left-over by a Little Blub."
+        effect="+1 HP, Headache"
+        type="usable"
+        weight="2"/>
+<!--    <item id="512"
+        image="generic/use/blobime.png|S:#686868,to,919191,to,bababa,to,dcdcdc,to"
+        name="Purple Blobime"
+        description="Some purple residue left-over by a Blub."
+        effect="+5 HP, Headache"
+        type="usable"
+        weight="2"/>-->
+    <item id="513"
+        image="generic/use/fungus.png"
+        name="Fungus"
+        description="A non-toxical mushroom growing in moist place."
+        effect="+25 HP"
+        type="usable"
+        weight="7"/>
 
 
     <!-- Generic -->
@@ -317,6 +345,30 @@ Colors is now seted up by itemcolors.xml.
         image="generic/tortugastongue.png"
         name="Tortugas tongue"
         description="A tongue from a Tortugas."
+        type="generic"
+        weight="5"/>
+    <item id="710"
+        image="generic/pearl.png"
+        name="Pearl"
+        description="A perfectly round pearl."
+        type="generic"
+        weight="2"/>
+    <item id="711"
+        image="generic/coral.png|S:#535353,693d41,808080,b44e4c,999999.da6858,b9b9b9.f1a082,d7d7d7.fbcbb3"
+        name="Coral"
+        description="Typical coral visible in Oceania's zone."
+        type="generic"
+        weight="10"/>
+    <item id="711"
+        image="generic/coral.png|S:#535353,473746,808080.5b5a84,999999.6c7ec6,b9b9b9.7eb1e0,d7d7d7.c2f6fa"
+        name="Blue Coral"
+        description="A coral dye in blue by a Blub."
+        type="generic"
+        weight="10"/>
+    <item id="712"
+        image="generic/use/littletentacle.png"
+        name="Little Tentacle"
+        description="Some cutted tentacle from a Little Blub."
         type="generic"
         weight="5"/>
 
