@@ -1,0 +1,13 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Save location in 000-2-1 map.
+
+    callfunc "SavePoint";
+    set @map$, "000-2-1.gat";
+    set @x, 30;
+    set @y, 37;
+    close;
+
+}
