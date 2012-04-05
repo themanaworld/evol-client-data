@@ -1,0 +1,57 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Add new save point localisation
+
+function	script	SavePoint	{
+  mesn "Narrator";
+  mes col(l("There is a nice place to stay beside you."), 9);
+  next;
+  mes col(l("What do you wish to do?"), 9);
+  next;
+
+  menu
+      l("Take a nap"), -,
+      l("Nothing"), L_Return;
+
+  if (PlayerInformations_SavePoint == 1)
+  goto L_Shortversion;
+
+  mesn "Narrator";
+  mes col(l("You close your eyes some seconds..."), 9);
+  next;
+  mes col(l("..."), 9);
+  next;
+  mes col(l("..."), 9);
+  next;
+  mes col(l("..."), 9);
+  next;
+  mes col(l("Your position get saved."), 9);
+  next;
+
+  set PlayerInformations_SavePoint, 1;
+  goto L_Save;
+
+L_Shortversion:
+  mesn "Narrator";
+  mes col(l("Your position get saved."), 9);
+  next;
+
+L_Save:
+    if (@x == 0 && @y == 0)
+        goto L_FindPoint;
+
+L_Do_Save:
+    savepoint @map$, @x, @y;
+    goto L_Return;
+
+L_FindPoint:
+    set @n, rand(getarraysize(@Xs));
+    set @x, @Xs[@n];
+    set @y, @Ys[@n];
+    goto L_Do_Save;
+
+L_Return:
+    return;
+}
