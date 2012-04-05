@@ -4,6 +4,8 @@
 // Description:
 //    Save location in 000-2-1 map.
 
+000-2-1.gat,30,37,0,2	script	#name	999,{
+
     callfunc "SavePoint";
     set @map$, "000-2-1.gat";
     set @x, 30;
