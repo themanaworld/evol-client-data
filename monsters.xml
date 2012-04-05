@@ -28,24 +28,24 @@ exemple :
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-    <monster id="0" name="Pious" targetCursor="small" walkType="walk">
-        <sprite>monsters/chick.xml</sprite>
-        <sound event="die">monsters/pious/pious-die-1.ogg</sound>
-        <sound event="hit">monsters/pious/pious-hit-1.ogg</sound>
-        <sound event="hurt">monsters/pious/pious-hurt-1.ogg</sound>
-        <sound event="hurt">monsters/pious/pious-hurt-2.ogg</sound>
-        <sound event="miss">monsters/pious/pious-miss-1.ogg</sound>
-        <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
+    <monster id="0" name="Piou" targetCursor="small" walkType="walk">
+        <sprite>monsters/piou.xml</sprite>
+        <sound event="die">monsters/piou/piou-die-1.ogg</sound>
+        <sound event="hit">monsters/piou/piou-hit-1.ogg</sound>
+        <sound event="hurt">monsters/piou/piou-hurt-1.ogg</sound>
+        <sound event="hurt">monsters/piou/piou-hurt-2.ogg</sound>
+        <sound event="miss">monsters/piou/piou-miss-1.ogg</sound>
+        <sound event="spawn">monsters/piou/piou-spawn-1.ogg</sound>
     </monster>
     <monster id="1" name="Piousse" targetCursor="small" walkType="walk">
-        <sprite>monsters/chick.xml</sprite>
-        <sprite>accessories/acc-chick-egg.xml</sprite>
-        <sound event="die">monsters/pious/pious-die-1.ogg</sound>
-        <sound event="hit">monsters/pious/pious-hit-1.ogg</sound>
-        <sound event="hurt">monsters/pious/pious-hurt-1.ogg</sound>
-        <sound event="hurt">monsters/pious/pious-hurt-2.ogg</sound>
-        <sound event="miss">monsters/pious/pious-miss-1.ogg</sound>
-        <sound event="spawn">monsters/pious/pious-spawn-1.ogg</sound>
+        <sprite>monsters/piou.xml</sprite>
+        <sprite>accessories/acc-piousse-egg.xml</sprite>
+        <sound event="die">monsters/piou/piou-die-1.ogg</sound>
+        <sound event="hit">monsters/piou/piou-hit-1.ogg</sound>
+        <sound event="hurt">monsters/piou/piou-hurt-1.ogg</sound>
+        <sound event="hurt">monsters/piou/piou-hurt-2.ogg</sound>
+        <sound event="miss">monsters/piou/piou-miss-1.ogg</sound>
+        <sound event="spawn">monsters/piou/piou-spawn-1.ogg</sound>
     </monster>
     <monster id="2" name="Tortugas" targetCursor="small" walkType="walkswim">
         <sound event="die">monsters/tortugas/tortugas-dying1.ogg</sound> 
