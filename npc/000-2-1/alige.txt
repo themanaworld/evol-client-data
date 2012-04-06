@@ -51,39 +51,48 @@
   l_Talk:
     mesn "Hidden person";
     mesq l("Hey, psst! You're not a sailor, right?");
+    next;
 
     menu
-        l("I am, who are you?"), -,
-        l("I'm not."), l_NeedHelp;
+        lg("I am, who are you?"), -,
+        lg("I'm not."), l_NeedHelp;
 
+    mes " ";
     mesq "Hidden person doesn't answer";
     close;
 
   l_NeedHelp:
+    mes " ";
     mesn "Hidden person";
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
+    next;
 
     menu
         l("Why not... but, who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
 
+    mes " ";
     mesn "Hidden person";
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
     close;
 
   l_CanHelp:
+    mes " ";
     mesn;
     mesq l("I'm called Alige, and I've been hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;
 
     mesn;
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
+    next;
 
     menu
       l("Okay, but what can you offer me?"), l_AboutReward,
       l("Why don't you go outside?"), -;
 
+
   l_ExplainHiding:
+    mes " ";
     mesn;
     mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
@@ -101,6 +110,7 @@
     goto l_Accept;
 
   l_AboutReward:
+    mes " ";
     mesn;
     mesq l("I'll share my berries with you, if you help me.");
     next;
@@ -109,10 +119,10 @@
     menu
       l("Ok, I'll help you."), l_Accepted,
       l("What is Artis?"), l_Artis,
-      l("I think I should report you to the crew members."), -;
-    goto l_DamnYou;
+      l("I think I should report you to the crew members."), l_DamnYou;
 
   l_Artis:
+    mes " ";
     mesn;
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's one of the most famous cities throughout the world... But hey oh, returning to the topic! I'm hungry!");
     next;
@@ -121,6 +131,7 @@
 
   l_Accepted:
     seta2 ShipQuests, ShipQuests_Alige, 2;
+    mes " ";
     mesn;
     mesq lg("Perfect, which food did you get for me today?");
     next;
@@ -146,10 +157,10 @@
     goto l_GiveFood;
 
   l_GiveReward:
-
     if (countitem(@id) < 1) close;
     delitem @id, 1;
 
+    mes " ";
     mesn;
     mesq l("Thank you so much! Here, have some berries...");
 
@@ -157,6 +168,7 @@
     close;
 
   l_NoMore:
+    mes " ";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid ... stupid ... stupid!");
     next;
@@ -175,6 +187,7 @@
       l("I think I should report you to the crew members."), l_DamnYou;
 
   l_Food:
+    mes " ";
     mesn;
     mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
@@ -184,6 +197,7 @@
     close;
 
   l_DamnYou:
+    mes " ";
     mesn;
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
     close;

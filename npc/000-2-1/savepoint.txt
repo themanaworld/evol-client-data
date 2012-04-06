@@ -6,10 +6,7 @@
 
 000-2-1.gat,30,37,0,2	script	#name	999,{
 
-    callfunc "SavePoint";
-    set @map$, "000-2-1.gat";
-    set @x, 30;
-    set @y, 37;
+    callfunc "SavePoint", "000-2-1.gat", 30, 37
     close;
 
 }
