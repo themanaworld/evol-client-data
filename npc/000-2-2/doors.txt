@@ -13,8 +13,10 @@ OnTouch:
     goto l_Warp;
 
 l_Warn:
-    mesn;
-    mesq l("There are still some rattos left! Do you want to abort the quest?");
+    mesn "Narrator";
+    mes col(l("There are still some rattos left! Do you want to abort the quest?"), 9);
+    next;
+
     menu
       l("Yes."), l_Warp,
       l("No."), -;
@@ -29,8 +31,8 @@ l_Warp:
 000-2-2.gat,24,31,0,1	script	AreaNPC	0,0,0,{
 
 OnTouch:
-    mesq l("This door seems locked.");
-    close;
+    mesn "Narrator";
+    mes col(l("This door seems locked."), 9);
 
 }
 

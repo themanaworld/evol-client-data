@@ -9,7 +9,8 @@
 
 OnTouch:
 
-	mesq l("This door seems locked.");
+    mesn "Narrator";
+    mes col(l("This door seems locked."), 9);
 	close;
 
 }

@@ -65,11 +65,11 @@ l_EquipDone:
 }
 
 000-2-1.gat,41,37,0	script	Box	999,{
-    mesn "Box";
+    mesn "Narrator";
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Empty;
-    mes l("This box is locked.");
+    mes col(l("This box is locked"), 9);
     close;
 
 l_Give:
