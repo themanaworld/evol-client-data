@@ -2,11 +2,43 @@
 // Authors:
 //    Reid
 // Description:
-//    Save location in 000-2-1 map.
+//    Save locations in 000-2-1 map.
 
 000-2-1.gat,30,37,0,2	script	#name	999,{
 
-    callfunc "SavePoint", "000-2-1.gat", 30, 37
+    set @map$, "000-2-1.gat";
+    set @x, 30;
+    set @y, 37;
+    callfunc "SavePoint";
+    close;
+
+}
+
+000-2-1.gat,36,37,0,2	script	#name	999,{
+
+    set @map$, "000-2-1.gat";
+    set @x, 36;
+    set @y, 37;
+    callfunc "SavePoint";
+    close;
+
+}
+000-2-1.gat,40,38,0,2	script	#name	999,{
+
+    set @map$, "000-2-1.gat";
+    set @x, 40;
+    set @y, 38;
+    callfunc "SavePoint";
+    close;
+
+}
+
+000-2-1.gat,45,40,0,2	script	#name	999,{
+
+    set @map$, "000-2-1.gat";
+    set @x, 45;
+    set @y, 40;
+    callfunc "SavePoint";
     close;
 
 }

@@ -1,0 +1,31 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Fake save point in nard's room.
+
+000-2-3.gat,28,24,0,2	script	#name	999,{
+
+    mesn "Narrator";
+    mes col(l("There is a nice place to stay beside you."), 9);
+    next;
+    mes col(l("What do you wish to do?"), 9);
+    next;
+
+    menu
+        l("Take a nap"), -,
+        l("Nothing"), L_Return;
+
+    mes " ";
+    mesn "Narrator";
+    mes col(l("You close your eyes some seconds..."), 9);
+    next;
+    mes col(l("..."), 9);
+    next;
+    mesn "Nard";
+    mesq l("Hey, you can't sleep here, it's my room.");
+
+L_Return:
+    close;
+
+}
