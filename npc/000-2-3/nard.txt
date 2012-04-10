@@ -51,3 +51,39 @@ l_Ok:
     close;
 
 }
+
+000-2-3.gat,25,24,0	script	Box	102,{
+
+    set @q, geta2(ShipQuests, ShipQuests_Nardbox);
+
+    mesn "Narrator";
+    mes col(l("Some Bandanas and Sailor Hats are inside this box."), 9);
+    next;
+    mes col(l("What do you wish to do?"), 9);
+    next;
+
+    menu
+        l("Take a Bandana"), -,
+        l("Nothing"), L_Close;
+
+    if (@q == 1) goto l_Give;
+    if (@q > 1) goto l_Already;
+
+l_Give:
+    mes "";
+    mesn "Nard";
+    mesq l("Congrats!"); 
+    mesn "Nard";
+    mesq l("You are now part of the crew! Thanks again for your help.");
+
+    seta2 ShipQuests, ShipQuests_Nardbox, 2;
+    getitem "Bandana", 1;
+
+l_Close:
+    close;
+
+l_Already:
+    mesn "Nard";
+    mesq l("You already took a Bandana, put this one back please."); 
+    close;
+}
