@@ -64,10 +64,13 @@ l_Ok:
 
     menu
         l("Take a Bandana"), -,
-        l("Nothing"), L_Close;
+        l("Nothing"), l_Close;
 
     if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Already;
+
+    mes "";
+    doevent "Nard::OnQuest"; // Dialogs continue with Nard NPC.
 
 l_Give:
     mes "";
@@ -83,6 +86,7 @@ l_Close:
     close;
 
 l_Already:
+    mes "";
     mesn "Nard";
     mesq l("You already took a Bandana, put this one back please."); 
     close;
