@@ -17,7 +17,7 @@ function	script	SavePoint	{
 
     mes " ";
     mesn "Narrator";
-    mes col(l("You close your eyes some seconds..."), 9);
+    mes col(l("You close your eyes a few seconds..."), 9);
     next;
     mes col(l("..."), 9);
     next;
@@ -25,7 +25,7 @@ function	script	SavePoint	{
     next;
     mes col(l("..."), 9);
     next;
-    mes col(l("Your position get saved."), 9);
+    mes col(l("Your position is saved."), 9);
     next;
 
     savepoint @map$, @x, @y;

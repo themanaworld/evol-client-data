@@ -7,7 +7,7 @@
 000-2-3.gat,25,26,0,1	script	Nard	306,{
 
     mesn;
-    mesq l("Hello, Let me just present myself, I'm Captain Nard, it's me who's leader of this ship."); 
+    mesq l("Hello, Let me present myself, I'm Captain Nard, the leader of this ship."); 
     next;
 
     mesn;
@@ -36,18 +36,18 @@ l_Menu:
 
 l_Julia:
     mesn;
-    mesq l("You really have a bad amnesia.");
+    mesq l("You have extremely bad amnesia.");
     next;
     mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent cook!");
     next;
-    mesq l("But more than everything, she is the one which took care of you when you were in coma.");
+    mesq l("But more than everything, she is the one who took care of you when you were in coma.");
     close;
 
 l_Ok:
     mesn;
     mesq l("Good to know. From what Darlin reported to me, we'll soon come accross a little island, before we arrive in Artis.");
     next;
-    mesq l("It'll be a good moment for you to do some exercice, as the ship is not very vast for that.");
+    mesq l("It'll be a good time for you to do some exercise, as the ship is not very vast for that.");
     close;
 
 }
