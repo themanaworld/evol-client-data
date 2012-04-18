@@ -73,9 +73,26 @@ IDs 990-999 = Special
 
 
 <!-- Special NPCs -->
+    <npc id="900">
+		  <!-- Savepoint, 32x32. -->
+        <particlefx>graphics/particles/savepoint-32x32.xml</particlefx>
+	 </npc>
+    <npc id="901">
+		  <!-- Savepoint, 32x64. -->
+        <particlefx>graphics/particles/savepoint-32x64.xml</particlefx>
+	 </npc>
+    <npc id="902">
+		  <!-- Savepoint, 64x32. -->
+        <particlefx>graphics/particles/savepoint-64x32.xml</particlefx>
+	 </npc>
+    <npc id="903">
+		  <!-- Savepoint, 64x64. -->
+        <particlefx>graphics/particles/savepoint-64x64.xml</particlefx>
+	 </npc>
     <npc id="999">
         <!-- blank NPC -->
     </npc>
+
 </npcs>
 <!-- Pad & Reid's work .. November 2010 -->
 <!-- Reid's wipe and redo .. April 2011 -->
