@@ -3,14 +3,23 @@
 //    Reid
 // Description:
 //    Cap'tain Nard dialogs.
+//    Nard will done the introduction by a little quest,
+//    This quest is meant to learn at the player how to manipulate a weapon, but also to bring some foods to the ship.
+// 2 bits array:
+//    ShipQuests
+// Variable:
+//    ShipQuests_NardBox
+// Values: 
+//    0   Intro of the box and of Nard, it's displayed when the player never spoke to Nard, nor his box.
+//    1   Nard spoke and he gave you access to the outdoor of the ship.
+//    2   You complete the quest.
+//    3   You open the chest, you complete the introduction.
 
 000-2-3.gat,25,26,0,1	script	Nard	306,{
 
     mesn;
     mesq l("Hello, Let me present myself, I'm Captain Nard, the leader of this ship."); 
     next;
-
-    mesn;
     mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to tell me this good news!");
     next;
 
@@ -28,13 +37,23 @@ l_Menu:
     menu
         lg("I feel ok."), l_Ok,
         l("Who is this Julia?"), l_Julia,
-        lg("I'm sick, I'm going back to bed."), -;
+        lg("I'm a bit sick."), -;
 
+    mes "";
     mesn;
-    mesq l("That's a good idea, go rest a bit and I'll see you tomorow!");
+    mesq l("That's a good idea, go rest a bit and I'll see you tomorrow!");
+    close;
+
+l_Ok:
+    mes "";
+    mesn;
+    mesq l("Good to know. From what Darlin reported to me, we'll soon come across a little island, before we arrive in Artis.");
+    next;
+    mesq l("It'll be a good time for you to do some exercise, as the ship is not very vast for that.");
     close;
 
 l_Julia:
+    mes "";
     mesn;
     mesq l("You have extremely bad amnesia.");
     next;
@@ -43,51 +62,4 @@ l_Julia:
     mesq l("But more than everything, she is the one who took care of you when you were in coma.");
     close;
 
-l_Ok:
-    mesn;
-    mesq l("Good to know. From what Darlin reported to me, we'll soon come accross a little island, before we arrive in Artis.");
-    next;
-    mesq l("It'll be a good time for you to do some exercise, as the ship is not very vast for that.");
-    close;
-
-}
-
-000-2-3.gat,25,24,0	script	Box	102,{
-
-    set @q, geta2(ShipQuests, ShipQuests_Nardbox);
-
-    mesn "Narrator";
-    mes col(l("Some Bandanas and Sailor Hats are inside this box."), 9);
-    next;
-    mes col(l("What do you wish to do?"), 9);
-    next;
-
-    menu
-        l("Take a Bandana"), -,
-        l("Nothing"), l_Close;
-
-    if (@q == 1) goto l_Give;
-    if (@q > 1) goto l_Already;
-
-    mes "";
-    doevent "Nard::OnQuest"; // Dialogs continue with Nard NPC.
-
-l_Give:
-    mes "";
-    mesn "Nard";
-    mesq l("Congrats!"); 
-    mesn "Nard";
-    mesq l("You are now part of the crew! Thanks again for your help.");
-
-    seta2 ShipQuests, ShipQuests_Nardbox, 2;
-    getitem "Bandana", 1;
-
-l_Close:
-    close;
-
-l_Already:
-    mes "";
-    mesn "Nard";
-    mesq l("You already took a Bandana, put this one back please."); 
-    close;
 }

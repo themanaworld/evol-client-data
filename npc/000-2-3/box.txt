@@ -1,0 +1,95 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Cap'tain Nard dialogs.
+//    Nard will done the introduction by a little quest,
+//    This quest is meant to learn at the player how to manipulate a weapon, but also to bring some foods to the ship.
+// 2 bits array:
+//    ShipQuests
+// Variable:
+//    ShipQuests_NardBox
+// Values: 
+//    0   Intro of the box and of Nard, it's displayed when the player never spoke to Nard, nor his box.
+//    1   Nard spoke and he gave you access to the outdoor of the ship.
+//    2   You complete the quest.
+//    3   You open the chest, you complete the introduction.
+
+000-2-3.gat,25,24,0	script	Box	102,{
+
+    set @q, geta2(ShipQuests, ShipQuests_Nardbox);
+
+    mesn "Narrator";
+    mes col(l("Some Bandanas and Sailor Hats are inside this box."), 9);
+    next;
+    mes col(l("What do you wish to do?"), 9);
+    next;
+
+    menu
+        l("Take a Bandana"), -,
+        l("Nothing"), l_Close;
+
+    if (@q == 1) goto l_NotYet;
+    if (@q == 2) goto l_Give;
+    if (@q > 2) goto l_Already;
+
+    mes "";
+    mesn "Narrator";
+    mes col(l("Nard looks surprised and stop you."), 9);
+    next;
+
+    mesn "Nard";
+    mesq l("You like these hats, right?"); 
+    next;
+    mesq l("How if I ask you to help the crew? It would mean that you are a part of us, and that you will be able to get one of these hat."); 
+    next;
+    mesq l("We need as much hands as possible to explore the island out there, and to get some new food."); 
+    next;
+    mesq l("You could meet some of the other sailors by this way, and... Getting this hat of course, it will be a sign of your joint to our crew."); 
+    next;
+    mesq l("What do you think?"); 
+    next;
+
+    menu
+        l("Why not, I got plenty of free time."), -,
+        l("I think that I'm still a bit sick."), l_Close;
+
+    mes "";
+    mesn "Nard";
+    mesq l("Fine!");
+    next;
+    mesq l("Go outside and talk with Gugli, he will explain you what are our needs.");
+
+    seta2 ShipQuests, ShipQuests_Nardbox, 1;
+
+    close;
+
+l_NotYet:
+    mes "";
+    mesn "Nard";
+    mesq l("Please don't touch at these hats, they are for crew members only.");      
+
+l_Close:
+    close;
+
+l_Give:
+    mes "";
+    mesn "Nard";
+    mesq l("Congrats!"); 
+    next;
+    mesn "Nard";
+    mesq l("You are now part of the crew! Thanks again for your help.");
+
+    seta2 ShipQuests, ShipQuests_Nardbox, 3;
+    getitem "Bandana", 1;
+//  Need to add a skill for the crew at this line.
+
+    close;
+
+l_Already:
+    mes "";
+    mesn "Nard";
+    mesq l("You already took a Bandana, put this one back please."); 
+    close;
+
+}
