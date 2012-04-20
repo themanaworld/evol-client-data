@@ -25,11 +25,10 @@
 
 l_Menu:
     menu
-
-    lg("I made a mistake, I would like to change my language."), l_ChooseLang,
-    l("Could you explain to me where I am?"), l_WhereIam,
-    l("What happened to me?"), l_What,
-    l("Nothing, sorry."), l_Close;
+        lg("I made a mistake, I would like to change my language."), l_ChooseLang,
+        l("Could you explain to me where I am?"), l_WhereIam,
+        l("What happened to me?"), l_What,
+        l("Nothing, sorry."), l_Close;
 
     mes "";
     mesn;
@@ -56,14 +55,14 @@ l_First:
 
   l_ChooseLang:
     menu
-      l("I speak English") + " (English)", -,
-      l("I speak French") + " (Français)", -,
-      l("I speak Russian") + " (Русский)", -,
-      l("I speak Spanish") + " (Español)", -,
-      l("I speak Portuguese") + " (Português)", -,
-      l("I speak German") + " (Deutsch)", -,
-      l("I speak Flemish") + " (Vloams)", -,
-      l("I speak Polish") + " (Polski)", -,
+        l("I speak English") + " (English)", -,
+        l("I speak French") + " (Français)", -,
+        l("I speak Russian") + " (Русский)", -,
+        l("I speak Spanish") + " (Español)", -,
+        l("I speak Portuguese") + " (Português)", -,
+        l("I speak German") + " (Deutsch)", -,
+        l("I speak Flemish") + " (Vloams)", -,
+        l("I speak Polish") + " (Polski)", -,
 
       @s$, l_NoChanges;
     set @lang, @menu-1;
@@ -86,8 +85,8 @@ l_NoChanges:
 
 l_YNMenu:
     menu
-      l("Yes, please!"), l_Menu,
-      l("No, thanks."), l_Close;
+        l("Yes, please!"), l_Menu,
+        l("No, thanks."), l_Close;
 
 l_WhereIam:
     mes "";
@@ -116,8 +115,8 @@ l_What:
 
 l_EsperiaMenu:
     menu
-    l("Sorry but I can't tell you anything about that."), l_NoChanges,
-    l("Nothing, sorry."), l_NoChanges;
+        l("Sorry but I can't tell you anything about that."), l_NoChanges,
+        l("Nothing, sorry."), l_NoChanges;
 
 l_Close:
     mes "";

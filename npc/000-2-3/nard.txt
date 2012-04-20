@@ -17,8 +17,17 @@
 
 000-2-3.gat,25,26,0,1	script	Nard	306,{
 
+    set @q, geta2(ShipQuests, ShipQuests_Nardbox);
+
+l_Checker:
+    if (@q == 1) goto l_NotYet;
+    if (@q == 2) goto l_Give;
+    if (@q > 2) goto l_Already;
+
     mesn;
-    mesq l("Hello, Let me present myself, I'm Captain Nard, the leader of this ship."); 
+    mesq l("Hello."); 
+    next;
+    mesq l("Let me present myself, I'm the Captain Nard, the leader of this ship."); 
     next;
     mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to tell me this good news!");
     next;
@@ -39,27 +48,96 @@ l_Menu:
         l("Who is this Julia?"), l_Julia,
         lg("I'm a bit sick."), -;
 
+
     mes "";
     mesn;
-    mesq l("That's a good idea, go rest a bit and I'll see you tomorrow!");
+    mesq l("Oh, I was going to request your help to help the crew for searching some new food and to explore the island out there.");
+    next;
+
+l_MenuQuest:
+    menu
+        l("What's your needs?"), l_Need,
+        l("Is there a reward?"), -;
+
+    mes "";
+    mesn;
+    mesq l("I like this answer!");
+    next;
+    mesq g(l("We are in need of manpower on the island... Oh excuse me, women are also welcome!"), l("We are in need of manpower on the island.")); 
+    next;
+
+    goto l_NeedContent;
+
+l_NeedHead:
+    mes "";
+    mesn;
+
+l_NeedContent:
+    mesq l("Of course, there is a reward for your task."); 
+    next;
+    mesq l("Our crew is like a family, and if you accept to help us, I would like to invit you on our family!"); 
+    next;
+    mesq l("What? It's not a good reward?"); 
+    next;
+    mesq l("Oh well. I will aslo give you one of these hats on the box around you, but only when you will complete your task!"); 
+    next;
+    mesq l("Go outside and talk with Gugli, he will explain you what are our needs.");
+    next;
+
+    seta2 ShipQuests, ShipQuests_Nardbox, 1;
+
     close;
 
 l_Ok:
     mes "";
     mesn;
-    mesq l("Good to know. From what Darlin reported to me, we'll soon come across a little island, before we arrive in Artis.");
+    mesq l("Good to know.");
+    next;
+    mesq l("We made stop over a little island, before arriving to the port of Artis.");
     next;
     mesq l("It'll be a good time for you to do some exercise, as the ship is not very vast for that.");
-    close;
+    next;
+
+    goto l_SpecialTask;
 
 l_Julia:
     mes "";
     mesn;
     mesq l("You have extremely bad amnesia.");
     next;
-    mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent cook!");
+    mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent chef!");
     next;
     mesq l("But more than everything, she is the one who took care of you when you were in coma.");
+    next;
+
+l_SpecialTask:
+    mesq l("I know that you just come back from a long sick time, but I would like to ask you a special task.");
+    next;
+
+    goto l_MenuQuest;
+
+l_NotYet:
+    mesn;
+    mesq l("You still didn't completed your task.");
+    next;
+    mesq l("And please don't touch at these hats, they are for crew members only.");      
+    close;
+
+l_Give:
+    mesn;
+    mesq l("Congrats!"); 
+    next;
+    mesq l("You are now part of the crew! Thanks again for your help.");
+
+    seta2 ShipQuests, ShipQuests_Nardbox, 3;
+    getitem "Bandana", 1;
+//  Need to add a skill for the crew at this line.
+
+    close;
+
+l_Already:
+    mesn;
+    mesq l("I don't need any help right now, come back later."); 
     close;
 
 }
