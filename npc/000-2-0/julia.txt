@@ -14,24 +14,34 @@
 //    1     already touched
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
-  mesn;
-  mesq g(l("Hello dear!"),
-         l("Hello sir!"));
-  mesq l("What do you want today?");
+
+    mesn;
+    mesq g(l("Hello dear!"), l("Hello sir!"));
+    next;
+    mesq l("What do you want today?");
+    next;
+
   set @s$, l("I don't want to change my language, sorry.");
-  l_Menu:
-  menu
+
+l_Menu:
+    menu
+
     lg("I made a mistake, I would like to change my language."), l_ChooseLang,
     l("Could you explain to me where I am?"), l_WhereIam,
     l("What happened to me?"), l_What,
     l("Nothing, sorry."), l_Close;
+
+    mes "";
     mesn;
     mesq l("Of course! Tell me which language you speak and I will change the note on the ship board list.");
+
     goto l_ChooseLang;
 
-  l_First:
+l_First:
+
     seta2 ShipQuests, ShipQuests_Julia, 1;
     callfunc "CheckClientVersion";
+
     mesn;
     mesq l("Hi, nice to see you!#0");
     next;
@@ -40,6 +50,7 @@
     mesq l(" I'm very happy to see that you seem okay now!");
     next;
     mesq lg("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
+    next;
     set @s$, "";
     goto l_ChooseLang;
 
@@ -58,28 +69,28 @@
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 7) close;
     setlang @lang;
+
+    mes "";
     mesn;
     mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them!");
+    next;
+
     goto l_Menu;
-    close;
 
-  l_OtherQuestion:
-    mesn;
-    mesq l("Do you have an other question for me?");
-    goto l_YNMenu;
-    close;
 
-  l_NoChanges:
+l_NoChanges:
+    mes "";
     mesn;
     mesq l("No problem, do you have an other question for me?");
+    next;
 
-  l_YNMenu:
+l_YNMenu:
     menu
       l("Yes, please!"), l_Menu,
-      l("No, thanks."), -;
-    close;
+      l("No, thanks."), l_Close;
 
-  l_WhereIam:
+l_WhereIam:
+    mes "";
     mesn;
     mesq l("You're on a ship, we're on our way to the commercial capital of Artis.");
     next;
@@ -87,9 +98,13 @@
     next;
     mesq l("But for now, you can relax on the ship, or visit the island we're docked at! Its a small island, but a good place to get some exercise and stretch your legs.");
     next;
-    goto l_OtherQuestion;
+    mesq l("Do you have an other question for me?");
+    next;
 
-  l_What:
+    goto l_YNMenu;
+
+l_What:
+    mes "";
     mesn;
     mesq l("We thought that you could help us understand this, all we know is that we found you back in the sea, adrift on your raft.");
     next;
@@ -99,16 +114,22 @@
     next;
     goto l_EsperiaMenu;
 
-  l_EsperiaMenu:
-  menu
+l_EsperiaMenu:
+    menu
     l("Sorry but I can't tell you anything about that."), l_NoChanges,
     l("Nothing, sorry."), l_NoChanges;
 
-  l_Close:
+l_Close:
+    mes "";
+    mesn;
+    mesq l("Bye!");
+
     close;
 
-  OnTouch:
+OnTouch:
     set @q, geta2(ShipQuests, ShipQuests_Julia);
     if (@q == 0) goto l_First;
+
     close;
+
 }
