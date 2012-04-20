@@ -15,8 +15,8 @@
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
   mesn;
-  mesq g(l("Hello, girl!"),
-         l("Hello, boy!"));
+  mesq g(l("Hello dear!"),
+         l("Hello sir!"));
   mesq l("What do you want today?");
   set @s$, l("I don't want to change my language, sorry.");
   l_Menu:
@@ -35,7 +35,9 @@
     mesn;
     mesq l("Hi, nice to see you!#0");
     next;
-    mesq l("I'm called Julia, it's me who took care of you some days ago, when we found you back on the sea, I'm very happy to see that you seem okay now!");
+    mesq l("I'm Julia, I took care of you a few days ago, when we found you back on the sea.");
+    next;
+    mesq l(" I'm very happy to see that you seem okay now!");
     next;
     mesq lg("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
     set @s$, "";
@@ -79,11 +81,11 @@
 
   l_WhereIam:
     mesn;
-    mesq l("You are actually on a ship, we're on our way to the commercial capital of Artis.");
+    mesq l("You're on a ship, we're on our way to the commercial capital of Artis.");
     next;
     mesq l("We should be there in a few days, and once we arrive, I will advertise the warrior guild of what happened, I'm sure that they can help you.");
     next;
-    mesq l("But until then, you need to stay here, there is nothing else to do anyway.");
+    mesq l("But for now, you can relax on the ship, or visit the island we're docked at! Its a small island, but a good place to get some exercise and stretch your legs.");
     next;
     goto l_OtherQuestion;
 
