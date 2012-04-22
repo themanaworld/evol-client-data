@@ -56,8 +56,8 @@ l_Menu:
 
 l_MenuQuest:
     menu
-        l("What's your needs?"), l_Need,
-        l("Is there a reward?"), -;
+        l("What's your needs?"), -,
+        l("Is there a reward?"), l_NeedHead;
 
     mes "";
     mesn;
