@@ -4,7 +4,7 @@
 // Description:
 //    Cap'tain Nard dialogs.
 //    Nard will done the introduction by a little quest,
-//    This quest is meant to learn at the player how to manipulate a weapon, but also to bring some foods to the ship.
+//    This quest is meant to teach the player how to manipulate a weapon, but also to bring some foods to the ship.
 // 2 bits array:
 //    ShipQuests
 // Variable:
@@ -35,45 +35,47 @@
 
     mes "";
     mesn "Narrator";
-    mes col(l("Nard looks surprised and stop you."), 9);
+    mes col(l("Nard looks surprised and stops you."), 9);
     next;
 
     mesn "Nard";
-    mesq l("You like these hats, right?"); 
+    mesq l("You like these hats, right?");
     next;
-    mesq l("How if I ask you to help the crew? It would mean that you are a part of us, and that you will be able to get one of these hat."); 
+    mesq l("How about I ask you to help the crew? It would mean that you're one of us, and that you will be able to get one of these hats.");
     next;
-    mesq l("We need as much hands as possible to explore the island out there, and to get some new food."); 
+    mesq l("We need as many hands as possible to explore the island out there, and to get some new food.");
     next;
-    mesq l("You could meet some of the other sailors by this way, and... Getting this hat of course, it will be a sign of your joint to our crew."); 
+    mesq l("You could meet some of the other sailors this way, and... Getting this hat of course, will be a sign of you becoming part of our crew.");
     next;
-    mesq l("What do you think?"); 
+    mesq l("What do you think?");
     next;
 
     menu
-        l("Why not, I got plenty of free time."), -,
+        l("Why not, I've got plenty of free time."), -,
         l("I think that I'm still a bit sick."), l_Close;
 
     mes "";
     mesn "Nard";
     mesq l("Fine!");
     next;
-    mesq l("Go outside and talk with Gugli, he will explain you what are our needs.");
+    mesq l("Go outside and talk with Gugli, he will tell you what we need.");
 
     seta2 ShipQuests, ShipQuests_Nardbox, 1;
 
     close;
 
 l_NotYet:
+    mes "";
     mesn "Nard";
-    mesq l("Please don't touch at these hats, they are for crew members only.");      
+    mesq l("Please don't touch these hats, they are for crew members only.");
 
 l_Close:
     close;
 
 l_Give:
+    mes "";
     mesn "Nard";
-    mesq l("Congrats!"); 
+    mesq l("Congrats!");
     next;
     mesn "Nard";
     mesq l("You are now part of the crew! Thanks again for your help.");
@@ -85,6 +87,7 @@ l_Give:
     close;
 
 l_Already:
+    mes "";
     mesn "Nard";
     mesq l("You already took a Bandana, put this one back please."); 
     close;

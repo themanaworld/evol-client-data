@@ -39,7 +39,7 @@ l_Checker:
     mesn;
     mesq l("Hehehe, he is a bit nervous, please excuse him, it's not everyday that we get a new member in the crew!");
     next;
-    mesq l("So, how do you feel? I see that Julia did a marvelous job! You look in good health now.");
+    mesq l("So, how do you feel? I see that Julia did a marvelous job! You look like you're in good health now.");
     next;
 
 l_Menu:
@@ -51,7 +51,7 @@ l_Menu:
 
     mes "";
     mesn;
-    mesq l("Oh, I was going to request your help to help the crew for searching some new food and to explore the island out there.");
+    mesq l("Oh, I was going to ask you if you want to help the crew search for some food and explore the island out there.");
     next;
 
 l_MenuQuest:
@@ -75,13 +75,13 @@ l_NeedHead:
 l_NeedContent:
     mesq l("Of course, there is a reward for your task."); 
     next;
-    mesq l("Our crew is like a family, and if you accept to help us, I would like to invit you on our family!"); 
+    mesq l("Our crew is like a family, and if you agree to help us, I would like to invite you to join our family!"); 
     next;
     mesq l("What? It's not a good reward?"); 
     next;
-    mesq l("Oh well. I will aslo give you one of these hats on the box around you, but only when you will complete your task!"); 
+    mesq l("Oh well. I will aslo give you one of these hats from the box around you, but only after you complete your task!"); 
     next;
-    mesq l("Go outside and talk with Gugli, he will explain you what are our needs.");
+    mesq l("Go outside and talk with Gugli, he will tell you what we need.");
     next;
 
     seta2 ShipQuests, ShipQuests_Nardbox, 1;
@@ -93,9 +93,9 @@ l_Ok:
     mesn;
     mesq l("Good to know.");
     next;
-    mesq l("We made stop over a little island, before arriving to the port of Artis.");
+    mesq l("We made a stop at a little island, before making it to the port of Artis.");
     next;
-    mesq l("It'll be a good time for you to do some exercise, as the ship is not very vast for that.");
+    mesq l("It'll be a good time for you to get some exercise, as the ship is not an appropriate size for that.");
     next;
 
     goto l_SpecialTask;
@@ -103,24 +103,24 @@ l_Ok:
 l_Julia:
     mes "";
     mesn;
-    mesq l("You have extremely bad amnesia.");
+    mesq l("You have very bad amnesia.");
     next;
     mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent chef!");
     next;
-    mesq l("But more than everything, she is the one who took care of you when you were in coma.");
+    mesq l("But more than anything, she is the one who took care of you when you were in coma.");
     next;
 
 l_SpecialTask:
-    mesq l("I know that you just come back from a long sick time, but I would like to ask you a special task.");
+    mesq l("I know that you just came back from being sick, but I would like to ask of you a special task.");
     next;
 
     goto l_MenuQuest;
 
 l_NotYet:
     mesn;
-    mesq l("You still didn't completed your task.");
+    mesq l("You still haven't completed your task.");
     next;
-    mesq l("And please don't touch at these hats, they are for crew members only.");      
+    mesq l("And please don't touch these hats, they are for crew members only.");      
     close;
 
 l_Give:
