@@ -10,6 +10,7 @@
 
 OnTouch:
     if (getmapmobs("000-2-2.gat") > 0) goto l_Warn;
+
     goto l_Warp;
 
 l_Warn:
@@ -18,14 +19,18 @@ l_Warn:
     next;
 
     menu
-      l("Yes."), l_Warp,
-      l("No."), -;
+        l("Yes."), l_Warp,
+        l("No."), -;
+
     warp "000-2-2", 48, 28;
+
     close;
 
 l_Warp:
     warp "000-2-1", 61, 36;
+
     close;
+
 }
 
 000-2-2.gat,24,31,0,1	script	AreaNPC	0,0,0,{
@@ -53,24 +58,28 @@ OnSpawn:
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto2Death";
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto3Death";
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto4Death";
+
     close;
 
 OnRatto1Respawn:
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto1Death";
     set $@RAT_SAILOR_CONTROL[1], 0;
     set $@RAT_SAILOR_CONTROL[5], 0;
+
     end;
 
 OnRatto2Respawn:
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto2Death";
     set $@RAT_SAILOR_CONTROL[2], 0;
     set $@RAT_SAILOR_CONTROL[6], 0;
+
     end;
 
 OnRatto3Respawn:
     areamonster "000-2-2.gat",23, 19, 50, 40,"Ratto",1005,1,"RattosControl::OnRatto3Death";
     set $@RAT_SAILOR_CONTROL[3], 0;
     set $@RAT_SAILOR_CONTROL[7], 0;
+
     end;
 
 OnRatto4Respawn:
@@ -81,17 +90,22 @@ OnRatto4Respawn:
 
 OnRatto1Death:
     set $@RAT_SAILOR_CONTROL[1], 1;
+
     end;
 
 OnRatto2Death:
     set $@RAT_SAILOR_CONTROL[2], 1;
+
     end;
 
 OnRatto3Death:
     set $@RAT_SAILOR_CONTROL[3], 1;
+
     end;
 
 OnRatto4Death:
     set $@RAT_SAILOR_CONTROL[4], 1;
+
     end;
+
 }

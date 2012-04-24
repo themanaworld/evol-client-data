@@ -16,7 +16,8 @@
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10,{
 
     mesn;
-    mesq g(l("Hello dear!"), l("Hello sir!"));
+    mesq g(l("Hello dear!"),
+           l("Hello sir!"));
     next;
     mesq l("What do you want today?");
     next;
@@ -55,16 +56,16 @@ l_First:
 
   l_ChooseLang:
     menu
-        l("I speak English") + " (English)", -,
-        l("I speak French") + " (Français)", -,
-        l("I speak Russian") + " (Русский)", -,
-        l("I speak Spanish") + " (Español)", -,
-        l("I speak Portuguese") + " (Português)", -,
-        l("I speak German") + " (Deutsch)", -,
-        l("I speak Flemish") + " (Vloams)", -,
-        l("I speak Polish") + " (Polski)", -,
+        l("I speak English") + ". (English)", -,
+        l("I speak French") + ". (Français)", -,
+        l("I speak Russian") + ". (Русский)", -,
+        l("I speak Spanish") + ". (Español)", -,
+        l("I speak Portuguese") + ". (Português)", -,
+        l("I speak German") + ". (Deutsch)", -,
+        l("I speak Flemish") + ". (Vloams)", -,
+        l("I speak Polish") + ". (Polski)", -,
 
-      @s$, l_NoChanges;
+    @s$, l_NoChanges;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 7) close;
     setlang @lang;

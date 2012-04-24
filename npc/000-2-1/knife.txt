@@ -12,11 +12,13 @@
 000-2-1.gat,40,24,0,2	script	#name	100,{
     set @q, geta(ShipQuests, ShipQuests_Knife);
     if (@q) close;
-    mesn "Knifes on the table";
-    mes l("There are some knifes on the table, do you want to take one?");
+
+    mesn "Narrator";
+    mes col(l("There are some knifes on the table, do you want to take one?"), 9);
     menu
         l("Yes."), l_Give,
         l("No."), -;
+
     close;
 
 l_Give:

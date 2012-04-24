@@ -15,15 +15,15 @@ function	script	SavePoint	{
         l("Take a nap"), -,
         l("Nothing"), L_Return;
 
-    mes " ";
+    mes "";
     mesn "Narrator";
     mes col(l("You close your eyes a few seconds..."), 9);
     next;
-    mes col(l("..."), 9);
+    mes col("...", 9);
     next;
-    mes col(l("..."), 9);
+    mes col("...", 9);
     next;
-    mes col(l("..."), 9);
+    mes col("...", 9);
     next;
     mes col(l("Your position is saved."), 9);
     next;
@@ -32,4 +32,5 @@ function	script	SavePoint	{
 
 L_Return:
     return;
+
 }

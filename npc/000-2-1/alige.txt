@@ -14,41 +14,47 @@
 //    0     first talking (before food)
 //    1     already talked
 
-
 000-2-1.gat,33,32,0,1	script	AligeTrigger	0,1,1,{
 
-    OnTouch:
-      if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
-      doevent "Alige::OnFirstEncounter";
-      close;
-    OnTouchFirst:
-      setnpcdir "Alige", 2;
-      stopnpctimer;
-      initnpctimer;
-      // OnTouch will not be called otherwise when OnTouchFirst got called
-      goto OnTouch;
-    OnUnTouchAll:
-      setnpcdir "Alige", 4;
-      stopnpctimer;
-      initnpctimer;
-      close;
-    OnTimer190:
-      if (getnpcdir ("Alige") == 2) setnpcdir "Alige", 6;
-      if (getnpcdir ("Alige") == 4) setnpcdir "Alige", 8;
-      stopnpctimer;
-      end;
+OnTouch:
+    if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
+    doevent "Alige::OnFirstEncounter";
+
+    close;
+
+OnTouchFirst: // OnTouch will not be called otherwise when OnTouchFirst got called
+    setnpcdir "Alige", 2;
+    stopnpctimer;
+    initnpctimer;
+
+    goto OnTouch;
+
+OnUnTouchAll:
+    setnpcdir "Alige", 4;
+    stopnpctimer;
+    initnpctimer;
+
+    close;
+
+OnTimer190:
+    if (getnpcdir ("Alige") == 2) setnpcdir "Alige", 6;
+    if (getnpcdir ("Alige") == 4) setnpcdir "Alige", 8;
+    stopnpctimer;
+
+    end;
+
 }
 
 000-2-1.gat,33,31,0,1	script	Alige	301,{
 
-  set @q, geta2(ShipQuests, ShipQuests_Alige);
-  if (@q == 2) goto l_AskForFood;
-  goto OnFirstEncounter;
+    set @q, geta2(ShipQuests, ShipQuests_Alige);
+    if (@q == 2) goto l_AskForFood;
 
-  OnFirstEncounter:
+    goto OnFirstEncounter;
+
+OnFirstEncounter:
     seta2 ShipQuests, ShipQuests_Alige, 1;
 
-  l_Talk:
     mesn "Hidden person";
     mesq l("Hey, psst! You're not a sailor, right?");
     next;
@@ -57,12 +63,14 @@
         lg("I am, who are you?"), -,
         lg("I'm not."), l_NeedHelp;
 
-    mes " ";
-    mesq "Hidden person doesn't answer";
+    mes "";
+    mesn "Narrator";
+    mes col(l("Hidden person doesn't answer."), 9);
+
     close;
 
-  l_NeedHelp:
-    mes " ";
+l_NeedHelp:
+    mes "";
     mesn "Hidden person";
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
     next;
@@ -71,18 +79,17 @@
         l("Why not... but, who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
 
-    mes " ";
+    mes "";
     mesn "Hidden person";
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
+
     close;
 
-  l_CanHelp:
-    mes " ";
+l_CanHelp:
+    mes "";
     mesn;
     mesq l("I'm called Alige, and I've been hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;
-
-    mesn;
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
     next;
 
@@ -92,52 +99,48 @@
 
 
   l_ExplainHiding:
-    mes " ";
+    mes "";
     mesn;
     mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
     next;
-
-    mesn;
     mesq l("Err, seriously, I just wanted to get to Artis, and I haven't got the money to pay for the ferry!");
     next;
-
-    mesn;
     mesq l("Please, don't tell people that you've seen me, I don't want to be thrown to sea as food for sharks or decapitated, not again!");
-
     next;
 
     if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
     goto l_Accept;
 
-  l_AboutReward:
-    mes " ";
+l_AboutReward:
+    mes "";
     mesn;
     mesq l("I'll share my berries with you, if you help me.");
     next;
 
-  l_Accept:
+l_Accept:
     menu
       l("Ok, I'll help you."), l_Accepted,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
-  l_Artis:
-    mes " ";
+l_Artis:
+    mes "";
     mesn;
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's one of the most famous cities throughout the world... But hey oh, returning to the topic! I'm hungry!");
     next;
+
     if (@q == 2) goto l_AskForFood;
     goto l_Accept;
 
-  l_Accepted:
+l_Accepted:
     seta2 ShipQuests, ShipQuests_Alige, 2;
+
     mes " ";
     mesn;
     mesq lg("Perfect, which food did you get for me today?");
     next;
-    goto l_GiveFood;
 
-  l_GiveFood:
+l_GiveFood:
     menu
         rif(countitem(501, 1), l(getitemname("Acorn"))), 0,
         rif(countitem(502, 1), l(getitemname("Bread"))), 502,
@@ -158,7 +161,7 @@
     if (@id == 2) goto l_NoMore; // In case of Piberries.
 // Continue if the food is correct.
 
-  l_GiveReward:
+l_GiveReward:
     if (countitem(@id) < 1) close;
     delitem @id, 1;
 
@@ -169,25 +172,28 @@
     getitem "Piberries", rand(1,3);
     close;
 
-  l_NoReward:
+l_NoReward:
+    mes " ";
     mesn;
     mesq l("I don't want this, give me something else.");
+
     goto l_GiveFood;
 
-  l_NoMore:
+l_NoMore:
     mes " ";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid ... stupid ... stupid!");
-    next;
+
     close;
 
-  l_Poison:
+l_Poison:
     mes " ";
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
+
     goto l_GiveFood;
 
-  l_AskForFood:
+l_AskForFood:
     mesn;
     mesq l("Do you have anything for me today?");
     next;
@@ -199,21 +205,22 @@
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
-  l_Food:
+l_Food:
     mes " ";
     mesn;
     mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
-    mesn;
     mesq l("I'd like to catch one of them, but they are flying away when I try.");
     next;
-    mesn;
     mesq l("As you can walk around, it'll be an easy task for you. Impale me one of them!!");
+
     close;
 
-  l_DamnYou:
+l_DamnYou:
     mes " ";
     mesn;
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
+
     close;
+
 }

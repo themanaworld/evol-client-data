@@ -16,6 +16,7 @@
         l("Yes, Arpan gave me these clothes."), l_OhGood,
         l("No."), -;
 
+    mes "";
     mesn;
     mesq l("You should go see them.");
     next;
@@ -24,6 +25,7 @@
     close;
 
 l_OhGood:
+    mes "";
     mesn;
     mesq l("Oh good! Did he give you your money back as well?");
     next;
@@ -32,12 +34,14 @@ l_OhGood:
         l("Yes he did."), l_OhHeDid,
         l("He told me nothing about that."), -;
 
+    mes "";
     mesn;
     mesq l("Hehe, sometimes he gets his head in the clouds, You should go ask him about that.");
 
     close;
 
 l_OhHeDid:
+    mes "";
     mesn;
     mesq l("Ok, be patient a little while longer, in the next few days we will arrive at the port of Artis...");
 

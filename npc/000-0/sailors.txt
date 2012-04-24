@@ -9,68 +9,70 @@
 000-0.gat,23,20,0,1	script	Sailors	305,6,6,{
 
 OnTouch:
-  callfunc "CheckClientVersion";
-  requestlang @lang;
-  if (@lang >= 0 && @lang <= 7) setlang @lang;
-  mesn "Narrator";
-  mes col(l("You are on a raft, adrift in the sea."), 9);
-  next;
-  mes col(l("You don't remember anything before this."), 9);
-  next;
-  mes col(l("Suddenly, you hear a voice from the sky."), 9);
-  next;
-  mes col(l("As you open your eyes and look around, you see a large ship."), 9);
-  next;
-  mes col(l("Some sailors are trying to talk to you.."), 9);
-  next;
+    callfunc "CheckClientVersion";
+    requestlang @lang;
+    if (@lang >= 0 && @lang <= 7) setlang @lang;
 
-  mesn "Orc Voice";
-  mesq lg("Hey Frenchy!");
-  next;
+    mesn "Narrator";
+    mes col(l("You are on a raft, adrift in the sea."), 9);
+    next;
+    mes col(l("You don't remember anything before this."), 9);
+    next;
+    mes col(l("Suddenly, you hear a voice from the sky."), 9);
+    next;
+    mes col(l("As you open your eyes and look around, you see a large ship."), 9);
+    next;
+    mes col(l("Some sailors are trying to talk to you.."), 9);
+    next;
 
-  mesn "Elfen Voice";
-  mesq lg("Why Frenchy? It's a Russian!");
-  next;
+    mesn "Orc Voice";
+    mesq lg("Hey Frenchy!");
+    next;
 
-  mesn "Tritan Voice";
-  mesq lg("What are you saying guys, it's a yoiis!");
-  next;
+    mesn "Elfen Voice";
+    mesq lg("Why Frenchy? It's a Russian!");
+    next;
 
-  mesn "Raijin Voice";
-  mesq g(l("You stupid, it's an english, look at her head form."),
-         l("You stupid, it's an english, look at his head form."));
-  next;
-  mesq l("Hey you! Do you hear us? Are you okay?");
-  next;
+    mesn "Tritan Voice";
+    mesq lg("What are you saying guys, it's a yoiis!");
+    next;
 
-  menu
-    "I hear you..." + " (English)", -,
-    "Je vous entends..." + " (Français)", -,
-    "Да я вас слышу..." + " (Русский)", -,
-    "Te oigo..." + " (Español)", -,
-    "Eu te ouço..." + " (Português)", -,
-    "I höre euch..." + " (Deutsch)", -,
-    "'k hoar ui wel..." + " (Vloams)", -,
-    "Słyszę cię..." + " (Polish)", -;
+    mesn "Raijin Voice";
+    mesq g(l("You stupid, it's an english, look at her head form."),
+           l("You stupid, it's an english, look at his head form."));
+    next;
+    mesq l("Hey you! Do you hear us? Are you okay?");
+    next;
+
+    menu
+        "I hear you..." + " (English)", -,
+        "Je vous entends..." + " (Français)", -,
+        "Да я вас слышу..." + " (Русский)", -,
+        "Te oigo..." + " (Español)", -,
+        "Eu te ouço..." + " (Português)", -,
+        "I höre euch..." + " (Deutsch)", -,
+        "'k hoar ui wel..." + " (Vloams)", -,
+        "Słyszę cię..." + " (Polish)", -;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 7) close;
     setlang @lang;
 
-  mesn;
-  mesq g(l("Oh, she's still alive!"),
-         l("Oh, he's still alive!"));
-  next;
-  mesq g(l("This girl needs help, let's rescue her!"),
-         l("This guy needs help, let's rescue him!"));
-  next;
+    mesn;
+    mesq g(l("Oh, she's still alive!"),
+           l("Oh, he's still alive!"));
+    next;
+    mesq g(l("This girl needs help, let's rescue her!"),
+           l("This guy needs help, let's rescue him!"));
+    next;
 
-  mesn "Narrator";
-  mesq col(l("The sailors take you aboard their ship to help you."), 9);
-  next;
-  mesq col(l("Click on the NPCs around you to continue the introduction."), 9);
-  next;
+    mesn "Narrator";
+    mes col(l("The sailors take you aboard their ship to help you."), 9);
+    next;
+    mes col(l("Click on the NPCs around you to continue the introduction."), 9);
+    next;
 
-  warp "000-0-0.gat",22,22;
+    warp "000-0-0.gat",22,22;
 
-  close;
+    close;
+
 }

@@ -15,13 +15,17 @@
 000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
+
     close;
+
 }
 
 000-2-1.gat,44,36,0,1	script	RightDoorCheck	0,0,0,{
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
+
     close;
+
 }
 
 000-2-1.gat,37,32,0,1	script	LeftBarrierCheck	0,0,2,{
@@ -29,19 +33,24 @@
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
+
     doevent "Magic Arpan::OnClothNotTaken";
     warp "000-2-1.gat", 39, 32;
     doevent "Magic Arpan::OnEquip";
+
     close;
 
 l_GetCloth:
     warp "000-2-1.gat", 39, 32;
     doevent "Magic Arpan::OnClothNotTaken";
+
     close;
 
 l_EquipDone:
     seta2 ShipQuests, ShipQuests_Arpan, 3;
+
     close;
+
 }
 
 000-2-1.gat,46,32,0,1	script	RightBarrierCheck	0,0,2,{
@@ -49,34 +58,43 @@ l_EquipDone:
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
+
     doevent "Magic Arpan::OnClothNotTaken";
     warp "000-2-1.gat", 45, 32;
     doevent "Magic Arpan::OnEquip";
+
     close;
 
 l_GetCloth:
     warp "000-2-1.gat", 45, 32;
     doevent "Magic Arpan::OnClothNotTaken";
+
     close;
 
 l_EquipDone:
     seta2 ShipQuests, ShipQuests_Arpan, 3;
+
     close;
+
 }
 
 000-2-1.gat,41,37,0	script	Box	999,{
     mesn "Narrator";
+
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (@q == 1) goto l_Give;
     if (@q > 1) goto l_Empty;
+
     mes col(l("This box is locked"), 9);
     close;
 
 l_Give:
-    mes l("You see some items in the box. Take them out?");
+    mes col(l("You see some items in the box. Take them out?"), 9);
+
     menu
         l("Yes."), -,
         l("No."), l_Close;
+
     seta2 ShipQuests, ShipQuests_Arpan, 2;
     getitem "Wornshirt", 1;
     getitem "Wornshort", 1;
@@ -85,48 +103,60 @@ l_Close:
     close;
 
 l_Empty:
-    mes l("This box is locked.");
+    mes col(l("This box is locked."), 9);
+
     close;
+
 }
 
 
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307,{
+
 OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
+
     mesn;
+
     if (@q > 0) goto l_Menu;
-    mes lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking, do you remember what happened?");
+
+    mesq lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking, do you remember what happened?");
     seta2 ShipQuests, ShipQuests_Arpan, 1;
+
     menu
         lg("I only remember I was rescued by you."), l_Story,
         lg("I can't remember anything."), l_OhWell;
-    close;
 
 OnClothNotTaken:
     mesn;
-    mes lg("Yeye, you still did not get your clothes!");
+    mesq lg("Yeye, you still did not get your clothes!");
+
     close;
 
 OnEquip:
     mesn "Narrator";
     mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
+
     close;
 
 l_OhWell:
-    mes lg("Oh well, we rescued you when you were yaying adrift in the sea.");
+    mes "";
+    mesq lg("Oh well, we rescued you when you were yaying adrift in the sea.");
 
 l_Story:
-    mes lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
+    mes "";
+    mesq lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
     next;
-    mes lg("Yaya, you should go see her! She will be happy to see you.");
+    mesq lg("Yaya, you should go see her! She will be happy to see you.");
     next;
-    mes lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
+    mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
     setcamnpc "Box";
     next;
     restorecam;
+
 l_Menu:
-    mes l("What yeye could I do for you today?");
+    mesq l("What yeye could I do for you today?");
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
+
     menu
         lg("Could you tell me where I am?"), l_Where,
         lg("Where can I find Julia?"), l_Julia,
@@ -137,44 +167,59 @@ l_Menu:
     close;
 
 l_Where:
+    mes "";
     mesn;
-    mes lg("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.");
+    mesq lg("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.");
     next;
-    mes lg("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
+    mesq lg("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
     next;
+
+    goto l_Menu;
+
+l_Julia:
+    mes "";
+    mesn;
+    mesq g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
+           l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
+    next;
+    mesq lg("You can go to your right to go to the upper level.");
+    next;
+
+    goto l_Menu;
+
+l_Who:
+    mes "";
+    mesn;
+    mesq l("Sorry! I forgot to introduce myself. My name is Arpan, but other sailors call me Magic Arpan because I know one or two yaing magic spells.");
+    next;
+
     goto l_Menu;
 
 l_WhereOldClothes:
+    mes "";
     mesn;
-    mes lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
+    mesq lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
     next;
     mes lg("Oh, now that I remember, we also find some money on your pockets, here they are!");
     seta ShipQuests, ShipQuests_ArpanMoney, 1;
     set zeny, zeny+25;
     next;
-    goto l_Menu;
 
-l_Julia:
-    mes g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
-          l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
-    next;
-    mes lg("You can go to your right to go to the upper level.");
-    next;
-    goto l_Menu;
-
-l_Who:
-    mes l("Sorry! I forgot to introduce myself. My name is Arpan, but other sailors call me Magic Arpan because I know one or two yaing magic spells.");
-    next;
     goto l_Menu;
 
 l_WhatCloth:
-    mes lg("Oh yeyeye, as they are not eatable, you can try to equip them!");
+    mes "";
+    mesn;
+    mesq lg("Oh yeyeye, as they are not eatable, you can try to equip them!");
     next;
+
     mesn "Narrator";
     mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     next;
+
     goto l_Menu;
 
 l_Quit:
     close;
+
 }

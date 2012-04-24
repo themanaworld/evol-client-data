@@ -2,7 +2,7 @@
 // Authors:
 //    Reid
 // Description:
-//    Drunken easteregg about player's past activity
+//    Drunken easteregg about player's past activity.
 
 000-2-0.gat,20,23,0,1	script	BillyBons	311,{
 
@@ -13,11 +13,14 @@
     mesq l("How is *hick* possible??");
     next;
 
-    mesq l("The sailor chugs his beer");
+    mesn "Narrator";
+    mes col(l("The sailor chugs his beer."), 9);
+    next;
 
     menu
         lg("Excuse me? Do you know who I am?"), -;
 
+    mes "";
     mesn;
     mesq l("Don't do do theee... *hick* with me eh!");
     next;
@@ -26,13 +29,12 @@
         l("Are you ok?"), l_Quit,
         l("Alright, bye!"), -;
 
+    mes "";
     mesn;
     mesq lg("NO and *hick* NO, you and you and your... *burp* stupi*hick* guild!");
     next;
     mesq l("You tried to get rid of me, eeh?? But surprise! I'm still here...*hick* Or there....");
     next;
-
-    mesn;
     mesq l("But you won't *hick* me this time...");
     next;
 
@@ -41,6 +43,7 @@
         l("You are full of wine, my friend..."), -,
         l("You should go and get some sleep."), l_Quit;
 
+    mes "";
     mesn;
     mesq l("If I saw *hick* who you wereee.... *hips* Would not have helped you! ");
     next;
@@ -50,28 +53,30 @@
         l("What am I suposed to say?"), l_Quit,
         l("You should go and get some sleep."), l_Secret;
 
+    mes "";
     mesn;
     mesq l("The giant bogeyman!");
-    next;
 
-    goto l_Quit;
+    close;
 
 l_Secret:
+    mes "";
     mesn;
     mesq l("Hear me *hick* well, what ever, whatididever you will*hick*said ab...euh..out wha?! You saw there, the Guild of Esperia won't let it go to public.");
     next;
     mesq l("Nobody will know about the existence of the Mercurians");
     next;
-
     mesq l("Nobody! *burp*");
     next;
-    goto l_Quit;
+
+    close;
 
 l_Hips:
     mesq l("*hick*");
     close;
 
 l_Quit:
+    mes "";
     mesn;
     mesq l("Yeah you're all like *hick* that in Esperia, but you won't get me! *burp*");
     next;
