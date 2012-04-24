@@ -135,7 +135,7 @@ l_Artis:
 l_Accepted:
     seta2 ShipQuests, ShipQuests_Alige, 2;
 
-    mes " ";
+    mes "";
     mesn;
     mesq lg("Perfect, which food did you get for me today?");
     next;
@@ -165,7 +165,7 @@ l_GiveReward:
     if (countitem(@id) < 1) close;
     delitem @id, 1;
 
-    mes " ";
+    mes "";
     mesn;
     mesq l("Thank you so much! Here, have some berries...");
 
@@ -173,21 +173,21 @@ l_GiveReward:
     close;
 
 l_NoReward:
-    mes " ";
+    mes "";
     mesn;
     mesq l("I don't want this, give me something else.");
 
     goto l_GiveFood;
 
 l_NoMore:
-    mes " ";
+    mes "";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid ... stupid ... stupid!");
 
     close;
 
 l_Poison:
-    mes " ";
+    mes "";
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
 
@@ -206,7 +206,7 @@ l_AskForFood:
       l("I think I should report you to the crew members."), l_DamnYou;
 
 l_Food:
-    mes " ";
+    mes "";
     mesn;
     mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
@@ -217,7 +217,7 @@ l_Food:
     close;
 
 l_DamnYou:
-    mes " ";
+    mes "";
     mesn;
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
 
