@@ -6,6 +6,9 @@
 
 000-2-3.gat,27,27,0,1	script	Elmo	309,{
 
+    set @q, geta2(ShipQuests, ShipQuests_ArpanMoney);
+    if (@q == 1) goto l_GotMoney;
+
     mesn;
     mesq l("Hey you, sorry for leaving your room so quickly, I needed to... speak with the Captain about... The reserve.. eh, you know, now that we got a new mouth in the crew we need to check it!");
     next;
@@ -44,6 +47,18 @@ l_OhHeDid:
     mes "";
     mesn;
     mesq l("Ok, be patient a little while longer, in the next few days we will arrive at the port of Artis...");
+
+    close;
+
+l_GotMoney
+    mesn;
+    mesq l("Be patient a little while longer, in the next few days we will arrive at the port of Artis...");
+    next;
+    mesq l("If you feel bored or like turning in circle, you could may talk with other sailors around to get some tasks.");
+    next;
+    mesq l("From what I know, Gugli my brother, need the help of as many person as possible to charge all of the new stuff found on the island.");
+    next;
+    mesq l("After, I don't got know much about how the package of everything is going, so asking directly the Cap'tain about it could be a good idea.");
 
     close;
 

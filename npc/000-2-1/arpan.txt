@@ -146,7 +146,7 @@ l_Story:
     mes "";
     mesq lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
     next;
-    mesq lg("Yaya, you should go see her! She will be happy to see you.");
+    mesq lg("Yaya, you should go see her! She willmes be happy to see you.");
     next;
     mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
     setcamnpc "Box";
@@ -169,9 +169,11 @@ l_Menu:
 l_Where:
     mes "";
     mesn;
-    mesq lg("You are on our ship, we are actually yeyending our long merchant traveling adventure to the city of Artis.");
+    mesq lg("You are on our ship, we made port to a little island and we are actually yeyending our long merchant traveling adventure to the city of Artis.");
     next;
-    mesq lg("We will be yaying there in a few days, so we will drop you off there. You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
+    mesq l("We will be yaying there in a few days, so we will drop you off there.");
+    next;
+    mesq l("You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
     next;
 
     goto l_Menu;
