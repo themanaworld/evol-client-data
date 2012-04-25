@@ -2,12 +2,80 @@
 // Authors:
 //    Reid
 // Description:
-//    Note written first part.
+//    Two kind of dialogues are stepped on this script,
+//    Dan will randomly apply a random conversation and
+//    an other one much directed to one of the futur quest of Artis.
 
 000-2-1.gat, 22,31,0,1	script	Dan	101,{
 
     mesn;
-    mesq l("Sorry, but I'm busy right now.");
+    set @q, rand(2);
+    if (@q == 0) goto l_QuestStory;
+
+    mesq l("You see these pious around? It seems that we are around an island, we should take a look at the upper level.");
+
+    close;
+
+l_QuestStory:
+    mesq l("It's so hard to find the motivation...");
+
+    menu
+        l("Why so?"), -,
+        l("Yes so... I will leave you alone."), l_Close;
+
+    mes "";
+    mesn;
+    mesq l("Oh, it's you.");
+    next;
+    mesq l("So you finaly woke up? We all thought that you were in something like... You know, these long comas.");
+    next;
+
+    menu
+        l("I'm still in comas, but my ghost is haunting you!"), l_Close,
+        l("It was much something like a long nap."), -;
+
+    mes "";
+    mesn;
+    mesq l("It's good, good... I got a friend which is still in a comas, but I can't be with her without working...");
+    next;
+    mesq l("The fear to see her sleeping on this quiet and lonely bed is becoming more and more unbearable, I think that I won't get the bravery to see her this time...");
+    next;
+
+    menu
+        l("Who is she?"), l_She,
+        l("Do you want that I go see her at your place?"), l_Quest;
+        l("I don't know what to say...")
+
+    mes "";
+    mesn;
+    mesq g(l("There is nothing to say, don't worry miss."),
+           l("There is nothing to say, don't worry sir."));
+
+    close;
+
+l_She:
+    mes "";
+    mesn;
+    mesq l("She is a good friend of me... We wanted to marry some weeks before her accident but...");
+    next;
+
+    goto l_Close2;
+
+l_Quest:
+    mes "";
+    mesn;
+    mesq l("I don't think that we are in a good place to talk about this...");
+    next;
+
+l_Close2:
+    mesn "Narrator";
+    mes col(l("Dan closes the conversation and he continues to write his letter."), 9);
+
+    close;
+
+l_Close:
+    mesn "Narrator";
+    mes col(l("Dan keeps silent by your last sentence."), 9);
 
     close;
 
