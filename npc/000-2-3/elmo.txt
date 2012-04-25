@@ -2,11 +2,11 @@
 // Authors:
 //    Reid
 // Description:
-//    Elmo's second dialogs
+//    Elmo's second dialog.
 
 000-2-3.gat,27,27,0,1	script	Elmo	309,{
 
-    set @q, geta2(ShipQuests, ShipQuests_ArpanMoney);
+    set @q, geta(ShipQuests, ShipQuests_ArpanMoney);
     if (@q == 1) goto l_GotMoney;
 
     mesn;
@@ -50,7 +50,7 @@ l_OhHeDid:
 
     close;
 
-l_GotMoney
+l_GotMoney:
     mesn;
     mesq l("Be patient a little while longer, in the next few days we will arrive at the port of Artis...");
     next;
