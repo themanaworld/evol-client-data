@@ -11,23 +11,29 @@ Both of these examples show the same thing:
 	<sequence value="55,56,57,58,59,60" delay="75" /> -->
 
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/sprite/gugli.png" width="70" height="70" offsetX ="-12" offsetY ="2"/>
+    <imageset name="base" src="graphics/sprites/npcs/sprite/gugli.png" width="70" height="70" offsetX ="-7" offsetY ="2"/>
 
     <action name="stand" imageset="base">
 
 			<animation direction="default">
-				<goto label="mooveleg" rand="90"/>
-				<goto label="blink" rand="10"/>
-				<frame index="0" delay="" />
-				<label name="mooveleg"/>
-					<sequence start="4" end="7" delay="120"/>
-					<sequence start="0" end="3" delay="120" repeat="4"/>
-					<sequence start="4" end="5" delay="120"/>
-					<sequence start="2" end="3" delay="120"/>
-				<label name="blink"/>
-					<sequence value="0,1,2,1" end="2" delay="310" repeat="2"/>
+				<label name="start"/>
+				<goto label="long" rand="40"/>
+				<goto label="simple" rand="30"/>
+	<!-- Long move leg animation. -->
+				<label name="long"/>
+					<frame index="0" delay="120"/>
+					<sequence value="1,2" delay="110"/>
+					<frame index="3" delay="120"/>
+					<sequence value="2,1" delay="110"/>
+				<jump label="start"/>
+	<!-- Simple move leg animation. -->
+				<label name="simple"/>
+					<frame index="0" delay="120"/>
+					<frame index="1" delay="110"/>
+					<frame index="2" delay="120"/>
+					<frame index="1" delay="110"/>
+				<jump label="start"/>
 			</animation>
-
     </action>
 
 </sprite>
