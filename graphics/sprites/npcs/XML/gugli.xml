@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Author : Reid 4144
+Copyright (C) 2011-2012  Evol Online
+
+Example of the extended animation tags.
+Allow set in attribute value any frame numbers.
+
+Both of these examples show the same thing:
+	<sequence start="55" end="60" delay="75" />
+	<sequence value="55-60" delay="75" />
+	<sequence value="55,56,57,58,59,60" delay="75" /> -->
+
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/sprite/gugli.png" width="70" height="70" offsetX ="-12" offsetY ="2"/>
+
+    <action name="stand" imageset="base">
+
+			<animation direction="default">
+				<goto label="mooveleg" rand="90"/>
+				<goto label="blink" rand="10"/>
+				<frame index="0" delay="" />
+				<label name="mooveleg"/>
+					<sequence start="4" end="7" delay="120"/>
+					<sequence start="0" end="3" delay="120" repeat="4"/>
+					<sequence start="4" end="5" delay="120"/>
+					<sequence start="2" end="3" delay="120"/>
+				<label name="blink"/>
+					<sequence value="0,1,2,1" end="2" delay="310" repeat="2"/>
+			</animation>
+
+    </action>
+
+</sprite>
