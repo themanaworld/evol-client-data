@@ -44,7 +44,7 @@ l_QuestStory:
     menu
         l("Who is she?"), l_She,
         l("Do you want me to go see her in your place?"), l_Quest;
-        l("I don't know what to say...")
+        l("I don't know what to say..."), -;
 
     mes "";
     mesn;
