@@ -407,6 +407,16 @@ Multiple's colors dye is now setted up by itemcolors.xml.
 
     <!-- Boots -->
     <item id="1800"
+        image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
+        name="Lousy Moccasin"
+        description="Orc-made moccasin, not sure from which skin these boots were made."
+        effect="Defense +1"
+        type="equip-feet"
+        weight="25">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    </item>
+    <item id="1801"
         image="equipment/feet/boots.png|W"
         name="%Color% Boots"
         description="%Color% boots made for beginners."
@@ -420,7 +430,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
 
 
     <!-- Gloves
-    <item id="2001"
+    <item id="2000"
         image="equipment/hands/bracelets.png"
         name="Bracelets"
         description="Made out of wood and iron."
