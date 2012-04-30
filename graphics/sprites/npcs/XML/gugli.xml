@@ -17,8 +17,10 @@ Both of these examples show the same thing:
 
 			<animation direction="default">
 				<label name="start"/>
+	<!-- 40% used on "long" label. -->
 				<goto label="long" rand="40"/>
-				<goto label="simple" rand="30"/>
+	<!-- 100% from the 60% unused percent are used on "simple" label. -->
+				<goto label="simple" rand="100"/>
 	<!-- Long move leg animation. -->
 				<label name="long"/>
 					<frame index="0" delay="120"/>
