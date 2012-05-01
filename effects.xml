@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <being-effects>
+
+<!-- Normal effects -->
   <effect id="0" audio="sfx/system/levelup.ogg" particle="graphics/particles/levelup.particle.xml" />
   <effect id="1" audio="sfx/system/levelup.ogg" particle="graphics/particles/skillup.particle.xml" />
   <effect id="2" particle="graphics/particles/magic.generic.xml"/>
@@ -10,7 +12,7 @@
   <effect id="7" particle="graphics/particles/magic.blue.xml"/> <!-- astral -->
   <effect id="10" particle="graphics/particles/magic.default.xml"/>
   <effect id="11" particle="graphics/particles/magic.shield.xml"/>
-<!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
+  <effect id="12" particle="graphics/particles/magic.haste.xml"/>
   <effect id="13" particle="graphics/particles/magic.hit.xml"/>
   <effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
   <effect id="15" particle="graphics/particles/fire-burst.xml"/>
@@ -29,15 +31,11 @@
   <effect id="30" particle="graphics/particles/large-explosion.xml"/>
   <effect id="31" particle="graphics/particles/medium-explosion.xml"/>
   <effect id="32" particle="graphics/particles/medium-smoke.xml"/>
-<!--  <effect id="20" particle="graphics/particles/magic.barrier.xml"/> -->
-<!-- Default tag only supported in 0.0, support was removed in 0.1 -->
-  <default particle="graphics/particles/magic.default.xml" />
+  <effect id="33" particle="graphics/particles/savepoint/highlight.xml"/>
+
+<!-- Second time effects, used for ending an action. -->
   <effect id="111" particle="graphics/particles/magic.shield-ends.xml"/>
-<!--  <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
-<!--  <effect id="120" particle="graphics/particles/magic.barrier-ends.xml"/> -->
-
-<!-- Mana Emotion Effects 10000+ is used -->
-
-  <effect id="100019" particle="graphics/particles/lightning1.xml"/>
+  <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>
+  <effect id="120" particle="graphics/particles/magic.barrier-ends.xml"/>
 
 </being-effects>
