@@ -2,24 +2,19 @@
 <!-- Copyright (C) 2010 The Mana World Development Team
 Copyright (C) 2010-2012  Evol Online -->
 <effect>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+	<particle position-x="0" position-y="0" position-z="15" lifetime="128">
 		<emitter>
-		<property name="image" value="graphics/particles/star-small.png|W:#f3ffbe,f3ffe3"/>
-		<property name="vertical-angle" value="90"/>
-		<property name="power" value="1,5"/>
-		<property name="lifetime" value="40"/>
-		<property name="output" min="-5" max="1"/>
-		<property name="fade-in" value="40" />
-		<property name="fade-out" value="40" />
-		<property name="gravity" value="-0.003"/>
-		<property name="position-x" min="-16" max="16"/>
-		<property name="position-y" min="-16" max="16"/>
-		<property name="position-z" min="0" max="32"/>
+			<property name="image" value="graphics/particles/star-small.png|W:#f3ffbe,f3ffe3"/>
+			<property name="vertical-angle" value="90"/>
+			<property name="power" value="0.7"/>
+			<property name="lifetime" value="55"/>
+			<property name="output" min="-12" max="1"/>
+			<property name="fade-in" value="40"/>
+			<property name="fade-out" value="40"/>
+			<property name="gravity" value="-0.003"/>
+			<property name="position-x" min="-16" max="16"/>
+			<property name="position-y" min="-16" max="16"/>
+			<property name="position-z" min="0" max="32"/>
 		</emitter>
 	</particle>
 </effect>
