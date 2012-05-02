@@ -108,7 +108,7 @@ l_CanHelp:
     mesq l("Please, don't tell people that you've seen me, I don't want to be thrown to sea as food for sharks or decapitated, not again!");
     next;
 
-    if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_AskForFood;
+    if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_SoAskForFood;
     goto l_Accept;
 
 l_AboutReward:
@@ -129,7 +129,7 @@ l_Artis:
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's one of the most famous cities throughout the world... But hey oh, returning to the topic! I'm hungry!");
     next;
 
-    if (@q == 2) goto l_AskForFood;
+    if (@q == 2) goto l_SoAskForFood;
     goto l_Accept;
 
 l_Accepted:
@@ -193,11 +193,18 @@ l_Poison:
 
     goto l_GiveFood;
 
+l_SoAskForFood:
+    mesn;
+    mesq l("So, do you have anything for me today?");
+    next;
+    goto l_IntroMenu;
+
 l_AskForFood:
     mesn;
     mesq l("Do you have anything for me today?");
     next;
 
+l_IntroMenu
     menu
       l("Yes."), l_GiveFood,
       l("Where can I find some food?"), l_Food,
@@ -213,6 +220,11 @@ l_Food:
     mesq l("I'd like to catch one of them, but they are flying away when I try.");
     next;
     mesq l("As you can walk around, it'll be an easy task for you. Impale me one of them!!");
+    next;
+    mesn "Narrator";
+    mes col(l("You can attack a monster by clicking on him, or from your keyboard, on using the key "A" to select and "Ctrl" to attack."), 9);
+    next;
+    mes col(l("Once the monster is dead, you can take his drop with your mouse on clicking on it, or by using the key "Z" from your keyboard.##NOTE_TO_TRANSLATORS: Remplace the key with the one used in your keyboard!"), 9);
 
     close;
 
