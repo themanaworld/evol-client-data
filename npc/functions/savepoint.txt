@@ -29,6 +29,9 @@ function	script	SavePoint	{
     next;
 
     savepoint @map$, @x, @y;
+    set @q, getcharid(3);
+    misceffect 33, @q;
+    percentheal "5";
 
 L_Return:
     return;
