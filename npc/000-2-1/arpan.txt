@@ -90,6 +90,7 @@ l_EquipDone:
 
 l_Give:
     mes col(l("You see some items in the box. Take them out?"), 9);
+    next;
 
     menu
         l("Yes."), -,
@@ -120,6 +121,7 @@ OnTalk:
     if (@q > 0) goto l_Menu;
 
     mesq lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking, do you remember what happened?");
+    next;
     seta2 ShipQuests, ShipQuests_Arpan, 1;
 
     menu
@@ -155,6 +157,7 @@ l_Story:
 
 l_Menu:
     mesq l("What yeye could I do for you today?");
+    next;
     set @equipped, getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200;
 
     menu
