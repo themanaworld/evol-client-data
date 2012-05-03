@@ -18,6 +18,7 @@
 
 l_QuestStory:
     mesq l("It's so hard to find the motivation...");
+    next;
 
     menu
         l("Why?"), -,
@@ -74,6 +75,7 @@ l_Close2:
     close;
 
 l_Close:
+    mes "";
     mesn "Narrator";
     mes col(l("Dan keeps silent since your last question."), 9);
 

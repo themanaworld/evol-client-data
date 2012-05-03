@@ -105,6 +105,10 @@ OnGiveTask:
 L_TalkToJulia:
     mesn;
     mesq l("Hey, you should go see Julia to be registered on the ship board.");
+    next;
+
+    mesn "Narrator";
+    mes col(l("Julia is on the upper level, you can access it by using the top right stairway of this floor."), 9);
 
     goto L_Close;
 

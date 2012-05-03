@@ -10,11 +10,14 @@
 //    1   knife taken
 
 000-2-1.gat,40,24,0,2	script	#name	100,{
+
     set @q, geta(ShipQuests, ShipQuests_Knife);
     if (@q) close;
 
     mesn "Narrator";
     mes col(l("There are some knifes on the table, do you want to take one?"), 9);
+    next;
+
     menu
         l("Yes."), l_Give,
         l("No."), -;
@@ -24,5 +27,11 @@
 l_Give:
     seta ShipQuests, ShipQuests_Knife, 1;
     getitem "Knife", 1;
+
+    mes "";
+    mesn "Narrator";
+    mes col(lg("Remember to open your inventory (F3 key), and to select and equip this weapon if you wish to use it during a battle with a monster."), 9);
+
     close;
+
 }
