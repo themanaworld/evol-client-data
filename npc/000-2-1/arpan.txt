@@ -210,7 +210,11 @@ l_WhereOldClothes:
     set zeny, zeny+25;
     next;
 
-    goto l_Menu;
+    mesn "Narrator";
+    mes col(l("You receive 25GP!"), 9);
+    next;
+
+    goto l_BeforeMenu;
 
 l_WhatCloth:
     mes "";
@@ -222,6 +226,8 @@ l_WhatCloth:
     mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
     next;
 
+l_BeforeMenu:
+    mesn;
     goto l_Menu;
 
 l_Quit:
