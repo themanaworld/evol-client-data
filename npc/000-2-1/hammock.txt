@@ -1,0 +1,19 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Animated hammock.
+
+000-2-1.gat,22,36,0,2	script	#name	904,{
+
+OnTouchFirst:
+    setnpcdir 2;
+
+    end;
+
+OnUnTouchAll:
+    setnpcdir 4;
+
+    end;
+
+}

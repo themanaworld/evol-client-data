@@ -204,7 +204,7 @@ l_AskForFood:
     mesq l("Do you have anything for me today?");
     next;
 
-l_IntroMenu
+l_IntroMenu:
     menu
       l("Yes."), l_GiveFood,
       l("Where can I find some food?"), l_Food,
@@ -222,9 +222,9 @@ l_Food:
     mesq l("As you can walk around, it'll be an easy task for you. Impale me one of them!!");
     next;
     mesn "Narrator";
-    mes col(l("You can attack a monster by clicking on him, or from your keyboard, on using the key "A" to select and "Ctrl" to attack."), 9);
+    mes col(l("You can attack a monster by clicking on him, or from your keyboard, on using the key 'A' to select and 'Ctrl' to attack."), 9);
     next;
-    mes col(l("Once the monster is dead, you can take his drop with your mouse on clicking on it, or by using the key "Z" from your keyboard."), 9);
+    mes col(l("Once the monster is dead, you can take his drop with your mouse on clicking on it, or by using the key 'Z' from your keyboard."), 9);
 
     close;
 
