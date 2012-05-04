@@ -1,0 +1,128 @@
+// Evol scripts.
+// Authors:
+//    Reid
+
+000-1.gat,42,42,0,1	script	Silvio	314,{
+
+    mesn;
+    mesq l("Hey hey");
+    next;
+    mesq g(l("How is it going cutty?"),
+           l("How is it going dude?"));
+    next;
+
+    menu
+        l("Hello... Should I know you?"), -,
+        l("Bye."), l_Quit;
+
+    mes "";
+    mesn;
+    mesq g(l("Hehe, no. But I'm sure that a lady like you wish to meet a charmer of my kind!"),
+           l("Hehe, no. But I'm sure that a dude like you wish to meet a gentleman of my kind"));
+    next;
+    mesq g(l("So, which good wind bring you here? Were you on your raft to meet me? Or because you heard of my feats on Artis?"),
+           l("So, which good wind bring you here? Were you on your raft to meet my Julia? Or because you want to see these beauty waitress at Artis?"));
+    next;
+
+    menu
+        g(l("You see right, it's about Julia."),
+          l("You are right, it's about you.")), l_Julia,
+        l("Oh look, there is a piou behind you."), l_Piou,        
+        l("What is Artis?"), l_Artis,
+        l("None of them?"), -;
+
+    mes "";
+    mesn;
+    mesq g(l("My beauty, I was not always a sailor, you know, I was an important person!"),
+           l("My friend, I was not always a sailor, you know, I was an important person!"));
+    next;
+    mesq l("Before...");
+    next;
+
+    mesn "Gugli";
+    mesq l("Hey, don't worry about him, it's one of the first day since a long time where we can decompress.");
+    next;
+    mesq "Maybe he abused too much his bottle today for celebrate that!";
+    next;
+
+    menu
+        l("He's funny, it's not a problem."), -,
+        l("Ok, I will leave him alone."), l_ForeverAlone;
+
+    mes "";
+    mesn "Gugli";
+    mesq l("Oh ok, I said nothing then.");
+    next;
+
+    mesn;
+    mesq l("Ah... Gugli Gugli... He's too young to understand our conversation");
+    next;
+    mesq l("So, what was I saying?");
+    next;
+
+    menu
+        l("You told me that you 'were' important."), l_VeryImportantNoob,
+        l("We discussed about the quality of your wine"), -;
+
+    mes "";
+    mesn;
+    mesq l("Oh really? How could I forgot a topic as important as this one?");
+    next;
+    mesq l("I think that my wine is in a very good quality then! I'm just at my second bottle and I already... What was we talking about again?");
+    close;
+
+l_VeryImportantNoob:
+    mes "";
+    mesn;
+    mesq l("It's right!");
+    next;
+    mesq l("But I can't tell you anything about it I'm sorry.") ;
+    next;
+
+    mesn "Gugli";
+    mesq l("Hey Silvio, it's your turn to carry about the package, go ahead!");
+    next;
+
+    mesn;
+    mesq g(l("Duty is calling me, *hips*, see you later honey."),
+           l("Duty is calling me, *hips*, see you later dude."));
+    close;
+
+l_Julia:
+    mes "";
+    mesn;
+    mesq g(l("You honore me beauty, but I'm already taken by Julia!"),
+           l("It's not to kill your dream but... Julia is mine!"));
+    next;
+    mesq l("She said me that she will accept my application when Piou will have teeth. It's just a meaning of time, you see?");
+    close;
+
+l_Piou:
+    mes "";
+    mesn;
+    mesq "Seriously?!";
+    next;
+    mesq "Hurry hurry! Need to verify his teeth!";
+    close;
+
+l_Artis:
+    mes "";
+    mesn;
+    mesq l("It's a nice place... There is some nice chicks...");
+    next;
+    mesq l("The elven from the library has tilted on me a while ago, as well as Enora from the warrior guild.");
+    next;
+    mesq l("Oh, and Olga from the market place as well!");
+    next;
+    mesq l("You should look at them once we arrive at the port, they worth it, eheh.");
+    close;
+
+l_ForeverAlone:
+    mes "";
+    mesn "Narrator";
+    mes col(l("Silvio start to speak with his bottle, you leave the conversation."), 9);
+
+l_Quit:
+    close;
+
+}

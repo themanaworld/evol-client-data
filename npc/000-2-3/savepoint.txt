@@ -4,7 +4,7 @@
 // Description:
 //    Fake save point in nard's room.
 
-000-2-3.gat,28,24,0,2	script	#name	900,{
+000-2-3.gat,28,24,0,2	script	#name	906,0,0{
 
     mesn "Narrator";
     mes col(l("There is a nice place to stay beside you."), 9);
@@ -28,5 +28,19 @@
 
 L_Return:
     close;
+
+OnTouchFirst:
+    setnpcdir 4;
+    close;
+
+OnUnTouchAll:
+    setnpcdir 2;
+    initnpctimer;
+    close;
+
+OnTimer5440:
+    setnpcdir 4;
+    stopnpctimer;
+    end;
 
 }
