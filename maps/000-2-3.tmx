@@ -14,44 +14,25 @@
  <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="405" name="Ship-indoor_x2" tilewidth="96" tileheight="64">
-  <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
-  <tile id="0">
-   <properties>
-    <property name="animation-delay0" value="40"/>
-    <property name="animation-delay1" value="18"/>
-    <property name="animation-delay2" value="15"/>
-    <property name="animation-delay3" value="30"/>
-    <property name="animation-delay4" value="18"/>
-    <property name="animation-delay5" value="15"/>
-    <property name="animation-frame0" value="0"/>
-    <property name="animation-frame1" value="1"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="3"/>
-    <property name="animation-frame4" value="2"/>
-    <property name="animation-frame5" value="1"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="413" name="Carpet" tilewidth="32" tileheight="32">
+ <tileset firstgid="405" name="Carpet" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Carpet.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="422" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="414" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
- <layer name="Ground" width="52" height="53">
+ <layer name="Ground" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TTQqCQBiH8RkIImgT4SKki5S17ArhUtp6g87Sd12sk/SKCm9iZAY5E8/ih9hs/g+NsTEmBgAAAAAA+JG5WNaIas4iB/a+sxAj0RdBYSzWYqvOst9WDuxt2hOY5x4rZurMl57MREyVsOjpqbPQgZ1NJRUbMSh6dhK2Fwfb/c5PetKC3j+U94s8r+LmWU/pKLvv8jzbvK9sTRzY2eau+d5TvW9Zz8nmPbrFpx69WX8v+n9LHdjZ9s690vXOb3q63gQAAAAAAPDPHsMMOXoQKwAA
+   H4sIAAAAAAAAA+3TTQqCQBiH8RkIImgT4SKki5S17ArhUtp6g87Rd12uk/SKCm9iZAY5E8/ih9hs/g+NsTEmBgAAAAAA+JG5WNaIas4iB/a+sxAj0RdBYSzWYqvOst9WDuxt2hOY5x4rZurMl57MREyVsOjpqbPQgZ1NJRUbMSh6dhK2Fwfb/c5PetKC3j+U94s8r+LmWU/pKLvv8jzbvK9sTRzY2eau+d5TvW9Zz8nmPbrFpx69WX8v+n9LHdjZ9s690vXOb3q63gQAAAAAAPDPHiylq9sQKwAA
   </data>
  </layer>
- <layer name="Ground 2" width="52" height="53">
+ <layer name="Ground 2" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3RwQ2CQBSEYTggVkA/xhbogBYsQT0AmhBrsAMsiFCBmsjVMT6TPXBbAlnzf8lkzHqZF6IIAAAAAAAAPlbxtzP1Wj04/92srzNv8nG0e17O2976d1sazzjIU6mtlXJWGuWktHpP7IaLvYXis/dge2vn9z+rA7yx0OZOvVP3S4+ZyEa35Mo2wO8x5q48lOfSQwAAAAAAAABM4g32U6oXECsAAA==
   </data>
  </layer>
- <layer name="Fringe" width="52" height="53">
+ <layer name="Fringe" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PsREAEBBE0VOxGrRgRr8aIBDh5r1ow/0RAAAAAJBbK+v9q75pGAnaeEe9fQAAAAAA4MAEzHHGexArAAA=
+   H4sIAAAAAAAAA+3PMREAIAwEwaAYDbGAYgzQUBEyu9WV/xEAAAAA0FuOc/9qNfhAffP1AAAAAACACxvenMjlECsAAA==
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
@@ -61,7 +42,7 @@
  </layer>
  <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TQQrAMAgEwPT/D8k3S+8SghdrMsJcPO0izmeMCQAAAAC08k20i/Z/tjPVGbN9Vj2rc2Zu073PafeJcnf/oRv6VGcCAAAAONkLWuJwKhArAAA=
+   H4sIAAAAAAAAA+3TQQrAMAgEwPT/j8hXS+8SghdrMsJcPO0izmeMCQAAAAC08k20i/Z/tjPVGbN9Vj2rc2Zu073PafeJcnf/oRv6VGcCAAAAONkL17sGdhArAAA=
   </data>
  </layer>
  <objectgroup name="Object" width="52" height="53">

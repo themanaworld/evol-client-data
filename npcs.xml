@@ -75,6 +75,10 @@ IDs 990-999 = Special
         <sprite>npcs/XML/gugli.xml</sprite>
         <sprite>accessories/acc-eye-right-blink.xml</sprite>
     </npc>
+    <npc id="314">
+        <!-- Human-Small-Man, standing with a bottle of wine at his hand. -->
+        <sprite>npcs/XML/silvio.xml</sprite>
+    </npc>
 
 
 <!-- Special NPCs -->
@@ -101,6 +105,11 @@ IDs 990-999 = Special
     <npc id="905">
         <!-- Right hammock. -->
         <sprite>npcs/XML/animated_hammock2.xml</sprite>
+    </npc>
+    <npc id="906">
+        <!-- Left hammock with particle. -->
+        <sprite>npcs/XML/animated_hammock1.xml</sprite>
+        <particlefx>graphics/particles/savepoint/savepoint-32x32.xml</particlefx>
     </npc>
     <npc id="999">
         <!-- blank NPC -->

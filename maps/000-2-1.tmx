@@ -12,74 +12,7 @@
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="96" tileheight="32">
-  <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
-  <tile id="0">
-   <properties>
-    <property name="animation-delay0" value="40"/>
-    <property name="animation-delay1" value="18"/>
-    <property name="animation-delay2" value="15"/>
-    <property name="animation-delay3" value="30"/>
-    <property name="animation-delay4" value="18"/>
-    <property name="animation-delay5" value="15"/>
-    <property name="animation-frame0" value="0"/>
-    <property name="animation-frame1" value="1"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="3"/>
-    <property name="animation-frame4" value="2"/>
-    <property name="animation-frame5" value="1"/>
-   </properties>
-  </tile>
-  <tile id="4">
-   <properties>
-    <property name="animation-delay0" value="40"/>
-    <property name="animation-delay1" value="18"/>
-    <property name="animation-delay2" value="15"/>
-    <property name="animation-delay3" value="30"/>
-    <property name="animation-delay4" value="18"/>
-    <property name="animation-delay5" value="15"/>
-    <property name="animation-frame0" value="4"/>
-    <property name="animation-frame1" value="5"/>
-    <property name="animation-frame2" value="6"/>
-    <property name="animation-frame3" value="7"/>
-    <property name="animation-frame4" value="6"/>
-    <property name="animation-frame5" value="5"/>
-   </properties>
-  </tile>
-  <tile id="8">
-   <properties>
-    <property name="animation-delay0" value="30"/>
-    <property name="animation-delay1" value="18"/>
-    <property name="animation-delay2" value="15"/>
-    <property name="animation-delay3" value="40"/>
-    <property name="animation-delay4" value="18"/>
-    <property name="animation-delay5" value="15"/>
-    <property name="animation-frame0" value="8"/>
-    <property name="animation-frame1" value="9"/>
-    <property name="animation-frame2" value="10"/>
-    <property name="animation-frame3" value="11"/>
-    <property name="animation-frame4" value="10"/>
-    <property name="animation-frame5" value="9"/>
-   </properties>
-  </tile>
-  <tile id="12">
-   <properties>
-    <property name="animation-delay0" value="30"/>
-    <property name="animation-delay1" value="18"/>
-    <property name="animation-delay2" value="15"/>
-    <property name="animation-delay3" value="40"/>
-    <property name="animation-delay4" value="18"/>
-    <property name="animation-delay5" value="15"/>
-    <property name="animation-frame0" value="12"/>
-    <property name="animation-frame1" value="13"/>
-    <property name="animation-frame2" value="14"/>
-    <property name="animation-frame3" value="15"/>
-    <property name="animation-frame4" value="14"/>
-    <property name="animation-frame5" value="13"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="401" name="Candle" tilewidth="32" tileheight="64">
+ <tileset firstgid="385" name="Candle" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/Indoor/Candle.png" width="96" height="128"/>
   <tile id="0">
    <properties>
@@ -110,13 +43,13 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="407" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="427" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="411" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="431" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
+ <tileset firstgid="415" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
   <image source="../graphics/tiles/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
@@ -126,25 +59,25 @@
  </layer>
  <layer name="Ground2" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Yyy4EQRSGq13CSiQuiUgkiAWxcVlYeQcZL4BX8ArusWUQJASDvet63oAF1t6Avf9kqqKcKbTJDN36/5I/deZ09Un5p3qqD2MIIYQQQgghhBBCCCGEEEIIIUmmMzKm2catUIuNJff6N0tKNM6rnsC1RngZQXVKdybspavRHLj231mCllVu0eaFA/g2BbVHpc8v0DjiXPQ+vx7xCsZVqzWoWNNVJ5NNKA89288ybti8Y8r6No2xARpQXkq8hXHbage6r/XCf5mFqDy3rnInUEHNObZ5Ry/u6VPq9+q0IT7FeGZ1ruod4nrezi/IXGgfOoKOA2tMK25f+lxAlz+oIb66e0RX6vqJ8msnCsdJptJ9ScrZT+B3vp3ANcUlp9au96VPXyAn0weheqjDShiqxuJSxLw6I74j5I+cFSOm/IwYNaX3pawwYce4z9WoHXcxf69Cn0Yquy1VzPziHvrJb+Jk7ZZRdeTdr9o+pvn8qBT9Ti18dfaQz5mL4Zvrx6V/HrY5vx+Pg+7pizFrzEJbKf5u9b50fY/0z+Om9Lf5/bj44s538ct5JHFT9LGG9PJjtpbu6bPAd/14lyl57PxyHkmuW9XwfdY9/X9E78tQ/6z7cedLQcXuGXY1nM/5QI0scQ3dQLcqn/P+byF++bF+hn2fs8wD9Ag9qfxnfVPoGfZ9JvHJ8jNMCCGEEEIIIYQQQggh5O95A3KBZXGETAAA
+   H4sIAAAAAAAAA+2Yyy4EQRSGq13CSiQuiUgkRiyIjcvCyjvIeAG8gmdgECQEg73r3nU9b8ACa2/A3n8yVVHOlOgZxnTr/0v+1JnT3Wdq/uma6jPGEEIIIYQQQgghhBBCCCGEEEKSTG9kTLuNO6EOG0vurTFTSjTOq4HAsVZ4GUFNSvcm7KWr0R449t9ZgQoqt2zzwjZ8m4W6o/LrV2gKcT76OL8Z8SrGNat1qFTXWSeTfagIvdjXMu7ZvGPW+jaHsQUaVl5KfIDx0OoIeqj3xBtIUe6dqDJ/Ap2q3LHNOwZxXU5pyKvVhfgM47nVhaq3g+OF6GMeB9AWtAvtBeaUVtx96XMJXVVRQ3x114iu9Xsov9ajcJx2QvclqWQrgd/5WgLnFJd8FXPPBXJy+QjUDPVYCaM/nVjKWFJ7xHeE/JG9YtxU7hETpvy8lBWm7Rh3XU3YcQPnb9bo03htl6WK+T+8h6r5TZyp3zR+HXn2+20f07x/1Ip+pia1sxjDR9ePS/88ZnN+Px4H3dOXYtZYMOFeLK24vkf65ylT/mx+Py6+uP1d/HIeSdwWfa4hvfykraV7+izwXT/eZ8oeO7+cR5LrVzV8n3VPnwVC/bPux50vpyp2a9jVcD4XAzWyxA10C92pfN7730L88mO9hn2fs8wj9AQ9q/xXzwGhNez7TOKT5TVMCCGEEEIIIYQQQgghpPG8AwketgqETAAA
   </data>
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YTQqCQBQAYN10nw7RwdpELQOxFi0K+ll2mo7QFVo3gRCFYpqV5vfBg2EYZWbeY5SJIgAAAAAAAKDNLr+eAJRI4nt7FNrbuHjsvxnnrHXWo/X3wSLkc9WxnDZZl8P4Md61Du/YhDh0bE/5DOdlPXP71jo7OaFBScP1dFSfD3x7aKPnuiy6BxpUqF93Sa+b5PRNvz6L9ql6Xp5CpFn79m+0z55fhjg3OK8+y6tV6knLhwAAAAAAAPTKFd2rm+yETAAA
+   H4sIAAAAAAAAA+3YQQqCQBQGYN10nw7RwQKpFi0Kytp1qo7QFVo3gRCBoqWk03wfPHjIII/xH5DJMgAAAAAAAGDK7mMPAC2K/NUvQn/Im9dCbNYhz9uEMz3P36uvXXjHPtQp4T2FvpbOz+QcfRMGVAycp4t8QnSa7oFmH5xnd0ndrWqebX4+Rfyuocqqf/4blVVez6FuI830b+qyynfK9iUAAAAAAABJeQAru5wChEwAAA==
   </data>
  </layer>
  <layer name="Over" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Yy0oDMRSGMxa3iqhr8QYuKrjQlZeNVmhVXFgV9xXdSutK9/oG4hPog/gIvku3nsPMYBgyOSlNdZL5P/jpTC4nyc8ZklQpAAAAAAAAAAAAAAAAAAAAcDOi6oxPf2L22mcutZJqzeev4XntOrR7EurbpEvBy7YQ49lhHnuq2l7uO7STfOD628Scmw/Jb5sFi9/SGMyxqoeXj5qXvey5r5W5xJAIzctPWvt7IX94nS+k15I4Lj5wm8EYefmWhOelCR85Vce8NCGt84rUEXRm6d9zGIMJwcsp+n6+LO0uhDhdEn++y6QGaTETl61kZbYYnSyGiXPSOqlFOlLV93Jc5j3EKINzcVOFcb704eUkYS93VLV9ZELxsuo5yehefv/nRCxckw6y5xjuPSfKvkefTjBGvn8xIezjEnxemVbpfjxDWiPNqnSdXOZ6JspjcN9V0pIWI5YzkURxnU1D/ZxKPeY9/Y50XyjjNt2Se8/QMIaJGL3cNtQPS/o2tTYmPhzv60yMXo5a7ytGXbxsjPn/ZQxeHqr0fraR/erKy/pCHB95OTCMW3yv+h0y11bhXS8r89vVayb3SvLJNJfie6jY1iR5bfIqVp984Jrb8AoAAAAAAAAAAAAAAADc+QHVJ6aMhEwAAA==
+   H4sIAAAAAAAAA+2YvU7DMBSFHSpWEAJmxJ/EUCQGmPhZoEgtIAYKiL0IVtQywV7egBfiEXiXrtyrOMKKHF9XcSFxzicdNbl2rp2jG9muUgAAAAAAAAAAAAAAAAAAAOBhSjWZkP7E7HXIWuok1ZrPX8PzOvTo9ya0d0m3gpddIce7xzyOVLW9PPboJ/nA7Y+JvTZfkt8+Kw6/pTGYc9UML18NLwf6emjEfHJIxOLlmPThaPfJMSpRl+MkHi/LtIfK0QQv70g9QVeO5wceYzB18HKOvp8vR78bIU+fxJ/vOqlFWtXi2IaOuXL0dA4b16RtUod0pqrvZVmWA+QogmtxV9VjfxnCy1nCXh6oavvI1MXLqtckY3r5/Z8TcXBPOtHXMZx7LpR7jb6cYY5s/WLqsI5L8H5lXqXr8QJpi7So0vfkmO+eKMvBz26S1owcseyJJPLv2ba0L6nUY17Tn0jPuRj36ReceyaWMWzE6OW+pX1S8Gzb6GPj0/O8zsTo5bTtoXI0xctWyf8vY/DyVKXnsx39ayqLDYU8IepyZBk3f1/1M2Smvdy9GSvy29drJvNK8sk2l/x9XXG9k+S1zatYfQqBb23DKwAAAAAAAAAAAAAAAPDnB/l1PR2ETAAA
   </data>
  </layer>
  <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUa7CIBBAUd3/VrpI44c/jaVQBqfgITlJ0/h4zC3b8/HYAAAAAAAAAKDBe2WfYRWllv/U+bNq349uOXP7s/WrPfb7ZHfpaVl6nul7ZLtDh1Va7mdpvZelPSO+58wte2a4+vdH/3u2jjX34mi+kSu7yciOLfNH7jWbiLmjV3aTiJYjulxZ2U2i7+O33/fu0XqO7EatLVue9+9KjUd90zuqneFsvqN3LeconSe7U/S9PJqx5tm9rGtZ+xst+1pGnmMFPa1X6pDdWksAAAAAgDYvK2ATCoRMAAA=
+   H4sIAAAAAAAAA+3SUa7CIBBAUd3/FrpY44c/jaVQBqfgITlJ0/h4zC3b8/HYAAAAAAAAAKDBe2WfYRWllv/U+bNq349uOXP7s/WrPfb7ZHfpaVl6nul7ZLtDh1Va7mdpvZelPSO+58wte2a4+vdH/3u2jjX34mi+kSu7yciOLfNH7jWbiLmjV3aTiJYjulxZ2U2i7+O33/fu0XqO7EatLVue9+9KjUd90zuqneFsvqN3LeconSe7U/S9PJqx5tm9rGtZ+xst+1pGnmMFPa1X6pDdWksAAAAAgDYv5s9ZFoRMAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="83" height="59" visible="0">
+ <objectgroup name="Object" width="83" height="59">
   <object name="ToLevel2" type="warp" x="1952" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-2"/>

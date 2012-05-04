@@ -6,16 +6,16 @@ Copyright (C) 2011-2012  Evol Online -->
     <action name="stand" imageset="npc">
         <!-- Mooving hammock. -->
         <animation direction="left">
-            <frame index="12" delay="400"/>
-            <frame index="13" delay="180"/>
-            <frame index="14" delay="150"/>
-            <frame index="15" delay="300"/>
-            <frame index="14" delay="180"/>
-            <frame index="13" delay="150"/>
+            <frame index="7" delay="300"/>
+            <frame index="6" delay="180"/>
+            <frame index="5" delay="150"/>
+            <frame index="4" delay="400"/>
+            <frame index="5" delay="180"/>
+            <frame index="6" delay="150"/>
         </animation>
         <!-- Static hammock. -->
         <animation direction="up">
-            <frame index="13" delay="300"/>
+            <frame index="7"/>
         </animation>
     </action>
 </sprite>
