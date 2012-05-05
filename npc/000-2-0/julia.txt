@@ -29,6 +29,7 @@ l_Menu:
         lg("I made a mistake, I would like to change my language."), l_ChooseLang,
         l("Could you explain to me where I am?"), l_WhereIam,
         l("What happened to me?"), l_What,
+        l("Can I read these rules again?"), l_Rules,
         l("Nothing, sorry."), l_Close;
 
     mes "";
@@ -39,7 +40,6 @@ l_Menu:
 
 l_First:
 
-    seta2 ShipQuests, ShipQuests_Julia, 1;
     callfunc "CheckClientVersion";
 
     mesn;
@@ -69,10 +69,37 @@ l_First:
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 7) close;
     setlang @lang;
+    seta ShipQuests, ShipQuests_Julia, 1;
 
     mes "";
     mesn;
-    mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them!");
+    mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them, but in first I need to tell you the rules of proper social conduct on board.");
+    next;
+    mesq l("Here they are:");
+    next;
+
+    mesn "Narrator";
+    mes col(l("Julia hands you a paper with the rules written on it."), 9);
+    next;
+    mes col(l("1. You won't bot, this mean that you won't run any automated tasks (Also included keyboard trick). If your character move, attack or start any other action, it involve that you made this by yourself, and that you are in front of your keyboard, if not, it's considered as botting."), 9);
+    next;
+    mes col(l("2, You won't multibox, this mean that you won't clone yourself and start any other client for attacking in group."), 9);
+    next;
+    mes col(l("3, You won't exploit Bugs, that means that getting advantage on any other players by weaknesses or mistakes from the client, server or gameplay is considered as cheating."), 9);
+    next;
+    mes col(l("4, You won't trashtalk, flood, spam, beg, whine or use rude language on your character name, and while chatting, at the exception that there is a present form of roleplay."), 9);
+    next;
+    mes col(l("5, You won't speak any other language else than english around other players which are not part of your community. You are free to speak in french, spanish, mayan or in ewoks if you wish, if you are alone or with your community."), 9);
+    next;
+    mes col(l("6, You will follow the social convention listed on the RFC1855."), 9);
+    next;
+
+    mesn;
+    mesq l("Oh, and it's not written there but don't give the password of your room to anybody, I'm the only one which got the other key and I won't ask yours, so keep it secret and try to don't use the same one in any other room in futur.");
+    next;
+    mesq l("If you wish to read this page again, there is a copy put up on the left wall.");
+    next;
+    mesq l("I think that I'm done, do you got a question now?");
     next;
 
     goto l_Menu;
@@ -126,8 +153,18 @@ l_Close:
 
     close;
 
+l_Rules:
+    mes "";
+    mesn;
+    mesq l("Of course, they are on the left wall, go get a look at them.");
+    next;
+    mesq l("Do you have an other question for me?");
+    next;
+
+    goto l_YNMenu;
+
 OnTouch:
-    set @q, geta2(ShipQuests, ShipQuests_Julia);
+    set @q, geta(ShipQuests, ShipQuests_Julia);
     if (@q == 0) goto l_First;
 
     close;
