@@ -1,0 +1,34 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Note which regroup the 6 main rules of Evol Online.
+
+000-2-0.gat,29,25,0	script	Note	999,{
+
+    mesn "Narrator";
+    mes col(l("There is a paper with some rules written on it."), 9);
+    next;
+    mesq col(l("1. You won't bot, this mean that you won't run any automated tasks (Also included keyboard trick). If your character move, attack or start any other action, it involve that you made this by yourself, and that you are in front of your keyboard, if not, it's considered as botting."), 9);
+    next;
+    mesq col(l("2, You won't multibox, this mean that you won't clone yourself and start any other client for attacking in group."), 9);
+    next;
+    mesq col(l("3, You won't exploit Bugs, that means that getting advantage on any other players by weaknesses or mistakes from the client, server or gameplay is considered as cheating."), 9);
+    next;
+    mesq col(l("4, You won't trashtalk, flood, spam, beg, whine or use rude language on your character name, and while chatting, at the exception that there is a present form of roleplay."), 9);
+    next;
+    mesq col(l("5, You won't speak any other language else than english around other players which are not part of your community. You are free to speak in french, spanish, mayan or in ewoks if you wish, if you are alone or with your community."), 9);
+    next;
+    mesq col(l("6, You will follow the social convention listed on the RFC1855."), 9);
+    next;
+    mes col(l("Some other strings look like to be added to this page"), 9);
+    next;    
+    mesq col(l("Don't give the password of your room to anybody! Keep it secret and try to don't use the same one in any other room in futur. - Julia"), 9);
+    next;
+    mesq col(l("Does somebody know a good place to look in Esperia? - M. Arpan"), 9);
+    next;
+    mes col(l("Some more things are written down but it's not well readable."), 9);
+
+    close;
+
+}
