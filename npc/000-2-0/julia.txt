@@ -69,13 +69,15 @@ l_First:
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 7) close;
     setlang @lang;
-    seta ShipQuests, ShipQuests_Julia, 1;
 
     mes "";
     mesn;
-    mesq l("Ok, Done. I'm sure that you've got some questions for me, feel free to ask them, but in first I need to tell you the rules of proper social conduct on board.");
+    mesq l("Ok, Done.");
+    if (@q == 1) goto l_NoRules;
     next;
-    mesq l("Here they are:");
+    mesq l("I'm sure that you've got some questions for me, feel free to ask them, but in first I need to tell you the rules of proper social conduct on board.");
+    
+    mesq l("Here they are.");
     next;
 
     mesn "Narrator";
@@ -102,8 +104,15 @@ l_First:
     mesq l("I think that I'm done, do you got a question now?");
     next;
 
+    seta ShipQuests, ShipQuests_Julia, 1;
     goto l_Menu;
 
+l_NoRules:
+    next;
+    mesq l("Do you have an other question for me?");
+    next;
+
+    goto l_YNMenu;
 
 l_NoChanges:
     mes "";
