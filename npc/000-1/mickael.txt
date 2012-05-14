@@ -3,17 +3,18 @@
 //    Reid
 // Description:
 //    Mickael, a sailor which gives some information to the player.
+//		Sitting around the raft.
 
 000-1.gat,25,26,0,1	script	Mickael	105,{
 
     mesn;
     mesq l("Oh, hey you.");
     next;
-    mesq l("I hope that you don't mind if we used your raft to build this ramp.");
+    mesq l("I hope that you don't mind that we used your raft to build this ramp.");
     next;
-    mesq l("We normaly don't stop in such place, but capt'ain let us stay here while he writes the location of this new island on his map!");
+    mesq l("We technically don't stop in such place, but Capt'ain let us stay here while he writes the location of this new island on his map!");
     next;
-    mesq l("So we are looking to some new marchandise that we could trade on our next destination.")
+    mesq l("So we are looking to some new merchandise that we could trade on our next destination.")
     next;
     mesq l("It's yours as well, right?")
 
@@ -23,7 +24,7 @@
 
     mes "";
     mesn;
-    mesq l("If you are looking at us there, we will mostly all be at the Pedro's restaurant and in the INN for silvio's case...");
+    mesq l("If you are looking at us there, we will mostly all be at the Pedro's restaurant and in the INN for Silvio's case...");
 
     close;
 
@@ -32,7 +33,7 @@ l_Artis:
     mesn;
     mesq l("Artis of course!")
     next;
-    mesq l("It's where every marchand ship end their traveling, and we won't be the exeption!")
+    mesq l("It's where every merchant ship end their travelling, and we won't be the exception!")
 
     close;
 
