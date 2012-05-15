@@ -108,7 +108,7 @@ L_TalkToJulia:
     next;
 
     mesn "Narrator";
-    mes col(l("Julia is on the upper level, you can access it by using the top right stairway of this floor."), 9);
+    mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
 
     goto L_Close;
 

@@ -136,7 +136,11 @@ OnClothNotTaken:
 
 OnEquip:
     mesn "Narrator";
-    mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
+    mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
+    next;
+    mes col(lg("Once your inside of your inventory, you may equip the item by selecting it and clicking "Equip". Alternately, you can unequip an item by selecting "unequip" to remove it."), 9);
+    next;
+    mes col(lg("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
 
     close;
 
@@ -187,7 +191,9 @@ l_Julia:
     mesq g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
            l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
     next;
-    mesq lg("You can go to your right to go to the upper level.");
+
+    mesn "Narrator";
+    mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
     next;
 
     goto l_Menu;
@@ -223,7 +229,11 @@ l_WhatCloth:
     next;
 
     mesn "Narrator";
-    mes col(lg("Open your inventory (F3 key), select the clothes one by one and equip them."), 9);
+    mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
+    next;
+    mes col(lg("Once your inside of your inventory, you may equip the item by selecting it and clicking "Equip". Alternately, you can unequip an item by selecting "unequip" to remove it."), 9);
+    next;
+    mes col(lg("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
     next;
 
 l_BeforeMenu:
