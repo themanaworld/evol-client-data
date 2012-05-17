@@ -1,0 +1,14 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Random NPC searching some foods on the map.
+
+000-1.gat,23,31,0,1	script	Muller	104,{
+
+    mesn;
+    mesq l("I think that I'm done, I got a box full of ") + getitemlink("Crocclaw") +"!";
+
+    close;
+
+}
