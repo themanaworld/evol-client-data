@@ -134,7 +134,7 @@ l_Quit:
     close;
 
 l_QuestGiven:
-    mesq "Ehoo "+ strcharinfo(0) +"!!"; 
+    mesq l("Ehoo") + " " + strcharinfo(0) + "!!"; 
     next;
     mesq l("Did you find what was this light?!");
     next;
