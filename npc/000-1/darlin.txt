@@ -15,9 +15,9 @@
     set @q, geta(ShipQuests, ShipQuests_Darlin);
     if (@q > 0) goto l_QuestGiven;
 
-    mesq "Hey! Ehoo!!"; 
+    mesq l("Hey! Ehoo!!"); 
     next;
-    mesq "Do you hear me??";
+    mesq l("Do you hear me??");
     next;
 
     menu
@@ -39,15 +39,14 @@
 
     mes "";
     menu
-        l("And you, how are you going?"), -,
+        l("And you, how are you doing?"), -,
         l("But I need to go, bye!"), l_Bye;
-// Et là
 
     mes "";
     mesn;
-    mesq l("I'm going fine!!");
+    mesq l("I'm doing fine!!");
     next;
-    mesq g(l("So, what's your name lady??"), l("What's your name dude??"));
+    mesq l("So, what's your name??");
     next;
 
     menu
@@ -56,7 +55,7 @@
 
     mes "";
     mesn;
-    mesq l("What did you said??");
+    mesq l("What did you say??");
     next;
     mesq l("I don't understand!!");
     next;
@@ -68,7 +67,7 @@
 
     mes "";
     mesn;
-    mesq strcharinfo(0) + "?? " + l("It's a nice name!!");
+    mesq strcharinfo(0) + "?? " + l("That's a nice name!!");
     next;
     mesq l("So what's up?? What are you doing??");
     next;
@@ -76,15 +75,15 @@
 l_Menu:
     menu
         l("Maybe you can come down to talk?"), l_GoDown,
-        l("I search Gugli, where is he?"), -,
-        l("Nothing, but I need to go!"), l_Bye;
+        l("I'm looking for Gugli, where is he?"), -,
+        l("Nothing, I need to go!"), l_Bye;
 
     setcamnpc "Gugli";
     mes "";
     mesn;
     mesq l("Oh look there!!");
     next;
-    mesq l("He is just in bottom of the ship, you can't miss him!!");
+    mesq l("He is right in the bottom of the ship, you can't miss him!!");
     restorecam;
 
     close;
@@ -92,16 +91,16 @@ l_Menu:
 l_GoDown:
     mes "";
     mesn;
-    mesq l("I would like!!");
+    mesq l("I would love to!!");
     next;
-    mesq l("But I can't, I need to keep an eye on the sea, to warn the crew if there is some pirats around!!");
+    mesq l("But I can't, I need to keep an eye on the sea, to warn the crew if there happen to be some pirates around!!");
     next;
-    mesq l("I also check if there are some dangerous animals around...");
+    mesq l("I also watch for dangerous animals...");
     next;
 
     menu
-        l("Do you seen a danger around?"), -,
-        l("Interesting... I let you at your task then!"), l_Bye;
+        l("Have you seen anything dangerous?"), -,
+        l("Interesting... I'll leave you to your task then!"), l_Bye;
 
     mes "";
     mesn;
@@ -115,14 +114,14 @@ l_GoDown:
     next;
 
     menu
-        l("I will check this!"), l_Bye,
-        l("Ok, but Gugli need my help first."), -;
+        l("I'll look at it."), l_Bye,
+        l("Ok, but Gugli needs my help first."), -;
 
     mes "";
     mesn;
-    mesq l("It's ok, crew task are much important than curiousity!!");
+    mesq l("It's ok, crew tasks are much more important than curiosity!!");
     next;
-    mesq l("Anyway, maybe while searching some food with Gugli you will get the time to look at this!!");
+    mesq l("Anyway, maybe when you are looking for food with Gugli you'll have the time to look at this!!");
     close;
 
 l_Bye:
@@ -136,7 +135,7 @@ l_Quit:
 l_QuestGiven:
     mesq l("Ehoo") + " " + strcharinfo(0) + "!!"; 
     next;
-    mesq l("Did you find what was this light?!");
+    mesq l("Did you find out what the light is?!");
     next;
 
     menu
@@ -148,7 +147,7 @@ l_QuestGiven:
     mesn;
     mesq l("On the edge of this island!!");
     next;
-    mesq l("You need to walk to the north!!");
+    mesq l("You need to walk north!!");
 
     goto l_Menu;
 
@@ -162,14 +161,14 @@ l_Nothing:
 l_Chest:
     mes "";
     mesn;
-    mesq l("Excuse me, but what?? Speak higher!!");
+    mesq l("Excuse me, but what did you say?? Speak louder!!");
     next;
     mesq l("If you find something then it's good!!");
 
     goto l_Menu;
 
 l_DangerAround:
-    mesq l("Nothing else than sharks and this weird light!!");
+    mesq l("Nothing else other than sharks and an odd light!!");
  
     close;
 

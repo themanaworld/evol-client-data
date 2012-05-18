@@ -11,20 +11,20 @@
     next;
     mesq l("I hope that you don't mind that we used your raft to build this ramp.");
     next;
-    mesq l("We technically don't stop in such place, but Capt'ain let us stay here while he writes the location of this new island on his map!");
+    mesq l("We usually don't stop in such places, but Capt'ain let us stay here while he writes the location of this new island on his map!");
     next;
-    mesq l("So we are looking to some new merchandise that we could trade on our next destination.");
+    mesq l("So we are looking for some new merchandise that we could trade at our next destination.");
     next;
     mesq l("It's yours as well, right?");
     next;
 
     menu
-        l("It's right."), -,
+        l("That's right."), -,
         l("Which one?"), l_Artis;
 
     mes "";
     mesn;
-    mesq l("If you are looking at us there, we will mostly all be at the Pedro's restaurant and in the INN for Silvio's case...");
+    mesq l("If you are looking for us there, mostl all of us will be at the Pedro's restaurant and in the INN for Silvio's case...");
 
     close;
 
@@ -33,7 +33,7 @@ l_Artis:
     mesn;
     mesq l("Artis of course!");
     next;
-    mesq l("It's where every merchant ship end their travelling, and we won't be the exception!");
+    mesq l("It's where every merchant ship ends their travelling, and we won't be the exception!");
 
     close;
 

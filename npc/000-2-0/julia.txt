@@ -83,25 +83,25 @@ l_First:
     mesn "Narrator";
     mes col(l("Julia hands you a paper with the rules written on it."), 9);
     next;
-    mesq col(l("1, You won't bot, this mean that you won't run any automated tasks (Also included keyboard trick). If your character move, attack or start any other action, it involve that you made this by yourself, and that you are in front of your keyboard, if not, it's considered as botting."), 9);
+    mesq col(l("1. You won't bot, this means that you won't run any automated tasks (Also included keyboard trick). If your character moves, attacks or starts any other action, it means that you made this by yourself, and that you are in front of your keyboard, if not, it's considered botting."), 9);
     next;
-    mesq col(l("2, You won't multibox, this mean that you won't clone yourself and start any other client for attacking in group."), 9);
+    mesq col(l("2, You will not multibox, this mean that you will not have more than one active character logged in and start any other clients for attacking in group."), 9);
     next;
-    mesq col(l("3, You won't exploit Bugs, that means that getting advantage on any other players by weaknesses or mistakes from the client, server or gameplay is considered as cheating."), 9);
+    mesq col(l("3, You will not exploit Bugs, that means that taking advantage of other players by weaknesses or mistakes in the client, server, or gameplay is considered as cheating."), 9);
     next;
-    mesq col(l("4, You won't trashtalk, flood, spam, beg, whine or use rude language on your character name, and while chatting, at the exception that there is a present form of roleplay."), 9);
+    mesq col(l("4, You won't trashtalk, flood, spam, beg, whine or use rude language in your character name, and while chatting, at the exception that there is a present form of roleplay."), 9);
     next;
-    mesq col(l("5, You won't speak any other language else than english around other players which are not part of your community. You are free to speak in french, spanish, mayan or even in ewokese if you wish, if you are alone or with your community."), 9);
+    mesq col(l("5, You won't speak any other language other than English around other players that are not part of your community. You are free to speak in French, Spanish, Mayan or even in Ewokese if you wish, if you are alone or with your community."), 9);
     next;
     mesq col(l("6, You will follow the social convention listed on the RFC1855."), 9);
     next;
 
     mesn;
-    mesq l("Oh, and it's not written there but don't give the password of your room to anybody, I'm the only one which got the other key and I won't ask yours, so keep it secret and try to don't use the same one in any other room in futur.");
+    mesq l("Oh, and it's not written there but don't give the password of your room to anybody, I'm the only one who has the other key and I won't ask for yours, so keep it secret and try not to use the same one in any other room in future.");
     next;
-    mesq l("If you wish to read this page again, there is a copy put up on the left wall.");
+    mesq l("If you wish to read this page again, there is a copy  up on the left wall.");
     next;
-    mesq l("I think that I'm done, do you got a question now?");
+    mesq l("I think that I'm done, do you have a question now?");
     next;
 
     seta ShipQuests, ShipQuests_Julia, 1;
@@ -109,7 +109,7 @@ l_First:
 
 l_NoRules:
     next;
-    mesq l("Do you have an other question for me?");
+    mesq l("Do you have any other questions for me?");
     next;
 
     goto l_YNMenu;
@@ -117,7 +117,7 @@ l_NoRules:
 l_NoChanges:
     mes "";
     mesn;
-    mesq l("No problem, do you have an other question for me?");
+    mesq l("No problem, do you have any other questions for me?");
     next;
 
 l_YNMenu:
@@ -134,7 +134,7 @@ l_WhereIam:
     next;
     mesq l("But for now, you can relax on the ship, or visit the island we're docked at! Its a small island, but a good place to get some exercise and stretch your legs.");
     next;
-    mesq l("Do you have an other question for me?");
+    mesq l("Do you have any other questions for me?");
     next;
 
     goto l_YNMenu;

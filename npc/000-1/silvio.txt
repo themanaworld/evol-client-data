@@ -1,6 +1,8 @@
 // Evol scripts.
 // Authors:
 //    Reid
+// Description:
+//    Pervert sailor which think that he is supperior at everything.
 
 000-1.gat,42,42,0,1	script	Silvio	314,{
 
@@ -69,6 +71,7 @@
     mesq l("Oh really? How could I forgot a topic as important as that?");
     next;
     mesq l("I think that my wine is very good quality! I'm on my second bottle and I already... What were we talking about again?");
+
     close;
 
 l_VeryImportantNoob:
@@ -86,6 +89,7 @@ l_VeryImportantNoob:
     mesn;
     mesq g(l("Duty is calling me, *hic*, see you later honey."),
            l("Duty is calling me, *hic*, see you later dude."));
+
     close;
 
 l_Julia:
@@ -95,6 +99,7 @@ l_Julia:
            l("Not to kill your dream, but... Julia is mine!"));
     next;
     mesq l("She said that she will accept my application when Piou have teeth. It's just a matter of time, you see?");
+
     close;
 
 l_Piou:
@@ -103,6 +108,7 @@ l_Piou:
     mesq "Seriously?!";
     next;
     mesq "Hurry hurry! Need to verify his teeth!";
+
     close;
 
 l_Artis:
@@ -115,6 +121,7 @@ l_Artis:
     mesq l("Oh, and Olga from the market place as well!");
     next;
     mesq l("You should look at them once we arrive at the port, they are worth it, eheh.");
+
     close;
 
 l_ForeverAlone:
