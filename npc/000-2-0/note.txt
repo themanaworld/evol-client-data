@@ -1,6 +1,6 @@
 // Evol scripts.
 // Authors:
-//    Reid
+//    Reid, WildX
 // Description:
 //    Note which regroup the 6 main rules of Evol Online.
 
@@ -9,17 +9,17 @@
     mesn "Narrator";
     mes col(l("There is a paper with some rules written on it."), 9);
     next;
-    mesq col(l("1. You won't bot, this means that you won't run any automated tasks (Also included keyboard trick). If your character moves, attacks or starts any other action, it means that you made this by yourself, and that you are in front of your keyboard, if not, it's considered botting."), 9);
+    mesq col(l("1. Do not bot, this means that you won't run any automated tasks (Also included keyboard tricks). Any away from keyboard activity is considereted botting does not include standing still)"), 9);
     next;
-    mesq col(l("2, You will not multibox, this mean that you will not have more than one active character logged in and start any other clients for attacking in group."), 9);
+    mesq col(l("2, Do not spam (includes trade spam)"), 9);
     next;
-    mesq col(l("3, You will not exploit Bugs, that means that taking advantage of other players by weaknesses or mistakes in the client, server, or gameplay is considered as cheating."), 9);
+    mesq col(l("3, Do not multibox, this mean that you cannot have more than one active character logged in or any other active clients used for attacking in group."), 9);
     next;
-    mesq col(l("4, You won't trashtalk, flood, spam, beg, whine or use rude language in your character name, and while chatting, at the exception that there is a present form of roleplay."), 9);
+    mesq col(l("4, Don't trashtalk, beg or use rude language in your character name and in the chat, at the exception of roleplay purposes."), 9);
     next;
-    mesq col(l("5, You won't speak any other language other than English around other players that are not part of your community. You are free to speak in French, Spanish, Mayan or even in Ewokese if you wish, if you are alone or with your community."), 9);
+    mesq col(l("5, Don't speak any other language other than English in the public areas. You are free to speak any language you want in private chats and when alone with groups of friends."), 9);
     next;
-    mesq col(l("6, You will follow the social convention listed on the RFC1855."), 9);
+    mesq col(l("6, Follow the social convention listed on the RFC1855."), 9);
     next;
     mes col(l("Some other strings are added to this page."), 9);
     next;    
