@@ -59,7 +59,7 @@
  </layer>
  <layer name="Ground2" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Yyy4EQRSGq13CSiQuiUgkRiyIjcvCyjvIeAG8gmdgECQEg73r3nU9b8ACa2/A3n8yVVHOlOgZxnTr/0v+1JnT3Wdq/uma6jPGEEIIIYQQQgghhBBCCCGEEEKSTG9kTLuNO6EOG0vurTFTSjTOq4HAsVZ4GUFNSvcm7KWr0R449t9ZgQoqt2zzwjZ8m4W6o/LrV2gKcT76OL8Z8SrGNat1qFTXWSeTfagIvdjXMu7ZvGPW+jaHsQUaVl5KfIDx0OoIeqj3xBtIUe6dqDJ/Ap2q3LHNOwZxXU5pyKvVhfgM47nVhaq3g+OF6GMeB9AWtAvtBeaUVtx96XMJXVVRQ3x114iu9Xsov9ajcJx2QvclqWQrgd/5WgLnFJd8FXPPBXJy+QjUDPVYCaM/nVjKWFJ7xHeE/JG9YtxU7hETpvy8lBWm7Rh3XU3YcQPnb9bo03htl6WK+T+8h6r5TZyp3zR+HXn2+20f07x/1Ip+pia1sxjDR9ePS/88ZnN+Px4H3dOXYtZYMOFeLK24vkf65ylT/mx+Py6+uP1d/HIeSdwWfa4hvfykraV7+izwXT/eZ8oeO7+cR5LrVzV8n3VPnwVC/bPux50vpyp2a9jVcD4XAzWyxA10C92pfN7730L88mO9hn2fs8wj9AQ9q/xXzwGhNez7TOKT5TVMCCGEEEIIIYQQQgghpPG8AwketgqETAAA
+   H4sIAAAAAAAAA+2Yyy4EURCGT7uElUhcEpFIjFgQG5eFlXeQ8QJ4Bc/AIEgIBnvXvet63oAF1t6Avb8y58RRc0TPMKZb/1/y59RUT5eaf/pMdzGGEEIIIYQQQgghhBBCCCGEEJJkeiNj2m3cCXXYWHJvjWkp0TivBgLHWuFlBDUp3Zuwl65Ge+DYf2cFKqjcss0L2/BtFuqOyq9foSnE+ejj/c2IV7GuWa1Dpbp2nUz2oSL0Yl/Lumfzjlnr2xzWFmhYeSnxAdZDqyPood6NN5CiXDtRZf4EOlW5Y5t3DOK8nNKQV6sL8RnWc6sLVW8HxwvRRx8H0Ba0C+0Fekor7rr0uYSuqqghvrpzRNf6byi/1qNwnHZC1yWpZCuB3/laAnuKS76K3nOBnJw+AjVDPVbC6E8bSxlL6h7xHSF/5F4xbirvEROm/LyUFabtGndfTdh1A+/frNGn8dpOSxXzf3gNVfObOFO/Nn4defb7bR/TfP+oFf1MTWpnMYaPbh6X+XnM5vx5PA56pi/FrLFgwrNYWnFzj8zPU6b82fx53PdY/HIeSdwWfa4hs/ykraVn+izw3TzeZ8oeO7+cR5LrVzV8n/VMnwVC87Oex50vpyp2e9jVcD4XAzWyxA10C92pfN77v4X45cd6D/s+Z5lH6Al6VvmvngNCe9j3mcQny3uYEEIIIYQQQgghhBBCSON5B9jueA2ETAAA
   </data>
  </layer>
  <layer name="Fringe" width="83" height="59">
@@ -72,12 +72,12 @@
    H4sIAAAAAAAAA+2YvU7DMBSFHSpWEAJmxJ/EUCQGmPhZoEgtIAYKiL0IVtQywV7egBfiEXiXrtyrOMKKHF9XcSFxzicdNbl2rp2jG9muUgAAAAAAAAAAAAAAAAAAAOBhSjWZkP7E7HXIWuok1ZrPX8PzOvTo9ya0d0m3gpddIce7xzyOVLW9PPboJ/nA7Y+JvTZfkt8+Kw6/pTGYc9UML18NLwf6emjEfHJIxOLlmPThaPfJMSpRl+MkHi/LtIfK0QQv70g9QVeO5wceYzB18HKOvp8vR78bIU+fxJ/vOqlFWtXi2IaOuXL0dA4b16RtUod0pqrvZVmWA+QogmtxV9VjfxnCy1nCXh6oavvI1MXLqtckY3r5/Z8TcXBPOtHXMZx7LpR7jb6cYY5s/WLqsI5L8H5lXqXr8QJpi7So0vfkmO+eKMvBz26S1owcseyJJPLv2ba0L6nUY17Tn0jPuRj36ReceyaWMWzE6OW+pX1S8Gzb6GPj0/O8zsTo5bTtoXI0xctWyf8vY/DyVKXnsx39ayqLDYU8IepyZBk3f1/1M2Smvdy9GSvy29drJvNK8sk2l/x9XXG9k+S1zatYfQqBb23DKwAAAAAAAAAAAAAAAPDnB/l1PR2ETAAA
   </data>
  </layer>
- <layer name="Collision" width="83" height="59">
+ <layer name="Collision" width="83" height="59" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SUa7CIBBAUd3/FrpY44c/jaVQBqfgITlJ0/h4zC3b8/HYAAAAAAAAAKDBe2WfYRWllv/U+bNq349uOXP7s/WrPfb7ZHfpaVl6nul7ZLtDh1Va7mdpvZelPSO+58wte2a4+vdH/3u2jjX34mi+kSu7yciOLfNH7jWbiLmjV3aTiJYjulxZ2U2i7+O33/fu0XqO7EatLVue9+9KjUd90zuqneFsvqN3LeconSe7U/S9PJqx5tm9rGtZ+xst+1pGnmMFPa1X6pDdWksAAAAAgDYv5s9ZFoRMAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="83" height="59">
+ <objectgroup name="Object" width="83" height="59" visible="0">
   <object name="ToLevel2" type="warp" x="1952" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-2"/>
