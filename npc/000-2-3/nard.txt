@@ -27,7 +27,7 @@ l_Checker:
     mesn;
     mesq l("Hello."); 
     next;
-    mesq l("Let me present myself, I'm the Captain Nard, the leader of this ship."); 
+    mesq l("Let me introduce myself, I'm Captain Nard, the leader of this ship."); 
     next;
     mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to tell me this good news!");
     next;
@@ -95,7 +95,7 @@ l_Ok:
     next;
     mesq l("We made a stop at a little island, before making it to the port of Artis.");
     next;
-    mesq l("It'll be a good time for you to get some exercise, as the ship is not an appropriate size for that.");
+    mesq l("It'll be a good time for you to do some exercise, the ship isn't big enough for that.");
     next;
 
     goto l_SpecialTask;

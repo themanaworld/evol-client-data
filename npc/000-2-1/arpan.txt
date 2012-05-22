@@ -150,7 +150,7 @@ l_OhWell:
 
 l_Story:
     mes "";
-    mesq lg("You were yaying sleeping for quite some days there, our shipkeeper, Julia, was here with you, she did her best to fix your injuries during this time.");
+    mesq lg("You were yaying sleeping for quite some time there, our shipkeeper, Julia, was here with you, she did her best to heal your injuries.");
     next;
     mesq lg("Yaya, you should go see her! She willmes be happy to see you.");
     next;
@@ -211,7 +211,7 @@ l_WhereOldClothes:
     mesn;
     mesq lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
     next;
-    mes lg("Oh, now that I remember, we also find some money on your pockets, here they are!");
+    mes lg("Oh, now that I remember, we've also found some money in your pockets, here it is!");
     seta ShipQuests, ShipQuests_ArpanMoney, 1;
     set zeny, zeny+25;
     next;
