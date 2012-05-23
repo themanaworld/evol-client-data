@@ -3,7 +3,7 @@
 Copyright (C) 2012  Evol Online -->
 <sprite>
 
-    <imageset name="tarlan" src="graphics/sprites/npcs/sprite/tarlan.png" width="64" height="64" offsetX="-8"/>
+    <imageset name="tarlan" src="graphics/sprites/npcs/sprite/tarlan.png" width="64" height="64" offsetX="-6"/>
 
     <action name="stand" imageset="tarlan">
         <animation direction="default">
@@ -65,7 +65,7 @@ Copyright (C) 2012  Evol Online -->
         <!-- Down -->
             <frame index="10" delay="110" offsetX="8" offsetY="2"/>
         <!-- Bird -->
-			<sequence start="11" end="12" delay="105" repeat="8" offsetY="5" offsetX="8"/>
+			<sequence start="11" end="12" delay="105" repeat="9" offsetY="5" offsetX="8"/>
         <!-- Sit -->
             <frame index="13" delay="90" offsetY="5" offsetX="8"/>
             <frame index="14" delay="5926" offsetY="5" offsetX="8"/>
