@@ -158,14 +158,14 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         type="other"
         weapon_type="12">
         <sprite>bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+        <sound event="strike">weapons/bows/strike1.ogg</sound>
     </item>
     <item id="33"
         type="other"
         weapon_type="12">
         <sprite>dagger.xml</sprite>
-        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
-        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+        <sound event="hit">weapons/daggers/dagger-hit1.ogg</sound>
+        <sound event="strike">weapons/daggers/dagger-strike1.ogg</sound>
     </item>
     <item id="34"
         type="other"
@@ -526,8 +526,8 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         attack-action="attack"
         weight="50">
         <sprite>equipment/weapons/dagger.xml</sprite>
-        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
-        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+        <sound event="hit">weapons/knives/knife-hit1.ogg</sound>
+        <sound event="strike">weapons/knives/knife-strike1.ogg</sound>
     </item>
 
 </items>
