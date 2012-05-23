@@ -108,7 +108,8 @@ Copyright (C) 2010-2011  Evol Online -->
 
 	<action name="sit" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="3" offsetY ="-21" />
+			<!-- Old OffsetY value was at "-17" before the add of the new sit frames.-->
+		  <frame index="0" offsetY ="-22" />
 		</animation>
 		<animation direction="left">
 		  <frame index="3" offsetX="7" offsetY ="-24"/>
