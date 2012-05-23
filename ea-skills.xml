@@ -2,33 +2,36 @@
 <!-- Author : Reid
 (C) Evol Online 2010-2012. -->
 <skills>
-    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-        <its:translateRule selector="//set/@name" translate="yes"/>
-        <its:translateRule selector="//set/skill/@name" translate="yes"/>
-        <its:translateRule selector="//*" translate="no"/>
-    </its:rules>
+	<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+		<its:translateRule selector="//set/@name" translate="yes"/>
+		<its:translateRule selector="//set/skill/@name" translate="yes"/>
+		<its:translateRule selector="//*" translate="no"/>
+	</its:rules>
 
-    <set name="Basic">
-        <skill id="1" name="Emote" icon="graphics/images/skills/basic/emote.png"/>
-        <skill id="2" name="Trade" icon="graphics/images/skills/basic/trade.png"/>
-        <skill id="3" name="Party" icon="graphics/images/skills/basic/party.png"/>
-        <skill id="500" name="Guild" icon="graphics/images/skills/basic/party.png"/>
-        <skill id="501" name="Craft"/>
-        <skill id="502" name="Dye"/>
-    </set>
-    <set name="Magic">
-        <skill id="19" name="Fire Ball" shortName="FB" particle="graphics/particles/arrow.particle.xml" />
-        <skill id="340" name="Magic" icon="graphics/images/skills/mage/magic.png"/>
-        <skill id="341" name="Life Magic" icon="graphics/images/skills/mage/life.png"/>
-        <skill id="342" name="War Magic" icon="graphics/images/skills/mage/war.png"/>
-        <skill id="343" name="Transmutation Magic" icon="graphics/images/skills/mage/transmutation.png"/>
-        <skill id="344" name="Nature Magic" icon="graphics/images/skills/mage/nature.png"/>
-        <skill id="345" name="Necromancy Magic" icon="graphics/images/skills/mage/necromancy.png"/>
-    </set>
-    <set name="Warrior">
-        <skill id="520" name="Warrior" icon="graphics/images/skills/warrior/warrior.png"/>
-    </set>
-    <set name="Archer">
-        <skill id="521" name="Archer" icon="graphics/images/skills/archer/archer.png"/>
-    </set>
+	<set name="Basic">
+		<skill id="1" name="Emote" icon="graphics/skills/emote.png"/>
+		<skill id="2" name="Trade"/>
+		<skill id="3" name="Party"/>
+		<skill id="500" name="Guild"/>
+		<skill id="501" name="Craft"/>
+		<skill id="502" name="Dye"/>
+	</set>
+
+	<set name="Magic">
+		<skill id="19" name="Fire Ball" shortName="FB" particle="graphics/particles/fire-explosion.xml" />
+		<skill id="340" name="Magic"/>
+		<skill id="341" name="Life Magic"/>
+		<skill id="342" name="War Magic"/>
+		<skill id="343" name="Transmutation Magic"/>
+		<skill id="344" name="Nature Magic"/>
+		<skill id="345" name="Necromancy Magic"/>
+	</set>
+
+	<set name="Warrior">
+		<skill id="520" name="Warrior"/>
+	</set>
+
+	<set name="Archer">
+		<skill id="521" name="Archer"/>
+	</set>
 </skills>
