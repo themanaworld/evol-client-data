@@ -39,7 +39,7 @@ exemple :
     </monster>
     <monster id="1" name="Piousse" targetCursor="small" walkType="walk">
         <sprite>monsters/piou.xml</sprite>
-        <sprite>accessories/acc-piousse-egg.xml</sprite>
+        <sprite>accessories/piousse-egg.xml</sprite>
         <sound event="die">monsters/piou/piou-die-1.ogg</sound>
         <sound event="hit">monsters/piou/piou-hit-1.ogg</sound>
         <sound event="hurt">monsters/piou/piou-hurt-1.ogg</sound>
@@ -58,7 +58,7 @@ exemple :
     </monster>
     <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
         <sprite>monsters/ratto.xml</sprite>
-        <sprite>accessories/acc-ratto-tail.xml</sprite>
+        <sprite>accessories/ratto-tail.xml</sprite>
         <sound event="hit">monsters/ratto/ratto-dying1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit2.ogg</sound>
@@ -77,16 +77,16 @@ exemple :
     </monster>
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim">
         <sprite>monsters/blub-little.xml</sprite>
-        <sprite>accessories/acc-littleblub-tentacle.xml</sprite>
+        <sprite>accessories/littleblub-tentacle.xml</sprite>
         <sound event="hit">monsters/blub/blub-hit1.ogg</sound>
     </monster>
 <!--<monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
-        <sprite>accessories/acc-blub-tentacle.xml</sprite>
+        <sprite>accessories/blub-tentacle.xml</sprite>
     </monster>
     <monster id="7" name="Top Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
-        <sprite>accessories/acc-blub-tentacle.xml</sprite>
-        <sprite>accessories/acc-blub-tophat.xml</sprite>
+        <sprite>accessories/blub-tentacle.xml</sprite>
+        <sprite>accessories/blub-tophat.xml</sprite>
     </monster> -->
 </monsters>
