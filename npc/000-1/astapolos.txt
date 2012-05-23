@@ -14,7 +14,7 @@
         l("How are things going?"), -,
         l("How do you know my name?"), l_Name,
         l("Who are you?"), l_Who,
-        l("Where are these Aquada?"), l_Aquada;
+        l("What's the deal with these Aquada?"), l_Aquada;
 
     mes "";
     mesn;
@@ -24,25 +24,25 @@
     next;
     mesq l("Ground,");
     next;
-    mesq l("I hope that this is answering your question...") + " " + l("Eheh!");
+    mesq l("I hope that answers your question...") + " " + l("Eheh!");
 
     close;
 
 l_Name:
     mes "";
     mesn;
-    mesq l("Some moment ago, I heard your conversation with Darlin.");
+    mesq l("A few moments ago, I heard your conversation with Darlin.");
     next;
-    mesq l("Oh, not everything don't worry, but your name came twice on this conversation.");
+    mesq l("Oh, not everything, don't worry, but your name came up twice in the conversation.");
 
     close;
 
 l_Who:
     mes "";
     mesn;
-    mesq l("I'm called Astapolos, me and muller joined Nard's crew some years ago, when it was just a little merchant ship.");
+    mesq l("My name is Astapolos, Muller and I joined Nard's crew a few years ago when it was just a little merchant ship.");
     next;
-    mesq l("At this date, we were selling crab's food on our old mushroom island.");
+    mesq l("At this time, we were selling crab's food on our old mushroom island.");
     next;
     mesq l("And now I'm a sailor, as you can see!");
 
@@ -51,9 +51,9 @@ l_Who:
 l_Aquada:
     mes "";
     mesn;
-    mesq l("This is a sea fruit, but most sea monsters may got some of them as well.");
+    mesq l("This is a sea fruit, but some sea monsters may have them as well.");
     next;
-    mesq l("You should try to kill some Tortugas, or some Croc if you got the strength for.");
+    mesq l("You should try to kill some Tortugas, or some Croc if you're strong enough.");
 
     close;
 
