@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <emotes>
-
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//emote/@name" translate="yes"/>
         <its:translateRule selector="//emote/sprite/@name" translate="yes"/>
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-    <!-- The sprite tags are purely for backwards compatibility. -->
+    <!-- Important note that the sprite tags are purely for
+         backwards compatibility -->
 
     <emote id="0"
            name="Disgust"
            effectid="10000"
-           image="graphics/emotes/disgust.png"
+           image="graphics/particles/emotes/disgust.png"
            width="30" height="32">
         <sprite name="Disgust" variant="0">emote.xml</sprite>
     </emote>
@@ -20,7 +20,7 @@
     <emote id="1"
            name="Surprise"
            effectid="10001"
-           image="graphics/emotes/surprise.png"
+           image="graphics/particles/emotes/surprise.png"
            width="30" height="32">
         <sprite name="Surprise" variant="1">emote.xml</sprite>
     </emote>
@@ -28,7 +28,7 @@
     <emote id="2"
            name="Happy"
            effectid="10002"
-           image="graphics/emotes/happy.png"
+           image="graphics/particles/emotes/happy.png"
            width="30" height="32">
         <sprite name="Happy" variant="2">emote.xml</sprite>
     </emote>
@@ -36,7 +36,7 @@
     <emote id="3"
            name="Sad"
            effectid="10003"
-           image="graphics/emotes/sad.png"
+           image="graphics/particles/emotes/sad.png"
            width="30" height="32">
         <sprite name="Sad" variant="3">emote.xml</sprite>
     </emote>
@@ -44,7 +44,7 @@
     <emote id="4"
            name="Evil"
            effectid="10004"
-           image="graphics/emotes/evil.png"
+           image="graphics/particles/emotes/evil.png"
            width="30" height="32">
         <sprite name="Evil" variant="4">emote.xml</sprite>
     </emote>
@@ -52,7 +52,7 @@
     <emote id="5"
            name="Wink"
            effectid="10005"
-           image="graphics/emotes/wink.png"
+           image="graphics/particles/emotes/wink.png"
            width="30" height="32">
         <sprite name="Wink" variant="5">emote.xml</sprite>
     </emote>
@@ -60,7 +60,7 @@
     <emote id="6"
            name="Angel"
            effectid="10006"
-           image="graphics/emotes/angel.png"
+           image="graphics/particles/emotes/angel.png"
            width="30" height="32">
         <sprite name="Angel" variant="6">emote.xml</sprite>
     </emote>
@@ -68,7 +68,7 @@
     <emote id="7"
            name="Blush"
            effectid="10007"
-           image="graphics/emotes/blush.png"
+           image="graphics/particles/emotes/blush.png"
            width="30" height="32">
         <sprite name="Blush" variant="7">emote.xml</sprite>
     </emote>
@@ -76,7 +76,7 @@
     <emote id="8"
            name="Tongue"
            effectid="10008"
-           image="graphics/emotes/tongue.png"
+           image="graphics/particles/emotes/tongue.png"
            width="30" height="32">
         <sprite name="Tongue" variant="8">emote.xml</sprite>
     </emote>
@@ -84,7 +84,7 @@
     <emote id="9"
            name="Grin"
            effectid="10009"
-           image="graphics/emotes/grin.png"
+           image="graphics/particles/emotes/grin.png"
            width="30" height="32">
         <sprite name="Grin" variant="9">emote.xml</sprite>
     </emote>
@@ -92,7 +92,7 @@
     <emote id="10"
            name="Upset"
            effectid="10010"
-           image="graphics/emotes/upset.png"
+           image="graphics/particles/emotes/upset.png"
            width="30" height="32">
         <sprite name="Upset" variant="10">emote.xml</sprite>
     </emote>
@@ -100,7 +100,7 @@
     <emote id="11"
            name="Perturbed"
            effectid="10011"
-           image="graphics/emotes/perturbed.png"
+           image="graphics/particles/emotes/perturbed.png"
            width="30" height="32">
         <sprite name="Perturbed" variant="11">emote.xml</sprite>
     </emote>
@@ -108,7 +108,7 @@
     <emote id="12"
            name="Speech"
            effectid="10012"
-           image="graphics/emotes/speech.png"
+           image="graphics/particles/emotes/speech.png"
            width="30" height="32">
         <sprite name="Speech" variant="14">emote.xml</sprite>
     </emote>
@@ -116,7 +116,7 @@
     <emote id="13"
            name="Blah"
            effectid="10013"
-           image="graphics/emotes/blah.png"
+           image="graphics/particles/emotes/blah.png"
            width="30" height="32">
         <sprite name="Blah" variant="13">emote.xml</sprite>
     </emote>

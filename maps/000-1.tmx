@@ -10,19 +10,22 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" name="Water" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Water.png" width="480" height="352"/>
+  <image source="../graphics/tilesets/Water.png" width="480" height="352"/>
  </tileset>
  <tileset firstgid="166" name="Ship_base" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ship_base.png" width="704" height="320"/>
+  <image source="../graphics/tilesets/Ship_base.png" width="704" height="320"/>
  </tileset>
  <tileset firstgid="386" name="Ship2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ship2.png" width="512" height="512"/>
+  <image source="../graphics/tilesets/Ship2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="642" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="646" name="Ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ground.png" width="512" height="512"/>
+  <image source="../graphics/tilesets/Ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="902" name="Tree_x4" tilewidth="96" tileheight="128">
+  <image source="../graphics/tilesets/Tree_x4.png" width="480" height="256"/>
  </tileset>
  <layer name="Ground" width="120" height="140">
   <data encoding="base64" compression="gzip">
@@ -41,7 +44,7 @@
  </layer>
  <layer name="Over" width="120" height="140">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgbKjKnngAYBAA==
+   H4sIAAAAAAAAA+3OQQ0AAAgEoNvMb2dbqA9IQAIAAAAAAAAAAAAAAAAAAAAAAAAA8EPX9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANg2pJBGHIAGAQA=
   </data>
  </layer>
  <layer name="Collision" width="120" height="140">

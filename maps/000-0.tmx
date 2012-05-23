@@ -15,7 +15,7 @@
   <property name="overlay1scrollY" value="0.35"/>
  </properties>
  <tileset firstgid="1" name="Water" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Water.png" width="480" height="352"/>
+  <image source="../graphics/tilesets/Water.png" width="480" height="352"/>
   <tile id="120">
    <properties>
     <property name="animation-delay0" value="18"/>
@@ -340,16 +340,16 @@
   </tile>
  </tileset>
  <tileset firstgid="166" name="Ship_base" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ship_base.png" width="704" height="320"/>
+  <image source="../graphics/tilesets/Ship_base.png" width="704" height="320"/>
  </tileset>
  <tileset firstgid="386" name="Ship2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ship2.png" width="512" height="512"/>
+  <image source="../graphics/tilesets/Ship2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="642" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="646" name="Ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Ground.png" width="512" height="512"/>
+  <image source="../graphics/tilesets/Ground.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="47" height="47">
   <data encoding="base64" compression="gzip">

@@ -7,13 +7,13 @@
   <property name="music" value="bartk-indoor-artis.ogg"/>
  </properties>
  <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
+  <image source="../graphics/tilesets/Indoor/Ship-indoor.png" width="256" height="512"/>
  </tileset>
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
+  <image source="../graphics/tilesets/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" name="Candle" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Indoor/Candle.png" width="96" height="128"/>
+  <image source="../graphics/tilesets/Indoor/Candle.png" width="96" height="128"/>
   <tile id="0">
    <properties>
     <property name="animation-delay0" value="13"/>
@@ -44,13 +44,13 @@
   </tile>
  </tileset>
  <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Indoor/Box.png" width="128" height="160"/>
+  <image source="../graphics/tilesets/Indoor/Box.png" width="128" height="160"/>
  </tileset>
  <tileset firstgid="411" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="415" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
-  <image source="../graphics/tiles/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
+  <image source="../graphics/tilesets/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
   <data encoding="base64" compression="gzip">
