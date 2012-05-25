@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Original Author : Reid
+Copyright (C) 2012  Evol Online -->
+<sprite>
+	<imageset name="coconut" src="graphics/sprites/monsters/coconut.png" width="18" height="18" offsetY="-61"/>
+
+		<action name="stand" imageset="coconut">
+
+			<animation direction="default">
+				<frame index="1" delay="4411"/>
+				<sequence value="0,1,2,1" delay="120" repeat="4"/>
+				<frame index="1" delay="1471"/>
+				<sequence value="0,1,2,1" delay="120" repeat="7"/>
+				<frame index="1" delay="90" offsetY="1"/>
+				<frame index="1" delay="80" offsetY="2"/>
+				<frame index="1" delay="70" offsetY="3"/>
+				<frame index="1" delay="50" offsetY="4"/>
+				<frame index="3" delay="100" offsetY="5"/>
+				<frame index="4" delay="90" offsetY="5"/>
+				<frame index="5" delay="80" offsetY="6"/>
+				<frame index="6" delay="7756"/>
+				<frame index="1" delay="3671"/>
+			</animation>
+
+	</action>
+
+</sprite>
