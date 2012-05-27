@@ -12,7 +12,9 @@
     set @q, rand(2);
     if (@q == 0) goto l_QuestStory;
 
-    mesq l("You see these pious around? It seems that we are close to an island, we should take a look at the upper level.");
+    mesq l("You see these Pious around?");
+    next;
+    mesq l("It seems that we are close to an island, we should take a look at the upper level.");
 
     close;
 
