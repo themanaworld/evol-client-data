@@ -44,38 +44,11 @@ Copyright (C) 2010-2012  Evol Online
 			</animation>
     </action>
 
-
-A TESTER
-
-
-	<action name="attack" imageset="octopus">
-
-		<animation direction="down">
-				<frame index="0" delay="140" offsetY="1"/>
-				<frame index="0" delay="280" offsetY="2"/>
-				<frame index="0" delay="90" offsetY="1"/>
-				<frame index="0" delay="90" offsetY="-1"/>
-				<frame index="1" delay="80" offsetY="-3"/>
-				<frame index="2" delay="80" offsetY="-5"/>
-				<frame index="3" delay="90" offsetY="-8"/>
-				<frame index="3" delay="90" offsetY="-11"/>
-				<frame index="3" delay="100" offsetY="-14"/>
-				<frame index="4" delay="100" offsetY="-17"/>
-				<frame index="5" delay="110" offsetY="-18"/>
-				<frame index="0" delay="120" offsetY="-16"/>
-				<frame index="1" delay="110" offsetY="-13"/>
-				<frame index="2" delay="100" offsetY="-11"/>
-				<frame index="3" delay="80" offsetY="-9"/>
-				<frame index="3" delay="70" offsetY="-7"/>
-				<frame index="3" delay="80" offsetY="-5"/>
-				<frame index="4" delay="90" offsetY="-3"/>
-				<frame index="5" delay="100" offsetY="-1"/>
-				<end />
-		</animation>
-
-	</action>
-
-
+    <action name="hurt" imageset="base">
+        <animation>
+				<frame index="5" delay="0" offsetY="59"/>
+        </animation>
+    </action>
 
     <action name="dead" imageset="base">
         <animation>
