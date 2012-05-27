@@ -1,0 +1,22 @@
+// Evol scripts.
+// Authors:
+//    Vasily_Makarov
+
+000-2-1.gat,43,38,0,1	script	Q'Onan	302,{
+
+    mesn;
+
+    set @q, rand(2);
+    if (@q == 0) goto l_Zzz;
+    goto l_Snoring;
+
+l_Zzz:
+    mesq l("Zzzzzzzzzz");
+    close;
+
+l_Snoring:
+    mesq l("Rrrr pchhhh...");
+
+    close;
+
+}
