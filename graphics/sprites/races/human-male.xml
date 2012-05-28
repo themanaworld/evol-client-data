@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <!-- Original Author possible tmw, tmw br, ufb projects
-Copyright (C) 2010-2012  Evol Online -->
+Copyright (C) 2010-2012 Evol Online -->
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/players/human_male_base.png" width="64" height="64"/>
+	<imageset name="race" src="graphics/sprites/races/human-male.png" width="64" height="64"/>
 
-	<action name="stand" imageset="base">
+	<action name="stand" imageset="race">
 		<animation direction="down">
-		  <frame index="0"/>
+			<frame index="0"/>
 		</animation>
 		<animation direction="left">
-		  <frame index="18"/>
+			<frame index="18"/>
 		</animation>
 		<animation direction="up">
-		  <frame index="36"/>
+			<frame index="36"/>
 		</animation>
 		<animation direction="right">
-		  <frame index="54"/>
+			<frame index="54"/>
 		</animation>
 	</action>
 
-	<action name="walk" imageset="base">
+	<action name="walk" imageset="race">
 		<animation direction="down">
 			<sequence start="1" end="6" delay="75"/>
 		</animation>
@@ -35,37 +35,37 @@ Copyright (C) 2010-2012  Evol Online -->
 		</animation>
 	</action>
 
-	<action name="sit" imageset="base">
+	<action name="sit" imageset="race">
 		<animation direction="down">
-		 <frame index="7"/>
+			<frame index="7"/>
 		</animation>
 		<animation direction="left">
-		 <frame index="25"/>
+			<frame index="25"/>
 		</animation>
 		<animation direction="up">
-		 <frame index="43"/>
+			<frame index="43"/>
 		</animation>
 		<animation direction="right">
-		 <frame index="61"/>
+			<frame index="61"/>
 		</animation>
 	</action>
 
-	<action name="dead" imageset="base">
+	<action name="dead" imageset="race">
 		<animation direction="down">
-		  <frame index="8"/>
+			<frame index="8"/>
 		</animation>
 		<animation direction="left">
-		  <frame index="26"/>
+			<frame index="26"/>
 		</animation>
 		<animation direction="up">
-		  <frame index="44"/>
+			<frame index="44"/>
 		</animation>
 		<animation direction="right">
-		  <frame index="62"/>
+			<frame index="62"/>
 		</animation>
 	</action>
 
-	<action name="attack" imageset="base">
+	<action name="attack" imageset="race">
 		<animation direction="down">
 			<sequence start="9" end="12" delay="75"/>
 			<end />
@@ -84,7 +84,7 @@ Copyright (C) 2010-2012  Evol Online -->
 		</animation>
 	</action>
 
-	<action name="attack_bow" imageset="base">
+	<action name="attack_bow" imageset="race">
 		<animation direction="down">
 			<sequence start="13" end="17" delay="75"/>
 			<end />
