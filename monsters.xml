@@ -30,55 +30,55 @@ exemple :
 
     <monster id="0" name="Piou" targetCursor="small" walkType="walk">
         <sprite>monsters/piou.xml</sprite>
-        <sound event="die">monsters/piou/piou-die-1.ogg</sound>
-        <sound event="hit">monsters/piou/piou-hit-1.ogg</sound>
-        <sound event="hurt">monsters/piou/piou-hurt-1.ogg</sound>
-        <sound event="hurt">monsters/piou/piou-hurt-2.ogg</sound>
-        <sound event="miss">monsters/piou/piou-miss-1.ogg</sound>
-        <sound event="spawn">monsters/piou/piou-spawn-1.ogg</sound>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
     <monster id="1" name="Piousse" targetCursor="small" walkType="walk">
         <sprite>monsters/piou.xml</sprite>
         <sprite>accessories/piousse-egg.xml</sprite>
-        <sound event="die">monsters/piou/piou-die-1.ogg</sound>
-        <sound event="hit">monsters/piou/piou-hit-1.ogg</sound>
-        <sound event="hurt">monsters/piou/piou-hurt-1.ogg</sound>
-        <sound event="hurt">monsters/piou/piou-hurt-2.ogg</sound>
-        <sound event="miss">monsters/piou/piou-miss-1.ogg</sound>
-        <sound event="spawn">monsters/piou/piou-spawn-1.ogg</sound>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
     <monster id="2" name="Tortugas" targetCursor="small" walkType="walkswim">
-        <sound event="die">monsters/tortugas/tortugas-die1.ogg</sound> 
-        <sound event="hit">monsters/tortugas/tortugas-hit1.ogg</sound>
-        <sound event="hit">monsters/tortugas/tortugas-hit2.ogg</sound>
-        <sound event="hurt">monsters/tortugas/tortugas-hurt1.ogg</sound>
-        <sound event="miss">monsters/tortugas/tortugas-miss1.ogg</sound>
-        <sound event="spawn">monsters/tortugas/tortugas-spawn1.ogg</sound>
+        <sound event="die">monsters/tortugas/die1.ogg</sound> 
+        <sound event="hit">monsters/tortugas/hit1.ogg</sound>
+        <sound event="hit">monsters/tortugas/hit2.ogg</sound>
+        <sound event="hurt">monsters/tortugas/hurt1.ogg</sound>
+        <sound event="miss">monsters/tortugas/miss1.ogg</sound>
+        <sound event="spawn">monsters/tortugas/spawn1.ogg</sound>
         <sprite>monsters/turtle.xml</sprite>
     </monster>
     <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/ratto-tail.xml</sprite>
-        <sound event="hit">monsters/ratto/ratto-die1.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-hit1.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-hit2.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-hurt1.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-spawn1.ogg</sound>
+        <sound event="hit">monsters/ratto/die1.ogg</sound>
+        <sound event="hit">monsters/ratto/hit1.ogg</sound>
+        <sound event="hit">monsters/ratto/hit2.ogg</sound>
+        <sound event="hit">monsters/ratto/hurt1.ogg</sound>
+        <sound event="hit">monsters/ratto/spawn1.ogg</sound>
     </monster>
     <monster id="4" name="Croc" targetCursor="small" walkType="walk">
-        <sound event="hit">monsters/croc/croc-hit1.ogg</sound>
-        <sound event="hit">monsters/croc/croc-hit2.ogg</sound>
-        <sound event="hurt">monsters/croc/croc-hurt1.ogg</sound>
-        <sound event="hurt">monsters/croc/croc-hurt2.ogg</sound>
-        <sound event="hurt">monsters/croc/croc-hurt3.ogg</sound>
-        <sound event="miss">monsters/croc/croc-miss1.ogg</sound>
-        <sound event="spawn">monsters/croc/croc-spawn1.ogg</sound>
+        <sound event="hit">monsters/croc/hit1.ogg</sound>
+        <sound event="hit">monsters/croc/hit2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt1.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt3.ogg</sound>
+        <sound event="miss">monsters/croc/miss1.ogg</sound>
+        <sound event="spawn">monsters/croc/spawn1.ogg</sound>
         <sprite>monsters/croc.xml</sprite>
     </monster>
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim">
         <sprite>monsters/coconut.xml</sprite>
         <sprite>accessories/littleblub-tentacle.xml</sprite>
-        <sound event="hit">monsters/blub/blub-hit1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
     </monster>
 <!--<monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
@@ -91,7 +91,7 @@ exemple :
     </monster> -->
     <monster id="8" name="Coco Tree" targetCursor="large">
         <sprite>monsters/coconut.xml</sprite>
-        <sound event="hurt">monsters/coconut/coconut-hurt1.ogg</sound>
-        <sound event="die">monsters/coconut/coconut-die1.ogg</sound> 
+        <sound event="hurt">monsters/coconut/hurt1.ogg</sound>
+        <sound event="die">monsters/coconut/die1.ogg</sound> 
     </monster>
 </monsters>
