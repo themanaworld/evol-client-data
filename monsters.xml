@@ -48,7 +48,7 @@ exemple :
         <sound event="spawn">monsters/piou/piou-spawn-1.ogg</sound>
     </monster>
     <monster id="2" name="Tortugas" targetCursor="small" walkType="walkswim">
-        <sound event="die">monsters/tortugas/tortugas-dying1.ogg</sound> 
+        <sound event="die">monsters/tortugas/tortugas-die1.ogg</sound> 
         <sound event="hit">monsters/tortugas/tortugas-hit1.ogg</sound>
         <sound event="hit">monsters/tortugas/tortugas-hit2.ogg</sound>
         <sound event="hurt">monsters/tortugas/tortugas-hurt1.ogg</sound>
@@ -59,7 +59,7 @@ exemple :
     <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/ratto-tail.xml</sprite>
-        <sound event="hit">monsters/ratto/ratto-dying1.ogg</sound>
+        <sound event="hit">monsters/ratto/ratto-die1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit2.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hurt1.ogg</sound>
@@ -92,6 +92,6 @@ exemple :
     <monster id="8" name="Coco Tree" targetCursor="large">
         <sprite>monsters/coconut.xml</sprite>
         <sound event="hurt">monsters/coconut/coconut-hurt1.ogg</sound>
-        <sound event="die">monsters/coconut/coconut-dying1.ogg</sound> 
+        <sound event="die">monsters/coconut/coconut-die1.ogg</sound> 
     </monster>
 </monsters>
