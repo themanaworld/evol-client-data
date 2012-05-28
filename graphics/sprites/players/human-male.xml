@@ -3,9 +3,9 @@
 Copyright (C) 2010-2012 Evol Online -->
 <sprite name="player" action="stand">
 
-	<imageset name="race" src="graphics/sprites/players/human-male.png" width="64" height="64"/>
+	<imageset name="base" src="graphics/sprites/players/human-male.png" width="64" height="64"/>
 
-	<action name="stand" imageset="race">
+	<action name="stand" imageset="base">
 		<animation direction="down">
 			<frame index="0"/>
 		</animation>
@@ -20,7 +20,7 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="walk" imageset="race">
+	<action name="walk" imageset="base">
 		<animation direction="down">
 			<sequence start="1" end="6" delay="75"/>
 		</animation>
@@ -35,7 +35,7 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="sit" imageset="race">
+	<action name="sit" imageset="base">
 		<animation direction="down">
 			<frame index="7"/>
 		</animation>
@@ -50,7 +50,7 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="dead" imageset="race">
+	<action name="dead" imageset="base">
 		<animation direction="down">
 			<frame index="8"/>
 		</animation>
@@ -65,7 +65,7 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="attack" imageset="race">
+	<action name="attack" imageset="base">
 		<animation direction="down">
 			<sequence start="9" end="12" delay="75"/>
 			<end />
@@ -84,7 +84,7 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="attack_bow" imageset="race">
+	<action name="attack_bow" imageset="base">
 		<animation direction="down">
 			<sequence start="13" end="17" delay="75"/>
 			<end />
