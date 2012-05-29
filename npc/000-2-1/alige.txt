@@ -55,32 +55,32 @@ OnTimer190:
 OnFirstEncounter:
     seta2 ShipQuests, ShipQuests_Alige, 1;
 
-    mesn "Hidden person";
+    mesn "Hidden Person";
     mesq l("Hey, psst! You're not a sailor, right?");
     next;
 
     menu
         lg("I am, who are you?"), -,
-        lg("I'm not."), l_NeedHelp;
+        lg("Indeed, I am not."), l_NeedHelp;
 
     mes "";
     mesn "Narrator";
-    mes col(l("Hidden person doesn't answer."), 9);
+    mes col(l("The hidden person doesn't answer."), 9);
 
     close;
 
 l_NeedHelp:
     mes "";
-    mesn "Hidden person";
+    mesn "Hidden Person";
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
     next;
 
     menu
-        l("Why not... but, who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
+        l("Why not, but who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), -;
 
     mes "";
-    mesn "Hidden person";
+    mesn "Hidden Person";
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
 
     close;
@@ -88,24 +88,24 @@ l_NeedHelp:
 l_CanHelp:
     mes "";
     mesn;
-    mesq l("I'm called Alige, and I've been hiding here for few weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
+    mesq l("I'm called Alige and I've been hiding here for several weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;
-    mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries. No more!");
+    mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries.");
     next;
 
     menu
-      l("Okay, but what can you offer me?"), l_AboutReward,
-      l("Why don't you go outside?"), -;
+      l("Sure, but what can you give me in exchange?"), l_AboutReward,
+      l("Why don't you come out?"), -;
 
 
   l_ExplainHiding:
     mes "";
     mesn;
-    mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have lots of fun.");
+    mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have a lot of fun.");
     next;
-    mesq l("Err, seriously, I just wanted to get to Artis, and I haven't got the money to pay for the ferry!");
+    mesq l("Err, seriously, I just wanted to get to Artis, and I don't have the money to pay for the ferry!");
     next;
-    mesq l("Please, don't tell people that you've seen me, I don't want to be thrown to sea as food for sharks or decapitated, not again!");
+    mesq l("Please don't tell people that you've seen me. I don't want to be thrown in the sea as food for sharks or decapitated. At least not again!");
     next;
 
     if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_SoAskForFood;
@@ -114,19 +114,19 @@ l_CanHelp:
 l_AboutReward:
     mes "";
     mesn;
-    mesq l("I'll share my berries with you, if you help me.");
+    mesq l("I'll share my berries with you if you help me.");
     next;
 
 l_Accept:
     menu
-      l("Ok, I'll help you."), l_Accepted,
+      l("Understood, I will help you."), l_Accepted,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
 l_Artis:
     mes "";
     mesn;
-    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it, it's one of the most famous cities throughout the world... But hey oh, returning to the topic! I'm hungry!");
+    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it since it is one of the most famous cities throughout the world. But hey, returning to the topic, I'm hungry!");
     next;
 
     if (@q == 2) goto l_SoAskForFood;
@@ -137,7 +137,7 @@ l_Accepted:
 
     mes "";
     mesn;
-    mesq lg("Perfect, which food did you get for me today?");
+    mesq lg("Great, what food do you have for me today?");
     next;
 
 l_GiveFood:
@@ -167,7 +167,7 @@ l_GiveReward:
 
     mes "";
     mesn;
-    mesq l("Thank you so much! Here, have some berries...");
+    mesq l("Thank you so much! Here, have some of my berries.");
 
     getitem "Piberries", rand(1,3);
     close;
@@ -208,23 +208,23 @@ l_IntroMenu:
     menu
       l("Yes."), l_GiveFood,
       l("Where can I find some food?"), l_Food,
-      l("Why are you hiding?") + " " + l("Why don't you go outside?"), l_ExplainHiding,
+      l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
       l("What is Artis?"), l_Artis,
       l("I think I should report you to the crew members."), l_DamnYou;
 
 l_Food:
     mes "";
     mesn;
-    mesq l("There is some flying yellow plush around you, they're called pious. Getting a roasted leg of one of them would be perfect.");
+    mesq l("There are some flying yellow plushes around you. They're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
     mesq l("I'd like to catch one of them, but they are flying away when I try.");
     next;
-    mesq l("As you can walk around, it'll be easy for you. Impale one of them for me!!");
+    mesq l("Walk a bit, it'll be easy for you to catch one. Impale one of them for me please.");
     next;
     mesn "Narrator";
     mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the A key to select the monster followed by 'Ctrl' to attack it."), 9);
     next;
-    mes col(l("Once the monster is dead, click with your mouse on the item to add the item he drops to your inventory or you can use the Z key to claim the drop as well."), 9);
+    mes col(l("Once the monster is dead, click with your mouse on the dropped item to add it to your inventory or you can use the Z key to claim the drop as well."), 9);
 
     close;
 
