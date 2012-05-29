@@ -97,8 +97,8 @@ l_Give:
         l("No."), l_Close;
 
     seta2 ShipQuests, ShipQuests_Arpan, 2;
-    getitem "Wornshirt", 1;
-    getitem "Wornshort", 1;
+    getitem "WornShirt", 1;
+    getitem "WornShorts", 1;
 
 l_Close:
     close;
