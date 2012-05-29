@@ -72,12 +72,12 @@
    H4sIAAAAAAAAA+2YvU7DMBSFHSpWEAJmxJ/EUCQGmPhZoEgtIAYKiL0IVtQywV7egBfiEXiXrtyrOMKKHF9XcSFxzicdNbl2rp2jG9muUgAAAAAAAAAAAAAAAAAAAOBhSjWZkP7E7HXIWuok1ZrPX8PzOvTo9ya0d0m3gpddIce7xzyOVLW9PPboJ/nA7Y+JvTZfkt8+Kw6/pTGYc9UML18NLwf6emjEfHJIxOLlmPThaPfJMSpRl+MkHi/LtIfK0QQv70g9QVeO5wceYzB18HKOvp8vR78bIU+fxJ/vOqlFWtXi2IaOuXL0dA4b16RtUod0pqrvZVmWA+QogmtxV9VjfxnCy1nCXh6oavvI1MXLqtckY3r5/Z8TcXBPOtHXMZx7LpR7jb6cYY5s/WLqsI5L8H5lXqXr8QJpi7So0vfkmO+eKMvBz26S1owcseyJJPLv2ba0L6nUY17Tn0jPuRj36ReceyaWMWzE6OW+pX1S8Gzb6GPj0/O8zsTo5bTtoXI0xctWyf8vY/DyVKXnsx39ayqLDYU8IepyZBk3f1/1M2Smvdy9GSvy29drJvNK8sk2l/x9XXG9k+S1zatYfQqBb23DKwAAAAAAAAAAAAAAAPDnB/l1PR2ETAAA
   </data>
  </layer>
- <layer name="Collision" width="83" height="59" visible="0">
+ <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SUa7CIBBAUd3/FrpY44c/jaVQBqfgITlJ0/h4zC3b8/HYAAAAAAAAAKDBe2WfYRWllv/U+bNq349uOXP7s/WrPfb7ZHfpaVl6nul7ZLtDh1Va7mdpvZelPSO+58wte2a4+vdH/3u2jjX34mi+kSu7yciOLfNH7jWbiLmjV3aTiJYjulxZ2U2i7+O33/fu0XqO7EatLVue9+9KjUd90zuqneFsvqN3LeconSe7U/S9PJqx5tm9rGtZ+xst+1pGnmMFPa1X6pDdWksAAAAAgDYv5s9ZFoRMAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="83" height="59" visible="0">
+ <objectgroup name="Object" width="83" height="59">
   <object name="ToLevel2" type="warp" x="1952" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-2"/>
@@ -90,6 +90,14 @@
     <property name="dest_map" value="000-2-0"/>
     <property name="dest_x" value="960"/>
     <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="Piou" type="spawn" x="672" y="736" width="1344" height="640">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
    </properties>
   </object>
  </objectgroup>
