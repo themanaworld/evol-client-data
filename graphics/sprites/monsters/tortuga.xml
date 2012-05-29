@@ -2,9 +2,9 @@
 <!-- Original Author : Reid
 Copyright (C) 2011  Evol Online -->
 <sprite>
-	<imageset name="turtle" src="graphics/sprites/monsters/turtle.png" width="32" height="32"/>
+	<imageset name="base" src="graphics/sprites/monsters/tortuga.png" width="32" height="32"/>
 
-	<action name="spawn" imageset="turtle">
+	<action name="spawn" imageset="base">
 
 		<animation>
 			<frame index="32" delay="70" offsetY="-86"/>
@@ -34,7 +34,7 @@ Copyright (C) 2011  Evol Online -->
 		</animation>
 
 	</action>
-	<action name="stand" imageset="turtle">
+	<action name="stand" imageset="base">
 
 		<animation direction="down">
 		<!-- static -->
@@ -109,7 +109,7 @@ Copyright (C) 2011  Evol Online -->
 		</animation>
 
 	</action>
-	<action name="walk" imageset="turtle">
+	<action name="walk" imageset="base">
 
 		<animation direction="down">
 		<!-- normal moove -->
@@ -176,7 +176,7 @@ Copyright (C) 2011  Evol Online -->
 		</animation>
 
 	</action>
-	<action name="attack" imageset="turtle">
+	<action name="attack" imageset="base">
 
 		<animation direction="down">
 		<!-- normal attack -->
@@ -275,8 +275,8 @@ Copyright (C) 2011  Evol Online -->
 		</animation>
 
 	</action>
-	<action name="dead" imageset="turtle">
-	
+	<action name="dead" imageset="base">
+
 		<animation direction="down">
 			<frame index="3"/>
 		</animation>
