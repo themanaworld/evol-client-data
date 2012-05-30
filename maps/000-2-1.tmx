@@ -12,37 +12,7 @@
  <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Candle" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/Indoor/Candle.png" width="96" height="128"/>
-  <tile id="0">
-   <properties>
-    <property name="animation-delay0" value="13"/>
-    <property name="animation-delay1" value="12"/>
-    <property name="animation-delay2" value="13"/>
-    <property name="animation-delay3" value="12"/>
-    <property name="animation-delay4" value="11"/>
-    <property name="animation-frame0" value="0"/>
-    <property name="animation-frame1" value="1"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="1"/>
-    <property name="animation-frame4" value="2"/>
-   </properties>
-  </tile>
-  <tile id="3">
-   <properties>
-    <property name="animation-delay0" value="13"/>
-    <property name="animation-delay1" value="12"/>
-    <property name="animation-delay2" value="13"/>
-    <property name="animation-delay3" value="12"/>
-    <property name="animation-delay4" value="11"/>
-    <property name="animation-frame0" value="3"/>
-    <property name="animation-frame1" value="4"/>
-    <property name="animation-frame2" value="5"/>
-    <property name="animation-frame3" value="4"/>
-    <property name="animation-frame4" value="5"/>
-   </properties>
-  </tile>
- </tileset>
+ <tileset firstgid="385" source="../graphics/tilesets/Indoor/Candle.tsx"/>
  <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/Indoor/Box.png" width="128" height="160"/>
  </tileset>
