@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
-<!-- Copyright (C) 2010-2012  Evol Online
+<!-- Copyright (C) 2010-2012 Evol Online
 Author : Reid, Piman, 4144.
 
 New management (04/12/11).
@@ -24,7 +24,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
 -->
 
 <items>
-    <version revision="$Revision$" />
+    <version revision="$Revision$"/>
 
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//item/@name" translate="yes"/>
@@ -291,7 +291,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
     <item id="513"
         image="food/coconut.png"
         name="Coconut"
-        description="A coconut from a palm tree, it seems like it can be opened."
+        description="Fallen from a palm tree, this coconut can be opened."
         type="usable"
         weight="30"/>
 
@@ -508,13 +508,13 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         max-per-slot="1">
         <sprite>equipment/head/bandana.xml</sprite>
         <replace sprite="hair">
-            <item from="-3" to="-2" />
-            <item from="-5" to="-4" />
-            <item from="-6" to="-7" />
-            <item from="-13" to="-1" />
-            <item from="-14" to="-13" />
-            <item from="-15" to="-13" />
-            <item from="-26" to="-21" />
+            <item from="-3" to="-2"/>
+            <item from="-5" to="-4"/>
+            <item from="-6" to="-7"/>
+            <item from="-13" to="-1"/>
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-26" to="-21"/>
         </replace>
     </item>
 
