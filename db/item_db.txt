@@ -11,8 +11,8 @@
 509,   Aquada,                  Aquada,                  0,     0,     50,    24,    5,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {itemheal 30, 0;},               {}                               {}
 510,   PinkBlobime,             Pink Blobime,            0,     0,     30,    13,    2,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {callfunc "usePoisonedBlobime";},{}                               {}
 // 511,   PurpleBlobime,           Purple Blobime,       0,     0,     60,    27,    2,     ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {callfunc "usePoisonedBlobime";},{}                               {}
-512,   HalfCoconut,             Half Coconut,            0,     0,     50,    28,    14,    ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { itemheal 40, 0; },                    {}
-513,   Coconut,                 Coconut,                 0,     0,     80,    50,    30,    ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        { doevent "Coconut::OnUse"; },          {}
+512,   HalfCoconut,             Half Coconut,            0,     0,     50,    28,    14,    ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {itemheal 40, 0;},               {}                               {}
+513,   Coconut,                 Coconut,                 0,     0,     80,    50,    30,    ,      ,      ,      ,      ,      2,     ,      ,      0,     ,      0,        {doevent "Coconut::OnUse";},     {}                               {}
 700,   SmallTentacles,          Small Tentacles,         0,     3,     50,    20,    5,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {},                              {}                               {}
 701,   PiouFeathers,            Piou Feathers,           0,     3,     60,    35,    1,     ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {},                              {}                               {}
 702,   TortugaShellFragment,    Tortuga Shell Fragment,  0,     3,     40,    15,    15,    ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      0,        {},                              {}                               {}
@@ -35,4 +35,4 @@
 2200,  WornShorts,              Worn Shorts,             0,     5,     80,    20,    35,    ,      2,     ,      ,      0,     2,     1,     ,      0,     ,      0,        {},                              {}                               {}
 2900,  Bandana,                 Bandana,                 0,     5,     500,   100,   13,    ,      1,     ,      ,      0,     2,     256,   ,      0,     ,      0,        {},                              {}                               {}
 3500,  Knife,                   Knife,                   0,     4,     50,    25,    50,    10,    ,      ,      ,      0,     2,     2,     1,     1,     1,     0,        {},                              {}                               {}
-#      <------ 23chars ------>  <------ 23chars ------>
+#      <------- 25chars -------><------- 25chars ------->
