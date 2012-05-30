@@ -1,0 +1,80 @@
+// Evol scripts.
+// Authors:
+//    4144, Reid
+// Description:
+//    Allow to cut a coconut in multiple part.
+//
+//    Multiple choice possible for L_Weapon:
+//    rif(countitem(35xx, 1), l(getitemname("xx"))), l_Weak,
+//    rif(countitem(35yy, 1), l(getitemname("yy"))), l_Good,
+
+
+000-2-1.gat,0,0,0	script	Coconut	0,{
+
+OnCoco:
+    getitem 513, 1;
+    close;
+
+OnHalfCoco:
+    getitem 512, 1;
+    close;
+
+OnTwoHalfCoco:
+    getitem 512, 2;
+    close;
+
+OnUse:
+    mesn "Narrator";
+    mes col(l("Do you want to cut this") + " " + l(getitemname("Coconut")) + ".", 9);
+    next;
+
+    menu
+        l("Yes"), L_Weapon,
+        l("No"), -;
+
+    doevent "Coconut::OnCoco";
+    close;
+
+L_Weapon:
+    mes "";
+    mesn "Narrator";
+    mes col(l("Which of your weapons do you want to use in order to cut this coconut?"), 9);
+    next;
+
+    menu
+        rif(countitem(3500, 1), l(getitemname("Knife"))), L_Weak,
+        l("Bare Hands"), -;
+
+L_TooWeak:
+    mes "";
+    mesn "Narrator";
+
+    set @q, rand(5);
+    if (@q == 0) goto L_TooWeakLost;
+    if ( (@q == 1) || (@q == 2) ) goto L_TooWeakFail;
+    if ( (@q == 3) || (@q == 4) || (@q == 5) ) goto L_Weak;
+
+L_TooWeakLost:
+    mes col(l("You hitted too hard with your fist, you lost your Coconut."), 9);
+
+    close;
+
+L_TooWeakFail:
+    mes col(l("Your hands are too weak, you didn't cut the Coconut."), 9);
+
+    doevent "Coconut::OnCoco";
+    close;
+
+L_Weak:
+    mes col(l("You cut the Coconut, but only one side is keepable."), 9);
+
+    doevent "Coconut::OnHalfCoco";
+    close;
+
+L_Good:
+    mes col(l("You perfectly cut your Coconut in two parts.), 9);
+
+    doevent "Coconut::OnTwoHalfCoco";
+    close;
+
+}
