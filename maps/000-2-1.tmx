@@ -3,6 +3,7 @@
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="1"/>
   <property name="minimap" value="graphics/minimaps/000-2-1.png"/>
   <property name="music" value="bartk-indoor-artis.ogg"/>
  </properties>
@@ -17,9 +18,9 @@
   <image source="../graphics/tilesets/Indoor/Box.png" width="128" height="160"/>
  </tileset>
  <tileset firstgid="411" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="415" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
+ <tileset firstgid="417" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
@@ -34,7 +35,7 @@
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YQQqCQBQGYN10nw7RwQKpFi0Kytp1qo7QFVo3gRCBoqWk03wfPHjIII/xH5DJMgAAAAAAAGDK7mMPAC2K/NUvQn/Im9dCbNYhz9uEMz3P36uvXXjHPtQp4T2FvpbOz+QcfRMGVAycp4t8QnSa7oFmH5xnd0ndrWqebX4+Rfyuocqqf/4blVVez6FuI830b+qyynfK9iUAAAAAAABJeQAru5wChEwAAA==
+   H4sIAAAAAAAAA+3YQQqCQBQGYN10nw7RwQKpFi0Kytp2qI7QFVo3gRCBoqWk03wfPHjIII/xH5DJMgAAAAAAAGDK7mMPAC2K/NUvQn/Im9dCbNYhz9uEMz3P36uvXXjHPtQp4T2FvpbOz+QcfRMGVAycp4t8QnSa7oFmH5xnd0ndrWqebX4+Rfyuocqqf/4blVVez6FuI830b+qyynfK9iUAAAAAAABJeQD5k6LGhEwAAA==
   </data>
  </layer>
  <layer name="Over" width="83" height="59">
@@ -44,7 +45,7 @@
  </layer>
  <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUa7CIBBAUd3/FrpY44c/jaVQBqfgITlJ0/h4zC3b8/HYAAAAAAAAAKDBe2WfYRWllv/U+bNq349uOXP7s/WrPfb7ZHfpaVl6nul7ZLtDh1Va7mdpvZelPSO+58wte2a4+vdH/3u2jjX34mi+kSu7yciOLfNH7jWbiLmjV3aTiJYjulxZ2U2i7+O33/fu0XqO7EatLVue9+9KjUd90zuqneFsvqN3LeconSe7U/S9PJqx5tm9rGtZ+xst+1pGnmMFPa1X6pDdWksAAAAAgDYv5s9ZFoRMAAA=
+   H4sIAAAAAAAAA+3YYQrDIAyG4e7+VyjsqqM/Ck5qahJt1L6BB4rbnPm0FLp/tm0HAAAAAAAAAAAAAEDhO8AaVnGU5bPVnFU73jvLmbO/K80cx72e0syRryU6F0+W0vWT++GZYwQj5LBKlnkv2nMpzdliP2fO0tOD9fel/54tx5pzUeqvZ0VnYnE+c9Nnr7f/FhWdizdPT9+tKzoTq965WCo6k9bn8SpzaR+smayQabre2ut8TMrYcl/MmmdtD3f9lcY065DWE51T63NZ6rHmmnP5/x3pvYU3h7dlKfXozWCFLL19vimH6KzJEgAAAAAAAAB0fsbqj8mETAAA
   </data>
  </layer>
  <objectgroup name="Object" width="83" height="59">
