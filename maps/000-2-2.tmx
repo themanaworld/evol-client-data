@@ -20,9 +20,9 @@
   <image source="../graphics/tilesets/Indoor/Shadow.png" width="160" height="160"/>
  </tileset>
  <tileset firstgid="436" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="440" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
+ <tileset firstgid="442" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -37,7 +37,7 @@
  </layer>
  <layer name="Fringe" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XPQ7CIBgG4DJUj+sZupgY49/Qu3ggr2BcLRGN0VIZTGzs8yzA1w587wChqgAAAAAAgG+bh9t4SetTGmfhF7sZl5jBOc1jPnFeTyCX5UCPTeZbrv5v7n2+9nsI77nFf7ZPtXbi2QGU2nXn4t7ZyAeLntoxc08D5YbeApTZdBmu5NhrLZcHdxUAAAAAAABjcwVvgEEX0EMAAA==
+   H4sIAAAAAAAAA+3XPQ7CIBgG4DJUj+sZupgY49/Qy3ger2BcLRGN0VIZTGzs8yzA1w587wChqgAAAAAAgG+bh9t4SetTGmfhF7sZl5jBOc1jPnFeTyCX5UCPTeZbrv5v7n2+9nsI77nFf7ZPtXbi2QGU2nXn4t7ZyAeLntoxc08D5YbeApTZdBmu5NhrLZcHdxUAAAAAAABjcwXe1KYV0EMAAA==
   </data>
  </layer>
  <layer name="Over" width="70" height="62">
@@ -52,7 +52,7 @@
  </layer>
  <layer name="Collision" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UWw7CIBBA0Xb/6+n+/K3IowbIKJxJzg81xrmhXudxXAAAAAAAAJ1yE/2bfkHaQZ/3DrlOuTatXqv0TO9Hrkt6Vtt9lXeyNbXPPP2e6B1ntOl9/s9dSq1GdFu5S+u81it6j94Goyd6p1E9RrWK3mnGPentEr3PrC69E73PrDa1s/uzb+7dLkp779rmyc67dcm9Z+7L5561/6PdupRGl333BwAAAACAmV6ZBoC/0EMAAA==
+   H4sIAAAAAAAAA+3UQQ6CMBRFUdz/ekhYniMTxd+CaZsP9jQ5EzDEd4Ouj2VZAQAAAAAAGkUn+ztdwb6DPp8dok5Rm6Ne2wU29ezy2ht12V+rtdmCZ97R0al95uxzsjeOaNN6/85dSq16dPvnLkfXa72yd7Q26H2yN/Xq0atV9qYR70lrl+w9o7q0nuw9o9rUrr3f++W9m0Vp96xtzmyerUv0O/O+fO+s/R/N1qV0dJl3PwAAAAAAjPQEanlpNdBDAAA=
   </data>
  </layer>
  <objectgroup name="Object" width="70" height="62">
