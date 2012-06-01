@@ -45,8 +45,11 @@ Copyright (C) 2010-2012  Evol Online
     </action>
 
     <action name="hurt" imageset="base">
-        <animation>
-				<frame index="5" delay="0" offsetY="59"/>
+			<animation direction="default">
+				<frame index="2" delay="115"/>
+				<frame index="1" delay="110"/>
+				<frame index="0" delay="120"/>
+				<end />
         </animation>
     </action>
 
