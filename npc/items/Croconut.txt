@@ -2,43 +2,43 @@
 // Authors:
 //    4144, Reid
 // Description:
-//    Allow to cut a coconut in multiple part.
+//    Allow to cut a croconut in multiple part.
 //
 //    Multiple choice possible for L_Weapon:
 //    rif(countitem(35xx, 1), l(getitemname("xx"))), l_Weak,
 //    rif(countitem(35yy, 1), l(getitemname("yy"))), l_Good,
 
 
-000-2-1.gat,0,0,0	script	Coconut	0,{
+000-2-1.gat,0,0,0	script	Croconut	0,{
 
-OnCoco:
+OnCroconut:
     getitem 513, 1;
     close;
 
-OnHalfCoco:
+OnHalfCroconut:
     getitem 512, 1;
     close;
 
-OnTwoHalfCoco:
+OnTwoHalfCroconut:
     getitem 512, 2;
     close;
 
 OnUse:
     mesn "Narrator";
-    mes col(l("Do you want to cut this") + " " + l(getitemname("Coconut")) + "?", 9);
+    mes col(l("Do you want to cut this") + " " + l(getitemname("Croconut")) + "?", 9);
     next;
 
     menu
         l("Yes."), L_Weapon,
         l("No."), -;
 
-    doevent "Coconut::OnCoco";
+    doevent "Croconut::OnCroconut";
     close;
 
 L_Weapon:
     mes "";
     mesn "Narrator";
-    mes col(l("Which of your weapons do you want to use in order to cut this Coconut?"), 9);
+    mes col(l("Which of your weapons do you want to use in order to cut this Croconut?"), 9);
     next;
 
     menu
@@ -55,26 +55,26 @@ L_TooWeak:
     if ( (@q == 3) || (@q == 4) || (@q == 5) ) goto L_Weak;
 
 L_TooWeakLost:
-    mes col(l("You hit too hard with your fist, you lost your Coconut."), 9);
+    mes col(l("You hit too hard with your fist, you lost your Croconut."), 9);
 
     close;
 
 L_TooWeakFail:
-    mes col(l("Your hands are too weak, you didn't open the Coconut."), 9);
+    mes col(l("Your hands are too weak, you didn't open the Croconut."), 9);
 
-    doevent "Coconut::OnCoco";
+    doevent "Croconut::OnCroconut";
     close;
 
 L_Weak:
-    mes col(l("You opened the Coconut, but only one side is edible."), 9);
+    mes col(l("You opened the Croconut, but only one side is edible."), 9);
 
-    doevent "Coconut::OnHalfCoco";
+    doevent "Croconut::OnHalfCroconut";
     close;
 
 L_Good:
-    mes col(l("You perfectly cut your Coconut in two ediable parts."), 9);
+    mes col(l("You perfectly cut your Croconut in two ediable parts."), 9);
 
-    doevent "Coconut::OnTwoHalfCoco";
+    doevent "Croconut::OnTwoHalfCroconut";
     close;
 
 }
