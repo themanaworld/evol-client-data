@@ -1,7 +1,11 @@
+// maxrse describes the max. level that the skill can be raised to through the `raise skill' option.  Further raising has to happen via quests.
+// maxrse < max.
+// `pool' can be `no', `active', or `passive'.
+// `stat' can be `none', `str', `dex', `agi', `vit', `int', `luk'.
 //id, range, hit, inf, pl,  nk,  maxrse, max, list_num, castcancel, cast_defence_rate, inf2, maxcount, skill_type, blow_count, pool,    stat, name
 1,    0,     0,   0,   0,   0,   0,      1,   0,        no,         0,                 0,    0,        none,       0,          no,      none, Emote          //NV_EMOTE
 2,    0,     0,   0,   0,   0,   0,      1,   0,        no,         0,                 0,    0,        none,       0,          no,      none, Trade          //NV_TRADE
-3,    0,     0,   0,   0,   0,   0,      2,   0,        no,         0,                 0,    0,        none,       0,          no,      none, Party	       //NV_PARTY
+3,    0,     0,   0,   0,   0,   0,      2,   0,        no,         0,                 0,    0,        none,       0,          no,      none, Party          //NV_PARTY
 4,    0,     0,   0,   0,   0,   0,      10,  0,        no,         0,                 0,    0,        weapon,     0,          no,      none, X0             //SM_SWORD
 6,    0,     0,   0,   0,   0,   0,      10,  0,        no,         0,                 0,    0,        none,       0,          no,      none, X1             //SM_RECOVERY
 11,   0,     0,   0,   0,   0,   0,      10,  0,        no,         0,                 0,    0,        none,       0,          no,      none, X2             //MG_SRECOVERY
@@ -39,8 +43,3 @@
 500,  0,     0,   0,   0,   0,   0,      2,   0,        no,         0,                 0,    0,        none,       0,          no,      none, GUILD          //EVOL_GUILD
 501,  0,     0,   0,   0,   0,   0,      10,  0,        no,         0,                 0,    0,        none,       0,          no,      none, CRAFT          //EVOL_CRAFT
 502,  0,     0,   0,   0,   0,   0,      20,  0,        no,         0,                 0,    0,        none,       0,          no,      none, DYE            //EVOL_DYE
-
-// maxrse describes the max. level that the skill can be raised to through the `raise skill' option.  Further raising has to happen via quests.
-// maxrse < max.
-// `pool' can be `no', `active', or `passive'.
-// `stat' can be `none', `str', `dex', `agi', `vit', `int', `luk'.
