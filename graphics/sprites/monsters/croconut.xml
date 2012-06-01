@@ -5,7 +5,7 @@ Copyright (C) 2010-2012  Evol Online
 50% from the 95% unused percent from "mooving" label are used on "moovinglong" label.
 100% from the 47,5% unused percent from "moovinglong" label are used on "static" label.-->
 <sprite>
-	<imageset name="base" src="graphics/sprites/monsters/coconut.png" width="18" height="18" offsetX="32" offsetY="-61"/>
+	<imageset name="base" src="graphics/sprites/monsters/croconut.png" width="18" height="18" offsetX="32" offsetY="-61"/>
 
     <action name="stand" imageset="base">
 			<animation direction="default">
@@ -55,7 +55,7 @@ Copyright (C) 2010-2012  Evol Online
 
     <action name="dead" imageset="base">
         <animation>
-			<!-- Coconut is falling -->
+			<!-- Croconut is falling -->
 				<frame index="1" delay="80" offsetY="1"/>
 				<frame index="1" delay="60" offsetY="2"/>
 				<frame index="1" delay="50" offsetY="4"/>

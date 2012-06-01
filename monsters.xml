@@ -76,7 +76,7 @@ exemple :
         <sprite>monsters/croc.xml</sprite>
     </monster>
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim">
-        <sprite>monsters/coconut.xml</sprite>
+        <sprite>monsters/blub-little.xml</sprite>
         <sprite>accessories/littleblub-tentacle.xml</sprite>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
     </monster>
@@ -90,8 +90,8 @@ exemple :
         <sprite>accessories/blub-tophat.xml</sprite>
     </monster> -->
     <monster id="8" name="Coco Tree" targetCursor="large">
-        <sprite>monsters/coconut.xml</sprite>
-        <sound event="hurt">monsters/coconut/hurt1.ogg</sound>
-        <sound event="die">monsters/coconut/die1.ogg</sound> 
+        <sprite>monsters/croconut.xml</sprite>
+        <sound event="hurt">monsters/croconut/hurt1.ogg</sound>
+        <sound event="die">monsters/croconut/die1.ogg</sound> 
     </monster>
 </monsters>
