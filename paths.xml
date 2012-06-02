@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-
-<!-- Authors: The Mana World & Evol Online. -->
-
-<!--
-Use this file to override default data paths used by the system.
+<!-- Use this file to override default data paths used by the system
 If this file is not used, the hard-coded defaults are the following:
 
 Files:				Default paths:
@@ -18,9 +14,9 @@ Default minimaps path:	graphics/minimaps/
 Default particles path:	graphics/particles/
 Default sprite path:	graphics/sprites/
 Default maps path:	maps/
-Default sfx path:	sfx/
+Default sfx path:		sfx/
 
-Hard-coded reference files (some could be handled differently later):
+Hard-coded reference files (Some could be handled differently later):
 
 Files:					Default paths:
 =============			===============
@@ -46,7 +42,7 @@ Also, don't forget to add the '/' path separator at the end of folder values.
 	<option name="minimaps" value="graphics/minimaps/"/>
 	<option name="maps" value="maps/"/>
 	<option name="sfx" value="sfx/"/>
-	<option name="attackSfxFile" value="weapons/fist/hit1.ogg"/>
+	<option name="attackSfxFile" value="weapons/fist/hit-1.ogg"/>
 	<option name="music" value="music/"/>
 	<option name="wallpapers" value="graphics/images/"/>
 	<option name="wallpaperFile" value="login_wallpaper.png"/>

@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
-
-<!-- Author: Reid.
-Copyright (C) 2011 Evol Online -->
+<!-- Original Author : Reid
+Copyright (C) 2011  Evol Online -->
 
 <sprite>
-	<imageset name="mob" src="graphics/sprites/monsters/piou.png" width="10" height="9" offsetY="-12"/>
-	<imageset name="mob-acc" src="graphics/sprites/accessories/acc-mobsse-egg.png" width="11" height="11" offsetY="-12"/>
+	<imageset name="piou" src="graphics/sprites/monsters/piou.png" width="10" height="9" offsetY="-12"/>
+	<imageset name="egg" src="graphics/sprites/accessories/acc-piousse-egg.png" width="11" height="11" offsetY="-12"/>
 
-	<action name="spawn" imageset="mob-acc">
+	<action name="spawn" imageset="egg">
 
 		<animation>
 			<frame index="9" delay="20" offsetY="-86"/>
@@ -34,31 +33,31 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="9" delay="55" offsetY="-6"/>
 			<frame index="9" delay="55" offsetY="-3"/>
 			<frame index="9" delay="60" offsetY="-1"/>
-			<jump action="stand"/>
+			<jump action="stand" />
 		</animation>
 
 	</action>
 
-	<action name="stand" imageset="mob">
+	<action name="stand" imageset="piou">
 
 		<animation direction="down">
-			<!-- Static -->
+			<!-- static -->
 			<frame index="0" delay="1300"/>
-			<!-- Eating Animation -->
+			<!-- eating animation -->
 			<sequence start="2" end="3" delay="130" repeat="4"/>
 			<frame index="2" delay="100"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="0" delay="1900"/>
-			<!-- Looking Around -->
+			<!-- looking around -->
 			<frame index="30" delay="350"/>
 			<frame index="0" delay="500"/>
 			<frame index="35" delay="400"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="0" delay="1600"/>
-			<!-- Eating Animation x6 -->
+			<!-- eating animation x6-->
 			<sequence start="2" end="3" delay="130" repeat="6"/>
 			<frame index="2" delay="100"/>
-			<!-- Jumping and Turning -->
+			<!-- jumping and turning on hiself-->
 			<sequence start="1" end="2" delay="50" offsetY="-1"/>
 			<frame index="1" delay="50" offsetX="1" offsetY="-3"/>
 			<frame index="0" delay="60" offsetX="2" offsetY="-8"/>
@@ -76,59 +75,59 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="0" delay="100" offsetY="-1"/>
 		</animation>
 
-		<animation direction="downleft">
-			<!-- Static -->
-			<frame index="30" delay="1300"/>
-			<!-- Eating Animation -->
-			<sequence start="32" end="33" delay="130" repeat="4"/>
-			<frame index="32" delay="100"/>
-			<!-- Static -->
-			<frame index="30" delay="1900"/>
-			<!-- Looking Around -->
-			<frame index="10" delay="350"/>
-			<frame index="30" delay="500"/>
-			<frame index="0" delay="400"/>
-			<!-- Static -->
-			<frame index="30" delay="1600"/>
-			<!-- Eating Animation x6 -->
-			<sequence start="32" end="33" delay="130" repeat="6"/>
-			<frame index="32" delay="100"/>
-			<!-- Jumping and Turning -->
-			<sequence start="31" end="32" delay="50" offsetY="-1"/>
-			<frame index="31" delay="50" offsetX="1" offsetY="-3"/>
-			<frame index="30" delay="60" offsetX="2" offsetY="-8"/>
-			<frame index="31" delay="60" offsetX="3" offsetY="-11"/>
-			<frame index="32" delay="70" offsetX="2" offsetY="-15"/>
-			<frame index="0" delay="80" offsetX="1" offsetY="-18"/>
-			<frame index="35" delay="90" offsetX="1" offsetY="-22"/>
-			<frame index="5" delay="100" offsetY="-25"/>
-			<frame index="20" delay="90" offsetX="-1" offsetY="-22"/>
-			<frame index="15" delay="90" offsetX="-2" offsetY="-18"/>
-			<frame index="25" delay="90" offsetX="-3" offsetY="-14"/>
-			<frame index="10" delay="90" offsetX="-2" offsetY="-10"/>
-			<frame index="32" delay="90" offsetX="-1" offsetY="-7"/>
-			<frame index="31" delay="90" offsetY="-3"/>
-			<frame index="30" delay="100" offsetY="-1"/>
+		<animation direction="right">
+			<!-- static -->
+			<frame index="5" delay="1300"/>
+			<!-- eating animation -->
+			<sequence start="7" end="8" delay="130" repeat="4"/>
+			<frame index="7" delay="100"/>
+			<!-- static -->
+			<frame index="5" delay="1900"/>
+			<!-- looking around -->
+			<frame index="20" delay="350"/>
+			<frame index="5" delay="500"/>
+			<frame index="35" delay="400"/>
+			<!-- static -->
+			<frame index="5" delay="1600"/>
+			<!-- eating animation x6-->
+			<sequence start="7" end="8" delay="130" repeat="6"/>
+			<frame index="7" delay="100"/>
+			<!-- jumping and turning on hiself-->
+			<sequence start="6" end="7" delay="50" offsetY="-1"/>
+			<frame index="6" delay="50" offsetX="1" offsetY="-3"/>
+			<frame index="5" delay="60" offsetX="2" offsetY="-8"/>
+			<frame index="6" delay="60" offsetX="3" offsetY="-11"/>
+			<frame index="7" delay="70" offsetX="2" offsetY="-15"/>
+			<frame index="20" delay="80" offsetX="1" offsetY="-18"/>
+			<frame index="15" delay="90" offsetX="1" offsetY="-22"/>
+			<frame index="25" delay="100" offsetY="-25"/>
+			<frame index="10" delay="90" offsetX="-1" offsetY="-22"/>
+			<frame index="30" delay="90" offsetX="-2" offsetY="-18"/>
+			<frame index="0" delay="90" offsetX="-3" offsetY="-14"/>
+			<frame index="35" delay="90" offsetX="-2" offsetY="-10"/>
+			<frame index="7" delay="90" offsetX="-1" offsetY="-7"/>
+			<frame index="6" delay="90" offsetY="-3"/>
+			<frame index="5" delay="100" offsetY="-1"/>
 		</animation>
 
 		<animation direction="left">
-			<!-- Static -->
+			<!-- static -->
 			<frame index="10" delay="1300"/>
-			<!-- Eating Animation -->
+			<!-- eating animation -->
 			<sequence start="12" end="13" delay="130" repeat="4"/>
 			<frame index="12" delay="100"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="10" delay="1900"/>
-			<!-- Looking Around -->
+			<!-- looking around -->
 			<frame index="25" delay="350"/>
 			<frame index="10" delay="500"/>
 			<frame index="30" delay="400"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="10" delay="1600"/>
-			<!-- Eating Animation x6 -->
+			<!-- eating animation x6-->
 			<sequence start="12" end="13" delay="130" repeat="6"/>
 			<frame index="12" delay="100"/>
-			<!-- Jumping and Turning -->
+			<!-- jumping and turning on hiself-->
 			<sequence start="11" end="12" delay="50" offsetY="-1"/>
 			<frame index="11" delay="50" offsetX="1" offsetY="-3"/>
 			<frame index="10" delay="60" offsetX="2" offsetY="-8"/>
@@ -146,59 +145,24 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="10" delay="100" offsetY="-1"/>
 		</animation>
 
-		<animation direction="upleft">
-			<!-- Static -->
-			<frame index="25" delay="1300"/>
-			<!-- Eating Animation -->
-			<sequence start="27" end="28" delay="130" repeat="4"/>
-			<frame index="27" delay="100"/>
-			<!-- Static -->
-			<frame index="25" delay="1900"/>
-			<!-- Looking Around -->
-			<frame index="10" delay="350"/>
-			<frame index="25" delay="500"/>
-			<frame index="15" delay="400"/>
-			<!-- Static -->
-			<frame index="25" delay="1600"/>
-			<!-- Eating Animation x6 -->
-			<sequence start="27" end="28" delay="130" repeat="6"/>
-			<frame index="27" delay="100"/>
-			<!-- Jumping and Turning -->
-			<sequence start="26" end="27" delay="50" offsetY="-1"/>
-			<frame index="26" delay="50" offsetX="1" offsetY="-3"/>
-			<frame index="25" delay="60" offsetX="2" offsetY="-8"/>
-			<frame index="26" delay="60" offsetX="3" offsetY="-11"/>
-			<frame index="27" delay="70" offsetX="2" offsetY="-15"/>
-			<frame index="10" delay="80" offsetX="1" offsetY="-18"/>
-			<frame index="30" delay="90" offsetX="1" offsetY="-22"/>
-			<frame index="0" delay="100" offsetY="-25"/>
-			<frame index="35" delay="90" offsetX="-1" offsetY="-22"/>
-			<frame index="5" delay="90" offsetX="-2" offsetY="-18"/>
-			<frame index="20" delay="90" offsetX="-3" offsetY="-14"/>
-			<frame index="15" delay="90" offsetX="-2" offsetY="-10"/>
-			<frame index="27" delay="90" offsetX="-1" offsetY="-7"/>
-			<frame index="26" delay="90" offsetY="-3"/>
-			<frame index="25" delay="100" offsetY="-1"/>
-		</animation>
-
 		<animation direction="up">
-			<!-- Static -->
+			<!-- static -->
 			<frame index="15" delay="1300"/>
-			<!-- Eating Animation -->
+			<!-- eating animation -->
 			<sequence start="17" end="18" delay="130" repeat="4"/>
 			<frame index="17" delay="100"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="15" delay="1900"/>
-			<!-- Looking Around -->
+			<!-- looking around -->
 			<frame index="20" delay="350"/>
 			<frame index="15" delay="500"/>
 			<frame index="25" delay="400"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="15" delay="1600"/>
-			<!-- Eating Animation x6 -->
+			<!-- eating animation x6-->
 			<sequence start="17" end="18" delay="130" repeat="6"/>
 			<frame index="17" delay="100"/>
-			<!-- Jumping and Turning -->
+			<!-- jumping and turning on hiself-->
 			<sequence start="16" end="17" delay="50" offsetY="-1"/>
 			<frame index="16" delay="50" offsetX="1" offsetY="-3"/>
 			<frame index="15" delay="60" offsetX="2" offsetY="-8"/>
@@ -217,23 +181,23 @@ Copyright (C) 2011 Evol Online -->
 		</animation>
 
 		<animation direction="upright">
-			<!-- Static -->
+			<!-- static -->
 			<frame index="20" delay="1300"/>
-			<!-- Eating Animation -->
+			<!-- eating animation -->
 			<sequence start="22" end="23" delay="130" repeat="4"/>
 			<frame index="22" delay="100"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="20" delay="1900"/>
-			<!-- Looking Around -->
+			<!-- looking around -->
 			<frame index="5" delay="350"/>
 			<frame index="20" delay="500"/>
 			<frame index="15" delay="400"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="20" delay="1600"/>
-			<!-- Eating Animation x6 -->
+			<!-- eating animation x6-->
 			<sequence start="22" end="23" delay="130" repeat="6"/>
 			<frame index="22" delay="100"/>
-			<!-- Jumping and Turning -->
+			<!-- jumping and turning on hiself-->
 			<sequence start="21" end="22" delay="50" offsetY="-1"/>
 			<frame index="21" delay="50" offsetX="1" offsetY="-3"/>
 			<frame index="20" delay="60" offsetX="2" offsetY="-8"/>
@@ -251,59 +215,94 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="20" delay="100" offsetY="-1"/>
 		</animation>
 
-		<animation direction="right">
-			<!-- Static -->
-			<frame index="5" delay="1300"/>
-			<!-- Eating Animation -->
-			<sequence start="7" end="8" delay="130" repeat="4"/>
-			<frame index="7" delay="100"/>
-			<!-- Static -->
-			<frame index="5" delay="1900"/>
-			<!-- Looking Around -->
-			<frame index="20" delay="350"/>
-			<frame index="5" delay="500"/>
-			<frame index="35" delay="400"/>
-			<!-- Static -->
-			<frame index="5" delay="1600"/>
-			<!-- Eating Animation x6 -->
-			<sequence start="7" end="8" delay="130" repeat="6"/>
-			<frame index="7" delay="100"/>
-			<!-- Jumping and Turning -->
-			<sequence start="6" end="7" delay="50" offsetY="-1"/>
-			<frame index="6" delay="50" offsetX="1" offsetY="-3"/>
-			<frame index="5" delay="60" offsetX="2" offsetY="-8"/>
-			<frame index="6" delay="60" offsetX="3" offsetY="-11"/>
-			<frame index="7" delay="70" offsetX="2" offsetY="-15"/>
-			<frame index="20" delay="80" offsetX="1" offsetY="-18"/>
-			<frame index="15" delay="90" offsetX="1" offsetY="-22"/>
-			<frame index="25" delay="100" offsetY="-25"/>
-			<frame index="10" delay="90" offsetX="-1" offsetY="-22"/>
-			<frame index="30" delay="90" offsetX="-2" offsetY="-18"/>
-			<frame index="0" delay="90" offsetX="-3" offsetY="-14"/>
-			<frame index="35" delay="90" offsetX="-2" offsetY="-10"/>
-			<frame index="7" delay="90" offsetX="-1" offsetY="-7"/>
-			<frame index="6" delay="90" offsetY="-3"/>
-			<frame index="5" delay="100" offsetY="-1"/>
+		<animation direction="upleft">
+			<!-- static -->
+			<frame index="25" delay="1300"/>
+			<!-- eating animation -->
+			<sequence start="27" end="28" delay="130" repeat="4"/>
+			<frame index="27" delay="100"/>
+			<!-- static -->
+			<frame index="25" delay="1900"/>
+			<!-- looking around -->
+			<frame index="10" delay="350"/>
+			<frame index="25" delay="500"/>
+			<frame index="15" delay="400"/>
+			<!-- static -->
+			<frame index="25" delay="1600"/>
+			<!-- eating animation x6-->
+			<sequence start="27" end="28" delay="130" repeat="6"/>
+			<frame index="27" delay="100"/>
+			<!-- jumping and turning on hiself-->
+			<sequence start="26" end="27" delay="50" offsetY="-1"/>
+			<frame index="26" delay="50" offsetX="1" offsetY="-3"/>
+			<frame index="25" delay="60" offsetX="2" offsetY="-8"/>
+			<frame index="26" delay="60" offsetX="3" offsetY="-11"/>
+			<frame index="27" delay="70" offsetX="2" offsetY="-15"/>
+			<frame index="10" delay="80" offsetX="1" offsetY="-18"/>
+			<frame index="30" delay="90" offsetX="1" offsetY="-22"/>
+			<frame index="0" delay="100" offsetY="-25"/>
+			<frame index="35" delay="90" offsetX="-1" offsetY="-22"/>
+			<frame index="5" delay="90" offsetX="-2" offsetY="-18"/>
+			<frame index="20" delay="90" offsetX="-3" offsetY="-14"/>
+			<frame index="15" delay="90" offsetX="-2" offsetY="-10"/>
+			<frame index="27" delay="90" offsetX="-1" offsetY="-7"/>
+			<frame index="26" delay="90" offsetY="-3"/>
+			<frame index="25" delay="100" offsetY="-1"/>
+		</animation>
+
+		<animation direction="downleft">
+			<!-- static -->
+			<frame index="30" delay="1300"/>
+			<!-- eating animation -->
+			<sequence start="32" end="33" delay="130" repeat="4"/>
+			<frame index="32" delay="100"/>
+			<!-- static -->
+			<frame index="30" delay="1900"/>
+			<!-- looking around -->
+			<frame index="10" delay="350"/>
+			<frame index="30" delay="500"/>
+			<frame index="0" delay="400"/>
+			<!-- static -->
+			<frame index="30" delay="1600"/>
+			<!-- eating animation x6-->
+			<sequence start="32" end="33" delay="130" repeat="6"/>
+			<frame index="32" delay="100"/>
+			<!-- jumping and turning on hiself-->
+			<sequence start="31" end="32" delay="50" offsetY="-1"/>
+			<frame index="31" delay="50" offsetX="1" offsetY="-3"/>
+			<frame index="30" delay="60" offsetX="2" offsetY="-8"/>
+			<frame index="31" delay="60" offsetX="3" offsetY="-11"/>
+			<frame index="32" delay="70" offsetX="2" offsetY="-15"/>
+			<frame index="0" delay="80" offsetX="1" offsetY="-18"/>
+			<frame index="35" delay="90" offsetX="1" offsetY="-22"/>
+			<frame index="5" delay="100" offsetY="-25"/>
+			<frame index="20" delay="90" offsetX="-1" offsetY="-22"/>
+			<frame index="15" delay="90" offsetX="-2" offsetY="-18"/>
+			<frame index="25" delay="90" offsetX="-3" offsetY="-14"/>
+			<frame index="10" delay="90" offsetX="-2" offsetY="-10"/>
+			<frame index="32" delay="90" offsetX="-1" offsetY="-7"/>
+			<frame index="31" delay="90" offsetY="-3"/>
+			<frame index="30" delay="100" offsetY="-1"/>
 		</animation>
 
 		<animation direction="downright">
-			<!-- Static -->
+			<!-- static -->
 			<frame index="35" delay="1300"/>
-			<!-- Eating Animation -->
+			<!-- eating animation -->
 			<sequence start="37" end="38" delay="130" repeat="4"/>
 			<frame index="37" delay="100"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="35" delay="1900"/>
-			<!-- Looking Around -->
+			<!-- looking around -->
 			<frame index="5" delay="350"/>
 			<frame index="35" delay="500"/>
 			<frame index="0" delay="400"/>
-			<!-- Static -->
+			<!-- static -->
 			<frame index="35" delay="1600"/>
-			<!-- Eating Animation x6 -->
+			<!-- eating animation x6-->
 			<sequence start="37" end="38" delay="130" repeat="6"/>
 			<frame index="37" delay="100"/>
-			<!-- Jumping and Turning -->
+			<!-- jumping and turning on hiself-->
 			<sequence start="36" end="37" delay="50" offsetY="-1"/>
 			<frame index="36" delay="50" offsetX="1" offsetY="-3"/>
 			<frame index="35" delay="60" offsetX="2" offsetY="-8"/>
@@ -322,10 +321,10 @@ Copyright (C) 2011 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="walk" imageset="mob">
+	<action name="walk" imageset="piou">
 
 		<animation direction="down">
-			<!-- Normal Jump x2 -->
+			<!-- Normal jump x2-->
 			<frame index="0" delay="45" offsetY="-1"/>
 			<frame index="1" delay="45" offsetY="-1"/>
 			<frame index="2" delay="45" offsetY="-2"/>
@@ -340,7 +339,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="1" delay="45" offsetY="-2"/>
 			<frame index="2" delay="45" offsetY="-1"/>
 			<frame index="1" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
+			<!-- Turning jump -->
 			<frame index="0" delay="50" offsetY="-1"/>
 			<frame index="1" delay="50" offsetY="-1"/>
 			<frame index="2" delay="45" offsetY="-2"/>
@@ -357,7 +356,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="2" delay="60" offsetY="-3"/>
 			<frame index="1" delay="50" offsetY="-2"/>
 			<frame index="0" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
+			<!-- Normal jump x1-->
 			<frame index="1" delay="45" offsetY="-1"/>
 			<frame index="2" delay="45" offsetY="-2"/>
 			<frame index="1" delay="45" offsetY="-3"/>
@@ -365,7 +364,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="1" delay="45" offsetY="-3"/>
 			<frame index="2" delay="45" offsetY="-2"/>
 			<frame index="1" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
+			<!-- Back turning jump -->
 			<frame index="0" delay="50" offsetY="-1"/>
 			<frame index="1" delay="50" offsetY="-1"/>
 			<frame index="2" delay="45" offsetY="-2"/>
@@ -384,308 +383,8 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="0" delay="50" offsetY="-1"/>
 		</animation>
 
-		<animation direction="downleft">
-			<!-- Normal Jump x2 -->
-			<frame index="30" delay="45" offsetY="-1"/>
-			<frame index="31" delay="45" offsetY="-1"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-4"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-4"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-2"/>
-			<frame index="32" delay="45" offsetY="-1"/>
-			<frame index="31" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
-			<frame index="30" delay="50" offsetY="-1"/>
-			<frame index="31" delay="50" offsetY="-1"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-4"/>
-			<frame index="31" delay="60" offsetY="-5"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="17" delay="80" offsetY="-6"/>
-			<frame index="27" delay="80" offsetY="-5"/>
-			<frame index="12" delay="80" offsetY="-4"/>
-			<frame index="32" delay="60" offsetY="-3"/>
-			<frame index="31" delay="50" offsetY="-2"/>
-			<frame index="30" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
-			<frame index="31" delay="45" offsetY="-1"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-4"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
-			<frame index="30" delay="50" offsetY="-1"/>
-			<frame index="31" delay="50" offsetY="-1"/>
-			<frame index="32" delay="45" offsetY="-2"/>
-			<frame index="31" delay="45" offsetY="-3"/>
-			<frame index="32" delay="45" offsetY="-4"/>
-			<frame index="31" delay="60" offsetY="-5"/>
-			<frame index="12" delay="80" offsetY="-6"/>
-			<frame index="27" delay="80" offsetY="-6"/>
-			<frame index="17" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-5"/>
-			<frame index="2" delay="80" offsetY="-4"/>
-			<frame index="32" delay="60" offsetY="-3"/>
-			<frame index="31" delay="50" offsetY="-2"/>
-			<frame index="30" delay="50" offsetY="-1"/>
-		</animation>
-
-		<animation direction="left">
-			<!-- Normal Jump x2 -->
-			<frame index="10" delay="45" offsetY="-1"/>
-			<frame index="11" delay="45" offsetY="-1"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-4"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-4"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-2"/>
-			<frame index="12" delay="45" offsetY="-1"/>
-			<frame index="11" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
-			<frame index="10" delay="50" offsetY="-1"/>
-			<frame index="11" delay="50" offsetY="-1"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-4"/>
-			<frame index="11" delay="60" offsetY="-5"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="17" delay="80" offsetY="-5"/>
-			<frame index="27" delay="80" offsetY="-4"/>
-			<frame index="12" delay="60" offsetY="-3"/>
-			<frame index="11" delay="50" offsetY="-2"/>
-			<frame index="10" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
-			<frame index="11" delay="45" offsetY="-1"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-4"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
-			<frame index="10" delay="50" offsetY="-1"/>
-			<frame index="11" delay="50" offsetY="-1"/>
-			<frame index="12" delay="45" offsetY="-2"/>
-			<frame index="11" delay="45" offsetY="-3"/>
-			<frame index="12" delay="45" offsetY="-4"/>
-			<frame index="11" delay="60" offsetY="-5"/>
-			<frame index="27" delay="80" offsetY="-6"/>
-			<frame index="17" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-5"/>
-			<frame index="32" delay="80" offsetY="-4"/>
-			<frame index="12" delay="60" offsetY="-3"/>
-			<frame index="11" delay="50" offsetY="-2"/>
-			<frame index="10" delay="50" offsetY="-1"/>
-		</animation>
-
-		<animation direction="upleft">
-			<!-- Normal Jump x2 -->
-			<frame index="25" delay="45" offsetY="-1"/>
-			<frame index="26" delay="45" offsetY="-1"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-4"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-4"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-2"/>
-			<frame index="27" delay="45" offsetY="-1"/>
-			<frame index="26" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
-			<frame index="25" delay="50" offsetY="-1"/>
-			<frame index="26" delay="50" offsetY="-1"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-4"/>
-			<frame index="26" delay="60" offsetY="-5"/>
-			<frame index="12" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-5"/>
-			<frame index="17" delay="80" offsetY="-4"/>
-			<frame index="27" delay="60" offsetY="-3"/>
-			<frame index="26" delay="50" offsetY="-2"/>
-			<frame index="25" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
-			<frame index="26" delay="45" offsetY="-1"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-4"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
-			<frame index="25" delay="50" offsetY="-1"/>
-			<frame index="26" delay="50" offsetY="-1"/>
-			<frame index="27" delay="45" offsetY="-2"/>
-			<frame index="26" delay="45" offsetY="-3"/>
-			<frame index="27" delay="45" offsetY="-4"/>
-			<frame index="26" delay="60" offsetY="-5"/>
-			<frame index="17" delay="80" offsetY="-6"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-5"/>
-			<frame index="12" delay="80" offsetY="-4"/>
-			<frame index="27" delay="60" offsetY="-3"/>
-			<frame index="26" delay="50" offsetY="-2"/>
-			<frame index="25" delay="50" offsetY="-1"/>
-		</animation>
-
-		<animation direction="up">
-			<!-- Normal Jump x2 -->
-			<frame index="15" delay="45" offsetY="-1"/>
-			<frame index="16" delay="45" offsetY="-1"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-4"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-4"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-2"/>
-			<frame index="17" delay="45" offsetY="-1"/>
-			<frame index="16" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
-			<frame index="15" delay="50" offsetY="-1"/>
-			<frame index="16" delay="50" offsetY="-1"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-4"/>
-			<frame index="16" delay="60" offsetY="-5"/>
-			<frame index="27" delay="80" offsetY="-6"/>
-			<frame index="12" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-5"/>
-			<frame index="22" delay="80" offsetY="-4"/>
-			<frame index="17" delay="60" offsetY="-3"/>
-			<frame index="16" delay="50" offsetY="-2"/>
-			<frame index="15" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
-			<frame index="16" delay="45" offsetY="-1"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-4"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
-			<frame index="15" delay="50" offsetY="-1"/>
-			<frame index="16" delay="50" offsetY="-1"/>
-			<frame index="17" delay="45" offsetY="-2"/>
-			<frame index="16" delay="45" offsetY="-3"/>
-			<frame index="17" delay="45" offsetY="-4"/>
-			<frame index="16" delay="60" offsetY="-5"/>
-			<frame index="22" delay="80" offsetY="-6"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="12" delay="80" offsetY="-5"/>
-			<frame index="27" delay="80" offsetY="-4"/>
-			<frame index="17" delay="60" offsetY="-3"/>
-			<frame index="16" delay="50" offsetY="-2"/>
-			<frame index="15" delay="50" offsetY="-1"/>
-		</animation>
-
-		<animation direction="upright">
-			<!-- Normal Jump x2 -->
-			<frame index="20" delay="45" offsetY="-1"/>
-			<frame index="21" delay="45" offsetY="-1"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-4"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-4"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-2"/>
-			<frame index="22" delay="45" offsetY="-1"/>
-			<frame index="21" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
-			<frame index="20" delay="50" offsetY="-1"/>
-			<frame index="21" delay="50" offsetY="-1"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-4"/>
-			<frame index="21" delay="60" offsetY="-5"/>
-			<frame index="17" delay="80" offsetY="-6"/>
-			<frame index="27" delay="80" offsetY="-6"/>
-			<frame index="12" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-5"/>
-			<frame index="7" delay="80" offsetY="-4"/>
-			<frame index="22" delay="60" offsetY="-3"/>
-			<frame index="21" delay="50" offsetY="-2"/>
-			<frame index="20" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
-			<frame index="21" delay="45" offsetY="-1"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-4"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
-			<frame index="20" delay="50" offsetY="-1"/>
-			<frame index="21" delay="50" offsetY="-1"/>
-			<frame index="22" delay="45" offsetY="-2"/>
-			<frame index="21" delay="45" offsetY="-3"/>
-			<frame index="22" delay="45" offsetY="-4"/>
-			<frame index="21" delay="60" offsetY="-5"/>
-			<frame index="7" delay="80" offsetY="-6"/>
-			<frame index="37" delay="80" offsetY="-6"/>
-			<frame index="2" delay="80" offsetY="-6"/>
-			<frame index="32" delay="80" offsetY="-6"/>
-			<frame index="12" delay="80" offsetY="-6"/>
-			<frame index="27" delay="80" offsetY="-5"/>
-			<frame index="17" delay="80" offsetY="-4"/>
-			<frame index="22" delay="60" offsetY="-3"/>
-			<frame index="21" delay="50" offsetY="-2"/>
-			<frame index="20" delay="50" offsetY="-1"/>
-		</animation>
-
 		<animation direction="right">
-			<!-- Normal Jump x2 -->
+			<!-- Normal jump x2-->
 			<frame index="5" delay="45" offsetY="-1"/>
 			<frame index="6" delay="45" offsetY="-1"/>
 			<frame index="7" delay="45" offsetY="-2"/>
@@ -700,7 +399,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="6" delay="45" offsetY="-2"/>
 			<frame index="7" delay="45" offsetY="-1"/>
 			<frame index="6" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
+			<!-- Turning jump -->
 			<frame index="5" delay="50" offsetY="-1"/>
 			<frame index="6" delay="50" offsetY="-1"/>
 			<frame index="7" delay="45" offsetY="-2"/>
@@ -717,7 +416,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="7" delay="60" offsetY="-3"/>
 			<frame index="6" delay="50" offsetY="-2"/>
 			<frame index="5" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
+			<!-- Normal jump x1-->
 			<frame index="6" delay="45" offsetY="-1"/>
 			<frame index="7" delay="45" offsetY="-2"/>
 			<frame index="6" delay="45" offsetY="-3"/>
@@ -725,7 +424,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="6" delay="45" offsetY="-3"/>
 			<frame index="7" delay="45" offsetY="-2"/>
 			<frame index="6" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
+			<!-- Back turning jump -->
 			<frame index="5" delay="50" offsetY="-1"/>
 			<frame index="6" delay="50" offsetY="-1"/>
 			<frame index="7" delay="45" offsetY="-2"/>
@@ -744,8 +443,308 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="5" delay="50" offsetY="-1"/>
 		</animation>
 
+		<animation direction="left">
+			<!-- Normal jump x2-->
+			<frame index="10" delay="45" offsetY="-1"/>
+			<frame index="11" delay="45" offsetY="-1"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-4"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-4"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-2"/>
+			<frame index="12" delay="45" offsetY="-1"/>
+			<frame index="11" delay="45" offsetY="-1"/>
+			<!-- Turning jump -->
+			<frame index="10" delay="50" offsetY="-1"/>
+			<frame index="11" delay="50" offsetY="-1"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-4"/>
+			<frame index="11" delay="60" offsetY="-5"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="17" delay="80" offsetY="-5"/>
+			<frame index="27" delay="80" offsetY="-4"/>
+			<frame index="12" delay="60" offsetY="-3"/>
+			<frame index="11" delay="50" offsetY="-2"/>
+			<frame index="10" delay="50" offsetY="-1"/>
+			<!-- Normal jump x1-->
+			<frame index="11" delay="45" offsetY="-1"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-4"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-1"/>
+			<!-- Back turning jump -->
+			<frame index="10" delay="50" offsetY="-1"/>
+			<frame index="11" delay="50" offsetY="-1"/>
+			<frame index="12" delay="45" offsetY="-2"/>
+			<frame index="11" delay="45" offsetY="-3"/>
+			<frame index="12" delay="45" offsetY="-4"/>
+			<frame index="11" delay="60" offsetY="-5"/>
+			<frame index="27" delay="80" offsetY="-6"/>
+			<frame index="17" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-5"/>
+			<frame index="32" delay="80" offsetY="-4"/>
+			<frame index="12" delay="60" offsetY="-3"/>
+			<frame index="11" delay="50" offsetY="-2"/>
+			<frame index="10" delay="50" offsetY="-1"/>
+		</animation>
+
+		<animation direction="up">
+			<!-- Normal jump x2-->
+			<frame index="15" delay="45" offsetY="-1"/>
+			<frame index="16" delay="45" offsetY="-1"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-4"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-4"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-2"/>
+			<frame index="17" delay="45" offsetY="-1"/>
+			<frame index="16" delay="45" offsetY="-1"/>
+			<!-- Turning jump -->
+			<frame index="15" delay="50" offsetY="-1"/>
+			<frame index="16" delay="50" offsetY="-1"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-4"/>
+			<frame index="16" delay="60" offsetY="-5"/>
+			<frame index="27" delay="80" offsetY="-6"/>
+			<frame index="12" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-5"/>
+			<frame index="22" delay="80" offsetY="-4"/>
+			<frame index="17" delay="60" offsetY="-3"/>
+			<frame index="16" delay="50" offsetY="-2"/>
+			<frame index="15" delay="50" offsetY="-1"/>
+			<!-- Normal jump x1-->
+			<frame index="16" delay="45" offsetY="-1"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-4"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-1"/>
+			<!-- Back turning jump -->
+			<frame index="15" delay="50" offsetY="-1"/>
+			<frame index="16" delay="50" offsetY="-1"/>
+			<frame index="17" delay="45" offsetY="-2"/>
+			<frame index="16" delay="45" offsetY="-3"/>
+			<frame index="17" delay="45" offsetY="-4"/>
+			<frame index="16" delay="60" offsetY="-5"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="12" delay="80" offsetY="-5"/>
+			<frame index="27" delay="80" offsetY="-4"/>
+			<frame index="17" delay="60" offsetY="-3"/>
+			<frame index="16" delay="50" offsetY="-2"/>
+			<frame index="15" delay="50" offsetY="-1"/>
+		</animation>
+
+		<animation direction="upright">
+			<!-- Normal jump x2-->
+			<frame index="20" delay="45" offsetY="-1"/>
+			<frame index="21" delay="45" offsetY="-1"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-4"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-4"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-2"/>
+			<frame index="22" delay="45" offsetY="-1"/>
+			<frame index="21" delay="45" offsetY="-1"/>
+			<!-- Turning jump -->
+			<frame index="20" delay="50" offsetY="-1"/>
+			<frame index="21" delay="50" offsetY="-1"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-4"/>
+			<frame index="21" delay="60" offsetY="-5"/>
+			<frame index="17" delay="80" offsetY="-6"/>
+			<frame index="27" delay="80" offsetY="-6"/>
+			<frame index="12" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-5"/>
+			<frame index="7" delay="80" offsetY="-4"/>
+			<frame index="22" delay="60" offsetY="-3"/>
+			<frame index="21" delay="50" offsetY="-2"/>
+			<frame index="20" delay="50" offsetY="-1"/>
+			<!-- Normal jump x1-->
+			<frame index="21" delay="45" offsetY="-1"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-4"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-1"/>
+			<!-- Back turning jump -->
+			<frame index="20" delay="50" offsetY="-1"/>
+			<frame index="21" delay="50" offsetY="-1"/>
+			<frame index="22" delay="45" offsetY="-2"/>
+			<frame index="21" delay="45" offsetY="-3"/>
+			<frame index="22" delay="45" offsetY="-4"/>
+			<frame index="21" delay="60" offsetY="-5"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="12" delay="80" offsetY="-6"/>
+			<frame index="27" delay="80" offsetY="-5"/>
+			<frame index="17" delay="80" offsetY="-4"/>
+			<frame index="22" delay="60" offsetY="-3"/>
+			<frame index="21" delay="50" offsetY="-2"/>
+			<frame index="20" delay="50" offsetY="-1"/>
+		</animation>
+
+		<animation direction="upleft">
+			<!-- Normal jump x2-->
+			<frame index="25" delay="45" offsetY="-1"/>
+			<frame index="26" delay="45" offsetY="-1"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-4"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-4"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-2"/>
+			<frame index="27" delay="45" offsetY="-1"/>
+			<frame index="26" delay="45" offsetY="-1"/>
+			<!-- Turning jump -->
+			<frame index="25" delay="50" offsetY="-1"/>
+			<frame index="26" delay="50" offsetY="-1"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-4"/>
+			<frame index="26" delay="60" offsetY="-5"/>
+			<frame index="12" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-5"/>
+			<frame index="17" delay="80" offsetY="-4"/>
+			<frame index="27" delay="60" offsetY="-3"/>
+			<frame index="26" delay="50" offsetY="-2"/>
+			<frame index="25" delay="50" offsetY="-1"/>
+			<!-- Normal jump x1-->
+			<frame index="26" delay="45" offsetY="-1"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-4"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-1"/>
+			<!-- Back turning jump -->
+			<frame index="25" delay="50" offsetY="-1"/>
+			<frame index="26" delay="50" offsetY="-1"/>
+			<frame index="27" delay="45" offsetY="-2"/>
+			<frame index="26" delay="45" offsetY="-3"/>
+			<frame index="27" delay="45" offsetY="-4"/>
+			<frame index="26" delay="60" offsetY="-5"/>
+			<frame index="17" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="32" delay="80" offsetY="-5"/>
+			<frame index="12" delay="80" offsetY="-4"/>
+			<frame index="27" delay="60" offsetY="-3"/>
+			<frame index="26" delay="50" offsetY="-2"/>
+			<frame index="25" delay="50" offsetY="-1"/>
+		</animation>
+
+		<animation direction="downleft">
+			<!-- Normal jump x2-->
+			<frame index="30" delay="45" offsetY="-1"/>
+			<frame index="31" delay="45" offsetY="-1"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-4"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-4"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-2"/>
+			<frame index="32" delay="45" offsetY="-1"/>
+			<frame index="31" delay="45" offsetY="-1"/>
+			<!-- Turning jump -->
+			<frame index="30" delay="50" offsetY="-1"/>
+			<frame index="31" delay="50" offsetY="-1"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-4"/>
+			<frame index="31" delay="60" offsetY="-5"/>
+			<frame index="2" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="17" delay="80" offsetY="-6"/>
+			<frame index="27" delay="80" offsetY="-5"/>
+			<frame index="12" delay="80" offsetY="-4"/>
+			<frame index="32" delay="60" offsetY="-3"/>
+			<frame index="31" delay="50" offsetY="-2"/>
+			<frame index="30" delay="50" offsetY="-1"/>
+			<!-- Normal jump x1-->
+			<frame index="31" delay="45" offsetY="-1"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-4"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-1"/>
+			<!-- Back turning jump -->
+			<frame index="30" delay="50" offsetY="-1"/>
+			<frame index="31" delay="50" offsetY="-1"/>
+			<frame index="32" delay="45" offsetY="-2"/>
+			<frame index="31" delay="45" offsetY="-3"/>
+			<frame index="32" delay="45" offsetY="-4"/>
+			<frame index="31" delay="60" offsetY="-5"/>
+			<frame index="12" delay="80" offsetY="-6"/>
+			<frame index="27" delay="80" offsetY="-6"/>
+			<frame index="17" delay="80" offsetY="-6"/>
+			<frame index="22" delay="80" offsetY="-6"/>
+			<frame index="7" delay="80" offsetY="-6"/>
+			<frame index="37" delay="80" offsetY="-5"/>
+			<frame index="2" delay="80" offsetY="-4"/>
+			<frame index="32" delay="60" offsetY="-3"/>
+			<frame index="31" delay="50" offsetY="-2"/>
+			<frame index="30" delay="50" offsetY="-1"/>
+		</animation>
+
 		<animation direction="downright">
-			<!-- Normal Jump x2 -->
+			<!-- Normal jump x2-->
 			<frame index="35" delay="45" offsetY="-1"/>
 			<frame index="36" delay="45" offsetY="-1"/>
 			<frame index="37" delay="45" offsetY="-2"/>
@@ -760,7 +759,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="36" delay="45" offsetY="-2"/>
 			<frame index="37" delay="45" offsetY="-1"/>
 			<frame index="36" delay="45" offsetY="-1"/>
-			<!-- Turning Jump -->
+			<!-- Turning jump -->
 			<frame index="35" delay="50" offsetY="-1"/>
 			<frame index="36" delay="50" offsetY="-1"/>
 			<frame index="37" delay="45" offsetY="-2"/>
@@ -777,7 +776,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="37" delay="60" offsetY="-3"/>
 			<frame index="36" delay="50" offsetY="-2"/>
 			<frame index="35" delay="50" offsetY="-1"/>
-			<!-- Normal Jump x1 -->
+			<!-- Normal jump x1-->
 			<frame index="36" delay="45" offsetY="-1"/>
 			<frame index="37" delay="45" offsetY="-2"/>
 			<frame index="36" delay="45" offsetY="-3"/>
@@ -785,7 +784,7 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="36" delay="45" offsetY="-3"/>
 			<frame index="37" delay="45" offsetY="-2"/>
 			<frame index="36" delay="45" offsetY="-1"/>
-			<!-- Back Turning Jump -->
+			<!-- Back turning jump -->
 			<frame index="35" delay="50" offsetY="-1"/>
 			<frame index="36" delay="50" offsetY="-1"/>
 			<frame index="37" delay="45" offsetY="-2"/>
@@ -806,10 +805,10 @@ Copyright (C) 2011 Evol Online -->
 
 	</action>
 
-	<action name="attack" imageset="mob">
+	<action name="attack" imageset="piou">
 
 		<animation direction="down">
-			<!-- Runs to the player, bits him and goes back to his place. -->
+			<!-- Running to the player, bitting and goes back to his place -->
 			<frame index="0" delay="60" offsetY="2"/>
 			<frame index="1" delay="60" offsetY="4"/>
 			<frame index="2" delay="60" offsetY="6"/>
@@ -820,20 +819,20 @@ Copyright (C) 2011 Evol Online -->
 			<end />
 		</animation>
 
-		<animation direction="downleft">
-			<!-- Runs to the player, bits him and goes back to his place. -->
-			<frame index="30" delay="60" offsetX="-2" offsetY="2"/>
-			<frame index="31" delay="60" offsetX="-4" offsetY="4"/>
-			<frame index="32" delay="60" offsetX="-6" offsetY="6"/>
-			<frame index="33" delay="60" offsetX="-8" offsetY="8"/>
-			<frame index="31" delay="40" offsetX="-6" offsetY="6"/>
-			<frame index="31" delay="40" offsetX="-4" offsetY="4"/>
-			<frame index="30" delay="40" offsetX="-2" offsetY="2"/>
+		<animation direction="right">
+			<!-- Running to the player, bitting and goes back to his place -->
+			<frame index="5" delay="60" offsetX="2"/>
+			<frame index="6" delay="60" offsetX="4"/>
+			<frame index="7" delay="60" offsetX="6"/>
+			<frame index="8" delay="60" offsetX="8"/>
+			<frame index="6" delay="40" offsetX="6"/>
+			<frame index="6" delay="40" offsetX="4"/>
+			<frame index="5" delay="40" offsetX="2"/>
 			<end />
 		</animation>
 
 		<animation direction="left">
-			<!-- Runs to the player, bits him and goes back to his place. -->
+			<!-- Running to the player, bitting and goes back to his place -->
 			<frame index="10" delay="60" offsetX="-2"/>
 			<frame index="11" delay="60" offsetX="-4"/>
 			<frame index="12" delay="60" offsetX="-6"/>
@@ -844,20 +843,8 @@ Copyright (C) 2011 Evol Online -->
 			<end />
 		</animation>
 
-		<animation direction="upleft">
-			<!-- Runs to the player, bits him and goes back to his place. -->
-			<frame index="25" delay="60" offsetX="-2" offsetY="-2"/>
-			<frame index="26" delay="60" offsetX="-4" offsetY="-4"/>
-			<frame index="27" delay="60" offsetX="-6" offsetY="-6"/>
-			<frame index="28" delay="60" offsetX="-8" offsetY="-8"/>
-			<frame index="26" delay="40" offsetX="-6" offsetY="-6"/>
-			<frame index="26" delay="40" offsetX="-4" offsetY="-4"/>
-			<frame index="25" delay="40" offsetX="-2" offsetY="-2"/>
-			<end />
-		</animation>
-
 		<animation direction="up">
-			<!-- Runs to the player, bits him and goes back to his place. -->
+			<!-- Running to the player, bitting and goes back to his place -->
 			<frame index="15" delay="60" offsetY="-2"/>
 			<frame index="16" delay="60" offsetY="-4"/>
 			<frame index="17" delay="60" offsetY="-6"/>
@@ -869,7 +856,7 @@ Copyright (C) 2011 Evol Online -->
 		</animation>
 
 		<animation direction="upright">
-			<!-- Runs to the player, bits him and goes back to his place. -->
+			<!-- Running to the player, bitting and goes back to his place -->
 			<frame index="20" delay="60" offsetX="2" offsetY="-2"/>
 			<frame index="21" delay="60" offsetX="4" offsetY="-4"/>
 			<frame index="22" delay="60" offsetX="6" offsetY="-6"/>
@@ -880,20 +867,32 @@ Copyright (C) 2011 Evol Online -->
 			<end />
 		</animation>
 
-		<animation direction="right">
-			<!-- Runs to the player, bits him and goes back to his place. -->
-			<frame index="5" delay="60" offsetX="2"/>
-			<frame index="6" delay="60" offsetX="4"/>
-			<frame index="7" delay="60" offsetX="6"/>
-			<frame index="8" delay="60" offsetX="8"/>
-			<frame index="6" delay="40" offsetX="6"/>
-			<frame index="6" delay="40" offsetX="4"/>
-			<frame index="5" delay="40" offsetX="2"/>
+		<animation direction="upleft">
+			<!-- Running to the player, bitting and goes back to his place -->
+			<frame index="25" delay="60" offsetX="-2" offsetY="-2"/>
+			<frame index="26" delay="60" offsetX="-4" offsetY="-4"/>
+			<frame index="27" delay="60" offsetX="-6" offsetY="-6"/>
+			<frame index="28" delay="60" offsetX="-8" offsetY="-8"/>
+			<frame index="26" delay="40" offsetX="-6" offsetY="-6"/>
+			<frame index="26" delay="40" offsetX="-4" offsetY="-4"/>
+			<frame index="25" delay="40" offsetX="-2" offsetY="-2"/>
+			<end />
+		</animation>
+
+		<animation direction="downleft">
+			<!-- Running to the player, bitting and goes back to his place -->
+			<frame index="30" delay="60" offsetX="-2" offsetY="2"/>
+			<frame index="31" delay="60" offsetX="-4" offsetY="4"/>
+			<frame index="32" delay="60" offsetX="-6" offsetY="6"/>
+			<frame index="33" delay="60" offsetX="-8" offsetY="8"/>
+			<frame index="31" delay="40" offsetX="-6" offsetY="6"/>
+			<frame index="31" delay="40" offsetX="-4" offsetY="4"/>
+			<frame index="30" delay="40" offsetX="-2" offsetY="2"/>
 			<end />
 		</animation>
 
 		<animation direction="downright">
-			<!-- Runs to the player, bits him and goes back to his place. -->
+			<!-- Running to the player, bitting and goes back to his place -->
 			<frame index="35" delay="60" offsetX="2" offsetY="2"/>
 			<frame index="36" delay="60" offsetX="4" offsetY="4"/>
 			<frame index="37" delay="60" offsetX="6" offsetY="6"/>
@@ -906,22 +905,18 @@ Copyright (C) 2011 Evol Online -->
 
 	</action>
 
-	<action name="dead" imageset="mob">
+	<action name="dead" imageset="piou">
 
 		<animation direction="down">
 			<frame index="4"/>
 		</animation>
 
-		<animation direction="downleft">
-			<frame index="34"/>
+		<animation direction="right">
+			<frame index="9"/>
 		</animation>
 
 		<animation direction="left">
 			<frame index="14"/>
-		</animation>
-
-		<animation direction="upleft">
-			<frame index="29"/>
 		</animation>
 
 		<animation direction="up">
@@ -932,8 +927,12 @@ Copyright (C) 2011 Evol Online -->
 			<frame index="24"/>
 		</animation>
 
-		<animation direction="right">
-			<frame index="9"/>
+		<animation direction="upleft">
+			<frame index="29"/>
+		</animation>
+
+		<animation direction="downleft">
+			<frame index="34"/>
 		</animation>
 
 		<animation direction="downright">
