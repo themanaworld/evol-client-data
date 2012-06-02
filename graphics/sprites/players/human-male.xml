@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
-<!-- Original Author possible tmw, tmw br, ufb projects
+
+<!-- Author from TMW, TMW BR or UFB projects.
 Copyright (C) 2010-2012 Evol Online -->
+
 <sprite name="player" action="stand">
 
 	<imageset name="base" src="graphics/sprites/players/human-male.png" width="64" height="64"/>
@@ -17,21 +19,6 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 		<animation direction="right">
 			<frame index="54"/>
-		</animation>
-	</action>
-
-	<action name="walk" imageset="base">
-		<animation direction="down">
-			<sequence start="1" end="6" delay="75"/>
-		</animation>
-		<animation direction="left">
-			<sequence start="19" end="24" delay="75"/>
-		</animation>
-		<animation direction="up">
-			<sequence start="37" end="42" delay="75"/>
-		</animation>
-		<animation direction="right">
-			<sequence start="55" end="60" delay="75"/>
 		</animation>
 	</action>
 
@@ -65,18 +52,18 @@ Copyright (C) 2010-2012 Evol Online -->
 		</animation>
 	</action>
 
-	<action name="dead" imageset="base">
+	<action name="walk" imageset="base">
 		<animation direction="down">
-			<frame index="8"/>
+			<sequence start="1" end="6" delay="75"/>
 		</animation>
 		<animation direction="left">
-			<frame index="26"/>
+			<sequence start="19" end="24" delay="75"/>
 		</animation>
 		<animation direction="up">
-			<frame index="44"/>
+			<sequence start="37" end="42" delay="75"/>
 		</animation>
 		<animation direction="right">
-			<frame index="62"/>
+			<sequence start="55" end="60" delay="75"/>
 		</animation>
 	</action>
 
@@ -115,6 +102,21 @@ Copyright (C) 2010-2012 Evol Online -->
 		<animation direction="right">
 			<sequence start="67" end="71" delay="75"/>
 			<end />
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<frame index="8"/>
+		</animation>
+		<animation direction="left">
+			<frame index="26"/>
+		</animation>
+		<animation direction="up">
+			<frame index="44"/>
+		</animation>
+		<animation direction="right">
+			<frame index="62"/>
 		</animation>
 	</action>
 

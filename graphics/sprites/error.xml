@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<!-- Original Author possible tmw, tmw br, ufb projects
-Copyright (C) 2010-2011  Evol Online -->
+
+<!-- Author from TMW, TMW BR or UFB projects.
+Copyright (C) 2010-2011 Evol Online -->
+
 <sprite>
-	<imageset name="base" src="graphics/sprites/error.png" width="29" height="9" />
+	<imageset name="error" src="graphics/sprites/error.png" width="29" height="9"/>
 	
-	<action name="default" imageset="base">
+	<action name="default" imageset="error">
 		<animation direction="default">
-			<frame index="0" />
+			<frame index="0"/>
 		</animation>
 	</action>
 </sprite>

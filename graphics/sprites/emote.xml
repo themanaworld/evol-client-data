@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<!-- Original Author possible tmw, tmw br, ufb projects
-Copyright (C) 2010-2012  Evol Online -->
-<sprite variants="15" variant_offset="1">
-	<imageset name="base" src="graphics/sprites/emote.png" width="30" height="32" />
 
-	<action name="stand" imageset="base">
+<!-- Author from TMW, TMW BR or UFB projects.
+Copyright (C) 2010-2012 Evol Online -->
+
+<sprite variants="15" variant_offset="1">
+	<imageset name="emote" src="graphics/sprites/emote.png" width="30" height="32"/>
+
+	<action name="stand" imageset="emote">
 		<animation direction="default">
-			<frame index="0" />
+			<frame index="0"/>
 		</animation>
 	</action>
 </sprite>

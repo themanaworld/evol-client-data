@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
-<!-- Copyright (C) 2010-2012 Evol Online
-Author : Reid, Piman, 4144.
 
+<!-- Authors: Reid, Piman, 4144.
+Copyright (C) 2010-2012 Evol Online -->
+
+<!--
 New management (04/12/11).
--0 -99 = Hairstyles
--100 -infiny = Races
-30 500 = Weapons animation
-501 699 = Usable items
-700 999 = Common items
-1000 1299 = Necklaces
-1300 1799 = Chests
-1800 1999 = Boots
-2000 2199 = Gloves
-2200 2499 = Pants
-2500 2699 = Wings
-2700 2899 = Shields
-2900 3199 = Heads
-3200 3499 = Neck
-3500 + = Weapons
+-0	-99		Hairstyles
+-100	-200		Races
+30	500		Weapons animation
+501	699		Usable items
+700	999		Common items
+1000	1299		Necklaces
+1300	1799		Chests
+1800	1999		Boots
+2000	2199		Gloves
+2200	2499		Pants
+2500	2699		Wings
+2700	2899		Shields
+2900	3199		Heads
+3200	3499		Neck
+3500	3700		Weapons
 
-Multiple's colors dye is now setted up by itemcolors.xml.
+Dyable equipment colors are now setted up by itemcolors.xml.
 -->
 
 <items>

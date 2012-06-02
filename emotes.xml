@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+
+<!-- Authors: The Mana World & Evol Online.
+Copyright (C) 2010-2012 Evol Online -->
+
 <emotes>
 	<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 		<its:translateRule selector="//emote/@name" translate="yes"/>
@@ -6,8 +10,7 @@
 		<its:translateRule selector="//*" translate="no"/>
 	</its:rules>
 
-	<!-- Important note that the sprite tags are purely for
-		 backwards compatibility -->
+	<!-- The sprite tags are purely for backwards compatibility -->
 
 	<emote id="0"
 		name="Disgust"

@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2012  Evol Online -->
+
+<!-- Author: Reid.
+Copyright (C) 2012 Evol Online -->
+
 <sprite variants="5" variant_offset="1">
+	<imageset name="npc" src="graphics/sprites/npcs/sprite/npc.png|S" width="64" height="64"/>
 
-	<imageset name="base" src="graphics/sprites/npcs/sprite/npc.png|S" width="64" height="64" />
-
-	<action name="stand" imageset="base">
+	<action name="stand" imageset="npc">
 		<animation direction="default">
-			<frame index="0" />
+			<frame index="0"/>
 		</animation>
 	</action>
 

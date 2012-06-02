@@ -1,41 +1,44 @@
 <?xml version="1.0"?>
-<!-- Author : Reid 4144
-Copyright (C) 2011-2012  Evol Online
+<!-- Author: Reid & 4144.
+Copyright (C) 2011-2012  Evol Online -->
 
+<!--
 Example of the extended animation tags.
 Allow set in attribute value any frame numbers.
 
 Both of these examples show the same thing:
-	<sequence start="55" end="60" delay="75" />
-	<sequence value="55-60" delay="75" />
-	<sequence value="55,56,57,58,59,60" delay="75" /> -->
+	<sequence start="55" end="60" delay="75"/>
+	<sequence value="55-60" delay="75"/>
+	<sequence value="55,56,57,58,59,60" delay="75"/>
+-->
 
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/sprite/gugli.png" width="64" height="64" offsetX="-32"/>
+	<imageset name="npc" src="graphics/sprites/npcs/sprite/gugli.png" width="64" height="64" offsetX="-32"/>
 
-    <action name="stand" imageset="base">
+	<action name="stand" imageset="npc">
+		<animation direction="default">
 
-			<animation direction="default">
-				<label name="start"/>
-	<!-- 40% used on "long" label. -->
-				<goto label="long" rand="40"/>
-	<!-- 100% from the 60% unused percent are used on "simple" label. -->
-				<goto label="simple" rand="100"/>
-	<!-- Long move leg animation. -->
-				<label name="long"/>
-					<frame index="0" delay="120"/>
-					<sequence value="1,2" delay="110"/>
-					<frame index="3" delay="120"/>
-					<sequence value="2,1" delay="110"/>
-				<goto label="start"/>
-	<!-- Simple move leg animation. -->
-				<label name="simple"/>
-					<frame index="0" delay="120"/>
-					<frame index="1" delay="110"/>
-					<frame index="2" delay="120"/>
-					<frame index="1" delay="110"/>
-				<goto label="start"/>
-			</animation>
-    </action>
+			<label name="start"/>
+			<!-- 40% used on "long" label. -->
+			<goto label="long" rand="40"/>
+			<!-- 100% from the 60% unused percent are used on "simple" label. -->
+			<goto label="simple" rand="100"/>
 
+			<!-- Long move leg animation. -->
+			<label name="long"/>
+			<frame index="0" delay="120"/>
+			<sequence value="1,2" delay="110"/>
+			<frame index="3" delay="120"/>
+			<sequence value="2,1" delay="110"/>
+			<goto label="start"/>
+
+			<!-- Simple move leg animation. -->
+			<label name="simple"/>
+			<frame index="0" delay="120"/>
+			<frame index="1" delay="110"/>
+			<frame index="2" delay="120"/>
+			<frame index="1" delay="110"/>
+			<goto label="start"/>
+		</animation>
+	</action>
 </sprite>

@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2010-2011  Evol Online -->
+
+<!-- Author: Reid.
+Copyright (C) 2010-2011 Evol Online -->
+
 <sprite>
-	<imageset name="tinychar" src="graphics/sprites/icons/invisible.png" width="16" height="24" offsetX="-10"/>
+	<imageset name="icon" src="graphics/sprites/icons/invisible.png" width="16" height="24" offsetX="-10"/>
 	
-	<action name="default" imageset="tinychar">
+	<action name="default" imageset="icon">
 		<animation direction="default">
 			<frame index="0" delay="2000"/>
 			<sequence start="1" end="4" delay="100"/>
