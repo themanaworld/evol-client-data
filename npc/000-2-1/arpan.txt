@@ -78,7 +78,7 @@ l_EquipDone:
 
 }
 
-000-2-1.gat,41,37,0	script	Box	999,{
+000-2-1.gat,41,37,0	script	Box	999;2,{
     mesn "Narrator";
 
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
@@ -111,7 +111,7 @@ l_Empty:
 }
 
 
-000-2-1.gat,39,33,0,1	script	Magic Arpan	307,{
+000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 
 OnTalk:
     set @q, geta2(ShipQuests, ShipQuests_Arpan);

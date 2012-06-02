@@ -72,7 +72,7 @@ L_Rwin:
 
 }
 
-000-2-1.gat,60,35,0,1	script	Peter	303,{
+000-2-1.gat,60,35,0,1	script	Peter	303;3,{
 
     set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
     if (@q_julia == 0) goto L_TalkToJulia;

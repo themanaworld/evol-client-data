@@ -15,7 +15,7 @@
 //    2   You complete the quest.
 //    3   You open the chest, you complete the introduction.
 
-000-2-3.gat,25,24,0	script	Box	102,{
+000-2-3.gat,25,24,0	script	Box	102;1,{
 
     set @q, geta2(ShipQuests, ShipQuests_Nardbox);
 
