@@ -3,13 +3,13 @@
 <!-- Copyright (C) 2010 The Mana World Development Team
 Copyright (C) 2010-2011  Evol Online -->
 <effect>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "1"
+    <particle
+        position-x = "0"
+        position-y = "0"
+        position-z = "0"
+        lifetime = "1"
                 follow-parent = "0"
-		>
+        >
                 <!-- <property name="follow-parent" value="0"/> -->
                 <emitter><!-- <property name="follow-parent" value="0"/> -->
                   <property name="vertical-angle" value="90"/>
@@ -244,5 +244,5 @@ Copyright (C) 2010-2011  Evol Online -->
                   </emitter>
 
                 </emitter>
-	</particle>
+    </particle>
 </effect>

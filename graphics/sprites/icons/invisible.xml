@@ -2,22 +2,22 @@
 <!-- Author : Reid
 Copyright (C) 2010-2011  Evol Online -->
 <sprite>
-	<imageset name="tinychar" src="graphics/sprites/icons/invisible.png" width="16" height="24" offsetX="-10"/>
-	
-	<action name="default" imageset="tinychar">
-		<animation direction="default">
-			<frame index="0" delay="2000"/>
-			<sequence start="1" end="4" delay="100"/>
-			<frame index="0" delay="5000"/>
-			<sequence start="1" end="4" delay="100"/>
-			<frame index="0" delay="3000"/>
-			<frame index="7" delay="500"/>
-			<frame index="0" delay="3000"/>
-			<sequence start="5" end="6" delay="50" repeat="5"/>
-			<frame index="0" delay="3000"/>
-			<frame index="7" delay="300"/>
-			<frame index="0" delay="5000"/>
-			<frame index="7" delay="200"/>
-		</animation>
-	</action>
+    <imageset name="tinychar" src="graphics/sprites/icons/invisible.png" width="16" height="24" offsetX="-10"/>
+    
+    <action name="default" imageset="tinychar">
+        <animation direction="default">
+            <frame index="0" delay="2000"/>
+            <sequence start="1" end="4" delay="100"/>
+            <frame index="0" delay="5000"/>
+            <sequence start="1" end="4" delay="100"/>
+            <frame index="0" delay="3000"/>
+            <frame index="7" delay="500"/>
+            <frame index="0" delay="3000"/>
+            <sequence start="5" end="6" delay="50" repeat="5"/>
+            <frame index="0" delay="3000"/>
+            <frame index="7" delay="300"/>
+            <frame index="0" delay="5000"/>
+            <frame index="7" delay="200"/>
+        </animation>
+    </action>
 </sprite>

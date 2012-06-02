@@ -8,31 +8,31 @@
 <!-- Copyright (C) 2010 The Mana World Development Team
 Copyright (C) 2010-2011  Evol Online -->
 <effect>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
+    <particle
+        position-x = "0"
+        position-y = "0"
+        position-z = "0"
                 lifetime = "1"
-		>
-		<emitter>
-			<property name="position-y" value="-16"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="0"/>
-			<property name="power" value="60"/>
-			<property name="lifetime" value="1"/>
-			<property name="output" value="130"/>
-			<emitter>
+        >
+        <emitter>
+            <property name="position-y" value="-16"/>
+            <property name="horizontal-angle" min="0" max="360"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" value="60"/>
+            <property name="lifetime" value="1"/>
+            <property name="output" value="130"/>
+            <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
-			</emitter>
-		</emitter>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
+            </emitter>
+        </emitter>
 
 
                 <emitter>
@@ -40,21 +40,21 @@ Copyright (C) 2010-2011  Evol Online -->
                   <property name="position-y" value="-35" />
                   <property name="lifetime" value="1" />
                   <emitter>
-		    <property name="horizontal-angle" value="180"/>
-		    <property name="vertical-angle" min="0" max="0"/>
-		    <property name="power" min="0" max="114"/>
+            <property name="horizontal-angle" value="180"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" min="0" max="114"/>
                     <property name="output" value="40"/>
                     <property name="lifetime" value="1"/>
                     <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
                     </emitter>
                   </emitter>
                 </emitter>
@@ -65,21 +65,21 @@ Copyright (C) 2010-2011  Evol Online -->
                   <property name="position-y" value="-35" />
                   <property name="lifetime" value="1" />
                   <emitter>
-		    <property name="horizontal-angle" value="36"/>
-		    <property name="vertical-angle" min="0" max="0"/>
-		    <property name="power" min="0" max="114"/>
+            <property name="horizontal-angle" value="36"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" min="0" max="114"/>
                     <property name="output" value="40"/>
                     <property name="lifetime" value="1"/>
                     <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
                     </emitter>
                   </emitter>
                 </emitter>
@@ -90,21 +90,21 @@ Copyright (C) 2010-2011  Evol Online -->
                   <property name="position-y" value="33" />
                   <property name="lifetime" value="1" />
                   <emitter>
-		    <property name="horizontal-angle" value="252"/>
-		    <property name="vertical-angle" min="0" max="0"/>
-		    <property name="power" min="0" max="114"/>
+            <property name="horizontal-angle" value="252"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" min="0" max="114"/>
                     <property name="output" value="40"/>
                     <property name="lifetime" value="1"/>
                     <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
                     </emitter>
                   </emitter>
                 </emitter>
@@ -114,21 +114,21 @@ Copyright (C) 2010-2011  Evol Online -->
                   <property name="position-x" value="0" />
                   <property name="lifetime" value="1" />
                   <emitter>
-		    <property name="horizontal-angle" value="108"/>
-		    <property name="vertical-angle" min="0" max="0"/>
-		    <property name="power" min="0" max="114"/>
+            <property name="horizontal-angle" value="108"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" min="0" max="114"/>
                     <property name="output" value="40"/>
                     <property name="lifetime" value="1"/>
                     <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
                     </emitter>
                   </emitter>
                 </emitter>
@@ -139,25 +139,25 @@ Copyright (C) 2010-2011  Evol Online -->
                   <property name="position-y" value="33" />
                   <property name="lifetime" value="1" />
                   <emitter>
-		    <property name="horizontal-angle" value="324"/>
-		    <property name="vertical-angle" min="0" max="0"/>
-		    <property name="power" min="0" max="114"/>
+            <property name="horizontal-angle" value="324"/>
+            <property name="vertical-angle" min="0" max="0"/>
+            <property name="power" min="0" max="114"/>
                     <property name="output" value="40"/>
                     <property name="lifetime" value="1"/>
                     <emitter>
                           <property name="gravity" min="-0.005" max="-0.002"/>
-			  <property name="horizontal-angle" min="0" max="360"/>
-			  <property name="vertical-angle" min="80" max="100"/>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="80" max="100"/>
                           <property name="power" min="0.01" max="0.4"/>
-			  <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
-			  <property name="lifetime" value="120"/>
-			  <property name="fade-in" value="5"/>
-			  <property name="fade-out" value="80"/>
-			  <property name="output" value="1"/>
+              <property name="image" value="graphics/particles/orb-medium.png|W:#800000,d02020"/>
+              <property name="lifetime" value="120"/>
+              <property name="fade-in" value="5"/>
+              <property name="fade-out" value="80"/>
+              <property name="output" value="1"/>
                     </emitter>
                   </emitter>
                 </emitter>
 
-	</particle>
+    </particle>
 </effect>
 
