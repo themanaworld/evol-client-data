@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!-- Original Author : Reid
-Copyright (C) 2011  Evol Online -->
+Copyright (C) 2011-2012  Evol Online -->
 
 <sprite>
-    <imageset name="egg" src="graphics/sprites/accessories/piousse-egg.png" width="11" height="11" offsetY="-12"/>
+    <imageset name="acc" src="graphics/sprites/accessories/piousse-egg.png" width="11" height="11" offsetY="-12"/>
 
-    <action name="spawn" imageset="egg">
+    <action name="spawn" imageset="acc">
 
         <animation>
             <frame index="9" delay="20" offsetY="-86"/>
@@ -32,17 +32,17 @@ Copyright (C) 2011  Evol Online -->
             <frame index="9" delay="55" offsetY="-6"/>
             <frame index="9" delay="55" offsetY="-3"/>
             <frame index="9" delay="60" offsetY="-1"/>
-            <jump action="stand" />
+            <jump action="stand"/>
         </animation>
 
     </action>
 
-    <action name="stand" imageset="egg">
+    <action name="stand" imageset="acc">
 
         <animation direction="down">
-            <!-- static -->
+            <!-- Static -->
             <frame index="0" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="0" delay="130" offsetY="-1"/>
             <frame index="0" delay="130"/>
             <frame index="0" delay="130" offsetY="-1"/>
@@ -50,15 +50,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="0" delay="130" offsetY="-1"/>
             <frame index="0" delay="130"/>
             <frame index="0" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="0" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="6" delay="350"/>
             <frame index="0" delay="500"/>
             <frame index="7" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="0" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="0" delay="50" offsetY="-1"/>
             <frame index="0" delay="50" offsetY="-2"/>
             <frame index="0" delay="50" offsetX="1" offsetY="-4"/>
@@ -78,9 +78,9 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="right">
-            <!-- static -->
+            <!-- Static -->
             <frame index="1" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="1" delay="130" offsetY="-1"/>
             <frame index="1" delay="130"/>
             <frame index="1" delay="130" offsetY="-1"/>
@@ -88,15 +88,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="1" delay="130" offsetY="-1"/>
             <frame index="1" delay="130"/>
             <frame index="1" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="1" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="4" delay="350"/>
             <frame index="1" delay="500"/>
             <frame index="7" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="1" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="1" delay="50" offsetY="-1"/>
             <frame index="1" delay="50" offsetY="-2"/>
             <frame index="1" delay="50" offsetX="1" offsetY="-4"/>
@@ -116,9 +116,9 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="left">
-            <!-- static -->
+            <!-- Static -->
             <frame index="2" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="2" delay="130" offsetY="-1"/>
             <frame index="2" delay="130"/>
             <frame index="2" delay="130" offsetY="-1"/>
@@ -126,15 +126,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="2" delay="130" offsetY="-1"/>
             <frame index="2" delay="130"/>
             <frame index="2" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="2" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="5" delay="350"/>
             <frame index="2" delay="500"/>
             <frame index="6" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="2" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="2" delay="50" offsetY="-1"/>
             <frame index="2" delay="50" offsetY="-2"/>
             <frame index="2" delay="50" offsetX="1" offsetY="-4"/>
@@ -154,9 +154,9 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="up">
-            <!-- static -->
+            <!-- Static -->
             <frame index="3" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="3" delay="130" offsetY="-1"/>
             <frame index="3" delay="130"/>
             <frame index="3" delay="130" offsetY="-1"/>
@@ -164,15 +164,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="3" delay="130" offsetY="-1"/>
             <frame index="3" delay="130"/>
             <frame index="3" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="3" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="4" delay="350"/>
             <frame index="3" delay="500"/>
             <frame index="5" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="3" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="3" delay="50" offsetY="-1"/>
             <frame index="3" delay="50" offsetY="-2"/>
             <frame index="3" delay="50" offsetX="1" offsetY="-4"/>
@@ -192,9 +192,9 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="upright">
-            <!-- static -->
+            <!-- Static -->
             <frame index="4" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="4" delay="130" offsetY="-1"/>
             <frame index="4" delay="130"/>
             <frame index="4" delay="130" offsetY="-1"/>
@@ -202,15 +202,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="4" delay="130" offsetY="-1"/>
             <frame index="4" delay="130"/>
             <frame index="4" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="4" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="1" delay="350"/>
             <frame index="4" delay="500"/>
             <frame index="3" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="4" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="4" delay="50" offsetY="-1"/>
             <frame index="4" delay="50" offsetY="-2"/>
             <frame index="4" delay="50" offsetX="1" offsetY="-4"/>
@@ -230,9 +230,9 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="upleft">
-            <!-- static -->
+            <!-- Static -->
             <frame index="5" delay="1300"/>
-            <!-- eating animation -->
+            <!-- Eating animation -->
             <frame index="5" delay="130" offsetY="-1"/>
             <frame index="5" delay="130"/>
             <frame index="5" delay="130" offsetY="-1"/>
@@ -240,15 +240,15 @@ Copyright (C) 2011  Evol Online -->
             <frame index="5" delay="130" offsetY="-1"/>
             <frame index="5" delay="130"/>
             <frame index="5" delay="130" offsetY="-1"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="5" delay="2130"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="2" delay="350"/>
             <frame index="5" delay="500"/>
             <frame index="3" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="5" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="5" delay="50" offsetY="-1"/>
             <frame index="5" delay="50" offsetY="-2"/>
             <frame index="5" delay="50" offsetX="1" offsetY="-4"/>
@@ -268,15 +268,15 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="downleft">
-            <!-- static -->
+            <!-- Static -->
             <frame index="6" delay="4340"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="2" delay="350"/>
             <frame index="6" delay="500"/>
             <frame index="0" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="6" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="6" delay="50" offsetY="-1"/>
             <frame index="6" delay="50" offsetY="-2"/>
             <frame index="6" delay="50" offsetX="1" offsetY="-4"/>
@@ -296,15 +296,15 @@ Copyright (C) 2011  Evol Online -->
         </animation>
 
         <animation direction="downright">
-            <!-- static -->
+            <!-- Static -->
             <frame index="7" delay="4340"/>
-            <!-- looking around -->
+            <!-- Looking around -->
             <frame index="1" delay="350"/>
             <frame index="7" delay="500"/>
             <frame index="0" delay="400"/>
-            <!-- static -->
+            <!-- Static -->
             <frame index="7" delay="3260"/>
-            <!-- jumping and turning on hiself-->
+            <!-- Jumping and turning on hiself-->
             <frame index="7" delay="50" offsetY="-1"/>
             <frame index="7" delay="50" offsetY="-2"/>
             <frame index="7" delay="50" offsetX="1" offsetY="-4"/>
@@ -325,7 +325,7 @@ Copyright (C) 2011  Evol Online -->
 
     </action>
 
-    <action name="walk" imageset="egg">
+    <action name="walk" imageset="acc">
 
         <animation direction="down">
             <!-- Normal jump x2-->
@@ -703,7 +703,7 @@ Copyright (C) 2011  Evol Online -->
 
     </action>
 
-    <action name="attack" imageset="egg">
+    <action name="attack" imageset="acc">
 
         <animation direction="down">
             <!-- Running to the player, bitting and goes back to his place -->
@@ -714,7 +714,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="0" delay="40" offsetY="6"/>
             <frame index="0" delay="40" offsetY="4"/>
             <frame index="0" delay="40" offsetY="2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="right">
@@ -726,7 +726,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="1" delay="40" offsetX="6"/>
             <frame index="1" delay="40" offsetX="4"/>
             <frame index="1" delay="40" offsetX="2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="left">
@@ -738,7 +738,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="2" delay="40" offsetX="-6"/>
             <frame index="2" delay="40" offsetX="-4"/>
             <frame index="2" delay="40" offsetX="-2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="up">
@@ -750,7 +750,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="3" delay="40" offsetY="-6"/>
             <frame index="3" delay="40" offsetY="-4"/>
             <frame index="3" delay="40" offsetY="-2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="upright">
@@ -762,7 +762,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="4" delay="40" offsetX="6" offsetY="-6"/>
             <frame index="4" delay="40" offsetX="4" offsetY="-4"/>
             <frame index="4" delay="40" offsetX="2" offsetY="-2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="upleft">
@@ -774,7 +774,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="5" delay="40" offsetX="-6" offsetY="-6"/>
             <frame index="5" delay="40" offsetX="-4" offsetY="-4"/>
             <frame index="5" delay="40" offsetX="-2" offsetY="-2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="downleft">
@@ -786,7 +786,7 @@ Copyright (C) 2011  Evol Online -->
             <frame index="6" delay="40" offsetX="-6" offsetY="6"/>
             <frame index="6" delay="40" offsetX="-4" offsetY="4"/>
             <frame index="6" delay="40" offsetX="-2" offsetY="2"/>
-            <end />
+            <end/>
         </animation>
 
         <animation direction="downright">
@@ -798,12 +798,12 @@ Copyright (C) 2011  Evol Online -->
             <frame index="7" delay="40" offsetX="6" offsetY="6"/>
             <frame index="7" delay="40" offsetX="4" offsetY="4"/>
             <frame index="7" delay="40" offsetX="2" offsetY="2"/>
-            <end />
+            <end/>
         </animation>
 
     </action>
 
-    <action name="dead" imageset="egg">
+    <action name="dead" imageset="acc">
 
         <animation>
             <frame index="8"/>
