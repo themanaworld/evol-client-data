@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2011  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/sprite/silvio.png" width="36" height="49" />
-    <action name="stand" imageset="base">
+    <imageset name="npc" src="graphics/sprites/npcs/sprite/silvio.png" width="36" height="49"/>
+
+    <action name="stand" imageset="npc">
         <animation direction="default">
             <frame index="0" delay="7000"/>
             <frame index="1" delay="60"/>

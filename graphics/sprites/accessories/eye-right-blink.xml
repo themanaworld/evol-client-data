@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Original Author : Reid
+<!-- Author: Reid
 Copyright (C) 2011-2012  Evol Online -->
 <sprite>
-    <imageset name="eye" src="graphics/sprites/accessories/eye-right-blink.png" width="5" height="5" offsetX="4" offsetY="-45"/>
+    <imageset name="acc" src="graphics/sprites/accessories/eye-right-blink.png" width="5" height="5" offsetX="4" offsetY="-45"/>
 
-    <action name="stand" imageset="eye">
-
+    <action name="stand" imageset="acc">
             <animation direction="default">
             <frame index="0" delay="7000"/>
             <frame index="1" delay="60"/>
@@ -14,7 +13,5 @@ Copyright (C) 2011-2012  Evol Online -->
             <frame index="1" delay="60"/>
             <frame index="2" delay="80"/>
             </animation>
-
     </action>
-
 </sprite>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Original Author : Reid
-Copyright (C) 2012  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
 <sprite>
-    <imageset name="croconut" src="graphics/sprites/monsters/croconut.png" width="18" height="18" offsetY="-61"/>
+    <imageset name="acc" src="graphics/sprites/monsters/croconut.png" width="18" height="18" offsetY="-61"/>
 
-        <action name="stand" imageset="croconut">
-
+        <action name="stand" imageset="acc">
             <animation direction="default">
                 <frame index="1" delay="4211"/>
                 <frame index="0" delay="120"/>
@@ -63,7 +62,5 @@ Copyright (C) 2012  Evol Online -->
                 <frame index="1" delay="3670"/>
             <!-- Animation is too long. -->
             </animation>
-
     </action>
-
 </sprite>

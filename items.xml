@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
-<!-- Copyright (C) 2010-2012 Evol Online
-Author : Reid, Piman, 4144.
+<!-- Authors: Reid & Piman & 4144
+Copyright (C) 2010-2012 Evol Online -->
 
+<!--
 New management (04/12/11).
--0 -99 = Hairstyles
--100 -infiny = Races
-30 500 = Weapons animation
-501 699 = Usable items
-700 999 = Common items
-1000 1299 = Necklaces
-1300 1799 = Chests
-1800 1999 = Boots
-2000 2199 = Gloves
-2200 2499 = Pants
-2500 2699 = Wings
-2700 2899 = Shields
-2900 3199 = Heads
-3200 3499 = Neck
-3500 + = Weapons
+-0      -99 = Hairstyles
+-100    -infiny = Races
+30      500  = Weapon Animations
+501     699  = Usable Items
+700     999  = Generic Items
+1000    1299 = Necklaces
+1300    1799 = Chest Armors
+1800    1999 = Boots
+2000    2199 = Gloves
+2200    2499 = Pants
+2500    2699 = Wings
+2700    2899 = Shields
+2900    3199 = Head Gears
+3200    3499 = Neck Armors
+3500+        = Weapons
 
-Multiple's colors dye is now setted up by itemcolors.xml.
+Colors for dyable equipments or items are now set up by itemcolors.xml.
 -->
 
 <items>
@@ -34,7 +35,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
     </its:rules>
 
 
-    <!-- Hairsprites -->
+    <!-- Hairstyles -->
     <item id="-1" type="hairsprite" name="Bald">
         <sprite>hairstyles/hairstyle01.xml</sprite>
     </item>
@@ -147,7 +148,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         <sprite gender="female">players/tritan-female.xml</sprite>
     </item>
 
-    <!-- Weapons -->
+    <!-- Weapon Animations -->
     <item id="30"
         type="other"
         weapon_type="12">
@@ -203,7 +204,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
     </item>
 
 
-    <!-- Usable -->
+    <!-- Usable Items -->
     <item id="501"
         image="usable/acorn.png"
         name="Acorn"
@@ -274,7 +275,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         effect="+1 HP, Headache"
         type="usable"
         weight="2"/>
-<!--    <item id="511"
+<!--<item id="511"
         image="usable/blobime.png|S:#686868,to,919191,to,bababa,to,dcdcdc,to"
         name="Purple Blobime"
         description="Some purple residue dropped by a Blub."
@@ -296,7 +297,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         weight="30"/>
 
 
-    <!-- Generic -->
+    <!-- Generic Items -->
     <item id="700"
         image="generic/smalltentacles.png"
         name="Small Tentacles"
@@ -377,7 +378,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         weight="10"/>
 
 
-    <!-- Necklace 
+    <!-- Necklaces
     <item id="1000"
         image="equipment/amulet/.png"
         name=""
@@ -387,7 +388,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         weight=""/> -->
 
 
-    <!-- Chest -->
+    <!-- Chest Armors -->
     <item id="1300"
         image="equipment/chest/cottonshirt.png|S:#3c3c3c,3e3c38,4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Worn Shirt"
@@ -484,7 +485,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
     </item> -->
 
 
-    <!-- Shield
+    <!-- Shields
     <item id="2700"
         image="equipment/shield/.png"
         name=""
@@ -496,7 +497,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
         <sprite>equipment/shield/</sprite>
     </item> -->
 
-    <!-- Head -->
+    <!-- Head Gears -->
     <item id="2900"
         image="equipment/head/bandana.png"
         name="Bandana"
@@ -519,7 +520,7 @@ Multiple's colors dye is now setted up by itemcolors.xml.
     </item>
 
 
-    <!-- Neck
+    <!-- Neck Armors
     <item id="3200"
         image="equipment/neck/.png"
         name=""

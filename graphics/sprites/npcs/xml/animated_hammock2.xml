@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2011-2012  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
 <sprite>
     <imageset name="npc" src="graphics/sprites/npcs/sprite/animated_hammock.png" width="96" height="64"/>
+
     <action name="stand" imageset="npc">
-        <!-- Mooving hammock. -->
+        <!-- Moving -->
         <animation direction="left">
             <frame index="7" delay="300"/>
             <frame index="6" delay="180"/>
@@ -13,7 +14,7 @@ Copyright (C) 2011-2012  Evol Online -->
             <frame index="5" delay="180"/>
             <frame index="6" delay="150"/>
         </animation>
-        <!-- Static hammock. -->
+        <!-- Static -->
         <animation direction="up">
             <frame index="7"/>
         </animation>

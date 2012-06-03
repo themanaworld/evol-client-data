@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author : Reid, Pad
-(C) Evol Online 2010-2012.
+<!-- Authors: Reid & Pad
+Copyright (C) 2010-2012 Evol Online -->
 
+<!--
 IDs 100-300 = Unanimated
 IDs 301-900 = Animated
 IDs 990-999 = Special
 -->
+
 <npcs>
-<!-- Unanimated NPCs -->
+    <!-- Unanimated NPCs -->
     <npc id="100">
           <!-- Knife-pit. -->
           <sprite variant="0">npcs/xml/smallnpc.xml</sprite>
@@ -41,9 +43,9 @@ IDs 990-999 = Special
           <sprite variant="4">npcs/xml/npc.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
      </npc>
 
-<!-- Animated NPCs -->
+    <!-- Animated NPCs -->
     <npc id="301">
-        <!-- Eye animation. -->
+        <!-- Eyes animation. -->
         <sprite>npcs/xml/alige.xml</sprite>
     </npc>
     <npc id="302">
@@ -51,11 +53,11 @@ IDs 990-999 = Special
         <sprite>npcs/xml/sleepingorc.xml</sprite>
     </npc>
     <npc id="303">
-        <!-- Human-Man, sailor with a ratto on his hand. -->
+        <!-- Human-Man, sailor with a ratto in his left hand. -->
         <sprite>npcs/xml/rattosailor.xml</sprite>
     </npc>
     <npc id="304">
-        <!-- Demon-Woman, take care about the ship. -->
+        <!-- Demon-Woman, takes care of the ship. -->
         <sprite>npcs/xml/julia.xml</sprite>
     </npc>
     <npc id="305">
@@ -71,8 +73,8 @@ IDs 990-999 = Special
         <sprite>npcs/xml/magic_arpan.xml</sprite>
     </npc>
     <npc id="308">
-        <!-- Piousrocket, sitting on his iron bar. -->
-        <sprite>npcs/xml/piousrocket.xml</sprite>
+        <!-- Piou Rocket, sitting on his iron bar. -->
+        <sprite>npcs/xml/piourocket.xml</sprite>
     </npc>
     <npc id="309">
         <!-- Human-Man, standing elmo. -->
@@ -109,8 +111,7 @@ IDs 990-999 = Special
         <sprite>accessories/croconut.xml</sprite>
     </npc>
 
-
-<!-- Special NPCs -->
+    <!-- Special NPCs -->
     <npc id="900">
           <!-- Savepoint, 32x32. -->
         <particlefx>graphics/particles/savepoint/savepoint-32x32.xml</particlefx>
@@ -126,7 +127,7 @@ IDs 990-999 = Special
 <!-- WIP     <npc id="903">
           Savepoint, 64x64. 
         <particlefx>graphics/particles/savepoint/savepoint-64x64.xml</particlefx>
-     </npc> -->
+     </npc>-->
     <npc id="904">
         <!-- Left hammock. -->
         <sprite>npcs/xml/animated_hammock1.xml</sprite>
@@ -141,12 +142,13 @@ IDs 990-999 = Special
         <particlefx>graphics/particles/savepoint/savepoint-32x32.xml</particlefx>
     </npc>
     <npc id="999">
-        <!-- blank NPC -->
+        <!-- Invisible NPC -->
     </npc>
 
 </npcs>
-<!-- Pad & Reid's work .. November 2010 -->
-<!-- Reid's wipe and redo .. April 2011 -->
-<!-- Reid's re-management of the shape .. May 2011 -->
-<!-- Reid's wipe .. November 2011 -->
-<!-- Reid's ship release .. December 2011 -->
+<!-- Pad & Reid's work - November 2010 -->
+<!-- Reid's wipe and redo - April 2011 -->
+<!-- Reid's re-management of the shape - May 2011 -->
+<!-- Reid's wipe - November 2011 -->
+<!-- Reid's Beta 1 release - December 2011 -->
+<!-- Reid's Beta 2 release - May 2012 -->

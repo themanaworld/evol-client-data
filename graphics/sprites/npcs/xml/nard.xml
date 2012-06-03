@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2012  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/sprite/nard.png" width="64" height="64" offsetX="16" />
-    <action name="stand" imageset="base">
+    <imageset name="npc" src="graphics/sprites/npcs/sprite/nard.png" width="64" height="64" offsetX="16"/>
+
+    <action name="stand" imageset="npc">
         <animation direction="default">
             <frame index="0" delay="10000"/>
             <frame index="1" delay="60"/>

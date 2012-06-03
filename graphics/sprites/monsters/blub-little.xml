@@ -1,488 +1,491 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Original Author : Reid
-Copyright (C) 2011  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
 <sprite>
-    <imageset name="octopus" src="graphics/sprites/monsters/blub-little.png" width="9" height="9" offsetY="-11"/>
+    <imageset name="mob" src="graphics/sprites/monsters/blub-little.png" width="9" height="9" offsetY="-11"/>
 
-    <action name="spawn" imageset="octopus">
+    <action name="spawn" imageset="mob">
 
         <animation>
-            <!-- octopus unhidding from the ground -->
-                <frame index="0" delay="200" offsetY="2"/>
-                <frame index="1" delay="150" offsetY="2"/>
-                <frame index="2" delay="250" offsetY="2"/>
-                <frame index="1" delay="150" offsetY="2"/>
-                <frame index="0" delay="130" offsetY="2"/>
-                <frame index="5" delay="150" offsetY="2"/>
-                <frame index="4" delay="250" offsetY="2"/>
-                <frame index="5" delay="150" offsetY="2"/>
-                <frame index="0" delay="200" offsetY="2"/>
-                <frame index="0" delay="160" offsetY="1"/>
-                <frame index="0" delay="140"/>
-                <jump action="stand" />
+            <!-- Coming out of the ground. -->
+            <frame index="0" delay="200" offsetY="2"/>
+            <frame index="1" delay="150" offsetY="2"/>
+            <frame index="2" delay="250" offsetY="2"/>
+            <frame index="1" delay="150" offsetY="2"/>
+            <frame index="0" delay="130" offsetY="2"/>
+            <frame index="5" delay="150" offsetY="2"/>
+            <frame index="4" delay="250" offsetY="2"/>
+            <frame index="5" delay="150" offsetY="2"/>
+            <frame index="0" delay="200" offsetY="2"/>
+            <frame index="0" delay="160" offsetY="1"/>
+            <frame index="0" delay="140"/>
+            <jump action="stand"/>
         </animation>
 
     </action>
-    <action name="stand" imageset="octopus">
+
+    <action name="stand" imageset="mob">
 
         <animation direction="down">
-            <!-- static -->
-                <frame index="0" delay="4000"/>
-            <!-- looking around -->
-                <frame index="1" delay="150"/>
-                <frame index="2" delay="250"/>
-                <frame index="1" delay="150"/>
-                <frame index="0" delay="130"/>
-                <frame index="5" delay="150"/>
-                <frame index="4" delay="250"/>
-                <frame index="5" delay="150"/>
-                <frame index="0" delay="200"/>
+            <!-- Static -->
+            <frame index="0" delay="4000"/>
+            <!-- Looking Around -->
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="250"/>
+            <frame index="1" delay="150"/>
+            <frame index="0" delay="130"/>
+            <frame index="5" delay="150"/>
+            <frame index="4" delay="250"/>
+            <frame index="5" delay="150"/>
+            <frame index="0" delay="200"/>
         </animation>
 
         <animation direction="downleft">
-            <!-- static -->
-                <frame index="1" delay="4000"/>
-            <!-- looking around -->
-                <frame index="0" delay="150"/>
-                <frame index="5" delay="250"/>
-                <frame index="0" delay="150"/>
-                <frame index="1" delay="130"/>
-                <frame index="2" delay="150"/>
-                <frame index="3" delay="250"/>
-                <frame index="2" delay="150"/>
-                <frame index="1" delay="200"/>
+            <!-- Static -->
+            <frame index="1" delay="4000"/>
+            <!-- Looking Around -->
+            <frame index="0" delay="150"/>
+            <frame index="5" delay="250"/>
+            <frame index="0" delay="150"/>
+            <frame index="1" delay="130"/>
+            <frame index="2" delay="150"/>
+            <frame index="3" delay="250"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="200"/>
         </animation>
 
         <animation direction="left">
-            <!-- static -->
-                <frame index="2" delay="4000"/>
-            <!-- looking around -->
-                <frame index="1" delay="150"/>
-                <frame index="0" delay="250"/>
-                <frame index="1" delay="150"/>
-                <frame index="2" delay="130"/>
-                <frame index="3" delay="700"/>
+            <!-- Static -->
+            <frame index="2" delay="4000"/>
+            <!-- Looking Around -->
+            <frame index="1" delay="150"/>
+            <frame index="0" delay="250"/>
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="130"/>
+            <frame index="3" delay="700"/>
 
         </animation>
 
         <animation direction="upleft">
-            <!-- static -->
-                <frame index="3" delay="5000"/>
-            <!-- looking around -->
-                <frame index="2" delay="150"/>
-                <frame index="1" delay="250"/>
-                <frame index="2" delay="150"/>
-                <frame index="3" delay="680"/>
+            <!-- Static -->
+            <frame index="3" delay="5000"/>
+            <!-- Looking Around -->
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="250"/>
+            <frame index="2" delay="150"/>
+            <frame index="3" delay="680"/>
         </animation>
 
         <animation direction="up">
-            <!-- static -->
-                <frame index="3" delay="5300"/>
-            <!-- looking around -->
-                <frame index="2" delay="250"/>
-                <frame index="3" delay="430"/>
-                <frame index="4" delay="250"/>
+            <!-- Static -->
+            <frame index="3" delay="5300"/>
+            <!-- Looking Around -->
+            <frame index="2" delay="250"/>
+            <frame index="3" delay="430"/>
+            <frame index="4" delay="250"/>
         </animation>
 
         <animation direction="upright">
-            <!-- static -->
-                <frame index="3" delay="5680"/>
-            <!-- looking around -->
-                <frame index="4" delay="150"/>
-                <frame index="5" delay="250"/>
-                <frame index="4" delay="150"/>
+            <!-- Static -->
+            <frame index="3" delay="5680"/>
+            <!-- Looking Around -->
+            <frame index="4" delay="150"/>
+            <frame index="5" delay="250"/>
+            <frame index="4" delay="150"/>
         </animation>
 
         <animation direction="right">
-            <!-- static -->
-                <frame index="4" delay="5000"/>
-            <!-- looking around -->
-                <frame index="3" delay="550"/>
-                <frame index="4" delay="130"/>
-                <frame index="5" delay="150"/>
-                <frame index="0" delay="250"/>
-                <frame index="5" delay="150"/>
+            <!-- Static -->
+            <frame index="4" delay="5000"/>
+            <!-- Looking Around -->
+            <frame index="3" delay="550"/>
+            <frame index="4" delay="130"/>
+            <frame index="5" delay="150"/>
+            <frame index="0" delay="250"/>
+            <frame index="5" delay="150"/>
         </animation>
 
         <animation direction="downright">
-            <!-- static -->
-                <frame index="5" delay="5000"/>
-            <!-- looking around -->
-                <frame index="4" delay="150"/>
-                <frame index="3" delay="250"/>
-                <frame index="4" delay="150"/>
-                <frame index="5" delay="130"/>
-                <frame index="0" delay="150"/>
-                <frame index="1" delay="250"/>
-                <frame index="0" delay="150"/>
+            <!-- Static -->
+            <frame index="5" delay="5000"/>
+            <!-- Looking Around -->
+            <frame index="4" delay="150"/>
+            <frame index="3" delay="250"/>
+            <frame index="4" delay="150"/>
+            <frame index="5" delay="130"/>
+            <frame index="0" delay="150"/>
+            <frame index="1" delay="250"/>
+            <frame index="0" delay="150"/>
 
         </animation>
 
     </action>
-    <action name="walk" imageset="octopus">
+
+    <action name="walk" imageset="mob">
 
         <animation direction="down">
-            <!-- static head -->
-                <frame index="0" delay="2080"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="0" delay="2080"/>
+            <!-- Turning Head -->
                 <sequence start="0" end="3" delay="130"/>
-                <frame index="3" delay="260"/>
+            <frame index="3" delay="260"/>
                 <sequence start="4" end="5" delay="130"/>
         </animation>
 
         <animation direction="downleft">
-            <!-- static head -->
-                <frame index="1" delay="2080"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="1" delay="2080"/>
+            <!-- Turning Head -->
                 <sequence start="1" end="3" delay="130"/>
-                <frame index="3" delay="260"/>
+            <frame index="3" delay="260"/>
                 <sequence start="4" end="5" delay="130"/>
-                <frame index="0" delay="130"/>
+            <frame index="0" delay="130"/>
         </animation>
 
         <animation direction="left">
-            <!-- static head -->
-                <frame index="2" delay="2210"/>
-            <!-- turning head-->
-                <frame index="3" delay="390"/>
+            <!-- Static Head -->
+            <frame index="2" delay="2210"/>
+            <!-- Turning Head -->
+            <frame index="3" delay="390"/>
                 <sequence start="4" end="5" delay="130"/>
                 <sequence start="0" end="1" delay="130"/>
         </animation>
 
         <animation direction="upleft">
-            <!-- static head -->
-                <frame index="3" delay="2470"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="3" delay="2470"/>
+            <!-- Turning Head -->
                 <sequence start="4" end="5" delay="130"/>
                 <sequence start="0" end="2" delay="130"/>
         </animation>
 
         <animation direction="up">
-            <!-- static head -->
-                <frame index="3" delay="2340"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="3" delay="2340"/>
+            <!-- Turning Head -->
                 <sequence start="4" end="5" delay="130"/>
                 <sequence start="0" end="3" delay="130"/>
         </animation>
 
         <animation direction="upright">
-            <!-- static head -->
-                <frame index="3" delay="2210"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="3" delay="2210"/>
+            <!-- Turning Head -->
                 <sequence start="4" end="5" delay="130"/>
                 <sequence start="0" end="2" delay="130"/>
-                <frame index="3" delay="260"/>
+            <frame index="3" delay="260"/>
         </animation>
 
         <animation direction="right">
-            <!-- static head -->
-                <frame index="4" delay="2210"/>
-            <!-- turning head-->
-                <frame index="5" delay="130"/>
+            <!-- Static Head -->
+            <frame index="4" delay="2210"/>
+            <!-- Turning Head -->
+            <frame index="5" delay="130"/>
                 <sequence start="0" end="2" delay="130"/>
-                <frame index="5" delay="390"/>
+            <frame index="5" delay="390"/>
         </animation>
 
         <animation direction="downright">
-            <!-- static head -->
-                <frame index="5" delay="2210"/>
-            <!-- turning head-->
+            <!-- Static Head -->
+            <frame index="5" delay="2210"/>
+            <!-- Turning Head -->
                 <sequence start="0" end="2" delay="130"/>
-                <frame index="3" delay="390"/>
-                <frame index="4" delay="130"/>
+            <frame index="3" delay="390"/>
+            <frame index="4" delay="130"/>
         </animation>
 
     </action>
-    <action name="attack" imageset="octopus">
+
+    <action name="attack" imageset="mob">
 
         <animation direction="down">
-                <frame index="0" delay="140" offsetY="1"/>
-                <frame index="0" delay="280" offsetY="2"/>
-                <frame index="0" delay="90" offsetY="1"/>
-                <frame index="0" delay="90" offsetY="-1"/>
-                <frame index="1" delay="80" offsetY="-3"/>
-                <frame index="2" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-8"/>
-                <frame index="3" delay="90" offsetY="-11"/>
-                <frame index="3" delay="100" offsetY="-14"/>
-                <frame index="4" delay="100" offsetY="-17"/>
-                <frame index="5" delay="110" offsetY="-18"/>
-                <frame index="0" delay="120" offsetY="-16"/>
-                <frame index="1" delay="110" offsetY="-13"/>
-                <frame index="2" delay="100" offsetY="-11"/>
-                <frame index="3" delay="80" offsetY="-9"/>
-                <frame index="3" delay="70" offsetY="-7"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="4" delay="90" offsetY="-3"/>
-                <frame index="5" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="0" delay="140" offsetY="1"/>
+            <frame index="0" delay="280" offsetY="2"/>
+            <frame index="0" delay="90" offsetY="1"/>
+            <frame index="0" delay="90" offsetY="-1"/>
+            <frame index="1" delay="80" offsetY="-3"/>
+            <frame index="2" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-8"/>
+            <frame index="3" delay="90" offsetY="-11"/>
+            <frame index="3" delay="100" offsetY="-14"/>
+            <frame index="4" delay="100" offsetY="-17"/>
+            <frame index="5" delay="110" offsetY="-18"/>
+            <frame index="0" delay="120" offsetY="-16"/>
+            <frame index="1" delay="110" offsetY="-13"/>
+            <frame index="2" delay="100" offsetY="-11"/>
+            <frame index="3" delay="80" offsetY="-9"/>
+            <frame index="3" delay="70" offsetY="-7"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="4" delay="90" offsetY="-3"/>
+            <frame index="5" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="downleft">
-                <frame index="1" delay="140" offsetY="1"/>
-                <frame index="1" delay="280" offsetY="2"/>
-                <frame index="1" delay="90" offsetY="1"/>
-                <frame index="1" delay="90" offsetY="-1"/>
-                <frame index="2" delay="80" offsetY="-3"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-8"/>
-                <frame index="3" delay="90" offsetY="-11"/>
-                <frame index="4" delay="100" offsetY="-14"/>
-                <frame index="5" delay="100" offsetY="-17"/>
-                <frame index="0" delay="110" offsetY="-18"/>
-                <frame index="1" delay="120" offsetY="-16"/>
-                <frame index="2" delay="110" offsetY="-13"/>
-                <frame index="3" delay="100" offsetY="-11"/>
-                <frame index="3" delay="80" offsetY="-9"/>
-                <frame index="3" delay="70" offsetY="-7"/>
-                <frame index="4" delay="80" offsetY="-5"/>
-                <frame index="5" delay="90" offsetY="-3"/>
-                <frame index="0" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="1" delay="140" offsetY="1"/>
+            <frame index="1" delay="280" offsetY="2"/>
+            <frame index="1" delay="90" offsetY="1"/>
+            <frame index="1" delay="90" offsetY="-1"/>
+            <frame index="2" delay="80" offsetY="-3"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-8"/>
+            <frame index="3" delay="90" offsetY="-11"/>
+            <frame index="4" delay="100" offsetY="-14"/>
+            <frame index="5" delay="100" offsetY="-17"/>
+            <frame index="0" delay="110" offsetY="-18"/>
+            <frame index="1" delay="120" offsetY="-16"/>
+            <frame index="2" delay="110" offsetY="-13"/>
+            <frame index="3" delay="100" offsetY="-11"/>
+            <frame index="3" delay="80" offsetY="-9"/>
+            <frame index="3" delay="70" offsetY="-7"/>
+            <frame index="4" delay="80" offsetY="-5"/>
+            <frame index="5" delay="90" offsetY="-3"/>
+            <frame index="0" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="left">
-                <frame index="2" delay="140" offsetY="1"/>
-                <frame index="2" delay="280" offsetY="2"/>
-                <frame index="2" delay="90" offsetY="1"/>
-                <frame index="2" delay="90" offsetY="-1"/>
-                <frame index="3" delay="80" offsetY="-3"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-8"/>
-                <frame index="4" delay="90" offsetY="-11"/>
-                <frame index="5" delay="100" offsetY="-14"/>
-                <frame index="0" delay="100" offsetY="-17"/>
-                <frame index="1" delay="110" offsetY="-18"/>
-                <frame index="2" delay="120" offsetY="-16"/>
-                <frame index="3" delay="110" offsetY="-13"/>
-                <frame index="3" delay="100" offsetY="-11"/>
-                <frame index="3" delay="80" offsetY="-9"/>
-                <frame index="4" delay="70" offsetY="-7"/>
-                <frame index="5" delay="80" offsetY="-5"/>
-                <frame index="0" delay="90" offsetY="-3"/>
-                <frame index="1" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="2" delay="140" offsetY="1"/>
+            <frame index="2" delay="280" offsetY="2"/>
+            <frame index="2" delay="90" offsetY="1"/>
+            <frame index="2" delay="90" offsetY="-1"/>
+            <frame index="3" delay="80" offsetY="-3"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-8"/>
+            <frame index="4" delay="90" offsetY="-11"/>
+            <frame index="5" delay="100" offsetY="-14"/>
+            <frame index="0" delay="100" offsetY="-17"/>
+            <frame index="1" delay="110" offsetY="-18"/>
+            <frame index="2" delay="120" offsetY="-16"/>
+            <frame index="3" delay="110" offsetY="-13"/>
+            <frame index="3" delay="100" offsetY="-11"/>
+            <frame index="3" delay="80" offsetY="-9"/>
+            <frame index="4" delay="70" offsetY="-7"/>
+            <frame index="5" delay="80" offsetY="-5"/>
+            <frame index="0" delay="90" offsetY="-3"/>
+            <frame index="1" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="upleft">
-                <frame index="3" delay="140" offsetY="1"/>
-                <frame index="3" delay="280" offsetY="2"/>
-                <frame index="3" delay="90" offsetY="1"/>
-                <frame index="3" delay="90" offsetY="-1"/>
-                <frame index="3" delay="80" offsetY="-3"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="4" delay="90" offsetY="-8"/>
-                <frame index="5" delay="90" offsetY="-11"/>
-                <frame index="0" delay="100" offsetY="-14"/>
-                <frame index="1" delay="100" offsetY="-17"/>
-                <frame index="2" delay="110" offsetY="-18"/>
-                <frame index="3" delay="120" offsetY="-16"/>
-                <frame index="3" delay="110" offsetY="-13"/>
-                <frame index="3" delay="100" offsetY="-11"/>
-                <frame index="4" delay="80" offsetY="-9"/>
-                <frame index="5" delay="70" offsetY="-7"/>
-                <frame index="0" delay="80" offsetY="-5"/>
-                <frame index="1" delay="90" offsetY="-3"/>
-                <frame index="2" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="3" delay="140" offsetY="1"/>
+            <frame index="3" delay="280" offsetY="2"/>
+            <frame index="3" delay="90" offsetY="1"/>
+            <frame index="3" delay="90" offsetY="-1"/>
+            <frame index="3" delay="80" offsetY="-3"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="4" delay="90" offsetY="-8"/>
+            <frame index="5" delay="90" offsetY="-11"/>
+            <frame index="0" delay="100" offsetY="-14"/>
+            <frame index="1" delay="100" offsetY="-17"/>
+            <frame index="2" delay="110" offsetY="-18"/>
+            <frame index="3" delay="120" offsetY="-16"/>
+            <frame index="3" delay="110" offsetY="-13"/>
+            <frame index="3" delay="100" offsetY="-11"/>
+            <frame index="4" delay="80" offsetY="-9"/>
+            <frame index="5" delay="70" offsetY="-7"/>
+            <frame index="0" delay="80" offsetY="-5"/>
+            <frame index="1" delay="90" offsetY="-3"/>
+            <frame index="2" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="up">
-                <frame index="3" delay="140" offsetY="1"/>
-                <frame index="3" delay="280" offsetY="2"/>
-                <frame index="3" delay="90" offsetY="1"/>
-                <frame index="3" delay="90" offsetY="-1"/>
-                <frame index="3" delay="80" offsetY="-3"/>
-                <frame index="4" delay="80" offsetY="-5"/>
-                <frame index="5" delay="90" offsetY="-8"/>
-                <frame index="0" delay="90" offsetY="-11"/>
-                <frame index="1" delay="100" offsetY="-14"/>
-                <frame index="2" delay="100" offsetY="-17"/>
-                <frame index="3" delay="110" offsetY="-18"/>
-                <frame index="3" delay="120" offsetY="-16"/>
-                <frame index="3" delay="110" offsetY="-13"/>
-                <frame index="4" delay="100" offsetY="-11"/>
-                <frame index="5" delay="80" offsetY="-9"/>
-                <frame index="0" delay="70" offsetY="-7"/>
-                <frame index="1" delay="80" offsetY="-5"/>
-                <frame index="2" delay="90" offsetY="-3"/>
-                <frame index="3" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="3" delay="140" offsetY="1"/>
+            <frame index="3" delay="280" offsetY="2"/>
+            <frame index="3" delay="90" offsetY="1"/>
+            <frame index="3" delay="90" offsetY="-1"/>
+            <frame index="3" delay="80" offsetY="-3"/>
+            <frame index="4" delay="80" offsetY="-5"/>
+            <frame index="5" delay="90" offsetY="-8"/>
+            <frame index="0" delay="90" offsetY="-11"/>
+            <frame index="1" delay="100" offsetY="-14"/>
+            <frame index="2" delay="100" offsetY="-17"/>
+            <frame index="3" delay="110" offsetY="-18"/>
+            <frame index="3" delay="120" offsetY="-16"/>
+            <frame index="3" delay="110" offsetY="-13"/>
+            <frame index="4" delay="100" offsetY="-11"/>
+            <frame index="5" delay="80" offsetY="-9"/>
+            <frame index="0" delay="70" offsetY="-7"/>
+            <frame index="1" delay="80" offsetY="-5"/>
+            <frame index="2" delay="90" offsetY="-3"/>
+            <frame index="3" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="upright">
-                <frame index="3" delay="140" offsetY="1"/>
-                <frame index="3" delay="280" offsetY="2"/>
-                <frame index="3" delay="90" offsetY="1"/>
-                <frame index="3" delay="90" offsetY="-1"/>
-                <frame index="4" delay="80" offsetY="-3"/>
-                <frame index="5" delay="80" offsetY="-5"/>
-                <frame index="0" delay="90" offsetY="-8"/>
-                <frame index="1" delay="90" offsetY="-11"/>
-                <frame index="2" delay="100" offsetY="-14"/>
-                <frame index="3" delay="100" offsetY="-17"/>
-                <frame index="3" delay="110" offsetY="-18"/>
-                <frame index="3" delay="120" offsetY="-16"/>
-                <frame index="4" delay="110" offsetY="-13"/>
-                <frame index="5" delay="100" offsetY="-11"/>
-                <frame index="0" delay="80" offsetY="-9"/>
-                <frame index="1" delay="70" offsetY="-7"/>
-                <frame index="2" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-3"/>
-                <frame index="3" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="3" delay="140" offsetY="1"/>
+            <frame index="3" delay="280" offsetY="2"/>
+            <frame index="3" delay="90" offsetY="1"/>
+            <frame index="3" delay="90" offsetY="-1"/>
+            <frame index="4" delay="80" offsetY="-3"/>
+            <frame index="5" delay="80" offsetY="-5"/>
+            <frame index="0" delay="90" offsetY="-8"/>
+            <frame index="1" delay="90" offsetY="-11"/>
+            <frame index="2" delay="100" offsetY="-14"/>
+            <frame index="3" delay="100" offsetY="-17"/>
+            <frame index="3" delay="110" offsetY="-18"/>
+            <frame index="3" delay="120" offsetY="-16"/>
+            <frame index="4" delay="110" offsetY="-13"/>
+            <frame index="5" delay="100" offsetY="-11"/>
+            <frame index="0" delay="80" offsetY="-9"/>
+            <frame index="1" delay="70" offsetY="-7"/>
+            <frame index="2" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-3"/>
+            <frame index="3" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="right">
-                <frame index="4" delay="140" offsetY="1"/>
-                <frame index="4" delay="280" offsetY="2"/>
-                <frame index="4" delay="90" offsetY="1"/>
-                <frame index="4" delay="90" offsetY="-1"/>
-                <frame index="5" delay="80" offsetY="-3"/>
-                <frame index="0" delay="80" offsetY="-5"/>
-                <frame index="1" delay="90" offsetY="-8"/>
-                <frame index="2" delay="90" offsetY="-11"/>
-                <frame index="3" delay="100" offsetY="-14"/>
-                <frame index="3" delay="100" offsetY="-17"/>
-                <frame index="3" delay="110" offsetY="-18"/>
-                <frame index="4" delay="120" offsetY="-16"/>
-                <frame index="5" delay="110" offsetY="-13"/>
-                <frame index="0" delay="100" offsetY="-11"/>
-                <frame index="1" delay="80" offsetY="-9"/>
-                <frame index="2" delay="70" offsetY="-7"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-3"/>
-                <frame index="3" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="4" delay="140" offsetY="1"/>
+            <frame index="4" delay="280" offsetY="2"/>
+            <frame index="4" delay="90" offsetY="1"/>
+            <frame index="4" delay="90" offsetY="-1"/>
+            <frame index="5" delay="80" offsetY="-3"/>
+            <frame index="0" delay="80" offsetY="-5"/>
+            <frame index="1" delay="90" offsetY="-8"/>
+            <frame index="2" delay="90" offsetY="-11"/>
+            <frame index="3" delay="100" offsetY="-14"/>
+            <frame index="3" delay="100" offsetY="-17"/>
+            <frame index="3" delay="110" offsetY="-18"/>
+            <frame index="4" delay="120" offsetY="-16"/>
+            <frame index="5" delay="110" offsetY="-13"/>
+            <frame index="0" delay="100" offsetY="-11"/>
+            <frame index="1" delay="80" offsetY="-9"/>
+            <frame index="2" delay="70" offsetY="-7"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-3"/>
+            <frame index="3" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
         <animation direction="downright">
-                <frame index="5" delay="140" offsetY="1"/>
-                <frame index="5" delay="280" offsetY="2"/>
-                <frame index="5" delay="90" offsetY="1"/>
-                <frame index="5" delay="90" offsetY="-1"/>
-                <frame index="0" delay="80" offsetY="-3"/>
-                <frame index="1" delay="80" offsetY="-5"/>
-                <frame index="2" delay="90" offsetY="-8"/>
-                <frame index="3" delay="90" offsetY="-11"/>
-                <frame index="3" delay="100" offsetY="-14"/>
-                <frame index="3" delay="100" offsetY="-17"/>
-                <frame index="4" delay="110" offsetY="-18"/>
-                <frame index="5" delay="120" offsetY="-16"/>
-                <frame index="0" delay="110" offsetY="-13"/>
-                <frame index="1" delay="100" offsetY="-11"/>
-                <frame index="2" delay="80" offsetY="-9"/>
-                <frame index="3" delay="70" offsetY="-7"/>
-                <frame index="3" delay="80" offsetY="-5"/>
-                <frame index="3" delay="90" offsetY="-3"/>
-                <frame index="4" delay="100" offsetY="-1"/>
-                <end />
+            <frame index="5" delay="140" offsetY="1"/>
+            <frame index="5" delay="280" offsetY="2"/>
+            <frame index="5" delay="90" offsetY="1"/>
+            <frame index="5" delay="90" offsetY="-1"/>
+            <frame index="0" delay="80" offsetY="-3"/>
+            <frame index="1" delay="80" offsetY="-5"/>
+            <frame index="2" delay="90" offsetY="-8"/>
+            <frame index="3" delay="90" offsetY="-11"/>
+            <frame index="3" delay="100" offsetY="-14"/>
+            <frame index="3" delay="100" offsetY="-17"/>
+            <frame index="4" delay="110" offsetY="-18"/>
+            <frame index="5" delay="120" offsetY="-16"/>
+            <frame index="0" delay="110" offsetY="-13"/>
+            <frame index="1" delay="100" offsetY="-11"/>
+            <frame index="2" delay="80" offsetY="-9"/>
+            <frame index="3" delay="70" offsetY="-7"/>
+            <frame index="3" delay="80" offsetY="-5"/>
+            <frame index="3" delay="90" offsetY="-3"/>
+            <frame index="4" delay="100" offsetY="-1"/>
+            <end />
         </animation>
 
     </action>
-    <action name="dead" imageset="octopus">
+
+    <action name="dead" imageset="mob">
     
         <animation direction="down">
-                <frame index="0" delay="80"/>
-                <frame index="1" delay="70"/>
-                <frame index="2" delay="70"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="90"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="0" delay="80"/>
+            <frame index="1" delay="70"/>
+            <frame index="2" delay="70"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="downleft">
-                <frame index="1" delay="80"/>
-                <frame index="2" delay="70"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="90"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="1" delay="80"/>
+            <frame index="2" delay="70"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="left">
-                <frame index="2" delay="80"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="90"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="2" delay="80"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="upleft">
-                <frame index="3" delay="220"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="90"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="3" delay="220"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="up">
-                <frame index="3" delay="150"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="90"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="3" delay="150"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="upright">
-                <frame index="3" delay="80"/>
-                <frame index="4" delay="70"/>
-                <frame index="5" delay="70"/>
-                <frame index="0" delay="70"/>
-                <frame index="1" delay="70"/>
-                <frame index="2" delay="70"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="80"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="3" delay="80"/>
+            <frame index="4" delay="70"/>
+            <frame index="5" delay="70"/>
+            <frame index="0" delay="70"/>
+            <frame index="1" delay="70"/>
+            <frame index="2" delay="70"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="80"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="right">
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="70"/>
-                <frame index="0" delay="70"/>
-                <frame index="1" delay="70"/>
-                <frame index="2" delay="70"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="80"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="70"/>
+            <frame index="0" delay="70"/>
+            <frame index="1" delay="70"/>
+            <frame index="2" delay="70"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="80"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
         <animation direction="downright">
-                <frame index="5" delay="80"/>
-                <frame index="0" delay="70"/>
-                <frame index="1" delay="70"/>
-                <frame index="2" delay="70"/>
-                <frame index="3" delay="210"/>
-                <frame index="4" delay="80"/>
-                <frame index="5" delay="80"/>
-                <frame index="6" delay="90"/>
-                <frame index="6" delay="130" offsetY="1"/>
-                <frame index="6" delay="150" offsetY="2"/>
-                <frame index="7" offset="2" />
+            <frame index="5" delay="80"/>
+            <frame index="0" delay="70"/>
+            <frame index="1" delay="70"/>
+            <frame index="2" delay="70"/>
+            <frame index="3" delay="210"/>
+            <frame index="4" delay="80"/>
+            <frame index="5" delay="80"/>
+            <frame index="6" delay="90"/>
+            <frame index="6" delay="130" offsetY="1"/>
+            <frame index="6" delay="150" offsetY="2"/>
+            <frame index="7" offset="2"/>
         </animation>
 
     </action>
-
 </sprite>

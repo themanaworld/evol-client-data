@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2010-2011  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2010-2011 Evol Online -->
 <sprite>
-    <imageset name="poisonskull" src="graphics/sprites/icons/poison.png" width="12" height="20" offsetY="-12"/>
+    <imageset name="icon" src="graphics/sprites/icons/poison.png" width="12" height="20" offsetY="-12"/>
     
-    <action name="default" imageset="poisonskull">
+    <action name="default" imageset="icon">
         <animation direction="default">
             <sequence start="0" end="8" delay="80"/>
         </animation>

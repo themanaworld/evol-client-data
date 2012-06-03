@@ -1,17 +1,16 @@
 <?xml version="1.0"?>
-<!-- Author : Reid
-Copyright (C) 2012  Evol Online -->
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
 <sprite>
+    <imageset name="npc" src="graphics/sprites/npcs/sprite/tarlan.png" width="64" height="64" offsetX="-6"/>
 
-    <imageset name="tarlan" src="graphics/sprites/npcs/sprite/tarlan.png" width="64" height="64" offsetX="-6"/>
-
-    <action name="stand" imageset="tarlan">
+    <action name="stand" imageset="npc">
         <animation direction="default">
-        <!-- Getting ready to fight -->
+            <!-- Getting Ready To Fight -->
             <frame index="0" delay="3141" offsetX="8"/>
             <frame index="1" delay="100" offsetX="5"/>
             <frame index="2" delay="220" offsetX="4"/>
-        <!-- Fight -->
+            <!-- Fights -->
             <frame index="3" delay="110"/>
             <frame index="4" delay="140"/>
             <sequence start="5" end="6" delay="120"/>
@@ -23,14 +22,14 @@ Copyright (C) 2012  Evol Online -->
             <frame index="5" delay="90"/>
             <frame index="4" delay="140"/>
             <frame index="3" delay="110"/>
-        <!-- Stop -->
+            <!-- Stops -->
             <frame index="7" delay="110" offsetX="5"/>
             <frame index="0" delay="100" offsetX="8"/>
             <frame index="8" delay="800" offsetX="10"/>
             <frame index="0" delay="120" offsetX="8"/>
             <frame index="1" delay="100" offsetX="5"/>
             <frame index="2" delay="210" offsetX="4"/>
-        <!-- Fight again longer and faster -->
+            <!-- Fights Again Longer And Faster -->
             <frame index="3" delay="100"/>
             <frame index="4" delay="130"/>
             <sequence start="5" end="6" delay="110"/>
@@ -57,22 +56,21 @@ Copyright (C) 2012  Evol Online -->
             <frame index="5" delay="90"/>
             <frame index="4" delay="130"/>
             <frame index="3" delay="105"/>
-        <!-- Get hitted -->
+            <!-- Gets Hit -->
             <frame index="7" delay="110" offsetX="5"/>
             <frame index="0" delay="100" offsetX="8"/>
             <frame index="8" delay="900" offsetX="10"/>
             <frame index="9" delay="140" offsetX="11"/>
-        <!-- Down -->
+            <!-- Down -->
             <frame index="10" delay="110" offsetX="8" offsetY="2"/>
-        <!-- Bird -->
+            <!-- Bird -->
             <sequence start="11" end="12" delay="105" repeat="9" offsetY="5" offsetX="8"/>
-        <!-- Sit -->
+            <!-- Sit -->
             <frame index="13" delay="90" offsetY="5" offsetX="8"/>
             <frame index="14" delay="8926" offsetY="5" offsetX="8"/>
-        <!-- Get back -->
+            <!-- Get Back -->
             <frame index="15" delay="130" offsetX="8"/>
             <frame index="0" delay="3141" offsetX="8"/>
         </animation>
     </action>
-
 </sprite>
