@@ -11,101 +11,97 @@ IDs 990-999 = Special
 <npcs>
     <!-- Unanimated NPCs -->
     <npc id="100">
-          <!-- Knife-pit. -->
-          <sprite variant="0">npcs/xml/smallnpc.xml</sprite>
+          <!-- Knifes -->
+          <sprite variant="0">npcs/xml/interactive.xml</sprite>
      </npc>
     <npc id="101">
-        <!-- Demon-Man, siting on a chair... -->
-          <sprite variant="0">npcs/xml/npc.xml</sprite>
+        <!-- Demon Man, sitting on a chair. -->
+          <sprite variant="0">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="102">
-          <!-- Hat-box. -->
-          <sprite variant="1">npcs/xml/smallnpc.xml</sprite>
+          <!-- Hat Box -->
+          <sprite variant="1">npcs/xml/interactive.xml</sprite>
      </npc>
     <npc id="103">
-        <!-- Raijin-Man, standing on a mat. -->
-          <sprite variant="1">npcs/xml/npc.xml</sprite>
+        <!-- Raijin Man, standing at the top of a mat. -->
+          <sprite variant="1">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="104">
-        <!-- Orc-Man, standing with a box on his hand. -->
-          <sprite variant="2">npcs/xml/npc.xml</sprite>
+        <!-- Orc Man, standing with a box in his hands. -->
+          <sprite variant="2">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="105">
-        <!-- Demon-Man, sitting sailor. -->
-          <sprite variant="3">npcs/xml/npc.xml</sprite>
+        <!-- Demon Man, sitting sailor with his boots near him. -->
+          <sprite variant="3">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="106">
-        <!-- Elven-Man, strong, standing sailor with blonde hair. -->
-          <sprite variant="4">npcs/xml/npc.xml|#474747,5a4333,6e6e6e,8c6946,898989,a98645,9d9d9d,ba9c50,b3b3b3,c9b467,e2e2e2,ede4ab</sprite>
+        <!-- Elven Man, strong standing sailor with blonde hair. -->
+          <sprite variant="4">npcs/xml/unanimated.xml|#474747,5a4333,6e6e6e,8c6946,898989,a98645,9d9d9d,ba9c50,b3b3b3,c9b467,e2e2e2,ede4ab</sprite>
      </npc>
     <npc id="107">
-        <!-- Elven-Man, strong, standing sailor with red hair. -->
-          <sprite variant="4">npcs/xml/npc.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
+        <!-- Elven Man, strong standing sailor with red hair. -->
+          <sprite variant="4">npcs/xml/unanimated.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
      </npc>
 
     <!-- Animated NPCs -->
     <npc id="301">
-        <!-- Eyes animation. -->
+        <!-- Awesome Eyes -->
         <sprite>npcs/xml/alige.xml</sprite>
     </npc>
     <npc id="302">
-        <!-- Orc-Sailor, sleeping. -->
+        <!-- Orc Sailor, sleeping. -->
         <sprite>npcs/xml/sleepingorc.xml</sprite>
     </npc>
     <npc id="303">
-        <!-- Human-Man, sailor with a ratto in his left hand. -->
+        <!-- Human Man, sailor with a dead ratto in his left hand. -->
         <sprite>npcs/xml/rattosailor.xml</sprite>
     </npc>
     <npc id="304">
-        <!-- Demon-Woman, takes care of the ship. -->
+        <!-- Demon Woman, taking care of the ship. -->
         <sprite>npcs/xml/julia.xml</sprite>
     </npc>
     <npc id="305">
-        <!-- Sailors group. -->
+        <!-- Group of Sailors -->
         <sprite>npcs/xml/sailors.xml</sprite>
     </npc>
     <npc id="306">
-          <!-- Present to an Evol's friend. -->
+          <!-- Capitain, present to an Evol's friend. -->
           <sprite>npcs/xml/nard.xml</sprite>
     </npc>
     <npc id="307">
-        <!-- Tritan-Man, sitting on a barrel. -->
-        <sprite>npcs/xml/magic_arpan.xml</sprite>
+        <!-- Tritan Man, sitting on a barrel. -->
+        <sprite>npcs/xml/magicarpan.xml</sprite>
     </npc>
     <npc id="308">
-        <!-- Piou Rocket, sitting on his iron bar. -->
+        <!-- Piou Rocket, jumping on its iron bar. -->
         <sprite>npcs/xml/piourocket.xml</sprite>
     </npc>
     <npc id="309">
-        <!-- Human-Man, standing elmo. -->
+        <!-- Human Man, standing sailor. -->
         <sprite>npcs/xml/elmo1.xml</sprite>
     </npc>
     <npc id="310">
-          <!-- Ukar-Man, sleeping sailor. -->
+          <!-- Ukar Man, sleeping sailor. -->
           <sprite variant="0">npcs/xml/hammock.xml</sprite>
      </npc>
     <npc id="311">
-          <!-- Elf-Man, drunken sailor. -->
+          <!-- Elf Man, drunk sailor. -->
           <sprite>npcs/xml/billybons.xml</sprite>
      </npc>
     <npc id="312">
-        <!-- Mudget-Man, small and not smart at all... -->
+        <!-- Human Man, small and drunk. -->
         <sprite>npcs/xml/silvio.xml</sprite>
      </npc>
     <npc id="313">
-        <!-- Human-Man, sitting on a box with purple hair. -->
+        <!-- Human Man, sitting on a box with purple hair. -->
         <sprite>npcs/xml/gugli.xml</sprite>
         <sprite>accessories/eye-right-blink.xml</sprite>
     </npc>
     <npc id="314">
-        <!-- Human-Small-Man, standing with a bottle of wine at his hand. -->
-        <sprite>npcs/xml/silvio.xml</sprite>
-    </npc>
-    <npc id="315">
-        <!-- Tritan-Man, standing around a barrel. -->
+        <!-- Tritan Man, with his left arm on a barrel. -->
         <sprite>npcs/xml/sapartan.xml</sprite>
     </npc>
-    <npc id="316">
+    <npc id="315">
         <!-- Tritan-Man, hitting a palm tree. -->
         <sprite>npcs/xml/tarlan.xml</sprite>
         <sprite>accessories/croconut.xml</sprite>
@@ -129,20 +125,20 @@ IDs 990-999 = Special
         <particlefx>graphics/particles/savepoint/savepoint-64x64.xml</particlefx>
      </npc>-->
     <npc id="904">
-        <!-- Left hammock. -->
-        <sprite>npcs/xml/animated_hammock1.xml</sprite>
+        <!-- Left Hammock -->
+        <sprite>npcs/xml/hammock-animated1.xml</sprite>
     </npc>
     <npc id="905">
-        <!-- Right hammock. -->
-        <sprite>npcs/xml/animated_hammock2.xml</sprite>
+        <!-- Right Hammock -->
+        <sprite>npcs/xml/hammock-animated2.xml</sprite>
     </npc>
     <npc id="906">
-        <!-- Left hammock with particle. -->
+        <!-- Left Hammock, with particles. -->
         <sprite>npcs/xml/animated_hammock1.xml</sprite>
         <particlefx>graphics/particles/savepoint/savepoint-32x32.xml</particlefx>
     </npc>
     <npc id="999">
-        <!-- Invisible NPC -->
+        <!-- Invisible -->
     </npc>
 
 </npcs>
