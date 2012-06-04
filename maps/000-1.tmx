@@ -17,17 +17,17 @@
   <image source="../graphics/tilesets/Ship2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="642" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Collision.png" width="64" height="64"/>
+  <image source="../graphics/tilesets/Collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="646" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="648" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/Ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="902" name="Tree_x4" tilewidth="96" tileheight="128">
+ <tileset firstgid="904" name="Tree_x4" tilewidth="96" tileheight="128">
   <image source="../graphics/tilesets/Tree_x4.png" width="480" height="256"/>
  </tileset>
  <layer name="Ground" width="120" height="140">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VUQqCQBiFUaF9tB6hPZgrqFZQLT3mQRgUBiHU35nzcPAjBEPwTn/puh4AAAAAAAAAAAAAAAAAAAAAAAAAgGpdAQAAAAAAAAAAAAAA4A83AAAAAAAAAAAAAAAAAKA6Q+Y+u5asuWdvR/6niO8jeWSes2vJmnv2duR/ivg+knfmM7uWrLlnb0f+p4jvI0nfcNqWUVfbQ/Zbfi2JeN44f5ecv+d/tvO37meXpG84whmht+sh+y2/lkQ8b5y/S87f8z/b+Vv3s0vSNxzhjNDb9LQtL11lT9vy1VV2hA3R9lnbZ22fW+sIG6Lts7bP2j631hE2RNtnbZ+1fW6tI2yIts/aPmv73FpH2BBtn7V91va5tY6wIdo+a/us7XNrHWFD9Hb9AxtUoAaABgEA
+   H4sIAAAAAAAAA+3VUQqCQBiFUaGNtB6hPZgrqFZQrTzmQRgUBiHU35nzcPAjBEPwTn/puh4AAAAAAAAAAAAAAAAAAAAAAAAAgGpdAQAAAAAAAAAAAAAA4A83AAAAAAAAAAAAAAAAAKA6Q+Y+u5asuWdvR/6niO8jeWSes2vJmnv2duR/ivg+knfmM7uWrLlnb0f+p4jvI0nfcNqWUVfbQ/Zbfi2JeN44f5ecv+d/tvO37meXpG84whmht+sh+y2/lkQ8b5y/S87f8z/b+Vv3s0vSNxzhjNDb9LQtL11lT9vy1VV2hA3R9lnbZ22fW+sIG6Lts7bP2j631hE2RNtnbZ+1fW6tI2yIts/aPmv73FpH2BBtn7V91va5tY6wIdo+a/us7XNrHWFD9Hb9A9CQ7e+ABgEA
   </data>
  </layer>
  <layer name="PostGround" width="120" height="140">
@@ -37,7 +37,7 @@
  </layer>
  <layer name="Fringe" width="120" height="140">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OQQ0AAAgEoNvMb2dbqA9IQAIAAAAAAAAAAAAAAAAAAAAAAAAA8EPX9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANg2pJBGHIAGAQA=
+   H4sIAAAAAAAAA+3OQQ0AAAgEoNvsPyvbQn1AAhIAAAAAAAAAAAAAAAAAAAAAAAAAgB+6rgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC2Adah76yABgEA
   </data>
  </layer>
  <layer name="Over" width="120" height="140">
