@@ -44,7 +44,7 @@
     mesn "Gugli";
     mesq l("Hey, don't worry about him, it's one of the first days in a long time that we can just chill out.");
     next;
-    mesq "Maybe he abused too much his bottle today to celebrate that!";
+    mesq l("Maybe he abused too much his bottle today to celebrate that!");
     next;
 
     menu
@@ -105,9 +105,9 @@ l_Julia:
 l_Piou:
     mes "";
     mesn;
-    mesq "Seriously?!";
+    mesq l("Seriously?!");
     next;
-    mesq "Hurry hurry! Need to verify his teeth!";
+    mesq l("Hurry hurry! Need to verify his teeth!");
 
     close;
 
