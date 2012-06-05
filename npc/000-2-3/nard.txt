@@ -29,7 +29,7 @@ l_Checker:
     next;
     mesq l("Let me introduce myself, I'm Captain Nard, the leader of this ship."); 
     next;
-    mesq lg("It's nice to see that you woke up and that you are ok, Elmo came here to tell me this good news!");
+    mesq lg("It's nice to see that you woke up and you're ok, Elmo came here to tell me this good news!");
     next;
 
     mesn "Elmo";
@@ -45,7 +45,7 @@ l_Checker:
 l_Menu:
     menu
         lg("I feel ok."), l_Ok,
-        l("Who is this Julia?"), l_Julia,
+        l("Who's this Julia?"), l_Julia,
         lg("I'm a bit sick."), -;
 
 
@@ -63,7 +63,8 @@ l_MenuQuest:
     mesn;
     mesq l("I like this answer!");
     next;
-    mesq g(l("We are in need of manpower on the island... Oh excuse me, women are also welcome!"), l("We are in need of manpower on the island.")); 
+    mesq g(l("We need of manpower on the island... Oh excuse me, women are also welcome!"),
+           l("We need of manpower on the island.")); 
     next;
 
     goto l_NeedContent;
@@ -79,9 +80,9 @@ l_NeedContent:
     next;
     mesq l("What? It's not a good reward?"); 
     next;
-    mesq l("Oh well. I will also give you one of these hats from the box around you, but only after you complete your task!"); 
+    mesq l("Oh well. I'll also give you one of these hats from the box around you, but only after you complete your task!"); 
     next;
-    mesq l("Go outside and talk with Gugli, he will tell you what we need.");
+    mesq l("Go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
     seta2 ShipQuests, ShipQuests_Nardbox, 1;
@@ -107,11 +108,11 @@ l_Julia:
     next;
     mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent chef!");
     next;
-    mesq l("But more than anything, she is the one who took care of you when you were in coma.");
+    mesq l("But most important, she's the one who took care of you when you were in coma.");
     next;
 
 l_SpecialTask:
-    mesq l("I know that you just came back from being sick, but I would like to ask of you a special task.");
+    mesq l("I know that you're just feeling better, but I'd like to ask of you a special task.");
     next;
 
     goto l_MenuQuest;

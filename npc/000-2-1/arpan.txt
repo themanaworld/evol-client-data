@@ -138,7 +138,7 @@ OnEquip:
     mesn "Narrator";
     mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
-    mes col(lg("Once you are inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it."), 9);
+    mes col(lg("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it."), 9);
     next;
     mes col(lg("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
 
@@ -152,7 +152,7 @@ l_Story:
     mes "";
     mesq lg("You were yaying sleeping for quite some time there, our shipkeeper, Julia, was here with you, she did her best to heal your injuries.");
     next;
-    mesq lg("Yaya, you should go see her! She will be happy to see you.");
+    mesq lg("Yaya, you should go see her! She'll be happy to see you.");
     next;
     mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
     setcamnpc "Box";
@@ -176,7 +176,7 @@ l_Menu:
 l_Where:
     mes "";
     mesn;
-    mesq lg("You are on our ship, we made port to a little island and we are actually yeyending our long merchant traveling adventure at the city of Artis.");
+    mesq lg("You're on our ship, we made port to a little island and we're actually yeyending our long merchant traveling adventure at the city of Artis.");
     next;
     mesq l("We will be yaying there in a few days, so we will drop you off there.");
     next;
@@ -188,8 +188,8 @@ l_Where:
 l_Julia:
     mes "";
     mesn;
-    mesq g(l("She is on the upper level, yeye can't miss her. She is the only girl in this crew, oh well, except for you now yeyeye!"),
-           l("She is on the upper level, yeye can't miss her. She is the only girl in this crew."));
+    mesq g(l("She's on the upper level, yeye can't miss her. She's the only girl in this crew, oh well, except for you now yeyeye!"),
+           l("She's on the upper level, yeye can't miss her. She's the only girl in this crew."));
     next;
 
     mesn "Narrator";
@@ -231,7 +231,7 @@ l_WhatCloth:
     mesn "Narrator";
     mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
-    mes col(lg("Once you are inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it."), 9);
+    mes col(lg("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it."), 9);
     next;
     mes col(lg("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
     next;

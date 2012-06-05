@@ -44,8 +44,8 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq g(l("Oh, and give her some basic clothes, the poor girl, the one she had was in even worse condition that the ones we have!"),
-           l("Oh, and give him some basic clothes, the poor guy, the one he had was in even worse condition that the ones we have!"));
+    mesq g(l("Oh, and give her some basic clothes, the poor girl, the one she had were in even worse condition that the ones we have!"),
+           l("Oh, and give him some basic clothes, the poor guy, the one he had were in even worse condition that the ones we have!"));
     next;
 
     mesn "Magic Arpan";
@@ -53,17 +53,17 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq l("He he... OK, I'm going to the upper level and inform the captain.");
+    mesq l("He he... Ok, I'm going to the upper level and inform the captain.");
     next;
 
     mesn "Magic Arpan";
-    mesq g(l("I will give her everything she needs, don't worry."),
-           l("I will give him everything he needs, don't worry."));
+    mesq g(l("I'll give her everything she needs, don't worry."),
+           l("I'll give him everything he needs, don't worry."));
     next;
 
     mesn "Elmo";
-    mesq g(l("OK, I think she's waking up, go see to her."),
-           l("OK, I think he's waking up, go see to him."));
+    mesq g(l("Ok, I think she's waking up, go see to her."),
+           l("Ok, I think he's waking up, go see to him."));
     next;
 
     restorecam;

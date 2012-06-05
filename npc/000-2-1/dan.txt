@@ -14,7 +14,7 @@
 
     mesq l("You see these Pious around?");
     next;
-    mesq l("It seems that we are close to an island, we should take a look at the upper level.");
+    mesq l("It seems that we're close to an island, we should take a look at the upper level.");
 
     close;
 
@@ -46,13 +46,13 @@ l_QuestStory:
 
     menu
         l("Who is she?"), l_She,
-        l("Do you want me to go see her in your place?"), l_Quest;
+        l("Do you want me to go see her instead of you?"), l_Quest;
         l("I don't know what to say..."), -;
 
     mes "";
     mesn;
-    mesq g(l("There is nothing to say, don't worry miss."),
-           l("There is nothing to say, don't worry sir."));
+    mesq g(l("There's nothing to say, don't worry miss."),
+           l("There's nothing to say, don't worry sir."));
 
     close;
 

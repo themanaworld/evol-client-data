@@ -114,7 +114,7 @@ L_TalkToJulia:
 
 OnTooWeak:
     mesn;
-    mesq lg("I need help for cleaning the wedge of the ship, but you aren't strong enough to help me.");
+    mesq lg("I need help for clean the wedge of the ship, but you aren't strong enough to help.");
 
     goto L_Close;
 
@@ -128,7 +128,7 @@ OnStop:
 
 OnReturnFail:
     mesn;
-    mesq l("I see it is not easy to get rid of those rattos. Do you want to try again?");
+    mesq l("I see it's not easy to get rid of those rattos. Do you want to try again?");
     next;
 
     menu
@@ -235,7 +235,7 @@ OnDontneedHelp:
 
 L_Timeout:
     mesn;
-    mesq l("Hey! Be careful. You can't stay in this basement for so long, you are going to get sick. Come outside and take a break, maybe you can try again later.");
+    mesq l("Hey! Be careful. You can't stay in this basement for so long, you're going to get sick. Come outside and take a break, maybe you can try again later.");
     warp "000-2-1", 61, 36;
 
     goto L_CleaningClose;
