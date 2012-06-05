@@ -26,8 +26,8 @@
     next;
 
     menu
-        l("Take a Bandana"), -,
-        l("Nothing"), l_Close;
+        l("Take a Bandana."), -,
+        l("Nothing."), l_Close;
 
     if (@q == 1) goto l_NotYet;
     if (@q == 2) goto l_Give;
@@ -41,7 +41,7 @@
     mesn "Nard";
     mesq l("You like these hats, right?");
     next;
-    mesq l("How about I ask you to help the crew? It would mean that you're one of us, and that you will be able to get one of these hats.");
+    mesq l("How about I ask you to help the crew? It would mean that you're one of us and that you will be able to get one of these hats.");
     next;
     mesq l("We need as many hands as possible to explore the island out there, and to get some new food.");
     next;
@@ -56,7 +56,7 @@
 
     mes "";
     mesn "Nard";
-    mesq l("Fine!");
+    mesq l("Great!");
     next;
     mesq l("Go outside and talk with Gugli, he will tell you what we need.");
 
@@ -78,7 +78,7 @@ l_Give:
     mesq l("Congrats!");
     next;
     mesn "Nard";
-    mesq l("You are now part of the crew! Thanks again for your help.");
+    mesq l("You are now part of the crew. Thanks again for your help.");
 
     seta2 ShipQuests, ShipQuests_Nardbox, 3;
     getitem "Bandana", 1;
@@ -89,7 +89,7 @@ l_Give:
 l_Already:
     mes "";
     mesn "Nard";
-    mesq l("You already took a Bandana, put this one back please."); 
+    mesq l("You already took a Bandana, please put this one back in the box."); 
     close;
 
 }

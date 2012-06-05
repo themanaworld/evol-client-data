@@ -7,9 +7,9 @@
 function	script	SavePoint	{
 
     mesn "Narrator";
-    mes col(l("There's a nice place to stay beside you."), 9);
+    mes col(l("There is a nice place to stay beside you."), 9);
     next;
-    mes col(l("What do you wish to do?"), 9);
+    mes col(l("What do you want to do?"), 9);
     next;
 
     menu
@@ -26,7 +26,7 @@ function	script	SavePoint	{
     next;
     mes col("...", 9);
     next;
-    mes col(l("Your position is saved."), 9);
+    mes col(l("Your position has been saved."), 9);
     next;
 
     savepoint @map$, @x, @y;

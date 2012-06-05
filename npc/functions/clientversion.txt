@@ -8,10 +8,10 @@ function	script	CheckClientVersion	{
     if (getclientversion("") > 3) return;
     mes "Warning:";
     mes "Warning:";
-    mes "Warning: you using old client.";
+    mes "Warning: You are using an old client.";
     next;
     mes "Not all features will work.";
     next;
-    mes "Please install client from http://www.evolonline.org/";
+    mes "Please install the new client from http://www.evolonline.org/";
     next;
 }
