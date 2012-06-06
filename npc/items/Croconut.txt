@@ -72,7 +72,7 @@ L_Weak:
     close;
 
 L_Good:
-    mes col(l("You perfectly cut your Croconut in two ediable parts."), 9);
+    mes col(l("You perfectly cut your Croconut in two edible parts."), 9);
 
     doevent "Croconut::OnTwoHalfCroconut";
     close;
