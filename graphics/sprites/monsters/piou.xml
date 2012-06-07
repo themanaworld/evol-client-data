@@ -3,9 +3,9 @@
 Copyright (C) 2011-2012 Evol Online -->
 <sprite>
     <imageset name="mob" src="graphics/sprites/monsters/piou.png" width="10" height="9" offsetY="-12"/>
-    <imageset name="mob-acc" src="graphics/sprites/accessories/acc-piousse-egg.png" width="11" height="11" offsetY="-12"/>
+    <imageset name="acc" src="graphics/sprites/accessories/acc-piousse-egg.png" width="11" height="11" offsetY="-12"/>
 
-    <action name="spawn" imageset="mob-acc">
+    <action name="spawn" imageset="acc">
 
         <animation>
             <frame index="9" delay="20" offsetY="-86"/>
@@ -904,7 +904,7 @@ Copyright (C) 2011-2012 Evol Online -->
 
     </action>
 
-    <action name="dead" imageset="piou">
+    <action name="dead" imageset="mob">
 
         <animation direction="down">
             <frame index="4"/>
