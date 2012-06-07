@@ -73,7 +73,10 @@ l_First:
     mes "";
     mesn;
     mesq l("Ok, Done.");
+
+    set @q, geta(ShipQuests, ShipQuests_Julia);
     if (@q == 1) goto l_NoRules;
+
     next;
     mesq l("I'm sure that you've got some questions for me, feel free to ask them, but firstly I need to tell you the rules of proper social conduct on board.");
     
