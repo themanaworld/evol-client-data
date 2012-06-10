@@ -11,18 +11,6 @@
 
 000-2-1.gat,0,0,0	script	Croconut	0,{
 
-OnCroconut:
-    getitem 513, 1;
-    close;
-
-OnHalfCroconut:
-    getitem 512, 1;
-    close;
-
-OnTwoHalfCroconut:
-    getitem 512, 2;
-    close;
-
 OnUse:
     mesn "Narrator";
     mes col(l("Do you want to cut this") + " " + l(getitemname("Croconut")) + "?", 9);
@@ -32,7 +20,7 @@ OnUse:
         l("Yes."), L_Weapon,
         l("No."), -;
 
-    doevent "Croconut::OnCroconut";
+    getitem 513, 1, 1;
     close;
 
 L_Weapon:
@@ -62,19 +50,19 @@ L_TooWeakLost:
 L_TooWeakFail:
     mes col(l("Your hands are too weak, you didn't open the Croconut."), 9);
 
-    doevent "Croconut::OnCroconut";
+    getitem 513, 1, 1;
     close;
 
 L_Weak:
     mes col(l("You opened the Croconut, but only one side is edible."), 9);
 
-    doevent "Croconut::OnHalfCroconut";
+    getitem 512, 1, 1;
     close;
 
 L_Good:
     mes col(l("You perfectly cut your Croconut in two edible parts."), 9);
 
-    doevent "Croconut::OnTwoHalfCroconut";
-    close;
+   getitem 512, 2, 1;
+   close;
 
 }
