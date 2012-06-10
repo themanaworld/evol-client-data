@@ -20,7 +20,7 @@ OnUse:
         l("Yes."), L_Weapon,
         l("No."), -;
 
-    getitem 513, 1, 1;
+    getitem "Croconut", 1, 1;
     close;
 
 L_Weapon:
@@ -50,19 +50,19 @@ L_TooWeakLost:
 L_TooWeakFail:
     mes col(l("Your hands are too weak, you didn't open the Croconut."), 9);
 
-    getitem 513, 1, 1;
+    getitem "Croconut", 1, 1;
     close;
 
 L_Weak:
     mes col(l("You opened the Croconut, but only one side is edible."), 9);
 
-    getitem 512, 1, 1;
+    getitem "HalfCroconut", 1, 1;
     close;
 
 L_Good:
-    mes col(l("You perfectly cut your Croconut in two edible parts."), 9);
+     mes col(l("You perfectly cut your Croconut in two edible parts."), 9);
 
-   getitem 512, 2, 1;
-   close;
+    getitem "HalfCroconut", 2, 1;
+    close;
 
 }
