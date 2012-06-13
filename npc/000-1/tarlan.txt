@@ -7,8 +7,39 @@
 000-1.gat,35,43,0,1	script	Tarlan	315,{
 
     mesn;
-    mesq l("");
 
+    setnpcdir 2;
+    set @a, rand(4);
+    if (@a == 0) goto L_HardToHit;
+    if (@a == 1) goto L_Aouch;
+    if (@a == 2) goto L_11;
+    if (@a == 3) goto L_22;
+
+    mesq l(".");
+
+    goto l_Close;
+
+L_HardToHit:
+    mesq l("These Croco Trees are full of Croconut, but they are so hard to hit.");
+
+    goto l_Close;
+
+L_Aouch:
+    mesq l("Aouch! My head...");
+    next;
+    mesq l("Damned Croconut.");
+
+    goto l_Close;
+
+L_11:
+    mesq l(".");
+    goto l_Close;
+
+L_22:
+    mesq l(".");
+
+L_Close:
+    setnpcdir 4;
     close;
 
 }
