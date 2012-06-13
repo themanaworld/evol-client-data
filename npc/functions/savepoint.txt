@@ -6,34 +6,10 @@
 
 function	script	SavePoint	{
 
-    mesn "Narrator";
-    mes col(l("There is a nice place to stay beside you."), 9);
-    next;
-    mes col(l("What do you want to do?"), 9);
-    next;
-
-    menu
-        l("Take a nap"), -,
-        l("Nothing"), L_Return;
-
-    mes "";
-    mesn "Narrator";
-    mes col(l("You close your eyes a few seconds..."), 9);
-    next;
-    mes col("...", 9);
-    next;
-    mes col("...", 9);
-    next;
-    mes col("...", 9);
-    next;
-    mes col(l("Your position has been saved."), 9);
-    next;
+    message strcharinfo(0), l("Your position has been saved.");
 
     savepoint @map$, @x, @y;
     set @q, getcharid(3);
     misceffect 33, @q;
-
-L_Return:
-    return;
 
 }

@@ -1,0 +1,23 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Animated hammock of top level of the Ship.
+
+000-2-3.gat,28,24,0,2	script	#name	904,1,0{
+
+OnTouchFirst:
+    setnpcdir 4;
+    close;
+
+OnUnTouchAll:
+    setnpcdir 2;
+    initnpctimer;
+    close;
+
+OnTimer5440:
+    setnpcdir 4;
+    stopnpctimer;
+    end;
+
+}
