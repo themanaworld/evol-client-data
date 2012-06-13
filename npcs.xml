@@ -106,6 +106,10 @@ IDs 990-999 = Special
         <sprite>npcs/xml/tarlan.xml</sprite>
         <sprite>accessories/croconut.xml</sprite>
     </npc>
+    <npc id="320">
+		<!-- Chest container. -->
+		<sprite>npcs/xml/chest.xml</sprite>
+    </npc>
 
     <!-- Special NPCs -->
     <npc id="900">
@@ -131,6 +135,11 @@ IDs 990-999 = Special
     <npc id="905" targetSelection="false">
         <!-- Right Hammock -->
         <sprite>npcs/xml/hammock-animated2.xml</sprite>
+    </npc>
+    <npc id="906">
+        <!-- Left Hammock, with particles. -->
+        <sprite>npcs/xml/hammock-animated1.xml</sprite>
+        <particlefx>graphics/particles/savepoint-32x32.xml</particlefx>
     </npc>
     <npc id="999">
         <!-- Invisible -->
