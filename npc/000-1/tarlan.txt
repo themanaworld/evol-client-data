@@ -12,31 +12,50 @@
     set @a, rand(4);
     if (@a == 0) goto l_HardToHit;
     if (@a == 1) goto l_Aouch;
-    if (@a == 2) goto l_11;
-    if (@a == 3) goto l_22;
+    if (@a == 2) goto l_DoYou;
 
-    mesq l(".");
+    mesq l("Hey.");
+    next;
+    mesq l("What are you looking for?");
+    next;
+
+    menu
+        l("Some food."), l_Food,
+        l("Nothing, just hanging around."), -;
+
+    mes " ";
+    mesn;
+    mesq l("Ok, see you then!");
+
+    goto l_Close;
+
+l_Food:
+    mes " ";
+    mesn;
+    mesq l("You can yaye some") + " " + getitemlink("Croconut") + " " +l("by hitting these palm trees.");
+    next;
+    mesq l("Yeye be prudent with wild animal's food, some of them are dangerouyous, especially the Blobs.");
 
     goto l_Close;
 
 l_HardToHit:
-    mesq l("These Croco Trees are full of Croconut, but they are so hard to hit.");
+    mesq l("These Croco Trees are full of yaying") + " " + getitemlink("Croconut") + l(", but they are so hard to hit...");
 
     goto l_Close;
 
 l_Aouch:
-    mesq l("Aouch! My head...");
+    mesq l("Ayouyouch! My head...");
     next;
-    mesq l("Damned Croconut.");
+    mesq l("Damn") + " " + getitemlink("Croconut") + ".";
 
     goto l_Close;
 
-l_11:
-    mesq l(".");
-    goto l_Close;
+l_DoYou:
+    mesq l("Do you want to try?");
+    next;
+    mesq l("Just hit the trunk, and it will yeye a") + " " + getitemlink("Croconut") + ".";
 
-l_22:
-    mesq l(".");
+    goto l_Close;
 
 l_Close:
     setnpcdir 4;
