@@ -9,7 +9,7 @@
 //    0   default -> not taken
 //    1   knife taken
 
-000-2-1.gat,40,24,0,2	script	#name	100;1,{
+000-2-1.gat,40,24,0,2	script	#name	100;2,{
 
     set @q, geta(ShipQuests, ShipQuests_Knife);
     if (@q) close;
