@@ -107,12 +107,12 @@ IDs 990-999 = Special
         <sprite>accessories/croconut.xml</sprite>
     </npc>
     <npc id="316">
-		<!-- Chest container. -->
-		<sprite>npcs/xml/chest.xml</sprite>
+        <!-- Chest, an opening container. -->
+        <sprite>npcs/xml/chest.xml</sprite>
     </npc>
     <npc id="317">
-		<!-- Big Chest container. -->
-		<sprite>npcs/xml/big-chest.xml</sprite>
+        <!-- Big Chest, an opening container. -->
+        <sprite>npcs/xml/big-chest.xml</sprite>
     </npc>
 
     <!-- Special NPCs -->
@@ -139,11 +139,6 @@ IDs 990-999 = Special
     <npc id="905" targetSelection="false">
         <!-- Right Hammock -->
         <sprite>npcs/xml/hammock-animated2.xml</sprite>
-    </npc>
-    <npc id="906">
-        <!-- Left Hammock, with particles. -->
-        <sprite>npcs/xml/hammock-animated1.xml</sprite>
-        <particlefx>graphics/particles/savepoint-32x32.xml</particlefx>
     </npc>
     <npc id="999">
         <!-- Invisible -->
