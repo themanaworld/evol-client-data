@@ -78,38 +78,6 @@ l_EquipDone:
 
 }
 
-000-2-1.gat,41,37,0	script	Box	999;2,{
-    mesn "Narrator";
-
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
-    if (@q == 1) goto l_Give;
-    if (@q > 1) goto l_Empty;
-
-    mes col(l("This box is locked"), 9);
-    close;
-
-l_Give:
-    mes col(l("You see some items in the box. Take them out?"), 9);
-    next;
-
-    menu
-        l("Yes."), -,
-        l("No."), l_Close;
-
-    seta2 ShipQuests, ShipQuests_Arpan, 2;
-    getitem "WornShirt", 1;
-    getitem "WornShorts", 1;
-
-l_Close:
-    close;
-
-l_Empty:
-    mes col(l("This box is locked."), 9);
-
-    close;
-
-}
-
 
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 

@@ -1,0 +1,41 @@
+// Evol scripts.
+// Authors:
+//    4144, Reid
+// Description:
+//    A box with clothes for every new player.
+// Variable:
+//    ShipQuests_Arpan
+// Values:
+//    1: Talked to Arpan. Need to get cloths
+//    2: Got cloths
+
+000-2-1.gat,41,37,0	script	Box	317;2,{
+
+    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    if (getnpcdir ("") == 4) goto l_Give;
+
+    setnpcdir 2;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+l_Give:
+    if (@q > 1) goto l_Close;
+    seta2 ShipQuests, ShipQuests_Arpan, 2;
+    getitem "WornShirt", 1;
+    getitem "WornShorts", 1;
+    close;
+
+l_Close:
+    setnpcdir 6;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+OnTimer220:
+    stopnpctimer;
+    if (getnpcdir ("") == 2) setnpcdir 4;
+    if (getnpcdir ("") == 6) setnpcdir 0;
+    end;
+
+}
