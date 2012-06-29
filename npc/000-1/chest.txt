@@ -1,0 +1,27 @@
+// Evol scripts.
+// Authors:
+//  Hal9000 (Francesco Miglietta), Reid
+// Description:
+//    An opening treasure chest.
+// Variable:
+//  ShipQuests_TreasureChest
+// Values:
+//  0: Not opened.
+//  1: Opened.
+
+000-1.gat,58,31,0	script	Chest	316;2,{
+
+    set @q, geta(ShipQuests, ShipQuests_TreasureChest);
+    if (@q == 1) close;
+    
+
+L_FirstEncounter:
+    seta ShipQuests, ShipQuests_TreasureChest, 1;
+
+    mesn;
+    mesq l("Hey it works!");
+    close;
+
+
+
+}
