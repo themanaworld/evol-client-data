@@ -9,11 +9,10 @@
 //    1: Talked to Arpan. Need to get cloths
 //    2: Got cloths
 
-000-2-1.gat,41,37,0	script	Box	317;2,{
+000-2-1.gat,41,37,0	script	Box	316;2,{
 
     set @q, geta2(ShipQuests, ShipQuests_Arpan);
     if (getnpcdir ("") == 4) goto l_Give;
-
     setnpcdir 2;
     initnpctimer;
     startnpctimer;
