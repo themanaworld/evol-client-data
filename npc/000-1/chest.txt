@@ -1,27 +1,41 @@
 // Evol scripts.
 // Authors:
-//  Hal9000 (Francesco Miglietta), Reid
+//    Hal9000 (Francesco Miglietta), Reid
 // Description:
 //    An opening treasure chest.
 // Variable:
-//  ShipQuests_TreasureChest
+//    ShipQuests_TreasureChest
 // Values:
-//  0: Not opened.
-//  1: Opened.
+//    0: Not opened.
+//    1: Opened.
 
 000-1.gat,58,31,0	script	Chest	316;2,{
 
-    set @q, geta(ShipQuests, ShipQuests_TreasureChest);
-    if (@q == 1) close;
-    
+    set @q, geta2(ShipQuests, ShipQuests_TreasureChest);
+    if (getnpcdir ("") == 4) goto l_Give;
 
-L_FirstEncounter:
-    seta ShipQuests, ShipQuests_TreasureChest, 1;
-
-    mesn;
-    mesq l("Hey it works!");
+    setnpcdir 2;
+    initnpctimer;
+    startnpctimer;
     close;
 
+l_Give:
+    if (@q > 1) goto l_Close;
+    seta2 ShipQuests, ShipQuests_TreasureChest, 1;
+    getitem "WornShirt", 1;
+    getitem "WornShorts", 1;
+    close;
 
+l_Close:
+    setnpcdir 6;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+OnTimer220:
+    stopnpctimer;
+    if (getnpcdir ("") == 2) setnpcdir 4;
+    if (getnpcdir ("") == 6) setnpcdir 0;
+    end;
 
 }
