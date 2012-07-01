@@ -121,8 +121,8 @@ l_Story:
     next;
     mesq lg("Yaya, you should go see her! She'll be happy to see you.");
     next;
-    mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the box around your bed, there is some new ones inside.");
-    setcamnpc "Box";
+    mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the chest around your bed, there is some new ones inside.");
+    setcamnpc "Chest";
     next;
     restorecam;
 
