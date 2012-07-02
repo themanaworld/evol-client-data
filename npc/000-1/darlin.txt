@@ -15,9 +15,9 @@
     set @q, geta(ShipQuests, ShipQuests_Darlin);
     if (@q > 0) goto l_QuestGiven;
 
-    mesq l("Hey! Ehoo!!"); 
+    mesq l("HEY! EHOO!"); 
     next;
-    mesq l("Do you hear me??");
+    mesq l("DO YOU HEAR ME?");
     next;
 
     menu
@@ -26,11 +26,11 @@
 
     mes "";
     mesn;
-    mesq l("Good!!");
+    mesq l("GOOD!");
     next;
-    mesq l("I was here when they rescued you!!");
+    mesq l("I WAS HERE WHEN THEY RESCUED YOU!");
     next;
-    mesq l("Do you feel better??");
+    mesq l("DO YOU FEEL BETTER?");
     next;
 
     menu
@@ -44,9 +44,9 @@
 
     mes "";
     mesn;
-    mesq l("I'm doing fine!!");
+    mesq l("I'M DOING FINE!");
     next;
-    mesq l("So, what's your name??");
+    mesq l("SO, WHAT'S YOUR NAME?");
     next;
 
     menu
@@ -55,21 +55,21 @@
 
     mes "";
     mesn;
-    mesq l("What did you say??");
+    mesq l("WHAT DID YOU SAID?");
     next;
-    mesq l("I don't understand!!");
+    mesq l("I DON'T UNDERSTAND!");
     next;
 
     menu
-        l("I said see you later!!"), l_Bye,
-        l("I said... Why don't you come down to talk??"), l_GoDown,
+        l("I SAID SEE YOU LATER!"), l_Bye,
+        l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
         l("I'm called") + " " + strcharinfo(0) + "!", -;
 
     mes "";
     mesn;
-    mesq strcharinfo(0) + "?? " + l("That's a nice name!!");
+    mesq strcharinfo(0) + "? " + l("THAT'S A NICE NAME!");
     next;
-    mesq l("So what's up?? What are you doing??");
+    mesq l("SO WHAT'S UP? WHAT ARE YOU DOING?");
     next;
 
 l_Menu:
@@ -81,9 +81,9 @@ l_Menu:
     setcamnpc "Gugli";
     mes "";
     mesn;
-    mesq l("Oh look there!!");
+    mesq l("OH LOOK THERE!");
     next;
-    mesq l("He is right in the bottom of the ship, you can't miss him!!");
+    mesq l("HE'S RIGHT IN THE BOTTOM OF THE SHIP, YOU CAN'T MISS HIM!!");
     restorecam;
 
     close;
@@ -91,11 +91,11 @@ l_Menu:
 l_GoDown:
     mes "";
     mesn;
-    mesq l("I would love to!!");
+    mesq l("I WOULD LOVE TO!");
     next;
-    mesq l("But I can't, I need to keep an eye on the sea, to warn the crew if there happen to be some pirates around!!");
+    mesq l("BUT I CAN'T, I NEED TO KEEP AN EYE ON THE SEA, TO WARN THE CREW IF THERE HAPPEN TO BE SOME PIRATES AROUND!");
     next;
-    mesq l("I also watch for dangerous animals...");
+    mesq l("I ALSO WATCH FOR DANGEROUS ANIMALS...");
     next;
 
     menu
@@ -110,7 +110,7 @@ l_GoDown:
 
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
     next;
-    mesq l("Maybe you can look at this??");
+    mesq l("MAYBE YOU CAN LOOK AT THIS?");
     next;
 
     menu
@@ -119,56 +119,56 @@ l_GoDown:
 
     mes "";
     mesn;
-    mesq l("It's ok, crew tasks are much more important than curiosity!!");
+    mesq l("IT'S OK, CREW TASKS ARE MUCH MORE IMPORTANT THAN CURIOSITY!");
     next;
-    mesq l("Anyway, maybe when you are looking for food with Gugli you'll have the time to look at this!!");
+    mesq l("ANYWAY, MAYBE WHEN YOU ARE LOOKING FOR FOOD WITH GUGLI YOU'LL HAVE THE TIME TO LOOK AT THIS!");
     close;
 
 l_Bye:
     mes "";
     mesn;
-    mesq l("Fine, bye!!");
+    mesq l("FINE, BYE!");
 
 l_Quit:
     close;
 
 l_QuestGiven:
-    mesq l("Ehoo") + " " + strcharinfo(0) + "!!"; 
+    mesq l("EHOO") + " " + strcharinfo(0) + "!"; 
     next;
-    mesq l("Did you find out what the light is?!");
+    mesq l("DID YOU FIND OUT WHAT THE LIGHT IS?");
     next;
 
     menu
         l("I forgot where it was."), -,
-        l("Oh, it was nothing important!"), l_Nothing,
-        l("Yes, it's a chest!"), l_Chest;
+        l("Yes, it's a chest."), l_Chest,
+        l("Oh, it was nothing important!"), l_Nothing;
 
     mes "";
     mesn;
-    mesq l("On the edge of this island!!");
+    mesq l("ON THE TOP OF THE CLIFF!");
     next;
-    mesq l("You need to walk north!!");
+    mesq l("YOU NEED TO WALK NORTH!");
 
     goto l_Menu;
 
 l_Nothing:
     mes "";
     mesn;
-    mesq l("Oh, ok!!");
+    mesq l("OH, OK!");
 
     goto l_Menu;
 
 l_Chest:
     mes "";
     mesn;
-    mesq l("Excuse me, but what did you say?? Speak louder!!");
+    mesq l("EXCUSE ME, BUT WHAT DID YOU SAY? SPEAK LOUDER!");
     next;
-    mesq l("If you find something then it's good!!");
+    mesq l("IF YOU FIND SOMETHING THEN IT'S GOOD!");
 
     goto l_Menu;
 
 l_DangerAround:
-    mesq l("Nothing else other than sharks and an odd light!!");
+    mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT.");
  
     close;
 
