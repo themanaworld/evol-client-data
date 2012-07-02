@@ -7,7 +7,7 @@
 000-1.gat,23,31,0,1	script	Q'Muller	104,{
 
     mesn;
-    mesq l("I think that I'm done, I've got a box full of ") + getitemlink("Crocclaw") +"!";
+    mesq l("I think that I'm done, I've got a box full of @@!", getitemlink("Crocclaw"));
 
     close;
 
