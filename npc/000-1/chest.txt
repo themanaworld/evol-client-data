@@ -13,11 +13,8 @@
 
     set @q, geta(ShipQuests, ShipQuests_TreasureChest);
     if (getnpcdir ("") == 4) goto l_Give;
-    set @a, getnpcdir;
-    mes @a;
+
     setnpcdir 2;
-    set @a, getnpcdir;
-    mes @a;
     initnpctimer;
     startnpctimer;
     close;
@@ -31,8 +28,6 @@ l_Give:
 
 l_Close:
     setnpcdir 6;
-    set @a, getnpcdir;
-    mes @a;
     initnpctimer;
     startnpctimer;
     close;
