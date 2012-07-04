@@ -1,0 +1,25 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Read the Old Book
+
+000-2-1.gat,0,0,1	script	OldBook	0,{
+
+OnUse:
+    getitem 514, 1, 1;
+    mesn "Narrator";
+
+    mes col(l("."), 9);
+    next;
+    mes col(l("."), 9);
+    next;
+    mes col(l("."), 9);
+    next;
+    mes col(l("."), 9);
+    next;
+    mes col(l("."), 9);
+
+    close;
+
+}
