@@ -141,6 +141,7 @@ l_Accepted:
     next;
 
 l_GiveFood:
+    mes "";
     menu
         rif(countitem(501, 1), l(getitemname("Acorn"))), 0,
         rif(countitem(502, 1), l(getitemname("Bread"))), 502,
