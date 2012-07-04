@@ -13,7 +13,7 @@
 
 OnUse:
     mesn "Narrator";
-    mes col(l("Do you want to cut this") + " " + l(getitemname("Croconut")) + "?", 9);
+    mes col(l("Do you want to cut this @@ ?", getitemname("Croconut"), 9);
     next;
 
     menu
@@ -26,7 +26,7 @@ OnUse:
 L_Weapon:
     mes "";
     mesn "Narrator";
-    mes col(l("Which of your weapons do you want to use in order to cut this Croconut?"), 9);
+    mes col(l("Which of your weapons do you want to use in order to cut this @@?", getitemname("Croconut"), 9);
     next;
 
     menu
@@ -43,24 +43,24 @@ L_TooWeak:
     if ( (@q == 3) || (@q == 4) || (@q == 5) ) goto L_Weak;
 
 L_TooWeakLost:
-    mes col(l("You hit too hard with your fist, you lost your Croconut."), 9);
+    mes col(l("You hit too hard with your fist, you lost your @@."), getitemname("Croconut"), 9);
 
     close;
 
 L_TooWeakFail:
-    mes col(l("Your hands are too weak, you didn't open the Croconut."), 9);
+    mes col(l("Your hands are too weak, you didn't open the @@."), getitemname("Croconut"), 9);
 
     getitem "Croconut", 1, 1;
     close;
 
 L_Weak:
-    mes col(l("You opened the Croconut, but only one side is edible."), 9);
+    mes col(l("You opened the @@, but only one side is edible."), getitemname("Croconut"), 9);
 
     getitem "HalfCroconut", 1, 1;
     close;
 
 L_Good:
-     mes col(l("You perfectly cut your Croconut in two edible parts."), 9);
+     mes col(l("You perfectly cut your @@ in two edible parts."), getitemname("Croconut"), 9);
 
     getitem "HalfCroconut", 2, 1;
     close;
