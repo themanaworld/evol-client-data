@@ -1,0 +1,33 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Merchand.
+
+000-1.gat,83,98,0,1	script	Fexil	105,{
+
+    mesn;
+    mesq lg("Hello traveler.");
+    next;
+    mesq l("I got clothes and stuff for you for the best price!");
+    next;
+    mesq l("It comes from the four sides of the archipelago.");
+    next;
+    mesq l("Interested?");
+    next;
+
+    menu
+        l("Yes, why not."), l_Accepted,
+        l("No, sorry."), -;
+
+    mesq l("Oh... Ok, I just started to trade... My technique is maybe not the best.");
+    next;
+    mesq l("Anyway, if you feel interested, just click on my bag.");
+
+    close;
+
+l_Accepted:
+    shop "Bag";
+    close;
+
+}
