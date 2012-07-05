@@ -2,7 +2,7 @@
 // Authors:
 //    Reid
 // Description:
-//    Darlin discussion from 10meter tall mat.
+//    Darlin discussion from 10 meters tall mat.
 // Variable:
 //    ShipQuests_Darlin
 // Values: 
@@ -15,9 +15,9 @@
     set @q, geta(ShipQuests, ShipQuests_Darlin);
     if (@q > 0) goto l_QuestGiven;
 
-    mesq l("HEY! EHOO!"); 
+    mesq l("HEY! HEY YOU!"); 
     next;
-    mesq l("DO YOU HEAR ME?");
+    mesq l("CAN YOU HEAR ME?");
     next;
 
     menu
@@ -34,7 +34,7 @@
     next;
 
     menu
-        l("I feel better!"), -,
+        l("I do feel better!"), -,
         l("Why don't you come down to talk?"), l_GoDown;
 
     mes "";
@@ -44,9 +44,9 @@
 
     mes "";
     mesn;
-    mesq l("I'M DOING FINE!");
+    mesq l("I AM DOING FINE!");
     next;
-    mesq l("SO, WHAT'S YOUR NAME?");
+    mesq l("SO, WHAT IS YOUR NAME?");
     next;
 
     menu
@@ -55,13 +55,13 @@
 
     mes "";
     mesn;
-    mesq l("WHAT DID YOU SAID?");
+    mesq l("WHAT DID YOU SAY?");
     next;
-    mesq l("I DON'T UNDERSTAND!");
+    mesq l("I DO NOT UNDERSTAND!");
     next;
 
     menu
-        l("I SAID SEE YOU LATER!"), l_Bye,
+        l("I SAID: SEE YOU LATER!"), l_Bye,
         l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
         l("I'm called") + " " + strcharinfo(0) + "!", -;
 
@@ -81,9 +81,9 @@ l_Menu:
     setcamnpc "Gugli";
     mes "";
     mesn;
-    mesq l("OH LOOK THERE!");
+    mesq l("OH, LOOK THERE!");
     next;
-    mesq l("HE'S RIGHT IN THE BOTTOM OF THE SHIP, YOU CAN'T MISS HIM!!");
+    mesq l("HE IS AT THE FAR BOTTOM OF THE SHIP, YOU CAN'T MISS HIM!!");
     restorecam;
 
     close;
@@ -115,13 +115,13 @@ l_GoDown:
 
     menu
         l("I'll look at it."), l_Bye,
-        l("Ok, but Gugli needs my help first."), -;
+        l("Sure, but Gugli needs my help first."), -;
 
     mes "";
     mesn;
     mesq l("IT'S OK, CREW TASKS ARE MUCH MORE IMPORTANT THAN CURIOSITY!");
     next;
-    mesq l("ANYWAY, MAYBE WHEN YOU ARE LOOKING FOR FOOD WITH GUGLI YOU'LL HAVE THE TIME TO LOOK AT THIS!");
+    mesq l("ANYWAY, MAYBE WHEN YOU ARE LOOKING FOR FOOD WITH GUGLI YOU WILL HAVE THE TIME TO LOOK AT THIS!");
     close;
 
 l_Bye:
@@ -135,13 +135,13 @@ l_Quit:
 l_QuestGiven:
     mesq l("EHOO") + " " + strcharinfo(0) + "!"; 
     next;
-    mesq l("DID YOU FIND OUT WHAT THE LIGHT IS?");
+    mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?");
     next;
 
     menu
-        l("I forgot where it was."), -,
+        l("I forgot where it was..."), -,
         l("Yes, it's a chest."), l_Chest,
-        l("Oh, it was nothing important!"), l_Nothing;
+        l("Oh, nothing important."), l_Nothing;
 
     mes "";
     mesn;
@@ -161,9 +161,9 @@ l_Nothing:
 l_Chest:
     mes "";
     mesn;
-    mesq l("EXCUSE ME, BUT WHAT DID YOU SAY? SPEAK LOUDER!");
+    mesq l("SORRY, BUT WHAT DID YOU SAY? SPEAK LOUDER!");
     next;
-    mesq l("IF YOU FIND SOMETHING THEN IT'S GOOD!");
+    mesq l("IF YOU FIND SOMETHING, THEN IT'S GREAT!");
 
     goto l_Menu;
 
