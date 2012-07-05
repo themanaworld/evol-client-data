@@ -2,16 +2,16 @@
 // Authors:
 //    Reid
 // Description:
-//    Merchand.
+//    Merchant.
 
 000-1.gat,83,98,0,1	script	Fexil	105,{
 
     mesn;
-    mesq lg("Hello traveler.");
+    mesq lg("Greetings traveler.");
     next;
-    mesq l("I got clothes and stuff for you for the best price!");
+    mesq l("I have some clothes and other things for you at a fine price!");
     next;
-    mesq l("It comes from the four sides of the archipelago.");
+    mesq l("What I sell comes from every corner of this archipelago.");
     next;
     mesq l("Interested?");
     next;
@@ -20,9 +20,9 @@
         l("Yes, why not."), l_Accepted,
         l("No, sorry."), -;
 
-    mesq l("Oh... Ok, I just started to trade... My technique is maybe not the best.");
+    mesq l("Oh... Well, I just started to trade... Thus my technique may not be the best.");
     next;
-    mesq l("Anyway, if you feel interested, just click on my bag.");
+    mesq l("Anyway, if you ever feel interested, just click on my bag.");
 
     close;
 
