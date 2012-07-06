@@ -24,7 +24,7 @@ l_Give:
     seta2 ShipQuests, ShipQuests_Arpan, 2;
     getitem "WornShirt", 1;
     getitem "WornShorts", 1;
-    message strcharinfo(0), l("You have recuperates the clothes from the chest.");
+    message strcharinfo(0), l("You take the clothes from the chest.");
     close;
 
 l_Close:
