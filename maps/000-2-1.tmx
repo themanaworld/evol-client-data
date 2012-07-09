@@ -7,21 +7,21 @@
   <property name="minimap" value="graphics/minimaps/000-2-1.png"/>
   <property name="music" value="bartk-indoor-artis.ogg"/>
  </properties>
- <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Indoor/Ship-indoor.png" width="256" height="512"/>
+ <tileset firstgid="1" name="ship-indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/indoor/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Indoor/Village-indoor2.png" width="512" height="512"/>
+ <tileset firstgid="129" name="village-indoor2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/indoor/village-indoor2.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" source="../graphics/tilesets/Indoor/Candle.tsx"/>
- <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Indoor/Box.png" width="128" height="160"/>
+ <tileset firstgid="385" source="../graphics/tilesets/indoor/candle.tsx"/>
+ <tileset firstgid="391" name="box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/indoor/box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="411" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/Collision.png" width="96" height="64"/>
+ <tileset firstgid="411" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="417" name="Ship-indoor_x3" tilewidth="64" tileheight="128">
-  <image source="../graphics/tilesets/Indoor/Ship-indoor_x3.png" width="64" height="128"/>
+ <tileset firstgid="417" name="ship-indoor_x3" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/indoor/ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="83" height="59">
   <data encoding="base64" compression="gzip">
