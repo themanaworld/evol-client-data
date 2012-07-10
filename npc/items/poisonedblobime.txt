@@ -1,8 +1,11 @@
 // Evol scripts.	
 // Authors:
-//    Alastrim, Vasily_Makarov, Reid
+//    Alastrim
+//    Vasily_Makarov
+//    Reid
 // Description:	
-//    1/2 bad luck to be poisoned.
+//    1/2 chances to get poisoned.
+//    1/2 chances to get healed (1 HP).
 
 function	script	usePoisonedBlobime	{
 	set @temp, rand(2);

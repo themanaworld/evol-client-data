@@ -1,8 +1,11 @@
 // Evol scripts.	
 // Authors:
-//    Alastrim, Vasily_Makarov, Reid
-// Description:	
-//    Heal of 15hp and add 1/4 bad luck to be poisoned.
+//    Alastrim
+//    Vasily_Makarov
+//    Reid
+// Description:
+//    1/4 chances to get poisoned.
+//    3/4 chances to get healed (15 HP).
 
 function	script	usePoisonedWater	{
 	set @temp, rand(4);

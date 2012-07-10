@@ -1,8 +1,8 @@
 // Evol scripts.
-// Authors:
+// Author:
 //    Ablu
 // Description:
-//    Intro scene: Two sailors talking about how the player was found on his raft.
+//    Introduction scene where two sailors talk about how the player was found on his raft.
 
 000-0-0.gat,22,17,0,1	script	Elmo	309,{
 
@@ -75,7 +75,7 @@ OnTalk:
 }
 
 000-0-0.gat,21,17,0,1	script	Magic Arpan	307,{
-    doevent "Elmo::OnTalk"; // Elmo will handle dialogs between both npcs
+    doevent "Elmo::OnTalk"; // Elmo will handle dialogs between both NPCs.
 
     close;
 

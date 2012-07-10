@@ -1,8 +1,8 @@
 // Evol scripts.
-// Authors:
+// Author:
 //    4144
 // Description:
-//    Function checking client version and report if it too old.
+//    Function checking the client version and reports if it is too old.
 
 function	script	CheckClientVersion	{
     if (getclientversion("") > 3) return;

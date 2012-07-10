@@ -1,19 +1,19 @@
 // Evol scripts.
-// Authors:
+// Author:
 //    Reid
 // Description:
-//    Cap'tain Nard dialogs.
-//    Nard will done the introduction by a little quest,
-//    This quest is meant to teach the player how to manipulate a weapon, but also to bring some foods to the ship.
+//    Captain Nard dialogs.
+//    Nard does the introduction with a small quest.
+//    This quest is meant to teach the player how to use a weapon,and to bring food to the ship.
 // 2 bits array:
 //    ShipQuests
 // Variable:
 //    ShipQuests_NardBox
 // Values: 
-//    0   Intro of the box and of Nard, it's displayed when the player never spoke to Nard, nor his box.
-//    1   Nard spoke and he gave you access to the outdoor of the ship.
-//    2   You complete the quest.
-//    3   You open the chest, you complete the introduction.
+//    0   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
+//    1   Nard spoke and gave access to the outdoor of the ship.
+//    2   Completed the quest.
+//    3   Opened the chest and finished the introduction.
 
 000-2-3.gat,25,24,0	script	Box	102;1,{
 

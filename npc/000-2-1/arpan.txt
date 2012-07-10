@@ -1,15 +1,15 @@
 // Evol scripts.
-// Authors:
+// Author:
 //    Ablu
 // Description:
-//    Magic Arpan which tells new player how they came here.
+//    Tells to the player how he got here.
 // Variable:
 //    ShipQuests_Arpan
 // Values:
-//    0: Have not talked to Arpan yet
-//    1: Talked to Arpan. Need to get cloths
-//    2: Got cloths
-//    3: Got cloths + equipped them
+//    0   Has not talked to Arpan yet.
+//    1   Talked to Arpan and needs to get the clothes.
+//    2   Has the clothes.
+//    3   Has and equipped the clothes.
 
 000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
     set @q, geta2(ShipQuests, ShipQuests_Arpan);

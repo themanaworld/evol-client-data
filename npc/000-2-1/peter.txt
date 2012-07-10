@@ -6,31 +6,31 @@
 //    Ablu
 //    alastrim
 // Description:
-//    Rat killer NPC
+//    Rat hunter.
 // 4 bits array:
 //    ShipQuests
 // Variable:
 //    ShipQuests_Peter
 // Values:
-//    0   did not start the quest
-//    1   task given
-//    2   task given + reward expected
-//    3   task completed without reward
-//    4   asked for reward after completing it
-//    5   task done + reward given
-// "000-2-2.gat" - map with mobs
-// "$@RAT_SAILOR_HELPER$" - Name of the participant
-// "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight
+//    0   Did not start the quest.
+//    1   Task given.
+//    2   Task given and reward expected.
+//    3   Task completed without reward.
+//    4   Asked for reward after completion of the task.
+//    5   Task done and reward given.
+// "000-2-2.gat" - map with mobs.
+// "$@RAT_SAILOR_HELPER$" - Name of the participant.
+// "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight.
 // "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array:
-// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive)
-// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive)
-// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive)
-// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive)
-// [5] = Shows how many seconds passed since Ratto number 1 died
-// [6] = Shows how many seconds passed since Ratto number 2 died
-// [7] = Shows how many seconds passed since Ratto number 3 died
-// [8] = Shows how many seconds passed since Ratto number 4 died
-// [9] = Shows how many seconds passed since the player started the quest
+// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive).
+// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive).
+// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive).
+// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive).
+// [5] = Shows how many seconds passed since Ratto number 1 died.
+// [6] = Shows how many seconds passed since Ratto number 2 died.
+// [7] = Shows how many seconds passed since Ratto number 3 died.
+// [8] = Shows how many seconds passed since Ratto number 4 died.
+// [9] = Shows how many seconds passed since the player started the quest.
 
 000-2-1.gat,61,34,0,1	script	AreaNPC	0,0,1,{
 
