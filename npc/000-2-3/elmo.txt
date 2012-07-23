@@ -6,7 +6,7 @@
 
 000-2-3.gat,27,27,0,1	script	Elmo	309;5,{
 
-    set @q, geta(ShipQuests, ShipQuests_ArpanMoney);
+    set @q, getq(ShipQuests_ArpanMoney);
     if (@q == 1) goto l_GotMoney;
 
     mesn;

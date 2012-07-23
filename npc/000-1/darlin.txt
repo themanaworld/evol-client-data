@@ -12,7 +12,7 @@
 000-1.gat,25,26,0,1	script	Darlin	103,{
 
     mesn;
-    set @q, geta(ShipQuests, ShipQuests_Darlin);
+    set @q, getq(ShipQuests_Darlin);
     if (@q > 0) goto l_QuestGiven;
 
     mesq l("HEY! HEY YOU!"); 
@@ -106,7 +106,7 @@ l_GoDown:
     mesn;
 
     if (@q > 0) goto l_DangerAround;
-    seta ShipQuests, ShipQuests_Darlin, 1;
+    setq ShipQuests_Darlin, 1;
 
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
     next;

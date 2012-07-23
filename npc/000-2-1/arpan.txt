@@ -12,7 +12,7 @@
 //    3   Has and equipped the clothes.
 
 000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
     close;
@@ -20,7 +20,7 @@
 }
 
 000-2-1.gat,44,36,0,1	script	RightDoorCheck	0,0,0,{
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
     close;
@@ -28,7 +28,7 @@
 }
 
 000-2-1.gat,37,32,0,1	script	LeftBarrierCheck	0,0,2,{
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
@@ -46,14 +46,14 @@ l_GetCloth:
     close;
 
 l_EquipDone:
-    seta2 ShipQuests, ShipQuests_Arpan, 3;
+    setq ShipQuests_Arpan, 3;
 
     close;
 
 }
 
 000-2-1.gat,46,32,0,1	script	RightBarrierCheck	0,0,2,{
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
@@ -71,7 +71,7 @@ l_GetCloth:
     close;
 
 l_EquipDone:
-    seta2 ShipQuests, ShipQuests_Arpan, 3;
+    setq ShipQuests_Arpan, 3;
 
     close;
 
@@ -81,7 +81,7 @@ l_EquipDone:
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 
 OnTalk:
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
 
     mesn;
 
@@ -89,7 +89,7 @@ OnTalk:
 
     mesq lg("Yeye, you are really lucky to be alive. You are in good enough shape for walking, do you remember what happened?");
     next;
-    seta2 ShipQuests, ShipQuests_Arpan, 1;
+    setq ShipQuests_Arpan, 1;
 
     menu
         lg("I only remember I was rescued by you."), l_Story,
@@ -135,7 +135,7 @@ l_Menu:
         lg("Could you tell me where I am?"), l_Where,
         lg("Where can I find Julia?"), l_Julia,
         l("Who are you?"), l_Who,
-        rif(geta(ShipQuests, ShipQuests_ArpanMoney) == 0, l("Where are my old clothes?")), l_WhereOldClothes,
+        rif(getq(ShipQuests_ArpanMoney) == 0, l("Where are my old clothes?")), l_WhereOldClothes,
         rif(!@equipped, lg("What should I do after taking these clothes?")), l_WhatCloth,
         rif(!@equipped, l("Thank you, I'll take them."), l("Nothing, sorry.")), l_Quit;
     close;
@@ -179,7 +179,7 @@ l_WhereOldClothes:
     mesq lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
     next;
     mes lg("Oh, now that I remember, we've also found some money in your pockets, here it is!");
-    seta ShipQuests, ShipQuests_ArpanMoney, 1;
+    setq ShipQuests_ArpanMoney, 1;
     set zeny, zeny+25;
     next;
 

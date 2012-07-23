@@ -12,7 +12,7 @@
 
 000-2-1.gat,41,37,0	script	Chest#0	317;2,{
 
-    set @q, geta2(ShipQuests, ShipQuests_Arpan);
+    set @q, getq(ShipQuests_Arpan);
     if (getnpcdir ("") == 4) goto l_Give;
 
     setnpcdir 2;
@@ -22,7 +22,7 @@
 
 l_Give:
     if (@q > 1) goto l_Close;
-    seta2 ShipQuests, ShipQuests_Arpan, 2;
+    setq ShipQuests_Arpan, 2;
     getitem "WornShirt", 1;
     getitem "WornShorts", 1;
     message strcharinfo(0), l("You take the clothes from the chest.");

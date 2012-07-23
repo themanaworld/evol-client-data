@@ -13,7 +13,7 @@
 
 000-1.gat,58,31,0	script	Chest#1	316;2,{
 
-    set @q, geta(ShipQuests, ShipQuests_TreasureChest);
+    set @q, getq(ShipQuests_TreasureChest);
     if (getnpcdir ("") == 4) goto l_Give;
 
     setnpcdir 2;
@@ -23,7 +23,7 @@
 
 l_Give:
     if (@q > 0) goto l_Close;
-    seta ShipQuests, ShipQuests_TreasureChest, 1;
+    setq ShipQuests_TreasureChest, 1;
     set zeny, zeny + 400;
     getitem 508, 1;
     getitem 509, 1;

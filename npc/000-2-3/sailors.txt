@@ -8,8 +8,8 @@
 000-2-3.gat,20,26,0,0	script	AreaTop	0,1,0,{
 
 OnTouch:
-    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
-    seta ShipQuests, ShipQuests_Door, 1;
+    if (getq(ShipQuests_Door) == 1) end;
+    setq ShipQuests_Door, 1;
 
     mesn "Elmo";
     mesq g(l("So that's why we wanted to warn you, maybe she comes from that guild, as that sign was on her raft."),
@@ -48,8 +48,8 @@ OnTouch:
 000-2-3.gat,21,27,0,0	script	AreaMiddle	0,0,0,{
 
 OnTouch:
-    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
-    seta ShipQuests, ShipQuests_Door, 1;
+    if (getq(ShipQuests_Door) == 1) end;
+    setq ShipQuests_Door, 1;
 
     mesn "Elmo";
     mesq g(l("So that's why we wanted to warn you, maybe she comes from that guild, as that sign was on her raft."),
@@ -86,8 +86,8 @@ OnTouch:
 000-2-3.gat,20,28,0,0	script	AreaBottom	0,1,0,{
 
 OnTouch:
-    if (geta(ShipQuests, ShipQuests_Door) == 1) end;
-    seta ShipQuests, ShipQuests_Door, 1;
+    if (getq(ShipQuests_Door) == 1) end;
+    setq ShipQuests_Door, 1;
 
     mesn "Elmo";
     mesq g(l("So that's why we wanted to warn you, maybe she comes from that guild, as that sign was on her raft."),

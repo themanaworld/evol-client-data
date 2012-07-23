@@ -37,7 +37,7 @@
 OnTouch:
     if (BaseLevel < 5) goto L_Stop;
     if ($@RAT_SAILOR_HELPER$ != "") goto L_Occupied;
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    set @q, getq(ShipQuests_Peter);
     if (@q < 1) goto L_Task;
     if (@q == 1 || @q == 2) goto L_Rfail;
     if (@q == 3 || @q == 4) goto L_Rwin;
@@ -74,11 +74,11 @@ L_Rwin:
 
 000-2-1.gat,60,35,0,1	script	Peter	303;3,{
 
-    set @q_julia, geta2(ShipQuests, ShipQuests_Julia);
+    set @q_julia, getq(ShipQuests_Julia);
     if (@q_julia == 0) goto L_TalkToJulia;
     if (BaseLevel < 5) goto OnTooWeak;
 
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    set @q, getq(ShipQuests_Peter);
     if (@q == 1 || @q == 2) goto OnReturnFail;
     if (@q >= 3) goto OnReturnWin;
 
@@ -176,15 +176,15 @@ L_BonusTask:
         l("What? This reward is too small!"), L_Close;
 
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 0) seta4 ShipQuests, ShipQuests_Peter, 2;
-    if (@q == 3) seta4 ShipQuests, ShipQuests_Peter, 4;
+    if (@q == 0) setq ShipQuests_Peter, 2;
+    if (@q == 3) setq ShipQuests_Peter, 4;
 
     goto L_Start;
 
 L_Task:
     mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 0) seta4 ShipQuests, ShipQuests_Peter, 1;
+    if (@q == 0) setq ShipQuests_Peter, 1;
     goto L_Start;
 
 L_Start:
@@ -251,7 +251,7 @@ L_Dead:
 
 L_Done:
     warp "000-2-1", 61, 36;
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
+    set @q, getq(ShipQuests_Peter);
     if (@q == 2 || @q == 4) goto L_Reward;
 
     goto L_Thanks;
@@ -285,15 +285,15 @@ L_Reward:
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 500;
-    seta4 ShipQuests, ShipQuests_Peter, 5;
+    setq ShipQuests_Peter, 5;
 
     goto L_CleaningClose;
 
 L_Thanks:
     mesn;
     mesq l("Thanks for helping me!");
-    set @q, geta4(ShipQuests, ShipQuests_Peter);
-    if (@q == 1) seta4 ShipQuests, ShipQuests_Peter, 3;
+    set @q, getq(ShipQuests_Peter);
+    if (@q == 1) setq ShipQuests_Peter, 3;
 
     goto L_CleaningClose;
 

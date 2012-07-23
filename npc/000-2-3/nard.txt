@@ -17,7 +17,7 @@
 
 000-2-3.gat,25,26,0,1	script	Nard	306;5,{
 
-    set @q, geta2(ShipQuests, ShipQuests_Nardbox);
+    set @q, getq(ShipQuests_Nardbox);
 
 l_Checker:
     if (@q == 1) goto l_NotYet;
@@ -85,7 +85,7 @@ l_NeedContent:
     mesq l("Go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
-    seta2 ShipQuests, ShipQuests_Nardbox, 1;
+    setq ShipQuests_Nardbox, 1;
 
     close;
 
@@ -128,7 +128,7 @@ l_Give:
     next;
     mesq l("You are now part of the crew! Thanks again for your help.");
 
-    seta2 ShipQuests, ShipQuests_Nardbox, 3;
+    setq ShipQuests_Nardbox, 3;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
 

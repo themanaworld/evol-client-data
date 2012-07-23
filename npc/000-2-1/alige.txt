@@ -16,7 +16,7 @@
 000-2-1.gat,33,32,0,1	script	AligeTrigger	0,1,1,{
 
 OnTouch:
-    if (geta2(ShipQuests, ShipQuests_Alige) > 0) close;
+    if (getq(ShipQuests_Alige) > 0) close;
     doevent "Alige::OnFirstEncounter";
 
     close;
@@ -46,13 +46,13 @@ OnTimer190:
 
 000-2-1.gat,33,31,0,1	script	Alige	301;2,{
 
-    set @q, geta2(ShipQuests, ShipQuests_Alige);
+    set @q, getq(ShipQuests_Alige);
     if (@q == 2) goto l_AskForFood;
 
     goto OnFirstEncounter;
 
 OnFirstEncounter:
-    seta2 ShipQuests, ShipQuests_Alige, 1;
+    setq ShipQuests_Alige, 1;
 
     mesn "Hidden Person";
     mesq l("Hey, psst! You're not a sailor, right?");
@@ -107,7 +107,7 @@ l_CanHelp:
     mesq l("Please don't tell people that you've seen me. I don't want to be thrown in the sea as food for sharks or decapitated. At least not again!");
     next;
 
-    if (geta2(ShipQuests, ShipQuests_Alige) == 2) goto l_SoAskForFood;
+    if (getq(ShipQuests_Alige) == 2) goto l_SoAskForFood;
     goto l_Accept;
 
 l_AboutReward:
@@ -132,7 +132,7 @@ l_Artis:
     goto l_Accept;
 
 l_Accepted:
-    seta2 ShipQuests, ShipQuests_Alige, 2;
+    setq ShipQuests_Alige, 2;
 
     mes "";
     mesn;

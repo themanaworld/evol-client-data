@@ -11,7 +11,7 @@
 
 000-2-1.gat,40,24,0,2	script	#name	100;2,{
 
-    set @q, geta(ShipQuests, ShipQuests_Knife);
+    set @q, getq(ShipQuests_Knife);
     if (@q) close;
 
     mesn "Narrator";
@@ -25,7 +25,7 @@
     close;
 
 l_Give:
-    seta ShipQuests, ShipQuests_Knife, 1;
+    setq ShipQuests_Knife, 1;
     getitem "Knife", 1;
 
     mes "";
