@@ -6,7 +6,6 @@ Copyright (C) 2011-2012 Evol Online -->
     <imageset name="mob" src="graphics/sprites/monsters/ratto.png" width="32" height="32"/>
 
     <action name="spawn" imageset="mob">
-
         <animation>
             <frame index="0" delay="250"/>
             <frame index="1" delay="150"/>
@@ -18,11 +17,9 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="7" delay="250"/>
             <jump action="stand"/>
         </animation>
-
     </action>
 
     <action name="stand" imageset="acc">
-
         <animation direction="down">
             <frame index="0" delay="120"/>
             <frame index="1" delay="100"/>
@@ -82,7 +79,6 @@ Copyright (C) 2011-2012 Evol Online -->
     </action>
 
     <action name="walk" imageset="acc">
-
         <animation direction="down">
             <frame index="0" delay="120"/>
             <frame index="1" delay="100"/>
@@ -140,15 +136,14 @@ Copyright (C) 2011-2012 Evol Online -->
         </animation>
 
     </action>
-    
-    
-    <action name="attack" imageset="acc">
 
+    <action name="attack" imageset="acc">
         <animation direction="down">
             <frame index="0" delay="120"/>
             <frame index="1" delay="100"/>
             <frame index="2" delay="120"/>
             <frame index="1" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="downleft">
@@ -156,6 +151,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="22" delay="100"/>
             <frame index="23" delay="120"/>
             <frame index="22" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="left">
@@ -163,6 +159,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="19" delay="100"/>
             <frame index="20" delay="120"/>
             <frame index="19" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="upleft">
@@ -170,6 +167,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="16" delay="100"/>
             <frame index="17" delay="120"/>
             <frame index="16" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="up">
@@ -177,6 +175,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="13" delay="100"/>
             <frame index="14" delay="120"/>
             <frame index="13" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="upright">
@@ -184,6 +183,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="10" delay="100"/>
             <frame index="11" delay="120"/>
             <frame index="10" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="right">
@@ -191,6 +191,7 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="7" delay="100"/>
             <frame index="8" delay="120"/>
             <frame index="7" delay="100"/>
+            <end/>
         </animation>
 
         <animation direction="downright">
@@ -198,12 +199,11 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="4" delay="100"/>
             <frame index="5" delay="120"/>
             <frame index="4" delay="100"/>
+            <end/>
         </animation>
-
     </action>
 
     <action name="dead" imageset="acc">
-
         <animation direction="down">
             <frame index="0"/>
         </animation>
@@ -219,6 +219,5 @@ Copyright (C) 2011-2012 Evol Online -->
         <animation direction="left">
             <frame index="12"/>
         </animation>
-
     </action>
 </sprite>
