@@ -63,7 +63,7 @@
     menu
         l("I SAID: SEE YOU LATER!"), l_Bye,
         l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
-        l("I'm called") + " " + strcharinfo(0) + "!", -;
+        l("I'M CALLED: @@!", strcharinfo(0)), -;
 
     mes "";
     mesn;
