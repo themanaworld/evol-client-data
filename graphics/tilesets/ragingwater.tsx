@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="water" tilewidth="32" tileheight="32">
+<tileset name="Water" tilewidth="32" tileheight="32">
  <image source="water.png" width="480" height="352"/>
  <tile id="120">
   <properties>
