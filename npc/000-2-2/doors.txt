@@ -14,6 +14,8 @@ OnTouch:
     goto l_Warp;
 
 l_Warn:
+    set @q, getq(ShipQuests_Peter);
+    if (@q == 5) goto l_Warp;
     mesn "Narrator";
     mes col(l("There are still some Rattos left! Do you want to abort the quest?"), 9);
     next;
@@ -23,12 +25,10 @@ l_Warn:
         l("No."), -;
 
     warp "000-2-2", 48, 28;
-
     close;
 
 l_Warp:
     warp "000-2-1", 61, 36;
-
     close;
 
 }
