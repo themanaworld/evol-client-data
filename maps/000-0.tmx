@@ -27,19 +27,22 @@
  <tileset firstgid="723" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
+ <tileset firstgid="979" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
  <layer name="Ground" width="47" height="47">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Uz0oCQQDH8Rl7jxLBgtKjBzOoJ8go7BG82CP4B/ea5XarrFPRKcp3yAfzOzDQ5q5S0SwYv4UPe9jdme/MwHY2jOmIiIiIiMi3bVpjtlD0Sjb9zrZN2/Hc813ue6igmvF9KDX71QnqOPbKaGMfDRwsOMSRTY9Ty2ENbo6PgjGzwmd7M6Ojix5OcZbQwvmS9pBrGJrsfV/V3l/swkXO3c74l+3JcxoiWtJ9ZcK2j9wcuMYY8Q/33bnFHe4xwQNGjH0TsD1m7Es8Mdez94LXFbL29w3vmMJdobuT/YM/lkf3f+T+P49etGZ7GOv8RURERERERNbSHFPG/j6EIgAA
+   H4sIAAAAAAAAA+3Uy0rDQBiG4Zl6HypCFbQuXWgFXbmsUtFL6Ka9BA+kW6uNO09dVboS9R7qhfUdGDFtDqg4gcoXeMgiycybP5D2gjFtERERERH5tkVrzBKWvRWbvmfVpq157vo65w3UsJnxfChbdtoRttHwqmhhB3XsztjDvk2v4xwEfg+3x7hizEflq/0wo+MM52jiOOEEpzntn0J0RyZ77kXtF7Nd6JTc7fR/2Z78ThG6Od3XJmx7z+2BG/QR/3Duzh3u8YBHPKHH2rcB22PWvsKQvZ69EV4KZM33FW94hztCdyf7L/9YGd3/kfv/DLzunM0w1vcXERERERERmUsTxp74wYQiAAA=
   </data>
  </layer>
  <layer name="Ground 2" width="47" height="47">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2UuU4CUQBFh+nQoCYuIK00Nqix8QtUfkILfkELKgooMDSylRrlCwQbFyDKIn6VckjGZELYxvjGgnsyJ5mw3HsngWdZQgghhBBikfnC7+FNgAvtgH/dQbqWcNnpDLm6V7hfdbnmuO5yAzdxC8MYwW2M+vgMP+zQeeQYm9CfsS0ri7tj3o/z2h7u44Gh/Ycec6/ZWsAilrCMFXvy54/JP8FTA/sTHjPv2HmP1Sl7x3FmYPv5SGZyRscDm2tY97D9wtBv5nIkNzWj543N79iec3uOvCtD2/NTctOu/2v6F/03fOfW8DlT/eP8Gnl1fPThfHyi4xlf8BUb2MTWnHawiz38wD5+/sO5LoQQQgghhBBCCCG8MwBQUFYrhCIAAA==
+   H4sIAAAAAAAAA+2Vyy4EQRhGq3tWiEvibsvGxiU23gAvwcIrsLCaBQti47okzBOYsXGPOy9AQhCJy7wFzmS6MxUx3TJRvfGd9ElXZqb+769KdY8xQgghhBDiP/OBn4WBx4W+l1x2FVnVWBNk1lrZdYzrLRsCGy2bsBlbsBXbsB07HK/hOWXMS6o4fg/unWQOBnaVyZ/2jZnBbq809wEfsYfPerEP+x31P/CtbriGcizQ6yIu4TKu4Kpf+v6V+W9WjTzjITKGHfQ/4hX3Kx/k3cT0vkGfm5jxo38XEq5j1EHvY1bNwp6Nx2Rs0XMWcz/0fsv8O7y3zt8TTjg6M5NB3XB/pmJyjun5BE8j9t0+d7PUm3PU+3xE3bT1vKYryF9jzrrj90zmj+tnqZfD7QTe8Ttk7OIe7uMBHuLRLz3Dc7zAS7zC6wT/m4QQQgghhBBCCCFE5XwBJn7BqIQiAAA=
   </data>
  </layer>
  <layer name="Fringe" width="47" height="47">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SyQnCUBSF4ZtsdGELNmcVolVYg0MHDg04bBwaUNOAAw57j+BCIYsYhPcu/h8cAmLgD1wzAAB+Y5yaTdLQFeXQHsZc3Qun7X11DyJov2hX7abdC74TQ3slMasmn7/Vkvz/vhuqexS4vV6gM09X3b0IbuZpqo7Zly2xtHvXKHk/MWi+2lt6th1/R8dxO8JY6mZW2lrbOLufrXp32l7LnLUf1HvUTtrZWTsAAAAAAP/sAUuzFpWEIgAA
+   H4sIAAAAAAAAA+3SOQrCQACF4UkstPAKXs5TiJ7CM7jcwOUCLo1LaWO0sHXBpfcVFgpDGEMwM/h/8AiEBP6EMQYAgHyMYmPGcdEV2dBejJm654G299Td96D9qt20u/ZwfMeH9nJkTCX6vFeN7M++G6h7aGnflPLpclFz6LTpqLub8t8PP/yGiTqmX56BtHa4q2c8Pz5ovNqburYC/o52wO0oxkJnZqmttHVg52er3kTbafvA2o/qPWln7RJYOwAAAAAA/+wJEg9En4QiAAA=
   </data>
  </layer>
  <layer name="Over" width="47" height="47">
