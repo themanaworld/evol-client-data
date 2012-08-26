@@ -11,7 +11,7 @@
 //    0   Not opened.
 //    1   Opened.
 
-000-1.gat,58,31,0	script	Chest#1	316;2,{
+000-1.gat,83,70,0	script	Chest#1	316;2,{
 
     set @q, getq(ShipQuests_TreasureChest);
     if (getnpcdir ("") == 4) goto l_Give;
