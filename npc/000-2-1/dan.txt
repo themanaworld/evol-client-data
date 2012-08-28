@@ -29,7 +29,7 @@ l_QuestStory:
     mesn;
     mesq l("Oh, it's you.");
     next;
-    mesq l("So you finally woke up? We all thought that you were in something like... You know, one of those long comas.");
+    mesq l("So you finally woke up? We all thought you were in something like... You know, one of these long comas.");
     next;
 
     menu
@@ -71,7 +71,7 @@ l_Quest:
 
 l_Close2:
     mesn "Narrator";
-    mes col(l("Dan closes the conversation and he continues to write his letter."), 9);
+    mes col(l("Dan ends the conversation and resumes to write his letter."), 9);
 
     close;
 

@@ -29,7 +29,7 @@
     menu
         g(l("You're right, it's about you."),
           l("You're right, it's about Julia.")), l_Julia,
-        l("Oh look, there is a piou behind you."), l_Piou,        
+        l("Oh look, there's a piou behind you."), l_Piou,        
         l("What is Artis?"), l_Artis,
         l("None of them?"), -;
 
@@ -87,8 +87,8 @@ l_VeryImportantNoob:
     next;
 
     mesn;
-    mesq g(l("Duty is calling me, *hic*, see you later honey."),
-           l("Duty is calling me, *hic*, see you later dude."));
+    mesq g(l("Duty calls me, *hic*, see you later honey."),
+           l("Duty calls me, *hic*, see you later dude."));
 
     close;
 
@@ -107,27 +107,27 @@ l_Piou:
     mesn;
     mesq l("Seriously?!");
     next;
-    mesq l("Hurry hurry! Need to verify his teeth!");
+    mesq l("Hurry, hurry! Need to check his teeth!");
 
     close;
 
 l_Artis:
     mes "";
     mesn;
-    mesq l("It's a nice place... There are some nice chicks...");
+    mesq l("This is a nice place... There are some nice chicks...");
     next;
     mesq l("The elven from the library has tilted on me a while ago, as well as Enora from the warrior guild.");
     next;
     mesq l("Oh, and Olga from the market place as well!");
     next;
-    mesq l("You should look at them once we arrive at the port, they are worth it, eheh.");
+    mesq l("You should look at them once we arrive at the port, they are worth it, hehe...");
 
     close;
 
 l_ForeverAlone:
     mes "";
     mesn "Narrator";
-    mes col(l("Silvio starts to speak with his bottle, you leave the conversation."), 9);
+    mes col(l("Silvio starts to speak to his bottle, you leave the conversation."), 9);
 
 l_Quit:
     close;

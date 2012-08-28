@@ -77,7 +77,6 @@ l_EquipDone:
 
 }
 
-
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 
 OnTalk:
@@ -121,7 +120,7 @@ l_Story:
     next;
     mesq lg("Yaya, you should go see her! She'll be happy to see you.");
     next;
-    mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In bad condition, go check the chest around your bed, there is some new ones inside.");
+    mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In a bad shape. Go check the chest near your bed, there are some other ones inside.");
     setcamnpc "Chest";
     next;
     restorecam;
@@ -176,7 +175,7 @@ l_Who:
 l_WhereOldClothes:
     mes "";
     mesn;
-    mesq lg("We tried to clean them but the sea water mostly killed them. It's why we gave you these cloths, they are not very good but it's all that we got.");
+    mesq lg("We tried to clean them but the sea water mostly destroyed them. It's why we gave you these clothes. They're not very nice, but that's all that we have for you.");
     next;
     mes lg("Oh, now that I remember, we've also found some money in your pockets, here it is!");
     setq ShipQuests_ArpanMoney, 1;
@@ -192,15 +191,15 @@ l_WhereOldClothes:
 l_WhatCloth:
     mes "";
     mesn;
-    mesq lg("Oh yeyeye, as they are not eatable, you can try to equip them!");
+    mesq lg("Oh yeyeye... As they are not edible, you can maybe try to equip them?");
     next;
 
     mesn "Narrator";
-    mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
+    mes col(lg("To open your inventory, use the F3 key or use your mouse in the above menu of your client."), 9);
     next;
-    mes col(lg("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it."), 9);
+    mes col(lg("When your inventory will be opened, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'Unequip' to remove it."), 9);
     next;
-    mes col(lg("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
+    mes col(lg("Items perform different effects. Some will heal you, some you may use as weapons or armor and some can be sold for gold."), 9);
     next;
 
 l_BeforeMenu:

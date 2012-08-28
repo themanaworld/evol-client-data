@@ -29,7 +29,7 @@ l_Checker:
     next;
     mesq l("Let me introduce myself, I am Nard, captain of this ship."); 
     next;
-    mesq lg("It is nice to see that you woke up and you're ok, Elmo came here to tell me this good news!");
+    mesq lg("It is nice to see that you woke up fine at the same time. Elmo came here to tell me this good news!");
     next;
 
     mesn "Elmo";
@@ -37,7 +37,7 @@ l_Checker:
     next;
 
     mesn;
-    mesq l("Hehehe, he is a bit nervous, please excuse him, it's not everyday that we get a new member in the crew!");
+    mesq l("Hehehe, he is a bit nervous, please forgive him, it is not everyday we have a new member in the crew!");
     next;
     mesq l("So, how do you feel? I see that Julia did a marvelous job! You look like you're in good health now.");
     next;
@@ -46,12 +46,11 @@ l_Menu:
     menu
         lg("I feel ok."), l_Ok,
         l("Who's this Julia?"), l_Julia,
-        lg("I'm a bit sick."), -;
-
+        lg("I'm a bit sick..."), -;
 
     mes "";
     mesn;
-    mesq l("Oh, I was going to ask you if you want to help the crew search for some food and explore the island out there.");
+    mesq l("Oh, I was going to ask you if you wanted to help the crew search for some food and explore the island out there.");
     next;
 
 l_MenuQuest:
@@ -61,10 +60,10 @@ l_MenuQuest:
 
     mes "";
     mesn;
-    mesq l("I like this answer!");
+    mesq l("Oh! I like that sort of answer!");
     next;
-    mesq g(l("We need of manpower on the island... Oh excuse me, women are also welcome!"),
-           l("We need of manpower on the island.")); 
+    mesq g(l("We need manpower on the island... Oh forgive me, women are also welcome, of course."),
+           l("We need manpower on the island.")); 
     next;
 
     goto l_NeedContent;
@@ -74,7 +73,7 @@ l_NeedHead:
     mesn;
 
 l_NeedContent:
-    mesq l("Of course, there is a reward for your task."); 
+    mesq l("Sure, there is a reward for your task."); 
     next;
     mesq l("Our crew is like a family, and if you agree to help us, I would like to invite you to join our family!"); 
     next;
@@ -96,7 +95,7 @@ l_Ok:
     next;
     mesq l("We made a stop at a little island, before making it to the port of Artis.");
     next;
-    mesq l("It'll be a good time for you to do some exercise, the ship isn't big enough for that.");
+    mesq l("It would be good for you to do some exercise, the ship isn't big enough for that.");
     next;
 
     goto l_SpecialTask;
@@ -104,15 +103,15 @@ l_Ok:
 l_Julia:
     mes "";
     mesn;
-    mesq l("You have very bad amnesia.");
+    mesq l("You have an awful amnesia.");
     next;
-    mesq l("She is the nurse and the shipkeeper of this ship, and also an excellent chef!");
+    mesq l("She is the nurse and shipkeeper of this ship, and also an excellent chef!");
     next;
-    mesq lg("But most important, she's the one who took care of you when you were in coma.");
+    mesq lg("But most important, she is the one who took care of you when you were unconscious.");
     next;
 
 l_SpecialTask:
-    mesq l("I know that you're just feeling better, but I'd like to ask of you a special task.");
+    mesq l("I know that you are just starting to feel better, but I'd like to give you a special task.");
     next;
 
     goto l_MenuQuest;

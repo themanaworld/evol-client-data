@@ -9,8 +9,8 @@
 OnTalk:
     setcamnpc;
     mesn "Elmo";
-    mesq g(l("This girl is lucky that we found her before a shark did. I have no idea where this came from. By the way, did you see the logo on her raft?"),
-           l("This guy is lucky that we found him before a shark did. I have no idea where this came from. By the way, did you see the logo on his raft?"));
+    mesq g(l("This girl is lucky we found her before a shark did. I have no idea where she comes from. By the way, did you see the logo on her raft?"),
+           l("This guy is lucky we found him before a shark did. I have no idea where he comes from. By the way, did you see the logo on his raft?"));
     next;
 
     mesn "Magic Arpan";
@@ -27,7 +27,7 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq l("It makes sense, do you think we should inform the capt'n about it?");
+    mesq l("This makes sense. Do you think we should inform the capt'n about it?");
     next;
 
     mesn "Magic Arpan";
@@ -35,8 +35,8 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq g(l("Ok, I'm going to her room, keep an eye on her, we still don't know if she's an ally or an enemy..."),
-           l("Ok, I'm going to his room, keep an eye on him, we still don't know if he's an ally or an enemy..."));
+    mesq g(l("Alright, I'm going to her room, keep an eye on her, we still don't know if she's an ally or an enemy..."),
+           l("Alright, I'm going to his room, keep an eye on him, we still don't know if he's an ally or an enemy..."));
     next;
 
     mesn "Magic Arpan";
@@ -49,11 +49,11 @@ OnTalk:
     next;
 
     mesn "Magic Arpan";
-    mesq l("Yayayaya, for the first time someone is dressed worse then us!");
+    mesq l("Yayayaya, it's the first time someone is dressed worse then us!");
     next;
 
     mesn "Elmo";
-    mesq l("He he... Ok, I'm going to the upper level and inform the captain.");
+    mesq l("Hehe... Ok, I'm going to inform the captain up there.");
     next;
 
     mesn "Magic Arpan";
@@ -62,8 +62,8 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq g(l("Ok, I think she's waking up, go see to her."),
-           l("Ok, I think he's waking up, go see to him."));
+    mesq g(l("Ok, I think she's waking up, go see her."),
+           l("Ok, I think he's waking up, go see him."));
     next;
 
     restorecam;

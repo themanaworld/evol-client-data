@@ -16,13 +16,13 @@ OnTouch:
     mesn "Narrator";
     mes col(l("You are on a raft, adrift in the sea."), 9);
     next;
-    mes col(l("You don't remember anything before this."), 9);
+    mes col(l("You realise you can't remember anything."), 9);
     next;
     mes col(l("Suddenly, you hear a voice from the sky."), 9);
     next;
-    mes col(l("As you open your eyes and look around, you see a large ship."), 9);
+    mes col(l("As you open your eyes, you see a large ship before you."), 9);
     next;
-    mes col(l("Some sailors are trying to talk to you.."), 9);
+    mes col(l("Aboard stand sailors trying to talk to you."), 9);
     next;
 
     mesn "Orc Voice";
@@ -34,14 +34,14 @@ OnTouch:
     next;
 
     mesn "Tritan Voice";
-    mesq lg("What are you saying guys, it's a yoiis!");
+    mesq lg("What are you guys saying ? He's a Yoiis!");
     next;
 
     mesn "Raijin Voice";
     mesq g(l("You stupid, she's english, look at the shape of the head."),
            l("You stupid, he's english, look at the shape of the head."));
     next;
-    mesq l("Hey you! Do you hear us? Are you okay?");
+    mesq l("Hey you! Can you hear us? Are you okay?");
     next;
 
     menu
@@ -66,7 +66,7 @@ OnTouch:
     next;
 
     mesn "Narrator";
-    mes col(l("The sailors take you aboard their ship to help you."), 9);
+    mes col(l("The sailors take you aboard their ship."), 9);
     next;
     mes col(l("Click on the NPCs around you to continue the introduction."), 9);
     next;
