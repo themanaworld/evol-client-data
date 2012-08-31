@@ -82,7 +82,9 @@ l_Quit:
     next;
     mesq l("I'm not that numb eeh *hick* what did ever you disco*hips*veeered there, the warrior guild won't get me!");
     next;
-    mesq l("The sailor is turning his back to you.");
+
+    mesn "Narrator";
+    mes col(l("The sailor is turning his back to you."), 9);
 
     close;
 

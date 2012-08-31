@@ -2,12 +2,76 @@
 // Author:
 //    Reid
 // Description:
-//    .
+//    Couwan is trying to scam the player.
 
 000-1.gat,89,36,0,1	script	Couwan	111;2,{
 
+    set @q, getq(ShipQuests_Couwan);
+    if (@q == 1) goto l_QuestGiven;
+    if (@q > 1) goto l_QuestDone;
+
+
     mesn;
-    mesq l("Hello world!");
+    mesq lg("Hello yeye");
+    next;
+    mesq l("Look, how splendid is this landscape.");
+    next;
+
+    menu
+        l("Yep, nice view."), -,
+        l("I don't see anything else than, water?"), l_Water;
+
+    mes "";
+    mesn;
+    mesq lg("Yeye got good eyes and seems to be fully recovered from his hurts, so yeye can take my box of fish to Gugli?");
+    next;
+
+    menu
+        l("What do I obtain in exchange?"), -,
+        l("I'm sorry, I got no time right now."), l_Decline;
+
+    mes "";
+    mesn;
+    mesq lg("Yeye ask too much but do too less, take this box and don't talk too much.");
+    next;
+
+    mesn "Narrator";
+    mes col(lg("Couwan hands you a box full of fish."), 9);
+    next;
+    mes col(l("The sailor is turning his back to you."), 9);
+
+    setq ShipQuests_Couwan, 1;
+    close;
+
+l_Water:
+    mes "";
+    mesn;
+    mesq l("Yeye's brain is probably still full of sea water, if yeye can't see the beauty in this place.");
+    next;
+    mesq l("Stupid yeye...");
+    
+    close;
+
+l_Decline:
+    mes "";
+    mesn;
+    mesq l("Stupid yeye...");
+
+    close;
+
+l_QuestGiven:
+    mesn;
+    mesq l("What are you looking?");
+    next;
+    mesq l("Yeye still got my box? Look less and work much, go give it to Gugli.");
+
+    close;
+
+l_QuestDone:
+    mesn;
+    mesq l("What are you looking?");
+    next;
+    mesq l("Yeye gave my box to Gugli? Nice, nice yeye.");
 
     close;
 

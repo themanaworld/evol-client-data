@@ -8,9 +8,31 @@
 000-1.gat,85,108,0,1	script	Gugli	313;2,{
 
     mesn;
-    mesq l("Ciao!");
+    mesq l("Nice to see you! What can I do for you today?");
     next;
 
+    menu
+        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gaves me this box, for you.")), l_Couwan,
+        l("Nothing."), -;
+
+    close;
+
+l_Couwan:
+    mes "";
+    mesn;
+    mesq l("What? This tritan is the worse shirker that I ever saw.");
+    next;
+    mesq l("Well, thank you for getting me back this box. But, he needed to bring it back by himself, I never asked him to give it to you.");
+    next;
+    mesq l("Take these coins in exchange of this extra charge, and be prudent in future.");
+    next;
+    mesq l("Not everybody got a kind mind, and some scammers can be anywhere, even among us.");
+    next;
+    mesq l("Take this as a lesson.");
+
+    setq ShipQuests_Couwan, 2;
+    set zeny, zeny+50;
+    message strcharinfo(0), l("You receive 50GP!");
     close;
 
 }

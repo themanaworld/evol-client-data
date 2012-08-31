@@ -7,7 +7,8 @@
 000-1.gat,55,23,0,1	script	Ale	105;2,{
 
     mesn;
-    mesq l("Hello world!");
+    mesq g(l("Good day, sir."),
+           l("Good day, lady."));
 
     close;
 

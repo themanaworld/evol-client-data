@@ -178,13 +178,11 @@ l_WhereOldClothes:
     mesq lg("We tried to clean them but the sea water mostly destroyed them. It's why we gave you these clothes. They're not very nice, but that's all that we have for you.");
     next;
     mes lg("Oh, now that I remember, we've also found some money in your pockets, here it is!");
-    setq ShipQuests_ArpanMoney, 1;
-    set zeny, zeny+25;
     next;
 
-    mesn "Narrator";
-    mes col(l("You receive 25GP!"), 9);
-    next;
+    setq ShipQuests_ArpanMoney, 1;
+    set zeny, zeny+25;
+    message strcharinfo(0), l("You receive 25GP!");
 
     goto l_BeforeMenu;
 
