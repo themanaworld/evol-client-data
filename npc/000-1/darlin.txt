@@ -135,7 +135,7 @@ l_Quit:
     close;
 
 l_QuestGiven:
-    mesq l("EHOO") + " " + strcharinfo(0) + "!"; 
+    mesq l("HEY") + " " + strcharinfo(0) + "!"; 
     next;
     mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?");
     next;
@@ -176,7 +176,7 @@ l_DangerAround:
     close;
 
 l_QuestDone:
-    mesq l("EHOO") + " " + strcharinfo(0) + "!"; 
+    mesq l("HEY") + " " + strcharinfo(0) + "!"; 
     next;
 
     goto l_Menu;
