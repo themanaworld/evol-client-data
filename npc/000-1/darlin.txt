@@ -4,10 +4,11 @@
 // Description:
 //    Darlin talks from the top of the tall mast.
 // Variable:
-//    ShipQuests_Darlin
+//    0x   ShipQuests_Darlin
 // Values: 
-//    0   Does not speak
-//    1   Speak & Quest
+//    00   Does not speak
+//    01   Speak & Quest
+//    02   
 
 000-1.gat,89,89,0,1	script	Darlin	103;14,{
 
@@ -140,7 +141,7 @@ l_QuestGiven:
 
     menu
         l("I forgot where it was..."), -,
-        l("Yes, it's a chest."), l_Chest,
+        rif(getq(ShipQuests_Darlin) == 1, l("Yes, it's a chest.")), l_Chest,
         l("Oh, nothing important."), l_Nothing;
 
     mes "";
@@ -165,6 +166,7 @@ l_Chest:
     next;
     mesq l("IF YOU FIND SOMETHING, THEN IT'S GREAT!");
 
+    setq ShipQuests_Darlin, 2;
     goto l_Menu;
 
 l_DangerAround:
