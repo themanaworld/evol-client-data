@@ -41,11 +41,11 @@ l_First:
     callfunc "CheckClientVersion";
 
     mesn;
-    mesq l("Hi, nice to see you!#0");
+    mesq l("Hi, nice to see you!");
     next;
-    mesq l("My name is Julia, it's me who took care of you, when we found you in the sea.");
+    mesq l("My name is Julia, it is me who took care of you after we found you in the sea.");
     next;
-    mesq lg("I'm very happy to see you're okay now!");
+    mesq lg("I'm glad to see you're okay.");
     next;
     mesq lg("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
     next;
@@ -70,7 +70,7 @@ l_First:
 
     mes "";
     mesn;
-    mesq l("Ok, Done.");
+    mesq l("Ok, done.");
 
     set @q, getq(ShipQuests_Julia);
     if (@q == 1) goto l_NoRules;
@@ -100,9 +100,9 @@ l_First:
     mesn;
     mesq l("Oh, and it's not written there but don't give the password of your room to anybody, I'm the only one who has the other key and I won't ask for yours, so keep it secret and try not to use the same one in any other room in the future.");
     next;
-    mesq l("If you wish to read this page again, there is a copy  up on the left wall.");
+    mesq l("If you want to read this page again, there is a copy up on the left wall.");
     next;
-    mesq l("I think that I'm done, do you have a question now?");
+    mesq l("I think I'm done with that now. Do you have any questions?");
     next;
 
     setq ShipQuests_Julia, 1;
@@ -123,8 +123,8 @@ l_NoChanges:
 
 l_YNMenu:
     menu
-        l("Yes, please!"), l_Menu,
-        l("No, thanks."), l_Close;
+        l("Yes, I do."), l_Menu,
+        l("No, none."), l_Close;
 
 l_WhereIam:
     mes "";
@@ -147,13 +147,13 @@ l_What:
     next;
     mesq lg("You were in bad shape, you should be happy we found you before the sea killed you.");
     next;
-    mesq l("Also, there was this inscription on your raft, one of the warrior guild of Esperia, the largest and biggest guild of the whole new world, does that make you remember something?");
+    mesq l("Oh, and there was this inscription on your raft. It represents one of the warrior guild of Esperia, the largest and biggest guild of the whole new world. Does that make you remember anything, anything at all?");
     next;
     goto l_EsperiaMenu;
 
 l_EsperiaMenu:
     menu
-        l("Sorry but I can't tell you anything about that."), l_NoChanges,
+        l("Sorry, but I can't tell you anything about that."), l_NoChanges,
         l("Nothing, sorry."), l_NoChanges;
 
 l_Close:
@@ -166,9 +166,9 @@ l_Close:
 l_Rules:
     mes "";
     mesn;
-    mesq l("Of course, they are on the left wall, go get a look at them.");
+    mesq l("Of course, they are on the left wall, go have a look at them.");
     next;
-    mesq l("Do you have an other question for me?");
+    mesq l("Do you have any other questions for me?");
     next;
 
     goto l_YNMenu;
