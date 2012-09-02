@@ -2,6 +2,31 @@
 <!-- Author: 4144 Reid
 Copyright (C) 2012 Evol Online -->
 <quests>
+    <var id="1">
+        <quest name="Peter" group="Ship" incomplete="6" complete="2">
+            <name>Ratto Exterminator</name>
+            <text>Peter need your help to clean the bottom of the ship from some Ratto. Speak with him when you'll got some time.</text>
+        </quest>
+        <quest name="Peter" group="Ship" incomplete="2" complete="5">
+            <name>Ratto Exterminator</name>
+            <text>Cleaning the bottom of the ship is a hard work, but Peter is offering you some gold against it.</text>
+            <text></text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
+            <text>Reward: 500GP and 100xp.</text>
+        </quest>
+        <quest name="Peter" group="Ship" incomplete="1" complete="3">
+            <name>Free Cave Washer</name>
+            <text>Peter asked you to empty freely the bottom of the ship.
+            <text>It seems that you should again ask him this task, he may got something else to offer you...</text>
+            <text></text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
+            <text>Reward: 0GP.</text>
+        </quest>
+        <quest name="Peter" group="Ship" incomplete="3" complete="4">
+            <name>Free Cave Washer</name>
+            <text>Ask about a reward for this task.</text>
+        </quest>
+    </var>
     <var id="3">
         <quest name="Magic Arpan" group="Ship" incomplete="0" complete="1">
             <name>Speak with Magic Arpan</name>
@@ -23,7 +48,7 @@ Copyright (C) 2012 Evol Online -->
     <var id="4">
         <quest name="Nard" group="Ship" incomplete="1" complete="2">
             <name>Nard</name>
-            <text>Go outside and talk with Gugli, he'll tell you what we need.</text>
+            <text></text>
         </quest>
     </var>
 </quests>
