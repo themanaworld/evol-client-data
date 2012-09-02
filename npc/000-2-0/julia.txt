@@ -9,8 +9,8 @@
 // Variable:
 //    ShipQuests_Julia
 // Values:
-//    0   First touch.
 //    1   Already touched.
+//    2   First touch.
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10;5,{
 
@@ -175,7 +175,7 @@ l_Rules:
 
 OnTouch:
     set @q, getq(ShipQuests_Julia);
-    if (@q == 0) goto l_First;
+    if (@q == 0 || @q == 2) goto l_First;
 
     close;
 
