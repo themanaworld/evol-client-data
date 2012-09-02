@@ -37,6 +37,7 @@
 
     mesn "Narrator";
     mes col(lg("Couwan hands you a box full of fish."), 9);
+    getitem "FishBox", 1;
     next;
     mes col(l("The sailor turns his back to you."), 9);
 

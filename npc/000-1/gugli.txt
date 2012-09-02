@@ -32,6 +32,7 @@ l_Couwan:
 
     setq ShipQuests_Couwan, 2;
     set zeny, zeny+50;
+    if (countitem("FishBox") > 0) delitem "FishBox", 1;
     message strcharinfo(0), l("You receive 50GP!");
     close;
 
