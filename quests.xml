@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: 4144
+<!-- Author: 4144 Reid
 Copyright (C) 2012 Evol Online -->
 <quests>
     <var id="3">
-        <quest name="Magic arpan" group="Ship" incomplete="0" complete="1">
-            <text>Speak with magic arpan.</text>
+        <quest name="Magic Arpan" group="Ship" incomplete="0" complete="1">
+            <name>Speak with Magic Arpan</name>
+            <text>Magic Arpan is waiting you, speak with him.</text>
+            <text>To speak with a NPC, click on him with your mouse, or select him with your N key, you can then start to chat with him with the T key.</text>
         </quest>
-        <quest name="Magic arpan" group="Ship" incomplete="1" complete="2">
-            <name>Magic Arpan</name>
-            <text>Please get clothes.</text>
+        <quest name="Magic Arpan" group="Ship" incomplete="1" complete="2">
+            <name>Open the Chest</name>
+            <text>You need to open the Chest, and to take the clothes from this.</text>
+            <text>To perform this action, click on the Chest with your mouse, or select it with your N key, you can then start to chat with him with the T key.</text>
         </quest>
-        <quest name="Magic arpan" group="Ship" incomplete="2" complete="3">
-            <name>Magic Arpan</name>
-            <text>Please equip clothes.</text>
+        <quest name="Magic Arpan" group="Ship" incomplete="2" complete="3">
+            <name>Equip an item</name>
+            <text>Open your inventory by using the F3 key or use your mouse to select it in the menu of your client.</text>
+            <text>Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'unequip' to remove it. </text>
+            <text>Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold.</text>
         </quest>
     </var>
     <var id="4">
