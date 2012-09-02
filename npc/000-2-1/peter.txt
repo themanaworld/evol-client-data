@@ -12,12 +12,13 @@
 // Variable:
 //    ShipQuests_Peter
 // Values:
-//    0   Did not start the quest.
+//    0   Doesn't know the quest.
 //    1   Task given.
 //    2   Task given and reward expected.
 //    3   Task completed without reward.
 //    4   Asked for reward after completion of the task.
 //    5   Task done and reward given.
+//    6   Did not start the quest.
 // "000-2-2.gat" - map with mobs.
 // "$@RAT_SAILOR_HELPER$" - Name of the participant.
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight.
@@ -38,11 +39,11 @@ OnTouch:
     if (BaseLevel < 5) goto L_Stop;
     if ($@RAT_SAILOR_HELPER$ != "") goto L_Occupied;
     set @q, getq(ShipQuests_Peter);
-    if (@q < 1) goto L_Task;
+    if (@q < 1 || @q > 5) goto L_Task;
     if (@q == 1 || @q == 2) goto L_Rfail;
     if (@q == 3 || @q == 4) goto L_Rwin;
+    if (@q > 5) goto L_SecondTime;
     doevent "Peter::OnReturnWin";
-
     close;
 
 L_Stop:
@@ -80,7 +81,8 @@ L_Rwin:
 
     set @q, getq(ShipQuests_Peter);
     if (@q == 1 || @q == 2) goto OnReturnFail;
-    if (@q >= 3) goto OnReturnWin;
+    if (@q == 3 || @q == 4 || @q == 5)  goto OnReturnWin;
+    setq ShipQuests_Peter, 6;
 
 OnGiveTask:
     mesn;
@@ -176,7 +178,7 @@ L_BonusTask:
         l("What? This reward is too small!"), L_Close;
 
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 0) setq ShipQuests_Peter, 2;
+    if (@q == 6) setq ShipQuests_Peter, 2;
     if (@q == 3) setq ShipQuests_Peter, 4;
 
     goto L_Start;
@@ -184,7 +186,7 @@ L_BonusTask:
 L_Task:
     mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 0) setq ShipQuests_Peter, 1;
+    if (@q == 6) setq ShipQuests_Peter, 1;
     goto L_Start;
 
 L_Start:
