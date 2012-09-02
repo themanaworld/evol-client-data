@@ -8,7 +8,7 @@
 // 2 bits array:
 //    ShipQuests
 // Variable:
-//    ShipQuests_NardBox
+//    ShipQuests_Nard
 // Values: 
 //    0   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
 //    1   Nard spoke and gave access to the outdoor of the ship.
@@ -17,7 +17,7 @@
 
 000-2-3.gat,25,24,0	script	Box	102;1,{
 
-    set @q, getq(ShipQuests_Nardbox);
+    set @q, getq(ShipQuests_Nard);
 
     mesn "Narrator";
     mes col(l("Some Bandanas and Sailor Hats are inside this box."), 9);
@@ -60,7 +60,7 @@
     next;
     mesq l("Go outside and talk with Gugli, he will tell you what we need.");
 
-    setq ShipQuests_Nardbox, 1;
+    setq ShipQuests_Nard, 1;
 
     close;
 
@@ -80,7 +80,7 @@ l_Give:
     mesn "Nard";
     mesq l("You are now part of the crew. Thanks again for your help.");
 
-    setq ShipQuests_Nardbox, 3;
+    setq ShipQuests_Nard, 3;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
 
