@@ -79,9 +79,10 @@ l_EquipDone:
 
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 
-OnTalk:
     set @q, getq(ShipQuests_Arpan);
+    if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
 
+OnTalk:
     mesn;
 
     if (@q > 0) goto l_Menu;
@@ -205,6 +206,11 @@ l_BeforeMenu:
     goto l_Menu;
 
 l_Quit:
+    close;
+
+l_EquipDone:
+    setq ShipQuests_Arpan, 3;
+
     close;
 
 }
