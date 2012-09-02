@@ -42,7 +42,7 @@
     mes "";
     menu
         l("And you, how are you doing?"), -,
-        l("But I need to go, bye!"), l_Bye;
+        l("But I need to go, see you!"), l_Bye;
 
     mes "";
     mesn;
@@ -78,7 +78,7 @@ l_Menu:
     menu
         l("Maybe you can come down to talk?"), l_GoDown,
         l("I'm looking for Gugli, where is he?"), -,
-        l("I need to go, sorry!"), l_Bye;
+        l("I need to go, sorry."), l_Bye;
 
     setcamnpc "Gugli";
     mes "";
