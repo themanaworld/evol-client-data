@@ -113,6 +113,8 @@ OnGiveTask:
     goto L_Close;
 
 OnTalkToJulia:
+    setq ShipQuests_Julia, 2;
+
     mesn;
     mesq l("Hey, you should go see Julia to be registered on the ship board.");
     next;
@@ -120,7 +122,6 @@ OnTalkToJulia:
     mesn "Narrator";
     mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
 
-    setq ShipQuests_Julia, 2;
     goto L_Close;
 
 OnTooWeak:
@@ -320,7 +321,13 @@ L_Close:
     set @q, getq(ShipQuests_Julia);
     if (@q > 0) close;
     setq ShipQuests_Julia, 2;
-    doevent "Peter::OnTalkToJulia";
+
+    mesn;
+    mesq l("Hey, you should go see Julia to be registered on the ship board.");
+    next;
+
+    mesn "Narrator";
+    mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
 
     close;
 
