@@ -323,11 +323,11 @@ L_Close:
     setq ShipQuests_Julia, 2;
 
     mesn;
-    mesq l("Hey, you should go see Julia to be registered on the ship board.");
+    mesq l("Hey, you should go see Julia to get registered on the ship.");
     next;
 
     mesn "Narrator";
-    mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
+    mes col(l("Julia is on the upper level of the ship. Use the arrow keys to walk to the stairs or just click on the stairs with your mouse to walk to them."), 9);
 
     close;
 
