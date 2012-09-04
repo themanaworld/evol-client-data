@@ -205,12 +205,11 @@ l_BeforeMenu:
     mesn;
     goto l_Menu;
 
-l_Quit:
-    close;
-
 l_EquipDone:
     setq ShipQuests_Arpan, 3;
+    goto l_Menu;
 
+l_Quit:
     close;
 
 }
