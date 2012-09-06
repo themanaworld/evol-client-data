@@ -1,5 +1,6 @@
 // Evol scripts.
 // Author:
+//    Alige
 //    Reid
 // Description:
 //    Reads the Old Book.
@@ -10,16 +11,40 @@ OnUse:
     getitem 514, 1, 1;
     mesn "Narrator";
 
-    mes col(l("."), 9);
+    mes col(l("Aemil is a magnificent world unknown to us all."), 9);
     next;
-    mes col(l("."), 9);
+    mes col(l("Its inhabitants did not know any kind of horror and in peace they lived as the earth gave them everything they needed to live."), 9);
     next;
-    mes col(l("."), 9);
+    mes col(l("However, drought came with summers while winters became colder than ever."), 9);
     next;
-    mes col(l("."), 9);
+    mes col(l("Therefore, starvation stroke on the people of Aemil."), 9);
     next;
-    mes col(l("."), 9);
+    mes col(l("Rules began to rise in order to have a peaceful society. This did not work well for long."), 9);
+    next;
+    mes col(l("People started to steal from each other to survive. As cities grew, needs did too. Wars for fertile lands then rose."), 9);
+    next;
+    mes col(l("New technologies helped the slaughter instead of establishing peace. At some point, two different rivals were formed."), 9);
+    next;
+    mes col(l("Their leaders then came to the conclusion that an alliance was the only way they could survive."), 9);
+    next;
+    mes col(l("The great people of Aemil split up into three groups when they reached the coast."), 9);
+    next;
+    mes col(l("Each of the groups was ordered to sail in a different direction to find a new, suitable land where to live."), 9);
+    next;
+    mes col(l("As they sailed on Oceania, great waters of Aemil, one of the groups found a land."), 9);
+    next;
+    mes col(l("Even though they did not hear anything about the other groups, they decided to start a new life on this land, full of harmful animals."), 9);
+    next;
+    mes col(l("This new land was called Andorra and its capital city, Esperia."), 9);
 
     close;
 
 }
+
+
+
+
+
+
+
+
