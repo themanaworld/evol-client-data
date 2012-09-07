@@ -10,7 +10,7 @@
 OnUse:
     getitem 514, 1, 1;
     mesn "Narrator";
-    mes col(l("You open the book, but it seems that sea water and age has get reason of it, some page aren't readable and some others are missing."), 9);
+    mes col(l("You open the book, but it seems that the sea water and the age has get reason of it, some page aren't readable and some others are missing."), 9);
     next;
     mes col(l("It seems to be a book about the legend of Aemil, do you want to read it?"), 9);
     next;
@@ -22,6 +22,7 @@ OnUse:
     close;
 
 l_Read:
+    mes "";
     mes l("Aemil is a magnificent world unknown to us all.");
     next;
     mes l("Its inhabitants did not know any kind of horror and in peace they lived as the earth gave them everything they needed to live.");
