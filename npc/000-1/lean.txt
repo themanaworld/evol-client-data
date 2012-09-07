@@ -7,9 +7,9 @@
 000-1.gat,79,108,0,1	script	Lean	106;2,{
 
     mesn;
-    mesq l("Oh, hey you.");
+    mesq l("Oh, hey you!");
     next;
-    mesq l("I hope that you don't mind that we used your raft to build this ramp.");
+    mesq l("I hope you don't mind that we used your raft to build this ramp.");
     next;
     mesq l("We usually don't stop in such places, but the capt'ain let us stay here while he writes the location of this new island on his map!");
     next;
@@ -20,7 +20,7 @@
 
     menu
         l("That's right."), -,
-        l("Where?"), l_Artis;
+        l("Wait... Where are we going?"), l_Artis;
 
     mes "";
     mesn;
@@ -33,7 +33,7 @@ l_Artis:
     mesn;
     mesq l("Artis of course!");
     next;
-    mesq l("It's where every merchant ship ends their travel and we won't be an exception.");
+    mesq l("It's where every merchant ship end their road and we won't be an exception.");
 
     close;
 

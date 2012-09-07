@@ -30,7 +30,7 @@ l_Give:
     getitem 508, 1;
     getitem 509, 1;
     getitem 514, 1;
-    message strcharinfo(0), l("You opened the treasure chest.");
+    message strcharinfo(0), l("You open the treasure chest.");
     close;
 
 l_Close:

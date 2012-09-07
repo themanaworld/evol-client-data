@@ -14,7 +14,7 @@ OnTouch:
 
     setcamnpc "Julia";
     mesn "Julia";
-    mesq l("Cap'tain has locked the door, you should go see him.");
+    mesq l("The captain has locked the door, you should go see him.");
     next;
 
     mesn "Narrator";
@@ -30,7 +30,7 @@ l_Warp:
 l_GotoNard:
     setcamnpc "Julia";
     mesn "Julia";
-    mesq l("Cap'tain is waiting for you! Hurry up.");
+    mesq l("The captain is waiting for you! Hurry up.");
     next;
     restorecam;
 
@@ -38,7 +38,7 @@ l_GotoNard:
 
 l_End:
     mesn "Narrator";
-    mes col(l("The door is closed."), 9);
+    mes col(l("The door is locked."), 9);
     close;
 
 }

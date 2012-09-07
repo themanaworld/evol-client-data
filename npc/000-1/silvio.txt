@@ -7,29 +7,29 @@
 000-1.gat,86,99,0,1	script	Silvio	312;2,{
 
     mesn;
-    mesq l("Hey hey");
+    mesq l("Hey!");
     next;
-    mesq g(l("How is it going cutie?"),
-           l("How is it going dude?"));
+    mesq g(l("How are you doing, cutie?"),
+           l("How are you doing, dude?"));
     next;
 
     menu
-        l("Hello... Should I know you?"), -,
-        l("Bye."), l_Quit;
+        l("Hello... Do I know you?"), -,
+        l("Uhm, bye."), l_Quit;
 
     mes "";
     mesn;
-    mesq g(l("Hehe, no. But I'm sure that a lady like you would love to meet a charmer like me!"),
-           l("Hehe, no. But I'm sure that a boy like you would like to meet a gentleman like me."));
+    mesq g(l("Hehe, no. But I'm sure a lady like you would love to meet a charmer like me!"),
+           l("Hehe, no. But I'm sure a boy like you would like to meet a gentleman like me."));
     next;
-    mesq g(l("So, which good wind brought you here? Were you on your raft to meet me? Or because you've heard of my feats on Artis?"),
-           l("So, which good wind brought you here? Were you on your raft to meet my Julia? Or because you wanted to see the beautiful waitress' at Artis?"));
+    mesq g(l("So, which good wind brought you here? Were you on your raft to meet me? Or is it because you've heard of my feats on Artis?"),
+           l("So, which good wind brought you here? Were you on your raft to meet my Julia? Or is it because you wanted to see the beautiful waitress' at Artis?"));
     next;
 
     menu
         g(l("You're right, it's about you."),
           l("You're right, it's about Julia.")), l_Julia,
-        l("Oh look, there's a piou behind you."), l_Piou,        
+        l("Oh look, there's a piou behind you!"), l_Piou,        
         l("What is Artis?"), l_Artis,
         l("None of them?"), -;
 

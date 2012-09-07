@@ -14,7 +14,7 @@
     if (@a == 1) goto l_Aouch;
     if (@a == 2) goto l_DoYou;
 
-    mesq l("Hey.");
+    mesq l("Hey you.");
     next;
     mesq l("What are you looking for?");
     next;
@@ -32,14 +32,14 @@
 l_Food:
     mes " ";
     mesn;
-    mesq l("You can yaye some @@ by hitting these palm trees.", getitemlink("Croconut"));
+    mesq l("You can yaye some @@s by hitting these palm trees.", getitemlink("Croconut"));
     next;
     mesq l("Yeye be prudent with wild animal's food, some of them are dangerouyous, especially the Blobs.");
 
     goto l_Close;
 
 l_HardToHit:
-    mesq l("These Croco Trees are full of yaying @@, but they are so hard to hit...", getitemlink("Croconut"));
+    mesq l("These crocotrees are full of yaying @@, but they are so hard to hit...", getitemlink("Croconut"));
 
     goto l_Close;
 
