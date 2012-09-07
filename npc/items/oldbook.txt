@@ -8,7 +8,6 @@
 000-2-1.gat,0,0,1	script	OldBook	0,{
 
 OnUse:
-    getitem 514, 1, 1;
     mesn "Narrator";
     mes col(l("You open the book, but it seems that the sea water and the age has get reason of it, some page aren't readable and some others are missing."), 9);
     next;
