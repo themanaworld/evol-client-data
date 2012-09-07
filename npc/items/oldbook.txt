@@ -3,15 +3,15 @@
 //    Alige
 //    Reid
 // Description:
-//    Reads the Old Book.
+//    Reading the Old Book.
 
 000-2-1.gat,0,0,1	script	OldBook	0,{
 
 OnUse:
     mesn "Narrator";
-    mes col(l("You open the book, but it seems that the sea water and the age has get reason of it, some page aren't readable and some others are missing."), 9);
+    mes col(l("You open the book, but it looks like the sea water and time damaged it severely. Some pages are not readable anymore. Some others are simply missing."), 9);
     next;
-    mes col(l("It seems to be a book about the legend of Aemil, do you want to read it?"), 9);
+    mes col(l("The old book seems to tell about the legend of Aemil. Would you like to read it?"), 9);
     next;
 
     menu
@@ -50,9 +50,11 @@ l_Read:
     next;
     mes l("A great city, now the capital of these islands, called Esperia, rose on the single island, Aurora, where everyone lived.");
     next;
+    mes l("However...");
+    next;
 
     mesn "Narrator";
-    mes col(l("The end and the sign up is impossible to read, and some pages seems missing."), 9);
+    mes col(l("The end of the story got erased, probably because of the sea water. Some pages are still missing thus you don't know the author's name."), 9);
 
     close;
 
