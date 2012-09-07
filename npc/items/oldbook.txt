@@ -10,43 +10,50 @@
 OnUse:
     getitem 514, 1, 1;
     mesn "Narrator";
+    mes col(l("You open the book, but it seems that sea water and age has get reason of it, some page aren't readable and some others are missing."), 9);
+    next;
+    mes col(l("It seems to be a book about the legend of Aemil, do you want to read it?"), 9);
+    next;
 
-    mes col(l("Aemil is a magnificent world unknown to us all."), 9);
+    menu
+        l("Yes."), l_Read,
+        l("No."), -;
+
+    close;
+
+l_Read:
+    mes l("Aemil is a magnificent world unknown to us all.");
     next;
-    mes col(l("Its inhabitants did not know any kind of horror and in peace they lived as the earth gave them everything they needed to live."), 9);
+    mes l("Its inhabitants did not know any kind of horror and in peace they lived as the earth gave them everything they needed to live.");
     next;
-    mes col(l("However, drought came with summers while winters became colder than ever."), 9);
+    mes l("However, drought came with summers while winters became colder than ever.");
     next;
-    mes col(l("Therefore, starvation stroke on the people of Aemil."), 9);
+    mes l("Therefore, starvation stroke on the people of Aemil.");
     next;
-    mes col(l("Rules began to rise in order to have a peaceful society. This did not work well for long."), 9);
+    mes l("Rules began to rise in order to have a peaceful society. This did not work well for long.");
     next;
-    mes col(l("People started to steal from each other to survive. As cities grew, needs did too. Wars for fertile lands then rose."), 9);
+    mes l("People started to steal from each other to survive. As cities grew, needs did too. Wars for fertile lands then rose.");
     next;
-    mes col(l("New technologies helped the slaughter instead of establishing peace. At some point, two different rivals were formed."), 9);
+    mes l("New technologies helped the slaughter instead of establishing peace. At some point, two different rivals were formed.");
     next;
-    mes col(l("Their leaders then came to the conclusion that an alliance was the only way they could survive."), 9);
+    mes l("Their leaders then came to the conclusion that an alliance was the only way they could survive.");
     next;
-    mes col(l("The great people of Aemil split up into three groups when they reached the coast."), 9);
+    mes l("The great people of Aemil split up into three groups when they reached the coast.");
     next;
-    mes col(l("Each of the groups was ordered to sail in a different direction to find a new, suitable land where to live."), 9);
+    mes l("Each of the groups was ordered to sail in a different direction to find a new, suitable land where to live.");
     next;
-    mes col(l("As they sailed on Oceania, great waters of Aemil, one of the groups found a land."), 9);
+    mes l("As they sailed on Oceania, great waters of Aemil, one of the groups found a land.");
     next;
-    mes col(l("Even though they did not hear anything about the other groups, they decided to start a new life on this land, full of harmful animals."), 9);
+    mes l("Even though they did not hear anything about the other groups, they decided to start a new life on this land, full of harmful animals.");
     next;
-    mes col(l("This new continent, in fact an archipelago, was called Andorra."), 9);
+    mes l("This new continent, in fact an archipelago, was called Andorra.");
     next;
-    mes col(l("A great city, now the capital of these islands, called Esperia, rose on the single island, Aurora, where everyone lived."), 9);
+    mes l("A great city, now the capital of these islands, called Esperia, rose on the single island, Aurora, where everyone lived.");
+    next;
+
+    mesn "Narrator";
+    mes col(l("The end and the sign up is impossible to read, and some pages seems missing."), 9);
 
     close;
 
 }
-
-
-
-
-
-
-
-
