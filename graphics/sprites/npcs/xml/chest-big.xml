@@ -1,8 +1,12 @@
-<?xml version="1.0"?>
-<!-- Authors: Hal9OOO, Reid
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Hal9000, Reid
 Copyright (C) 2012 Evol Online -->
 <sprite>
-    <imageset name="chest" src="graphics/sprites/npcs/sprite/chest-big.png" width="48" height="64" offsetX="12"/>
+    <imageset name="chest"
+        src="graphics/sprites/npcs/sprite/chest-big.png"
+        width="48"
+        height="64"
+        offsetX="12"/>
 
     <action name="stand" imageset="chest">
         <!-- Chest Closed. -->

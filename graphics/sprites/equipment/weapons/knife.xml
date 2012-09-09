@@ -1,8 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
 Copyright (C) 2011-2012 Evol Online -->
-<sprite name="player" action="stand">
-    <imageset name="base" src="graphics/sprites/equipment/weapons/knife.png" width="64" height="64"/>
+<sprite>
+    <imageset name="base"
+        src="graphics/sprites/equipment/weapons/knife.png"
+        width="64"
+        height="64"/>
 
     <action name="default" imageset="base">
     </action>

@@ -1,9 +1,18 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
 Copyright (C) 2011-2012 Evol Online -->
 <sprite>
-    <imageset name="mob" src="graphics/sprites/monsters/piou.png" width="10" height="9" offsetY="-12"/>
-    <imageset name="acc" src="graphics/sprites/accessories/piousse-egg.png" width="11" height="11" offsetY="-12"/>
+    <imageset name="mob"
+        src="graphics/sprites/monsters/piou.png"
+        width="10"
+        height="9"
+        offsetY="-12"/>
+
+    <imageset name="acc"
+        src="graphics/sprites/accessories/piousse-egg.png"
+        width="11"
+        height="11"
+        offsetY="-12"/>
 
     <action name="spawn" imageset="acc">
 

@@ -1,19 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors: 4144, Reid
 Copyright (C) 2011-2012 Evol Online -->
-
-<!--
-Example of the extended animation tags.
-Allows to add any frame numbers.
-
-Examples showing the same animation:
-    <sequence start="55" end="60" delay="75"/>
-    <sequence value="55-60" delay="75"/>
-    <sequence value="55,56,57,58,59,60" delay="75"/>
--->
-
 <sprite>
-    <imageset name="npc" src="graphics/sprites/npcs/sprite/gugli.png" width="64" height="64" offsetX="20"/>
+    <imageset name="npc"
+        src="graphics/sprites/npcs/sprite/gugli.png"
+        width="64"
+        height="64"
+        offsetX="20"/>
 
     <action name="stand" imageset="npc">
             <animation direction="default">
