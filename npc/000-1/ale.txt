@@ -8,7 +8,10 @@
 
     set @q, getq(ShipQuests_Ale);
     if (@q == 1) goto l_CallFunc;
+
+// Some dialogues will be here.
     setq ShipQuests_Ale, 1;
+// And here too.
 
 l_CallFunc:
     callfunc "SailorFood";

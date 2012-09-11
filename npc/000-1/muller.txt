@@ -2,12 +2,62 @@
 // Author:
 //    Reid
 // Description:
-//    A random NPC searching for some food on the map.
+//    Sailor part of the Gugli's quest.
 
 000-1.gat,35,69,0,1	script	Q'Muller	104;2,{
 
+    set @q, getq(ShipQuests_QMuller);
+    if (@q == 1) goto l_CallFunc;
+
+// Some dialogues will be here.
+    setq ShipQuests_QMuller, 1;
+// And here too.
+
+l_CallFunc:
+    callfunc "SailorFood";
+
+    menu
+        rif(getq(ShipQuests_QMuller) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        l("What's this fruit?"), OnAquada;
+
+    mes "";
     mesn;
-    mesq l("I think I'm done. I have a box full of @@s!", getitemlink("CrocClaw"));
+    mesq l("Who are you searching?");
+    next;
+
+    menu
+        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Top,
+        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Top,
+        rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
+        rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
+        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
+        l("Nobody."), -;
+
+    close;
+
+l_Bottom:
+    mes "";
+    mesn;
+    mesq l("I've seen him on the bottom of the island, check around.");
+
+    close;
+
+l_Top:
+    mes "";
+    mesn;
+    mesq l("I've seen him on the top of the island.");
+    next;
+    mesq l("You should walk to the north.");
+    close;
+
+OnPlushroom:
+    mes "";
+    mesn;
+    mesq l("A @@? There're plenty on this island!", getitemlink("Plushroom"));
+    next;
+    mesq l("It's a kind of mushroom, we call it plush because of it's taste, a real marshmallow. It also got this name because of it's look, it got the appearance of a toy.");
+    next;
+    mesq l("There're some regrouping of these @@'s all around this island, just pick some and test it by yourself.", getitemlink("Plushroom"));
 
     close;
 
