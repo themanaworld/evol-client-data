@@ -2,19 +2,18 @@
 // Author:
 //    Reid
 // Description:
-//    Random NPC searching for some food on the map.
+//    Sailor part of the Gugli's quest.
 
 000-1.gat,22,50,0,1	script	Astapolos	107;2,{
 
     mesn;
-    mesq l("Hey")+ " " + strcharinfo(0) + "."; 
+    mesq l("Oh, hey you!");
     next;
 
     menu
         l("How are things going?"), -,
-        l("How do you know my name?"), l_Name,
         l("Who are you?"), l_Who,
-        l("What's this?"), l_Aquada;
+        l("What's this?"), l_Croconut;
 
     mes "";
     mesn;
@@ -25,15 +24,6 @@
     mesq l("a ground!");
     next;
     mesq l("I hope that answers your question.") + " " + l("Hehe!");
-
-    close;
-
-l_Name:
-    mes "";
-    mesn;
-    mesq l("A few moments ago, I heard your conversation with Darlin.");
-    next;
-    mesq l("Oh, not everything, don't worry, but your name came up at least twice in the conversation.");
 
     close;
 
@@ -48,15 +38,7 @@ l_Who:
 
     close;
 
-l_Aquada:
-    mes "";
-    mesn;
-    mesq l("This is an aquada, a light blue sea fruit. They're highly desired in the archipelago.");
-    next;
-    mesq l("You can find them in the ocean, near corals and other sea beings.");
-    next;
-    mesq l("Orelse, if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
-
+l_Croconut:
     close;
 
 }
