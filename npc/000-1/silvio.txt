@@ -130,6 +130,10 @@ l_ForeverAlone:
     mes col(l("Silvio starts to speak to his bottle, you leave the conversation."), 9);
 
 l_Quit:
+    mes "";
+    mesn;
+    mesq l("Give me a kiss before you tell me goodbye!");
+
     close;
 
 }

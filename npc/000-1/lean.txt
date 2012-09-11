@@ -7,7 +7,7 @@
 000-1.gat,79,108,0,1	script	Lean	106;2,{
 
     mesn;
-    mesq l("Oh, hey you!");
+    mesq l("Hey")+ " " + strcharinfo(0) + "."; 
     next;
     mesq l("I hope you don't mind that we used your raft to build this ramp.");
     next;
@@ -20,11 +20,21 @@
 
     menu
         l("That's right."), -,
+        l("How do you know my name?"), l_Name,
         l("Wait... Where are we going?"), l_Artis;
 
     mes "";
     mesn;
     mesq l("If you are looking for us there, mostly all of us will be at Pedro's restaurant and in the Inn for Silvio's case.");
+
+    close;
+
+l_Name:
+    mes "";
+    mesn;
+    mesq l("A few moments ago, I heard your conversation with Darlin.");
+    next;
+    mesq l("Oh, not everything, don't worry, but your name came up at least twice in the conversation.");
 
     close;
 
