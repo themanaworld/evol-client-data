@@ -2,12 +2,52 @@
 // Author:
 //    Reid
 // Description:
-//    .
+//    Sailor part of the Gugli's quest.
 
 000-1.gat,34,111,0,1	script	Tibbo	110;2,{
 
+    set @q, getq(ShipQuests_Tibbo);
+    if (@q == 1) goto l_CallFunc;
+    setq ShipQuests_Tibbo, 1;
+
+l_CallFunc:
+    callfunc "SailorFood";
+
+    menu
+        rif(getq(ShipQuests_Tibbo) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        l("What's this fruit?"), l_Aquada;
+
+    mes "";
     mesn;
-    mesq l("Hello world!");
+    mesq l("Who are you searching?");
+    next;
+
+    menu
+        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Top,
+        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Top,
+        rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Top,
+        rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
+        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
+        l("Nobody."), -;
+
+    close;
+
+l_Top:
+    mes "";
+    mesn;
+    mesq l("I've seen them on the top of the island.");
+    next;
+    mesq l("You should walk to the north.");
+    close;
+
+l_Aquada:
+    mes "";
+    mesn;
+    mesq l("This is an @@, a light blue sea fruit. They're highly desired in the archipelago.", getitemlink("Aquada"));
+    next;
+    mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try to swim there.");
+    next;
+    mesq l("Orelse, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
 
     close;
 
