@@ -38,9 +38,9 @@ l_CallFunc:
 l_Top:
     mes "";
     mesn;
-    mesq l("I've seen him on the top of the island.");
+    mesq l("I've seen him at the top of the island.");
     next;
-    mesq l("You should walk to the north.");
+    mesq l("You should walk to the north to find him.");
     close;
 
 l_Aquada:
@@ -48,9 +48,9 @@ l_Aquada:
     mesn;
     mesq l("This is an @@, a light blue sea fruit. They're highly desired in the archipelago.", getitemlink("Aquada"));
     next;
-    mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try to swim there.");
+    mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try swimming for now.");
     next;
-    mesq l("Orelse, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
+    mesq l("Or else, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
 
     close;
 

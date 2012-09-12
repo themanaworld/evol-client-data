@@ -2,7 +2,7 @@
 // Author:
 //    Reid
 // Description:
-//    Sailor part of the Gugli's quest.
+//    Sailor part of the Gugli quest.
 
 000-1.gat,46,35,0,1	script	Jalad	110;2,{
 
@@ -38,7 +38,7 @@ l_CallFunc:
 l_Bottom:
     mes "";
     mesn;
-    mesq l("I've seen him on the bottom of the island, check around.");
+    mesq l("I've seen him at the bottom of the island, have a look around.");
 
     close;
 
@@ -47,7 +47,7 @@ l_Ale:
 
     next;
     mesn;
-    mesq l("Look, he's there!");
+    mesq l("Look, there he is!");
     next;
 
     restorecam;
@@ -58,9 +58,9 @@ OnPlushroom:
     mesn;
     mesq l("A @@? There're plenty on this island!", getitemlink("Plushroom"));
     next;
-    mesq l("It's a kind of mushroom, we call it plush because of it's taste, a real marshmallow. It also got this name because of it's look, it got the appearance of a toy.");
+    mesq l("It's a kind of mushroom. We call it like that because of it's taste, just like a marshmallow. It also has this name because of it's appearance. It looks like a plush!.");
     next;
-    mesq l("There're some regrouping of these @@'s all around this island, just pick some and test it by yourself.", getitemlink("Plushroom"));
+    mesq l("There're some groups of these @@'s all around this island. Just pick some and have a try.", getitemlink("Plushroom"));
 
     close;
 
