@@ -13,8 +13,48 @@
     setq ShipQuests_Gulukan, 1;
 // And here too.
 
-l_CallFunc:
-    callfunc "SailorFood";
+    mesn;
+
+    set @q, rand(0,400)/100;
+    if (@q == 0) goto l_RandomA;
+    if (@q == 1) goto l_RandomB;
+    if (@q > 1) goto l_RandomC;
+
+l_RandomA:
+    mesq l("Hey.");
+    next;
+    mesq l("What does Gugli yayaid about the box? Was it ok?");
+    next;
+
+    menu
+        l("It's ok."), l_Fine,
+        l("He needs more food."), -;
+
+    mes "";
+    mesn;
+    mesq l("Yeye is sure? I'll yaye some more foods on the next box then.");
+
+    close;
+
+l_Fine:
+    mes "";
+    mesn;
+    mesq l("It's alright! Yeye one more box and it'll be ok.");
+
+    close;
+
+l_RandomB:
+    mesq l("Thanks for the help!");
+    next;
+    mesq l("These yeye box are way too yeavy to be brought alone to the ship.");
+
+    close;
+
+l_RandomC:
+    mesq l("I think that yeye's soon done, yeye'll soon got a box full of @@s!", getitemlink("CrocClaw"));
+    next;
+    mesq l("And you? How's it yaying on your side?");
+    next;
 
     menu  
         rif(getq(ShipQuests_Gulukan) == 1, l("I'm still busy, I need to find the other sailors.")), -,
