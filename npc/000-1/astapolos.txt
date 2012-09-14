@@ -8,13 +8,16 @@
 
     set @q, getq(ShipQuests_Astapolos);
     if (@q == 1) goto l_CallFunc;
+
+// Some dialogues will be here.
     setq ShipQuests_Astapolos, 1;
+// And here too.
 
 l_CallFunc:
     callfunc "SailorFood";
 
     menu  
-        rif(getq(ShipQuests_Astpolos) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_Astapolos) == 1, l("I'm still busy, I need to find the other sailors.")), -,
         l("How are things going?"), l_HowAreYou,
         l("Who are you?"), l_Who;
 
@@ -28,7 +31,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
-        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Top,
+        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
 
     close;
