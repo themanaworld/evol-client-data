@@ -3,6 +3,7 @@
 //    Reid
 // Description:
 //    Door NPC.
+//    The third value of the Q variable has been removed for the beta2, it'll then be re-added for the Aurora release.
 
 000-2-0.gat,20,27,0,1	script	AreaNPC	0,0,0,{
 
@@ -10,7 +11,8 @@ OnTouch:
     set @q, getq(ShipQuests_Nard);
     if (@q == 1) goto l_Warp;
     if (@q == 2) goto l_GotoNard;
-    if (@q == 3) goto l_End;
+//    if (@q == 3) goto l_End;
+    close;
 
     setcamnpc "Julia";
     mesn "Julia";
