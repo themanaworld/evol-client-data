@@ -137,7 +137,7 @@ l_Quit:
     close;
 
 OnQuestGiven:
-    mesq l("HEY") + " " + strcharinfo(0) + "!"; 
+    mesq l("HEY @@!", strcharinfo(0));
     next;
     mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?");
     next;

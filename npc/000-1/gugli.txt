@@ -4,17 +4,42 @@
 //    Reid
 // Description:
 //    Elmo's twin
-//    Charged of an important quest from Nard.
+//    Charged of an important quest from Nard, he asks you to help other sailors to keep their box to the ship.
 // Variable:
 //    0   ShipQuests_Couwan
+//    1   ShipQuests_Nard
+//    2   ShipQuests_Gugli
 // Values: 
 //    00   Never talked with Couwan.
 //    01   Spoke, and received the quest scam.
 //    02   Done quest scam.
+//    10   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
+//    11   Nard spoke and gave access to the outdoor of the ship.
+//    12   Completed the quest.
+//    13   Opened the chest and finished the introduction.
+//    20   Never talked with Gugli.
+//    21   Gugli gives you the task.
+//    22   Gave all of the box to Gugli.
 
-000-1.gat,85,108,0,1	script	Gugli	313;2,{
+000-1.gat,85,108,0,1	script	Gugli	313,2,1;2,{
 
     mesn;
+    set @n, getq(ShipQuests_Nard);
+    set @g, getq(ShipQuests_Gugli);
+    if (@n > 1 | @g == 2) goto l_End;
+    if (@g == 1) goto l_TaskGiven;
+    if (@g > 1) goto l_TaskCompleted;
+
+    mesq l("Hello I give you a quest.");
+    setq ShipQuests_Gugli, 1;
+    close;
+
+l_End:
+    mesq l("Hello you done the quest.");
+
+    close;
+
+l_TaskGiven:
     mesq l("Great to see you! What can I do for you today?");
     next;
 
@@ -41,6 +66,17 @@ l_Couwan:
     set zeny, zeny+50;
     if (countitem("FishBox") > 0) delitem "FishBox", 1;
     message strcharinfo(0), l("You receive 50GP!");
+    close;
+
+l_TaskDone:
+    mesq l("Hello you just done the quest.");
+
+    setq ShipQuests_Gugli, 2;
+    close;
+
+l_TaskCompleted:
+    mesq l("Hello the quest is over.");
+
     close;
 
 }

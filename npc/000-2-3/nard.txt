@@ -9,20 +9,26 @@
 //    ShipQuests
 // Variable:
 //    ShipQuests_Nard
+//    ShipQuests_Gugli
 // Values: 
-//    0   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
-//    1   Nard spoke and gave access to the outdoor of the ship.
-//    2   Completed the quest.
-//    3   Opened the chest and finished the introduction.
+//    00   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
+//    01   Nard spoke and gave access to the outdoor of the ship.
+//    02   Completed the quest.
+//    03   Opened the chest and finished the introduction.
+//    10   Never talked with Gugli.
+//    11   Gugli gives you the task.
+//    12   Gave all of the box to Gugli.
 
 000-2-3.gat,25,26,0,1	script	Nard	306;5,{
 
     set @q, getq(ShipQuests_Nard);
+    set @a, getq(ShipQuests_Gugli);
 
 l_Checker:
     if (@q == 1) goto l_NotYet;
     if (@q == 2) goto l_Give;
     if (@q > 2) goto l_Already;
+    if (@a == 2) goto l_Done;
 
     mesn;
     mesq l("Hello."); 
@@ -135,7 +141,20 @@ l_Give:
 
 l_Already:
     mesn;
-    mesq l("I don't need any help right now, come back later."); 
+    mesq l("I don't need any help right now, come back later.");
+
+    close;
+
+l_Done:
+    mesn;
+    mesq l("Hi @@.", strcharinfo(0));
+    next;
+    mesq l("Elmo and Gugli reported me that you done the ccccccccccccccccccccccccccccccccccccccccccccc IIIIIIIIIIICCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII ");
+    next;
+
+
+
+    setq ShipQuests_Nard, 2;
     close;
 
 }
