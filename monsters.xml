@@ -96,4 +96,9 @@ Example:
         <sound event="hurt">monsters/croconut/hurt2.ogg</sound>
         <sound event="hurt">monsters/croconut/hurt3.ogg</sound>
     </monster>
+    <monster id="9" name="Plushroom Field" targetCursor="large">
+        <sprite>monsters/plushroom.xml</sprite>
+        <sound event="spawn">monsters/plushroom/spawn1.ogg</sound>
+        <sound event="die">monsters/plushroom/die1.ogg</sound>
+    </monster>
 </monsters>

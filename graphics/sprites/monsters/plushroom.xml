@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
+
+<sprite>
+    <imageset name="mob"
+               src="graphics/sprites/monsters/plushroom.png"
+               width="64"
+               height="64"
+               offsetY="19"/>
+
+    <action name="spawn" imageset="mob">
+
+        <animation direction="default">
+            <!-- Spawn Animation -->
+                <sequence start="0" end="4" delay="120"/>
+                <sequence start="5" end="6" delay="100"/>
+                <jump action="stand"/>
+        </animation>
+
+    </action>
+
+    <action name="stand" imageset="mob">
+
+        <animation direction="default">
+            <!-- Spawn Animation -->
+                <frame index="7"/>
+        </animation>
+
+    </action>
+
+    <action name="dead" imageset="mob">
+
+        <animation>
+            <!-- Dying main plushroom. -->
+            <frame index="0"/>
+            <!-- Other plushrooms are also dying. -->
+        </animation>
+
+    </action>
+</sprite>
