@@ -14,7 +14,7 @@ Copyright (C) 2012 Evol Online -->
         <animation direction="default">
             <!-- Spawn Animation -->
                 <sequence start="0" end="4" delay="120"/>
-                <sequence start="5" end="6" delay="100"/>
+                <sequence start="5" end="6" delay="90"/>
                 <jump action="stand"/>
         </animation>
 
@@ -34,6 +34,7 @@ Copyright (C) 2012 Evol Online -->
         <animation>
             <!-- Dying Plushrooms. -->
                 <sequence start="8" end="13" delay="120"/>
+                <frame index="14"/>
         </animation>
 
     </action>
