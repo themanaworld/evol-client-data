@@ -32,9 +32,8 @@ Copyright (C) 2012 Evol Online -->
     <action name="dead" imageset="mob">
 
         <animation>
-            <!-- Dying main plushroom. -->
-            <frame index="0"/>
-            <!-- Other plushrooms are also dying. -->
+            <!-- Dying Plushrooms. -->
+                <sequence start="8" end="13" delay="120"/>
         </animation>
 
     </action>
