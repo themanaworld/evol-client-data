@@ -30,7 +30,22 @@
     if (@g == 1) goto l_TaskGiven;
     if (@g > 1) goto l_TaskCompleted;
 
-    mesq l("Hello I give you a quest.");
+    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));
+    next;
+    mesq l("An unexpected help is always welcome.")
+    next;
+    mesq l("As you may know we are long-distance traveller, and our crew need to stock enough food to survive. You don't know how dangerous sea life can be.")
+    next;
+
+    menu
+        l("Actually I have an in-depth knowledge of this life."), -;
+
+    mes "";
+    mesn;
+    mesq l("Well have been rescued by us doesn't make you an expert sailor, am I right?")
+    next;
+
+
     setq ShipQuests_Gugli, 1;
     close;
 
