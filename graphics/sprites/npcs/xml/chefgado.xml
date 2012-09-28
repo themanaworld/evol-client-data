@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Author: Hal9000
+<!-- Author: Hal9000, Reid
 Copyright (C) 2012 Evol Online -->
 <sprite>
     <imageset name="npc"
@@ -10,27 +10,27 @@ Copyright (C) 2012 Evol Online -->
     <action name="stand" imageset="npc">    
         <animation direction="default">
             <!-- Playing With Knife -->
-            <frame index="0" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="2" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="0" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="2" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="0" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="2" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="0" delay="250"/>
-            <frame index="1" delay="225"/>
-            <frame index="2" delay="250"/>
-            <frame index="1" delay="3000"/>
+            <frame index="0" delay="2500"/>
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="170"/>
+            <frame index="0" delay="150"/>
+            <frame index="1" delay="120"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="120"/>
+            <frame index="0" delay="170"/>
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="160"/>
+            <frame index="1" delay="150"/>
+            <frame index="0" delay="150"/>
+            <frame index="1" delay="120"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="120"/>
+            <frame index="0" delay="3500"/>
             <!-- Blink -->
-            <frame index="3" delay="100"/>
-            <frame index="4" delay="100"/>
-            <frame index="3" delay="100"/>
-            <frame index="1" delay="5000"/>
+            <frame index="3" delay="60"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="70"/>
         </animation>
     </action>
 </sprite>
