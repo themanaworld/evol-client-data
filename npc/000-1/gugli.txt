@@ -21,20 +21,19 @@
 //    21   Gugli gives you the task.
 //    22   Gave all of the box to Gugli.
 
-000-1.gat,85,108,0,1	script	Gugli	313,2,1;2,{
-
+000-1.gat,85,108,0,1	script	Gugli	313;2,{
+OnTalk:
     mesn;
     set @n, getq(ShipQuests_Nard);
     set @g, getq(ShipQuests_Gugli);
-    if (@n > 1 | @g == 2) goto l_End;
+    if (@n > 1 | @g == 2) goto l_TaskCompleted;
     if (@g == 1) goto l_TaskGiven;
-    if (@g > 1) goto l_TaskCompleted;
 
-    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));
+    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));  
     next;
-    mesq l("An unexpected help is always welcome.")
+    mesq l("An unexpected help is always welcome.");
     next;
-    mesq l("As you may know we are long-distance traveller, and our crew need to stock enough food to survive. You don't know how dangerous sea life can be.")
+    mesq l("As you may know we are long-distance traveller, and our crew need to stock enough food to survive. You don't know how dangerous sea life can be.");
     next;
 
     menu
@@ -42,25 +41,39 @@
 
     mes "";
     mesn;
-    mesq l("Well have been rescued by us doesn't make you an expert sailor, am I right?")
+    mesq l("Well have been rescued by us doesn't make you an expert sailor, am I right?");
+    next;
+    mesq l("But let's talk more about this island, we're docking here to find some fine quality foods.");
+    next;
+    mesq l("We usually dock around these small piece of land because they provide us some of the finest food of all the archipelago.");
+    next;
+    mesq l("So at the moment, our crew is busy collecting croconuts, plushrooms and aquada.");
     next;
 
+    menu
+        l("So what can I do for you?"), -;
+
+    mes "";
+    mesn;
+    mesq l("Right! Sailors are pretty quick with their job. They just take too much time bringing all the food back to the ship. Maybe you can help them.");
+    next;
+    mesq l("Captain wants 2 boxes of Croconouts, 2 of Plushroom and 2 of Aquada.");
+    next;
+    mesq l("Ask sailors around here they shouldn't be so far.");
+    next;
 
     setq ShipQuests_Gugli, 1;
-    close;
-
-l_End:
-    mesq l("Hello you done the quest.");
-
-    close;
+    goto l_Menu;
 
 l_TaskGiven:
     mesq l("Great to see you! What can I do for you today?");
     next;
 
+l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
-        l("Nothing."), -;
+        l("Where can I find your crew?"), l_Location,
+        l("See you."), -;
 
     close;
 
@@ -83,15 +96,50 @@ l_Couwan:
     message strcharinfo(0), l("You receive 50GP!");
     close;
 
-l_TaskDone:
-    mesq l("Hello you just done the quest.");
+l_Location:
+    mes "";
+    mesn;
+    mesq l("There're 6 sailors, they're all around the island.");
+    next;
+    mesq l("I can't really help you to find them myself, I've been checking the... Hmm... Landscape, since the the morning...");
+    next;
+    mesq l("You can try to talk with some other sailors to get more information about this.");
+    next;
 
-    setq ShipQuests_Gugli, 2;
+    set @r, rand(3000)/1000;
+    if (@r == 1) goto l_Silvio;
+    if (@r == 2) goto l_Darlin;
+
+    mesq l("Max and Sapartan for example?");
     close;
 
-l_TaskCompleted:
-    mesq l("Hello the quest is over.");
+l_Silvio:
+    mesq l("Silvio for example?");
+    close;
 
+l_Darlin:
+    mesq l("Darlin for example?");
+    close;
+
+l_TaskDone:
+    mesq l("Well done! Now the ship is ready to sail again!");
+    next;
+    mesq l("You should inform Nard about that. He will be enthusiastic.");
+
+    setq ShipQuests_Gugli, 2;
+    next;
+
+l_TaskCompleted:
+    mesq l("You are now part of this crew... At least for us down here!");
+
+    close;
+
+}
+
+000-1.gat,83,107,0,1	script	GugliBarrierCheck	0,2,0,{
+    set @q, getq(ShipQuests_Gugli);
+    if (@q > 0) close;
+    doevent "Gugli::OnTalk";
     close;
 
 }
