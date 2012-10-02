@@ -26,7 +26,7 @@ OnTalk:
     mesn;
     set @n, getq(ShipQuests_Nard);
     set @g, getq(ShipQuests_Gugli);
-    if (@n > 1 | @g == 2) goto l_TaskCompleted;
+    if (@n > 1 || @g == 2) goto l_TaskCompleted;
     if (@g == 1) goto l_TaskGiven;
 
     mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));  
