@@ -108,29 +108,45 @@ l_Location:
 
     set @r, rand(3000)/1000;
     if (@r == 1) goto l_Silvio;
-    if (@r == 2) goto l_Darlin;
+    if (@r == 2) goto l_Lean;
 
+    setcamnpc "Sapartan";
     mesq l("Max and Sapartan for example?");
+    next;
+
+    restorecam;
     close;
 
 l_Silvio:
+    setcamnpc "Silvio";
     mesq l("Silvio for example?");
+    next;
+
+    restorecam;
     close;
 
-l_Darlin:
-    mesq l("Darlin for example?");
+l_Lean:
+    setcamnpc "Lean";
+    mesq l("Lean for example?");
+    next;
+
+    restorecam;
     close;
 
 l_TaskDone:
     mesq l("Well done! Now the ship is ready to sail again!");
     next;
-    mesq l("You should inform Nard about that. He will be enthusiastic.");
+    mesq l("You should inform Nard about the progress of the load of the merchandise. He will be enthusiastic.");
 
     setq ShipQuests_Gugli, 2;
     next;
 
 l_TaskCompleted:
     mesq l("You are now part of this crew... At least for us down here!");
+    next;
+    mesq l("You should inform Nard about the progress of the load of the merchandise. He will be enthusiastic.");
+    next;
+    mesq l("Say him that everything went fine, and that we're almost done with the foods.");
 
     close;
 
