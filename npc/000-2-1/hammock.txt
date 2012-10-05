@@ -40,7 +40,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,22,36,0	script	#hammock3	904,1,0{
+000-2-1.gat,27,25,0	script	#hammock3	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
@@ -58,7 +58,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,27,25,0	script	#hammock4	905,1,0{
+000-2-1.gat,27,27,0	script	#hammock4	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
@@ -76,7 +76,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,27,27,0	script	#hammock5	905,1,0{
+000-2-1.gat,27,29,0	script	#hammock5	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
@@ -94,7 +94,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,27,29,0	script	#hammock6	905,1,0{
+000-2-1.gat,27,34,0	script	#hammock6	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
@@ -112,7 +112,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,27,34,0	script	#hammock7	905,1,0{
+000-2-1.gat,27,36,0	script	#hammock7	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
@@ -130,25 +130,7 @@ OnTimer5440:
 
 }
 
-000-2-1.gat,27,36,0	script	#hammock8	905,1,0{
-
-OnTouchFirst:
-    setnpcdir 0;
-    close;
-
-OnUnTouchAll:
-    setnpcdir 2;
-    initnpctimer;
-    close;
-
-OnTimer5440:
-    setnpcdir 0;
-    stopnpctimer;
-    end;
-
-}
-
-000-2-1.gat,27,38,0	script	#hammock9	905,1,0{
+000-2-1.gat,27,38,0	script	#hammock8	905,1,0{
 
 OnTouchFirst:
     setnpcdir 0;
