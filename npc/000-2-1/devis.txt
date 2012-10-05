@@ -5,7 +5,7 @@
 // Description:
 //    Sleeping and grumbling NPC.
 
-000-2-1.gat,15,38,0,1	script	Devis	310;2,{
+000-2-1.gat,16,38,0,1	script	Devis	310;2,{
     mesn;
     set @q, rand(2);
     if (@q == 0) goto l_Zzz;
