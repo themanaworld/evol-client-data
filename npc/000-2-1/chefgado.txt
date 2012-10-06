@@ -4,14 +4,10 @@
 // Description:
 //    La Johanne Chef.
 
-000-2-1.gat,17,30,0,1	script	Chef Gado	318;2,{
+000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
 
     mesn;
-
-    goto l_Test;
-
-l_Test:
-    mes l("test");
+    mesq l("test.");
 
     close;
 
