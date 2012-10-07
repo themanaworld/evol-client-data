@@ -210,12 +210,11 @@ l_AskForFood:
 l_IntroMenu:
     menu
         l("Yes."), l_GiveFood,
-        l("Where can I find some food?"), l_Food,
+        l("Where can I find some food?"), -,
         l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
         l("What is Artis?"), l_Artis,
         l("I think I should report you to the crew members."), l_DamnYou;
 
-l_Food:
     mes "";
     mesn;
     mesq l("There are some flying yellow plushes around you. They're called pious. Getting a roasted leg of one of them would be perfect.");
