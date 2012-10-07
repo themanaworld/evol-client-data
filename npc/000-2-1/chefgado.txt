@@ -11,8 +11,47 @@
     next;
 
     menu
+        l("So rude. What is the reason behind your malice?"), l_Rude,
         l("I swear, I do not eat so much."), -;
 
+    close;
+
+l_Rude:
+    mes "";
+    mesq l("UAHAHAHAAH! I am the cook of that bunch of donkeys, I can be rude with everyone from the bossy captain to that harpy-lady!");
+    next;
+
+    menu
+        l("Harpy-lady?"), -;
+
+    mes "";
+    mesq l("I am sure you know her. Nice dress, large smile and a constant flux of orders and rules. Julia they call her!");
+    next;
+    mesq l("You have to know that there was a time during which I was the unopposed captain of this crew. Then one day one of the damn sailor brought here that nice lady and Nard, her partner in crime.");
+    next;
+    mesq l("I will not describe you all the details but after 1 month they were ruling the ship and I was sent down here cooking for those traitors!");
+    next;
+    mesq l("But I swear that one day..ooh my tasty revenge. Hhmm, actually I wonder if.. maybe.. ..");
+    next;
+
+    menu
+        l("M..Maybe?"), -;
+
+    mes "";
+    mesq l("..Welcome onboard cutie! I just realized I need some delicious ingredients to prepare one..one special recipe.");
+    next;
+    mesq l("I only need 1 @@, 1 @@ and..", getitemlink("PiouLegs"), getitemlink("Croconut"));
+    next;
+    mesq l("..and 1 @@.", getitemlink("Aquada"));
+    next;
+
+    menu
+        l("Sure why not?"), l_Sure,
+        l("Aquada!? I will not help you with your evil plan!"), -;
+
+    close;
+
+l_Sure:
     close;
 
 }
