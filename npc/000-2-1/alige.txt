@@ -95,8 +95,8 @@ l_CanHelp:
     next;
 
     menu
-      l("Sure, but what can you give me in exchange?"), l_AboutReward,
-      l("Why don't you come out?"), -;
+        l("Sure, but what can you give me in exchange?"), l_AboutReward,
+        l("Why don't you come out?"), -;
 
 
   l_ExplainHiding:
@@ -120,9 +120,9 @@ l_AboutReward:
 
 l_Accept:
     menu
-      l("Understood, I will help you."), l_Accepted,
-      l("What is Artis?"), l_Artis,
-      l("I think I should report you to the crew members."), l_DamnYou;
+        l("Understood, I will help you."), l_Accepted,
+        l("What is Artis?"), l_Artis,
+        l("I think I should report you to the crew members."), l_DamnYou;
 
 l_Artis:
     mes "";
@@ -209,11 +209,11 @@ l_AskForFood:
 
 l_IntroMenu:
     menu
-      l("Yes."), l_GiveFood,
-      l("Where can I find some food?"), l_Food,
-      l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
-      l("What is Artis?"), l_Artis,
-      l("I think I should report you to the crew members."), l_DamnYou;
+        l("Yes."), l_GiveFood,
+        l("Where can I find some food?"), l_Food,
+        l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
+        l("What is Artis?"), l_Artis,
+        l("I think I should report you to the crew members."), l_DamnYou;
 
 l_Food:
     mes "";
