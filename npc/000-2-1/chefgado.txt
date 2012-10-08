@@ -14,7 +14,8 @@
 000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
 
     set @q, getq(ShipQuests_ChefGado);
-    if (@q > 0) goto OnQuestAccepted;
+    if (@q == 1) goto OnQuestAccepted;
+    if (@q == 2) goto OnPoisonAccepted;
 
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
@@ -70,8 +71,36 @@ OnSure:
 
 OnQuestAccepted:
     mesn;
-    mesq l("Quest accepted..[WIP]");
+    mesq l("Have you collected all the ingredients for my recipe. Special one too?");
+    next;
 
+    if (countitem("PiouLegs") > 0 && countitem("Croconut") > 0 && countitem("Aquada") > 0) goto OnCollected;
+
+    menu
+        l("Not yet. I will be back soon."), -;
+
+    close;
+
+OnCollected:
+    setq ShipQuests_ChefGado, 2;
+    delitem "PiouLegs", 1;
+    delitem "Croconut", 1;
+    delitem "Aquada", 1;
+    
+    menu
+        l("All your..fresh ingredients are ready to be cooked."), -;
+
+    mes "";
+    mesq l("Let me see.. Crispy legs, disgusting liquids..let's start.");
+    next;
+    mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
+    next;
+    mesq l("Done, take it! Now here it is the plan. Go talk with her and offer our beautiful lady a bite of her arrogancy!");
+    next;
+
+    close;
+
+OnPoisonAccepted:
     close;
 
 }
