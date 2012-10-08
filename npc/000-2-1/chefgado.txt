@@ -3,8 +3,18 @@
 //    Hal9000
 // Description:
 //    La Johanne Chef.
+// Variable:
+//    ShipQuests_ChefGado
+// Values:
+//    0   Default, no quest given.
+//    1   Quest accepted.
+//    2   Ingredients collected, ready to poison Julia.
+//    3   Quest accomplished.
 
 000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
+
+    set @q, getq(ShipQuests_ChefGado);
+    if (@q > 0) goto OnQuestAccepted;
 
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
@@ -46,12 +56,22 @@ l_Rude:
     next;
 
     menu
-        l("Sure why not?"), l_Sure,
+        l("Sure why not?"), OnSure,
         l("Aquada!? I will not help you with your evil plan!"), -;
 
     close;
 
-l_Sure:
+OnSure:
+    setq ShipQuests_ChefGado, 1;
+    mes "";
+    mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they have understood who rules this ship!");
+
+    close;
+
+OnQuestAccepted:
+    mesn;
+    mesq l("Quest accepted..[WIP]");
+
     close;
 
 }
