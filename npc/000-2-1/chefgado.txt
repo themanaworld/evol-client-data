@@ -11,6 +11,7 @@
 //    2   Ingredients collected, ready to poison Julia.
 //    3   Julia poisoned.
 //    4   Quest complete.
+//    5   Quest aborted.
 
 000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
 
@@ -19,6 +20,7 @@
     if (@q == 2) goto l_PoisonAccepted;
     if (@q == 3) goto l_PoisonJulia;
     if (@q == 4) goto l_QuestComplete;
+    if (@q == 5) goto l_QuestAborted;
 
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
@@ -99,6 +101,7 @@ l_Collected:
     mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
     next;
     mesq l("Done, take it! Now here it is the plan. Go talk with her and offer our beautiful lady a bite of her arrogancy!");
+    getitem "PoisonedDish", 1;
     next;
 
     close;
@@ -120,6 +123,12 @@ l_PoisonJulia:
 l_QuestComplete;
     mesn;
     mesq l("Oh it is you. I think it is better we do not talk for a while. They suspect something.");
+
+    close;
+
+l_QuestAborted;
+    mesn;
+    mesq l("You dirty liar. I will add you on the traitors' list.");
 
     close;
 
