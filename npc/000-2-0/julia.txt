@@ -6,11 +6,16 @@
 //    Allows to change language and talks about what happened to him.
 // 2 Bits Array:
 //    ShipQuests
-// Variable:
+// Variables:
 //    ShipQuests_Julia
-// Values:
+//    ShipQuests_ChefGado
+// Values ShipQuests_Julia:
 //    1   Already touched.
 //    2   First touch.
+// Values ShipQuests_ChefGado:
+//    2   Ingredients collected, ready to poison Julia.
+//    3   Julia poisoned.
+//    5   Quest aborted.
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10;5,{
 
@@ -19,6 +24,9 @@
     next;
     mesq l("What do you want today?");
     next;
+
+    set @q2, getq(ShipQuests_ChefGado);
+    if (@q2 == 2 && countitem("PoisonedDish") > 0) goto l_PoisonJulia;
 
   set @s$, l("I don't want to change my language, sorry.");
 
@@ -176,6 +184,36 @@ l_Rules:
 OnTouch:
     set @q, getq(ShipQuests_Julia);
     if (@q == 0 || @q == 2) goto l_First;
+
+    close;
+
+l_PoisonJulia:
+    menu
+        l("I have brought you a tasty present for your delicate mouth."), -,
+        l("Well...No wait you shouldn't eat it. Better I bring it back."), l_Regret;
+
+    mes "";
+    mesq l("Seems yummy! Let me taste it!");
+    next;
+    mesq l("Hmmm, hm...Cough Cough, Burp, Cough. What is that!?...Cough, Burp...Damn Gado...Cough");
+    if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
+    setq ShipQuests_ChefGado, 3;
+
+    close;
+
+l_Regret:
+    mes "";
+    mesq l("Why? And who should you bring it back to?");
+    next;
+
+    menu
+        l("Ehm he was really upset for some past stories."), -;
+
+    mes "";
+    mesq l("Gado!! That coward lives in the past, I will ask Nard to punish him again!");
+    next;
+    mesq l("Take this money for your wise choise. But do not try it again. Water has been mercifull with you once...Do not tempt fate twice!");
+    setq ShipQuests_ChefGado, 5;
 
     close;
 
