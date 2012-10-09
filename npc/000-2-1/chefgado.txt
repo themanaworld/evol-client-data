@@ -9,13 +9,16 @@
 //    0   Default, no quest given.
 //    1   Quest accepted.
 //    2   Ingredients collected, ready to poison Julia.
-//    3   Quest accomplished.
+//    3   Julia poisoned.
+//    4   Quest complete.
 
 000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
 
     set @q, getq(ShipQuests_ChefGado);
-    if (@q == 1) goto OnQuestAccepted;
-    if (@q == 2) goto OnPoisonAccepted;
+    if (@q == 1) goto l_QuestAccepted;
+    if (@q == 2) goto l_PoisonAccepted;
+    if (@q == 3) goto l_PoisonJulia;
+    if (@q == 4) goto l_QuestComplete;
 
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
@@ -42,56 +45,56 @@ l_Rude:
     next;
     mesq l("I will not describe you all the details but after 1 month they were ruling the ship and I was sent down here cooking for those traitors!");
     next;
-    mesq l("But I swear that one day..ooh my tasty revenge. Hhmm, actually I wonder if.. maybe.. ..");
+    mesq l("But I swear that one day..ooh my tasty revenge. Hhmm, actually I wonder if...maybe...");
     next;
 
     menu
-        l("M..Maybe?"), -;
+        l("M...Maybe?"), -;
 
     mes "";
-    mesq l("..Welcome onboard cutie! I just realized I need some delicious ingredients to prepare one..one special recipe.");
+    mesq l("...Welcome onboard cutie! I just realized I need some delicious ingredients to prepare one...one special recipe.");
     next;
-    mesq l("I only need 1 @@, 1 @@ and..", getitemlink("PiouLegs"), getitemlink("Croconut"));
+    mesq l("I only need 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"));
     next;
-    mesq l("..and 1 @@.", getitemlink("Aquada"));
+    mesq l("...And 1 @@.", getitemlink("Aquada"));
     next;
 
     menu
-        l("Sure why not?"), OnSure,
+        l("Sure why not?"), l_Sure,
         l("Aquada!? I will not help you with your evil plan!"), -;
 
     close;
 
-OnSure:
+l_Sure:
     setq ShipQuests_ChefGado, 1;
     mes "";
     mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they have understood who rules this ship!");
 
     close;
 
-OnQuestAccepted:
+l_QuestAccepted:
     mesn;
     mesq l("Have you collected all the ingredients for my recipe. Special one too?");
     next;
 
-    if (countitem("PiouLegs") > 0 && countitem("Croconut") > 0 && countitem("Aquada") > 0) goto OnCollected;
+    if (countitem("PiouLegs") > 0 && countitem("Croconut") > 0 && countitem("Aquada") > 0) goto l_Collected;
 
     menu
         l("Not yet. I will be back soon."), -;
 
     close;
 
-OnCollected:
-    setq ShipQuests_ChefGado, 2;
+l_Collected:
     delitem "PiouLegs", 1;
     delitem "Croconut", 1;
     delitem "Aquada", 1;
+    setq ShipQuests_ChefGado, 2;
     
     menu
-        l("All your..fresh ingredients are ready to be cooked."), -;
+        l("All your...fresh ingredients are ready to be cooked."), -;
 
     mes "";
-    mesq l("Let me see.. Crispy legs, disgusting liquids..let's start.");
+    mesq l("Let me see...Crispy legs, disgusting liquids...Let's start.");
     next;
     mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
     next;
@@ -100,7 +103,24 @@ OnCollected:
 
     close;
 
-OnPoisonAccepted:
+l_PoisonAccepted:
+    mesn;
+    mesq l("Fool! Just come here when you have finished our little...secret mission.");
+
+    close;
+
+l_PoisonJulia:
+    mesn;
+    mesq l("The usurper has been punished! This is a great day, take this reward as a prize for your loyalty to the old commander!.");
+
+    setq ShipQuests_ChefGado, 4;
+
+    close;
+
+l_QuestComplete;
+    mesn;
+    mesq l("Oh it is you. I think it is better we do not talk for a while. They suspect something.");
+
     close;
 
 }
