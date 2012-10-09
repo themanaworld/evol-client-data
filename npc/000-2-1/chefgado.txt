@@ -87,13 +87,13 @@ l_QuestAccepted:
     close;
 
 l_Collected:
+    menu
+        l("All your...fresh ingredients are ready to be cooked."), -;
+
     delitem "PiouLegs", 1;
     delitem "Croconut", 1;
     delitem "Aquada", 1;
     setq ShipQuests_ChefGado, 2;
-    
-    menu
-        l("All your...fresh ingredients are ready to be cooked."), -;
 
     mes "";
     mesq l("Let me see...Crispy legs, disgusting liquids...Let's start.");
@@ -102,7 +102,6 @@ l_Collected:
     next;
     mesq l("Done, take it! Now here it is the plan. Go talk with her and offer our beautiful lady a bite of her arrogancy!");
     getitem "PoisonedDish", 1;
-    next;
 
     close;
 
@@ -120,13 +119,13 @@ l_PoisonJulia:
 
     close;
 
-l_QuestComplete;
+l_QuestComplete:
     mesn;
     mesq l("Oh it is you. I think it is better we do not talk for a while. They suspect something.");
 
     close;
 
-l_QuestAborted;
+l_QuestAborted:
     mesn;
     mesq l("You dirty liar. I will add you on the traitors' list.");
 
