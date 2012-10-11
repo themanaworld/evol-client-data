@@ -77,6 +77,8 @@ OnStart:
     next;
 
 l_Menu:
+    set @q, getq(ShipQuests_Darlin);
+
     menu
         l("Maybe you can come down to talk?"), l_GoDown,
         l("I'm looking for Gugli, where is he?"), -,
@@ -143,8 +145,8 @@ OnQuestGiven:
     next;
 
     menu
-        l("I forgot where it was..."), -,
-        rif(getq(ShipQuests_Darlin) == 2, l("Yes, it's a chest.")), l_Chest,
+        rif(@q == 1, l("I forgot where it was...")), -,
+        rif(@q == 2, l("Yes, it's a chest.")), l_Chest,
         l("Oh, nothing important."), l_Nothing;
 
     mes "";
@@ -156,6 +158,7 @@ OnQuestGiven:
     goto l_Menu;
 
 l_Nothing:
+    if (@q == 2) setq ShipQuests_Darlin, 3;
     mes "";
     mesn;
     mesq l("OH, OK!");
