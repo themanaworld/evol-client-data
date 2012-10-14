@@ -5,23 +5,31 @@
 //    La Johanne Chef.
 // Variable:
 //    ShipQuests_ChefGado
+//    ShipQuests_Nard
 // Values:
 //    0   Default, no quest given.
 //    1   Quest accepted.
 //    2   Ingredients collected, ready to poison Julia.
 //    3   Julia poisoned.
 //    4   Quest complete.
-//    5   Quest aborted.
+//    5   Quest aborted. Julia wins.
 
 000-2-1.gat,17,28,0,1	script	Chef Gado	318;2,{
 
     set @q, getq(ShipQuests_ChefGado);
+    set @n, getq(ShipQuests_Nard);
     if (@q == 1) goto l_QuestAccepted;
     if (@q == 2) goto l_PoisonAccepted;
     if (@q == 3) goto l_PoisonJulia;
     if (@q == 4) goto l_QuestComplete;
     if (@q == 5) goto l_QuestAborted;
+    if (@n == 3) goto l_QuestStart;
 
+    mesn;
+    mesq l("Where is the damn salt!? Give me the salt. I know you have it!");
+    close;
+
+l_QuestStart:
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
     next;
@@ -43,9 +51,9 @@ l_Rude:
     mes "";
     mesq l("I am sure you know her. Nice dress, large smile and a constant flux of orders and rules. Julia they call her!");
     next;
-    mesq l("You have to know that there was a time during which I was the unopposed captain of this crew. Then one day one of the damn sailor brought here that nice lady and Nard, her partner in crime.");
+    mesq l("You have to know that there was a time during which I was the unopposed lieutenant of this crew. Then one day one of the damn sailor brought here that nice lady.");
     next;
-    mesq l("I will not describe you all the details but after 1 month they were ruling the ship and I was sent down here cooking for those traitors!");
+    mesq l("I will not describe you all the details but after one month she was ruling the ship and I was sent down here cooking for those traitors!");
     next;
     mesq l("But I swear that one day..ooh my tasty revenge. Hhmm, actually I wonder if...maybe...");
     next;

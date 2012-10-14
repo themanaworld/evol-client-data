@@ -72,6 +72,7 @@ l_TaskGiven:
 l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
+        rif(countitem("AquadaBox") > 1 && countitem("CroconutBox") > 1 && countitem("PlushroomBox") > 1, l("I have collected all the boxes you needed.")), l_TaskDone,
         l("Where can I find your crew?"), l_Location,
         l("See you."), -;
 
@@ -134,12 +135,16 @@ l_Lean:
     close;
 
 l_TaskDone:
+    setq ShipQuests_Gugli, 2;
+    if (countitem("AquadaBox") > 1) delitem "AquadaBox", 2;
+    if (countitem("CroconutBox") > 1) delitem "CroconutBox", 2;
+    if (countitem("PlushroomBox") > 1) delitem "PlushroomBox", 2;
+
     mesq l("Well done! Now the ship is ready to sail again!");
     next;
     mesq l("You should inform Nard about the progress of the load of the merchandise. He will be enthusiastic.");
 
-    setq ShipQuests_Gugli, 2;
-    next;
+    close;
 
 l_TaskCompleted:
     mesq l("You are now part of this crew... At least for us down here!");

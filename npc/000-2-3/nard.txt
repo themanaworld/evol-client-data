@@ -10,6 +10,7 @@
 // Variable:
 //    ShipQuests_Nard
 //    ShipQuests_Gugli
+//    ShipQuests_ChefGado
 // Values: 
 //    00   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
 //    01   Nard spoke and gave access to the outdoor of the ship.
@@ -23,12 +24,16 @@
 
     set @q, getq(ShipQuests_Nard);
     set @a, getq(ShipQuests_Gugli);
+    set @c, getq(ShipQuests_ChefGado);
 
 l_Checker:
-    if (@q == 1) goto l_NotYet;
-    if (@q == 2) goto l_Give;
-    if (@q > 2) goto l_Already;
+    if (@c > 3 && @q == 3) goto l_ChefQuestComplete;
+    if (@q == 2) goto l_ChefQuestStart;
+    if (@q == 3) goto l_ChefQuestGiven;
+    if (@q == 4) goto l_Already;
     if (@a == 2) goto l_Done;
+    if (@q == 1) goto l_NotYet;
+    //if (@q == 2) goto l_Give;
 
     mesn;
     mesq l("Hello."); 
@@ -127,13 +132,51 @@ l_NotYet:
     mesq l("You still haven't completed your task.");  
     close;
 
-l_Give:
+l_Done:
     mesn;
-    mesq l("Congrats!"); 
+    mesq l("Hi @@.", strcharinfo(0));
     next;
-    mesq l("You are now part of the crew! Thanks again for your help.");
+    mesq l("Elmo and Gugli reported me that you done the ccccccccccccccccccccccccccccccccccccccccccccc IIIIIIIIIIICCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII.");
+    next;
+
+    setq ShipQuests_Nard, 2;
+
+    close;
+
+l_ChefQuestStart:
+    mesn;
+    mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate efforts you did down there.");
+    next;
+    mesq l("Unfortunately we still need help from you. This time it will be a delicate task, here onboard.");
+    next;
+    mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably have already met Julia and Gado the Chef.");
+    next;
+    mesq l("They are both valid and I need them. Probably in the past I did some mistakes I now regret of. I was wondering if you could investigate and...sort out the situation.");
+    next;
+
+    menu
+        l("Who of the two has the right on his side?"), -;
+
+    mes "";
+    mesq l("I do not want to point my finger on someone. I just put my trust in you. I am sure you will be able to judge and solve this annoying problem.");
 
     setq ShipQuests_Nard, 3;
+
+    close;
+
+l_ChefQuestGiven:
+    mesn;
+    mesq l("It seems you still have some work to do.");
+
+    close;
+
+l_ChefQuestComplete:
+    mesn;
+    mesq l("Congratulations!"); 
+    next;
+    mesq l("You are now officially part of my crew! Thanks again for your help.");
+
+    setq ShipQuests_Nard, 4;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
 
@@ -141,20 +184,8 @@ l_Give:
 
 l_Already:
     mesn;
-    mesq l("I don't need any help right now, come back later.");
+    mesq l("Sorry, I don't need any help right now. Come back later.");
 
-    close;
-
-l_Done:
-    mesn;
-    mesq l("Hi @@.", strcharinfo(0));
-    next;
-    mesq l("Elmo and Gugli reported me that you done the ccccccccccccccccccccccccccccccccccccccccccccc IIIIIIIIIIICCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII ");
-    next;
-
-
-
-    setq ShipQuests_Nard, 2;
     close;
 
 }
