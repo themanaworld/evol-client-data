@@ -135,10 +135,10 @@ l_Lean:
     close;
 
 l_TaskDone:
-    setq ShipQuests_Gugli, 2;
     if (countitem("AquadaBox") > 1) delitem "AquadaBox", 2;
     if (countitem("CroconutBox") > 1) delitem "CroconutBox", 2;
     if (countitem("PlushroomBox") > 1) delitem "PlushroomBox", 2;
+    setq ShipQuests_Gugli, 2;
 
     mesq l("Well done! Now the ship is ready to sail again!");
     next;
