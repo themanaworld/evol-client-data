@@ -52,9 +52,10 @@ OnTouch:
         "Eu te ouço..." + " (Português)", -,
         "I höre euch..." + " (Deutsch)", -,
         "'k hoar ui wel..." + " (Vloams)", -,
-        "Słyszę cię..." + " (Polish)", -;
+        "Słyszę cię..." + " (Polish)", -,
+        "Ik kan je horen..." + " (Nederlands)", -;
     set @lang, @menu-1;
-    if (@lang < 0 || @lang > 7) close;
+    if (@lang < 0 || @lang > 8) close;
     setlang @lang;
 
     mesn;
