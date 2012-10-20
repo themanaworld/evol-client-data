@@ -29,7 +29,7 @@ OnTalk:
     if (@n > 1 || @g == 2) goto l_TaskCompleted;
     if (@g == 1) goto l_TaskGiven;
 
-    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));  
+    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));
     next;
     mesq l("An unexpected help is always welcome.");
     next;
@@ -57,7 +57,10 @@ OnTalk:
     mesn;
     mesq l("Right! Sailors are pretty quick with their job. They just take too much time bringing all the food back to the ship. Maybe you can help them.");
     next;
-    mesq l("Captain wants 2 boxes of Croconouts, 2 of Plushroom and 2 of Aquada.");
+    mesq l("Captain wants:
+    mesq l("- 2 @@", getitemlink("714"));
+    mesq l("- 2 @@", getitemlink("715"));
+    mesq l("- 2 @@", getitemlink("716"));
     next;
     mesq l("Ask sailors around here they shouldn't be so far.");
     next;
@@ -72,7 +75,7 @@ l_TaskGiven:
 l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
-        rif(countitem("AquadaBox") > 1 && countitem("CroconutBox") > 1 && countitem("PlushroomBox") > 1, l("I have collected all the boxes you needed.")), l_TaskDone,
+        rif(countitem("714") > 1 && countitem("715") > 1 && countitem("716") > 1, l("I have collected all the boxes you needed.")), l_TaskDone,
         l("Where can I find your crew?"), l_Location,
         l("See you."), -;
 
@@ -93,14 +96,14 @@ l_Couwan:
 
     setq ShipQuests_Couwan, 2;
     set zeny, zeny+50;
-    if (countitem("FishBox") > 0) delitem "FishBox", 1;
+    if (countitem("713") > 0) delitem "713", 1;
     message strcharinfo(0), l("You receive 50GP!");
     close;
 
 l_Location:
     mes "";
     mesn;
-    mesq l("There're 6 sailors, they're all around the island.");
+    mesq l("There're 6 sailors which will ned your help. They're all around the island.");
     next;
     mesq l("I can't really help you to find them myself, I've been checking the... Hmm... Landscape, since the the morning...");
     next;
@@ -135,9 +138,9 @@ l_Lean:
     close;
 
 l_TaskDone:
-    if (countitem("AquadaBox") > 1) delitem "AquadaBox", 2;
-    if (countitem("CroconutBox") > 1) delitem "CroconutBox", 2;
-    if (countitem("PlushroomBox") > 1) delitem "PlushroomBox", 2;
+    if (countitem("714") > 1) delitem "714", 2;
+    if (countitem("715") > 1) delitem "715", 2;
+    if (countitem("716") > 1) delitem "716", 2;
     setq ShipQuests_Gugli, 2;
 
     mesq l("Well done! Now the ship is ready to sail again!");
