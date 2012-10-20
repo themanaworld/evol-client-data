@@ -70,7 +70,7 @@ l_First:
         l("I speak German") + ". (Deutsch)", -,
         l("I speak Flemish") + ". (Vloams)", -,
         l("I speak Polish") + ". (Polski)", -,
-        l("I speak Dutch") + ". (Nederlands)", -;
+        l("I speak Dutch") + ". (Nederlands)", -,
     @s$, l_NoChanges;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 8) close;
