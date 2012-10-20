@@ -57,7 +57,7 @@ OnTalk:
     mesn;
     mesq l("Right! Sailors are pretty quick with their job. They just take too much time bringing all the food back to the ship. Maybe you can help them.");
     next;
-    mesq l("Captain wants:
+    mesq l("Captain wants: ???");
     mesq l("- 2 @@", getitemlink("714"));
     mesq l("- 2 @@", getitemlink("715"));
     mesq l("- 2 @@", getitemlink("716"));
@@ -167,3 +167,4 @@ l_TaskCompleted:
     close;
 
 }
+
