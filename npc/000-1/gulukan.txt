@@ -58,7 +58,7 @@ l_RandomC:
     next;
 
     menu  
-        rif(getq(ShipQuests_Gulukan) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_Gulukan) == 1, l("I'm still busy, I need to find the other sailors.")), -;
 
     mes "";
     mesn;
