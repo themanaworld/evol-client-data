@@ -11,8 +11,7 @@
 //    2   Opened the treasure chest.
 //    3   Get back to Darlin.
 
-000-1.gat,89,89,0,1	script	Darlin	103;14,{
-
+000-1.gat,89,94,0,1	script	Darlin	103;14,{
 
     mesn;
     set @q, getq(ShipQuests_Darlin);
@@ -65,8 +64,8 @@ OnStart:
     next;
 
     menu
-        l("I SAID, SEE YOU LATER!"), l_Bye,
         l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
+        l("I SAID, SEE YOU LATER!"), l_Bye,
         l("I'M CALLED, @@!", strcharinfo(0)), -;
 
     mes "";
@@ -185,21 +184,5 @@ l_QuestDone:
     next;
 
     goto l_Menu;
-
-}
-
-000-1.gat,92,100,0,1	script	DarlinBarrierCheck	0,0,2,{
-    set @q, getq(ShipQuests_Darlin);
-    if (@q == 0) goto l_First;
-    if (@q == 2) goto l_Last;
-    close;
-
-l_First:
-    doevent "Darlin::OnStart";
-    close;
-
-l_Last:
-    doevent "Darlin::OnQuestGiven";
-    close;
 
 }
