@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144, Reid
+Copyright (C) 2011-2012 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/unanimated.png"
+              width="64"
+              height="64"
+              offsetY="-160"/>
+
+    <action name="stand" imageset="npc">
+        <animation>
+                <frame index="1"/>
+        </animation>
+    </action>
+</sprite>
