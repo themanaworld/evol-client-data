@@ -154,6 +154,10 @@ l_GiveFood:
         rif(countitem(508, 1), l(getitemname("SeaDrops"))), 1,
         rif(countitem(509, 1), l(getitemname("Aquada"))), 509,
         rif(countitem(510, 1), l(getitemname("PinkBlobime"))), 1,
+        rif(countitem(511, 1), l(getitemname("PurpleBlobime"))), 1,
+        rif(countitem(512, 1), l(getitemname("Half Croconut"))), 512,
+        rif(countitem(513, 1), l(getitemname("Croconut"))), 513,
+        rif(countitem(515, 1), l(getitemname("Plushroom"))), 515,
         l("I don't have anything good for you today."), -1;
 
     set @id, @menuret;
