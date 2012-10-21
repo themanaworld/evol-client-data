@@ -52,14 +52,13 @@ l_RandomB:
     close;
 
 l_RandomC:
-    mesq l("I think that yeye's soon done, yeye'll soon got a box full of @@s!", getitemlink("706"));
+    mesq l("I think that yeye's soon done, yeye'll soon got a box full of @@s!", getitemlink("CrocClaw")); 
     next;
     mesq l("And you? How's it yaying on your side?");
     next;
 
     menu  
         rif(getq(ShipQuests_Gulukan) == 1, l("I'm still busy, I need to find the other sailors.")), -,
-        l("Who are you?"), l_Who;
 
     mes "";
     mesn;
