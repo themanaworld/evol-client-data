@@ -38,7 +38,28 @@ l_Warp:
 
 OnTouch:
     mesn "Narrator";
+    mes col(l("It seems that you need a key to open this door."), 9);
+    next;
+    mes col(l("What do you want to do?"), 9);
+    next;
+
+    menu
+        rif(countitem("JohanneKey") > 0, l("Use the key.")), l_Warp,
+        l("Break the door."), -,
+        l("Go away."), close;
+
+    mes "";
+    mesn "Narrator";
+    mes col(l("You hear a screaming sound, must be the creaking of the wood door..."), 9);
+
+    close;
+
+l_Warp:
+    mes "";
+    mesn "Narrator";
     mes col(l("Wait, it seems someone is blocking the door from the other side!"), 9);
+
+    close;
 
 }
 

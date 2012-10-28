@@ -92,10 +92,13 @@ l_NeedContent:
     next;
     mesq l("Oh well. I'll also give you one of these hats from the box around you, but only after you complete your task!"); 
     next;
-    mesq l("Go outside and talk with Gugli, he'll tell you what we need.");
+    mesq l("I give you this key, it opens any doors on this ship.");
+    next;
+    mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
     setq ShipQuests_Nard, 1;
+    getitem "JohanneKey", 1;
 
     close;
 
@@ -136,7 +139,7 @@ l_Done:
     mesn;
     mesq l("Hi @@.", strcharinfo(0));
     next;
-    mesq l("Elmo and Gugli reported me that you done the ccccccccccccccccccccccccccccccccccccccccccccc IIIIIIIIIIICCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII.");
+    mesq l("Elmo and Gugli reported me that you done all of the task... BlaBla."); // Need to add different dialogue if Julia is safe or not.
     next;
 
     setq ShipQuests_Nard, 2;
