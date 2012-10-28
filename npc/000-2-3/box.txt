@@ -58,9 +58,13 @@
     mesn "Nard";
     mesq l("Great!");
     next;
-    mesq l("Go outside and talk with Gugli, he will tell you what we need.");
+    mesq l("I give you this key, it opens any doors on this ship.");
+    next;
+    mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
+    next;
 
     setq ShipQuests_Nard, 1;
+    getitem "JohanneKey", 1;
 
     close;
 
