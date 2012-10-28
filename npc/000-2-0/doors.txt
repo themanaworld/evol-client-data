@@ -2,8 +2,8 @@
 // Author:
 //    Reid
 // Description:
-//    Door NPC.
-//    The third value of the Q variable has been removed for the beta2, it'll then be re-added for the Aurora release.
+//    Doors NPCs.
+//    The third value of the @nard variable has been removed for the beta2, it'll then be re-added for the Aurora release.
 // Variable:
 //    0 ShipQUests_Nard
 //    1 ShipQuests_Julia
@@ -16,7 +16,6 @@
 //    11   Registred to Julia.
 //    12   Need to see Julia.
 000-2-0.gat,20,27,0,1	script	AreaNPC	0,0,0,{
-
 OnTouch:
     set @nard, getq(ShipQuests_Nard);
     if (@nard > 0) goto l_Warp;
@@ -56,6 +55,7 @@ l_End:
 }
 
 000-2-0.gat,32,27,0,1	script	AreaNPC	0,0,0,{
+OnTouch:
     set @julia, getq(ShipQuests_Julia);
     if (@julia == 1) goto l_Warp;
     close;
