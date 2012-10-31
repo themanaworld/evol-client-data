@@ -21,7 +21,7 @@
     mesn;
     mesq lg("Hello yeye.");
     next;
-    mesq l("Look how splendid this landscape is.");
+    mesq l("Look how splendid this landscape is!");
     next;
 
     menu
@@ -30,11 +30,13 @@
 
     mes "";
     mesn;
-    mesq lg("Yeye got good eyes and seem to have fully recovered from your injuries. Could yeye can take my box of fish to Gugli?");
+    mesq lg("Yeye got good eyes and seem to have fully recovered from your injuries...");
+    next;
+    mesq lg("Hey, could yeye can take my box of fish to Gugli?");
     next;
 
     menu
-        l("What do I get in exchange?"), -,
+        l("What will I get in exchange?"), -,
         l("I'm sorry, I don't have time right now."), l_Decline;
 
     mes "";

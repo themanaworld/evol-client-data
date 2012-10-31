@@ -29,25 +29,25 @@ OnTalk:
     if (@n > 1 || @g == 2) goto l_TaskCompleted;
     if (@g == 1) goto l_TaskGiven;
 
-    mesq l("Hi @@, I have heard captain sent you down here, uh?", strcharinfo(0));
+    mesq l("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
     next;
-    mesq l("An unexpected help is always welcome.");
+    mesq l("An unexpected help is always welcome!");
     next;
-    mesq l("As you may know we are long-distance traveller, and our crew need to stock enough food to survive. You don't know how dangerous sea life can be.");
+    mesq l("As you may know, we are long distance travellers and our whole crew needs to store enough food to survive. You don't know how dangerous the sea life can be.");
     next;
 
     menu
-        l("Actually I have an in-depth knowledge of this life."), -;
+        l("Actually I have an in-depth knowledge of this type of life."), -;
 
     mes "";
     mesn;
-    mesq l("Well have been rescued by us doesn't make you an expert sailor, am I right?");
+    mesq l("Well, even though you have been rescued by us, it doesn't make you an expert sailor, am I right?");
     next;
-    mesq l("But let's talk more about this island, we're docking here to find some fine quality foods.");
+    mesq l("But let's talk more about this island. We're docking here to find some fine quality food.");
     next;
-    mesq l("We usually dock around these small piece of land because they provide us some of the finest food of all the archipelago.");
+    mesq l("We usually dock around these small pieces of land because they provide us some of the best food of all the archipelago.");
     next;
-    mesq l("So at the moment, our crew is busy collecting croconuts, plushrooms and aquada.");
+    mesq l("So, at the moment, our crew is busy collecting croconuts, plushrooms and aquadas.");
     next;
 
     menu
@@ -57,12 +57,12 @@ OnTalk:
     mesn;
     mesq l("Right! Sailors are pretty quick with their job. They just take too much time bringing all the food back to the ship. Maybe you can help them.");
     next;
-    mesq l("Captain wants:");
+    mesq l("The captain wants:");
     mesq l("- 2 @@", getitemlink("AquadaBox"));
     mesq l("- 2 @@", getitemlink("CroconutBox"));
     mesq l("- 2 @@", getitemlink("PlushroomBox"));
     next;
-    mesq l("Ask sailors around here they shouldn't be so far.");
+    mesq l("Ask sailors around here they shouldn't be so far away.");
     next;
 
     setq ShipQuests_Gugli, 1;
@@ -77,7 +77,7 @@ l_Menu:
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         rif(countitem("AquadaBox") > 1 && countitem("CroconutBox") > 1 && countitem("PlushroomBox") > 1, l("I have collected all the boxes you needed.")), l_TaskDone,
         l("Where can I find your crew?"), l_Location,
-        l("See you."), -;
+        l("See you!"), -;
 
     close;
 
@@ -103,11 +103,11 @@ l_Couwan:
 l_Location:
     mes "";
     mesn;
-    mesq l("There're 6 sailors which will ned your help. They're all around the island.");
+    mesq l("There're 6 sailors who will need your help. They're all around the island.");
     next;
-    mesq l("I can't really help you to find them myself, I've been checking the... Hmm... Landscape, since the the morning...");
+    mesq l("I can't really help you find them since I've been checking the... Hmm... Landscape, since the morning...");
     next;
-    mesq l("You can try to talk with some other sailors to get more information about this.");
+    mesq l("You can try talking with some other sailors to get some information about that.");
     next;
 
     set @r, rand(3000)/1000;
@@ -143,18 +143,18 @@ l_TaskDone:
     if (countitem("PlushroomBox") > 1) delitem "PlushroomBox", 2;
     setq ShipQuests_Gugli, 2;
 
-    mesq l("Well done! Now the ship is ready to sail again!");
+    mesq l("Well done! The ship is now ready to sail again!");
     next;
-    mesq l("You should inform Nard about the progress of the load of the merchandise. He will be enthusiastic.");
+    mesq l("You should inform Nard about the loading progress of the merchandise on to the. He will be pleased to hear that good news.");
 
     close;
 
 l_TaskCompleted:
-    mesq l("You are now part of this crew... At least for us down here!");
+    mesq l("You are now part of the crew... At least for us down here!");
     next;
-    mesq l("You should inform Nard about the progress of the load of the merchandise. He will be enthusiastic.");
+    mesq l("You should inform Nard about the loading progress of the merchandise on to the. He will be pleased to hear that good news.");
     next;
-    mesq l("Say him that everything went fine, and that we're almost done with the foods.");
+    mesq l("Tell him that everything went fine and that we're almost done with the food.");
 
     close;
 
@@ -167,4 +167,3 @@ l_TaskCompleted:
     close;
 
 }
-

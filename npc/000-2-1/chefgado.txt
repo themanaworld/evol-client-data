@@ -59,18 +59,18 @@ l_Rude:
     next;
 
     menu
-        l("M...Maybe?"), -;
+        l("M... Maybe?"), -;
 
     mes "";
-    mesq l("...Welcome onboard cutie! I just realized I need some delicious ingredients to prepare one...one special recipe.");
+    mesq l("... Welcome onboard cutie! I just realized I need delicious ingredients to prepare a... a special recipe.");
     next;
     mesq l("I only need 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"));
     next;
-    mesq l("...And 1 @@.", getitemlink("Aquada"));
+    mesq l("... and 1 @@.", getitemlink("Aquada"));
     next;
 
     menu
-        l("Sure why not?"), l_Sure,
+        l("Sure, why not?"), l_Sure,
         l("Aquada!? I will not help you with your evil plan!"), -;
 
     close;
@@ -78,13 +78,13 @@ l_Rude:
 l_Sure:
     setq ShipQuests_ChefGado, 1;
     mes "";
-    mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they have understood who rules this ship!");
+    mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they understand who rules this ship!");
 
     close;
 
 l_QuestAccepted:
     mesn;
-    mesq l("Have you collected all the ingredients for my recipe. Special one too?");
+    mesq l("Have you collected all the ingredients for my recipe? The special one too?");
     next;
 
     if (countitem("PiouLegs") > 0 && countitem("Croconut") > 0 && countitem("Aquada") > 0) goto l_Collected;
@@ -96,7 +96,7 @@ l_QuestAccepted:
 
 l_Collected:
     menu
-        l("All your...fresh ingredients are ready to be cooked."), -;
+        l("All your... fresh ingredients are ready to be cooked."), -;
 
     delitem "PiouLegs", 1;
     delitem "Croconut", 1;
@@ -104,18 +104,18 @@ l_Collected:
     setq ShipQuests_ChefGado, 2;
 
     mes "";
-    mesq l("Let me see...Crispy legs, disgusting liquids...Let's start.");
+    mesq l("Let me see... Crispy legs, disgusting liquids... Let's start!");
     next;
     mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
     next;
-    mesq l("Done, take it! Now here it is the plan. Go talk with her and offer our beautiful lady a bite of her arrogancy!");
+    mesq l("Done. Here, take it! Now here is the plan. Go talk with her and offer our beautiful lady a bite of her arrogance!");
     getitem "PoisonedDish", 1;
 
     close;
 
 l_PoisonAccepted:
     mesn;
-    mesq l("Fool! Just come here when you have finished our little...secret mission.");
+    mesq l("Fool! Just come here when you have finished our little... secret mission.");
 
     close;
 
@@ -129,13 +129,13 @@ l_PoisonJulia:
 
 l_QuestComplete:
     mesn;
-    mesq l("Oh it is you. I think it is better we do not talk for a while. They suspect something.");
+    mesq l("Oh, it's you. I think it is better we do not talk for a while. They suspect something.");
 
     close;
 
 l_QuestAborted:
     mesn;
-    mesq l("You dirty liar. I will add you on the traitors' list.");
+    mesq l("You dirty liar. I will add you on the traitors list.");
 
     close;
 
