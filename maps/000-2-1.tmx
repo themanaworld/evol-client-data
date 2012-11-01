@@ -16,12 +16,12 @@
  </tileset>
  <tileset firstgid="385" source="../graphics/tilesets/indoor/candle.tsx"/>
  <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/indoor/box.png" width="128" height="160"/>
+  <image source="../graphics/tilesets/indoor/box.png" width="128" height="192"/>
  </tileset>
- <tileset firstgid="411" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="415" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="417" name="Ship Indoor x3" tilewidth="64" tileheight="128">
+ <tileset firstgid="421" name="Ship Indoor x3" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/indoor/ship-indoor_x3.png" width="64" height="128"/>
  </tileset>
  <layer name="Ground" width="83" height="59" opacity="0.99">
@@ -36,7 +36,7 @@
  </layer>
  <layer name="Fringe" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YQWrCQBQAUCPWvYhH6AEEr+DBBNEuXFjQ6tZDeQSPoN12BKUkTGij1U70PfhkGMLw+fOHhGk0AAAAAAAAgJQd/jsB+ME4+x4Pw3iRlb8LZ/vCM1XT0M+zhHv65ZRbOzw/b7B+P8vHteZhjfcQq8Rq2kssnzprhVo2C/U8fhu6alzZa0nNRmpZ2eDGNVs+0Z7E+q945rlcJ8v/W/+Fjf2B2im7B2pXOM/ukn5vEpl7u3sW9bcN8RGZX4fY3TmXRxXrVS4T61UAAAAAAIBn9gVGzsx0hEwAAA==
+   H4sIAAAAAAAAA+3YQWrCQBQAUCPWvYhH6AEEr+DBBNEuXFjQ6gU8kkfwCNptR1BKwoQ2Wu1E34NPhiEMnz9/SJhGAwAAAAAAAEjZ4b8TgB+Ms+/xMIwXWfm7cLYvPFM1Df08S7inX065tcPz8wbr97N8XGse1ngPsUqspr3E8qmzVqhls1DP47ehq8aVvZbUbKSWlQ1uXLPlE+1JrP+KZ57LdbL8v/Vf2NgfqJ2ye6B2hfPsLun3JpG5t7tnUX/bEB+R+XWI3Z1zeVSxXuUysV4FAAAAAAB4Zl8q0atghEwAAA==
   </data>
  </layer>
  <layer name="Over" width="83" height="59">
@@ -46,7 +46,7 @@
  </layer>
  <layer name="Collision" width="83" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YYWrDMAyG4eT+VwjkqsU/Cq6xZEtWq8a8ggeGu6XSF3Xtdp3HcQEAAAAAAAAAAAAAgBSlPI/tptTdOb8NOURm+eTsR2W5xn1+slyj7SU7F899r/eynsO6l1H3Y+UamXs4MwtZ+vaz7tuyl7PPsVOW9e+wUvV7TtQM3p+Xnvsfc9T6ndkLab5vVnZeM3lK+9ru7cr8EZWdlUR7ffce98wdXdmZjXZS6rU9j9jR1crOy5KlZx7pbDWTJ2Vaqv1MrvVefyaqz3tnWsZR9zk7v9WdbLPS5pPOLP1pfWbnJ+XZ7tzob8hR1jNf77SXKzO8S/u/xWoOu2TZe8+27KX2Pd7XTK+PHYxmHFV2/0/Sy3rHnQIAAAAAAACAX3gBTjF3/oRMAAA=
+   H4sIAAAAAAAAA+3YYWrDMAyG4eT+lwjkosU/Cq6xZEtWq8a8ggeGu6XSF3Xtdp3HcQEAAAAAAAAAAAAAgBSlPI/tptTdOb8NOURm+eTsR2W5xn1+slyj7SU7F899r/eynsO6l1H3Y+UamXs4MwtZ+vaz7tuyl7PPsVOW9e+wUvV7TtQM3p+Xnvsfc9T6ndkLab5vVnZeM3lK+9ru7cr8EZWdlUR7ffce98wdXdmZjXZS6rU9j9jR1crOy5KlZx7pbDWTJ2Vaqv1MrvVefyaqz3tnWsZR9zk7v9WdbLPS5pPOLP1pfWbnJ+XZ7tzob8hR1jNf77SXKzO8S/u/xWoOu2TZe8+27KX2Pd7XTK+PHYxmHFV2/0/Sy3rHnQIAAAAAAACAX3gB5gL4M4RMAAA=
   </data>
  </layer>
  <objectgroup name="Object" width="83" height="59" visible="0">
