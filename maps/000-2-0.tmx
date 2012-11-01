@@ -20,6 +20,9 @@
  <tileset firstgid="415" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
+ <tileset firstgid="421" name="Box x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box_x2.png" width="128" height="64"/>
+ </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SMQvCMBCG4ZQiUkRBRUTFH1Y30UXs4ui/94oXCCE2pA5J4R0erqUdvo+71hjTAgAAAAAAYLRKzEQtNmKucy1WYltAxn/67Jw++wn2acSy7yDFjjLP5jsP+nwqIGOKp+jETefV0alK/60LyBvjZg91sX0uE+nz8LJbbq9G56KAvLHdvAL5e/fA3uy33LmHvL2d+NO/wdx5Y37dWujuptpnSO68Kb1S3gEAAAAAADDOB7Il5sgQKwAA
@@ -27,12 +30,12 @@
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQmDQBSE4X2xghBSgNpJSrAE04BHj+LVmyevYgUpIYeUkH4yYEBYJAej2Qj/B8PbZVmY5xwAAAAAAAAwuZhzphyUSOm990eQVstl2uFo4/mkOWhebXp/Bmm1XK7usZIo6XufOclPW32vsTE3nWsvZ/v49a8U3v2utH60T67Z7WCvMnSBlVWhCwAAAAAAAADYzAtvTVytECsAAA==
+   H4sIAAAAAAAAA+3PwQmDQBSE4X1JBSIpQNNJSkgJpoEcPYoleMo1iAVYgoeUkH4ciLCwBA9iXAP/B8PbZVmY5xwAAAAAAADgXcw5Uw7KUXkG768orZa7aofEPudUs9W8mX9/R2m1XKHumZIr52mfb/JNW62j0z69Zh3kZLPfduUe3AelCaN9Cs3HH+xVxi6wsip2AQAAAAAAAAA/MwIAccEjECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQmAQAwEwKQHG7QCSxBfV4Lt3uPw50PkQAwzEPJa2I0AAAAAgNqWjDjy6xZztRxXaddZaMtlzfv/B9uLzD69BQAAAADAMx0LrNxGECsAAA==
+   H4sIAAAAAAAAA+3PsQmAQAyG0WQHF3QCRxCnuAnc8660sBBRxPBekyrwfxEAAAAAUNuUEVt+veIdVbr20dGKtBzNeX7/YLnxsz6+AgAAAADgmg6QDZ8LECsAAA==
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
