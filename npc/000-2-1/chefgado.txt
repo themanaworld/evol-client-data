@@ -64,14 +64,14 @@ l_Rude:
     mes "";
     mesq l("... Welcome onboard cutie! I just realized I need delicious ingredients to prepare a... a special recipe.");
     next;
-    mesq l("I only need 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"));
+    mesq l("I only need 2 @@, 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"), getitemlink("Aquada"));
     next;
-    mesq l("... and 1 @@.", getitemlink("Aquada"));
+    mesq l("... and 1 @@.", getitemlink("SeaDrops"));
     next;
 
     menu
         l("Sure, why not?"), l_Sure,
-        l("Aquada!? I will not help you with your evil plan!"), -;
+        l("Sea Drops!? I will not help you with your evil plan!"), -;
 
     close;
 
@@ -87,7 +87,7 @@ l_QuestAccepted:
     mesq l("Have you collected all the ingredients for my recipe? The special one too?");
     next;
 
-    if (countitem("PiouLegs") > 0 && countitem("Croconut") > 0 && countitem("Aquada") > 0) goto l_Collected;
+    if (countitem("PiouLegs") > 1 && countitem("Croconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0) goto l_Collected;
 
     menu
         l("Not yet. I will be back soon."), -;
@@ -98,9 +98,10 @@ l_Collected:
     menu
         l("All your... fresh ingredients are ready to be cooked."), -;
 
-    delitem "PiouLegs", 1;
+    delitem "PiouLegs", 2;
     delitem "Croconut", 1;
     delitem "Aquada", 1;
+    delitem "SeaDrops", 1;
     setq ShipQuests_ChefGado, 2;
 
     mes "";
