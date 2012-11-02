@@ -4,18 +4,19 @@
 //    Vasily_Makarov
 // Description:
 //    Allows to change language and talks about what happened to him.
-// 2 Bits Array:
+//    2 Bits Array:
 //    ShipQuests
 // Variables:
-//    ShipQuests_Julia
-//    ShipQuests_ChefGado
+//    0 ShipQuests_Julia
+//    1 ShipQuests_ChefGado
 // Values ShipQuests_Julia:
-//    1   Already touched.
-//    2   First touch.
+//    00   Has not talked to Julia
+//    01   Need to see Julia
+//    02   Has been registered by Julia
 // Values ShipQuests_ChefGado:
-//    2   Ingredients collected, ready to poison Julia.
-//    3   Julia poisoned.
-//    5   Quest aborted.
+//    12   Ingredients collected, ready to poison Julia.
+//    13   Julia poisoned.
+//    15   Quest aborted.
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10;5,{
 
@@ -82,7 +83,7 @@ l_First:
     mesq l("Ok, done.");
 
     set @q, getq(ShipQuests_Julia);
-    if (@q == 1) goto l_NoRules;
+    if (@q == 2) goto l_NoRules;
 
     next;
     mesq l("I'm sure that you've got some questions for me, feel free to ask them, but firstly I need to tell you the rules of proper social conduct on board.");
@@ -114,7 +115,7 @@ l_First:
     mesq l("I think I'm done with that now. Do you have any questions?");
     next;
 
-    setq ShipQuests_Julia, 1;
+    setq ShipQuests_Julia, 2;
     goto l_Menu;
 
 l_NoRules:
@@ -184,7 +185,7 @@ l_Rules:
 
 OnTouch:
     set @q, getq(ShipQuests_Julia);
-    if (@q == 0 || @q == 2) goto l_First;
+    if (@q == 0 || @q == 1) goto l_First;
 
     close;
 

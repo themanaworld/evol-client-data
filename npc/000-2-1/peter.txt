@@ -10,19 +10,15 @@
 // 4+2 bits array:
 //    ShipQuests
 // Variable:
-//    0 ShipQuests_Peter
-//    1 ShipQuests_Julia
+//    ShipQuests_Peter
 // Values:
-//    00   Doesn't know the quest.
-//    01   Task given.
-//    02   Task given and reward expected.
-//    03   Task completed without reward.
-//    04   Asked for reward after completion of the task.
-//    05   Task done and reward given.
-//    06   Did not start the quest.
-//    10   Doesnt' know Julia.
-//    11   Registred to Julia.
-//    12   Need to see Julia.
+//    0   Doesn't know the quest.
+//    1   Task given.
+//    2   Task given and reward expected.
+//    3   Task completed without reward.
+//    4   Asked for reward after completion of the task.
+//    5   Task done and reward given.
+//    6   Did not start the quest.
 // "000-2-2.gat" - map with mobs.
 // "$@RAT_SAILOR_HELPER$" - Name of the participant.
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight.
@@ -40,8 +36,6 @@
 000-2-1.gat,61,34,0,1	script	AreaNPC	0,0,1,{
 
 OnTouch:
-    set @q_julia, getq(ShipQuests_Julia);
-    if (@q_julia == 0) goto OnTalkToJulia;
     if (BaseLevel < 5) goto L_Stop;
     if ($@RAT_SAILOR_HELPER$ != "") goto L_Occupied;
     set @q, getq(ShipQuests_Peter);
@@ -75,16 +69,10 @@ L_Rfail:
 L_Rwin:
     doevent "Peter::OnReturnWin";
 
-    close;
-L_TalkToJulia:
-    doevent "Peter::OnTalkToJulia";
-
 }
 
 000-2-1.gat,60,35,0,1	script	Peter	303;3,{
 
-    set @q_julia, getq(ShipQuests_Julia);
-    if (@q_julia == 0) goto OnTalkToJulia;
     if (BaseLevel < 5) goto OnTooWeak;
 
     set @q, getq(ShipQuests_Peter);
@@ -109,18 +97,6 @@ OnGiveTask:
     mes "";
     mesn;
     mesq l("Ok, ok. Come back if you change your mind.");
-
-    goto L_Close;
-
-OnTalkToJulia:
-    setq ShipQuests_Julia, 2;
-
-    mesn;
-    mesq l("Hey, you should go see Julia to be registered on the ship board.");
-    next;
-
-    mesn "Narrator";
-    mes col(l("Julia is on the upper level of the ship, use the arrow keys to walk to the stairs or click on the stairs at the top right of your screen."), 9);
 
     goto L_Close;
 
@@ -311,23 +287,6 @@ L_Thanks:
 
 L_Close:
     set @q, 0;
-    set @q_julia, 0;
-
-    close;
-
-}
-
-000-2-1.gat,54,32,0,1	script	PeterBarrierCheck	0,0,2,{
-    set @q, getq(ShipQuests_Julia);
-    if (@q > 0) close;
-    setq ShipQuests_Julia, 2;
-
-    mesn;
-    mesq l("Hey, you should go see Julia to get registered on the ship.");
-    next;
-
-    mesn "Narrator";
-    mes col(l("Julia is on the upper level of the ship. Use the arrow keys to walk to the stairs or just click on the stairs with your mouse to walk to them."), 9);
 
     close;
 

@@ -12,9 +12,10 @@
 //    01   Nard spoke and gave access to the outdoor of the ship.
 //    02   Completed the quest.
 //    03   Opened the chest and finished the introduction.
-//    10   Doesnt' know Julia.
-//    11   Registred to Julia.
-//    12   Need to see Julia.
+//    10   Has not talked to Julia
+//    11   Need to see Julia
+//    12   Has been registered by Julia
+
 000-2-0.gat,20,27,0,1	script	AreaNPC	0,0,0,{
 
 OnTouch:
@@ -58,7 +59,7 @@ l_End:
 
 OnTouch:
     set @julia, getq(ShipQuests_Julia);
-    if (@julia == 1) goto l_Warp;
+    if (@julia == 2) goto l_Warp;
     close;
 
 l_Warp:

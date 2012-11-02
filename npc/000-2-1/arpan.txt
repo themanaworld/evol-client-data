@@ -4,12 +4,16 @@
 // Description:
 //    Tells to the player how he got here.
 // Variable:
-//    ShipQuests_Arpan
+//    0 ShipQuests_Arpan
+//    1 ShipQuests_Julia
 // Values:
-//    0   Has not talked to Arpan yet.
-//    1   Talked to Arpan and needs to get the clothes.
-//    2   Has the clothes.
-//    3   Has and equipped the clothes.
+//    00   Has not talked to Arpan yet.
+//    01   Talked to Arpan and needs to get the clothes.
+//    02   Has the clothes.
+//    03   Has and equipped the clothes.
+//    10   Has not talked to Julia
+//    11   Need to see Julia
+//    12   Has been registered by Julia
 
 000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
     set @q, getq(ShipQuests_Arpan);
@@ -80,6 +84,7 @@ l_EquipDone:
 000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
 
     set @q, getq(ShipQuests_Arpan);
+    set @q_julia, getq(ShipQuests_Julia);
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
 
 OnTalk:
@@ -119,6 +124,7 @@ l_Story:
     mes "";
     mesq lg("You were yaying sleeping for quite some time there, our shipkeeper, Julia, was here with you, she did her best to heal your injuries.");
     next;
+    if (@q_julia == 0) setq ShipQuests_Julia, 1;
     mesq lg("Yaya, you should go see her! She'll be happy to see you.");
     next;
     mesq lg("Also, we took your yayed clothes, as they were... Yeyeye... In a bad shape. Go check the chest near your bed, there are some other ones inside.");
