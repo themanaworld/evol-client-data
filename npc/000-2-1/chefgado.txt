@@ -93,7 +93,7 @@ l_QuestAccepted:
 
     menu
         rif(countitem("PiouLegs") > 1 && countitem("Croconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... fresh ingredients are ready to be cooked.")), l_GotAll,
-        l("What are you needs?"), l_Need,
+        l("What are your needs?"), l_Need,
         l("Not yet. I will be back soon."), -;
     close;
 
