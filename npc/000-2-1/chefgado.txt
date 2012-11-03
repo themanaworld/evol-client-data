@@ -42,6 +42,7 @@ l_QuestStart:
 
 l_Rude:
     mes "";
+    mesn;
     mesq l("UAHAHAHAAH! I am the cook of that bunch of donkeys, I can be rude with everyone from the bossy captain to that harpy-lady!");
     next;
 
@@ -49,6 +50,7 @@ l_Rude:
         l("Harpy-lady?"), -;
 
     mes "";
+    mesn;
     mesq l("I am sure you know her. Nice dress, large smile and a constant flux of orders and rules. Julia they call her!");
     next;
     mesq l("You have to know that there was a time during which I was the unopposed lieutenant of this crew. Then one day one of the damn sailor brought here that nice lady.");
@@ -62,6 +64,7 @@ l_Rude:
         l("M... Maybe?"), -;
 
     mes "";
+    mesn;
     mesq l("... Welcome onboard cutie! I just realized I need delicious ingredients to prepare a... a special recipe.");
     next;
     mesq l("I only need 2 @@, 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"), getitemlink("Aquada"));
@@ -78,6 +81,7 @@ l_Rude:
 l_Sure:
     setq ShipQuests_ChefGado, 1;
     mes "";
+    mesn;
     mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they understand who rules this ship!");
 
     close;
@@ -87,17 +91,13 @@ l_QuestAccepted:
     mesq l("Have you collected all the ingredients for my recipe? The special one too?");
     next;
 
-    if (countitem("PiouLegs") > 1 && countitem("Croconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0) goto l_Collected;
-
     menu
+        rif(countitem("PiouLegs") > 1 && countitem("Croconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... fresh ingredients are ready to be cooked.")), l_GotAll,
+        l("What are you needs?"), l_Need,
         l("Not yet. I will be back soon."), -;
-
     close;
 
-l_Collected:
-    menu
-        l("All your... fresh ingredients are ready to be cooked."), -;
-
+l_GotAll:
     delitem "PiouLegs", 2;
     delitem "Croconut", 1;
     delitem "Aquada", 1;
@@ -105,12 +105,24 @@ l_Collected:
     setq ShipQuests_ChefGado, 2;
 
     mes "";
+    mesn;
     mesq l("Let me see... Crispy legs, disgusting liquids... Let's start!");
     next;
     mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
     next;
     mesq l("Done. Here, take it! Now here is the plan. Go talk with her and offer our beautiful lady a bite of her arrogance!");
     getitem "PoisonedDish", 1;
+
+    close;
+
+l_Need:
+    mes "";
+    mesn;
+    mesq l("Shhht, don't say it that loud...");
+    next;
+    mesq l("I only need 2 @@, 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"), getitemlink("Aquada"));
+    next;
+    mesq l("... and 1 @@.", getitemlink("SeaDrops"));
 
     close;
 

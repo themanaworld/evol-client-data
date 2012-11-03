@@ -178,6 +178,7 @@ l_ChefQuestComplete:
     mesq l("Congratulations!"); 
     next;
     mesq l("You are now officially part of my crew! Thanks again for your help.");
+    next;
 
     setq ShipQuests_Nard, 4;
     getitem "Bandana", 1;
