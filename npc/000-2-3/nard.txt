@@ -183,6 +183,12 @@ l_ChefQuestComplete:
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
 
+    mesn "Narrator";
+    mes col(lg("This is it, the end of the Beta Release of Evol Online."), 9);
+    next;
+     mes col(lg("We hope that you like this introduction, and we also hope for you to come back in our future release!"), 9);
+    next;
+    mes col(lg("The adventure begins!"), 9);
     close;
 
 l_Already:
