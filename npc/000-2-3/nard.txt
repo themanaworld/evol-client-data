@@ -140,16 +140,18 @@ l_Done:
     mesq l("Hi @@.", strcharinfo(0));
     next;
     mesq l("Elmo and Gugli reported me that you done all of the task outside, congrats!");
-    next;
 
     setq ShipQuests_Nard, 2;
-
+    next;
+    goto l_ChefQuestRedir;
     close;
 
 l_ChefQuestStart:
     mesn;
     mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate efforts you did down there.");
     next;
+
+l_ChefQuestRedir:
     mesq l("Unfortunately we still need help from you. This time it will be a delicate task, here onboard.");
     next;
     mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably have already met Julia and Gado the Chef.");
