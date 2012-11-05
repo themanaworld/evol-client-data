@@ -8,9 +8,9 @@
 // 2 bits array:
 //    ShipQuests
 // Variable:
-//    ShipQuests_Nard
-//    ShipQuests_Gugli
-//    ShipQuests_ChefGado
+//    0    ShipQuests_Nard
+//    1    ShipQuests_Gugli
+//    2    ShipQuests_ChefGado
 // Values: 
 //    00   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
 //    01   Nard spoke and gave access to the outdoor of the ship.
@@ -22,18 +22,18 @@
 
 000-2-3.gat,25,26,0,1	script	Nard	306;5,{
 
-    set @q, getq(ShipQuests_Nard);
-    set @a, getq(ShipQuests_Gugli);
-    set @c, getq(ShipQuests_ChefGado);
+    set @nard, getq(ShipQuests_Nard);
+    set @gugli, getq(ShipQuests_Gugli);
+    set @gado, getq(ShipQuests_ChefGado);
 
 l_Checker:
-    if (@c > 3 && @q == 3) goto l_ChefQuestComplete;
-    if (@q == 2) goto l_ChefQuestStart;
-    if (@q == 3) goto l_ChefQuestGiven;
-    if (@q == 4) goto l_Already;
-    if (@a == 2) goto l_Done;
-    if (@q == 1) goto l_NotYet;
-    //if (@q == 2) goto l_Give;
+    if (@gado > 3 && @nard == 3) goto l_ChefQuestComplete;
+    if (@nard == 2) goto l_ChefQuestStart;
+    if (@nard == 3) goto l_ChefQuestGiven;
+    if (@nard == 4) goto l_Already;
+    if (@gugli == 2) goto l_Done;
+    if (@nard == 1) goto l_NotYet;
+    //if (@nard == 2) goto l_Give;
 
     mesn;
     mesq l("Hello."); 
@@ -139,7 +139,7 @@ l_Done:
     mesn;
     mesq l("Hi @@.", strcharinfo(0));
     next;
-    mesq l("Elmo and Gugli reported me that you done all of the task... BlaBla."); // Need to add different dialogue if Julia is safe or not.
+    mesq l("Elmo and Gugli reported me that you done all of the task outside, congrats!");
     next;
 
     setq ShipQuests_Nard, 2;
