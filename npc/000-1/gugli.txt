@@ -26,6 +26,9 @@ OnTalk:
     mesn;
     set @nard, getq(ShipQuests_Nard);
     set @gugli, getq(ShipQuests_Gugli);
+    set @gado, getq(ShipQuests_ChefGado);
+
+    if (@gado > 3 && @nard == 3) goto l_AllComplete;
     if (@nard > 1 || @gugli == 2) goto l_TaskCompleted;
     if (@gugli == 1) goto l_TaskGiven;
 
@@ -152,11 +155,19 @@ l_TaskDone:
 l_TaskCompleted:
     mesq l("You are now part of the crew... At least for us down here!");
     next;
-    mesq l("You should inform Nard about the loading progress of the merchandise on to the. He will be pleased to hear that good news.");
+    mesq l("You should inform Nard about the loading progress of the merchandise on to the ship. He will be pleased to hear that good news.");
     next;
     mesq l("Tell him that everything went fine and that we're almost done with the food.");
 
     close;
+
+l_AllComplete:
+    mesq l("Elmo reported me what Nard said, congrats!");
+    next;
+    mesq g(l("You're one of us now, that's good, I was sure that you were a kind lady when I first seen you!"),
+           l("You're one of us now, that's good, I was sure that you were a good man when I first seen you!"));
+
+    goto l_Menu;
 
 }
 
