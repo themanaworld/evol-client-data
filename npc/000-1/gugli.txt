@@ -50,7 +50,7 @@ OnTalk:
     next;
     mesq l("We usually dock around these small pieces of land because they provide us some of the best food of all the archipelago.");
     next;
-    mesq l("So, at the moment, our crew is busy collecting @@s, @@s and @@s."), getitemlink("Croconut"), getitemlink("Plushroom"), getitemlink("Aquada"));
+    mesq l("So, at the moment, our crew is busy collecting @@s, @@s and @@s.", getitemlink("Croconut"), getitemlink("Plushroom"), getitemlink("Aquada"));
     next;
 
     menu
