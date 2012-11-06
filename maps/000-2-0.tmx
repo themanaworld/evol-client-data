@@ -23,32 +23,35 @@
  <tileset firstgid="421" name="Box x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box_x2.png" width="128" height="64"/>
  </tileset>
+ <tileset firstgid="425" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SMQvCMBCG4ZQiUkRBRUTFH1Y30UXs4ui/94oXCCE2pA5J4R0erqUdvo+71hjTAgAAAAAAYLRKzEQtNmKucy1WYltAxn/67Jw++wn2acSy7yDFjjLP5jsP+nwqIGOKp+jETefV0alK/60LyBvjZg91sX0uE+nz8LJbbq9G56KAvLHdvAL5e/fA3uy33LmHvL2d+NO/wdx5Y37dWujuptpnSO68Kb1S3gEAAAAAADDOB7Il5sgQKwAA
+   H4sIAAAAAAAAA+3SsQrCMBSF4ZQiUkRBRUTFB4ub6CJ2cfTtvaUJhJCmpA5J4R8+bks7nMO9WimlAQAAAAAAMFklFqIWO7E0cys2Yl9Axn/6HJw+xxn2acS66yDFzjKvqp8n83wpIGOKt2jFw8y7ozUq829dQN4xbvZQF9vnNpM+Ly+75fZqzFwVkHdsN59A/s4zsDf7LXfuWJ+vtxN/hm4wd+5Yn6FbC91d6X30QJ+Y3HlTeqW8AwAAAAAAYJofTLM9vBArAAA=
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQmDQBSE4X1JBSIpQNNJSkgJpoEcPYoleMo1iAVYgoeUkH4ciLCwBA9iXAP/B8PbZVmY5xwAAAAAAADgXcw5Uw7KUXkG768orZa7aofEPudUs9W8mX9/R2m1XKHumZIr52mfb/JNW62j0z69Zh3kZLPfduUe3AelCaN9Cs3HH+xVxi6wsip2AQAAAAAAAAA/MwIAccEjECsAAA==
+   H4sIAAAAAAAAA+3RwQnCQBSE4X1agYgFGDuxhNy8xgY8ehRLsAMRC7AEDylAIYd4i5U4oBBYgrCrJHv4Pxh2yfJgHnEOAAAAAAAAaC3NOVNGylg5eu/lIK3i5dphYu/7VOdJ59ra92qQVvEKdZ8rmbL47NMl67XVf5y1z0Xn3svMvo4lY9Xx7aoc/Gifos9ike7quQmcuSX8rx7qtg2cqRPe56luu8CZJuF9AAAAAAAAgF+9ABZx5V8QKwAA
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PsQmAQAyG0WQHF3QCRxCnuAnc8660sBBRxPBekyrwfxEAAAAAUNuUEVt+veIdVbr20dGKtBzNeX7/YLnxsz6+AgAAAADgmg6QDZ8LECsAAA==
+   H4sIAAAAAAAAA+3PsQ2AMBAEwfseaNClUAUV0CeEDghtIb1mkktvEwAAAADo7ajkrL9f7NGl6347riYts1HfCwAAAADAWg9rtbF7ECsAAA==
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UOwqAMBBF0XErVpb2fhqNWxD3IQiu3gQiCH4wKWQi98BDIwbycFAEAAAAAABoNUVEM3e+yqZ9kVrS6NO8fHeQdPvM2fnZ3kfz7N31MRd9RtE/eyHz5uT+qnX2Qvvs6PMNd6YlYt8qOv8Jf/w+f+vT2Rif4nD/tO5Fb59jysA1AAAAAAAA4mynhHNNECsAAA==
+   H4sIAAAAAAAAA+3UQQqCQBSH8ddVWrlsX7kpu0J0ADuBIHjNoE3QJugcjeDAgBq+Wf2F7wcPHVHwg1EzAAAAAACg6pYxyvr324cpF8zB1tFzXHjvxdbb02zG12KP8t6b66kmeq6mv/c8+623HY6qe8/bEyn33DOeq023pw3znPhe5jzCvZ1p/hNiz9vR80p61MSer6PnI95zClMNUyTn/9Zn0+1JZ+dcAwAAAAAAIM8PwXt7tRArAAA=
   </data>
  </layer>
  <layer name="Collision" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PQQrAIAwEQP3/J4R8tCcPRQptEdKUWRgk4GF39NYGAAAAAFBCfKDDTjN3/mV3fbJnJvr6VtnzNtm9d27K7mvPP/ZEP/e+urP7AgAAAFR3AH16q5QQKwAA
+   H4sIAAAAAAAAA+3PQQqAMAwEwPb/nyjko556EBEVCjE6C0MJ9LA7emsDAAAAACghXtBhpZk7/7K7PtkzE/34Vt5zley+K7d8cVN237/uib7vfXZn9wUAAACobgOeYgxxECsAAA==
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object" width="52" height="53" visible="0">
   <object name="ToOutside" type="warp" x="611" y="867" width="26" height="26">
    <properties>
     <property name="dest_map" value="000-1"/>
