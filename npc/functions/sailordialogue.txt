@@ -15,7 +15,7 @@ function	script	SailorFood	{
 l_RandomA:
     mesq l("Hey.");
     next;
-    mesq l("What does Gugli said about the box? Was it ok?");
+    mesq l("What did Gugli said about the box? Was it ok?");
     next;
 
     menu
@@ -38,12 +38,12 @@ l_Fine:
 l_RandomB:
     mesq l("Thanks for the help!");
     next;
-    mesq l("These box are way too heavy to be brought alone to the ship.");
+    mesq l("These box are way too heavy to be brought alone onto the ship.");
 
     close;
 
 l_RandomC:
-    mesq l("I think that I'm soon done, I'll soon got a box full of @@s!", getitemlink("CrocClaw"));
+    mesq l("I think that I'm soon done since I'll soon have a box full of @@s!", getitemlink("CrocClaw"));
     next;
     mesq l("And you? How's it going on your side?");
     next;

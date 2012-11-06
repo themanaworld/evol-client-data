@@ -98,9 +98,9 @@ l_First:
     next;
     mesq col(l("2. Do not spam. This also concerns trade spam."), 9);
     next;
-    mesq col(l("3. Do not multibox. This means you cannot have more than one active character logged in at a time. You are not allowed to use more than one active client at a time to attack in groups."), 9);
+    mesq col(l("3. Do not multi box. This means you cannot have more than one active character logged in at a time. You are not allowed to use more than one active client at a time to attack in groups."), 9);
     next;
-    mesq col(l("4. Do not trashtalk, beg or use rude language in your character name or in the chat, except for roleplay purposes."), 9);
+    mesq col(l("4. Do not trash talk, beg or use rude language in your character name or in the chat, except for role play purposes."), 9);
     next;
     mesq col(l("5. Do not speak any other language than English in public. You are free to speak any language you want in private chats or when alone with friends."), 9);
     next;
@@ -192,12 +192,12 @@ OnTouch:
 l_PoisonJulia:
     menu
         l("I have brought you a tasty present for your delicate mouth."), -,
-        l("Well...No wait you shouldn't eat it. Better I bring it back."), l_Regret;
+        l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen."), l_Regret;
 
     mes "";
     mesq l("Seems yummy! Let me taste it!");
     next;
-    mesq l("Hmmm, hm...Cough Cough, Burp, Cough. What is that!?...Cough, Burp...Damn Gado...Cough");
+    mesq l("Hmmm, hm... Cough Cough, Burp, Cough. What is that!?... Cough, burp... Damn Gado... Cough...");
     if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
     setq ShipQuests_ChefGado, 3;
 
@@ -209,12 +209,12 @@ l_Regret:
     next;
 
     menu
-        l("Ehm he was really upset for some past stories."), -;
+        l("Ehm... He was really upset for some past stories."), -;
 
     mes "";
-    mesq l("Gado!! That coward lives in the past, I will ask Nard to punish him again!");
+    mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");
     next;
-    mesq l("Take this money for your wise choise. But do not try it again. Water has been mercifull with you once...Do not tempt fate twice!");
+    mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
     setq ShipQuests_ChefGado, 5;
 
     close;

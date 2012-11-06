@@ -20,7 +20,7 @@
 OnStart:
     mesq l("HEY! HEY YOU!"); 
     next;
-    mesq l("CAN YOU HEAR ME?");
+    mesq l("CAN YOU HEAR ME?!");
     next;
 
     menu
@@ -33,7 +33,7 @@ OnStart:
     next;
     mesq l("I WAS HERE WHEN THEY RESCUED YOU!");
     next;
-    mesq l("DO YOU FEEL BETTER?");
+    mesq l("DO YOU FEEL BETTER?!");
     next;
 
     menu
@@ -49,7 +49,7 @@ OnStart:
     mesn;
     mesq l("I AM DOING FINE!");
     next;
-    mesq l("SO, WHAT IS YOUR NAME?");
+    mesq l("SO, WHAT'S YOUR NAME?!");
     next;
 
     menu
@@ -58,7 +58,7 @@ OnStart:
 
     mes "";
     mesn;
-    mesq l("WHAT DID YOU SAY?");
+    mesq l("WHAT DID YOU SAY?!");
     next;
     mesq l("I DO NOT UNDERSTAND!");
     next;
@@ -72,7 +72,7 @@ OnStart:
     mesn;
     mesq strcharinfo(0) + "? " + l("THAT'S A NICE NAME!");
     next;
-    mesq l("SO WHAT'S UP? WHAT ARE YOU DOING?");
+    mesq l("SO WHAT'S UP?! WHAT ARE YOU DOING?!");
     next;
 
 l_Menu:
@@ -98,9 +98,9 @@ l_GoDown:
     mesn;
     mesq l("I WOULD LOVE TO!");
     next;
-    mesq l("BUT I CAN'T, I NEED TO KEEP AN EYE ON THE SEA, TO WARN THE CREW IF THERE HAPPEN TO BE SOME PIRATES AROUND!");
+    mesq l("BUT I CAN'T, I NEED TO KEEP AN EYE ON THE SEA, TO WARN THE CREW IF THERE HAPPENS TO BE SOME PIRATES AROUND!");
     next;
-    mesq l("I ALSO WATCH FOR DANGEROUS ANIMALS...");
+    mesq l("I ALSO AVOID THE DANGEROUS ANIMALS!");
     next;
 
     menu
@@ -115,7 +115,7 @@ l_GoDown:
 
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
     next;
-    mesq l("MAYBE YOU CAN LOOK AT THIS?");
+    mesq l("MAYBE YOU CAN LOOK AT THIS!?");
     next;
 
     menu
@@ -140,7 +140,7 @@ l_Quit:
 OnQuestGiven:
     mesq l("HEY @@!", strcharinfo(0));
     next;
-    mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?");
+    mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?!");
     next;
 
     menu
@@ -175,7 +175,7 @@ l_Chest:
     goto l_Menu;
 
 l_DangerAround:
-    mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT.");
+    mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT!");
  
     close;
 

@@ -131,14 +131,14 @@ l_SpecialTask:
 
 l_NotYet:
     mesn;
-    mesq l("You still haven't completed your task.");  
+    mesq l("You still haven't completed your tasks.");  
     close;
 
 l_Done:
     mesn;
     mesq l("Hi @@.", strcharinfo(0));
     next;
-    mesq l("Elmo and Gugli reported me that you done all of the task outside, congrats!");
+    mesq l("Elmo and Gugli told me that you did all of the tasks outside, congrats!");
 
     setq ShipQuests_Nard, 2;
     next;
@@ -146,19 +146,19 @@ l_Done:
 
 l_ChefQuestStart:
     mesn;
-    mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate efforts you did down there.");
+    mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate the efforts you did down there.");
     next;
 
 l_ChefQuestRedir:
-    mesq l("Unfortunately we still need help from you. This time it will be a delicate task, here onboard.");
+    mesq l("Unfortunately, we still need help from you. This time it will be a delicate task, here onboard.");
     next;
-    mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably have already met Julia and Gado the Chef.");
+    mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably already met Julia and Gado the Chef.");
     next;
-    mesq l("They are both valid and I need them. Probably in the past I did some mistakes I now regret of. I was wondering if you could investigate and...sort out the situation.");
+    mesq l("They are both valid and I need them. In the past, I probably did mistakes I now regret. I was wondering if you could investigate and... sort out this situation.");
     next;
 
     menu
-        l("Who of the two has the right on his side?"), -;
+        l("Who of them two has the 'good' on his side?"), -;
 
     mes "";
     mesq l("I do not want to point my finger on someone. I just put my trust in you. I am sure you will be able to judge and solve this annoying problem.");
@@ -185,9 +185,9 @@ l_ChefQuestComplete:
 //  Need to add a skill for the crew at this line.
 
     mesn "Narrator";
-    mes col(lg("This is it, the end of the Beta Release of Evol Online."), 9);
+    mes col(lg("This is it, the end of the Second Beta Release of Evol Online!"), 9);
     next;
-     mes col(lg("We hope that you like this introduction, and we also hope for you to come back in our future release!"), 9);
+     mes col(lg("We hope that you liked this introduction and we hope to see you in our future releases!"), 9);
     next;
     mes col(lg("The adventure begins!"), 9);
 
