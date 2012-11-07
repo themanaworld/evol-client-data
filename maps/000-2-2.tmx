@@ -19,15 +19,15 @@
  </tileset>
  <tileset firstgid="409" source="../graphics/tilesets/candle.tsx"/>
  <tileset firstgid="415" name="Shadow" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/shadow.png" width="160" height="160"/>
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="440" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="479" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="446" name="Ship Indoor x3" tilewidth="64" tileheight="128">
+ <tileset firstgid="485" name="Ship Indoor x3" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/ship-indoor_x4.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="447" name="Box x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="486" name="Box x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box_x2.png" width="128" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -37,12 +37,12 @@
  </layer>
  <layer name="Ground2" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XP07DMBiHYRvUIgYmpIqZiqViQuECSFyAI3CUdqCR+ofSA/USXIEjQFc+E1tYroeghsRy3kf65DhNJPunxk6UAgAAAAAAAAAgbqiV+pR2pKv+mW1H9nxf7b1jk4Wfx0AfXv/VxqAStZQ8SqlVJJer9ofTmbXM/1VqE+QwDfov0p9LzWxuS/v7ia7qXY4fIlnmYurN2djYfmHPrW27s+2NtI9Sl1JP+vD+nCxqzMv9n651VWOp50zz+Av33L1lmMUswzk1JVxfjYnUaesjScudd+z2HHMu9nxM2hpUh8xeW2d99RX/M5RklV4+x+yxZr3aZrZmufe7Y+8vM8ulCe492EQz6HowDQm/Axzz/Ti0v93ac+b7cR+//CeXc2kvmh1eckxe91Ifqtqn3HMStn1TBPN27zu7nuYR2urfTBbe+prrN2Idsb0qt/0YAAAAAAAAAAAgdd+OComx0EMAAA==
+   H4sIAAAAAAAAA+3XT0vDMBjH8UTZxIMnYXh2eBmepL4BwTfgS/ClbAdX2B/n3ppvwb0D3dUnNsGQ5VBZbUP6/cBDmq6F5MeatEoBAAAAAAAAABA31Ep9SjvSVf/MtiN7vq/23rHJws9joA+v/2pjUIlaSh6l1CqSy1X7w+nMWub/KrUJcpgG/Rfpz6VmNrel/f1EV/Uuxw+RLHMx9eZsbGy/sOfWtt3Z9kbaR6lLqSd9eH9OFjXm5f5P17qqsdRzpnn8hXvu3jLMYpbhnJoSrq/GROq09ZGk5c47dnuOORd7PiZtDapDZq+ts776iv8ZSrJKL59j9lizXm0zW7Pc+92x95eZ5dIE9x5sohl0PZiGhN8Bjvl+HNrfbu058/24j1/+k8u5tBfNDi85Jq97qQ9V7VPuOQnbvimCebv3nV1P8wht9W8mC299zfUbsY7YXpXbfgwAAAAAAAAAAJC6b+q8HAjQQwAA
   </data>
  </layer>
  <layer name="Fringe" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XXQqCQBQGUAf6WW4riXoVWkvlXtpC9NqIPpgMZmBYzjkvV0UH78c4g0UBAAAAAABMbRua+mjPb23dhDne5rfUGdxjLUOTT328zjyXa+y/epPBaqEZdXs/jeixn1WZeGZMnv/gEl5rV7/H1D1DYwL5OcTv/xiWs0byHbvEtbP5MsjeOi155uWTPWlvbiR1M7THp/8PsbYCAAAAAADM6QmtlBkI0EMAAA==
+   H4sIAAAAAAAAA+3XzQqCQBQGUAf6edyeJGor9HiVvUC0bUQXJoMZGJZzzuaq6OD9GGewKAAAAAAAgKltQ1Mf7fm5rZswx9v8ljqDe6xlaPKpj9eZ51LF/m9vMlgtNKNu76cRPfazKhPPjMnzH1zDa+3q95i6Z2hMID+H+P0fw3LWSL5jl7h2MV8G2VunJc+8fLIn7c2NpG6G9vj0/yHWVgAAAAAAgDk9AXms783QQwAA
   </data>
  </layer>
  <layer name="Over" width="70" height="62">
@@ -52,12 +52,12 @@
  </layer>
  <layer name="Shadow" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y3QrCMAyG4e3+L2JOdE6G8wf1+swOCiFkUGHOGt+D56ClY81HKcuauqoaAAAAAAAAAACwqKMYHKcC9raGvdiIVmzFITMXPdebZyJkt5upcZzJ5ebkknKIlIs9F6mms7iLh/IUVyeXlNVoxr/MnovcmryspiwvagzgfdNd1dUx7t2lDQXsAQCA6HSfneh+O63pzFx0ts+2/bZe03/g/aXK/S/VFrDXtdmavQz+8fvWOy/f3hMAAAAAAAAAABG8ALqNZInQQwAA
+   H4sIAAAAAAAAA+3YwQqCQBDGcff9H8LqUpuESAcrT/VkTdDAMmywSMqw/g+/g8uKMx8rOLahaVoAAAAAAAAAAPBXvRgyrg5qW8NJ7MReHMS5MJfcWh/qye5oeuy+6+OPXKaN5GLPhfZ0E8+MRyYXzWoM9eRiz8VUeJ/m9Eqy+mR5T64BzBPFxUEd3gwOagAAoHbpnK3SeVv3RLNWOztn23k73dMt8HyvSv9LRQe1rs32nMtgi9+3+o6oLWYAAAAAAAAAAMAS3va7V8LQQwAA
   </data>
  </layer>
  <layer name="Collision" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y0QqCMBSAYXv/JxJ8uK4Es20q2zravsF3kQvx/Kyg5tc0zQAAAAAAAJVSK/qZ7mDfQZ/PDqlOqTZHvZYbzNSyyzpvqsv+WqnNkrjnEx2t0nvO3id6xh5tavef3CXXqkW3f+5ydL3UK3qO2gatV/RMrXq0ahU9U49zUtslep5eXWpX9Dy92pSubfeunLtR5OYetc2ZmUfrkvqcOS/fc5a+j0brklvb/e1v6ehn/lWX/f8H6+voZwMAAAAAgKd7A5PpNALQQwAA
+   H4sIAAAAAAAAA+3Y0QqCMBSAYXv/lxR8ka4Es20q2zravsF3kQvx/Kyg5tc0zQAAAAAAAJVSK/qZ7mDfQZ/PDqlOqTZHvZYbzNSyyzpvqsv+WqnNkrjnEx2t0nvO3id6xh5tavef3CXXqkW3f+5ydL3UK3qO2gatV/RMrXq0ahU9U49zUtslep5eXWpX9Dy92pSubfeunLtR5OYetc2ZmUfrkvqcOS/fc5a+j0brklvb/e1v6ehn/lWX/f8H6+voZwMAAAAAgKd7Aw+H4VzQQwAA
   </data>
  </layer>
  <objectgroup name="Object" width="70" height="62">
