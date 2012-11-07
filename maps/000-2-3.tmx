@@ -25,24 +25,27 @@
  <tileset firstgid="424" name="Box x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box_x2.png" width="128" height="64"/>
  </tileset>
+ <tileset firstgid="428" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TTQqCQBiH8RkIImgT4SKki5S17ArhUtp6g07Sd12tk/SKCm9iZAY5E8/ih9hs/g+NsTEmBgAAAAAA+JG5WNaIas4iB/a+sxAj0RdBYSzWYqvOst9WDuxt2hOY5x4rZurMl57MREyVsOjpqbPQgZ1NJRUbMSh6dhK2Fwfb/c5PetKC3j+U94s8r+LmWU/pKLvv8jzbvK9sTRzY2eau+d5TvW9Zz8nmPbrFpx69WX8v+n9LHdjZ9s690vXOb3q63gQAAAAAAPDPHhhYIO4QKwAA
+   H4sIAAAAAAAAA+3TTQrCMBCG4QQEEdyIdCHFi2h16RWkS3GbG3gS//VqnsQpRhxLxVrBtPIuHkIzm+8j09QYkwIAAAAAAPzIWEwLJAWzpAZ535mInmiLyOuLuVipWXY3q0Hesn0i89zHipGaNaVPZiCGSuz7tNQsrkHOshY5S9HxfdZSbCO2NnzOT/o4T+fvyvdRzpM4N6SPy73NTnJf5DzYx+x+hs5aZdea3kdndr7P3t766C5N6ZPfOf2/6HdzNchZdedeCZ3zmz6hMwEAAAAAAPyzKwc/yNYQKwAA
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RwQnCMBjF8eRQ7QTdR1yhG7hCR/BYC5IZ3MAOVDqBFuy1D4yQg7eElMD/Bx8vTS7vo8YAAAAAAAAgxsF+s1HWyjV4G30+MndK4ROcrz5/ux1t5jIJDOp819w0T31Xfgfn70rhgq59Qb1jlLjnRZ0nZaec9y6TyEm7tJpzgf/jn5fmrVn2LgIAAAAAAAAgiQ1FaeTFECsAAA==
+   H4sIAAAAAAAAA+3RwQmDMBjFcT3YOoH7FFfoBl3BETy2QnEGN2hH6bGHIg6gQnv1QSOEXBOUwP8HHy/Ry/s0SQAAAAAAAODjkP6zUObKn/XuabLbuFMIX+tcm1x3O6YblwmgUee75qZ56J6ZHVrzLBat1fUaUW8fsez5snpedP4oK2W/WyM/b+e7n3Q/a8pI/odrcHqPmkkz71EGAAAAAAAAQHALGaxXWhArAAA=
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RwQmAMBBE0dke7DNtqVWmgVwCwqq8d5rjh0kAAAAA4L+uSu7qrnjWWevN+xwf/md0BwAAAAAAbJh8yBh9ECsAAA==
+   H4sIAAAAAAAAA+3RsQ0AIRADQV8P9B/DV0kDhAjQayba0JITAAAAAPivUclXt1fs1WvdvKf5BwAAAADgiAk1XXBwECsAAA==
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RSwqDMBQF0Lgbh27Akdap466k67QrMgOlQZtCoYPEngOXSD7wLoYAAAAAANdzj+m/uD9tb0r1D32WmGfmfo19PqmhzyNzNjbnvRr6XO3/5PrMMbckbcwYyu8zhNe86brPvqdLvkv1bt7usJ8GAAAAgN9YAdWy0c4QKwAA
+   H4sIAAAAAAAAA+3UMQrCMBQG4Hgbx17Ayerq7AW8gufUpaOj1/ANFkNJQcEhCd8HPw3hFd5PoSkBAAAAQH/Okd0P88f3O7Xqsc9lcXeL3FfmW+hzjUyb7+Zb6fMo9BkLd630eXb0fdb+B6fIIcs2Mqb6++zTZ9/8Oe8+Z8jOtSrtOyzu8wAAAADwHy81qzZvECsAAA==
   </data>
  </layer>
  <layer name="Collision" width="52" height="53">
