@@ -10,7 +10,7 @@
     if (rand(5)==2) goto l_Hips;
 
     mesq l("You? Here?");
-    mesq l("How is *hick* it possible?");
+    mesq l("How is *hichic* it possible?");
     next;
 
     mesn "Narrator";
@@ -22,7 +22,7 @@
 
     mes "";
     mesn;
-    mesq l("Don't do theee... *hick* with me eh!");
+    mesq l("Don't do theee... *hic* with me eh!");
     next;
 
     menu
@@ -31,11 +31,11 @@
 
     mes "";
     mesn;
-    mesq lg("No and *hick*... No, you and you and your... *burp* stupi*hick* guild!");
+    mesq lg("No and *hic*... No, you and you and your... *burp* stupi*hic* guild!");
     next;
-    mesq l("You tried to get rid of me, eeh? But surprise! I'm still here... *hick* Or there...");
+    mesq l("You tried to get rid of me, eeh? But surprise! I'm still here... *hic* Or there...");
     next;
-    mesq l("But you won't *hick* me this time...");
+    mesq l("But you won't *hic* me this time...");
     next;
 
     menu
@@ -45,7 +45,7 @@
 
     mes "";
     mesn;
-    mesq l("If I saw *hick* who you were... *hips* Would not have helped you! ");
+    mesq l("If I saw *hic* who you were... *hips* Would not have helped you! ");
     next;
 
     menu
@@ -62,7 +62,7 @@
 l_Secret:
     mes "";
     mesn;
-    mesq l("Hear me *hick* well, what ever, whatididever you will *hick* said ab... uhm... out what?! You saw there, the Guild of Esperia won't let it get public.");
+    mesq l("Hear me *hic* well, what ever, whatididever you will *hic* said ab... uhm... out what?! You saw there, the Guild of Esperia won't let it get public.");
     next;
     mesq l("Nobody will know about the existence of the Mercurians.");
     next;
@@ -72,15 +72,15 @@ l_Secret:
     close;
 
 l_Hips:
-    mesq l("*hick*");
+    mesq l("*hic*");
     close;
 
 l_Quit:
     mes "";
     mesn;
-    mesq l("Yeah you're all like *hick* that in Esperia, but you won't get me! *burp*");
+    mesq l("Yeah you're all like *hic* that in Esperia, but you won't get me! *burp*");
     next;
-    mesq l("I'm not that numb eeh *hick* what did ever you disco... *hips* ...vered there, the warrior guild won't get me!");
+    mesq l("I'm not that numb eeh *hic* what did ever you disco... *hips* ...vered there, the warrior guild won't get me!");
     next;
 
     mesn "Narrator";
