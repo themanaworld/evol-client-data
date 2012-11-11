@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2012-09-16 17:25+0300\n"
-"PO-Revision-Date: 2012-09-17 12:24+0000\n"
+"POT-Creation-Date: 2012-09-23 22:03+0300\n"
+"PO-Revision-Date: 2012-10-22 17:22+0000\n"
 "Last-Translator: Dan Sagunov <danilka.pro@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/manaplus/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -223,35 +223,35 @@ msgstr "желтый"
 
 #: itemcolors.xml61(list/color@name) itemcolors.xml85(list/color@name)
 msgid "Off Black"
-msgstr ""
+msgstr "Черный"
 
 #: itemcolors.xml62(list/color@name) itemcolors.xml86(list/color@name)
 msgid "Ash Brown"
-msgstr ""
+msgstr "Пепельно-коричневый"
 
 #: itemcolors.xml63(list/color@name) itemcolors.xml87(list/color@name)
 msgid "Dark Brown"
-msgstr ""
+msgstr "Темно-коричневый"
 
 #: itemcolors.xml64(list/color@name) itemcolors.xml88(list/color@name)
 msgid "Dark Copper"
-msgstr ""
+msgstr "Темно-медный"
 
 #: itemcolors.xml65(list/color@name) itemcolors.xml89(list/color@name)
 msgid "Auburn Brown"
-msgstr ""
+msgstr "Каштановый"
 
 #: itemcolors.xml66(list/color@name) itemcolors.xml90(list/color@name)
 msgid "Honey Brown"
-msgstr ""
+msgstr "Светло-коричневый"
 
 #: itemcolors.xml67(list/color@name) itemcolors.xml91(list/color@name)
 msgid "Copper Blonde"
-msgstr ""
+msgstr "Медный блондинистый"
 
 #: itemcolors.xml68(list/color@name) itemcolors.xml92(list/color@name)
 msgid "Golden Blonde"
-msgstr ""
+msgstr "Золотой блондинистый"
 
 #: itemcolors.xml69(list/color@name) itemcolors.xml93(list/color@name)
 msgid "Pure Platinum"
@@ -267,11 +267,11 @@ msgstr "Розовый"
 
 #: itemcolors.xml72(list/color@name) itemcolors.xml96(list/color@name)
 msgid "Fire Red"
-msgstr ""
+msgstr "Огненно-красный"
 
 #: itemcolors.xml73(list/color@name) itemcolors.xml97(list/color@name)
 msgid "Light Violet"
-msgstr ""
+msgstr "Светло-фиолетовый"
 
 #: itemcolors.xml74(list/color@name) itemcolors.xml98(list/color@name)
 msgid "Purple Plum"
@@ -469,7 +469,7 @@ msgstr "Фунгус"
 msgid "A non-toxical mushroom growing in moist place."
 msgstr "Неядовитый гриб, растущий в сырых местах"
 
-#: items.xml184(items/item@effect)
+#: items.xml184(items/item@effect) items.xml288(items/item@effect)
 msgid "+25 HP"
 msgstr "+25 ЗД"
 
@@ -487,7 +487,7 @@ msgstr "+40 ЗД"
 
 #: items.xml202(items/item@name)
 msgid "Piou Legs"
-msgstr "Лапки Пиу"
+msgstr "Лапки пиу"
 
 #: items.xml202(items/item@description)
 msgid "Tasty and well spiced piou legs."
@@ -519,7 +519,7 @@ msgstr "+20 ЗД"
 
 #: items.xml229(items/item@name)
 msgid "Sea Drops"
-msgstr ""
+msgstr "Капли морской воды"
 
 #: items.xml229(items/item@description)
 msgid "Some water drops from the sea. Maybe you shouldn't drink them."
@@ -543,7 +543,7 @@ msgstr "Розовый Слизеком"
 
 #: items.xml247(items/item@description)
 msgid "Some pink residue dropped by a little blub."
-msgstr ""
+msgstr "Немного розового вещества, оставшегося от мелкого блаба."
 
 #: items.xml247(items/item@effect)
 msgid "+1 HP, Headache"
@@ -551,7 +551,7 @@ msgstr "+1 ЗД, мигрень"
 
 #: items.xml264(items/item@name)
 msgid "Half Croconut"
-msgstr "Половина Крокореха"
+msgstr "Половина крокоса"
 
 #: items.xml264(items/item@description)
 msgid "The inside seems delicious."
@@ -559,11 +559,11 @@ msgstr "Содержимое выглядит очень вкусным."
 
 #: items.xml272(items/item@name)
 msgid "Croconut"
-msgstr "Крокорех"
+msgstr "Крокос"
 
 #: items.xml272(items/item@description)
 msgid "Fallen from a palm tree, this fruit could be opened."
-msgstr ""
+msgstr "Этот фрукт упал с пальмы."
 
 #: items.xml279(items/item@name)
 msgid "Old Book"
@@ -575,224 +575,232 @@ msgid ""
 "the pages."
 msgstr ""
 
-#: items.xml289(items/item@name)
+#: items.xml288(items/item@name)
+msgid "Plushroom"
+msgstr "Плюшевый гриб"
+
+#: items.xml288(items/item@description)
+msgid "Need a description."
+msgstr "Необходимо описание."
+
+#: items.xml298(items/item@name)
 msgid "Small Tentacles"
 msgstr "Маленькие щупальца"
 
-#: items.xml289(items/item@description)
+#: items.xml298(items/item@description)
 msgid "Three tentacles taken from a little blub."
-msgstr ""
+msgstr "Три щупальца мелкого блаба."
 
-#: items.xml296(items/item@name)
+#: items.xml305(items/item@name)
 msgid "Piou Feathers"
-msgstr "Перья Пиу"
+msgstr "Перья пиу"
 
-#: items.xml296(items/item@description)
+#: items.xml305(items/item@description)
 msgid "Three small yellow feathers. A piou might have dropped them."
-msgstr "Три маленьких желтых перышка, упавших с Пиу."
+msgstr "Три маленьких желтых перышка, упавших с пиу."
 
-#: items.xml304(items/item@name)
+#: items.xml313(items/item@name)
 msgid "Tortuga Shell Fragment"
-msgstr "Фрагмент панциря черепахи"
+msgstr "Фрагмент панциря тортуги"
 
-#: items.xml304(items/item@description)
+#: items.xml313(items/item@description)
 msgid "A fragment of a tortuga shell."
-msgstr "Небольшой фрагмент панциря черепахи."
+msgstr "Небольшой фрагмент панциря тортуги."
 
-#: items.xml312(items/item@name)
+#: items.xml321(items/item@name)
 msgid "Half Eggshell"
 msgstr "Скорлупа"
 
-#: items.xml312(items/item@description)
+#: items.xml321(items/item@description)
 msgid "It maybe got broken in order to cook a fried egg."
 msgstr "Скорее всего оно сломано. Из такого яичницы не приготовишь."
 
-#: items.xml319(items/item@name)
+#: items.xml328(items/item@name)
 msgid "Ratto Tail"
 msgstr "Крысиный хвост"
 
-#: items.xml319(items/item@description)
+#: items.xml328(items/item@description)
 msgid "A very long tail from a ratto."
 msgstr "Очень длинный хвост крысы."
 
-#: items.xml327(items/item@name)
+#: items.xml336(items/item@name)
 msgid "Ratto Teeth"
 msgstr "Крысиные зубы"
 
-#: items.xml327(items/item@description)
+#: items.xml336(items/item@description)
 msgid "Some teeth of a ratto."
 msgstr "Несколько зубов крысы."
 
-#: items.xml335(items/item@name)
+#: items.xml344(items/item@name)
 msgid "Croc Claw"
 msgstr "Клешня краба"
 
-#: items.xml335(items/item@description)
+#: items.xml344(items/item@description)
 msgid "Could be tasty if well cooked."
 msgstr "Должно быть вкусным, если как следует приготовить."
 
-#: items.xml343(items/item@name)
+#: items.xml352(items/item@name)
 msgid "Squichy Claws"
 msgstr "Клыки белки"
 
-#: items.xml343(items/item@description)
+#: items.xml352(items/item@description)
 msgid "Claws from a wild squichy."
-msgstr ""
+msgstr "Клыки дикой белки."
 
-#: items.xml351(items/item@name)
+#: items.xml360(items/item@name)
 msgid "Tortuga Shell"
-msgstr "Панцирь черепахи"
+msgstr "Панцирь тортуги"
 
-#: items.xml351(items/item@description)
+#: items.xml360(items/item@description)
 msgid "This shell comes from a tortuga."
-msgstr "Этот панцирь снят с черепахи."
+msgstr "Этот панцирь снят с тортуга."
 
-#: items.xml358(items/item@name)
+#: items.xml367(items/item@name)
 msgid "Tortuga Tongue"
-msgstr "Язык черепахи"
+msgstr "Язык тортуги"
 
-#: items.xml358(items/item@description)
+#: items.xml367(items/item@description)
 msgid "The tongue of a tortuga."
-msgstr "Язык черепахи."
+msgstr "Язык тортуги."
 
-#: items.xml365(items/item@name)
+#: items.xml374(items/item@name)
 msgid "Pearl"
 msgstr "Жемчуг"
 
-#: items.xml365(items/item@description)
+#: items.xml374(items/item@description)
 msgid "A perfectly round and shiny pearl."
 msgstr "Идеально гладкая и блестящая жемчужина."
 
-#: items.xml372(items/item@name)
+#: items.xml381(items/item@name)
 msgid "Coral"
 msgstr "Коралл"
 
-#: items.xml372(items/item@description)
+#: items.xml381(items/item@description)
 msgid "The kind of coral you can see in Oceania."
 msgstr "Такой коралл произрастает в Океании."
 
-#: items.xml379(items/item@name)
+#: items.xml388(items/item@name)
 msgid "Blue Coral"
-msgstr "Голубой коралл"
+msgstr "Синий коралл"
 
-#: items.xml379(items/item@description)
+#: items.xml388(items/item@description)
 msgid "A coral dyed in blue by a blub."
-msgstr ""
+msgstr "Коралл, покрашенный в синий цвет блабом."
 
-#: items.xml387(items/item@name)
+#: items.xml396(items/item@name)
 msgid "Fish Box"
 msgstr "Коробка с рыбой"
 
-#: items.xml387(items/item@description)
+#: items.xml396(items/item@description)
 msgid "A wooden box full of fresh fish that Couwan gave you."
 msgstr ""
 
-#: items.xml395(items/item@name)
+#: items.xml404(items/item@name)
 msgid "Aquada Box"
-msgstr ""
+msgstr "Коробка с аквадами"
 
-#: items.xml395(items/item@description)
+#: items.xml404(items/item@description)
 msgid "A wooden box full of aquadas."
-msgstr ""
+msgstr "Деревянная коробка, полная аквад."
 
-#: items.xml403(items/item@name)
+#: items.xml412(items/item@name)
 msgid "Croconut Box"
-msgstr ""
+msgstr "Коробка с крокосами"
 
-#: items.xml403(items/item@description)
+#: items.xml412(items/item@description)
 msgid "A wooden box full of croconuts."
-msgstr ""
+msgstr "Деревянная коробка, полная крокосов."
 
-#: items.xml411(items/item@name)
+#: items.xml420(items/item@name)
 msgid "Plushroom Box"
-msgstr ""
+msgstr "Коробка с плюшевыми грибами"
 
-#: items.xml411(items/item@description)
+#: items.xml420(items/item@description)
 msgid "A wooden box full of plushrooms."
-msgstr ""
+msgstr "Деревянная коробка полная плюшевых грибов."
 
-#: items.xml433(items/item@name)
+#: items.xml442(items/item@name)
 msgid "Worn Shirt"
 msgstr "Поношенная майка"
 
-#: items.xml433(items/item@description)
+#: items.xml442(items/item@description)
 msgid "An old shirt given to you by a sailor."
 msgstr "Эту старую майку вам дал матрос."
 
-#: items.xml433(items/item@effect) items.xml500(items/item@effect)
+#: items.xml442(items/item@effect) items.xml509(items/item@effect)
 msgid "Defense +2"
 msgstr "Защита +2"
 
-#: items.xml446(items/item@name)
+#: items.xml455(items/item@name)
 msgid "%Color% Sailor Tank Top"
 msgstr "%Color% тельняшка"
 
-#: items.xml446(items/item@description)
+#: items.xml455(items/item@description)
 msgid "A %color% tank top used by sailors and seamen."
 msgstr "A %color% тельняшка, такие носят моряки и матросы."
 
-#: items.xml446(items/item@effect)
+#: items.xml455(items/item@effect)
 msgid "Defense +3"
 msgstr "Защита +3"
 
-#: items.xml458(items/item@name)
+#: items.xml467(items/item@name)
 msgid "Sailor Shirt"
 msgstr "Тельняшка"
 
-#: items.xml458(items/item@description)
+#: items.xml467(items/item@description)
 msgid "Proof that ye be in the crew, matey!"
 msgstr "Ты в команде, браток!"
 
-#: items.xml458(items/item@effect)
+#: items.xml467(items/item@effect)
 msgid "Defense +4"
 msgstr "Защита +4"
 
-#: items.xml472(items/item@name)
+#: items.xml481(items/item@name)
 msgid "Lousy Moccasin"
 msgstr "Драные мокасины"
 
-#: items.xml472(items/item@description)
+#: items.xml481(items/item@description)
 msgid "Orc-made moccasin. Not sure from which skin these boots were made."
 msgstr "Сделанные орками мокасины. Непонятно, из какой кожи они изготовлены."
 
-#: items.xml472(items/item@effect) items.xml486(items/item@effect)
-#: items.xml542(items/item@effect)
+#: items.xml481(items/item@effect) items.xml495(items/item@effect)
+#: items.xml551(items/item@effect)
 msgid "Defense +1"
 msgstr "Защита +1"
 
-#: items.xml486(items/item@name)
+#: items.xml495(items/item@name)
 msgid "Armbands"
-msgstr ""
+msgstr "Наручи"
 
-#: items.xml486(items/item@description)
+#: items.xml495(items/item@description)
 msgid "Small armbands made of wood and iron."
-msgstr ""
+msgstr "Небольшие наручи, сделанные из дерева и железа"
 
-#: items.xml500(items/item@name)
+#: items.xml509(items/item@name)
 msgid "Worn Shorts"
 msgstr "Поношенные шорты"
 
-#: items.xml500(items/item@description)
+#: items.xml509(items/item@description)
 msgid "An old pair of shorts given to you by a sailor, they smell bad."
 msgstr "Старые шорты, отданные вам матросом. Плохо пахнут."
 
-#: items.xml542(items/item@name)
+#: items.xml551(items/item@name)
 msgid "Bandana"
 msgstr "Бандана"
 
-#: items.xml542(items/item@description)
+#: items.xml551(items/item@description)
 msgid "A striped bandana worn by some sailors."
 msgstr "Некоторые матросы носят такие полосатые банданы."
 
-#: items.xml580(items/item@name)
+#: items.xml589(items/item@name)
 msgid "Knife"
 msgstr "Нож"
 
-#: items.xml580(items/item@description)
+#: items.xml589(items/item@description)
 msgid "A simple, but sharp knife."
 msgstr "Простой, но острый нож."
 
-#: items.xml580(items/item@effect)
+#: items.xml589(items/item@effect)
 msgid "Damage +10"
 msgstr "Урон +10"
 
@@ -902,7 +910,7 @@ msgstr "Пиус"
 
 #: monsters.xml50(monsters/monster@name)
 msgid "Tortuga"
-msgstr "Черепаха"
+msgstr "Тортуга"
 
 #: monsters.xml59(monsters/monster@name)
 msgid "Ratto"
@@ -914,15 +922,19 @@ msgstr "Крок"
 
 #: monsters.xml78(monsters/monster@name)
 msgid "Little Blub"
-msgstr "Мелкий Пузырь"
+msgstr "Мелкий блаб"
 
 #: monsters.xml92(monsters/monster@name)
 msgid "Croco Tree"
 msgstr "Крокодерево"
 
+#: monsters.xml99(monsters/monster@name)
+msgid "Plushroom Field"
+msgstr "Плюшево-грибное поле"
+
 #: quests.xml7(quest/name)
 msgid "Abide by the Rules"
-msgstr ""
+msgstr "Соблюдайте правила"
 
 #: quests.xml8(quest/text)
 msgid ""
@@ -936,7 +948,7 @@ msgstr ""
 
 #: quests.xml13(quest/name)
 msgid "Abide by the rules"
-msgstr ""
+msgstr "Соблюдайте правила"
 
 #: quests.xml14(quest/text)
 msgid "Rules:"
@@ -983,7 +995,7 @@ msgstr ""
 
 #: quests.xml26(quest/text)
 msgid "Magic Arpan is waiting for you. Go speak to him."
-msgstr ""
+msgstr "Маг Арпан ждет тебя. Ты должен с ним поговорить."
 
 #: quests.xml27(quest/text)
 msgid ""
@@ -1038,7 +1050,7 @@ msgstr ""
 
 #: quests.xml47(quest/name) quests.xml54(quest/name)
 msgid "Piberries Lover"
-msgstr ""
+msgstr "Любитель пижевики"
 
 #: quests.xml48(quest/text)
 msgid ""
@@ -1066,7 +1078,7 @@ msgstr ""
 msgid ""
 "He in fact hides in a hole of the hallway, which leads to the ship's storage"
 " where he can reach for some barrels full of piberries."
-msgstr ""
+msgstr "Он прячется в дыре коридора, которая ведет в склад корабля, где можно достать несколько бочек с пижевикой."
 
 #: quests.xml57(quest/text)
 msgid ""
@@ -1078,11 +1090,11 @@ msgstr ""
 #: quests.xml117(quest/text) quests.xml127(quest/text)
 #: quests.xml136(quest/text)
 msgid "Difficulty: ✩✩✩✩✩✩"
-msgstr ""
+msgstr "Сложность: ✩✩✩✩✩✩"
 
 #: quests.xml61(quest/text)
 msgid "Reward: A handful of Piberries."
-msgstr ""
+msgstr "Reward: горсть пижевики."
 
 #: quests.xml66(quest/name) quests.xml72(quest/name)
 msgid "Ratto Extermination"
@@ -1107,11 +1119,11 @@ msgstr ""
 
 #: quests.xml76(quest/text) quests.xml85(quest/text)
 msgid "Difficulty: ✭✩✩✩✩✩"
-msgstr ""
+msgstr "Сложность: ✭✩✩✩✩✩"
 
 #: quests.xml77(quest/text)
 msgid "Rewards: 500GP, 100EXP."
-msgstr ""
+msgstr "Награда: 500GP, 100EXP."
 
 #: quests.xml80(quest/name) quests.xml89(quest/name)
 msgid "Free Cave Washer"
@@ -1129,7 +1141,7 @@ msgstr ""
 
 #: quests.xml86(quest/text)
 msgid "Reward: Nothing."
-msgstr ""
+msgstr "Награда: ничего."
 
 #: quests.xml90(quest/text)
 msgid "Ask him about a reward for this task."
@@ -1137,7 +1149,7 @@ msgstr ""
 
 #: quests.xml97(quest/name)
 msgid "Nard"
-msgstr ""
+msgstr "Нард"
 
 #: quests.xml103(quest/name) quests.xml112(quest/name)
 msgid "Treasure's Glints"
