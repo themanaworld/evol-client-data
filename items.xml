@@ -4,7 +4,7 @@
 Copyright (C) 2010-2012 Evol Online -->
 
 <!--
-New organisation (04/12/11).
+New organization (04/12/11).
 -0      -99       = Hairstyles
 -100    -infinity = Races
 30      500       = Weapon Animations
@@ -21,7 +21,7 @@ New organisation (04/12/11).
 3200    3499      = Neck Armors
 3500    +infinity = Weapons
 
-Colors for dyable equipments or items are now set up by itemcolors.xml.
+Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
 <items>
@@ -177,7 +177,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
     <item id="503"
         image="usable/fungus.png"
         name="Fungus"
-        description="A nontoxic mushroom growing in moist place."
+        description="A non-toxic mushroom growing in moist place."
         effect="+25 HP"
         type="usable"
         weight="7"
@@ -222,7 +222,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="usable/drops.png|S:#898989,7287a0,aeaeae,96abc6,cecece,bccce0,e5e5e5,dce4ee"
         name="Sea Drops"
         description="Some water drops from the sea. Maybe you shouldn't drink them."
-        effect="+15 HP, Headache"
+        effect="+15 HP / Headache"
         type="usable"
         weight="2"
         maxFloorOffsetX="6"
@@ -240,7 +240,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="usable/blobime.png|S:#686868,695977,919191,9f79a9,bababa,d69ec0,dcdcdc,eccddf"
         name="Pink Blobime"
         description="Some pink residue dropped by a little blub."
-        effect="+1 HP, Headache"
+        effect="+1 HP / Headache"
         type="usable"
         weight="2"
         maxFloorOffsetX="8"
@@ -249,7 +249,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="usable/blobime.png|S:#686868,to,919191,to,bababa,to,dcdcdc,to"
         name="Purple Blobime"
         description="Some purple residue dropped by a blub."
-        effect="+1 HP, Headache"
+        effect="+1 HP / Headache"
         type="usable"
         weight="2"
         maxFloorOffsetX="8"
@@ -289,7 +289,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
     <item id="516"
         image="usable/pumpkinseed.png"
         name="Pumpkin Seeds"
-        description="Doesn't seems very appetizing..."
+        description="Doesn't seem very appetizing..."
         effect="+1 HP, Headache"
         type="usable"
         weight="1"/>
@@ -449,7 +449,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
     <item id="720"
         image="generic/fouit-teeth.png"
         name="Bat's Teeth"
-        description="What sharp teeth! it's more dangerous than a knife."
+        description="What sharp teeth! They seem more dangerous than a knife."
         type="generic"
         weight="10"
         maxFloorOffset="16"/>
@@ -463,7 +463,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
     <item id="722"
         image="generic/pumpkin.png"
         name="Pumpkin"
-        description="A pumpkin that can be carved for Hallowe'en."
+        description="A pumpkin that can be carved for Halloween."
         type="generic"
         weight="100"
         maxFloorOffset="10"/>
@@ -474,7 +474,7 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/amulet/.png"
         name=""
         description="."
-        effect=""
+        effect="."
         type="equip-necklace"
         weight=""/> -->
 
@@ -499,7 +499,6 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         effect="Defense +3"
         type="equip-torso"
         weight="40"
-        max-per-slot="1"
         colors="simple"
         maxFloorOffset="10">
         <sprite gender="unisex">equipment/chest/tanktop-male.xml</sprite>
@@ -566,10 +565,9 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/wings/.png"
         name=""
         description="."
-        effect="Defense +"
+        effect="."
         type="equip-charm"
-        weight=""
-        defense="">
+        weight="">
         <sprite>equipment/wings/</sprite>
     </item> -->
 
@@ -579,9 +577,8 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/shield/.png"
         name=""
         description="."
-        effect="Defense +"
+        effect="."
         type="equip-shield"
-        defense=""
         weight="">
         <sprite>equipment/shield/</sprite>
     </item> -->
@@ -591,11 +588,9 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/bandana.png"
         name="Bandana"
         description="A striped bandana worn by some sailors."
-        effect="Defense +1"
+        effect="+1 Defense"
         type="equip-head"
-        defense="1"
         weight="13"
-        max-per-slot="1"
         maxFloorOffsetX="8"
         maxFloorOffsetY="12">
         <sprite>equipment/head/bandana.xml</sprite>
@@ -613,10 +608,8 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/pumpkinhat.png"
         name="Pumpkin Hat"
         description="A carved pumpkin, the face will scare your enemy off."
-        effect="+2% Defense"
-        type="equip-head"
-        defense="3"
-        weight="90">
+        effect="+3 Defense"
+        type="equip-head"        weight="90">
         <sprite>equipment/head/pumpkinhat.xml</sprite>
         <replace sprite="hair">
             <item from="-3" to="-2" />
@@ -631,8 +624,8 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/fancyhat.png"
         name="Fancy Hat"
         description="A fancy hat, what else?"
+        effect="+1 Defense"
         type="equip-head"
-        defense="1"
         weight="50">
         <sprite>equipment/head/fancyhat.xml</sprite>
         <replace sprite="hair">
@@ -651,9 +644,8 @@ Colors for dyable equipments or items are now set up by itemcolors.xml.
         image="equipment/neck/.png"
         name=""
         description="."
-        effect="Defense +"
+        effect="."
         type="equip-ring"
-        defense=""
         weight=""
         <sprite>equipment/neck/</sprite>
     </item> -->
