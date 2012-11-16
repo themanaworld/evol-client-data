@@ -197,7 +197,7 @@ l_PoisonJulia:
     mes "";
     mesq l("Seems yummy! Let me taste it!");
     next;
-    mesq l("Hmmm, hm... Cough Cough, Burp, Cough. What is that!?... Cough, burp... Damn Gado... Cough...");
+    mesq l("Hmmm, hm... *cough*, *cough*, *burp*, *cough*. What... What is that!?... *cough*, *burp*... Damn Gado... *cough*");
     if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
     setq ShipQuests_ChefGado, 3;
 

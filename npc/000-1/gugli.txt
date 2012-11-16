@@ -32,7 +32,7 @@ OnTalk:
     if (@nard > 1 || @gugli == 2) goto l_TaskCompleted;
     if (@gugli == 1) goto l_TaskGiven;
 
-    mesq l("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
+    mesq lg("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
     next;
     mesq l("An unexpected help is always welcome!");
     next;
@@ -50,7 +50,7 @@ OnTalk:
     next;
     mesq l("We usually dock around these small pieces of land because they provide us some of the best food of all the archipelago.");
     next;
-    mesq l("So, at the moment, our crew is busy collecting @@s, @@s and @@s.", getitemlink("Croconut"), getitemlink("Plushroom"), getitemlink("Aquada"));
+    mesq l("At the moment, our crew is busy collecting @@s, @@s and @@s.", getitemlink("Croconut"), getitemlink("Plushroom"), getitemlink("Aquada"));
     next;
 
     menu
@@ -87,9 +87,9 @@ l_Menu:
 l_Couwan:
     mes "";
     mesn;
-    mesq l("What? This tritan is the worse shirker I ever met.");
+    mesq l("What?! This tritan is the worse shirker I ever met!");
     next;
-    mesq l("Well, thanks for the box. But... he was supposed to bring it back to me himself. I never asked him to give it to you!");
+    mesq l("Well, thanks for the box. But... He was supposed to bring it back to me himself. I never asked him to give it to you!");
     next;
     mesq l("Take these coins in exchange and be careful.");
     next;
@@ -108,7 +108,7 @@ l_Location:
     mesn;
     mesq l("There're 6 sailors who will need your help. They're all around the island.");
     next;
-    mesq l("I can't really help you find them since I've been checking the... Hmm... Landscape, since the morning...");
+    mesq l("I can't really help you find them since I've been checking the... Hmm... Landscape, since morning...");
     next;
     mesq l("You can try talking with some other sailors to get some information about that.");
     next;

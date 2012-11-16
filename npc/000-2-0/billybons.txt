@@ -7,7 +7,7 @@
 000-2-0.gat,20,23,0,1	script	BillyBons	311;3,{
 
     mesn;
-    if (rand(5)==2) goto l_Hips;
+    if (rand(5)==2) goto l_Hic;
 
     mesq l("You? Here?");
     mesq l("How is *hic* it possible?");
@@ -45,7 +45,7 @@
 
     mes "";
     mesn;
-    mesq l("If I saw *hic* who you were... *hips* Would not have helped you! ");
+    mesq l("If I saw *hic* who you were... *hic* Would not have helped you! ");
     next;
 
     menu
@@ -71,7 +71,7 @@ l_Secret:
 
     close;
 
-l_Hips:
+l_Hic:
     mesq l("*hic*");
     close;
 
@@ -80,7 +80,7 @@ l_Quit:
     mesn;
     mesq l("Yeah you're all like *hic* that in Esperia, but you won't get me! *burp*");
     next;
-    mesq l("I'm not that numb eeh *hic* what did ever you disco... *hips* ...vered there, the warrior guild won't get me!");
+    mesq l("I'm not that numb eeh *hic* what did ever you disco... *hic* ...vered there, the warrior guild won't get me!");
     next;
 
     mesn "Narrator";
