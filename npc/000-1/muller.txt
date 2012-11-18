@@ -3,6 +3,7 @@
 //    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
+//    Plushroom box.
 
 000-1.gat,35,69,0,1	script	Q'Muller	104;2,{
 
@@ -18,7 +19,7 @@ l_CallFunc:
 
     menu
         rif(getq(ShipQuests_QMuller) == 1, l("I'm still busy, I need to find the other sailors.")), -,
-        l("What's this fruit?"), OnAquada;
+        l("What's this fruit?"), OnPlushroom;
 
     mes "";
     mesn;
