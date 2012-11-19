@@ -15,7 +15,7 @@
 //    11   Need to see Julia
 //    12   Has been registered by Julia
 
-000-2-1.gat,39,36,0,1	script	LeftDoorCheck	0,0,0,{
+000-2-1.gat,49,36,0,1	script	LeftDoorCheck	0,0,0,{
     set @q, getq(ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
@@ -23,7 +23,7 @@
 
 }
 
-000-2-1.gat,44,36,0,1	script	RightDoorCheck	0,0,0,{
+000-2-1.gat,54,36,0,1	script	RightDoorCheck	0,0,0,{
     set @q, getq(ShipQuests_Arpan);
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
@@ -31,20 +31,20 @@
 
 }
 
-000-2-1.gat,37,32,0,1	script	LeftBarrierCheck	0,0,2,{
+000-2-1.gat,47,32,0,1	script	LeftBarrierCheck	0,0,2,{
     set @q, getq(ShipQuests_Arpan);
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
 
     doevent "Magic Arpan::OnClothNotTaken";
-    warp "000-2-1.gat", 39, 32;
+    warp "000-2-1.gat", 49, 32;
     doevent "Magic Arpan::OnEquip";
 
     close;
 
 l_GetCloth:
-    warp "000-2-1.gat", 39, 32;
+    warp "000-2-1.gat", 49, 32;
     doevent "Magic Arpan::OnClothNotTaken";
 
     close;
@@ -56,20 +56,20 @@ l_EquipDone:
 
 }
 
-000-2-1.gat,46,32,0,1	script	RightBarrierCheck	0,0,2,{
+000-2-1.gat,56,32,0,1	script	RightBarrierCheck	0,0,2,{
     set @q, getq(ShipQuests_Arpan);
     if (@q > 2) close;
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
     if (@q == 1) goto l_GetCloth;
 
     doevent "Magic Arpan::OnClothNotTaken";
-    warp "000-2-1.gat", 45, 32;
+    warp "000-2-1.gat", 55, 32;
     doevent "Magic Arpan::OnEquip";
 
     close;
 
 l_GetCloth:
-    warp "000-2-1.gat", 45, 32;
+    warp "000-2-1.gat", 55, 32;
     doevent "Magic Arpan::OnClothNotTaken";
 
     close;
@@ -81,7 +81,7 @@ l_EquipDone:
 
 }
 
-000-2-1.gat,39,33,0,1	script	Magic Arpan	307;5,{
+000-2-1.gat,49,33,0,1	script	Magic Arpan	307;5,{
 
     set @q, getq(ShipQuests_Arpan);
     set @q_julia, getq(ShipQuests_Julia);

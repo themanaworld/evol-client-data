@@ -15,7 +15,7 @@
 //    2   Accept the task.
 //    3   Bring first food.
 
-000-2-1.gat,33,32,0,1	script	AligeTrigger	0,1,1,{
+000-2-1.gat,43,32,0,1	script	AligeTrigger	0,1,1,{
 
 OnTouch:
     if (getq(ShipQuests_Alige) > 0) close;
@@ -46,7 +46,7 @@ OnTimer190:
 
 }
 
-000-2-1.gat,33,31,0,1	script	Alige	301;2,{
+000-2-1.gat,43,31,0,1	script	Alige	301;2,{
 
     set @q, getq(ShipQuests_Alige);
     if (@q > 1) goto l_AskForFood;
