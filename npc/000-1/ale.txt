@@ -10,10 +10,42 @@
     set @q, getq(ShipQuests_Ale);
     if (@q == 1) goto l_CallFunc;
 
-// Some dialogues will be here.
+    mesn;
+    mesq l("Don't you see I am working here?!");
+    next;
+
+    menu
+        l("Well I'm working too! Do you want me to carry one of those boxes back to Gugli?"), -;
+
+    mes "";
+    mesn;
+    mesq l("Ooh...So now it seems sailors are not able to do their job anymore!");
+    next;
+    
+    menu
+        l("Fine! Goodbye."), l_Close;
+        l("Yes, it is true! You are not able at all. Nard has been waited for too long. Hurry up lazy sailors!"), -;
+
+    mes "";
+    mesn;
+    mesq l("Are you blind? Do you think these boxes are light and soft as a Piou's feather?!");
+    next;
+
+    menu
+        l("I am sure I can run with one of them on my shoulder."), -;
+
+    mes "";
+    mesn;
+    mesq l("Well then...Here it is!");
+    next;
+    
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;
-// And here too.
+
+    mes "";
+    mesn;
+    mesq l("And now I want to see you run!");
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
@@ -63,6 +95,10 @@ l_Aquada:
     mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try to swim there.");
     next;
     mesq l("Orelse, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
+
+    close;
+    
+l_Close:
 
     close;
 
