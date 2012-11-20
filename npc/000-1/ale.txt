@@ -10,7 +10,18 @@
     set @q, getq(ShipQuests_Ale);
     if (@q == 1) goto l_CallFunc;
 
-// Some dialogues will be here.
+    mes "";
+    mesn;
+    mesq l("Ouch...");
+    next;
+    mesq l("These eavy boxs are killing me, I don't feel my arms anymore!");
+    next;
+
+    menu
+        l(""), l_Aquada,
+        l(""), l_Aquada,
+        l(""), Close;
+
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;
 // And here too.
