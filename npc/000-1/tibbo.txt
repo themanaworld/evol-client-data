@@ -10,10 +10,39 @@
     set @q, getq(ShipQuests_Tibbo);
     if (@q == 1) goto l_CallFunc;
 
-// Some dialogues will be here.
+    mesn;
+    mesq l("Uh? Hi! I'm sorry but I have no time for chatting.");
+    next;
+
+    menu
+        l("Fine... I was just going to give you some help..."), -;
+
+    mes "";
+    mesn;
+    mesq l("Hel... What?! Wait!");
+    next;
+    mesq l("What kind of help?");
+    next;
+
+    menu
+        l("Gugli asked me to help you carrying one of these box you are filling."), -;
+
+    mes "";
+    mesn;
+    mesq l("Then it seems I have to apologize.");
+    next;
+    mesq l("I am surprised someone has been sent here for help. It is quite... unusual.");
+    next;
+    mesq l("Bring this box back to Gugli. He will be more than happy!");
+    next;
+
     setq ShipQuests_Tibbo, 1;
     getitem "AquadaBox", 1;
-// And here too.
+
+    mes "";
+    mesn;
+    mesq l("Thank you and be careful with that box. I have worked really hard to fill it!");
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
