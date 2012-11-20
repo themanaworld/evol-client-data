@@ -10,9 +10,52 @@
     set @q, getq(ShipQuests_Gulukan);
     if (@q == 1) l_Func;
 
-// Some dialogues will be here.
+    mesn;
+    mesq l("Hey @@!", strcharinfo(0));
+    next;
+    mesq l("How are you feeling now on dry land? Better?");
+    next;
+
+    menu
+        l("Wow! It seems everyone knows my name."), l_Name,
+        l("Well not a bad sensation feeling something beneath your feet."), l_Fine,
+        l("Not so good. Better if I get back to Nard's ship."), close;
+
+l_Name:
+
+    mes "";
+    mesn;
+    mesq l("You know sailors love to chat while working.");
+    next;
+
+    goto l_Fine;
+
+l_Fine:
+
+    mes "";
+    mesn;
+    mesq l("Are you here exploring the island?");
+    next;
+
+    menu
+        l("Actually Gugli asked me if I can help you bringing him some of your boxes."), -,
+        l("Yes I prefer first to explore places I have never been before."), close;
+
+    mes "";
+    mesn;
+    mesq l("Gugli? Oh I see. Yes, he is pretty used to shout order to everybody down here.");
+    next;
+    mesq l("Anyway I am glad I can give you some of those croconuts.");
+    next;
+
     setq ShipQuests_Gulukan, 1;
     getitem "CroconutBox", 1;
+    
+    mes "";
+    mesn;
+    mesq l("Thank you my friend.");
+    close;
+    
 // And here too.
 
 l_Func:
