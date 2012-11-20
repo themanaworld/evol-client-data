@@ -10,10 +10,42 @@
     set @q, getq(ShipQuests_Jalad);
     if (@q == 1) goto l_CallFunc;
 
-// Some dialogues will be here.
+    mesn;
+    mesq l("*uff*, *agh*, why don't you give me some help?");
+    next;
+    mesq l("I'm not suited for this kind of job!");
+    next;
+
+    menu
+        l("I was going to ask you if you would need any help."), l_Continue,
+        l("What is exactly your real job?."), l_Job;
+
+l_Job:
+
+    mes "";
+    mesn;
+    mesq l("I'm the cook's assistant of the ship. I help Gado, La Johanne's Chef, in his daily work.");
+    next;
+    mesq l("You should go see him. Is it one of the most experienced sailor we have.");
+    next;
+    
+    menu
+        l("I will surely visit him. Do you need any help with your boxes?"), l_Continue;
+
+l_Continue:
+
+    mes "";
+    mesn;
+    mesq l("Surely. Take this box full of plushroom.");
+    next;
+
     setq ShipQuests_Jalad, 1;
     getitem "PlushroomBox", 1;
-// And here too.
+
+    mes "";
+    mesn;
+    mesq l("They are so tasty when cooked together with some Piou's Legs. Don't drop any of them!");
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
