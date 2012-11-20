@@ -11,20 +11,20 @@
     if (@q == 1) goto l_CallFunc;
 
     mesn;
-    mesq l("Don't you see I am working here?!");
+    mesq l("Can't you see I'm working?!");
     next;
 
     menu
-        l("Well I'm working too! Do you want me to carry one of those boxes back to Gugli?"), -;
+        l("Well I'm working too! Don't you want me to carry one of those boxes back to Gugli?"), -;
 
     mes "";
     mesn;
-    mesq l("Ooh...So now it seems sailors are not able to do their job anymore!");
+    mesq l("Ooh... It seems sailors are not able to do their job anymore?!");
     next;
     
     menu
         l("Fine! Goodbye."), l_Close;
-        l("Yes, it is true! You are not able at all. Nard has been waited the food for too long. Hurry up lazy sailors!"), -;
+        l("Yes, it is true! You are not able at all. Nard has been waiting for the food for too long already. Hurry up, you lazy sailors!"), -;
 
     mes "";
     mesn;
@@ -36,7 +36,7 @@
 
     mes "";
     mesn;
-    mesq l("Well then...Here it is!");
+    mesq l("Well then... Take this one!");
     next;
     
     setq ShipQuests_Ale, 1;
@@ -56,7 +56,7 @@ l_CallFunc:
 
     mes "";
     mesn;
-    mesq l("Who are you searching?");
+    mesq l("Who are you looking for?");
     next;
 
     menu
@@ -72,7 +72,7 @@ l_CallFunc:
 l_Bottom:
     mes "";
     mesn;
-    mesq l("I've seen him on the bottom of the island, ask Jalad for more info.");
+    mesq l("I've seen him on the bottom of the island, ask Jalad for more information.");
 
     close;
 

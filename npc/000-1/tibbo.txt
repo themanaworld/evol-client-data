@@ -15,23 +15,23 @@
     next;
 
     menu
-        l("Fine...I was just going to give you some help..."), -;
+        l("Fine... I was just going to give you some help..."), -;
 
     mes "";
     mesn;
-    mesq l("Hel...What?! Wait!");
+    mesq l("Hel... What?! Wait!");
     next;
-    mesq l("W-What kind of help?");
+    mesq l("What kind of help?");
     next;
 
     menu
-        l("Gugli asked me to help you carrying one of those boxes you are filling."), -;
+        l("Gugli asked me to help you carrying one of these box you are filling."), -;
 
     mes "";
     mesn;
-    mesq l("Well then it seems I have to apologize.");
+    mesq l("Then it seems I have to apologize.");
     next;
-    mesq l("I am surprised someone has been sent here for help. It's quite...unusual.");
+    mesq l("I am surprised someone has been sent here for help. It is quite... unusual.");
     next;
     mesq l("Bring this box back to Gugli. He will be more than happy!");
     next;
@@ -41,7 +41,7 @@
 
     mes "";
     mesn;
-    mesq l("Thank you and be carefull with that box. I have worked so hard to fill it.");
+    mesq l("Thank you and be careful with that box. I have worked really hard to fill it!");
     close;
 
 l_CallFunc:
