@@ -11,32 +11,21 @@
     if (@q == 1) goto l_CallFunc;
 
     mesn;
-    mesq l("Can't you see I'm working?!");
+    mesq l("Ouch...");
+    next;
+    mesq l("These eavy boxs are killing me, I don't feel my arms anymore!");
     next;
 
     menu
-        l("Well I'm working too! Don't you want me to carry one of those boxes back to Gugli?"), -;
+        l("Gugli sent me down here to help you."), -,
+        l("What's this fruit?"), l_Plushroom;
+        l("See you aboard."), close;
 
     mes "";
     mesn;
-    mesq l("Ooh... It seems sailors are not able to do their job anymore?!");
+    mesq l("Really? That's kind from you, I accept your help!");
     next;
-    
-    menu
-        l("Fine! Goodbye."), l_Close;
-        l("Yes, it is true! You are not able at all. Nard has been waiting for the food for too long already. Hurry up, you lazy sailors!"), -;
-
-    mes "";
-    mesn;
-    mesq l("Are you blind? Do you think these boxes are light and soft as a Piou's feather?!");
-    next;
-
-    menu
-        l("I am sure I can run with one of them on my shoulder."), -;
-
-    mes "";
-    mesn;
-    mesq l("Well then... Take this one!");
+    mesq l("Hmm... Let's see, take this one.");
     next;
 
     setq ShipQuests_Ale, 1;
@@ -44,8 +33,8 @@
 
     mes "";
     mesn;
-    mesq l("And now I want to see you run!");
-    close;
+    mesq l("I will care of the other ones don't worry.");
+    next;
 
 l_CallFunc:
     callfunc "SailorFood";
@@ -95,10 +84,6 @@ l_Aquada:
     mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try to swim there.");
     next;
     mesq l("Orelse, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
-
-    close;
-    
-l_Close:
 
     close;
 

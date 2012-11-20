@@ -11,32 +11,41 @@
     if (@q == 1) goto l_CallFunc;
 
     mesn;
-    mesq l("Ouch...");
-    next;
-    mesq l("These eavy boxs are killing me, I don't feel my arms anymore!");
+    mesq l("Can't you see I'm working?!");
     next;
 
     menu
-        l("Gugli sent me down here to help you."), -,
-        l("What's this fruit?"), l_Plushroom;
-        l("See you aboard."), close;
+        l("Well I'm working too! Don't you want me to carry one of those boxes back to Gugli?"), -;
 
     mes "";
     mesn;
-    mesq l("Really? That's kind from you, I accept your help!");
+    mesq l("Ooh... It seems sailors are not able to do their job anymore?!");
     next;
-    mesq l("Hmm... Let's see, take this one.");
+    
+    menu
+        l("Fine! Goodbye."), close;
+        l("Yes, it is true! You are not able at all. Nard has been waiting for the food for too long already. Hurry up, you lazy sailors!"), -;
+
+    mes "";
+    mesn;
+    mesq l("Are you blind? Do you think these boxes are light and soft as a Piou's feather?!");
     next;
 
+    menu
+        l("I am sure I can run with one of them on my shoulder."), -;
+
+    mes "";
+    mesn;
+    mesq l("Well then... Take this one!");
+    next;
 
     setq ShipQuests_QMuller, 1;
     getitem "PlushroomBox", 1;
 
     mes "";
     mesn;
-    mesq l("I will care of the other ones don't worry.");
-    next;
-
+    mesq l("And now I want to see you run!");
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
