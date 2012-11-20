@@ -18,7 +18,7 @@
 
     menu
         l("Wow! It seems everyone knows my name."), l_Name,
-        l("Well not a bad sensation feeling something beneath your feet."), l_Fine,
+        l("Well not a bad sensation feeling something beneath your feet."), l_Continue,
         l("Not so good. Better if I get back to Nard's ship."), close;
 
 l_Name:
@@ -28,7 +28,7 @@ l_Name:
     mesq l("You know sailors love to chat while working.");
     next;
 
-    goto l_Fine;
+    goto l_Continue;
 
 l_Fine:
 
