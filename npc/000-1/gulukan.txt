@@ -7,6 +7,9 @@
 
 000-1.gat,54,90,0,1	script	Gulukan	111;2,{
 
+    set @g, getq(ShipQuests_Gugli);
+    if (@g == 1) goto l_NoTask;
+
     set @q, getq(ShipQuests_Gulukan);
     if (@q == 1) l_Func;
 
@@ -134,6 +137,12 @@ l_Top:
     next;
     mesq l("You yoiis should walk to the north.");
 
+    close;
+
+l_NoTask:
+    mes "";
+    mesn;
+    mesq l("*uff*... And another box of Croconuts for our starving colleagues, is ready.");
     close;
 
 }

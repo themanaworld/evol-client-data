@@ -7,6 +7,9 @@
 
 000-1.gat,55,23,0,1	script	Ale	105;2,{
 
+    set @g, getq(ShipQuests_Gugli);
+    if (@g == 1) goto l_NoTask;
+
     set @q, getq(ShipQuests_Ale);
     if (@q == 1) goto l_CallFunc;
 
@@ -85,6 +88,12 @@ l_Plushroom:
     next;
     mesq l("There are few groups of these @@s all around this island. Just pick some and have a try.", getitemlink("Plushroom"));
 
+    close;
+
+l_NoTask:
+    mes "";
+    mesn;
+    mesq l("Ouch... These boxes are so heavy!");
     close;
 
 }
