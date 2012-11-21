@@ -8,7 +8,7 @@
 000-1.gat,54,90,0,1	script	Gulukan	111;2,{
 
     set @g, getq(ShipQuests_Gugli);
-    if (@g == 1) goto l_NoTask;
+    if (@g == 0) goto l_NoTask;
 
     set @q, getq(ShipQuests_Gulukan);
     if (@q == 1) l_Func;
