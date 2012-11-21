@@ -13,12 +13,12 @@
     mesn;
     mesq l("Ouch...");
     next;
-    mesq l("These heavy boxs are killing me, I don't feel my arms anymore!");
+    mesq l("These heavy boxes are killing me, I don't feel my arms anymore!");
     next;
 
     menu
         l("Gugli sent me down here to help you."), -,
-        l("What's this fruit?"), l_Plushroom,
+        l("What's that?"), l_Plushroom,
         l("See you aboard."), close;
 
     mes "";
@@ -41,7 +41,7 @@ l_CallFunc:
 
     menu
         rif(getq(ShipQuests_Ale) == 1, l("I'm still busy, I need to find the other sailors.")), -,
-        l("What's this fruit?"), l_Aquada;
+        l("What's that?"), l_Plushroom;
 
     mes "";
     mesn;
@@ -70,20 +70,20 @@ l_Jalad:
 
     next;
     mesn;
-    mesq l("Look, he's there!");
+    mesq l("Look, here he is!");
     next;
 
     restorecam;
     close;
 
-l_Aquada:
+l_Plushroom:
     mes "";
     mesn;
-    mesq l("This is an @@, a light blue sea fruit. They're highly desired in the archipelago.", getitemlink("Aquada"));
+    mesq l("'That', as you call it, is a @@. There're plenty on this island!", getitemlink("Plushroom"));
     next;
-    mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try to swim there.");
+    mesq l("It's a kind of mushroom. We call it like that because of it's taste, just like a marshmallow. It also has this name because of it's appearance, it looks like a plush!.");
     next;
-    mesq l("Orelse, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
+    mesq l("There are few groups of these @@s all around this island. Just pick some and have a try.", getitemlink("Plushroom"));
 
     close;
 

@@ -15,11 +15,11 @@
     next;
 
     menu
-        l("Well I'm working too! Don't you want me to carry one of those boxes back to Gugli?"), -;
+        l("Well I'm working too! Don't you want me to carry one of these boxes back to Gugli?"), -;
 
     mes "";
     mesn;
-    mesq l("Ooh... It seems sailors are not able to do their job anymore?!");
+    mesq l("Oh I see... Sailors are not able to do their job anymore, is that it?!");
     next;
     
     menu
@@ -52,7 +52,7 @@ l_CallFunc:
 
     menu
         rif(getq(ShipQuests_QMuller) == 1, l("I'm still busy, I need to find the other sailors.")), -,
-        l("What's this fruit?"), OnPlushroom;
+        l("What's that?"), l_Plushroom;
 
     mes "";
     mesn;
@@ -87,11 +87,11 @@ l_Top:
 l_Plushroom:
     mes "";
     mesn;
-    mesq l("A @@? There're plenty on this island!", getitemlink("Plushroom"));
+    mesq l("'That', as you call it, is a @@. There're plenty on this island!", getitemlink("Plushroom"));
     next;
     mesq l("It's a kind of mushroom. We call it like that because of it's taste, just like a marshmallow. It also has this name because of it's appearance, it looks like a plush!.");
     next;
-    mesq l("There are few groups of these @@'s all around this island. Just pick some and have a try.", getitemlink("Plushroom"));
+    mesq l("There are few groups of these @@s all around this island. Just pick some and have a try.", getitemlink("Plushroom"));
 
     close;
 

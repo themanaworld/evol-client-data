@@ -25,7 +25,7 @@
     next;
 
     menu
-        l("Gugli asked me to help you carrying one of these box you are filling."), -;
+        l("Gugli asked me to help you carrying one of these boxes you are filling."), -;
 
     mes "";
     mesn;
@@ -33,7 +33,7 @@
     next;
     mesq l("I am surprised someone has been sent here for help. It is quite... unusual.");
     next;
-    mesq l("Bring this box back to Gugli. He will be more than happy!");
+    mesq l("Bring this box to Gugli. He will be extremely happy!");
     next;
 
     setq ShipQuests_Tibbo, 1;
@@ -49,11 +49,11 @@ l_CallFunc:
 
     menu
         rif(getq(ShipQuests_Tibbo) == 1, l("I'm still busy, I need to find the other sailors.")), -,
-        l("What's this fruit?"), l_Aquada;
+        l("What's that food?"), l_Aquada;
 
     mes "";
     mesn;
-    mesq l("Who are you searching?");
+    mesq l("Who are you searching for?");
     next;
 
     menu
