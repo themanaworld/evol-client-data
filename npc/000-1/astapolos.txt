@@ -1,6 +1,6 @@
 // Evol scripts.
 // Author:
-//    Reid
+//    Reid, Hal9000
 // Description:
 //    Sailor part of the Gugli's quest.
 //    Croconut box.
@@ -10,10 +10,65 @@
     set @q, getq(ShipQuests_Astapolos);
     if (@q == 1) goto l_CallFunc;
 
-// Some dialogues will be here.
+    mesn;
+    mesq l("So finally someone has came to visit me?");
+    next;
+
+    menu
+        l("Actually I was here to work on my task?"), -;
+
+    mes "";
+    mesn;
+    mesq l("Oh, I see. That's right. Why should someone come here to see me?");
+    next;
+    mesq l("Do you think it is fair? They have sent me down here alone, far away from everyone.");
+    next;
+    
+    menu
+        l("I'm sorry for your situation. They should alternate you with another sailor sometime."), -,
+        l("Well if you are whyning like that all the time, then I think there is a reason behind their choice."), l_Whyning;
+
+    mes "";
+    mesn;
+    mesq l("Exactly. Even our task is ridicolous. Why should we collect food down here if we have plenty of those tasty and soft Rattos inside our ship, waiting just to be hunted and cooked?");
+    next;
+
+    menu
+        l("You... You eat Rattos? I think you are just a fool."), l_Whyning,
+        l("Oh... eating Rattos. Sounds ehm... Delicious, yes."), -;
+
+    mes "";
+    mesn;
+    mesq l("You like them, don't you? Just speak with Peter then. He is on the Second Deck of the ship. He will send you to downstairs where you will find our hairy meal!");
+    next;
+    mesq l("Oh, but you were not here to talk about that I guess.");
+    next;
+    
+
+    menu
+        l("No, indeed. I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
+    
+    mes "";
+    mesn;
+    mesq l("Usually I don't allow anyone to touch my boxes but...");
+    next;
+    mesq l("You have been so nice with me. So, please, take one.");
+    next;
+    
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;
-// And here too.
+    
+    mes "";
+    mesn;
+    mesq l("Good luck! And don't forget to visit Peter and our little friends when you will be back onboard!");
+    close;
+
+
+l_Whyning:
+    mes "";
+    mesn;
+    mesq l("Then just leave me alone.");
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
