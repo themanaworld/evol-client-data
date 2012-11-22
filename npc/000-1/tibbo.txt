@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
-//    Reid, Hal9000
+// Authors:
+//    Hal9000
+//    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
 //    Aquada box.
@@ -91,7 +92,7 @@ l_Aquada:
 l_NoTask:
     mes "";
     mesn;
-    mesq l("I'm sorry. No time to chat with you.");
+    mesq l("I'm sorry but I have no time to chat with you.");
     close;
 
 }

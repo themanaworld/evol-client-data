@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
-//    Reid, Hal9000
+// Authors:
+//    Hal9000
+//    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
 //    Croconut box.
@@ -142,7 +143,7 @@ l_Top:
 l_NoTask:
     mes "";
     mesn;
-    mesq l("*uff*... And another box of Croconuts for our starving colleagues, is ready.");
+    mesq l("*uff*... And another box of @@s for our starving colleagues is ready.", getitemlink("Croconut")); 
     close;
 
 }
