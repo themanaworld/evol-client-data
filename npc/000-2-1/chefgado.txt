@@ -65,7 +65,9 @@ l_Rude:
 
     mes "";
     mesn;
-    mesq l("... Welcome onboard cutie! I just realized I need delicious ingredients to prepare a... A special recipe.");
+    mesq l("Well... Welcome aboard, cutie!");
+    next;
+    mesq l("I just realized I needed delicious ingredients to prepare a... A special recipe.");
     next;
     mesq l("I only need 2 @@, 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"), getitemlink("Aquada"));
     next;
@@ -128,13 +130,13 @@ l_Need:
 
 l_PoisonAccepted:
     mesn;
-    mesq l("Fool! Just come here when you have finished our little... Secret mission.");
+    mesq l("Fool! Just come back here when you'll be done with our little... 'Secret mission'.");
 
     close;
 
 l_PoisonJulia:
     mesn;
-    mesq l("The usurper has been punished! This is a great day, take this reward as a prize for your loyalty to the old commander!.");
+    mesq l("The usurper has been punished! This is a great day! Take this reward as a prize for your loyalty to the old commander!.");
 
     setq ShipQuests_ChefGado, 4;
 
@@ -142,13 +144,13 @@ l_PoisonJulia:
 
 l_QuestComplete:
     mesn;
-    mesq l("Oh, it's you. I think it is better we do not talk for a while. They suspect something.");
+    mesq l("Oh, it's you. I think it's better we do not talk for a while. They suspect something.");
 
     close;
 
 l_QuestAborted:
     mesn;
-    mesq l("You dirty liar. I will add you on the traitors list.");
+    mesq l("You dirty liar. I will add your name on the traitors list.");
 
     close;
 
