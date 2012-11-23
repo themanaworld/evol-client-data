@@ -35,7 +35,7 @@ l_QuestStart:
     next;
 
     menu
-        l("So rude. What is the reason behind your malice?"), l_Rude,
+        l("How rude! What is the reason behind your malice?"), l_Rude,
         l("I swear, I do not eat so much."), -;
 
     close;
@@ -43,7 +43,7 @@ l_QuestStart:
 l_Rude:
     mes "";
     mesn;
-    mesq l("UAHAHAHAAH! I am the cook of that bunch of donkeys, I can be rude with everyone from the bossy captain to that harpy-lady!");
+    mesq l("UAHAHAHAAH! I am the cook of that bunch of donkeys and I can be rude with everyone from this bossy captain to that harpy-lady!");
     next;
 
     menu
@@ -65,7 +65,7 @@ l_Rude:
 
     mes "";
     mesn;
-    mesq l("Well... Welcome aboard, cutie!");
+    mesq lg("Well... Welcome aboard, cutie!");
     next;
     mesq l("I just realized I needed delicious ingredients to prepare a... A special recipe.");
     next;
@@ -150,7 +150,7 @@ l_QuestComplete:
 
 l_QuestAborted:
     mesn;
-    mesq l("You dirty liar. I will add your name on the traitors list.");
+    mesq lg("You dirty liar. I will add your name on the traitors list.");
 
     close;
 
