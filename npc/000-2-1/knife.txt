@@ -30,11 +30,11 @@ l_Give:
 
     mes "";
     mesn "Narrator";
-    mes col(lg("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
+    mes col(l("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
-    mes col(lg("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by clicking on 'unequip'."), 9);
+    mes col(l("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by clicking on 'unequip'."), 9);
     next;
-    mes col(lg("Items have different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
+    mes col(l("Items have different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
 
     close;
 
