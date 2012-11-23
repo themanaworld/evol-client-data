@@ -19,7 +19,7 @@
 
 
     mesn;
-    mesq lg("Hello yeye.");
+    mesq l("Hello yeye.");
     next;
     mesq l("Look how splendid this landscape is!");
     next;
@@ -30,9 +30,9 @@
 
     mes "";
     mesn;
-    mesq lg("Yeye got good eyes and seem to have fully recovered from your injuries...");
+    mesq l("Yeye got good eyes and seem to have fully recovered from your injuries...");
     next;
-    mesq lg("Hey, could yeye can take my box of fish to Gugli?");
+    mesq l("Hey, could yeye please take my box of fish to Gugli?");
     next;
 
     menu
@@ -41,11 +41,11 @@
 
     mes "";
     mesn;
-    mesq lg("Yeye ask too much but do too less. Take this box and stop talking.");
+    mesq l("Yeye ask too much but do too less. Take this box and stop talking.");
     next;
 
     mesn "Narrator";
-    mes col(lg("Couwan hands you a box full of fish."), 9);
+    mes col(l("Couwan hands you a box full of fish."), 9);
     getitem "FishBox", 1;
     next;
     mes col(l("The sailor turns his back to you."), 9);
