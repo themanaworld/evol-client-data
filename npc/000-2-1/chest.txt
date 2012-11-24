@@ -23,8 +23,8 @@
 l_Give:
     if (@q > 1) goto l_Close;
     setq ShipQuests_Arpan, 2;
-    getitem "WornShirt", 1;
-    getitem "WornShorts", 1;
+    getitem "CrasedShirt", 1;
+    getitem "CreasedShorts", 1;
     message strcharinfo(0), l("You take the clothes from the chest.");
     close;
 
