@@ -2,7 +2,7 @@
 // Author:
 //    Reid
 // Description:
-//    Sailor hitting a palm tree, then being struck a falling croconut.
+//    Sailor hitting a crocotree, then being struck a falling croconut.
 
 000-1.gat,33,37,0,1	script	Tarlan	315;2,{
 
@@ -32,7 +32,7 @@
 l_Food:
     mes " ";
     mesn;
-    mesq l("You can yaye some @@s by hitting these palm trees.", getitemlink("Croconut"));
+    mesq l("You can yaye some @@s by hitting these crocotrees.", getitemlink("Croconut"));
     next;
     mesq l("Yeye be careful with wild animal's food, some of them are dangerouyous, especially the Blobs.");
 
