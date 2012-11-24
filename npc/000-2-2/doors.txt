@@ -18,7 +18,7 @@ l_Warn:
     if (@q == 5) goto l_Warp;
 
     mesn "Narrator";
-    mes col(l("There are still some Rattos left! Do you want to abort the quest?"), 9);
+    mes col(l("There are still some rattos left! Do you want to abort the quest?"), 9);
     next;
 
     menu
@@ -65,14 +65,14 @@ l_Warp:
 
 000-2-2.gat,47,30,0,1	script	RattosControl	32767,{
 // $@RAT_SAILOR_CONTROL array explanation:
-// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive).
-// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive).
-// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive).
-// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive).
-// [5] = Shows how many seconds passed since Ratto number 1 died.
-// [6] = Shows how many seconds passed since Ratto number 2 died.
-// [7] = Shows how many seconds passed since Ratto number 3 died.
-// [8] = Shows how many seconds passed since Ratto number 4 died.
+// [1] = Shows status of ratto number 1 (1 is dead and 0 is alive).
+// [2] = Shows status of ratto number 2 (1 is dead and 0 is alive).
+// [3] = Shows status of ratto number 3 (1 is dead and 0 is alive).
+// [4] = Shows status of ratto number 4 (1 is dead and 0 is alive).
+// [5] = Shows how many seconds passed since ratto number 1 died.
+// [6] = Shows how many seconds passed since ratto number 2 died.
+// [7] = Shows how many seconds passed since ratto number 3 died.
+// [8] = Shows how many seconds passed since ratto number 4 died.
 // [9] = Shows how many seconds passed since the player started the quest.
 
 OnSpawn:

@@ -23,14 +23,14 @@
 // "$@RAT_SAILOR_HELPER$" - Name of the participant.
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight.
 // "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array:
-// [1] = Shows status of Ratto number 1 (1 is dead and 0 is alive).
-// [2] = Shows status of Ratto number 2 (1 is dead and 0 is alive).
-// [3] = Shows status of Ratto number 3 (1 is dead and 0 is alive).
-// [4] = Shows status of Ratto number 4 (1 is dead and 0 is alive).
-// [5] = Shows how many seconds passed since Ratto number 1 died.
-// [6] = Shows how many seconds passed since Ratto number 2 died.
-// [7] = Shows how many seconds passed since Ratto number 3 died.
-// [8] = Shows how many seconds passed since Ratto number 4 died.
+// [1] = Shows status of ratto number 1 (1 is dead and 0 is alive).
+// [2] = Shows status of ratto number 2 (1 is dead and 0 is alive).
+// [3] = Shows status of ratto number 3 (1 is dead and 0 is alive).
+// [4] = Shows status of ratto number 4 (1 is dead and 0 is alive).
+// [5] = Shows how many seconds passed since ratto number 1 died.
+// [6] = Shows how many seconds passed since ratto number 2 died.
+// [7] = Shows how many seconds passed since ratto number 3 died.
+// [8] = Shows how many seconds passed since ratto number 4 died.
 // [9] = Shows how many seconds passed since the player started the quest.
 
 000-2-1.gat,71,34,0,1	script	AreaNPC	0,0,1,{
@@ -86,7 +86,7 @@ OnGiveTask:
            l("Hey, man!"));
     next;
     mesn;
-    mesq l("I need somebody who can clean the bottom of the ship of these Ratto, can you help me?");
+    mesq l("I need somebody who can clean the bottom of the ship of these rattos. Can you help me?");
     next;
 
     menu
@@ -116,7 +116,7 @@ OnStop:
 
 OnReturnFail:
     mesn;
-    mesq l("I see it's not easy to get rid of those Rattos. Do you want to try again?");
+    mesq l("I see it's not easy to get rid of these rattos. Do you want to try again?");
     next;
 
     menu
@@ -132,20 +132,20 @@ OnReturnFail:
 
 OnReturnWin:
     mesn;
-    mesq l("Thanks again for helping me. But these Rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
+    mesq l("Thanks again for helping me. But these rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
 
     if (@q == 3 || @q == 4)
 
     menu
         l("Did you say reward? I want it!"), L_BonusTask,
         l("I am not worried about rewards. I just want to help."), L_Task,
-        l("Sorry, I am not in the mood for another fight with those Rattos."), -;
+        l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     if (@q == 5)
 
     menu
         l("No problem, I can help you anyway."), L_Task,
-        l("Sorry, I am not in the mood for another fight with those Rattos."), -;
+        l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     mes "";
     mesn;
