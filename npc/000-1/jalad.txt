@@ -15,9 +15,9 @@
     if (@q == 1) goto l_CallFunc;
 
     mesn;
-    mesq l("*uff*, *agh*, why don't you give me some help?");
+    mesq l("*Uff*, *Argh*, why don't you give me some help?");
     next;
-    mesq l("I'm not suited for this kind of job!");
+    mesq l("I'm not suited for this kind of work!");
     next;
 
     menu
@@ -30,7 +30,7 @@ l_Job:
     mesn;
     mesq l("I'm the cook's assistant of the ship. I help Gado, La Johanne's Chef, in his daily work.");
     next;
-    mesq l("You should go see him. Is it one of the most experienced sailor we have.");
+    mesq l("You should go see him. He is one of the most experienced sailors we have.");
     next;
     
     menu

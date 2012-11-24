@@ -17,11 +17,11 @@
     mesn;
     mesq l("Hey @@!", strcharinfo(0));
     next;
-    mesq l("How are you feeling, now having foot on steady land? Better?");
+    mesq l("How are you feeling, now that you walk on steady land? Better?");
     next;
 
     menu
-        l("Wow! It seems everyone knows my name."), l_Name,
+        l("Wow, it seems everyone knows my name!"), l_Name,
         l("Well, it isn't a bad sensation to finally feel something beneath my feet."), l_Continue,
         l("Not so good. I would feel better on Nard's ship."), close;
 
@@ -96,7 +96,7 @@ l_Fine:
 l_RandomB:
     mesq l("Thanks for the help!");
     next;
-    mesq l("These yeye box are way too heavy to be carried alone onto the ship.");
+    mesq l("These yeye boxes are way too heavy to be carried alone onto the ship.");
 
     close;
 

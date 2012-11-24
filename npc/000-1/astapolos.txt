@@ -19,22 +19,22 @@
     next;
 
     menu
-        l("Actually I was here to work on my task?"), -;
+        l("In fact, I came here to work on my task."), -;
 
     mes "";
     mesn;
-    mesq l("Oh, I see. That's right. Why should someone come here to see me?");
+    mesq l("Oh, I see. That's right. Why should someone come here to see me, seriously?");
     next;
-    mesq l("Do you think it is fair? They have sent me down here alone, far away from everyone.");
+    mesq l("Do you think this is fair? They have sent me down here alone, far away from everyone.");
     next;
     
     menu
         l("I'm sorry for your situation. They should alternate you with another sailor sometime."), -,
-        l("Well if you are whyning like that all the time, then I think there is a reason behind their choice."), l_Whyning;
+        l("Well if you are whining like that all the time, then I think there is a reason behind their choice."), l_Whyning;
 
     mes "";
     mesn;
-    mesq l("Exactly. Even our task is ridicolous. Why should we collect food down here if we have plenty of those tasty and soft Rattos inside our ship, waiting just to be hunted and cooked?");
+    mesq l("Exactly. Even our task is ridiculous. Why should we collect food down here if we have plenty of those tasty and soft Rattos inside our ship, waiting just to be hunted and cooked?");
     next;
 
     menu

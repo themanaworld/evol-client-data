@@ -12,13 +12,13 @@
 //    1    ShipQuests_Gugli
 //    2    ShipQuests_ChefGado
 // Values: 
-//    00   Introduction of the box and Nard. This is displayed when the player never spoke to Nard or his box.
+//    00   Introduction of the boxes and Nard. This is displayed when the player never spoke to Nard or his box.
 //    01   Nard spoke and gave access to the outdoor of the ship.
 //    02   Completed the quest.
 //    03   Opened the chest and finished the introduction.
 //    10   Never talked with Gugli.
 //    11   Gugli gives you the task.
-//    12   Gave all of the box to Gugli.
+//    12   Gave all of the boxes to Gugli.
 
 000-2-3.gat,25,26,0,1	script	Nard	306;5,{
 
@@ -89,7 +89,7 @@ l_NeedContent:
     next;
     mesq l("What? It's not a good reward?"); 
     next;
-    mesq l("Oh well. I'll also give you one of these hats from the box around you, but only after you complete your task!"); 
+    mesq l("Oh well. I'll also give you one of these hats from the box near you, but only after you complete your task!"); 
     next;
     mesq l("I give you this key, it opens any doors on this ship.");
     next;
