@@ -78,7 +78,9 @@ Example:
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim">
         <sprite>monsters/blub-little.xml</sprite>
         <sprite>accessories/littleblub-tentacle.xml</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
 <!--<monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
