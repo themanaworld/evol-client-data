@@ -58,27 +58,38 @@
     next;
     mesq lg("You have been so nice to me. So please, take one.");
     next;
-    
+
+    if (checkweight("CroconutBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;
     
     mes "";
     mesn;
     mesq l("Good luck! And don't forget to visit Peter and our little friends when you will be back onboard!");
+
     close;
 
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more box yet.");
+    next;
+    mesq lg("Just come back to me once you'll have some more free place.");
+
+    close;
 
 l_Whyning:
     mes "";
     mesn;
     mesq l("Then just leave me alone.");
+
     close;
 
 l_CallFunc:
     callfunc "SailorFood";
 
-    menu  
-        rif(getq(ShipQuests_Astapolos) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+    menu
+        rif(getq(ShipQuests_Astapolos) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("How are things going?"), l_HowAreYou,
         l("Who are you?"), l_Who;
 
@@ -142,6 +153,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("Just leave me alone.");
+
     close;
 
 }
