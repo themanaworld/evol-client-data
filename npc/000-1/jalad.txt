@@ -22,9 +22,7 @@
 
     menu
         l("I was going to ask you if you would need any help."), l_Continue,
-        l("What is exactly your real job?"), l_Job;
-
-l_Job:
+        l("What is exactly your real job?"), -;
 
     mes "";
     mesn;
@@ -34,28 +32,28 @@ l_Job:
     next;
     
     menu
-        l("I will surely visit him. Do you need any help with your boxes?"), l_Continue;
-
-l_Continue:
+        l("I will surely visit him. Do you need any help with your boxes?"), -;
 
     mes "";
     mesn;
     mesq l("Surely. Take this box full of @@s.", getitemlink("Plushroom"));
     next;
 
+    if (checkweight("PlushroomBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_Jalad, 1;
     getitem "PlushroomBox", 1;
 
     mes "";
     mesn;
     mesq l("They are so tasty when cooked together with some @@. Don't drop any of them!", getitemlink("Piou Legs"));
+
     close;
 
 l_CallFunc:
     callfunc "SailorFood";
 
     menu
-        rif(getq(ShipQuests_Jalad) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_Jalad) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("What's that?"), l_Plushroom;
 
     mes "";
@@ -70,6 +68,15 @@ l_CallFunc:
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
+
+    close;
+
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more box yet.");
+    next;
+    mesq lg("Just come back to me once you'll have some more free place.");
 
     close;
 
@@ -106,6 +113,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("Sometimes, I wish somebody is sent here to help us.");
+
     close;
 
 }

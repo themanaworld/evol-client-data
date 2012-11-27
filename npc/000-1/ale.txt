@@ -31,19 +31,21 @@
     mesq l("Hmm... Let's see, take this one.");
     next;
 
+    if (checkweight("AquadaBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;
 
     mes "";
     mesn;
     mesq l("I will take care of the other ones don't worry.");
-    next;
+
+    close;
 
 l_CallFunc:
     callfunc "SailorFood";
 
     menu
-        rif(getq(ShipQuests_Ale) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_Ale) == 1 && (getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("What's that?"), l_Plushroom;
 
     mes "";
@@ -58,6 +60,15 @@ l_CallFunc:
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
+
+    close;
+
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more box yet.");
+    next;
+    mesq lg("Just come back to me once you'll have some more free place.");
 
     close;
 
@@ -94,6 +105,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("Ouch... These boxes are so heavy!");
+
     close;
 
 }
