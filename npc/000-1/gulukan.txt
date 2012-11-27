@@ -15,13 +15,13 @@
     if (@q == 1) goto l_Func;
 
     mesn;
-    mesq l("Hey @@!", strcharinfo(0));
+    mesq l("Yeye @@!", strcharinfo(0));
     next;
-    mesq l("How are you feeling, now that you walk on steady land? Better?");
+    mesq l("How are you feeying, now that you walk on steady land? Yeye better?");
     next;
 
     menu
-        l("Wow, it seems everyone knows my name!"), l_Name,
+        l("Wow, it seems everyone knows my name!"), -,
         l("Well, it isn't a bad sensation to finally feel something beneath my feet."), l_Continue,
         l("Not so good. I would feel better on Nard's ship."), close;
 
@@ -29,16 +29,17 @@ l_Name:
 
     mes "";
     mesn;
-    mesq l("You know, sailors love to chat while working.");
+    mesq l("You know, yeyes love to chat while working.");
     next;
 
-    goto l_Continue;
+goto l_Continue2;
 
 l_Continue:
-
     mes "";
     mesn;
-    mesq l("Are you here to explore the island?");
+
+l_Continue2:
+    mesq l("Are you yaying here to explore the island?");
     next;
 
     menu
@@ -47,20 +48,20 @@ l_Continue:
 
     mes "";
     mesn;
-    mesq l("Gugli? Oh I see. Yes, he is pretty used to shout orders to everybody down here.");
+    mesq l("Gugli? Oh I see. Yes, Gugli yeye pretty used to shout orders to everybody down here.");
     next;
-    mesq l("Anyway I am glad I can give you some of these @@s.", getitemlink("Croconut"));
+    mesq l("Anyway I am glad I can give you some of these yoyoxs.");
     next;
 
+    if (checkweight("CroconutBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_Gulukan, 1;
     getitem "CroconutBox", 1;
     
     mes "";
     mesn;
     mesq l("Thank you my friend.");
+
     close;
-    
-// And here too.
 
 l_Func:
     mesn;
@@ -107,7 +108,7 @@ l_RandomC:
     next;
 
     menu  
-        rif(getq(ShipQuests_Gulukan) == 1, l("I'm still busy, I need to find the other sailors.")), -;
+        rif(getq(ShipQuests_Gulukan) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -;
 
     mes "";
     mesn;
@@ -121,6 +122,15 @@ l_RandomC:
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
+
+    close;
+
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more yoyox yet.");
+    next;
+    mesq lg("Yoiis should come back to me once yey'll have some more free place.");
 
     close;
 
@@ -144,6 +154,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("*uff*... And another box of @@s for our starving colleagues is ready.", getitemlink("Croconut")); 
+
     close;
 
 }
