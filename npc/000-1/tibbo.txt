@@ -40,6 +40,7 @@
     mesq l("Bring this box to Gugli. He will be extremely happy!");
     next;
 
+    if (checkweight("AquadaBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_Tibbo, 1;
     getitem "AquadaBox", 1;
 
@@ -52,7 +53,7 @@ l_CallFunc:
     callfunc "SailorFood";
 
     menu
-        rif(getq(ShipQuests_Tibbo) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_Tibbo) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("What's that food?"), l_Aquada;
 
     mes "";
@@ -70,12 +71,22 @@ l_CallFunc:
 
     close;
 
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more box yet.");
+    next;
+    mesq lg("Just come back to me once you'll have some more free place.");
+
+    close;
+
 l_Top:
     mes "";
     mesn;
     mesq l("I've seen him at the top of the island.");
     next;
     mesq l("You should walk to the north to find him.");
+
     close;
 
 l_Aquada:

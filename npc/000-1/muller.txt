@@ -43,19 +43,21 @@
     mesq l("Well then... Take this one!");
     next;
 
+    if (checkweight("PlushroomBox", 1) == 0) goto l_CantGive;    
     setq ShipQuests_QMuller, 1;
     getitem "PlushroomBox", 1;
 
     mes "";
     mesn;
     mesq l("And now I want to see you run!");
+
     close;
 
 l_CallFunc:
     callfunc "SailorFood";
 
     menu
-        rif(getq(ShipQuests_QMuller) == 1, l("I'm still busy, I need to find the other sailors.")), -,
+        rif(getq(ShipQuests_QMuller) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("What's that?"), l_Plushroom;
 
     mes "";
@@ -73,6 +75,15 @@ l_CallFunc:
 
     close;
 
+l_CantGive:
+    mes "";
+    mesn;
+    mesq l("It seems that you can't carry more box yet.");
+    next;
+    mesq lg("Just come back to me once you'll have some more free place.");
+
+    close;
+
 l_Bottom:
     mes "";
     mesn;
@@ -86,6 +97,7 @@ l_Top:
     mesq l("I've seen him at the top of the island.");
     next;
     mesq l("You should walk to the north.");
+
     close;
 
 l_Plushroom:
@@ -103,6 +115,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("You see? I'm working here!");
+
     close;
 
 }
