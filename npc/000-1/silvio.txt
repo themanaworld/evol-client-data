@@ -15,7 +15,7 @@
 
     menu
         l("Hello... Do I know you?"), -,
-        l("Find, could you tell me where I can find Gugli's sailors?"), l_Sailors,
+        l("Fine, could you tell me where I can find Gugli's sailors?"), l_Sailors,
         l("Uhm, bye."), l_Quit;
 
     mes "";
@@ -140,12 +140,12 @@ l_Quit:
 l_Sailors:
     mes "";
     mesn;
-    mesq l("What? Why? They aren't more sexy than me, why do you want to see them?.");
+    mesq l("What? Why? They aren't more sexy than me, why do you want to see them?");
     next;
     mesq l("And what do you give me against these informations?");
     next;
 
-    setcamnpc "Sapartan";
+    setcamnpc "Gugli";
 
     mesn "Gugli";
     mesq g(l("Don't bother her Silvio, or I'll need to tell her that you cry like a baby when you hear a thunder in the night."),
