@@ -15,6 +15,7 @@
 
     menu
         l("Hello... Do I know you?"), -,
+        l("Find, could you tell me where I can find Gugli's sailors?"), l_Sailors,
         l("Uhm, bye."), l_Quit;
 
     mes "";
@@ -133,6 +134,44 @@ l_Quit:
     mes "";
     mesn;
     mesq l("Give me a kiss before you say goodbye!");
+
+    close;
+
+l_Sailors:
+    mes "";
+    mesn;
+    mesq l("What? Why? They aren't more sexy than me, why do you want to see them?.");
+    next;
+    mesq l("And what do you give me against these informations?");
+    next;
+
+    setcamnpc "Sapartan";
+
+    mesn "Gugli";
+    mesq g(l("Don't bother her Silvio, or I'll need to tell her that you cry like a baby when you hear a thunder in the night."),
+           l("Don't bother him Silvio, or I'll need to tell him that you cry like a baby when you hear a thunder in the night."));
+    next;
+    restorecam;
+
+    mesn;
+    mesq l("I...");
+    next;
+    mesq l("How could you... We said that we won't talk about this again...");
+    next;
+    mesq l("Tibbo is gone to the east-south part of the island, others are gone to the north, and I think that Gulukan is not so far from here.");
+    next;
+    mesq l("But anyway, take the road which goes to the north to find everybody.");
+    next;
+    mesq l("Now, leave me alone...");
+    next;
+
+    menu
+        l("See you."), close,
+        l("*Imitate a thunder's sound.*"), -;
+
+    mes "";
+    mesn;
+    mesq l("Aaaaaahhhhhh!");
 
     close;
 

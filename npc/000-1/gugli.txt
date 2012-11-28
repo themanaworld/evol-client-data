@@ -32,7 +32,7 @@ OnTalk:
     if (@nard > 1 || @gugli == 2) goto l_TaskCompleted;
     if (@gugli == 1) goto l_TaskGiven;
 
-    mesq lg("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
+    mesq l("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
     next;
     mesq l("An unexpected help is always welcome!");
     next;
@@ -81,6 +81,7 @@ l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
+        l("Who should I search?"), l_SailorNames,
         l("Where can I find your crew?"), l_Location,
         l("See you!"), close;
 
@@ -89,6 +90,13 @@ l_MenuDone:
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         l("I have collected all the boxes you needed."), l_TaskDone,
         l("See you!"), close;
+
+l_SailorNames:
+    mes "";
+    mesn;
+    mesq l("Ale and Tibbo should bring 2 boxes of @@, Astapolos and Gulukan 2 of @@ and Jalad and Q'Muller were charged of the boxes of @@.", getitemlink("Aquada"), getitemlink("Croconut"), getitemlink("Plushroom"));
+    next;
+    mesq l("Do you need any other information?");
 
 l_CollectSmthing:
     mes "";
