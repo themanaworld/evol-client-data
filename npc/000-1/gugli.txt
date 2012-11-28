@@ -80,7 +80,7 @@ l_TaskGiven:
 l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
-        rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some boxes for you.")), l_CollectSmthing,
+        rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
         l("Where can I find your crew?"), l_Location,
         l("See you!"), close;
 
@@ -95,15 +95,13 @@ l_CollectSmthing:
     mesn;
     mesq l("Good job!");
     next;
-    mesq l("I'll take all of these boxes.");
-    next;
 
     if (countitem("AquadaBox") == 2) delitem "AquadaBox", 2;
-    if (countitem("CroconutBox") == 2) delitem "AquadaBox", 2;
-    if (countitem("PlushroomBox") == 2) delitem "AquadaBox", 2;
+    if (countitem("CroconutBox") == 2) delitem "CroconutBox", 2;
+    if (countitem("PlushroomBox") == 2) delitem "PlushroomBox", 2;
     if (countitem("AquadaBox") == 1) delitem "AquadaBox", 1;
-    if (countitem("CroconutBox") == 1) delitem "AquadaBox", 1;
-    if (countitem("PlushroomBox") == 1) delitem "AquadaBox", 1;
+    if (countitem("CroconutBox") == 1) delitem "CroconutBox", 1;
+    if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
 
     mesq l("You still need to give me boxes from: ");
     if (getq(ShipQuests_Astapolos) == 0), l("- Astapolos");
@@ -173,11 +171,11 @@ l_Lean:
 
 l_TaskDone:
     if (countitem("AquadaBox") == 2) delitem "AquadaBox", 2;
-    if (countitem("CroconutBox") == 2) delitem "AquadaBox", 2;
-    if (countitem("PlushroomBox") == 2) delitem "AquadaBox", 2;
+    if (countitem("CroconutBox") == 2) delitem "CroconutBox", 2;
+    if (countitem("PlushroomBox") == 2) delitem "PlushroomBox", 2;
     if (countitem("AquadaBox") == 1) delitem "AquadaBox", 1;
-    if (countitem("CroconutBox") == 1) delitem "AquadaBox", 1;
-    if (countitem("PlushroomBox") == 1) delitem "AquadaBox", 1;
+    if (countitem("CroconutBox") == 1) delitem "CroconutBox", 1;
+    if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
     setq ShipQuests_Gugli, 2;
 
     mesq l("Well done! The ship is now ready to sail again!");
