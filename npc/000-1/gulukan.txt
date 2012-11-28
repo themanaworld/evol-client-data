@@ -107,7 +107,8 @@ l_RandomC:
     mesq l("And you? How's it yaying on your side?");
     next;
 
-    menu  
+    menu
+        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), l_TaskDone,
         rif(getq(ShipQuests_Gulukan) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -;
 
     mes "";
@@ -154,6 +155,13 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("*uff*... And another box of @@s for our starving colleagues is ready.", getitemlink("Croconut")); 
+
+    close;
+
+l_TaskDone:
+    mes "";
+    mesn;
+    mesq l("That's perfect, yoiis.");
 
     close;
 

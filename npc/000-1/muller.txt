@@ -57,6 +57,7 @@ l_CallFunc:
     callfunc "SailorFood";
 
     menu
+        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), l_TaskDone,
         rif(getq(ShipQuests_QMuller) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
         l("What's that?"), l_Plushroom;
 
@@ -115,6 +116,13 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("You see? I'm working here!");
+
+    close;
+
+l_TaskDone:
+    mes "";
+    mesn;
+    mesq l("That's good to hear!");
 
     close;
 
