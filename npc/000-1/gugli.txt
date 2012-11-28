@@ -112,12 +112,12 @@ l_CollectSmthing:
     if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
 
     mesq l("You still need to give me boxes from: ");
-    if (getq(ShipQuests_Astapolos) == 0), l("- Astapolos");
-    if (getq(ShipQuests_Ale) == 0), l("- Ale");
-    if (getq(ShipQuests_Gulukan) == 0), l("- Gulukan");
-    if (getq(ShipQuests_Jalad) == 0), l("- Jalad");
-    if (getq(ShipQuests_QMuller) == 0), l("- QMuller");
-    if (getq(ShipQuests_Tibbo) == 0), l("- Tibbo");
+    if (getq(ShipQuests_Astapolos) == 0), mesq l("- Astapolos");
+    if (getq(ShipQuests_Ale) == 0), mesq l("- Ale");
+    if (getq(ShipQuests_Gulukan) == 0), mesq l("- Gulukan");
+    if (getq(ShipQuests_Jalad) == 0), mesq l("- Jalad");
+    if (getq(ShipQuests_QMuller) == 0), mesq l("- QMuller");
+    if (getq(ShipQuests_Tibbo) == 0), mesq l("- Tibbo");
 
     close;
 
