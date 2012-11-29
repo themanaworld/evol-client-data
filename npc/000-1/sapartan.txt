@@ -1,13 +1,99 @@
 // Evol scripts.
 // Author:
-//    Reid
+//    Hal9000
 // Description:
-//    Friend of Max, he gives some information about Artis.
+//    Friend of Max, he gives some information on combat system.
 
 000-1.gat,73,110,0,1	script	Sapartan	314;2,{
 
     mesn;
-    mesq l(".");
+    mesq l("Hey Max, it's @@!", strcharinfo(0));
+    next;
+
+    setcamnpc "Max";
+
+    mesn "Max";
+    mesq l("@@? Welcome my dear!", strcharinfo(0));
+    next;
+    mesq l("Last time I have seen you, you were lost in the sea on your raft.");
+    next;
+
+    setcamnpc "Sapartan";
+
+    mesn;
+    mesq g(l("True but now she seems pretty fine! Am I right?"),
+           l("True but now he seems pretty fine! Am I right?"));
+    next;
+
+    menu
+        l("Thank you sir for you nice words, I'm feeling good."), -,
+        l("I'm still a bit weak at the moment. Better if we talk later."), close;
+
+    mes "";
+    mesn;
+    mesq l("So now you can stay a bit here with your new friends enjoying the warm sands of this little island.");
+    next;
+    mesq l("But remember that not every place in this world is peaceful and safe nowadays. Even the white shores you are walking on can hide some dangerous beings.");
+    next;
+
+    menu
+        l("What danger?! Where?!"), -;
+
+    setcamnpc "Max";
+
+    mes "";
+    mesn "Max";
+    mesq l("Come on Sap! You are scaring our guest with your stories.");
+    next;
+    mesq g(l("I'm sure soon she will be able to fight creatures a way more dangerous of tortugas living in this island."),
+           l("I'm sure soon he will be able to fight creatures a way more dangerous of tortugas living in this island."));
+    next;
+
+    setcamnpc "Sapartan";
+
+    mes "";
+    mesn;
+    mesq l("Maybe. But I prefer having well-trained people around me when it comes to deal with dangerous creatures. Do you feel already expert on how to fight enemies?");
+    next;
+
+    menu
+        l("No I don't and I would like to know somethingh more."), -,
+        l("No I've just killed some little Pious in the ship."), -,
+        l("Yes, I feel I'm trained enough for combat."), close;
+
+    mes "";
+    mesn;
+    mesq l("Than I can give you some tips about it.");
+    next;
+    mesq l("First rule in combat: evaluate your enemy.");
+    next;
+    mesq l("You can find monsters which are easy to kill and others that are just impossible to defeat. Do not dare to much with creatures are too powerful for you... You'll risk your life.");
+    next;
+    mesq l("Second. Choose the weapon is suited for you. Some people like to face their enemy closely with an heavy axe, others prefer to attack from the distance with a bow.");
+    next;
+
+    menu
+        l("What is the difference?"), -;
+
+    mes "";
+    mesn;
+    mesq l("Ranged weapons are generally weaker than melee ones, but it obviously depends on the level of the weapon. On the other hand you attack from a safer position.");
+    next;
+    mesq l("After you have chosen the right weapon you need also to know how to use it.");
+    next;
+    mesq l("You can attack a monster by clicking directly on it. Once selected you will notice a bar near your target that shows you how much health it has.");
+    next;
+    mesq l("You can also attack an enemy from your keyboard pressing the 'A' key to select it, and the 'Ctrl' key to attack it.");
+    next;
+
+    menu
+        l("Thank you for your tricks. I am going to try them now!"), -,
+        l("I already know everything. Bye."), close;
+
+    mes "";
+    mesn;
+    mesq l("You're welcome. If you don't remember something, come back to us!");
+    next;
 
     close;
 
