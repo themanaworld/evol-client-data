@@ -169,6 +169,8 @@ l_GiveFood:
 
 l_GiveReward:
     if (countitem(@id) < 1) close;
+    getinventorylist;
+    if ((checkweight("Piberries", 3) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     delitem @id, 1;
 
     mes "";
@@ -177,6 +179,15 @@ l_GiveReward:
 
     setq ShipQuests_Alige, 3;
     getitem "Piberries", rand(1,3);
+    close;
+
+l_Inventory;
+    mes "";
+    mesn;
+    mesq l("It looks like you can't carry anything else for now.");
+    next;
+    mesq l("You should come back when you'll have some free space.");
+
     close;
 
 l_NoReward:
@@ -230,7 +241,7 @@ l_IntroMenu:
     mesn "Narrator";
     mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the A key to select the monster followed by 'Ctrl' to attack it."), 9);
     next;
-    mes col(l("Once the monster is dead, click with your mouse on the dropped item to add it to your inventory or you can use the Z key to claim the drop as well."), 9);
+    mes col(l("Once the monster is dead, click on the dropped items to add them to your inventory. You can also use the Z key to claim the drops."), 9);
 
     close;
 

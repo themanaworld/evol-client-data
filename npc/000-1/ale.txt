@@ -31,7 +31,8 @@
     mesq l("Hmm... Let's see, take this one.");
     next;
 
-    if (checkweight("AquadaBox", 1) == 0) goto l_CantGive;    
+    getinventorylist;
+    if ((checkweight("AquadaBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;
 
@@ -64,12 +65,12 @@ l_CallFunc:
 
     close;
 
-l_CantGive:
+l_Inventory;
     mes "";
     mesn;
-    mesq l("It seems that you can't carry more box yet.");
+    mesq l("It looks like you can't carry anymore of these boxes for now.");
     next;
-    mesq lg("Just come back to me once you'll have some more free place.");
+    mesq l("You should come back when you'll have some free space.");
 
     close;
 

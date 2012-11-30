@@ -59,7 +59,8 @@
     mesq lg("You have been so nice to me. So please, take one.");
     next;
 
-    if (checkweight("CroconutBox", 1) == 0) goto l_CantGive;    
+    getinventorylist;
+    if ((checkweight("CroconutBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;
     
@@ -69,12 +70,12 @@
 
     close;
 
-l_CantGive:
+l_Inventory;
     mes "";
     mesn;
-    mesq l("It seems that you can't carry more box yet.");
+    mesq l("It looks like you can't carry anymore of these boxes for now.");
     next;
-    mesq lg("Just come back to me once you'll have some more free place.");
+    mesq l("You should come back when you'll have some free space.");
 
     close;
 

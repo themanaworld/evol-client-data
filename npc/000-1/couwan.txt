@@ -44,6 +44,8 @@
     mesq l("Yeye ask too much but do too less. Take this box and stop talking.");
     next;
 
+    getinventorylist;
+    if ((checkweight("FishBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     mesn "Narrator";
     mes col(l("Couwan hands you a box full of fish."), 9);
     getitem "FishBox", 1;
@@ -74,6 +76,15 @@ l_QuestGiven:
     mesq l("What are you looking at?");
     next;
     mesq l("Yeye still have my box? Stare less and work more. Go give it to Gugli!");
+
+    close;
+
+l_Inventory;
+    mes "";
+    mesn;
+    mesq l("Yeye can't even carry one of these yoyoxes!");
+    next;
+    mesq l("Yeye should come back when yey'll have some free space.");
 
     close;
 

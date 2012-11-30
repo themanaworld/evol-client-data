@@ -43,7 +43,8 @@
     mesq l("Well then... Take this one!");
     next;
 
-    if (checkweight("PlushroomBox", 1) == 0) goto l_CantGive;    
+    getinventorylist;
+    if ((checkweight("PlushroomBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;   
     setq ShipQuests_QMuller, 1;
     getitem "PlushroomBox", 1;
 
@@ -76,12 +77,12 @@ l_CallFunc:
 
     close;
 
-l_CantGive:
+l_Inventory;
     mes "";
     mesn;
-    mesq l("It seems that you can't carry more box yet.");
+    mesq l("It looks like you can't carry anymore of these boxes for now.");
     next;
-    mesq lg("Just come back to me once you'll have some more free place.");
+    mesq l("You should come back when you'll have some free space.");
 
     close;
 
@@ -122,7 +123,7 @@ l_NoTask:
 l_TaskDone:
     mes "";
     mesn;
-    mesq l("That's good to hear!");
+    mesq l("Good to hear!");
 
     close;
 

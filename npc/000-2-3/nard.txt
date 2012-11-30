@@ -96,6 +96,8 @@ l_NeedContent:
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
+    getinventorylist;
+    if ((checkweight("JohanneKey", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Nard, 1;
     getitem "JohanneKey", 1;
 
@@ -180,6 +182,8 @@ l_ChefQuestComplete:
     mesq l("You are now officially part of my crew! Thanks again for your help.");
     next;
 
+    getinventorylist;
+    if ((checkweight("Bandana", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Nard, 4;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
@@ -190,6 +194,15 @@ l_ChefQuestComplete:
     mes col(l("We hope you liked this introduction and to see you again in our future releases!"), 9);
     next;
     mes col(l("The adventure begins!"), 9);
+
+    close;
+
+l_Inventory;
+    mes "";
+    mesn;
+    mesq l("It looks like you can't carry anything else for now.");
+    next;
+    mesq l("You should come back when you'll have some free space.");
 
     close;
 

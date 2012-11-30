@@ -141,7 +141,7 @@ l_WhereIam:
     mesn;
     mesq l("You're on a ship, we're on our way to the commercial capital of Artis.");
     next;
-    mesq l("We should be there in a few days, once we arrive, I will warn the warrior guild about what happened, I'm sure they can help.");
+    mesq l("We should be there in a few days, once we arrive, I will warn the Warrior Guild about what happened, I'm sure they can help.");
     next;
     mesq l("But for now, you can relax on the ship, or visit the island we're docked at! Its a small island, but a good place to get some exercise and stretch your legs.");
     next;
@@ -157,7 +157,7 @@ l_What:
     next;
     mesq lg("You were in bad shape, you should be happy we found you before the sea killed you.");
     next;
-    mesq l("Oh, and there was this inscription on your raft. It represents one of the warrior guild of Esperia, the largest and biggest guild of the whole new world. Does that make you remember anything, anything at all?");
+    mesq l("Oh, and there was this inscription on your raft. It represents the Warrior Guild of Esperia, the largest and biggest guild of the whole new world. Does that make you remember anything, anything at all?");
     next;
     goto l_EsperiaMenu;
 
@@ -209,7 +209,7 @@ l_Regret:
     next;
 
     menu
-        l("Ehm... He was really upset for some past stories."), -;
+        l("Ehm... He was really upset because of some past stories."), -;
 
     mes "";
     mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");

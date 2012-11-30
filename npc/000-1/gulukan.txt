@@ -22,8 +22,8 @@
 
     menu
         l("Wow, it seems everyone knows my name!"), -,
-        l("Well, it isn't a bad sensation to finally feel something beneath my feet."), l_Continue,
-        l("Not so good. I would feel better on Nard's ship."), close;
+        l("Well, it it's not bad to finally feel something beneath my feet."), l_Continue,
+        l("Not so good actually... I would feel better on Nard's ship."), close;
 
 l_Name:
 
@@ -53,7 +53,8 @@ l_Continue2:
     mesq l("Anyway I am glad I can give you some of these yoyoxs.");
     next;
 
-    if (checkweight("CroconutBox", 1) == 0) goto l_CantGive;    
+    getinventorylist;
+    if ((checkweight("CroconutBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Gulukan, 1;
     getitem "CroconutBox", 1;
     
@@ -126,12 +127,12 @@ l_RandomC:
 
     close;
 
-l_CantGive:
+l_Inventory;
     mes "";
     mesn;
-    mesq l("It seems that you can't carry more yoyox yet.");
+    mesq l("It looks like you can't carry anymore of these yoyox for now.");
     next;
-    mesq lg("Yoiis should come back to me once yey'll have some more free place.");
+    mesq l("Yoiis should come back when yey'll have some free space.");
 
     close;
 

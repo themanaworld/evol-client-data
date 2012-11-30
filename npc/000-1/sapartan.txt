@@ -13,9 +13,9 @@
     setcamnpc "Max";
 
     mesn "Max";
-    mesq l("@@? Welcome my dear!", strcharinfo(0));
+    mesq lg("@@? Welcome my dear!", strcharinfo(0));
     next;
-    mesq l("Last time I have seen you, you were lost in the sea on your raft.");
+    mesq lg("Last time I saw you, you were lost in the sea on your raft.");
     next;
 
     setcamnpc "Sapartan";
@@ -26,12 +26,12 @@
     next;
 
     menu
-        l("Thank you sir for you nice words, I'm feeling good."), -,
-        l("I'm still a bit weak at the moment. Better if we talk later."), close;
+        l("Thank you sir for you nice words. I am feeling better now."), -,
+        lg("I'm still a bit weak at the moment. We should probably talk later."), close;
 
     mes "";
     mesn;
-    mesq l("So now you can stay a bit here with your new friends enjoying the warm sands of this little island.");
+    mesq l("You can now stay with your new friends and enjoy the warm sand of this little island.");
     next;
     mesq l("But remember that not every place in this world is peaceful and safe nowadays. Even the white shores you are walking on can hide some dangerous beings.");
     next;
@@ -43,47 +43,47 @@
 
     mes "";
     mesn "Max";
-    mesq l("Come on Sap! You are scaring our guest with your stories.");
+    mesq lg("Come on Sap! You are scaring our guest with your stories.");
     next;
-    mesq g(l("I'm sure soon she will be able to fight creatures a way more dangerous of tortugas living in this island."),
-           l("I'm sure soon he will be able to fight creatures a way more dangerous of tortugas living in this island."));
+    mesq g(l("I'm sure she will soon be able to fight creatures living here a way more dangerous than tortugas do."),
+           l("I'm sure he will soon be able to fight creatures living here a way more dangerous than tortugas do"));
     next;
 
     setcamnpc "Sapartan";
 
     mes "";
     mesn;
-    mesq l("Maybe. But I prefer having well-trained people around me when it comes to deal with dangerous creatures. Do you feel already expert on how to fight enemies?");
+    mesq l("Maybe... But I prefer having well-trained people around me when it comes to fight against dangerous creatures. Do you already feel expert on how you fight enemies?");
     next;
 
     menu
-        l("No I don't and I would like to know somethingh more."), -,
-        l("No I've just killed some little Pious in the ship."), -,
-        l("Yes, I feel I'm trained enough for combat."), close;
+        l("No, I don't, but I would like to know more about that."), -,
+        l("Well... I've only killed some little pious in the ship, that's all."), -,
+        l("Yes, I feel strong enough for dangerous combats!"), close;
 
     mes "";
     mesn;
-    mesq l("Than I can give you some tips about it.");
+    mesq l("Then I can give you some tips about fights.");
     next;
-    mesq l("First rule in combat: evaluate your enemy.");
+    mesq l("The first thing you should do is to evaluate your enemy.");
     next;
-    mesq l("You can find monsters which are easy to kill and others that are just impossible to defeat. Do not dare to much with creatures are too powerful for you... You'll risk your life.");
+    mesq l("You can easily see if a monster is easy to kill or just impossible to defeat. Do not try against creatures that are way more powerful than you... You'd be risking your life for nothing.");
     next;
-    mesq l("Second. Choose the weapon is suited for you. Some people like to face their enemy closely with an heavy axe, others prefer to attack from the distance with a bow.");
+    mesq l("Secondly, choose wisely which weapon is suited for you. Some people like to face their enemies closely with a heavy axe, some others prefer to attack from a distance with a bow for example.");
     next;
 
     menu
-        l("What is the difference?"), -;
+        l("Yeah, well what's the difference?"), -;
 
     mes "";
     mesn;
-    mesq l("Ranged weapons are generally weaker than melee ones, but it obviously depends on the level of the weapon. On the other hand you attack from a safer position.");
+    mesq l("On one hand, ranged weapons are generally weaker than melee ones, but it obviously depends on the level of the weapon. On the other hand, you attack from a safer position.");
     next;
-    mesq l("After you have chosen the right weapon you need also to know how to use it.");
+    mesq l("After choosing your weapon, you also need to know how to use it.");
     next;
-    mesq l("You can attack a monster by clicking directly on it. Once selected you will notice a bar near your target that shows you how much health it has.");
+    mesq l("You can attack a monster by clicking directly on it. Once selected, you may notice a bar near your target showing you how much health it has left.");
     next;
-    mesq l("You can also attack an enemy from your keyboard pressing the 'A' key to select it, and the 'Ctrl' key to attack it.");
+    mesq l("You can also attack an enemy from your keyboard pressing the 'A' key to select it, and the 'Ctrl' key to attack it, this of course works if you didn't change your keyboard keys yet.");
     next;
 
     menu
@@ -92,7 +92,7 @@
 
     mes "";
     mesn;
-    mesq l("You're welcome. If you don't remember something, come back to us!");
+    mesq l("You're welcome. If you can't remember something, just come back here!");
     next;
 
     close;

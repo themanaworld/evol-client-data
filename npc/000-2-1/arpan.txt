@@ -108,11 +108,11 @@ OnClothNotTaken:
 
 OnEquip:
     mesn "Narrator";
-    mes col(l("If you would like to open your inventory use the F3 key or use your mouse to select it in the above menu in your client."), 9);
+    mes col(l("To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
-    mes col(l("Once you're inside of your inventory, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by clicking on 'unequip'."), 9);
+    mes col(l("When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'."), 9);
     next;
-    mes col(l("Certain items perform different effects. Some will heal you, some you may use as weapons or armor, and some can be sold for gold."), 9);
+    mes col(l("Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold."), 9);
 
     close;
 
@@ -153,7 +153,7 @@ l_Where:
     next;
     mesq l("We will be yaying there in a few days, so we will drop you off there.");
     next;
-    mesq l("You will see, citizens are polite and you can still ask for help in the warrior guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
+    mesq l("You will see, citizens are polite and you can still ask for help in the Warrior Guild. They can help find a job for you or maybe help you find out what happened to you out at sea!");
     next;
 
     goto l_Menu;
@@ -200,11 +200,11 @@ l_WhatCloth:
     next;
 
     mesn "Narrator";
-    mes col(lg("To open your inventory, use the F3 key or use your mouse in the above menu of your client."), 9);
+    mes col(l("To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
-    mes col(lg("When your inventory will be opened, you may equip the item by selecting it and clicking 'Equip'. Alternately, you can unequip an item by selecting 'Unequip' to remove it."), 9);
+    mes col(l("When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'."), 9);
     next;
-    mes col(lg("Items perform different effects. Some will heal you, some you may use as weapons or armor and some can be sold for gold."), 9);
+    mes col(l("Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold."), 9);
     next;
 
 l_BeforeMenu:

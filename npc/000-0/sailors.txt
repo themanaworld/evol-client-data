@@ -18,11 +18,11 @@ OnTouch:
     next;
     mes col(l("You realize you can't remember anything."), 9);
     next;
-    mes col(l("Suddenly, you hear a voice from the sky."), 9);
+    mes col(l("Suddenly, you hear a voice up in the sky."), 9);
     next;
     mes col(l("As you open your eyes, you see a large ship before you."), 9);
     next;
-    mes col(l("Aboard stand sailors trying to talk to you."), 9);
+    mes col(l("Aboard stand sailors trying to communicate with you."), 9);
     next;
 
     mesn "Orc Voice";
@@ -38,8 +38,8 @@ OnTouch:
     next;
 
     mesn "Raijin Voice";
-    mesq g(l("You stupid, she's english, look at the shape of the head."),
-           l("You stupid, he's english, look at the shape of the head."));
+    mesq g(l("You stupid, she's english, look at the shape of her head."),
+           l("You stupid, he's english, look at the shape of his head."));
     next;
     mesq l("Hey you! Can you hear us? Are you okay?");
     next;

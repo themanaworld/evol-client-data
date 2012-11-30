@@ -63,6 +63,8 @@
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
+    getinventorylist;
+    if ((checkweight("JohanneKey", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Nard, 1;
     getitem "JohanneKey", 1;
 
@@ -84,9 +86,20 @@ l_Give:
     mesn "Nard";
     mesq l("You are now part of the crew. Thanks again for your help.");
 
+    getinventorylist;
+    if ((checkweight("Bandana", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
     setq ShipQuests_Nard, 3;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
+
+    close;
+
+l_Inventory;
+    mes "";
+    mesn;
+    mesq l("It looks like you can't carry anything else for now.");
+    next;
+    mesq l("You should come back when you'll have some free space.");
 
     close;
 
