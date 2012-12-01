@@ -25,27 +25,20 @@
     close;
 
 l_Give:
-    getinventorylist;
-    if ((checkweight("Knife", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
-    setq ShipQuests_Knife, 1;
-    getitem "Knife", 1;
-
     mes "";
+    set @item, 3500;
+    set @count, 3;
+    getinventorylist;
+    callfunc "InventoryPlace", @item, @count;
+
+    getitem "Knife", 3;
+
     mesn "Narrator";
     mes col(l("To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client."), 9);
     next;
     mes col(l("When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'."), 9);
     next;
     mes col(l("Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold."), 9);
-
-    close;
-
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("It looks like you can't carry anything else for now.");
-    next;
-    mesq l("You should come back when you'll have some free space.");
 
     close;
 
