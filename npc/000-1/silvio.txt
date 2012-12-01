@@ -16,7 +16,6 @@
     menu
         l("Hello... Do I know you?"), -,
         rif(getq(ShipQuests_Gugli) > 0, l("Fine, could you please tell me where I can find Gugli's sailors?")), l_Sailors,
-        l(""), l_Sailors,
         l("Uhm, bye."), l_Quit;
 
     mes "";
