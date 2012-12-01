@@ -15,7 +15,7 @@ function	script	InventoryPlace	{
     set @iteminfo, getiteminfo(@item,2);
     set @countitem, countitem(@item);
 
-    if (checkweight("@item", "@count") == 0) goto l_Warn;
+    if (checkweight(@item, @count) == 0) goto l_Warn;
     if ((@iteminfo < 4) && (@countitem == 0) && (@inventorylist_count < 100)) return;
     if ((@iteminfo < 4) && (@countitem > 0)) return;
     if (@inventorylist_count + @count <= 100) return;
