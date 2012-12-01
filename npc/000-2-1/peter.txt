@@ -33,7 +33,7 @@
 // [8] = Shows how many seconds passed since ratto number 4 died.
 // [9] = Shows how many seconds passed since the player started the quest.
 
-000-2-1.gat,71,34,0,1	script	AreaNPC	0,0,1,{
+000-2-1.gat,72,34,0,1	script	AreaNPC	0,0,1,{
 
 OnTouch:
     if (BaseLevel < 5) goto L_Stop;
@@ -107,7 +107,7 @@ OnTooWeak:
     goto L_Close;
 
 OnStop:
-    warp "000-2-1",71,36;
+    warp "000-2-1",72,36;
 
     mesn;
     mesq l("You can't go there!");
@@ -224,7 +224,7 @@ OnDontneedHelp:
 L_Timeout:
     mesn;
     mesq l("Hey! Be careful. You can't stay in this basement for so long, you're going to get sick. Come outside and take a break, maybe you can try again later.");
-    warp "000-2-1", 71, 36;
+    warp "000-2-1", 72, 36;
 
     goto L_CleaningClose;
 
@@ -238,7 +238,7 @@ L_Dead:
     goto L_CleaningEnd;
 
 L_Done:
-    warp "000-2-1", 71, 36;
+    warp "000-2-1", 72, 36;
     set @q, getq(ShipQuests_Peter);
     if (@q == 2 || @q == 4) goto L_Reward;
 
