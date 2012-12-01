@@ -27,11 +27,11 @@
 l_Give:
     mes "";
     set @item, 3500;
-    set @count, 3;
-    getinventorylist;
+    set @count, 1;
     callfunc "InventoryPlace", @item, @count;
 
-    getitem "Knife", 3;
+    setq ShipQuests_Knife, 1;
+    getitem "Knife", 1;
 
     mesn "Narrator";
     mes col(l("To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client."), 9);
