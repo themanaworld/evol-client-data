@@ -29,7 +29,7 @@
  </tileset>
  <layer name="Ground" width="93" height="59" opacity="0.99">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2YzU4CMRDHSwgSQjzwmSB68Gh8BA0P4BOINyIn4MRVH9426YRhmH4sYLpL/odfhNnu2P21O21ZGmOWAAAAAAAAAAAAAAAAAAAAAAAAasWbZZHgvQb9bBIppz+WlqVjaVsmHh77xZgckZqjK8tA8di1jPz1lHPK0VXaUo5UPxY1cHUtnIM7xRfFQs65r57l3jJsHeNi/cwcqX60a+CqKlqNIOepOTqzPDG3ff997q8T0rmL7TJzpPrRNOfO96c5nTtLxYH0Qt4cW/Z5LXzzdtw1Zy+u7dnnVD/6NfBYlZE5nTtj/7zfiiP5XbbR2u/EZ817aDz4mIRipR2e45zmDs2bseInNE9DvmNuY65z7+GUdlgVqpvc6aM51F3pgteOjwi5vnLu396Yczl/ySlf67Q56/YbQ3OoSy7m6tLUx0PztuVjbZZj6uPP5nitHIk8oXegtMNznGvPI/cXsk3I+cTHna+ej8v1j2Iyx4viXPNMfW+ibznP+fOFnNOaObM8MI8b5tbF5X5RyyVzyPHhdY/XtNLOLkW+u+RUq+faWqftS0LrY0489f9uwXloX8Kdx54/tu/ObZc7DoRh/W/amSjmPOTtnL1caj5XvcfVfneW+Gqwcw3tPZfX+Jl8ZQ5rYdvk++M5XgM5ZP2icyjV/9IOqxJ79+U5XnrnZ/KVOT5bue8D/3fk3XZELCdHznpQ2uEl87xqvQ2tnbLd3Lt1zAK5t+w++XvCJtGf0g7PcR6rH5y10Z3ymDwzxsYp9H5VrfGlHV6L3PWuyt4kVre0sc1530p7+m/ndaS0pzqNi7seq1u7zBzgemMCpwAAAAAAAAAAAAAAAABAc/gD/JkpbbxVAAA=
+   H4sIAAAAAAAAA+2Xz04CMRCHSwgaQjwASoLowaPxETQ8gE8g3giegBNXfXjbpBOGYfpvJdmt+R2+wM7uDuXr7LS7MsasAAAAAAAAAAAAAAAAAAAAAAAAdIpXyzLBWwfGWRMpp9+WnmVg6VvuPDz2gzk5IVWja8tY8XhtmfrzKeeU41q5lnKkxrHsgKtL4RxcKb4oFnLOfQ0tN5ZJ7xQXG2XmSI2j3wFXpWg9gpynanRueWRuR/544c8T0rmL7TNzpMZRm3Pn+8Oc185KcSC9kDfHjn3/Er75ddw15yDOHdj31DhGHfBYytSc186t8CX98eONiGnX78V3zXtoPvichGJtO2zinGqH6uZW8ROq05DvmNuY69x7OG07LIX6Jnf6YI59V7rgveM9Qq6vv95fo3NZv+SUr3Vazbr9xsQc+5KLub408/FQ3fZ8rM9yzHz8yZyulVORJ/QMtO2wiXPt/8j9hbwm5PzOx52voY/L9Y9iMsez4lxbl2nsNfqWdc6dxpy7z7nlnnncMrcuLveLWi6ZQ86P7Hu11rVEPru0D9H6ubbWafuS0PqYE0/93n9wHtqXcOex/x/bd+delzsPhGHjr+2dKOY85K3JXi5Vz6X3uN7v3iU+K3auoT3n8hx/J1+b41rYN/n+eI6XQA7Zv+g9lPp/2w5LiT37cr8gvfN38rU5fbdyx2P/OfVuByKWkyNnPWjb4V/qvLTfhtZOed3Cu3XMA7l3kRzbxHjadtjEeax/cDaReaHYrmCeQs9XTo/nv9O2w0uRu96V7E1ifWudea72vlLqvIu07alL8+LOx/rWPjMHuNycwCkAAAAAAAAAAAAAAAAAUA+/xuI0xrxVAAA=
   </data>
  </layer>
  <layer name="Ground2" width="93" height="59">
@@ -52,7 +52,7 @@
    H4sIAAAAAAAAA+3Y4aqDMAyGYb3/mxB6o8MfQg01bdK4qn0DD4y6Ofsl23FnW5dlAwAAAAAAAAAAAAAAAHCLvTzHZrVXKqwnQ16Rmc/Qo1pZzpHWM8s55LV8qQ+l/aTs8XHcOudRfes9zxNps3RXXrNnnu9R64VlzlvfY8bM8+/YvfK/nVH79L5ee++35t2yr5aSGdxZo/OKzF2uHfMvPwc9OUXU6Kx6ad8rpeOefKJrdGZRM361J7keMfO9pX0236Jn39r+refwXNvo7Lx5y98+2v7ye8V8vbSm9SJyHkZn+I8Zl5lqGVytWa6vdp2jM+zJXc5w7bd/LYeWxzPOuXevsldX/7/qzWq2zEv3KJY5155j7X3pnvZrmXv70tqT2bIa2RPZFwAAAAAAAAAA8Hw/jxDnBLxVAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="93" height="59" visible="0">
+ <objectgroup name="Object" width="93" height="59">
   <object name="ToLevel2" type="warp" x="2307" y="1091" width="26" height="26">
    <properties>
     <property name="dest_map" value="000-2-2"/>
