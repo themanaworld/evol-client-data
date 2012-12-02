@@ -201,15 +201,6 @@ l_ChefQuestComplete:
 
     close;
 
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("It looks like you can't carry anything else for now.");
-    next;
-    mesq l("You should come back when you'll have some free space.");
-
-    close;
-
 l_Already:
     mesn;
     mesq l("Sorry, I don't need any help right now. Come back later.");

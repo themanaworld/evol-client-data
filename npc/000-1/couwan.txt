@@ -81,15 +81,6 @@ l_QuestGiven:
 
     close;
 
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("Yeye can't even carry one of these yoyoxes!");
-    next;
-    mesq l("Yeye should come back when yey'll have some free space.");
-
-    close;
-
 l_QuestDone:
     mesn;
     mesq l("What are you looking at?");
