@@ -53,8 +53,10 @@ l_Continue2:
     mesq l("Anyway I am glad I can give you some of these yoyoxs.");
     next;
 
-    getinventorylist;
-    if ((checkweight("CroconutBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
+    set @item, 715;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
+
     setq ShipQuests_Gulukan, 1;
     getitem "CroconutBox", 1;
     
@@ -124,15 +126,6 @@ l_RandomC:
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
-
-    close;
-
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("It looks like you can't carry anymore of these yoyox for now.");
-    next;
-    mesq l("Yoiis should come back when yey'll have some free space.");
 
     close;
 

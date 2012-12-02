@@ -44,8 +44,10 @@
     mesq l("Yeye ask too much but do too less. Take this box and stop talking.");
     next;
 
-    getinventorylist;
-    if ((checkweight("FishBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
+    set @item, 713;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
+
     mesn "Narrator";
     mes col(l("Couwan hands you a box full of fish."), 9);
     getitem "FishBox", 1;

@@ -59,23 +59,16 @@
     mesq lg("You have been so nice to me. So please, take one.");
     next;
 
-    getinventorylist;
-    if ((checkweight("CroconutBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
+    set @item, 715;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
+
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;
     
     mes "";
     mesn;
     mesq l("Good luck! And don't forget to visit Peter and our little friends when you will be back onboard!");
-
-    close;
-
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("It looks like you can't carry anymore of these boxes for now.");
-    next;
-    mesq l("You should come back when you'll have some free space.");
 
     close;
 

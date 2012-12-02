@@ -22,6 +22,10 @@
 
 l_Give:
     if (@q > 1) goto l_Close;
+    set @item, 1300;
+    set @count, 2;
+    callfunc "InventoryPlace", @item, @count;
+
     setq ShipQuests_Arpan, 2;
     getitem "CreasedShirt", 1;
     getitem "CreasedShorts", 1;

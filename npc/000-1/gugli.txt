@@ -98,6 +98,8 @@ l_SailorNames:
     next;
     mesq l("Do you need any other information?");
 
+    goto l_Menu;
+
 l_CollectSmthing:
     mes "";
     mesn;

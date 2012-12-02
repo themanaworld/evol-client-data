@@ -31,8 +31,10 @@
     mesq l("Hmm... Let's see, take this one.");
     next;
 
-    getinventorylist;
-    if ((checkweight("AquadaBox", 1) == 0) || (@inventorylist_count == 100)) goto l_Inventory;
+    set @item, 714;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
+
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;
 
@@ -62,15 +64,6 @@ l_CallFunc:
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
-
-    close;
-
-l_Inventory;
-    mes "";
-    mesn;
-    mesq l("It looks like you can't carry anymore of these boxes for now.");
-    next;
-    mesq l("You should come back when you'll have some free space.");
 
     close;
 
