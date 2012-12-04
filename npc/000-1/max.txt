@@ -1,13 +1,98 @@
 // Evol scripts.
-// Author:
-//    Reid
+// Authors:
+//    Hal9000, Reid
 // Description:
-//    Friend of Sapartan, he gives some information on how to find what Gugli asked to search.
+//    Friend of Sapartan, he gives some information on how to find Gulukan, Astapolos and Q-Muller.
 
 000-1.gat,72,109,0,1	script	Max	105;2,{
 
+    set @gugli, getq(ShipQuests_Gugli);
+    set @knife, getq(ShipQuests_Knife);
+
     mesn;
-    mesq l(".");
+    mesq l("We are glad captain Nard has let you join us down here!");
+    next;
+    mesq l("Living inside a ship is great but sometime we need some fresh air.");
+    next;
+    mesq l("Can I help you somehow?");
+    next;
+
+    menu
+        rif(@gugli == 0, l("Is there anything I can do here to help?")), l_Help,
+        rif(@gugli == 1, l("Gugli asked me to help sailors with the stocks. Do you know where could I find them?")), l_Sailors,
+        rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), l_Annoyed,
+        rif(@knife == 0, l("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), l_Secrets,
+        l("Nothing at the moment."), close;
+
+l_Help:
+    mes "";
+    mesn;
+    mesq l("Well you can start talking with Gugli. He always has some task for people willing to help");
+
+    close;
+
+l_Sailors:
+    mes "";
+    mesn;
+    mesq l("I remember I have seen some of them leaving the ship early this morning to get to work.");
+    next;
+    mesq l("I think they were Gulukan, Astapolos and Q'Muller.");
+    next;
+
+    goto l_MenuSailors;
+
+l_MenuSailors:
+    menu
+        l("Do you know where can I find Gulukan?"), l_Gulukan,
+        l("Any clue on where Astapolos is hidden?"), l_Astapolos,
+        l("What about Q'Muller?"), l_Qmuller,
+        l("Ok. I will go looking for them now."), close;
+
+l_Gulukan:
+    mes "";
+    mesn;
+    mesq l("Oh, he is not far away from here. Just take the road through the crocojungle north from here.");
+    next;
+    mesq l("You will find a wooden sign near a crossroad. He is a few steps on the left.");
+    next;
+
+    goto l_MenuSailors;
+
+l_Astapolos:
+    mes "";
+    mesn;
+    mesq l("Astapolos. That guy is shy like a piou!");
+    next;
+    mesq l("He likes to hide near a little lake in the north-west side of the island.");
+    next;
+
+    goto l_MenuSailors;
+
+l_Qmuller:
+    mes "";
+    mesn;
+    mesq l("You need to cross the crocojungle heading north.");
+    next;
+    mesq l("You can spot Q'Muller on a cliff on the west busy collecting Plushroom.");
+    next;
+
+    goto l_MenuSailors;
+
+l_Annoyed:
+    mes "";
+    mesn;
+    mesq l("There is always something you can do here like killing some tortugas or help Peter cleaning the ship from rattos.");
+
+    close;
+
+l_Secrets:
+    mes "";
+    mesn;
+    mesq l("No there are no secrets hidden below the ship's wood. Some sailors swear to have seen people hidden somewhere near the stow. Just stories sailors love to tell...");
+    next;
+    mesq l("Oh! And in one of the room of the second deck you can find Gado's knives. Our chef keeps there the sharpest ones...Probably not just to cut some carrots...");
+    next;
+    mesq l("Go and grab one of them. A good knife will help you hunting the creatures of this island.");
 
     close;
 
