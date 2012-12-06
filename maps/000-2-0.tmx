@@ -4,7 +4,7 @@
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
   <property name="minimap" value="graphics/minimaps/000-2-0.png"/>
-  <property name="music" value="In the Forest of the Birches.ogg"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, First Deck"/>
  </properties>
  <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
@@ -33,7 +33,7 @@
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RwQnCQBCF4R1TgYgFGDuxBG9eYwMePYol2IGIBViCBwtQ8KC3WIkPDEQWRRklm8P/wWNDNgNvSAgAAAAAAABAbWQhmNJRMmUd3R+StPIba4euPZ57Ojc6p1bfn5O08ivUfaDkyrDa5528sVb/sdU+O53LKP2n/5UlafadyYt3e2UVp9qnaKqY00k9Z465o33+JoWres0dc5eW7nNTr4VjrmzpPgAAAAAAAMCv7n87Y50QKwAA
+   H4sIAAAAAAAAA+3RywnCQBSF4RlTgYgFmHRiCe7cxgZcuhRLsIMgFmAJLixAwYXuYiUeMBAZfHEVZxb/B4cJmVw4lzgHAAAAAAAAtIbeOa90lEypgvtdlFZ2I+3Q9bfnns6Vzolv749RWtmV6j5QcqVo9nkm/1ur31hrn43ORZD+3f/KojT7zPjBu62yDNPsU76YS8FBPaeGub1//00MZ/WaGeZOie5zUa+5Ya5OdB8AAAAAAADgW1f9xwogECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
@@ -43,7 +43,7 @@
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VQQqCQBTG8Te3cem+dGN2hegAdgIh6JqCm6BN0DmaIYVQS2cY6Bn/HzxwROF9+GYUAQAAAAAAWh0DSjPX38ZWvqC2so482cJn97LePLUZ3+vzaJ69T3nKiTwHGc+fNj7zNnSJ2Ugk/5jnFPhuFbORSFyes612Yr9805jX99F2JvR5bp55rkbvvLk8D888d8V5CltlV8nb9dx694N+5wz/j6nnGgAAAAAAAGGeVRgmGRArAAA=
+   H4sIAAAAAAAAA+3TTQqCUBSG4dNuGjq3nJhtIVpArkAQ3KbgJHAiuI5uUCD+5XX03XgfOOAVBV84mgEAAAAAAFX3HaPs/X2xm2TDnCyMnvPGZ68Wbk9xmN779ijv31JPNtNzM/3989m3McX9+8eefOe7D9PsKd00M//Lmto9X5luT+vZ8xTv6T17OuGe1E32mePg+tf5Ypo9w4k8z2o9AAAAAAAAoXgBM2k0sxArAAA=
   </data>
  </layer>
  <layer name="Collision" width="52" height="53">
@@ -52,21 +52,21 @@
   </data>
  </layer>
  <objectgroup name="Object" width="52" height="53">
-  <object name="ToOutside" type="warp" x="611" y="899" width="26" height="26">
+  <object name="ToOutside" type="warp" x="612" y="896" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>
     <property name="dest_x" value="4512"/>
     <property name="dest_y" value="2208"/>
    </properties>
   </object>
-  <object name="ToLevel1" type="warp" x="1059" y="899" width="26" height="26">
+  <object name="ToLevel1" type="warp" x="1056" y="896" width="28" height="32">
    <properties>
     <property name="dest_map" value="001-2-3"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="ToLevel1" type="warp" x="995" y="803" width="26" height="26">
+  <object name="ToLevel1" type="warp" x="992" y="804" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-1"/>
     <property name="dest_x" value="1952"/>
