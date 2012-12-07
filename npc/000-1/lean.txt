@@ -13,13 +13,13 @@
     next;
     mesq l("I hope you don't mind that we used your raft to build this ramp.");
     next;
-    mesq l("We usually don't stop in such splendid places, but the capt'ain lets us stay here while he writes down the location of this new island on his map!");
+    mesq l("We usually don't stop in such splendid places, but the captain lets us stay here while he writes down the location of this new island on his map!");
     next;
-    mesq l("Some of the sailors are looking for goods we will be able to trade in our next destination.");
+    mesq l("Some sailors are looking for goods we could trade in our next destination.");
     next;
 
     menu
-        rif(@gugli == 1, l("Well, I was exactly looking for them. Where are they now?")), l_Sailors,
+        rif(@gugli == 1, l("Well, I was in fact looking for them. Where are they now?")), l_Sailors,
         l("Wait... Where are we going?"), l_Artis,
         l("Hey, how do you know my name?"), l_Name;
 
@@ -48,22 +48,22 @@ l_Sailors:
     mesn;
     mesq l("They are all around the island.");
     next;
-    mesq l("I'm sure Tibbo is alone in the south-west corner of the island. He believes is the best place to collect @@.", getitemlink("Aquada"));
+    mesq l("I'm sure Tibbo is alone in the south-west corner of the island. He believes it's the best place to collect @@s.", getitemlink("Aquada"));
     next;
-    mesq l("While Jalad and Ale like to work together, as they use to do on the ship. Last time I've seen them they were near the big lake north from here.");
+    mesq l("While Jalad and Ale like to work together, as they use to do on the ship, last time I've seen them, they were near the big lake, north from here.");
     next;
-    mesq l("They shouldn't be too far each other.");
+    mesq l("They shouldn't be too far from each other.");
     next;
 
     menu
-        l("Thank you for the help."), close,
+        l("Thank you for your help."), close,
         l("Gugli mentioned six sailors. What about the others?"), -;
 
     mes "";
     mesn;
     mesq l("I'm not sure. They probably have left the ship early this morning. I was not awake yet.");
     next;
-    mesq l("Try to ask Max. He is an early riser.");
+    mesq l("Try to ask Max. He's an early riser.");
 
     close;
 
