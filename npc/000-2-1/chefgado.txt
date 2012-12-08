@@ -27,9 +27,9 @@
 
     mesn;
     set @r, rand(3);
-    if (@r == 0) mesq l("What are you doing in my kitchen?! Get out, it's not place for kids!");
-    if (@r == 1) mesq l("Where is the damn salt?! Give me the salt. I know you have it!");
-    if (@r == 2) mesq l("Are you going to stand over there all day long? Do the dishes or go away.");
+    if (@r == 0) mesq l("What are you doing in my kitchen?! Get out, it's not a place for kids!");
+    if (@r == 1) mesq l("Where is the damn salt?! Give me the salt, I know you have it!");
+    if (@r == 2) mesq l("Are you going to stand here all day long? Do the dishes or go away.");
     close;
 
 l_QuestStart:
