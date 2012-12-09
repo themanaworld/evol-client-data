@@ -36,37 +36,37 @@
 000-2-1.gat,72,34,0,1	script	AreaNPC	0,0,1,{
 
 OnTouch:
-    if (BaseLevel < 5) goto L_Stop;
-    if ($@RAT_SAILOR_HELPER$ != "") goto L_Occupied;
+    if (BaseLevel < 5) goto l_Stop;
+    if ($@RAT_SAILOR_HELPER$ != "") goto l_Occupied;
     set @q, getq(ShipQuests_Peter);
-    if (@q < 1 || @q > 5) goto L_Task;
-    if (@q == 1 || @q == 2) goto L_Rfail;
-    if (@q == 3 || @q == 4) goto L_Rwin;
-    if (@q > 5) goto L_SecondTime;
+    if (@q < 1 || @q > 5) goto l_Task;
+    if (@q == 1 || @q == 2) goto l_Rfail;
+    if (@q == 3 || @q == 4) goto l_Rwin;
+    if (@q > 5) goto l_SecondTime;
     doevent "Peter::OnReturnWin";
     close;
 
-L_Stop:
+l_Stop:
     doevent "Peter::OnStop";
 
     close;
 
-L_Occupied:
+l_Occupied:
     doevent "Peter::OnDontneedHelp";
 
     close;
 
-L_Task:
+l_Task:
     doevent "Peter::OnGiveTask";
 
     close;
 
-L_Rfail:
+l_Rfail:
     doevent "Peter::OnReturnFail";
 
     close;
 
-L_Rwin:
+l_Rwin:
     doevent "Peter::OnReturnWin";
 
 }
@@ -90,21 +90,21 @@ OnGiveTask:
     next;
 
     menu
-        l("Yeah, but what reward will I get?"), L_BonusTask,
-        l("Why not, I need to train anyway."), L_Task,
+        l("Yeah, but what reward will I get?"), l_BonusTask,
+        l("Why not, I need to train anyway."), l_Task,
         l("No, they are way too dangerous for me!"), -;
 
     mes "";
     mesn;
     mesq l("Ok, ok. Come back if you change your mind.");
 
-    goto L_Close;
+    goto l_Quit;
 
 OnTooWeak:
     mesn;
     mesq lg("I need help for clean the edge of the ship, but you aren't strong enough to help.");
 
-    goto L_Close;
+    goto l_Quit;
 
 OnStop:
     warp "000-2-1",72,36;
@@ -120,15 +120,15 @@ OnReturnFail:
     next;
 
     menu
-        l("Yeah, but I would like to make sure I get a reward."), L_BonusTask,
-        l("Why not, I need to train anyway."), L_Task,
+        l("Yeah, but I would like to make sure I get a reward."), l_BonusTask,
+        l("Why not, I need to train anyway."), l_Task,
         l("No, they are way too dangerous for me!"), -;
 
     mes "";
     mesn;
     mesq l("Ok, ok. Come back if you change your mind.");
 
-    goto L_Close;
+    goto l_Quit;
 
 OnReturnWin:
     mesn;
@@ -137,14 +137,14 @@ OnReturnWin:
     if (@q == 3 || @q == 4)
 
     menu
-        l("Did you say reward? I want it!"), L_BonusTask,
-        l("I am not worried about rewards. I just want to help."), L_Task,
+        l("Did you say reward? I want it!"), l_BonusTask,
+        l("I am not worried about rewards. I just want to help."), l_Task,
         l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     if (@q == 5)
 
     menu
-        l("No problem, I can help you anyway."), L_Task,
+        l("No problem, I can help you anyway."), l_Task,
         l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     mes "";
@@ -153,7 +153,7 @@ OnReturnWin:
 
     close;
 
-L_BonusTask:
+l_BonusTask:
     mes "";
     mesn;
     mesq l("I will give you @@GP.", 500);
@@ -161,21 +161,21 @@ L_BonusTask:
 
     menu
         lg("Okay, I'm ready to work!"), -,
-        l("What? This reward is too small!"), L_Close;
+        l("What? This reward is too small!"), l_Quit;
 
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@q == 6) setq ShipQuests_Peter, 2;
     if (@q == 3) setq ShipQuests_Peter, 4;
 
-    goto L_Start;
+    goto l_Start;
 
-L_Task:
+l_Task:
     mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@q == 6) setq ShipQuests_Peter, 1;
-    goto L_Start;
+    goto l_Start;
 
-L_Start:
+l_Start:
     mesn;
     mesq l("Okay, you can start!");
 
@@ -187,20 +187,20 @@ OnStartOutside:
     warp "000-2-2.gat", 48, 28;
     doevent "RattosControl::OnSpawn";
 
-    goto L_Close;
+    goto l_Quit;
 
 OnTimer5000:
-    if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto L_Logoff;
+    if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
     set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 5;
-    if ($@RAT_SAILOR_CONTROL[9] > 100) goto L_Timeout;
-    if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto L_Dead;
-    if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto L_Done;
-    if (getmapusers("000-2-2.gat") == 0) goto L_CleaningEnd;
-    goto L_CheckRattos;
+    if ($@RAT_SAILOR_CONTROL[9] > 100) goto l_Timeout;
+    if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto l_Dead;
+    if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_Done;
+    if (getmapusers("000-2-2.gat") == 0) goto l_CleaningEnd;
+    goto l_CheckRattos;
 
     end;
 
-L_CheckRattos:
+l_CheckRattos:
     if ($@RAT_SAILOR_CONTROL[1]) set $@RAT_SAILOR_CONTROL[5], $@RAT_SAILOR_CONTROL[5] + 5;
     if ($@RAT_SAILOR_CONTROL[2]) set $@RAT_SAILOR_CONTROL[6], $@RAT_SAILOR_CONTROL[6] + 5;
     if ($@RAT_SAILOR_CONTROL[3]) set $@RAT_SAILOR_CONTROL[7], $@RAT_SAILOR_CONTROL[7] + 5;
@@ -219,32 +219,32 @@ OnDontneedHelp:
     next;
     mesq l("@@ is helping me.", $@RAT_SAILOR_HELPER$);
 
-    goto L_Close;
+    goto l_Quit;
 
-L_Timeout:
+l_Timeout:
     mesn;
     mesq l("Hey! Be careful. You can't stay in this basement for so long, you're going to get sick. Come outside and take a break, maybe you can try again later.");
     warp "000-2-1", 72, 36;
 
-    goto L_CleaningClose;
+    goto l_CleaningClose;
 
-L_Logoff:
-    goto L_CleaningEnd;
+l_Logoff:
+    goto l_CleaningEnd;
 
-L_Dead:
+l_Dead:
 // Warps the dead body outside, so it does not interfere with the getmapusers check.
     if (getmapusers("000-2-2.gat") > 0) warp "000-2-1", 61, 36;
 
-    goto L_CleaningEnd;
+    goto l_CleaningEnd;
 
-L_Done:
+l_Done:
     warp "000-2-1", 72, 36;
     set @q, getq(ShipQuests_Peter);
-    if (@q == 2 || @q == 4) goto L_Reward;
+    if (@q == 2 || @q == 4) goto l_Reward;
 
-    goto L_Thanks;
+    goto l_Thanks;
 
-L_CleaningEnd:
+l_CleaningEnd:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
@@ -256,7 +256,7 @@ L_CleaningEnd:
 
     end;
 
-L_CleaningClose:
+l_CleaningClose:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
@@ -268,24 +268,24 @@ L_CleaningClose:
 
     close;
 
-L_Reward:
+l_Reward:
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 500;
     setq ShipQuests_Peter, 5;
 
-    goto L_CleaningClose;
+    goto l_CleaningClose;
 
-L_Thanks:
+l_Thanks:
     mesn;
     mesq l("Thanks for helping me!");
     set @q, getq(ShipQuests_Peter);
     if (@q == 1) setq ShipQuests_Peter, 3;
 
-    goto L_CleaningClose;
+    goto l_CleaningClose;
 
-L_Close:
+l_Quit:
     set @q, 0;
 
     close;

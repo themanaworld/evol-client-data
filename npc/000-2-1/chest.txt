@@ -21,7 +21,7 @@
     close;
 
 l_Give:
-    if (@q > 1) goto l_Close;
+    if (@q > 1) goto l_Quit;
     set @item, 1300;
     set @count, 2;
     callfunc "InventoryPlace", @item, @count;
@@ -31,16 +31,16 @@ l_Give:
     getitem "CreasedShorts", 1;
     message strcharinfo(0), l("You take the clothes from the chest.");
 
-l_Close:
-    setnpcdir 6;
-    initnpctimer;
-    startnpctimer;
-    close;
-
 OnTimer220:
     stopnpctimer;
     if (getnpcdir ("") == 2) setnpcdir 4;
     if (getnpcdir ("") == 6) setnpcdir 0;
     end;
+
+l_Quit:
+    setnpcdir 6;
+    initnpctimer;
+    startnpctimer;
+    close;
 
 }

@@ -83,13 +83,13 @@ l_Menu:
         rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
         l("Who should I search for?"), l_SailorNames,
         l("Where can I find your crew?"), l_Location,
-        l("See you!"), close;
+        l("See you!"), l_Quit;
 
 l_MenuDone:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         l("I have collected all the boxes you needed."), l_TaskDone,
-        l("See you!"), close;
+        l("See you!"), l_Quit;
 
 l_SailorNames:
     mes "";
@@ -217,6 +217,9 @@ l_AllComplete:
     set @gugli, getq(ShipQuests_Gugli);
     if (@gugli > 0) close;
     doevent "Gugli::OnTalk";
+    close;
+
+l_Quit:
     close;
 
 }

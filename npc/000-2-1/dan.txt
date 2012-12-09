@@ -23,7 +23,7 @@ l_QuestStory:
 
     menu
         l("Why?"), -,
-        l("I guess so... I will leave you alone."), l_Close;
+        l("I guess so... I will leave you alone."), l_Quit;
 
     mes "";
     mesn;
@@ -33,7 +33,7 @@ l_QuestStory:
     next;
 
     menu
-        l("I'm still in a coma, but my ghost is haunting you!"), l_Close,
+        l("I'm still in a coma, but my ghost is haunting you!"), l_Quit,
         l("It was something like a long nap."), -;
 
     mes "";
@@ -61,7 +61,7 @@ l_She:
     mesq l("She is a good friend of mine... We wanted to marry a few weeks before her accident but...");
     next;
 
-    goto l_Close2;
+    goto l_Quit2;
 
 l_Quest:
     mes "";
@@ -69,16 +69,16 @@ l_Quest:
     mesq l("I don't think that we are in a good place to talk about this...");
     next;
 
-l_Close2:
-    mesn "Narrator";
-    mes col(l("Dan ends the conversation and resumes to write his letter."), 9);
-
-    close;
-
-l_Close:
+l_Quit:
     mes "";
     mesn "Narrator";
     mes col(l("Dan keeps silent since your last question."), 9);
+
+    close;
+
+l_Quit2:
+    mesn "Narrator";
+    mes col(l("Dan ends the conversation and resumes to write his letter."), 9);
 
     close;
 

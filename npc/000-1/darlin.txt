@@ -134,9 +134,6 @@ l_Bye:
     mesn;
     mesq l("FINE, BYE!");
 
-l_Quit:
-    close;
-
 OnQuestGiven:
     mesq l("HEY @@!", strcharinfo(0));
     next;
@@ -184,5 +181,8 @@ l_QuestDone:
     next;
 
     goto l_Menu;
+
+l_Quit:
+    close;
 
 }

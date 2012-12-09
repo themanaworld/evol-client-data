@@ -27,7 +27,7 @@
 
     menu
         l("Thank you sir for you nice words. I am feeling better now."), -,
-        lg("I'm still a bit weak at the moment. We should probably talk later."), close;
+        lg("I'm still a bit weak at the moment. We should probably talk later."), l_Quit;
 
     mes "";
     mesn;
@@ -59,7 +59,7 @@
     menu
         l("No, I don't, but I would like to know more about that."), -,
         l("Well... I've only killed some little pious in the ship, that's all."), -,
-        l("Yes, I feel strong enough for dangerous combats!"), close;
+        l("Yes, I feel strong enough for dangerous combats!"), l_Quit;
 
     mes "";
     mesn;
@@ -88,13 +88,16 @@
 
     menu
         l("Thank you for your tricks. I am going to try them now!"), -,
-        l("I already know everything. Bye."), close;
+        l("I already know everything. Bye."), l_Quit;
 
     mes "";
     mesn;
     mesq l("You're welcome. If you can't remember something, just come back here!");
     next;
 
+    close;
+
+l_Quit:
     close;
 
 }

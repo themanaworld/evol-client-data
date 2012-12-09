@@ -22,7 +22,7 @@
         rif(@gugli == 1, l("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), l_Sailors,
         rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), l_Annoyed,
         rif(@knife == 0, l("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), l_Secrets,
-        l("No thanks, not at the moment."), close;
+        l("No thanks, not at the moment."), l_Quit;
 
 l_Help:
     mes "";
@@ -46,7 +46,7 @@ l_MenuSailors:
         l("Do you know where can I find Gulukan?"), l_Gulukan,
         l("Any clue on where Astapolos may be hidden?"), l_Astapolos,
         l("What about Q'Muller? Where is he?"), l_Qmuller,
-        l("Alright. I will go looking for them now."), close;
+        l("Alright. I will go looking for them now."), l_Quit;
 
 l_Gulukan:
     mes "";
@@ -94,6 +94,9 @@ l_Secrets:
     next;
     mesq l("Go and grab one of them. A good knife will help you hunting the creatures of this island.");
 
+    close;
+
+l_Quit:
     close;
 
 }

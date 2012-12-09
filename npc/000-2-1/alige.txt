@@ -78,13 +78,7 @@ l_NeedHelp:
 
     menu
         l("Why not, but who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
-        l("Sorry but I have no time for this."), -;
-
-    mes "";
-    mesn "Hidden Person";
-    mesq lg("Damn you! You better not tell anyone that you've seen me!");
-
-    close;
+        l("Sorry but I have no time for this."), l_Quit;
 
 l_CanHelp:
     mes "";
@@ -122,7 +116,7 @@ l_Accept:
     menu
         l("Understood, I will help you."), l_Accepted,
         l("What is Artis?"), l_Artis,
-        l("I think I should report you to the crew members."), l_DamnYou;
+        l("I think I should report you to the crew members."), l_Quit;
 
 l_Artis:
     mes "";
@@ -219,7 +213,7 @@ l_IntroMenu:
         l("Where can I find some food?"), -,
         l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
         l("What is Artis?"), l_Artis,
-        l("I think I should report you to the crew members."), l_DamnYou;
+        l("I think I should report you to the crew members."), l_Quit;
 
     mes "";
     mesn;
@@ -236,7 +230,7 @@ l_IntroMenu:
 
     close;
 
-l_DamnYou:
+l_Quit:
     mes "";
     mesn;
     mesq lg("Damn you! You better not tell anyone that you've seen me!");

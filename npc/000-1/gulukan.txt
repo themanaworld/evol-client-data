@@ -23,7 +23,7 @@
     menu
         l("Wow, it seems everyone knows my name!"), -,
         l("Well, it it's not bad to finally feel something beneath my feet."), l_Continue,
-        l("Not so good actually... I would feel better on Nard's ship."), close;
+        l("Not so good actually... I would feel better on Nard's ship."), l_Quit;
 
 l_Name:
 
@@ -44,7 +44,7 @@ l_Continue2:
 
     menu
         l("Actually Gugli asked me if I could help you bringing him some of your boxes."), -,
-        l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), close;
+        l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), l_Quit;
 
     mes "";
     mesn;
@@ -125,9 +125,7 @@ l_RandomC:
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
-        l("Nobody."), -;
-
-    close;
+        l("Nobody."), l_Quit;
 
 l_Bottom:
     mes "";
@@ -157,6 +155,9 @@ l_TaskDone:
     mesn;
     mesq l("That's perfect, yoiis.");
 
+    close;
+
+l_Quit:
     close;
 
 }

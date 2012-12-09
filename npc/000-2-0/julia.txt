@@ -39,7 +39,7 @@ l_Menu:
         l("Could you explain to me where I am?"), l_WhereIam,
         l("What happened to me?"), l_What,
         l("Can I read these rules again?"), l_Rules,
-        l("Nothing, sorry."), l_Close;
+        l("Nothing, sorry."), l_Quit;
 
     mes "";
     mesn;
@@ -136,7 +136,7 @@ l_NoChanges:
 l_YNMenu:
     menu
         l("Yes, I do."), l_Menu,
-        l("No, none."), l_Close;
+        l("No, none."), l_Quit;
 
 l_WhereIam:
     mes "";
@@ -167,13 +167,6 @@ l_EsperiaMenu:
     menu
         l("Sorry, but I can't tell you anything about that."), l_NoChanges,
         l("Nothing, sorry."), l_NoChanges;
-
-l_Close:
-    mes "";
-    mesn;
-    mesq l("Bye!");
-
-    close;
 
 l_Rules:
     mes "";
@@ -221,5 +214,11 @@ l_Regret:
 
     close;
 
-}
+l_Quit:
+    mes "";
+    mesn;
+    mesq l("Bye!");
 
+    close;
+
+}

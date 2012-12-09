@@ -27,7 +27,7 @@
     next;
     
     menu
-        l("Indeed! Goodbye."), close,
+        l("Indeed! Goodbye."), l_Quit,
         l("Yes, it is true! You are not able at all. Nard has been waiting for the food for too long already. Hurry up, you lazy sailors!"), -;
 
     mes "";
@@ -75,9 +75,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
-        l("Nobody."), -;
-
-    close;
+        l("Nobody."), l_Quit;
 
 l_Bottom:
     mes "";
@@ -118,6 +116,9 @@ l_TaskDone:
     mesn;
     mesq l("Good to hear!");
 
+    close;
+
+l_Quit:
     close;
 
 }

@@ -27,7 +27,7 @@
     mesn;
     mesq l("Ok, see you then!");
 
-    goto l_Close;
+    goto l_Quit;
 
 l_Food:
     mes " ";
@@ -36,28 +36,28 @@ l_Food:
     next;
     mesq l("Yeye be careful with wild animal's food, some of them are yeyery dangerous, especially the blubs.");
 
-    goto l_Close;
+    goto l_Quit;
 
 l_HardToHit:
     mesq l("These crocotrees are full of yaying @@, but they are so hard to hit...", getitemlink("Croconut"));
 
-    goto l_Close;
+    goto l_Quit;
 
 l_Aouch:
     mesq l("Ayouyouch! My head...");
     next;
     mesq l("Damn @@.", getitemlink("Croconut"));
 
-    goto l_Close;
+    goto l_Quit;
 
 l_DoYou:
     mesq l("Do you want to try?");
     next;
     mesq l("Just hit the trunk, and it will yeye a @@.", getitemlink("Croconut"));
 
-    goto l_Close;
+    goto l_Quit;
 
-l_Close:
+l_Quit:
     setnpcdir 4;
     close;
 

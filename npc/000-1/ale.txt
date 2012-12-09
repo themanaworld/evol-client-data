@@ -22,7 +22,7 @@
     menu
         l("Gugli sent me down here to help you."), -,
         l("What's that?"), l_Plushroom,
-        l("See you aboard."), close;
+        l("See you aboard."), l_Quit;
 
     mes "";
     mesn;
@@ -63,9 +63,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Jalad,
         rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
-        l("Nobody."), -;
-
-    close;
+        l("Nobody."), l_Quit;
 
 l_Bottom:
     mes "";
@@ -83,6 +81,7 @@ l_Jalad:
     next;
 
     restorecam;
+
     close;
 
 l_Plushroom:
@@ -108,6 +107,9 @@ l_TaskDone:
     mesn;
     mesq l("That's good to hear!");
 
+    close;
+
+l_Quit:
     close;
 
 }

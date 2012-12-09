@@ -166,13 +166,16 @@ l_Sailors:
     next;
 
     menu
-        l("See you."), close,
+        l("See you."), l_Quit,
         l("*Imitate a thunder's sound.*"), -;
 
     mes "";
     mesn;
     mesq l("Aaaaaahhhhhh!");
 
+    close;
+
+l_Quit:
     close;
 
 }

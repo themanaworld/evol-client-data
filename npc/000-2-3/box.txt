@@ -27,7 +27,7 @@
 
     menu
         l("Take a Bandana."), -,
-        l("Nothing."), l_Close;
+        l("Nothing."), l_Quit;
 
     if (@q == 1) goto l_NotYet;
     if (@q == 2) goto l_Give;
@@ -53,7 +53,7 @@
 
     menu
         l("Why not, I've got plenty of free time."), -,
-        l("I think that I'm still a bit sick."), l_Close;
+        l("I think that I'm still a bit sick."), l_Quit;
 
     mes "";
     mesn "Nard";
@@ -78,9 +78,6 @@ l_NotYet:
     mes "";
     mesn "Nard";
     mesq l("Please don't touch these hats, they are for crew members only.");
-
-l_Close:
-    close;
 
 l_Give:
     setcamnpc "Nard";
@@ -107,6 +104,9 @@ l_Already:
     mesn "Nard";
     mesq l("You already took a Bandana, please put this one back in the box.");
 
+    close;
+
+l_Quit:
     close;
 
 }
