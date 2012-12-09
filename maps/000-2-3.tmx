@@ -5,7 +5,7 @@
   <property name="manaplus version" value="1"/>
   <property name="minimap" value="graphics/minimaps/000-2-3.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
-  <property name="name" value="La Johanne, First Deck (Nard's room)"/>
+  <property name="name" value="La Johanne, Nard's Room"/>
  </properties>
  <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
@@ -54,7 +54,7 @@
   </data>
  </layer>
  <objectgroup name="Object" width="52" height="53">
-  <object name="ToLevel1" type="warp" x="612" y="864" width="28" height="32">
+  <object name="To First Deck" type="warp" x="612" y="864" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-2-0"/>
     <property name="dest_x" value="992"/>
