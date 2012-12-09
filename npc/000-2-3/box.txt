@@ -38,6 +38,7 @@
     mes col(l("Nard looks surprised and stops you."), 9);
     next;
 
+    setcamnpc "Nard";
     mesn "Nard";
     mesq l("You like these hats, right?");
     next;
@@ -73,6 +74,7 @@
     close;
 
 l_NotYet:
+    setcamnpc "Nard";
     mes "";
     mesn "Nard";
     mesq l("Please don't touch these hats, they are for crew members only.");
@@ -81,6 +83,7 @@ l_Close:
     close;
 
 l_Give:
+    setcamnpc "Nard";
     mes "";
     mesn "Nard";
     mesq l("Congrats!");
@@ -99,6 +102,7 @@ l_Give:
     close;
 
 l_Already:
+    setcamnpc "Nard";
     mes "";
     mesn "Nard";
     mesq l("You already took a Bandana, please put this one back in the box.");
