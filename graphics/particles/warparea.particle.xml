@@ -6,11 +6,13 @@ Copyright (C) 2010-2012 Evol Online -->
         <emitter>
             <property name="position-x" min="0" max="32"/>
             <property name="position-y" min="0" max="32"/>
-            <property name="image" value="graphics/particles/star-small.png"/>
-            <property name="lifetime" value="80"/>
-            <property name="output" min="1" max="2"/>
-            <property name="output-pause" min="0" max="10"/>
+            <property name="gravity" min="-0.001" max="-0.003"/>
+            <property name="image" value="graphics/particles/orb-small.png|W:#dadeb6"/>
+            <property name="lifetime" value="60"/>
+            <property name="output" min="-2" max="2"/>
+            <property name="output-pause" min="0" max="6"/>
             <property name="fade-in" value="20"/>
+            <property name="fade-out" value="20"/>
         </emitter>
     </particle>
 </effect>
