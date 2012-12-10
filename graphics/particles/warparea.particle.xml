@@ -4,14 +4,15 @@ Copyright (C) 2010-2012 Evol Online -->
 <effect>
     <particle position-x="0" position-y="0" position-z="1" size-adjustable="true">
         <emitter>
-            <property name="position-x" min="0" max="32"/>
-            <property name="position-y" min="0" max="32"/>
-            <property name="gravity" min="-0.001" max="-0.003"/>
-            <property name="image" value="graphics/particles/orb-small.png|W:#dadeb6"/>
-            <property name="lifetime" value="60"/>
-            <property name="output" min="-2" max="2"/>
-            <property name="output-pause" min="0" max="6"/>
-            <property name="fade-in" value="20"/>
+            <property name="position-x" min="5" max="27"/>
+            <property name="position-y" min="0" max="48"/>
+            <property name="image" value="graphics/particles/gloworbhalf-small.png|W:e1e1e1"/>
+            <property name="alpha" value="0.3"/>
+            <property name="gravity" value="-0.002"/>
+            <property name="lifetime" value="150"/>
+            <property name="output" min="-1" max="1"/>
+            <property name="output-pause" min="0" max="10"/>
+            <property name="fade-in" value="15"/>
             <property name="fade-out" value="20"/>
         </emitter>
     </particle>
