@@ -99,9 +99,6 @@ l_QuestAccepted:
 
 l_GotAll:
     mes "";
-    set @item, 717;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
 
     delitem "PiouLegs", 2;
     delitem "Croconut", 1;
@@ -141,6 +138,9 @@ l_PoisonJulia:
     mesn;
     mesq l("The usurper has been punished! This is a great day! Take this reward as a prize for your loyalty to the old commander!");
 
+    set zeny, zeny + 25;
+    message strcharinfo(0), l("You receive 25GP!");
+    getitem "Bread", 2;
     setq ShipQuests_ChefGado, 4;
 
     close;

@@ -5,7 +5,7 @@
 //    Captain Nard dialogs.
 //    Nard does the introduction with a small quest.
 //    This quest is meant to teach the player how to use a weapon,and to bring food to the ship.
-// 2 bits array:
+//    4 bits array:
 //    ShipQuests
 // Variable:
 //    0    ShipQuests_Nard
@@ -14,8 +14,10 @@
 // Values: 
 //    00   Introduction of the boxes and Nard. This is displayed when the player never spoke to Nard or his box.
 //    01   Nard spoke and gave access to the outdoor of the ship.
-//    02   Completed the quest.
-//    03   Opened the chest and finished the introduction.
+//    02   Completed the Gugli quest.
+//    03   ChefGado Quest accepted.
+//    04   ChefGado Quest completed and "Introduction" chapter finalized.
+//    05   Reward taken from the box.
 //    10   Never talked with Gugli.
 //    11   Gugli gives you the task.
 //    12   Gave all of the boxes to Gugli.
@@ -30,7 +32,8 @@ l_Checker:
     if (@gado > 3 && @nard == 3) goto l_ChefQuestComplete;
     if (@nard == 2) goto l_ChefQuestStart;
     if (@nard == 3) goto l_ChefQuestGiven;
-    if (@nard == 4) goto l_Already;
+    if (@nard == 4) goto l_Reward;
+    if (@nard > 4) goto l_Already;
     if (@gugli == 2) goto l_Done;
     if (@nard == 1) goto l_NotYet;
 
@@ -95,10 +98,6 @@ l_NeedContent:
     next;
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
-
-    set @item, 718;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
 
     setq ShipQuests_Nard, 1;
     getitem "JohanneKey", 1;
@@ -183,21 +182,29 @@ l_ChefQuestComplete:
     next;
     mesq l("You are now officially part of my crew! Thanks again for your help.");
     next;
+    mesq l("Take your reward from the box next to my desk!");
+    next
 
-    set @item, 2900;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    menu
+        l("I will take it! Thank you captain!"), -;
 
     setq ShipQuests_Nard, 4;
-    getitem "Bandana", 1;
+
 //  Need to add a skill for the crew at this line.
 
+    mes "";
     mesn "Narrator";
     mes col(l("This is it, the end of the Second Beta Release of Evol Online!"), 9);
     next;
     mes col(l("We hope you liked this introduction and to see you again in our future releases!"), 9);
     next;
     mes col(l("The adventure begins!"), 9);
+
+    close;
+
+l_Reward:
+    mesn;
+    mesq l("Hey! There's a reward for you in the box next to me!");
 
     close;
 

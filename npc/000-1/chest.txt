@@ -25,12 +25,8 @@
 
 l_Give:
     if (@q > 1) goto l_Close;
-    set @item, 515;
-    set @count, 3;
-    callfunc "InventoryPlace", @item, @count;
-
     setq ShipQuests_Darlin, 2;
-    set zeny, zeny + 400;
+    set zeny, zeny + 10;
     getitem SeaDrops, 1;
     getitem Aquada, 1;
     getitem OldBook, 1;

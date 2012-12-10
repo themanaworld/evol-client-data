@@ -5,15 +5,18 @@
 //    Captain Nard dialogs.
 //    Nard does the introduction with a small quest.
 //    This quest is meant to teach the player how to use a weapon,and to bring food to the ship.
-// 2 bits array:
+//    4 bits array:
 //    ShipQuests
 // Variable:
 //    ShipQuests_Nard
 // Values: 
 //    0   Introduction of the boxes and Nard. This is displayed when the player never spoke to Nard or his box.
 //    1   Nard spoke and gave access to the outdoor of the ship.
-//    2   Completed the quest.
-//    3   Opened the chest and finished the introduction.
+//    2   Completed the Gugli quest.
+//    3   ChefGado Quest accepted.
+//    4   ChefGado Quest completed and "Introduction" chapter finalized.
+//    5   Reward taken from the box.
+
 
 000-2-3.gat,25,24,0	script	Box	102;1,{
 
@@ -29,10 +32,16 @@
         l("Take a Bandana."), -,
         l("Nothing."), l_Quit;
 
-    if (@q == 1) goto l_NotYet;
-    if (@q == 2) goto l_Give;
-    if (@q > 2) goto l_Already;
+    if (@q == 0) goto l_NoQuest;
+    if (@q == 4) goto l_Give;
+    if (@q > 4) goto l_Already;
 
+    setcamnpc "Nard";
+    mes "";
+    mesn "Nard";
+    mesq l("Please don't touch these hats, they are for crew members only.");
+
+l_NoQuest:
     mes "";
     mesn "Narrator";
     mes col(l("Nard looks surprised and stops you."), 9);
@@ -64,35 +73,18 @@
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
-    set @item, 718;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
-
     setq ShipQuests_Nard, 1;
     getitem "JohanneKey", 1;
 
     close;
 
-l_NotYet:
-    setcamnpc "Nard";
-    mes "";
-    mesn "Nard";
-    mesq l("Please don't touch these hats, they are for crew members only.");
-
 l_Give:
     setcamnpc "Nard";
     mes "";
     mesn "Nard";
-    mesq l("Congrats!");
-    next;
-    mesn "Nard";
     mesq l("You are now part of the crew. Thanks again for your help.");
 
-    set @item, 2900;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
-
-    setq ShipQuests_Nard, 3;
+    setq ShipQuests_Nard, 5;
     getitem "Bandana", 1;
 //  Need to add a skill for the crew at this line.
 

@@ -210,6 +210,8 @@ l_Regret:
     mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");
     next;
     mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
+    set zeny, zeny + 50;
+    message strcharinfo(0), l("You receive 50GP!");
     setq ShipQuests_ChefGado, 5;
 
     close;

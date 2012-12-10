@@ -28,7 +28,7 @@ OnTalk:
     set @gugli, getq(ShipQuests_Gugli);
     set @gado, getq(ShipQuests_ChefGado);
 
-    if (@gado > 3 && @nard == 3) goto l_AllComplete;
+    if (@nard > 3) goto l_AllComplete;
     if (@nard > 1 || @gugli == 2) goto l_TaskCompleted;
     if (@gugli == 1) goto l_TaskGiven;
 
@@ -137,9 +137,9 @@ l_Couwan:
     mesq l("May this be a lesson for you.");
 
     setq ShipQuests_Couwan, 2;
-    set zeny, zeny+50;
+    set zeny, zeny+5;
     if (countitem("FishBox") > 0) delitem "FishBox", 1;
-    message strcharinfo(0), l("You receive 50GP!");
+    message strcharinfo(0), l("You receive 5GP!");
     close;
 
 l_Location:
@@ -187,6 +187,8 @@ l_TaskDone:
     if (countitem("CroconutBox") == 1) delitem "CroconutBox", 1;
     if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
     setq ShipQuests_Gugli, 2;
+    
+    getexp 50, 0;
 
     mesq l("Well done! The ship is now ready to sail again!");
     next;
