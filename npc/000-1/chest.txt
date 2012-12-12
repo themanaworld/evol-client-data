@@ -26,7 +26,7 @@
 l_Give:
     if (@q > 1) goto l_Close;
     setq ShipQuests_Darlin, 2;
-    set zeny, zeny + 10;
+    set zeny, zeny + 100;
     getitem SeaDrops, 1;
     getitem Aquada, 1;
     getitem OldBook, 1;

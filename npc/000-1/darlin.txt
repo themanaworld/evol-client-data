@@ -17,6 +17,7 @@
     set @q, getq(ShipQuests_Darlin);
     if (@q == 1 || @q == 2) goto OnQuestGiven;
     if (@q > 2) goto l_QuestDone;
+
 OnStart:
     mesq l("HEY! HEY YOU!"); 
     next;

@@ -272,8 +272,8 @@ l_Reward:
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
-    set zeny, zeny + 25;
-    message strcharinfo(0), l("You receive 25GP!");
+    set zeny, zeny + 500;
+    message strcharinfo(0), l("You receive 500GP!");
     setq ShipQuests_Peter, 5;
 
     goto l_CleaningClose;

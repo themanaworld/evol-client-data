@@ -190,6 +190,7 @@ l_PoisonJulia:
         l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen."), l_Regret;
 
     mes "";
+    mesn;
     mesq l("Seems yummy! Let me taste it!");
     next;
     mesq l("Hmmm, hm... *cough*, *cough*, *burp*, *cough*. What... What is that?!... *cough*, *burp*... Damn Gado... *cough*");
@@ -200,6 +201,7 @@ l_PoisonJulia:
 
 l_Regret:
     mes "";
+    mesn;
     mesq l("Why? And who should you bring it back to?");
     next;
 
@@ -207,12 +209,13 @@ l_Regret:
         l("Ehm... He was really upset because of some past stories."), -;
 
     mes "";
+    mesn;
     mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");
     next;
     mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
     set zeny, zeny + 50;
-    message strcharinfo(0), l("You receive 50GP!");
-    setq ShipQuests_ChefGado, 5;
+    message strcharinfo(0), l("You receive 100GP!");
+    setq ShipQuests_ChefGado, 100;
 
     close;
 
