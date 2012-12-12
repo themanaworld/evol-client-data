@@ -155,7 +155,7 @@ l_GiveFood:
         l("I don't have anything good for you today."), -1;
 
     set @id, @menuret;
-    if (@id == -1) goto l_DamnYou; // Quit message.
+    if (@id == -1) goto l_Quit; // Quit message.
     if (@id == 0) goto l_NoReward; // In case of wrong food.
     if (@id == 1) goto l_Poison; // In case of Poisonned food.
     if (@id == 2) goto l_NoMore; // In case of Piberries.
