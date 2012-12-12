@@ -75,7 +75,7 @@ Copyright (C) 2012 Evol Online -->
             <text></text>
             <text>Coordinates: La Johanne, Second Deck. (60,35)</text>
             <text>Difficulty: ✭✩✩✩✩✩</text>
-            <text>Rewards: 25GP, 100EXP.</text>
+            <text>Rewards: 500GP, 100EXP.</text>
         </quest>
         <quest name="Peter" group="Ship" incomplete="1" complete="3">
             <name>Free Wash</name>
@@ -100,7 +100,7 @@ Copyright (C) 2012 Evol Online -->
             <text>Gugli, one of his sailors, waits for you on the shore to tell you about the task.</text>
             <text></text>
             <text>Coordinates: La Johanne, Nard's Room. (25,26)</text>
-            <text>Difficulty: ✩✩✩✩✩✩</text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: Unknown.</text>
         </quest>
         <quest name="Nard" group="Ship" incomplete="3" complete="4">
@@ -109,15 +109,23 @@ Copyright (C) 2012 Evol Online -->
             <text>Chef Gado, the former shipkeeper, may have something to say about that.</text>
             <text></text>
             <text>Coordinates: La Johanne, Nard's Room. (25,26)</text>
-            <text>Difficulty: ✩✩✩✩✩✩</text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: Unknown.</text>
         </quest>
-        <quest name="Nard" group="Ship" incomplete="4" complete="5">
+        <quest name="Nard" group="Ship" incomplete="4" complete="6">
             <name>One of Us</name>
             <text>You are finally part of Nard's crew! Take your reward from the box near the captain.</text>
             <text></text>
             <text>Coordinates: La Johanne, Nard's Room. (25,24)</text>
-            <text>Difficulty: ✩✩✩✩✩✩</text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
+            <text>Reward: A sailor bandana.</text>
+        </quest>
+        <quest name="Nard" group="Ship" incomplete="5" complete="5">
+            <name>One of Us</name>
+            <text>You are part of Nard's crew!</text>
+            <text></text>
+            <text>Coordinates: La Johanne, Nard's Room. (25,24)</text>
+            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: A sailor bandana.</text>
         </quest>
     </var>
@@ -138,7 +146,7 @@ Copyright (C) 2012 Evol Online -->
             <text></text>
             <text>Coordinates: Desert Island. (90,89)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
-            <text>Rewards: 10GP, Old Book, Aquada, SeaDrops.</text>
+            <text>Rewards: 100GP, Old Book, Aquada, SeaDrops.</text>
         </quest>
     </var>
     <var id="9">
@@ -154,22 +162,30 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Couwan" group="Ship" incomplete="4" complete="2">
             <name>Fish and Scams</name>
             <text>Couwan is an awful, roguish person. No reward from him!</text>
-            <text>However, Gugli gave you some gold pieces and apologized for this unexpected task. He also warned you not to trust anyone.</text>
+            <text>However, Gugli gave you some gold pieces and apologized for this unexpected task.</text>
+            <text>He also warned you not to trust anyone.</text>
             <text></text>
             <text>Coordinates: Desert Island. (89,36)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
-            <text>Rewards: 5GP.</text>
+            <text>Rewards: 10GP.</text>
         </quest>
     </var>
     <var id="16">
-        <quest name="Gugli" group="Ship" incomplete="1" complete="2">
+        <quest name="Gugli" group="Ship" incomplete="1" complete="3">
             <name>Unexpected Help</name>
             <text>Gugli told you about sailors' task on the island. He wants you to help some of them bringing him 6 boxes full of croconuts, aquadas and plushrooms.</text>
-            <text>You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, Jalad and Ale. Max and Lean may have more information.</text>
+            <text>You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, Jalad and Ale.</text>
+            <text>Max, Silvio and Lean may have some information for where to find these sailors.</text>
             <text></text>
             <text>Coordinates: Desert Island. (85,108)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
-            <text>Reward: 50EXP.</text>
+        </quest>
+        <quest name="Gugli" group="Ship" incomplete="2" complete="2">
+            <name>Unexpected Help</name>
+            <text>Quest completed.</text>
+            <text></text>
+            <text>Coordinates: Desert Island. (85,108)</text>
+            <text>Difficulty: ✩✩✩✩✩✩</text>
         </quest>
     </var>
     <var id="17">
@@ -183,11 +199,20 @@ Copyright (C) 2012 Evol Online -->
         </quest>
         <quest name="Chef Gado" group="Ship" incomplete="2" complete="3">
             <name>A Poisoned Recipe</name>
-            <text>Chef Gado has prepared the poisoned meal for Julia. He would like you to give her his special dish.</text>
+            <text>Chef Gado has prepared the poisoned meal for Julia.</text>
+            <text>He would like you to give her his special dish.</text>
             <text></text>
             <text>Coordinates: La Johanne, Second Deck. (17,28)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
             <text>Reward: Unknown.</text>
+        </quest>
+        <quest name="Chef Gado" group="Ship" incomplete="2" complete="5">
+            <name>A Poisoned Recipe</name>
+            <text>Julia_won</text>
+            <text></text>
+            <text>Coordinates: La Johanne, Second Deck. (17,28)</text>
+            <text>Difficulty: ✩✩✩✩✩✩</text>
+            <text>Reward: Bread, 60GP.</text>
         </quest>
         <quest name="Chef Gado" group="Ship" incomplete="3" complete="4">
             <name>A Poisoned Recipe</name>
@@ -195,7 +220,7 @@ Copyright (C) 2012 Evol Online -->
             <text></text>
             <text>Coordinates: La Johanne, Second Deck. (17,28)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
-            <text>Reward: Bread, 25GP.</text>
+            <text>Reward: 100GP.</text>
         </quest>
     </var>
 </quests>
