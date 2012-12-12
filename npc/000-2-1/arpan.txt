@@ -119,6 +119,10 @@ OnEquip:
 l_OhWell:
     mes "";
     mesq lg("Oh well, we rescued you when you were yaying adrift in the sea.");
+    next;
+
+    menu
+        l("And then what happened?"), l_Story;
 
 l_Story:
     mes "";

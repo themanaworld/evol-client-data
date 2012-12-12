@@ -13,6 +13,8 @@
 000-2-1.gat,51,37,0	script	Chest#0	317;2,{
 
     set @q, getq(ShipQuests_Arpan);
+    
+    if (@q == 0) goto l_Talk;
     if (getnpcdir ("") == 4) goto l_Give;
 
     setnpcdir 2;
@@ -36,6 +38,11 @@ OnTimer220:
     if (getnpcdir ("") == 2) setnpcdir 4;
     if (getnpcdir ("") == 6) setnpcdir 0;
     end;
+
+l_Talk:
+    message strcharinfo(0), l("You need to talk to Magic Arpan first!");
+
+    close;
 
 l_Quit:
     setnpcdir 6;
