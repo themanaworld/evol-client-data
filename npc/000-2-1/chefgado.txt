@@ -100,6 +100,10 @@ l_QuestAccepted:
 l_GotAll:
     mes "";
 
+    set @item, 717;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
+
     delitem "PiouLegs", 2;
     delitem "Croconut", 1;
     delitem "Aquada", 1;
