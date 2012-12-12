@@ -213,15 +213,15 @@ l_AllComplete:
 
     goto l_Menu;
 
+l_Quit:
+    close;
+
 }
 
 000-1.gat,83,107,0,1	script	GugliBarrierCheck	0,2,0,{
     set @gugli, getq(ShipQuests_Gugli);
     if (@gugli > 0) close;
     doevent "Gugli::OnTalk";
-    close;
-
-l_Quit:
     close;
 
 }
