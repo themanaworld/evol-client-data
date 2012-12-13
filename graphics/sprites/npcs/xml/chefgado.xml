@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Authors: Hal9000, Reid
+<!-- Authors: Alige, Hal9000, Reid
 Copyright (C) 2012 Evol Online -->
 <sprite>
     <imageset name="npc"
@@ -9,7 +9,7 @@ Copyright (C) 2012 Evol Online -->
 
     <action name="stand" imageset="npc">    
         <animation direction="default">
-            <!-- Playing With Knife -->
+            <!-- Playing With Knife - Long -->
             <frame index="0" delay="2500"/>
             <frame index="1" delay="150"/>
             <frame index="2" delay="150"/>
@@ -31,6 +31,15 @@ Copyright (C) 2012 Evol Online -->
             <frame index="3" delay="60"/>
             <frame index="4" delay="120"/>
             <frame index="3" delay="70"/>
+            <!-- Playing With Knife - Short -->
+            <frame index="0" delay="170"/>
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="170"/>
+            <frame index="0" delay="150"/>
+            <frame index="1" delay="120"/>
+            <frame index="2" delay="150"/>
+            <frame index="1" delay="120"/>
         </animation>
     </action>
 </sprite>
