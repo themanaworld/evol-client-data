@@ -134,6 +134,7 @@ l_Bye:
     mes "";
     mesn;
     mesq l("FINE, BYE!");
+    close;
 
 OnQuestGiven:
     mesq l("HEY @@!", strcharinfo(0));
