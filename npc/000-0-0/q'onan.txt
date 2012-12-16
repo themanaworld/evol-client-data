@@ -13,10 +13,14 @@
     goto l_Snoring;
 
 l_Zzz:
+    setcamnpc;
+
     mesq l("Zzzzzzzzzz");
     close;
 
 l_Snoring:
+    setcamnpc;
+
     mesq l("Rrrr... Pchhhh...");
 
     close;
