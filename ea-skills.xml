@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Reid
+<!-- Author: Reid, 4144
 Copyright (C) 2010-2012 Evol Online -->
 <skills>
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//set/@name" translate="yes"/>
         <its:translateRule selector="//set/skill/@name" translate="yes"/>
+        <its:translateRule selector="//set/skill/@description" translate="yes"/>
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
     <set name="Basic">
         <skill id="1" name="Emote" icon="graphics/skills/emote.png"/>
         <skill id="2" name="Trade"/>
-        <skill id="3" name="Party"/>
+        <skill id="3" name="Party" level="1" description="Can join party"/>
+        <skill id="3" name="Party" level="2" description="Can join and create party"/>
         <skill id="500" name="Guild"/>
         <skill id="501" name="Craft"/>
         <skill id="502" name="Dye"/>
