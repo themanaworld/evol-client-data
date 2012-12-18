@@ -523,7 +523,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
         name="Lousy Moccasins"
         description="Orc-made moccasins. Not sure from which skin these shoes were made."
-        effect="+1 Defense"
+        effect="+2 Defense"
         type="equip-feet"
         weight="25"
         maxFloorOffset="8">
@@ -537,7 +537,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/hands/armbands.png"
         name="Armbands"
         description="Small armbands made of wood and iron."
-        effect="+1 Defense"
+        effect="+3 Defense"
         type="equip-arms"
         weight="30"
         maxFloorOffset="16">
@@ -588,7 +588,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/bandana.png"
         name="Bandana"
         description="A striped bandana worn by some sailors."
-        effect="+1 Defense"
+        effect="+2 Defense"
         type="equip-head"
         weight="13"
         maxFloorOffsetX="8"
@@ -674,11 +674,26 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/knife.png"
         name="Knife"
         description="A simple, but sharp knife."
-        effect="+10 Damage"
+        effect="+5 Damage"
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
         weight="50"
+        maxFloorOffsetX="9"
+        maxFloorOffsetY="12">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="strike">weapons/knife/strike1.ogg</sound>
+    </item>
+    <item id="3501"
+        image="equipment/weapons/piouflayer.png"
+        name="Piouflayer"
+        description="Novice dagger, much useful in the kitchen than in a real combat..."
+        effect="+13 Damage"
+        type="equip-1hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="90"
         maxFloorOffsetX="9"
         maxFloorOffsetY="12">
         <sprite>equipment/weapons/knife.xml</sprite>
