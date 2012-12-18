@@ -45,9 +45,11 @@ l_Checker:
     mesq lg("It is nice to see that you woke up fine at the same time. Elmo came here to tell me this good news!");
     next;
 
+    setcamnpc "Elmo";
     mesn "Elmo";
     mesq l("Oh... Err, yes I did, or, well, good day to you!");
     next;
+    restorecam;
 
     mesn;
     mesq l("Hehehe, he is a bit nervous, please forgive him, it is not everyday we have a new member in the crew!");

@@ -42,20 +42,25 @@
     mesq l("Before...");
     next;
 
+    setcamnpc "Gugli";
+    mes "";
     mesn "Gugli";
     mesq l("Hey, don't worry about him, it's one of the first days in a long time that we can just chill out.");
     next;
     mesq l("Maybe he abused too much his bottle today to celebrate that!");
     next;
+    restorecam;
 
     menu
         l("He's funny, it's not a problem."), -,
         l("Ok, I will leave him alone."), l_ForeverAlone;
 
+    setcamnpc "Gugli";
     mes "";
     mesn "Gugli";
     mesq l("Oh alright, nevermind then.");
     next;
+    restorecam;
 
     mesn;
     mesq l("Ah... Gugli... He's too young to understand our conversation.");
@@ -83,9 +88,12 @@ l_VeryImportantNoob:
     mesq l("But I can't tell you anything about it, I'm sorry.") ;
     next;
 
+    setcamnpc "Gugli";
+    mes "";
     mesn "Gugli";
     mesq l("Hey Silvio, it's your turn to carry the package, go!");
     next;
+    restorecam;
 
     mesn;
     mesq g(l("Duty calls me, *hic*, see you later honey."),
@@ -139,7 +147,7 @@ l_Sailors:
     next;
 
     setcamnpc "Gugli";
-
+    mes "";
     mesn "Gugli";
     mesq g(l("Don't bother her Silvio, or I'll to tell her that you cry like a baby when you hear the thunder in the night."),
            l("Don't bother him Silvio, or I'll to tell him that you cry like a baby when you hear the thunder in the night."));

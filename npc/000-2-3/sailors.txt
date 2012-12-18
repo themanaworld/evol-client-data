@@ -11,16 +11,19 @@ OnTouch:
     if (getq(ShipQuests_Door) == 1) end;
     setq ShipQuests_Door, 1;
 
+    setcamnpc "Elmo";
     mesn "Elmo";
     mesq g(l("So that's why we wanted to warn you, maybe she comes from that guild, as that sign was on her raft."),
            l("So that's why we wanted to warn you, maybe he comes from that guild, as that sign was on his raft."));
     next;
 
+    setcamnpc "Nard";
     mesn "Captain Nard";
     mesq g(l("I see, warn the other sailors about this. But if she is a part of the Warrior Guild, then she is also our ally."),
            l("I see, warn the other sailors about this. But if he is a part of the Warrior Guild, then he is also our ally."));
     next;
 
+    setcamnpc "Elmo";
     mesn "Elmo";
     mesq l("I will.");
     next;
@@ -29,6 +32,7 @@ OnTouch:
     mesq l("There are rumors going around that they did some monstrous things and that they are hiding quite a lot from us.");
     next;
 
+    setcamnpc "Nard";
     mesn "Captain Nard";
     mesq g(l("This kind of talk should be punished, but I agree that I don't specially like them too, so keep an eye on her."),
            l("This kind of talk should be punished, but I agree that I don't specially like them too, so keep an eye on him."));
@@ -38,6 +42,7 @@ OnTouch:
            l("But... If he has amnesia like Julia said... We don't need to worry about him."));
     next;
 
+    setcamnpc "Elmo";
     mesn "Elmo";
     mesq l("Sure, cap'tain.");
 

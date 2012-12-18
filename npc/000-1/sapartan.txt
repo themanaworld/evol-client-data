@@ -11,14 +11,12 @@
     next;
 
     setcamnpc "Max";
-
     mesn "Max";
     mesq lg("@@? Welcome my dear!", strcharinfo(0));
     next;
     mesq lg("Last time I saw you, you were lost in the sea on your raft.");
     next;
-
-    setcamnpc;
+    restorecam;
 
     mesn;
     mesq g(l("True but now she seems pretty fine! Am I right?"),
@@ -40,7 +38,6 @@
         l("What danger?! Where?!"), -;
 
     setcamnpc "Max";
-
     mes "";
     mesn "Max";
     mesq lg("Come on Sap! You are scaring our guest with your stories.");
@@ -49,7 +46,7 @@
            l("I'm sure he will soon be able to fight creatures living here a way more dangerous than tortugas do"));
     next;
 
-    setcamnpc;
+    restorecam;
 
     mes "";
     mesn;
