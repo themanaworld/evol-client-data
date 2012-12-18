@@ -14,54 +14,66 @@ OnTalk:
            l("This guy is lucky we found him before a shark did. I have no idea where he comes from. By the way, did you see the logo on his raft?"));
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq lg("Yeye, it's the logo of the Warrior Guild of Esperia! I wonder what this yoiis was doing so far away from the coast.");
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq l("I wonder too...");
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq g(l("Maybe she was one of those who got lost last month? The yoiis from Esperia that got a secret quest from the Warrior Guild!"),
            l("Maybe he was one of those who got lost last month? The yoiis from Esperia that got a secret quest from the Warrior Guild!"));
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq l("This makes sense. Do you think we should inform the capt'n about it?");
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq l("Yeye.");
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq g(l("Alright, I'm going to his room, keep an eye on her, we still don't know if she's an ally or an enemy..."),
            l("Alright, I'm going to his room, keep an eye on him, we still don't know if he's an ally or an enemy..."));
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq l("I will yaying do.");
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq g(l("Oh, and give her some clothes, the poor girl, the ones she had were in even worse condition that the ones we have!"),
            l("Oh, and give him some clothes, the poor guy, the ones he had were in even worse condition that the ones we have!"));
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq l("Yayayaya, it's the first time someone is dressed worse then us!");
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq l("Hehe... Ok, I'm going to inform the capt'n up there.");
     next;
 
+    setcamnpc "Magic Arpan";
     mesn "Magic Arpan";
     mesq g(l("I'll give her everything she needs, don't worry."),
            l("I'll give him everything he needs, don't worry."));
     next;
 
+    setcamnpc;
     mesn "Elmo";
     mesq g(l("Ok, I think she's waking up, go see her."),
            l("Ok, I think he's waking up, go see him."));
