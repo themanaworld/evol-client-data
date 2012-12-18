@@ -1,5 +1,6 @@
 // Evol scripts.
-// Author:
+// Authors:
+//    Alige
 //    Reid
 // Description:
 //    Darlin talks from the top of the tall mast.
@@ -19,15 +20,18 @@
     if (@q > 2) goto l_QuestDone;
 
 OnStart:
+    setcamnpc;
     mesq l("HEY! HEY YOU!"); 
     next;
     mesq l("CAN YOU HEAR ME?!");
     next;
+    restorecam;
 
     menu
         l("Yes!"), -,
         l("No!"), l_Quit;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("GOOD!");
@@ -36,6 +40,7 @@ OnStart:
     next;
     mesq l("DO YOU FEEL BETTER?!");
     next;
+    restorecam;
 
     menu
         l("I do feel better!"), -,
@@ -46,35 +51,41 @@ OnStart:
         l("And you, how are you doing?"), -,
         l("But I need to go, see you!"), l_Bye;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("I AM DOING FINE!");
     next;
     mesq l("HEY, WHAT'S YOUR NAME?!");
     next;
+    restorecam;
 
     menu
          strcharinfo(0) + ".", -,
          l("Maybe you can come down to talk?"), -;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("WHAT DID YOU SAY?!");
     next;
     mesq l("I DO NOT UNDERSTAND!");
     next;
+    restorecam;
 
     menu
         l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
         l("I SAID, SEE YOU LATER!"), l_Bye,
         l("I'M CALLED, @@!", strcharinfo(0)), -;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq strcharinfo(0) + "? " + l("THAT'S A NICE NAME!");
     next;
     mesq l("SO WHAT'S UP?! WHAT ARE YOU DOING?!");
     next;
+    restorecam;
 
 l_Menu:
     set @q, getq(ShipQuests_Darlin);
@@ -84,10 +95,11 @@ l_Menu:
         l("I'm looking for Gugli, where is he?"), -,
         l("I need to go, sorry."), l_Bye;
 
-    setcamnpc "Gugli";
+    setcamnpc;
     mes "";
     mesn;
     mesq l("OH, LOOK THERE!");
+    setcamnpc "Gugli";
     next;
     mesq l("HE IS AT THE BOTTOM OF THE SHIP, DOWN THE STAIRS. YOU CAN'T MISS HIM!");
     restorecam;
@@ -95,6 +107,7 @@ l_Menu:
     close;
 
 l_GoDown:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("I WOULD LOVE TO!");
@@ -103,6 +116,7 @@ l_GoDown:
     next;
     mesq l("I ALSO AVOID THE DANGEROUS ANIMALS!");
     next;
+    restorecam;
 
     menu
         l("Have you seen anything dangerous?"), -,
@@ -114,15 +128,18 @@ l_GoDown:
     if (@q > 0) goto l_DangerAround;
     setq ShipQuests_Darlin, 1;
 
+    setcamnpc;
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
     next;
     mesq l("MAYBE YOU CAN LOOK AT THIS?!");
     next;
+    restorecam;
 
     menu
         l("I'll look at it."), l_Bye,
         l("Sure, but Gugli needs my help first."), -;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("IT'S OK, CREW TASKS ARE MUCH MORE IMPORTANT THAN CURIOSITY!");
@@ -131,57 +148,69 @@ l_GoDown:
     close;
 
 l_Bye:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("FINE, BYE!");
     close;
 
 OnQuestGiven:
+    setcamnpc;
     mesq l("HEY @@!", strcharinfo(0));
     next;
     mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?!");
     next;
+    restorecam;
 
     menu
         rif(@q == 1, l("I forgot where it was...")), -,
         rif(@q == 2, l("Yes, it's a chest.")), l_Chest,
         l("Oh, nothing important."), l_Nothing;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("ON THE TOP OF THE CLIFF!");
     next;
     mesq l("YOU NEED TO WALK NORTH!");
+    restorecam;
 
     goto l_Menu;
 
 l_Nothing:
+    setcamnpc;
     if (@q == 2) setq ShipQuests_Darlin, 3;
     mes "";
     mesn;
     mesq l("OH, OK!");
+    restorecam;
 
     goto l_Menu;
 
 l_Chest:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("SORRY, BUT WHAT DID YOU SAY? SPEAK LOUDER!");
     next;
     mesq l("IF YOU FIND SOMETHING, THEN IT'S GREAT!");
 
+    restorecam;
     setq ShipQuests_Darlin, 3;
     goto l_Menu;
 
 l_DangerAround:
+    setcamnpc;
     mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT!");
  
     close;
 
 l_QuestDone:
+    setcamnpc;
     mesq l("HEY") + " " + strcharinfo(0) + "!"; 
     next;
 
+    restorecam;
     goto l_Menu;
 
 l_Quit:
