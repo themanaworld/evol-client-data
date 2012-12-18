@@ -56,9 +56,11 @@ OnTimer190:
 OnFirstEncounter:
     setq ShipQuests_Alige, 1;
 
+    setcamnpc;
     mesn "Hidden Person";
     mesq l("Hey, psst! You're not a sailor, right?");
     next;
+    restorecam;
 
     menu
         lg("I am, who are you?"), -,
@@ -71,29 +73,34 @@ OnFirstEncounter:
     close;
 
 l_NeedHelp:
+    setcamnpc;
     mes "";
     mesn "Hidden Person";
     mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
     next;
+    restorecam;
 
     menu
         l("Why not, but who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), l_Quit;
 
 l_CanHelp:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("My name is Alige, I've been hiding here for weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
     next;
     mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries.");
     next;
+    restorecam;
 
     menu
         l("Sure, but what can you give me in exchange?"), l_AboutReward,
         l("Why don't you come out?"), -;
 
 
-  l_ExplainHiding:
+l_ExplainHiding:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have a lot of fun.");
@@ -102,15 +109,18 @@ l_CanHelp:
     next;
     mesq l("Please don't tell people that you've seen me. I don't want to be thrown in the sea as food for sharks or decapitated. At least not again!");
     next;
+    restorecam;
 
     if (getq(ShipQuests_Alige) == 2) goto l_SoAskForFood;
     goto l_Accept;
 
 l_AboutReward:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("I'll share my berries with you if you help me.");
     next;
+    restorecam;
 
 l_Accept:
     menu
@@ -119,21 +129,25 @@ l_Accept:
         l("I think I should report you to the crew members."), l_Quit;
 
 l_Artis:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("It's a commercial port of Andorra, it's weird that you don't know about it since it is one of the most famous cities throughout the world. But hey, returning to the topic, I'm hungry!");
     next;
+    restorecam;
 
     if (@q == 2) goto l_SoAskForFood;
     goto l_Accept;
 
 l_Accepted:
+    setcamnpc;
     setq ShipQuests_Alige, 2;
 
     mes "";
     mesn;
     mesq lg("Great, what food do you have for me today?");
     next;
+    restorecam;
 
 l_GiveFood:
     mes "";
@@ -168,6 +182,7 @@ l_GiveReward:
     callfunc "InventoryPlace", @item, @count;
     delitem @id, 1;
 
+    setcamnpc;
     mesn;
     mesq l("Thank you so much! Here, have some of my berries.");
 
@@ -177,13 +192,16 @@ l_GiveReward:
     close;
 
 l_NoReward:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("I don't want this, give me something else.");
+    restorecam;
 
     goto l_GiveFood;
 
 l_NoMore:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid... Stupid... Stupid!");
@@ -191,21 +209,27 @@ l_NoMore:
     close;
 
 l_Poison:
+    setcamnpc;
     mes "";
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
+    restorecam;
 
     goto l_GiveFood;
 
 l_SoAskForFood:
+    setcamnpc;
     mesn;
     mesq l("So, do you have anything for me today?");
     next;
+    restorecam;
     goto l_IntroMenu;
 
 l_AskForFood:
+    setcamnpc;
     mesn;
     mesq l("Do you have anything for me today?");
+    restorecam;
     next;
 
 l_IntroMenu:
@@ -216,6 +240,7 @@ l_IntroMenu:
         l("What is Artis?"), l_Artis,
         l("I think I should report you to the crew members."), l_Quit;
 
+    setcamnpc;
     mes "";
     mesn;
     mesq l("There are some flying yellow plushes around you. They're called pious. Getting a roasted leg of one of them would be perfect.");
@@ -232,6 +257,7 @@ l_IntroMenu:
     close;
 
 l_Quit:
+    setcamnpc;
     mes "";
     mesn;
     mesq lg("Damn you! You better not tell anyone that you've seen me!");
