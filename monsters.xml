@@ -28,7 +28,7 @@ Example:
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-    <monster id="0" name="Piou" targetCursor="small" walkType="walk">
+    <monster id="0" name="Piou" targetCursor="small">
         <sprite>monsters/piou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -37,7 +37,7 @@ Example:
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="1" name="Piousse" targetCursor="small" walkType="walk">
+    <monster id="1" name="Piousse" targetCursor="small">
         <sprite>monsters/piou.xml</sprite>
         <sprite>accessories/piousse-egg.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
@@ -56,7 +56,7 @@ Example:
         <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
         <sprite>monsters/tortuga.xml</sprite>
     </monster>
-    <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
+    <monster id="3" name="Ratto" targetCursor="small">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/ratto-tail.xml</sprite>
         <sound event="die">monsters/ratto/die1.ogg</sound>
@@ -65,7 +65,7 @@ Example:
         <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
         <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
     </monster>
-    <monster id="4" name="Croc" targetCursor="small" walkType="walk">
+    <monster id="4" name="Croc" targetCursor="small">
         <sound event="hit">monsters/croc/hit1.ogg</sound>
         <sound event="hit">monsters/croc/hit2.ogg</sound>
         <sound event="hurt">monsters/croc/hurt1.ogg</sound>
@@ -82,11 +82,11 @@ Example:
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-<!--<monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
+<!--<monster id="6" name="Blub" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
     </monster>
-    <monster id="7" name="Top Blub" targetCursor="medium" walkType="walkswim">
+    <monster id="7" name="Top Blub" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sprite>accessories/blub-tophat.xml</sprite>
