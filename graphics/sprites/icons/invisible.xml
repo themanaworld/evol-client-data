@@ -6,7 +6,7 @@ Copyright (C) 2010-2012 Evol Online -->
               src="graphics/sprites/icons/invisible.png"
               width="16"
               height="24"
-              offsetX="-10"/>
+              offsetY="-8"/>
 
     <action name="default" imageset="icon">
         <animation direction="default">
@@ -22,6 +22,8 @@ Copyright (C) 2010-2012 Evol Online -->
             <frame index="7" delay="300"/>
             <frame index="0" delay="5000"/>
             <frame index="7" delay="200"/>
+            <sequence start="0" end="4" delay="100"/>
+            <frame index="7" delay="5000"/>
         </animation>
     </action>
 </sprite>
