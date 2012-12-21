@@ -688,15 +688,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="3501"
         image="equipment/weapons/piouslayer.png"
         name="Piou Slayer"
-        description="A dagger for novice fighters, more useful in the kitchen than in a real fight..."
+        description="A short sword for novice fighters, more useful in the kitchen than in a real fight..."
         effect="+13 Damage"
         type="equip-1hand"
-        weapon-type="knife"
+        weapon-type="sword"
         attack-action="attack"
         weight="90"
         maxFloorOffsetX="9"
         maxFloorOffsetY="12">
-        <sprite>equipment/weapons/knife.xml</sprite>
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="strike">weapons/piouslayer/strike1.ogg</sound>
     </item>
