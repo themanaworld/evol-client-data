@@ -69,7 +69,7 @@ OnTalk:
     next;
 
     setq ShipQuests_Gugli, 1;
-    goto l_Menu;
+    close;
 
 l_TaskGiven:
     mesq l("Great to see you! What can I do for you today?");
