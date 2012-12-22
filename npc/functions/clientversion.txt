@@ -5,7 +5,7 @@
 //    Function checking the client version and reports if it is too old.
 
 function	script	CheckClientVersion	{
-    if (getclientversion("") > 3) return;
+    if (getclientversion("") > 4) return;
 
     mesn "Narrator";
     mes col("Warning.", 9);
@@ -16,5 +16,4 @@ function	script	CheckClientVersion	{
     next;
     mes col("Please install the new client from http://www.evolonline.org/", 9);
     next;
-
 }
