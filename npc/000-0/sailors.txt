@@ -11,7 +11,7 @@
 OnTouch:
     callfunc "CheckClientVersion";
     requestlang @lang;
-    if (@lang >= 0 && @lang <= 7) setlang @lang;
+    if (@lang >= 0 && @lang <= 9) setlang @lang;
 
     mesn "Narrator";
     mes col(l("You are on a raft, adrift in the sea."), 9);
