@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2012-11-26 00:41+0300\n"
-"PO-Revision-Date: 2012-12-12 15:29+0000\n"
-"Last-Translator: foobo <lukasz.antoni.komorowski@poczta.fm>\n"
+"POT-Creation-Date: 2012-12-18 01:36+0300\n"
+"PO-Revision-Date: 2012-12-17 22:41+0000\n"
+"Last-Translator: Andrei Karas <akaras@inbox.ru>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/manaplus/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,68 +17,80 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ea-skills.xml11(skills/set@name)
+#: ea-skills.xml12(skills/set@name)
 msgid "Basic"
 msgstr "Podstawowe"
 
-#: ea-skills.xml12(set/skill@name)
+#: ea-skills.xml13(set/skill@name)
 #: tmp/manaplus_emotes.xml25(emote/sprite@name)
 msgid "Emote"
 msgstr "Emotki"
 
-#: ea-skills.xml13(set/skill@name)
+#: ea-skills.xml13(set/skill@description)
+msgid "You can share your mood."
+msgstr ""
+
+#: ea-skills.xml14(set/skill@name)
 msgid "Trade"
 msgstr "Handel"
 
-#: ea-skills.xml14(set/skill@name)
+#: ea-skills.xml15(set/skill@name) ea-skills.xml16(set/skill@name)
 msgid "Party"
 msgstr "Grupa"
 
-#: ea-skills.xml15(set/skill@name)
+#: ea-skills.xml15(set/skill@description)
+msgid "You can join a party."
+msgstr ""
+
+#: ea-skills.xml16(set/skill@description)
+msgid "You can join and create a party."
+msgstr ""
+
+#: ea-skills.xml17(set/skill@name)
 msgid "Guild"
 msgstr "Gildia"
 
-#: ea-skills.xml16(set/skill@name)
+#: ea-skills.xml18(set/skill@name)
 msgid "Craft"
 msgstr "Rzemiosło"
 
-#: ea-skills.xml17(set/skill@name)
+#: ea-skills.xml19(set/skill@name)
 msgid "Dye"
 msgstr "Farbowanie"
 
-#: ea-skills.xml20(skills/set@name) ea-skills.xml22(set/skill@name)
+#: ea-skills.xml22(skills/set@name) ea-skills.xml24(set/skill@name)
 msgid "Magic"
 msgstr "Magia"
 
-#: ea-skills.xml21(set/skill@name)
+#: ea-skills.xml23(set/skill@name)
 msgid "Fire Ball"
 msgstr "Kula Ognia"
 
-#: ea-skills.xml23(set/skill@name)
+#: ea-skills.xml25(set/skill@name)
 msgid "Life Magic"
 msgstr "Magia Życia"
 
-#: ea-skills.xml24(set/skill@name)
+#: ea-skills.xml26(set/skill@name)
 msgid "War Magic"
 msgstr "Magia Wojny"
 
-#: ea-skills.xml25(set/skill@name)
+#: ea-skills.xml27(set/skill@name)
 msgid "Transmutation Magic"
 msgstr "Magia Transmutacji"
 
-#: ea-skills.xml26(set/skill@name)
+#: ea-skills.xml28(set/skill@name)
 msgid "Nature Magic"
 msgstr "Magia Natury"
 
-#: ea-skills.xml27(set/skill@name)
+#: ea-skills.xml29(set/skill@name)
 msgid "Necromancy Magic"
 msgstr "Magia Nekromancji"
 
-#: ea-skills.xml30(skills/set@name) ea-skills.xml31(set/skill@name)
+#: ea-skills.xml32(skills/set@name) ea-skills.xml33(set/skill@name)
 msgid "Warrior"
 msgstr "Wojownik"
 
-#: ea-skills.xml34(skills/set@name) ea-skills.xml35(set/skill@name)
+#: ea-skills.xml36(skills/set@name) ea-skills.xml37(set/skill@name)
 msgid "Archer"
 msgstr "Łucznik"
 
@@ -466,7 +478,7 @@ msgid "Fungus"
 msgstr "Grzyb"
 
 #: items.xml184(items/item@description)
-msgid "A non-toxic mushroom growing in moist place."
+msgid "A non-toxic mushroom growing in moist places."
 msgstr ""
 
 #: items.xml184(items/item@effect) items.xml288(items/item@effect)
@@ -545,7 +557,7 @@ msgstr "Różowy Blobim"
 msgid "Some pink residue dropped by a little blub."
 msgstr ""
 
-#: items.xml247(items/item@effect)
+#: items.xml247(items/item@effect) items.xml295(items/item@effect)
 msgid "+1 HP / Headache"
 msgstr "+1 PŻ / Ból głowy"
 
@@ -591,10 +603,6 @@ msgstr "Pestki Dyni"
 #: items.xml295(items/item@description)
 msgid "Doesn't seem very appetizing..."
 msgstr "Nie wygląda zbyt apetycznie..."
-
-#: items.xml295(items/item@effect)
-msgid "+1 HP, Headache"
-msgstr "+1 HP, migrena"
 
 #: items.xml305(items/item@name)
 msgid "Small Tentacles"
@@ -796,7 +804,7 @@ msgstr "Koszulka marynarska %Color%go koloru."
 msgid "A %color% tank top used by sailors and seamen."
 msgstr "Koszulka marynarska %color%go koloru, używana przez prawdziwych wilków morskich."
 
-#: items.xml503(items/item@effect) items.xml613(items/item@effect)
+#: items.xml503(items/item@effect) items.xml618(items/item@effect)
 msgid "+3 Defense"
 msgstr "+3 Obrony"
 
@@ -821,7 +829,7 @@ msgid "Orc-made moccasins. Not sure from which skin these shoes were made."
 msgstr ""
 
 #: items.xml529(items/item@effect) items.xml543(items/item@effect)
-#: items.xml595(items/item@effect) items.xml630(items/item@effect)
+#: items.xml595(items/item@effect) items.xml650(items/item@effect)
 msgid "+1 Defense"
 msgstr "+1 Obrony"
 
@@ -849,31 +857,31 @@ msgstr "Bandana"
 msgid "A striped bandana worn by some sailors."
 msgstr "Pasiasta bandana noszona przez niektórych żeglarzy."
 
-#: items.xml613(items/item@name)
+#: items.xml618(items/item@name)
 msgid "Pumpkin Hat"
 msgstr "Kapelusz z Dyni"
 
-#: items.xml613(items/item@description)
+#: items.xml618(items/item@description)
 msgid "A carved pumpkin, the face will scare your enemy off."
 msgstr "Wyrzeźbiona dynia, wizerunek z pewnością przestraszy twego wroga."
 
-#: items.xml630(items/item@name)
+#: items.xml650(items/item@name)
 msgid "Fancy Hat"
 msgstr ""
 
-#: items.xml630(items/item@description)
+#: items.xml650(items/item@description)
 msgid "A fancy hat, what else?"
 msgstr ""
 
-#: items.xml666(items/item@name)
+#: items.xml683(items/item@name)
 msgid "Knife"
 msgstr "Nóż"
 
-#: items.xml666(items/item@description)
+#: items.xml683(items/item@description)
 msgid "A simple, but sharp knife."
 msgstr "Niewyszukany, ale ostry nóż."
 
-#: items.xml666(items/item@effect)
+#: items.xml683(items/item@effect)
 msgid "+10 Damage"
 msgstr "+10 Obrażeń"
 
@@ -993,11 +1001,11 @@ msgstr "Kłap"
 msgid "Little Blub"
 msgstr "Mały Bryłek"
 
-#: monsters.xml92(monsters/monster@name)
+#: monsters.xml94(monsters/monster@name)
 msgid "Crocotree"
 msgstr ""
 
-#: monsters.xml99(monsters/monster@name)
+#: monsters.xml101(monsters/monster@name)
 msgid "Plushroom Field"
 msgstr ""
 
@@ -1096,22 +1104,22 @@ msgstr "Załóż przedmiot"
 
 #: quests.xml40(quest/text)
 msgid ""
-"Open your inventory by using the F3 key or use your mouse to select it in "
-"the menu of your client."
-msgstr "Otwórz inwentarz naciskając klawisz F3 lub najedź myszką na menu w swym kliencie."
+"To open your inventory, use the F3 key or use your mouse to select it in the"
+" above menu in your client."
+msgstr ""
 
 #: quests.xml41(quest/text)
 msgid ""
-"Once your inventory is open, you may equip the item by selecting it and "
-"clicking 'Equip'. Alternately, you can take off an equipment by clicking on "
+"When your inventory is open, you can equip an item by selecting it and "
+"clicking 'Equip'. You can do the same to unequip an item by clicking on "
 "'Unequip'."
-msgstr "Jak już inwentarz zostanie otwarty, to możesz założyć przemiot zaznaczając go i wybierając opcję 'Załóż'. Analogicznie, by zdjąć ekwipunek wybierz opcję 'Zdejmij'."
+msgstr ""
 
 #: quests.xml42(quest/text)
 msgid ""
-"Some items have different effects. Some can heal you, some can be used as "
-"weapons or armors, and others can simply be sold for gold."
-msgstr "Niektóre przedmioty przynoszą różne efekty. Niektóre mogą ciebie uleczyć, niektóre mogą być wykorzystane jako broń lub zbroja, a inne po prostu można sprzedać za określoną sumę złota."
+"Items have different effects. Some will heal you, some can be used as "
+"weapons or armor, and some can be sold for gold."
+msgstr ""
 
 #: quests.xml47(quest/name) quests.xml54(quest/name)
 msgid "Piberries Lover"
@@ -1151,10 +1159,13 @@ msgid ""
 " would like you to find him other kinds of food and bring them to him."
 msgstr ""
 
-#: quests.xml60(quest/text) quests.xml109(quest/text)
-#: quests.xml118(quest/text) quests.xml129(quest/text)
-#: quests.xml138(quest/text) quests.xml148(quest/text)
-#: quests.xml156(quest/text) quests.xml164(quest/text)
+#: quests.xml60(quest/text) quests.xml139(quest/text)
+#: quests.xml148(quest/text) quests.xml159(quest/text)
+#: quests.xml169(quest/text) quests.xml181(quest/text)
+#: quests.xml188(quest/text) quests.xml197(quest/text)
+#: quests.xml206(quest/text) quests.xml215(quest/text)
+#: quests.xml223(quest/text) quests.xml231(quest/text)
+#: quests.xml239(quest/text)
 msgid "Difficulty: ✩✩✩✩✩✩"
 msgstr "Trudność: ✩✩✩✩✩✩"
 
@@ -1186,7 +1197,9 @@ msgid ""
 "some gold for it."
 msgstr "Oczyszczenie dna statku to ciężka robota, ale Piotr oferuje ci za to nieco złota."
 
-#: quests.xml77(quest/text) quests.xml86(quest/text)
+#: quests.xml77(quest/text) quests.xml86(quest/text) quests.xml103(quest/text)
+#: quests.xml112(quest/text) quests.xml120(quest/text)
+#: quests.xml128(quest/text)
 msgid "Difficulty: ✭✩✩✩✩✩"
 msgstr "Trudność: ✭✩✩✩✩✩"
 
@@ -1199,7 +1212,7 @@ msgid "Free Wash"
 msgstr ""
 
 #: quests.xml82(quest/text)
-msgid "Peter asked you to empty freely the bottom of the ship."
+msgid "Peter asked you to empty the bottom of the ship for free."
 msgstr ""
 
 #: quests.xml83(quest/text)
@@ -1208,8 +1221,7 @@ msgid ""
 " to offer you..."
 msgstr "Wygląda na to że powinieneś ponownie poprosić go o tę robotę, może ma coś tobie innego do zaoferowania..."
 
-#: quests.xml87(quest/text) quests.xml149(quest/text)
-#: quests.xml157(quest/text)
+#: quests.xml87(quest/text)
 msgid "Reward: Nothing."
 msgstr "Nagroda: Nic."
 
@@ -1217,115 +1229,223 @@ msgstr "Nagroda: Nic."
 msgid "Ask him about a reward for this task."
 msgstr "Poproś go o nagrodę za wykonanie tego zadania."
 
-#: quests.xml98(quest/name)
-msgid "Nard"
-msgstr "Nard"
+#: quests.xml98(quest/name) quests.xml107(quest/name)
+#: quests.xml116(quest/name) quests.xml124(quest/name)
+msgid "One of Us"
+msgstr ""
 
-#: quests.xml104(quest/name) quests.xml113(quest/name)
+#: quests.xml99(quest/text)
+msgid ""
+"Captain Nard asked you to help his crew on the island outside the ship."
+msgstr ""
+
+#: quests.xml100(quest/text)
+msgid ""
+"Gugli, one of his sailors, waits for you on the shore to tell you about the "
+"task."
+msgstr ""
+
+#: quests.xml102(quest/text) quests.xml111(quest/text)
+msgid "Coordinates: La Johanne, Nard's Room. (25,26)"
+msgstr ""
+
+#: quests.xml104(quest/text) quests.xml113(quest/text)
+#: quests.xml140(quest/text) quests.xml160(quest/text)
+#: quests.xml198(quest/text) quests.xml207(quest/text)
+#: quests.xml216(quest/text)
+msgid "Reward: Unknown."
+msgstr "Nagroda: Nieznana."
+
+#: quests.xml108(quest/text)
+msgid ""
+"Captain Nard said he still had a task for you. It seems he did a mistake in "
+"the past, choosing the right lieutenant for this ship."
+msgstr ""
+
+#: quests.xml109(quest/text)
+msgid ""
+"Chef Gado, the former shipkeeper, may have something to say about that."
+msgstr ""
+
+#: quests.xml117(quest/text)
+msgid ""
+"Take your reward from the box near the captain to become one of Nard's crew "
+"members."
+msgstr ""
+
+#: quests.xml119(quest/text) quests.xml127(quest/text)
+msgid "Coordinates: La Johanne, Nard's Room. (25,24)"
+msgstr ""
+
+#: quests.xml121(quest/text) quests.xml129(quest/text)
+msgid "Reward: A sailor bandana."
+msgstr ""
+
+#: quests.xml125(quest/text)
+msgid "Nard has officially proclaimed you member of his crew!"
+msgstr ""
+
+#: quests.xml134(quest/name) quests.xml143(quest/name)
 msgid "Treasure's Glints"
 msgstr ""
 
-#: quests.xml105(quest/text)
+#: quests.xml135(quest/text)
 msgid ""
 "A weird light reflection annoys Darlin. He asked you to go and check what it"
 " could possibly be."
 msgstr "Nietypowe odbicie światłairytuje Darlin. Poprosił Ciebie byś poszedł i sprawdził co to może być."
 
-#: quests.xml106(quest/text)
+#: quests.xml136(quest/text)
 msgid ""
 "The light comes from the top of a cliff, west of the island. A road seems to"
 " go there."
 msgstr "Światło pochodzi ze wzgórza klifu, z zachodu wyspy. Wydaje się, że prowadzi tam droga."
 
-#: quests.xml108(quest/text)
+#: quests.xml138(quest/text)
 msgid "Coordinates: Desert Island. (83,70)"
 msgstr ""
 
-#: quests.xml110(quest/text) quests.xml130(quest/text)
-msgid "Reward: Unknown."
-msgstr "Nagroda: Nieznana."
-
-#: quests.xml114(quest/text)
+#: quests.xml144(quest/text)
 msgid ""
 "The sailor was right. The light was the glint of the sun on a treasure "
 "chest."
 msgstr "Marynarz miał rację. Światłem był połysk słońca na skrzyni ze skarbem."
 
-#: quests.xml115(quest/text)
+#: quests.xml145(quest/text)
 msgid ""
 "Darlin seems to be waiting for you. You should tell him about the light."
 msgstr "Wydaje się że Darlin na ciebie czeka. Powinieneś powiedziec mu o tym świetle."
 
-#: quests.xml117(quest/text)
+#: quests.xml147(quest/text)
 msgid "Coordinates: Desert Island. (90,89)"
 msgstr ""
 
-#: quests.xml119(quest/text)
-msgid "Rewards: 400GP, Old Book."
-msgstr "Nagrody: 400GP, Stara Książka."
+#: quests.xml149(quest/text)
+msgid "Rewards: 100GP, Old Book, Aquada, SeaDrops."
+msgstr ""
 
-#: quests.xml124(quest/name) quests.xml133(quest/name)
+#: quests.xml154(quest/name) quests.xml163(quest/name)
 msgid "Fish and Scams"
 msgstr ""
 
-#: quests.xml125(quest/text)
+#: quests.xml155(quest/text)
 msgid "A sailor, who wasn't on Gugli's list, gave you his box full of food."
 msgstr "Marynarz, który nie był na liście Gugliego, dał ci swoją skrzynię pełną jedzenia."
 
-#: quests.xml126(quest/text)
+#: quests.xml156(quest/text)
 msgid ""
 "He did not mention any reward, but he would like you to deliver this box to "
 "Gugli as soon as you can."
 msgstr "Nie wspomniał o jakiejkolwiek nagrodzie, ale poprosił byś dostarczył tę skrzynię Gugliemu najszybciej jak tylko potrafisz."
 
-#: quests.xml128(quest/text)
+#: quests.xml158(quest/text) quests.xml180(quest/text)
+#: quests.xml187(quest/text)
 msgid "Coordinates: Desert Island. (85,108)"
 msgstr ""
 
-#: quests.xml134(quest/text)
+#: quests.xml164(quest/text)
 msgid "Couwan is an awful, roguish person. No reward from him!"
 msgstr ""
 
-#: quests.xml135(quest/text)
+#: quests.xml165(quest/text)
 msgid ""
 "However, Gugli gave you some gold pieces and apologized for this unexpected "
-"task. He also warned you not to trust anyone."
-msgstr "Jednakże, Gugli dał ci nieco złota i przeprosił za te nieoczekiwane zadanie. Ostrzegł Cię również, byś nie ufał nikomu."
+"task."
+msgstr ""
 
-#: quests.xml137(quest/text)
+#: quests.xml166(quest/text)
+msgid "He also warned you not to trust anyone."
+msgstr ""
+
+#: quests.xml168(quest/text)
 msgid "Coordinates: Desert Island. (89,36)"
 msgstr ""
 
-#: quests.xml139(quest/text)
-msgid "Rewards: 50GP."
-msgstr "Nagrody: 50GP"
+#: quests.xml170(quest/text)
+msgid "Rewards: 10GP."
+msgstr ""
 
-#: quests.xml144(quest/name) quests.xml152(quest/name)
-#: quests.xml160(quest/name)
+#: quests.xml175(quest/name) quests.xml184(quest/name)
+msgid "Unexpected Help"
+msgstr ""
+
+#: quests.xml176(quest/text)
+msgid ""
+"Gugli told you about sailors' task on the island. He wants you to help some "
+"of them bringing him 6 boxes full of croconuts, aquadas and plushrooms."
+msgstr ""
+
+#: quests.xml177(quest/text)
+msgid ""
+"You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, "
+"Jalad and Ale."
+msgstr ""
+
+#: quests.xml178(quest/text)
+msgid ""
+"Max, Silvio and Lean may have some information about where to find these "
+"sailors."
+msgstr ""
+
+#: quests.xml185(quest/text)
+msgid ""
+"You completed all the tasks Gugli gave you. Sailors of this ship will never "
+"forget you!"
+msgstr ""
+
+#: quests.xml193(quest/name) quests.xml201(quest/name)
+#: quests.xml210(quest/name) quests.xml219(quest/name)
+#: quests.xml227(quest/name) quests.xml235(quest/name)
 msgid "A Poisoned Recipe"
 msgstr ""
 
-#: quests.xml145(quest/text)
+#: quests.xml194(quest/text)
 msgid ""
-"Chef Gado wants you to collect 1 Piou Legs, 1 Croconut and 1 Aquada to "
-"prepare a special dish, a poisoned one, for Julia."
+"Chef Gado wants you to collect 2 Piou Legs, 1 Croconut, 1 Aquada and 1 "
+"SeaDrops to prepare a special dish, a poisoned one, for Julia."
 msgstr ""
 
-#: quests.xml147(quest/text) quests.xml155(quest/text)
-#: quests.xml163(quest/text)
+#: quests.xml196(quest/text) quests.xml205(quest/text)
+#: quests.xml214(quest/text) quests.xml222(quest/text)
+#: quests.xml230(quest/text) quests.xml238(quest/text)
 msgid "Coordinates: La Johanne, Second Deck. (17,28)"
 msgstr ""
 
-#: quests.xml153(quest/text)
-msgid ""
-"Chef Gado has prepared the poisoned meal for Julia. He would like you to "
-"give her his special dish."
-msgstr "Kucharz Gado przygotował zatruty posiłek dla Julii. Chce byś jej podał tę specjalną potrawę."
+#: quests.xml202(quest/text)
+msgid "Chef Gado has prepared the poisoned meal for Julia."
+msgstr ""
 
-#: quests.xml161(quest/text)
+#: quests.xml203(quest/text)
+msgid "He would like you to give her his special dish."
+msgstr ""
+
+#: quests.xml211(quest/text)
+msgid ""
+"While Chef Gado wants you to poison Julia, you remember she looked after you"
+" when you were sick."
+msgstr ""
+
+#: quests.xml212(quest/text)
+msgid "At the end of the day she doesn't deserve to be punished."
+msgstr ""
+
+#: quests.xml220(quest/text)
 msgid "Go back and talk to Gado. He probably has a reward for you."
 msgstr "Wróć i porozmawiaj z Gado. Prawdopodobnie ma dla ciebie nagrodę."
 
-#: quests.xml165(quest/text)
-msgid "Reward: [WIP]."
+#: quests.xml224(quest/text) quests.xml232(quest/text)
+msgid "Reward: Bread, 60GP."
+msgstr ""
+
+#: quests.xml228(quest/text)
+msgid ""
+"You have successfully poisoned Julia. Chef Gado has finally been avenged!"
+msgstr ""
+
+#: quests.xml236(quest/text)
+msgid "You have refused to accomplish Chef Gado's evil plan. Julia is safe!"
+msgstr ""
+
+#: quests.xml240(quest/text)
+msgid "Reward: 100GP."
 msgstr ""
