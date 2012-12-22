@@ -128,7 +128,7 @@
     <property name="monster_id" value="1010"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="2592" y="1952" width="64" height="128">
+  <object name="Plushroom" type="spawn" x="2240" y="1952" width="128" height="96">
    <properties>
     <property name="eA_death" value="28000"/>
     <property name="eA_spawn" value="35000"/>
@@ -262,6 +262,14 @@
     <property name="eA_spawn" value="35000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="1004"/>
+   </properties>
+  </object>
+  <object name="Plushroom" type="spawn" x="2586" y="1935" width="64" height="128">
+   <properties>
+    <property name="eA_death" value="28000"/>
+    <property name="eA_spawn" value="35000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
    </properties>
   </object>
  </objectgroup>
