@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Reid
+<!-- Authors: Alige, Reid
 Copyright (C) 2010-2012 Evol Online -->
 
 <!--
@@ -12,7 +12,7 @@ Copyright (C) 2010-2012 Evol Online -->
     <imageset name="mob"
               src="graphics/sprites/monsters/crocotree.png"
               width="18"
-              height="18"
+              height="17"
               offsetX="32"
               offsetY="-61"/>
 
@@ -69,26 +69,28 @@ Copyright (C) 2010-2012 Evol Online -->
 
         <animation>
             <!-- Falling Croconut -->
-            <frame index="1" delay="80" offsetY="1"/>
-            <frame index="1" delay="60" offsetY="2"/>
-            <frame index="1" delay="50" offsetY="4"/>
-            <frame index="1" delay="50" offsetY="6"/>
-            <frame index="1" delay="50" offsetY="8"/>
-            <frame index="1" delay="40" offsetY="11"/>
-            <frame index="1" delay="40" offsetY="14"/>
-            <frame index="1" delay="40" offsetY="17"/>
-            <frame index="1" delay="40" offsetY="20"/>
-            <frame index="1" delay="40" offsetY="24"/>
-            <frame index="1" delay="40" offsetY="28"/>
-            <frame index="1" delay="30" offsetY="32"/>
-            <frame index="1" delay="30" offsetY="36"/>
-            <frame index="1" delay="30" offsetY="41"/>
-            <frame index="1" delay="30" offsetY="46"/>
-            <frame index="1" delay="30" offsetY="51"/>
-            <frame index="1" delay="30" offsetY="57"/>
-            <frame index="3" delay="60" offsetY="58"/>
-            <frame index="4" delay="70" offsetY="58"/>
-            <frame index="5" delay="0" offsetY="59"/>
+            <frame index="1" delay="100"/>
+            <frame index="3" delay="80" offsetY="1"/>
+            <frame index="3" delay="60" offsetY="2"/>
+            <frame index="3" delay="50" offsetY="4"/>
+            <frame index="3" delay="50" offsetY="6"/>
+            <frame index="3" delay="50" offsetY="8"/>
+            <frame index="3" delay="40" offsetY="11"/>
+            <frame index="3" delay="40" offsetY="14"/>
+            <frame index="3" delay="40" offsetY="17"/>
+            <frame index="3" delay="40" offsetY="20"/>
+            <frame index="3" delay="40" offsetY="24"/>
+            <frame index="3" delay="40" offsetY="28"/>
+            <frame index="3" delay="30" offsetY="32"/>
+            <frame index="3" delay="30" offsetY="36"/>
+            <frame index="3" delay="30" offsetY="41"/>
+            <frame index="3" delay="30" offsetY="46"/>
+            <frame index="3" delay="30" offsetY="51"/>
+            <frame index="3" delay="30" offsetY="57"/>
+            <frame index="4" delay="60" offsetY="58"/>
+            <frame index="5" delay="70" offsetY="58"/>
+            <frame index="6" delay="80" offsetY="58"/>
+            <frame index="7" offsetY="59"/>
         </animation>
 
     </action>
