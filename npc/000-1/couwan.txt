@@ -14,9 +14,8 @@
 000-1.gat,89,36,0,1	script	Couwan	111;2,{
 
     set @q, getq(ShipQuests_Couwan);
-    if (@q == 1) goto l_QuestGiven;
-    if (@q > 1) goto l_QuestDone;
-
+    if (countitem("FishBox") > 0) goto l_QuestGiven;
+    if (@q == 1) goto l_QuestDone;
 
     mesn;
     mesq l("Hello yeye.");
@@ -54,7 +53,6 @@
     next;
     mes col(l("The sailor turns his back to you."), 9);
 
-    setq ShipQuests_Couwan, 1;
     close;
 
 l_Water:
