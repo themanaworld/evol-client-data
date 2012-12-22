@@ -13,24 +13,25 @@
 
 OnUse:
     mesn "Narrator";
-    mes col(l("Do you want to cut this @@?", getitemlink(Croconut)), 9);
+    mes col(l("Do you want to cut this @@?", getitemlink("Croconut")), 9);
     next;
 
     menu
         l("Yes."), L_Weapon,
         l("No."), -;
 
-    getitem Croconut, 1, 1;
+    getitem "Croconut", 1;
     close;
 
 L_Weapon:
     mes "";
     mesn "Narrator";
-    mes col(l("Which of your weapons do you want to use in order to cut this @@?", getitemlink(Croconut)), 9);
+    mes col(l("Which of your weapons do you want to use in order to cut this @@?", getitemlink("Croconut")), 9);
     next;
 
     menu
-        rif(countitem(Knife, 1), l(getitemname("Knife"))), L_Weak,
+        rif(countitem("Knife") > 0, l(getitemname("Knife"))), L_Weak,
+        rif(countitem("PiouSlayer") > 0, l(getitemname("PiouSlayer"))), L_Weak,
         l("Bare Hands"), -;
 
 L_TooWeak:
