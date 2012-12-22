@@ -214,8 +214,8 @@ l_Regret:
     next;
     mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
     set zeny, zeny + 50;
-    message strcharinfo(0), l("You receive 100GP!");
-    setq ShipQuests_ChefGado, 100;
+    message strcharinfo(0), l("You receive 50GP!");
+    setq ShipQuests_ChefGado, 5;
 
     close;
 
