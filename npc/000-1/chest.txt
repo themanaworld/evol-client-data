@@ -33,6 +33,8 @@ l_Give:
     setq ShipQuests_Darlin, 2;
 
     set zeny, zeny + 100;
+    getitem "SeaDrops", 1;
+    getitem "Aquada", 1;
     getitem "OldBook", 1;
     message strcharinfo(0), l("You open the treasure chest.");
 
