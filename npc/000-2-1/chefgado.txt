@@ -108,7 +108,6 @@ l_GotAll:
     delitem "Croconut", 1;
     delitem "Aquada", 1;
     delitem "SeaDrops", 1;
-    setq ShipQuests_ChefGado, 2;
 
     mesn;
     mesq l("Let me see... Crispy legs, disgusting liquids... Let's start!");
@@ -117,6 +116,7 @@ l_GotAll:
     next;
     mesq l("Done. Here, take it! Now here is the plan. Go talk with her and offer our beautiful lady a bite of her arrogance!");
 
+    setq ShipQuests_ChefGado, 2;
     getitem "PoisonedDish", 1;
     close;
 
