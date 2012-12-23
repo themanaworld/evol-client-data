@@ -45,18 +45,18 @@ L_TooWeak:
     if ( (@q == 3) || (@q == 4) || (@q == 5) ) goto L_Weak;
 
 L_TooWeakLost:
-    mes col(l("You hit too hard with your fist, you lost your @@.", getitemlink(513)), 9);
+    mes col(l("You hit too hard with your fist, you destroyed your @@.", getitemlink(513)), 9);
 
     close;
 
 L_TooWeakFail:
-    mes col(l("Your hands are too weak, you didn't open the @@.", getitemlink(513)), 9);
+    mes col(l("Your hands are too weak, you did not succeed in opening this @@.", getitemlink(513)), 9);
 
     getitem "Croconut", 1, 1;
     close;
 
 L_Weak:
-    mes col(l("You opened the @@, but only one side is edible.", getitemlink(513)), 9);
+    mes col(l("You opened the @@ in two parts, but you crushed one of them.", getitemlink(513)), 9);
 
     getitem "HalfCroconut", 1, 1;
     close;
