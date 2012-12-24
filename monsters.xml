@@ -91,7 +91,7 @@ Example:
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sprite>accessories/blub-tophat.xml</sprite>
     </monster>-->
-    <monster id="8" name="Crocotree" targetCursor="large">
+    <monster id="8" name="Crocotree" targetCursor="large" targetOffsetX="-32">
         <sprite>monsters/crocotree.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
