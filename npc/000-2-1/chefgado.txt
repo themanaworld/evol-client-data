@@ -88,7 +88,7 @@ l_Sure:
     mesq l("Before you go, let me tell you how to get @@s, because you don't look very smart.", getitemlink("HalfCroconut"));
     next;
     mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
-           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut"));
+           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut")));
     next;
     mesq l("Now move!");
     close;
