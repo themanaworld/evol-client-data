@@ -5,12 +5,12 @@
 //    Vasily_Makarov
 // Description:	
 //    1/2 chances to get poisoned.
-//    1/2 chances to get healed (1 HP).
+//    1/2 chances to get healed (4 HP).
 
 function	script	usePoisonedBlobime	{
 	set @temp, rand(2);
 	if (!@temp) sc_start sc_poison, 1, 50;
-	if (@temp) itemheal 1, 0;
+	if (@temp) itemheal 4, 0;
 	set @temp, 0;
 	return;
 }

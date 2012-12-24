@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Ablu
+//    Alige
 //    Reid
 //    Vasily_Makarov
 // Description:
@@ -164,18 +165,19 @@ l_GiveFood:
         rif(countitem(508, 1), l(getitemname("SeaDrops"))), 1,
         rif(countitem(509, 1), l(getitemname("Aquada"))), 509,
         rif(countitem(510, 1), l(getitemname("PinkBlobime"))), 1,
-        rif(countitem(511, 1), l(getitemname("PurpleBlobime"))), 1,
         rif(countitem(512, 1), l(getitemname("HalfCroconut"))), 512,
-        rif(countitem(513, 1), l(getitemname("Croconut"))), 513,
+        rif(countitem(512, 1), l(getitemname("Croconut"))), 0,
         rif(countitem(515, 1), l(getitemname("Plushroom"))), 515,
+        rif(countitem(515, 1), l(getitemname("PumpkinSeeds"))), 1,
         l("I don't have anything good for you today."), -1;
 
     set @id, @menuret;
     if (@id == -1) goto l_Quit; // Quit message.
     if (@id == 0) goto l_NoReward; // In case of wrong food.
-    if (@id == 1) goto l_Poison; // In case of Poisonned food.
+    if (@id == 1) goto l_Poison; // In case of poisoned food.
     if (@id == 2) goto l_NoMore; // In case of Piberries.
-// Continue if the food is correct.
+//  if (@id == item's ID) then food is correct.
+// Do not put any other number than -1, 0, 1, 2 or the item's ID, that'll avoid confusion.
 
 l_GiveReward:
     mes "";
@@ -197,7 +199,7 @@ l_NoReward:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("I don't want this, give me something else.");
+    mesq l("You don't expect me to eat that, do you? Give me something else!");
     restorecam;
 
     goto l_GiveFood;
