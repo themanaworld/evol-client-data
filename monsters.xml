@@ -28,7 +28,7 @@ Example:
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-    <monster id="0" name="Piou" targetCursor="small">
+    <monster id="0" name="Piou" targetCursor="small" walkType="fly">
         <sprite>monsters/piou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
