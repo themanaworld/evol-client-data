@@ -70,7 +70,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Ale,
         rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Bottom,
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
-        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
 

@@ -76,21 +76,23 @@ l_NeedHelp:
     setcamnpc;
     mes "";
     mesn "Hidden Person";
-    mesq l("Good, good! ") + " " + l("Could you help me please? ") + " " + l("I beg you, please, pleeeease...");
+    mesq l("Good, good... Hey, could you help me please? I beg you, please, pleeeease...");
     next;
     restorecam;
 
     menu
-        l("Why not, but who are you?") + " " + l("And what kind of help do you need?"), l_CanHelp;
+        l("Why not, but who are you, and what kind of help do you need?"), l_CanHelp;
         l("Sorry but I have no time for this."), l_Quit;
 
 l_CanHelp:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("My name is Alige, I've been hiding here for weeks.") + l("All that I had to eat were these berries... Berries... Berries...") + l("I'm losing my mind, I need something else to eat!");
+    mesq l("My name is Alige, I've been hiding here for weeks. All I have to eat are these berries... berries... berries...");
     next;
-    mesq l("Can you bring me something which isn't a vegetable?") + l("And please, no berries.");
+    mesq l("I'm losing my mind here, I need something else to eat!");
+    next;
+    mesq l("Could you please bring me something which isn't a vegetable?" And I beg you, no berries!");
     next;
     restorecam;
 
@@ -103,11 +105,11 @@ l_ExplainHiding:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("No, I can't, I just wanted to travel across the seas for fun.") + " " + l("In this cave, you see, I have a lot of fun.");
+    mesq l("No, I can't, I just wanted to travel across the seas for fun. In this cave, you see, I have a lot of fun.");
     next;
-    mesq l("Err, seriously, I just wanted to get to Artis, and I don't have the money to pay for the ferry!");
+    mesq l("Err, seriously, I just wanted to get to Artis, but I didn't have enough money to pay for the ferry!");
     next;
-    mesq l("Please don't tell people that you've seen me. I don't want to be thrown in the sea as food for sharks or decapitated. At least not again!");
+    mesq l("Please don't tell people you saw me. I don't want to be decapitated or get thrown into the sea as food for sharks, at least not again!");
     next;
     restorecam;
 
@@ -163,7 +165,7 @@ l_GiveFood:
         rif(countitem(509, 1), l(getitemname("Aquada"))), 509,
         rif(countitem(510, 1), l(getitemname("PinkBlobime"))), 1,
         rif(countitem(511, 1), l(getitemname("PurpleBlobime"))), 1,
-        rif(countitem(512, 1), l(getitemname("Half Croconut"))), 512,
+        rif(countitem(512, 1), l(getitemname("HalfCroconut"))), 512,
         rif(countitem(513, 1), l(getitemname("Croconut"))), 513,
         rif(countitem(515, 1), l(getitemname("Plushroom"))), 515,
         l("I don't have anything good for you today."), -1;
@@ -250,9 +252,9 @@ l_IntroMenu:
     mesq l("Walk a bit, it'll be easy for you to catch one. Impale one of them for me please.");
     next;
     mesn "Narrator";
-    mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the A key to select the monster followed by 'Ctrl' to attack it."), 9);
+    mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the 'A' key to select the monster followed by 'Ctrl' to attack it."), 9);
     next;
-    mes col(l("Once the monster is dead, click on the dropped items to add them to your inventory. You can also use the Z key to claim the drops."), 9);
+    mes col(l("Once the monster is dead, click on the dropped items to add them to your inventory. You can also use the 'Z' key to claim the drops."), 9);
 
     close;
 
@@ -260,7 +262,7 @@ l_Quit:
     setcamnpc;
     mes "";
     mesn;
-    mesq lg("Damn you! You better not tell anyone that you've seen me!");
+    mesq lg("Damn you! You'd better not tell anyone you saw me!");
 
     close;
 

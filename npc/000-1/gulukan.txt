@@ -38,11 +38,11 @@ l_Continue:
     mesn;
 
 l_Continue2:
-    mesq l("Are you yaying here to explore the island?");
+    mesq lg("Are you yaying here to explore the island?");
     next;
 
     menu
-        l("Actually Gugli asked me if I could help you bringing him some of your boxes."), -,
+        lg("Actually Gugli asked me if I could help you bringing him some of your boxes."), -,
         l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), l_Quit;
 
     mes "";
@@ -61,7 +61,7 @@ l_Continue2:
     
     mes "";
     mesn;
-    mesq l("Thank you my friend.");
+    mesq lg("Thank you my friend.");
 
     close;
 
@@ -122,7 +122,7 @@ l_RandomC:
         rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Top,
         rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Top,
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
-        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Top,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), l_Quit;
 
@@ -152,7 +152,7 @@ l_NoTask:
 l_TaskDone:
     mes "";
     mesn;
-    mesq l("That's perfect, yoiis.");
+    mesq lg("That's perfect, yoiis.");
 
     close;
 

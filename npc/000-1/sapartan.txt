@@ -40,7 +40,7 @@
     setcamnpc "Max";
     mes "";
     mesn "Max";
-    mesq lg("Come on Sap! You are scaring our guest with your stories.");
+    mesq lg("Come on, Sap! You are scaring our guest with your stories.");
     next;
     mesq g(l("I'm sure she will soon be able to fight creatures living here a way more dangerous than tortugas do."),
            l("I'm sure he will soon be able to fight creatures living here a way more dangerous than tortugas do"));
@@ -50,7 +50,7 @@
 
     mes "";
     mesn;
-    mesq l("Maybe... But I prefer having well-trained people around me when it comes to fight against dangerous creatures. Do you already feel expert on how you fight enemies?");
+    mesq lg("Maybe... But I prefer having well-trained people around me when it comes to fight against dangerous creatures. Do you already feel expert on how you fight enemies?");
     next;
 
     menu

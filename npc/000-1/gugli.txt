@@ -44,7 +44,7 @@ OnTalk:
 
     mes "";
     mesn;
-    mesq l("Well, even though you have been rescued by us, it doesn't make you an expert sailor, am I right?");
+    mesq lg("Well, even though you have been rescued by us, it doesn't make you an expert sailor, am I right?");
     next;
     mesq l("But let's talk about this island. We're docking here to find some fine quality goods.");
     next;
@@ -119,7 +119,7 @@ l_CollectSmthing:
     if (getq(ShipQuests_Ale) == 0), mesq l("- Ale");
     if (getq(ShipQuests_Gulukan) == 0), mesq l("- Gulukan");
     if (getq(ShipQuests_Jalad) == 0), mesq l("- Jalad");
-    if (getq(ShipQuests_QMuller) == 0), mesq l("- QMuller");
+    if (getq(ShipQuests_QMuller) == 0), mesq l("- Q'Muller");
     if (getq(ShipQuests_Tibbo) == 0), mesq l("- Tibbo");
 
     close;

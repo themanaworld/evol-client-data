@@ -19,7 +19,7 @@
     next;
 
     menu
-        l("Actually, I came here to work on my task."), -;
+        lg("Actually, I came here to work on my task."), -;
 
     mes "";
     mesn;
@@ -29,7 +29,7 @@
     next;
     
     menu
-        l("I'm sorry for your situation. They should alternate you with another sailor sometime."), -,
+        lg("I'm sorry for your situation. They should change with another sailor from times to times."), -,
         l("Well if you are whining like that all the time, then I think there is a reason behind their choice."), l_Whyning;
 
     mes "";
@@ -45,12 +45,12 @@
     mesn;
     mesq l("You like them, don't you? Just speak with Peter then. He is on the second deck of the ship. He will send you to downstairs where you will find our furry meal!");
     next;
-    mesq l("Oh, but you were not here to talk about that I guess.");
+    mesq lg("Oh, but you didn't come here to talk about that, am I right?");
     next;
     
 
     menu
-        l("No, indeed. I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
+        lg("No, indeed. I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
     
     mes "";
     mesn;
@@ -75,7 +75,7 @@
 l_Whyning:
     mes "";
     mesn;
-    mesq l("Then just leave me alone.");
+    mesq l("Then leave me alone.");
 
     close;
 
@@ -97,7 +97,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Top,
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
-        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
 

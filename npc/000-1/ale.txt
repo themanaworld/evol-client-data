@@ -20,7 +20,7 @@
     next;
 
     menu
-        l("Gugli sent me down here to help you."), -,
+        lg("Gugli sent me down here to help you."), -,
         l("What's that?"), l_Plushroom,
         l("See you aboard."), l_Quit;
 
@@ -61,7 +61,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Bottom,
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Jalad,
-        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Bottom,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Bottom,
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), l_Quit;
 

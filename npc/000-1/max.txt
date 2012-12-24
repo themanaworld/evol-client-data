@@ -10,7 +10,7 @@
     set @knife, getq(ShipQuests_Knife);
 
     mesn;
-    mesq l("We are glad captain Nard has let you join us down here!");
+    mesq lg("We are glad captain Nard has let you join us down here!");
     next;
     mesq l("Living inside a ship is great, but we sometimes need some fresh air.");
     next;
@@ -19,9 +19,9 @@
 
     menu
         rif(@gugli == 0, l("Well, is there anything I can do here to help?")), l_Help,
-        rif(@gugli == 1, l("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), l_Sailors,
+        rif(@gugli == 1, lg("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), l_Sailors,
         rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), l_Annoyed,
-        rif(@knife == 0, l("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), l_Secrets,
+        rif(@knife == 0, lg("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), l_Secrets,
         l("No thanks, not at the moment."), l_Quit;
 
 l_Help:

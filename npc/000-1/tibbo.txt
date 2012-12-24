@@ -29,7 +29,7 @@
     next;
 
     menu
-        l("Gugli asked me to help you carrying one of these boxes you are filling."), -;
+        lg("Gugli asked me to help you carrying one of these boxes you are filling."), -;
 
     mes "";
     mesn;
@@ -70,7 +70,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Top,
         rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Top,
         rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
-        rif(getq(ShipQuests_QMuller) == 0, l("QMuller.")), l_Top,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Top,
         l("Nobody."), -;
 
     close;
