@@ -1,0 +1,32 @@
+// Evol scripts.	
+// Authors:
+//    Alastrim
+//    Alige
+//    Reid
+//    Vasily_Makarov
+// Description:
+//    Poison effect of some items.
+
+function	script	usePoisonedWater	{
+	set @temp, rand(4);
+	if (!@temp) sc_start sc_poison, 1, 50;
+	if (@temp) itemheal 15, 0;
+	set @temp, 0;
+	return;
+}
+
+function	script	usePoisonedBlobime	{
+	set @temp, rand(2);
+	if (!@temp) sc_start sc_poison, 1, 50;
+	if (@temp) itemheal 4, 0;
+	set @temp, 0;
+	return;
+}
+
+function	script	usePoisonedSeeds	{
+	set @temp, rand(4);
+	if (!@temp) itemheal 1, 0;
+	if (@temp) sc_start sc_poison, 1, 50;
+	set @temp, 0;
+	return;
+}
