@@ -9,7 +9,7 @@
     set @gugli, getq(ShipQuests_Gugli);
 
     mesn;
-    mesq l("Hey")+ " " + strcharinfo(0) + "!"; 
+    mesq l("Hey, finally I can see you under the sunlight!"); 
     next;
     mesq l("I hope you don't mind that we used your raft to build this ramp.");
     next;
@@ -21,16 +21,6 @@
     menu
         rif(@gugli == 1, l("Well, I was in fact looking for them. Where are they now?")), l_Sailors,
         l("Wait... Where are we going?"), l_Artis,
-        l("Hey, how do you know my name?"), l_Name;
-
-l_Name:
-    mes "";
-    mesn;
-    mesq l("A few moments ago, I heard your conversation with Darlin.");
-    next;
-    mesq l("Oh, not everything, don't worry, but your name came up at least twice in the conversation.");
-
-    close;
 
 l_Artis:
     mes "";
