@@ -12,7 +12,8 @@
 //    2   Ingredients collected, ready to poison Julia.
 //    3   Julia poisoned.
 //    4   Quest complete.
-//    5   Quest aborted. Julia wins.
+//    5   PoisonDish Return.
+//    6   Quest aborted. Julia wins.
 
 000-2-1.gat,27,28,0,1	script	Chef Gado	318;2,{
 
@@ -22,7 +23,8 @@
     if (@q == 2) goto l_PoisonAccepted;
     if (@q == 3) goto l_PoisonJulia;
     if (@q == 4) goto l_QuestComplete;
-    if (@q == 5) goto l_QuestAborted;
+    if (@q == 5 && countitem("PoisonedDish") > 0) goto l_Aborting;
+    if (@q > 4) goto l_QuestAborted;
     if (@n == 3) goto l_QuestStart;
 
     mesn;
@@ -162,6 +164,28 @@ l_PoisonJulia:
 l_QuestComplete:
     mesn;
     mesq l("Oh, it's you. I think it's better we do not talk for a while. They suspect something.");
+
+    close;
+
+l_Aborting:
+    mesn;
+    mesq l("Wait? Why do you still have this dish with you?");
+    next;
+
+    menu
+        l("I informed Julia about your plan."), -,
+
+    mes "";
+    mesn;
+    mesq l("Are you crazy?");
+    next;
+    mesq l("Give me back this dish now, you dirty liar.");
+
+    if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
+    setq ShipQuests_ChefGado, 6;
+
+    next;
+    mesq l("You're like the rest of this crew, I can't count on you!");
 
     close;
 
