@@ -190,9 +190,10 @@ OnStartOutside:
 
     goto l_Quit;
 
-OnTimer5000:
+OnTimer2000:
     if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
-    set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 5;
+    set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 2;
+    if ($@RAT_SAILOR_CONTROL[9] > 115) goto l_Timeout;
     if ($@RAT_SAILOR_CONTROL[9] > 100) goto l_Timeout;
     if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto l_Dead;
     if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_Done;
@@ -202,10 +203,10 @@ OnTimer5000:
     end;
 
 l_CheckRattos:
-    if ($@RAT_SAILOR_CONTROL[1]) set $@RAT_SAILOR_CONTROL[5], $@RAT_SAILOR_CONTROL[5] + 5;
-    if ($@RAT_SAILOR_CONTROL[2]) set $@RAT_SAILOR_CONTROL[6], $@RAT_SAILOR_CONTROL[6] + 5;
-    if ($@RAT_SAILOR_CONTROL[3]) set $@RAT_SAILOR_CONTROL[7], $@RAT_SAILOR_CONTROL[7] + 5;
-    if ($@RAT_SAILOR_CONTROL[4]) set $@RAT_SAILOR_CONTROL[8], $@RAT_SAILOR_CONTROL[8] + 5;
+    if ($@RAT_SAILOR_CONTROL[1]) set $@RAT_SAILOR_CONTROL[5], $@RAT_SAILOR_CONTROL[5] + 2;
+    if ($@RAT_SAILOR_CONTROL[2]) set $@RAT_SAILOR_CONTROL[6], $@RAT_SAILOR_CONTROL[6] + 2;
+    if ($@RAT_SAILOR_CONTROL[3]) set $@RAT_SAILOR_CONTROL[7], $@RAT_SAILOR_CONTROL[7] + 2;
+    if ($@RAT_SAILOR_CONTROL[4]) set $@RAT_SAILOR_CONTROL[8], $@RAT_SAILOR_CONTROL[8] + 2;
     if ($@RAT_SAILOR_CONTROL[5] > 40) doevent "RattosControl::OnRatto1Respawn";
     if ($@RAT_SAILOR_CONTROL[6] > 40) doevent "RattosControl::OnRatto2Respawn";
     if ($@RAT_SAILOR_CONTROL[7] > 40) doevent "RattosControl::OnRatto3Respawn";
@@ -239,6 +240,17 @@ l_Dead:
     goto l_CleaningEnd;
 
 l_Done:
+    mesn "Peter";
+    mesq l("Are you done in there?");
+
+    menu
+        l("Yes, everything is ok."), l_WarpOut,
+        l("Soon, soon."), -;
+
+    initnpctimer;
+    end;
+
+l_WarpOut:
     warp "000-2-1", 72, 36;
     set @q, getq(ShipQuests_Peter);
     if (@q == 2 || @q == 4) goto l_Reward;
