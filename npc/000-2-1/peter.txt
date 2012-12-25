@@ -193,7 +193,7 @@ OnStartOutside:
 OnTimer2000:
     if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
     set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 2;
-    if ($@RAT_SAILOR_CONTROL[9] > 115) goto l_Timeout;
+    if ($@RAT_SAILOR_CONTROL[9] > 15 && $@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_WarpOut;
     if ($@RAT_SAILOR_CONTROL[9] > 100) goto l_Timeout;
     if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto l_Dead;
     if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_Done;
@@ -243,11 +243,12 @@ l_Done:
     mesn "Peter";
     mesq l("Are you done in there?");
 
+    initnpctimer;
+
     menu
         l("Yes, everything is ok."), l_WarpOut,
         l("Soon, soon."), -;
 
-    initnpctimer;
     end;
 
 l_WarpOut:
