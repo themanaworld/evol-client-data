@@ -29,7 +29,7 @@
  </tileset>
  <layer name="Ground" width="93" height="59" opacity="0.99">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2XS27CMBCGjRBFCHXBU6K0iy6rHqEVB+gJSncRXQErtu3ha0u2mAzjV0BKXP2LT5BJMpjPk7GzVUptAQAAAAAAAAAAAAAAAAAAAAAAdIo3zSbCewfGWRIxpz+anmag6WsWFhr7xZzUiNVopZkIHoeamT0fc+5yDIVrXY7YODYdcHUrjIM7wZeL+ZxTXyPNvWbaq2Ni48QcsXH0O+AqF6lHOOexGl1pnojbsT1e2/MO7tzEjok5YuMozbnx/akua2crOOBenDfDgXz/Zr7pddQ15cTOncj32DjGHfCYy0xd1s6c+eL+6PGOxaTrj+y75N03H3ROfLG2HTZx7mrH1c1c8OOrU5/vkNuQ69R7KG07zMX1Ter0UZ37LndBe8dHgFRf195fonNev84pXeukmjX7jak69yUTM31paeO+uu3ZWJ/kWNr4s6qvlTOWx/cMtO2wiXPp//D9Bb/G53xh48bXyMb5+udiPMeL4Fxal93YS/TN65w6DTk3nyvNA/G4J25NnO8XpVw8B58f3vdKrWsOf3bdPkTq59JaJ+1LfOtjSjz2e//BuW9fQp2H/n9o3516Xeo8SM5LeycKOfd5a7KXi9Vz7j2m95t3ia+CnUtIzzk/R9/JK3VeC/sq3R/N8erJwfuXew91/b9th7mEnn2+X+De6Tt5pervVuZ4Yj9n1u2AxVJypKwHbTu8ps5z+61v7eTXra1bw8qT+xDIsY+Mp22HTZyH+gdlF5gXFztkzJPv+Urp8fR32nZ4K1LXu5y9SahvVYnnSu8ruc67SNueujQv5nyobx0Tc4DbzQmcAgAAAAAAAAAAAAAAAADl8AcTrtkKvFUAAA==
+   H4sIAAAAAAAAA+2YzU4CMRDHuyFICPEgHyaIHjwaH0HDA/gE4o3gCThx1Ye3E9rsMJl+LJDs1vwPvwCzu0P5dXbaZWWMWQEAAAAAAAAAAAAAAAAAAAAAAOgUb5ZlgvcOjLMkUk5/LJWlb+lZZg4e+8WcnJCq0bXlTvE4sEzc8ZRzn2OgnOtzpMax7ICra0EObhRfPhZyzn0NLbeWcXUKxUaZOVLj6HXAVVO0HuGdp2p0bnlibkfu88Id90jnFNtn5kiNozTn5PvTHGuN185KcSC9eG/Ejr3/Fr75edw15yCOHdj71DhGHfDYlClz7mtnKnxJf/zzRsS08/fiveY9NB98TkKxth2e43xujrXj62aq+AnVach3zG3Mde41nLYdNuVRcUox33elC947PiLk+rr0+hKdy/r1Tvlap9Us9aOxqdc0ilFfunfxUN1WLtZjOe5d/NmcrpUTkSd0D7Tt8Bzn2u+R+wt5Tsj5zMXJ19DF5frnYzLHi+JcW5f92Ev0LeucO405p9e55YF53DK3FJf7RS2XzCHnZyGuK7WuJfLe9fsQrZ9ra522Lwmtjznx1Pf9B+ehfQl3Hvv9sX137nm586A5L+2ZKOY85O2cvVyqnpteQ72fniW+Cnauod3n8lhl6jVvbeq1sGea+fM5XgM5ZP/yz6H0ucTn0Ni9L/cL0jt/Jl+bei3k/1/RK+0/+g4ey8mRsx607fCSOm/ab0Nrpzxv4dwS80DuXSTHNjGeth2e4zzWPzibyLz42K7BPIXur5wez7+nbYfXIqfOQ65y+oH2/2POsdL7SlPnXaRtT12aFzoe61v7zBzgenMCpwAAAAAAAAAAAAAAAABAOfwBpJC70rxVAAA=
   </data>
  </layer>
  <layer name="Ground 2" width="93" height="59">
@@ -44,15 +44,15 @@
  </layer>
  <layer name="Over" width="93" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Yy0rDQBSGJxa3iqhr8QYuKrjQjTcQW6FVUbAq3bfoVtpu1L2+gS/kI/gu3TrHzGAIczltk7aT/h/8pJnLmemfk8kkQgAAAAAAAAAAAAAAAAAAAAAAAACAqEbjGac5nmFyg+Z/xGj35qmvSd17PK95Yrwz5kEcM9tNK+T5CaOdzy+qb0fmXH+J/tusOK6LbwzNK7PdNOPLYYLjeS/heUv97iTKODE4FMHzQ0Yb8uND6tNRz4nRnaE8564hNrLI0VnLc+257Tk3J8u/Hf19fjxI1T26dvRvMcbQhOZ5W3lOHv8M0P/OU9+QotDrUiWpVSUq21Blrhh1FcPEjVRValsdK+xZTxbteS+nPfRyPmH/uBDx/HfVMZT9+ajr+STRnh+IcPwmkp6XVK5HUbzGuPbM04D2PKQcJzh5Psj6Pk4epU4TCuU9dNS15VK49yRXOcag23BexM9iIrR9y7DQPo7+N+0/FqS2pBZF7AeVcfeKOgb13ZRaS8Qo6l5xWNJ+lA31SyK+FrSHeZJ6TpVRm4bl2dE3jGEjJM/PpW4NdWeM/mk/9g31fUvfcqKNiS/m9xhNSJ5r36tKO+rYYfTHu/9wNFPaE9l+yy2N+P28iJ6bSOa+zvukuPdCFnneNYxrOg/l3d+GKe9NZbbrMsj6pD21xag45pI+Lzqu/+67JiZPZ93PLODeK/AUAAAAAAAAAAAAAAAAAAiDX24C+EO8VQAA
+   H4sIAAAAAAAAA+2Yy0rDQBSGJxa3iqhr8QYuKrjQjTcQW6FVUbAq3bfoVtpu1L2+gS/kI/gu3TrHzOAQJjOnbdJ20v+DnzRz75+TyUmEAAAAAAAAAAAAAAAAAAAAAAAAAABRjcYzT3M80+QGrf+I0e7NU1+Tuvd4XvOM8c5YB3HMbDetkOcnjHY+v6i+Hdlj/SX6b7PiuC6+OTSvzHbTjC+GCY7nPcPzlvrdMco4Y3AogueHjDbkx4fUp6OeM0Z3huKcu4ekkUWMzlqca8/TnnNzsvzb0d/nx4NU3aNrR/8WYw5NaJ63lefk8c8A/e889Q0pGnpdqiS1qkRlG6rMNUZdjWHjRqoqta2OFfaqJ4v2vJdTDr2cz7B/XIh4/bvqGEp+Pup+Pkm05wciHL8J0/OSivUoivcYV848DWjPQ4pxghPng+zv4+RR6tRQKO+ho+4tl8Kdk1zlOAbdhvMifhYToeUtw0J5HP13yj8WpLakFo0ybq6o21PfTak1o6youeKwJP0oW+qXRHwtKId5knpOlFGbRsqzo2+ZI42QPD+XurXUnTH6J/3Yt9T3U/qWjTY2vpjfYzQhea59ryrtqGOH0R/v/sPRTGhPZPsttzTi9/Miem7DjH0d96a490IWcd61zGs7D+XdPw1b3NvK0q7LIPuT9jRtjIpjLcnzouP6775rYvN01v3MAu69Ak8BAAAAAAAAAAAAAAAAgDD4BWX/X3O8VQAA
   </data>
  </layer>
- <layer name="Collision" width="93" height="59">
+ <layer name="Collision" width="93" height="59" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3Y4aqDMAyGYb3/mxB6o8MfQg01bdK4qn0DD4y6Ofsl23FnW5dlAwAAAAAAAAAAAAAAAHCLvTzHZrVXKqwnQ16Rmc/Qo1pZzpHWM8s55LV8qQ+l/aTs8XHcOudRfes9zxNps3RXXrNnnu9R64VlzlvfY8bM8+/YvfK/nVH79L5ee++35t2yr5aSGdxZo/OKzF2uHfMvPwc9OUXU6Kx6ad8rpeOefKJrdGZRM361J7keMfO9pX0236Jn39r+refwXNvo7Lx5y98+2v7ye8V8vbSm9SJyHkZn+I8Zl5lqGVytWa6vdp2jM+zJXc5w7bd/LYeWxzPOuXevsldX/7/qzWq2zEv3KJY5155j7X3pnvZrmXv70tqT2bIa2RPZFwAAAAAAAAAA8Hw/jxDnBLxVAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="93" height="59">
+ <objectgroup name="Object" width="93" height="59" visible="0">
   <object name="To Ship's Hold" type="warp" x="2304" y="1092" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-2"/>
