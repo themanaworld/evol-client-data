@@ -241,13 +241,13 @@ l_Dead:
 
 l_Done:
     mesn "Peter";
-    mesq l("Are you done in there?");
+    mesq l("Are you done down there?");
 
     setnpctimer 0;
 
     menu
-        l("Yes, everything is ok."), l_WarpOut,
-        l("Soon, soon."), -;
+        l("Yes, no more rattos!"), l_WarpOut,
+        l("Give me few seconds."), -;
 
     end;
 
