@@ -5,21 +5,17 @@
 // Description:
 //    Darlin talks from the top of the tall mast.
 // Variable:
-//    x   ShipQuests_Darlin
+//    x   ShipQuests_TreasureChest
 // Values: 
-//    0   Never talked with Darlin.
-//    1   Spoke, and received quest.
-//    2   Opened the treasure chest.
-//    3   Get back to Darlin.
+//    0   Treasure Chest has not been opened yet.
+//    1   Treasure Chest has been opened.
+
 
 000-1.gat,89,95,0,1	script	Darlin	103;14,{
 
-    mesn;
-    set @q, getq(ShipQuests_Darlin);
-    if (@q == 1 || @q == 2) goto OnQuestGiven;
-    if (@q > 2) goto l_QuestDone;
+    set @q, getq(ShipQuests_TreasureChest);
 
-OnStart:
+    mesn;
     setcamnpc;
     mesq l("HEY! HEY YOU!"); 
     next;
@@ -87,11 +83,7 @@ OnStart:
     next;
     restorecam;
 
-l_Menu:
-    set @q, getq(ShipQuests_Darlin);
-
     menu
-        l("Maybe you can come down to talk?"), l_GoDown,
         l("I'm looking for Gugli, where is he?"), -,
         l("I need to go, sorry."), l_Bye;
 
@@ -126,25 +118,10 @@ l_GoDown:
     mesn;
 
     if (@q > 0) goto l_DangerAround;
-    setq ShipQuests_Darlin, 1;
 
     setcamnpc;
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
-    next;
-    mesq l("MAYBE YOU CAN LOOK AT THIS?!");
-    next;
-    restorecam;
 
-    menu
-        l("I'll look at it."), l_Bye,
-        l("Sure, but Gugli needs my help first."), -;
-
-    setcamnpc;
-    mes "";
-    mesn;
-    mesq l("IT'S OK, CREW TASKS ARE MUCH MORE IMPORTANT THAN CURIOSITY!");
-    next;
-    mesq l("ANYWAY, MAYBE WHEN YOU ARE LOOKING FOR FOOD WITH GUGLI YOU WILL HAVE THE TIME TO LOOK AT THIS!");
     close;
 
 l_Bye:
@@ -152,66 +129,14 @@ l_Bye:
     mes "";
     mesn;
     mesq l("FINE, BYE!");
+
     close;
-
-OnQuestGiven:
-    setcamnpc;
-    mesq l("HEY @@!", strcharinfo(0));
-    next;
-    mesq l("DID YOU FIND OUT WHAT THE LIGHT WAS?!");
-    next;
-    restorecam;
-
-    menu
-        rif(@q == 1, l("I forgot where it was...")), -,
-        rif(@q == 2, l("Yes, it's a chest.")), l_Chest,
-        l("Oh, nothing important."), l_Nothing;
-
-    setcamnpc;
-    mes "";
-    mesn;
-    mesq l("ON THE TOP OF THE CLIFF!");
-    next;
-    mesq l("YOU NEED TO WALK NORTH!");
-    restorecam;
-
-    goto l_Menu;
-
-l_Nothing:
-    setcamnpc;
-    if (@q == 2) setq ShipQuests_Darlin, 3;
-    mes "";
-    mesn;
-    mesq l("OH, OK!");
-    restorecam;
-
-    goto l_Menu;
-
-l_Chest:
-    setcamnpc;
-    mes "";
-    mesn;
-    mesq l("SORRY, BUT WHAT DID YOU SAY? SPEAK LOUDER!");
-    next;
-    mesq l("IF YOU FIND SOMETHING, THEN IT'S GREAT!");
-
-    restorecam;
-    setq ShipQuests_Darlin, 3;
-    goto l_Menu;
 
 l_DangerAround:
     setcamnpc;
     mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT!");
  
     close;
-
-l_QuestDone:
-    setcamnpc;
-    mesq l("HEY") + " " + strcharinfo(0) + "!"; 
-    next;
-
-    restorecam;
-    goto l_Menu;
 
 l_Quit:
     close;

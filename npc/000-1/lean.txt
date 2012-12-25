@@ -20,7 +20,7 @@
 
     menu
         rif(@gugli == 1, l("Well, I was in fact looking for them. Where are they now?")), l_Sailors,
-        l("Wait... Where are we going?"), l_Artis,
+        l("Wait... Where are we going?"), l_Artis;
 
 l_Artis:
     mes "";
