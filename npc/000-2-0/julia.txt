@@ -186,8 +186,11 @@ OnTouch:
 
 l_PoisonJulia:
     menu
+        lg("I made a mistake, I would like to change my language."), l_ChooseLang,
+        l("Can I read these rules again?"), l_Rules,
         l("I have brought you a tasty present for your delicate mouth."), -,
-        l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen."), l_Regret;
+        l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen."), l_Regret,
+        l("Nothing, sorry."), l_Quit;
 
     mes "";
     mesn;
