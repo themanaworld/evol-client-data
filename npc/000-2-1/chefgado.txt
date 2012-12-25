@@ -173,19 +173,19 @@ l_Aborting:
     next;
 
     menu
-        l("I informed Julia about your plan."), -,
+        l("I informed Julia about your monstrous plan."), -,
 
     mes "";
     mesn;
-    mesq l("Are you crazy?");
+    mesq l("Are you mad?!");
     next;
-    mesq l("Give me back this dish now, you dirty liar.");
+    mesq l("Give me back this dish now, you dirty liar!");
 
     if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
     setq ShipQuests_ChefGado, 6;
 
     next;
-    mesq l("You're like the rest of this crew, I can't count on you!");
+    mesq l("You're like the rest of this filthy crew, I can't trust you!");
 
     close;
 
