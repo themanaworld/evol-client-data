@@ -243,7 +243,7 @@ l_Done:
     mesn "Peter";
     mesq l("Are you done in there?");
 
-    initnpctimer;
+    setnpctimer 0;
 
     menu
         l("Yes, everything is ok."), l_WarpOut,
