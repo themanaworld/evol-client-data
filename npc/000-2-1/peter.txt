@@ -32,6 +32,7 @@
 // [7] = Shows how many seconds passed since ratto number 3 died.
 // [8] = Shows how many seconds passed since ratto number 4 died.
 // [9] = Shows how many seconds passed since the player started the quest.
+// [10] = Shows how many seconds passed since the player done the quest.
 
 000-2-1.gat,72,34,0,1	script	AreaNPC	0,0,1,{
 
@@ -133,6 +134,7 @@ OnReturnFail:
 OnReturnWin:
     mesn;
     mesq l("Thanks again for helping me. But these rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
+    next;
 
     if (@q == 3 || @q == 4)
 
@@ -193,7 +195,6 @@ OnStartOutside:
 OnTimer2000:
     if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
     set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 2;
-    if ($@RAT_SAILOR_CONTROL[9] > 15 && $@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_WarpOut;
     if ($@RAT_SAILOR_CONTROL[9] > 100) goto l_Timeout;
     if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto l_Dead;
     if ($@RAT_SAILOR_CONTROL[1] && $@RAT_SAILOR_CONTROL[2] && $@RAT_SAILOR_CONTROL[3] && $@RAT_SAILOR_CONTROL[4]) goto l_Done;
@@ -211,6 +212,8 @@ l_CheckRattos:
     if ($@RAT_SAILOR_CONTROL[6] > 40) doevent "RattosControl::OnRatto2Respawn";
     if ($@RAT_SAILOR_CONTROL[7] > 40) doevent "RattosControl::OnRatto3Respawn";
     if ($@RAT_SAILOR_CONTROL[8] > 40) doevent "RattosControl::OnRatto4Respawn";
+
+l_NotYet:
     setnpctimer 0;
 
     end;
@@ -240,21 +243,12 @@ l_Dead:
     goto l_CleaningEnd;
 
 l_Done:
-    mesn "Peter";
-    mesq l("Are you done down there?");
 
-    setnpctimer 0;
-
-    menu
-        l("Yes, no more rattos!"), l_WarpOut,
-        l("Give me few seconds."), -;
-
-    end;
-
-l_WarpOut:
-    warp "000-2-1", 72, 36;
+    set $@RAT_SAILOR_CONTROL[10], $@RAT_SAILOR_CONTROL[10] + 2;
+    if($@RAT_SAILOR_CONTROL[10] < 7) goto l_NotYet;
     set @q, getq(ShipQuests_Peter);
     if (@q == 2 || @q == 4) goto l_Reward;
+    warp "000-2-1.gat", 72, 36;
 
     goto l_Thanks;
 
