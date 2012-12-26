@@ -158,7 +158,7 @@ OnReturnWin:
 l_BonusTask:
     mes "";
     mesn;
-    mesq l("I will give you @@GP.", 200);
+    mesq l("I will give you @@ GP.", 200);
     next;
 
     menu
@@ -282,7 +282,7 @@ l_Reward:
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 200;
-    message strcharinfo(0), l("You receive 200GP!");
+    message strcharinfo(0), l("You receive 200 GP!");
     setq ShipQuests_Peter, 5;
 
     goto l_CleaningClose;

@@ -140,7 +140,7 @@ l_Couwan:
     setq ShipQuests_Couwan, 1;
     if (countitem("FishBox") > 0) delitem "FishBox", 1;
     set zeny, zeny+10;
-    message strcharinfo(0), l("You receive 10GP!");
+    message strcharinfo(0), l("You receive 10 GP!");
     close;
 
 l_Location:
