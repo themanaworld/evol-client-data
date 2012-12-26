@@ -79,9 +79,9 @@ l_Rwin:
     set @q, getq(ShipQuests_Peter);
     if (@q == 1 || @q == 2) goto OnReturnFail;
     if (@q == 3 || @q == 4 || @q == 5)  goto OnReturnWin;
-    setq ShipQuests_Peter, 6;
 
 OnGiveTask:
+    setq ShipQuests_Peter, 6;
     mesn;
     mesq g(l("Hey, girl!"),
            l("Hey, man!"));
@@ -168,7 +168,7 @@ l_BonusTask:
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@q == 6) setq ShipQuests_Peter, 2;
     if (@q == 3) setq ShipQuests_Peter, 4;
-
+    mes @q;
     goto l_Start;
 
 l_Task:
@@ -277,6 +277,7 @@ l_CleaningClose:
     close;
 
 l_Reward:
+    warp "000-2-1.gat", 72, 36;
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
