@@ -9,7 +9,7 @@ Copyright (C) 2012 Evol Online -->
             <text></text>
             <text>Coordinates: La Johanne, First Deck. (27,24)</text>
         </quest>
-        <quest name="Julia" group="Ship" incomplete="2" complete="2">
+        <quest name="Julia" group="Ship" incomplete="4" complete="2">
             <name>Abide by the Rules</name>
             <text>Rules:</text>
             <text>1. Do not bot. This means you are not allowed to use any automation programs or use keyboard tricks. Any away from keyboard activity will be considered as botting except standing still.</text>
@@ -120,7 +120,7 @@ Copyright (C) 2012 Evol Online -->
             <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: [@@2900|Bandana@@].</text>
         </quest>
-        <quest name="Nard" group="Ship" incomplete="5" complete="5">
+        <quest name="Nard" group="Ship" incomplete="6" complete="5">
             <name>One of Us</name>
             <text>Nard has officially proclaimed you member of his crew!</text>
             <text></text>
@@ -130,7 +130,7 @@ Copyright (C) 2012 Evol Online -->
         </quest>
     </var>
     <var id="8">
-        <quest name="Treasure Chest" group="Ship" complete="1">
+        <quest name="Treasure Chest" group="Ship" incomplete="2" complete="1">
             <name>Treasure's Glints</name>
             <text>You have spotted a treasure chest on the top of a cliff in the west side of the island.</text>
             <text>The chest contains gold and an [@@514|Old Book@@].</text>
@@ -140,8 +140,18 @@ Copyright (C) 2012 Evol Online -->
             <text>Rewards: 100 GP, [@@514|Old Book@@]</text>
         </quest>
     </var>
+
     <var id="9">
-        <quest name="Couwan" group="Ship" incomplete="1" complete="1">
+        <quest name="Couwan" group="Ship" incomplete="1" complete="4">
+            <name>Fish and Scams</name>
+            <text>A sailor, who wasn't on Gugli's list, gave you his box full of food.</text>
+            <text>He did not mention any reward, but he would like you to deliver this box to Gugli as soon as you can.</text>
+            <text></text>
+            <text>Coordinates: Desert Island. (85,108)</text>
+            <text>Difficulty: ✩✩✩✩✩✩</text>
+            <text>Reward: Unknown.</text>
+         </quest>
+         <quest name="Couwan" group="Ship" incomplete="4" complete="2">
             <name>Fish and Scams</name>
             <text>Couwan is an awful, roguish person. No reward from him!</text>
             <text>However, Gugli gave you some gold pieces and apologized for this unexpected task.</text>
@@ -162,7 +172,7 @@ Copyright (C) 2012 Evol Online -->
             <text>Coordinates: Desert Island. (85,108)</text>
             <text>Difficulty: ✩✩✩✩✩✩</text>
         </quest>
-        <quest name="Gugli" group="Ship" incomplete="2" complete="2">
+        <quest name="Gugli" group="Ship" incomplete="3" complete="2">
             <name>Unexpected Help</name>
             <text>You completed all the tasks Gugli gave you. Sailors of this ship will never forget you!</text>
             <text></text>
@@ -199,7 +209,7 @@ Copyright (C) 2012 Evol Online -->
             <text>Difficulty: ✩✩✩✩✩✩</text>
             <text>Rewards: [@@502|Bread@@], 60 GP.</text>
         </quest>
-        <quest name="Chef Gado" group="Ship" incomplete="4" complete="4">
+        <quest name="Chef Gado" group="Ship" incomplete="7" complete="4">
             <name>A Poisoned Recipe</name>
             <text>You have successfully poisoned Julia. Chef Gado has finally been avenged!</text>
             <text></text>
@@ -207,7 +217,7 @@ Copyright (C) 2012 Evol Online -->
             <text>Difficulty: ✩✩✩✩✩✩</text>
             <text>Rewards: [@@502|Bread@@], 60 GP.</text>
         </quest>
-        <quest name="Chef Gado" group="Ship" incomplete="5" complete="5">
+        <quest name="Chef Gado" group="Ship" incomplete="7" complete="5">
             <name>A Poisoned Recipe</name>
             <text>You have refused to accomplish Chef Gado's evil plan. Julia is safe!</text>
             <text></text>
