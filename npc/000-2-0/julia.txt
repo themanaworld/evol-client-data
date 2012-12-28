@@ -65,16 +65,16 @@ l_First:
 
   l_ChooseLang:
     menu
-        menuimage("flags/en",l("I speak English.") + " (English)"), -,
-        menuimage("flags/fr",l("I speak French.") + " (Français)"), -,
-        menuimage("flags/ru",l("I speak Russian.") + " (Русский)"), -,
-        menuimage("flags/es",l("I speak Spanish.") + " (Español)"), -,
-        menuimage("flags/pt_BR",l("I speak Portuguese.") + " (Português)"), -,
-        menuimage("flags/de",l("I speak German.") + " (Deutsch)"), -,
-        menuimage("flags/vls",l("I speak Flemish.") + " (Vlaams)"), -,
-        menuimage("flags/pl",l("I speak Polish.") + " (Polski)"), -,
-        menuimage("flags/it",l("I speak Italian.") + " (Italiano)"), -,
-        menuimage("flags/nl_BE",l("I speak Dutch.") + " (Nederlands)"), -,
+        menuimage("flags/en",l(" I speak English.") + " (English)"), -,
+        menuimage("flags/fr",l(" I speak French.") + " (Français)"), -,
+        menuimage("flags/ru",l(" I speak Russian.") + " (Русский)"), -,
+        menuimage("flags/es",l(" I speak Spanish.") + " (Español)"), -,
+        menuimage("flags/pt_BR",l(" I speak Portuguese.") + " (Português)"), -,
+        menuimage("flags/de",l(" I speak German.") + " (Deutsch)"), -,
+        menuimage("flags/vls",l(" I speak Flemish.") + " (Vlaams)"), -,
+        menuimage("flags/pl",l(" I speak Polish.") + " (Polski)"), -,
+        menuimage("flags/it",l(" I speak Italian.") + " (Italiano)"), -,
+        menuimage("flags/nl_BE",l(" I speak Dutch.") + " (Nederlands)"), -,
     @s$, l_NoChanges;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 9) close;
