@@ -137,14 +137,11 @@ l_Couwan:
     next;
     mesq l("May this be a lesson for you.");
 
+    if (countitem("FishBox") > 0) delitem "FishBox", 1;
     setq ShipQuests_Couwan, 2;
     set zeny, zeny+10;
-<<<<<<< HEAD
     message strcharinfo(0), l("You receive 10 GP!");
-=======
-    if (countitem("FishBox") > 0) delitem "FishBox", 1;
-    message strcharinfo(0), l("You receive 5GP!");
->>>>>>> parent of 6db8b93... Correct bugs.
+
     close;
 
 l_Location:
