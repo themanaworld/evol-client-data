@@ -79,7 +79,7 @@ l_TaskGiven:
 
 l_Menu:
     menu
-        rif(countitem("FishBox") > 0, l("Couwan gave me this box, it is for you.")), l_Couwan,
+        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
         l("Who should I search for?"), l_SailorNames,
         l("Where can I find your crew?"), l_Location,
@@ -87,7 +87,7 @@ l_Menu:
 
 l_MenuDone:
     menu
-        rif(countitem("FishBox") > 0, l("Couwan gave me this box, it is for you.")), l_Couwan,
+        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         l("I have collected all the boxes you needed."), l_TaskDone,
         l("See you!"), l_Quit;
 
@@ -137,10 +137,14 @@ l_Couwan:
     next;
     mesq l("May this be a lesson for you.");
 
-    setq ShipQuests_Couwan, 1;
-    if (countitem("FishBox") > 0) delitem "FishBox", 1;
+    setq ShipQuests_Couwan, 2;
     set zeny, zeny+10;
+<<<<<<< HEAD
     message strcharinfo(0), l("You receive 10 GP!");
+=======
+    if (countitem("FishBox") > 0) delitem "FishBox", 1;
+    message strcharinfo(0), l("You receive 5GP!");
+>>>>>>> parent of 6db8b93... Correct bugs.
     close;
 
 l_Location:
