@@ -32,6 +32,7 @@ l_Give:
     getitem "CreasedShirt", 1;
     getitem "CreasedShorts", 1;
     message strcharinfo(0), l("You take the clothes from the chest.");
+    goto l_Quit;
 
 OnTimer220:
     stopnpctimer;
