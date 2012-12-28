@@ -122,7 +122,7 @@ l_OhWell:
     next;
 
     menu
-        l("And then what happened?"), l_Story;
+        l("And then what happened?"), -;
 
 l_Story:
     mes "";
@@ -135,6 +135,8 @@ l_Story:
     setcamnpc "Chest";
     next;
     restorecam;
+
+    close;
 
 l_Menu:
     mesq l("What yeye could I do for you today?");
