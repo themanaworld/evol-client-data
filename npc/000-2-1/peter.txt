@@ -19,6 +19,8 @@
 //    4   Asked for reward after completion of the task.
 //    5   Task done and reward given.
 //    6   Did not start the quest.
+// Others:
+// @peter = Peter variable.
 // "000-2-2.gat" - map with mobs.
 // "$@RAT_SAILOR_HELPER$" - Name of the participant.
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the paticipant starts the fight.
@@ -39,11 +41,11 @@
 OnTouch:
     if (BaseLevel < 5) goto l_Stop;
     if ($@RAT_SAILOR_HELPER$ != "") goto l_Occupied;
-    set @q, getq(ShipQuests_Peter);
-    if (@q < 1 || @q > 5) goto l_Task;
-    if (@q == 1 || @q == 2) goto l_Rfail;
-    if (@q == 3 || @q == 4) goto l_Rwin;
-    if (@q > 5) goto l_SecondTime;
+    set @peter, getq(ShipQuests_Peter);
+    if (@peter < 1 || @peter > 5) goto l_Task;
+    if (@peter == 1 || @peter == 2) goto l_Rfail;
+    if (@peter == 3 || @peter == 4) goto l_Rwin;
+    if (@peter > 5) goto l_SecondTime;
     doevent "Peter::OnReturnWin";
     close;
 
@@ -76,13 +78,13 @@ l_Rwin:
 
     if (BaseLevel < 5) goto OnTooWeak;
 
-    set @q, getq(ShipQuests_Peter);
-    if (@q == 1 || @q == 2) goto OnReturnFail;
-    if (@q == 3 || @q == 4 || @q == 5)  goto OnReturnWin;
+    set @peter, getq(ShipQuests_Peter);
+    if (@peter == 1 || @peter == 2) goto OnReturnFail;
+    if (@peter == 3 || @peter == 4 || @peter == 5)  goto OnReturnWin;
 
 OnGiveTask:
     setq ShipQuests_Peter, 6;
-    set @q, getq(ShipQuests_Peter);
+    set @peter, getq(ShipQuests_Peter);
     mesn;
     mesq g(l("Hey, girl!"),
            l("Hey, man!"));
@@ -137,14 +139,14 @@ OnReturnWin:
     mesq l("Thanks again for helping me. But these rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
     next;
 
-    if (@q == 3 || @q == 4)
+    if (@peter == 3 || @peter == 4)
 
     menu
         l("Did you say reward? I want it!"), l_BonusTask,
         l("I am not worried about rewards. I just want to help."), l_Task,
         l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
-    if (@q == 5)
+    if (@peter == 5)
 
     menu
         l("No problem, I can help you anyway."), l_Task,
@@ -167,16 +169,16 @@ l_BonusTask:
         l("What? This reward is too small!"), l_Quit;
 
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 6) setq ShipQuests_Peter, 2;
-    if (@q == 3) setq ShipQuests_Peter, 4;
-    set @q, getq(ShipQuests_Peter);
+    if (@peter == 6) setq ShipQuests_Peter, 2;
+    if (@peter == 3) setq ShipQuests_Peter, 4;
+    set @peter, getq(ShipQuests_Peter);
     goto l_Start;
 
 l_Task:
     mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
-    if (@q == 6) setq ShipQuests_Peter, 1;
-    set @q, getq(ShipQuests_Peter);
+    if (@peter == 6) setq ShipQuests_Peter, 1;
+    set @peter, getq(ShipQuests_Peter);
     goto l_Start;
 
 l_Start:
@@ -245,11 +247,10 @@ l_Dead:
     goto l_CleaningEnd;
 
 l_Done:
-
     set $@RAT_SAILOR_CONTROL[10], $@RAT_SAILOR_CONTROL[10] + 2;
-    if($@RAT_SAILOR_CONTROL[10] < 7) goto l_NotYet;
-    set @q, getq(ShipQuests_Peter);
-    if (@q == 2 || @q == 4) goto l_Reward;
+    if($@RAT_SAILOR_CONTROL[10] < 5) goto l_NotYet;
+    set @peter, getq(ShipQuests_Peter);
+    if (@peter == 2 || @peter == 4) goto l_Reward;
     warp "000-2-1.gat", 72, 36;
 
     goto l_Thanks;
@@ -258,7 +259,7 @@ l_CleaningEnd:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
-    cleararray $@RAT_SAILOR_CONTROL, 0, 10;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 11;
     killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
@@ -270,18 +271,18 @@ l_CleaningClose:
     stopnpctimer;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
-    cleararray $@RAT_SAILOR_CONTROL, 0, 10;
+    cleararray $@RAT_SAILOR_CONTROL, 0, 11;
     killmonster "000-2-2.gat", "RattosControl::OnRatto1Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
-
+    initnpctimer;
     close;
 
 l_Reward:
     warp "000-2-1.gat", 72, 36;
     setq ShipQuests_Peter, 5;
-    set @q, getq(ShipQuests_Peter);
+    set @peter, getq(ShipQuests_Peter);
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
@@ -293,14 +294,14 @@ l_Reward:
 l_Thanks:
     mesn;
     mesq l("Thanks for helping me!");
-    set @q, getq(ShipQuests_Peter);
-    if (@q == 1) setq ShipQuests_Peter, 3;
-    set @q, getq(ShipQuests_Peter);
+    set @peter, getq(ShipQuests_Peter);
+    if (@peter == 1) setq ShipQuests_Peter, 3;
+    set @peter, getq(ShipQuests_Peter);
 
     goto l_CleaningClose;
 
 l_Quit:
-    set @q, 0;
+    set @peter, 0;
 
     close;
 
