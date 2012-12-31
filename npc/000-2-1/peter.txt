@@ -82,6 +82,7 @@ l_Rwin:
 
 OnGiveTask:
     setq ShipQuests_Peter, 6;
+    set @q, getq(ShipQuests_Peter);
     mesn;
     mesq g(l("Hey, girl!"),
            l("Hey, man!"));
@@ -168,13 +169,14 @@ l_BonusTask:
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@q == 6) setq ShipQuests_Peter, 2;
     if (@q == 3) setq ShipQuests_Peter, 4;
-    mes @q;
+    set @q, getq(ShipQuests_Peter);
     goto l_Start;
 
 l_Task:
     mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@q == 6) setq ShipQuests_Peter, 1;
+    set @q, getq(ShipQuests_Peter);
     goto l_Start;
 
 l_Start:
@@ -278,12 +280,13 @@ l_CleaningClose:
 
 l_Reward:
     warp "000-2-1.gat", 72, 36;
+    setq ShipQuests_Peter, 5;
+    set @q, getq(ShipQuests_Peter);
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 200;
     message strcharinfo(0), l("You receive 200 GP!");
-    setq ShipQuests_Peter, 5;
 
     goto l_CleaningClose;
 
@@ -292,6 +295,7 @@ l_Thanks:
     mesq l("Thanks for helping me!");
     set @q, getq(ShipQuests_Peter);
     if (@q == 1) setq ShipQuests_Peter, 3;
+    set @q, getq(ShipQuests_Peter);
 
     goto l_CleaningClose;
 
