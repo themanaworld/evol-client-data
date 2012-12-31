@@ -176,6 +176,7 @@ l_GiveFood:
     if (@id == 0) goto l_NoReward; // In case of wrong food.
     if (@id == 1) goto l_Poison; // In case of poisoned food.
     if (@id == 2) goto l_NoMore; // In case of Piberries.
+    if (countitem(@id) == 0) goto l_Quit;
 //  if (@id == item's ID) then food is correct.
 // Do not put any other number than -1, 0, 1, 2 or the item's ID, that'll avoid confusion.
 
