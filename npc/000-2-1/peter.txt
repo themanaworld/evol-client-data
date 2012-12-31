@@ -276,8 +276,8 @@ l_CleaningClose:
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
-    initnpctimer;
-    close;
+
+    end;
 
 l_Reward:
     warp "000-2-1.gat", 72, 36;
