@@ -24,7 +24,9 @@
 // "000-2-2.gat" - map with mobs.
 // "$@RAT_SAILOR_HELPER$" - Name of the participant.
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the participant starts the fight.
-// "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array:
+// "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array.
+// "$@RAT_SAILOR_OLD_HELPER$" - Name of the participant.
+// "$@RAT_SAILOR_COUNTDOWN$" - Seconds since the epoch of when the player done the quest.
 // [1] = Shows status of ratto number 1 (1 is dead and 0 is alive).
 // [2] = Shows status of ratto number 2 (1 is dead and 0 is alive).
 // [3] = Shows status of ratto number 3 (1 is dead and 0 is alive).
@@ -40,6 +42,9 @@
 
 OnTouch:
     if (BaseLevel < 5) goto l_Stop;
+    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto l_NoGoodTick;
+    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto l_ThousandTick;
+    set $@RAT_SAILOR_COUNTDOWN$, "";
     if ($@RAT_SAILOR_HELPER$ != "") goto l_Occupied;
     set @peter, getq(ShipQuests_Peter);
     if (@peter < 1 || @peter > 5) goto l_Task;
@@ -77,6 +82,9 @@ l_Rwin:
 000-2-1.gat,70,35,0,1	script	Peter	303;3,{
 
     if (BaseLevel < 5) goto OnTooWeak;
+    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto l_NoGoodTick;
+    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto l_ThousandTick;
+    set $@RAT_SAILOR_COUNTDOWN$, "";
 
     set @peter, getq(ShipQuests_Peter);
     if (@peter == 1 || @peter == 2) goto OnReturnFail;
@@ -269,6 +277,7 @@ l_CleaningEnd:
 
 l_CleaningClose:
     stopnpctimer;
+    set $@RAT_SAILOR_OLD_HELPER$, $@RAT_SAILOR_HELPER$;
     set $@RAT_SAILOR_HELPER$, "";
     set $@RAT_SAILOR_DEATHS, 0;
     cleararray $@RAT_SAILOR_CONTROL, 0, 11;
@@ -276,8 +285,9 @@ l_CleaningClose:
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
+    set $@RAT_SAILOR_COUNTDOWN$, gettimetick(2);
 
-    end;
+    close;
 
 l_Reward:
     warp "000-2-1.gat", 72, 36;
@@ -302,6 +312,18 @@ l_Thanks:
 
 l_Quit:
     set @peter, 0;
+
+    close;
+
+l_NoGoodTick:
+    mesn;
+    mesq l("I don't need your help right now, come back later.");
+
+    close;
+
+l_ThousandTick:
+    mesn;
+    mesq l("I don't need your help right now, come back later.");
 
     close;
 
