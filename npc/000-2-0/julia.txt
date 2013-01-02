@@ -9,14 +9,27 @@
 // Variables:
 //    0 ShipQuests_Julia
 //    1 ShipQuests_ChefGado
-// Values ShipQuests_Julia:
-//    00   Has not talked to Julia
-//    01   Need to see Julia
-//    02   Has been registered by Julia
-// Values ShipQuests_ChefGado:
+//    2 ShipQuests_Nard
+// Values:
+//    Julia:
+//    10   Default, no quest given.
+//    01   Need to see Julia.
+//    02   Has been registered by Julia.
+//    Gado:
+//    10   Default, no quest given.
+//    11   Quest accepted.
 //    12   Ingredients collected, ready to poison Julia.
 //    13   Julia poisoned.
-//    15   Quest aborted.
+//    14   Quest complete.
+//    15   PoisonDish Return.
+//    16   Quest aborted. Julia wins.
+//    Nard:
+//    20   Introduction of the boxes and Nard. This is displayed when the player never spoke to Nard or his box.
+//    21   Nard spoke and gave access to the outdoor of the ship.
+//    22   Completed the Gugli quest.
+//    23   ChefGado Quest accepted.
+//    24   ChefGado Quest completed and "Introduction" chapter finalized.
+//    25   Reward taken from the box.
 
 000-2-0.gat,27,24,0,0	script	Julia	304,2,10;5,{
 
