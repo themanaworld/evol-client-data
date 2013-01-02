@@ -149,8 +149,9 @@ l_Menu:
         l("Who are you?"), l_Who,
         rif(getq(ShipQuests_ArpanMoney) == 0, l("Where are my old clothes?")), l_WhereOldClothes,
         rif(!@equipped, lg("What should I do after taking these clothes?")), l_WhatCloth,
-        rif(!@equipped, l("Thank you, I'll take them and put them on.")), l_Quit;
+        rif(!@equipped, l("Thank you, I'll take them and put them on.")), l_Quit,
         l("Nothing, sorry."), l_Quit;
+        
     close;
 
 l_Where:
@@ -195,6 +196,7 @@ l_WhereOldClothes:
     next;
 
     setq ShipQuests_ArpanMoney, 1;
+    set @q, getq(ShipQuests_Arpan);
     set zeny, zeny+25;
     message strcharinfo(0), l("You receive 25 GP!");
 
