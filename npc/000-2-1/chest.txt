@@ -13,7 +13,7 @@
 000-2-1.gat,51,37,0	script	Chest	317;2,{
 
     set @q, getq(ShipQuests_Arpan);
-    
+
     if (@q == 0) goto l_Talk;
     if (getnpcdir ("") == 4) goto l_Give;
 

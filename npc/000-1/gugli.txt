@@ -9,7 +9,7 @@
 //    0   ShipQuests_Couwan
 //    1   ShipQuests_Nard
 //    2   ShipQuests_Gugli
-// Values: 
+// Values:
 //    00   Never talked with Couwan.
 //    01   Spoke, and received the quest scam.
 //    02   Done quest scam.
@@ -189,7 +189,7 @@ l_TaskDone:
     if (countitem("CroconutBox") == 1) delitem "CroconutBox", 1;
     if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
     setq ShipQuests_Gugli, 2;
-    
+
     getexp 50, 0;
 
     mesq l("Well done! The ship is now ready to sail again!");

@@ -6,7 +6,7 @@
 //    Darlin talks from the top of the tall mast.
 // Variable:
 //    x   ShipQuests_TreasureChest
-// Values: 
+// Values:
 //    0   Treasure Chest has not been opened yet.
 //    1   Treasure Chest has been opened.
 
@@ -17,7 +17,7 @@
 
     mesn;
     setcamnpc;
-    mesq l("HEY! HEY YOU!"); 
+    mesq l("HEY! HEY YOU!");
     next;
     mesq l("CAN YOU HEAR ME?!");
     next;
@@ -135,7 +135,7 @@ l_Bye:
 l_DangerAround:
     setcamnpc;
     mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT!");
- 
+
     close;
 
 l_Quit:

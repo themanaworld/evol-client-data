@@ -6,7 +6,7 @@
 //    Couwan is trying to scam the player.
 // Variable:
 //    x   ShipQuests_Couwan
-// Values: 
+// Values:
 //    0   Never talked with Couwan.
 //    1   Spoke, and received the quest scam.
 //    2   Done quest scam.
@@ -16,7 +16,6 @@
     set @q, getq(ShipQuests_Couwan);
     if (@q == 1) goto l_QuestGiven;
     if (@q > 1) goto l_QuestDone;
-
 
     mesn;
     mesq l("Hello yeye.");
@@ -63,7 +62,7 @@ l_Water:
     mesq l("Yeye's brain is probably still full of sea water if yeye can't see the beauty of this place.");
     next;
     mesq l("Stupid yeye...");
-    
+
     close;
 
 l_Decline:

@@ -47,7 +47,7 @@
 
 l_Menu:
     menu
-        rif(@q3 == 3, l("I have heard rumors about some old hostilities between you and Gado. Are they truthful?")), l_Rumors,
+        rif(@q3 == 3, l("I heard rumors about some old hostilities between you and Gado. Are they true?")), l_Rumors,
         rif(@q2 == 2 && countitem("PoisonedDish", 1), l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen.")), l_Regret,
         rif(@q2 == 2 && countitem("PoisonedDish", 1), l("I have brought you a tasty present for your delicate mouth.")), l_PoisonJulia,
         lg("I made a mistake, I would like to change my language."), l_ChooseLang,
@@ -104,7 +104,7 @@ l_First:
 
     next;
     mesq l("I'm sure that you've got some questions for me, feel free to ask them, but firstly I need to tell you the rules of proper social conduct on board.");
-    
+
     mesq l("Here they are.");
     next;
 
@@ -229,28 +229,28 @@ l_Regret:
     setq ShipQuests_ChefGado, 5;
 
     close;
-    
+
 l_Rumors:
     mes "";
     mesn;
-    mesq l("You shouldn't believe all stories sailors tell when they are drunk.");
+    mesq l("You shouldn't believe all of the stories drunk sailors tell you.");
     next;
 
     menu
-        l("Let's say that who told me that was a respectable person and not even drunk."), -;
+        l("Let's say the person who told me about that is well respected on this ship and never drunk."), -;
 
     mes "";
     mesn;
-    mesq l("Ahahah. All sailors here are always drunk, well... Except... What?! Nard told you that?!");
+    mesq l("Hahaha! All sailors aboard this ship are always drunk... Well... Except... Wait, what?! Nard told you?!");
     next;
-    mesq l("Doesn't he appreciate how I'm taking care of his ship? Everything is finally clean and tidy with me as the lieutenant of La Johanne.");
+    mesq l("Doesn't he like the way I'm taking care of his ship? Everything is clean and tidy with me, rightful lieutenant of La Johanne.");
     next;
-    mesq l("I give tasks to every sailor all day long to make him happy!");
+    mesq l("I give tasks to every single sailor, all day long. That should make him happy!");
     next;
 
     menu
-        l("Uhm I don't think it is the best way to rule a ship. See you..."), l_Quit,
-        l("Actually everything seems in perfect order under your guidance. Nard has done the right choice."), -;
+        l("Well... I don't think it is the best way to rule a ship. Think about it."), l_Quit,
+        l("In fact, everything seems to work perfectly under your guidance. Nard has made the right choice."), -;
 
     setq ShipQuests_ChefGado, 6;
     mes "";
@@ -260,10 +260,9 @@ l_Rumors:
     mesq l("Take this money as a reward for your nice words.");
     set zeny, zeny + 40;
     message strcharinfo(0), l("You receive 40 GP!");
-    
-    close;    
-    
-    
+
+    close;
+
 l_Quit:
     mes "";
     mesn;

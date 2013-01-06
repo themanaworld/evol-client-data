@@ -27,7 +27,7 @@
     next;
     mesq l("Do you think this is fair? They sent me down here alone, far away from everyone.");
     next;
-    
+
     menu
         lg("I'm sorry for your situation. They should change with another sailor from times to times."), -,
         l("Well if you are whining like that all the time, then I think there is a reason behind their choice."), l_Whyning;
@@ -47,11 +47,10 @@
     next;
     mesq lg("Oh, but you didn't come here to talk about that, am I right?");
     next;
-    
 
     menu
         lg("No, indeed. I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
-    
+
     mes "";
     mesn;
     mesq l("Usually I don't allow anyone to touch my boxes but...");
@@ -65,7 +64,7 @@
 
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;
-    
+
     mes "";
     mesn;
     mesq l("Good luck! And don't forget to visit Peter and our little friends when you will be back onboard!");

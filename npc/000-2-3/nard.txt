@@ -11,7 +11,7 @@
 //    0    ShipQuests_Nard
 //    1    ShipQuests_Gugli
 //    2    ShipQuests_ChefGado
-// Values: 
+// Values:
 //    00   Introduction of the boxes and Nard. This is displayed when the player never spoke to Nard or his box.
 //    01   Nard spoke and gave access to the outdoor of the ship.
 //    02   Completed the Gugli quest.
@@ -38,9 +38,9 @@ l_Checker:
     if (@nard == 1) goto l_NotYet;
 
     mesn;
-    mesq l("Hello."); 
+    mesq l("Hello.");
     next;
-    mesq l("Let me introduce myself, I am Nard, captain of this ship."); 
+    mesq l("Let me introduce myself, I am Nard, captain of this ship.");
     next;
     mesq lg("It is nice to see that you woke up fine at the same time. Elmo came here to tell me this good news!");
     next;
@@ -78,7 +78,7 @@ l_MenuQuest:
     mesq l("Oh! I like that sort of answer!");
     next;
     mesq g(l("We need manpower on the island... Oh forgive me, women are also welcome, of course."),
-           l("We need manpower on the island.")); 
+           l("We need manpower on the island."));
     next;
 
     goto l_NeedContent;
@@ -88,13 +88,13 @@ l_NeedHead:
     mesn;
 
 l_NeedContent:
-    mesq l("Sure, there is a reward for your task."); 
+    mesq l("Sure, there is a reward for your task.");
     next;
-    mesq l("Our crew is like a family, and if you agree to help us, I would like to invite you to join our family!"); 
+    mesq l("Our crew is like a family, and if you agree to help us, I would like to invite you to join our family!");
     next;
-    mesq l("What? It's not a good reward?"); 
+    mesq l("What? It's not a good reward?");
     next;
-    mesq l("Oh well. I'll also give you one of these hats from the box near you, but only after you complete your task!"); 
+    mesq l("Oh well. I'll also give you one of these hats from the box near you, but only after you complete your task!");
     next;
     mesq l("I give you this key, it opens any doors on this ship.");
     next;
@@ -140,7 +140,7 @@ l_SpecialTask:
 
 l_NotYet:
     mesn;
-    mesq l("You still haven't completed your tasks.");  
+    mesq l("You still haven't completed your tasks.");
     close;
 
 l_Done:
@@ -184,7 +184,7 @@ l_ChefQuestGiven:
 
 l_ChefQuestComplete:
     mesn;
-    mesq l("Congratulations!"); 
+    mesq l("Congratulations!");
     next;
     mesq l("You are now officially part of my crew! Thanks again for your help.");
     next;
