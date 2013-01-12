@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
-Copyright (C) 2011-2012 Evol Online -->
+Copyright (C) 2011-2013 Evol Online -->
 <sprite>
     <imageset name="base"
               src="graphics/sprites/equipment/weapons/knife.png"
@@ -12,19 +12,19 @@ Copyright (C) 2011-2012 Evol Online -->
 
     <action name="attack" imageset="base">
         <animation direction="down">
-            <sequence start="0" end="3" delay="75"/>
+            <sequence start="0" end="3" delay="80"/>
             <end />
         </animation>
         <animation direction="left">
-            <sequence start="4" end="7" delay="75"/>
+            <sequence start="4" end="7" delay="80"/>
             <end />
         </animation>
         <animation direction="up">
-            <sequence start="8" end="11" delay="75"/>
+            <sequence start="8" end="11" delay="80"/>
             <end />
         </animation>
         <animation direction="right">
-            <sequence start="12" end="15" delay="75"/>
+            <sequence start="12" end="15" delay="80"/>
             <end />
         </animation>
     </action>

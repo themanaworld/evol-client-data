@@ -7,14 +7,7 @@ Copyright (C) 2010-2012 Evol Online -->
             <property name="position-x" min="0" max="32"/>
             <property name="position-y" min="0" max="48"/>
             <animation imageset="graphics/particles/bubble_8px.png" width="8" height="8">
-                <frame index="0" delay="50"/>
-                <frame index="1" delay="50"/>
-                <frame index="2" delay="50"/>
-                <frame index="3" delay="50"/>
-                <frame index="4" delay="50"/>
-                <frame index="5" delay="50"/>
-                <frame index="6" delay="50"/>
-                <frame index="7" delay="50"/>
+                <sequence start="0" end="7" delay="50"/>
             </animation>
             <property name="lifetime" value="100"/>
             <property name="output" min="-1" max="1"/>
