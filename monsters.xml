@@ -3,8 +3,6 @@
 Copyright (C) 2010-2012 Evol Online -->
 
 <!--
-monsters.xml parameters explanation:
-
 <monsters>       Parent of the monster strings. 
 <monster>        Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
 id=""            ID of the monster. It is different for each monster and starts from 0.
@@ -14,12 +12,6 @@ walkType=""      The walk type is used to manage which monster can fly over coll
 <sprite>         This tag shows the path to the xml of the monster.
 <sound>          Sound tag. Contains an event which displays the sound effects to the corresponding action. The next paramaters lists them:
 event=""         Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
-
-Example:
-    <monster id="0" name="Reid" targetCursor="large" walkType="fly">
-        <sprite>monsters/reid.xml</sprite>
-        <sound event="die">monsters/reid/reid-die-1.ogg</sound>
-    </monster>
 -->
 
 <monsters>
