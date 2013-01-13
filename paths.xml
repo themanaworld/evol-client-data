@@ -6,32 +6,7 @@ Copyright (C) 2010-2012 Evol Online -->
 Use this file to override default data paths used by the system
 If this file is not used, the hard-coded defaults are the following:
 
-Files:			Default paths:
-===============		===============
-(All folders listed below are relative to the data/ directory.)
-
-Default wallpaper:	graphics/images/
-Default error path:	graphics/images/
-Default items path:	graphics/items/
-Default minimaps path:	graphics/minimaps/
-Default particles path:	graphics/particles/
-Default sprite path:	graphics/sprites/
-Default maps path:	maps/
-Default sfx path:	sfx/
-
-Hard-coded reference files (some could be handled differently later):
-
-Files:						Default paths:
-===============					===============
-Error handling for missing sprites files:	graphics/sprites/error.xml
-Level Up particle XML file:			graphics/particles/levelup.particle.xml
-Warp/Portal effect XML file:			graphics/particles/warparea.particle.xml
-Player unarmed attack sound effect:		sfx/fist-swish.ogg
-
-You can also have a look the client data handling reference page, here:
-http://doc.manasource.org/client_data_handling
-
-Also, don't forget to add the '/' path separator at the end of folder values.
+(All folders listed below are relative to the clientdata/ directory.)
 -->
 
 <configuration>
