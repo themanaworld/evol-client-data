@@ -83,7 +83,7 @@ l_Rwin:
 
     if (BaseLevel < 5) goto OnTooWeak;
     if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto l_NoGoodTick;
-    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto l_ThousandTick;
+    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto l_NoGoodTick;
     set $@RAT_SAILOR_COUNTDOWN$, "";
 
     set @peter, getq(ShipQuests_Peter);
@@ -316,12 +316,6 @@ l_Quit:
     close;
 
 l_NoGoodTick:
-    mesn;
-    mesq l("I don't need your help right now, come back later.");
-
-    close;
-
-l_ThousandTick:
     mesn;
     mesq l("I don't need your help right now, come back later.");
 
