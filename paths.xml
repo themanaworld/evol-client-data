@@ -8,6 +8,7 @@ All folders listed below are relative to the clientdata/ directory.
 -->
 
 <configuration>
+
     <!-- Folders paths used by the client. -->
     <option name="itemIcons" value="graphics/items/"/>
     <option name="guiIcons" value="graphics/guiicons/"/>
@@ -18,6 +19,7 @@ All folders listed below are relative to the clientdata/ directory.
     <option name="sfx" value="sfx/"/>
     <option name="sprites" value="graphics/sprites/"/>
     <option name="wallpapers" value="graphics/images/"/>
+
     <!-- Content paths used by the client. -->
     <option name="unknownItemFile" value="unknown-item.png"/>
     <option name="wallpaperFile" value="login_wallpaper.png"/>
@@ -28,8 +30,9 @@ All folders listed below are relative to the clientdata/ directory.
     <option name="completeQuestSfx" value="system/quest.ogg"/>
     <option name="missSfxFile" value="fist-swish.ogg"/>
     <option name="newQuestSfx" value="system/quest.ogg"/>
+
     <!-- Particle effect values used by the client. -->
-    <option name="criticalHitEffectId" value="3"/>
     <option name="hitEffectId" value="2"/>
-    <option name="missEffectId" value="-1"/>
+    <option name="criticalHitEffectId" value="3"/>
+
 </configuration>
