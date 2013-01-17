@@ -10,6 +10,6 @@ function	script	SavePoint	{
 
     savepoint @map$, @x, @y;
     set @q, getcharid(3);
-    misceffect 33, @q;
+    misceffect 4, @q;
 
 }
