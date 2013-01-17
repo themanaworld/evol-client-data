@@ -185,7 +185,7 @@ l_Aborting:
     mesn;
     mesq l("Are you mad?!");
     next;
-    mesq l("Give me back this dish now, you dirty liar!");
+    mesq lg("Give me back this dish now, you dirty liar!");
 
     if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
 
