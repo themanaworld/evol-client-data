@@ -8,25 +8,28 @@ All folders listed below are relative to the clientdata/ directory.
 -->
 
 <configuration>
+    <!-- Folders paths used by the client. -->
     <option name="itemIcons" value="graphics/items/"/>
-    <option name="unknownItemFile" value="unknown-item.png"/>
-    <option name="sprites" value="graphics/sprites/"/>
-    <option name="spriteErrorFile" value="error.xml"/>
     <option name="guiIcons" value="graphics/guiicons/"/>
+    <option name="maps" value="maps/"/>
+    <option name="minimaps" value="graphics/minimaps/"/>
+    <option name="music" value="music/"/>
     <option name="particles" value="graphics/particles/"/>
-    <option name="levelUpEffectFile" value="levelup.particle.xml"/>
+    <option name="sfx" value="sfx/"/>
+    <option name="sprites" value="graphics/sprites/"/>
+    <option name="wallpapers" value="graphics/images/"/>
+    <!-- Content paths used by the client. -->
+    <option name="unknownItemFile" value="unknown-item.png"/>
+    <option name="wallpaperFile" value="login_wallpaper.png"/>
     <option name="portalEffectFile" value="warparea.particle.xml"/>
+    <option name="levelUpEffectFile" value="levelup.particle.xml"/>
+    <option name="spriteErrorFile" value="error.xml"/>
+    <option name="attackSfxFile" value="fist-swish.ogg"/>
+    <option name="completeQuestSfx" value="system/quest.ogg"/>
+    <option name="missSfxFile" value="fist-swish.ogg"/>
+    <option name="newQuestSfx" value="system/quest.ogg"/>
+    <!-- Particle effect values used by the client. -->
+    <option name="criticalHitEffectId" value="3"/>
     <option name="hitEffectId" value="2"/>
     <option name="missEffectId" value="-1"/>
-    <option name="criticalHitEffectId" value="3"/>
-    <option name="minimaps" value="graphics/minimaps/"/>
-    <option name="maps" value="maps/"/>
-    <option name="sfx" value="sfx/"/>
-    <option name="attackSfxFile" value="fist-swish.ogg"/>
-    <option name="missSfxFile" value="fist-swish.ogg"/>
-    <option name="music" value="music/"/>
-    <option name="wallpapers" value="graphics/images/"/>
-    <option name="wallpaperFile" value="login_wallpaper.png"/>
-    <option name="newQuestSfx" value="system/quest.ogg"/>
-    <option name="completeQuestSfx" value="system/quest.ogg"/>
 </configuration>
