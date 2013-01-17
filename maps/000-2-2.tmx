@@ -30,6 +30,9 @@
  <tileset firstgid="486" name="Box x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box_x2.png" width="128" height="64"/>
  </tileset>
+ <tileset firstgid="490" name="ship-sunlight_x5" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight_x5.png" width="128" height="160"/>
+ </tileset>
  <layer name="Ground" width="70" height="62">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2XQW7CMBBFDYhKadVFqbooFSdpxT1YRmVV5Qg9fB3hEVPLToJTOgHe4im2hSL/x2Sc7JxzOwAAAAAAAAAAAIAb5t2z7eFjAvu0YOZZeubhqscLz/eNeuvzUoff3IX5SzSve7xtJ5CxhMrz6LkPVz1+UF7mkReZp7zF7qwzllAHGjWO16rgqvW0iebiRepLe5E164xjvTQu7yjlT8ar2QHxJu6k5qwzlnrZR060o5SXzw5vcj89t85YQldt5Ooklz+HdcbSejk31hnHeNE9U2d66sn8rMa5588646m0maqQJe6ZstZ6WbnjGdMoh6twj5yLS3TS8pbIo/tv219fPWvlq1YO1+Eeuk6k51hnK0X3zq6z55RerOfW+ca6Sb2PDH1/6WM5gYxjaqbkjL7msyjl5ivzv0uvrd2xBy/cb3eperPO95eO4jV5n9+EufRg+T6K62mv1q0z/Vc9pfrRNT5HQ7wM6ce36GXod1Cqrqz3f04vY7Dev5Ub670BAAAAAAAAAAAAAFw6P1yP2kbQQwAA
@@ -37,12 +40,12 @@
  </layer>
  <layer name="Ground 2" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XUUrDMBzH8UTZxAefhOGz4svwadQLCF7AI3gB77A9aGFzbruaV3A30L36j00wZHmorLYh/X7gT5p2g+RHm7RKAQAAAAAAAAAQN9RKfUo70lX/xLYje76vdt6xycLPY6D3f//VxqAStZA8SqnXSC4X7Q+nM0uZ/5vUKshhGvSfpf8iNbO5Lez1I13VuxzfRbLMxdSbs7Gy/cKeW9p2a9trae+lzqUe9P7/czKvMS93P13qqq6kHjPN4y/cc7fOMItZhnNqSri+GmOp49ZHkpaJd+z2HHMu9nyM2xpUh8xeW2d99RX/M5RkPAX90svnkD3WrFebzNYs93536P/LzHJpgnsPNtEMuh5MQ8LvAMd8Pw7ttRt7znw/7uI//8nlVNqzZoeXHJPXrdSHqvYp95yEbd8Uwbzd+862p3mENvo3k7m3vub6jViH22v8eyS3/RgAAAAAAAAAACB13+SvXo3QQwAA
+   H4sIAAAAAAAAA+3XTUoDMRTA8URpxYUrobhW3BRXMl5A8AIewQt4h3ahA6219mpewaoH0G59cRIMaUCl05mQ+f/gkUlmBpLHTD6UAgAAAAAAAAAgrq+V+pByoKv6ni0Htr2rVt61yYWfj55ef/6ziU4lair5KCUeInk5ar47rZnJ+B8l5kEeRkH9Tur3EmObt6m9v6OreJbry0guczHyxmzMbb2wbTNbLm15KuWVxKHEtV5/PyeTYFxvUn/32l71z/d0rKs4kbjJNB//4f67pwxzMc5wTHUJ51djKLHbeE/Scu5duzXHtMX+j2FTnWqRWWvD+fU3xXa6kozboF56+dlkjTXz1SKzOcvt7zZ9v8wsL3Vw+2CTml7bnalJeA5wzPmxb++d2TZzflzFH//Oy76UB/V2LzkmXxcSL6pap9x/EpZdUwTjdvudZUfzEVp4Z6KJN7/mekb8C7fW+N9IbusxAAAAAAAAAABA6r4Ay/0x+tBDAAA=
   </data>
  </layer>
  <layer name="Fringe" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XzQqCQBQG0Bno5+mjWgo9XqU9QLRN0YXEUCMJlp6zuc5C8X6MM04IAAAAAADA2LaxrY9ufO7qJk7xNr+lyeBe1yK2+TTX64XnUtX93z5ksJppRv3eTxk9vmZVJO7JyfMflF0P14wey8x+U88ClmFff/+H2K4XlbWAAS7my1v21nHl/tMwD0P2pJ25kdQ/F8zlHPSN1PmQEI5yAQAAAAAAmMwTqll6hNBDAAA=
+   H4sIAAAAAAAAA+3XWwuCMBgGYAcdfn1Ul0E/r9JOl9FtE4VERhYFlT4PjLmB4vfyoSzLAAAAAACAT5uGar7W6009T8I33ua3lBlc4rwKVT7l9XjguRSx/n1HBqOeZtSsff1Eje2sVol7nsnzH+R1DbtELYe4d4zjFMc53NddUs8aknZuzT3ou3ns80Wovi2FnucFW/3y0ND/rZ+Wy3NQXvknzfRGUvPs05dz0DtS50OybCkXAAAAAACAr7kBBqJLx9BDAAA=
   </data>
  </layer>
  <layer name="Over" width="70" height="62">
@@ -55,12 +58,12 @@
    H4sIAAAAAAAAA+3YwQqCQBDGcff9H8LqUpuESAcrT/VkTdDAMmywSMqw/g+/g8uKMx8rOLahaVoAAAAAAAAAAPBXvRgyrg5qW8NJ7MReHMS5MJfcWh/qye5oeuy+6+OPXKaN5GLPhfZ0E8+MRyYXzWoM9eRiz8VUeJ/m9Eqy+mR5T64BzBPFxUEd3gwOagAAoHbpnK3SeVv3RLNWOztn23k73dMt8HyvSv9LRQe1rs32nMtgi9+3+o6oLWYAAAAAAAAAAMAS3va7V8LQQwAA
   </data>
  </layer>
- <layer name="Collision" width="70" height="62">
+ <layer name="Collision" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3Y0QqCMBSAYXv/lxR8ka4Es20q2zravsF3kQvx/Kyg5tc0zQAAAAAAAJVSK/qZ7mDfQZ/PDqlOqTZHvZYbzNSyyzpvqsv+WqnNkrjnEx2t0nvO3id6xh5tavef3CXXqkW3f+5ydL3UK3qO2gatV/RMrXq0ahU9U49zUtslep5eXWpX9Dy92pSubfeunLtR5OYetc2ZmUfrkvqcOS/fc5a+j0brklvb/e1v6ehn/lWX/f8H6+voZwMAAAAAgKd7Aw+H4VzQQwAA
   </data>
  </layer>
- <objectgroup name="Object" width="70" height="62">
+ <objectgroup name="Object" width="70" height="62" visible="0">
   <object name="To Second Deck" type="warp" x="1536" y="928" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-1"/>

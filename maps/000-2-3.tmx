@@ -28,6 +28,9 @@
  <tileset firstgid="428" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
+ <tileset firstgid="492" name="ship-sunlight_x5" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight_x5.png" width="128" height="160"/>
+ </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3TSwrCMBSF4QQEEZyIdCDFjfgaugXpUHCYHbgS37o1V+ItphhLxVrBJPIPPkJzJ+eQ20wplQEAAAAAAPzIWMwqTCpmkwDyvjMVPdEWidUXC7F2ZvndPIC8dfsk6rmPFiNnFkuf3EAMHant03JmaQA561pW6Ng+Gym2FTvtP+cnfYzl5u/K90nOs7hE0seU3mUvua9yHvVjVpy+szbZtdj7uJmN7XPQ9z7F/SqiPuWdc/8X991MADmb7twrvnN+08d3JgAAAAAAgH92AyHyhVMQKwAA
@@ -35,12 +38,12 @@
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RQQqCQBjFcV1knaD7hFdw49ordISWFYR0hG6gR2npQqQDVGDbHjTBMLgQHJSB/w8+3ozO4o1GEQAAAAAAAKZI4l9ulRvlx3pXm7zN3MmH3lofTP7vto5nLuPBWZ0vmpOm0n5l7lCaZ6Eora7XgHoPyUeeOwZyz7vVs9C6Ve6V3WKNpmmc777TPtOkgfwP18Pp/dS8NO8lygAAAAAAAADw7gsNpnclECsAAA==
+   H4sIAAAAAAAAA+3RTQqCQBjGcV30cYLuI13Bjeuu0BFclhDiEbyBHqVli4h2ucigtj3QBMPgzkEZ+P/g5ZnRzfNqFAEAAAAAAGCMZfzLjXKt/FjvWpP1xJ18eFvn3OR/t1U8cRkPCnU+aY6aRveF2aE0z0JRWl2rgHoPyZz7Q/t0AzsdAtnzbPXc6XxV7pW32RqNc3G+e6J7qtkG8j9cd6f3U9NrXnOUAQAAAAAAAODdF9kjI4gQKwAA
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RwQkAIBADwVwP9v9Xm7QJUThmKtiQBAAAAAD6WpXs+l1x12y2p7PhKwAAAACAJw4WlwYyECsAAA==
+   H4sIAAAAAAAAA+3Puw2AQAwD0GQH9u85VuOzwmUASiSU03uSKzd2BAAAAACsa2TEkX+v+Na+2J+z/lyVu/Lke9fV1ng7AAAAAEAnE3DbS3sQKwAA
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
@@ -48,12 +51,12 @@
    H4sIAAAAAAAAA+3UMQrCMBQG4Hgbx17Ayerq7AW8gufUpaOj1/ANFkNJQcEhCd8HPw3hFd5PoSkBAAAAQH/Okd0P88f3O7Xqsc9lcXeL3FfmW+hzjUyb7+Zb6fMo9BkLd630eXb0fdb+B6fIIcs2Mqb6++zTZ9/8Oe8+Z8jOtSrtOyzu8wAAAADwHy81qzZvECsAAA==
   </data>
  </layer>
- <layer name="Collision" width="52" height="53">
+ <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3UQQrAIAwEQPv/Zwh9Z+lBEA/a9mITJjDE4y6i9SilAgAAAACh3NPvdj5/kO1tj9Xszvilz3gPETvNMkfsM+bO1ifDG3oykf64lrffuzMBAAAAZHYBFlxJzBArAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object" width="52" height="53" visible="0">
   <object name="To First Deck" type="warp" x="612" y="864" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-2-0"/>
