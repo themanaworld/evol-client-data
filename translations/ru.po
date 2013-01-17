@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2012-12-18 01:36+0300\n"
-"PO-Revision-Date: 2012-12-21 12:57+0000\n"
-"Last-Translator: Dan Sagunov <danilka.pro@gmail.com>\n"
+"POT-Creation-Date: 2012-12-22 16:57+0300\n"
+"PO-Revision-Date: 2012-12-22 13:58+0000\n"
+"Last-Translator: Andrei Karas <akaras@inbox.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/manaplus/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,70 +29,6 @@ msgstr "Эмоции"
 #: ea-skills.xml13(set/skill@description)
 msgid "You can share your mood."
 msgstr ""
-
-#: ea-skills.xml14(set/skill@name)
-msgid "Trade"
-msgstr "Торговля"
-
-#: ea-skills.xml15(set/skill@name) ea-skills.xml16(set/skill@name)
-msgid "Party"
-msgstr "Группа"
-
-#: ea-skills.xml15(set/skill@description)
-msgid "You can join a party."
-msgstr ""
-
-#: ea-skills.xml16(set/skill@description)
-msgid "You can join and create a party."
-msgstr ""
-
-#: ea-skills.xml17(set/skill@name)
-msgid "Guild"
-msgstr "Гильдия"
-
-#: ea-skills.xml18(set/skill@name)
-msgid "Craft"
-msgstr "Ремесло"
-
-#: ea-skills.xml19(set/skill@name)
-msgid "Dye"
-msgstr "Покраска"
-
-#: ea-skills.xml22(skills/set@name) ea-skills.xml24(set/skill@name)
-msgid "Magic"
-msgstr "Магия"
-
-#: ea-skills.xml23(set/skill@name)
-msgid "Fire Ball"
-msgstr "Огненный шар"
-
-#: ea-skills.xml25(set/skill@name)
-msgid "Life Magic"
-msgstr "Жизненная магия"
-
-#: ea-skills.xml26(set/skill@name)
-msgid "War Magic"
-msgstr "Боевая магия"
-
-#: ea-skills.xml27(set/skill@name)
-msgid "Transmutation Magic"
-msgstr "Магия превращения"
-
-#: ea-skills.xml28(set/skill@name)
-msgid "Nature Magic"
-msgstr "Природная магия"
-
-#: ea-skills.xml29(set/skill@name)
-msgid "Necromancy Magic"
-msgstr "Эпично"
-
-#: ea-skills.xml32(skills/set@name) ea-skills.xml33(set/skill@name)
-msgid "Warrior"
-msgstr "Воин"
-
-#: ea-skills.xml36(skills/set@name) ea-skills.xml37(set/skill@name)
-msgid "Archer"
-msgstr "Лучник"
 
 #: emotes.xml11(emote/sprite@name)
 msgid "Disgust"
@@ -757,7 +693,7 @@ msgid "An iron key to open La Johanne's entrance door."
 msgstr ""
 
 #: items.xml448(items/item@name)
-msgid "Fouit's Wing"
+msgid "Fouit Wing"
 msgstr ""
 
 #: items.xml448(items/item@description) items.xml462(items/item@description)
@@ -765,15 +701,15 @@ msgid "This wing is slight and soft unlike its former owner."
 msgstr ""
 
 #: items.xml455(items/item@name)
-msgid "Bat's Teeth"
-msgstr "Клыки летучей мыши"
+msgid "Bat Teeth"
+msgstr ""
 
 #: items.xml455(items/item@description)
 msgid "What sharp teeth! They seem to be more dangerous than a knife."
 msgstr ""
 
 #: items.xml462(items/item@name)
-msgid "Oufti's Wing"
+msgid "Oufti Wing"
 msgstr ""
 
 #: items.xml469(items/item@name) tmp/manaplus_emotes.xml26(emote/sprite@name)
@@ -792,7 +728,8 @@ msgstr ""
 msgid "An old shirt given to you by a sailor. It isn't very fashionable..."
 msgstr ""
 
-#: items.xml491(items/item@effect) items.xml557(items/item@effect)
+#: items.xml491(items/item@effect) items.xml529(items/item@effect)
+#: items.xml557(items/item@effect) items.xml595(items/item@effect)
 msgid "+2 Defense"
 msgstr "+2 Защита"
 
@@ -804,7 +741,8 @@ msgstr "%Color% тельняшка"
 msgid "A %color% tank top used by sailors and seamen."
 msgstr "A %color% тельняшка, такие носят моряки и матросы."
 
-#: items.xml503(items/item@effect) items.xml618(items/item@effect)
+#: items.xml503(items/item@effect) items.xml543(items/item@effect)
+#: items.xml618(items/item@effect)
 msgid "+3 Defense"
 msgstr "+3 Защита"
 
@@ -827,11 +765,6 @@ msgstr ""
 #: items.xml529(items/item@description)
 msgid "Orc-made moccasins. Not sure from which skin these shoes were made."
 msgstr ""
-
-#: items.xml529(items/item@effect) items.xml543(items/item@effect)
-#: items.xml595(items/item@effect) items.xml650(items/item@effect)
-msgid "+1 Defense"
-msgstr "+1 Защита"
 
 #: items.xml543(items/item@name)
 msgid "Armbands"
@@ -873,6 +806,10 @@ msgstr "Причудливая шляпа"
 msgid "A fancy hat, what else?"
 msgstr ""
 
+#: items.xml650(items/item@effect)
+msgid "+1 Defense"
+msgstr "+1 Защита"
+
 #: items.xml683(items/item@name)
 msgid "Knife"
 msgstr "Нож"
@@ -882,8 +819,22 @@ msgid "A simple, but sharp knife."
 msgstr "Простой, но острый нож."
 
 #: items.xml683(items/item@effect)
-msgid "+10 Damage"
-msgstr "+10 Урон"
+msgid "+5 Damage"
+msgstr ""
+
+#: items.xml698(items/item@name)
+msgid "Piou Slayer"
+msgstr ""
+
+#: items.xml698(items/item@description)
+msgid ""
+"A short sword for novice fighters, more useful in the kitchen than in a real"
+" fight..."
+msgstr ""
+
+#: items.xml698(items/item@effect)
+msgid "+13 Damage"
+msgstr ""
 
 #: tmp/manaplus_emotes.xml7(emote/sprite@name)
 msgid "Kitty"
@@ -1204,8 +1155,8 @@ msgid "Difficulty: ✭✩✩✩✩✩"
 msgstr "Сложность: ✭✩✩✩✩✩"
 
 #: quests.xml78(quest/text)
-msgid "Rewards: 500GP, 100EXP."
-msgstr "Награда: 500GP, 100EXP."
+msgid "Rewards: 500 GP, 100 EXP."
+msgstr ""
 
 #: quests.xml81(quest/name) quests.xml90(quest/name)
 msgid "Free Wash"
@@ -1321,7 +1272,7 @@ msgid "Coordinates: Desert Island. (90,89)"
 msgstr ""
 
 #: quests.xml149(quest/text)
-msgid "Rewards: 100GP, Old Book, Aquada, SeaDrops."
+msgid "Rewards: 100 GP, Old Book, Aquada, SeaDrops."
 msgstr ""
 
 #: quests.xml154(quest/name) quests.xml163(quest/name)
@@ -1362,7 +1313,7 @@ msgid "Coordinates: Desert Island. (89,36)"
 msgstr ""
 
 #: quests.xml170(quest/text)
-msgid "Rewards: 10GP."
+msgid "Reward: 10 GP."
 msgstr ""
 
 #: quests.xml175(quest/name) quests.xml184(quest/name)
@@ -1434,8 +1385,8 @@ msgid "Go back and talk to Gado. He probably has a reward for you."
 msgstr ""
 
 #: quests.xml224(quest/text) quests.xml232(quest/text)
-msgid "Reward: Bread, 60GP."
-msgstr "Награда: Хлеб, 60GP."
+msgid "Rewards: Bread, 60 GP."
+msgstr ""
 
 #: quests.xml228(quest/text)
 msgid ""
@@ -1447,5 +1398,5 @@ msgid "You have refused to accomplish Chef Gado's evil plan. Julia is safe!"
 msgstr ""
 
 #: quests.xml240(quest/text)
-msgid "Reward: 100GP."
-msgstr "Награда: 100GP."
+msgid "Reward: 50 GP."
+msgstr ""

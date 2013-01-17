@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2012-12-18 01:36+0300\n"
-"PO-Revision-Date: 2012-12-18 07:04+0000\n"
+"POT-Creation-Date: 2012-12-22 16:57+0300\n"
+"PO-Revision-Date: 2012-12-24 11:35+0000\n"
 "Last-Translator: Alige <aligetmw@hotmail.fr>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/manaplus/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -28,70 +28,6 @@ msgstr "Émoticône"
 #: ea-skills.xml13(set/skill@description)
 msgid "You can share your mood."
 msgstr "Tu peux partager ton humeur du moment."
-
-#: ea-skills.xml14(set/skill@name)
-msgid "Trade"
-msgstr "Échange"
-
-#: ea-skills.xml15(set/skill@name) ea-skills.xml16(set/skill@name)
-msgid "Party"
-msgstr "Groupe"
-
-#: ea-skills.xml15(set/skill@description)
-msgid "You can join a party."
-msgstr "Tu peux rejoindre un groupe."
-
-#: ea-skills.xml16(set/skill@description)
-msgid "You can join and create a party."
-msgstr "Tu peux rejoindre et créer un groupe."
-
-#: ea-skills.xml17(set/skill@name)
-msgid "Guild"
-msgstr "Guilde"
-
-#: ea-skills.xml18(set/skill@name)
-msgid "Craft"
-msgstr "Artisanat"
-
-#: ea-skills.xml19(set/skill@name)
-msgid "Dye"
-msgstr "Teindre"
-
-#: ea-skills.xml22(skills/set@name) ea-skills.xml24(set/skill@name)
-msgid "Magic"
-msgstr "Magie"
-
-#: ea-skills.xml23(set/skill@name)
-msgid "Fire Ball"
-msgstr "Boule de feu"
-
-#: ea-skills.xml25(set/skill@name)
-msgid "Life Magic"
-msgstr "Magie de Vie"
-
-#: ea-skills.xml26(set/skill@name)
-msgid "War Magic"
-msgstr "Magie de Guerre"
-
-#: ea-skills.xml27(set/skill@name)
-msgid "Transmutation Magic"
-msgstr "Magie de Transmutation"
-
-#: ea-skills.xml28(set/skill@name)
-msgid "Nature Magic"
-msgstr "Magie de la Nature"
-
-#: ea-skills.xml29(set/skill@name)
-msgid "Necromancy Magic"
-msgstr "Magie Nécromancienne"
-
-#: ea-skills.xml32(skills/set@name) ea-skills.xml33(set/skill@name)
-msgid "Warrior"
-msgstr "Guerrier"
-
-#: ea-skills.xml36(skills/set@name) ea-skills.xml37(set/skill@name)
-msgid "Archer"
-msgstr "Archer"
 
 #: emotes.xml11(emote/sprite@name)
 msgid "Disgust"
@@ -756,7 +692,7 @@ msgid "An iron key to open La Johanne's entrance door."
 msgstr "Une clé en fer pour ouvrir la porte d'entrée de La Johanne."
 
 #: items.xml448(items/item@name)
-msgid "Fouit's Wing"
+msgid "Fouit Wing"
 msgstr "Aile de Fouit"
 
 #: items.xml448(items/item@description) items.xml462(items/item@description)
@@ -764,7 +700,7 @@ msgid "This wing is slight and soft unlike its former owner."
 msgstr "Cette aile est fine et douce contrairement à son propriétaire d'origine."
 
 #: items.xml455(items/item@name)
-msgid "Bat's Teeth"
+msgid "Bat Teeth"
 msgstr "Dents de Chauve-Souris"
 
 #: items.xml455(items/item@description)
@@ -772,7 +708,7 @@ msgid "What sharp teeth! They seem to be more dangerous than a knife."
 msgstr "Que de dents acérées ! Elles semblent plus dangereuses qu'un couteau."
 
 #: items.xml462(items/item@name)
-msgid "Oufti's Wing"
+msgid "Oufti Wing"
 msgstr "Aile d'Oufti"
 
 #: items.xml469(items/item@name) tmp/manaplus_emotes.xml26(emote/sprite@name)
@@ -791,7 +727,8 @@ msgstr "Chemise Froissée"
 msgid "An old shirt given to you by a sailor. It isn't very fashionable..."
 msgstr "Une vieille chemise qui tu fut donnée par un marin. Elle n'est pas très à la mode..."
 
-#: items.xml491(items/item@effect) items.xml557(items/item@effect)
+#: items.xml491(items/item@effect) items.xml529(items/item@effect)
+#: items.xml557(items/item@effect) items.xml595(items/item@effect)
 msgid "+2 Defense"
 msgstr "+2 Défense"
 
@@ -803,7 +740,8 @@ msgstr "Débardeur de Marin %Color%"
 msgid "A %color% tank top used by sailors and seamen."
 msgstr "Un débardeur %color% utilisé par les marins et gens de la mer."
 
-#: items.xml503(items/item@effect) items.xml618(items/item@effect)
+#: items.xml503(items/item@effect) items.xml543(items/item@effect)
+#: items.xml618(items/item@effect)
 msgid "+3 Defense"
 msgstr "+3 Défense"
 
@@ -826,11 +764,6 @@ msgstr "Mocassins Moches"
 #: items.xml529(items/item@description)
 msgid "Orc-made moccasins. Not sure from which skin these shoes were made."
 msgstr "Des mocassins fabriqués par des orques. Pas sûr à partir de quelle peau ces chaussures furent créées."
-
-#: items.xml529(items/item@effect) items.xml543(items/item@effect)
-#: items.xml595(items/item@effect) items.xml650(items/item@effect)
-msgid "+1 Defense"
-msgstr "+1 Défense"
 
 #: items.xml543(items/item@name)
 msgid "Armbands"
@@ -872,6 +805,10 @@ msgstr "Chapeau Fantastique"
 msgid "A fancy hat, what else?"
 msgstr "Un chapeau fantastique, quoi d'autre ?"
 
+#: items.xml650(items/item@effect)
+msgid "+1 Defense"
+msgstr "+1 Défense"
+
 #: items.xml683(items/item@name)
 msgid "Knife"
 msgstr "Couteau"
@@ -881,16 +818,30 @@ msgid "A simple, but sharp knife."
 msgstr "Un couteau simple mais aiguisé."
 
 #: items.xml683(items/item@effect)
-msgid "+10 Damage"
-msgstr "+10 Dégâts"
+msgid "+5 Damage"
+msgstr "+5 Dégâts"
+
+#: items.xml698(items/item@name)
+msgid "Piou Slayer"
+msgstr "Tueuse de Piou"
+
+#: items.xml698(items/item@description)
+msgid ""
+"A short sword for novice fighters, more useful in the kitchen than in a real"
+" fight..."
+msgstr "Une épée courte pour combattants novices, plus utile dans une cuisine que dans un véritable combat..."
+
+#: items.xml698(items/item@effect)
+msgid "+13 Damage"
+msgstr "+13 Dégâts"
 
 #: tmp/manaplus_emotes.xml7(emote/sprite@name)
 msgid "Kitty"
-msgstr "Kitty"
+msgstr "Chaton"
 
 #: tmp/manaplus_emotes.xml8(emote/sprite@name)
 msgid "xD"
-msgstr "XD"
+msgstr "xD"
 
 #: tmp/manaplus_emotes.xml9(emote/sprite@name)
 msgid "^.^"
@@ -1118,7 +1069,7 @@ msgstr "Lorsque ton inventaire est ouvert, tu peux équiper un objet en le séle
 msgid ""
 "Items have different effects. Some will heal you, some can be used as "
 "weapons or armor, and some can be sold for gold."
-msgstr "Les objets ont différents effets. Certains te soignent, d'autres peuvent être utilisés comme armes ou armures et d'autres peuvent être vendus pour de l'or."
+msgstr "Les objets ont différents effets. Certains peuvent te soigner, d'autres peuvent être utilisés comme armes et armures, et enfin d'autres peuvent être vendus pour de l'or."
 
 #: quests.xml47(quest/name) quests.xml54(quest/name)
 msgid "Piberries Lover"
@@ -1203,8 +1154,8 @@ msgid "Difficulty: ✭✩✩✩✩✩"
 msgstr "Difficulté : ✭✩✩✩✩✩"
 
 #: quests.xml78(quest/text)
-msgid "Rewards: 500GP, 100EXP."
-msgstr "Récompenses : 500PO, 100EXP."
+msgid "Rewards: 500 GP, 100 EXP."
+msgstr "Récompenses : 500 GP, 100 EXP."
 
 #: quests.xml81(quest/name) quests.xml90(quest/name)
 msgid "Free Wash"
@@ -1320,8 +1271,8 @@ msgid "Coordinates: Desert Island. (90,89)"
 msgstr "Coordonnées : Île déserte. (90,89)"
 
 #: quests.xml149(quest/text)
-msgid "Rewards: 100GP, Old Book, Aquada, SeaDrops."
-msgstr "Récompenses : 100PO, Vieux Livre, Aquada, Gouttes d'Eau de Mer."
+msgid "Rewards: 100 GP, Old Book, Aquada, SeaDrops."
+msgstr "Récompenses : 100 GP, Vieux Livre, Aquada, Gouttes d'Eau de Mer."
 
 #: quests.xml154(quest/name) quests.xml163(quest/name)
 msgid "Fish and Scams"
@@ -1361,8 +1312,8 @@ msgid "Coordinates: Desert Island. (89,36)"
 msgstr "Coordonnées : Île déserte. (89,36)"
 
 #: quests.xml170(quest/text)
-msgid "Rewards: 10GP."
-msgstr "Récompense : 10PO."
+msgid "Reward: 10 GP."
+msgstr "Récompenses : 10 GP."
 
 #: quests.xml175(quest/name) quests.xml184(quest/name)
 msgid "Unexpected Help"
@@ -1433,8 +1384,8 @@ msgid "Go back and talk to Gado. He probably has a reward for you."
 msgstr "Reviens parler à Gado. Il a probablement une récompense pour toi."
 
 #: quests.xml224(quest/text) quests.xml232(quest/text)
-msgid "Reward: Bread, 60GP."
-msgstr "Récompenses : Pain, 60PO."
+msgid "Rewards: Bread, 60 GP."
+msgstr "Récompenses : Pain, 60 GP."
 
 #: quests.xml228(quest/text)
 msgid ""
@@ -1446,5 +1397,5 @@ msgid "You have refused to accomplish Chef Gado's evil plan. Julia is safe!"
 msgstr "Tu as refusé d'accomplir le plan diabolique du Chef Gado. Julia est en sécurité !"
 
 #: quests.xml240(quest/text)
-msgid "Reward: 100GP."
-msgstr "Récompense : 100PO."
+msgid "Reward: 50 GP."
+msgstr "Récompense : 50 GP."
