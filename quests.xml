@@ -3,43 +3,49 @@
 Copyright (C) 2012 Evol Online -->
 <quests>
     <var id="0">
-        <quest name="Julia" group="Ship" incomplete="1" complete="4">
-            <name>Abide by the Rules</name>
-            <text>Before resuming your adventure and exploration, you will need to register on the boarding list of the ship, and to sign its rules.</text>
+        <quest name="Abide by the Rules" group="Ship" incomplete="1">
+            <name>Quest giver: Julia</name>
+            <text></text>
+            <text>Before resuming your adventure and exploration, you need to register on the boarding list of the ship signing its rules.</text>
+            <text></text>
+            <text>Speak with Julia the shipkeeper of the ship. She is waiting for you on the first deck.</text>
             <text></text>
             <text>Coordinates: La Johanne, First Deck. (27,24)</text>
         </quest>
-        <quest name="Julia" group="Ship" incomplete="4" complete="2">
-            <name>Abide by the Rules</name>
-            <text>Rules:</text>
-            <text>1. Do not bot. This means you are not allowed to use any automation programs or use keyboard tricks. Any away from keyboard activity will be considered as botting except standing still.</text>
-            <text>2. Do not spam. This also concerns trade spam.</text>
-            <text>3. Do not multi box. This means you cannot have more than one active character logged in at a time. You are not allowed to use more than one active client at a time to attack in groups.</text>
-            <text>4. Do not trash talk, beg or use rude language in your character name or in the chat, except for role play purposes.</text>
-            <text>5. Do not speak any other language than English in public areas. You are free to speak any language you want in private chats or when alone with friends.</text>
-            <text>6. Follow the social convention listed on the RFC1855 article.</text>
+        <quest name="Abide by the Rules" group="Ship" complete="2">
+            <name>Quest giver: Julia</name>
+            <text></text>
+            <text>Julia has shown you all the rules you have to follow during your adventure in order to behave properly with other players.</text>
+            <text></text>
+            <text>Keep them in mind and if you think you still need to hear them talk to Julia again.</text>
+            <text></text>
+            <text>Coordinates: La Johanne, First Deck. (27,24)</text>
         </quest>
     </var>
     <var id="1">
-        <quest name="Magic Arpan" group="Ship" incomplete="0" complete="1">
+        <quest name="Magic Arpan" group="Ship" incomplete="0">
             <name>Speaking to Magic Arpan</name>
             <text>Magic Arpan is waiting for you. Go speak to him.</text>
             <text>To speak to an NPC, click on him with your mouse or select him with then N key and then start to chat with him with the T key.</text>
             <text></text>
             <text>Coordinates: La Johanne, Second Deck. (39,33)</text>
         </quest>
-        <quest name="Magic Arpan" group="Ship" incomplete="1" complete="2">
+        <quest name="Magic Arpan" group="Ship" incomplete="1">
             <name>Opening the Chest</name>
             <text>You need to open the chest and take the clothes from it.</text>
             <text>To perform this action, click on the chest with your mouse or select it with the N key and then interact with it using the T key.</text>
             <text></text>
             <text>Coordinates: La Johanne, Second Deck. (41,37)</text>
         </quest>
-        <quest name="Magic Arpan" group="Ship" incomplete="2" complete="3">
+        <quest name="Magic Arpan" group="Ship" incomplete="2">
             <name>Equip an Item</name>
             <text>To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client.</text>
             <text>When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'.</text>
             <text>Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold.</text>
+        </quest>
+        <quest name="Magic Arpan" group="Ship" complete="3">
+            <name>Equip an Item</name>
+            <text>DONE!</text>
         </quest>
     </var>
     <var id="2">
