@@ -22,18 +22,16 @@ All folders listed below are relative to the clientdata/ directory.
 
     <!-- Content paths used by the client. -->
     <option name="unknownItemFile" value="unknown-item.png"/>
-    <option name="wallpaperFile" value="login_wallpaper.png"/>
-    <option name="portalEffectFile" value="warparea.particle.xml"/>
-    <option name="levelUpEffectFile" value="levelup.particle.xml"/>
     <option name="spriteErrorFile" value="error.xml"/>
+    <option name="wallpaperFile" value="login_wallpaper.png"/>
     <option name="attackSfxFile" value="fist-swish.ogg"/>
-    <option name="completeQuestSfx" value="system/quest.ogg"/>
     <option name="missSfxFile" value="fist-swish.ogg"/>
     <option name="newQuestSfx" value="system/quest.ogg"/>
+    <option name="completeQuestSfx" value="system/quest.ogg"/>
+    <option name="portalEffectFile" value="warp.xml"/>
 
     <!-- Particle effect values used by the client. -->
     <option name="hitEffectId" value="2"/>
     <option name="criticalHitEffectId" value="3"/>
-    <option name="portalEffectFile" value="warp.xml"/>
 
 </configuration>
