@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Authors: 4144, Alige, Reid
 Copyright (C) 2010-2013 Evol Online -->
-
-<!--
-Use this file to override default data paths used by the system.
-All folders listed below are relative to the clientdata/ directory.
--->
-
 <configuration>
-
-    <!-- Folders paths used by the client. -->
-    <option name="itemIcons" value="graphics/items/"/>
-    <option name="guiIcons" value="graphics/guiicons/"/>
-    <option name="maps" value="maps/"/>
-    <option name="minimaps" value="graphics/minimaps/"/>
-    <option name="music" value="music/"/>
-    <option name="particles" value="graphics/particles/"/>
-    <option name="sfx" value="sfx/"/>
-    <option name="sprites" value="graphics/sprites/"/>
-    <option name="wallpapers" value="graphics/images/"/>
-
-    <!-- Content paths used by the client. -->
-    <option name="unknownItemFile" value="error.png"/>
-    <option name="spriteErrorFile" value="error.xml"/>
-    <option name="wallpaperFile" value="login_wallpaper.png"/>
-    <option name="attackSfxFile" value="fist-swish.ogg"/>
-    <option name="missSfxFile" value="fist-swish.ogg"/>
     <option name="newQuestSfx" value="system/quest.ogg"/>
     <option name="completeQuestSfx" value="system/quest.ogg"/>
     <option name="portalEffectFile" value="warp.xml"/>
-
-    <!-- Particle effect values used by the client. -->
     <option name="hitEffectId" value="2"/>
     <option name="criticalHitEffectId" value="3"/>
-
 </configuration>
