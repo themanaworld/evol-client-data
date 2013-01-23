@@ -81,9 +81,9 @@ l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
-        l("Who should I search for?"), l_SailorNames,
-        l("Where can I find your crew?"), l_Location,
-        l("See you!"), l_Quit;
+        rif(getq(ShipQuests_Couwan) < 2, l("Who should I search for?")), l_SailorNames,
+        rif(getq(ShipQuests_Couwan) < 2, l("Where can I find your crew?")), l_Location,
+        l("Bye!"), l_Quit;
 
 l_MenuDone:
     menu
@@ -205,13 +205,15 @@ l_TaskCompleted:
     next;
     mesq l("Tell him that everything went fine and that we're almost done with the food.");
 
-    close;
+    goto l_Menu;
 
 l_AllComplete:
     mesq l("Elmo told me what Nard said, congrats!");
     next;
     mesq g(l("You're one of us now, that's great! I was sure that you were a kind lady when I first saw you!"),
            l("You're one of us now, that's great! I was sure that you were a good man when I first saw you!"));
+
+    goto l_Menu;
 
 l_Quit:
     close;
