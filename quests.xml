@@ -28,6 +28,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="0">
             <name>Warm Smelly Clothes</name>
             <text>Magic Arpan is waiting for you. Go speak to him.</text>
+            <text></text>
             <text>To speak to an NPC, click on him with your mouse or select him with then N key and then start to chat with him with the T key.</text>
             <text></text>
             <text>Quest giver: Magic Arpan.</text>
@@ -37,6 +38,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="1">
             <name>Warm Smelly Clothes</name>
             <text>You need to open the chest and take the clothes from it.</text>
+            <text></text>
             <text>To perform this action, click on the chest with your mouse or select it with the N key and then interact with it using the T key.</text>
             <text></text>
             <text>Quest giver: Magic Arpan.</text>
@@ -46,7 +48,9 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="2">
             <name>Warm Smelly Clothes</name>
             <text>To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client.</text>
+            <text></text>
             <text>When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'.</text>
+            <text></text>
             <text>Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold.</text>
             <text></text>
             <text>Quest giver: Magic Arpan.</text>
@@ -68,6 +72,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Piberries Lover" group="Ship" incomplete="1">
             <name>Piberries Lover</name>
             <text>A mysterious stowaway needs your help. He hides at the bottom level of the ship, in the storage room.</text>
+            <text></text>
             <text>It seems to be an urgent task, but he is afraid that you could be a sailor, so be ready!</text>
             <text></text>
             <text>Quest Giver: Alige.</text>
@@ -77,7 +82,9 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Piberries Lover" group="Ship" incomplete="2">
             <name>Piberries Lover</name>
             <text>Alige, the mysterious traveller, requests your help to find some food for him.</text>
+            <text></text>
             <text>He in fact hides in a hole of the hallway, which leads to the ship's storage where he can reach some barrels full of piberries.</text>
+            <text></text>
             <text>It seems he is now sick of eating these berries all the time. That is why he would like you to find him other kinds of food and bring them to him.</text>
             <text></text>
             <text>Quest Giver: Alige.</text>
@@ -87,6 +94,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Piberries Lover" group="Ship" complete="3">
             <name>Piberries Lover</name>
             <text>You have brought Alige some food different from the Piberries he usually eats everyday.</text>
+            <text></text>
             <text>He seems to be eager of tasting new flavours. Try to bring him other type of foods. He may have something else to give you in exchange.</text>
             <text></text>
             <text>Quest Giver: Alige.</text>
@@ -98,6 +106,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Ratto Extermination" group="Ship" incomplete="6">
             <name>Ratto Extermination</name>
             <text>Peter needs your help to clean the bottom of the ship from some rattos.</text>
+            <text></text>
             <text>Speak with him when you will have time to help him.</text>
             <text></text>
             <text>Quest Giver: Peter.</text>
@@ -107,6 +116,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Ratto Extermination" group="Ship" incomplete="1">
             <name>Ratto Extermination</name>
             <text>Peter asked you to empty the bottom of the ship for free.</text>
+            <text></text>
             <text>Maybe next time he may have something else to offer you...</text>
             <text></text>
             <text>Quest Giver: Peter.</text>
@@ -151,38 +161,52 @@ Copyright (C) 2012 Evol Online -->
         </quest>
     </var>
     <var id="4">
-        <quest name="Nard" group="Ship" incomplete="1" complete="2">
+        <quest name="One of Us" group="Ship" incomplete="1">
             <name>One of Us</name>
             <text>Captain Nard asked you to help his crew on the island outside the ship.</text>
+            <text></text>
             <text>Gugli, one of his sailors, waits for you on the shore to tell you about the task.</text>
             <text></text>
+            <text>Quest Giver: Nard.</text>
             <text>Coordinates: La Johanne, Nard's Room. (25,26)</text>
-            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: Unknown.</text>
         </quest>
-        <quest name="Nard" group="Ship" incomplete="3" complete="4">
+        <quest name="One of Us" group="Ship" incomplete="2">
             <name>One of Us</name>
-            <text>Captain Nard said he still had a task for you. It seems he did a mistake in the past, choosing the right lieutenant for this ship.</text>
+            <text>You have reported Captain Nard that you have succesfully accomplished Gugli's mission.</text>
+            <text></text>
+            <text>As the perfect Captain's sailor you are, you are waiting for the next order, eagerly.</text>
+            <text></text>
+            <text>Quest Giver: Nard.</text>
+            <text>Coordinates: La Johanne, Nard's Room. (25,26)</text>
+            <text>Reward: Unknown.</text>
+        </quest>
+        <quest name="One of Us" group="Ship" incomplete="3">
+            <name>One of Us</name>
+            <text>Captain Nard said he still has a task for you. It seems he did a mistake in the past, choosing the right lieutenant for this ship.</text>
+            <text></text>
             <text>Chef Gado, the former shipkeeper, may have something to say about that.</text>
             <text></text>
+            <text>Quest Giver: Nard.</text>
             <text>Coordinates: La Johanne, Nard's Room. (25,26)</text>
-            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: Unknown.</text>
         </quest>
-        <quest name="Nard" group="Ship" incomplete="4" complete="6">
+        <quest name="One of Us" group="Ship" incomplete="4">
             <name>One of Us</name>
-            <text>Take your reward from the box near the captain to become one of Nard's crew members.</text>
+            <text>You have smartly solved liutenants' conflict onboard. Nard is proud of his new sailor.</text>
             <text></text>
+            <text>Take your reward from the box near the captain to officially become one of Nard's crew members.</text>
+            <text></text>
+            <text>Quest Giver: Nard.</text>
             <text>Coordinates: La Johanne, Nard's Room. (25,24)</text>
-            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: [@@2900|Bandana@@].</text>
         </quest>
-        <quest name="Nard" group="Ship" incomplete="6" complete="5">
+        <quest name="One of Us" group="Ship" complete="5">
             <name>One of Us</name>
             <text>Nard has officially proclaimed you member of his crew!</text>
             <text></text>
+            <text>Quest Giver: Nard.</text>
             <text>Coordinates: La Johanne, Nard's Room. (25,24)</text>
-            <text>Difficulty: ✭✩✩✩✩✩</text>
             <text>Reward: [@@2900|Bandana@@].</text>
         </quest>
     </var>
@@ -190,6 +214,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Treasure's Glints" group="Ship" complete="1">
             <name>Treasure's Glints</name>
             <text>You have spotted a treasure chest on the top of a cliff in the west side of the island.</text>
+            <text></text>
             <text>The chest contains gold and an [@@514|Old Book@@].</text>
             <text></text>
             <text>Coordinates: Desert Island. (83,70)</text>
@@ -200,6 +225,7 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Fish and Scams" group="Ship" incomplete="1">
             <name>Fish and Scams</name>
             <text>A sailor, who wasn't on Gugli's list, gave you his box full of food.</text>
+            <text></text>
             <text>He did not mention any reward, but he would like you to deliver this box to Gugli as soon as you can.</text>
             <text></text>
             <text>Quest Giver: Couwan.</text>
@@ -209,7 +235,9 @@ Copyright (C) 2012 Evol Online -->
          <quest name="Fish and Scams" group="Ship" complete="2">
             <name>Fish and Scams</name>
             <text>Couwan is an awful, roguish person. No reward from him!</text>
+            <text></text>
             <text>However, Gugli gave you some gold pieces and apologized for this unexpected task.</text>
+            <text></text>
             <text>He also warned you not to trust anyone.</text>
             <text></text>
             <text>Quest Giver: Couwan.</text>
@@ -221,7 +249,9 @@ Copyright (C) 2012 Evol Online -->
         <quest name="Unexpected Help" group="Ship" incomplete="1">
             <name>Unexpected Help</name>
             <text>Gugli told you about sailors' task on the island. He wants you to help some of them bringing him 6 boxes full of [@@513|Croconuts@@], [@@714|Aquadas@@] and [@@515|Plushrooms@@].</text>
+            <text></text>
             <text>You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, Jalad and Ale.</text>
+            <text></text>
             <text>Max, Silvio and Lean may have some information about where to find these sailors.</text>
             <text></text>
             <text>Quest Giver: Gugli.</text>
@@ -248,11 +278,9 @@ Copyright (C) 2012 Evol Online -->
         </quest>
         <quest name="Two Lieutenants in One Boat" group="Ship" incomplete="2">
             <name>Two Lieutenants in One Boat</name>
-            <text>Chef Gado has prepared [@@717|Poisoned Dish@@] for Julia.</text>
-            <text>He would like you to give her his special dish.</text>
+            <text>Chef Gado has prepared a [@@717|Poisoned Dish@@]. He would like you to give Julia his special dish.</text>
             <text></text>
-            <text>While Chef Gado wants you to poison Julia, you remember she looked after you when you were sick.</text>
-            <text>She doesn't deserve to be punished, or does she?</text>
+            <text>While Chef Gado wants you to poison Julia, you remember she looked after you when you were sick. She doesn't deserve to be punished, or does she?</text>
             <text></text>
             <text>Quest Giver: Chef Gado.</text>
             <text>Coordinates: La Johanne, Second Deck. (17,28)</text>
