@@ -2,16 +2,16 @@
 <!-- Author: 4144
 Copyright (C) 2012 Evol Online -->
 <maps>
-    <map name="000-1.tmx">
+    <map name="000-0.tmx">
         <atlas name="000-1"/>
-    </map>
-    <map name="000-2-0.tmx">
-        <atlas name="ship"/>
     </map>
     <map name="000-0-0.tmx">
         <atlas name="ship"/>
     </map>
-    <map name="000-0.tmx">
+    <map name="000-1.tmx">
+        <atlas name="000-1"/>
+    </map>
+    <map name="000-2-0.tmx">
         <atlas name="ship"/>
     </map>
     <map name="000-2-0.tmx">
@@ -27,27 +27,25 @@ Copyright (C) 2012 Evol Online -->
         <atlas name="ship"/>
     </map>
     <atlas name="000-1">
-        <file name="graphics/images/ambient/whiteclouds.png"/>
+        <file name="graphics/tilesets/accessory.png"/>
+        <file name="graphics/tilesets/box.png"/>
+        <file name="graphics/tilesets/box-x1-x2.png"/>
+        <file name="graphics/tilesets/ground.png"/>
         <file name="graphics/tilesets/ship_base.png"/>
         <file name="graphics/tilesets/ship_mast.png"/>
-        <file name="graphics/tilesets/ground.png"/>
+        <file name="graphics/tilesets/tree_x3x3.png"/>
+        <file name="graphics/tilesets/tree_x3x4.png"/>
         <file name="graphics/tilesets/water.png"/>
-        <file name="graphics/tilesets/tree_x4.png"/>
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/tree_x3.png"/>
-        <file name="graphics/tilesets/accessories.png"/>
     </atlas>
     <atlas name="ship">
-        <file name="graphics/tilesets/indoor/ship-indoor.png"/>
-        <file name="graphics/tilesets/indoor/village-indoor2.png"/>
-        <file name="graphics/tilesets/ship_mast.png"/>
-        <file name="graphics/tilesets/indoor/candle.png"/>
-        <file name="graphics/tilesets/ground.png"/>
-        <file name="graphics/tilesets/indoor/box.png"/>
-        <file name="graphics/tilesets/indoor/shadow.png"/>
-        <file name="graphics/tilesets/water.png"/>
-        <file name="graphics/images/ambient/fog.png"/>
-        <file name="graphics/tilesets/indoor/ship-indoor_x3.png"/>
-        <file name="graphics/tilesets/indoor/carpet.png"/>
+        <file name="graphics/tilesets/box.png"/>
+        <file name="graphics/tilesets/box-x1-x2.png"/>
+        <file name="graphics/tilesets/candle.png"/>
+        <file name="graphics/tilesets/carpet.png"/>
+        <file name="graphics/tilesets/shadow.png"/>
+        <file name="graphics/tilesets/ship-indoor.png"/>
+        <file name="graphics/tilesets/ship-indoor-x2x4.png"/>
+        <file name="graphics/tilesets/ship-sunlight-x1x5.png"/>
+        <file name="graphics/tilesets/village-indoor2.png"/>
     </atlas>
 </maps>
