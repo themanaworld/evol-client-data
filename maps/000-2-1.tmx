@@ -27,7 +27,7 @@
  <tileset firstgid="422" name="Box x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="426" name="Sunlight x1x5" tilewidth="32" tileheight="128">
+ <tileset firstgid="426" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
  <layer name="Ground" width="93" height="59" opacity="0.99">
@@ -42,20 +42,20 @@
  </layer>
  <layer name="Fringe" width="93" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y4YnCMBQAYCva/yI3wg1w4AoOJog4wJ3nAqIO5AiOoP41BUHspXBiUyn9PngkhLY8XtKUptcDAAAAAAAAAArndycADZtn9/409L+z6mshlVOpJa3h7T3PQ3tJ8Pyv7DFesQ3370Lsb8/5beEe9dHCnNtuEGreL9W9+MaNzUUynxW1nal5MpPEtf0xd3/E1nN5ryG9Ufb4D1OHjXkE/qnq3DB/Yh9x9li/RWRs2XgW3XEIsYqMr0McG86l62Jrn7Riax8AAAAAAADolisSc+TbvFUAAA==
+   H4sIAAAAAAAAA+3YUWrCMBgAYCvad5EdYQcY7AoeTBjiAZzbBYbT+3gEj+B8NUJBWlPZWFMp/T74SQhtSP+kKc1gAAAAAAAAAABc/Dx6ANCyt+xan4X6Kqu/FlI5VkrSGhfveR7KU4L+X7Jy/Mcm3P8dYlv089HBPerpzph3HXyeLhiFvA4rub1846byncxzTW7ncp7Ma+Lcvpu7G7H1XN1rSG+Slf9hmvBlHoFfqjs3zP+wjzh7bN4i0rZsfRT9sQ+xjrR/hji0PJa+i6190oqtfQAAAAAAAKBfzlJlF/G8VQAA
   </data>
  </layer>
  <layer name="Over" width="93" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2YyUoDQRCGexK8KqKexQ08KHjQixuIiRAXFIyKd0WvkuSi3n0E38HlLXwE3yVXq0w3NmNPdyUmYzr5P/gZppfqzj81MzVRCgAAAAAAAAAAAAAAAAAAAAAAAABMOclnnct8lukZvP8NwbiHQH+FdBbwvBKI8SjYB7MpHNevsOdbgnEhv7j/OnHn+l3yM2bSc11CaxjuheP6mVAOMxLPG+TnC+mV9EZ6J9WsNkkMCYPg+bpgDPvxpH57KvXTxKg7rks7MZhYPJc8Q9Je2G3dyFFpDN8+uC02z7PecwVq//DMD/l1TtoP6Mgz/0qwhiE2z6+15wXrnpZwGuivkjjUDKlImtLitlnd5ouxr2O4OCaVSQv6WJJt+d8xnjd6VENP9CbsN3uqtf9lfYylPpfWhP2I8XxNxeM3Y3te1LmeJK1njK9m7geM5zHlOCPJ8888NtIBF6RtS7F8h/712XKg/DXJYQ9j8G04olrvYia2uqVTuI7j3871xyhpnjRmtUlrRTOe586Rpq22Qa0VOyXtx5Kjf1y1rgXXMDek21Qbj6lmvDuajjWyiMnzXdKJo29HMD/tx6qjv5kxd8ka4+I58feniclz43tZa1Efa4L5eX77h4jFc+YypRXV3f9yi4Gacxg9d2Hnvsl7W9J7oRt5Xnes6zqP5ds/C1feu9qyrks7zyfjaVaMkmcv6fNBx/fbQ9fE5emw+9kNpPcKPAUAAAAAAAAAAAAAAAAA4uALxwR2GLxVAAA=
+   H4sIAAAAAAAAA+2YyUoDQRCGexK8KqKexQ08RPCgFzcQjZCoKBiV3A16lcSLevcRfAeXt/ARfJdcrSLd2Bl6SzJZOvk/+BnSXb3MPzUzlRECAAAAAAAAAAAAAAAAAAAAAAAAAEwxGcw61cEs0zd4/7sBcS+e/hLp2uN5yTPHa8A+mL3AuFGFPd8PiPP5xf21xJzrj8l/zLzjuvjWUDwHxo0yvhxmQjx/MvhZT9pjellDMQ6e7wTEsB9vnn7mgzz+JH2RvpP2No5pTFCehz5DbNg81f0cxBxMbJ7b3nM5av8R7hx1cUMqe3TuGH8nwu4VbovN85o8h1yHdd2Vp79C4imXSHnSghS3Lcs21xxlOYeJC1KRtCaPx8G7Hi7Kc/09p3InC+aymcbIiWjtf0MeY6nPe32eDxPl+baIx29G9zwvcztJWs8YV808CijPY8pxJiTPfwexkS64JR1oiuV/aK/PllPhrknO+jgH34ZTovUuZmKrW7qF6zg+d64/pkmrpBmtLbRWVPE8doW0qLWNa33eLWk/Cob+WdG6FlzD3JMeUm0cU7G8O5qGNWzE5PkR6dLQdxgwPu3HlqG/aRlb0GJMvCfu/jQxea58L0qty2M9YHwW36cm8RtXNaVNke233Lyn5pxEz03oua/yXlfovZBFnjcM65p+x/Lf34Yp701ttuvSyfNJeWqb49ixl/Tvccd17r5rYvJ00v3MgtB7BZ4CAAAAAAAAAAAAAAAAAHHwB/AJ7ZK8VQAA
   </data>
  </layer>
- <layer name="Collision" width="93" height="59">
+ <layer name="Collision" width="93" height="59" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YawqEMAxGUd3/JoRudPCH0Ak1Nm1q1N7AgUEZtV+i89jWZdkAAAAAAAAAAAAAAAAADLFXy75Z7ZUK25MhL8/MZ+jRVVmOkdZ/lmPIa/lSH0rrSdnrY791zr361nucJ9JmaVRes2eer1HrhWXOa88xY+b5M3av/LPTa52t79fO/da8a9ZVUzKDkRWdl2fuctsx//I+6MnJo6Kz6qU9V0r7W/LxrujMvGb8bE1yu8fM95Z2b75Fz7q19VuP0XJt0dmNzjuf8/y928k2rRee1xed4R0zLvPVcijlYsnJcq43OUrO8NVv/56e1GZVU9H53TX/sldn/1+RuS3z0ncUy5x7Zl76Tvu1zFv7UtuT2bKK7InsCwAAAAAAAAAAeL4f7MN9ubxVAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="93" height="59">
+ <objectgroup name="Object" width="93" height="59" visible="0">
   <object name="To Ship's Hold" type="warp" x="2304" y="1092" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-2"/>
