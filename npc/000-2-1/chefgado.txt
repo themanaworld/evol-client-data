@@ -128,7 +128,7 @@ l_GotAll:
     next;
     mesq l("Water, salt, spicy herbs and meat stuffed with my special surprise!");
     next;
-    mesq l("Done. Here, take it! Now here is the plan. Go talk with her and offer our beautiful lady a bite of her arrogance!");
+    mesq l("Done. Here, take it! Now, here is the plan. Go talk to her and offer our beautiful lady a bite of her arrogance!");
 
     setq ShipQuests_ChefGado, 2;
     getitem "PoisonedDish", 1;
@@ -175,7 +175,7 @@ l_QuestComplete:
 
 l_Aborting:
     mesn;
-    mesq l("Wait? Why do you still have this dish with you?");
+    mesq l("Wait? Why do you still have the dish with you?");
     next;
 
     menu
@@ -185,7 +185,7 @@ l_Aborting:
     mesn;
     mesq l("Are you mad?!");
     next;
-    mesq lg("Give me back this dish now, you dirty liar!");
+    mesq lg("Give me back this dish, you dirty liar!");
 
     if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
 
@@ -196,7 +196,7 @@ l_Aborting:
 
 l_QuestAborted:
     mesn;
-    mesq lg("You're like the rest of this filthy crew. Your name is already on the traitors list.");
+    mesq lg("You're like the rest of this filthy crew. Your name is now on the traitors list!");
 
     close;
 
