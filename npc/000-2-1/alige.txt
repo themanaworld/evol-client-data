@@ -83,7 +83,9 @@ l_NeedHelp:
 
     menu
         l("Why not, but who are you, and what kind of help do you need?"), l_CanHelp;
-        l("Sorry but I have no time for this."), l_Quit;
+        l("Sorry but I have no time for this."), -;
+
+    close;
 
 l_CanHelp:
     setcamnpc;
@@ -128,7 +130,12 @@ l_Accept:
     menu
         l("Understood, I will help you."), l_Accepted,
         l("What is Artis?"), l_Artis,
-        l("I think I should report you to the crew members."), l_Quit;
+        l("I think I should report you to the crew members."), -;
+
+    setcamnpc;
+    mesq lg("Damn you! You'd better not tell anyone you saw me!");
+
+    close;
 
 l_Artis:
     setcamnpc;
@@ -227,7 +234,6 @@ l_Poison:
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
     restorecam;
-
     goto l_ReturnMenu;
 
 l_SoAskForFood:
@@ -242,16 +248,23 @@ l_AskForFood:
     setcamnpc;
     mesn;
     mesq l("Do you have anything for me today?");
+    next;
     restorecam;
 
 l_IntroMenu:
     menu
         l("Yes."), l_GiveFood,
-        l("Where can I find some food?"), -,
+        l("Where can I find some food?"), l_FindFood,
         l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
         l("What is Artis?"), l_Artis,
-        l("I think I should report you to the crew members."), l_Quit;
+        l("I think I should report you to the crew members."), -;
 
+    setcamnpc;
+    mesq lg("Damn you! You'd better not tell anyone you saw me!");
+
+    close;
+
+l_FindFood:
     setcamnpc;
     mes "";
     mesn;
@@ -261,6 +274,7 @@ l_IntroMenu:
     next;
     mesq l("Walk a bit, it'll be easy for you to catch one. Impale one of them for me please.");
     next;
+    restorecam;
     mesn "Narrator";
     mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the 'A' key to select the monster followed by 'Ctrl' to attack it."), 9);
     next;
@@ -272,7 +286,7 @@ l_Quit:
     setcamnpc;
     mes "";
     mesn;
-    mesq lg("Damn you! You'd better not tell anyone you saw me!");
+    mesq lg("Too bad... Come back when you'll have some fine food for me!");
 
     close;
 
