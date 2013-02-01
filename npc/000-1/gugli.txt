@@ -204,6 +204,7 @@ l_TaskCompleted:
     mesq l("You should inform Nard about the loading progress of the food on to the boat. He will be pleased to hear that good news!");
     next;
     mesq l("Tell him that everything went fine and that we're almost done with the food.");
+    next;
 
     goto l_Menu;
 
@@ -212,6 +213,7 @@ l_AllComplete:
     next;
     mesq g(l("You're one of us now, that's great! I was sure that you were a kind lady when I first saw you!"),
            l("You're one of us now, that's great! I was sure that you were a good man when I first saw you!"));
+    next;
 
     goto l_Menu;
 
