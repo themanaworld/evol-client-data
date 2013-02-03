@@ -128,7 +128,7 @@ l_AboutReward:
 
 l_Accept:
     menu
-        l("Understood, I will help you."), l_Accepted,
+        l("Understood, I will help you."), l_FirstAccepted,
         l("What is Artis?"), l_Artis,
         l("I think I should report you to the crew members."), -;
 
@@ -148,10 +148,14 @@ l_Artis:
     if (@q == 2) goto l_SoAskForFood;
     goto l_Accept;
 
-l_Accepted:
-    setcamnpc;
+l_FirstAccepted:
+    if (getq(ShipQuests_Alige) >= 2) goto l_Accepted;
     setq ShipQuests_Alige, 2;
 
+    goto l_Accepted;
+
+l_Accepted:
+    setcamnpc;
     mes "";
     mesn;
     mesq lg("Great, what food do you have for me today?");
@@ -226,8 +230,9 @@ l_NoMore:
     mes "";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid... Stupid... Stupid!");
+    next;
 
-    close;
+    goto l_ReturnMenu;
 
 l_Poison:
     setcamnpc;
@@ -287,7 +292,7 @@ l_Quit:
     setcamnpc;
     mes "";
     mesn;
-    mesq lg("Too bad... Come back when you'll have some fine food for me!");
+    mesq l("Too bad... Come back when you'll have some fine food for me.");
 
     close;
 
