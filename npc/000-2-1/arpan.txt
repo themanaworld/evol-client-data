@@ -74,9 +74,6 @@ l_Equip:
 
     close;
 
-l_Testtesttest:
-    mes "test";
-
 l_GetCloth:
     warp "000-2-1.gat", 55, 32;
     doevent "Magic Arpan::OnClothNotTaken";
