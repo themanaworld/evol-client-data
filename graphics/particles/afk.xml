@@ -2,7 +2,7 @@
 <!-- Author: Hal9000
 Copyright (C) 2010-2013 Evol Online -->
 <effect>
-    <particle position-x="0" position-y="0" position-z="0">
+    <particle position-x="0" position-y="15" position-z="0">
         <emitter>
             <property name="position-x" value="0"/>
             <property name="position-y" value="0"/>
@@ -16,8 +16,8 @@ Copyright (C) 2010-2013 Evol Online -->
                 <property name="gravity" value="-0.01"/>
                 <property name="momentum" value="0.9"/>
                 <animation imageset="graphics/particles/zzz.png" width="8" height="10">
-                    <sequence start="1" end="3" delay="240"/>
-                    <frame index="3" delay="1000"/>
+                    <sequence start="1" end="5" delay="140"/>
+                    <frame index="5" delay="1000"/>
                 </animation>
                 <property name="lifetime" value="150"/>
                 <property name="fade-out" value="40"/>
@@ -38,11 +38,11 @@ Copyright (C) 2010-2013 Evol Online -->
                 <property name="momentum" value="0.9"/>
                 <animation imageset="graphics/particles/zzz.png" width="8" height="10">
                     <frame index="0" delay="800"/>
-                    <sequence start="0" end="3" delay="240"/>
-                    <frame index="3" delay="1000"/>
+                    <sequence start="0" end="5" delay="140"/>
+                    <frame index="5" delay="1000"/>
                 </animation>
                 <property name="lifetime" value="300"/>
-                <property name="fade-out" value="40"/>
+                <property name="fade-out" value="100"/>
                 <property name="output" value="1"/>
             </emitter>
         </emitter>
@@ -60,11 +60,11 @@ Copyright (C) 2010-2013 Evol Online -->
                 <property name="momentum" value="0.9"/>
                 <animation imageset="graphics/particles/zzz.png" width="8" height="10">
                     <frame index="0" delay="1600"/>
-                    <sequence start="0" end="3" delay="240"/>
-                    <frame index="3" delay="1000"/>
+                    <sequence start="0" end="5" delay="140"/>
+                    <frame index="5" delay="1000"/>
                 </animation>
                 <property name="lifetime" value="450"/>
-                <property name="fade-out" value="70"/>
+                <property name="fade-out" value="220"/>
                 <property name="output" value="1"/>
             </emitter>
         </emitter>
