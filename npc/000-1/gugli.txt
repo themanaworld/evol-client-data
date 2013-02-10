@@ -192,6 +192,8 @@ l_TaskDone:
 
     getexp 50, 0;
 
+    mes "";
+    mesn;
     mesq l("Well done! The ship is now ready to sail again!");
     next;
     mesq l("You should inform Nard about the loading progress of the food on to the boat. He will be pleased to hear that good news!");
