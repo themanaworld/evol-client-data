@@ -259,7 +259,7 @@ l_Rumors:
     mesq l("I'm glad you're on my side.");
     next;
     mesq l("Take this money as a reward for your nice words.");
-    set zeny, zeny + 40;
+//    set zeny, zeny + 40;
     message strcharinfo(0), l("You receive 40 GP!");
 
     close;
