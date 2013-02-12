@@ -253,6 +253,7 @@ l_Rumors:
         l("In fact, everything seems to work perfectly under your guidance. Nard has made the right choice."), -;
 
     setq ShipQuests_ChefGado, 6;
+    set @q2, getq(ShipQuests_ChefGado);
     mes "";
     mesn;
     mesq l("I'm glad you're on my side.");
