@@ -47,7 +47,7 @@
 
 l_Menu:
     menu
-        rif(@q3 == 3, l("I heard rumors about some old hostilities between you and Gado. Are they true?")), l_Rumors,
+        rif(@q3 == 3 && @q2 == 0, l("I heard rumors about some old hostilities between you and Gado. Are they true?")), l_Rumors,
         rif(@q2 == 2 && countitem("PoisonedDish", 1), l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen.")), l_Regret,
         rif(@q2 == 2 && countitem("PoisonedDish", 1), l("I have brought you a tasty present for your delicate mouth.")), l_PoisonJulia,
         lg("I made a mistake, I would like to change my language."), l_ChooseLang,
@@ -253,7 +253,6 @@ l_Rumors:
         l("In fact, everything seems to work perfectly under your guidance. Nard has made the right choice."), -;
 
     setq ShipQuests_ChefGado, 6;
-    set @q2, getq(ShipQuests_ChefGado);
     mes "";
     mesn;
     mesq l("I'm glad you're on my side.");
