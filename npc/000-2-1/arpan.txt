@@ -115,7 +115,7 @@ OnClothNotTaken:
 OnEquip:
     mesn "Narrator";
     mes col(l("To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client."), 9);
-    mes col(l("When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to unequip an item by clicking on 'Unequip'."), 9);
+    mes col(l("When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to remove an item by clicking on 'Unequip'."), 9);
     mes col(l("Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold."), 9);
 
     close;
