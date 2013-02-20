@@ -84,23 +84,17 @@ l_Rude:
     next;
 
     menu
-        l("Sure, why not?"), l_Sure,
-        l("Sea water?! I will not help you with your evil plan!"), l_Quit;
+        l("Sea water?! I will not help you with your evil plan!"), l_Quit,
+        l("Sure, why not?"), -;
 
-l_Sure:
     setq ShipQuests_ChefGado, 1;
     mes "";
     mesn;
     mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they understand who rules this ship!");
     next;
     mesq l("Before you go, let me tell you how to get @@s, because you don't look very smart.", getitemlink("HalfCroconut"));
-    next;
-    mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
-           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut")));
-    next;
-    mesq l("Now move!");
 
-    close;
+    goto l_OpenCroconut;
 
 l_QuestAccepted:
     mesn;
@@ -110,9 +104,10 @@ l_QuestAccepted:
     menu
         rif(countitem("PiouLegs") > 1 && countitem("HalfCroconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), l_GotAll,
         l("What are your needs?"), l_Need,
-        l("How to find a Half Croconut?"), -,
+        l("Where can I find a @@?",getitemlink("HalfCroconut")), l_OpenCroconut,
         l("Not yet. I will be back soon."), l_Quit;
 
+l_OpenCroconut:
     mes "";
     mesn;
     mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
