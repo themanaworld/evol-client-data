@@ -99,6 +99,7 @@ l_Sure:
            l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut")));
     next;
     mesq l("Now move!");
+
     close;
 
 l_QuestAccepted:
@@ -107,9 +108,19 @@ l_QuestAccepted:
     next;
 
     menu
-        rif(countitem("PiouLegs") > 1 && countitem("Croconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), l_GotAll,
+        rif(countitem("PiouLegs") > 1 && countitem("HalfCroconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), l_GotAll,
         l("What are your needs?"), l_Need,
+        l("How to find a Half Croconut?"), -,
         l("Not yet. I will be back soon."), l_Quit;
+
+    mes "";
+    mesn;
+    mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
+           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut")));
+    next;
+    mesq l("Now move!");
+
+    close;
 
 l_GotAll:
     mes "";
@@ -119,7 +130,7 @@ l_GotAll:
     callfunc "InventoryPlace", @item, @count;
 
     delitem "PiouLegs", 2;
-    delitem "Croconut", 1;
+    delitem "HalfCroconut", 1;
     delitem "Aquada", 1;
     delitem "SeaDrops", 1;
 
@@ -140,7 +151,7 @@ l_Need:
     mesn;
     mesq l("Shhht, don't say it that loud...");
     next;
-    mesq l("I only need 2 @@, 1 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("Croconut"), getitemlink("Aquada"));
+    mesq l("I only need 2 @@, 2 @@, 1 @@ and...", getitemlink("PiouLegs"), getitemlink("HalfCroconut"), getitemlink("Aquada"));
     next;
     mesq l("... And 1 @@.", getitemlink("SeaDrops"));
 
