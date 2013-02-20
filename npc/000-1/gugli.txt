@@ -81,8 +81,8 @@ l_Menu:
     menu
         rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
         rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
-        rif(getq(ShipQuests_Couwan) < 2, l("Who should I search for?")), l_SailorNames,
-        rif(getq(ShipQuests_Couwan) < 2, l("Where can I find your crew?")), l_Location,
+        rif(getq(ShipQuests_Gugli) < 2, l("Who should I search for?")), l_SailorNames,
+        rif(getq(ShipQuests_Gugli) < 2, l("Where can I find your crew?")), l_Location,
         l("Bye!"), l_Quit;
 
 l_MenuDone:
