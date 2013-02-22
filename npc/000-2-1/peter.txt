@@ -42,9 +42,12 @@
 
 OnTouch:
     if (BaseLevel < 5) goto l_Stop;
+    if ($@RAT_SAILOR_COUNTDOWN$ == "") goto l_NoCountDown;
     if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto l_NoGoodTick;
-    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto l_ThousandTick;
+    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000)) goto l_NoGoodTick;
     set $@RAT_SAILOR_COUNTDOWN$, "";
+
+l_NoCountDown:
     if ($@RAT_SAILOR_HELPER$ != "") goto l_Occupied;
     set @peter, getq(ShipQuests_Peter);
     if (@peter < 1 || @peter > 5) goto l_Task;
@@ -87,10 +90,12 @@ l_NoGoodTick:
 000-2-1.gat,70,35,0,1	script	Peter	303;3,{
 
     if (BaseLevel < 5) goto OnTooWeak;
+    if ($@RAT_SAILOR_COUNTDOWN$ == "") goto l_NoCountDown;
     if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto OnNoGoodTick;
-    if ($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0) || (gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000) goto OnNoGoodTick;
+    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000)) goto OnNoGoodTick;
     set $@RAT_SAILOR_COUNTDOWN$, "";
 
+l_NoCountDown:
     set @peter, getq(ShipQuests_Peter);
     if (@peter == 1 || @peter == 2) goto OnReturnFail;
     if (@peter == 3 || @peter == 4 || @peter == 5)  goto OnReturnWin;
