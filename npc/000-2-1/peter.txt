@@ -26,7 +26,7 @@
 // "$@RAT_SAILOR_DEATHS - Number of deaths when the participant starts the fight.
 // "$@RAT_SAILOR_CONTROL" - Explanation of each index of the array.
 // "$@RAT_SAILOR_OLD_HELPER$" - Name of the participant.
-// "$@RAT_SAILOR_COUNTDOWN$" - Seconds since the epoch of when the player done the quest.
+// "$@RAT_SAILOR_COUNTDOWN" - Seconds since the epoch of when the player done the quest.
 // [1] = Shows status of ratto number 1 (1 is dead and 0 is alive).
 // [2] = Shows status of ratto number 2 (1 is dead and 0 is alive).
 // [3] = Shows status of ratto number 3 (1 is dead and 0 is alive).
@@ -42,10 +42,10 @@
 
 OnTouch:
     if (BaseLevel < 5) goto l_Stop;
-    if ($@RAT_SAILOR_COUNTDOWN$ == "") goto l_NoCountDown;
-    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto l_NoGoodTick;
-    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000)) goto l_NoGoodTick;
-    set $@RAT_SAILOR_COUNTDOWN$, "";
+    if ($@RAT_SAILOR_COUNTDOWN == "") goto l_NoCountDown;
+    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN) < 10) goto l_NoGoodTick;
+    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN) < 60)) goto l_NoGoodTick;
+    set $@RAT_SAILOR_COUNTDOWN, "";
 
 l_NoCountDown:
     if ($@RAT_SAILOR_HELPER$ != "") goto l_Occupied;
@@ -90,10 +90,10 @@ l_NoGoodTick:
 000-2-1.gat,70,35,0,1	script	Peter	303;3,{
 
     if (BaseLevel < 5) goto OnTooWeak;
-    if ($@RAT_SAILOR_COUNTDOWN$ == "") goto l_NoCountDown;
-    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 600) goto OnNoGoodTick;
-    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN$) < 1000)) goto OnNoGoodTick;
-    set $@RAT_SAILOR_COUNTDOWN$, "";
+    if ($@RAT_SAILOR_COUNTDOWN == "") goto l_NoCountDown;
+    if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN) < 10) goto OnNoGoodTick;
+    if (($@RAT_SAILOR_OLD_HELPER$ == strcharinfo(0)) && ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN) < 60)) goto OnNoGoodTick;
+    set $@RAT_SAILOR_COUNTDOWN, "";
 
 l_NoCountDown:
     set @peter, getq(ShipQuests_Peter);
@@ -295,7 +295,7 @@ l_CleaningClose:
     killmonster "000-2-2.gat", "RattosControl::OnRatto2Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto3Death";
     killmonster "000-2-2.gat", "RattosControl::OnRatto4Death";
-    set $@RAT_SAILOR_COUNTDOWN$, gettimetick(2);
+    set $@RAT_SAILOR_COUNTDOWN, gettimetick(2);
 
     close;
 
