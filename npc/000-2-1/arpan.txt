@@ -200,7 +200,7 @@ l_WhereOldClothes:
     setq ShipQuests_ArpanMoney, 1;
     set @q, getq(ShipQuests_Arpan);
     set zeny, zeny+25;
-    message strcharinfo(0), l("You receive 25 GP!");
+    message strcharinfo(0), l("You receive @@ E!", 25);
 
     goto l_BeforeMenu;
 

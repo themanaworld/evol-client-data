@@ -167,7 +167,7 @@ l_PoisonJulia:
     callfunc "InventoryPlace", @item, @count;
 
     set zeny, zeny + 60;
-    message strcharinfo(0), l("You receive 60 GP!");
+    message strcharinfo(0), l("You receive @@ E!", 60);
     getitem "Bread", 2;
     setq ShipQuests_ChefGado, 4;
 
