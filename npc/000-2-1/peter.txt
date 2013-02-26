@@ -107,7 +107,6 @@ OnGiveTask:
     mesq g(l("Hey, girl!"),
            l("Hey, man!"));
     next;
-    mesn;
     mesq l("I need somebody who can clean the bottom of the ship of these rattos. Can you help me?");
     next;
 
@@ -179,7 +178,7 @@ OnReturnWin:
 l_BonusTask:
     mes "";
     mesn;
-    message strcharinfo(0), l("You receive @@ E!", 200);
+    mesq l("I propose you... 200 Esperin, is it ok?");
     next;
 
     menu
@@ -197,7 +196,6 @@ l_Task:
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@peter == 6) setq ShipQuests_Peter, 1;
     set @peter, getq(ShipQuests_Peter);
-    goto l_Start;
 
 l_Start:
     mes "";
