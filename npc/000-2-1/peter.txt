@@ -192,7 +192,6 @@ l_BonusTask:
     goto l_Start;
 
 l_Task:
-    mes "";
     if ($@RAT_SAILOR_HELPER$ != "") goto OnDontneedHelp;
     if (@peter == 6) setq ShipQuests_Peter, 1;
     set @peter, getq(ShipQuests_Peter);
