@@ -32,20 +32,18 @@ OnTouch:
 
     setcamnpc "Sailors",0,-32;
     mesn "Elven Voice";
-    mesq g(l("Why Frenchy? She's a Russian!"),
-           l("Why Frenchy? He's a Russian!"));
+    mesq lg("Why Frenchy? It's a Russian!");
     next;
 
     setcamnpc "Sailors",144,-80;
     mesn "Tritan Voice";
-    mesq g(l("What are you guys saying? She's a Yoiis!"),
-           l("What are you guys saying? He's a Yoiis!"));
+    mesq lg("What are you guys saying ? It's a Yoiis!");
     next;
 
     setcamnpc;
     mesn "Raijin Voice";
-    mesq g(l("You're stupid, she's english, look at the shape of her head."),
-           l("You're stupid, he's english, look at the shape of his head."));
+    mesq g(l("You stupid, she's english, look at the shape of her head."),
+           l("You stupid, he's english, look at the shape of his head."));
     next;
     mesq l("Hey you! Can you hear us? Are you okay?");
     next;
