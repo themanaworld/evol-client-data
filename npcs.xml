@@ -11,60 +11,56 @@ IDs 990-999 = Special
 <npcs>
     <!-- Unanimated NPCs -->
     <npc id="100">
-          <!-- Knifes -->
-          <sprite variant="0">npcs/xml/interactive.xml</sprite>
+        <!-- Knifes -->
+        <sprite variant="0">npcs/xml/interactive.xml</sprite>
      </npc>
     <npc id="101">
         <!-- Demon Man, sitting on a chair. -->
-          <sprite variant="0">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="0">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="102">
-          <!-- Hat Box -->
-          <sprite variant="1">npcs/xml/interactive.xml</sprite>
+        <!-- Hat Box -->
+        <sprite variant="1">npcs/xml/interactive.xml</sprite>
      </npc>
     <npc id="103">
         <!-- Raijin Man, hanged to the ship's ropes. -->
-          <sprite variant="1">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="1">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="104">
         <!-- Orc Man, standing with a box in his hands. -->
-          <sprite variant="2">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="2">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="105">
         <!-- Demon Man, sitting sailor with his boots near him. -->
-          <sprite variant="3">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="3">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="106">
         <!-- Elven Man, strong standing sailor with blonde hair. -->
-          <sprite variant="4">npcs/xml/unanimated.xml|#474747,5a4333,6e6e6e,8c6946,898989,a98645,9d9d9d,ba9c50,b3b3b3,c9b467,e2e2e2,ede4ab</sprite>
+        <sprite variant="4">npcs/xml/unanimated.xml|#474747,5a4333,6e6e6e,8c6946,898989,a98645,9d9d9d,ba9c50,b3b3b3,c9b467,e2e2e2,ede4ab</sprite>
      </npc>
     <npc id="107">
         <!-- Elven Man, strong standing sailor with red hair. -->
-          <sprite variant="4">npcs/xml/unanimated.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
+        <sprite variant="4">npcs/xml/unanimated.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
      </npc>
     <npc id="108">
         <!-- Elven Man, trader. -->
-          <sprite variant="5">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="5">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="109">
-          <!-- Shop Bag -->
-          <sprite variant="2">npcs/xml/interactive.xml</sprite>
+        <!-- Shop Bag -->
+        <sprite variant="2">npcs/xml/interactive.xml</sprite>
      </npc>
     <npc id="110">
         <!-- Elven Man, sailor standing. -->
-          <sprite variant="6">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="6">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="111">
         <!-- Tritan Man, sailor trader with sandals and bandana. -->
-          <sprite variant="7">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="7">npcs/xml/unanimated.xml</sprite>
      </npc>
     <npc id="112">
         <!-- Elven Man, sailor sitting. -->
-          <sprite variant="8">npcs/xml/unanimated.xml</sprite>
-     </npc>
-    <npc id="113">
-        <!-- Human Woman, fat chef with cookie pot. -->
-          <sprite variant="9">npcs/xml/unanimated.xml</sprite>
+        <sprite variant="8">npcs/xml/unanimated.xml</sprite>
      </npc>
 
     <!-- Animated NPCs -->
@@ -89,8 +85,8 @@ IDs 990-999 = Special
         <sprite>npcs/xml/sailors.xml</sprite>
     </npc>
     <npc id="306">
-          <!-- Captain, present to an Evol's friend. -->
-          <sprite>npcs/xml/nard.xml</sprite>
+        <!-- Captain, present to an Evol's friend. -->
+        <sprite>npcs/xml/nard.xml</sprite>
     </npc>
     <npc id="307">
         <!-- Tritan Man, sitting on a barrel. -->
@@ -105,12 +101,12 @@ IDs 990-999 = Special
         <sprite>npcs/xml/elmo1.xml</sprite>
     </npc>
     <npc id="310">
-          <!-- Ukar Man, sleeping sailor. -->
-          <sprite variant="0">npcs/xml/hammock.xml</sprite>
+        <!-- Ukar Man, sleeping sailor. -->
+        <sprite variant="0">npcs/xml/hammock.xml</sprite>
      </npc>
     <npc id="311">
-          <!-- Elf Man, drunk sailor. -->
-          <sprite>npcs/xml/billybons.xml</sprite>
+        <!-- Elf Man, drunk sailor. -->
+        <sprite>npcs/xml/billybons.xml</sprite>
      </npc>
     <npc id="312">
         <!-- Human Man, small and drunk. -->
@@ -142,6 +138,11 @@ IDs 990-999 = Special
         <!-- Human Male, cook of the ship. -->
         <sprite>npcs/xml/chefgado.xml</sprite>
     </npc>
+    <npc id="319">
+        <!-- Human Woman, fat chef with cookie pot. -->
+        <sprite>npcs/xml/cookiemaster.xml</sprite>
+        <sprite>accessories/eye-down-blink.xml</sprite>
+     </npc>
     
 
     <!-- Special NPCs -->
@@ -150,15 +151,15 @@ IDs 990-999 = Special
         <particlefx>graphics/particles/savepoint-32x32.xml</particlefx>
      </npc>
 <!-- WIP     <npc id="901">
-          Savepoint, 32x64.
+        Savepoint, 32x64.
         <particlefx>graphics/particles/savepoint-32x64.xml</particlefx>
      </npc>-->
 <!-- WIP     <npc id="902">
-          Savepoint, 64x32.
+        Savepoint, 64x32.
         <particlefx>graphics/particles/savepoint-64x32.xml</particlefx>
      </npc>-->
 <!-- WIP     <npc id="903">
-          Savepoint, 64x64. 
+        Savepoint, 64x64. 
         <particlefx>graphics/particles/savepoint-64x64.xml</particlefx>
      </npc>-->
     <npc id="904" targetSelection="false">
