@@ -23,7 +23,6 @@
 //    12   Gave all of the boxes to Gugli.
 
 000-2-3.gat,25,26,0,1	script	Nard	306;5,{
-
     set @nard, getq(ShipQuests_Nard);
     set @gugli, getq(ShipQuests_Gugli);
     set @gado, getq(ShipQuests_ChefGado);
@@ -219,5 +218,4 @@ l_Already:
     mesq l("Sorry, I don't need any help right now. Come back later.");
 
     close;
-
 }

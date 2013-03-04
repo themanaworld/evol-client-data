@@ -7,7 +7,6 @@
 //    Plushroom box.
 
 000-1.gat,35,69,0,1	script	Q'Muller	104;2,{
-
     set @g, getq(ShipQuests_Gugli);
     if (@g == 0) goto l_NoTask;
 
@@ -120,5 +119,4 @@ l_TaskDone:
 
 l_Quit:
     close;
-
 }

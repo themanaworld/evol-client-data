@@ -52,7 +52,6 @@ l_End:
     mesn "Narrator";
     mes col(l("The door is locked."), 9);
     close;
-
 }
 
 000-2-0.gat,33,28,0,1	script	AreaNPC	0,0,0,{
@@ -65,5 +64,4 @@ OnTouch:
 l_Warp:
     warp "000-2-3", 20, 27;
     close;
-
 }

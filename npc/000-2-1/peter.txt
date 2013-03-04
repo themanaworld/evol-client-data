@@ -84,11 +84,9 @@ l_NoGoodTick:
     doevent "Peter::OnNoGoodTick";
 
     close;
-
 }
 
 000-2-1.gat,70,35,0,1	script	Peter	303;3,{
-
     if (BaseLevel < 5) goto OnTooWeak;
     if ($@RAT_SAILOR_COUNTDOWN == "") goto l_NoCountDown;
     if ((gettimetick(2) - $@RAT_SAILOR_COUNTDOWN) < 10) goto OnNoGoodTick;
@@ -128,7 +126,7 @@ OnTooWeak:
     goto l_Quit;
 
 OnStop:
-    warp "000-2-1",72,36;
+    warp "000-2-1", 72, 36;
 
     mesn;
     mesq l("You can't go there!");
@@ -157,17 +155,15 @@ OnReturnWin:
     next;
 
     if (@peter == 3 || @peter == 4)
-
-    menu
-        l("Did you say reward? I want it!"), l_BonusTask,
-        l("I am not worried about rewards. I just want to help."), l_Task,
-        l("Sorry, I am not in the mood for another fight with these rattos."), -;
+        menu
+            l("Did you say reward? I want it!"), l_BonusTask,
+            l("I am not worried about rewards. I just want to help."), l_Task,
+            l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     if (@peter == 5)
-
-    menu
-        l("No problem, I can help you anyway."), l_Task,
-        l("Sorry, I am not in the mood for another fight with these rattos."), -;
+        menu
+            l("No problem, I can help you anyway."), l_Task,
+            l("Sorry, I am not in the mood for another fight with these rattos."), -;
 
     mes "";
     mesn;
@@ -212,7 +208,7 @@ OnStartOutside:
     goto l_Quit;
 
 OnTimer2000:
-    if (attachrid(getcharid(3,$@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
+    if (attachrid(getcharid(3, $@RAT_SAILOR_HELPER$)) == 0) goto l_Logoff;
     set $@RAT_SAILOR_CONTROL[9], $@RAT_SAILOR_CONTROL[9] + 2;
     if ($@RAT_SAILOR_CONTROL[9] > 100) goto l_Timeout;
     if (PC_DIE_COUNTER > $@RAT_SAILOR_DEATHS) goto l_Dead;
@@ -326,5 +322,4 @@ OnNoGoodTick:
     mesn;
     mesq l("I don't need your help right now, come back later.");
     close;
-
 }

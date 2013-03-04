@@ -5,17 +5,13 @@
 //    Jumping piou.
 
 000-2-3.gat,27,23,4,2	script	#piourocket	308;3,{
-
     setnpcdir 2;
     stopnpctimer;
     initnpctimer;
-
     close;
 
 OnTimer1420:
     setnpcdir 4;
     stopnpctimer;
-
     end;
-
 }

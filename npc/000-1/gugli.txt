@@ -22,6 +22,7 @@
 //    22   Gave all of the box to Gugli.
 
 000-1.gat,85,108,0,1	script	Gugli	313;2,{
+
 OnTalk:
     mesn;
     set @nard, getq(ShipQuests_Nard);
@@ -229,5 +230,4 @@ l_Quit:
     if (@gugli > 0) close;
     doevent "Gugli::OnTalk";
     close;
-
 }

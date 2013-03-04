@@ -5,9 +5,8 @@
 //    Drunk easteregg telling about the player's past.
 
 000-2-0.gat,20,23,0,1	script	Billy Bons	311;3,{
-
     mesn;
-    if (rand(5)==2) goto l_Hic;
+    if (rand(5) == 2) goto l_Hic;
 
     mesq l("You? Here?");
     mesq l("How is *hic* it possible?");
@@ -87,5 +86,4 @@ l_Quit:
     mes col(l("The sailor turns his back to you."), 9);
 
     close;
-
 }

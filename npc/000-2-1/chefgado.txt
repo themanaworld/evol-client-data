@@ -16,7 +16,6 @@
 //    6   Quest complete. Julia wins.
 
 000-2-1.gat,27,28,0,1	script	Chef Gado	318;2,{
-
     set @q, getq(ShipQuests_ChefGado);
     set @n, getq(ShipQuests_Nard);
     if (@q == 1) goto l_QuestAccepted;
@@ -104,7 +103,7 @@ l_QuestAccepted:
     menu
         rif(countitem("PiouLegs") > 1 && countitem("HalfCroconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), l_GotAll,
         l("What are your needs?"), l_Need,
-        l("Where can I find a @@?",getitemlink("HalfCroconut")), l_OpenCroconut,
+        l("Where can I find a @@?", getitemlink("HalfCroconut")), l_OpenCroconut,
         l("Not yet. I will be back soon."), l_Quit;
 
 l_OpenCroconut:
@@ -208,5 +207,4 @@ l_QuestAborted:
 
 l_Quit:
     close;
-
 }

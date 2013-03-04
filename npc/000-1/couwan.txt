@@ -12,7 +12,6 @@
 //    2   Done quest scam.
 
 000-1.gat,89,36,0,1	script	Couwan	111;2,{
-
     set @q, getq(ShipQuests_Couwan);
     if (@q == 1) goto l_QuestGiven;
     if (@q > 1) goto l_QuestDone;
@@ -87,5 +86,4 @@ l_QuestDone:
     mesq l("Yeye gave my box to Gugli? Nice, nice yeye!");
 
     close;
-
 }

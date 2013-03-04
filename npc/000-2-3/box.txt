@@ -18,7 +18,6 @@
 //    5   Reward taken from the box.
 
 000-2-3.gat,25,24,0	script	Box	102;1,{
-
     set @q, getq(ShipQuests_Nard);
 
     mesn "Narrator";
@@ -109,5 +108,4 @@ l_Already:
 
 l_Quit:
     close;
-
 }

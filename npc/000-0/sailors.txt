@@ -25,17 +25,17 @@ OnTouch:
     mes col(l("Aboard stand sailors trying to communicate with you."), 9);
     next;
 
-    setcamnpc "Sailors",-64,-32;
+    setcamnpc "Sailors", -64, -32;
     mesn "Orc Voice";
     mesq lg("Hey Frenchy!");
     next;
 
-    setcamnpc "Sailors",0,-32;
+    setcamnpc "Sailors", 0, -32;
     mesn "Elven Voice";
     mesq lg("Why Frenchy? It's a Russian!");
     next;
 
-    setcamnpc "Sailors",144,-80;
+    setcamnpc "Sailors", 144, -80;
     mesn "Tritan Voice";
     mesq lg("What are you guys saying ? It's a Yoiis!");
     next;
@@ -50,16 +50,16 @@ OnTouch:
     restorecam;
 
     menu
-        menuimage("flags/en","I hear you... (English)"), -,
-        menuimage("flags/fr","Je vous entends... (Français)"), -,
-        menuimage("flags/ru","Да я вас слышу... (Русский)"), -,
-        menuimage("flags/es","Te oigo... (Español)"), -,
-        menuimage("flags/pt_BR","Eu te ouço... (Português)"), -,
-        menuimage("flags/de","Ich höre euch... (Deutsch)"), -,
-        menuimage("flags/vls","'k hoar ui wel... (Vlaams)"), -,
-        menuimage("flags/pl","Słyszę cię... (Polski)"), -,
-        menuimage("flags/it","Vi sento... (Italiano)"), -,
-        menuimage("flags/nl_BE","Ik kan je horen... (Nederlands)"), -;
+        menuimage("flags/en", "I hear you... (English)"), -,
+        menuimage("flags/fr", "Je vous entends... (Français)"), -,
+        menuimage("flags/ru", "Да я вас слышу... (Русский)"), -,
+        menuimage("flags/es", "Te oigo... (Español)"), -,
+        menuimage("flags/pt_BR", "Eu te ouço... (Português)"), -,
+        menuimage("flags/de", "Ich höre euch... (Deutsch)"), -,
+        menuimage("flags/vls", "'k hoar ui wel... (Vlaams)"), -,
+        menuimage("flags/pl", "Słyszę cię... (Polski)"), -,
+        menuimage("flags/it", "Vi sento... (Italiano)"), -,
+        menuimage("flags/nl_BE", "Ik kan je horen... (Nederlands)"), -;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 9) close;
     setlang @lang;
@@ -70,7 +70,7 @@ OnTouch:
     mesq g(l("Oh, she's still alive!"),
            l("Oh, he's still alive!"));
     next;
-    setcamnpc "Sailors",144,-80;
+    setcamnpc "Sailors", 144, -80;
     mesq g(l("This girl needs help, we need to rescue her!"),
            l("This guy needs help, we need to rescue him!"));
     next;
@@ -82,8 +82,7 @@ OnTouch:
     mes col(l("Click on the NPCs around you to continue the introduction."), 9);
     next;
 
-    warp "000-0-0.gat",26,28;
+    warp "000-0-0.gat", 26, 28;
 
     close;
-
 }

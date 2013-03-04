@@ -31,7 +31,6 @@ l_Warn:
 l_Warp:
     warp "000-2-1", 72, 36;
     close;
-
 }
 
 000-2-2.gat,24,31,0,1	script	LeftDoor	0,0,0,{
@@ -60,5 +59,4 @@ l_Warp:
     mes col(l("Wait, it seems someone is blocking the door from the other side!"), 9);
 
     close;
-
 }

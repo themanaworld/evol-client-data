@@ -5,10 +5,9 @@
 //    Sailor hitting a crocotree, then being struck by a falling croconut.
 
 000-1.gat,33,37,0,1	script	Tarlan	315;2,{
+    setnpcdir 2;
 
     mesn;
-
-    setnpcdir 2;
     set @a, rand(4);
     if (@a == 0) goto l_HardToHit;
     if (@a == 1) goto l_Aouch;
@@ -60,5 +59,4 @@ l_DoYou:
 l_Quit:
     setnpcdir 4;
     close;
-
 }

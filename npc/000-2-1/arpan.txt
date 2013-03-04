@@ -20,7 +20,6 @@
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
     close;
-
 }
 
 000-2-1.gat,54,36,0,1	script	RightDoorCheck	0,0,0,{
@@ -28,7 +27,6 @@
     if (@q == 0) doevent "Magic Arpan::OnTalk";
 
     close;
-
 }
 
 000-2-1.gat,47,32,0,1	script	LeftBarrierCheck	0,0,2,{
@@ -56,7 +54,6 @@ l_EquipDone:
     setq ShipQuests_Arpan, 3;
 
     close;
-
 }
 
 000-2-1.gat,56,32,0,1	script	RightBarrierCheck	0,0,2,{
@@ -84,11 +81,9 @@ l_EquipDone:
     setq ShipQuests_Arpan, 3;
 
     close;
-
 }
 
 000-2-1.gat,49,33,0,1	script	Magic Arpan	307;5,{
-
     set @q, getq(ShipQuests_Arpan);
     set @q_julia, getq(ShipQuests_Julia);
     if (@q == 2 && getequipid(equip_torso) == 1300 && getequipid(equip_legs) == 2200) goto l_EquipDone;
@@ -228,5 +223,4 @@ l_EquipDone:
 
 l_Quit:
     close;
-
 }

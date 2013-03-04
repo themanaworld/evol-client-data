@@ -7,7 +7,6 @@
 //    Croconut box.
 
 000-1.gat,54,90,0,1	script	Gulukan	111;2,{
-
     set @g, getq(ShipQuests_Gugli);
     if (@g == 0) goto l_NoTask;
 
@@ -68,7 +67,7 @@ l_Continue2:
 l_Func:
     mesn;
 
-    set @q, rand(0,400)/100;
+    set @q, rand(0, 400) / 100;
     if (@q == 0) goto l_RandomA;
     if (@q == 1) goto l_RandomB;
     if (@q > 1) goto l_RandomC;
@@ -158,5 +157,4 @@ l_TaskDone:
 
 l_Quit:
     close;
-
 }

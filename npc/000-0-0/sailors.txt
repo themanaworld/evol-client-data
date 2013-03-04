@@ -69,15 +69,12 @@ OnTalk:
 
     restorecam;
     warp "000-2-1.gat", 50, 38;
-    savepoint "000-2-1.gat",50,38;
+    savepoint "000-2-1.gat", 50, 38;
     setskill 1, 1; // Add Emote skill.
     close;
-
 }
 
 000-0-0.gat,25,23,0,1	script	Magic Arpan	307,{
     doevent "Elmo::OnTalk";
-
     close;
-
 }

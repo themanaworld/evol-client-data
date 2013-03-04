@@ -10,9 +10,8 @@
 //    @countitem = Count item's number.
 
 function	script	InventoryPlace	{
-
     getinventorylist;
-    set @iteminfo, getiteminfo(@item,2);
+    set @iteminfo, getiteminfo(@item, 2);
     set @countitem, countitem(@item);
 
     if (checkweight(@item, @count) == 0) goto l_Warn;

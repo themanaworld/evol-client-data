@@ -10,7 +10,6 @@
 //    1   Knife taken.
 
 000-2-1.gat,50,24,0,2	script	#knife	100;2,{
-
     set @q, getq(ShipQuests_Knife);
     if (@q) close;
 
@@ -41,5 +40,4 @@ l_Give:
     mes col(l("Items have different effects. Some will heal you, some can be used as weapons or armor, and some can be sold for gold."), 9);
 
     close;
-
 }

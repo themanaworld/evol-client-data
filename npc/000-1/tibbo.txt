@@ -7,7 +7,6 @@
 //    Aquada box.
 
 000-1.gat,34,111,0,1	script	Tibbo	110;2,{
-
     set @g, getq(ShipQuests_Gugli);
     if (@g == 0) goto l_NoTask;
 
@@ -107,5 +106,4 @@ l_TaskDone:
     mesq l("Awesome!");
 
     close;
-
 }

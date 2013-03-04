@@ -6,7 +6,6 @@
 //    Dan will randomly choose between a useless sentence, and a quest in Artis.
 
 000-2-1.gat, 32,31,0,1	script	Dan	101;2,{
-
     mesn;
     set @q, rand(3);
     if (@q == 0) goto l_QuestStory;
@@ -81,5 +80,4 @@ l_Quit2:
     mes col(l("Dan ends the conversation and resumes to write his letter."), 9);
 
     close;
-
 }

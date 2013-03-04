@@ -5,7 +5,6 @@
 //    Sleeping and snoring NPC.
 
 000-0-0.gat,29,28,0,1	script	Q'Onan	302,{
-
     mesn;
 
     set @q, rand(2);
@@ -21,5 +20,4 @@ l_Snoring:
     setcamnpc;
     mesq l("Rrrr... Pchhhh...");
     close;
-
 }

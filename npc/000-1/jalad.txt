@@ -7,7 +7,6 @@
 //    Plushroom box.
 
 000-1.gat,46,35,0,1	script	Jalad	112;2,{
-
     set @g, getq(ShipQuests_Gugli);
     if (@g == 0) goto l_NoTask;
 
@@ -118,5 +117,4 @@ l_TaskDone:
     mesq l("Perfect!");
 
     close;
-
 }

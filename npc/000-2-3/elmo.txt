@@ -5,7 +5,6 @@
 //    Elmo's second dialog.
 
 000-2-3.gat,27,27,0,1	script	Elmo	309;5,{
-
     set @q, getq(ShipQuests_ArpanMoney);
     if (@q == 1) goto l_GotMoney;
 
@@ -61,5 +60,4 @@ l_GotMoney:
     mesq l("Other than that, I don't know much about what else is going on, so directly asking the Cap'tain about it could be a good idea.");
 
     close;
-
 }
