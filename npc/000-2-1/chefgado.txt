@@ -31,7 +31,8 @@
     if (@r == 0) mesq l("What are you doing in my kitchen?! Get out, it's not a place for kids!");
     if (@r == 1) mesq l("Where is the damn salt?! Give me the salt, I know you have it!");
     if (@r == 2) mesq l("Are you going to stand here all day long? Do the dishes or go away.");
-    close;
+
+    goto l_Quit;
 
 l_QuestStart:
     mesn;
@@ -114,7 +115,7 @@ l_OpenCroconut:
     next;
     mesq l("Now move!");
 
-    close;
+    goto l_Quit;
 
 l_GotAll:
     mes "";
@@ -137,7 +138,7 @@ l_GotAll:
 
     setq ShipQuests_ChefGado, 2;
     getitem "PoisonedDish", 1;
-    close;
+    goto l_Quit;
 
 
 l_Need:
@@ -149,13 +150,13 @@ l_Need:
     next;
     mesq l("... And 1 @@.", getitemlink("SeaDrops"));
 
-    close;
+    goto l_Quit;
 
 l_PoisonAccepted:
     mesn;
     mesq l("Fool! Just come back here when you'll be done with our little... 'Secret mission'.");
 
-    close;
+    goto l_Quit;
 
 l_PoisonJulia:
     mesn;
@@ -170,13 +171,13 @@ l_PoisonJulia:
     getitem "Bread", 2;
     setq ShipQuests_ChefGado, 4;
 
-    close;
+    goto l_Quit;
 
 l_QuestComplete:
     mesn;
     mesq l("Oh, it's you. I think it's better we do not talk for a while. They suspect something.");
 
-    close;
+    goto l_Quit;
 
 l_Aborting:
     mesn;
@@ -197,14 +198,15 @@ l_Aborting:
     next;
     mesq l("You're like the rest of this filthy crew, I can't trust you!");
 
-    close;
+    goto l_Quit;
 
 l_QuestAborted:
     mesn;
     mesq lg("You're like the rest of this filthy crew. Your name is now on the traitors list!");
 
-    close;
+    goto l_Quit;
 
 l_Quit:
+    closedialog;
     close;
 }
