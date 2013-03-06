@@ -6,7 +6,7 @@
 
 function	script	SavePoint	{
 
-    message strcharinfo(0), l("Your position has been saved.");
+    npctalk "Your position has been saved.";
 
     savepoint @map$, @x, @y;
     set @q, getcharid(3);
