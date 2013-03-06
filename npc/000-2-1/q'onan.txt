@@ -5,16 +5,18 @@
 //    Sleeping and snoring NPC.
 
 000-2-1.gat,53,38,0,1	script	Q'Onan	302;2,{
-    mesn;
 
     set @q, rand(2);
     if (@q == 0) goto l_Zzz;
 
-    mesq l("Rrrr... Pchhhh...");
+    npctalk "Rrrr... Pchhhh...";
 
     close;
 
 l_Zzz:
-    mesq l("Zzzzzzzzzz");
+
+    npctalk "Zzzzzzzzz";
+
     close;
+
 }
