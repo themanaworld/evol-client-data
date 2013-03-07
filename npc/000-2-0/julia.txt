@@ -263,9 +263,6 @@ l_Rumors:
     close;
 
 l_Quit:
-    mes "";
-    mesn;
-    mesq l("Bye!");
-
+    closedialog;
     close;
 }
