@@ -49,8 +49,8 @@ l_GotoNard:
     close;
 
 l_End:
-    mesn "Narrator";
-    mes col(l("The door is locked."), 9);
+    npctalk "The door is locked.";
+    
     close;
 }
 
