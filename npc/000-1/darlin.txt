@@ -125,10 +125,9 @@ l_GoDown:
 
 l_Bye:
     setcamnpc;
-    mes "";
-    mesn;
-    mesq l("FINE, BYE!");
+    npctalk "FINE, BYE!";
 
+    closedialog;
     close;
 
 l_DangerAround:
@@ -138,5 +137,6 @@ l_DangerAround:
     close;
 
 l_Quit:
+    closedialog;
     close;
 }
