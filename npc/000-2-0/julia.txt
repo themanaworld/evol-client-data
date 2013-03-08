@@ -263,6 +263,7 @@ l_Rumors:
     close;
 
 l_Quit:
+    npctalk "Bye!";
     closedialog;
     close;
 }
