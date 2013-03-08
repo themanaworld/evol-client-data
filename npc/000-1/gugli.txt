@@ -221,6 +221,7 @@ l_AllComplete:
     goto l_Menu;
 
 l_Quit:
+    closedialog;
     close;
 
 }
