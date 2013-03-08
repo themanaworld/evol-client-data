@@ -26,10 +26,12 @@ l_Warn:
         l("No."), -;
 
     warp "000-2-2", 48, 28;
+    closedialog;
     close;
 
 l_Warp:
     warp "000-2-1", 72, 36;
+    closedialog;
     close;
 }
 
@@ -44,8 +46,13 @@ OnTouch:
 
     menu
         rif(countitem("JohanneKey") > 0, l("Use the key.")), l_Warp,
-        l("Break the door."), -,
-        l("Go away."), close;
+        l("Break the door."), l_Break,
+        l("Go away."), -;
+
+    closedialog;
+    close;
+
+l_Break:
 
     mes "";
     mesn "Narrator";
