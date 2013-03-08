@@ -70,13 +70,6 @@
 
     close;
 
-l_Whyning:
-    mes "";
-    mesn;
-    mesq l("Then leave me alone.");
-
-    close;
-
 l_CallFunc:
     callfunc "SailorFood";
 
@@ -99,6 +92,7 @@ l_CallFunc:
         rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
         l("Nobody."), -;
 
+    closedialog;
     close;
 
 l_HowAreYou:
@@ -143,10 +137,9 @@ l_Top:
     close;
 
 l_NoTask:
-    mes "";
-    mesn;
-    mesq l("Just leave me alone.");
+    npctalk "Just leave me alone.";
 
+    closedialog;
     close;
 
 l_TaskDone:
@@ -155,4 +148,11 @@ l_TaskDone:
     mesq l("Perfect!");
 
     close;
+
+l_Whyning:
+    npctalk "Then leave me alone.";
+
+    closedialog;
+    close;
+
 }
