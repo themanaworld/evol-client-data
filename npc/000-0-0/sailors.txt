@@ -71,6 +71,7 @@ OnTalk:
     warp "000-2-1.gat", 50, 38;
     savepoint "000-2-1.gat", 50, 38;
     setskill 1, 1; // Add Emote skill.
+    closedialog;
     close;
 }
 
