@@ -3,13 +3,13 @@
 Copyright (C) 2012 Evol Online -->
 <maps>
     <map name="000-0.tmx">
-        <atlas name="000-1"/>
+        <atlas name="island"/>
     </map>
     <map name="000-0-0.tmx">
         <atlas name="ship"/>
     </map>
     <map name="000-1.tmx">
-        <atlas name="000-1"/>
+        <atlas name="island"/>
     </map>
     <map name="000-2-0.tmx">
         <atlas name="ship"/>
@@ -26,20 +26,20 @@ Copyright (C) 2012 Evol Online -->
     <map name="000-2-3.tmx">
         <atlas name="ship"/>
     </map>
-    <atlas name="000-1">
+    <atlas name="island">
         <file name="graphics/tilesets/accessory.png"/>
         <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1-x2.png"/>
+        <file name="graphics/tilesets/box-x1x2.png"/>
         <file name="graphics/tilesets/ground.png"/>
-        <file name="graphics/tilesets/ship_base.png"/>
-        <file name="graphics/tilesets/ship_mast.png"/>
-        <file name="graphics/tilesets/tree_x3x3.png"/>
-        <file name="graphics/tilesets/tree_x3x4.png"/>
+        <file name="graphics/tilesets/ship-base.png"/>
+        <file name="graphics/tilesets/ship-mast.png"/>
+        <file name="graphics/tilesets/tree-x3x3.png"/>
+        <file name="graphics/tilesets/tree-x3x4.png"/>
         <file name="graphics/tilesets/water.png"/>
     </atlas>
     <atlas name="ship">
         <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1-x2.png"/>
+        <file name="graphics/tilesets/box-x1x2.png"/>
         <file name="graphics/tilesets/candle.png"/>
         <file name="graphics/tilesets/carpet.png"/>
         <file name="graphics/tilesets/shadow.png"/>
