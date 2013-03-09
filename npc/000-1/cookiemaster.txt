@@ -1,0 +1,98 @@
+// Evol scripts.
+// Authors:
+//    Reid
+// Description:
+//    Cookie NPC, beware, if you don't take your cookie she'll keep it!
+
+000-1.gat,97,50,0,1	script	Cookie Master	319;2,{
+    mesn;
+    mesq l("Hey! Adventurer! Do you enjoy your life on Aemil?");
+    next;
+
+    menu
+        l("Well actually..."), -,
+        l("I didn't see you in the ship, who're you?"), l_Presentation;
+
+    mes "";
+    mesn;
+    mesq l("Shht shht!");
+    next;
+    mesq l("Don't tell me more, I know what you want... A cookie!");
+    next;
+
+    if ($@COOKIE_MASTER == 1), goto l_Reward;
+
+    mesq l("Well I'm sorry... But these are restricted to a certain type of peoples...");
+    next;
+
+    menu
+        l("Why are you talking about... Cookies?"), -,
+        l("Your story seems..."), l_StorySeems;
+        l("That's not a place for a chef here."), l_PostPresentation;
+
+    mesq l("Cookies are source of life.");
+    next;
+    mesq l("Cookies provide you strength, health and cuteness.");
+    next;
+    mesq l("Cookies are awesome, so do I.");
+
+    close;
+
+l_StorySeems:
+    mes "";
+    mesn;
+    mesq l("What does it seems?");
+    next;
+
+    menu
+        l("Interesting. How can I have one of these cookie?"), -,
+        l("Really stupid."), l_Kick;
+
+    mes "";
+    mesn;
+    mesq g(l("Mister is curious?"), l("Madam is curious?"));
+    next;
+    mesq l("If you want to be one of those who can ask for a cookie...");
+    next;
+    mesq l("You'll first need to help my friends.");
+    next;
+    mesq l("It's them who tell me who can and who can't have a cookie.");
+
+    menu
+        l("Who're these friends?"), -;
+
+    mes "";
+    mesn;
+    mesq l("Shht shht!");
+    next;
+    mesq l("Don't say it too HEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+
+    close;
+
+
+l_PostPresentation:
+    mes "";
+    mesn;
+    mesq l("");
+
+    close;
+
+l_Presentation:
+    mes "";
+    mesn;
+    mesq l("");
+
+    close;
+
+l_Reward:
+    set $@COOKIE_MASTER, 0;
+
+    mes "";
+    mesn;
+    mesq l("");
+
+    close;
+
+l_Kick:
+    close;
+}
