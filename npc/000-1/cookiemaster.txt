@@ -1,17 +1,18 @@
 // Evol scripts.
 // Authors:
+//    Alige
 //    Reid
 // Description:
-//    Cookie NPC, beware, if you don't take your cookie she'll keep it!
+//    Cookie NPC, beware, if you don't take your cookie, she'll keep it!
 
 000-1.gat,97,50,0,1	script	Cookie Master	319;2,{
     mesn;
-    mesq l("Hey! Adventurer! Do you enjoy your life on Aemil?");
+    mesq lg("Hey! Adventurer! Are you enjoying your life on Aemil?");
     next;
 
     menu
-        l("Well actually..."), -,
-        l("I didn't see you in the ship, who're you?"), l_Presentation;
+        l("Well in fact..."), -,
+        l("Uhm wait, I didn't see you on the ship, who are you?"), l_Presentation;
 
     mes "";
     mesn;
@@ -22,53 +23,58 @@
 
     if ($@COOKIE_MASTER == 1), goto l_Reward;
 
-    mesq l("Well I'm sorry... But these are restricted to a certain type of peoples...");
+    mesq l("I'm sorry... But my cookies are restricted to a certain type of people...");
     next;
 
     menu
-        l("Why are you talking about... Cookies?"), -,
+        l("Are you really talking about... cookies?"), -,
         l("Your story seems..."), l_StorySeems;
         l("That's not a place for a chef here."), l_PostPresentation;
 
-    mesq l("Cookies are source of life.");
+    mesq lg("Of course I am! Listen carefully to these words my dear.");
+    next;
+    mesq l("Cookies are a source of life.");
     next;
     mesq l("Cookies provide you strength, health and cuteness.");
     next;
-    mesq l("Cookies are awesome, so do I.");
+    mesq l("Cookies are awesome, so am I.");
 
     close;
 
 l_StorySeems:
     mes "";
     mesn;
-    mesq l("What does it seems?");
+    mesq l("What about my story?");
     next;
 
     menu
-        l("Interesting. How can I have one of these cookie?"), -,
-        l("Really stupid."), l_Kick;
+        l("It's interesting and exciting at the same time! How can I get one of these cookies?"), -,
+        l("It's quite far-fetched."), l_Kick;
 
     mes "";
     mesn;
-    mesq g(l("Mister is curious?"), l("Madam is curious?"));
+    mesq g(l("It looks like madam is curious, am I right?"),
+           l("It seems mister is curious, isn't he?"));
     next;
     mesq l("If you want to be one of those who can ask for a cookie...");
     next;
     mesq l("You'll first need to help my friends.");
     next;
-    mesq l("It's them who tell me who can and who can't have a cookie.");
+    mesq l("It is them who tell me to whom I can give cookies.");
 
     menu
-        l("Who're these friends?"), -;
+        l("So you're under the control of dictators, that's... reassuring..."), l_Control,
+        l("Who're these friends?"), l_Friends;
+
+l_Friends:
 
     mes "";
     mesn;
     mesq l("Shht shht!");
     next;
-    mesq l("Don't say it too HEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+    mesq l("Don't say it too HERE (???).");
 
     close;
-
 
 l_PostPresentation:
     mes "";
@@ -90,6 +96,27 @@ l_Reward:
     mes "";
     mesn;
     mesq l("");
+
+    close;
+
+l_Control:
+    mes "";
+    mesn;
+    mesq l("Common, don't be like that and loosen up! Don't you want to know who's behind all of this?!");
+
+    menu
+        l("Fine, tell me, who are these mysterious aliens?"), l_Bad,
+        l("Oh yes please, I'd really like to know!"), l_Friends,
+        l("No, and I gotta go, see you."), l_Kick;
+
+    close;
+
+l_Bad:
+    mes "";
+    mesn;
+    mesq l("Don't mock me, my work is admirable.");
+    next;
+    mesq l("Come back later if you want to know about the creators of the world.");
 
     close;
 
