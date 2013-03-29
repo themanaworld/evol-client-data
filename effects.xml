@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Authors: Alige, Reid
+<!-- Authors: Alige, Hal9000, Reid
 Copyright (C) 2010-2013 Evol Online -->
 <being-effects>
     <effect id="0" audio="system/levelup.ogg" particle="graphics/particles/levelup.xml"/> // Level up particle effect.
@@ -14,6 +14,8 @@ Copyright (C) 2010-2013 Evol Online -->
     <effect id="9" particle="graphics/particles/invisibility.xml"/> // Invisibility particle effect.
     <effect id="10" particle="graphics/particles/afk.xml"/> // AFK particle effect.
     <effect id="11" audio="system/quest.ogg"/> // Complete and incomplete quests effect.
-    <effect id="12" particle="graphics/particles/queststart.xml"/> // NPC quest start particle effect.
-    <effect id="13" particle="graphics/particles/questcontinue.xml"/> // NPC quest continue particle effect.
+    <effect id="12" particle="graphics/particles/queststart.xml"/> // NPC quest-start status effect.
+    <effect id="13" particle="graphics/particles/questcontinue.xml"/> // NPC quest-continue status effect.
+    <effect id="14" particle="graphics/particles/queststart-low.xml"/> // NPC quest-start status effect (reduced height).
+    <effect id="15" particle="graphics/particles/questcontinue-low.xml"/> // NPC quest-continue status effect (reduced height).
 </being-effects>
