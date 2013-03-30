@@ -20,9 +20,8 @@ Copyright (C) 2011-2013 Evol Online -->
                 <jump action="stand"/>
             </animation>
         </action>
-    
-        <action name="stand" imageset="mob">
 
+        <action name="stand" imageset="mob">
             <animation direction="down">
                 <frame index="7"/>
             </animation>
@@ -54,11 +53,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <animation direction="downright">
                 <frame index="14"/>
             </animation>
-
         </action>
 
         <action name="walk" imageset="mob">
-
             <animation direction="down">
                 <frame index="8" delay="80"/>
                 <frame index="9" delay="70"/>
@@ -122,10 +119,8 @@ Copyright (C) 2011-2013 Evol Online -->
                 <frame index="14" delay="90"/>
                 <end />
             </animation>
-
         </action>
-    
-    
+
         <action name="attack" imageset="mob">
             <animation direction="down">
                 <frame index="11" delay="90"/>
@@ -182,9 +177,8 @@ Copyright (C) 2011-2013 Evol Online -->
                 <frame index="20" delay="130"/>
                 <end/>
             </animation>
-
         </action>
-    
+
         <action name="dead" imageset="mob">
             <animation direction="down">
                 <frame index="63"/>
@@ -201,6 +195,5 @@ Copyright (C) 2011-2013 Evol Online -->
             <animation direction="right">
                 <frame index="65"/>
             </animation>
-
         </action>
 </sprite>

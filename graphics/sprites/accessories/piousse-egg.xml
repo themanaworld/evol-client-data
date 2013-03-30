@@ -9,7 +9,6 @@ Copyright (C) 2011-2013 Evol Online -->
               offsetY="-12"/>
 
     <action name="spawn" imageset="acc">
-
         <animation>
             <frame index="9" delay="20" offsetY="-86"/>
             <frame index="9" delay="30" offsetY="-82"/>
@@ -37,11 +36,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="9" delay="60" offsetY="-1"/>
             <jump action="stand"/>
         </animation>
-
     </action>
 
     <action name="stand" imageset="acc">
-
         <animation direction="down">
             <!-- Static -->
             <frame index="0" delay="1300"/>
@@ -325,11 +322,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="7" delay="90" offsetY="-4"/>
             <frame index="7" delay="100" offsetY="-1"/>
         </animation>
-
     </action>
 
     <action name="walk" imageset="acc">
-
         <animation direction="down">
             <!-- Normal Jump x2 -->
             <frame index="0" delay="50" offsetY="-1"/>
@@ -639,11 +634,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="7" delay="50" offsetY="-2"/>
             <frame index="7" delay="50" offsetY="-1"/>
         </animation>
-
     </action>
 
     <action name="attack" imageset="acc">
-
         <animation direction="down">
             <!-- Runs to the player, bits him and goes back to its place. -->
             <frame index="0" delay="60" offsetY="2"/>
@@ -739,14 +732,11 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="7" delay="40" offsetX="2" offsetY="2"/>
             <end/>
         </animation>
-
     </action>
 
     <action name="dead" imageset="acc">
-
         <animation>
             <frame index="8"/>
         </animation>
-
     </action>
 </sprite>

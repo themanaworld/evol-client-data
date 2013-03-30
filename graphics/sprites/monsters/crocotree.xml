@@ -50,22 +50,18 @@ Copyright (C) 2010-2013 Evol Online -->
             <frame index="2" delay="120"/>
             <goto label="start"/>
         </animation>
-
     </action>
 
     <action name="hurt" imageset="mob">
-
         <animation direction="default">
             <frame index="2" delay="120"/>
             <frame index="1" delay="110"/>
             <frame index="0" delay="120"/>
             <end />
         </animation>
-
     </action>
 
     <action name="dead" imageset="mob">
-
         <animation>
             <!-- Falling Croconut -->
             <frame index="1" delay="100"/>
@@ -90,6 +86,5 @@ Copyright (C) 2010-2013 Evol Online -->
             <frame index="5" delay="70" offsetY="58"/>
             <frame index="6" offsetY="59"/>
         </animation>
-
     </action>
 </sprite>

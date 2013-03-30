@@ -9,13 +9,12 @@ Copyright (C) 2011-2013 Evol Online -->
               offsetY="-12"/>
 
     <imageset name="acc"
-        src="graphics/sprites/accessories/piousse-egg.png"
-        width="11"
-        height="11"
-        offsetY="-12"/>
+              src="graphics/sprites/accessories/piousse-egg.png"
+              width="11"
+              height="11"
+              offsetY="-12"/>
 
     <action name="spawn" imageset="acc">
-
         <animation>
             <frame index="9" delay="20" offsetY="-86"/>
             <frame index="9" delay="30" offsetY="-82"/>
@@ -43,11 +42,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="9" delay="60" offsetY="-1"/>
             <jump action="stand"/>
         </animation>
-
     </action>
 
     <action name="stand" imageset="mob">
-
         <animation direction="down">
             <!-- Static -->
             <frame index="0" delay="1300"/>
@@ -330,7 +327,6 @@ Copyright (C) 2011-2013 Evol Online -->
     </action>
 
     <action name="walk" imageset="mob">
-
         <animation direction="down">
             <!-- Normal Jump x2 -->
             <sequence start="0" end="1" delay="50" offsetY="-1"/>
@@ -706,11 +702,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="36" delay="50" offsetY="-2"/>
             <frame index="35" delay="50" offsetY="-1"/>
         </animation>
-
     </action>
 
     <action name="attack" imageset="mob">
-
         <animation direction="down">
             <!-- Runs to the player, bits him and goes back to its place. -->
             <frame index="0" delay="60" offsetY="2"/>
@@ -806,11 +800,9 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="35" delay="40" offsetX="2" offsetY="2"/>
             <end />
         </animation>
-
     </action>
 
     <action name="dead" imageset="mob">
-
         <animation direction="down">
             <frame index="4"/>
         </animation>
@@ -842,6 +834,5 @@ Copyright (C) 2011-2013 Evol Online -->
         <animation direction="downright">
             <frame index="39"/>
         </animation>
-
     </action>
 </sprite>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
-Copyright (C) 2011-2012 Evol Online -->
+Copyright (C) 2011-2013 Evol Online -->
 <sprite>
     <imageset name="acc"
               src="graphics/sprites/accessories/littleblub-tentacle.png"
@@ -9,7 +9,6 @@ Copyright (C) 2011-2012 Evol Online -->
               offsetY="-8"/>
 
     <action name="spawn" imageset="acc">
-
         <animation>
             <!-- Coming out of the ground. -->
             <frame index="10" delay="1430"/>
@@ -17,11 +16,9 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="8" delay="140"/>
             <jump action="stand"/>
         </animation>
-
     </action>
 
     <action name="stand" imageset="acc">
-
         <animation direction="down">
             <!-- Static -->
             <frame index="0" delay="5430"/>
@@ -127,11 +124,9 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="1" delay="250"/>
             <frame index="0" delay="150"/>
         </animation>
-
     </action>
 
     <action name="walk" imageset="acc">
-
         <animation direction="down">
             <sequence start="0" end="7" delay="130"/>
         </animation>
@@ -170,11 +165,9 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="7" delay="130"/>
             <sequence start="0" end="6" delay="130"/>
         </animation>
-
     </action>
 
     <action name="attack" imageset="acc">
-
         <animation direction="down">
             <frame index="0" delay="140" offsetY="1"/>
             <frame index="0" delay="280" offsetY="2"/>
@@ -358,11 +351,9 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="6" delay="100" offsetY="-1"/>
             <end />
         </animation>
-
     </action>
 
     <action name="dead" imageset="acc">
-    
         <animation direction="down">
             <frame index="0" delay="80"/>
             <frame index="1" delay="70"/>
@@ -478,6 +469,5 @@ Copyright (C) 2011-2012 Evol Online -->
             <frame index="10" delay="150" offset="2"/>
             <frame index="11" offset="2"/>
         </animation>
-
     </action>
 </sprite>
