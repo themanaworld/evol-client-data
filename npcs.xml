@@ -75,6 +75,7 @@ IDs 990-999 = Special
     <npc id="302">
         <!-- Orc Sailor, sleeping. -->
         <sprite>npcs/xml/sleepingorc.xml</sprite>
+        <particlefx>graphics/particles/afk.xml</particlefx>
     </npc>
     <npc id="303">
         <!-- Human Man, sailor with a dead ratto in his left hand. -->
@@ -107,6 +108,7 @@ IDs 990-999 = Special
     <npc id="310">
         <!-- Ukar Man, sleeping sailor. -->
         <sprite variant="0">npcs/xml/hammock.xml</sprite>
+        <particlefx>graphics/particles/afk.xml</particlefx>
     </npc>
     <npc id="311">
         <!-- Elf Man, drunk sailor. -->
@@ -174,7 +176,7 @@ IDs 990-999 = Special
         <sprite>npcs/xml/hammock-animated2.xml</sprite>
     </npc>
     <npc id="999">
-        <!-- Invisible -->
+        <!-- No sprite. -->
     </npc>
 
 </npcs>
