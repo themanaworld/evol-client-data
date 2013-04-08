@@ -11,7 +11,22 @@ Copyright (C) 2013 Evol Online -->
 
     <action name="default" imageset="queststatus">
         <animation direction="default">
-            <frame index="0"/>
+            <frame index="0" delay="80"/>
+            <frame index="1" delay="90"/>
+            <frame index="2" delay="90"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="100"/>
+            <frame index="5" delay="100"/>
+            <frame index="4" delay="5000"/>
+            <label name="loop-anchor"/>
+            <frame index="4" delay="100"/>
+            <frame index="6" delay="100"/>
+            <frame index="7" delay="100"/>
+            <frame index="8" delay="100"/>
+            <frame index="9" delay="100"/>
+            <frame index="4" delay="8000"/>
+            <goto label="loop-anchor"/>
         </animation>
     </action>
+
 </sprite>
