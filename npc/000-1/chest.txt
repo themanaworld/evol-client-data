@@ -32,7 +32,7 @@ l_Give:
 
     set zeny, zeny + 100;
     getitem "OldBook", 1;
-    npctalk "You open the treasure chest.";
+    npctalk3 "You open the treasure chest.";
 
 l_Close:
     setnpcdir 6;

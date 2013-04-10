@@ -125,7 +125,7 @@ l_GoDown:
 
 l_Bye:
     setcamnpc;
-    npctalk "FINE, BYE!";
+    npctalk3 "FINE, BYE!";
 
     closedialog;
     close;

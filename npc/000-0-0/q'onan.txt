@@ -9,13 +9,13 @@
     set @q, rand(2);
     if (@q == 0) goto l_Zzz;
 
-    npctalk "Rrrr... Pchhhh...";
+    npctalk3 "Rrrr... Pchhhh...";
 
     close;
 
 l_Zzz:
 
-    npctalk "Zzzzzzzzz";
+    npctalk3 "Zzzzzzzzz";
 
     close;
 
