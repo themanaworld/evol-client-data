@@ -153,7 +153,7 @@ l_Reward:
 
     setq General_Cookies, 1;
     getitem "DeliciousCookie", 1;
-    npctalk3 l("You receive a @@!", getitemlink("CreamyBiscuit"));
+    npctalk3 l("You receive a @@!", getitemlink("DeliciousCookie"));
 
     next;
     mesq l("I'm sure that you'll enjoy the effect, but be prudent, these cookies are rare, and you'll need to help the community one more time before to get another one.");
