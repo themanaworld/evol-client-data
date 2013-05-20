@@ -19,7 +19,8 @@ function	script	InventoryPlace	{
     if ((@iteminfo < 4) && (@countitem > 0)) return;
     if (@inventorylist_count + @count <= 100) return;
 
-l_Warm:
+l_Warn:
+    mes "";
     mesn "Narrator";
     mes col(l("It looks like you can't carry anything else for now."), 9);
     next;

@@ -147,15 +147,13 @@ l_Reward:
     next;
     mesq l("Anyway, here you have your cookie.");
 
-
-    callfunc "InventoryPlace", 517, 100000;
+    set @item, 517;
+    set @count, 1;
+    callfunc "InventoryPlace", @item, @count;
 
     setq General_Cookies, 1;
     getitem "DeliciousCookie", 1;
     npctalk3 l("You receive a @@!", getitemlink("CreamyBiscuit"));
-
-
-
 
     next;
     mesq l("I'm sure that you'll enjoy the effect, but be prudent, these cookies are rare, and you'll need to help the community one more time before to get another one.");
