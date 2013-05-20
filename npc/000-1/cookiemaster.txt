@@ -11,8 +11,7 @@
     next;
 
     menu
-        l("Well in fact..."), -,
-        l("Uhm wait, I didn't see you on the ship, who are you?"), l_Presentation;
+        l("Well in fact..."), -;
 
     mes "";
     mesn;
@@ -21,16 +20,31 @@
     mesq l("Don't tell me more, I know what you want... A cookie!");
     next;
 
-    if ($@COOKIE_MASTER == 1), goto l_Reward;
+    if getq(General_Cookies == 1);
+        goto l_GetCookie;
+
+// Beta3 Contributors.
+    if (strcharinfo(0) == ("4144"))
+        goto l_Reward;
+    if (strcharinfo(0) == ("Alige"))
+        goto l_Reward;
+    if (strcharinfo(0) == ("Hal9000"))
+        goto l_Reward;
+    if (strcharinfo(0) == ("Reid"))
+        goto l_Reward;
+    if (strcharinfo(0) == ("Socapex"))
+        goto l_Reward;
 
     mesq l("I'm sorry... But my cookies are restricted to a certain type of people...");
     next;
 
     menu
         l("Are you really talking about... cookies?"), -,
-        l("Your story seems..."), l_StorySeems;
-        l("That's not a place for a chef here."), l_PostPresentation;
+        l("Your story seems..."), l_StorySeems,
+        l("That's not a place for a chef here."), l_Presentation;
 
+    mes "";
+    mesn;
     mesq lg("Of course I am! Listen carefully to these words my dear.");
     next;
     mesq l("Cookies are a source of life.");
@@ -39,7 +53,7 @@
     next;
     mesq l("Cookies are awesome, so am I.");
 
-    close;
+    goto l_Bye;
 
 l_StorySeems:
     mes "";
@@ -48,8 +62,12 @@ l_StorySeems:
     next;
 
     menu
-        l("It's interesting and exciting at the same time! How can I get one of these cookies?"), -,
+        l("It's interesting and exciting at the same time!"), -,
         l("It's quite far-fetched."), l_Kick;
+
+    mes "";
+    menu
+        l("How can I get one of these cookies?"), -;
 
     mes "";
     mesn;
@@ -58,46 +76,84 @@ l_StorySeems:
     next;
     mesq l("If you want to be one of those who can ask for a cookie...");
     next;
+
+l_TaskExpanation:
     mesq l("You'll first need to help my friends.");
     next;
     mesq l("It is them who tell me to whom I can give cookies.");
 
     menu
-        l("So you're under the control of dictators, that's... reassuring..."), l_Control,
+        l("So you're under the control of dictators, that's... reassuring..."), -,
         l("Who're these friends?"), l_Friends;
 
-l_Friends:
+    mes "";
+    mesn;
+    mesq l("That's...");
+    next;
+    mesq l("No wait, I didn't tell that, I...");
+    next;
+    mesq l("If it's like thus, you won't have any cookie!");
+    next;
 
+    goto l_Kick;
+
+l_Friends:
     mes "";
     mesn;
     mesq l("Shht shht!");
     next;
-    mesq l("Don't say it too HERE (???).");
+    mesq l("Don't say it too loud, some other people could hear it.");
+    next;
+    mesq l("They're... Well, you know, the creators...");
+    next;
+    mesq l("I can't help you to be on my list, nor can I give you a cookie for free.");
+    next;
+    mesq l("All of what I can do is to tell you this:");
+    next;
+    mesq l("If you see weird things, or things that shouldn't be here, or even things that you would like to see here...");
+    next;
+    mesq l("Contact them, help them and be kind, and they might surely add you to my list!");
+    next;
 
-    close;
-
-l_PostPresentation:
-    mes "";
-    mesn;
-    mesq l("");
+    mesn "Narrator";
+    mes col(l("This Cookie Master reward people who contribute and develop to this world."), 9);
+    next;
+    mes col(l("If you want to be rewarded, help us to evolve in making this world a better place."), 9);
+    next;
+    mes col(l("When you see something that look much like a bug than a feature, report it to http://bugs.evolonline.org or tries to explain this to a game contributor."), 9);
+    next;
+    mes col(l("Any contribution to the game content (translation, graphics creation/edition, concept, coding/scripting, etc...) is also rewarded!"), 9);
 
     close;
 
 l_Presentation:
     mes "";
     mesn;
-    mesq l("");
+    mesq l("For a chief? Who said that I was a... Ah, yes, I am.");
+    next;
+    mesq l("I get send here with a task, I can give you a perfect, wonderful, magnificent, superbly well shaped... Cookie!");
+    next;
+    mesq l("But...");
 
-    close;
+    goto l_TaskExpanation;
 
 l_Reward:
-    set $@COOKIE_MASTER, 0;
-
     mes "";
     mesn;
-    mesq l("");
+    mesq l("Ah! Yes, @@ is written on my cookie list...", strcharinfo(0));
+    next;
+    mesq l("That's surprise me a little, you don't look very helpful...");
+    next;
+    mesq l("Anyway, here you have your cookie.");
 
-    close;
+    setq General_Cookies, 1;
+    getitem "CreamyBiscuit", 1;
+    npctalk3 l("You receive a @@!", getitemlink("CreamyBiscuit"));
+
+    next;
+    mesq l("I'm sure that you'll enjoy the effect, but be prudent, these cookies are rare, and you'll need to help the community one more time before to get another one.");
+
+    goto l_Bye;
 
 l_Control:
     mes "";
@@ -105,8 +161,8 @@ l_Control:
     mesq l("Common, don't be like that and loosen up! Don't you want to know who's behind all of this?!");
 
     menu
-        l("Fine, tell me, who are these mysterious aliens?"), l_Bad,
         l("Oh yes please, I'd really like to know!"), l_Friends,
+        l("Fine, tell me, who are these mysterious aliens?"), l_Bad,
         l("No, and I gotta go, see you."), l_Kick;
 
     close;
@@ -115,12 +171,24 @@ l_Bad:
     mes "";
     mesn;
     mesq l("Don't mock me, my work is admirable.");
-    next;
-    mesq l("Come back later if you want to know about the creators of the world.");
-
-    close;
 
 l_Kick:
     closedialog;
+
+    npctalk3 l("No cookie for you!");
+
+
+    close;
+
+l_GetCookie:
+    mesq l("How was the cookie? Awesome isn't it?");
+    next;
+    mesq l("If you still want another one, you know what to do!");
+
+l_Bye:
+    closedialog;
+
+    npctalk3 l("Bye !");
+
     close;
 }
