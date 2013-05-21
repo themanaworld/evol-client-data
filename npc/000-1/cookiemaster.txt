@@ -67,6 +67,7 @@ l_Check:
     mesq l("You see, my cookies are restricted to a certain type of people...");
     next;
 
+    menu
         l("Seriously? It's just a cookie you know... Tell me what I should do to get one."), l_TaskExpanation,
         l("Yes, yes I know... Too bad then. See you soon!"), l_Bye;
 
@@ -82,7 +83,7 @@ l_StorySeems:
 
     mes "";
     menu
-        l("Too bad I'm not hungry enough right now for these... cookies. I'll maybe come back later."), l_Bye;
+        l("Too bad I'm not hungry enough right now for these... cookies. I'll maybe come back later."), l_Bye,
         l("How can I get one of these cookies?"), -;
 
     mes "";
