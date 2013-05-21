@@ -137,8 +137,15 @@ l_Friends:
     next;
 
     menu
-        l("I know didn't help at all... I'll be back soon, trust me!"), l_Bye,
-        l("You tell me!"), l_Check;
+        l("I wish I helped your friends, because I'd really, really like a cookie."), -,
+        l("You tell me. Do I deserve a cookie?"), l_Check;
+
+    mes "";
+    mesn;
+    mesq l("Don't worry, I'm sure you will help them soon enough!");
+    next;
+
+    goto l_Bye;
 
 l_Presentation:
     mes "";
