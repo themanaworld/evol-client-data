@@ -20,8 +20,33 @@
     mesn;
     mesq l("Shht shht!");
     next;
-    mesq l("Don't tell me more, I know what you want... A cookie!");
+    mesq l("Don't tell me more, I know what you want...");
     next;
+    mesq l("A cookie!");
+    next;
+
+    menu
+        l("I'd love one!"), -,
+        l("No thank you, I'm fine. I'll come back later."), l_Bye;
+
+    mes "";
+    mesn;
+    mesq lg("Of course you do! Just listen carefully to these words my dear.");
+    next;
+    mesq l("Cookies are a source of life.");
+    next;
+    mesq l("Cookies provide you strength, health and cuteness.");
+    next;
+    mesq l("Cookies are awesome, so am I.");
+    next;
+
+        l("Uhm... Your story seems..."), l_StorySeems,
+        l("Wait... that's not the place for a chef, what are you doing here?"), l_Presentation,
+        l("Exactly! Can I have one now?"), -;
+
+l_Check:
+    mes "";
+    mesn;
     mesq l("Let me check my cookie list...");
     next;
 
@@ -42,23 +67,8 @@
     mesq l("You see, my cookies are restricted to a certain type of people...");
     next;
 
-    menu
-        l("Wait, are you really talking about... cookies?"), -,
-        l("Your story seems..."), l_StorySeems,
-        l("That's not the place for a chef, what are you doing here?"), l_Presentation;
-
-    mes "";
-    mesn;
-    mesq lg("Of course I am! Listen carefully to these words my dear.");
-    next;
-    mesq l("Cookies are a source of life.");
-    next;
-    mesq l("Cookies provide you strength, health and cuteness.");
-    next;
-    mesq l("Cookies are awesome, so am I.");
-    next;
-
-    goto l_Bye;
+        l("Seriously? It's just a cookie you know... Tell me what I should do to get one."), l_TaskExpanation,
+        l("Yes, yes I know... Too bad then. See you soon!"), l_Bye;
 
 l_StorySeems:
     mes "";
@@ -120,7 +130,14 @@ l_Friends:
     next;
     mes col(l("Any contribution to the game content (translations, graphics creation/edition, concepts, coding/scripting, etc...) is rewarded!"), 9);
 
-    close;
+    mes "";
+    mesn;
+    mesq l("So, do you still want a cookie now?");
+    next;
+
+    menu
+        l("I know didn't help at all... I'll be back soon, trust me!"), l_Bye,
+        l("You tell me!"), l_Check;
 
 l_Presentation:
     mes "";
