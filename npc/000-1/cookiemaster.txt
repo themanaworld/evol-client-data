@@ -37,7 +37,7 @@
     if (strcharinfo(0) == "Socapex")
         goto l_Reward;
 
-    mesq l("I'm sorry but I can't see your name anywhere on my list. But my cookies are restricted to a certain type of people...");
+    mesq l("I'm sorry but I can't see your name anywhere.");
     next;
     mesq l("You see, my cookies are restricted to a certain type of people...");
     next;
@@ -135,7 +135,7 @@ l_Presentation:
     goto l_TaskExpanation;
 
 l_Reward:
-    mesq l("Let me check... Yes! @@ is written on my cookie list...", strcharinfo(0));
+    mesq l("Yes! @@ is written on my cookie list.", strcharinfo(0));
     next;
     mesq l("That's quite surprising... You don't look very helpful.");
     next;
