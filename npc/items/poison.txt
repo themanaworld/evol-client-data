@@ -5,28 +5,17 @@
 //    Reid
 //    Vasily_Makarov
 // Description:
-//    Poison effect of some items.
+//    Poison effect of some items with parameters:
+//      @r   randomness of bad luck to be poisoned,
+//      @h   heal value,
+//      @p   poison value (not implemented yet).
 
-function	script	usePoisonedWater	{
-	set @temp, rand(4);
-	if (!@temp) sc_start sc_poison, 1, 50;
-	if (@temp) itemheal 15, 0;
+function	script	usePoison	{
+	set @temp, rand(@r);
+	if (@temp == 0) sc_start sc_poison, 1, 50;
 	set @temp, 0;
-	return;
-}
-
-function	script	usePoisonedBlobime	{
-	set @temp, rand(2);
-	if (!@temp) sc_start sc_poison, 1, 50;
-	if (@temp) itemheal 4, 0;
-	set @temp, 0;
-	return;
-}
-
-function	script	usePoisonedSeeds	{
-	set @temp, rand(4);
-	if (!@temp) itemheal 1, 0;
-	if (@temp) sc_start sc_poison, 1, 50;
-	set @temp, 0;
+	set @r, 0;
+	itemheal @h, 0;
+	set @h, 0;
 	return;
 }
