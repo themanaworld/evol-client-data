@@ -120,9 +120,7 @@ l_OpenCroconut:
 l_GotAll:
     mes "";
 
-    set @item, 717;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 717, 1;
 
     delitem "PiouLegs", 2;
     delitem "HalfCroconut", 1;
@@ -162,9 +160,7 @@ l_PoisonJulia:
     mesn;
     mesq l("The usurper has been punished! This is a great day! Take this reward as a prize for your loyalty to the old commander!");
 
-    set @item, 502;
-    set @count, 2;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 502, 2;
 
     set zeny, zeny + 60;
     message strcharinfo(0), l("You receive @@ E!", 60);

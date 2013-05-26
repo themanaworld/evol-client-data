@@ -2,22 +2,22 @@
 // Author:
 //    Reid
 // Description:
-//    Check if the player have enough place on his inventory to accept new items.
+//    Check if the player have enough place on his inventory to accept new items  with arguments:
+//      getarg(0)   item ID,
+//      getarg(1)   number of items,
 // Variables:
-//    @item = Item ID.
-//    @count = Number of items.
 //    @iteminfo = Item information type. (See doc for list of item's types)
 //    @countitem = Count item's number.
 
 function	script	InventoryPlace	{
     getinventorylist;
-    set @iteminfo, getiteminfo(@item, 2);
-    set @countitem, countitem(@item);
+    set @iteminfo, getiteminfo(getarg(0), 2);
+    set @countitem, countitem(getarg(0));
 
-    if (checkweight(@item, @count) == 0) goto l_Warn;
+    if (checkweight(getarg(0), getarg(1)) == 0) goto l_Warn;
     if ((@iteminfo < 4) && (@countitem == 0) && (@inventorylist_count < 100)) return;
     if ((@iteminfo < 4) && (@countitem > 0)) return;
-    if (@inventorylist_count + @count <= 100) return;
+    if (@inventorylist_count + getarg(1) <= 100) return;
 
 l_Warn:
     mes "";

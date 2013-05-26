@@ -168,7 +168,7 @@ l_Reward:
 
     set @item, 517;
     set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 517, 1;
 
     setq General_Cookies, 1;
     getitem "DeliciousCookie", 1;

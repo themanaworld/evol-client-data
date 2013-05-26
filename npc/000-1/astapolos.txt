@@ -57,9 +57,7 @@
     mesq lg("You have been so nice to me. So please, take one.");
     next;
 
-    set @item, 715;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 715, 1;
 
     setq ShipQuests_Astapolos, 1;
     getitem "CroconutBox", 1;

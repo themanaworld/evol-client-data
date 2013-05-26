@@ -39,9 +39,7 @@ l_Continue:
     mesq l("Surely. Take this box full of @@s.", getitemlink("Plushroom"));
     next;
 
-    set @item, 716;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 716, 1;
 
     setq ShipQuests_Jalad, 1;
     getitem "PlushroomBox", 1;

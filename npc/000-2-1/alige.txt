@@ -189,13 +189,11 @@ l_GiveFood:
 //  if (@id == item's ID) then food is correct.
 // Do not put any other number than -1, 0, 1, 2 or the item's ID, that'll avoid confusion.
 
-    mes "";
-    set @item, 507;
-    set @count, 3;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 507, 3;
     delitem @id, 1;
 
     setcamnpc;
+    mes "";
     mesn;
     mesq l("Thank you so much! Here, have some of my berries.");
 

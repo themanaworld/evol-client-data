@@ -53,7 +53,7 @@ l_Continue2:
 
     set @item, 715;
     set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 715, 1;
 
     setq ShipQuests_Gulukan, 1;
     getitem "CroconutBox", 1;

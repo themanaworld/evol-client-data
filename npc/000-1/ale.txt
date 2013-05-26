@@ -30,9 +30,7 @@
     mesq l("Hmm... Let's see, take this one.");
     next;
 
-    set @item, 714;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 714, 1;
 
     setq ShipQuests_Ale, 1;
     getitem "AquadaBox", 1;

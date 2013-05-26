@@ -39,9 +39,7 @@
     mesq l("Bring this box to Gugli. He will be extremely happy!");
     next;
 
-    set @item, 714;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 714, 1;
 
     setq ShipQuests_Tibbo, 1;
     getitem "AquadaBox", 1;

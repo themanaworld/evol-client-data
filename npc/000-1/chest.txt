@@ -24,9 +24,7 @@
 l_Give:
     if (@q > 0) goto l_Close;
 
-    set @item, 514;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 514, 1;
 
     setq ShipQuests_TreasureChest, 1;
 

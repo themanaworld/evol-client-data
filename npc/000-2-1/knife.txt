@@ -28,7 +28,7 @@ l_Give:
     mes "";
     set @item, 3500;
     set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 3500, 1;
 
     setq ShipQuests_Knife, 1;
     getitem "Knife", 1;

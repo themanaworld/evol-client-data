@@ -42,9 +42,7 @@
     mesq l("Yeye ask too much but do too less. Take this box and stop talking.");
     next;
 
-    set @item, 713;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 713, 1;
 
     mesn "Narrator";
     mes col(l("Couwan hands you a box full of fish."), 9);

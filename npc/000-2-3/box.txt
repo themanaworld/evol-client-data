@@ -73,10 +73,7 @@ l_NoQuest:
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
 
-    set @item, 718;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
-
+    callfunc "InventoryPlace", 718, 1;
     setq ShipQuests_Nard, 1;
     getitem "JohanneKey", 1;
 
@@ -88,9 +85,7 @@ l_Give:
     mesn "Nard";
     mesq l("You are now part of the crew. Thanks again for your help.");
 
-    set @item, 2900;
-    set @count, 1;
-    callfunc "InventoryPlace", @item, @count;
+    callfunc "InventoryPlace", 2900, 1;
 
     setq ShipQuests_Nard, 5;
     getitem "Bandana", 1;
