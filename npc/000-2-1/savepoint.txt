@@ -5,33 +5,21 @@
 //    Saves locations in 000-2-1 map.
 
 000-2-1.gat,40,37,0,2	script	#name	900;2,{
-    set @map$, "000-2-1.gat";
-    set @x, 40;
-    set @y, 37;
-    callfunc "SavePoint";
+    callfunc "SavePoint", "000-2-1.gat", 40, 37;
     close;
 }
 
 000-2-1.gat,46,37,0,2	script	#name	900;2,{
-    set @map$, "000-2-1.gat";
-    set @x, 46;
-    set @y, 37;
-    callfunc "SavePoint";
+    callfunc "SavePoint", "000-2-1.gat", 46, 37;
     close;
 }
 
 000-2-1.gat,50,38,0,2	script	#name	900;2,{
-    set @map$, "000-2-1.gat";
-    set @x, 50;
-    set @y, 38;
-    callfunc "SavePoint";
+    callfunc "SavePoint", "000-2-1.gat", 50, 38;
     close;
 }
 
 000-2-1.gat,55,40,0,2	script	#name	900;2,{
-    set @map$, "000-2-1.gat";
-    set @x, 55;
-    set @y, 40;
-    callfunc "SavePoint";
+    callfunc "SavePoint", "000-2-1.gat", 55, 40;
     close;
 }

@@ -3,13 +3,15 @@
 //    Reid
 // Description:
 //    Adds a new save point location.
+// Description:
+//    Save location with arguments:
+//      getarg(0)   map name,
+//      getarg(1)   x's value,
+//      getarg(2)   y's value.
 
 function	script	SavePoint	{
+    message strcharinfo(0), "Your position has been saved.";
 
-    npctalk3 "Your position has been saved.";
-
-    savepoint @map$, @x, @y;
-    set @q, getcharid(3);
-    misceffect 4, @q;
-
+    savepoint getarg(0), getarg(1), getarg(2);
+    misceffect 4, getcharid(3);
 }
