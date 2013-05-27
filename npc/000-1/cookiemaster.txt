@@ -55,6 +55,8 @@ l_Check:
         goto l_Reward;
     if (strcharinfo(0) == "Alige")
         goto l_Reward;
+    if (strcharinfo(0) == "Enchilado")
+        goto l_Reward;
     if (strcharinfo(0) == "Hal9000")
         goto l_Reward;
     if (strcharinfo(0) == "Reid")
