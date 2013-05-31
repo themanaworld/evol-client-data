@@ -17,20 +17,30 @@ end-message:                Displays a message when the effect end.
     <status-effect name="item-healing" id="70" block-id="24"
         persistent-particle-effect="true"
         start-particle="graphics/particles/healing.xml"/>
+
     <status-effect name="magnificat" id="20" block-id="24"
         icon="icons/healing.xml"
         persistent-particle-effect="true"
         start-particle="graphics/particles/healing.xml"/>
+
     <status-effect name="invisibility" id="4096" block-id="12"
         icon="icons/invisible.xml"
         start-message="You are now invisible."
         end-message="You are no longer invisible."
         persistent-particle-effect="true"
         start-particle="graphics/particles/invisibility.xml"/>
+
     <status-effect name="poison" id="132" block-id="16"
         icon="icons/poison.xml"
         persistent-particle-effect="true"
         start-particle="graphics/particles/poison.xml"/>
+
     <status-effect name="hide" id="194"
         icon="icons/hide.xml"/>
+
+    <status-effect name="impositio" id="15" block-id="16"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/impositio.xml"/>
+        <!-- icon="icons/impositio.xml" is missing-->
+
 </status-effects>
