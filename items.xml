@@ -34,7 +34,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-
     <!-- Hairstyles -->
     <item id="-1" type="hairsprite" name="Bald">
         <sprite>hairstyles/hairstyle01.xml</sprite>
@@ -147,14 +146,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">races/tritan-male.xml</sprite>
         <sprite gender="female">races/tritan-female.xml</sprite>
     </item>
-
-    <!-- Weapon Animations -->
-    <item id="30" type="other">
-        <sprite>knife.xml</sprite>
-        <sound event="hit">weapons/knife/hit1.ogg</sound>
-        <sound event="miss">weapons/knife/miss1.ogg</sound>
-    </item>
-
 
     <!-- Usable Items -->
     <item id="501"
@@ -474,7 +465,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="530"
         maxFloorOffset="10"/>
 
-
     <!-- Necklaces
     <item id="1000"
         image="equipment/amulet/.png"
@@ -483,7 +473,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="."
         type="equip-necklace"
         weight=""/> -->
-
 
     <!-- Chest Armors -->
     <item id="1300"
@@ -523,7 +512,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/shirt-female.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
     </item>
 
-
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -536,7 +524,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
     </item>
-
 
     <!-- Gloves -->
     <item id="2000"
@@ -551,7 +538,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/armbands-female.xml</sprite>
     </item>
 
-
     <!-- Pants -->
     <item id="2200"
         image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
@@ -565,7 +551,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/legs/shorts-female.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
     </item>
 
-
     <!-- Wings
     <item id="2500"
         image="equipment/wings/.png"
@@ -576,7 +561,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="">
         <sprite>equipment/wings/</sprite>
     </item> -->
-
 
     <!-- Shields
     <item id="2700"
@@ -640,7 +624,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         </replace>
     </item>
 
-
     <!-- Neck Armors
     <item id="3200"
         image="equipment/neck/.png"
@@ -651,7 +634,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight=""
         <sprite>equipment/neck/</sprite>
     </item> -->
-
 
     <!-- Weapons -->
     <item id="3500"
@@ -684,5 +666,4 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-
 </items>
