@@ -9,14 +9,18 @@ Copyright (C) 2013 Evol Online -->
 
     <action name="stand" imageset="base">
         <animation direction="down">
-                <goto label="blink" rand="4"/>
+            <label name="start"/>
+            <goto label="blink" rand="2"/>
                 <frame index="0" offsetY="-41" delay="100"/>
+            <goto label="start"/>
             <label name="blink"/>
                 <sequence value="11,12,11" offsetY="-41" delay="70"/>
         </animation>
         <animation direction="left">
-                <goto label="blink" rand="4"/>
-                <frame index="4" offsetX="-1" offsetY="-41"/>
+            <label name="start"/>
+            <goto label="blink" rand="2"/>
+                <frame index="4" offsetX="-1" offsetY="-41" delay="100"/>
+            <goto label="start"/>
             <label name="blink"/>
                 <sequence value="13,14,13" offsetX="-1" offsetY="-41" delay="70"/>
         </animation>
@@ -24,20 +28,30 @@ Copyright (C) 2013 Evol Online -->
             <frame index="17" offsetX="-1" offsetY="-41"/>
         </animation>
         <animation direction="right">
-                <goto label="blink" rand="4"/>
-                <frame index="7" offsetX="1" offsetY="-41"/>
+            <label name="start"/>
+            <goto label="blink" rand="2"/>
+                <frame index="7" offsetX="1" offsetY="-41" delay="100"/>
+            <goto label="start"/>
             <label name="blink"/>
                 <sequence value="15,16,15" offsetX="1"  offsetY="-41" delay="70"/>
-            <frame index="7" offsetX="1" offsetY="-41"/>
         </animation>
     </action>
 
     <action name="walk" imageset="base">
         <animation direction="down">
-            <frame index="0" offsetY="-40" delay="80"/>
-            <frame index="0" offsetY="-41" delay="160"/>
-            <frame index="0" offsetY="-40" delay="80"/>
-            <frame index="0" offsetY="-41" delay="160"/>
+            <label name="start"/>
+            <goto label="blink" rand="4"/>
+                <frame index="0" offsetY="-40" delay="80"/>
+                <frame index="0" offsetY="-41" delay="160"/>
+                <frame index="0" offsetY="-40" delay="80"/>
+                <frame index="0" offsetY="-41" delay="160"/>
+            <goto label="start"/>
+            <label name="blink"/>
+                <frame index="0" offsetY="-40" delay="80"/>
+                <frame index="11" offsetY="-41" delay="80"/>
+                <frame index="12" offsetY="-41" delay="80"/>
+                <frame index="11" offsetY="-40" delay="80"/>
+                <frame index="0" offsetY="-41" delay="160"/>
         </animation>
         <animation direction="left">
             <frame index="4" offsetX="-1" offsetY="-41" delay="80"/>
@@ -82,8 +96,8 @@ Copyright (C) 2013 Evol Online -->
             <end />
         </animation>
         <animation direction="right">
-            <frame index="7" offsetX="-2" offsetY="-39" delay="80"/>
-            <frame index="7" offsetX="-2" offsetY="-40" delay="80"/>
+            <frame index="7" offsetX="-2" offsetY="-42" delay="80"/>
+            <frame index="7" offsetX="-2" offsetY="-43" delay="80"/>
             <frame index="7" offsetX="1" offsetY="-40" delay="80"/>
             <frame index="7" offsetX="2" offsetY="-39" delay="80"/>
             <end />
