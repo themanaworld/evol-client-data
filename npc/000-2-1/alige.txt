@@ -214,8 +214,6 @@ l_NoReward:
 
 l_ReturnMenu:
     setcamnpc;
-    mes "";
-    mesn;
     mesq l("Do you have anything else for me?");
     next;
     restorecam;
@@ -237,6 +235,7 @@ l_Poison:
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
     restorecam;
+    next;
     goto l_ReturnMenu;
 
 l_SoAskForFood:

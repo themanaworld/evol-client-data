@@ -38,8 +38,8 @@
     mesq l("Cookies provide you strength, health and cuteness.");
     next;
     mesq l("Cookies are awesome, so am I.");
-    next;
 
+    menu
         l("Uhm... Your story seems..."), l_StorySeems,
         l("Wait... that's not the place for a chef, what are you doing here?"), l_Presentation,
         l("Exactly! Can I have one now?"), -;
@@ -97,6 +97,8 @@ l_StorySeems:
     next;
 
 l_TaskExpanation:
+    mes "";
+    mesn;
     mesq l("You'll first need to help my friends.");
     next;
     mesq l("It is them who tell me to whom I can give cookies.");
@@ -186,6 +188,7 @@ l_Control:
     mes "";
     mesn;
     mesq l("Common, don't be like that and loosen up! Don't you want to know who's behind all of this?!");
+    next;
 
     menu
         l("Why not, this might get interesting."), l_Friends,
