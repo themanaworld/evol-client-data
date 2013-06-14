@@ -141,6 +141,7 @@ l_Couwan:
     if (countitem("FishBox") > 0) delitem "FishBox", 1;
     setq ShipQuests_Couwan, 2;
     set zeny, zeny+10;
+    getexp 40, 0;
     message strcharinfo(0), l("You receive @@ E!", 10);
 
     close;

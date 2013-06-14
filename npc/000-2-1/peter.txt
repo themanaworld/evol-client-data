@@ -299,7 +299,7 @@ l_Reward:
     mesn;
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
-    set zeny, zeny + 200;
+    set zeny, zeny + 1000;
     message strcharinfo(0), l("You receive @@ E!", 200);
 
     goto l_CleaningClose;

@@ -223,9 +223,11 @@ l_Regret:
     mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");
     next;
     mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
-    set zeny, zeny + 50;
-    message strcharinfo(0), l("You receive @@ E!", 50);
+
     setq ShipQuests_ChefGado, 5;
+    set zeny, zeny + 200;
+    message strcharinfo(0), l("You receive @@ E!", 200);
+    getexp 15, 0;
 
     close;
 
@@ -251,19 +253,22 @@ l_Rumors:
         l("Well... I don't think it is the best way to rule a ship. Think about it."), l_Quit,
         l("In fact, everything seems to work perfectly under your guidance. Nard has made the right choice."), -;
 
-    setq ShipQuests_ChefGado, 6;
     mes "";
     mesn;
     mesq l("I'm glad you're on my side.");
     next;
     mesq l("Take this money as a reward for your nice words.");
-    set zeny, zeny + 40;
-    message strcharinfo(0), l("You receive @@ E!", 40);
+
+    setq ShipQuests_ChefGado, 6;
+    set zeny, zeny + 200;
+    message strcharinfo(0), l("You receive @@ E!", 200);
+    getexp 10, 0;
 
     close;
 
 l_Quit:
     npctalk3 "Bye!";
+
     closedialog;
     close;
 }
