@@ -41,7 +41,7 @@
 
     menu
         l("Uhm... Your story seems..."), l_StorySeems,
-        l("Wait... that's not the place for a chef, what are you doing here?"), l_Presentation,
+        l("Wait... That's not the place for a chef, what are you doing here?"), l_Presentation,
         l("Exactly! Can I have one now?"), -;
 
 l_Check:
@@ -93,7 +93,7 @@ l_StorySeems:
     mesq g(l("It looks like madam is curious, am I right?"),
            l("It seems mister is curious, are you not?"));
     next;
-    mesq l("Well, if you want to be one of those who can have a cookie...");
+    mesq lg("Well, if you want to be one of those who can have a cookie...");
     next;
 
 l_TaskExpanation:
@@ -129,11 +129,11 @@ l_Friends:
     mesn "Narrator";
     mes col(l("This Cookie Master rewards people who contribute and develop this world."), 9);
     next;
-    mes col(l("If you want to be rewarded, help us to evolve in making this world a better place."), 9);
+    mes col(lg("If you want to be rewarded, help us in making this world a better place."), 9);
     next;
     mes col(l("When you see something that looks more like a bug than a feature, report it on http://bugs.evolonline.org or try to contact a game contributor."), 9);
     next;
-    mes col(l("Any contribution to the game content (translations, graphics creation/edition, concepts, coding/scripting, etc...) is rewarded!"), 9);
+    mes col(l("Any contribution to the game (translations, graphics creation/edition, concepts, coding/scripting, etc...) is rewarded!"), 9);
 
     mes "";
     mesn;
@@ -166,7 +166,7 @@ l_Presentation:
 l_Reward:
     mesq l("Yes! @@ is written on my cookie list.", strcharinfo(0));
     next;
-    mesq l("That's quite surprising... You don't look very helpful.");
+    mesq lg("That's quite surprising... You don't look very helpful.");
     next;
     mesq l("Anyway, here, have a cookie!");
 
