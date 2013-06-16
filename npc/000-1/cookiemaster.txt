@@ -63,6 +63,8 @@ l_Check:
         goto l_Reward;
     if (strcharinfo(0) == "Socapex")
         goto l_Reward;
+    if (strcharinfo(0) == "Kenny690")
+        goto l_Reward;
 
     mesq l("I'm sorry but I can't see your name anywhere.");
     next;
