@@ -181,7 +181,7 @@ l_Reward:
     npctalk3 l("You receive a @@!", getitemlink("DeliciousCookie"));
 
     next;
-    mesq l("I'm sure you'll appreciate its effect, but be careful, these cookies are rare, and you'll need to help the community again before being able to receive another one.");
+    mesq lg("I'm sure you'll appreciate its effect, but be careful, these cookies are rare, and you'll need to help the community again before being able to receive another one.");
     next;
 
     goto l_Bye;
