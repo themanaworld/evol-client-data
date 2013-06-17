@@ -192,6 +192,7 @@ l_TaskDone:
     if (countitem("PlushroomBox") == 1) delitem "PlushroomBox", 1;
     setq ShipQuests_Gugli, 2;
 
+    set zeny, zeny+250;
     getexp 50, 0;
 
     mes "";
