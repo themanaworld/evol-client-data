@@ -260,9 +260,9 @@ l_Rumors:
     mesq l("Take this money as a reward for your nice words.");
 
     setq ShipQuests_ChefGado, 6;
-    set zeny, zeny + 200;
-    message strcharinfo(0), l("You receive @@ E!", 200);
-    getexp 10, 0;
+    set zeny, zeny + 100;
+    message strcharinfo(0), l("You receive @@ E!", 100);
+    getexp 8, 0;
 
     close;
 
