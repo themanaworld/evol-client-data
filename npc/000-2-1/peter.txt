@@ -174,7 +174,7 @@ OnReturnWin:
 l_BonusTask:
     mes "";
     mesn;
-    mesq l("What if I give you 200 Esperin for that job, is it ok?");
+    mesq l("What if I give you 1000 Esperin for that job, is it ok?");
     next;
 
     menu
@@ -300,7 +300,7 @@ l_Reward:
     mesq l("Good job!") + " " + l("Here's your reward!");
     getexp 100, 0;
     set zeny, zeny + 1000;
-    message strcharinfo(0), l("You receive @@ E!", 200);
+    message strcharinfo(0), l("You receive @@ E!", 1000);
 
     goto l_CleaningClose;
 
