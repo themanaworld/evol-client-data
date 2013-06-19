@@ -482,7 +482,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/chest/cottonshirt.png|S:#3c3c3c,3e3c38,4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Creased Shirt"
         description="An old shirt given to you by a sailor. It isn't very fashionable..."
-        effect="Defense +5"
+        effect="Level 1; Defense +5"
         type="equip-torso"
         weight="17"
         maxFloorOffsetX="8"
@@ -520,7 +520,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
         name="Lousy Moccasins"
         description="Orc-made moccasins. Not sure from which skin these shoes were made."
-        effect="Defense +6"
+        effect="Level 5; Defense +6"
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
@@ -533,7 +533,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/hands/armbands.png"
         name="Armbands"
         description="Small armbands made of wood and iron."
-        effect="Defense +4"
+        effect="Level 3; Defense +4"
         type="equip-arms"
         weight="8"
         maxFloorOffset="16">
@@ -546,7 +546,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Creased Shorts"
         description="An old pair of shorts given to you by a sailor. They smell awful."
-        effect="Defense +5"
+        effect="Level 1; Defense +5"
         type="equip-legs"
         weight="20"
         maxFloorOffset="9">
@@ -581,7 +581,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/bandana.png"
         name="Bandana"
         description="A striped bandana worn by some sailors."
-        effect="Defense +4"
+        effect="Level 5; Defense +4"
         type="equip-head"
         weight="4"
         maxFloorOffsetX="8"
@@ -606,7 +606,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/pumpkinhat.png"
         name="Pumpkin Hat"
         description="A carved pumpkin, the face will scare your enemy off."
-        effect="Defense +2"
+        effect="Level 1; Defense +2"
         type="equip-head"
         weight="50">
         <sprite>equipment/head/pumpkinhat.xml</sprite>
@@ -616,7 +616,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/fancyhat.png"
         name="Fancy Hat"
         description="A fancy hat, what else?"
-        effect="Defense +2"
+        effect="Level 1; Defense +2"
         type="equip-head"
         weight="11">
         <sprite>equipment/head/fancyhat.xml</sprite>
@@ -643,7 +643,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/knife.png"
         name="Knife"
         description="A simple, but sharp knife."
-        effect="+5 Damage"
+        effect="Level 1; Damage +5"
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
@@ -658,7 +658,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/piouslayer.png"
         name="Piou Slayer"
         description="A short sword for novice fighters, more useful in the kitchen than in a real fight..."
-        effect="Damage +15"
+        effect="Level 5; Damage +15"
         type="equip-1hand"
         weapon-type="sword"
         attack-action="attack"
