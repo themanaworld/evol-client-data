@@ -65,6 +65,10 @@ l_Check:
         goto l_Reward;
     if (strcharinfo(0) == "Kenny690")
         goto l_Reward;
+    if (strcharinfo(0) == "Nelson6e65")
+        goto l_Reward;
+    if (strcharinfo(0) == "Steel Zenn")
+        goto l_Reward;
 
     mesq l("I'm sorry but I can't see your name anywhere.");
     next;
