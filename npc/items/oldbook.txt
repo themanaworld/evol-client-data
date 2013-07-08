@@ -8,7 +8,6 @@
 000-2-1.gat,0,0,1	script	OldBook	0,{
 
 OnUse:
-    message strcharinfo(0), l("You open the treasure chest.");
     mesn "Narrator";
     mes col(l("You open the book, but it looks like the sea water and time damaged it severely. Some pages are not readable anymore. Some others are simply missing."), 9);
     next;
