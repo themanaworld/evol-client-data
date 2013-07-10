@@ -1,0 +1,18 @@
+// Evol functions.
+// Author:
+//    Reid
+// Description:
+//    Tell a random goodbye.
+// Variables:
+//    @rand = Random number between the number of "good bye" choice.
+
+function	script	GoodBye	{
+    closedialog;
+
+    set @rand, rand(2);
+    if (@rand == 0) npctalk3 l("See you later!");
+    if (@rand == 1) npctalk3 l("See you!");
+    if (@rand == 2) npctalk3 l("Bye!");
+
+    close;
+}
