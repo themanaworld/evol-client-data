@@ -8,12 +8,10 @@
 //    @rand = Random number between the number of "sleeping" choice.
 
 function	script	Asleep	{
-    closedialog;
 
     set @rand, rand(2);
     if (@rand == 0) npctalk3 l("Zzzzzzzzz...");
     if (@rand == 1) npctalk3 l("Rrrr... Pchhhh...");
     if (@rand == 2) npctalk3 l("Ggrmm... Grmmmm...");
 
-    close;
 }
