@@ -182,7 +182,7 @@ l_Sailors:
 l_Quit:
     closedialog;
 
-    npctalk3 "Give me a kiss before you say goodbye!";
+    npctalk3 l("Give me a kiss before you say goodbye!");
 
     close;
 }

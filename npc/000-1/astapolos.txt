@@ -135,7 +135,7 @@ l_Top:
     close;
 
 l_NoTask:
-    npctalk "Just leave me alone.";
+    npctalk3 l("Just leave me alone.");
 
     closedialog;
     close;
@@ -148,7 +148,7 @@ l_TaskDone:
     close;
 
 l_Whyning:
-    npctalk3 "Then leave me alone.";
+    npctalk3 l("Then leave me alone.");
 
     closedialog;
     close;

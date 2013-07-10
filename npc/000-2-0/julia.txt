@@ -267,8 +267,5 @@ l_Rumors:
     close;
 
 l_Quit:
-    npctalk3 "Bye!";
-
-    closedialog;
-    close;
+    callfunc "GoodBye";
 }

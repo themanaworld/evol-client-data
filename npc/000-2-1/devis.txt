@@ -1,5 +1,6 @@
 // Evol scripts.
 // Authors:
+//    Alige
 //    Reid
 //    Vasily_Makarov
 // Description:
@@ -7,18 +8,6 @@
 
 000-2-1.gat,32,38,0,1	script	Devis	310;2,{
 
-    set @q, rand(2);
-    if (@q == 0) goto l_Zzz;
+    callfunc "Asleep";
 
-    goto l_Grm;
-
-l_Zzz:
-    npctalk3 "Zzzzzzzzz";
-
-    close;
-
-l_Grm:
-    npctalk3 "Ggrmm... Grmmmm...";
-
-    close;
 }
