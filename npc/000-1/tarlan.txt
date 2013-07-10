@@ -22,10 +22,8 @@
         l("Some food."), l_Food,
         l("Nothing, just hanging around."), -;
 
-    mes " ";
-    mesn;
-    mesq l("Ok, see you then!");
-
+    closedialog;
+    npctalk3 l("Ok, see you then!");
     goto l_Quit;
 
 l_Food:

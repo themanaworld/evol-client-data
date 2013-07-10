@@ -91,9 +91,6 @@
     mesq l("You're welcome. If you can't remember something, just come back here!");
     next;
 
-    close;
-
 l_Quit:
-    closedialog;
-    close;
+    callfunc "GoodBye";
 }

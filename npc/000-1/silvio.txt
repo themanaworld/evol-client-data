@@ -132,7 +132,7 @@ l_Artis:
     next;
     mesq l("You should look at them once we arrive at the port, they are worth it, hehe...");
 
-    close;
+    callfunc "GoodBye";
 
 l_ForeverAlone:
     mes "";
@@ -173,15 +173,16 @@ l_Sailors:
         l("See you."), l_Quit,
         l("*Imitate a thunder's sound.*"), -;
 
-    mes "";
-    mesn;
-    mesq l("Aaaaaahhhhhh!");
+    closedialog;
+
+    npctalk3 l("Aaaaaahhhhhh!");
 
     close;
 
 l_Quit:
+    closedialog;
+
     npctalk3 "Give me a kiss before you say goodbye!";
 
-    closedialog;
     close;
 }

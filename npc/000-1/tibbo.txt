@@ -47,7 +47,8 @@
     mes "";
     mesn;
     mesq l("Thank you and be careful with that box. I have worked really hard to fill it!");
-    close;
+
+    goto l_Close;
 
 l_CallFunc:
     callfunc "SailorFood";
@@ -70,8 +71,7 @@ l_CallFunc:
         rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Top,
         l("Nobody."), -;
 
-    closedialog;
-    close;
+    goto l_Close;
 
 l_Top:
     mes "";
@@ -97,6 +97,7 @@ l_NoTask:
     mes "";
     mesn;
     mesq l("I'm sorry but I have no time to chat with you.");
+
     close;
 
 l_TaskDone:
@@ -105,4 +106,7 @@ l_TaskDone:
     mesq l("Awesome!");
 
     close;
+
+l_Close:
+    callfunc "GoodBye";
 }

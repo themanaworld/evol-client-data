@@ -48,7 +48,7 @@ l_Continue:
     mesn;
     mesq l("They are so tasty when cooked together with some @@. Don't drop any of them!", getitemlink("PiouLegs"));
 
-    close;
+    goto l_Close;
 
 l_CallFunc:
     callfunc "SailorFood";
@@ -115,5 +115,6 @@ l_TaskDone:
     mesn;
     mesq l("Perfect!");
 
-    close;
+l_Close:
+    callfunc "GoodBye";
 }

@@ -112,8 +112,9 @@ l_TaskDone:
     mes "";
     mesn;
     mesq l("Good to hear!");
+    next;
 
-    close;
+    callfunc "GoodBye";
 
 l_Quit:
     closedialog;
