@@ -9,7 +9,7 @@
 
 function	script	Asleep	{
 
-    set @rand, rand(2);
+    set @rand, rand(3);
     if (@rand == 0) npctalk3 l("Zzzzzzzzz...");
     if (@rand == 1) npctalk3 l("Rrrr... Pchhhh...");
     if (@rand == 2) npctalk3 l("Ggrmm... Grmmmm...");
