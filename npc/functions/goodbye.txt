@@ -9,10 +9,20 @@
 function	script	GoodBye	{
     closedialog;
 
-    set @rand, rand(3);
-    if (@rand == 0) npctalk3 l("See you later!");
-    if (@rand == 1) npctalk3 l("See you!");
-    if (@rand == 2) npctalk3 l("Bye!");
+    set @rand, rand(13);
+    if (@rand == 0) npctalk3 l("See you!");
+    if (@rand == 1) npctalk3 l("See you later!");
+    if (@rand == 2) npctalk3 l("See you soon!");
+    if (@rand == 3) npctalk3 l("Bye!");
+    if (@rand == 4) npctalk3 l("Farewell.");
+    if (@rand == 5) npctalk3 l("Bye then!");
+    if (@rand == 6) npctalk3 l("Goodbye.");
+    if (@rand == 7) npctalk3 l("Bye for now.");
+    if (@rand == 8) npctalk3 l("Talk to you soon!");
+    if (@rand == 9) npctalk3 l("Talk to you later!");
+    if (@rand == 10) npctalk3 l("Have a good day!");
+    if (@rand == 11) npctalk3 l("Cheers!");
+    if (@rand == 12) npctalk3 l("Take care!");
 
     close;
 }

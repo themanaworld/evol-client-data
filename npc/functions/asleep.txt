@@ -13,6 +13,7 @@ function	script	Asleep	{
     if (@rand == 0) npctalk3 l("Zzzzzzzzz...");
     if (@rand == 1) npctalk3 l("Rrrr... Pchhhh...");
     if (@rand == 2) npctalk3 l("Ggrmm... Grmmmm...");
+    if (@rand == 3) npctalk3 l("Hm...");
 
     close;
 }
