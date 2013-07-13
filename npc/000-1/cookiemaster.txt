@@ -5,7 +5,7 @@
 // Description:
 //    Cookie NPC, beware, if you don't take your cookie, she'll keep it!
 
-000-1.gat,97,50,0,1	script	Cookie Master	319;2,{
+000-1.gat,97,50,0,0	script	Cookie Master	319;2,{
     if (getq(General_Cookies) == 1)
         goto l_GetCookie;
 
