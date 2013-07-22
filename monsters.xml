@@ -83,7 +83,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sprite>accessories/blub-tophat.xml</sprite>
     </monster>-->
-    <monster id="8" name="Crocotree" targetCursor="small" targetOffsetX="-29" targetOffsetY="4">
+    <monster id="8" name="Crocotree" targetCursor="small" targetOffsetX="-29" targetOffsetY="4" nameOffsetX="-29">
         <sprite>monsters/crocotree.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
