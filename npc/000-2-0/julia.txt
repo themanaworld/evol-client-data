@@ -110,19 +110,17 @@ l_First:
     mesn "Narrator";
     mes col(l("There is a paper with some rules written on it."), 9);
     next;
-    mesq col(l("1. Do not bot. This means you are not allowed to perform any AFK (away from keyboard) activity, apart from standing idle. Any feature from the official client Manaplus is allowed."), 9);
+    mesq col(l("1. Do not bot. This means you are not allowed to use any automation programs or use keyboard tricks. Any away from keyboard activity will be considered as botting except standing still."), 9);
     next;
-    mesq col(l("2. Do not use offensive/rude language in the chats or in your character(s) name(s)."), 9);
+    mesq col(l("2. Do not spam. This also concerns trade spam."), 9);
     next;
-    mesq col(l("3. Do not spam/flood other players. This includes chat spam and spam by trade requests. Wait at least 10 minutes between your trade announcements/offers in public chats."), 9);
+    mesq col(l("3. Do not multi box. This means you cannot have more than one active character logged in at a time. You are not allowed to use more than one active client at a time to attack in groups."), 9);
     next;
-    mesq col(l("4. Speak only English in public areas. You can speak whatever language you want in whispers or in less populated areas of the game."), 9);
+    mesq col(l("4. Do not trash talk, beg or use rude language in your character name or in the chat, except for role play purposes."), 9);
     next;
-    mesq col(l("5. Do not beg other players for money, items or favours of any kind. If you want to ask for something do it politely and only once. Try not to annoy other people."), 9);
+    mesq col(l("5. Do not speak any other language than English in public areas. You are free to speak any language you want in private chats or when alone with friends."), 9);
     next;
-    mesq col(l("6. Follow the social convention RFC 1855."), 9);
-    next;
-    mesq col(l("7. Do not multibox. You are not allowed to use more than one active client at a time to attack in groups of multiple characters (you cannot fight while controlling more than one character at a time)."), 9);
+    mesq col(l("6. Follow the social convention listed on the RFC1855 article."), 9);
     next;
 
     mesn;
