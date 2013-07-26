@@ -110,17 +110,19 @@ l_First:
     mesn "Narrator";
     mes col(l("There is a paper with some rules written on it."), 9);
     next;
-    mesq col(l("1. Do not bot. This means you are not allowed to use any automation programs or use keyboard tricks. Any away from keyboard activity will be considered as botting except standing still."), 9);
+    mesq col(l("1. ##BDo not bot##b, this means you are not allowed to perform any AFK (away from keyboard) activity, apart from standing idle."), 9);
     next;
-    mesq col(l("2. Do not spam. This also concerns trade spam."), 9);
+    mesq col(l("2. ##BDo not use offensive/rude language##b in the chats or in your character(s) name(s)."), 9);
     next;
-    mesq col(l("3. Do not multi box. This means you cannot have more than one active character logged in at a time. You are not allowed to use more than one active client at a time to attack in groups."), 9);
+    mesq col(l("3. ##BDo not spam/flood other players.##b This includes chat spam and spam by trade requests."), 9);
     next;
-    mesq col(l("4. Do not trash talk, beg or use rude language in your character name or in the chat, except for role play purposes."), 9);
+    mesq col(l("4. ##BSpeak only English in public areas.##b You can speak whatever language you want through whispers or whenever everyone in the area can speak said language."), 9);
     next;
-    mesq col(l("5. Do not speak any other language than English in public areas. You are free to speak any language you want in private chats or when alone with friends."), 9);
+    mesq col(l("5. ##BDo not beg others##b for money, items or favours of any kind. If you want to ask for something, do it politely and only once. Try not to annoy other players."), 9);
     next;
-    mesq col(l("6. Follow the social convention listed on the RFC1855 article."), 9);
+    mesq col(l("6. ##BFollow the social convention RFC 1855.##b"), 9);
+    next;
+    mesq col(l("7. ##BDo not multibox.##b You are not allowed to engage in combat while controlling more than one character at a time."), 9);
     next;
 
     mesn;
