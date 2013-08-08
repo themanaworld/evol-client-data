@@ -88,7 +88,7 @@ L_First:
         menuimage("flags/vls", l("I speak Flemish.") + " (Vlaams)"), -,
         menuimage("flags/pl", l("I speak Polish.") + " (Polski)"), -,
         menuimage("flags/it", l("I speak Italian.") + " (Italiano)"), -,
-        menuimage("flags/nL_BE", l("I speak Dutch.") + " (Nederlands)"), -,
+        menuimage("flags/nl_BE", l("I speak Dutch.") + " (Nederlands)"), -,
     @s$, L_NoChanges;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 9) close;
