@@ -14,8 +14,8 @@
 
     menu
         l("Hello... Do I know you?"), -,
-        rif(getq(ShipQuests_Gugli) > 0, l("Fine, could you please tell me where I can find Gugli's sailors?")), l_Sailors,
-        l("Uhm, bye."), l_Quit;
+        rif(getq(ShipQuests_Gugli) > 0, l("Fine, could you please tell me where I can find Gugli's sailors?")), L_Sailors,
+        l("Uhm, bye."), L_Quit;
 
     mes "";
     mesn;
@@ -28,8 +28,8 @@
 
     menu
         g(l("You're right, it's about you."),
-          l("You're right, it's about Julia.")), l_Julia,
-        l("What is Artis?"), l_Artis,
+          l("You're right, it's about Julia.")), L_Julia,
+        l("What is Artis?"), L_Artis,
         l("None of them?"), -;
 
     mes "";
@@ -51,7 +51,7 @@
 
     menu
         l("He's funny, it's not a problem."), -,
-        l("Ok, I will leave him alone."), l_ForeverAlone;
+        l("Ok, I will leave him alone."), L_ForeverAlone;
 
     setcamnpc "Gugli";
     mes "";
@@ -67,7 +67,7 @@
     next;
 
     menu
-        l("You told me that you 'were' important."), l_VeryImportantNoob,
+        l("You told me that you 'were' important."), L_VeryImportantNoob,
         l("You mentioned the quality of your wine."), -;
 
     mes "";
@@ -78,7 +78,7 @@
 
     close;
 
-l_VeryImportantNoob:
+L_VeryImportantNoob:
     mes "";
     mesn;
     mesq l("It's true!");
@@ -99,7 +99,7 @@ l_VeryImportantNoob:
 
     close;
 
-l_Julia:
+L_Julia:
     mes "";
     mesn;
     mesq g(l("You honor me beauty, but I'm already taken by Julia!"),
@@ -109,10 +109,10 @@ l_Julia:
     next;
 
     menu
-        l("I see. Bye!"), l_Quit,
-        l("Oh look, there's a piou behind you!"), l_Piou;
+        l("I see. Bye!"), L_Quit,
+        l("Oh look, there's a piou behind you!"), L_Piou;
 
-l_Piou:
+L_Piou:
     mes "";
     mesn;
     mesq l("Seriously?!");
@@ -121,7 +121,7 @@ l_Piou:
 
     close;
 
-l_Artis:
+L_Artis:
     mes "";
     mesn;
     mesq l("This is a nice place... There are some nice chicks...");
@@ -134,14 +134,14 @@ l_Artis:
 
     callfunc "GoodBye";
 
-l_ForeverAlone:
+L_ForeverAlone:
     mes "";
     mesn "Narrator";
     mes col(l("Silvio starts to speak to his bottle, you leave the conversation."), 9);
 
     close;
 
-l_Sailors:
+L_Sailors:
     mes "";
     mesn;
     mesq l("What? Why? They aren't sexier than me, why do you want to see them?");
@@ -170,7 +170,7 @@ l_Sailors:
     next;
 
     menu
-        l("See you."), l_Quit,
+        l("See you."), L_Quit,
         l("*Imitate a thunder's sound.*"), -;
 
     closedialog;
@@ -179,7 +179,7 @@ l_Sailors:
 
     close;
 
-l_Quit:
+L_Quit:
     closedialog;
 
     npctalk3 l("Give me a kiss before you say goodbye!");

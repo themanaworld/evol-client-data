@@ -20,9 +20,9 @@
 
 OnTouch:
     set @nard, getq(ShipQuests_Nard);
-    if (@nard > 0 && countitem("JohanneKey") > 0) goto l_Key;
-//  if (@nard == 2) goto l_GotoNard;
-//  if (@nard == 3) goto l_End;
+    if (@nard > 0 && countitem("JohanneKey") > 0) goto L_Key;
+//  if (@nard == 2) goto L_GotoNard;
+//  if (@nard == 3) goto L_End;
 
     setcamnpc "Julia";
     mesn "Julia";
@@ -35,11 +35,11 @@ OnTouch:
 
     close;
 
-l_Key:
+L_Key:
     warp "000-1", 93, 100;
     close;
 
-l_GotoNard:
+L_GotoNard:
     setcamnpc "Julia";
     mesn "Julia";
     mesq l("The captain is waiting for you! Hurry up.");
@@ -48,7 +48,7 @@ l_GotoNard:
 
     close;
 
-l_End:
+L_End:
     npctalk3 l("This door is locked.");
 
     close;
@@ -58,10 +58,10 @@ l_End:
 
 OnTouch:
     set @julia, getq(ShipQuests_Julia);
-    if (@julia == 2) goto l_Warp;
+    if (@julia == 2) goto L_Warp;
     close;
 
-l_Warp:
+L_Warp:
     warp "000-2-3", 20, 27;
     close;
 }

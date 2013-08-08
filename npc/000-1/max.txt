@@ -17,20 +17,20 @@
     next;
 
     menu
-        rif(@gugli == 0, l("Well, is there anything I can do here to help?")), l_Help,
-        rif(@gugli == 1, lg("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), l_Sailors,
-        rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), l_Annoyed,
-        rif(@knife == 0, lg("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), l_Secrets,
-        l("No thanks, not at the moment."), l_Quit;
+        rif(@gugli == 0, l("Well, is there anything I can do here to help?")), L_Help,
+        rif(@gugli == 1, lg("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), L_Sailors,
+        rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), L_Annoyed,
+        rif(@knife == 0, lg("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), L_Secrets,
+        l("No thanks, not at the moment."), L_Quit;
 
-l_Help:
+L_Help:
     mes "";
     mesn;
     mesq l("You could start by talking to Gugli. He always has tasks for people willing to help!");
 
     close;
 
-l_Sailors:
+L_Sailors:
     mes "";
     mesn;
     mesq l("I remember I saw few of them leaving the ship early this morning to get to work.");
@@ -38,16 +38,16 @@ l_Sailors:
     mesq l("I recall seeing Gulukan, Astapolos and Q'Muller.");
     next;
 
-    goto l_MenuSailors;
+    goto L_MenuSailors;
 
-l_MenuSailors:
+L_MenuSailors:
     menu
-        l("Do you know where can I find Gulukan?"), l_Gulukan,
-        l("Any clue on where Astapolos may be hidden?"), l_Astapolos,
-        l("What about Q'Muller? Where is he?"), l_Qmuller,
-        l("Alright. I will go looking for them now."), l_Quit;
+        l("Do you know where can I find Gulukan?"), L_Gulukan,
+        l("Any clue on where Astapolos may be hidden?"), L_Astapolos,
+        l("What about Q'Muller? Where is he?"), L_Qmuller,
+        l("Alright. I will go looking for them now."), L_Quit;
 
-l_Gulukan:
+L_Gulukan:
     mes "";
     mesn;
     mesq l("Oh, he is not far away from here. Just take the road through the crocojungle north from here.");
@@ -55,9 +55,9 @@ l_Gulukan:
     mesq l("You will find a wooden sign near a crossroad. He is a few steps on the left.");
     next;
 
-    goto l_MenuSailors;
+    goto L_MenuSailors;
 
-l_Astapolos:
+L_Astapolos:
     mes "";
     mesn;
     mesq l("Astapolos... That guy is shy like a piou!");
@@ -65,9 +65,9 @@ l_Astapolos:
     mesq l("He likes to hide near the little lake in the north-west side of the island.");
     next;
 
-    goto l_MenuSailors;
+    goto L_MenuSailors;
 
-l_Qmuller:
+L_Qmuller:
     mes "";
     mesn;
     mesq l("You need to cross the crocojungle heading north.");
@@ -75,16 +75,16 @@ l_Qmuller:
     mesq l("You can spot Q'Muller on a cliff on the west busy collecting @@s.", getitemlink("Plushroom"));
     next;
 
-    goto l_MenuSailors;
+    goto L_MenuSailors;
 
-l_Annoyed:
+L_Annoyed:
     mes "";
     mesn;
     mesq l("There is always something you can do here, like killing some tortugas or help Peter clean the ship from rattos.");
 
     close;
 
-l_Secrets:
+L_Secrets:
     mes "";
     mesn;
     mesq l("No there are no secrets hidden below the ship's wood. Some sailors swear they have seen people hidden somewhere near the stow. Just stories sailors love to tell...");
@@ -95,6 +95,6 @@ l_Secrets:
 
     close;
 
-l_Quit:
+L_Quit:
     callfunc "GoodBye";
 }

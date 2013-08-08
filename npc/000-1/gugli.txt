@@ -29,9 +29,9 @@ OnTalk:
     set @gugli, getq(ShipQuests_Gugli);
     set @gado, getq(ShipQuests_ChefGado);
 
-    if (@nard > 3) goto l_AllComplete;
-    if (@nard > 1 || @gugli == 2) goto l_TaskCompleted;
-    if (@gugli == 1) goto l_TaskGiven;
+    if (@nard > 3) goto L_AllComplete;
+    if (@nard > 1 || @gugli == 2) goto L_TaskCompleted;
+    if (@gugli == 1) goto L_TaskGiven;
 
     mesq lg("Hi @@, I heard the captain sent you down here, uh?", strcharinfo(0));
     next;
@@ -72,27 +72,27 @@ OnTalk:
     setq ShipQuests_Gugli, 1;
     close;
 
-l_TaskGiven:
+L_TaskGiven:
     mesq l("Great to see you! What can I do for you today?");
     next;
 
-    if (getq(ShipQuests_Ale) == 1 && getq(ShipQuests_Astapolos) == 1 && getq(ShipQuests_Gulukan) == 1 && getq(ShipQuests_Jalad) == 1 && getq(ShipQuests_QMuller) == 1 && getq(ShipQuests_Tibbo) == 1) goto l_MenuDone;
+    if (getq(ShipQuests_Ale) == 1 && getq(ShipQuests_Astapolos) == 1 && getq(ShipQuests_Gulukan) == 1 && getq(ShipQuests_Jalad) == 1 && getq(ShipQuests_QMuller) == 1 && getq(ShipQuests_Tibbo) == 1) goto L_MenuDone;
 
-l_Menu:
+L_Menu:
     menu
-        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
-        rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), l_CollectSmthing,
-        rif(getq(ShipQuests_Gugli) < 2, l("Who should I search for?")), l_SailorNames,
-        rif(getq(ShipQuests_Gugli) < 2, l("Where can I find your crew?")), l_Location,
-        l("Bye!"), l_Quit;
+        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), L_Couwan,
+        rif(countitem("AquadaBox") > 0 || countitem("CroconutBox") > 0 || countitem("PlushroomBox") > 0, l("I have some food for you.")), L_CollectSmthing,
+        rif(getq(ShipQuests_Gugli) < 2, l("Who should I search for?")), L_SailorNames,
+        rif(getq(ShipQuests_Gugli) < 2, l("Where can I find your crew?")), L_Location,
+        l("Bye!"), L_Quit;
 
-l_MenuDone:
+L_MenuDone:
     menu
-        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), l_Couwan,
-        l("I have collected all the boxes you needed."), l_TaskDone,
-        l("See you!"), l_Quit;
+        rif(getq(ShipQuests_Couwan) == 1, l("Couwan gave me this box, it is for you.")), L_Couwan,
+        l("I have collected all the boxes you needed."), L_TaskDone,
+        l("See you!"), L_Quit;
 
-l_SailorNames:
+L_SailorNames:
     mes "";
     mesn;
     mesq l("Ale and Tibbo should bring 2 boxes of @@s, Astapolos and Gulukan 2 of @@s and Jalad and Q'Muller were charged of the boxes of @@s.", getitemlink("Aquada"), getitemlink("Croconut"), getitemlink("Plushroom"));
@@ -100,9 +100,9 @@ l_SailorNames:
     mesq l("Do you need any other information?");
     next;
 
-    goto l_Menu;
+    goto L_Menu;
 
-l_CollectSmthing:
+L_CollectSmthing:
     mes "";
     mesn;
     mesq l("Good job!");
@@ -125,7 +125,7 @@ l_CollectSmthing:
 
     close;
 
-l_Couwan:
+L_Couwan:
     mes "";
     mesn;
     mesq l("What?! This tritan is the worse shirker I ever met!");
@@ -146,7 +146,7 @@ l_Couwan:
 
     close;
 
-l_Location:
+L_Location:
     mes "";
     mesn;
     mesq l("There're 6 sailors who will need your help. They're all around the island.");
@@ -157,8 +157,8 @@ l_Location:
     next;
 
     set @r, rand(3000)/1000;
-    if (@r == 1) goto l_Silvio;
-    if (@r == 2) goto l_Lean;
+    if (@r == 1) goto L_Silvio;
+    if (@r == 2) goto L_Lean;
 
     setcamnpc "Sapartan";
     mesq l("Max and Sapartan for example?");
@@ -167,7 +167,7 @@ l_Location:
     restorecam;
     close;
 
-l_Silvio:
+L_Silvio:
     setcamnpc "Silvio";
     mesq l("Silvio for example?");
     next;
@@ -175,7 +175,7 @@ l_Silvio:
     restorecam;
     close;
 
-l_Lean:
+L_Lean:
     setcamnpc "Lean";
     mesq l("Lean for example?");
     next;
@@ -183,7 +183,7 @@ l_Lean:
     restorecam;
     close;
 
-l_TaskDone:
+L_TaskDone:
     if (countitem("AquadaBox") == 2) delitem "AquadaBox", 2;
     if (countitem("CroconutBox") == 2) delitem "CroconutBox", 2;
     if (countitem("PlushroomBox") == 2) delitem "PlushroomBox", 2;
@@ -203,7 +203,7 @@ l_TaskDone:
 
     close;
 
-l_TaskCompleted:
+L_TaskCompleted:
     mesq l("You are now part of the crew... At least for us down here!");
     next;
     mesq l("You should inform Nard about the loading progress of the food on to the boat. He will be pleased to hear that good news!");
@@ -211,18 +211,18 @@ l_TaskCompleted:
     mesq l("Tell him that everything went fine and that we're almost done with the food.");
     next;
 
-    goto l_Menu;
+    goto L_Menu;
 
-l_AllComplete:
+L_AllComplete:
     mesq l("Elmo told me what Nard said, congrats!");
     next;
     mesq g(l("You're one of us now, that's great! I was sure that you were a kind lady when I first saw you!"),
            l("You're one of us now, that's great! I was sure that you were a good man when I first saw you!"));
     next;
 
-    goto l_Menu;
+    goto L_Menu;
 
-l_Quit:
+L_Quit:
     closedialog;
     close;
 

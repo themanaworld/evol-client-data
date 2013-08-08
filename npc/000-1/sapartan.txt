@@ -24,7 +24,7 @@
 
     menu
         l("Thank you sir for you nice words. I am feeling better now."), -,
-        lg("I'm still a bit weak at the moment. We should probably talk later."), l_Quit;
+        lg("I'm still a bit weak at the moment. We should probably talk later."), L_Quit;
 
     mes "";
     mesn;
@@ -55,7 +55,7 @@
     menu
         l("No, I don't, but I would like to know more about that."), -,
         l("Well... I've only killed some little pious in the ship, that's all."), -,
-        l("Yes, I feel strong enough for dangerous combats!"), l_Quit;
+        l("Yes, I feel strong enough for dangerous combats!"), L_Quit;
 
     mes "";
     mesn;
@@ -84,13 +84,13 @@
 
     menu
         l("Thank you for your tricks. I am going to try them now!"), -,
-        l("I already know everything. Bye."), l_Quit;
+        l("I already know everything. Bye."), L_Quit;
 
     mes "";
     mesn;
     mesq l("You're welcome. If you can't remember something, just come back here!");
     next;
 
-l_Quit:
+L_Quit:
     callfunc "GoodBye";
 }

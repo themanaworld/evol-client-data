@@ -28,11 +28,11 @@
 
     menu
         l("Take a Bandana."), -,
-        l("Nothing."), l_Quit;
+        l("Nothing."), L_Quit;
 
-    if (@q == 0) goto l_NoQuest;
-    if (@q == 4) goto l_Give;
-    if (@q > 4) goto l_Already;
+    if (@q == 0) goto L_NoQuest;
+    if (@q == 4) goto L_Give;
+    if (@q > 4) goto L_Already;
 
     setcamnpc "Nard";
     mes "";
@@ -41,7 +41,7 @@
 
     close;
 
-l_NoQuest:
+L_NoQuest:
     mes "";
     mesn "Narrator";
     mes col(l("Nard looks surprised and stops you."), 9);
@@ -62,7 +62,7 @@ l_NoQuest:
 
     menu
         l("Why not, I've got plenty of free time."), -,
-        l("I think that I'm still a bit sick."), l_Quit;
+        l("I think that I'm still a bit sick."), L_Quit;
 
     mes "";
     mesn "Nard";
@@ -79,7 +79,7 @@ l_NoQuest:
 
     close;
 
-l_Give:
+L_Give:
     setcamnpc "Nard";
     mes "";
     mesn "Nard";
@@ -93,7 +93,7 @@ l_Give:
 
     close;
 
-l_Already:
+L_Already:
     setcamnpc "Nard";
     mes "";
     mesn "Nard";
@@ -101,7 +101,7 @@ l_Already:
 
     close;
 
-l_Quit:
+L_Quit:
     closedialog;
     close;
 }

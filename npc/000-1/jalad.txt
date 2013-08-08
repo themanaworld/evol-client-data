@@ -8,10 +8,10 @@
 
 000-1.gat,46,35,0,1	script	Jalad	112;2,{
     set @g, getq(ShipQuests_Gugli);
-    if (@g == 0) goto l_NoTask;
+    if (@g == 0) goto L_NoTask;
 
     set @q, getq(ShipQuests_Jalad);
-    if (@q == 1) goto l_CallFunc;
+    if (@q == 1) goto L_CallFunc;
 
     mesn;
     mesq l("*Uff*, *Argh*, why don't you give me some help?");
@@ -20,7 +20,7 @@
     next;
 
     menu
-        l("I was going to ask you if you would need any help."), l_Continue,
+        l("I was going to ask you if you would need any help."), L_Continue,
         l("What exactly is your real job?"), -;
 
     mes "";
@@ -33,7 +33,7 @@
     menu
         l("I will surely visit him. Do you need any help with your boxes?"), -;
 
-l_Continue:
+L_Continue:
     mes "";
     mesn;
     mesq l("Surely. Take this box full of @@s.", getitemlink("Plushroom"));
@@ -48,15 +48,15 @@ l_Continue:
     mesn;
     mesq l("They are so tasty when cooked together with some @@. Don't drop any of them!", getitemlink("PiouLegs"));
 
-    goto l_Close;
+    goto L_Close;
 
-l_CallFunc:
+L_CallFunc:
     callfunc "SailorFood";
 
     menu
-        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), l_TaskDone,
+        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), L_TaskDone,
         rif(getq(ShipQuests_Jalad) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Gulukan) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -,
-        l("What's that?"), l_Plushroom;
+        l("What's that?"), L_Plushroom;
 
     mes "";
     mesn;
@@ -64,24 +64,24 @@ l_CallFunc:
     next;
 
     menu
-        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Ale,
-        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Bottom,
-        rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), l_Bottom,
-        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Bottom,
-        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
+        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), L_Ale,
+        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), L_Bottom,
+        rif(getq(ShipQuests_Gulukan) == 0, l("Gulukan.")), L_Bottom,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), L_Bottom,
+        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), L_Bottom,
         l("Nobody."), -;
 
     closedialog;
     close;
 
-l_Bottom:
+L_Bottom:
     mes "";
     mesn;
     mesq l("I've seen him at the bottom of the island, have a look around.");
 
     close;
 
-l_Ale:
+L_Ale:
     setcamnpc "Ale";
 
     next;
@@ -92,7 +92,7 @@ l_Ale:
     restorecam;
     close;
 
-l_Plushroom:
+L_Plushroom:
     mes "";
     mesn;
     mesq l("'That', as you call it, is a @@. There're plenty on this island!", getitemlink("Plushroom"));
@@ -103,18 +103,18 @@ l_Plushroom:
 
     close;
 
-l_NoTask:
+L_NoTask:
     mes "";
     mesn;
     mesq l("Sometimes, I wish somebody is sent here to help us.");
 
     close;
 
-l_TaskDone:
+L_TaskDone:
     mes "";
     mesn;
     mesq l("Perfect!");
 
-l_Close:
+L_Close:
     callfunc "GoodBye";
 }

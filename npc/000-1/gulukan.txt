@@ -8,10 +8,10 @@
 
 000-1.gat,54,90,0,1	script	Gulukan	113;2,{
     set @g, getq(ShipQuests_Gugli);
-    if (@g == 0) goto l_NoTask;
+    if (@g == 0) goto L_NoTask;
 
     set @q, getq(ShipQuests_Gulukan);
-    if (@q == 1) goto l_Func;
+    if (@q == 1) goto L_Func;
 
     mesn;
     mesq l("Yeye @@!", strcharinfo(0));
@@ -21,28 +21,28 @@
 
     menu
         l("Wow, it seems everyone knows my name!"), -,
-        l("Well, it's not bad to finally feel something beneath my feet."), l_Continue,
-        l("Not so good actually... I would feel better on Nard's ship."), l_Quit;
+        l("Well, it's not bad to finally feel something beneath my feet."), L_Continue,
+        l("Not so good actually... I would feel better on Nard's ship."), L_Quit;
 
-l_Name:
+L_Name:
     mes "";
     mesn;
     mesq l("You know, yeyes love to chat while working.");
     next;
 
-goto l_Continue2;
+goto L_Continue2;
 
-l_Continue:
+L_Continue:
     mes "";
     mesn;
 
-l_Continue2:
+L_Continue2:
     mesq lg("Are you yaying here to explore the island?");
     next;
 
     menu
         lg("Actually Gugli asked me if I could help you bringing him some of your boxes."), -,
-        l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), l_Quit;
+        l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), L_Quit;
 
     mes "";
     mesn;
@@ -64,22 +64,22 @@ l_Continue2:
 
     close;
 
-l_Func:
+L_Func:
     mesn;
 
     set @q, rand(0, 400) / 100;
-    if (@q == 0) goto l_RandomA;
-    if (@q == 1) goto l_RandomB;
-    if (@q > 1) goto l_RandomC;
+    if (@q == 0) goto L_RandomA;
+    if (@q == 1) goto L_RandomB;
+    if (@q > 1) goto L_RandomC;
 
-l_RandomA:
+L_RandomA:
     mesq l("Hey.");
     next;
     mesq l("What did Gugli yayaid about the box? Was it ok?");
     next;
 
     menu
-        l("It's ok."), l_Fine,
+        l("It's ok."), L_Fine,
         l("He needs more food."), -;
 
     mes "";
@@ -88,28 +88,28 @@ l_RandomA:
 
     close;
 
-l_Fine:
+L_Fine:
     mes "";
     mesn;
     mesq l("Alright! Yoyone more box and it'll be good.");
 
     close;
 
-l_RandomB:
+L_RandomB:
     mesq l("Thanks for the help!");
     next;
     mesq l("These yeye boxes are way too heavy to be carried alone onto the ship.");
 
     close;
 
-l_RandomC:
+L_RandomC:
     mesq l("I think that yeye's soon be done. Yeye'll soon have a full box of @@s!", getitemlink("CrocClaw"));
     next;
     mesq l("And you? How's it yaying on your side?");
     next;
 
     menu
-        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), l_TaskDone,
+        rif(getq(ShipQuests_Gugli) > 1, l("Task is done.")), L_TaskDone,
         rif(getq(ShipQuests_Gulukan) == 1 && (getq(ShipQuests_Ale) == 0 || getq(ShipQuests_Astapolos) == 0 || getq(ShipQuests_Jalad) == 0 || getq(ShipQuests_QMuller) == 0 || getq(ShipQuests_Tibbo) == 0), l("I'm still busy, I need to find the other sailors.")), -;
 
     mes "";
@@ -118,21 +118,21 @@ l_RandomC:
     next;
 
     menu
-        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), l_Top,
-        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), l_Top,
-        rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), l_Top,
-        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), l_Top,
-        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), l_Bottom,
-        l("Nobody."), l_Quit;
+        rif(getq(ShipQuests_Ale) == 0, l("Ale.")), L_Top,
+        rif(getq(ShipQuests_Astapolos) == 0, l("Astapolos.")), L_Top,
+        rif(getq(ShipQuests_Jalad) == 0, l("Jalad.")), L_Top,
+        rif(getq(ShipQuests_QMuller) == 0, l("Q'Muller.")), L_Top,
+        rif(getq(ShipQuests_Tibbo) == 0, l("Tibbo.")), L_Bottom,
+        l("Nobody."), L_Quit;
 
-l_Bottom:
+L_Bottom:
     mes "";
     mesn;
     mesq l("Yeye seen this yoiis at the bottom of the island, check around.");
 
     close;
 
-l_Top:
+L_Top:
     mes "";
     mesn;
     mesq l("Yeye seen this yoiis at the top of the island.");
@@ -141,21 +141,21 @@ l_Top:
 
     close;
 
-l_NoTask:
+L_NoTask:
     mes "";
     mesn;
     mesq l("*Uff*... And another box of @@s for our starving colleagues is ready.", getitemlink("Croconut"));
 
     close;
 
-l_TaskDone:
+L_TaskDone:
     mes "";
     mesn;
     mesq lg("That's perfect, yoiis.");
 
     close;
 
-l_Quit:
+L_Quit:
     closedialog;
     close;
 }

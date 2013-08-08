@@ -9,27 +9,27 @@
 000-2-2.gat,48,29,0,1	script	DoorUpwards	0,0,0,{
 
 OnTouch:
-    if (getmapmobs("000-2-2.gat") > 0) goto l_Warn;
+    if (getmapmobs("000-2-2.gat") > 0) goto L_Warn;
 
-    goto l_Warp;
+    goto L_Warp;
 
-l_Warn:
+L_Warn:
     set @q, getq(ShipQuests_Peter);
-    if (@q == 5) goto l_Warp;
+    if (@q == 5) goto L_Warp;
 
     mesn "Narrator";
     mes col(l("There are still some rattos left! Do you want to abort the quest?"), 9);
     next;
 
     menu
-        l("Yes."), l_Warp,
+        l("Yes."), L_Warp,
         l("No."), -;
 
     warp "000-2-2", 48, 28;
     closedialog;
     close;
 
-l_Warp:
+L_Warp:
     warp "000-2-1", 72, 36;
     closedialog;
     close;
@@ -45,14 +45,14 @@ OnTouch:
     next;
 
     menu
-        rif(countitem("JohanneKey") > 0, l("Use the key.")), l_Warp,
-        l("Break the door."), l_Break,
+        rif(countitem("JohanneKey") > 0, l("Use the key.")), L_Warp,
+        l("Break the door."), L_Break,
         l("Go away."), -;
 
     closedialog;
     close;
 
-l_Break:
+L_Break:
 
     mes "";
     mesn "Narrator";
@@ -60,7 +60,7 @@ l_Break:
 
     close;
 
-l_Warp:
+L_Warp:
     mes "";
     mesn "Narrator";
     mes col(l("Wait, it seems someone is blocking the door from the other side!"), 9);

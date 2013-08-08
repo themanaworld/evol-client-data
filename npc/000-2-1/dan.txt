@@ -8,7 +8,7 @@
 000-2-1.gat, 32,31,0,1	script	Dan	101;2,{
     mesn;
     set @q, rand(3);
-    if (@q == 0) goto l_QuestStory;
+    if (@q == 0) goto L_QuestStory;
 
     mesq l("You see these pious around us?");
     next;
@@ -16,13 +16,13 @@
 
     close;
 
-l_QuestStory:
+L_QuestStory:
     mesq l("It's so hard to find the motivation...");
     next;
 
     menu
         l("Why?"), -,
-        l("I guess so... I will leave you alone."), l_Quit;
+        l("I guess so... I will leave you alone."), L_Quit;
 
     mes "";
     mesn;
@@ -32,7 +32,7 @@ l_QuestStory:
     next;
 
     menu
-        l("I'm still in a coma, but my ghost is haunting you!"), l_Quit,
+        l("I'm still in a coma, but my ghost is haunting you!"), L_Quit,
         l("It was something like a long nap."), -;
 
     mes "";
@@ -43,8 +43,8 @@ l_QuestStory:
     next;
 
     menu
-        l("Who is she?"), l_She,
-        l("Do you want me to go see her instead of you?"), l_Quest;
+        l("Who is she?"), L_She,
+        l("Do you want me to go see her instead of you?"), L_Quest;
         l("I don't know what to say..."), -;
 
     mes "";
@@ -54,28 +54,28 @@ l_QuestStory:
 
     close;
 
-l_She:
+L_She:
     mes "";
     mesn;
     mesq l("She is a good friend of mine... We wanted to marry a few weeks before her accident but...");
     next;
 
-    goto l_Quit2;
+    goto L_Quit2;
 
-l_Quest:
+L_Quest:
     mes "";
     mesn;
     mesq l("I don't think that we are in a good place to talk about this...");
     next;
 
-l_Quit:
+L_Quit:
     mes "";
     mesn "Narrator";
     mes col(l("Dan keeps silent since your last question."), 9);
 
     close;
 
-l_Quit2:
+L_Quit2:
     mesn "Narrator";
     mes col(l("Dan ends the conversation and resumes to write his letter."), 9);
 

@@ -6,8 +6,8 @@
 //    Cookie NPC, beware, if you don't take your cookie, she'll keep it!
 
 000-1.gat,97,50,0,0	script	Cookie Master	319;2,{
-    if (getq(General_Cookies) == 1)
-        goto l_GetCookie;
+    if (getq(GeneraL_Cookies) == 1)
+        goto L_GetCookie;
 
     mesn;
     mesq lg("Hey! Adventurer! Are you enjoying your life on Aemil?");
@@ -27,7 +27,7 @@
 
     menu
         l("I'd love one!"), -,
-        l("No thank you, I'm fine. I'll come back later."), l_Bye;
+        l("No thank you, I'm fine. I'll come back later."), L_Bye;
 
     mes "";
     mesn;
@@ -40,11 +40,11 @@
     mesq l("Cookies are awesome, so am I.");
 
     menu
-        l("Uhm... Your story seems..."), l_StorySeems,
-        l("Wait... That's not the place for a chef, what are you doing here?"), l_Presentation,
+        l("Uhm... Your story seems..."), L_StorySeems,
+        l("Wait... That's not the place for a chef, what are you doing here?"), L_Presentation,
         l("Exactly! Can I have one now?"), -;
 
-l_Check:
+L_Check:
     mes "";
     mesn;
     mesq l("Let me check my cookie list...");
@@ -52,23 +52,23 @@ l_Check:
 
 // Beta3 Contributors.
     if (strcharinfo(0) == "4144")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Alige")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "enchilado")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "hal9000")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Reid")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Socapex")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Kenny690")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Nelson6e65")
-        goto l_Reward;
+        goto L_Reward;
     if (strcharinfo(0) == "Steel Zenn")
-        goto l_Reward;
+        goto L_Reward;
 
     mesq l("I'm sorry but I can't see your name anywhere.");
     next;
@@ -76,10 +76,10 @@ l_Check:
     next;
 
     menu
-        l("Seriously? It's just a cookie you know... Tell me what I should do to get one."), l_TaskExpanation,
-        l("Yes, yes I know... Too bad then. See you soon!"), l_Bye;
+        l("Seriously? It's just a cookie you know... Tell me what I should do to get one."), L_TaskExpanation,
+        l("Yes, yes I know... Too bad then. See you soon!"), L_Bye;
 
-l_StorySeems:
+L_StorySeems:
     mes "";
     mesn;
     mesq l("What about my story?");
@@ -87,11 +87,11 @@ l_StorySeems:
 
     menu
         l("It's interesting and exciting at the same time!"), -,
-        l("Honestly, it's quite far-fetched according to me."), l_Kick;
+        l("Honestly, it's quite far-fetched according to me."), L_Kick;
 
     mes "";
     menu
-        l("Too bad I'm not hungry enough right now for these... cookies. I'll maybe come back later."), l_Bye,
+        l("Too bad I'm not hungry enough right now for these... cookies. I'll maybe come back later."), L_Bye,
         l("How can I get one of these cookies?"), -;
 
     mes "";
@@ -102,7 +102,7 @@ l_StorySeems:
     mesq lg("Well, if you want to be one of those who can have a cookie...");
     next;
 
-l_TaskExpanation:
+L_TaskExpanation:
     mes "";
     mesn;
     mesq l("You'll first need to help my friends.");
@@ -111,10 +111,10 @@ l_TaskExpanation:
     next;
 
     menu
-        l("So you're under the control of dictators, that's... reassuring."), l_Control,
-        l("Who are these friends?"), l_Friends;
+        l("So you're under the control of dictators, that's... reassuring."), L_Control,
+        l("Who are these friends?"), L_Friends;
 
-l_Friends:
+L_Friends:
     mes "";
     mesn;
     mesq l("Shht shht!");
@@ -148,16 +148,16 @@ l_Friends:
 
     menu
         l("I wish I helped your friends, because I'd really, really like a cookie."), -,
-        l("You tell me. Do I deserve a cookie?"), l_Check;
+        l("You tell me. Do I deserve a cookie?"), L_Check;
 
     mes "";
     mesn;
     mesq l("Don't worry, I'm sure you will help them soon enough!");
     next;
 
-    goto l_Bye;
+    goto L_Bye;
 
-l_Presentation:
+L_Presentation:
     mes "";
     mesn;
     mesq l("For a chef? Who said I was a... Oh right, I am.");
@@ -167,9 +167,9 @@ l_Presentation:
     mesq l("But...");
     next;
 
-    goto l_TaskExpanation;
+    goto L_TaskExpanation;
 
-l_Reward:
+L_Reward:
     mesq l("Yes! @@ is written on my cookie list.", strcharinfo(0));
     next;
     mesq lg("That's quite surprising... You don't look very helpful.");
@@ -180,7 +180,7 @@ l_Reward:
     set @count, 1;
     callfunc "InventoryPlace", 517, 1;
 
-    setq General_Cookies, 1;
+    setq GeneraL_Cookies, 1;
     getitem "DeliciousCookie", 1;
     npctalk3 l("You receive a @@!", getitemlink("DeliciousCookie"));
 
@@ -188,25 +188,25 @@ l_Reward:
     mesq lg("I'm sure you'll appreciate its effect, but be careful, these cookies are rare, and you'll need to help the community again before being able to receive another one.");
     next;
 
-    goto l_Bye;
+    goto L_Bye;
 
-l_Control:
+L_Control:
     mes "";
     mesn;
     mesq l("Common, don't be like that and loosen up! Don't you want to know who's behind all of this?!");
     next;
 
     menu
-        l("Why not, this might get interesting."), l_Friends,
+        l("Why not, this might get interesting."), L_Friends,
         l("Fine, tell me, who are these mysterious aliens?"), -,
-        l("No, and I gotta go, see you."), l_Kick;
+        l("No, and I gotta go, see you."), L_Kick;
 
     mes "";
     mesn;
     mesq l("Don't mock me, my work is admirable.");
     next;
 
-l_Kick:
+L_Kick:
     closedialog;
 
     npctalk3 l("No cookie for you!");
@@ -214,13 +214,13 @@ l_Kick:
 
     close;
 
-l_GetCookie:
+L_GetCookie:
     mesq l("How was the cookie? Tasty, wasn't it?");
     next;
     mesq l("If you want another one, you know what to do!");
     next;
 
-l_Bye:
+L_Bye:
     closedialog;
 
     npctalk3 l("See you later!");

@@ -9,9 +9,9 @@
 
     mesn;
     set @a, rand(4);
-    if (@a == 0) goto l_HardToHit;
-    if (@a == 1) goto l_Aouch;
-    if (@a == 2) goto l_DoYou;
+    if (@a == 0) goto L_HardToHit;
+    if (@a == 1) goto L_Aouch;
+    if (@a == 2) goto L_DoYou;
 
     mesq l("Hey you!");
     next;
@@ -19,42 +19,42 @@
     next;
 
     menu
-        l("Some food."), l_Food,
+        l("Some food."), L_Food,
         l("Nothing, just hanging around."), -;
 
     closedialog;
     npctalk3 l("Ok, see you then!");
-    goto l_Quit;
+    goto L_Quit;
 
-l_Food:
+L_Food:
     mes " ";
     mesn;
     mesq l("You can yaye some @@s by hitting these crocotrees.", getitemlink("Croconut"));
     next;
     mesq l("Yeye be careful with wild animal's food, some of them are yeyery dangerous, especially the crocs.");
 
-    goto l_Quit;
+    goto L_Quit;
 
-l_HardToHit:
+L_HardToHit:
     mesq l("These crocotrees are full of yaying @@, but they are so hard to hit...", getitemlink("Croconut"));
 
-    goto l_Quit;
+    goto L_Quit;
 
-l_Aouch:
+L_Aouch:
     mesq l("Ayouyouch! My head...");
     next;
     mesq l("Damn @@.", getitemlink("Croconut"));
 
-    goto l_Quit;
+    goto L_Quit;
 
-l_DoYou:
+L_DoYou:
     mesq l("Do you want to try?");
     next;
     mesq l("Just hit the trunk, and it will yeye a @@.", getitemlink("Croconut"));
 
-    goto l_Quit;
+    goto L_Quit;
 
-l_Quit:
+L_Quit:
     setnpcdir 4;
     close;
 }

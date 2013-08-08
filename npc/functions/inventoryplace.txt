@@ -14,12 +14,12 @@ function	script	InventoryPlace	{
     set @iteminfo, getiteminfo(getarg(0), 2);
     set @countitem, countitem(getarg(0));
 
-    if (checkweight(getarg(0), getarg(1)) == 0) goto l_Warn;
+    if (checkweight(getarg(0), getarg(1)) == 0) goto L_Warn;
     if ((@iteminfo < 4) && (@countitem == 0) && (@inventorylist_count < 100)) return;
     if ((@iteminfo < 4) && (@countitem > 0)) return;
     if (@inventorylist_count + getarg(1) <= 100) return;
 
-l_Warn:
+L_Warn:
     mes "";
     mesn "Narrator";
     mes col(l("It looks like you can't carry anything else for now."), 9);

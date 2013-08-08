@@ -18,10 +18,10 @@
     next;
 
     menu
-        rif(@gugli == 1, l("Well, I was in fact looking for them. Where are they now?")), l_Sailors,
-        l("Wait... Where are we going?"), l_Artis;
+        rif(@gugli == 1, l("Well, I was in fact looking for them. Where are they now?")), L_Sailors,
+        l("Wait... Where are we going?"), L_Artis;
 
-l_Artis:
+L_Artis:
     mes "";
     mesn;
     mesq l("Artis of course!");
@@ -30,9 +30,9 @@ l_Artis:
     next;
     mesq l("If you're looking for us there, mostly all of us will be at Pedro's restaurant and in the Inn for Silvio's case...");
 
-    goto l_Close;
+    goto L_Close;
 
-l_Sailors:
+L_Sailors:
     mes "";
     mesn;
     mesq l("They are all around the island.");
@@ -45,7 +45,7 @@ l_Sailors:
     next;
 
     menu
-        l("Thank you for your help."), l_Close,
+        l("Thank you for your help."), L_Close,
         l("Gugli mentioned six sailors. What about the others?"), -;
 
     mes "";
@@ -56,6 +56,6 @@ l_Sailors:
 
     close;
 
-l_Close:
+L_Close:
     callfunc "GoodBye";
 }

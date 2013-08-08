@@ -44,24 +44,24 @@
     set @q3, getq(ShipQuests_Nard);
     set @s$, l("I don't want to change my language, sorry.");
 
-l_Menu:
+L_Menu:
     menu
-        rif(@q3 == 3 && @q2 == 0, l("I heard rumors about some old hostilities between you and Gado. Are they true?")), l_Rumors,
-        rif(@q2 == 2 && countitem("PoisonedDish", 1), l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen.")), l_Regret,
-        rif(@q2 == 2 && countitem("PoisonedDish", 1), l("I have brought you a tasty present for your delicate mouth.")), l_PoisonJulia,
-        lg("I made a mistake, I would like to change my language."), l_ChooseLang,
-        l("Could you explain to me where I am?"), l_WhereIam,
-        l("What happened to me?"), l_What,
-        l("Can I read these rules again?"), l_Rules,
-        l("Nothing, sorry."), l_Quit;
+        rif(@q3 == 3 && @q2 == 0, l("I heard rumors about some old hostilities between you and Gado. Are they true?")), L_Rumors,
+        rif(@q2 == 2 && countitem("PoisonedDish", 1), l("Well... No wait, I have something for you but you shouldn't eat it... I'm taking it back to the kitchen.")), L_Regret,
+        rif(@q2 == 2 && countitem("PoisonedDish", 1), l("I have brought you a tasty present for your delicate mouth.")), L_PoisonJulia,
+        lg("I made a mistake, I would like to change my language."), L_ChooseLang,
+        l("Could you explain to me where I am?"), L_WhereIam,
+        l("What happened to me?"), L_What,
+        l("Can I read these rules again?"), L_Rules,
+        l("Nothing, sorry."), L_Quit;
 
     mes "";
     mesn;
     mesq l("Of course! Tell me which language you speak and I will change the note on the ship board list.");
 
-    goto l_ChooseLang;
+    goto L_ChooseLang;
 
-l_First:
+L_First:
 
     callfunc "CheckClientVersion";
 
@@ -75,9 +75,9 @@ l_First:
     mesq lg("Could I ask you what your native language is? A sailor told me you're russian, but another one told me you're french... I'm a bit lost. I will register you on the ship boarding list just after that.");
     next;
     set @s$, "";
-    goto l_ChooseLang;
+    goto L_ChooseLang;
 
-  l_ChooseLang:
+  L_ChooseLang:
     menu
         menuimage("flags/en", l("I speak English.") + " (English)"), -,
         menuimage("flags/fr", l("I speak French.") + " (Français)"), -,
@@ -88,8 +88,8 @@ l_First:
         menuimage("flags/vls", l("I speak Flemish.") + " (Vlaams)"), -,
         menuimage("flags/pl", l("I speak Polish.") + " (Polski)"), -,
         menuimage("flags/it", l("I speak Italian.") + " (Italiano)"), -,
-        menuimage("flags/nl_BE", l("I speak Dutch.") + " (Nederlands)"), -,
-    @s$, l_NoChanges;
+        menuimage("flags/nL_BE", l("I speak Dutch.") + " (Nederlands)"), -,
+    @s$, L_NoChanges;
     set @lang, @menu-1;
     if (@lang < 0 || @lang > 9) close;
     setlang @lang;
@@ -99,7 +99,7 @@ l_First:
     mesq l("Ok, done.");
 
     set @q, getq(ShipQuests_Julia);
-    if (@q == 2) goto l_NoRules;
+    if (@q == 2) goto L_NoRules;
 
     next;
     mesq l("I'm sure that you've got some questions for me, feel free to ask them, but firstly I need to tell you the rules of proper social conduct on board.");
@@ -134,27 +134,27 @@ l_First:
     next;
 
     setq ShipQuests_Julia, 2;
-    goto l_Menu;
+    goto L_Menu;
 
-l_NoRules:
+L_NoRules:
     next;
     mesq l("Do you have any other questions for me?");
     next;
 
-    goto l_YNMenu;
+    goto L_YNMenu;
 
-l_NoChanges:
+L_NoChanges:
     mes "";
     mesn;
     mesq l("No problem, do you have any other questions for me?");
     next;
 
-l_YNMenu:
+L_YNMenu:
     menu
-        l("Yes, I do."), l_Menu,
-        l("No, none."), l_Quit;
+        l("Yes, I do."), L_Menu,
+        l("No, none."), L_Quit;
 
-l_WhereIam:
+L_WhereIam:
     mes "";
     mesn;
     mesq l("You're on a ship, we're on our way to the commercial capital of Artis.");
@@ -166,9 +166,9 @@ l_WhereIam:
     mesq l("Do you have any other questions for me?");
     next;
 
-    goto l_YNMenu;
+    goto L_YNMenu;
 
-l_What:
+L_What:
     mes "";
     mesn;
     mesq l("We thought that you could help us understand this, all we know is that we found you back in the sea, adrift on your raft.");
@@ -177,14 +177,14 @@ l_What:
     next;
     mesq l("Oh, and there was this inscription on your raft. It represents the Warrior Guild of Esperia, the largest and biggest guild of the whole new world. Does that make you remember anything, anything at all?");
     next;
-    goto l_EsperiaMenu;
+    goto L_EsperiaMenu;
 
-l_EsperiaMenu:
+L_EsperiaMenu:
     menu
-        l("Sorry, but I can't tell you anything about that."), l_NoChanges,
-        l("Nothing, sorry."), l_NoChanges;
+        l("Sorry, but I can't tell you anything about that."), L_NoChanges,
+        l("Nothing, sorry."), L_NoChanges;
 
-l_Rules:
+L_Rules:
     mes "";
     mesn;
     mesq l("Of course, they are on the left wall, go have a look at them.");
@@ -192,15 +192,15 @@ l_Rules:
     mesq l("Do you have any other questions for me?");
     next;
 
-    goto l_YNMenu;
+    goto L_YNMenu;
 
 OnTouch:
     set @q, getq(ShipQuests_Julia);
-    if (@q == 0 || @q == 1) goto l_First;
+    if (@q == 0 || @q == 1) goto L_First;
 
     close;
 
-l_PoisonJulia:
+L_PoisonJulia:
     mes "";
     mesn;
     mesq l("Seems yummy! Let me taste it!");
@@ -211,7 +211,7 @@ l_PoisonJulia:
 
     close;
 
-l_Regret:
+L_Regret:
     mes "";
     mesn;
     mesq l("Why? And who should you bring it back to?");
@@ -233,7 +233,7 @@ l_Regret:
 
     close;
 
-l_Rumors:
+L_Rumors:
     mes "";
     mesn;
     mesq l("You shouldn't believe all of the stories drunk sailors tell you.");
@@ -252,7 +252,7 @@ l_Rumors:
     next;
 
     menu
-        l("Well... I don't think it is the best way to rule a ship. Think about it."), l_Quit,
+        l("Well... I don't think it is the best way to rule a ship. Think about it."), L_Quit,
         l("In fact, everything seems to work perfectly under your guidance. Nard has made the right choice."), -;
 
     mes "";
@@ -268,6 +268,6 @@ l_Rumors:
 
     close;
 
-l_Quit:
+L_Quit:
     callfunc "GoodBye";
 }

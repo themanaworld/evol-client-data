@@ -18,13 +18,13 @@
     next;
 
     menu
-        l("Yes."), l_Give,
+        l("Yes."), L_Give,
         l("No."), -;
 
     closedialog;
     close;
 
-l_Give:
+L_Give:
     mes "";
     set @item, 3500;
     set @count, 1;

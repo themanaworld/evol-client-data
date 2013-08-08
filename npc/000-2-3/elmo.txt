@@ -6,7 +6,7 @@
 
 000-2-3.gat,27,27,0,1	script	Elmo	309;5,{
     set @q, getq(ShipQuests_ArpanMoney);
-    if (@q == 1) goto l_GotMoney;
+    if (@q == 1) goto L_GotMoney;
 
     mesn;
     mesq l("Hey you, sorry for leaving your room so quickly, I needed to... Speak with the captain about... The reserve. You know, now that we have a new mouth to feed, we need to check what we have.");
@@ -15,7 +15,7 @@
     next;
 
     menu
-        l("Yes, Arpan gave me these clothes."), l_OhGood,
+        l("Yes, Arpan gave me these clothes."), L_OhGood,
         l("No."), -;
 
     mes "";
@@ -26,14 +26,14 @@
 
     close;
 
-l_OhGood:
+L_OhGood:
     mes "";
     mesn;
     mesq l("Oh good! Did he give you your money back as well?");
     next;
 
     menu
-        l("Yes he did."), l_OhHeDid,
+        l("Yes he did."), L_OhHeDid,
         l("He told me nothing about that."), -;
 
     mes "";
@@ -42,14 +42,14 @@ l_OhGood:
 
     close;
 
-l_OhHeDid:
+L_OhHeDid:
     mes "";
     mesn;
     mesq l("Ok, be patient a little while longer, in the next few days we will arrive at the port of Artis...");
 
     close;
 
-l_GotMoney:
+L_GotMoney:
     mesn;
     mesq l("Be patient a little while longer, in the next few days we will arrive at the port of Artis...");
     next;

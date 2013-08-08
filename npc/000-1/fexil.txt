@@ -16,7 +16,7 @@
     next;
 
     menu
-        l("Yes, why not."), l_Accepted,
+        l("Yes, why not."), L_Accepted,
         l("No, sorry."), -;
 
     mes "";
@@ -27,7 +27,7 @@
 
     close;
 
-l_Accepted:
+L_Accepted:
     shop "Bag";
 
     closedialog;

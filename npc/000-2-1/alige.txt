@@ -48,7 +48,7 @@ OnTimer190:
 
 000-2-1.gat,43,31,0,1	script	Alige	301;2,{
     set @q, getq(ShipQuests_Alige);
-    if (@q > 1) goto l_AskForFood;
+    if (@q > 1) goto L_AskForFood;
 
     goto OnFirstEncounter;
 
@@ -63,7 +63,7 @@ OnFirstEncounter:
 
     menu
         lg("I am, who are you?"), -,
-        lg("Indeed, I am not."), l_NeedHelp;
+        lg("Indeed, I am not."), L_NeedHelp;
 
     mes "";
     mesn "Narrator";
@@ -71,7 +71,7 @@ OnFirstEncounter:
 
     close;
 
-l_NeedHelp:
+L_NeedHelp:
     setcamnpc;
     mes "";
     mesn "Hidden Person";
@@ -80,13 +80,13 @@ l_NeedHelp:
     restorecam;
 
     menu
-        l("Why not, but who are you, and what kind of help do you need?"), l_CanHelp;
+        l("Why not, but who are you, and what kind of help do you need?"), L_CanHelp;
         l("Sorry but I have no time for this."), -;
 
     closedialog;
     close;
 
-l_CanHelp:
+L_CanHelp:
     setcamnpc;
     mes "";
     mesn;
@@ -99,10 +99,10 @@ l_CanHelp:
     restorecam;
 
     menu
-        l("Sure, but what can you give me in exchange?"), l_AboutReward,
+        l("Sure, but what can you give me in exchange?"), L_AboutReward,
         l("Why don't you come out?"), -;
 
-l_ExplainHiding:
+L_ExplainHiding:
     setcamnpc;
     mes "";
     mesn;
@@ -114,10 +114,10 @@ l_ExplainHiding:
     next;
     restorecam;
 
-    if (getq(ShipQuests_Alige) == 2) goto l_SoAskForFood;
-    goto l_Accept;
+    if (getq(ShipQuests_Alige) == 2) goto L_SoAskForFood;
+    goto L_Accept;
 
-l_AboutReward:
+L_AboutReward:
     setcamnpc;
     mes "";
     mesn;
@@ -125,10 +125,10 @@ l_AboutReward:
     next;
     restorecam;
 
-l_Accept:
+L_Accept:
     menu
-        l("Understood, I will help you."), l_FirstAccepted,
-        l("What is Artis?"), l_Artis,
+        l("Understood, I will help you."), L_FirstAccepted,
+        l("What is Artis?"), L_Artis,
         l("I think I should report you to the crew members."), -;
 
     setcamnpc;
@@ -136,7 +136,7 @@ l_Accept:
 
     close;
 
-l_Artis:
+L_Artis:
     setcamnpc;
     mes "";
     mesn;
@@ -144,16 +144,16 @@ l_Artis:
     next;
     restorecam;
 
-    if (@q == 2) goto l_SoAskForFood;
-    goto l_Accept;
+    if (@q == 2) goto L_SoAskForFood;
+    goto L_Accept;
 
-l_FirstAccepted:
-    if (getq(ShipQuests_Alige) >= 2) goto l_Accepted;
+L_FirstAccepted:
+    if (getq(ShipQuests_Alige) >= 2) goto L_Accepted;
     setq ShipQuests_Alige, 2;
 
-    goto l_Accepted;
+    goto L_Accepted;
 
-l_Accepted:
+L_Accepted:
     setcamnpc;
     mes "";
     mesn;
@@ -161,7 +161,7 @@ l_Accepted:
     next;
     restorecam;
 
-l_GiveFood:
+L_GiveFood:
     mes "";
     menu
         rif(countitem(501, 1), l(getitemname("Acorn"))), 0,
@@ -181,11 +181,11 @@ l_GiveFood:
         l("I don't have anything good for you today."), -1;
 
     set @id, @menuret;
-    if (@id == -1) goto l_Quit; // Quit message.
-    if (@id == 0) goto l_NoReward; // In case of wrong food.
-    if (@id == 1) goto l_Poison; // In case of poisoned food.
-    if (@id == 2) goto l_NoMore; // In case of Piberries.
-    if (countitem(@id) == 0) goto l_Quit;
+    if (@id == -1) goto L_Quit; // Quit message.
+    if (@id == 0) goto L_NoReward; // In case of wrong food.
+    if (@id == 1) goto L_Poison; // In case of poisoned food.
+    if (@id == 2) goto L_NoMore; // In case of Piberries.
+    if (countitem(@id) == 0) goto L_Quit;
 //  if (@id == item's ID) then food is correct.
 // Do not put any other number than -1, 0, 1, 2 or the item's ID, that'll avoid confusion.
 
@@ -201,64 +201,64 @@ l_GiveFood:
     getitem "Piberries", rand(1, 3);
     next;
 
-    goto l_ReturnMenu;
+    goto L_ReturnMenu;
 
-l_NoReward:
+L_NoReward:
     setcamnpc;
     mes "";
     mesn;
     mesq l("You don't expect me to eat that, do you? Give me something else!");
     restorecam;
 
-    goto l_GiveFood;
+    goto L_GiveFood;
 
-l_ReturnMenu:
+L_ReturnMenu:
     setcamnpc;
     mesq l("Do you have anything else for me?");
     next;
     restorecam;
 
-    goto l_GiveFood;
+    goto L_GiveFood;
 
-l_NoMore:
+L_NoMore:
     setcamnpc;
     mes "";
     mesn;
     mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid... Stupid... Stupid!");
     next;
 
-    goto l_ReturnMenu;
+    goto L_ReturnMenu;
 
-l_Poison:
+L_Poison:
     setcamnpc;
     mes "";
     mesn;
     mesq l("Don't try to poison me! I know what that does!");
     restorecam;
     next;
-    goto l_ReturnMenu;
+    goto L_ReturnMenu;
 
-l_SoAskForFood:
+L_SoAskForFood:
     setcamnpc;
     mesn;
     mesq l("So, do you have anything for me today?");
     next;
     restorecam;
-    goto l_IntroMenu;
+    goto L_IntroMenu;
 
-l_AskForFood:
+L_AskForFood:
     setcamnpc;
     mesn;
     mesq l("Do you have anything for me today?");
     next;
     restorecam;
 
-l_IntroMenu:
+L_IntroMenu:
     menu
-        l("Yes."), l_GiveFood,
-        l("Where can I find some food?"), l_FindFood,
-        l("Why are you hiding?") + " " + l("Why don't you come out?"), l_ExplainHiding,
-        l("What is Artis?"), l_Artis,
+        l("Yes."), L_GiveFood,
+        l("Where can I find some food?"), L_FindFood,
+        l("Why are you hiding?") + " " + l("Why don't you come out?"), L_ExplainHiding,
+        l("What is Artis?"), L_Artis,
         l("I think I should report you to the crew members."), -;
 
     setcamnpc;
@@ -266,7 +266,7 @@ l_IntroMenu:
 
     close;
 
-l_FindFood:
+L_FindFood:
     setcamnpc;
     mes "";
     mesn;
@@ -284,7 +284,7 @@ l_FindFood:
 
     close;
 
-l_Quit:
+L_Quit:
     setcamnpc;
     mes "";
     mesn;

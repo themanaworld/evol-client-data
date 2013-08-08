@@ -24,7 +24,7 @@
 
     menu
         l("Yes!"), -,
-        l("No!"), l_Quit;
+        l("No!"), L_Quit;
 
     setcamnpc;
     mes "";
@@ -39,12 +39,12 @@
 
     menu
         l("I do feel better!"), -,
-        l("Why don't you come down to talk?"), l_GoDown;
+        l("Why don't you come down to talk?"), L_GoDown;
 
     mes "";
     menu
         l("And you, how are you doing?"), -,
-        l("But I need to go, see you!"), l_Bye;
+        l("But I need to go, see you!"), L_Bye;
 
     setcamnpc;
     mes "";
@@ -69,8 +69,8 @@
     restorecam;
 
     menu
-        l("I said... WHY DON'T YOU COME DOWN TO TALK?"), l_GoDown,
-        l("I SAID, SEE YOU LATER!"), l_Bye,
+        l("I said... WHY DON'T YOU COME DOWN TO TALK?"), L_GoDown,
+        l("I SAID, SEE YOU LATER!"), L_Bye,
         l("I'M CALLED, @@!", strcharinfo(0)), -;
 
     setcamnpc;
@@ -84,7 +84,7 @@
 
     menu
         l("I'm looking for Gugli, where is he?"), -,
-        l("I need to go, sorry."), l_Bye;
+        l("I need to go, sorry."), L_Bye;
 
     setcamnpc;
     mes "";
@@ -97,7 +97,7 @@
 
     close;
 
-l_GoDown:
+L_GoDown:
     setcamnpc;
     mes "";
     mesn;
@@ -111,32 +111,32 @@ l_GoDown:
 
     menu
         l("Have you seen anything dangerous?"), -,
-        l("Interesting... I'll leave you to your task then!"), l_Bye;
+        l("Interesting... I'll leave you to your task then!"), L_Bye;
 
     mes "";
     mesn;
 
-    if (@q > 0) goto l_DangerAround;
+    if (@q > 0) goto L_DangerAround;
 
     setcamnpc;
     mesq l("Oh no, but I've noticed a weird light on the other edge of this island, I wonder what it can be...");
 
     close;
 
-l_Bye:
+L_Bye:
     setcamnpc;
     npctalk3 l("FINE, BYE!");
 
     closedialog;
     close;
 
-l_DangerAround:
+L_DangerAround:
     setcamnpc;
     mesq l("NOTHING ELSE OTHER THAN SHARKS AND AN ODD LIGHT!");
 
     close;
 
-l_Quit:
+L_Quit:
     closedialog;
     close;
 }

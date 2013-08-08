@@ -27,14 +27,14 @@
     set @gugli, getq(ShipQuests_Gugli);
     set @gado, getq(ShipQuests_ChefGado);
 
-l_Checker:
-    if (@gado > 3 && @nard == 3) goto l_ChefQuestComplete;
-    if (@nard == 2) goto l_ChefQuestStart;
-    if (@nard == 3) goto l_ChefQuestGiven;
-    if (@nard == 4) goto l_Reward;
-    if (@nard > 4) goto l_Already;
-    if (@gugli == 2) goto l_Done;
-    if (@nard == 1) goto l_NotYet;
+L_Checker:
+    if (@gado > 3 && @nard == 3) goto L_ChefQuestComplete;
+    if (@nard == 2) goto L_ChefQuestStart;
+    if (@nard == 3) goto L_ChefQuestGiven;
+    if (@nard == 4) goto L_Reward;
+    if (@nard > 4) goto L_Already;
+    if (@gugli == 2) goto L_Done;
+    if (@nard == 1) goto L_NotYet;
 
     mesn;
     mesq l("Hello.");
@@ -56,10 +56,10 @@ l_Checker:
     mesq l("So, how do you feel? I see that Julia did a marvelous job! You look like you're in good health now.");
     next;
 
-l_Menu:
+L_Menu:
     menu
-        lg("I feel ok."), l_Ok,
-        l("Who's this Julia?"), l_Julia,
+        lg("I feel ok."), L_Ok,
+        l("Who's this Julia?"), L_Julia,
         lg("I'm a bit sick..."), -;
 
     mes "";
@@ -67,10 +67,10 @@ l_Menu:
     mesq l("Oh, I was going to ask you if you wanted to help the crew search for some food and explore the island out there.");
     next;
 
-l_MenuQuest:
+L_MenuQuest:
     menu
         l("What do you need?"), -,
-        l("Is there a reward?"), l_NeedHead;
+        l("Is there a reward?"), L_NeedHead;
 
     mes "";
     mesn;
@@ -80,13 +80,13 @@ l_MenuQuest:
            l("We need manpower on the island."));
     next;
 
-    goto l_NeedContent;
+    goto L_NeedContent;
 
-l_NeedHead:
+L_NeedHead:
     mes "";
     mesn;
 
-l_NeedContent:
+L_NeedContent:
     mesq l("Sure, there is a reward for your task.");
     next;
     mesq l("Our crew is like a family, and if you agree to help us, I would like to invite you to join our family!");
@@ -107,7 +107,7 @@ l_NeedContent:
 
     close;
 
-l_Ok:
+L_Ok:
     mes "";
     mesn;
     mesq l("Good to know.");
@@ -117,9 +117,9 @@ l_Ok:
     mesq l("It would be good for you to do some exercise, the ship isn't big enough for that.");
     next;
 
-    goto l_SpecialTask;
+    goto L_SpecialTask;
 
-l_Julia:
+L_Julia:
     mes "";
     mesn;
     mesq l("You have an awful amnesia.");
@@ -129,18 +129,18 @@ l_Julia:
     mesq lg("But most important, she is the one who took care of you when you were unconscious.");
     next;
 
-l_SpecialTask:
+L_SpecialTask:
     mesq l("I know that you are just starting to feel better, but I'd like to give you a special task.");
     next;
 
-    goto l_MenuQuest;
+    goto L_MenuQuest;
 
-l_NotYet:
+L_NotYet:
     mesn;
     mesq l("You still haven't completed your tasks.");
     close;
 
-l_Done:
+L_Done:
     mesn;
     mesq l("Hi @@.", strcharinfo(0));
     next;
@@ -148,14 +148,14 @@ l_Done:
 
     setq ShipQuests_Nard, 2;
     next;
-    goto l_ChefQuestRedir;
+    goto L_ChefQuestRedir;
 
-l_ChefQuestStart:
+L_ChefQuestStart:
     mesn;
     mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate the efforts you did down there.");
     next;
 
-l_ChefQuestRedir:
+L_ChefQuestRedir:
     mesq l("Unfortunately, we still need help from you. This time it will be a delicate task, here onboard.");
     next;
     mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably already met Julia and Gado the Chef.");
@@ -173,13 +173,13 @@ l_ChefQuestRedir:
 
     close;
 
-l_ChefQuestGiven:
+L_ChefQuestGiven:
     mesn;
     mesq l("It seems you still have some work to do.");
 
     close;
 
-l_ChefQuestComplete:
+L_ChefQuestComplete:
     mesn;
     mesq l("Congratulations!");
     next;
@@ -206,13 +206,13 @@ l_ChefQuestComplete:
 
     close;
 
-l_Reward:
+L_Reward:
     mesn;
     mesq l("Hey! There's a reward for you in the box next to me!");
 
     close;
 
-l_Already:
+L_Already:
     mesn;
     mesq l("Sorry, I don't need any help right now. Come back later.");
 

@@ -8,18 +8,18 @@ function	script	SailorFood	{
     mesn;
 
     set @q, rand(0, 400) / 100;
-    if (@q == 0) goto l_RandomA;
-    if (@q == 1) goto l_RandomB;
-    if (@q > 1) goto l_RandomC;
+    if (@q == 0) goto L_RandomA;
+    if (@q == 1) goto L_RandomB;
+    if (@q > 1) goto L_RandomC;
 
-l_RandomA:
+L_RandomA:
     mesq l("Hey.");
     next;
     mesq l("What did Gugli said about the box? Was it ok?");
     next;
 
     menu
-        l("It's ok."), l_Fine,
+        l("It's ok."), L_Fine,
         l("He needs more food."), -;
 
     mes "";
@@ -28,21 +28,21 @@ l_RandomA:
 
     close;
 
-l_Fine:
+L_Fine:
     mes "";
     mesn;
     mesq l("It's alright! Just one more box and it'll be ok.");
 
     close;
 
-l_RandomB:
+L_RandomB:
     mesq l("Thanks for the help!");
     next;
     mesq l("These boxes are way too heavy to be brought alone onto the ship.");
 
     close;
 
-l_RandomC:
+L_RandomC:
     mesq l("I think that I'm soon done since I'll soon have a box full of @@s!", getitemlink("CrocClaw"));
     next;
     mesq l("And you? How's it going on your side?");

@@ -6,7 +6,7 @@
 
 000-2-0.gat,20,23,0,1	script	Billy Bons	311;3,{
 
-    if (rand(5) == 2) goto l_Hic;
+    if (rand(5) == 2) goto L_Hic;
 
     mesn;
     mesq l("You? Here?");
@@ -26,7 +26,7 @@
     next;
 
     menu
-        l("Are you ok?"), l_Quit,
+        l("Are you ok?"), L_Quit,
         l("Alright... Bye."), -;
 
     mes "";
@@ -39,9 +39,9 @@
     next;
 
     menu
-        l("What are you talking about? What guild?"), l_Quit,
+        l("What are you talking about? What guild?"), L_Quit,
         l("You are full of wine, my friend..."), -,
-        l("You should go and get some sleep."), l_Quit;
+        l("You should go and get some sleep."), L_Quit;
 
     mes "";
     mesn;
@@ -50,8 +50,8 @@
 
     menu
         l("But who am I?"), -,
-        l("What am I supposed to say?"), l_Quit,
-        l("You should go and get some sleep."), l_Secret;
+        l("What am I supposed to say?"), L_Quit,
+        l("You should go and get some sleep."), L_Secret;
 
     mes "";
     mesn;
@@ -59,7 +59,7 @@
 
     close;
 
-l_Secret:
+L_Secret:
     mes "";
     mesn;
     mesq l("Hear me *hic* well, what ever, whatididever you will *hic* said ab... uhm... out what?! You saw there, the Warrior Guild of Esperia won't let it get public.");
@@ -71,12 +71,12 @@ l_Secret:
 
     close;
 
-l_Hic:
+L_Hic:
     npctalk3 l("*Hic*");
 
     close;
 
-l_Quit:
+L_Quit:
     mes "";
     mesn;
     mesq l("Yeah you're all like *hic* that in Esperia, but you won't get me! *burp*");

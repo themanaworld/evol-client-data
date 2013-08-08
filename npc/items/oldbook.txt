@@ -15,12 +15,12 @@ OnUse:
     next;
 
     menu
-        l("Yes."), l_Read,
+        l("Yes."), L_Read,
         l("No."), -;
 
     close;
 
-l_Read:
+L_Read:
     mes "";
     mes l("Aemil is a magnificent world unknown to us all.");
     next;

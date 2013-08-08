@@ -14,15 +14,15 @@
 000-1.gat,83,70,0	script	#chest	316;2,{
 
     set @q, getq(ShipQuests_TreasureChest);
-    if (getnpcdir ("") == 4) goto l_Give;
+    if (getnpcdir ("") == 4) goto L_Give;
 
     setnpcdir 2;
     initnpctimer;
     startnpctimer;
     close;
 
-l_Give:
-    if (@q > 0) goto l_Close;
+L_Give:
+    if (@q > 0) goto L_Close;
 
     callfunc "InventoryPlace", 514, 1;
 
@@ -32,7 +32,7 @@ l_Give:
     getitem "OldBook", 1;
     npctalk3 l("You open the treasure chest.");
 
-l_Close:
+L_Close:
     setnpcdir 6;
     initnpctimer;
     startnpctimer;

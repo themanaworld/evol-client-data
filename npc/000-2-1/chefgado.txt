@@ -18,13 +18,13 @@
 000-2-1.gat,27,28,0,1	script	Chef Gado	318;2,{
     set @q, getq(ShipQuests_ChefGado);
     set @n, getq(ShipQuests_Nard);
-    if (@q == 1) goto l_QuestAccepted;
-    if (@q == 2) goto l_PoisonAccepted;
-    if (@q == 3) goto l_PoisonJulia;
-    if (@q == 4) goto l_QuestComplete;
-    if (@q == 5 && countitem("PoisonedDish") > 0) goto l_Aborting;
-    if (@q > 4) goto l_QuestAborted;
-    if (@n == 3) goto l_QuestStart;
+    if (@q == 1) goto L_QuestAccepted;
+    if (@q == 2) goto L_PoisonAccepted;
+    if (@q == 3) goto L_PoisonJulia;
+    if (@q == 4) goto L_QuestComplete;
+    if (@q == 5 && countitem("PoisonedDish") > 0) goto L_Aborting;
+    if (@q > 4) goto L_QuestAborted;
+    if (@n == 3) goto L_QuestStart;
 
     mesn;
     set @r, rand(3);
@@ -34,13 +34,13 @@
 
     close;
 
-l_QuestStart:
+L_QuestStart:
     mesn;
     mesq l("So it seems I have another stomach to fill. Those bastards have no respect for who feeds them every damn day!");
     next;
 
     menu
-        l("How rude! What is the reason behind your malice?"), l_Rude,
+        l("How rude! What is the reason behind your malice?"), L_Rude,
         l("I swear, I do not eat so much."), -;
 
     mes "";
@@ -49,7 +49,7 @@ l_QuestStart:
 
     close;
 
-l_Rude:
+L_Rude:
     mes "";
     mesn;
     mesq l("UAHAHAHAAH! I am the cook of that bunch of donkeys and I can be rude with everyone from this bossy captain to that harpy-lady!");
@@ -84,7 +84,7 @@ l_Rude:
     next;
 
     menu
-        l("Sea water?! I will not help you with your evil plan!"), l_Quit,
+        l("Sea water?! I will not help you with your evil plan!"), L_Quit,
         l("Sure, why not?"), -;
 
     setq ShipQuests_ChefGado, 1;
@@ -94,20 +94,20 @@ l_Rude:
     next;
     mesq l("Before you go, let me tell you how to get @@s, because you don't look very smart.", getitemlink("HalfCroconut"));
 
-    goto l_OpenCroconut;
+    goto L_OpenCroconut;
 
-l_QuestAccepted:
+L_QuestAccepted:
     mesn;
     mesq l("Have you collected all the ingredients for my recipe? The special one too?");
     next;
 
     menu
-        rif(countitem("PiouLegs") > 1 && countitem("HalfCroconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), l_GotAll,
-        l("What are your needs?"), l_Need,
-        l("Where can I find a half croconut?"), l_OpenCroconut,
-        l("Not yet. I will be back soon."), l_Quit;
+        rif(countitem("PiouLegs") > 1 && countitem("HalfCroconut") > 0 && countitem("Aquada") > 0 && countitem("SeaDrops") > 0, l("All your... Fresh ingredients are ready to be cooked.")), L_GotAll,
+        l("What are your needs?"), L_Need,
+        l("Where can I find a half croconut?"), L_OpenCroconut,
+        l("Not yet. I will be back soon."), L_Quit;
 
-l_OpenCroconut:
+L_OpenCroconut:
     mes "";
     mesn;
     mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
@@ -117,7 +117,7 @@ l_OpenCroconut:
 
     close;
 
-l_GotAll:
+L_GotAll:
     mes "";
 
     callfunc "InventoryPlace", 717, 1;
@@ -139,7 +139,7 @@ l_GotAll:
     close;
 
 
-l_Need:
+L_Need:
     mes "";
     mesn;
     mesq l("Shhht, don't say it that loud...");
@@ -150,13 +150,13 @@ l_Need:
 
     close;
 
-l_PoisonAccepted:
+L_PoisonAccepted:
     mesn;
     mesq l("Fool! Just come back here when you'll be done with our little... 'Secret mission'.");
 
     close;
 
-l_PoisonJulia:
+L_PoisonJulia:
     mesn;
     mesq l("The usurper has been punished! This is a great day! Take this reward as a prize for your loyalty to the old commander!");
 
@@ -169,13 +169,13 @@ l_PoisonJulia:
 
     close;
 
-l_QuestComplete:
+L_QuestComplete:
     mesn;
     mesq l("Oh, it's you. I think it's better we do not talk for a while. They suspect something.");
 
     close;
 
-l_Aborting:
+L_Aborting:
     mesn;
     mesq l("Wait, why do you still have the dish on you?!");
     next;
@@ -196,13 +196,13 @@ l_Aborting:
 
     close;
 
-l_QuestAborted:
+L_QuestAborted:
     mesn;
     mesq lg("You're like the rest of this filthy crew. Your name is now on the traitors list!");
 
     close;
 
-l_Quit:
+L_Quit:
     closedialog;
     close;
 }
