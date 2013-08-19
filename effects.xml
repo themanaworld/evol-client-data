@@ -13,12 +13,13 @@ Copyright (C) 2010-2013 Evol Online -->
     <effect id="8" particle="graphics/particles/poison.xml"/> // Poison particle effect.
     <effect id="9" particle="graphics/particles/invisibility.xml"/> // Invisibility particle effect.
     <effect id="10" particle="graphics/particles/afk.xml"/> // AFK particle effect.
-     <effect id="11"/> // Complete and incomplete quest particle effect.
+    <effect id="11" audio="system/critical.ogg" particle="graphics/particles/critical.xml"/> // Critical hit's explosion particle effect.
     <effect id="12" sprite="effects/queststart.xml"/> // NPC quest-start status effect.
     <effect id="13" sprite="effects/questcontinue.xml"/> // NPC quest-continue status effect.
     <effect id="14" sprite="effects/queststart-low.xml"/> // NPC quest-start status effect (reduced height).
     <effect id="15" sprite="effects/questcontinue-low.xml"/> // NPC quest-continue status effect (reduced height).
     <effect id="16" particle="graphics/particles/hit.xml"/> // Hit's explosion particle effect.
-    <effect id="17" audio="system/critical.ogg" particle="graphics/particles/critical.xml"/> // Critical hit's explosion particle effect.
+    <effect id="17" audio="system/quest-update.ogg"/> // Updated quest particle effect.
+    <effect id="18" audio="system/quest-done.ogg"/> // Finished quest particle effect.
      <effect id="344"/> // @summon GM command particle effect.
 </being-effects>
