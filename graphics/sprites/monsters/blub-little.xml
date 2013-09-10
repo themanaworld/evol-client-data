@@ -9,7 +9,7 @@ Copyright (C) 2011-2013 Evol Online -->
               offsetY="-11"/>
 
     <action name="spawn" imageset="mob">
-        <animation>
+        <animation direction="default">
             <!-- Coming out of the ground. -->
             <frame index="0" delay="200" offsetY="2"/>
             <frame index="1" delay="150" offsetY="2"/>
@@ -64,7 +64,6 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="1" delay="150"/>
             <frame index="2" delay="130"/>
             <frame index="3" delay="700"/>
-
         </animation>
 
         <animation direction="upleft">
@@ -125,18 +124,18 @@ Copyright (C) 2011-2013 Evol Online -->
             <!-- Static Head -->
             <frame index="0" delay="2080"/>
             <!-- Turning Head -->
-                <sequence start="0" end="3" delay="130"/>
+            <sequence start="0" end="3" delay="130"/>
             <frame index="3" delay="260"/>
-                <sequence start="4" end="5" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
         </animation>
 
         <animation direction="downleft">
             <!-- Static Head -->
             <frame index="1" delay="2080"/>
             <!-- Turning Head -->
-                <sequence start="1" end="3" delay="130"/>
+            <sequence start="1" end="3" delay="130"/>
             <frame index="3" delay="260"/>
-                <sequence start="4" end="5" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
             <frame index="0" delay="130"/>
         </animation>
 
@@ -145,32 +144,32 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="2" delay="2210"/>
             <!-- Turning Head -->
             <frame index="3" delay="390"/>
-                <sequence start="4" end="5" delay="130"/>
-                <sequence start="0" end="1" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
+            <sequence start="0" end="1" delay="130"/>
         </animation>
 
         <animation direction="upleft">
             <!-- Static Head -->
             <frame index="3" delay="2470"/>
             <!-- Turning Head -->
-                <sequence start="4" end="5" delay="130"/>
-                <sequence start="0" end="2" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
+            <sequence start="0" end="2" delay="130"/>
         </animation>
 
         <animation direction="up">
             <!-- Static Head -->
             <frame index="3" delay="2340"/>
             <!-- Turning Head -->
-                <sequence start="4" end="5" delay="130"/>
-                <sequence start="0" end="3" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
+            <sequence start="0" end="3" delay="130"/>
         </animation>
 
         <animation direction="upright">
             <!-- Static Head -->
             <frame index="3" delay="2210"/>
             <!-- Turning Head -->
-                <sequence start="4" end="5" delay="130"/>
-                <sequence start="0" end="2" delay="130"/>
+            <sequence start="4" end="5" delay="130"/>
+            <sequence start="0" end="2" delay="130"/>
             <frame index="3" delay="260"/>
         </animation>
 
@@ -179,7 +178,7 @@ Copyright (C) 2011-2013 Evol Online -->
             <frame index="4" delay="2210"/>
             <!-- Turning Head -->
             <frame index="5" delay="130"/>
-                <sequence start="0" end="2" delay="130"/>
+            <sequence start="0" end="2" delay="130"/>
             <frame index="5" delay="390"/>
         </animation>
 
@@ -187,7 +186,7 @@ Copyright (C) 2011-2013 Evol Online -->
             <!-- Static Head -->
             <frame index="5" delay="2210"/>
             <!-- Turning Head -->
-                <sequence start="0" end="2" delay="130"/>
+            <sequence start="0" end="2" delay="130"/>
             <frame index="3" delay="390"/>
             <frame index="4" delay="130"/>
         </animation>
