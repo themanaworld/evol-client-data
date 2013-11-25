@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
 <!-- Authors: 4144, Piman, Reid
-Copyright (C) 2010-2012 Evol Online -->
+Copyright (C) 2010-2013 Evol Online -->
 
 <!--
 New organization (04/12/11).
@@ -162,6 +162,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">races/tritan-female.xml</sprite>
         <sound event="hit">weapons/barehands/hit1.ogg</sound>
         <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+
+    <!-- Special Races -->
+    <item id="-150" type="racesprite" name="Piou">
+        <sprite gender="unisex">races/piou-unisex.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
     </item>
 
     <!-- Usable Items -->
