@@ -165,7 +165,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
 
     <!-- Special Races -->
-    <item id="-150" type="racesprite" name="Piou">
+    <item id="-107" type="racesprite" name="Piou">
         <sprite gender="unisex">races/piou-unisex.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -311,14 +311,31 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         hp="1"
         effect="Headache"
         type="usable"
-        weight="1"/>
+        weight="1"
+        maxFloorOffsetX="12"
+        maxFloorOffsetY="10"/>
     <item id="517"
         image="usable/deliciouscookie.png"
         name="Delicious Cookie"
         description="Reward from the Cookie Master, beware before to use it, effects are unknown..."
         effect="Unknown"
-        type="usable"
-        weight="2"/>
+        type="equip-torso"
+        maxFloorOffsetX="9"
+        maxFloorOffsetY="8">
+        <replace sprite="hair"/>
+        <replace sprite="boot"/>
+        <replace sprite="pants"/>
+        <replace sprite="torso"/>
+        <replace sprite="misc1"/>
+        <replace sprite="scarf"/>
+        <replace sprite="hat"/>
+        <replace sprite="wings"/>
+        <replace sprite="glove"/>
+        <replace sprite="weapon"/>
+        <replace sprite="shield"/>
+        <replace sprite="amulet"/>
+        <replace sprite="ring"/>
+    </item>
 
     <!-- Generic Items -->
     <item id="700"
