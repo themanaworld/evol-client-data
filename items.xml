@@ -165,7 +165,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
 
     <!-- Special Races -->
-    <item id="-107" type="racesprite" name="Piou">
+    <item id="-150" type="racesprite" name="Piou">
         <sprite gender="unisex">races/piou-unisex.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -322,10 +322,10 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="equip-torso"
         maxFloorOffsetX="9"
         maxFloorOffsetY="8">
+        <sprite gender="unisex">races/piou-unisex.xml</sprite>
         <replace sprite="hair"/>
         <replace sprite="boot"/>
         <replace sprite="pants"/>
-        <replace sprite="torso"/>
         <replace sprite="misc1"/>
         <replace sprite="scarf"/>
         <replace sprite="hat"/>
@@ -335,6 +335,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <replace sprite="shield"/>
         <replace sprite="amulet"/>
         <replace sprite="ring"/>
+        <replace sprite="body">
+            <item from="-100" to="-150"/>
+            <item from="-101" to="-150"/>
+            <item from="-102" to="-150"/>
+            <item from="-103" to="-150"/>
+            <item from="-104" to="-150"/>
+            <item from="-105" to="-150"/>
+            <item from="-106" to="-150"/>
+        </replace>
     </item>
 
     <!-- Generic Items -->
