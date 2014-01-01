@@ -3,7 +3,13 @@
 Copyright (C) 2013 Evol Online -->
 
 <pets>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+        <its:translateRule selector="//pet/@name" translate="yes"/>
+        <its:translateRule selector="//*" translate="no"/>
+    </its:rules>
+
     <pet id="1"
+         name="piou"
          startFollowDistance="0"
          followDistance="0"
          walkSpeed="300"
