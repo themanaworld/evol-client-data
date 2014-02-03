@@ -214,9 +214,11 @@ L_Kick:
     close;
 
 L_GetCookie:
-    mesq l("Hey, I'm not a drug seller, you won't have another one by stalking me!");
+    mesq l("Hey, I'm not a drug dealer! You won't have another one by stalking me like that!");
     next;
-    mesq l("If you want another one, you know what to do!");
+    mesq l("If you want another cookie, you know what to do!");
+    next;
+    mesq l("Now, move!");
     next;
 
     goto L_Bye;
