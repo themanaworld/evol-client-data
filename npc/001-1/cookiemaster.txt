@@ -4,6 +4,11 @@
 //    Reid
 // Description:
 //    Cookie NPC, beware, if you don't take your cookie, she'll keep it!
+// Variables:
+//    General_Cookies
+// Values:
+//    0   Default, didn't get a cookie.
+//    1   Get a cookie.
 
 001-1.gat,34,33,0,0	script	Cookie Master	319;2,{
     if ((countitem("DeliciousCookie") == 1) && (getq(GeneraL_Cookies) == 1))
