@@ -11,7 +11,7 @@
 //    1   Get a cookie.
 
 001-1.gat,34,33,0,0	script	Cookie Master	319;2,{
-    if ((countitem("DeliciousCookie") == 1) && (getq(GeneraL_Cookies) == 1))
+    if ((countitem("DeliciousCookie") == 0) && (getq(GeneraL_Cookies) == 1))
 		goto L_LostCookie;
     if (getq(GeneraL_Cookies) == 1)
         goto L_GetCookie;
