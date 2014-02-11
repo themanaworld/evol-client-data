@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Alige
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Cookie NPC, beware, if you don't take your cookie, she'll keep it!
@@ -96,8 +97,8 @@ L_StorySeems:
 
     mes "";
     mesn;
-    mesq g(l("It looks like madam is curious, am I right?"),
-           l("It seems mister is curious, are you not?"));
+    mesq g(l("Yummy bakery aromas have stirred madam's curiosity, am I right?"),
+           l("Yummy bakery aromas have roused monsieur's curiosity, is it not so?"));
     next;
     mesq lg("Well, if you want to be one of those who can have a cookie...");
     next;
@@ -107,7 +108,7 @@ L_TaskExpanation:
     mesn;
     mesq l("You'll first need to help my friends.");
     next;
-    mesq l("It is them who tell me to whom I can give cookies.");
+    mesq l("It is to them I look to, for it is them, who tell me to whom I can give cookies.");
     next;
 
     menu
@@ -121,7 +122,7 @@ L_Friends:
     next;
     mesq l("Don't say it too loud, other people could hear us.");
     next;
-    mesq l("My friends are... Well, you know... The creators.");
+    mesq l("My friends are... Well, you know... The creators... Programmers, Scripters, Mappers, Pixel Artists, Soundscapers... The Most Skilled Sages of the Tentacled Dance.");
     next;
     mesq l("I can't help you to be on my list, nor can I give you a cookie for free.");
     next;

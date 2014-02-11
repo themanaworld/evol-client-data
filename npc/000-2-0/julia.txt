@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    4144
+//    Qwerty Dragon
 //    Vasily_Makarov
 // Description:
 //    Allows to change language and talks about what happened to him.
@@ -103,7 +104,7 @@ L_First:
     if (@q == 2) goto L_NoRules;
 
     next;
-    mesq l("I'm sure that you've got some questions for me, feel free to ask them, but firstly I need to tell you the rules of proper social conduct on board.");
+    mesq l("I'm sure that you've got some questions for me, feel free to ask them, but first I need to tell you the rules of proper social conduct on board.");
 
     mesq l("Here they are.");
     next;
@@ -172,7 +173,7 @@ L_WhereIam:
 L_What:
     mes "";
     mesn;
-    mesq l("We thought that you could help us understand this, all we know is that we found you back in the sea, adrift on your raft.");
+    mesq l("We thought that you could help us understand this, all we know is that we found you cast in the sea, adrift on your raft.");
     next;
     mesq lg("You were in bad shape, you should be happy we found you before the sea killed you.");
     next;
@@ -225,7 +226,7 @@ L_Regret:
     mesn;
     mesq l("Gado! That coward lives in the past, I will ask Nard to punish him, again!");
     next;
-    mesq l("Take this money for your wise choice. But do not try it again. Water has been merciful with you once... Do not tempt fate once more!");
+    mesq l("Take this money for your wise choice. But do not try it again. The open sea has been merciful with you once... Do not further tempt the fates!");
 
     setq ShipQuests_ChefGado, 5;
     set zeny, zeny + 200;
@@ -237,7 +238,7 @@ L_Regret:
 L_Rumors:
     mes "";
     mesn;
-    mesq l("You shouldn't believe all of the stories drunk sailors tell you.");
+    mesq l("You shouldn't believe every tale drunken sailors tell you.");
     next;
 
     menu

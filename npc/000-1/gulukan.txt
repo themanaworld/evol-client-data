@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Hal9000
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
@@ -16,7 +17,7 @@
     mesn;
     mesq l("Yeye @@!", strcharinfo(0));
     next;
-    mesq l("How are you feeying, now that you walk on steady land? Yeye better?");
+    mesq l("How are you feeling, now that you walk on steady land? Yeye better?");
     next;
 
     menu
@@ -41,7 +42,7 @@ L_Continue2:
     next;
 
     menu
-        lg("Actually Gugli asked me if I could help you bringing him some of your boxes."), -,
+        lg("Actually Gugli asked me if I would help you bring him some of your boxes."), -,
         l("Yes, indeed. I prefer to explore places I have never been to, before doing anything else."), L_Quit;
 
     mes "";

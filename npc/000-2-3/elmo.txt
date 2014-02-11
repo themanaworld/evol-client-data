@@ -1,5 +1,6 @@
 // Evol scripts.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Elmo's second dialog.
@@ -9,7 +10,7 @@
     if (@q == 1) goto L_GotMoney;
 
     mesn;
-    mesq l("Hey you, sorry for leaving your room so quickly, I needed to... Speak with the captain about... The reserve. You know, now that we have a new mouth to feed, we need to check what we have.");
+    mesq l("Hey you, sorry for leaving your room so quickly. I needed to speak with the captain about the food reserves. You know, now that we have a new mouth to feed, we need to check what we have.");
     next;
     mesq l("So, how is it going? Did you meet any other crew members yet?");
     next;
@@ -53,9 +54,9 @@ L_GotMoney:
     mesn;
     mesq l("Be patient a little while longer, in the next few days we will arrive at the port of Artis...");
     next;
-    mesq l("If you feel bored or like turning in circles, you may want to talk with the other sailors around here to get some tasks.");
+    mesq l("If you feel bored or like running around in circles, you may want to talk with the other sailors around here to get some tasks to do.");
     next;
-    mesq l("From what I know, Gugli, my brother, needs the help of as many people as possible to collect all of the new things found on the island.");
+    mesq l("From what I here, Gugli, my brother, needs the help of as many people as possible; to collect loads of neat things, that can be found on the island.");
     next;
     mesq l("Other than that, I don't know much about what else is going on, so directly asking the Cap'tain about it could be a good idea.");
 

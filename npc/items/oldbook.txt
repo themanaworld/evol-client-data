@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Alige
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Reading the Old Book.
@@ -28,13 +29,13 @@ L_Read:
     next;
     mes l("However, drought came with summers while winters became colder than ever.");
     next;
-    mes l("Therefore, starvation stroke on the people of Aemil.");
+    mes l("Therefore, starvation stalked the people of Aemil.");
     next;
-    mes l("Rules began to rise in order to have a peaceful society. This did not work well for long.");
+    mes l("Authorities began to control in order to have a peaceful society. This did not work well for long.");
     next;
     mes l("People started to steal from each other to survive. As cities grew, needs did too. Wars for fertile lands then rose.");
     next;
-    mes l("New technologies helped the slaughter instead of establishing peace. At some point, two different rivals were formed.");
+    mes l("New technologies assisted the slaughter instead of establishing peace. At some point, two different rivals were formed.");
     next;
     mes l("Their leaders then came to the conclusion that an alliance was the only way they could survive.");
     next;
@@ -42,7 +43,7 @@ L_Read:
     next;
     mes l("Each of the groups was ordered to sail in a different direction to find a new, suitable land where to live.");
     next;
-    mes l("As they sailed on Oceania, great waters of Aemil, one of the groups found a land.");
+    mes l("As they sailed on Oceania, great waters of Aemil, one of the alliances found a land.");
     next;
     mes l("Even though they did not hear anything about the other groups, they decided to start a new life on this land, full of harmful animals.");
     next;
@@ -54,7 +55,7 @@ L_Read:
     next;
 
     mesn "Narrator";
-    mes col(l("The end of the story got erased, probably because of the sea water. Some pages are still missing thus you don't know the author's name."), 9);
+    mes col(l("The end of the story got erased, probably because of the sea water. Some pages are still missing. Thus much is left obscure, including even the author's name."), 9);
 
     close;
 }

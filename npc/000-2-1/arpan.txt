@@ -1,8 +1,9 @@
 // Evol scripts.
-// Author:
+// Authors:
 //    Ablu
+//    Qwerty Dragon
 // Description:
-//    Tells to the player how he got here.
+//    Explains to the player how he got here.
 // Variable:
 //    0 ShipQuests_Arpan
 //    1 ShipQuests_Julia
@@ -192,7 +193,7 @@ L_WhereOldClothes:
     mesn;
     mesq lg("We tried to clean them but the sea water mostly destroyed them. It's why we gave you these clothes. They're not very nice, but that's all that we have for you.");
     next;
-    mes lg("Oh, now that I remember, we've also found some money in your pockets, here it is!");
+    mes lg("Oh, now that I remember, we also found some money in your pockets, here it is!");
     next;
 
     setq ShipQuests_ArpanMoney, 1;

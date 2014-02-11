@@ -1,5 +1,6 @@
 // Evol scripts.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Pervert and arrogant sailor.
@@ -19,8 +20,8 @@
 
     mes "";
     mesn;
-    mesq g(l("Hehe, no. But I'm sure a lady like you would love to meet a charmer like me!"),
-           l("Hehe, no. But I'm sure a boy like you would like to meet a gentleman like me."));
+    mesq g(l("Hehe, no. But I'm sure a fox like you would love to meet a catch like me!"),
+           l("Hehe, no. But I'm sure a noob like you would like to meet an idol like me."));
     next;
     mesq g(l("So, which good wind brought you here? Were you on your raft to meet me? Or is it because you've heard of my feats on Artis?"),
            l("So, which good wind brought you here? Were you on your raft to meet my Julia? Or is it because you wanted to see the beautiful waitress' at Artis?"));
@@ -45,7 +46,7 @@
     mesn "Gugli";
     mesq l("Hey, don't worry about him, it's one of the first days in a long time that we can just chill out.");
     next;
-    mesq l("Maybe he abused too much his bottle today to celebrate that!");
+    mesq l("Maybe he over did it with the bottle today to celebrate that!");
     next;
     restorecam;
 
@@ -102,7 +103,7 @@ L_VeryImportantNoob:
 L_Julia:
     mes "";
     mesn;
-    mesq g(l("You honor me beauty, but I'm already taken by Julia!"),
+    mesq g(l("You honor me, my beauty, but I'm already taken by Julia!"),
            l("Not to kill your dream, but... Julia is mine!"));
     next;
     mesq l("She said she will accept me when pious will have teeth. It's just a matter of time, you see?");
@@ -117,7 +118,7 @@ L_Piou:
     mesn;
     mesq l("Seriously?!");
     next;
-    mesq l("Hurry, hurry! We need to check his teeth!");
+    mesq l("Hurry, hurry! We need to check it's teeth!");
 
     close;
 
@@ -126,18 +127,18 @@ L_Artis:
     mesn;
     mesq l("This is a nice place... There are some nice chicks...");
     next;
-    mesq l("The elven from the library has tilted on me a while ago, as well as Enora from the Warrior Guild.");
+    mesq l("The elven from the library firted with me a while ago, so has Enora from the Warrior Guild.");
     next;
     mesq l("Oh, and Olga from the market place as well!");
     next;
-    mesq l("You should look at them once we arrive at the port, they are worth it, hehe...");
+    mesq l("You should look at them when we arrive at the port, they are worth it, hehe...");
 
     callfunc "GoodBye";
 
 L_ForeverAlone:
     mes "";
     mesn "Narrator";
-    mes col(l("Silvio starts to speak to his bottle, you leave the conversation."), 9);
+    mes col(l("Silvio starts to speak to his bottle, you leave, letting him have a private conversation."), 9);
 
     close;
 
@@ -152,8 +153,8 @@ L_Sailors:
     setcamnpc "Gugli";
     mes "";
     mesn "Gugli";
-    mesq g(l("Don't bother her Silvio, or I'll to tell her that you cry like a baby when you hear the thunder in the night."),
-           l("Don't bother him Silvio, or I'll to tell him that you cry like a baby when you hear the thunder in the night."));
+    mesq g(l("Don't bother her Silvio, or I'll have to tell her that you cry like a baby when you hear the thunder in the night."),
+           l("Don't bother him Silvio, or I'll have to tell him that you cry like a baby when you hear the thunder in the night."));
     next;
     restorecam;
 
@@ -162,7 +163,7 @@ L_Sailors:
     next;
     mesq l("How could you... We said we wouldn't talk about this again...");
     next;
-    mesq l("Tibbo went to the east-south of the island, others are gone to the north, and I think that Gulukan is not so far from here.");
+    mesq l("Tibbo went to the south-east of the island, others are gone to the north, and I think that Gulukan is not so far from here.");
     next;
     mesq l("But anyway, take the road which goes to the north to find everybody.");
     next;

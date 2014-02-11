@@ -1,5 +1,6 @@
 // Evol scripts.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Captain Nard dialogs.
@@ -68,9 +69,9 @@ L_NoQuest:
     mesn "Nard";
     mesq l("Great!");
     next;
-    mesq l("I give you this key, it opens any doors on this ship.");
+    mesq l("I give you this key, it opens all the doors on this ship.");
     next;
-    mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
+    mesq l("Now go outside and talk with Gugli, he'll tell you what provisions we need.");
     next;
 
     callfunc "InventoryPlace", 718, 1;
@@ -83,7 +84,7 @@ L_Give:
     setcamnpc "Nard";
     mes "";
     mesn "Nard";
-    mesq l("You are now part of the crew. Thanks again for your help.");
+    mesq l("Congrats, you are now part of the crew. Thanks again for your help.");
 
     callfunc "InventoryPlace", 2900, 1;
 

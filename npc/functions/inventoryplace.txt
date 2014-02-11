@@ -1,5 +1,6 @@
 // Evol functions.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Check if the player have enough place on his inventory to accept new items  with arguments:
@@ -24,7 +25,7 @@ L_Warn:
     mesn "Narrator";
     mes col(l("It looks like you can't carry anything else for now."), 9);
     next;
-    mes col(l("You should come back when you'll have some free space."), 9);
+    mes col(l("You should come back when you have some free space."), 9);
 
     close;
 }

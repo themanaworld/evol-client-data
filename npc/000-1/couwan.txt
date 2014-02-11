@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Hal9000
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Couwan is trying to scam the player.
@@ -39,7 +40,7 @@
 
     mes "";
     mesn;
-    mesq l("Yeye ask too much but do too less. Take this box and stop talking.");
+    mesq l("Yeye ask too much but do too little. Take this box and stop talking.");
     next;
 
     callfunc "InventoryPlace", 713, 1;

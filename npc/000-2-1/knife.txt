@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
+// Authors:
 //    Ablu
+//    Qwerty Dragon
 // Description:
 //    Knife on the table.
 // Variable:
@@ -14,7 +15,7 @@
     if (@q) close;
 
     mesn "Narrator";
-    mes col(l("There are some knifes on the table. Would you like to take one?"), 9);
+    mes col(l("There are some knives on the table. Would you like to take one?"), 9);
     next;
 
     menu

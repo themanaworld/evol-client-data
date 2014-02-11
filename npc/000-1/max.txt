@@ -1,6 +1,8 @@
 // Evol scripts.
 // Authors:
-//    Hal9000, Reid
+//    Hal9000
+//    Qwerty Dragon
+//    Reid
 // Description:
 //    Friend of Sapartan, he gives some information on how to find Gulukan, Astapolos and Q-Muller.
 
@@ -18,7 +20,7 @@
 
     menu
         rif(@gugli == 0, l("Well, is there anything I can do here to help?")), L_Help,
-        rif(@gugli == 1, lg("Gugli asked me to help sailors with their food gatherings. Do you know where could I find them?")), L_Sailors,
+        rif(@gugli == 1, lg("Gugli asked me to help the sailors to gather food. Do you know where I can find them?")), L_Sailors,
         rif(@gugli > 1, l("Seems I've helped everyone here. I don't know what to do now!")), L_Annoyed,
         rif(@knife == 0, lg("It looks like you are an expert of the life inside 'La Johanne'. Do you know any hidden secrets nobody knows?")), L_Secrets,
         l("No thanks, not at the moment."), L_Quit;
@@ -33,7 +35,7 @@ L_Help:
 L_Sailors:
     mes "";
     mesn;
-    mesq l("I remember I saw few of them leaving the ship early this morning to get to work.");
+    mesq l("I remember I saw a few of them leaving the ship early this morning to get a head start on today's work.");
     next;
     mesq l("I recall seeing Gulukan, Astapolos and Q'Muller.");
     next;
@@ -72,7 +74,7 @@ L_Qmuller:
     mesn;
     mesq l("You need to cross the crocojungle heading north.");
     next;
-    mesq l("You can spot Q'Muller on a cliff on the west busy collecting @@s.", getitemlink("Plushroom"));
+    mesq l("You can spot Q'Muller on a cliff off toward the west, busy collecting @@s.", getitemlink("Plushroom"));
     next;
 
     goto L_MenuSailors;
@@ -80,18 +82,18 @@ L_Qmuller:
 L_Annoyed:
     mes "";
     mesn;
-    mesq l("There is always something you can do here, like killing some tortugas or help Peter clean the ship from rattos.");
+    mesq l("There is always something you can do here, like killing some tortugas or helping Peter clean the ship from rattos.");
 
     close;
 
 L_Secrets:
     mes "";
     mesn;
-    mesq l("No there are no secrets hidden below the ship's wood. Some sailors swear they have seen people hidden somewhere near the stow. Just stories sailors love to tell...");
+    mesq l("Nope, there are no secrets hidden within the ship's hull. Some sailors swear they have seen stowaways hidden somewhere. The bow or the stern? Just stories sailors love to tell...");
     next;
-    mesq l("Oh! And in one of the room of the second deck you can find Gado's knives. Our chef keeps there the sharpest ones... Probably not just to cut some carrots...");
+    mesq l("Oh! And in one of the rooms of the second deck you can find Gado's knives. Our chef keeps there the sharpest ones... Probably not just to cut some carrots...");
     next;
-    mesq l("Go and grab one of them. A good knife will help you hunting the creatures of this island.");
+    mesq l("Go and grab one of them. A good knife will help with your hunting the creatures of this island.");
 
     close;
 

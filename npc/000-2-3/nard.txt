@@ -1,5 +1,6 @@
 // Evol scripts.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Captain Nard dialogs.
@@ -41,7 +42,7 @@ L_Checker:
     next;
     mesq l("Let me introduce myself, I am Nard, captain of this ship.");
     next;
-    mesq lg("It is nice to see that you woke up fine at the same time. Elmo came here to tell me this good news!");
+    mesq lg("I am pleased to see that you have woken up and are active. Elmo came here to tell me this good news!");
     next;
 
     setcamnpc "Elmo";
@@ -95,7 +96,7 @@ L_NeedContent:
     next;
     mesq l("Oh well. I'll also give you one of these hats from the box near you, but only after you complete your task!");
     next;
-    mesq l("I give you this key, it opens any doors on this ship.");
+    mesq l("I give you this key, it opens all the doors on this ship.");
     next;
     mesq l("Now go outside and talk with Gugli, he'll tell you what we need.");
     next;
@@ -112,7 +113,7 @@ L_Ok:
     mesn;
     mesq l("Good to know.");
     next;
-    mesq l("We made a stop at a little island, before making it to the port of Artis.");
+    mesq l("We have made a stop at a little island, before making it on to the port of Artis.");
     next;
     mesq l("It would be good for you to do some exercise, the ship isn't big enough for that.");
     next;
@@ -122,7 +123,7 @@ L_Ok:
 L_Julia:
     mes "";
     mesn;
-    mesq l("You have an awful amnesia.");
+    mesq l("You have an awful case of amnesia.");
     next;
     mesq l("She is the nurse and shipkeeper of this ship.");
     next;
@@ -152,22 +153,22 @@ L_Done:
 
 L_ChefQuestStart:
     mesn;
-    mesq l("Elmo told me you are now considered as one of us on the island. And I do appreciate the efforts you did down there.");
+    mesq l("Elmo told me you are now considered family and are numbered among us in our activities on the island. I do so very much appreciate the efforts you did down there.");
     next;
 
 L_ChefQuestRedir:
     mesq l("Unfortunately, we still need help from you. This time it will be a delicate task, here onboard.");
     next;
-    mesq l("Elmo reported me about some frictions between my old and new lieutenants. You probably already met Julia and Gado the Chef.");
+    mesq l("Elmo brought reports to me about some frictions between my old and new lieutenants. You probably already met Julia and Gado the Chef.");
     next;
-    mesq l("They are both valid and I need them. In the past, I probably did mistakes I now regret. I was wondering if you could investigate and... Sort out this situation.");
+    mesq l("They are each valued individuals and I need them both. In the past, I probably made my share of mistakes. I regret good management is so difficult. I was wondering if you could investigate and... Sort out this situation.");
     next;
 
     menu
-        l("Who of them two has the 'good' on his side?"), -;
+        l("Of the two of them, who has 'good' on their side?"), -;
 
     mes "";
-    mesq l("I do not want to point my finger on someone. I just put my trust in you. I am sure you will be able to judge and solve this annoying problem.");
+    mesq l("I do not want to go pointing my finger at someone. I want to be honorable and fair, and I sense the same quality in you, so I put my trust in you. I am sure you will be able to judge and solve this troubling situation.");
 
     setq ShipQuests_Nard, 3;
 

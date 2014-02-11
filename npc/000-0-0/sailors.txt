@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
+// Authors:
 //    Ablu
+//    Qwerty Dragon
 // Description:
 //    Introduction scene where two sailors talk about how the player was found on his raft.
 //    Elmo will handle dialogs between both NPCs.
@@ -36,8 +37,8 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq g(l("Alright, I'm going to his room, keep an eye on her, we still don't know if she's an ally or an enemy..."),
-           l("Alright, I'm going to his room, keep an eye on him, we still don't know if he's an ally or an enemy..."));
+    mesq g(l("Alright, I'm going to his room, keep an eye on her, we still don't know if she's a friend or a foe..."),
+           l("Alright, I'm going to his room, keep an eye on him, we still don't know if he's a friend or a foe..."));
     next;
 
     mesn "Magic Arpan";
@@ -45,12 +46,12 @@ OnTalk:
     next;
 
     mesn "Elmo";
-    mesq g(l("Oh, and give her some clothes, the poor girl, the ones she had were in even worse condition that the ones we have!"),
-           l("Oh, and give him some clothes, the poor guy, the ones he had were in even worse condition that the ones we have!"));
+    mesq g(l("Oh, and give her some clothes, the poor girl, the ones she had were in even worse condition than the ones we have!"),
+           l("Oh, and give him some clothes, the poor guy, the ones he had were in even worse condition than the ones we have!"));
     next;
 
     mesn "Magic Arpan";
-    mesq l("Yayayaya, it's the first time someone is dressed worse then us!");
+    mesq l("Yayayaya, it's the first time someone is dressed worse than us!");
     next;
 
     mesn "Elmo";

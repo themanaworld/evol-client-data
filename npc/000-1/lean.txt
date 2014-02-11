@@ -1,6 +1,8 @@
 // Evol scripts.
 // Authors:
-//    Hal9000, Reid
+//    Hal9000
+//    Qwerty Dragon
+//    Reid
 // Description:
 //    Sailor who gives some informations to the player.
 
@@ -14,7 +16,7 @@
     next;
     mesq l("We usually don't stop in such splendid places, but the captain let us stay here while he writes down the location of this new island on his map!");
     next;
-    mesq l("Some sailors are looking for goods we could trade in our next destination.");
+    mesq l("Some of the crew are looking for goods we can trade with at our next destination.");
     next;
 
     menu
@@ -52,7 +54,7 @@ L_Sailors:
     mesn;
     mesq l("I'm not sure. They probably left the ship early this morning. I was not awake yet.");
     next;
-    mesq l("Try to ask Max. He's an early riser.");
+    mesq l("You should ask Max. He's an early riser.");
 
     close;
 

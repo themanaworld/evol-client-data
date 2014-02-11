@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
+// Authors:
 //    Hal9000
+//    Qwerty Dragon
 // Description:
 //    Friend of Max, he gives some information on combat system.
 
@@ -13,7 +14,7 @@
     mesn "Max";
     mesq lg("@@? Welcome my dear!", strcharinfo(0));
     next;
-    mesq lg("Last time I saw you, you were lost in the sea on your raft.");
+    mesq lg("Last time I saw you, you were lost at sea on your raft.");
     next;
     restorecam;
 
@@ -49,7 +50,7 @@
 
     mes "";
     mesn;
-    mesq lg("Maybe... But I prefer having well-trained people around me when it comes to fight against dangerous creatures. Do you already feel expert on how you fight enemies?");
+    mesq lg("Maybe... But I prefer having well-trained people around me when it comes to fighting against dangerous creatures. Do you already feel adept fighting enemies?");
     next;
 
     menu
@@ -59,13 +60,13 @@
 
     mes "";
     mesn;
-    mesq l("Then I can give you some tips about fights.");
+    mesq l("Then I can give you some tips about fighting.");
     next;
     mesq l("The first thing you should do is to evaluate your enemy.");
     next;
     mesq l("You can easily see if a monster is easy to kill or just impossible to defeat. Do not try against creatures that are way more powerful than you... You'd be risking your life for nothing.");
     next;
-    mesq l("Secondly, choose wisely which weapon is suited for you. Some people like to face their enemies closely with a heavy axe, some others prefer to attack from a distance with a bow for example.");
+    mesq l("Secondly, choose wisely which weapon is suited for you. Some people like to face their enemies closely with a heavy axe, others prefer to attack from a distance with a bow for example.");
     next;
 
     menu
@@ -73,7 +74,7 @@
 
     mes "";
     mesn;
-    mesq l("On one hand, ranged weapons are generally weaker than melee ones, but it obviously depends on the level of the weapon. On the other hand, you attack from a safer position.");
+    mesq l("On one hand, ranged weapons are generally weaker than melee ones, but you attack from a safer position. On the other hand, depending on the level of the weapon, melee ones potentially can yeild quicker kills.");
     next;
     mesq l("After choosing your weapon, you also need to know how to use it.");
     next;

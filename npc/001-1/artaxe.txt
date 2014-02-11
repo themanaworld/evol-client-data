@@ -1,16 +1,17 @@
 // Evol scripts.
 // Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Helping NPC.
 
 000-1.gat,22,50,0,1	script	Artaxe	109;2,{
     mesn;
-    mesq l("Do you feel too weak when try to hit the surrounding wildlife?");
+    mesq l("Do you feel too weak even if trying to hit the surrounding wildlife?");
     next;
-    mesq l("Then put your anger onto these trees around, you will gain experience by practicing your sword skill on them.");
+    mesq l("Then concentrate your anger upon the trees hereabouts, you will gain experience whilst leveling your sword skill on them.");
     next;
-    mesq l("And you might even gain a fruit if you're lucky!");
+    mesq l("And a fruit may even fall for you if you are lucky! And stay alert to pick up your drops.");
 
     close;
 

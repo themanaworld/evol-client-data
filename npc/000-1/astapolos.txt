@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Hal9000
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
@@ -28,7 +29,7 @@
     next;
 
     menu
-        lg("I'm sorry for your situation. They should change with another sailor from times to times."), -,
+        lg("I'm sorry for your situation. They should alternate shifts with other sailors from time to time."), -,
         l("Well if you are whining like that all the time, then I think there is a reason behind their choice."), L_Whyning;
 
     mes "";
@@ -42,13 +43,13 @@
 
     mes "";
     mesn;
-    mesq l("You like them, don't you? Just speak with Peter then. He is on the second deck of the ship. He will send you to downstairs where you will find our furry meal!");
+    mesq l("You like them, don't you? Just speak with Peter then. He is on the second deck of the ship. He will send you downstairs to the hold, where you will find a furry meal!");
     next;
     mesq lg("Oh, but you didn't come here to talk about that, am I right?");
     next;
 
     menu
-        lg("No, indeed. I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
+        lg("Actually, I was here to help you with those boxes. Can I bring one of them back to Gugli?"), -;
 
     mes "";
     mesn;
@@ -64,7 +65,7 @@
 
     mes "";
     mesn;
-    mesq l("Good luck! And don't forget to visit Peter and our little friends when you will be back onboard!");
+    mesq l("Good luck! And remember to visit Peter and our little furry friends whenever you return back onboard!");
 
     close;
 
@@ -112,7 +113,7 @@ L_Who:
     mesn;
     mesq l("My name is Astapolos. Q'Muller and I joined Nard's crew a few years ago when it was just a little merchant ship.");
     next;
-    mesq l("At this time, we were selling crab food on our old mushroom island.");
+    mesq l("At that time, we were selling crab food on our old mushroom island.");
     next;
     mesq l("And now I'm a sailor, as you can see!");
 
@@ -121,14 +122,14 @@ L_Who:
 L_Bottom:
     mes "";
     mesn;
-    mesq l("I've seen him at the bottom of the island, check around.");
+    mesq l("I've seen him at the southern part of the island, check around.");
 
     close;
 
 L_Top:
     mes "";
     mesn;
-    mesq l("I've seen him at the top of the island.");
+    mesq l("I've seen him at the northern part of the island.");
     next;
     mesq l("You should walk to the north.");
 

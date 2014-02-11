@@ -1,5 +1,6 @@
 // Evol functions.
-// Author:
+// Authors:
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Random some sailors's dialogues between two categories of NPCs.
@@ -15,7 +16,7 @@ function	script	SailorFood	{
 L_RandomA:
     mesq l("Hey.");
     next;
-    mesq l("What did Gugli said about the box? Was it ok?");
+    mesq l("What did Gugli say about the box? Was it ok?");
     next;
 
     menu
@@ -38,12 +39,12 @@ L_Fine:
 L_RandomB:
     mesq l("Thanks for the help!");
     next;
-    mesq l("These boxes are way too heavy to be brought alone onto the ship.");
+    mesq l("These boxes are much too heavy to be lifted by one, all the way onto the ship.");
 
     close;
 
 L_RandomC:
-    mesq l("I think that I'm soon done since I'll soon have a box full of @@s!", getitemlink("CrocClaw"));
+    mesq l("I think I'll be done soon, since I almost have a box full of @@s!", getitemlink("CrocClaw"));
     next;
     mesq l("And you? How's it going on your side?");
     next;

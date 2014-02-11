@@ -1,6 +1,7 @@
 // Evol scripts.
 // Authors:
 //    Hal9000
+//    Qwerty Dragon
 //    Reid
 // Description:
 //    Sailor part of the Gugli's quest.
@@ -34,7 +35,7 @@
     mesn;
     mesq l("Then it seems I have to apologize.");
     next;
-    mesq l("I am surprised someone has been sent here for help. It is quite... unusual.");
+    mesq l("I am surprised someone has been sent here to help. It is quite... unusual.");
     next;
     mesq l("Bring this box to Gugli. He will be extremely happy!");
     next;
@@ -89,7 +90,7 @@ L_Aquada:
     next;
     mesq l("You can find them in the ocean, near corals and other sea beings. But the sea is too heavy today, you shouldn't try swimming for now.");
     next;
-    mesq l("Or else, if you really wish one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
+    mesq l("Otherwise, if you really want one, and if you feel capable, you can try killing tortugas or crocs if you're strong enough. I'm sure they could drop one or two @@s.", getitemlink("Aquada"));
 
     close;
 

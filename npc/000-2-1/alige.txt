@@ -2,6 +2,7 @@
 // Authors:
 //    Ablu
 //    Alige
+//    Qwerty Dragon
 //    Reid
 //    Vasily_Makarov
 // Description:
@@ -67,7 +68,7 @@ OnFirstEncounter:
 
     mes "";
     mesn "Narrator";
-    mes col(l("The hidden person doesn't answer."), 9);
+    mes col(l("The stowaway doesn't answer."), 9);
 
     close;
 
@@ -94,23 +95,23 @@ L_CanHelp:
     next;
     mesq l("I'm losing my mind here, I need something else to eat!");
     next;
-    mesq l("Could you please bring me something which isn't a vegetable? And I beg you, no berries!");
+    mesq l("Could you please bring me something which isn't a berry, and I'm not big on vegetables either. I need proteins!");
     next;
     restorecam;
 
     menu
-        l("Sure, but what can you give me in exchange?"), L_AboutReward,
+        l("Sure, but what will you give me in exchange?"), L_AboutReward,
         l("Why don't you come out?"), -;
 
 L_ExplainHiding:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("No, I can't, I just wanted to travel across the seas for fun. In this cave, you see, I have a lot of fun.");
+    mesq l("No, I can't. I won't! All is I wanted was to travel across the seas for fun, growl... sniff. And in this chink in the wall, as you can see, I have lots of fun.");
     next;
-    mesq l("Err, seriously, I just wanted to get to Artis, but I didn't have enough money to pay for the ferry!");
+    mesq l("Oh... um... actually... all is I wanted was to get to Artis. Err... but I didn't, ah, have enough money to pay for the ferry!");
     next;
-    mesq l("Please don't tell people you saw me. I don't want to be decapitated or get thrown into the sea as food for sharks, at least not again!");
+    mesq l("Please don't tell people you saw me. I don't want to be decapitated or get thrown into the sea as food for sharks, or get my hair mussed!");
     next;
     restorecam;
 
@@ -132,7 +133,7 @@ L_Accept:
         l("I think I should report you to the crew members."), -;
 
     setcamnpc;
-    mesq lg("Damn you! You'd better not tell anyone you saw me!");
+    mesq lg("Growl, sniff, grr! You'd better not tell anyone you saw me!");
 
     close;
 
@@ -140,7 +141,7 @@ L_Artis:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it since it is one of the most famous cities throughout the world. But hey, returning to the topic, I'm hungry!");
+    mesq l("It's a commercial port of Andorra, it's weird that you don't know about it since it is one of the most famous cities throughout the whole world. But hey, back to me. Remember my mentioning that I'm hun...grrr...eee!");
     next;
     restorecam;
 
@@ -224,7 +225,7 @@ L_NoMore:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("Arrr, don't give me more berries! I don't want them, stupid berries, stupid... Stupid... Stupid!");
+    mesq l("Grr, don't give me more berries! I don't want them, stupid berries, stupid... Stupid... Stupid!");
     next;
 
     goto L_ReturnMenu;
@@ -262,7 +263,7 @@ L_IntroMenu:
         l("I think I should report you to the crew members."), -;
 
     setcamnpc;
-    mesq lg("Damn you! You'd better not tell anyone you saw me!");
+    mesq lg("Growl, sniff, grr!! You'd better not tell anyone you saw me!");
 
     close;
 
@@ -272,13 +273,13 @@ L_FindFood:
     mesn;
     mesq l("There are some flying yellow plushes around you. They're called pious. Getting a roasted leg of one of them would be perfect.");
     next;
-    mesq l("I'd like to catch one of them, but they are flying away when I try.");
+    mesq l("I'd like to catch one of them, but they fly away when I try.");
     next;
-    mesq l("Walk a bit, it'll be easy for you to catch one. Impale one of them for me please.");
+    mesq l("Walkig around a bit, it'll be easy for you to catch one, I bet. Impale one of them for me please.");
     next;
     restorecam;
     mesn "Narrator";
-    mes col(l("You can attack a monster by clicking on it or from your keyboard you can press the 'A' key to select the monster followed by 'Ctrl' to attack it."), 9);
+    mes col(l("You can attack a monster by clicking on it, or from your keyboard you can press the 'A' key to select the monster followed by 'Ctrl' to attack it."), 9);
     next;
     mes col(l("Once the monster is dead, click on the dropped items to add them to your inventory. You can also use the 'Z' key to claim the drops."), 9);
 
@@ -288,7 +289,7 @@ L_Quit:
     setcamnpc;
     mes "";
     mesn;
-    mesq l("Too bad... Come back when you'll have some fine food for me.");
+    mesq l("Too bad... Come back when you have some choice food for me. Growl... grumble... grumble.");
 
     close;
 }

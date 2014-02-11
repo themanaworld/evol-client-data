@@ -3,6 +3,7 @@
 //    4144
 //    Ablu
 //    Alastrim
+//    Qwerty Dragon
 //    Reid
 //    Vasily_Makarov
 // Description:
@@ -105,7 +106,7 @@ OnGiveTask:
     mesq g(l("Hey, girl!"),
            l("Hey, man!"));
     next;
-    mesq l("I need somebody who can clean the bottom of the ship of these rattos. Can you help me?");
+    mesq l("I need somebody who can rid the hold of the ship of these rattos. Can you help me?");
     next;
 
     menu
@@ -115,13 +116,13 @@ OnGiveTask:
 
     mes "";
     mesn;
-    mesq l("Ok, ok. Come back if you change your mind.");
+    mesq l("Hehe, hehe. Well, come back if you change your mind.");
 
     goto L_Quit;
 
 OnTooWeak:
     mesn;
-    mesq lg("I need help for clean the edge of the ship, but you aren't strong enough to help.");
+    mesq lg("I need a helper to clean the edge of the ship, but you aren't strong enough to help.");
 
     goto L_Quit;
 
@@ -135,7 +136,7 @@ OnStop:
 
 OnReturnFail:
     mesn;
-    mesq l("I see it's not easy to get rid of these rattos. Do you want to try again?");
+    mesq l("I see it's not so easy to get rid of these rattos. Do you want to try again?");
     next;
 
     menu
@@ -145,13 +146,13 @@ OnReturnFail:
 
     mes "";
     mesn;
-    mesq l("Ok, ok. Come back if you change your mind.");
+    mesq l("Hehe, hehe. Well, come back if you change your mind.");
 
     goto L_Quit;
 
 OnReturnWin:
     mesn;
-    mesq l("Thanks again for helping me. But these rattos are a permanent problem and your help is always welcome. The only problem is that I can give you a reward only one time.");
+    mesq l("Thanks again for helping me. Drats these rattos for infesting our fair vessal! They are a permanent problem; so you can always be sure that your help with the extermination, to keep their numbers under control, is very welcome indeed. But the situation is, that I can give you a reward only the one time.");
     next;
 
     if (@peter == 3 || @peter == 4)
@@ -167,7 +168,7 @@ OnReturnWin:
 
     mes "";
     mesn;
-    mesq l("Ok, ok. Come back if you change your mind.");
+    mesq l("Hehe, hehe. Well, come back if you change your mind.");
 
     close;
 

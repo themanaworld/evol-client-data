@@ -1,6 +1,7 @@
 // Evol scripts.
-// Author:
+// Authors:
 //    Hal9000
+//    Qwerty Dragon
 // Description:
 //    La Johanne Chef.
 // Variable:
@@ -62,7 +63,7 @@ L_Rude:
     mesn;
     mesq l("I am sure you know her. Nice dress, large smile and a constant flux of orders and rules. Julia they call her!");
     next;
-    mesq l("You have to know that there was a time during which I was the unopposed lieutenant of this crew. Then one day one of the damn sailor brought here that 'nice' lady.");
+    mesq l("You have to know that there was a time during which I was the unopposed lieutenant of this crew. Then one day one of those damn sailors brought that 'nice' lady here.");
     next;
     mesq l("I will not tell you all the details, but after a month, she was ruling the ship and I was sent down here, cooking for those traitors!");
     next;
@@ -76,7 +77,7 @@ L_Rude:
     mesn;
     mesq lg("Well... Welcome aboard, cutie!");
     next;
-    mesq l("I just realized I needed delicious ingredients to prepare a... A special recipe.");
+    mesq l("I just realized I am lacking some common things, and one key ingredient, to prepare a... A special recipe.");
     next;
     mesq l("I only need 2 @@, 2 @@s, 1 @@...", getitemlink("PiouLegs"), getitemlink("HalfCroconut"), getitemlink("Aquada"));
     next;
@@ -90,7 +91,7 @@ L_Rude:
     setq ShipQuests_ChefGado, 1;
     mes "";
     mesn;
-    mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded once they understand who rules this ship!");
+    mesq l("Well done! Collect all the ingredients and then come back here. You will be rewarded, once I am satisfied that they understand who rules this ship!");
     next;
     mesq l("Before you go, let me tell you how to get @@s, because you don't look very smart.", getitemlink("HalfCroconut"));
 
@@ -110,8 +111,8 @@ L_QuestAccepted:
 L_OpenCroconut:
     mes "";
     mesn;
-    mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor girl.", getitemlink("Croconut")),
-           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed, you're weak my poor boy.", getitemlink("Croconut")));
+    mesq g(l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed though, you're being such a weak girl in all.", getitemlink("Croconut")),
+           l("Take a @@ and try opening it using something like a sharp knife! I doubt you'll succeed though, you're being such a weak boy in all.", getitemlink("Croconut")));
     next;
     mesq l("Now move!");
 
@@ -177,7 +178,7 @@ L_QuestComplete:
 
 L_Aborting:
     mesn;
-    mesq l("Wait, why do you still have the dish on you?!");
+    mesq l("Wait, why do you still have the dish with you?!");
     next;
 
     menu
