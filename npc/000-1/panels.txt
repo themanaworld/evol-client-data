@@ -1,0 +1,43 @@
+// Evol scripts.
+// Authors:
+//    Alige
+//    Qwerty Dragon
+// Description:
+//    Panels to give advice to the players.
+
+000-1.gat,65,93,0	script	#panel	999;2,{
+
+    mesn "Narrator";
+    mes col(l("Your heart quickens as your gaze focuses upon a small wooden panel, partly obscured under a layer of wind-blown sand."), 9);
+    next;
+    mes col(l(You wipe off enough of the sand to manage to read the message written on this crude piece of wood."), 9);
+    next;
+    mesq l(l("It's a dangerous place out here. Beware of the mischievous creatures living here!"), 9);
+    next;
+    mesq l(l("Not content to stay buried in their burrows in the sand, Crocs can be quite a nuisance, infesting this whole island. Tender Feet and Noobs are advised: Avoid touching these crawling red devils. They have huge, deadly claws that can make mincemeat of you! You can recognize them easily by their crabby personalities. Be careful younglings."), 9);
+    next;
+    mesq l(l("Furthermore, unless you are planning to stick it out, you should also not even think about gaining experience by messing with those icky pink land jellies. The pink could stick on you, imagine the horror!"), 9);
+    next;
+    mesq l(l("In fact... Oh, the things that I could tell... But ran out of space on this... Just be reasonable and go home."), 9);
+    close;
+}
+
+000-1.gat,89,51,0	script	#panel	999;2,{
+
+    mesn "Narrator";
+    mes col(l("This panel looks in rather good shape, as though some people take care of it regularly. Maybe it has important information."), 9);
+    next;
+    mes col(l("You can read some lines that are nicely carved into the soft wooden planks."), 9);
+    next;
+    mesq l(l("The further you go, the more experience you will get, so here's a small description of all the stats you can upgrade with time. But note that these will probably change in the future and have more complex effects."), 9);
+    next;
+    mesq l(l("Strength multiplies the damage of your hits, especially melee ones. You will also be able to carry heavier stuff."), 9);
+    mesq l(l("Agility greatly increases your attack speed and the chances of you dodging enemy hits."), 9);
+    mesq l(l("Vitality raises your maximum health points and defense."), 9);
+    mesq l(l("Intelligence raises your maximum mana points (good for mages) and your mind abilities. Please note: Magic system has not yet been implemented in this world."), 9);
+    mesq l(l("Dexterity increases your bow damage and your accuracy."), 9);
+    mesq l(l("Luck helps you do critical hits and dodge the ones dealt by enemies."), 9);
+    next;
+    mesq l(l("Have fun, but always remember to pick your stats with good care."), 9);
+    close;
+}
