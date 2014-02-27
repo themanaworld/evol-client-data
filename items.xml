@@ -628,7 +628,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="4"
         maxFloorOffsetX="8"
         maxFloorOffsetY="12">
-        <sprite>equipment/head/bandana.xml</sprite>
+        <sprite gender="unisex">equipment/head/bandana-male.xml</sprite>
+        <sprite gender="female">equipment/head/bandana-female.xml</sprite>
         <replace sprite="hair">
             <item from="-3" to="-7"/>
             <item from="-4" to="-7"/>
