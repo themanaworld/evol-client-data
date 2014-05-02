@@ -92,20 +92,18 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="9" name="Plushroom Field" targetCursor="large" sortOffsetY="70">
         <sprite>monsters/plushroom.xml</sprite>
-        <sound event="die">monsters/plushroom/die1.ogg</sound>
-        <sound event="die">monsters/plushroom/die2.ogg</sound>
-        <sound event="spawn">monsters/plushroom/spawn1.ogg</sound>
-        <sound event="spawn">monsters/plushroom/spawn2.ogg</sound>
+        <sound event="die">monsters/mushroom/die1.ogg</sound>
+        <sound event="die">monsters/mushroom/die2.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
     </monster>
     <monster id="10" name="Frostiana" targetCursor="small">
         <sprite>monsters/frostiana.xml</sprite>
-        <sound event="die">monsters/frostiana/die1.ogg</sound>
-        <sound event="die">monsters/frostiana/die2.ogg</sound>
+        <sound event="die">monsters/mushroom/die1.ogg</sound>
+        <sound event="die">monsters/mushroom/die2.ogg</sound>
         <sound event="hit">monsters/frostiana/hit1.ogg</sound>
         <sound event="hit">monsters/frostiana/hit2.ogg</sound>
-        <sound event="hurt">monsters/frostiana/hurt1.ogg</sound>
-        <sound event="hurt">monsters/frostiana/hurt2.ogg</sound>
-        <sound event="spawn">monsters/frostiana/spawn1.ogg</sound>
-        <sound event="spawn">monsters/frostiana/spawn2.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
     </monster>
 </monsters>
