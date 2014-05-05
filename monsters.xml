@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
-Copyright (C) 2010-2012 Evol Online -->
+Copyright (C) 2010-2014 Evol Online -->
 
 <!--
 <monsters>       Parent of the monster strings. 
@@ -74,14 +74,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="6" name="Blub" walkType="walkswim">
+    <monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="7" name="Toppy Blub" walkType="walkswim">
+    <monster id="7" name="Toppy Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub-toppy.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
