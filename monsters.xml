@@ -74,15 +74,20 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-<!--<monster id="6" name="Blub" walkType="walkswim">
+    <monster id="6" name="Blub" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="7" name="Top Blub" walkType="walkswim">
-        <sprite>monsters/blub.xml</sprite>
+    <monster id="7" name="Toppy Blub" walkType="walkswim">
+        <sprite>monsters/blub-toppy.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
-        <sprite>accessories/blub-tophat.xml</sprite>
-    </monster>-->
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
     <monster id="8" name="Crocotree" targetCursor="small" targetOffsetX="-28" targetOffsetY="4" nameOffsetX="-29">
         <sprite>monsters/crocotree.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
