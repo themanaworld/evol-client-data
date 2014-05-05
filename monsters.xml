@@ -76,7 +76,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="6" name="Blub" targetCursor="medium" walkType="walkswim">
         <sprite>monsters/blub.xml</sprite>
-        <sprite>accessories/blub-tentacle.xml</sprite>
+        <sprite>accessories/blub-tentacle.xml|#3e4164,3a3968,544a82,64437a,7d6db4,a26392,8f99c4,d294ab,b3cdcd,e7b8b8,d9ecd1,f0e8c5</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
