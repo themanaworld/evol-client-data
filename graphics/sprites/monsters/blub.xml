@@ -13,12 +13,10 @@ Copyright (C) 2014 Evol Online -->
             <frame index="12" delay="130"/>
             <frame index="11" delay="120"/>
             <frame index="10" delay="110"/>
-            <frame index="9" delay="150"/> <!-- TO REMOVE. -->
-            <frame index="9" delay="130"/> <!-- TO REMOVE. -->
-            <frame index="9" delay="120"/>
+            <frame index="9" delay="400"/>
             <frame index="8" delay="110"/>
             <!-- Rotate tentacles. -->
-            <sequence start="0" end="0" delay="110"/> <!-- TO REMOVE. 110 * 5 -->
+            <frame index="0" delay="660"/>
             <jump action="stand"/>
         </animation>
     </action>
@@ -574,9 +572,7 @@ Copyright (C) 2014 Evol Online -->
     <action name="dead" imageset="blub">
         <animation direction="default">
             <frame index="8" delay="110"/>
-            <frame index="9" delay="110"/> <!-- TO REMOVE. 110 * 3. -->
-            <frame index="9" delay="110"/> <!-- Different direction. -->
-            <frame index="9" delay="110"/>
+            <frame index="9" delay="330"/>
             <sequence start="10" end="12" delay="100"/>
 			<frame index="12"/>
 		</animation>

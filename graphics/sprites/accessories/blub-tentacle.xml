@@ -144,8 +144,7 @@ Copyright (C) 2014 Evol Online -->
             <goto label="start" rand="100"/>
             <!-- Rotate Animation. -->
             <label name="rotate"/>
-            <sequence start="0" end="5" delay="110"/>
-            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110" repeat="2"/>
         </animation>
 
         <animation direction="downleft">
@@ -199,8 +198,7 @@ Copyright (C) 2014 Evol Online -->
             <goto label="start" rand="100"/>
             <!-- Rotate Animation. -->
             <label name="rotate"/>
-            <sequence start="0" end="5" delay="110"/>
-            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110" repeat="2"/>
         </animation>
 
         <animation direction="upright">
