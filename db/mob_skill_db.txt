@@ -25,38 +25,39 @@
 // around (11x11 area around self)
 //
 //conditions: (condition type) (value which specifies a condition value) 
-//	always			uncondtional
-//	myhpltmaxrate		when the mob's hp drops to a certain %
-//	mystatuson		If the mob has any abnormalities in status (condition value), 
-//	mystatusoff		If the mob has ended any abnormalities in status (condition value), 
-//	friendhpltmaxrate	when the mobs' friend's hp drops to a certain %
-//	friendstatuson		If the friend has any abnormalities in status (condition value), 
-//	friendstatusoff		If the friend has ended any abnormalities in status (condition value), 
-//	attackpcgt		Attack PC becomes more than the  number of specification 
-//	attackpcge		Attack PC becomes equal or more than the number of specification. 
-//	slavelt			when the number of slaves is lower than the original number of specification. 
-//	slavele			when the number of slaves is lower or equal than the original number of specification. 
-//	closedattacked		when melee attacked (close range attack)
-//	longrangeattacked	when long ranged attacked (like bows and far range weapons)
-//	skillused		when a skill is used on the mob
-//	afterskill		after the mob used certain skill.
-//	casttargeted		when a target is in cast range.
-//	rudeattacked		when a target is rude attacked
-//	hiding			*not implemented yet* when a target is hidden
+//    always            uncondtional
+//    myhpltmaxrate        when the mob's hp drops to a certain %
+//    mystatuson        If the mob has any abnormalities in status (condition value), 
+//    mystatusoff        If the mob has ended any abnormalities in status (condition value), 
+//    friendhpltmaxrate    when the mobs' friend's hp drops to a certain %
+//    friendstatuson        If the friend has any abnormalities in status (condition value), 
+//    friendstatusoff        If the friend has ended any abnormalities in status (condition value), 
+//    attackpcgt        Attack PC becomes more than the  number of specification 
+//    attackpcge        Attack PC becomes equal or more than the number of specification. 
+//    slavelt            when the number of slaves is lower than the original number of specification. 
+//    slavele            when the number of slaves is lower or equal than the original number of specification. 
+//    closedattacked        when melee attacked (close range attack)
+//    longrangeattacked    when long ranged attacked (like bows and far range weapons)
+//    skillused        when a skill is used on the mob
+//    afterskill        after the mob used certain skill.
+//    casttargeted        when a target is in cast range.
+//    rudeattacked        when a target is rude attacked
+//    hiding            *not implemented yet* when a target is hidden
 //
 // The character's state which can be specified to be a condition value by the statuson/statusoff system
-//	anybad		any type of state change
-//	stone		condition of being in stone state
-//	freeze		condition of being in frozen state
-//	stan		condition of being in stunned state
-//	sleep		condition of being in sleep state
-//	poison		condition of being in poisoned state
-//	curse		condition of being in cursed state
-//	silence		condition of being in silenced state
-//	confusion		condition of being in confusion state
-//	blind		condition of being in blind state
-//	hiding		condition of being in hidden state
-//	sight		condition of being in unhidden state
+//    anybad        any type of state change
+//    stone        condition of being in stone state
+//    freeze        condition of being in frozen state
+//    stan        condition of being in stunned state
+//    sleep        condition of being in sleep state
+//    poison        condition of being in poisoned state
+//    curse        condition of being in cursed state
+//    silence        condition of being in silenced state
+//    confusion        condition of being in confusion state
+//    blind        condition of being in blind state
+//    hiding        condition of being in hidden state
+//    sight        condition of being in unhidden state
 
-//id,	name@skill,		state,	skillid,	skilllevel,	permillage,	casttime,	delay,	cancel,	target,	cond1,		cond2,	cond3,	val0,	val1,	val2,	val3,	val4,	emotion
-1005,	Ratto@NPC_POISON,	attack,	178,		20,		500,		0,		500,	yes,	target,	always,		0,	0,	10,	,	,	,	,
+//id,   name@skill,                state,   skillid,  skilllevel, permillage, casttime, delay, cancel, target,  cond1,   cond2,  cond3,  val0,  val1,  val2,  val3,  val4,    emotion
+1005,   Ratto@NPC_POISON,          attack,  178,      20,         500,        0,        500,   yes,    target,  always,  0,      0,      10,    ,      ,      ,      ,
+1008,   Blub@NPC_SUMMONSLAVE,      idle,    198,      5,          10000,      700,      10000, no,     self,    slavele, 3,      1007,   ,      ,      ,      ,      ,
