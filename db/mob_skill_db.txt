@@ -60,4 +60,4 @@
 
 //id,   name@skill,                state,   skillid,  skilllevel, permillage, casttime, delay, cancel, target,  cond1,   cond2,  cond3,  val0,  val1,  val2,  val3,  val4,    emotion
 1005,   Ratto@NPC_POISON,          attack,  178,      20,         500,        0,        500,   yes,    target,  always,  0,      0,      10,    ,      ,      ,      ,
-1008,   Blub@NPC_SUMMONSLAVE,      idle,    198,      5,          10000,      700,      10000, no,     self,    slavele, 3,      1007,   ,      ,      ,      ,      ,
+1008,   Blub@NPC_SUMMONSLAVE,      any,     198,      1,          2000,       1000,     0,     no,     self,    slavelt, 4,      0,      1007,  ,      ,      ,      ,
