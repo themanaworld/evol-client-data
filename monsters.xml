@@ -104,6 +104,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="10" name="Frostiana" targetCursor="small">
         <sprite>monsters/frostiana.xml</sprite>
+        <attack id="1" effect-id="21" particle-effect="graphics/particles/poison-cloud.xml"/>
         <sound event="die">monsters/mushroom/die1.ogg</sound>
         <sound event="die">monsters/mushroom/die2.ogg</sound>
         <sound event="hit">monsters/frostiana/hit1.ogg</sound>
