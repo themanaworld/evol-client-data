@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Author : Reid, 4144
+Copyright (C) 2011-2014  Evol Online -->
+<sprite>
+    <imageset name="door" src="graphics/sprites/npcs/sprite/artisdoor.png" width="96" height="96" offsetY="32"/>
+
+    <action name="stand" imageset="door">
+        <!-- Open animation -->
+        <animation direction="left">
+            <sequence start="0" end="4" delay="70"/>
+            <frame index="5"/>
+        </animation>
+
+        <!-- Close animation -->
+        <animation direction="up">
+            <sequence start="5" end="1" delay="70"/>
+            <frame index="0"/>
+        </animation>
+
+        <!-- Opened door -->
+        <animation direction="right">
+            <frame index="5"/>
+        </animation>
+
+        <!-- Closed door -->
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>
