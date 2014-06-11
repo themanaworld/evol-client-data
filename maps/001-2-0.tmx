@@ -11,7 +11,7 @@
  </tileset>
  <layer name="Ground" width="68" height="76">
   <data encoding="base64" compression="zlib">
-   eJzt182NwjAQhuFw5ucKEiva4AgFQBcUQFNbwnaypITUgS0y0mgysTiACOP38Chk4kP8ycaTa9M0VwAAAAAAAAAAAHyVebIqWBTGLCbw/q/O4pjMkv3scRWb/v6gxmQXNe4QLJNlcu7ntu6vv+b+pMboujzbTWAer86jU/6SVjmZMVLvguYhc5NrZ2qteWZFz8PLwuaha9HzGMvGPou6Prw52jVQ2jOR8tiO5GAzkdpNkfrPBObxTnr+Usu//x15XKT+o5RH29/LmXxzRDtvx/KQ/aLzyHW9NiL2H8+QMyjTa0P+X2rNw/v/iHa+PJuHPVv0GqkxD9kvdm3UvF+8Xr729eH1bjXmUerha8tj2wx7eL1GovfrHu/7X/ewNfK+bT/9Tp9GFgAAAAAAAAAAAAAADN0Bx5EHVg==
+   eJzt19ENgjAQgGF8Fn3VB+MaPuoAuoUDsJQjuIkwAnNYIk0ul7PRKB6W/+ELcPThejnaUhVFUQEAAAAAAAAAAOCvzINlQpkYU44g/2/X4hDMgt3scY3W/fNejOmcxbh9ZjVZBKd+bqv+elHPRzFGxuO77Qjm8e16tMI1aISjGhPjbYb1qMTc4rVVsUa907zzH7oeVi10PWTMO/9f98ezd7n2hzVH3QOpb8Y7/yHqoeugaxJjtRDjmxHMYUjW2tDd3wzduJzOH6l6NCLW7be1Icf91qqHXhtOfVz2Rq7nj3d6RvZGXF+8c/Oqh7V+5Li/vELvLbJHvHPz6g9r/Zjy92Kd5afeH9bZzTs3D6kzvHduXv0xlf+5V/tD//9PuT9iTXL/t/2kJt65AAAAAAAAAAAAAAAwFnfMxxDh
   </data>
  </layer>
  <layer name="Ground 2" width="68" height="76">
@@ -26,12 +26,28 @@
  </layer>
  <layer name="Over" width="68" height="76">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKgkAUgGHvUZ5ByfaFdoLqHnb/lW9hIIrWIpxgvg/+xTAz8JavKAAAAAAAAAAAYFv94b7aeFP9eJZ/cIjKSaeoic7juY+uK38vO8yXwmtSG3XRbTzn7h49omfqQQCArOW0r3/jvdPPd/ljyqESs8sv2eUBAAAAAAAAYGkAlmYKYg==
+   eJzt1ssJwlAQBdDXgBX4aUFR94pagdqH6X/liIKZ4G8RFc05cBeB4fFyIWFKAQAAAAAAAODfVZFeC+eMLmf9On1k+sj0kZ3eoR+ZPJkbP5gZt3qj76rKtZNhLdPILDK/PB8iyztnLN5+y8+qbmQVWUc2pb1v6pdtI7vIvuij6ZU+/uV/+gp9ZPrI9JHpI9NHpo/s2U5/2tcHpVt91Hf65i4/qM10xaNdvmtdNNV3eQAAAAAAAADg7AgB7x1H
   </data>
  </layer>
- <layer name="Collision" width="68" height="76">
+ <layer name="Collision" width="68" height="76" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0LEKwCAQREHz6355KotADCKEFW4OprFaX79a6wAAAAAAAACUMe7r7e3Su/9ssXvp/XrooYceJ1n5b5UWsz4rzdI70430mLeo3EQPPfTQQw899Mg1SW86gQ4AAAAAAAAA8HQDVgL8Dg==
+   eJzt0jEKwCAQRUFzdU+eyiIQowRkF52FaVJ9H6lXKRUAAAAAAABgY+2+vr1d9O6VLXo9Rhe9f2WPPxe9Xw899NAjk5n3ntKi12emWfTOzP/PSfTQQw899NBDDz2yNInelIEOAAAAAAAAAPB0A6Sl9GE=
   </data>
  </layer>
+ <objectgroup name="Object" width="68" height="76">
+  <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="2112"/>
+   </properties>
+  </object>
+  <object name="To Artis South" type="warp" x="1184" y="1472" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1728"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
