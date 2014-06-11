@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="68" height="76" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Pavement" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <layer name="Ground" width="68" height="76">
+  <data encoding="base64" compression="zlib">
+   eJzt182NwjAQhuFw5ucKEiva4AgFQBcUQFNbwnaypITUgS0y0mgysTiACOP38Chk4kP8ycaTa9M0VwAAAAAAAAAAAHyVebIqWBTGLCbw/q/O4pjMkv3scRWb/v6gxmQXNe4QLJNlcu7ntu6vv+b+pMboujzbTWAer86jU/6SVjmZMVLvguYhc5NrZ2qteWZFz8PLwuaha9HzGMvGPou6Prw52jVQ2jOR8tiO5GAzkdpNkfrPBObxTnr+Usu//x15XKT+o5RH29/LmXxzRDtvx/KQ/aLzyHW9NiL2H8+QMyjTa0P+X2rNw/v/iHa+PJuHPVv0GqkxD9kvdm3UvF+8Xr729eH1bjXmUerha8tj2wx7eL1GovfrHu/7X/ewNfK+bT/9Tp9GFgAAAAAAAAAAAAAADN0Bx5EHVg==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="68" height="76">
+  <data encoding="base64" compression="zlib">
+   eJzt1LsNwjAUBdB0zEcBFWwFTICYBOiBCRAwAL8eR6IwUUJHHOJzpCv5WS6uXLyiAAAAAAAAgH4YhMxC5iGL99z0LgejkOX7vAoZf3nXd8ModXNOptF5HbIJ2UZ3k3brQC/sQvZRDmnrJPeszI8kLeA/XCrzOUmLbih3ad3+yHWnHhvuT6226A7/8ela1O+Pe4IuXVH+yS1Kzn8BAAAAAAAAAADway/2wCBV
+  </data>
+ </layer>
+ <layer name="Fringe" width="68" height="76">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKwCAMAFAvV/fu9Zbi+bp0KhE6FTTvQQj5DBlTCgAAAAAAAOzheNX14x559CePYHYGkVWb9K9frwAAMvF/AAAAAAAAAAAAAKzhBinLBUI=
+  </data>
+ </layer>
+ <layer name="Over" width="68" height="76">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgkAUgGHvUZ5ByfaFdoLqHnb/lW9hIIrWIpxgvg/+xTAz8JavKAAAAAAAAAAAYFv94b7aeFP9eJZ/cIjKSaeoic7juY+uK38vO8yXwmtSG3XRbTzn7h49omfqQQCArOW0r3/jvdPPd/ljyqESs8sv2eUBAAAAAAAAYGkAlmYKYg==
+  </data>
+ </layer>
+ <layer name="Collision" width="68" height="76">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEKwCAQREHz6355KotADCKEFW4OprFaX79a6wAAAAAAAACUMe7r7e3Su/9ssXvp/XrooYceJ1n5b5UWsz4rzdI70430mLeo3EQPPfTQQw899Mg1SW86gQ4AAAAAAAAA8HQDVgL8Dg==
+  </data>
+ </layer>
+</map>
