@@ -5,7 +5,7 @@
 //    Doors warp and animations in map 001-1
 //
 
-001-1.gat,54,41,0	script	#Door1	313,1,1{
+001-1.gat,54,71,0	script	#Door1	906,1,1{
     close;
 
 OnTouchFirst:
@@ -21,7 +21,33 @@ OnUnTouchAll:
     close;
 
 OnTouchCenter:
-    warp "001-1", 54, 55;
+    warp "001-2-0", 37, 45;
+    close;
+
+OnTimer340:
+    stopnpctimer;
+    if (getnpcdir ("") == 2) setnpcdir 6;
+    if (getnpcdir ("") == 4) setnpcdir 8;
+    end;
+}
+
+001-1.gat,50,65,0	script	#Door2	906,1,1{
+    close;
+
+OnTouchFirst:
+    setnpcdir 2;
+    stopnpctimer;
+    initnpctimer;
+    close;
+
+OnUnTouchAll:
+    setnpcdir 4;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+OnTouchCenter:
+    warp "001-1-0", 30, 34;
     close;
 
 OnTimer340:
