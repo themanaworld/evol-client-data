@@ -22,12 +22,12 @@
  </layer>
  <layer name="Ground 2" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1r0RgjAAxfFoY+8mjuAIFFrhPC6gTuA5idqrE3DoAIr2vlxS5JBgBUX4/+7eEUKK8O74MAYAAAAAAAAAAABDN1E2ylbZ+fPYupQtlL0fH5RlyzprPep8S70rlMzHBOMyWJM1JCUr43qwjspJOftz20Pu1zTJu91a757KozZ3Vyo/nukZGEeSGtvFK0gVXJvrfi86XoPclGmCPbSxHXxqc2/juhiSIjJfRuZTRQ+oa/qeDA3vSYf3g0MPDj04//67h6TtvxsAAAAAAAAAAAAAAPz6Ao7UNgE=
+   eJzt1jFOwzAUBmAzIE7ATbhIB5jKebgAcALESVp24ARV4QBQuvMse7BCUqZ2iL9P+hX7xYPzpDhJCQAAAAAAgN5dRO4jD5HHOp9aN2fXkac6fo7cHFiX3Z0dfUsnt4ksalIz3jZrFiOZk9tU+pCtIuvIS53nPizrmjHL427t5L4in4PaR2RXx1fxDpxPZG5yL76b7Jp7l/G8r3F9a/Je6z3JPdgPaj+p9KInm4n6dqI+V/rA0Nj3pDfOycL5UOhDoQ/Ff//dPTn03w0AAAAAAAAA/PULS2s17Q==
   </data>
  </layer>
  <layer name="Fringe" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt0UEKQFAQBmCPG7iBw7C351pOIuejvIWelIUQ31fTNNMs/posAwAAAAAA4O/qZG5O3v3dEJ5OcL029jH2KdmzqpbfF/nTKXiTMuwLALb6g313awoAAAAAAAAAAOBLZhlhBLM=
+   eJzt0UEKQFAQBmCPM7iBq7C351pOIuejvIWelIUQ31fTNNMs/posAwAAAAAA4O/qZG5O3v3dEJ5OcL029jH2KdmzqpbfF/nTKXiTMuwLALb6g313awoAAAAAAAAAAOBLZiEaBMU=
   </data>
  </layer>
  <layer name="Over" width="66" height="72">
@@ -35,12 +35,12 @@
    eJzt1l0KgkAUhuHTAlpB1m3QjVGBl0W1gmofubZW2Bkc6TT4R1ih8z7wITOJyMcYRwQAAAAAAAAAAAAAkGumZv2YvP/u1uGeswr2Fv5ZQxX28Cl6KNBDYQw9zDTrlvvShnvSXt/oP3J5dTHXLP11o9lqdn591xxqnrH/+lv+Rm6S+etRc9Kcpb9vZ4gumqvmJnH3YHXpYej/k12UPVTNU+L3Y+uhrovYeqgS23loElMPnAfOg9M2e7u5OpE4eii7cHO3nbndOjH3jJ2du+3MnUk8HYTszA0AAAAAAAAAAAA8AWuiJJY=
   </data>
  </layer>
- <layer name="Collision" width="66" height="72">
+ <layer name="Collision" width="66" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1kEKgCAQQFHp+EJ3riDBlRmBI/kG3kZaTB8X5i2lDAAAAAAAAHDab09nf3b9a5n6vMwqLXomesdZOqzQSAcddHjfovVN9N4juvS0it5ztPqNUc8qb4vWXVjxTuiggw466KCDDt9bRO8U3SN6BwAAAAAAAOZwAPQuzsg=
   </data>
  </layer>
- <objectgroup name="Object" width="66" height="72">
+ <objectgroup name="Object" width="66" height="72" visible="0">
   <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
