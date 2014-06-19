@@ -608,6 +608,17 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/shorts-male.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
     </item>
+    <item id="2201"
+        image="equipment/legs/trousers.png"
+        name="Brown Trousers"
+        description="A classic trousers ornamented with some fluffy fur."
+        defense="9"
+        type="equip-legs"
+        weight="35"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/trousers-male.xml</sprite>
+        <sprite gender="female">equipment/legs/trousers-female.xml</sprite>
+    </item>
 
     <!-- Wings
     <item id="2500"
