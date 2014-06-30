@@ -12,8 +12,8 @@
  <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="96"/>
  </tileset>
- <tileset firstgid="537" name="Indoor x4 x2" tilewidth="64" tileheight="128">
-  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ <tileset firstgid="537" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x2x4.png" width="512" height="128"/>
  </tileset>
  <tileset firstgid="545" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
@@ -31,12 +31,12 @@
  </layer>
  <layer name="Ground 2" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1rsNwjAUhWGDhJiATRiBBVJAFTp2YQFgAsQkQA9MEAUGgEDPtXwLK8ShSgr7/6QjP3CRHCkhxgAAAAAAAAAAACB1Y8lGspXsdB06F7PF0Ji9zg92HTg313E96P6a+lZIMo3x5qV3JmtITJbG9WAdJSfJWde2h1zPNMm7vbRereR5eMr4qO3fJZXOp/IMjAKJje3i5aXyfpvJ/V5kvHq5SSYR9tDGdvCp7b2N6yIlRWC/DOzHih5Q1/R/khrekw7vB4ceHHpw/n13p6TtuxsAAAAAAAAAAAAAAPz6AjfpNoU=
+   eJzt1s8NgjAchuFiYpzATRzBBUjUE97cxQXUCYyTqHd1AoIOoOjdX9MeGmzxBIf2fZIvLaUH+BL+KAUAAAAAAAAAAIDUjSQbyVays8ehfTFbDJTa2/lBHwf2ze24zrq/pr6VktxGOfPK2ZN7EpOlMj1oR8lJcpbMMtNDYff4FN1fXm9W8jw8ZXw01u+S2s4n0skwkNjoLl5OaufcVO73IuPVyU0yjrCHNrqDT2PtrUwXKSkD61VgPVb0gCbf9yQ1vCcN3g8GPRj0YPz7705J2383AAAAAAAAAAAAAAD49QUgfTba
   </data>
  </layer>
  <layer name="Fringe" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1T0KwjAUAOA0VsFBNwd3L+Kgu4KbDl7Kk4jnM0MHqS3UwSjp98GjJH3Dy89rQwAAAAAAAGDsdq3xfmBeaU4f5t+qr5TxU4sYwjXFvRk/muehI/eY8uYpljFTcZlse9YzTfOz5t0mnf26I29S0F4cC1pLDqvqPUpTx7LueE6VfeOFPhqvS8/8OWsV/yG2+qDWF6PW/i76bwIAAAAAAAAADPcEkAoGkA==
+   eJzt1SsOwkAQANDtUoPgYxB4LoIADwkOBJfiJITzsaKClDYpgoVs30smzW5HzH6mDQEAAAAAAICx27XG+4F5pTl9mH+rvlLGT81iCNcU92b8aJ6HjtxjypummMdMxWWy7VnPIs0vm3ebdPbrjrxJQXtxLGgtOayq9yhNHcu64zlV9o0X+mi8Lj3z56xV/IfY6oNaX4xa+7vovwkAAAAAAAAAMNwTEe4GpA==
   </data>
  </layer>
  <layer name="Over" width="66" height="72">
@@ -44,12 +44,12 @@
    eJzt1l0KgkAUhuFTdBetIOs26KaowMuiWkG1j1xbK+wMTXgS/whLdN4HPmSmQeRD44gAAAAAAAAAAAAAQGo8bPsJ2pFoJmb9GHz+7tbZPWdp9kba3dzfq6uyPXyLHl7o4aUPPUw164pzq5Izq0afqB2JpF3MNAt/3Wi2mp1f3zWHgnvsf/6U/5GYxP561Jw0Z2nu2+mii+aquUnYPVh1euj6/2Qd7x7y5inx+6H1UNRFaD3kCe19KBNSD7wPvA9O1ezt5upIwujh3YWbu+3M7daROdN3du62M3cs4XSQZWduAAAAAAAAAAAA4AnOFySp
   </data>
  </layer>
- <layer name="Collision" width="66" height="72">
+ <layer name="Collision" width="66" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1kEKgCAUBNCgmwje/4qtipBEadGX/hPersU4DGHZt60AAAAAAAAAcDlPdI5ooxOdb4UOsnR0v0v2Ht7eXw//28Ooi9430Zm/6mWmq+icX6udHuoC2SL20W4h2yZm/h8Z2IM96EEPetDDrPYtle0N9bSN6AwAAAAAAACs4QCrK5ly
   </data>
  </layer>
- <objectgroup name="Object" width="66" height="72">
+ <objectgroup name="Object" width="66" height="72" visible="0">
   <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
