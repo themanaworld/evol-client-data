@@ -6,47 +6,50 @@
  <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2 x4" tilewidth="64" tileheight="128">
-  <image source="../graphics/tilesets/artis-indoor-x2x4.png" width="512" height="128"/>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
  </tileset>
  <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="96"/>
  </tileset>
- <tileset firstgid="537" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="537" name="Indoor x4 x2" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="545" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="665" name="Pavement" tilewidth="32" tileheight="32">
+ <tileset firstgid="673" name="Pavement" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="793" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="801" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt2E1OwzAQhmHDlsKWDeIq5QDNXXIp9mw4RzfgI+QULHCFLU1HthWpIRNN3sWj/NiL8Rc7cTuGEEYAAAAAAAAAAICdeUieOg6dPocN1L9UBm/JXXK+/zsWH/n6KPpc/Ih+RydZPCZDHtNzPr6r65PoI++XttcNjGOpHKbkOx8/kyiuT6LPlNuiaPOQwyjG9FURw/W4a6zrXzqHMgcK+ex1DvKedf3/kcOkzntt3uZDbWz6mZdzuWY85qDHr7PQa6a43H/ZwBiWzmMM9bXfe4962D9IUeUQRdsQ6vPB03ezlode+0Oovx8859DKpvVdta5t7Rxq7wdP34s5yr5b21sOrfmwx3Wh54S3ffXcHFp7Tuva1tTba1vXtvZ88P47a+58iA3WtVlk4fU/mFuysK4FAAAAAAAAAAAA9n4B1Klcuw==
+   eJzt2M1NxDAQhmHzc2PhygXRylLAppc0RQlIFAKmg9SBV9jaYWRbkQiZaPIeHuXHPoy/2Il3xxDCCAAAAAAAAAAAsDN3yUPHodPnsIH6l8rgJblKvq5/jsV7vj6KPme3N5fzo5Ms7pMhj+kxH1/V9Un0kfdL2/MGxrFUDlPymY9vSRTXJ9Fnym1RtHnIYRRj+qiI4fe4a6zrXzqHMgcK+ex1DvKedf3/kcOkzntt3uZDbWz6mZdzuWY85qDHr7PQa6Y433/awBiWzmMM9bXfe4962D9IUeUQRdsQ6vPB03ezlode+0Oovx8859DKpvVdta5t7Rxq7wdP34s5yr5b21sOrfmwx3Wh54S3ffXcHFp7Tuva1tTba1vXtvZ88P47a+58iA3WtVlk4fU/mL9kYV0LAAAAAAAAAAAA7H0DnWdb1A==
   </data>
  </layer>
  <layer name="Ground 2" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1rsNwjAUheELEmICNmEEaqQUUIV5WACYADEJ0AMTRIEBINBzLbuwQhyqpLD/Tzqy47hIjpSHCAAAAAAAAAAAAFI31mw0W83OHYf2xWw+FNm7+UGzDOxbuHE96P6a+lZoMhfx5qW3J2tITFZiezCOmpPm7I5ND7nb0yTv9tJ6levz8NTxUVu/ayo3n+ozMAokNqaLl5fKOzfT+73oePVy00wi7KGN6eBTW3uL7SIlRWC9DKzHih5Q1/Q9SQ3vSYv3g0UPFj1Y//67U9L23w0AAAAAAAAAAAAAAH59AV/8NnU=
+   eJzt1rsNwjAUhWGDhJiATRiBBVJAFTp2YQFgAsQkQA9MEAUGgEDPtXwLK8ShSgr7/6QjP3CRHCkhxgAAAAAAAAAAACB1Y8lGspXsdB06F7PF0Ji9zg92HTg313E96P6a+lZIMo3x5qV3JmtITJbG9WAdJSfJWde2h1zPNMm7vbRereR5eMr4qO3fJZXOp/IMjAKJje3i5aXyfpvJ/V5kvHq5SSYR9tDGdvCp7b2N6yIlRWC/DOzHih5Q1/R/khrekw7vB4ceHHpw/n13p6TtuxsAAAAAAAAAAAAAAPz6AjfpNoU=
   </data>
  </layer>
  <layer name="Fringe" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1j0KAjEQBtAknfaWdl7Cxk6L7SwsBL2WJxHPZ2AFJbKyK/hD9j34igkTyJAUCQEAAAAAAICxWxf1pmdfbXYD+0/xI8f4qWkKYZ9zvtWXnCbX247+SWr31GTZY55FvvtY2dyl5sV889SGu1l8Tm1WqQ0A7zl2rB++eor/UP4j/CvGzXvgkfcAAAAAAAAAAMNcAWI0B5A=
+   eJzt1T0KwjAUAOA0VsFBNwd3L+Kgu4KbDl7Kk4jnM0MHqS3UwSjp98GjJH3Dy89rQwAAAAAAAGDsdq3xfmBeaU4f5t+qr5TxU4sYwjXFvRk/muehI/eY8uYpljFTcZlse9YzTfOz5t0mnf26I29S0F4cC1pLDqvqPUpTx7LueE6VfeOFPhqvS8/8OWsV/yG2+qDWF6PW/i76bwIAAAAAAAAADPcEkAoGkA==
   </data>
  </layer>
  <layer name="Over" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1l0KgkAUhuGp22gFWbdBN0YFXhbVCqp95NpaYWdwxNPgH2GJzvvAh8w0iHxoHGMAAAAAAAAAAAAAoDCb9v0E/Uglc7V+TT5/t2t/z9p4eyt3r6Hye/gWPWToITOGHhaSbcO5uOZM3OkT9SM1RRdLydpdd5K95ODWT8mp4h7Hnz/lf6QqibueJRfJ1XT37QzRTXKXPEzYPWhtehj6/2QbeQ9l85Rx+6H1UNVFaD2UCe19qBNSD7wPvA9W0+xt5+rIhNFD3oWdu/XMbdeROjN2eu7WM3diwunAp2duAAAAAAAAAAAA4A3BiiSj
+   eJzt1l0KgkAUhuFTdBetIOs26KaowMuiWkG1j1xbK+wMTXgS/whLdN4HPmSmQeRD44gAAAAAAAAAAAAAQGo8bPsJ2pFoJmb9GHz+7tbZPWdp9kba3dzfq6uyPXyLHl7o4aUPPUw164pzq5Izq0afqB2JpF3MNAt/3Wi2mp1f3zWHgnvsf/6U/5GYxP561Jw0Z2nu2+mii+aquUnYPVh1euj6/2Qd7x7y5inx+6H1UNRFaD3kCe19KBNSD7wPvA9O1ezt5upIwujh3YWbu+3M7daROdN3du62M3cs4XSQZWduAAAAAAAAAAAA4AnOFySp
   </data>
  </layer>
- <layer name="Collision" width="66" height="72" visible="0">
+ <layer name="Collision" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKgCAQQFGhWwjd/5oVJLgyI3Ak38DbSIvp48K8pZQBAAAAAAAATvvt6ezPrn8tU5+XWaVFz0TvOEuHFRrpoIMO71u0vonee0SXnlbRe45WvzHqWeVt0boLK94JHXTQQQcddNDhe4vonaJ7RO8AAAAAAADAHA69gQgt
+   eJzt1kEKgCAUBNCgmwje/4qtipBEadGX/hPersU4DGHZt60AAAAAAAAAcDlPdI5ooxOdb4UOsnR0v0v2Ht7eXw//28Ooi9430Zm/6mWmq+icX6udHuoC2SL20W4h2yZm/h8Z2IM96EEPetDDrPYtle0N9bSN6AwAAAAAAACs4QCrK5ly
   </data>
  </layer>
- <objectgroup name="Object" width="66" height="72" visible="0">
+ <objectgroup name="Object" width="66" height="72">
   <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
