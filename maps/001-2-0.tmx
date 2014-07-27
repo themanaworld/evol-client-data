@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="66" height="72" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="manaplus version" value="1"/>
+ </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
@@ -49,7 +52,7 @@
  </layer>
  <layer name="Collision" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1ksKgDAMBUDBuwje/4KKINZSPysT7ARmnzwetNM4DBMAAAAAAAAAm3m1T/QukZ5mTrBjliyuJnrvDBnI4rj/TznowzmL8t1o3fnn++9yedOb6D2/dtWVnt7Ush91F3rrxN1E76YP+iAHOWQgBznU6r9Ub3+oVjeidwAAAAAAACCHBTyj4bk=
+   eJzt1tEKRkAYBFDlXZT3f0FSShvWDbPZ89W5VGOa/t80DsMEAAAAAAAAwGZe7ZfOklS7uYGMLXVxduncX3ZQu3T+dBf7c+ns9vBOF7XfgD+//10vT3aTzvm1q6309J963Ee5hd42cXfpbPZgD3rQQwv0oIdS+S3V2zfU2TbSGQAAAAAAAGjDApdp4eU=
   </data>
  </layer>
  <objectgroup name="Object" width="66" height="72">
