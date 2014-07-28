@@ -46,25 +46,25 @@
  </layer>
  <layer name="Ground 2" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1E9OwkAYhnHqpigJW9foCYwrjgE7QllwBLmJ+GdPStiDVxD2yAmIXgAJe9+Gz2ScAGFDi5PnlzyZtrRk+NJQKgEAAAAAAAAAAADA//KsXtSrind8/nvtKtoeV6K8dpavR9VXT3Y+tHW0495Lm8G11rIdx4HOZWBramvDWRvOuX8tqxltqwY4G38u72qqZs49iep4zz1oFj0rOfEei+C+H9lvn6sPp8UR31G/OM3eiuS+L9lMNt7nn/lu52yM1US9qaW6c/4r7qO/c+kfKGTZXGqaxY11681lsOe5dM/1UCy98y+1Vl07nxwoZCv17bS26y3VLmpTAAAAAAAAAAAAAAAAZ+4Hm60yGA==
+   eJzt0k1uQVEYh3G3E20lnRqXJRhZBjMpA0tod+KrcyHm2ALm2hUIG2jF3P/G2+Q4QUzcqyfPL3ly7qccb24mAwAAAAAAAAAAAAD/S1f11KfKnrj/d+05OhznoqR2lqyWaquOnQ9tHZ149slmkNf6aMfZQOfSt3Vga8VZK865fy2uGh16CXA2/lxmaq4WzjN11fDee9csPqz6jfeYBvf7iP/7Un05fV/xG+WH2+wtTe73Es9k591fJ7uduzFWEzVVK+9eKTqeS/tCIYvn8qpZFKyiN5f+mfcGZ66Hwv9eNmqrmnY+uVDIftSv09au19RbWpsCAAAAAAAAAAAAAAC4c3tvVTHm
   </data>
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt07sJAkEUBdDVMgQx1NTNNLQDK7AE8dOIWIFYgSgWYGW+YAIRTAR3hvEcuLzdje4Mb5sGAAAAAAAAoE6DXu4G5dr2czfozi3Ne2Qc5568nH0az21kHVnGvgwjI3vTzOI+5m87sqj0Xk5pniOrP/ovvtVWuge/cEhzF3lE9un9mKcOhbt8+H7ttEU5NrkLAAAAAAAAAAAU7Aln0grp
+   eJzt07EJAjEUBuDoGIJYaut1WrqBEzjCoZuIE4gTiOJ8vuIKEa4RzMX4ffCTkOpPeEkJAAAAAAAAoE6T0dANynUYD90gn3u3PiLzuPfi5e7L2DeRNrKNeZlGZuYmreI91m8zsqn0Xc7deons/uhffKqpdA6+4dhzfsragl9x7Tm/ZW1Rjv3QBQAAAAAAAAAACvYEsTMJQA==
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1UFKw0AUBuBJXHsCq9suW2zBpaI9gfUG1b0XrO3RfJIUYhkMBEli/D74SWYmhMe/mZQAAAAAAAAA+It2kdfI29CDjMjl0AOMlF7y2nrZlyl9RBbxvmysD5Fj+X1908O8fcn1UhQplXUuimrvPvLQ8q+p99KVXvL0kqeXvCn1cpWqe6bN6T766Xz2KxONx1c315F5/WzmtDerv7uNrCLrzPkUvUfu6mcz53uPkafI5uz8v3uObCMvQw8CAAAAAAAA0MEnW7MUFA==
+   eJzt1UsKwjAUheGkjl2B1alDn+BQUVeg7kCdu0EfS/NIU4glWCjS1vh/cEiblHI5kxgDAAAAAAAAAAAAAPhFR+WknJsepEW6TQ/QUvQSVtbLNTHmpoz0PPbe78ojeX8f1DBvXUK9WGtM4tKx2d5SWZX8K/ZeJrbav2LvpSp6CaOXsJh66ZnsnimT30efztOvTNQer276ytCtfvK91H03VWbKPHAeo4uycKuf4t5a2Sjbwvm/2yl75dD0IAAAAAAAAAAAAABQwROICxRG
   </data>
  </layer>
- <layer name="Collision" width="70" height="66">
+ <layer name="Collision" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0EEKgCAURVGh/W/KlTWViFDDXtH5cCY18d26lVIBAAAAAAAA+Jz20m95E13Guxyv/Z5+99NdZi69YXWXO5fesbrL2f+ehukdumS6XG3WZfzSO3TRJa1385+azDRMvwEAAAAAAABgxg4jg2sv
+   eJzt0EEKgDAMAMGC//9Uof/yJEipoMESsROYUy7J1q2UCgAAAAAAAAAs65jsO74gMtk3z9BOol3+2OaqS3vYKPuPt/XTBvtRw172H7O7jPa6xCf7D110yXb355WaRBpm3wAAAAAAAAAQsQOK3Icl
   </data>
  </layer>
- <objectgroup name="Object" width="70" height="66">
+ <objectgroup name="Object" width="70" height="66" visible="0">
   <object name="To Artis" type="warp" x="1216" y="1248" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -72,7 +72,7 @@
     <property name="dest_y" value="2112"/>
    </properties>
   </object>
-  <object name="To Second Level" type="warp" x="832" y="864" width="96" height="32">
+  <object name="To Second Level" type="warp" x="832" y="960" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1600"/>
@@ -80,9 +80,9 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="70" height="66">
+ <layer name="Heights" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1DsOgzAQRVGk2f+6EshnTVFEMcaKTZGK0TnSa3DlK2BZAAAAAAAAALiid+RIr8iRnpHr3eO49nl1j8h99S36HrPzSrbInd17dF6xzRr7tsH9fnVZm1Xt0t71rMstxqtm9m3074Iux8166KKLLrt//y/oAAAAAAAAAFzXB7bjeWg=
+   eJzt1UEOgCAMBEAS/v8u5VfGcOCighzbmWQfwNKmpQAAAAAAAAAAmR21h9HFn0TU6sjtrHuJZreHbL20jzdn2qXZv0echRUrOxJxHmb08kwv77LdGgAAAAAAAACGC8wgVls=
   </data>
  </layer>
 </map>
