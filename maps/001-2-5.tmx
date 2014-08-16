@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="67" height="66" tilewidth="32" tileheight="32">
  <properties>
   <property name="manaplus version" value="2"/>
  </properties>
@@ -33,47 +33,33 @@
  <tileset firstgid="955" name="Level Height" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <layer name="Ground" width="87" height="66">
+ <layer name="Ground" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1EFOhDAYgNGi7sZxYfQ+szUOd2E9x+FoLDyHTYSIJLAB5gd5i5e0TdO036JVSqkCAAAAAAAAAGDUKXsZMdz7vIH73rvBHJesaD1kTfbUW6tbxQYarNW13+D2+DueOy97669t27cDtT0PGrynv63mzMu255iubbOBDmu2nWqwlv/etgrqOhTdQNv9ie56tLbXtPw/PHVmdIOItvWCtP3xkX1mXwvqzjx62yWbDmmrrbbbpq22exXZNvrte9NvGX0XAAAAAAAAAIAI3/qTaKo=
+   eJzt0LsRQEAUQNEV+5SgFQqgFzWrxIZGsgK8nXGCk9+5W0ppAwAAAAAA4FVtNhR0FXR+8WHOmoLpBz/6bL3xYsnGCnq/eLEX/OFF6cFZdKsXXnjhRS288MKL535Ed9byI7ov8kd0CwAAAAAAAMDVAdTRtTk=
   </data>
  </layer>
- <layer name="Ground 2" width="87" height="66">
+ <layer name="Ground 2" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1cEJwjAUBuCCOIEbqAv1KOJBN9ER3KA4gXUn57BCD9FD1Zq01n4f/PSlhJfwKDTLAAAAAAAAAABo6/oUvjMJ6iKoT11fpCfTyOvQLKjHONvY8jrzKosqy+BduOef5QmyaThvLN9t0wxSOVcp61x6OB9o5xgxPCpeb3nLP/+vPrWtn2XE3O26uf5PW1VZD6DnEO0T9T0k6jskZpuO2QIAAAAAAAAAAMRzA9pBMj0=
+   eJztzrENADAIA0FWTA/7r5ERQoMocid958IRAAAAAAAAAPvOo19UY5PjLwAAAAAAAAAAAGDfBbDqA0I=
   </data>
  </layer>
- <layer name="Fringe" width="87" height="66">
+ <layer name="Fringe" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJztzrENgCAARFFWxk0IExgnICxoa2lxxKjvVVf9XCkAAAAAAAAAAAAk7Jd9PPYCgD9ooU4PdeCOEerMUOcL6qLutqgLAAAAAAAAAAAA8BYnthYEsA==
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAL4MRRgAAQ==
   </data>
  </layer>
- <layer name="Over" width="87" height="66">
+ <layer name="Over" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1jsKAjEUBdDZgCvw01krfmpFXYG6A7V3/5VvYISpxM/EQOYcuJAUSR63SlUBAAAAAAAAAPCtS+Ta5JZ5ltJNcg9QMN2mo9t0Sux2kHuARp+6nUXmHb/16s4+dbuJbDt+69Wdfer233Sbjm7T0W06uk1Ht+mU2O2w6v4f+6n63zvKPEMqdb/jJtPW+pf9IrKMrN44V2qvT/cm69b6l/0uso8c3jjHZ46RU+ScexAAAAAAAAAAgEweIbgWdw==
+   eJzt0M0JwkAUhdE0YAX+tKBEK1ArUAux/1WuEHlZuNBFcCDnwLcYmMXjdh0AAAAAAAAALVj98Hc32xVtsEWxRbFFsUWxRbFFWafDF//2aTPzLS147bFNfTqm0/ietoQd3p7pnC7pOr6nLc0t3dPj34cAAAAAAAAAfDAAv8gHFw==
   </data>
  </layer>
- <layer name="Collision" width="87" height="66" visible="0">
+ <layer name="Collision" width="67" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0MEJgAAQA0HB/tuxPgvw66KBWcj/bq7zOC577I2+/uGvY8t2cWzZLo4t28WxZbs4tmwXx5bt4tiyXRxbtotjy3ZxbNkuji3bxbFluzi2bBfHlu1bt67FtottF9sutl1su9h2se1i28W2i20X2y62XWy72Hax7WLbxbaLbRfbLrZdbLvYdrHtYtvFtottF9sutl1su9h2se1i28W2i20X2y62XTffbnKp
+   eJzt0MEJwCAABEEh/bdjfXluAwGNzsIVcDOfMeYB+6LVH1iwYMGCBYsdxoIFCxYsWLBgwYIFCxYs1o8FCxYsWLBgweJPFjfGolgUi2JRLIpFsSgWxaJYFItiUSyKRbEoFsWiWBSLYlEsikWxKBbFolgUi2JRLIpFsSgWxaJYFItiUS/1SbiF
   </data>
  </layer>
- <objectgroup name="Object" width="87" height="66" opacity="0.9">
-  <object name="To Artis" type="warp" x="1504" y="1312" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
-   </properties>
-  </object>
-  <object name="To Library Storage" type="warp" x="1664" y="864" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
-   </properties>
-  </object>
-  <object name="To Library Second Floor" type="warp" x="1760" y="768" width="128" height="32">
+ <objectgroup name="Object" width="67" height="66">
+  <object name="To Library First Floor" type="warp" x="1024" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
@@ -81,9 +67,9 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="87" height="66" visible="0">
+ <layer name="Heights" width="67" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1m4AAE=
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAL4MRRgAAQ==
   </data>
  </layer>
 </map>
