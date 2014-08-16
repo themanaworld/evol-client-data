@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="70" height="66" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="manaplus version" value="2"/>
+ </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
@@ -38,41 +41,41 @@
  </tileset>
  <layer name="Ground" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1b0NwjAQhmFHlPy0dKxCBoBdMg0lBTNBBqDwHNgiJxnrLgWKMbLe4pETcc336UwG59wAAAAAAAAAAAAA/Ng62Bk2X8y1IGbtgy64rt5nl7wfp8wyd1Fm4ilztfMsZRucp4x795k5vp+CQzKnzXTJXO08S/cyTvxEnvNevDHbWi9DkjE/RbwjfdZDzjfaS74D+S6ku3JXjH+Qo0QvN6MXuUvSy0PxbLQXn/Vi7Y+1K7Iv7g+ylOgl70DbHW1fZLZ2jqVp/7vat0nbo/S5do4SvWjfIuv7ZN2x2jlK9WJ1Y/3W+r5ouzGX3+qvdo5SO2Plnuuo1V0BAAAAAAAAAAAAAOAF1uAeQg==
+   eJzt1rsNwjAUhWFHlDxaOlYhA8AumYaSgpkCA1B4DmxhS5crOwjkYGT9xScn4aY4R07CYIwZAAAAAAAAAAAAgB9bOpuM1RdzLfBZe6dzzovn2onzfcgc506JGb/Gudp5Slk7x5Bxa14z+/ODsxNzqZlOzNXOU7qXW2CDeKx7sZnZ1noZREa9Rv4Z6VUPmm20F5lPH/u9IPeK7EzeWzvHHL1cROYxkM+S7EX+LvurnaM0q3q5KvdAX9e9mD/IMkcv8dkYldiLvq7fR7VzlKbzfbJfWu9FZ3y3X/Q7uMX3S+p7lPre5L5H8bh2jtJS/12m8uf6q51jrj2Tyz3VUat7BQAAAAAAAAAAAACAB3oXHWI=
   </data>
  </layer>
  <layer name="Ground 2" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt00EKwjAQBdDsPJ97XXse7QnEE6knEL2AFfcm4EraRkvF2rwHnxBmFsOQhAAAAAAAAACMzSxzf7eH6Zu3pG/fFCw7aouXvn3MoSHHr033O+uYTUyV6Us7ubfUzoNONA7b57nL9J06aiXuJf2l9IdK3Msq9H8vl5jboBP9l2tM3ZCSdwIAAAAAAAAAAJ96AIB6IOY=
+   eJzt080JwkAQhuEh4N/Bo57UBqzCErzr2XrUCsSK1AokWkD8uTvBhCzDRiEQEpL3gY9kJxPYHVgRAAAAAAAAAAAAAHXTM+u+p8fW7D9oh2VOivY1wdqsB4HISDPWrExfR2tdzTzIeoemrym2mp1mrzlpzkkunt5/35vkkDyPmqtTf8n3/Kn4/e2sw5L3VbW8uaTCH/WJ3qGpZhaUtbvqxHPZSLG5tAVzySycOxBp7ua7by43zbPUXdVPPJuHk/T8vhoAAAAAAAAAAAAAAABEPjgyMOM=
   </data>
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt08EJgEAMBMBwouDDDk4bsCXfYv8VGNAShENuBpaFvPaTCAAAAAAAAADoz1AixsyU2ctzm7OXzNF2GvxazR9aM1tpveR759tX0xUAAAAAAAAAAEDPbs1SAeM=
+   eJzt070JgEAMBtBD13IBf0bQVpzGmb3CTpGAxcn5HoQ0KZIPkhIAAAAAAAAA1KNrYnNtcK5G+49vf9LLJWzOtZReooD17FvRLb5nzL8z+Z9bg1wuZAIAAAAAAAAA8M4BqtkD2Q==
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0k0OgkAMBtDq3hMgbF3qzmt5UX+O5EyCgQUSSFQQ3kuaSZMuOl8aAQAAAAAAAPy7ajP1BjAPu6kXmKl2LtdtxC3VPdVj2/QxYCb31U83/65P3otcusml29pyOaY6DZhbWy7ViLmlKKL/FvKt7EfMLUn+c5nqUL9lq89/vdRVvJkpY3mZvOR/n6PJoKvvmwEAAAAAAACApXkC+QcWZg==
+   eJzt0k0KwjAQBtDYvSeo7dal7vRYXtSfI5lAS4tUqaC2pu/BUCZMYfKREAAAAAAAAIB/V6+m3gDmYT31AjPVz+VchHCJdY11K7o+jJhJff3Tzb/rk+9FLsPkMmxpuexi7UfMLS2X+o25XJTh9VtIb2XzxlxO0p2rWNvmW/X6dNdTU+WTmSrkl0kr3fsQugxSHR/6obP2HwAAAAAAAADIzR03chZo
   </data>
  </layer>
- <layer name="Collision" width="70" height="66" visible="0">
+ <layer name="Collision" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0LENACAIRUES91+OiRxBrEBzJNfR/JcrIgEAAAAAAAB4zukqf90bOrpUr3uHLrroMo8uuuiiiy6z2tz8AAAAAAAAAMAvNpneZeQ=
-  </data>
- </layer>
- <layer name="Height" width="70" height="66" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+   eJzt0LsJACAMQEHB/ZdzIntB/BQG9QLXKSSv5JQKAAAAAAAAADyknZV/0buf7NJrNPvuBe1tvXtHE32HLrGNVid6d13uaaLLX11m7tVFl9HNu+8AAAAAAAAAuEcF+Q6Fgg==
   </data>
  </layer>
  <objectgroup name="Object" width="70" height="66" visible="0">
-  <object name="To Second Level" type="warp" x="832" y="864" width="96" height="32">
+  <object name="To First Level" type="warp" x="832" y="992" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_map" value="001-2-2"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="992"/>
    </properties>
   </object>
  </objectgroup>
+ <layer name="Heights" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEOgCAQRUES7n8+9TZWFK5CMHTLTLIdFv/FUgAAAAAAAAAgl6M+7893mZ31++Lu2XcZxP8kbm56Ta7wLitd3nrbR6fL+LJaaaLLXl1m9uqiSzO7dacmAAAAAAAAALu4AReKgEw=
+  </data>
+ </layer>
 </map>
