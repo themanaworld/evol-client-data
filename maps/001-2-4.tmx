@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="manaplus version" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="553" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="561" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="689" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="693" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="949" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="955" name="Level Height" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <layer name="Ground" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1LsNwjAUQFEjSj4dLbPQImCX1IyT0SiYAyNAhAilcngJOZaOZDeW3y1cpZQqAAAAAAAAAADosMjWP9ZeywF06KPrLps9nefvfd/n+um+3w6gRWmr7NSYfZM+W/R5nkrbS4BX28uftq2Cumr7O9ENtB2fb7MeU/l/uOvO6AYRbeuCtH3YZ4fsWtDrzqm3Ldm0TVtttR02bbUdq8i20bOPTbNl9FsAAAAAAAAAACLcAGkVX/8=
+  </data>
+ </layer>
+ <layer name="Ground 2" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1M0JwkAQBtBcLNCjiAftREuwg2AFxp6swwgBoxf3sD/Z7HvwsSQsM8MQ0nUAAAAAAAAAALA8z5+0YJPpuZ+9u4WNRqCWdrstkHnvtToU6NnSd5vbfcww5VF4FtbnGjF86/9fCeKf+nGcziFi3k55xl+03Zh9BTVrdE5U95Kobk3sNh27BQAAAAAAAAAAiOcF0G8yrw==
+  </data>
+ </layer>
+ <layer name="Fringe" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztzrENgCAURVFWlk0MExAmMC5oS2nxiR9zTvWqm1cKAAAAAAAAAAAA5NanPT57AZDHGdRpQR144wrq3EGdPzgWdeuiLgAAAAAAAAAAAMAuHv2IBLA=
+  </data>
+ </layer>
+ <layer name="Over" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKAjEUBdDZgCvw01krfmpFXYG6A7V3/5VvYIRpZlCcGBnPgQtJkeRxqxQFAAAAAAAAAAD8nkvkWuWWeRaAbxjkHqDHmrqdReYdv9V256Tjt35BU7ebyLbjt9ru/Kduv0236eg2Hd2mo9t0dJtOH7sdFt3/Y99V/ntHmWdIpex3XGVaW3+yX0SWkdUL5/ra69O9yrq2/mS/i+wjhxfO8Z5j5BQ55x4EAAAAAAAAACCTB3n5FeE=
+  </data>
+ </layer>
+ <layer name="Collision" width="87" height="66" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJgAAQA0HB/tuxPgvw66KBWcj/bq7zOC577I2+/uGvY8t2cWzZLo4t28WxZbs4tmwXx5bt4tiyXRxbtotjy3ZxbNkuji3bxbFluzi2bBfHlu1bt67FtottF9sutl1su9h2se1i28W2i20X2y62XWy72Hax7WLbxbaLbRfbLrZdbLvYdrHtYtvFtottF9sutl1su9h2se1i28W2i20X2y62XTffbnKp
+  </data>
+ </layer>
+ <objectgroup name="Object" width="87" height="66" visible="0">
+  <object name="To Artis" type="warp" x="1310" y="1336" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Heights" width="87" height="66" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1m4AAE=
+  </data>
+ </layer>
+</map>
