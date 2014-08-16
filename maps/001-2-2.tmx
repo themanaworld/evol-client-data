@@ -13,55 +13,55 @@
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
  </tileset>
  <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="96"/>
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="537" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+ <tileset firstgid="553" name="Indoor x2 x4" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="545" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="561" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="128" height="192"/>
  </tileset>
- <tileset firstgid="569" name="Box x1 x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="585" name="Box x1 x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="573" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="589" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="701" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="717" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="705" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="721" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="961" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="977" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="967" name="Level Height" tilewidth="32" tileheight="32">
+ <tileset firstgid="983" name="Level Height" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1cFtwjAUxnEjjrRI7YVbJUZggtJjVboLU/TYIZAYgU1CRnBG4NoX8Sy9PpL0ksg0+R9+smMrkr9PVrIPIewBAAAAAAAAAAAA3J2FWDZ46NhL+7nPPqRHsREz8Sa+59f5q9jq+pesPcm4dvtj6mbhnrfay1E7WOm4E59mbW3mG91/uYM8farzHXSss0dxUqXamb2oa1HfSb1NoZfSjG3zGH73NLZeovbi78Jf/fiOcucYqheb92z4/FPqxeYrxPPsqtC1tu/LFHpJGc/h9r6kXg4dcufoW+kURurqXXyISlyUn+fOMVQvXd+OyrF9pOfcOfrW9u+xKh3tPfFd5c4xVC/+f9zUVdNdGWsvvpu2flIvTXKfPze6AAAAAAAAAAAAAPCf/QAPMB3o
+   eJzt1TFuwjAUxnEjRlqkdmGrxBE4QelYld6F03TsgMQRuEnIEZwjsPZFPEuvjyRdEpkm/+EnO7Yi+ftkJfsQwh4AAAAAAAAAAADA3VmIZYOHjr20n/vsQ3oUGzETb+J7fp2/iq2uf8nak4xrtz+mbhbueau9HLWDlY478WnW1ma+0f2XO8jTpzrfQcc6exQnVaqd2Yu6FvWd1NsUeinN2DaP4XdPY+slai/+LvzVj+8od46herF5z4bPP6VebL5CPM+uCl1r+75MoZeU8Rxu70vq5dAhd46+lU5hpK7exYeoxEX5ee4cQ/XS9e2oHNtHes6do29t/x6r0tHeE99V7hxD9eL/x01dNd2Vsfbiu2nrJ/XSJPf5c6MLAAAAAAAAAAAAAP/ZDyeoHhg=
   </data>
  </layer>
  <layer name="Ground 2" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0jFOAkEUxnHWBtGE1lo4ApXHgI4AhUfQmwBCTzD24BWAHjiB0Qsosefb8EyGF0Js2IXJ/5d8eTszu+TxMoUCAAAAAAAAAAAAAFyWF2WgDJXigfO/vZtk93ybZNVZtrpKT+nb+tXq24F3SzaDO9Vrey5GOpeR1bHVelDrwdrvpWkku5QjnI2fy0yZK4vgnbbScd89aRbPlvaJe8xDeD/S/75UVkHW//iNh6vT9Jan8L6kM/l155/ZtnM2JspUeVc+3Fkt2Z9L70hils7lXrOoWKpuLiNXx67Gyt+XL2WjPNp6eiQx+1Z+gmxsv6m08moKAAAAAAAAAAAAAADgzG0BVdAzKg==
+   eJzt0jFOAkEUxnHWBtGE1lo4AqewhI4AhUfQmwBCTzD24BWAHjiB0Qsosefb8EyGF0Js2IXJ/5d8eTszu+TxMoUCAAAAAAAAAAAAAFyWF2WgDJXigfO/vZtk93ybZNVZtrpKT+nb+tXq24F3SzaDO9Vrey5GOpeR1bHVelDrwdrvpWkku5QjnI2fy0yZK4vgnbbScd89aRbPlvaJe8xDeD/S/75UVkHW//iNh6vT9Jan8L6kM/l155/ZtnM2JspUeVc+3Fkt2Z9L70hils7lXrOoWKpuLiNXx67Gyt+XL2WjPNp6eiQx+1Z+gmxsv6m08moKAAAAAAAAAAAAAADgzG0BwS4zOg==
   </data>
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt07EJwkAUBuDoGIJYams6Ld3ACRwh6CbiBOIEotiri/mKK0SwEczF8/vg5yWp/jteqgoAAAAAAACgTINe7gbdtennbtCec5qXyDjOPXk6+zSe60gTWca+DCMje1PN4j7mLzuyKPRe9mkeIqs/+i8+VRe6B9+wffN912oLfsUxzWvkFrmn91OeOtmtcxcAAAAAAAAAAOiwB9v9C4Y=
+   eJzt07EJwkAUBuDoGIK4g422ptPOSSQTCG4gTiBOIIq9upivuEIEG8FcPL8Pfl6S6r/jpaoAAAAAAAAAyjTo5W7QXZt+7gbtOad5iUzi3NOns8/iuY6sI8vYl2FkZG+qedzH4mVH6kLvZZ/mIbL6o//iU+NC9+Abtm++71ptwa84pnmN3CL39H7KUye7JncBAAAAAAAAAIAOewC4VgwW
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1UsKwjAUheGkjl2Bj6lDn+BQUVeg7kCdC7o9H7gyjzSFWIKFIm2t/weHNklbLmdSYwAAAAAAAAAAAAAAv2in7JVD2YNUSLPsASqKXsKyerlExlyVvu4H3vqm3KP3dbeAeYsS6sVaYyKXho33Zso841t172Vos987KQ/l7O3VvZe86CWMXsLq1EvLxP+ZLMn/6NN5+ysTVcerm47Sc1c/yV7bPTdSxsokcF5HR2Xqrn7SewtlqaxS5/9urWyUbdmDAAAAAAAAAAAAAEAOTz6qFe8=
+   eJzt1UsKwjAUheGkjl2Bj6lDn+BQUVeg7kCdC7pC5z6W5JGmEEuwUKSt9f/g0CZpy+VMagwAAAAAAAAAAAAA4BftlL1yKHuQCmmWPUBF0UtYVi/XyJib0tf9wFvflUf0vu4WMG9RQr1Ya0zk0rDx3kyZZ3yr7r0MbfZ7J+WinL29uveSF72E0UtYnXppmfg/kyX5H306b39loup4ddNReu7qJ9lru+dGyliZBM7r6KhM3dVPem+hLJVV6vzfrZWNsi17EAAAAAAAAAAAAADI4QkPNBZ/
   </data>
  </layer>
- <layer name="Collision" width="70" height="66">
+ <layer name="Collision" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0lEKgCAQBcCg+18q8F59BbEY1ZIs2CzMlwq+p9u6LBsAAAAAAAAA8FvHVN+jMvuRPzPVGUZoJ9leZuzmqpf2sqPqHF+L0zrrscO4P56Zwd2793rp/bfqHKN7yU51Dr3opdrTzH/qJNNh9R0AAAAAAAAAMnY80IJ1
+   eJzt0lEKgCAQBcCg+18u8D59BbEY1ZIs2CzMlwq+p9u6LBsAAAAAAAAA8FvHVN+jMvuRPzPVGUZoJ9leZuzmqpf2sqPqHF+L0zrrscO4P56Zwd2793rp/bfqHKN7yU51Dr3opdrTzH/qJNNh9R0AAAAAAAAAMnaqxptU
   </data>
  </layer>
  <objectgroup name="Object" width="70" height="66">
@@ -74,15 +74,15 @@
   </object>
   <object name="To Second Level" type="warp" x="832" y="960" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_map" value="001-2-3"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="960"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="70" height="66">
+ <layer name="Heights" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1TsKwCAQBUDB+58r8VYpghgkH2O5zsCrrHzuYkoAAAAAAAAAQHQlt/S2fGZFfS+1iz+JqO9lz3OJZraH1XopL3eue3M9i7pLX+8ecRZGjOxIxHn4opd7enm22l8DAAAAAAAAQHMAHZhbJg==
+   eJzt1UEKgCAQBdDA+5+vvE1EiBGV5nJ8D/7Kld8ZXBYAAAAAAAAAYGZrOjOjnGoOpYs/iejey5bGEs1oD7P1kj/uXPbmehZ1l1rvHnEWevTsSMR5aNHLM728m+2vAQAAAAAAAKDaAaDKX8I=
   </data>
  </layer>
 </map>
