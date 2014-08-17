@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="manaplus version" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="553" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="561" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="689" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="693" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="949" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="955" name="Level Height" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <layer name="Ground" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt10GKwjAYgNEOLkfdufUqeoDOVaTrOc4cygN4kqnQQhyEJAVtMnmLRwmkEL5C9B+6rhsAAAAAgOJ9jvYR2wLOWZt71/PoI+Kkb7bd6CuhbT86FnDemsxtrxHaLhPrOlv7nDXSVtsaaattjbTV9lVS5tK/82nKO5fG24Zz6ffmcV56tp7/4+8S9p8iPX8m/7VtOJceusc2z9b3Xvvpe8T299MznM36YN1K21uisFfO3hbbDhldc9uGWrwTctsu1eJv2bvaxqzdQNv6vOO+1VbbNdu6E7QtxdpdtdVW2/LoCgAAAAAAAABALX4BHxOCug==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt18sJwkAUBdBsLNC9rq1HrUCsLCVoBeZBxA/iy4wa0ZwDF5IwYYabRXhNAwAAAAAA/KJ5EuosB6xZfPwUAACEdZdNn+2XzzKG2Zvvn9ldXe8L3iM3pW6zufTRfPrKLDuVbofMpTVilo2O27tnsV90u+rzz92WOPdV8j3afAmVDl2OSQC4VfMvAwAAAAAAAAAAAODiBFIRH00=
+  </data>
+ </layer>
+ <layer name="Fringe" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztziEOADAIBEE+Wkv4/wuwFWjSpDNqc+oiAAAAAAAAAAAAgB+cYcura+sIAAAAAAAAAAAAAADAwxodUgEs
+  </data>
+ </layer>
+ <layer name="Over" width="87" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt2L0KwjAUgNGsDvoA/m0uLro46yP1/ScbbCEElAZyQco5cClprJTPgtCUAAAAAAAAyLYNnz2H3cU6aRtH2zjaxtE2jrZxtI11GuderG/VeqZtu904r2L9rNYzbeNoG2eNbVv+byJpG0fbONqmtB/nOs6m831oG0fbONrG0TaOtp/3AfU7gh7W2PaQ2jrlBkPq+7zn3+vY8fv+Se6bn8XLdKynPJ8bDMU1v65burfWrrPc6zEd6/l2fsn+kj0AAAAAAAAAAGjxBoLDFzc=
+  </data>
+ </layer>
+ <layer name="Collision" width="87" height="66" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJgAAQA0HB/tuxPgvw66KBWcj/bq7zOC577I2+/uGvY8t2cWzZLo4t28WxZbs4tmwXx5bt4tiyXRxbtotjy3ZxbNkuji3bxbFluzi2bBfHlu1bt67FtottF9sutl1su9h2se1i28W2i20X2y62XWy72Hax7WLbxbaLbRfbLrZdbLvYdrHtYtvFtottF9sutl1su9h2se1i28W2i20X2y62XTffbnKp
+  </data>
+ </layer>
+ <objectgroup name="Object" width="87" height="66" visible="0" opacity="0.9">
+  <object name="To Artis" type="warp" x="1504" y="1312" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object name="To Library Storage" type="warp" x="1664" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object name="To Library Second Floor" type="warp" x="1760" y="768" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Heights" width="87" height="66" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1m4AAE=
+  </data>
+ </layer>
+</map>
