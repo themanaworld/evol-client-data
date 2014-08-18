@@ -40,12 +40,12 @@
  </layer>
  <layer name="Ground 2" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJztzqERACAMA8AaBsTD/mswAjUF0f+7mFxEIgAAAAAAAOC9kezoY17SxU5sVvkLAAAAAAAAAAAA+O8AWQQDTA==
+   eJzt1D0OgzAMBtB46AEBsbWHgJ6g7cWhokhhIkvpT96TPPiTB0eRnBIAAAAAAAAc71SYUY9mp2pxKZg5v32L73CPlLq5+lj6JpbskfVtfG6/I43zO6/ZW4fYZmtPXfqCPy+Z+Qdtdhue1nvRvbKbe+FeAAAAAAAAAAA/aQL3KBBC
   </data>
  </layer>
  <layer name="Fringe" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAL4MRRgAAQ==
+   eJzt1kEKwjAURdFvZuLY6EyNa3L/W+kPRhpcgZJz4EJbMsrg0QgAAAAAAAAAfsXrEHEpES27ZufR/K2fgVXdy7tHdiv7e+85Pa+gb0PNTtlxbMVnN9q0H7Aqe7H73os61cZ/Rl3kLgAAAAAAAAD4LxvrfQX8
   </data>
  </layer>
  <layer name="Over" width="67" height="66">
@@ -53,12 +53,12 @@
    eJzt0M0JwkAUhdE0YAX+tKBEK1ArUAux/1WuEHlZuNBFcCDnwLcYmMXjdh0AAAAAAAAALVj98Hc32xVtsEWxRbFFsUWxRbFFWafDF//2aTPzLS147bFNfTqm0/ietoQd3p7pnC7pOr6nLc0t3dPj34cAAAAAAAAAfDAAv8gHFw==
   </data>
  </layer>
- <layer name="Collision" width="67" height="66" visible="0">
+ <layer name="Collision" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0MEJwCAABEEh/bdjfXluAwGNzsIVcDOfMeYB+6LVH1iwYMGCBYsdxoIFCxYsWLBgwYIFCxYs1o8FCxYsWLBgweJPFjfGolgUi2JRLIpFsSgWxaJYFItiUSyKRbEoFsWiWBSLYlEsikWxKBbFolgUi2JRLIpFsSgWxaJYFItiUS/1SbiF
+   eJzt1DEKwCAQBEAh//+O4O9CwFJESLGiczCN1bksV59SKgAAAAAAAMAGvll5O1nrf55N22DPRCY392J10nsmMrm5F+6FXswycC/0Qi/+5ZHeMZFJegcAAAAAAACAkRc8cUp9
   </data>
  </layer>
- <objectgroup name="Object" width="67" height="66">
+ <objectgroup name="Object" width="67" height="66" visible="0">
   <object name="To Library First Floor" type="warp" x="1024" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -67,9 +67,4 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="67" height="66" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAL4MRRgAAQ==
-  </data>
- </layer>
 </map>
