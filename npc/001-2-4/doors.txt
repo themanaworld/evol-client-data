@@ -1,0 +1,32 @@
+// Evol scripts.
+// Authors:
+//    4144, Reid
+// Description:
+//    Doors warp and animations in map 001-2-4
+//
+
+001-2-4.gat,52,26,0	script	#LibraryDoor	907,1,1{
+    close;
+
+OnTouchFirst:
+    setnpcdir 2;
+    stopnpctimer;
+    initnpctimer;
+    close;
+
+OnUnTouchAll:
+    setnpcdir 4;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+OnTouchCenter:
+    warp "001-2-5", 32, 37;
+    close;
+
+OnTimer340:
+    stopnpctimer;
+    if (getnpcdir ("") == 2) setnpcdir 6;
+    if (getnpcdir ("") == 4) setnpcdir 8;
+    end;
+}
