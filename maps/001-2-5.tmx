@@ -9,61 +9,52 @@
  <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
- </tileset>
- <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="513" name="Indoor x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="553" name="Indoor x2 x4" tilewidth="64" tileheight="128">
-  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
- </tileset>
- <tileset firstgid="561" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="545" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="689" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="673" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="693" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="677" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="949" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="933" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
- </tileset>
- <tileset firstgid="955" name="Level Height" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0DEKwkAQhtGVlJp0tl5FD6B3SZ3j5iQOaCBosY1mFvKKx8JU/35jKWUEAAAAAADgr45hqDg1sHOLDrdwCFP3eteW23UHPfrweP/7XL5bLLd7uDSwd4sWc8UeWtQarGVv1UILLbRohRZaaPG7Htk7W+mRvS+zR/YWAAAAAAAAgE9PYHu2WQ==
+   eJzt0L0NAiEAhmGMpT+dravoALqI1U3rAEwiiUckZ7yrBJJ7iicEqo93CCEMAAAAAAAA/NUuOS7Yd7CzRodrskke2/dZym+XFfQ4JPfx36fw3SK/3ZJzB3trtIjJcxQL+b6GFtN/z2m9tUWL+EPrrVpooYUWvdBCi6UeWnx6zLVova+2skXrLQAAAAAAAABTLz5ktMU=
   </data>
  </layer>
  <layer name="Ground 2" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1D0OgzAMBtB46AEBsbWHgJ6g7cWhokhhIkvpT96TPPiTB0eRnBIAAAAAAAAc71SYUY9mp2pxKZg5v32L73CPlLq5+lj6JpbskfVtfG6/I43zO6/ZW4fYZmtPXfqCPy+Z+Qdtdhue1nvRvbKbe+FeAAAAAAAAAAA/aQL3KBBC
+   eJzt1EEKwkAMBdBm4QFVutNDqCfQm4qewBM4MkoptIyrUsh7kEVCFjN/ka4DAAAAAACA5W3+nJHHtlFZHEvdGzuHJR6yAreoWfRR+2ep10RlcC4ZXGLoTzGe/Xpy6WN8Lx4zOxnsJrL43JD99//XqDsZuBfMad2LrGQxkAUAAAAAAACwRm9JWRuM
   </data>
  </layer>
  <layer name="Fringe" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKwjAURdFvZuLY6EyNa3L/W+kPRhpcgZJz4EJbMsrg0QgAAAAAAAAAfsXrEHEpES27ZufR/K2fgVXdy7tHdiv7e+85Pa+gb0PNTtlxbMVnN9q0H7Aqe7H73os61cZ/Rl3kLgAAAAAAAAD4LxvrfQX8
+   eJzt1kEOgjAQBVCoa9GdiqfxCGK8kFzcMUCoxjVo+l7yk05XbRc/rSoAAAAAAACA33VJa59gebu4cxvZR7aRJr3v3eu1T7icW3bXa6wfkb6e566gt2BwTENOkUOa51fO2boEUz9sIvXYF1NvtNlciv6jL0BfzL71RTN2RDv+M5pC3gIAAAAAAACA//IEWlQHlg==
   </data>
  </layer>
  <layer name="Over" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0M0JwkAUhdE0YAX+tKBEK1ArUAux/1WuEHlZuNBFcCDnwLcYmMXjdh0AAAAAAAAALVj98Hc32xVtsEWxRbFFsUWxRbFFWafDF//2aTPzLS147bFNfTqm0/ietoQd3p7pnC7pOr6nLc0t3dPj34cAAAAAAAAAfDAAv8gHFw==
+   eJzt0MsJAjEYhdEweyvw0YKiVqBWMFqILfko1F8YyYCCuhgM5hz4FglZhJsSAAAAAAAAACUYffF2NtgvytDf4tSkdI4u0bV5vqtpi3dskdkis0Vmi+zftxhHiw/ezaPJwH8pwX2PabSMVtG6O/erYYeHY7SJttGuO/erTRvto8OvPwIAAAAAAADwwg1fpguV
   </data>
  </layer>
- <layer name="Collision" width="67" height="66">
+ <layer name="Collision" width="67" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1DEKwCAQBEAh//+O4O9CwFJESLGiczCN1bksV59SKgAAAAAAAMAGvll5O1nrf55N22DPRCY392J10nsmMrm5F+6FXswycC/0Qi/+5ZHeMZFJegcAAAAAAACAkRc8cUp9
+   eJzt1EEGADEQBMCw//9GmF+ukGPEsocOqaHurbXpT2sdAAAAAAAA4ADj0hnSavawuzogZ6KTm7fy9dI5E53cvAv/wi52HfgXdmEX//pIZ0x0ks4AAAAAAAAAsPICdVQ7Bw==
   </data>
  </layer>
  <objectgroup name="Object" width="67" height="66" visible="0">
   <object name="To Library First Floor" type="warp" x="1024" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="896"/>
    </properties>
   </object>
  </objectgroup>
