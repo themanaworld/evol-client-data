@@ -20,10 +20,6 @@ OnUnTouchAll:
     startnpctimer;
     close;
 
-OnTouchCenter:
-    warp "001-2-5", 32, 37;
-    close;
-
 OnTimer340:
     stopnpctimer;
     if (getnpcdir ("") == 2) setnpcdir 6;
