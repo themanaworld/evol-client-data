@@ -39,7 +39,7 @@
  </tileset>
  <layer name="Ground" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt18FNwzAYgNFUHIHeuHaVMkBZBeXMOAzFAEyCK2wpEgc7KcE2foenqtFvyfoiOfI8TdMMAAAAADTvPjhmPDSwz95cuz4Hh+Dt7vt3KT0767vaY/ASOz5NP9umZ5fg1MB+e5LafmRou02ua1J7nz3SVtseaattj7TVdi9b7qUla14Hb7vlXlq65pTp+R7917Zr7qXXvsfYtWTNeTG7vIOl/6O0/cy4RIc4X7omzY7Ydi5otGyV2pbOp9kRz4Q1bW8x4rfsr9rm1G6gbX/2Om+11baFts4EbVtSu6u22u7Zds/3UbtBzb63vI+RuwIAAAAAAAAA8Pu+ACV/f4U=
+   eJzt10FuwjAQQFFHLCnsuuUq4QDpVVDWPU4PlQN0wTlqVI80CgPYhGji8BdPkGBL1scYpQ8h9AAAAAAAAAAWbxvtH/hYwDprc+l6jJroe/P/qsm9lr7FdtFX6vgZrtvKvS46LGC9NZG2g3I20PY50nMw3utr73XWSO/P8b6l7fS21lkwvue9zhrpluNzQH/mvc4aWf9dQ7hu7b3OGln7lDPhNazf/7j3ms+EZ55Lc+acjI63eDeYq+sxlD2X5s45GE31vv1J1rpvS55LL333qWvOnFaNlZ6dun6Xtr8PdEmTxufOkbGyX622az0T+oxGupW0zR0vY61zYe37tqTtFPeed9m38/JuQNv6eHelbfl/GW399yxtaUvbZfHuStt5vw/vBp59p8x5564AAAAAAAAAAAAAAAB4vT9iKYTt
   </data>
  </layer>
  <layer name="Ground 2" width="87" height="66">
@@ -54,34 +54,20 @@
  </layer>
  <layer name="Over" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt2LFqwzAYhVGvofQFkqZblyzN0rl5pLz/VAkiECZQq/Qu8jnwYyRs43wYAl4WAAAAAAAAqteBc99jTzEnbXO0zdE2R9scbXO0zTqXuXbrz9W60XbcS5lbt/5erRttc7TNmbHtyP9NkrY52ubsve2xzKXMIfAce2+bpG2Otjna5uy9bf0WsP4+8F9mbHtatrWqXd/K3AevGbn3jGqr+j5+PI79tL31b996zV/uPZv6Pn49jv20vWfn/3bN1j0AAAAAAAAAABjxA0j6FV4=
+   eJzt2DFqwzAYhmF3LKEXSJtsXbo0S+b2AM1dcv8pEsRgBAEr9Fvk54EfIxML+8UQ8DQBAAAAAABQvXX89hi7izFpm6NtjrY52uZom6Nt1qHMabH+btYzbfvtyvwu1j/NeqZtjrY5I7bt+b9J0jZH25ytt92X+SrzGriPrbf9K/NS5hK4j623TdI2R9ucrbet3wLa7wP/ZcS279O6VrXrR5lr5zU9e4+otqrv4+f9uJz5XPvsa695Zu/R1PfxfD8uZz737DXtubV7AwAAAAAAAADAIzeXShUY
   </data>
  </layer>
  <layer name="Collision" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0MEJgAAQA0HB/tuxPgvw66KBWcj/bq7zOC577I2+/uGvY8t2cWzZLo4t28WxZbs4tmwXx5bt4tiyXRxbtotjy3ZxbNkuji3bxbFluzi2bBfHlu1bt67FtottF9sutl1su9h2se1i28W2i20X2y62XWy72Hax7WLbxbaLbRfbLrZdbLvYdrHtYtvFtottF9sutl1su9h2se1i28W2i20X2y62XTffbnKp
+   eJzt00EKg0AQRFEh97+O58teAtExSU1lXsPbiAPtV/fHtu0AAAAAAECdd5Per9XZSe/ZSFttG2mrbSNttW2k7W/bvrqe3rPZseFKbUf+2StnVm17dq6eGbn338ww6Qba9plh0g207TPy/Nr6btNmmHQDbfvMMOkG6bbffB/pBsm+d86s3BUAAAAAAAAAgM97AuwnzEQ=
   </data>
  </layer>
  <objectgroup name="Object" width="87" height="66" opacity="0.9">
-  <object name="To Artis" type="warp" x="1504" y="1312" width="96" height="32">
+  <object name="To Library First Floor" type="warp" x="1760" y="896" width="128" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
-   </properties>
-  </object>
-  <object name="To Library Storage" type="warp" x="1664" y="864" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
-   </properties>
-  </object>
-  <object name="To Library Second Floor" type="warp" x="1760" y="768" width="128" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_map" value="001-2-4"/>
+    <property name="dest_x" value="1792"/>
+    <property name="dest_y" value="896"/>
    </properties>
   </object>
  </objectgroup>
