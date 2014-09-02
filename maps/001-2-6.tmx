@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
  <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-6.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Library's Second Floor"/>
  </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
@@ -53,12 +57,12 @@
    eJzt2LFqwzAYhVGvofQFkqZblyzN0rl5pLz/VAkiECZQq/Qu8jnwYyRs43wYAl4WAAAAAAAAqteBc99jTzEnbXO0zdE2R9scbXO0zTqXuXbrz9W60XbcS5lbt/5erRttc7TNmbHtyP9NkrY52ubsve2xzKXMIfAce2+bpG2Otjna5uy9bf0WsP4+8F9mbHtatrWqXd/K3AevGbn3jGqr+j5+PI79tL31b996zV/uPZv6Pn49jv20vWfn/3bN1j0AAAAAAAAAABjxA0j6FV4=
   </data>
  </layer>
- <layer name="Collision" width="87" height="66" visible="0">
+ <layer name="Collision" width="87" height="66">
   <data encoding="base64" compression="zlib">
    eJzt0MEJgAAQA0HB/tuxPgvw66KBWcj/bq7zOC577I2+/uGvY8t2cWzZLo4t28WxZbs4tmwXx5bt4tiyXRxbtotjy3ZxbNkuji3bxbFluzi2bBfHlu1bt67FtottF9sutl1su9h2se1i28W2i20X2y62XWy72Hax7WLbxbaLbRfbLrZdbLvYdrHtYtvFtottF9sutl1su9h2se1i28W2i20X2y62XTffbnKp
   </data>
  </layer>
- <objectgroup name="Object" width="87" height="66" visible="0" opacity="0.9">
+ <objectgroup name="Object" width="87" height="66" opacity="0.9">
   <object name="To Artis" type="warp" x="1504" y="1312" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -81,7 +85,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="87" height="66" visible="0">
+ <layer name="Heights" width="87" height="66">
   <data encoding="base64" compression="zlib">
    eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1m4AAE=
   </data>

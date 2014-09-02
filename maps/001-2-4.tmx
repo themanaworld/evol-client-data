@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
  <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-4.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Library's First Floor"/>
  </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
@@ -52,7 +56,7 @@
    eJzt1lsKgzAUBFCh+9+G4C5LPwoiMdqYmPR6Bg6I4mPmy/k1TTMAAAAAAAAAAABFPlkfr9P720az3WRJnEtt+dRttz1Tvfc2uZLevVvuWWMT29bdtlZ6b2Db/5Preve1qFIdj3Y4c35vvyds+v13+iUl26aS+2+L5s707jrytlfuXwboGnXbvfujKU3rZ0WQ61pz2zPvi6xm16P9e3cFAAAAAAAAAGjpDRNd+jM=
   </data>
  </layer>
- <objectgroup name="Object" width="87" height="66" visible="0" opacity="0.9">
+ <objectgroup name="Object" width="87" height="66" opacity="0.9">
   <object name="To Artis" type="warp" x="1536" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -68,7 +72,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="87" height="66" visible="0">
+ <layer name="Heights" width="87" height="66">
   <data encoding="base64" compression="zlib">
    eJzt1O0KgyAYgNHA+7+S2q5xv2L5MdicOqbnwAuZRPgQbRsAAAAAAAAAAAC1jvC8vod4iB0hX6f30r1z/xbiWUGpV7pOO73a+2Rm1aqJtrlvmrSaWf2662ptT3vIp+dzs6o5Y6ldz/f9m9J3VNPqHfti/4SrkW1Xo20/2rblf9vP6LOu1PZqZFsAAAAAAAAAgJk9AJJhlPw=
   </data>

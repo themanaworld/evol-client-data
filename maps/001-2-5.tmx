@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="67" height="66" tilewidth="32" tileheight="32">
  <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-5.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Library's Warehouse"/>
  </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
@@ -44,12 +48,12 @@
    eJzt0MsJAjEYhdEweyvw0YKiVqBWMFqILfko1F8YyYCCuhgM5hz4FglZhJsSAAAAAAAAACUYffF2NtgvytDf4tSkdI4u0bV5vqtpi3dskdkis0Vmi+zftxhHiw/ezaPJwH8pwX2PabSMVtG6O/erYYeHY7SJttGuO/erTRvto8OvPwIAAAAAAADwwg1fpguV
   </data>
  </layer>
- <layer name="Collision" width="67" height="66" visible="0">
+ <layer name="Collision" width="67" height="66">
   <data encoding="base64" compression="zlib">
    eJzt1EEGADEQBMCw//9GmF+ukGPEsocOqaHurbXpT2sdAAAAAAAA4ADj0hnSavawuzogZ6KTm7fy9dI5E53cvAv/wi52HfgXdmEX//pIZ0x0ks4AAAAAAAAAsPICdVQ7Bw==
   </data>
  </layer>
- <objectgroup name="Object" width="67" height="66" visible="0">
+ <objectgroup name="Object" width="67" height="66">
   <object name="To Library First Floor" type="warp" x="1024" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
