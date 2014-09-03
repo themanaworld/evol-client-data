@@ -30,17 +30,17 @@
  </tileset>
  <layer name="Ground" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1LsNwjAQBmAjSh4dLavAALAIVabNACkYgRojYskKrwo7kr/i0ylX3f06pwshdAAAAAAAAPzVKtr+sJ7BnCVyOEaL6LJ81lzqHRrIYxOdx7134TWL1DtF+xnMWyKLIbqOhkz6biGL6d4P/aTexlp71tJZ9JNervasJbNIdyALd/HufyELb8Qb+ZxFy3eR59H6G8nz+HYXteerdR8t7g4AAAAAAADM3x3lILY9
+   eJzt1LsNwjAQBmAjSh4SBS0SIzABDACLUGXaDJCCEahxJEeyIh4VTiR/xSc7ru5+3aUJITQAAAAAAAD81Sra/rCeQZ0lcrhEi+i+DGGX7r1Teuvv5wry2ES31Ps+OmZZDG/9eY0OM6i3RBZd9Ei6zPBdQxbjvnvt6Hymc+paS2fRjt5yU9daMothDmRhLt79L2RhR+zI5yxqnos8j9p3JM/j21xMXd9U81Fj7wAAAAAAAMD8vQCq0Lad
   </data>
  </layer>
  <layer name="Ground 2" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKAjEMAMDtwQeq7E0fob5AfyrrC/QDVqosC13qaRUyAzkk5JDmENp1AAAAAAAAsLzVlzXiWDciin2Oa6Nnt8Qgf+CSyi76VPJbjnslIjjmHZzSmB/StPbJiaVP03sxzPREsKns4nVDtu/3n1PpicC9YE7rXkRlF+Of6vHrQQAAAAAAAAAqnpZpHYA=
+   eJzt1kEOATEUBuB24YCIHYfACbipjBNwAZVqxoyRsRqi35e8xd900b6kLw0BAAAAAAAApjf7cI16zEeqFptUp5E96ykO8gMWMfdiFXM+p7oMVA12qQf72OZt7K6VTH2e50UT2vdS9PO/OsbXXtxnyPJx/0PMuQbmBe/030jN9KKr/Kmu3z4IAAAAAAAAwIAbrHIeMQ==
   </data>
  </layer>
  <layer name="Fringe" width="67" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1kEOgjAQBVCoa9GdiqfxCGK8kFzcMUCoxjVo+l7yk05XbRc/rSoAAAAAAACA33VJa59gebu4cxvZR7aRJr3v3eu1T7icW3bXa6wfkb6e566gt2BwTENOkUOa51fO2boEUz9sIvXYF1NvtNlciv6jL0BfzL71RTN2RDv+M5pC3gIAAAAAAACA//IEWlQHlg==
+   eJzt1ksKwjAUBdAmjq3O1LoAxV24BBE3ZDfuE1v6wbEfcg5cyMsoyeCSqgIAAAAAAAD4Xef87RN81i1V1Sru3ETWkWWkztO9UhziLa5pmC+xvkfaNJ0pyza/sots8jA/sx+tS9D3wyKSur7oe6MZzaVoZ31xmvXDUV8UR18M3vVF3XVE0/0z6kLeAgAAAAAAAID/8gCwkQhC
   </data>
  </layer>
  <layer name="Over" width="67" height="66">
@@ -48,12 +48,12 @@
    eJzt0MsJAjEYhdEweyvw0YKiVqBWMFqILfko1F8YyYCCuhgM5hz4FglZhJsSAAAAAAAAACUYffF2NtgvytDf4tSkdI4u0bV5vqtpi3dskdkis0Vmi+zftxhHiw/ezaPJwH8pwX2PabSMVtG6O/erYYeHY7SJttGuO/erTRvto8OvPwIAAAAAAADwwg1fpguV
   </data>
  </layer>
- <layer name="Collision" width="67" height="66">
+ <layer name="Collision" width="67" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1EEGADEQBMCw//9GmF+ukGPEsocOqaHurbXpT2sdAAAAAAAA4ADj0hnSavawuzogZ6KTm7fy9dI5E53cvAv/wi52HfgXdmEX//pIZ0x0ks4AAAAAAAAAsPICdVQ7Bw==
+   eJzt1MEGACEYBODo/V8jesu17CnR0mGi7+e7dBpj1GopDQAAAAAAAOAA76UzpPWvh9WlcyY6uXkrfy+dM9HJzbuY/RfjWz8gp11kOvBf2IVd7PWRzpjoJJ0BAAAAAAAAYOYBr6c7Bw==
   </data>
  </layer>
- <objectgroup name="Object" width="67" height="66">
+ <objectgroup name="Object" width="67" height="66" visible="0">
   <object name="To Library First Floor" type="warp" x="1024" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
