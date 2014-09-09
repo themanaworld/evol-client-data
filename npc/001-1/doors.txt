@@ -83,3 +83,30 @@ OnTimer340:
     end;
 }
 
+
+001-1.gat,51,80,0	script	#Door4	906,1,1{
+    close;
+
+OnTouchFirst:
+    setnpcdir 2;
+    stopnpctimer;
+    initnpctimer;
+    close;
+
+OnUnTouchAll:
+    setnpcdir 4;
+    initnpctimer;
+    startnpctimer;
+    close;
+
+OnTouchCenter:
+    warp "001-2-4", 48, 40;
+    close;
+
+OnTimer340:
+    stopnpctimer;
+    if (getnpcdir ("") == 2) setnpcdir 6;
+    if (getnpcdir ("") == 4) setnpcdir 8;
+    end;
+}
+
