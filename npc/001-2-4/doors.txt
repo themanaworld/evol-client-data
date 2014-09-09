@@ -5,7 +5,7 @@
 //    Doors warp and animations in map 001-2-4
 //
 
-001-2-4.gat,52,26,0	script	#LibraryDoor	907,1,1{
+001-2-4.gat,52,27,0	script	#LibraryDoor	907,1,1{
     close;
 
 OnTouchFirst:
@@ -18,6 +18,10 @@ OnUnTouchAll:
     setnpcdir 4;
     initnpctimer;
     startnpctimer;
+    close;
+
+OnTouchCenter:
+    warp "001-2-5", 32, 37;
     close;
 
 OnTimer340:
