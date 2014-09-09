@@ -43,20 +43,20 @@
  </layer>
  <layer name="Fringe" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1lFOgzAABuBSn+f2puKpdProizfQG3gE9QRzXsB4QbtAA2FmQ91MgO9Lmra0BfIH0oYAAAAAAAAAAADAxlVdPxVVvUz1bdFc32fVaq8P+F5Ddh9DuEv1aapP4vZ4ka7NYjW+qNvz1tw8/t3asco5lHUWszqb3F90MspWqf+WyjqV97jdp7EvK9kxBM+d/uuR143NeazKZWzafW0yfAk/y+4vzxuavKeXrT0r++jM/ex5z13r5vU5omztmVPy0HNezrCd3fWOrB5/+T5wKDed73M5sX8bxiyfhS7+6b8+m8D5CwAAAAAAAACA4/gCH2seaA==
+   eJzt1l9OwjAAB+BuPiO8qfMA6nEUffTFG+gNPIJ6AoQLGC9oCW1YNgIzimbj+5Km/1Y2frC0IQAAAAAAAAAAALB0nernIoSrWKax3BXr8V1mtfb8l5+trx7KEO5jfRzro7I9X8SxUbman6T2uHZtnt+0dqhyDlXKYpSyyf1JI6NsFvvvscxjWZTtPmu7spIdffDS6L/ted3QnJarcl6u210tM3wN38vuJ/frm7ynV7U9K/toXPvZ8TO3rRunc0RV2zOH6qJojz12XJszrGd3syWrp1r7Mp2Nh+6/vuOm35UQbhv/z+mA3204NPksdPZH7/XJAZy/AAAAAAAAAADYjy95YB9f
   </data>
  </layer>
  <layer name="Over" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1kFKw0AUBuBcwBOYuutaUbtWtCeo3kDdau+/8gWmMGCbkOI4Mvk++AmZx2SGf5WuAwAAAAAAAADgXG+R95SPyndp3VXtCzRMt+XotpwWu72ofYFkSd1eR27+cLakbh8ijyOzz+5nT0N3XxP7Ts2W1O2UYz2NdTdFt+XothzdlqPbcnRbTovdXnbH/znH/kXPdeqbw3r/y2f9F0O/q5R1evZpfZ3NVjPebyN3kftsvc/Oyve12uvBPmWTngebbLaf8f4UeY5ss/X8rHwf8+wiL5HX2hcBAAAAAAAAAKjkG5y4GOY=
+   eJzt1kFKw0AYBtB4AE/Q1F2hO0XtuqKewHoDdau9/8oJTGHANCG148jkPfgImZ/JDN8qTQMAAAAAAAAAwKneQt5jPgrfpXZXpS9QMd32W1/8/hu6zafGbi9LXyCaU7fXITd/OJtTt9uQh4HZZ/Ozp667r5F9x2Zz6nZMX09D3Y3RbT66zUe3+eg2H93mU2O3i6b/n3PoX/RUx77ZrbdnPuu/6Ppdxqzis43rq2S2nPB+G3IXcp+st8lZ6b5aez3Yx2zi82CTzPYT3h9DnkKek/X0rHQf07yE7EJeS18EAAAAAAAAAKCQb//rGQ8=
   </data>
  </layer>
  <layer name="Collision" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1lsKgzAUBFCh+9+G4C5LPwoiMdqYmPR6Bg6I4mPmy/k1TTMAAAAAAAAAAABFPlkfr9P720az3WRJnEtt+dRttz1Tvfc2uZLevVvuWWMT29bdtlZ6b2Db/5Preve1qFIdj3Y4c35vvyds+v13+iUl26aS+2+L5s707jrytlfuXwboGnXbvfujKU3rZ0WQ61pz2zPvi6xm16P9e3cFAAAAAAAAAGjpDRNd+jM=
+   eJzt1ksKgzAABFCh97+G4C1LFwWRJNp8TBrfwANR/MysXF/LsgIAAAAAAAAAAJDlk/3xPr2/bTTHTbbAudCWT9322DPUO7ZJSXr3brlnjU1s22bj0vTubtv/k+p697VZhTqe7XDlfGy/J2z6/Xf6JTnbhpL6b5vNnenddeRtS+7fBug667ax+2eTm9bPmkGqa81tr7xvZjW7nu3fuysAAAAAAAAAQEtv2ef81w==
   </data>
  </layer>
- <objectgroup name="Object" width="87" height="66" opacity="0.9">
+ <objectgroup name="Object" width="87" height="66" visible="0" opacity="0.9">
   <object name="To Artis" type="warp" x="1536" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -72,9 +72,9 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="87" height="66">
+ <layer name="Heights" width="87" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1O0KgyAYgNHA+7+S2q5xv2L5MdicOqbnwAuZRPgQbRsAAAAAAAAAAAC1jvC8vod4iB0hX6f30r1z/xbiWUGpV7pOO73a+2Rm1aqJtrlvmrSaWf2662ptT3vIp+dzs6o5Y6ldz/f9m9J3VNPqHfti/4SrkW1Xo20/2rblf9vP6LOu1PZqZFsAAAAAAAAAgJk9AJJhlPw=
+   eJzt1NEKgyAYgNHA93+S2p5xV2NpFpupMD0Hfsgkwo9oWQAAAAAAAAAAACi1hc/1M8RDbAvHdXov3XvvP0I8M8j1Stdpp7O9X2ZUtZpoe+5Om7szOm3ruzrrGo7T8rlRlZwx167l+/5N7jsqafWNdbJ/wl7PtrPRth1t6/K/baf3WWdqu9ezLQAAAAAAAADAyF5v7JJA
   </data>
  </layer>
 </map>
