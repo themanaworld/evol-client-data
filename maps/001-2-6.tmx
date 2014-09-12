@@ -37,32 +37,33 @@
  <tileset firstgid="955" name="Level Height" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
+ <tileset firstgid="971" source="../graphics/tilesets/candle.tsx"/>
  <layer name="Ground" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt18FtwjAUgGGjHincemWVMIBZogNUOXecztR2gB4yR23VVp+Mg53QyHnpf/hECIlk/TwF3BtjegAAAAAAAACrt3eOBY8rWKc2vuvZ2TmvDz+vUjzX0Xeyg3MJHZ/Mddt4zjqnFaxXE9n2UxjEK23n822fd/muQ/jMrmCdGsWWubmVx63XqZGcU9lzSD5rvU6Ncs8C2Ze286XPhNzM8kyY3zb3fE2bt16nRum8psdbbztnX1pzz4u5nlP/P/aQ6dy6wVJdz2bavrT2nlOmYRfu9efegq22nbIv9V2OoU3NPZ24Nva14v1/avs1Ira14fgSjF0fWXFtnFsr3m+9bW9+96VjjeK+VLYtdZVt/XFu/xDbbvm3rKbTvUr/cVs30Ny2pHUD2uqzRKv3BG1vq/0t+xhB27+f2ZrZbd1AS9vc7PJMaKd1A9rq4/ddpX2Zt+T30brB0n1vtZ0z71OvAwAAAAAAAAAAAAAAAGp8A0xrdbk=
+   eJzt181NwzAYgGFXHIHeuHaVdIB0CQZAOTMOMxUG4NA5iIUtPhmH2KbxF6fv4VHT/Mm8GIcMxpgBAAAAAAAAwOrdj/YzHlYwztbYrsfRbvR69/0p+X0dfbM9jk6u45P53dbv60eHFYy3JbLth3ARn7QtZ9s+7+JdL+5Yv4Jxtsi3jM1bua09zhbJeSp7XoJj2uNsUWwtkH1pWy5cE2JzljWhvG1sfQ2ba4+zReF8Dbe33rbkvTTlmhcTX2dj6652g6W6Hk3ee2nqNYdIw85da/e9OVttm/NearvsXZuUazpxru/bi++31PZzgm/bu+2TM3W+14tz/bztxfettx3Mz3vpVCP/XirbznWVbe127P3Bt93ysyyl03/N/Y+r3aBW27NTo7mn3aBG2/cAba/X9hwobZV7H+0GteatfXZZ4bxNfZaFcz/lb0C7QSvzNrxHyr20G9Sat9dYb3Pvo92gRls572o9x26prQbtBkvxz66pn9sfX/L3od1g6b5/tS2Z77nnAQAAAAAAAAAAAAAAACm+AIVUdSI=
   </data>
  </layer>
  <layer name="Ground 2" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt2dFOwjAUgOGzJZgYn25wqxfqhdfok6hPYHwi9QkW9QFQuacntLGWjnXFwLT/l5zQdYU0h63dAREAAAAAAAAAgJok9gFjMa1EGomHnkMel7vLSA7Pq59jMMx1tY6bSP7m1fd5AAAA59bEnY37A89lH3Lq0txa9sFrPyaMR7qScptTl3aNd7FNKbkN69JJLXJUr9tddenZgM9vvfapfa/m9srGf85tWJc25nVm235dqnnR6zE1ry6Pbd/Agsw76v9cCxMfPYE0Tyaeg3g56IzGQdeDqY1ZxrWreV1G+r+E/OredWEj9ptrH11bm+B7ccevvzbLv8nfu8I1N2Uva2VzvXbHped2V7pvvUf630x87nkuYxTe00PFngtKzWu4d/n3tL+3Id+2/wuxm5zcntSbfceRvtRxAAAAAAAAAAAAAAAAQJ8V8TxKMg==
+   eJzt2MtNAzEQxnFvJA5AIYgyEBUkiBscohw4h1QQqACoANFBOuGRAlZAAbzueJSx1jIOcUwgaP3/SSPtK9bqizebsTEAAAAAAAAAALGReAz4L3qVMV0TLzmHPC67/UiGe/bYTkW+uU6rWY1s3dr9O617W8OqOY98kuuHranWu5nli5+rbT0E9bjWO2oPyXYaFNmuxoutZ9PM2Sdbb2u9o3aRfF+1yPX3XNi61Lpa8738hZy+NLeXvfa2bxKuR7qSsk3tS7e87XnXu/pOKdn2tPcczOlLdyN96fES49fe9pF+VrI90Wpztn7fGfal/nnJReZjSq6TTpNjvejiAri+dKj9/6r6Uv+/17xqO39+Heo8zumd/LkfPgOlkmy7NtMz/X09qJbP1s39UOlrM5Jt33tnDTKylTHG9nPnOo7M/67ul7x+ILn4a6qjII+Ud5kbY+R9R8PIWKWJvc+XzcOtybj5Kr8rsl362ozLxT3DuXnE/heUmmtP312SZ7hWNa6a88gX68v6ZLoSOdlud74e24wcS70OAAAAAAAAAAAAAAAAWOQTdTV9+A==
   </data>
  </layer>
  <layer name="Fringe" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt2UELgjAYBmD1Fp09a/2j6Nw1ukb/Hyoq0K9ZM4g0ngcGop8yhr5jsygAAAAAAIC52pbP5zaJc3xmURVFfW/L6te9AQAAmB7r0mnprmOH1rO7xH37zvHhmx2coba6tVViX6C5X2Oc+J6m9lxyamId41yzOpXh5HtkQMyI42VcT+X7un+Wk51tJ0PbMEa5+7KxrgnPpc8e92tj5qV1Yp4a+tZj3sY6c9l7Q5kQ89Y/HX5tzPyXU0dfXQ2PYzdDc+sAAAAAAAAAACDHGWR+Ec4=
+   eJzt2bFugzAQgGFw1UqoMzhbaZfAc/QJoqpjlwxV1yhPEPXx+lI1ik9cXHAgDE3g/yQUgU1EDufMmSQBAAAAAAAAAAC3qEyT5Ds9Pfbu9jdu+7n7n2uam8wkSe62ldseTXu8TvvPATAvpTluz+Zv25Np2zGedXErgvwqMt9miS2uTCwnYBrrn7u6cgKA69XUpW/psRYVXXUpNeplXn1c711ufPD5sTpTj2amfc7qy60fwTlb1/6p9r+mXPSN2Ps4HtQY3qnYblXMhtQEGCdT4zNccwn7rCJ1g/QrfD+Mc+jI4UslMajV55C46HUBnSOafLJPz/ebM/17K/9cIM8DOh6SQ8sgRrIua9X/f61iKvOh5ADJE6zVnNoFcaDeiovNOZmak5px+eL3bc/40//1ZrzWkZwg350v5P5Ifl2PmH90/PX9CfOtXlNc0niv/Jze0DHZMMdPFqtlu9qGvk/gvcNlctMfR10P2Ei/grgCAAAAAAAAAAAAAABgpF/ujCLc
   </data>
  </layer>
  <layer name="Over" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt2L0KwjAUgNE6ivgC/nRzcdHF3QfQd/H9JxOwUEqVRLhLeg5cCqEt8SODtOsAAAAAAADIthX39mG7aJO2cbSNo20cbePMtb2kuc6sa1tnrm3/Y506x27+nE5pW2+T5l5wn7ZxtI3TYtua/0mRtI2jbZylt92lOadZB+xj6W0faVZpngH7WHrbSNrG0TbO0tvmb1il3wdqtdh235W1yl0PaV6Vz9S8u0W5VT6Pp891PMPa9LeXPvPPu1uTz+Ptcx3PsPbvM9O10ncDAAAAAAAAAMA3b3xmFMQ=
+   eJzt2EtqwzAUBVA1s1K6gX4y66CdtJPMu4B0L91aPwusBDG4jttIIY+AfA48DA9Lli8Cf1ICAAAAAACguG44dx22ij6Ns/1YpfSZ6yvX92q/J9s29m0c2caRbZy5bJ9zvcz0ZdtmLtv1P33a3Kff+1S2p3OV67XiPNnG6T3bx4vzXbvHbFvekyL1nu2h79KhlyrGtOo923NaerY3uZ5yXQasY+nZbnOVx91bwDqWnm0k2caRbZylZ1v+YU3/D5xKj9neprqsSq53ud4bx7TM3aOSVdmPD7vjuIbe9N5rxxwzd2/KftzsjuMaeseOmfZq5wYAAAAAAAAAgL/8ACItIzA=
   </data>
  </layer>
- <layer name="Collision" width="87" height="66">
+ <layer name="Collision" width="87" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt2FsOgjAQQFES9r8dEnZn+PNBy/AcC2eSk2gtht6oHw591w0AAAAAAECzppl7zDFt3yf7floXnez7bJG22rZIW21bpO11bZfW2d92/JJ9ny3T9vd7u6ZXbd1vQvzMkantzT5nds+lZnv3PKHxP0x2g9barnn/7AZXNK6t1bpFO5auu6va56f02pZ+kWvuqtR26fmeyT7zFU2ParRl7c6NI53OnuwGmZ3Pbp197uy2kf2l657cdEvbaeb+Zxn7z2uj+wAAAAAAAAAAIOIFVEcveA==
+   eJzt1lsKgzAQQFGh+9+OkN2Vfggi1YyiGY1n4Pz0aW7TNuNnGEYAAAC6dcfJbgJvd6fJbgEANfP/q3KD6+mJc8G1PZ2/tH0STds11VjbJ9D2+qbT7WUh+zqfSNt2jWvNe7Zc/55eW7drG19zZLYem73O7J4l0KXWtfY5ZK+9dduMyW7Qsu3anj3SK/Ja2Q2u9u8sVDsfLdtEG76l6db+Wbsv2q/sfE6vIuve0zgy2WvOanqk0TTz/Tr/vV17z+wGLdpGv8NnT3aDjD189v7WNr7maKs3Nz3S9jdr57b5c6OPAwAAAAAAAADoyRe3ygZl
   </data>
  </layer>
- <objectgroup name="Object" width="87" height="66" opacity="0.9">
+ <objectgroup name="Object" width="87" height="66" visible="0" opacity="0.9">
   <object name="To Library First Floor" type="warp" x="1760" y="896" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-2-4"/>
@@ -73,7 +74,7 @@
  </objectgroup>
  <layer name="Heights" width="87" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1m4AAE=
+   eJzt18EKAiEUBdCB+f8vqo+LFoKJOpq60XNAqKkW3h7P53UBAAAAAACQ87rzrxn3vn8XY771GVaabfwZ/dI8S4v/yXQ+dbuObNeT7XylDGU7rpRhPH+Zwcaoz757aanmcs9l294He87++E52Wg9I76VBei+t1WPtPzl5Pijd81tn0xlrV6vzOjnbILfHp33XcszVf+l3u6rVz0gPbanfU+TOrlym6funfl3r37tb1Vtbn+2c8cgZVFs988YJanueUd+ybd9za1YnZxr07P0px97vAQAAAAAAAADs5AOtJA08
   </data>
  </layer>
 </map>
