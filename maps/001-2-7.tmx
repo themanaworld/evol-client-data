@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="87" height="66" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="87" height="66" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -57,11 +57,25 @@
  </layer>
  <layer name="Collision" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0sEJwCAQRUEh/bdlXWkgGARxvzLCgOBl92F/WusAAAAAAAAAAAAwacWp3iHRylO9SxpttT2Vrvsaf91H7/w39W/zuuqrrbb30Da/b/UOyXTNalw966k03du4epYb6QoAAAAAAAAw9gItx9tg
+   eJzt0kEKgCAQhlGh+1/Lc7WNFkpgzZ+8gQeCG+fDfrTWAQAAAAAAAAAA4KEVU71DopVTvUuSN6Z6pyS65vet3iHdtdP9PLpn3tS/zeuqr7ba7kPb/L7VOyTTNatx9Vv/StNvG1e/ZUe6AgAAAAAAAIydMpnZzg==
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.9">
+ <objectgroup name="Object" width="0" height="0" opacity="0.9">
   <object name="To Artis" type="warp" x="1152" y="1408" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object name="To Main Hall" type="warp" x="1472" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object name="To Main Hall" type="warp" x="832" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
