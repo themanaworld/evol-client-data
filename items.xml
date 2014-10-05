@@ -709,7 +709,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="2902"
         image="equipment/head/fancyhat.png"
         name="Fancy Hat"
-        description="A fancy hat, what else?"
+        description="-"
         defense="2"
         type="equip-head"
         weight="11">
@@ -719,6 +719,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
             <item from="-13" to="-27"/>
             <item from="-23" to="-27"/>
         </replace>
+    </item>
+    <item id="2903"
+        image="equipment/head/brimmedhat.png"
+        name="Brimmed Hat"
+        description="-"
+        defense="2"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/brimmedhat.xml</sprite>
     </item>
 
     <!-- Neck Armors
