@@ -50,12 +50,12 @@
  </layer>
  <layer name="Ground 2" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt008KglAQx/FB6N+iZa2qi3QK97XuPNUJohNVJwjrAFntG0nxMTwLBFH0+4Ef+sYR3ht4IgAAAAAAAAAAAACaZmDWQ0+Prdl/0A1hQcr2tcHarEeByEQz1axMX09rfc0yyHvHpq8ttpqdZq85ac5pLp7ef9/b5JA+j5qrU3/J9/yZ5P3trKOK91W3orlkoh/1md6huWYRVLW7+iRz2Ui5uXQFc8mFzh14aO7mu28uN82z0l01TzKb2El2fl8NAAAAAAAAAAAAAAAAIh/xLjED
+   eJzt000KwjAQhuFYqD8Ll7pSt+IZPEUX4kbXnkc9gXgi9QRSPYB/e6fYYAipYCG0hPeBjzbTKaRTohQAAAAAAAAAAACAumlZ67ajx67Z74RoVqJn7mMjNZIUpGxfCJbWuhMp1ZP0JQurL5ZaUzKNvr1dqy8Ua8lGspUcJMc8J0dv0fM48rzJCuzy615yNupP9fl+Lbt/GevU876qVjQXLf1RHzd87ap62VxWqtxcBnJ+hpJRgOfI9O9cQpYY//omuVrPXXO5SB7GehLwedKy2dyN6O931QAAAAAAAAAAAAAAAKDUG4ZmMl0=
   </data>
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKgDAMBdCi1/MCal3FU3lWO7gpEnCo1PcgZMmQfEhKAAAAAAAAANCOoYvN9cG5Fu0/vv3JKJewXGqpvUQF69m3qlt8z1x+J/ufW5NcLmQCAAAAAAAAAPDOAeRJBEk=
+   eJzt07sJgDAUBVDReRxDbFzAXytO5aymsFNUEEnEcyCEl+rmwssyAAAAAAAAIDXVxXz0Vr+UhW8o89gJ0tHc7KL4cWfLj/9+ptXLbUM4Y+wQEUzbPUdNkZ4+7M5gfw51etnRCQAAAAAAAADAMyvDmwWO
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
@@ -63,12 +63,12 @@
    eJzt0k0KwjAQBtDYvSeo7dal7vRYXtifo5hAS4tUqaC2pu/BUCZMYfKREAAAAAAAAIB/V6+m3gDmYT31AjPVz+VchHCJdY11K7o+jJhJff3Tzb/rk+9FLsPkMmxpuexi7UfMLS2X+o25XJTh9VtIb2XzxlxO0p2rWNvmW/X6dNdTU+WTmSrkl0kr3fsQugxSHR/6obP2HwAAAAAAAADIzR2nEhc4
   </data>
  </layer>
- <layer name="Collision" width="70" height="66" visible="0">
+ <layer name="Collision" width="70" height="66">
   <data encoding="base64" compression="zlib">
    eJzt0lEKgCAQQEGh+19S6B79RmCrQS3aLMyfgvuwbqVUAAAAAAAAAFjIdUbuZb/9yy6tRr3nVrCf3P2daLL3ePOv6BI3Gp3st+syTxNd/tWlZ19ddIl2fnoOAAAAAAAAgHkcghGfeQ==
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object name="To First Level" type="warp" x="832" y="992" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-2"/>
@@ -77,7 +77,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="70" height="66" visible="0">
+ <layer name="Heights" width="70" height="66">
   <data encoding="base64" compression="zlib">
    eJzt0jEOgCAQRUES7n9O9RZWFK5CMHTLTLIdFv/FUgAAAAAAAAAgl6M+7893mZ31++Lu2XcZxP8kbm56Ta7wLitd3nrbR6fL+LJaaaLLXl1m9uqiSzO7dacmAAAAAAAAALu4ARjgiaw=
   </data>
