@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="66" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="561" name="Indoor x4x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="625" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="753" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="777" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1033" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1039" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Ground" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1LsNgzAUQFFHTJARGCGDZBdmykApPQAFcwQkR7IMykcKOIJTHGFe9XwLdyGEDgAAAACAw4rJdG4L92Y+m8Sm/t5ruyXT+TS6jM7pG4r/p9o7b90lFtqFWa727mu5Zl365FWHo7TRZdm3DXTRRZffdxn+4A5bdBkyfXj/Fu+1S9kmn3/SpfbuNeRdau8CAAAAAAAAAADA3APXBxq6
+  </data>
+ </layer>
+ <layer name="Ground3" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztyqEBAAAIwzBe3P/PYFEIsImpaRUAAAAAAMBPRrONAAAAAAAAAAAAAADAWQOXvwD0
+  </data>
+ </layer>
+ <layer name="Ground 2" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt0s0JwjAYxvFWEUFPCg5QHcEJvNeDH0d1B3UTR3ETdQIpTiDefQoRYgnipSaS/w8eSpIeXh7eJAEAAAAAAAAAxOxg4tJSOqn7flLfSEFrq4+Bvl1HL+V9puQ/nsmXmR31MVcWyr1ReTOJoZepcrPOW/WxU/aOfXlZ1T1UAMpeHr6HCMRaOZpsvvg/1e4sleaHHYpRT330lTG9vMnUx1AZRdrLSTlbufgdJxjXyrnwMkV46AUAAAAAAAAAAAAAAAAA8K+esGMV7w==
+  </data>
+ </layer>
+ <layer name="Fringe" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1E0OwUAAxfHprFmLhbC1rhsgdjYqDsCN0Av4uICPE+BOFsQT03QkEhbSRv1/yUsnk2kzfZ3UGAAAAAAAAADAv5u6a2iNadl0vuutmSlzJVZ6me0sXwt3bauTjtfLUKkEj/FSWSlrZZTp7vKT9DJQJ5HrpaQ+akpTKStbze2UvXLWmot9/awiuffSV8Z614l/XoJ0fFCOysm771rwbpJe8GyjxB9+exu8X/NPIvVRVxrunwOEBf+P4ruqnBcAAAAAAAAAAAAAAAAAwI+7AdGbFaU=
+  </data>
+ </layer>
+ <layer name="Over" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1rsKwjAYxfEoTt4mXbR2soOgKF5mRX0CdfcVfCdf1BPsoCEFrfVC/P/gUBq+hnDoEGMAAAAAAAAA4L/UlOaTqSunbxz2zWwXrYoxbeWYrp3L9zOdUvb3S3PtJjQNJVInPWWQc4+4yAP9APuvrJS+OkmUas59QuulkT6H6mRUyb9PqL28il786MWPXvxC66WrTJy1WHeVsWc9i52NCj3V99l7qu2mpyTp0yZK16fKTJl7ZpKb2dDuu6ebLJx3m7WyUbaeGXc+JG4PbnbKXjk8MAsAAAAAAAAAAAAAAAAA+LwLp6UYrQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDC8EvxbAAecHLTJ/kUAAAAAAPBZTnU9AQAAAAAAAAAAAAAAwKoBXyUAyQ==
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object name="To Second level" type="warp" x="576" y="697.5" width="63.1667" height="31.5"/>
+  <object name="To Artis" type="warp" x="801" y="993.5" width="30.5" height="30.5"/>
+  <object name="To basement" type="warp" x="642" y="746.667" width="23.6667" height="35.6667"/>
+ </objectgroup>
+</map>
