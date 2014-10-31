@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="66" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Moon's House First Floor"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="569" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="601" name="Box x1 x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="605" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="733" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="737" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="993" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="999" name="Level Height" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <layer name="Ground" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENwjAQhlFTExiBVUgbKeziqZkDN3SIs5RIvkSveNWl8P8VqaWUCgAAAAAAAAx3be6BKfhuSrBjb7fmEng2c3A/W5ueLmvzCu6PBFv27vIOfLv8u5+tS+3o0kOX30Zv0OU4XdYEG3Q5TpclwYaMXfxfdNFle5vRbx/da/RbAAAAAAAAALb6AJC6IjE=
+  </data>
+ </layer>
+ <layer name="Ground 2" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+ <layer name="Fringe" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+ <layer name="Over" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+ <objectgroup name="Object" visible="0">
+  <object name="To Artis" type="warp" x="1216" y="1248" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="2112"/>
+   </properties>
+  </object>
+  <object name="To Second Level" type="warp" x="832" y="960" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-3"/>
+    <property name="dest_x" value="2208"/>
+    <property name="dest_y" value="2496"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Heights" width="70" height="66" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+</map>
