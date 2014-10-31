@@ -21,7 +21,7 @@
  <tileset firstgid="777" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1033" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1033" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <tileset firstgid="1039" name="Shadow" tilewidth="32" tileheight="32">
@@ -49,12 +49,12 @@
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1rsKwjAYxfEoTt4mXbR2soOgKF5mRX0CdfcVfCdf1BPsoCEFrfVC/P/gUBq+hnDoEGMAAAAAAAAA4L/UlOaTqSunbxz2zWwXrYoxbeWYrp3L9zOdUvb3S3PtJjQNJVInPWWQc4+4yAP9APuvrJS+OkmUas59QuulkT6H6mRUyb9PqL28il786MWPXvxC66WrTJy1WHeVsWc9i52NCj3V99l7qu2mpyTp0yZK16fKTJl7ZpKb2dDuu6ebLJx3m7WyUbaeGXc+JG4PbnbKXjk8MAsAAAAAAAAAAAAAAAAA+LwLp6UYrQ==
+   eJzt1ssOATEYxfESK7cVG8aszEJCiMuaiCfA3it4Jy/qNCqhqYRxTf1/ycmY5tM0J7OoMQAAAAAAAADwHxolY5pKRb/rD6aq7L9x6DezXZx72bm1Q/F6plW4/f+5OXUTm5qSqJOO0su5R/rKA/0A+60slK46yZRyzn1i66Xmnn11Mijl3yfWXp5FL2H0EkYvYbH10lZG3lqqu8owsH6LnU1eeqrvs/dU201HydzTJnHrY2WiTAMz2cVsbPfd/UVm3rvN0s2tAjP+fEz8HvyslY2yvWMWAAAAAAAAAAAAAAAAAPB5RzxlGJs=
   </data>
  </layer>
- <layer name="Collision" width="70" height="66">
+ <layer name="Collision" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjENAAAIwDC8EvxbAAecHLTJ/kUAAAAAAPBZTnU9AQAAAAAAAAAAAAAAwKoBXyUAyQ==
+   eJzt0tEGgEAQQNF56Cn2/3830ZJUpsikznAel9lrxiFiBAAAAADgt/pU7/E2uuS76BTRFts56/SHGzvqkp3q/Z8wT++yvoNMg693yU47eFv9h+ou7uV+q6/QJdfmarPq3SubVe8AAAAAAAAAAADAvgmGivaQ
   </data>
  </layer>
  <objectgroup name="Object">
