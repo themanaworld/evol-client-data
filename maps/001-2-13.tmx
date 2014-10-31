@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="66" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="569" name="Indoor x4x2" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="577" name="Candle" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/candle.png" width="96" height="128"/>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="589" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="613" name="Carpet" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="622" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="750" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1006" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <layer name="Ground" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1bsNwjAUBdAQJqBggIzACPTJGPxhOnZhACbBFo6ErHxq4nOkK1vya95tXFUAAAAAAJRuE9KEPNffe26VZmJ2KUvXhexTtulsB96bn7l8Zoni3q8sbUo38t7PLNnQzv3eY530WbKpvWMOdVUds5xqvZxDB5csV70U3cs7i17me7mFDu5ZHoX0MvXXlPofRXP7ltgJAAAAAAAAAAAA/+kDLyNeYg==
+  </data>
+ </layer>
+ <layer name="Ground3" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJg0AURdFRSIG6d2NrqSimArGCaAOZYEAJLoU/Sc6Bx8BfXSYlAAAAAABYXaIDCnWtowu+S7Pbv+iiA+AH3PKGvLZa39fusUlFGN9vX223KaSkLOPBzb+k9MibP7aEFgEAAAAAAAAAAABnewIKDQ//
+  </data>
+ </layer>
+ <layer name="Ground 2" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1D0OAVEYBdAxCYVe/BVKa1CLBSA6CkvASsQKxEZ9g2KIQijmZZyT3MzfK753k3lZBgAAAAAAd7OqB0jUquoBEjN/SaHduOf2Pa6LyLLxvKbujpFT6Xldut9EdtHHPnKIdPMs6+XPa+qoE3s8x/Xy8r7Y96aCeVLyrpdm9NXKq5gmHcX5MX6cH5/oR1+DyLDmvW0ffUw/7OVflM9Vvjeq+f/zi4luAAAAAAAAAAAASNAVIhEOOQ==
+  </data>
+ </layer>
+ <layer name="Fringe" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1CsOAjEUBdApoxAQ5EiC4bOOWQIINkBYDYYN85KWgAVEyfScpLkvVX1XtOsAAAAAAIBvDCnnMtV9R03nWc4xcl16WETuU75r2f1t/1uZj9HLPOZt6aqfeEebie/3i0uca+1H/KlV+UN42UUfhw87aaXDUyN7AgAAAAAAAAAAADw9AJsyBRw=
+  </data>
+ </layer>
+ <layer name="Over" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1r8KwjAQB+Ds/nkBq5uzLs72kXz/yQYLhnJNOwhK/D44CrkL9H5TUgIAAAAAaN9jqM1Q+0ltx95cv5xpUd65D87v6bX3XL+cadGu0st79wv3T5/7lZ9Sy2UNucTkEpNLTC6xf8zlMtR14X6ruRxSvHvOpKv0y5kW5fdq3v041nn8dun93o365UyLHpO6BWdL/RbVMlhbAAAAAAAAAAAAfMcTweAYfQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object name="To fisrt floor" type="warp" x="616" y="786" width="45.3333" height="28"/>
+ </objectgroup>
+</map>
