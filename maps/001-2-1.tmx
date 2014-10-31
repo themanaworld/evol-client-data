@@ -45,42 +45,35 @@
  </tileset>
  <layer name="Ground" width="75" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1LENwjAURVFTExiBVUgbKeziqZkDN2lxJFv4Y53iVF+K/G6RnFLKAAAAAAAAAPzUtbg3WirfWQLs7OFWXBo9i7Vyn6FXj1Z78arcHwG29mj1bnS0+nafoVXu0OoMrc4bvVGr+VrtATZqNV+rLcDGf2nlf6WVVmN7jd4WoenotwAAAAAAAABATx98PdEh
+   eJzt1TFOhEAUBmCIpautnVfB1oh34UxbWHos9wi2DgnEyXMZMCG7ZPmKL5nMe5nw/gzQVVXVAQAAAAAAAHBx98njhMNMfUnPYQMzrpXTS1IPPu5+171mqH+G/by/CWfUob+5kbwekvdsxqcwczvU437e34Yz4jl9/XkDs66V1deEdqa+pOdWsupmcljLtWeUlay2TFbLTX2X+29yXagv7Ws3MKOsLq+Uw2vylhwLxp49vIOlGU/J9yBfx72TrP5kM+Yyyvdkdf4exfVe/oOlvM7dofju7eVO/Vee1bWfBQAAAAAAAIB5P7hA1Ns=
   </data>
  </layer>
  <layer name="Ground 2" width="75" height="66">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJzt1cEJhTAMAFBv/vU8ijqMjuAG4gZO+BX0JK31oCB9D0JLEkrJJUUBAAAAAAAAAN/xC+TLm/nQO8BZF6m1F/WUnvb2jwB4wxiJnIR22La/qv0+BXrm/awu3slBvUazxhKJoyd3fWLf8OgvvsGs0pkVAAAAAAAAALn4A1RUEu8=
   </data>
  </layer>
  <layer name="Fringe" width="75" height="66">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJztzrENwCAMBEBWDRuETRCToCxIQ5MCKU0sEt01L/ldfEoAAAAAAAAAAAAAd3Vxb6Er9nY8/MuvrviGc2Zf9NfMErAFAAAAAAAAAID/Gm0oBC8=
   </data>
  </layer>
  <layer name="Over" width="75" height="66">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJzt1U2KAjEQBlD3M3oBp926HNEB3SnqCUYP4v1XVqCFptGmHPzDeQ8+OqRCEgqa9HoAAAAAAAAAAHBe/0HnjB50zj3pVd4wMrlQ+45UHfXsulL/+tPtXstHZHWhtowMOurZdaX+ef3VXo5/ME+v8vQqT6/yut7BW3mXd7Ao/arqjBvj6sz8NDKL/CTXl7xLn04OdeaNcTOL+ruObCLb1nw7zX3+q9/ILrJ/9kUAAAAAAAAASDkCvWcRsw==
   </data>
  </layer>
- <layer name="Collision" width="75" height="66">
+ <layer name="Collision" width="75" height="66" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJzt0NEJwCAMQEHB/Zd0kk4gDZgasRe4L0XMG721AQAAAAAAAADwQ7N5O4/cqd5tR6fMqd5RK61OplVOr0jP6Bu30GqtU1arm3rtmOodtdLqdDp917X6DwAAAAAAAADEPNG4VRY=
   </data>
  </layer>
  <objectgroup name="Object" visible="0">
-  <object name="To Artis" type="warp" x="1440" y="1248" width="32" height="32">
+  <object name="To Artis" type="warp" x="1184" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1600"/>
     <property name="dest_y" value="2112"/>
-   </properties>
-  </object>
-  <object name="To Second Level" type="warp" x="1056" y="960" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-3"/>
-    <property name="dest_x" value="2208"/>
-    <property name="dest_y" value="2496"/>
    </properties>
   </object>
  </objectgroup>
