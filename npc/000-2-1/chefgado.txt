@@ -190,7 +190,7 @@ L_Aborting:
     next;
     mesq lg("Give me back this dish, you dirty liar!");
 
-    if (countitem("PoisonedDish") > 0), delitem "PoisonedDish", 1;
+    if (countitem("PoisonedDish") > 0) delitem "PoisonedDish", 1;
 
     next;
     mesq l("You're like the rest of this filthy crew, I can't trust you!");
