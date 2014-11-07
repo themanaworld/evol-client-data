@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="66" tilewidth="32" tileheight="32" backgroundcolor="#535151">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="66" tilewidth="32" tileheight="32" backgroundcolor="#000000">
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
@@ -28,42 +28,41 @@
  <tileset firstgid="589" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="128" height="192"/>
  </tileset>
- <tileset firstgid="613" name="Carpet" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
+ <tileset firstgid="613" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="622" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="617" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="750" name="Ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="1006" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="745" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1UEKg0AQRNHJETyS+8n1PYLn0ECE0JTuQ78HBT3bv9AxAAAAAAB48iob5e7ofW4pm+Xu6NNlL5vl7qg2SetIl0yXTJdMl2z97ve/NMu7I12yLezqcb070iXz3c10yXTJdMl0yXTJdMl0uafJMz0AAAAAAADg/xy+lJMB
-  </data>
- </layer>
- <layer name="Ground3" width="70" height="66">
-  <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+   eJzt17ENwjAQBVAzAiNkFPqwPTACI1BDJCzC6XCboHtP+oU758u5xK0BAAAAADByCKG18yvHkHnTHe3D0ss9RC+fLh7tu5vqeg/XVXovx602tQO9l8sqvZep1X2nRuel8qwZnZfKs+b0zvq7NId1RXrJ3ZL0Pvq6Ir3k4r9ulor0kls//3IXWGZuvEdWlN0Zp5CKYi/ZHK7IfMnpJaeX33Qypg8AAAAAAAD4P095/n3d
   </data>
  </layer>
  <layer name="Ground 2" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1rEJACAMBMCsaK/7r2ElSNBOtPAOAs8v8IkAAAAAAABOKeki5R+1RVc3GQC4a/wp817XWO83AAAAAAAAAAAA8F4H2zgEtA==
+   eJzt1zuKAkEQBuByQXHxcZA9wsbmYq6hj1S86d5gUS8gmluCooyzgcnO4Hwf/AxTUU/RVPdEAAAAAADAa0YfVa+gviaFEDHLfOae6WcGmWFmWvWiamSXOWT2VS+kZrbX5+9D7atVxUrqpawvZk3EMfOTORXqZs2dszuiZ4aUut1ZZg+1aeG9ida5Xzb2DPBPuubNk8tZ5P86Ylxyh2tnrZP5bvD9bp7fvmjw9//l0pNlZqU3T/QFAAAAAAAAeDdnVnoUZA==
   </data>
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAIB3A0gwAAE=
+   eJzt1jsOQFAQBVA0KrEBRGc9EoUdsA/LsFmv9O0IknOS109uJvdNFAEAAAAAAHfpk7cn+L4ufnsC/qCxJxtF6JYyvOqiY2p5ncrlwkpqH061IZdpl80QumZ00wAPmnXMRuaPOojtCAAAAAAAAADApQV6WAPF
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt2LEKwjAUheHsVl/A6ipOFhUcW9RdUHdfoe8/eYMRLuVQJ0sg/wcHm9sO8YBgGgIAAAAAAACA0vWWmWUxSOXmVXquJPG7d2LeWl7uuppqQ5mYj9zbuuv1vzeSGXrR6EWjF41etKVlldK4+c5yc+vSevH/XTo3bwfr0noZ+x159KLRi0YvGr1o9KLRi0YvGr1o9KKV1ks8HzU/nolnpXqCveQkvreN3WzC5+y4txwsx7SO8zqU9363Tzmlz7PlYrkO5qX28s3d8rA8xT0AAAAAAAAAAAAAeXoD9ZMTHg==
+   eJzt2E0KwjAQhuHs/bmAbZeCK4uK2xZ1L6gH8Ajef+UMTSHGobpRCvM+8FGSuCgftLEJAQAAAAAAAIB3D8lEMs8yjWtpPNFOWmO+Ce/deDIbWKsCvVjoxXYPr+8aT4Z6WcVr/67x5JteVPXrGxmZhaSMqZP5teScjL31kv53aZP5Jht762XoOUrRi41ebPRio5duLyqzFP+8qRGwetG9yPq+9oTnyEYvNnqx0YtNv4/qD7/R/cnbfqTnKtrNMnT78UayleziWOeL4O/8pT+L28frQXKUnLJ5r730uUiukpuxBgAAAAAAAAAAAGCcnl/RGRs=
   </data>
  </layer>
- <objectgroup name="Object"/>
+ <layer name="Collision" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKgDAURMHg/U8qeAcbLVRCENH94ASm0Gp5SJyn1mYAAAAAAAA+dT7L9i69K6130rvS9ga6XLv0vhd9jo16z3+liy53m/g3jXvoosuoS3pPFbro8rRPeks17l1ddHmnS3pTFVoAAAAAAABQ1Qpo0UjA
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object name="To Artis" type="warp" x="1117" y="1296" width="38" height="33"/>
+ </objectgroup>
 </map>
