@@ -47,20 +47,20 @@
  </layer>
  <layer name="Over" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt00FOwkAUBuCBrjmByI61RuUChhOot3DTA8NOd7rTPa+hi2YYE6JAm/p9yZ+mk9fk5U8nJQAAAACA/2FTpbSt+t5iePJeXqf97TIkb9HJu//lwEd08nlEL7PJ+XcZkq/o5PsP/8vidKuMyth6mf3im0ncpWmk6twpvZTppWxsvVxFbrOzRdyPm8L5T5rZ+Um36l+d9t1cR5bts8m8Pb+L3EceCjPLzmx96cXPrO5klb03eWzn1oWZfH5M8h7yPEWeIy9HzAIAAAAAAAAAAHB5O9TmHWA=
+   eJzt00sKwjAUheG0GXcF1s46VnxsQFyBugsnXbDOdKYznSl4g0FKjFC0j1D/Dw6l4RYuh0YpAAAAAAAAAPgPO63UXne9RXjcXrZxd7uE5CCdHPlf3pykk3OFXpKo+V1CcpFOrj/8L1l9qwTlJp3c6eUl+eKbSO5SLNGlO0UvfvTi17deBpKxc5bJ/Rh5zj8xs2mtW3WvUM9uhpLcPk1Sez6RTCUzz0xemi3aXrxhRSlz591kYeeWnhl3vk/cHtysJGvJpsIsAAAAAAAAAAAAAAAAAKB9D/iNH18=
   </data>
  </layer>
- <layer name="Collision" width="70" height="66">
+ <layer name="Collision" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt01EGgEAUhtFo/5sb2k+iyBjjTozLdH7OS3q4fVT2bSsAAAAAAAABx61+ln1XtqdLvV6n1juriXTpLfv+Ga69/6PI6obZ3zCrS3R/+pdGp8u3VqvQJdZmtFn27ZnNsm8AAAAAAAAAAACg7QSVm65r
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object name="To Second level" type="warp" x="576" y="704" width="64" height="32"/>
   <object name="To Artis" type="warp" x="800" y="992" width="32" height="32"/>
   <object name="To Basement" type="warp" x="640" y="736" width="32" height="32"/>
  </objectgroup>
- <layer name="Heights" width="70" height="66">
+ <layer name="Heights" width="70" height="66" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw6ERACAMBLCK3wHYf1FEVR0CmdylCgAAAAAA4M1JZ9rpTCsdAAAAAAAAAAAAAIA/LvrqAKk=
   </data>
