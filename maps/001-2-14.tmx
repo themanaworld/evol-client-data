@@ -40,6 +40,9 @@
  <tileset firstgid="807" name="Cellar" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-cellar.png" width="256" height="256"/>
  </tileset>
+ <tileset firstgid="871" name="Height Number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
  <layer name="Ground" width="70" height="66">
   <data encoding="base64" compression="zlib">
    eJzt0zEKwjAYgNFgD6SbUgdFt3oSt27qEbyGN9IT2UCEEgrqUCP6hkdIpvwfSRtCaAEAAAAA/sisCqFOlkl/X2emVfk7j+nRYNHZJNukv99k5j/c5pLEOdedpmeXrf3zaJX6lJ5hzC5x3uskhNuLDmltfrzLqz3yLlHpGT7VJc587OwHzo4DjUrPMIZ338mQ0jN8Q5f4bk66DHY56+IfafK0zTvNSt8dAAAAAAAAAAAAcncqbhG9
@@ -52,7 +55,7 @@
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1LFqwlAUBuAk1oI4uxQfQJ+hHRzEyUXboe/nG+g7OXbsKD3BK4RIqx0kcv0+OOSSZDjn53CLAgAAAACAR7Wvuu7gPn2lXDbdtnF3vv/IpYxvT6mq9F+vcc7ZoZHLIM7LqLeo4YXZV3VeZVH0y5u32Inn3vF52pfPmHce9XHlvKNMc6lto3ZR0zTjorUrk/T+pZXBOONMLnmNjN7r/anO83p09V2y/iWTXO+XptNeXGtW5Xu/tLP4bzY5kwUAAAAAAAAAAAA5+QHQ8w+o
+   eJzt1L8KwjAQx/E0VUGcXcQH0GfQwUGcXPxT8P18A30nR0dH8YIJxIBGB2m5fj9wNLQdcj+OMwYAAAAAAAAA0FYXW/cNmunqcznWe43GuX3IpZBvHV/W/1dGZ83uUS59Oa+l5lKDTO8bl1dhTLf4+xVr0SufzzAvB+l3KbXP9Fv570OluTgnqbPU1Pe4SmZl4t+PkgzGijPJmUlGOzc/9jWvqsWZBG6XbN/sG637JRbm4lsLq3e/pFn8mo1mZAEAAAAAAAAAAAAAAAAA0OQBoIMQVA==
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
@@ -60,17 +63,22 @@
    eJzt0LEKwjAUQNFH+zFqcRH8sP61brrVTRNE0BKXVrCk58AbEjLk3QgAAAAAANbs1EScm3//YlmObcQlNblO7HJof/ufpchdhtTkpsuH3OWem0zcr+Yuc+hSpkuZLmW1dtmmvfaj3Xbp3BXux/K7TaVd+ni26d4m71q6H8/rXa36GVO7b7uuuQkAAAAAAAAAAMDSPQCG9xl/
   </data>
  </layer>
- <layer name="Shadow" width="70" height="66" visible="0">
+ <layer name="Shadow" width="70" height="66">
   <data encoding="base64" compression="zlib">
    eJzt1rEKgzAUhtGL8f3fsXUrOpTiUhSagIKE0MUtnAP/A+RbbiIAAAAAAPr3GO6vR+VdQ4oYky5X59teec+86bJZl3jnfaotujS7rLroUtGl7V+XXZf4Hvc6HSt3e9PFv66iS5suAAAAAAAAAAAA9OYHfDuyIg==
   </data>
  </layer>
- <layer name="Collision" width="70" height="66" visible="0">
+ <layer name="Collision" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0jEKwCAMQFHBm3j/Q3YSpDQiLinkBd7iFD8ZvbUBAAAAAADAtTlfb7vJ3luX3C7rX3f/r9jl5CZ0iW+oSpeoU9Qte+e/31BFJ5O9IwAAAAAAAAAAALw9fq6Qug==
+   eJzt07EJwDAMBEBDNjF4/xXTpDLGViqF6ATXS8+rX611AAAAAACAgPHI3uNrVrlEJnvvjFzGIZsK/Vp1YNeLKn15+ysV+7LLJpLZn8w3zrdHe1RBtEMVRSZ7RwAAAAAAAAAAAJjde7qR2A==
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
-  <object name="To first floor" type="warp" x="575.333" y="705.333" width="54.6667" height="22.6667"/>
+ <objectgroup name="Object">
+  <object name="To First Floor" type="warp" x="576" y="704" width="64" height="32"/>
  </objectgroup>
+ <layer name="Heights" width="70" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztwyEOACAMBLAl91jg/x9ATM0hkG3SKgAAAAAAgDcnnWmnM610AAAAAAAAAAAAAAD+uIvVAoM=
+  </data>
+ </layer>
 </map>
