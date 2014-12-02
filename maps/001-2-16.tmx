@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="569" name="Indoor x4x2" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="601" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="605" name="Candle" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/candle.png" width="96" height="128"/>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="617" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="873" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="937" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="943" name="Level Number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJwyAYBlBLJ3CE7pPuv0FHyDkRepAgRA9Wqe/BB+Lpxw81BAAAAAAAAAAAAAAAAAAAAIA28ZLHs7yO40ZczvvM65vUQWmdso0bcSmpj09F9NFfft57KPeQ79NXzb3IQ1/6mIs+5tLSxT5oxpXc/eXux295r+aij7noAgAAAAAAAAAAAAAAAAAAAAAA4L8c6ItrOw==
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKwkAQBdBJQgQPIHojbaOlegj1JpaWntQNkkaNRMREyHvw2WGrgV/sRgAAAAAAAAAAAAAAAAAAAAB8p2yZGcasZaZfVYfwe+ciYv9wV+YRk/w+T9M5T1mk7HrfbnwuxfNdlUWsUzZZ//uM3fVFH4fUwzHlpA/gzyzTW73Kh96CRpc+tvX/Sme9qPt410nThT4AAAAAAAAAAAAAAAAAAAAAAADgMzfP9QwT
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEOgkAQBdDZteYciNcglFphoxTe/xSSQKINoYCwBe8lm/xiis2fYiIAAAAAAAAAAAAAAAAAAAAAtukWMmU8FzLHuueIR57yLUVU47vksn86s/fY/fDXf59+uZ5zaz9FXOf+P/oHYEWT1mde7gkAAAAAAAAAAAAAAAAAAAAAAAAAO/kCxoAEoA==
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1zsKwkAYhdHpfWzAaGet+KgVdQXqQrL/yj8kAUkhsRiYwDnwERKmCNwiJCUAAAAAAAAAAAAAAAAAAAAoXx3NouWI5t158mm2uI48e0ntJuSz+PP8Jstb0LPHtNmjLPYoiz3y8v0oiz3Ksor2I8/uoirju9D+bzebrKNtd+07RMfo1N1Xyf95bvVX58H9LbpHj8Fz8ql/9Ixe0TvZAwAAAAAAAAAAAAAAAAAAAAAAYCo+QYQQVQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJACAMAEHB/RdxSrGzEbFK1AscWIY82GopDQAAAAAAAAAAAAAAAAAAAADgUWPm92qi9/zB7u6axDfRI1cPf5YenHWJ3u1HeuSjRy56AAAAAAAAAAAAAAAAAAAAAAAA3K0D+0o2Ag==
+  </data>
+ </layer>
+ <objectgroup name="Objects"/>
+ <layer name="Heights" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+</map>
