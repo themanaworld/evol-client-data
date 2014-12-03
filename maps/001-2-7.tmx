@@ -35,33 +35,36 @@
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <tileset firstgid="971" source="../graphics/tilesets/candle.tsx"/>
+ <tileset firstgid="977" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
  <layer name="Ground" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt170NwjAQhuEgSn46WlaBAWAJJmAO5iMMQMEcOIITxxE7BAXdgd7iUeLEhe+Tf5J9VVV7AAAAAAAAAAAAAAAAoMMkmQ9gGqCWSJpc18no7jB+3Pdtr8j3ySzZqqwW1XN2fdqbZBmgpigk2/MAyPbVELkK71qi0dnURlt+pT7etUSjszkabdmW+njXEs07az2XM3tCmXwnlDLL7Q9CvhO8a4mmyfaUXO5Xq3l+VO8vmXuyfaXzacu1udaFd7rtXUs0uVw1mbddfb1ricbOw93oRj+vC3103t61RGP3zbY5K5i3n+Vr2X8ETZ9l5PpZvnbe5s4777H/Cj0f5WrPMrn3Huuv0utd9gF55j22f8Ha/x69D3iPBQAAAAAAAAAAAACiugKGbyOL
+   eJzt18FxwjAQhWExOYbkliutQAHQRCqgDurDFJADdSAP7LBeS2Yghl3gP3wj2/JB+1jLZp1SWgMAAAAAAAAAAAAAAAAXfGbfI5gGqCWSNtdFNjnZfJyPrz2fk2/HV7ZSWf2kbnbXnC+zWYCaopBs/0ZAtv1sx8hVkO2ZzaYxSvltDTvvXVMUQ5mVsrPZl34D75qioG8fm+9/eNcSDdnej3zfDmVW2x+EfN961xJNm+0u259Gq72+VfP7yjHZ9ul8Srm2YzMwp8+9a4mmlqsmfXvpXu9aorF9+Ds50tebgXt03t61RGP3zVLPCvr2tnyt2n+wJnXfZeR6W762b2vvO++1PwvdjzLad5kce6/1WennXfYBuea9tlfBs38/eh/wXgsAAAAAAAAAAADewwHUljXa
   </data>
  </layer>
  <layer name="Ground 2" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt11FqAjEQxvFJQA8g1B5Br9BH8QQqti/6ID1B2xP0iNUTiHoAW31vQhJ2ibvZuipa+f9gWDYZYRmC+60IAAAAAAAAAAAAAAAAgFvROPEe5cbR/XPF/ssFn+VeDM5QODQ19aRFvsx1HtXCVFu7evQ9De2qqbMea3KNh/8nlgVrqxo9OFQ2t3CeF4kepG1NfUf1I9k8V4ke1JOfLY5n3/PxeQy18T3rRA85oZjNCQ+6fP8v57alyQlVBkpk6Guk3Fo828+CHqSNzZxmprp+Xn3lMsLe7+/EZYWe3++Y66tyv0O1NzOnd5Xlrn20v5Msj9m+D+Z6tKIcm0dmqC/k2E20HrICmfZ0dsb5DMZMz4tvh8sJ/w+cWQAAAAAAAAAAAADANfwCBZxZTg==
+   eJzt10FOAjEUgOHXAia6NFGPoFdwaTwBGnSjC+MJ1BNwROUEBjyAggtd2aZtBmunMzBDBPJ/yUsz9JE0L0N5TwQAAAAAAAAAAAAAAADAuug1fEa5QfR8VbF/vcKzbIt+C4G/bk2capFns75EMTJxqF0c+ZyedrGjixzr5j8Ov8a+O261NftM7M+kqF2dnK9Ou+fbZLrr1tdMzljq56hu8zNtiz1fi3cTb4n9iYmp1M/ZpbZJtnYfUUyXyEF94T9uVJWIhYV7dpzNQhnbn8a/9RDhjp1kcuhv02x/e6DL9+u8t/ua/rZKX4lc+LhU7rO4tsNEDvIGpk53Jk58vc7V73khzAhnfv/YrPfKfQ/VHkydHlXRG8Rz2EyKnsHmPVHXheVmMIueYXlhRojnsNArMC80Nz/nzs+2aAezw+qE+4F3FgAAAAAAAAAAANh8P46lZJU=
   </data>
  </layer>
  <layer name="Fringe" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1U1Kw0AYBuBpwYIUF+7dKrT1Bu4E9TxacS8eo9pDufR3LwWv4FeINIxJawshVp4HXjLzTRbDSyApAQAAAAAAAAAAf8G4m9JZNjvP9vn5RYP3gXXNv+Eq16X5Xiel25r3+GknuuqV+trNuuvH/jEtMneiX1o2+WXuIw+RaTvX3EpPkefIS+Q18las62bv7VxzK30Uz1lpNlsy+2z8Rv/DIP5Jh5GjyHG2HlbMvtejyI3/WaW7opf+hv3s63UtB53l58MV51Qb6K0xp9HtVWRc0/FlcQ4AAAAAAAAAAMBqX3TDJJc=
+   eJzt1k1Kw0AYBuBpwYIUF+7dVmjrDdwJ6nlsxb14DLWHcunvXgpewa8QaRiTaoRYK88DL5n5JovhJYukBAAAAAAAAAAA/AXTbkrH2ewk2+fnpy3eB5pafMNVzkvznU5KlzXv8dlWdNUr9bWdddeP/V1aZuFQvwCNXX8zN5HbyGw919xI95GHyGPkKfJcrOtmL+u55kZ6LZ7z0my+YvbW+o3+h2H8Sw0i+5GDbD2qmH2sx5EL/2GVrope+j/sZ1evjex1Vp+Pvjin2lBvrTmKbieRaU3HZ8U5AAAAAAAAAAD8tnf2dySX
   </data>
  </layer>
  <layer name="Over" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1sFOwkAUBdBxDYYPAA0bF7gpQV1r0C8QPoT/X/kaSmCDDekMheac5O46k5ebl7YpAQAAAAAAAAAA927x0PcEQA6Pme97znzfPZtGlpnuqiKzTHcNxTzymiGTK89960aRr0jXz3x9/jMy7jrQgHjflqPbcnRbjm7L8Q9WVo5+9Xpe3e9Lurzjqjmn1/99pH3HT6m946p5btaco92uybk9Pt3T3XVHG5TDHq8ib5H3dNxTveaxjnxHfvoeZIB+I5vItu9BAAAAAAAAAG7YH1nUDgs=
+   eJzt1jtOw1AQBdCH4g4QCyAgGgpojPjUIGAFwEKyApbAFmCfUDARRqQJEco4Th7nSLfzG42upnApAAAAAAAAAADApjvZGnoDgPX2HPkY5cx6jzkvOaOqMO22aXJmjRrdznqNnCXNaiNvSbNqcRQ5Tcjeivded9uRm8iyv6fT99eRnWUXqshu8rzD5HmbTLf90W1/dNuf/ZL7DzZOmlWLjH71Ot+03+Py947b7p1ef3dVvjo+KIs7brvvxt07Fpt0mXfHs3c6We1qVfm+4/PIReSy/NypXnPcRu4i90MvUqGHyGPkaehFAAAAAAAA+Dc+AabOEww=
   </data>
  </layer>
  <layer name="Collision" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt0kEKgDAMAMGC//+W0F958qZVbGtSmMCA4KVZsm+l7AAAAAAAAAAAADDAOdHvWNnIid4lkxkTvVMmuubvG71DZrr+0/fqu/Wf56a9E71HNq02b/ppq210296J3iUjXeeqHxvXBG9fhVud7+6O3ek47nR+3+g3AAAAAAAAAGR2ADMI97A=
+   eJzt0ksKgDAMQMGC979WwVu5cucP25oUJzAguGkeqUspFQAAAAAAAAAAADrYJ/odM+s50btko23+rvqO7Ru9Szba5u8bvUNmun7T9+j76j/3TVsneo9srto86aetttFtWyd6l4x0HWt92XhN8PZZuNXxzu7YnfbjTsf3jX4DAAAAAAAA/7EBQOLZ2g==
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
-  <object name="To Artis" type="warp" x="1152" y="1408" width="32" height="32">
+ <objectgroup name="Object" visible="0" opacity="0.87">
+  <object name="To Artis" type="warp" x="1152" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
