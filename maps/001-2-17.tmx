@@ -33,45 +33,49 @@
  </tileset>
  <tileset firstgid="733" name="Candle" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/candle.png" width="96" height="128"/>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
  </tileset>
  <tileset firstgid="745" name="Carpet" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="754" name="Ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="1010" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="754" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="1074" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="818" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="1080" name="Level Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="824" name="Level Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0bENgDAUQ8GswAjsQ/bfgDmAgiIt+UIW3EnuLb3WAAAAAAAAAAAAAAAAAAAAAEZL4ZjTz62F2969/zlXj71wesypbHGP5/TIokcWPbLokUWPLHpk0SOPFgAAAAAAAAAAAAAAAAAAAAAAAP9yAE8qvf0=
+   eJzt1jsKAjEUhtHr7EB34H50+y5B8K3N1CYwhYJCLCYRcg78fbhfkwgAAAAAAAAAAAAAAAAAAACAd8uCUcc2bV2wTasHdib32BdMjzpKWuSNabtGb+xJvvVhiDhOOw3fm+gxv3znc2pwSVstIq56NPVLD+b32iNPj7bynW+pwX3a40OPMfSopfR/pUcdevwfLQAAAAAAAAAAAAAAAAAAAAAAAPryBBy4Y88=
   </data>
  </layer>
  <layer name="Ground2" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJztzLEJADAMBDGvmD7ef42sYMg3BgmuvSoAAAAAAAAAAAAAAAAAAAAAYOoE40+Hfzf8AwAAAAAAAAAAAAAAAAAAAAAAAAAAYK8HFYUGvQ==
+   eJzt0zEOgkAURdGZAe0sjIkaO6GzcykuwJXrYvwFFhYi1QT1nOSFAFOQ3JASAAAAAAAAAAAAAAAAAAAAADDVZcKo4xrblpR2sX15fbeI++XwrI3roan+eX8r55RKrMnvz3R6VLOODqvYZqTHSY9qzkOHsR7Uc4wOXazX4yu05fMZ6rhFi7ses/Bsocc8+DcAAAAAAAAAAAAAAAAAAAAAAAB+zwOAPQsH
   </data>
  </layer>
  <layer name="Fringe" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+   eJzt1TsKgDAQBNBNWsHaG/g5iZ7Di3sUA1raJ5L3uumGgWUjAAAAAAAAAAAAAAAAAAAAAPijKUWMqXaLvq1l/z1HHPnJS8lnrtupZ4Pt4dPlNpqxvX979r8BAAAAAAAAAAAAAAAAAAAAAAAAAJp3A+0iArg=
   </data>
  </layer>
  <layer name="Over" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt1zkKwlAUQNHfO2zAaGetONSKugJ1Ie6/8gUjBIlgJOJHz4ELIcMr8qqfEgAAAAAAAAAAAAAAAAAAAHzPJepFww7rV3Npr9zFtuOZm3TbCe0NPjR38qG5v84+8mIfebGPvNhHXuwjL/aRl1E073jmLCo6nvkvynN0uZNx1bR2/dgiWkarhmf174rkfP6uy0Prhnv3dtE+Orz4He09+/dNHaNTdH7xfQAAAAAAAAAAAAAAAAAAAAAAAPJ1BcipGrc=
+   eJzt1zsKwkAUBdDB1s8GjHbW2ljrkrISN+XGnCERZBonxcMRzoELGXjFI5cQJiUAAAAAAAAAAAAAAAAAAAD4nTFnnbNryGaeJ07p4t44e0tTJ8TZLpw/hmzBmz76Uvp4rtrnH2GbUCz9PvQRSx998f/oiz76ss+5NM6ec4bAXZju26WTw5zTx3N9HpL7ebSxyvXLWR+x6nfdEgAAAAAAAAAAAAAAAAAAAAAAAP7fCwy5Evo=
   </data>
  </layer>
  <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+   eJzt0TEKwDAMBEFDnqT//82kT2FXUrgRTH9o61mrAAAAAAAAAAAAAAAAAAAAAIBr73VvSHdy3RtTfP1bl3/06N6aQI9Z9Jjl5Lo3JtFjFj3m0QMAAAAAAAAAAAAAAAAAAAAAACDLBnA7LWU=
   </data>
  </layer>
  <objectgroup name="Objects"/>
