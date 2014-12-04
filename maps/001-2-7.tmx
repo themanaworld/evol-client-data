@@ -35,7 +35,7 @@
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <tileset firstgid="971" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="977" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="983" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
  <layer name="Ground" width="87" height="66">
@@ -45,7 +45,7 @@
  </layer>
  <layer name="Ground 2" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt10FOAjEUgOHXAia6NFGPoFdwaTwBGnSjC+MJ1BNwROUEBjyAggtd2aZtBmunMzBDBPJ/yUsz9JE0L0N5TwQAAAAAAAAAAAAAAADAuug1fEa5QfR8VbF/vcKzbIt+C4G/bk2capFns75EMTJxqF0c+ZyedrGjixzr5j8Ov8a+O261NftM7M+kqF2dnK9Ou+fbZLrr1tdMzljq56hu8zNtiz1fi3cTb4n9iYmp1M/ZpbZJtnYfUUyXyEF94T9uVJWIhYV7dpzNQhnbn8a/9RDhjp1kcuhv02x/e6DL9+u8t/ua/rZKX4lc+LhU7rO4tsNEDvIGpk53Jk58vc7V73khzAhnfv/YrPfKfQ/VHkydHlXRG8Rz2EyKnsHmPVHXheVmMIueYXlhRojnsNArMC80Nz/nzs+2aAezw+qE+4F3FgAAAAAAAAAAANh8P46lZJU=
+   eJzt11FOAjEQgOFpBfVNY6IeQa/go/EEaNAXfTCeQDyBR1ROYMADKPisbdpmse52C7tEIP+XTJqlQ9JMljIjAgAAAAAAAAAAAAAAAGBVdBs+o1o/er6u2b9Z4lk2Ra+FwF93Js60yItZX6MYmjjSLo59Tle72NZFjnX7H4dfZR232Jp9lWxPpahdTs73VrvHW2e7vrZviZyR5OfsdJqfaVPs+1p8mHgv2R+bmEh+zh61LWVr9xnFZIEc5Av/ccO6RMwt3LOjZBaq2P40/q2HCHfsOJFDf1vO9reHuno/57090PS3dXpK5NLHlXKfxbV9LslBWt/U6d7Eqa/Xhfo9L4QZ4dzvn5j1Qbnvod6jqdNAFb1BPIdNpegZbN4TdZ1bagaz6BkWF2aEeA4LvQLzQnOzc+7sbIt2MDssT7gfeGcBAAAAAAAAAACA9fcD0UZjug==
   </data>
  </layer>
  <layer name="Fringe" width="87" height="66">
@@ -55,7 +55,7 @@
  </layer>
  <layer name="Over" width="87" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1jtOw1AQBdCH4g4QCyAgGgpojPjUIGAFwEKyApbAFmCfUDARRqQJEco4Th7nSLfzG42upnApAAAAAAAAAADApjvZGnoDgPX2HPkY5cx6jzkvOaOqMO22aXJmjRrdznqNnCXNaiNvSbNqcRQ5Tcjeivded9uRm8iyv6fT99eRnWUXqshu8rzD5HmbTLf90W1/dNuf/ZL7DzZOmlWLjH71Ot+03+Py947b7p1ef3dVvjo+KIs7brvvxt07Fpt0mXfHs3c6We1qVfm+4/PIReSy/NypXnPcRu4i90MvUqGHyGPkaehFAAAAAAAA+Dc+AabOEww=
+   eJzt1rtNA1EQBdBnRMJPFIBBJASQLOITg4AKwIW4AkqgBSiVWbEICIyFPOu1H+dIN9s3Gl1NsKUAAAAAAAAAAADr7nQ09AYAq+05srGZM2sUc15yRlWh7XY7qdst3f7wGjlPmtVE3pJm1eI4cpaQ/SXvvep2IreRRX9P2/c3kd1FF6rIXvK8o+R560y3/dFtf3Tbn4OS+w82TppVi4x+9Tpb2+9J+XvHTfdOr7+7Lh8dH5b5HTfdd+PuHfNNu8y64+93Ol3ualX5vOOLyGXkqnzdqV5z3EXuIw9DL1Khx8hTZDL0IgAAAAAAAPwb77rYESY=
   </data>
  </layer>
  <layer name="Collision" width="87" height="66">
@@ -63,7 +63,7 @@
    eJzt0ksKgDAMQMGC979WwVu5cucP25oUJzAguGkeqUspFQAAAAAAAAAAADrYJ/odM+s50btko23+rvqO7Ru9Szba5u8bvUNmun7T9+j76j/3TVsneo9srto86aetttFtWyd6l4x0HWt92XhN8PZZuNXxzu7YnfbjTsf3jX4DAAAAAAAA/7EBQOLZ2g==
   </data>
  </layer>
- <objectgroup name="Object" visible="0" opacity="0.87">
+ <objectgroup name="Object" opacity="0.87">
   <object name="To Artis" type="warp" x="1152" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -71,14 +71,14 @@
     <property name="dest_y" value="1"/>
    </properties>
   </object>
-  <object name="To Main Hall" type="warp" x="1472" y="960" width="32" height="32">
+  <object name="To Main Hall" type="warp" x="1472" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
     <property name="dest_y" value="1"/>
    </properties>
   </object>
-  <object name="To Main Hall" type="warp" x="832" y="960" width="32" height="32">
+  <object name="To Main Hall" type="warp" x="832" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
