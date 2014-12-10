@@ -29,4 +29,32 @@
    <property name="animation-frame4" value="5"/>
   </properties>
  </tile>
+ <tile id="6">
+  <properties>
+   <property name="animation-delay0" value="13"/>
+   <property name="animation-delay1" value="12"/>
+   <property name="animation-delay2" value="13"/>
+   <property name="animation-delay3" value="12"/>
+   <property name="animation-delay4" value="11"/>
+   <property name="animation-frame0" value="0"/>
+   <property name="animation-frame1" value="1"/>
+   <property name="animation-frame2" value="2"/>
+   <property name="animation-frame3" value="1"/>
+   <property name="animation-frame4" value="2"/>
+  </properties>
+ </tile>
+ <tile id="9">
+  <properties>
+   <property name="animation-delay0" value="13"/>
+   <property name="animation-delay1" value="12"/>
+   <property name="animation-delay2" value="13"/>
+   <property name="animation-delay3" value="12"/>
+   <property name="animation-delay4" value="11"/>
+   <property name="animation-frame0" value="3"/>
+   <property name="animation-frame1" value="4"/>
+   <property name="animation-frame2" value="5"/>
+   <property name="animation-frame3" value="4"/>
+   <property name="animation-frame4" value="5"/>
+  </properties>
+ </tile>
 </tileset>
