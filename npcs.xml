@@ -165,6 +165,15 @@ IDs 990-999 = Special
         <sprite>accessories/eye-down-blink.xml</sprite>
     </npc>
 
+    <npc id="800">
+        <!-- Test npc. -->
+        <sprite>npcs/xml/artisindoor.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+        <menu name="Poke" command="w2 NPC:'NAME' poke"/>
+    </npc>
+
     <!-- Special NPCs -->
 <!-- WIP     <npc id="900">
         Savepoint, 32x32.
