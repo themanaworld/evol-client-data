@@ -9,6 +9,11 @@ IDs 990-999 = Special
 -->
 
 <npcs>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+        <its:translateRule selector="//npc/menu/@name" translate="yes"/>
+        <its:translateRule selector="//*" translate="no"/>
+    </its:rules>
+
     <!-- Unanimated NPCs -->
     <npc id="100" targetCursor="small">
         <!-- Knives -->
@@ -188,7 +193,7 @@ IDs 990-999 = Special
         <particlefx>graphics/particles/savepoint-64x32.xml</particlefx>
     </npc> -->
 <!-- WIP     <npc id="903">
-        Savepoint, 64x64. 
+        Savepoint, 64x64.
         <particlefx>graphics/particles/savepoint-64x64.xml</particlefx>
     </npc> -->
     <npc id="904" targetSelection="false">
