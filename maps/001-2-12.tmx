@@ -37,6 +37,9 @@
  <tileset firstgid="1047" name="Height Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
+ <tileset firstgid="1063" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
  <layer name="Ground" width="70" height="66">
   <data encoding="base64" compression="zlib">
    eJzt1D0KwjAYxvGUbn6Bg6vQ0bEn0At4BsET9DSODh7KA3ToOUwxwde3qSAYUuJ/+GETaMn78MTGGNMAAAAAAAAAwB+ZW6svLSZw7lhZ3J2TVSmXcrjXu5bP9/eZZrO0bs7OKqzaWrvfjVrXYt9/YzuBOX7dlYPIZWZe3fEq8dwJfp1jLn1XjiKX1vFz987F+zqUT+o5UuTSmfFcZGdyI+fTeejnUD459qUxw3sxNnsoo5xzCd0Z3Q+djd5LPUPsXMb6EOqRlHqGGEL3yGfQCp+ySz1D7M7o/4tQLro7qc+egswl9VkAAAAAAAAAAAAAAAAAAEMPu68TnA==
@@ -49,7 +52,7 @@
  </layer>
  <layer name="Fringe" width="70" height="66">
   <data encoding="base64" compression="zlib">
-   eJzt1MFKAlEABdDJtXsliNy29R/EXRDZ1p+y/AGrH9DcB+mmn/KKI4xB4sYx7Ry4zJsZHry5w3tFAQAAAADAfzf65Xkvub7ajJ+Tl2Sc9GtZ1elN9rxrlb28Jm/Jew3r+St+9vKULh7KPh5z/W4UxSzjj2SefOZ+0ah3jaew7uU+6Va+tZk+bpK7sp+vZJEsK/OWF97Nthd2TZPhhf/7YxlkP90mncreAjhEK+du29kLAAAAAAAAAADAmVsBy+QTQQ==
+   eJzt1E1Kw0AABeCxdOm+IojdaV16h9KdINptL2X1Av5cQOu+YLvxUj4xQmhRujHV+H3wyGRCYPLCTCkAAAAAAPx3V1/MD5P9nY/xNLlObpJRI6vavttvnvWqXu6S++ShgfX8Fqu9jNPFedXHRa6vnVKeMp4lz8k894tOs2vchvdezpLT2rfupo+DZFD185IskmXtvWXLu/nsZdVRt5TjZJCcdNfn2+4xmbT83/+Uy+ynw6Rf21sAm+jl3N1z9gIAAAAAAAAAAPDHvQHnYRRK
   </data>
  </layer>
  <layer name="Over" width="70" height="66">
