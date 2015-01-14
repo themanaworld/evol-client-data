@@ -46,7 +46,7 @@
  </tileset>
  <layer name="Ground" width="68" height="70">
   <data encoding="base64" compression="zlib">
-   eJzt1k0OgjAQhuESl/4sTNx6FT0A3IXzuPRM2gO44By2AZJSS9UEO0jfxZOW2MXMl4JTK6VqAAAAAAAAAAAA/I21oR27gM0M6kxlaxTGtVtdl1W7njLKJJbHoVtL4ziDWlNpujx0t3dXnWEe2sujCeyla0ydR68ZeZauMaXQO+I/S9eYOo93pGtMyf1W9G7GvmjX3O6H/37Y9e7I+X74+xy/H2Nzh/v+2Lk+NMsvcabX6vV/xb0jdl4/q+EMv9SZ3s7rlRq/I/18WqnhDL/kmd72+ogoPzyzlDxifX5Duo+ps7gF+D3HfpfuZeo87gF+HrEz0r3M4X64Z6R7+UUmuX8/pspEun4AAAAAAAAAAABgCk8WSmtz
+   eJzt1s/JAjEQh+GIR/+AglfhK8EKtIC1F+vxaE2aAjxYx5dgxDEMi8KaWTfv4SEEc8j8mKxzcM4dAAAAAAAAAAAA8DMmgRfmimkP7lnKLBgFp7Qu0hodx85twrqtKJM8jz+RxyqtTbDuwV1LuaU8bokXqycPlfUdS3r0g+wPn+2t71i6P7R3IvfWdyydh8/WPBfrO1r2R3QOlqP7Wtv3Q+uPi1BjHtobqfX/RXsveR5xrtdm+SHO9Fo/yFzivL5zzxn+Mb/K/VBm+jiv75U85Ltp0plY98a95jHEmT7Wem3RvHlmKHm01fkJ6zq6zuKsyGtu+926lq7zuCjyPNrOWNfSh/6QZ6xr+UYmtX8/usrE+v4AAAAAAAAAAABAF/4BJbRsvw==
   </data>
  </layer>
  <layer name="Ground 2" width="68" height="70">
@@ -64,12 +64,12 @@
    eJzt1jsKwkAUBdCJliIuwA82NjbauCJj7wrcilt1xDQjGFOoGSfnwCUMTMLjNnkhAAAAAAAA8G+OMXXMqe9BIHPTvgfITNc+Vl+dIh/6SOkj9aqPqgphFDOuHueh9/FMH6mh9DGP2b+5s4tZ/GCWXKxjti2ZtbxbNynFpO8ByJp9PfXJPkr4B10++C19pEro4xq67R9D2lHuO9kyZtM8l0/nRcc7JTnHHJrn+cW57Q4AAAAAAACU4AbhsRAk
   </data>
  </layer>
- <layer name="Collision" width="68" height="70">
+ <layer name="Collision" width="68" height="70" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1kEKg0AQRUHB+19P8DZZCR0xhKjwO2MN1EJ00fNoQpZ5mhYAAAAAAACAQa1FepYO9HhXT3qWLr6d9HwdeqyzHluH/bv0fOn90MPvhx7neqRn06OHev9PLZ7S646TvkOyxdFOjeDqLoz4H/aOk75Dtx4jNqm7X59/+QYAAAAAAAD+2Qvw7z0a
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.88">
+ <objectgroup name="Object" visible="0" opacity="0.88">
   <object name="To Main Hall" type="warp" x="768" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -78,7 +78,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="68" height="70">
+ <layer name="Heights" width="68" height="70" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw0EJAAAIBLAD++fUGD7tIBssAQAAAAAAAPhr6pJ0XQAAAAAAAAAAAADgrwVNkAWA
   </data>
