@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+ <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value=""/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="569" name="Indoor x4x2" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="577" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="705" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="729" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="733" name="Candle" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="757" name="Carpet" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="766" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="830" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="836" name="Level Number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <tileset firstgid="852" name="Indoor x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="868" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1124" name="Pavement" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt11sKwjAQBdAogt9KwU3p9rsE12FKFfJhfSSjhHIOXGgHCmWmadqUAAAAAAAAAAAAAAAAAAAAAAAAAAAA+rS5Z5sz5uyK2j7nUJwv1YhxSXNvpxzTPI+hqJ2K41e1879vfKWmeYwBMY8YZU+vlXlcT7vaGTwL7Zae9ZrQLuJ9ZX3EidjLrY845tEX8+jLp9+y72L/iPFtz+3nv+ffAwAAAAAAAAAAAAAAANbrBu1ftR0=
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzLEJACAQA8CfRVzIXvdfw+YLS8FvhDtIkRSJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4zMi17P7bbUGMV/cyiHwAAAAAAAAAAAAAAAAAAAADebRwJBW4=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Shadows" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJADAIAEEhrWXK7D9nWgcQtLib4OEjAAAAAAAAAAAAAAAAAAAAAAAAAAAA9sszXUB1/Vjl+QEAAAAAAAAAAAAAAAAAAAAArT44SABG
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0TkKAkEQBdABQ5cLuKSGigqGingC9SBz/8gaMJBOBrSRYnwPftBNUTT9mwYAAAAAAAAAAAAAAAAAAAAAAAAAAGgj48isQiY/fvsQdV2ci7vRh7tOjU6+Na28b1V537/RRy76yEUfuegjF33koo9c9JHLPLKttGsTWVTa9c+6TpZvWRfnXWQfOfTM6aKOtsixOF9ec9eeufanrx628l/fc4vcI4+eOX0AAAAAAAAAAAAAAABATk9kGxUU
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEKwDAMBEFDHqb//8qkT2FXUrgRTH9o61mrAAAAAAAAAAAAAAAAAAAAAIBr73VvSHdy3RtTfP1bl3/06N6aQI9Z9Jjl5Lo3JtFjFj3m0QMAAAAAAAAAAAAAAAAAAAAAACDLBg6J/ow=
+  </data>
+ </layer>
+ <objectgroup name="Objects"/>
+ <layer name="Heights" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+</map>
