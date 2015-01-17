@@ -17,43 +17,6 @@ Copyright (C) 2010-2014 Evol Online -->
 
     <action name="stand" imageset="mob">
         <animation direction="default">
-            <label name="start"/>
-            <goto label="static" rand="95"/>
-            <goto label="movinglong" rand="50"/>
-            <goto label="moving" rand="100"/>
-            <label name="moving"/>
-            <!-- Simple Move Animation -->
-            <frame index="1" delay="110"/>
-            <frame index="0" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="2" delay="120"/>
-            <frame index="1" delay="110"/>
-            <goto label="start"/>
-            <label name="static"/>
-            <!-- Static Animation -->
-            <frame index="1" delay="240"/>
-            <goto label="start"/>
-            <label name="movinglong"/>
-            <!-- Long Move Animation -->
-            <frame index="2" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="0" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="2" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="0" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="2" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="0" delay="120"/>
-            <frame index="1" delay="110"/>
-            <frame index="2" delay="120"/>
-            <goto label="start"/>
-        </animation>
-    </action>
-
-    <action name="attack" imageset="mob">
-        <animation direction="default">
             <!-- Falling Croconut -->
             <frame index="1" delay="100"/>
             <frame index="3" delay="80" offsetY="1"/>
@@ -79,9 +42,16 @@ Copyright (C) 2010-2014 Evol Online -->
         </animation>
     </action>
 
+    <action name="attack" imageset="mob">
+        <animation direction="default">
+            <!-- Dropped Croconut -->
+            <frame index="6" offsetY="59"/>
+        </animation>
+    </action>
+
     <action name="dead" imageset="mob">
         <animation>
-            <!-- Dropped Crocnut -->
+            <!-- Dropped Croconut -->
             <frame index="6" offsetY="59"/>
         </animation>
     </action>
