@@ -18,18 +18,24 @@ IDs 990-999 = Special
     <npc id="100" targetCursor="small">
         <!-- Knives -->
         <sprite variant="0">npcs/xml/interactive.xml</sprite>
+        <menu name="Take" command="talk 'NAME'"/>
     </npc>
     <npc id="101" nameOffsetX="-7" nameOffsetY="-1" targetOffsetX="-8" targetOffsetY="-1">
         <!-- Demon Man, sitting on a chair. -->
         <sprite variant="0">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="102" nameOffsetX="-3" targetCursor="small" targetOffsetX="-3" targetOffsetY="-6">
         <!-- Hat Box -->
         <sprite variant="1">npcs/xml/interactive.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="103" nameOffsetX="10" nameOffsetY="-10" targetOffsetX="10" targetOffsetY="-10">
         <!-- Raijin Man, hanged to the ship's ropes. -->
         <sprite variant="1">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="104" targetOffsetX="-1">
         <!-- Orc Man, standing with a box in his hands. -->
@@ -38,76 +44,104 @@ IDs 990-999 = Special
     <npc id="105" nameOffsetX="-1" nameOffsetY="-11" targetOffsetY="-7">
         <!-- Demon Man, sitting sailor with his boots near him. (Ship quest) -->
         <sprite variant="3">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="106">
         <!-- Elven Man, strong standing sailor with blonde hair. -->
         <sprite variant="4">npcs/xml/unanimated.xml|#474747,5a4333,6e6e6e,8c6946,898989,a98645,9d9d9d,ba9c50,b3b3b3,c9b467,e2e2e2,ede4ab</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="107">
         <!-- Elven Man, strong standing sailor with red hair. -->
         <sprite variant="4">npcs/xml/unanimated.xml|#474747,643a40,6e6e6e,812f2f,898989,ab4343,9d9d9d,cc5858,b3b3b3,e0897e,e2e2e2,fdc6b3</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="108">
         <!-- Elven Man, trader. -->
         <sprite variant="5">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="109" nameOffsetX="-3" targetCursor="small" targetOffsetX="-2">
         <!-- Shop Bag -->
         <sprite variant="2">npcs/xml/interactive.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="110" nameOffsetX="-2" targetOffsetX="-3">
         <!-- Elven Man, sailor standing. -->
         <sprite variant="6">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="111">
         <!-- Tritan Man, sailor trader with sandals and bandana. -->
         <sprite variant="7">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="112" nameOffsetX="-2" nameOffsetY="-4" targetOffsetX="-2" targetOffsetY="-7">
         <!-- Elven Man, sailor sitting. -->
         <sprite variant="8">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="113">
         <!-- Tritan Man, sailor trader with sandals and bandana. -->
         <sprite variant="7">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="114">
         <!-- Demon Man, sitting sailor with his boots near him. -->
         <sprite variant="3">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="115" nameOffsetX="-1" nameOffsetY="-11" targetOffsetY="-7">
         <!-- Demon Man, sitting under a tree. -->
         <sprite variant="9">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="116" nameOffsetY="-6" targetCursor="small" targetOffsetY="-2">
+        <menu name="Read" command="talk 'NAME'"/>
         <!-- Paper note in the ship. No sprite. -->
     </npc>
     <npc id="117">
         <!-- Elven Female, light armor shop keeper. -->
         <sprite variant="10">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
         <!-- Awesome Eyes, reminds you of someone. -->
         <sprite>npcs/xml/alige.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="402" nameOffsetY="-1">
         <!-- Orc Sailor, sleeping. -->
         <sprite>npcs/xml/sleepingorc.xml</sprite>
         <particlefx>graphics/particles/afk.xml</particlefx>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="403" nameOffsetX="2" targerOffsetX="1">
         <!-- Human Man, sailor with a dead ratto in his left hand. -->
         <sprite>npcs/xml/rattosailor.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="404" nameOffsetX="1" targetOffsetX="-1">
         <!-- Demon Woman, taking care of the ship. -->
         <sprite>npcs/xml/julia.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="405" nameOffsetX="4" nameOffsetY="21" targetOffsetX="3" targetOffsetY="20">
         <!-- Group of Sailors, standing still. -->
         <sprite>npcs/xml/sailors.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="406" nameOffsetX="11" targetOffsetX="11" targetOffsetY="-4">
         <!-- Captain, present to an Evol's friend. -->
@@ -116,58 +150,71 @@ IDs 990-999 = Special
     <npc id="407" targetOffsetX="-2">
         <!-- Tritan Man, sitting on a barrel. -->
         <sprite>npcs/xml/magicarpan.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="408" targetCursor="small" targetOffsetX="-2" targetOffsetY="-9">
         <!-- Piou Rocket, jumping on its wooden bar. -->
         <sprite>npcs/xml/piourocket.xml</sprite>
+        <menu name="Touch" command="talk 'NAME'"/>
     </npc>
     <npc id="409" nameOffsetX="-4" targetOffsetX="-5">
         <!-- Human Man, standing sailor. -->
         <sprite>npcs/xml/elmo.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="410" nameOffsetY="-9" targetOffsetY="-9">
         <!-- Ukar Man, sleeping sailor. -->
         <sprite variant="0">npcs/xml/hammock.xml</sprite>
         <particlefx>graphics/particles/afk.xml</particlefx>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="411" nameOffsetX="5" targetOffsetX="5">
         <!-- Elf Man, drunk sailor. -->
         <sprite>npcs/xml/billybons.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="412">
         <!-- Human Man, small and drunk. -->
         <sprite>npcs/xml/silvio.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="413">
         <!-- Human Man, sitting on a box with purple hair. -->
         <sprite>npcs/xml/gugli.xml</sprite>
         <sprite>accessories/eye-left-blink.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="414" nameOffsetX="-10" targetOffsetX="-10">
         <!-- Tritan Man, with his left arm on a barrel. -->
         <sprite>npcs/xml/sapartan.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="415" nameOffsetY="3" targetOffsetX="1" targetOffsetY="4">
         <!-- Tritan-Man, hitting a palm tree. -->
         <sprite>npcs/xml/tarlan.xml</sprite>
         <sprite>accessories/croconut.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="416" targetCursor="small" targetOffsetX="4" targetOffsetY="2">
         <!-- Chest, an opening container. -->
         <sprite>npcs/xml/chest.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
     </npc>
     <npc id="417" targetOffsetX="16" nameOffsetX="16">
         <!-- Big Chest, an opening container. -->
         <sprite>npcs/xml/chest-big.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
     </npc>
     <npc id="418">
         <!-- Human Male, cook of the ship. -->
         <sprite>npcs/xml/chefgado.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="419" nameOffsetX="1">
         <!-- Human Woman, fat chef with cookie pot. -->
         <sprite>npcs/xml/cookiemaster.xml</sprite>
         <sprite>accessories/eye-down-blink.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
     <npc id="800">
@@ -187,6 +234,7 @@ IDs 990-999 = Special
     <npc id="901">
         <!-- Savepoint, 32x64. -->
         <particlefx>graphics/particles/savepoint-32x64.xml</particlefx>
+        <menu name="Save" command="talk 'NAME'"/>
     </npc>
 <!-- WIP     <npc id="902">
         Savepoint, 64x32.
@@ -199,24 +247,30 @@ IDs 990-999 = Special
     <npc id="904" targetSelection="false">
         <!-- Left Hammock -->
         <sprite>npcs/xml/hammock-animated1.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="905" targetSelection="false">
         <!-- Right Hammock -->
         <sprite>npcs/xml/hammock-animated2.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="906">
         <!-- Artis door, outside map. -->
         <sprite>npcs/xml/artisdoor.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
     </npc>
     <npc id="907">
         <!-- Artis door, indoor map. -->
         <sprite>npcs/xml/artisindoor.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
     </npc>
     <npc id="908">
         <!-- Artis door, indoor map with wood floor. -->
         <sprite>npcs/xml/artisindoor-wood.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
     </npc>
     <npc id="999">
         <!-- No sprite. -->
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 </npcs>
