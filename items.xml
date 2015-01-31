@@ -357,13 +357,11 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Urchin Meat"
         description="Seafood? Sure, why not? Let's call it seafood."
         useButton="Eat"
-        hp="1"
-        effect="Headache"
+        effect="Heal 28-35 HP"
         type="usable"
         weight="1"
-        maxFloorOffsetX="12"
-        maxFloorOffsetY="10"/>
-
+        maxFloorOffsetX="10"
+        maxFloorOffsetY="9"/>
     <!-- Generic Items -->
     <item id="700"
         image="generic/smalltentacles.png"
