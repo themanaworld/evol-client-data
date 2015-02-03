@@ -146,6 +146,7 @@ IDs 990-999 = Special
     <npc id="406" nameOffsetX="11" targetOffsetX="11" targetOffsetY="-4">
         <!-- Captain, present to an Evol's friend. -->
         <sprite>npcs/xml/nard.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="407" targetOffsetX="-2">
         <!-- Tritan Man, sitting on a barrel. -->

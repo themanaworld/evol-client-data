@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/harbour.png"
+              width="192"
+              height="128"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Static Top -->
+        <animation direction="down">
+        </animation>
+        <!-- Moving Down, 560 seconds -->
+        <animation direction="left">
+            <sequence start="0" end="8" delay="80"/>
+        </animation>
+        <!-- Moving Bottom, 560 seconds  -->
+        <animation direction="up">
+            <sequence start="8" end="0" delay="80"/>
+        </animation>
+        <!-- Static Bottom-->
+        <animation direction="right">
+            <frame index="8"/>
+        </animation>
+    </action>
+</sprite>
