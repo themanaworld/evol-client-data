@@ -3,7 +3,7 @@
 Copyright (C) 2015 Evol Online -->
 <sprite>
     <imageset name="npc"
-              src="graphics/sprites/npcs/sprite/harbour.png"
+              src="graphics/sprites/accessories/harbour-rope.png"
               width="192"
               height="128"/>
 
@@ -12,17 +12,17 @@ Copyright (C) 2015 Evol Online -->
         <animation direction="down">
             <frame index="0"/>
         </animation>
-        <!-- Moving Down, 560 ms -->
+        <!-- Moving Down, common divisor of 560 and delay in ms -->
         <animation direction="left">
-            <sequence start="0" end="8" delay="40"/>
+            <sequence start="0" end="2" delay="80"/>
         </animation>
-        <!-- Moving Bottom, 560 ms  -->
+        <!-- Moving Bottom, common divisor of 560 and delay in ms -->
         <animation direction="up">
-            <sequence start="8" end="0" delay="40"/>
+            <sequence start="2" end="0" delay="80"/>
         </animation>
         <!-- Static Bottom-->
         <animation direction="right">
-            <frame index="8"/>
+            <frame index="2"/>
         </animation>
     </action>
 </sprite>

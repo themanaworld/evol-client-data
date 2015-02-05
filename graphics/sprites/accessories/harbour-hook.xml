@@ -3,26 +3,29 @@
 Copyright (C) 2015 Evol Online -->
 <sprite>
     <imageset name="npc"
-              src="graphics/sprites/npcs/sprite/harbour.png"
-              width="192"
-              height="128"/>
+              src="graphics/sprites/accessories/harbour-hook.png"
+              width="5"
+              height="40"
+              offsetY="-51"
+              offsetX="92"/>
+
 
     <action name="stand" imageset="npc">
         <!-- Static Top -->
         <animation direction="down">
             <frame index="0"/>
         </animation>
-        <!-- Moving Down, 560 ms -->
+        <!-- Moving Down, x=3, with x*560 delay in ms -->
         <animation direction="left">
-            <sequence start="0" end="8" delay="40"/>
+            <sequence start="0" end="11" delay="140"/>
         </animation>
-        <!-- Moving Bottom, 560 ms  -->
+        <!-- Moving Bottom, x=3, with x*560 delay in ms -->
         <animation direction="up">
-            <sequence start="8" end="0" delay="40"/>
+            <sequence start="11" end="0" delay="140"/>
         </animation>
         <!-- Static Bottom-->
         <animation direction="right">
-            <frame index="8"/>
+            <frame index="11"/>
         </animation>
     </action>
 </sprite>
