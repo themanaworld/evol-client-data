@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -50,40 +50,40 @@
  <tileset firstgid="961" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <layer name="Ground" width="100" height="100">
+ <layer name="Ground" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1zFuwjAUBuCgjqWVGFiReoT2Am13uAun9QEYOEJnXlQiPaVG6hISrG/45DhenvzHz8qx67ojAAAAAAAAAAAAAAAAAAAAPIDn8PoP6wXU2ro+i6+wCpvw8fT73HtP837tUyaTewmH8H3NYHvNYZXm/fgW9mG3gJpbNuRRwnmkJGd53EXe/59KJvl9WUC9rRu+/XwOTiN5fe56WzfOo1TyyJnMXW/rhn3OY+2MDGtz19u6Whal+3uX61f3ke/sWu/KGTkf06udj1s9TB7Tq/1v3MpEv5qXHAAAAAAAAAAAAAAAAAAAAAAAAB7PBf/UOWk=
+   eJzt1T0OwjAMhuFWjPxIDKxIHAEuAOxwl542B2DoEZhxRCNZwZU6GCWK3uFRmmbxV1vp0HXdAAAAAAAAAAAAfqzFboFNBbV65b2JXuzFZfV9js5qH8+ujeTeiqe4TzkPU9Ze7eN6Eg9xrKBmr8xBjJmgjA1l1hnfRm79PlRQr4fUQ93PV0afl673H5mDkVnnLl2vh5RFr1av01nper37bN1d+RyUrterz+mesuZcf4eW+zw3761ktv7Hc7lbme2lM1C6FgAAAAAAAAAAavcBnOV9tA==
   </data>
  </layer>
- <layer name="Ground2" width="100" height="100">
+ <layer name="Ground2" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt0sFNAlEQBuBZiD1YBh1gCyt6gyLQrjwaT4YmgAqMoQDAApyVmDUbIxjDw4TvS/7DzLtM8r8IAAAAAAAAAAAAAAAAAAAAgL+52DNT1u2emTLqA8LxPfQjJl/meWbRyTJz2YsYn+C+c/OYfTz12/klU1cR15lRtdu9xa4Tju85u5h1+phmD3eZ+6rdvxa/jMY6s/pm3/Qx6BU+hg9NJ5tOtie96LwM899f+fv/xiF9jPL9RmdFNH381MlnF/oAAAAAAAAAAAAAAAAAAAAAAACA33kHq80frQ==
+   eJzt0c0JwkAQhuHZBHuwDDvQFmL0pkWoXXkUT2ITagUiFuBPAc4SJLIGE1A3MLwPfIeZXObLigAAAAAAAAAAALzr1MwWjWtmS7IGsWKZikxf5p1mH+Sg6SYikxbu+4eVdl6n5XzUZE5kqMldsbtL0duKjfbdBp1n2nWuWbhyf4p+WTwXzbli7zv3ksjHROR7X4PcWr3o9/r6fgPDb1ilSedcv48M/Rff+VPvZ19LnQEAAAAAAAAAwPceWIYfrQ==
   </data>
  </layer>
- <layer name="Fringe" width="100" height="100">
+ <layer name="Fringe" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1TsKAjEQBuDZBAULa4/g4x5rY+cDvIyPA3lIB9Z+C4UI+33wMxNIEWaKRAAAAAAAAAAAAAAAAAAAAAB8px85wxT1JWJfhn7XRSwztbR901S9asQpZ3/+zH+WdZ655E4WWVeZdfYH+2li0w31mvO/5a7umUfmWdu+C4D/s+3G7xz95wAAAAAAAAAAAAAAAAAAAAAAAAD8yBsL/Aa3
+   eJzt1DkKAkEQBdCabhQMjD2Cyz3GxMwFvIzLgTykBWMmMiYyOLwHRVVBB/076AgAAAAAAIB3bc/Of2tLxLZ086aJmGfVMuydfulRIw6Z7/jKOMk+zTpl7ln2RdYy591I3+CS+VeZ75b9XLr9Wrv9Xoe+HfCNddN/Zj/SPwwAAAAAAIDPnvzqB7k=
   </data>
  </layer>
- <layer name="Over" width="100" height="100">
+ <layer name="Over" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt0c0JwkAQgNFtwAqM3jwb/GlAU4FaSCpI7Q64wuIpOSxZ5D34YBPmMDApAQAAAAAAAAAAAAAAAAAAAAD8p2nh/L7KFny5R1vcoy2bhfPuUZd7tGUb9TNnj1FXcRdSGtPnJrvcoXifonN0yd9dnqee8adr8b5F92go/rGeR/SMXmsvAgAAAAAAAAAAAAAAAAAAAAAAwGxv5AQKng==
+   eJztzzsKwkAUBdCB1K7AaGet+NmAcQXqQrKC4NJ9kBRBRUyRSIZz4JKZySveTQkAAAAAAADy1QycX4+yxbQ+dW6K9vso3v/l2vmbHDovBs7rPE/LyO7H2W2kHHGXqdSp7b3qsumd95FD5Njdy25+7uqXnHrnc6SKXHpvubtGbpH7vxcBAAAAAIAZeAL8+Aui
   </data>
  </layer>
- <layer name="Collision" width="100" height="100">
+ <layer name="Collision" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1jEKgDAQBMCA//9UwH+JnQQJsdA7uVmY4kizsE361loHAAAAAAAAAAAAAAAAAAAAAF5xZnbz7QbX7MMd3bOCu8zeo/tWsLpHdM8qVhPds4onie5aiR1ysUc+4x/XHrnYAgAAAAAAAAAAAAAAAAAAAAAA4F8ODITeQA==
+   eJzt1UEKgCAQBVCh+19K6F7RTqSMQBvMN/AWMpv/mYV5SykDAAAAAACwpHNa778oe5WzV+/onD371tPaR+cd1ftuF51z9K2f7j+7NxOd9cvu0dl07qv+n1bofHX76AwAAAAAADCDA229/UA=
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="To Artis" type="warp" x="1536" y="1664" width="32" height="32">
+  <object name="To Artis" type="warp" x="1024" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object name="To Left Chamber" type="warp" x="1280" y="1440" width="32" height="32">
+  <object name="To Left Chamber" type="warp" x="768" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-17"/>
     <property name="dest_x" value=""/>
