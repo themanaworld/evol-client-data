@@ -47,10 +47,7 @@
  <tileset firstgid="897" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="961" name="Level Number" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
- </tileset>
- <tileset firstgid="977" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="961" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="100" height="100">
@@ -73,12 +70,12 @@
    eJzt0c0JwkAQgNFtwAqM3jwb/GlAU4FaSCpI7Q64wuIpOSxZ5D34YBPmMDApAQAAAAAAAAAAAAAAAAAAAAD8p2nh/L7KFny5R1vcoy2bhfPuUZd7tGUb9TNnj1FXcRdSGtPnJrvcoXifonN0yd9dnqee8adr8b5F92go/rGeR/SMXmsvAgAAAAAAAAAAAAAAAAAAAAAAwGxv5AQKng==
   </data>
  </layer>
- <layer name="Collision" width="100" height="100" visible="0">
+ <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0UEKgDAMBMCC//9cwf+INylS6kETySzMIeSysH1rrQMAAAAAAAAAAAAAAAAAAAAArzgzu/l2g2v24Y7uWcFdZv/ovhWs7hHds4rVRPes4kmiu1Zih1zskY89crMFAAAAAAAAAAAAAAAAAAAAAADAvxwj/Ep1
+   eJzt1jEKgDAQBMCA//9UwH+JnQQJsdA7uVmY4kizsE361loHAAAAAAAAAAAAAAAAAAAAAF5xZnbz7QbX7MMd3bOCu8zeo/tWsLpHdM8qVhPds4onie5aiR1ysUc+4x/XHrnYAgAAAAAAAAAAAAAAAAAAAAAA4F8ODITeQA==
   </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object name="To Artis" type="warp" x="1536" y="1664" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
