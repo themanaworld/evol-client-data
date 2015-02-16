@@ -62,6 +62,9 @@
  <tileset firstgid="1124" name="Pavement" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="1252" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt2u1Jw1AUgOFUsoDSBTqCe9SdHcI6gH9cwx6S0FBS8nGTeNDngUM1tlDu66UN3KoCAAAAAAAAAAAAAAAAAIDHnlcayr1d57TSnHd+739R9PheafQot1aLbiijRy565KJHLnps7zAw9/cKce3Ue01ce6qaNa3b3/UoF99fuwbdfcHh7rH/87m63YO8VM2aHnt/06JMrO3njLk+/z1ecxkY9xPl5rSI+RgZysztMbQv+kMZ+yMX+yMX+yMX+yOXsfV/JPbCpb6NvbGOpT3Yhh656JGLHrnokcvo/Ub9e+/tP9IjFz1y8fmRix656JGLHrnokcucHt05lNe6eYzzPvH9q26vU25qjzhT0p3Fih7xGOd9osexve58Sbk5Pcaeq0e5KWs854wWZZb0+BoYPdYx9f9ej33okcuSHj4/tqNHLlPXV4/9TF1bLQAAAAAAAAAA9vEDiWn9fQ==
@@ -79,7 +82,7 @@
  </layer>
  <layer name="Shadows" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2kEKgkAUgGFhjpFBUK2qVeWyZefsKHO0BipCIYKs5iHfBwMKLnT+jcprGgAAAAAAAAAAAAAAAAAAeG2Reuvy6ar9HFMwaDGqhybj6RGLHrHoEYsesdz3UY8gxu6/Hr/VpuexHvWtUv9cj7q26f01AEBcx9TkQ1m174ObXWlR3q/yRpMQ1qVD+f7ISz1CmJcO5fs8z/QAgNA6/wtDOekRylkPAIC/ar1/hTKc96Eu8z4AAN/zmL/am2cIwfxVLOavYjF/BQAAAAAAAADTcQV3fJHl
+   eJzt2k1qwlAUgNEHL7toBEE7sh1VHTp0nV1KFtOfbXjBikRaCqb2XeQcuGAgg5hvkoRbCgAAAAAAAAAAAAAAAAAA/GxeR/N67bT+H/fgosWkHppMp0cueuSiRy565PJ1H/VIYur91+O2+nr+rUd7yzo+1qOtp/r7OQBAXptahnVM6+vg6DlaxPPVsNIkhcfoEO8fw0KPFGbRId7Phwc9AKCZt66U95iPmM/u+3O2vhemstMjlb0eAAD/qvf8lcrlvg9t2fcBAPg7p/2rF/sMKdi/ysX+VS72rwAAAAAAAADgfhwAhYKViw==
   </data>
  </layer>
  <layer name="Over" width="100" height="100">
@@ -87,17 +90,17 @@
    eJzt291KAkEYBuCFDvu5gbSzCDop+qFDI7qC6jqiO6gr6JqbRZeWZdVxHOWLngdeWEmH8AXXwW+aBgAAAAAAAAAAAAAAAAAgho+Uw5STSjlarEmZtovHiuvNmnknlDnewZpnO1jzv9BHLPqIRR+x6COW05TriutdpUwqrvfXlewn3lM+Uy5H8pUy7eV8zeNJY//RV7KfmA1eczD4W7fHa3Pfux573IW5Xd0Pxt7zVWHO/TkWfcSij1j0EUtOH+0eYTrIsj2I/cR2cvoY+77U7gvbXm5SblPuGvuJGkr76PK0eM5z4/trDdv28ZLymvLW6KOG3D7YD33Eoo9Y9BGLPmLJ6eN75/8FHX3Eoo9Y3D9i0Ucs+ohFH7Fs0kfOXJDzA9vJ7WPVXNDYvA9lcvvY5Hddn2/lct7n4fzbOvooZ54hFn3Eoo9Ycud9NjljoI9y685zdPNUuec+zF9tpz9LddH8zrt11908Vf95/Zi/qqs/o/Ow5HpVzF/Vtek5DfNXAAAAAAAAAAD78QNlnkGc
   </data>
  </layer>
- <layer name="Collision" width="100" height="100" visible="0">
+ <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt2dFqwyAUgOHCHrCQ93+YkQuZSGyMjRxnPuFjY+RCz581pX3/vF5vAAAAAAAAAAAAAAAAAAAAuh2tluuj972yllVeH73nldy9os+zgtpct45e0WdZwae51mZd/l2PcS2u3Pdlu+jzrMZM56LHuLkevebsa39ObyfXR+9/JUfzL5+7adXeQ0WfYRVnM23tocv9PVqWHno8iR7zyefYOlstxvbYst+vzFeHMT3SXN3vc9Fjnvl7HsQ7W9H7e5p85nrEyz8n1CPe2f+HJrFttJivgR568Nej1iZ6b0+0r/Qeq/zsNnpvT5TPXo+56BEvvV71Pst1u7/HlfdXqV/+fYku9/b41OabdvT1yO/x2oxbV/R5/rt9HX1X27uiz7MSPeLlM9QjXstc9Yhv0tpNi/E9rlxX/gQAAAAAAAAA4Hu/qC0AaA==
   </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="To Artis" x="1383.33" y="1938.67" width="44" height="55.1667"/>
   <object id="3" name="To Artis" x="1628" y="2178.67" width="40" height="66.6667"/>
   <object id="4" name="To office" x="1625.67" y="2509.5" width="44" height="42.8333"/>
  </objectgroup>
- <layer name="Heights" width="100" height="100" visible="0">
+ <layer name="Heights" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt2EEOwiAQQNEmXlHvfxWXEiJQUmBm8V5CrHXHN2Ha6wIAAAAAAAAAAAAAAAAAAAAAAOC0z+u36u/lffarG5TX9XrrslXrv69HjNa+6xFDj1z0yKc8P8xU8VpzFTH0yEuPWL2zm/NG8xRn9WYrPc7TIxc9ctEjF+d5Lnrk4t1VLq13JXrE0CMvPeI9Pct1W2t2vjKL7TXzPGg23q93no9aabLeqMfsYh094q1ooMc6euRzZ3+1OOfu/v77vf4EAAAAAAAAAOC5LwMhbUw=
   </data>
