@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="10">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -69,12 +69,12 @@
  </layer>
  <layer name="Ground2" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2k1Kw0AUAOC0qDfQlS7U4s9ePIEIuhPc1d7CA9hT6lZc+bPyBE5gAlKatLbJdGq/Dx5TmgaGvEznTTJFAQAAAAAAAAAAAAAAAAAArJtRP+15THfXUrC8UYibcH+/h/houM9v47Hyt/u9ongO7Uv87jG2D532lHmdhvyc9Vbdi/+hXzMmeuH63rvGydXl4zDk4jje9+cxLweh/Qy//5o459V8nlw1v8yaZ+heNSYmx8a0sUK3JnMhJ3+3yJqh/HwU4jvEoLCeaMsotoNftdFJQ500LIqnYc0x64n2XIQcbMdoMk7TnY13NefaQT7yIh95kY+8yAcAwGzlmnzHu6Rs7IZc7NXk4y1tV4jqniHKR1rVM8RL+chC+V9VxrX5A6ZSX+Wlqb5iNZre0ZLOrPqqSbVNZKvVHm029dV6KfeM1O39sd+nG23VV/b7tEN9lR/1VR6Wqa9on/oKAAAAAAAAAACARf0ARX01rw==
+   eJzt2s1KwzAAB/BsqG+geNCDOvy4i08ggt6G3uYO4hOIPoA+pV7Fkx8nn8AUWpCxbnPLaqa/H4SMtYXQf9MmJCEAAAAAAAAAAAAAAAAAAACLpt9u9jqG6yYqzK4fy2l8vl9jeRvxnJ+Vx4pzN1ohPMb6qfzvrqwv59pSJrUX89lv/XYr/oZ2TZ9oxft74R43ri6PrZjFTvncH5S5bMb6PZ7/MXDNs+9546rvy7jvDPNX9YnBvjGsrzDceqJ3/2AWMvm5aeYMxe/tWD5j6QTziVT6Zd351j92R/SVXgj3vZpj5hPpHMYMlssyykMzzfn3jif8fsgjL/LIizzyIg8AgPG6cS54bi0pC8Wa3lUs1zV5vDTbHII8cnMTs7iVB7AAijWPFeOrbKzGLNbkkZVRa7Q0p1qjPZoij2qbyFLSFv1vxbuqKCf6x0Io9ozU7f2x32c+Uo2v7PdJw/gqP8ZXeZhlfEV6xlcAAAAAAAAAAABM6ws+ATge
   </data>
  </layer>
  <layer name="Fringe" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt101qAjEYBmDHn0Urohtv4KYeoIsewHv0CIIX8JS6Ed1qe4h+UksDlcEfZibS54GPhCGL8L0MSVotAAAAAAAAAAAAAAAAAADgkUyLpndAapTkUbR/axu1a/9dvznzjfsto68fUZ9X9HcVa9fJ+mHMR/LJxlNk8Xyqvlwq03GmZGVQksfCf9C49JxJ54cY9/KpzU/vy8Zr7wTc5pIs5HCZbvSpEzUpOQfe69vOv5Zm8FKSx7z6rXByvB/1ol7dW7MwLr5rJg8AgEq8eUdnRR4AAADQPO/zvMgjL/IAAAAAAAAAAAAAAID6fAHgPSQX
+   eJzt2UFKAzEUBuBMWxcq0m5cuRVEwa0LD+A59AiCF/CUdSPWZauH8JVOMaAEq8w00u+DR8KQRcg/QxImJQAAAAAAAAAAAAAAAAAA4D+5aLY9A3KTLI9m8FkvUbPB1/HP3zzj7x5jXd+i3jdY32mMfcrGj6M/kU819iOLg7YO5dKZoT2lKkeFPB58B1uX7zN5fxHtXD69Wa99qd30TMDv/CQLOZS9tuszinYYdVrYB+76mdLOWr+veQbnhTzuu58SreX5aC/qyrm1CsfNqm7kAQDQiWv36KrIA1I6cf+rymWTbkv/kujfmTwAADrnfl4XedRFHgAAAAAAAAAAAAAA0J8PtrontQ==
   </data>
  </layer>
  <layer name="Shadows" width="100" height="100">
@@ -92,7 +92,11 @@
    eJzt0TEKwDAMBEFDHqj//8akT2FXUrgRTH9o61mrAAAAAAAAAAAAAAAAAAAAAIBr73VvSHdy3RtTfP1bl3/06N6aQI9Z9Jjl5Lo3JtFjFj3m0QMAAAAAAAAAAAAAAAAAAAAAACDLBjbnatk=
   </data>
  </layer>
- <objectgroup name="Objects"/>
+ <objectgroup name="Objects">
+  <object id="1" name="To Artis" x="1383.33" y="1938.67" width="44" height="55.1667"/>
+  <object id="3" name="To Artis" x="1628" y="2178.67" width="40" height="66.6667"/>
+  <object id="4" name="To office" x="1625.67" y="2509.5" width="44" height="42.8333"/>
+ </objectgroup>
  <layer name="Heights" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
