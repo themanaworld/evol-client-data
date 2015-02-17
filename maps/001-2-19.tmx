@@ -65,6 +65,9 @@
  <tileset firstgid="1268" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
+ <tileset firstgid="1272" name="artis-accessory-x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="64"/>
+ </tileset>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt2l1Kw1AQgNFUsgGlG8hSfK97dhHqAoriNszQlIYSm5+bxgHPgSFNjCD5vKQPt6oAAAAAAAAAAAAAAAAAAAAAAGB9u4F5vJq41vR+J649tPPdTt2dU+6lujRoutn1jofePU3vPD4/Vace+97PKBPP9uPGHK7uaT+/xvn7wOhR7laLoXkbGcrM7TG0LvpDGesjF+sjF+sjF+sjl7Hn/5tYC1/1ZayNdSztwX3okYseueiRix65jPX4rP/ub/uP9MhFj1y8P3LRIxc9ctEjFz1ymdPjvA/luT4dY79PfP+qu+uUm9oj9pSc92JFjzjGfp/ose+u219Sbk6PsXv1KDflGU9p4X2zjiU9jgOjxzqm/t/rsQ09clnSw/vjfvTIZerz1WM7U5+tFgAAAAAAAAAA2/gBwzF4iQ==
@@ -72,17 +75,17 @@
  </layer>
  <layer name="Ground2" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2rFO20AcB+BLRGFjg3ZGiLVLVQlm1KlLBEzAgHgC1Bco79QXAZ4AER6gaRs6cqfYimViFJLYMcr3SX/5ktjRyb9YPl8uBAAAAAAAAAAAAAAAAAAAAAAAYBV86sx+7OYcx/JS75Uq7/O98Hon1iDWbmlfZndeaO9mv/PjbLsXt2elfU5D+Hla8V1ni+/eSvsSz/+HQk1y3WyXVtphlsFWZ1STyKNd5NEu8qjXr+5om+4X61OMW+XRjHS/2H7jc8SgUCzG5+64vVfK46AbWIJ8fPtVHkuXj21TfZMHvNCL18WROcFWSHNVF7EuK/J4aLY7BHm0yUO8Z1/FLH7IA3gnppm7ohnHM8xdUY98/qo8d5V4Pm9e1dxVUpXHRrbNP16ro2MrqmruKqnK42O9XWJK5bVA1vvUY5r/Botrfm5i3RbqLnvfep/FeMt/gymLf7H+ZO3fsf6GcSbM76QzeXyVlNfD3YfRuU859Att8yqLsd+tHl9Nks79YxjlkF8j/azN/F4bX1VJmRTXMsiifk/xuvkf684z4dLlWQxl0QpDWQAAAAAAAAAALNUzdmtDrg==
+   eJzt2kFu00AUBuBJBO2OHdB1FXXLBiHBGrFiEzWski6qngBxAbgTF4GcALUcgAIhS2YUW7GcuHIT20mV75OePG2dyPJfy+PnCQEAAAAAAAAAAAAAAAAAAAAAADgEJ73NP/tki8+yanhHlfd5X/j5NNZtrEFpXzZ3URgPsv/zUbY9i9tJaZ9xCJ/HFd81af7wDtrLeP4fF2qdL90e0kF7m2XwtLeodeSxX+TRjfmjevvJo11f+4ttul8c1Zi3yqMb6X7x7J7PEbeFohkv+svxWSmPN/3ADuTz21fy2Ll8bpvqnTxgxTBeF+d6gnsh9aouY11V5HHd7eEQ5LFPruM9+2PM4pM8gAeiTu+Kbow26F3Rjrx/Ve5dJZ7Pu1fVu0qq8jjOtvmfa746oYaq3lVSlcfzdg+Jmsprgaz3aUedd4PFNT/fYn0v1DT7vfU+zbjPu8GUxd9Yv7Pxr1h/wjITtveht35+lZTXw/0Ii3OfcrgpjPVVmvG6Xz2/Wied+59hkUN+jdxkY7Z31/yqSsqkuJZBFu37F6+beaypZ8Kdy7OYyWIvzGQBAAAAAAAAALBT/wG8/kSq
   </data>
  </layer>
  <layer name="Fringe" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2s0uA0EcAPDt4iQ9clAJJ+ri6IIjT8A7cPQRL+BRPIl4ApE4OWriKtUQHMymK/RDa6PdjPT3S/7ppLvdTOafmdmZTpIAAAAAAAAAAAAAAAAAAAAAAABQpof0qzwdylNp+3Ol0vn9Wdr7208nA67xe2+hHd/ztlyudF5bq/Tef/TDc57DM17k5M9eu9qwHnKwFaIaYqNPPijX3Lcc7MoHEKmFrvGpbrwq3Xre5nvaPgq33lGjMpP3i1X9I3pNfQeSmrEqKtv5/gjxMJ/HYUkegH8kWxMu9hm3zq0/SpfN49l/Htk8Yg8rHjX5iEa14B7vzviqMvFO0+L9Yn88VWGIVp/5PDv3cxDiMMRFfv04Px/E6FwNac/s7NV8iNkB9w06n0UxRfav7kNch7jJozGeKk20IvtXzaSdj8a3MqORrQU3C87nTyEe88jy0Rp9tSbaZRj374z9AAAAAAAAAAAAFPQBnoYkGg==
+   eJzt2r9KAzEcAODrWSfpqIMVdNK6OLqooz6BPoCbjv6hL+Cj+CTiE4jg5GjBVWqxqIM5eqCtPeWwLZF+H/xoaI4Q8iNJk16SAAAAAAAAAAAAAAAAAAAAAAAAMEmP6We5Gsozae9ztdL/fTPEYUEbZ2lBBaW8hXF8z8dypdJft175/vxJQTsvoY2unPzZ68AYNkIOtkPUQmwOyQeTNf8lB3vyAURqcWB9alivJm4jH/N9Yx+FO79RozKbz4s18yN6bXMHkrq1Kio7+f0I8bCfx2FZHoB/JDsTLg1Zty6cPyYu28ez/zyyfcQdVjzq8hGNWsk73t3xdWXqnafl58XBeLpC0K0W13WG7OfZez9HIY5DXOb1p/n7QYzO9S/jmb17tRBi7ofnmnIyMmXurx5C3IS4zaM1ni5NtTL3V+2kl4/WlzKjkZ0Ft0ru588hnvLI8tEZfbem2lVY9++t/QAAAAAAAAAAAJT0AVdJJXc=
   </data>
  </layer>
  <layer name="Shadows" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2jEKg1AQBNAFvY0KuUA6c0+P4qFibLNgLR/SrJj3YPqBga02AgAAAAAAAAAAAAAAAAAAAADg/zy6WFqp7sjBHtdjDwCA3726WOdMdQ+Alilv1ZgZ3CwAKPPuI7bMJ7P31W0AAAAAAADq+b+6lqct4JT/KwAAAAAAAAC4jy9pVRiD
+   eJzt2jEKwkAQBdCBzW2M4AXsYkpLz+dRPJSa1gHbxICFu8T34HdTDHyYaiIAAAAAAAAAAAAAAAAAAAAAAP7PocR1LbV35E0f7dEHAMD3TiVuQ6b2HgBr9nmr+szOzQKAau5dxCPzzEzd/MxYfrsTn5310ZSLPgAAAAAANsf/VVuOuoBF/q8AAAAAAAAAYDteiC8Zdg==
   </data>
  </layer>
  <layer name="Over" width="100" height="100">
@@ -92,10 +95,10 @@
  </layer>
  <layer name="Collision" width="100" height="100" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt2WuqwjAQgFHBhQrd/yKkSHAofaS1daI5A4er4o84n15FH/fb7QEAAAAAAAAAAAAAAAAAAAAAAA0ZJ/sM6PGNvU6n3D7cX9bun33+fzK3/3g9zjBzmx7nt1jaaW0PXc7vUTN66NETPdoT91i7Wy2u7TGEy3v2q8M1PcpePd/bokc7+/d+kG9rss/Xm7hzPfLF7wn1yLf1+tAkt40W7TXQQw/ePZbaZJ+tR+OUz1jT726zz9ajuHs92qJHvvL/6uh7uW7n99jz+ar0i7+X6HJuj7U2n7TjWI/4HF/ace1kP55fN87cb7VHJ/vx/BM98sUd6pGvZq965Dep7abF9T323G/6FwAAAAAAAACAzz0B4HR2EQ==
+   eJzt2t0KgkAQgNHABxX2/R8ivJA2Md3VtVn0DBz6oQudryiwcXi9RgAAAAAAAAAAAAAAAAAAAAAA6Mg00ceAHv/Ya81ulxN9/Hcz73SatHicT1p5To+2HbZ2WtpDl/Y9SkYPPZ5Ej/7keyzdrRbX9kiVPdZa0q7HvFfv977o0c/+fR/E25vo43uafOd6xEvZfT3i7X0+NIlto0V/DfTQg0+PX22ij+2pUnarR7x593r0RY9405z5j4Ju7XvU/r5Kw/f1kuhzuJOt31fLXR9px/EmWzsunehzuYO1a7VHJ/pc7kSPePkO9YhXulc9YpvUtNPi2h41r1veAgAAAAAAAABw3hu+t3sF
   </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup name="Objects" visible="0">
   <object id="1" name="To Artis" x="1383.33" y="1938.67" width="44" height="55.1667"/>
   <object id="3" name="To Artis" x="1628" y="2178.67" width="40" height="66.6667"/>
   <object id="4" name="To office" x="1625.67" y="2509.5" width="44" height="42.8333"/>
