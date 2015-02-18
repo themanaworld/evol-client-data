@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="75" height="66" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="75" height="67" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
-  <property name="name" value=""/>
+  <property name="name" value="Moon's House First Floor"/>
  </properties>
  <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
@@ -22,71 +22,60 @@
  <tileset firstgid="569" name="Indoor x2 x4" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Box x1 x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ <tileset firstgid="593" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="605" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="629" name="Box x1 x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="637" source="../graphics/tilesets/candle.tsx"/>
+ <tileset firstgid="649" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="733" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="777" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="737" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="781" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="993" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1037" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="999" name="Level Height" tilewidth="32" tileheight="32">
+ <tileset firstgid="1043" name="Level Height" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <layer name="Ground" width="75" height="66">
+ <layer name="Ground" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJzt1LENwjAURVFTExiBVUgbKeziqZkDN2lxJFv4Y53iVF+K/G6RnFLKAAAAAAAAAPzUtbg3WirfWQLs7OFWXBo9i7Vyn6FXj1Z78arcHwG29mj1bnS0+nafoVXu0OoMrc4bvVGr+VrtATZqNV+rLcDGf2nlf6WVVmN7jd4WoenotwAAAAAAAABATx98PdEh
+   eJzt10FOwkAUxvE2LkUT3bgz8QieAFka4S6cySMZ6IIli3ID2TKNffHLywxN22hb+C9+ocybaXhfZgqssyxbAwAAAAAAAAAAAAD+3W1wnzBrqHdZMxtBz11zegvyYBF83fxcm7nUd6H2ILWdm2vvdc1rZO58onndBSvp90n6qyylXtVe3Nw88n7p7qm1RV1/HkHvXbPaJ1jfpSjcq44XsqaIzLEsp5jV+kxO+0i/hePHysh1bN3QPf9FVtrnJnjMf21k3MSy1X31fSVZbeus9LWsx02Z4PfX0D33zUp71qzMJiK1r3R/WU3vNXTPXa0SOSxlzrlnulety+v7bh2rDd1zn6x8T9aXzyr1TFeaVSz/KWdl5017sjGb89nCe/AhmeqzzMaG7rlvVjE251g7yHWT2Pm85O9Bn5XnszvIWOp3wzXsq7Z7yj/fLuEMnssrta+acov9/5n6nmpDz9ghS5/B4wg+KwAAAAAAAAAAAAAAbZ0AAvf8tQ==
   </data>
  </layer>
- <layer name="Ground 2" width="75" height="66">
+ <layer name="Ground 2" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAADwYk6EAAE=
   </data>
  </layer>
- <layer name="Fringe" width="75" height="66">
+ <layer name="Fringe" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAADwYk6EAAE=
   </data>
  </layer>
- <layer name="Over" width="75" height="66">
+ <layer name="Over" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJzt1s0KgkAYBdAxV5H1AlnblrVrWY/k+69SKBjCn1GCmjgHLgjzOdol0RAAAAAAAAAAAKDfdsZsUYSwilIWy697XH7q18zpal1+7ro5drVvcxlYO7c5jKzPnYtn69Qb/CGbNveBtVubKkz/97q53cg+fbNV2u39lKkejgkzS+T4DOoqna7S6Srd1Huwe199uqvXvjnq+jo8c4qOu9/ThPE+h7y+DYb2zVnzzDU6jhP3mZL67fx433/X199YAAAAAAAAACA3D/ZRFOA=
   </data>
  </layer>
- <layer name="Collision" width="75" height="66">
+ <layer name="Collision" width="75" height="67" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAADwYk6EAAE=
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
-  <object name="To Artis" type="warp" x="1440" y="1248" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="2112"/>
-   </properties>
-  </object>
-  <object name="To Second Level" type="warp" x="1056" y="960" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-3"/>
-    <property name="dest_x" value="2208"/>
-    <property name="dest_y" value="2496"/>
-   </properties>
-  </object>
- </objectgroup>
- <layer name="Heights" width="75" height="66" visible="0">
+ <objectgroup name="Object" visible="0"/>
+ <layer name="Heights" width="75" height="67" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAvg1NWAAB
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAADwYk6EAAE=
   </data>
  </layer>
 </map>
