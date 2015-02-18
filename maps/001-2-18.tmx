@@ -26,12 +26,12 @@
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="705" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="729" name="Box x1x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ <tileset firstgid="741" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="733" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="749" name="Candle" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -41,26 +41,26 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="757" name="Carpet" tilewidth="32" tileheight="32">
+ <tileset firstgid="773" name="Carpet" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="766" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="782" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="830" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="846" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="836" name="Level Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="852" name="Level Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt18ENgzAQRUGnhJSQEtJH0gvVUgJ1BA6c7JMF+htpDlPA8lhbXlprCwAAAAAAAAAAAAAAAAAAAADAn3oEpWev6Lt7hnwKzF/N0eMVose4xztEj3GPNUSP3ha0Fpi/mmSPrcD81ehRy+zZr8c97EctqQ7nnqXnr2bmG+pxn+Td4bzqzf7bV+yG/eil3uZn0/T8FaXu9PTcAAAAAAAAAAAAAAAAAAAAMPIDbqKWpQ==
+   eJzt10tOwzAUBdBkCSyBpTCEwvY74jPrqMCMEQVsYatJjVpixaRI50hXsmxLUd+LHbXrAAAAAAAAAAAAAAAAAAAAAABgPheDXIb0g7X7kIc0l8ePIU9prq9Yy8+idNd99yAn1u8q5Datb9OePo2fQ15CXrtxzaes5WflZ7AXa33zQ3Kt3gd74ngX8hHyebC/Zk0/SrHW60E2KddpPc6tDvbMFf0obY4k1iv26+3Evtqs/+D3/Te/6UeLXuQwdqxW8c5andijH/Oqvfv1o42W775+TLdUH/I5Y6ymhvrRzpLfDvdVqfbdnuNsOB+lFv+7p5wzSkt90wEAAAAAAAAAAAAAAAAAAOAcfQFQzXdo
   </data>
  </layer>
  <layer name="Ground2" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0bENgDAQA8DPiBEtDEHYIJPnqanRC3EnubYlRwAAAAAAAAAAAAAAAAAAAAAAAMD/9KLwdBR274XdAHxDbxEzs7XqJdzO/GFkLn8AAAAAAAAAAAAAAAAAAAAAAPCyBaMBDLo=
+   eJzt1MsJgDAQBcBYmbYgnvwVoXZg5SY3wc9Fgogz8CAsIVlY2BAAAAAAAAAAAAAAAAAAAAAAAADgf7qTJGVMdXPnaTgaL+rt7txn+nvI9C7wP2mfXO0zvq0uQlhjmuLtTkimOIc5ZjEPAAAAAAAAAAAAAAAAAAAAAAAy2wCC5A5M
   </data>
  </layer>
  <layer name="Fringe" width="100" height="100">
@@ -70,12 +70,12 @@
  </layer>
  <layer name="Over" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt2EsKwjAUBdDM/WzAzxYUda5IVyAuxP2PTKlCkSj+IA89B+6gSUhC7qwpAQAAAAAAAAAAAAAAAAAAAADPOuUMcsaVMrzcgU7bxa7i+dvUdUJnVPsC2bz2BQLRRyz6iEUfsegjFn3Eoo9Y9BGLPmKZ5Cwrnr/ImVY8P5r231HbyayQVc66l82ddZ9kmvy/6js9yP5mbdObu7fHq+Ol+X92+/ZNYSwV5kp76ONz7/bx7dC5vsfh8n0sjKXCnD4AAAAAAAAAAAAAAAAAAAD4ZWexsjUQ
+   eJzt2FtKw0AUBuB5t7oBa7egO1DEFYgLcbleNuBlA15ePCEZ0kqbBMfABL4P/ofMDE17/hZKUgIAAAAAAAAAAAAAAAAAAAAAWKb7yFHkZE9W3f7QmdKs5v+Ii9LM+erA3mVq5zV0plS+B63jkf3NhDOlNjO//pLooy5zz3oKffT0URd91EUfddFHXcb6OI9czPwe9NHzf7cup+nw97/5baxHzpTK96DVPJtq5n22J+vUP7/6feYh8hh5ijwXrOd70Mrzvu6ub7bWhvISeY28Rd4L1nNo/bWPj8hn5CvyXbCuj115Hrfd9V2a1sd/BwAAAAAAAAAAAAAAAAAAAGryA5NwTCI=
   </data>
  </layer>
- <layer name="Collision" width="100" height="100">
+ <layer name="Collision" width="100" height="100" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0DENwEAAxLCXCuz5s+rasdtlcCQTyH3OuQAAAAAAAAAAAAAAAAAAAADAL5XWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHwAAAAAAAAAAAAAAAAAAAODrBchnfaQ=
+   eJzt0DENwEAAxLCXCvD5s+nasdtlcCQTyH3OuQAAAAAAAAAAAAAAAAAAAADAL5XWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHwAAAAAAAAAAAAAAAAAAAODrBeYeyqI=
   </data>
  </layer>
  <objectgroup name="Objects"/>
