@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="3">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -84,15 +84,18 @@
  </layer>
  <layer name="Over" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0ctKQzEUBdCCM63iVHwNxZFFhQ4r4heoH3L/f+SJ3MIlNLRNSgm6FuxBDjkQsmczAAAAAAAAAAAAAAAAAAAAAAAAAABgiJxFLvbIvLA3P/Lb/6L0p2/Z7GTLzipyv2EvzXXS5rxy77Ewv6t9CL/00Rd99KW2j9PCXB9tavso0UcbffRFH32p7eOqMNdHm+vIYs+dp8jlhr00vznEo/651MntJA/Z+TnyEnkdz+nPh3Fvenc9p82QZZmd38d7Hzvc1cdh5H86zWfkK/K95Z4uAAAAAAAAAAAAAAAAoE8/jQ8YTA==
+   eJzt0c1KgzEQBdCCO63iVvxblq4qKrisiE+gPsj3/isnpUIJCaWJlKDnwF1kyEDInc0AAAAAAAAAAAAAAAAAAAAAAAAAAIApcha5OCDzyt78yG//i9Kfvmazkz0768h9YS/NddLnvHFvWZnftT6EDX2MRR9jae3jtDLXR5/WPmr00UcfY9HHWFr7uKrM9dHnOvJw4M4qclnYS/Ob33jUP5c6ud3JIjs/Rp4iz9tz+vNpZ2+RzekzZXnJzm/be++Fu6X79Cv9808+Ip+Rrz33dAEAAAAAAAAAAAAAAABj+gaNyxhM
   </data>
  </layer>
- <layer name="Collision" width="100" height="100" visible="0">
+ <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0TEKwDAMBEFDHqj//8akT2FXUrgRTH9o61mrAAAAAAAAAAAAAAAAAAAAAIBr73VvSHdy3RtTfP1bl3/06N6aQI9Z9Jjl5Lo3JtFjFj3m0QMAAAAAAAAAAAAAAAAAAAAAACDLBjbnatk=
+   eJzt1VEKgzAQQEGhBxS8/2FKoYK0UWNp2DWZhcEPCSR5tM6PaZoBAAAAAAAAAAAAAAAAAAAAgMteE72H0dVM9B5HUbpvXe7RI3qvI9AjFz1yqZnoPY5Ej1z0yEcPgG/+/3JZeyxv0fsZzdXZWxd9jp780uSoFe16LIX3pTXRZ+jJ552fNdOjrZq7PZvoM/TkHz00adNiO6VvhxZxPY7uXo8cTfbWRZ+hJzW/he1TDwAAAAAAAAAAAAAAALiPJ2OHPHY=
   </data>
  </layer>
- <objectgroup name="Objects"/>
+ <objectgroup name="Objects">
+  <object id="1" name="To balcony" x="2045" y="2109.5" width="38.5" height="36.5"/>
+  <object id="2" name="To main hall" x="1885" y="1762" width="37" height="36.5"/>
+ </objectgroup>
  <layer name="Heights" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
