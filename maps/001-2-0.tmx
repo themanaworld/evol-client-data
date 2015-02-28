@@ -46,20 +46,20 @@
  </layer>
  <layer name="Fringe" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1TtuwkAUBdCxTZMiQEOfSBTZAmX49SmgSjaBWAsrQayPF8kSyGAJhELAPke6smf0ivnZkxIAAAAAAABtN6+0ZzV1df1NsbyyfpP9yTD+1Vue0ntkW7Z35fPrTO06v9OgHkQv5tuPrCLD2PvR0fxf4r0b6TRwTT6LlMaRSWRaHNqLWIOP8ht4zU7rmuKSPf1di8GZ5A08D21X3LCnmfNA6ZZzxHP7qen/vusoHkP1fnVntlv1v+jOBAAAAAAAAAC43B7pjQo0
+   eJzt1U1qwkAYBuAxcdOF2k33LbjwCi6t1n0X7aq9hHgGvUFPUjyfnzRgCAYU0WryPPCSzPAt5i+ZlAAAAAAAAGi7eaX9VlNX198UnyfW/3QuMox/9Zyl9BL5Ldqb4vl+oHaZXWlQN2IQ832MLCLD2Ptxaf4P8d6PdBu4JpM8pdfINDLL9+2PWINRZB1z7pW+hVX2V9cUx+zpbi2eDiRr4Hlou/yMPe04DxTOOUfct++a/q+rjuI2VO9Xd2a7Vf+L7kwAAAAAAAAAgONtATYaCnY=
   </data>
  </layer>
  <layer name="Over" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1l0KgkAUhuHTAlpB5m2XRgV2V1QrqPaRa2uFncERp8E/QhOd94EPGREZP6Y4IgAAAAAAAAAAAEC7eDH2DoBhZZqls357Z96s/XtVYvuuqfJ7+BU95OghN4ceVppty3NJwzNJrzsaRyZlF2vNxl53mr3mYNcvzbnmHafBd/kfmZOjvV40V81N+vvtTNFd89A8JeweXF16mPr/ZBdFD3XzlLkfWg91XYTWQ5XQzkOTkHrgPHAejLbZ28zVkYTRQ9GFmbvdmdusI+eZuSu+M5XvmTuVcDrwuTM3AAAAAAAAAAAA8AHZHCSL
+   eJzt1lEKgkAUheFbPreCzNcejQrsrdJWUO0jl9GyuzIjTUIqoYnO/8FBBoZhPKBcEQAAAAAAAAAAAKDecy4SzYa+BdCvXLPo4JzInjVWv/ZwDkRSTaa5BP72UEUPxhR6WGo2Dfvimj1xpzcaRi7vLlaatX1uNTvN3q4fmtOXM4693/I/cicH+0w1meYi3X07Y3TV3DR38bsHV5sexv6fbIMeDHow6MGgB4MeDHowmmbvYq4OxY8eyi6KududuYt16OyZuvI9E/mcuRPxp4Mqd+YGAAAAAAAAAAAAXk+eHno=
   </data>
  </layer>
- <layer name="Collision" width="66" height="72">
+ <layer name="Collision" width="66" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1kEKgCAQBVChuwXd/0JtCkJMWzWDvoG3qc34+ZT7VsoOAAAAAAAAcDkS7BB9/nvqd61nsxrNSj35kkVrovf+M4PRRO+fIYvovTNkMGsWo2/AzOfv5fKlN9F7/u2tKyv9U5/9qLuwWid6E72bPuiDHOSQgRzkUKvvUqvdoVrdiN4BAAAAAACAHE4loCGM
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
