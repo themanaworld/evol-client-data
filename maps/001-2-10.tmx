@@ -44,6 +44,9 @@
  <tileset firstgid="1037" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
+ <tileset firstgid="1043" name="Level Height" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
  <layer name="Ground" width="79" height="67">
   <data encoding="base64" compression="zlib">
    eJzt1k9Kw0AUx/EEl/4BhW6FHiEn0K3YXMIT5EyCR/Aioi24dNEewa0ZmEefjzeh2Akdk+/iQ9Jk5pX366SZrqqqDgAAAAAAAAAAAACAGTvvXSVcHDjuL3P0uP/qsnfdq6PPs/35XewxZHAfr7319xs13s7z5si8cGzi990W0HuO7JbVvq+F6ncVswgZtPGavv+izhdxvp3TOPOWE8ruK2EVtZG+t+29xuPQnE3CFLLrBrKTLEIG62ho7DaSOancNgX0PEZ278ZW5SbZpHJbm7E2r6d62tl9GDY7Ob+p97x81052c1x3koU+eutsjtnp/Oy665x87BqzuUnNOeQW2P1a2IPJ/iK13ux61GQfZ+vWBfSak+zd9J53Wf3e57Xx2lB2jRprazSm3ql7zpldal3pPcfQcyqf7Z7Gqzul7Gz/NhPv2Uxl6L03vHmn7jkX6Uu/I4ay8jJJZRro97aMOXXPubSxH9ujfbYOyc+ra3+TKT2zqf+nY3scq25JHnvPjodC65Zk1/tW9OdcdXcZ65bEy0zOj63r5bcroOcx88vVX+61XKLcmXn1p7jmAAAAAAAAAAAAMI4fhpJt7g==
@@ -66,7 +69,7 @@
  </layer>
  <layer name="Collision" width="79" height="67">
   <data encoding="base64" compression="zlib">
-   eJzt00EKgzAQBVAXrgXvf9lubaBNDImZmDfwqJQy8j/TY9+2AwAAAAAAAAAAJnKd0t+m35XuL3nHTP5NSce5Xu52PZOaOffvz9xc33cGyDyiu1+5787ozKPuTndl2Wu6Kd25ktXuqWeH6fPqcl3U3Nyb+01v6IkZnbn1remuXX81HdfsnV2vjLqLtzeKO//BCHsj0V37nJH3RtM711t7AwAAAAAAoL0PEMRgug==
+   eJzt00EKwyAQBdAssg54/8t2m0rbGNE6xjfwiIQwMp/JsW/bAQAAAAAAAAAALOFcpd/m70r7l9wxk19VkvFVLneznklNpf39eVXn+1KAmUdk923uuzV65lF7J7uy2WuyKe25ktX2qWeG+Xl1V1nU7NyT88136B81eubWuya7dvnVZFzTd3bpg8h9o+j1b/XqG4ns2s8ZuW80ved6am4AAAAAAAC09wLGWWJA
   </data>
  </layer>
  <objectgroup name="Object">
@@ -85,4 +88,9 @@
    </properties>
   </object>
  </objectgroup>
+ <layer name="Heights" width="79" height="67">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgzAQQFEX3qC9/1mLi2KZWpxGK83kPcjCIJH5ZOE0AQAAAAAAAAAAo7jP68q+G/ey52e+0ZPnPHHGrUbf7MfzPz33bKvZ2St+r4ojHc48o0faHbM3Y0uXEbpljXaffuG1k2arvRYtd65y33iHrv5n6dmVzaq1W2Tma2lSvdviNr+vfz4XAAAAAAAAACp4AB7HFZ8=
+  </data>
+ </layer>
 </map>
