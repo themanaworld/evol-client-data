@@ -138,6 +138,36 @@ Copyright (C) 2012 Evol Online -->
         </animation>
     </action>
 
+    <action name="standride" imageset="base">
+        <animation direction="down">
+            <frame index="0" offsetY="-21" offsetX="3"/>
+        </animation>
+        <animation direction="left">
+            <frame index="3" offsetX="7" offsetY="-24"/>
+        </animation>
+        <animation direction="up">
+            <frame index="6" offsetX="4" offsetY="-25"/>
+        </animation>
+        <animation direction="right">
+            <frame index="9" offsetX="-3" offsetY="-24"/>
+        </animation>
+    </action>
+
+    <action name="ride" imageset="base">
+        <animation direction="down">
+            <frame index="0" offsetY="-21" offsetX="3"/>
+        </animation>
+        <animation direction="left">
+            <frame index="3" offsetX="7" offsetY="-24"/>
+        </animation>
+        <animation direction="up">
+            <frame index="6" offsetX="4" offsetY="-25"/>
+        </animation>
+        <animation direction="right">
+            <frame index="9" offsetX="-3" offsetY="-24"/>
+        </animation>
+    </action>
+
     <action name="dead" imageset="base">
         <animation direction="default">
             <frame index="12" offsetX="23" offsetY="2"/>
