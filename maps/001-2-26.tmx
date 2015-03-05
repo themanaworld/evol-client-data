@@ -43,7 +43,7 @@
  </tileset>
  <layer name="Ground" width="62" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1ksOgjAQgOEalz627ryDJ1C3Cp6F0+oNPIclMhEn9VHUyAw/yZcWFg2/BUMVQqgAAAAAAAAAAPiD0IN7+Hf3JJo/Mc1ct8+/qdxb3byJRtFhfB1H6nyd0W6lexaVTeci3HfLeREtHXefG8dmlH6P3VWrsz1qOeta6W63nhXP3Xq/U3NP3XKknnO95967H7V76pa5fpf1ubf9lnmqV4+pw3q3tOt3Wa7lrmupexvuv9XKcHsOijfXsNYt32u1VUa39f2uG3fKEP7X9tFJGUK3bj4F399rr7q977dul2u5zV66u65rqfub6/a9u+thufvT9r63/arZav9QuwEAAAAAAAAA9l0AbleAJQ==
+   eJzt1r0NwjAQQOGLKPlp6diBCYAWEmbxtGSDzIERsXBOcbrDkf2KT8ap7skJshMRBwAAAAAAAAAAsth6hwW7Fcxo0Xz1Gu+5+a6N2l8KbN973dh5lGl32LfeaQWzWnUPo9e4hv4Su13UGa9a7hktxK2DUnK3Pu+537ln/Ee3PvcaulPtuWe0oL9lvS/5vOe+7XjNPaNlu24Mz3LPZukm07taJ7/3oF3BfBbCfe3jXFn3Xanhf+3h9UoN3bq5lzrua6nu0s9bt4dnpTenugEAAAAAAAAAAADYewP6PL+V
   </data>
  </layer>
  <layer name="Ground 2" width="62" height="72">
@@ -61,15 +61,15 @@
    eJzt1csJwkAUBdDZ+2nATwuKulfUCtRC7MYSbNM3qBiCiAsTYXIO3EXeZDGXCZmUAAAAAAAAgF8afPnetNFdtE/vz/QuQ1d7jyLz2mxWm+XncWs7asc53btPKskdq99BaWf91IsMa9lU1teRfvvbalTuvPnivdLOvKv/Nb0/K6131++xRWQZWaV7xzy7pNe9dv7XBhuUO20ju8i+Mr8+1p4p0SFyjJzerJXcGwAAAAAAAP7tBkmdDUc=
   </data>
  </layer>
- <layer name="Collision" width="62" height="72">
+ <layer name="Collision" width="62" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1DEKACEQBEHhfu+rL9/ASHbALaESo2kD97fWBgAAAAAAAK47nfQ23X3Nk9vT23T3Nb/cPrW7tte79LbUW6R36O5rfr194r829T+f2l3b6116W0d7egMAAAAAAABM8wNOWmQk
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object name="To Artis" type="warp" x="896" y="1376" width="32" height="32"/>
  </objectgroup>
- <layer name="Heights" width="62" height="72">
+ <layer name="Heights" width="62" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1CEOwDAMBMFI/T9qHxxUKQEuS4FvRvIDFpzHAAAAAAAAAE54rvo6S+z+ak5u7yyxu2rt3m7fe2P35oruHCn7Xt1Bf22lO6v7ldgMAAAAAAAA/GMCabUxig==
   </data>
