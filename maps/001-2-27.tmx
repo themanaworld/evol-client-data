@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="66" height="72" tilewidth="32" tileheight="32" backgroundcolor="#808080">
+ <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-0.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Blacksmith Shop"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="713" name="Pavement" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="841" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="845" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <layer name="Ground" width="66" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt1kFuwjAQheHQbaHb7nqVdlsV7pIz9UyQbrsKN4AlGJGRXkcTaFoJx+RffLLlMZJnPAmpq6qqAQAAAAAAAAAAJuIxeeoxvxC/Fsud19AavCWz5PBwHnX+KvGTb9njYwcXK6kWi2TVnf1ZcrL5UuJ+z7XYywjyG1qHNmk6rYxLiXsWawKl1aHuyWPnaqM18qLfNyPIayi9/2i0+Vq0F/aVWgd/19G9bzpfMvf7rI9sPXdef+kHo/et97vuamCinvBrufP6Tx3srn1fRP2gezbBeu68hoqe7Wiu74foWfLrJX0/RD0R9Xb07jitr6qfPWF7Svzf/G2dol7XOuh4r3Xo85F8Bt5HcLZb2out2I/gbLnq4GuR+2y3ZHfve2Fq/eBz15rkPluuftBxav1QB/lPrRcAAAAAAAAAAAAAAP2OymdkGA==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="66" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt0kEOATEUxvFaiAtwBE6AE2BvKbiUG4gbuAlOMMEBGPZekzZT1ZkQmTTl/0u+zLSvTdqXKgUAAAAAAAAAAIB/1Sr5L1vzSQ1pmZakqv5OLSVLSa/xOq/nFqa+k+ydHFRRawf2Luo6bI26co++pOllaO6ne3BXRS90D27mq1XtTclAzjySdLxMzF0yVfRCsz04mnHV3pSMnftaR+c/82q2bteEepSyqj5cJGczPklyZ02oRynTd72a5N782anr2slZE+rRr3J75PdJs28i9bfwjZV6fiuruMeJZu2NN1FOEddcsg1kFvNQAAAAAAAAAAAAAAAAQCIeojtKTw==
+  </data>
+ </layer>
+ <layer name="Fringe" width="66" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJgDAUBNC4h6ULq5OIk6gLGdBCrKLNJ+Q9uCIfDo6kBAAAAAAAALRu6MpupV0u/qZ+W85+5/jZ/dqjHX30AAg05kyPzLFzCLa83mvICgAAAAAAAAAAqM8JP78KrQ==
+  </data>
+ </layer>
+ <layer name="Over" width="66" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt1lFqwkAUBdBsoCuo+tfvlir+KtoVtN1Hs4IuoWv2yWRwCDaRilAn58BlEl7QcEl0mgYAAAAAAABOfiLff5jVRg9J7T203fowct01PSyK7/mv9JDoIdFDku/vMfIycN3zwHxsdg/aYj12MY88dWt5POvmr5FlZFXMviLbXz5/c6P7vpW2yPrMcbaL7CNvxWzsnarRe+Qj8tmdT7WHvkt6uIffyWvpIdFDcmkPtcv/t0P7h1lT//NwlLso9x1575E7mEoP/X1H/xwAAAAAAACAaTsAIkgpCg==
+  </data>
+ </layer>
+ <layer name="Collision" width="66" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEJACEMAEHB/uy/HBs4xRxIRCcwLz/JYqulNAAAAAAAAICJr8neaceNkftv7aHD+q1/JvsuHXTQYW+L2fvK241G973WIfKXsnc6ocGLLXTQQQcdoi2ydwIAAAAAAADgDB3ikabo
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object name="To Artis" type="warp" x="1056" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="0"/>
+    <property name="dest_y" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
