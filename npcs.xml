@@ -115,6 +115,11 @@ IDs 990-999 = Special
         <menu name="Buy" command="buy 'NAME'"/>
         <menu name="Sell" command="sell 'NAME'"/>
     </npc>
+    <npc id="118">
+        <!-- Raijin Male, librarian. -->
+        <sprite variant="11">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
