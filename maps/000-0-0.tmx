@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="55" height="55" tilewidth="32" tileheight="32">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -18,9 +18,9 @@
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="449" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="473" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="485" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="55" height="55">
@@ -35,7 +35,7 @@
  </layer>
  <layer name="Over" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TMQoCMRRF0XHpioiIlcogYjW4AvdgrY1LcB8+YSpJJTqD4Ry4RVL9T0jTAAAAADCU6aRcDV57rNIszdO6st02adu3q2y3Q+rSKR0r2o3/dUmLwv1y6EF+4J7a1KVr/tqt/2/79BhvrK86v51Lb1mLduwBAAAAAAD4yBM1Zt7iRC8AAA==
+   H4sIAAAAAAAAA+3TwQnCQBRF0Vi6IiLiSiWIuApWYA+WoB3Yhy+QlcxKNMHhHLgwmdX/hGkaAAAAAMYyn5WrQb/HJi3SMm0r222X9kOHynY7pS5d0rmi3fhft7Qq3K/HHuQH7qlNXX/OW3sM7+2YntON9VXXt+/Sv6xFO/UAAAAAAAB85AW8zI7MRC8AAA==
   </data>
  </layer>
  <layer name="Shadow" width="55" height="55">
@@ -50,7 +50,7 @@
  </layer>
  <layer name="Collision" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OsQkAAAjAMP3/Q68RH3ASXFLI3sqIAgAAAAAAODB9PwAAAAAAwKYB0VKpXEQvAAA=
+   H4sIAAAAAAAAA+3OsQkAAAjAMP3/T+8QH3ASXFLI3sqIAgAAAAAAODB9PwAAAAAAwKYBAf84MkQvAAA=
   </data>
  </layer>
 </map>

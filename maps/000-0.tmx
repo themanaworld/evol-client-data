@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="47" height="47" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="47" height="47" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
@@ -29,10 +29,10 @@
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="979" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="1003" name="Box x1x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ <tileset firstgid="1015" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
  <layer name="Ground" width="47" height="47">
   <data encoding="base64" compression="gzip">
@@ -41,12 +41,12 @@
  </layer>
  <layer name="Ground 2" width="47" height="47">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Vyy4DURyH57JCXBJ3WzY2LrHxBngJFl6BhVUXLIiN65LQJ9DauFXceQESFiIpuhAeAV/T08xZ6FQapxu/L/NlTts5/99/Ts5MPU8IIYQQQvxnPvErP/A5MPCrl11DVi3Wmcx6K7uBcaNlk7HZsgVbsQ3bsQM7scvxPTyFnpcNC+NXc+4mc9jYUyJ/NvC8Oez1o7nv+IF9fNePAzjoqP8h6r6F0edsWPraPEv0uowruIpruB5Evz8z/8WqkWM8Qsaog/7H/MJ65UzebZnet+hzG5NB/HVFivcx7qD3Catmfs0my2Ts0HMK0z/0fsf8e3yw9t8jTjnaM9OmbnF9ZsrknNDzKZ7FrLu97+apt+Co98WYugnreU1UkL/BnE3H75nkH9dPUS+Nu1V4x++RsY8HeIhHmMHjX3qOF3iJV3iNN1X8bxJCCCGEEEIIIYQQlfMN9654O4QiAAA=
+   H4sIAAAAAAAAA+2VuzIDURyH91JhXGbctTQal9F4A7wEhVegUKWgYDSuJUOeQKJxi3HnBWioFJpgJpWhwJfJyewpZGMyThq/b/abPUn2/H//PXN243lCCCGEEOI/84lf+YHPgYFfvewasmqxzmTWW9kNjBstm4zNli3Yim3Yjh3YiV2O7+Ep9LxsWBi/mnM3mcPGnhL5s4HnzWGvH819xw/s47t+HMBBR/0PUfctjD5nw9LX5lmi12VcwVVcw/Ug+v2Z+S9WjRzjETJGHfQ/5hfWK2fybsv0vkWf25gM4q8rUryPcQe9T1g182s2WSZjh55TmP6h9zvm3+ODtf8eccrRnpk2dYvrM1Mm54SeT/EsZt3tfTdPvQVHvS/G1E1Yz2uigvwN5mw6fs8k/7h+inpp3K3CO36PjH08wEM8wgwe/9JzvMBLvMJrvKnif5MQQgghhBBCCCGEqJxvEmgNPYQiAAA=
   </data>
  </layer>
  <layer name="Fringe" width="47" height="47">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SOw4BURiG4XNGQWELNkanZAMyswMqLTthDS4bcCm0LnHpfYWCBJkZkjM/75N8mUSYvE6OcwAAfEc9cq4Rha7Ip6XuttH2WN2J0fauuntG2wfqHhag/aidtLN2SfmbIrSXvXMV//hZ1T//7r0itNdSdL7yrn1Tyv/erEbqGGc8x9Dn/iuaH9yf0Dq39ljPxPD/6BtuRxgT3ZmpNtPmxu7PQr1LbaWtjbVv1bvT9trBWDsAAAAAAP/sCi1gxRuEIgAA
+   H4sIAAAAAAAAA+3SSw4BQRhF4ao2YGALNsbMkA1I9w4YmbIT1uCxAY8FeMVj7g4MSJDuJqn+OV9y04nQOSrlHAAA31GPnGtEoSvyaam7bbQ9VnditL2r7p7R9oG6hwVoP2on7axdUv6mCO1l71zFP35W9c+/e68I7bUUna+8a9+U8r83q5E6xhnPMfS5/4rmB/cntM6tPdYzMfw/+obbEcZEd2aqzbS5sfuzUO9SW2lrY+1b9e60vXYw1g4AAAAAwD+7Ah+9hO6EIgAA
   </data>
  </layer>
  <layer name="Over" width="47" height="47">
@@ -59,7 +59,7 @@
    H4sIAAAAAAAAA+3OQQkAAAgAMbF/NjOJKQTdwf5XGVEAAAAAnDNtPwAAAAB/NGNsPMWEIgAA
   </data>
  </layer>
- <objectgroup name="Object" width="47" height="47">
+ <objectgroup name="Object">
   <object name="ToInterior" type="warp" x="4640" y="2304" width="26" height="60">
    <properties>
     <property name="dest_map" value="001-2-0"/>
