@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="52" height="53" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="52" height="53" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
@@ -14,19 +14,19 @@
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="391" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+ <tileset firstgid="397" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="415" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="421" name="Box x1x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ <tileset firstgid="439" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="425" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="447" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="489" name="Sunlight x1x5" tilewidth="32" tileheight="160">
+ <tileset firstgid="511" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
  <layer name="Ground" width="52" height="53">
@@ -36,25 +36,25 @@
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RsQkCQRCF4R2tQMQCPDuxBDPTswFDQ7EEOxCxAEswsAAFA820Eh94cLDoBaN4E/wfPHa5ZeANlxIAAAAAAABQG1tKpnSUrrLJ3o+ttPKbaIeeve59nVudM6vfL6208ivVfagUyqja55Pib61+Y6d99jpXWQbWOBbG9M23g7LOU+1TNsxFcFbPuWPuFPR/3dRr4Zi7Bt3noV5Lx9w96D4AAAAAAADAt54WamtFECsAAA==
+   H4sIAAAAAAAAA+3RMQrCQBCF4R1zAhEPYLyJR7CzjRewtJQcwdpGPIGVtYVH8AzamU5LHxgILJpiFTPF/8FjlywDb0gIAAAAAAAAQGNiIZjSUzJlG72fOmmVbqod+va6D3TudM6teT930ipdoe4jJVfG9T6f5H9r9RsH7bPXWUYZWuuYG7M3347KOsqm3qdomfPgqp6LhLmL0/9VqdcyYe7mdJ+Heq0S5u5O9wEAAAAAAAC+9QSEIc+wECsAAA==
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PQQ2AQAxFwdYDBpGCChystwVEUAFcCaSZSX567YsAAAAAgN6WjNjy6y/e0aVrVMdem7WjdtauBm1rPt/RoA0AAAAA4E9u1NOLehArAAA=
+   H4sIAAAAAAAAA+3RsQ2AMAwEQDszsCCjMAw7ZDswPR1CiaI76eX2X44AAAAAgLVtGXHk6Bb/WGVXrx1n5Xr2tIistDa61Xd7vt++yN8AAAAAAGZxAwQ/mMEQKwAA
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TTQqCUBSG4dNuGjq3nJhtIVpArkAQ3KbgJHAiuI5uUCD+5XX03XgfOOAVBV84mgEAAAAAAFX3HaPs/X2xm2TDnCyMnvPGZ68Wbk9xmN779ijv31JPNtNzM/3989m3McX9+8eefOe7D9PsKd00M//Lmto9X5luT+vZ8xTv6T17OuGe1E32mePg+tf5Ypo9w4k8z2o9AAAAAAAAoXgBM2k0sxArAAA=
+   H4sIAAAAAAAAA+3TTQqCUBSG4dNuGjq3nJhtIVpArkAQ3LHgJHAiOOgGBeJfXkffjfeBA15R8IWjGQAAAAAAUHXfMcre3xe7STbMycLoOW989mrh9hSH6b1vj/L+LfVkMz03098/n30bU9y/f+zJd777MM2e0k0z87+sqd3zlen2tJ49T/Ge3rOnE+5J3WSfOQ6uf50vptkznMjzrNYDAAAAAAAQihdyzEeQECsAAA==
   </data>
  </layer>
  <layer name="Collision" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQnAIBAEQO2/CeEazctHCAQJwqmZhUEOfOy2WkoDAAAAALYQC3SYqWf0b3bf0T09UZ/vl+2r7BlJdueZW07clN35j3ui3ju/3dmdAQAAAHZ2Aft1m9cQKwAA
+   H4sIAAAAAAAAA+3PwQnAIBAEQO2/G+H6y8tHCAQJwqmZhUEOfOy2WkoDAAAAALYQC3SYqWf0b3bf0T09UZ/vl+2r7BlJdueZW07clN35j3ui3ju/3dmdAQAAAHZ2AYo51aAQKwAA
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object">
   <object name="ToOutside" type="warp" x="612" y="896" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>

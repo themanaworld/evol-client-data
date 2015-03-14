@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="52" height="53" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="52" height="53" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
@@ -14,49 +14,49 @@
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tilesets/box.png" width="128" height="192"/>
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="409" name="Carpet" tilewidth="32" tileheight="32">
+ <tileset firstgid="421" name="Carpet" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="418" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="430" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="424" name="Box x1x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="64"/>
+ <tileset firstgid="436" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="428" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="444" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="492" name="Sunlight x1x5" tilewidth="32" tileheight="160">
+ <tileset firstgid="508" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
  <layer name="Ground" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TOwoCMRSF4QQEEWwt3YiOlm5BphQsswNX4lu35kq8gwmGEHEcwSTyFx+XuWnOIZlaKVUDAAAAAAD8yFTMI6rIWZVB3ndmYiT6djpLsQnOFhnkbdsnpMUk2JXQpzGOaPr0gl3qnG2tIga2z1aK7cRep8/5SR9j+fmH8n2WeRHXQvqY4F4Okvsm86SfZ26mztrlrZXex89sbJ+jfvRx+3VBfcI35/8v/r2ZDHJ2fXOvpM75TZ/UmQAAAAAAAP7ZHbbONagQKwAA
+   H4sIAAAAAAAAA+3TOwoCMRSF4QQEEWwt3YiOlm5BphQsswPX41s35Uq8gwmGEHEcwSTyFx+XuWnOIZlaKVUDAAAAAAD8yFTMI6rIWZVB3ndmYiT6djpLsQnOFhnkbdsnpMUk2JXQpzGOaPr0gl3qnG2tIga2z1aK7cRep8/5SR9j+fmH8n2WeRHXQvqY4F4Okvsm86SfZ26mztrlrZXex89sbJ+jfvRx+3VBfcI35/8v/r2ZDHJ2fXOvpM75TZ/UmQAAAAAAAP7ZHd9+ik0QKwAA
   </data>
  </layer>
  <layer name="Ground 2" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RTQqCQBjGcV30cYLuI13Bjeuu0BFclhDiEbyBHqVli4h2ucigtj3QBMPgzkEZ+P/g5ZnRzfNqFAEAAAAAAGCMZfzLjXKt/FjvWpP1xJ18eFvn3OR/t1U8cRkPCnU+aY6aRveF2aE0z0JRWl2rgHoPyZz7Q/t0AzsdAtnzbPXc6XxV7pW32RqNc3G+e6J7qtkG8j9cd6f3U9NrXnOUAQAAAAAAAODdF9kjI4gQKwAA
+   H4sIAAAAAAAAA+3RTQqCQBjGcV30cYLuI13Bjeuu0BE8QJCbcOHKG+iBIlq2KMk2BT3QBMPgzkEZ+P/g5ZnRzfNqFAEAAAAAAGCMZfzLjXKtfFnvWpP1xJ186K1zbvK/2yqeuIwHhTqfNEdNo/vC7FCaZ6Eora5VQL2HZM79rX0+AzsdAtnzavXc6XxW7pWX2RqNc3O+e6J7qtkG8j9cT6f3XfPQdHOUAQAAAAAAAODdF4F5qVYQKwAA
   </data>
  </layer>
  <layer name="Fringe" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Puw2AQAwD0GQH9u85VuOzwmUASiSU03uSKzd2BAAAAACsa2TEkX+v+Na+2J+z/lyVu/Lke9fV1ng7AAAAAEAnE3DbS3sQKwAA
+   H4sIAAAAAAAAA+3PyQ2AQAwDwKQH+u+CpTmOTQE8kVBWM5Jf/tgRAAAAALCukRFH/r3iW/tif876c1XuypPvXVdb4+0AAAAAAJ1MzV7BWhArAAA=
   </data>
  </layer>
  <layer name="Over" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UMQrCMBQG4Hgbx17Ayerq7AW8gufUpaOj1/ANFkNJQcEhCd8HPw3hFd5PoSkBAAAAQH/Okd0P88f3O7Xqsc9lcXeL3FfmW+hzjUyb7+Zb6fMo9BkLd630eXb0fdb+B6fIIcs2Mqb6++zTZ9/8Oe8+Z8jOtSrtOyzu8wAAAADwHy81qzZvECsAAA==
+   H4sIAAAAAAAAA+3UMQrCMBQG4Hgbx17Ayerq7AW8gufUS3R0dPUNFkNJQcEhCd8HPw3hFd5PoSkBAAAAQH/Okd0P88f3O7Xqsc9lcXeL3FfmW+hzjUyb7+Zb6fMo9BkLd630eXb0fdb+B6fIIcs2Mqb6++zTZ9/8Oe8+Z8jOtSrtOyzu8wAAAADwHy+kOK5UECsAAA==
   </data>
  </layer>
  <layer name="Collision" width="52" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UQQrAIAwEQPv/Zwh9Z+lBEA/a9mITJjDE4y6i9SilAgAAAACh3NPvdj5/kO1tj9Xszvilz3gPETvNMkfsM+bO1ifDG3oykf64lrffuzMBAAAAZHYBFlxJzBArAAA=
+   H4sIAAAAAAAAA+3UQQrAIAwEQPv/xwh9YelBEA/a9mITJjDE4y6i9SilAgAAAACh3NPvdj5/kO1tj9Xszvilz3gPETvNMkfsM+bO1ifDG3oykf64lrffuzMBAAAAZHYBDQcPEBArAAA=
   </data>
  </layer>
- <objectgroup name="Object" width="52" height="53">
+ <objectgroup name="Object">
   <object name="To First Deck" type="warp" x="612" y="864" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-2-0"/>
