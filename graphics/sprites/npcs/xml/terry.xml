@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/terry.png"
+              width="32"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Flask animation -->
+        <animation direction="default">
+            <frame index="1"/>
+        </animation>
+        <!-- Static Flask -->
+        <animation direction="up">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>

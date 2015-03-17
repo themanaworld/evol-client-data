@@ -115,11 +115,6 @@ IDs 990-999 = Special
         <menu name="Buy" command="buy 'NAME'"/>
         <menu name="Sell" command="sell 'NAME'"/>
     </npc>
-    <npc id="118">
-        <!-- Raijin Male, librarian. -->
-        <sprite variant="11">npcs/xml/unanimated.xml</sprite>
-        <menu name="Talk" command="talk 'NAME'"/>
-    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
@@ -240,6 +235,11 @@ IDs 990-999 = Special
         <!-- Green flask, chimestry experience. -->
         <sprite>npcs/xml/flask.xml</sprite>
         <menu name="Launch" command="launch"/>
+    </npc>
+    <npc id="423">
+        <!-- Raijin Male, librarian. -->
+        <sprite>npcs/xml/terry.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
     <npc id="800">
