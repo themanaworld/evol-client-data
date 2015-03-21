@@ -14,24 +14,24 @@
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="569" name="Indoor x4" tilewidth="32" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="593" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="713" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="721" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="749" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="757" name="Box x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="757" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="765" name="Candle" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -41,31 +41,31 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="781" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="789" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="845" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="853" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1101" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="1109" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1105" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1113" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1MEJwkAQQNEJeNMISQGCJVhBLMD0stWmhJTg2T2sMIwbERzYMPzDI2TJYT4TNolIAgAAAAAAAAAAH47Z+QenHczq1XvPOmM8iAzmbArS3Wdzabqpvmuhmx/ZZQczezWvyrLxHqU5laaa1bw/y7P1vF7NdqdbZxGbx66+72jNukk36873N61n9Wy2bfYs0o71nmvt+v6KtGd7b327x1rP6rnn2m7tvx6pGQAAAAAAAAAA/O8F8D13Nw==
+   eJzt1D0KwkAQQOEJ2PkDWqYIeARPoAeId9nTeoQcwTpbrDCMGwk4sGF4xUfIkmIeEzaJSAIAAAAAAAAAAF/22WmFwwZm9ep9ZJ3R70TO5uwepPuYPUvTTfVdC908ZsMGZvZqnpTXwnuU5lSaaibz/i7P1vN6NdudLp1FbL509X1Ha9ZNull3fr5pPatns22zZ5F2rPdca9f3V6Q923vr1z3WelbPPdd2a//1SM0AAAAAAAAAAOB/M/8Mdz8=
   </data>
  </layer>
  <layer name="Ground2" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt07EKwjAUheGbaAVFBxFRwcW6uDo4OvoAgm76/lvtI3jAlCoodlK4/T84hNx06CHEDAAAAAAAAAAAoLYIZv1Q77O0ztLs+cyr6ZvZwFnvY4N4clWG0SxX5vH1LNO+l2YXZdf59d/9395J50L3eNJbHSsjZaKcP7zdg5POla16LlNn7zap40prrqzD495h1o3fv/Hkpr5lSzpXXcsWdQYAAAAAAAAAAM3cAQB6DeI=
+   eJzt070KwjAUxfGbaAUFB1ERwcGPRdx8AEdHB0E3+/5voB09YEoVFDsp3P5/cAi56dBDiBkAAAAAAAAAAEBlGsy6odpnaZ2k2fOZV+M3s56z3sca8SRXRtFso8zj61mmfSfNLsqu9eu/+7+9k85X3eNJb3Wg9JWhcv7wdg9OOpe26jlLnb1bp44LrUtlFR73DrN2/P6NJzf1LRrSuexaNKgzAAAAAAAAAACo5w48/w5K
   </data>
  </layer>
  <layer name="Fringe" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1D0OgjAYgOFW2UycjR7AnwsYJyfjpOLgKTy7u6M1rZMwIpE8T9JAYfnekBICAAAAAABAu0PfA/TgVq6zGMI05vvnqLdxOrdOjXXqu5bGVdrfB9z7Nmnp245/O0eXdg2NpyqEc1qXtOoqP9sPqPljEfOZncfm98cBNT/Kd96U1mVLM/ybpn8YAAAAAAAA315JnQgo
+   eJzt1L0KwjAUBtDb2tnFRfQB/HkJcRBHp2p9Dp/d3Yhxsh1LsJwDIdxkuR+XJAIAAAAAAGDYqXQDBbR5X1YR8yoXs1LdjG+XMnZ1xL3+1NtUP+qyPY1tMZDvMKE5H3sytk3ENa1bWl3zOTtPKPPX+v1uU65V1X9/mVDmZ57zPmfdDGSGf9P3hwEAAAAAAPDrBapmBqo=
   </data>
  </layer>
  <layer name="Over" width="61" height="61">
@@ -75,7 +75,7 @@
  </layer>
  <layer name="Collision" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKwCAQBEALXyj4/6+EENIIAYvIhjjCYLvrna2W0gAAAAAAANjOee6710s60+q+MyedM9H5T73HPe4P75DO+facZ+aezrmy8y5z3uUfz3ZO51vZedzpdC4AAAAAAOC7DnuAzSs=
+   eJzt0zEKwCAQBEALXyn4/2+EENIIAYvIhjjCYLvrna2W0gAAAAAAANjOee6710s60+q+MyedM9H5T73HPe4P75DO+facZ+aezrmy8y5z3uUfz3ZO51vZedzpdC4AAAAAAOC7DjixP4o=
   </data>
  </layer>
  <objectgroup name="Objects">
