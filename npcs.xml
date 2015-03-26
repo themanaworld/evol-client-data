@@ -29,8 +29,6 @@ IDs 990-999 = Special
         <!-- Hat Box -->
         <sprite variant="1">npcs/xml/interactive.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-        <menu name="Buy" command="buy 'NAME'"/>
-        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="103" nameOffsetX="10" nameOffsetY="-10" targetOffsetX="10" targetOffsetY="-10">
         <!-- Raijin Man, hanged to the ship's ropes. -->
@@ -60,8 +58,8 @@ IDs 990-999 = Special
         <!-- Elven Man, trader. -->
         <sprite variant="5">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-        <menu name="Buy" command="buy 'NAME'"/>
-        <menu name="Sell" command="sell 'NAME'"/>
+        <menu name="Buy" command="buy Bag"/>
+        <menu name="Sell" command="sell Bag"/>
     </npc>
     <npc id="109" nameOffsetX="-3" targetCursor="small" targetOffsetX="-2">
         <!-- Shop Bag -->
@@ -79,8 +77,6 @@ IDs 990-999 = Special
         <!-- Tritan Man, sailor trader with sandals and bandana. -->
         <sprite variant="7">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-        <menu name="Buy" command="buy 'NAME'"/>
-        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="112" nameOffsetX="-2" nameOffsetY="-4" targetOffsetX="-2" targetOffsetY="-7">
         <!-- Elven Man, sailor sitting. -->
@@ -91,8 +87,6 @@ IDs 990-999 = Special
         <!-- Tritan Man, sailor trader with sandals and bandana. -->
         <sprite variant="7">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-        <menu name="Buy" command="buy 'NAME'"/>
-        <menu name="Sell" command="sell 'NAME'"/>
     </npc>
     <npc id="114">
         <!-- Demon Man, sitting sailor with his boots near him. -->
@@ -222,19 +216,19 @@ IDs 990-999 = Special
         <sprite>npcs/xml/harbour.xml</sprite>
         <sprite>accessories/harbour-hook.xml</sprite>
         <sprite>accessories/harbour-rope.xml</sprite>
-        <menu name="Rotate" command="wheel"/>
+        <menu name="Rotate" command="talk 'NAME'"/>
     </npc>
     <npc id="421" targetOffsetX="20">
         <!-- Harbour with a funny wheel and a box. -->
         <sprite>npcs/xml/harbour.xml</sprite>
         <sprite>accessories/harbour-box.xml</sprite>
         <sprite>accessories/harbour-rope.xml</sprite>
-        <menu name="Rotate" command="wheel"/>
+        <menu name="Rotate" command="talk 'NAME'"/>
     </npc>
     <npc id="422" targetCursor="large">
         <!-- Green flask, chimestry experience. -->
         <sprite>npcs/xml/flask.xml</sprite>
-        <menu name="Launch" command="launch"/>
+        <menu name="Launch" command="talk 'NAME'"/>
     </npc>
     <npc id="423">
         <!-- Raijin Male, librarian. -->
