@@ -14,24 +14,24 @@
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/artis-indoor-x2.png" width="256" height="64"/>
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="521" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="569" name="Indoor x4x2" tilewidth="64" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4x2" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="577" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="705" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="713" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="741" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="749" name="Box x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="749" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="757" name="Candle" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -41,16 +41,16 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="773" name="Carpet" tilewidth="32" tileheight="32">
+ <tileset firstgid="781" name="Carpet" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/carpet.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="782" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="790" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="846" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="854" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="852" name="Level Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="860" name="Level Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="100" height="100">
@@ -70,12 +70,12 @@
  </layer>
  <layer name="Over" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0clNA0EQBdC5syTAkgIIuGMBEQCBOFyWBFgSMHChRoylljXGHrDV3Zr3pH/wdLmkqmoaAAAAAAAAAAAAAAAAAAAAAAAAAKAm08hOZH9FdrvadZO7Z63aGSdr1F02P7OmO0ml+/hPz2U7HtqzVnsDattZJxuo2XbP4wG1pRlyj1q4R1ncoyzuUZax3OMkcrqBmm33HMs92jkPmuW7afd2WEjPWv22i9R8L9PuP0eRs8h55KL7nb7n7lmrdBdtHiKPkafIc/J9vpc0V5HryE3PW+6etVqc+SXyGnmLvPe8p7mN3EXuV9Tl6FmrxTlmkY/IZ+Sr5/0vydETAAAAAAAAAAAAAAAAABiXb8Plarg=
+   eJzt0UlOQkEUBdCa22zAZgsadK5RVwAshOWCbsBmAzYT308gqQH4AcFf5T8vOQOguMm7b5JSmgAAAAAAAAAAAAAAAAAAAAAAAAAAVTkIxy0O/2lmaZodb1P73Mx3zTvJJ+/jN5mrOt40s+tet3W0xo75rm2drPNm35nnqfte/+IetYx7lDXuUda4R1nTl3tchMsdvNl3Zl/u0ex5klZ30/R2Wkhm171u66culvWy+M9ZGISrcD3/nP9eQmatFl00pmEWHsNT9v2yHe/CfXgoPLNmz+ElvIa3lrfDMArjwjNr9h4+wmf46lkmAAAAAAAAAAAAAAAAAFCvb8l1T4g=
   </data>
  </layer>
  <layer name="Collision" width="100" height="100" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0DENwEAAxLCXCvD5s+nasdtlcCQTyH3OuQAAAAAAAAAAAAAAAAAAAADAL5XWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHwAAAAAAAAAAAAAAAAAAAODrBeYeyqI=
+   eJzt0DENwEAAxLCXCvL5M+nasdtlcCQTyH3OuQAAAAAAAAAAAAAAAAAAAADAL5XWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHyoqrT9UVFp/qKi0/lBRaf2hotL6Q0Wl9YeKSusPFZXWHwAAAAAAAAAAAAAAAAAAAODrBXUB8SE=
   </data>
  </layer>
  <objectgroup name="Objects"/>
