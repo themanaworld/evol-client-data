@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="acc"
+              src="graphics/sprites/accessories/tipiou-hat.png"
+              width="24"
+              height="24"/>
+
+    <action name="spawn" imageset="acc">
+        <animation direction="default">
+            <frame index="34" delay="20" offsetY="-86"/>
+            <frame index="34" delay="30" offsetY="-82"/>
+            <frame index="34" delay="30" offsetY="-78"/>
+            <frame index="34" delay="30" offsetY="-74"/>
+            <frame index="34" delay="30" offsetY="-70"/>
+            <frame index="34" delay="30" offsetY="-66"/>
+            <frame index="34" delay="30" offsetY="-62"/>
+            <frame index="34" delay="40" offsetY="-58"/>
+            <frame index="34" delay="40" offsetY="-54"/>
+            <frame index="34" delay="40" offsetY="-49"/>
+            <frame index="34" delay="40" offsetY="-44"/>
+            <frame index="34" delay="40" offsetY="-40"/>
+            <frame index="34" delay="40" offsetY="-36"/>
+            <frame index="34" delay="40" offsetY="-32"/>
+            <frame index="34" delay="50" offsetY="-28"/>
+            <frame index="34" delay="50" offsetY="-24"/>
+            <frame index="34" delay="50" offsetY="-21"/>
+            <frame index="34" delay="50" offsetY="-18"/>
+            <frame index="34" delay="50" offsetY="-15"/>
+            <frame index="34" delay="50" offsetY="-12"/>
+            <frame index="34" delay="50" offsetY="-9"/>
+            <frame index="34" delay="60" offsetY="-6"/>
+            <frame index="34" delay="60" offsetY="-3"/>
+            <frame index="34" delay="60" offsetY="-1"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="acc">
+        <animation direction="down">
+            <!-- Static -->
+            <frame index="0" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="28" delay="350"/>
+            <frame index="0" delay="500"/>
+            <frame index="42" delay="400"/>
+            <!-- Static -->
+            <frame index="0" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="0" end="5" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="downleft">
+            <!-- Static -->
+            <frame index="42" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="0" delay="350"/>
+            <frame index="42" delay="500"/>
+            <frame index="7" delay="400"/>
+            <!-- Static -->
+            <frame index="42" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="42" end="47" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="left">
+            <!-- Static -->
+            <frame index="7" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="49" delay="350"/>
+            <frame index="7" delay="500"/>
+            <frame index="42" delay="400"/>
+            <!-- Static -->
+            <frame index="7" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="7" end="12" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="upleft">
+            <!-- Static -->
+            <frame index="49" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="7" delay="350"/>
+            <frame index="49" delay="500"/>
+            <frame index="21" delay="400"/>
+            <!-- Static -->
+            <frame index="49" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="49" end="5" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="up">
+            <!-- Static -->
+            <frame index="21" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="49" delay="350"/>
+            <frame index="21" delay="500"/>
+            <frame index="35" delay="400"/>
+            <!-- Static -->
+            <frame index="21" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="21" end="26" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="upright">
+            <!-- Static -->
+            <frame index="35" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="14" delay="350"/>
+            <frame index="35" delay="500"/>
+            <frame index="21" delay="400"/>
+            <!-- Static -->
+            <frame index="35" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="35" end="40" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="right">
+            <!-- Static -->
+            <frame index="14" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="28" delay="350"/>
+            <frame index="14" delay="500"/>
+            <frame index="35" delay="400"/>
+            <!-- Static -->
+            <frame index="14" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="14" end="19" delay="70" repeat="4"/>
+        </animation>
+
+        <animation direction="downright">
+            <!-- Static -->
+            <frame index="28" delay="2900"/>
+            <!-- Looking Around -->
+            <frame index="0" delay="350"/>
+            <frame index="28" delay="500"/>
+            <frame index="14" delay="400"/>
+            <!-- Static -->
+            <frame index="28" delay="1600"/>
+            <!-- Jumping -->
+            <sequence start="28" end="33" delay="70" repeat="4"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="acc">
+        <animation direction="down">
+            <sequence start="0" end="5" delay="70"/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="42" end="47" delay="70"/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="7" end="12" delay="70"/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="49" end="54" delay="70"/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="21" end="26" delay="70"/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="35" end="40" delay="70"/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="14" end="19" delay="70"/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="28" end="33" delay="70"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="acc"> <!-- 560ms -->
+        <animation direction="down">
+            <frame index="1" delay="60" offsetY="-2"/>
+            <frame index="2" delay="60" offsetY="-4"/>
+            <frame index="3" delay="60" offsetY="-6"/>
+            <frame index="1" delay="60" offsetY="-8"/>
+            <frame index="2" delay="60" offsetY="-10"/>
+            <frame index="3" delay="60" offsetY="-12"/>
+            <frame index="2" delay="60" offsetY="-10"/>
+            <frame index="5" delay="60" offsetY="-6"/>
+            <frame index="4" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="43" delay="60" offsetY="-2"/>
+            <frame index="44" delay="60" offsetY="-4"/>
+            <frame index="45" delay="60" offsetY="-6"/>
+            <frame index="43" delay="60" offsetY="-8"/>
+            <frame index="44" delay="60" offsetY="-10"/>
+            <frame index="45" delay="60" offsetY="-12"/>
+            <frame index="44" delay="60" offsetY="-10"/>
+            <frame index="47" delay="60" offsetY="-6"/>
+            <frame index="46" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="left">
+            <frame index="8" delay="60" offsetY="-2"/>
+            <frame index="9" delay="60" offsetY="-4"/>
+            <frame index="10" delay="60" offsetY="-6"/>
+            <frame index="8" delay="60" offsetY="-8"/>
+            <frame index="9" delay="60" offsetY="-10"/>
+            <frame index="10" delay="60" offsetY="-12"/>
+            <frame index="9" delay="60" offsetY="-10"/>
+            <frame index="12" delay="60" offsetY="-6"/>
+            <frame index="11" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="50" delay="60" offsetY="-2"/>
+            <frame index="51" delay="60" offsetY="-4"/>
+            <frame index="52" delay="60" offsetY="-6"/>
+            <frame index="50" delay="60" offsetY="-8"/>
+            <frame index="51" delay="60" offsetY="-10"/>
+            <frame index="52" delay="60" offsetY="-12"/>
+            <frame index="51" delay="60" offsetY="-10"/>
+            <frame index="54" delay="60" offsetY="-6"/>
+            <frame index="53" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="up">
+            <frame index="22" delay="60" offsetY="-2"/>
+            <frame index="23" delay="60" offsetY="-4"/>
+            <frame index="24" delay="60" offsetY="-6"/>
+            <frame index="22" delay="60" offsetY="-8"/>
+            <frame index="23" delay="60" offsetY="-10"/>
+            <frame index="24" delay="60" offsetY="-12"/>
+            <frame index="23" delay="60" offsetY="-10"/>
+            <frame index="26" delay="60" offsetY="-6"/>
+            <frame index="25" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="upright">
+            <frame index="36" delay="60" offsetY="-2"/>
+            <frame index="37" delay="60" offsetY="-4"/>
+            <frame index="38" delay="60" offsetY="-6"/>
+            <frame index="36" delay="60" offsetY="-8"/>
+            <frame index="37" delay="60" offsetY="-10"/>
+            <frame index="38" delay="60" offsetY="-12"/>
+            <frame index="37" delay="60" offsetY="-10"/>
+            <frame index="40" delay="60" offsetY="-6"/>
+            <frame index="39" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="right">
+            <frame index="15" delay="60" offsetY="-2"/>
+            <frame index="16" delay="60" offsetY="-4"/>
+            <frame index="17" delay="60" offsetY="-6"/>
+            <frame index="15" delay="60" offsetY="-8"/>
+            <frame index="16" delay="60" offsetY="-10"/>
+            <frame index="17" delay="60" offsetY="-12"/>
+            <frame index="16" delay="60" offsetY="-10"/>
+            <frame index="19" delay="60" offsetY="-6"/>
+            <frame index="18" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+
+        <animation direction="downright">
+            <frame index="29" delay="60" offsetY="-2"/>
+            <frame index="30" delay="60" offsetY="-4"/>
+            <frame index="31" delay="60" offsetY="-6"/>
+            <frame index="29" delay="60" offsetY="-8"/>
+            <frame index="30" delay="60" offsetY="-10"/>
+            <frame index="31" delay="60" offsetY="-12"/>
+            <frame index="20" delay="60" offsetY="-10"/>
+            <frame index="33" delay="60" offsetY="-6"/>
+            <frame index="32" delay="80" offsetY="-2"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="dead" imageset="acc">
+        <animation direction="down">
+            <frame index="6"/>
+        </animation>
+        <animation direction="left">
+            <frame index="13"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="20"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="27"/>
+        </animation>
+    </action>
+</sprite>
