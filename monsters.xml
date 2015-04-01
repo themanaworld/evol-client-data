@@ -118,4 +118,23 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sprite>monsters/croconut.xml</sprite>
         <sound event="hit">monsters/crocotree/die1.ogg</sound>
     </monster>
+    <monster id="13" name="Tipiu" targetCursor="medium" walkType="fly">
+        <sprite>monsters/tipiou.xml</sprite>
+        <sprite>accessories/tipiou-hat.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
+    </monster>
+    <monster id="14" name="Tipiou" targetCursor="medium" walkType="fly">
+        <sprite>monsters/tipiou.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
+    </monster>
 </monsters>
