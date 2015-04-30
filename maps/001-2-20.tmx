@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#6d6d6d">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="60" tilewidth="32" tileheight="32" backgroundcolor="#6d6d6d">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -44,33 +44,33 @@
  <tileset firstgid="1009" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <layer name="Ground" width="100" height="100">
+ <layer name="Ground" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt111OwkAUBtBBfRNNJCa8uRVdgOyFPbmnugPdAc9OIxOvN7ZGhDQl5+GEdn4Cc7/MtGxLKVsAAAAAAAAAAAAAAAAAAAAAAAAAAKBcV7d/sByZuzzg+/lez6dqsXdRddVVaHu5LOUu3D/u6x7n9mNi39TrmqubalM+691b7fO4D23rcN17rh7S3HXqm3pdc9Vq+hZ0wU/3OY/YL4//a3Ue06XrNjeO2aU+DjNU+5xBHNPvg7Y3XpOp1zN3u1TzXN8onlmbgfFTr2fu4jMi1ne1+JLziJ/yOK58Lo3tj5yFPI5vaH+MnVfyOG0eQ+9U+Tne2tpceZxG/o+R84jXv+U59VrO2Xsw9W8BAAAAAAAAAAAAAAAAOAcfOslFhw==
+   eJzt1skNwjAUhGGz3FgkEBI3WoECoJf0RE+hA+iAM7aIxegpjlgChvAfPpHEtmBGTkLhnCsAAAAAAAAAAADwFiNv+oBxw9rxE9//jUKujder9L3SG8q1/cC5mZyvq/y6NszRsdy5XjXxdu6aO5hXvSzk2lKOg623MmuXZix3rrZ6OYpS1J3bXnS8K70UkrdJaY7jWp1zNmO/LtWB7ULnhH0R98rByJ2nLWeT3eZUei/tEvNz52lzv+jzI+ab925sL/rZ1V7s/dK0X2wnXe4ltV+a7qN/6SX1DrLP23hN91pXe4n5bA91/2GOd/SaO8snnETu3wIAAAAAAAAAAACkXADYgVtx
   </data>
  </layer>
- <layer name="Ground2" width="100" height="100">
+ <layer name="Ground2" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1VFOwjAYB/AOH3wmxAMIPnkB4zGI+qan8KTCCZadAL2AXaCxqZswQDHh90v+Sdd9TZp+WRcCAAAAAAAAAAAAAAAAAAAAAAAAAADA/3dRPF/usGaXGvYzOfUGCPNNpjGzmJtsrkzf2q53DPcysP45G7/FLGPGoxCuRutnjqc9z8UPWRb1q5j3mCam3ow5zEMVwlO1HtfZ/GP1vbbpWN+Er36U/WK41+zcUz/Gce4u5jbmPmayqUn9aO+sdM+lufZb+fjtzZ6Z1I/reP7TLLOiH7l8ru54z/62nee2+0o/jiv9n/tS3kft/z/vx+LPdkqfvEerk+3iPOTfBgAAAAAAAAAAAAAAAACH+wSv0Tsd
+   eJzt1E0OgjAQhuGCC9eGeADBlRcwHsOoOz2FJxVOQDiBegGHQOOkguBC/vI+yZeUoU3aCcUYAAAAAAAAAAAAoF8z53neYk2bOWMX9L2BAdmXCSWRZK1qburWVr0bs8uP889qfJMkkoVvzNIvnqcoP1f8JYkz/y55SDJJWo6n4uAZc/KKcarqR+9zblaxPjPvvrh9G7OrOr/ty0JqW8lGspME5Rzbl/wu2ftna/m38/z3Znti+7KSPoQqkdMXTdfSivdT0HSupns01b7Y/2hd3HuS/6d1X+LOdjp8ulf33nbRLf2tAAAAAAAAAAAAAEP1AnPQOx0=
   </data>
  </layer>
- <layer name="Fringe" width="100" height="100">
+ <layer name="Fringe" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1k1qwkAYBmANbl207tzUAwhdtlvPoEsFcwQv4IHa01RPULpxG72AXzBiCm0CWg3U54GXGWYIDPObVgsAAAAAAAAAAAAAAAAAAAAAAAAAAABu57nd9Aj+l7fkUL5HOY+kkW5y6u8kP3+3/KWd84wr5vMh+p4ig0gv+T73s8hj0Z6bXnWU92FUs7cnFXdQ/u1XlNsin384rns1vPDO/yjVrcf19GOdupFNzfnJIruinnrPG5efj3VRLqzHxV4q9n/V23GUleqv/rMatyoFAAAAAAAAAAAAAAAAAOBce/ivFdc=
+   eJzt1TEKwjAUxvEaXDuom4seQHDU1TPoqGCP4AU8kJ5GPYG4dK1ewBeMGMGmUK3Vx/8HHwkJgfQ1TaMIAAAAAAAAAAAAgDbDRt07qMbG3NqttEtJIonNY75pXq9b54z/u2nguVoy15P0JR3zXIOFpO3GrXmlu/yuScG7ngW+Dbv2JO3Z5fjBfdVt8OadsPP6muqSpyv1iiVpwXnKJBfXT5Teu2XY83Jw7UpRXUaB8xC6W+4yrz9W+l8qY+8FAAAAAAAAAAAAAH7dFUfUFdc=
   </data>
  </layer>
- <layer name="Over" width="100" height="100">
+ <layer name="Over" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt00sKwjAUBdC0jl2Bn6lDRQWHirgBPwvpjtyqESuEQkRSRZBz4ELp6wull4YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIlh4d42ZpeZTQvPpLyPV/RRLtdHVYVQJxlU7513rPTRx6f/j2utjz5K+5jHLDIzfZQbhfx3zbl3Mc7sPmeUacLju06SzJLrZcwqZp3cG7d76e6sM6OfJskmud6380PnmW7SHb7nFHOOufz6RQAAAAAAAAAAAAAAAAD+xA2lvRAL
+   eJzt0EsKwjAUBdBUx67Az7RDRQWHirgBPwtxR27ViAqhEJFMtO05cKH09YXmhgAAAAAAAABAm4wK97Yxu8xsVnjmPynt5ZMu91JVIQySDKvvzjtW3e6l1G3Q717mMYvMrAu9jEP+fjmPTiaZ3fes7a7heb9pkjp5XsasYtbJu8lrL92tG7OuuCbZJM/71/zQ+KaZdKcPTjHnmMuvfwQAAAAAAAA+uAPfRRAL
   </data>
  </layer>
- <layer name="Collision" width="100" height="100">
+ <layer name="Collision" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1DsKwCAQBUAh97+sYB+ElMFPUIw4C4PVgu5T4xVCBAAAAAAAAAAAAAAAAAAAAAAAAAAAALaVK6/psXo/J+qpWu/qs+yuVqkw85a86Pc285Y3IovxWu94T078Iw+ZzMsk19d/jDl51OYuj/V5lHpXn+ME5gwAAAAAAAAAAAAAAAAwzg37luzb
+   eJzt00EKgCAQBVCh+182cB9CyzKNcNDewMPVgP+X+5bSDgAAAAAAADCJMuXMp+j7RHfROk+70VlGdZIr2Vt6m9lV9pZ/ZuVOWr95T18r+LKXP3RT5u37WkXv3O1F54jspbYbnWN0Z9F3AAAAAAAAgJoDRYA82A==
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="To balcony" x="2016" y="2080.5" width="32" height="32"/>
-  <object name="To main hall" x="1888" y="1792" width="32" height="32"/>
+  <object name="To balcony" x="1056" y="1120.5" width="32" height="32"/>
+  <object name="To main hall" x="928" y="832" width="32" height="32"/>
  </objectgroup>
 </map>
