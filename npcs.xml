@@ -245,6 +245,12 @@ IDs 990-999 = Special
         <menu name="Poke" command="w2 NPC:'NAME' poke"/>
     </npc>
 
+    <npc id="801">
+        <!-- npc with player look. -->
+        <sprite>races/human-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+
     <!-- Special NPCs -->
 <!-- WIP     <npc id="900">
         Savepoint, 32x32.
