@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="60" tilewidth="32" tileheight="32" backgroundcolor="#6d6d6d">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="60" tilewidth="32" tileheight="32" backgroundcolor="#6d6d6d" nextobjectid="3">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -38,39 +38,42 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="753" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="753" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="757" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1009" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1013" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1skNwjAUhGGz3FgkEBI3WoECoJf0RE+hA+iAM7aIxegpjlgChvAfPpHEtmBGTkLhnCsAAAAAAAAAAADwFiNv+oBxw9rxE9//jUKujder9L3SG8q1/cC5mZyvq/y6NszRsdy5XjXxdu6aO5hXvSzk2lKOg623MmuXZix3rrZ6OYpS1J3bXnS8K70UkrdJaY7jWp1zNmO/LtWB7ULnhH0R98rByJ2nLWeT3eZUei/tEvNz52lzv+jzI+ab925sL/rZ1V7s/dK0X2wnXe4ltV+a7qN/6SX1DrLP23hN91pXe4n5bA91/2GOd/SaO8snnETu3wIAAAAAAAAAAACkXADYgVtx
+   eJzt1skNwjAUhGGz3FgkEBI3WoECoJd0RUehA+iAM7aIxegpjlgChvAfPpHEtmBGTkLhnCsAAAAAAAAAAADwFiNv+oBxw9rxE9//jUKujder9L3SG8q1/cC5mZyvq/y6NszRsdy5XjXxdu6aO5hXvSzk2lKOg623MmuXZix3rrZ6OYpS1J3bXnS8K70UkrdJaY7jWp1zNmO/LtWB7ULnhH0R98rByJ2nLWeT3eZUei/tEvNz52lzv+jzI+ab925sL/rZ1V7s/dK0X2wnXe4ltV+a7qN/6SX1DrLP23hN91pXe4n5bA91/2GOd/SaO8snnETu3wIAAAAAAAAAAACkXAAO71t5
   </data>
  </layer>
  <layer name="Ground2" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1E0OgjAQhuGCC9eGeADBlRcwHsOoOz2FJxVOQDiBegGHQOOkguBC/vI+yZeUoU3aCcUYAAAAAAAAAAAAoF8z53neYk2bOWMX9L2BAdmXCSWRZK1qburWVr0bs8uP889qfJMkkoVvzNIvnqcoP1f8JYkz/y55SDJJWo6n4uAZc/KKcarqR+9zblaxPjPvvrh9G7OrOr/ty0JqW8lGspME5Rzbl/wu2ftna/m38/z3Znti+7KSPoQqkdMXTdfSivdT0HSupns01b7Y/2hd3HuS/6d1X+LOdjp8ulf33nbRLf2tAAAAAAAAAAAAAEP1AnPQOx0=
+   eJzt1EsOgjAUheGCA8eEuADFkRswLsP4GOkqXKmwAsIK0A14CTTeVBQcKI/8X3KStrRJe0NrDAAAAAAAAAAAANCtidOftljTZs7QhU7/0GLN8Rcb6YFtlYUkkizVmJt3a+u+Ddn5y/kn1b5KEkngGzPzy/4YFeeKPyRx5ueSmySTpFV7LHaevCFe2U7V+N57nZvVrM/Msy5u3Ybsos5v6xLI2FqykmwkYTXH1qW4S/b+2bHi37n/erMdsXWZSx0WKpFTF02PpTXfx6DpXE33aKx1se/ou7j3pHindV3iv+20/3St8s528V/6XwEAAAAAAAAAAAD66gGjGzvI
   </data>
  </layer>
  <layer name="Fringe" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1TEKwjAUxvEaXDuom4seQHDU1TPoqGCP4AU8kJ5GPYG4dK1ewBeMGMGmUK3Vx/8HHwkJgfQ1TaMIAAAAAAAAAAAAgDbDRt07qMbG3NqttEtJIonNY75pXq9b54z/u2nguVoy15P0JR3zXIOFpO3GrXmlu/yuScG7ngW+Dbv2JO3Z5fjBfdVt8OadsPP6muqSpyv1iiVpwXnKJBfXT5Teu2XY83Jw7UpRXUaB8xC6W+4yrz9W+l8qY+8FAAAAAAAAAAAAAH7dFUfUFdc=
+   eJzt1UEOwUAYhuGa2HaBnQ0HkFiyteACLEn0CC7gQJwGJxAb23IBf2PESHQqZbSdvE/yZSbTTvJ3Op0GAQAAAAAAAAAAAFAu4w/umTivotr6taIrcGOj7u1W2qUkkoTqeb2u3s9bp4xX3dTyXA251pF0JS31ugYLSVOPJ+ZOq/yvUca7nlm+jWTuSdqLzvGHdRWt9+WZsDP6Pq1LmrasVyg5Z+ynWHLV/cjTczePZL8cdLvyaF0Glv1gO1seYqM/9PS/lMfeCAAAAAAAAAAAAACU3Q1YqxZi
   </data>
  </layer>
  <layer name="Over" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt0EsKwjAUBdBUx67Az7RDRQWHirgBPwtxR27ViAqhEJFMtO05cKH09YXmhgAAAAAAAABAm4wK97Yxu8xsVnjmPynt5ZMu91JVIQySDKvvzjtW3e6l1G3Q717mMYvMrAu9jEP+fjmPTiaZ3fes7a7heb9pkjp5XsasYtbJu8lrL92tG7OuuCbZJM/71/zQ+KaZdKcPTjHnmMuvfwQAAAAAAAA+uAPfRRAL
+   eJzt0k0KwjAQhuFJXHsCq9suFRV0p4gX8OcgvZFn9OcAHbHCEEgt2Wjj+8AHoZMJyVARAAAAAAAAAAAAAECfDBP7NpptpDZJPPOXdJnL1YvcNHfNw7fvWfu85+KciDcZuG7nHVzec0l1yfx/+WSqmUVqOcxlJPH3xTxnUkR637W+q+T1vrFJadZzzUKzNN+Kps/2lkEtF5XJyqx3TX0f7Alje/7BUXPSnL99EQAAAAAAAAAAAKBFDamqFf4=
   </data>
  </layer>
  <layer name="Collision" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt00EKgCAQBVCh+182cB9CyzKNcNDewMPVgP+X+5bSDgAAAAAAADCJMuXMp+j7RHfROk+70VlGdZIr2Vt6m9lV9pZ/ZuVOWr95T18r+LKXP3RT5u37WkXv3O1F54jspbYbnWN0Z9F3AAAAAAAAgJoDRYA82A==
+   eJzt00EKgCAQBdCg+183cBdCSx00oiF7A482Dvg/duzbdgAAAAAAAAB8RJ36LZfs+2R3MTrRbnaONzspjTO93ewsT2tlH3kzK/cS5Z55V3r5Ry9R5rv/1ypmp7eXnSOzl2g3O8fbnWXfAQAAAAAAACInlfl/bw==
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="To balcony" x="1056" y="1120.5" width="32" height="32"/>
-  <object name="To main hall" x="928" y="832" width="32" height="32"/>
+  <object id="1" name="To balcony" x="1056" y="1120.5" width="32" height="32"/>
+  <object id="2" name="To main hall" x="928" y="832" width="32" height="32"/>
  </objectgroup>
 </map>
