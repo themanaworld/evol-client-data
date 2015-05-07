@@ -294,6 +294,11 @@ IDs 990-999 = Special
         <sprite>npcs/xml/artisindoor-wood.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
     </npc>
+    <npc id="909">
+        <!-- Falling leaf, generic green leaf falling from a tree. -->
+        <sprite>npcs/xml/treeleaf.xml</sprite>
+        <menu name="Touch" command="talk 'NAME'"/>
+    </npc>
     <npc id="999">
         <!-- No sprite. -->
         <menu name="Talk" command="talk 'NAME'"/>
