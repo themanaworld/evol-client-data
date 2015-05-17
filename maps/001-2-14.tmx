@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="65" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="65" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -67,7 +67,7 @@
  </layer>
  <layer name="Over" width="65" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt0LEKwjAUBdBAR910003/Ri0uBT+j/z/5gggS6mKHyus5cIeEDLm3FAAAAAAAAP7Rpitl2y39i+U8ovsusv9xgyHBdnWDQ+S48g1OkfPKN5jDBjaobJBjg2t0uDc9bnHuJ+5b9d0lwQZjee3Qf6T2mrpv836XwTgjmXzrtZb+AAAAAABALk9jhBiS
+   eJzt1jEKwkAUBNCFlNppp53exig2gsfI/Sv/QtKE2Jgi8vc9mCLLFpmpthQAAAAAAID/M4xp2a4rZd9t/RfbeUf3Q+T44wavBNvVDU6Rc+MbXCLXxjdYwwY2qGyQY4M+OjxnPe7x/Vg4n6v3bgk2qO/Dfuw8pfZaOp9nupfBsCKZfOvVSn8AAAAAACCXD+2kGXI=
   </data>
  </layer>
  <layer name="Shadow" width="65" height="61">
@@ -75,15 +75,15 @@
    eJzt1jEKg0AURdEBUTvRQiSNxEbd/wqdEYuQNo3xnwN3AfOaPykBAAAAAADcS1393r8rb1hze/ANSl2uybUf9cE2GHPTV4MN0ssGNrDB2RJsg/m6kdtVuZXvYBtE/yPZwAYAAAAAAABPdAAo8QmY
   </data>
  </layer>
- <layer name="Collision" width="65" height="61">
+ <layer name="Collision" width="65" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0kEKwCAMBEChfxP8/4d66aEUsfFQtGECc082W49SKgAAAAAAALCldlm9x24ZRGb13l9n0F5yyNab3m9H/87Yg9m+Z+/BKIdIPn/1vOd+40w/sol2I7vIrN4RAAAAAACAvhOADlcH
   </data>
  </layer>
- <objectgroup name="Object">
-  <object name="To First Floor" type="warp" x="800" y="864" width="64" height="32"/>
+ <objectgroup name="Object" visible="0">
+  <object id="1" name="To First Floor" type="warp" x="800" y="864" width="64" height="32"/>
  </objectgroup>
- <layer name="Heights" width="65" height="61">
+ <layer name="Heights" width="65" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw8EJACAMBLDCja/u7KNLiE0gVQAAAAAAAMCrTvpkO32ylQ4AAAAAAAAA/OkCRv8DWw==
   </data>
