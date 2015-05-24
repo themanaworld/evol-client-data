@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="64" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="64" tilewidth="32" tileheight="32" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -50,12 +50,12 @@
  </layer>
  <layer name="Ground 2" width="69" height="64">
   <data encoding="base64" compression="zlib">
-   eJzt008OwUAUx/HRpNhaWLLyJ87hBBbCgoWV8+AE4kQ4gZQD+Lf3Gm1MJq1okykm30/yC+/1SaZPRikAAAAAAAAAAAAAWVSMupowY/bM37hm/MHM0KhHNg7yIwYpyTv376ZGXfOUakiakokx50uvLOl7r9m6MeeChWQpWUm2kl2UfcJs2nPfs3zIgq2jz43koPVv6vnusfD7XasDy+f6prSdxII3/W7J1qm+K9zJXOXbSUvuTFvScezu6LLuxFUz7T8+S07G86SdHCVXre45eodi4V4uWuJ3T+oBAAAAAAAAAAAAAFCEB2TpMrg=
+   eJzt008OwUAUx/HRpNhaWLLyJ45jISxYWDkPTiBOhBNIOYB/e6/RJmMyFW1S1cn3k/zCe32S6ZNRCgAAAAAAAAAAAEAaNaOuW2bMnvkb10y+mBkZ9TiPg/yJYUKyzpXdzKgbnlItSVsyNeZ86VW999mmMeeCpWQlWUt2kn2Ug2U26bnvWYZLbBN9biVHrX9Xr3ePhd8fWh3kfK4iJe0kFnzo9yt5napY4U4WKttOOnJnupKeY3dHl3Ynrppr//FFcjae23Zykty0euDoHYqFe7lqid/d1gMAAAAAAAAAAAAA4BeeGFEycw==
   </data>
  </layer>
  <layer name="Fringe" width="69" height="64">
   <data encoding="base64" compression="zlib">
-   eJzt000KwjAQBtASz+QRSj1CF7otbqq9XU/mz9IsFGx0oaAm1PdgSCZkMfkgVQUAAAAAAAC8Y5X09ZM76VnzpVko2zLknqAM7Ys5LP40r/Hu3Ye4PyY53M5Osc5h2s9VP+O3fdI61ib3ED/WXddt1inKso//ZfBnHuxkMiEPAAAAAAAAAEp3Aba0Dts=
+   eJzt00EKwjAQAMBS39QXiOgTetCreLH1d31Z1aM5KLTRg4Ka0M7AkmTZw+5CigIAAAAAAAD4xCZ6r17UxLn1j3ohb1WZuoM81G/uYTGoW85od91g1j7cz9Hsj9wlxLUcv6fqOOHZvmkbYpe6iT/b389D0i7y0ob/cvJnnjR2MmIfAAAAAAAAAOTuBgNbDyA=
   </data>
  </layer>
  <layer name="Over" width="69" height="64">
@@ -69,7 +69,7 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To First Level" type="warp" x="832" y="992" width="96" height="32">
+  <object id="1" name="To First Level" type="warp" x="832" y="992" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-2"/>
     <property name="dest_x" value="864"/>
