@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="75" height="67" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="75" height="67" tilewidth="32" tileheight="32" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -54,12 +54,12 @@
  </layer>
  <layer name="Ground 2" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJzt1T1KA0EUwPHZbRTBIpUfXZITiIi1iIV2KyhItFDwANHCysbK2huIN/AmMSeQ6AGisfctO6uzz8kOiEJ2+P/gsTvzZh/Zx0zWGAAAAAAAAAAAAAAAmmO+JjcXGH/NJ0WdheRvftOsOqzJHQTGpeWkyC1F2qtsSoTyoTX7kfXrxLlfSY1ZldhOi/HI5gcST54YShzbNbtpte6p9OksKfIxact7diS66n1H9vossWb3yK2sWZT79eQ779OX/IWNmOh9M7Tzbq9a8s4dJ3y9GnhqxOZDjSf26vaqLb3p2j1S3uteuXUmJk4bgXMylnjzxPt//7AZtBPo1V1NuDbV/11s8m/Yq5p7MdXv1/2UZx/sNfPUKWtk+qEGy7/1+ozlZ2vP2SOPNXEk0bPrxqrGVuT77DduPHM96dOVxDX9qtC9cvtzTq8qdK8u02Jf4SffGQQAAAAAAAAAAAAAoEk+AUvRTx0=
+   eJzt1T1KA0EYxvHZbRTBIpUfXZITiIi1hYV2KyhItFDwAMbCysbK2huIN/AmMSeQ6AGisfdddtbMvk52QBSyw/8HL7vzsUP2YSZrDAAAAAAAAAAAAAAAzbFYM7YQaH/3J8U6S8nf/KZ5dVQzdhhol1aTYmwl0qyyGRUaD805iCyvU+d+LTVmPZ22R3Z8IPXsqaHUiZ2z5zyXO5OczpNiPCZtec+OVFe978heX6Q27B65kznLcr+ZTMd9LmW8bysmet8Mbb+bVUveueOUL6uBZ43YfKr2xF7drNqSTdfukfJeZ+WuMzFx2gqck7HUu6c+/vuHzaHdQFb3NeXaVv93scm/YW+q79VUv18PM559tNfMs065RqYfarD8W6/PWH629p098lRTx1I9O2+s1tiJfJ/9xq2nryc5XUvdkFeFzsrN54KsKnRWV2mxr/CT7wwCAAAAAAAAAAAAANAkX2rPTtg=
   </data>
  </layer>
  <layer name="Fringe" width="75" height="67">
   <data encoding="base64" compression="zlib">
-   eJzt1T1KA0EUAODZLNpvYhfFSoyFTSBHML2CnZVHyAX0CsGTqDfwZL7gBLKQn41FNLvfB49hZh7DvMcsmxIAAAAAAAAAHI/plr27HfOme3THpNcs76th3sJ9kdJ58bv7HKOnPJ5Ej04jxrn2xVjF/GJL7y4j5zbioUX9KlfqrcqU+hGDiLOynjcs6nvL3HVWz+max/w2BnmsWvRW9nXV4dr5O/MN628HvcX/NN7zm3xO9X9El71vWP+M+IgezQ55mRabeW87vUSPXlvYp1HUdJPruu79zAEAAAAAAAAA1vkG5C8MTg==
+   eJzt1UFKw0AUANBJg+5j3VlxJdaFm4InEN1XcOfKI/QCegXxJNUbeDJ/cYQGmjZ1UW3yHnzCn/mE+Z8JSQkAAAAAAAAA9sfdmr3bDXnbPfrjetCu7rNl3cK0SGlU/O48++Qmz+Qx5weRH0ZMcu+LZxX56ZrZnUXNVcR9h+ZVLvVblSkdRQwjjst63UlR3/upXWX5PX3zkO/GMD+rDt2VbZ33uHf+zmvD+ttOT/E/Tbb8Jp9S/R/RZ/OG9Y+I95jRbJeH6bCZ+7bRc8zopYNzGkdPl7mvi8F3DgAAAAAAAACwyhfFMQyT
   </data>
  </layer>
  <layer name="Over" width="75" height="67">
@@ -73,7 +73,7 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To Artis" type="warp" x="1184" y="1312" width="32" height="32">
+  <object id="1" name="To Artis" type="warp" x="1184" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1600"/>
