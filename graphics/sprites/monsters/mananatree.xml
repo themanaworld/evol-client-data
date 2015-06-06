@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/mananatree.png"
+              width="96"
+              height="128"/>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="95"/>
+            <goto label="longmoving" rand="50"/>
+            <!-- Simple Move Animation -->
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="100"/>
+            <goto label="start"/>
+            <label name="static"/>
+            <!-- Static Animation -->
+            <frame index="0" delay="260"/>
+            <goto label="start"/>
+            <label name="longmoving"/>
+            <!-- Long Move Animation -->
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="100"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+
+    <action name="hurt" imageset="mob">
+        <animation direction="default">
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="100"/>
+            <frame index="0" delay="50"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation>
+            <!-- Falling Croconut -->
+            <sequence start="5" end="9" delay="70"/>
+            <sequence start="10" end="18" delay="90"/>
+            <frame index="19"/>
+        </animation>
+    </action>
+</sprite>
