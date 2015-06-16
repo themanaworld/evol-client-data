@@ -8,7 +8,12 @@ Copyright (C) 2015 Evol Online -->
               height="96"/>
 
     <action name="stand" imageset="npc">
+        <!-- Head down -->
         <animation direction="default">
+            <frame index="1"/>
+        </animation>
+        <!-- Head up -->
+        <animation direction="up">
             <frame index="0"/>
         </animation>
     </action>
