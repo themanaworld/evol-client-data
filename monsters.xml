@@ -68,8 +68,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="spawn">monsters/croc/spawn1.ogg</sound>
     </monster>
     <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim" sortOffsetY="30">
-        <sprite>monsters/blub-little.xml</sprite>
-        <sprite>accessories/littleblub-tentacle.xml</sprite>
+        <sprite>monsters/crafty.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
@@ -144,5 +143,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+    </monster>
+    <monster id="16" name="Crafty" targetCursor="small">
+        <sprite>monsters/crafty.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
 </monsters>
