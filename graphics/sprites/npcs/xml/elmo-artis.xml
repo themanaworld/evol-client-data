@@ -5,7 +5,8 @@ Copyright (C) 2015  Evol Online -->
     <imageset name="base"
               src="graphics/sprites/npcs/sprite/elmo-artis.png"
               width="64"
-              height="64"/>
+              height="64"
+              offsetX ="-12"/>
 
     <action name="stand" imageset="base">
         <animation direction="default">
@@ -13,13 +14,13 @@ Copyright (C) 2015  Evol Online -->
             <goto label="blink" rand="10"/>
 
             <!-- Leg animation -->
-            <sequence value="0,3,4,5,4,3" delay="120" offsetX="-12"/>
+            <sequence value="0,3,4,5,4,3" delay="120"/>
             <goto label="start"/>
 
             <!-- blinking and last frame of leg animation -->
             <label name="blink"/>
-            <sequence start="1" end="2" delay="60" offsetX ="-12"/>
-	    <frame index="3" delay="120" offsetX ="-12"/>
+            <sequence start="1" end="2" delay="60"/>
+	    <frame index="3" delay="120"/>
             <goto label="start"/>
         </animation>
     </action>
