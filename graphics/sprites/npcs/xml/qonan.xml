@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015  Evol Online -->
+<sprite>
+    <imageset name="base"
+              src="graphics/sprites/npcs/sprite/qonan.png"
+              width="32"
+              height="64"/>
+
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="blink" rand="10"/>
+
+            <!-- static -->
+	    <frame index="0" delay="350"/>
+            <goto label="start"/>
+
+            <!-- blinking-->
+            <label name="blink"/>
+            <sequence value="1,2,1" delay="90"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>
