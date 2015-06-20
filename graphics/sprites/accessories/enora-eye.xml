@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2015  Evol Online -->
+<sprite>
+    <imageset name="eye"
+              src="graphics/sprites/accessories/eye-down-blink.png"
+              width="16"
+              height="8"
+              offsetY="-42"
+              offsetX="-1"/>
+
+    <action name="stand" imageset="eye">
+        <animation direction="default">
+            <label name="start"/>
+            <!-- 4% -->
+            <goto label="blink" rand="4"/>
+            <!-- 100% on static animation -->
+            <goto label="static" rand="100"/>
+
+            <!-- Static animation -->
+            <label name="static"/>
+            <frame index="0" delay="160"/>
+            <goto label="start"/>
+
+            <!-- Blinking animation -->
+            <label name="blink"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>
