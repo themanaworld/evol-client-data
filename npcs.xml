@@ -114,6 +114,13 @@ IDs 990-999 = Special
         <sprite variant="0">npcs/xml/unanimated-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="119">
+        <!-- Human Female, newbie guide. -->
+        <sprite variant="11">npcs/xml/unanimated.xml</sprite>
+        <sprite>accessories/enora-eye.xml</sprite>
+        <sprite>accessories/enora-hair.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
