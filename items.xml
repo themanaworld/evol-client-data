@@ -590,6 +590,19 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/cottonshirt-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
     </item>
     <item id="1301"
+        image="equipment/chest/vneckjumper.png|S"
+        name="V-neck Jumper"
+        description="A simple %color% jumper made from a lightweight cloth"
+        defense="14"
+        type="equip-torso"
+        weight="30"
+        maxFloorOffsetX="7"
+        maxFloorOffsetY="10"
+        colors="vneck">
+        <sprite gender="unisex">equipment/chest/cottonshirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
+    </item>
+    <item id="1302"
         image="equipment/chest/tanktop.png|W"
         name="%Color% Sailor Tank Top"
         description="A %color% tank top used by sailors and seamen."
@@ -601,7 +614,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/tanktop-male.xml</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml</sprite>
     </item>
-    <item id="1302"
+    <item id="1303"
         image="equipment/chest/sailorshirt.png"
         name="Sailor Shirt"
         description="Proof that ye be in the crew, matey!"
