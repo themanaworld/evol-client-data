@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
  <properties>
   <property name="manaplus version" value="2"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
@@ -13,6 +14,9 @@
  </tileset>
  <tileset firstgid="257" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="level-number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Grass" width="100" height="100">
   <properties>
@@ -38,6 +42,11 @@
  <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Heights" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEKgEAQBMFjQQX//2C5zOQSwWWUKugX9BgA/3fWO/GMH1n8yOJHFj+y+JHFjyx+ZPEjix9Z/MjiR6+t1k1+9PIjy17rJj96+ZHlqHWTH738+BY/sviRxY8sfmTxAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4uwDCRRkJ
   </data>
  </layer>
 </map>
