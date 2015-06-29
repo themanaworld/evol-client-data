@@ -121,7 +121,7 @@ IDs 990-999 = Special
         <sprite>accessories/enora-hair.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-    <npc id="120">
+    <npc id="120" nameOffsetX="-7" targetOffsetX="-7">
         <!-- Demon Male, sword trainer. -->
         <sprite variant="12">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
