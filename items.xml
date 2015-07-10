@@ -592,7 +592,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="1301"
         image="equipment/chest/vneckjumper.png|W"
         name="V-neck Jumper"
-        description="A simple %color% jumper made from a lightweight cloth"
+        description="A simple %color% jumper made from a lightweight cloth."
         defense="14"
         type="equip-torso"
         weight="30"
@@ -605,7 +605,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="1302"
         image="equipment/chest/tanktop.png|W"
         name="%Color% Sailor Tank Top"
-        description="A %color% tank top used by sailors and seamen."
+        description="A %color% tank top"
         defense="10"
         type="equip-torso"
         weight="11"
@@ -618,13 +618,37 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/chest/sailorshirt.png"
         name="Sailor Shirt"
         description="Proof that ye be in the crew, matey!"
-        defense="13"
+        defense="18"
         type="equip-torso"
         weight="22"
         maxFloorOffsetX="8"
         maxFloorOffsetY="10">
         <sprite gender="unisex">equipment/chest/shirt-male.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
         <sprite gender="female">equipment/chest/shirt-female.xml|#131913,1b231d,233129,35433e,4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
+    </item>
+    <item id="1304"
+        image="equipment/chest/trainingshirt.png"
+        name="Legion's Training Shirt"
+        description=""
+        defense="20"
+        type="equip-torso"
+        weight="120"
+        maxFloorOffsetX="8"
+        maxFloorOffsetY="8">
+        <sprite gender="unisex">equipment/chest/trainingshirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/trainingshirt-female.xml</sprite>
+    </item>
+    <item id="1305"
+        image="equipment/chest/copperarmor.png"
+        name="Legion's Copper Armor"
+        description=""
+        defense="40"
+        type="equip-torso"
+        weight="340"
+        maxFloorOffsetX="8"
+        maxFloorOffsetY="8">
+        <sprite gender="unisex">equipment/chest/copperarmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/copperarmor-female.xml</sprite>
     </item>
 
     <!-- Boots -->
