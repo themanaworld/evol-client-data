@@ -273,9 +273,14 @@ IDs 990-999 = Special
         <sprite>equipment/chest/vneckjumper-female.xml|#284c4b,5da485,bbe4bb</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-    <npc id="428" nameOffsetY="7" >
+    <npc id="428" nameOffsetY="7">
         <!-- Raijin Male, fishing with his rod. -->
         <sprite>npcs/xml/eugene.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="429">
+        <!-- Human Male, hammering a sword. -->
+        <sprite>npcs/xml/chelios.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
