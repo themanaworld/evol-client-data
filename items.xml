@@ -850,6 +850,22 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
+    <item id="3502"
+        image="equipment/weapons/traininggladius.png"
+        name="Training Gladius"
+        description=""
+        attack="25"
+        level="5"
+        type="equip-1hand"
+        weapon-type="sword"
+        attack-action="attack"
+        weight="58"
+        maxFloorOffsetX="8"
+        maxFloorOffsetY="10">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
 
     <!-- Pets -->
     <item id="4000"
