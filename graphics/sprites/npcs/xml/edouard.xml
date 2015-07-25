@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Author : Reid
+Copyright (C) 2010-2015  Evol Online -->
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/sprite/barber.png" width="33" height="80" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- Scisor animation -->
+            <frame index="0" delay="9000"/>
+            <sequence start="1" end="3" delay="120"/>
+            <frame index="4" delay="130"/>
+            <frame index="5" delay="160"/>
+            <frame index="6" delay="130"/>
+            <frame index="5" delay="160"/>
+            <frame index="4" delay="130"/>
+            <frame index="5" delay="160"/>
+            <frame index="6" delay="130"/>
+            <sequence start="7" end="9" delay="120"/>
+        </animation>
+    </action>
+</sprite>
