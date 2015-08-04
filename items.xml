@@ -680,6 +680,30 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/armbands-male.xml</sprite>
         <sprite gender="female">equipment/hands/armbands-female.xml</sprite>
     </item>
+    <item id="2001"
+        image="equipment/hands/copperarmbands.png"
+        name="Copper Armbands"
+        description=""
+        defense="8"
+        level="6"
+        type="equip-arms"
+        weight="35"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+    </item>
+    <item id="2002"
+        image="equipment/hands/ironarmbands.png"
+        name="Iron Armbands"
+        description=""
+        defense="11"
+        level="9"
+        type="equip-arms"
+        weight="9"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+    </item>
 
     <!-- Pants -->
     <item id="2200"
