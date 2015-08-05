@@ -136,6 +136,11 @@ IDs 990-999 = Special
         <sprite variant="1">npcs/xml/unanimated-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="123">
+        <!-- Raijin Girl, crappy face. -->
+        <sprite variant="14">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
