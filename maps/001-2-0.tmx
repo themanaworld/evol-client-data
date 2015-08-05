@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="66" height="72" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="66" height="72" tilewidth="32" tileheight="32" nextobjectid="3">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -25,18 +25,21 @@
  <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="713" name="Pavement" tilewidth="32" tileheight="32">
+ <tileset firstgid="713" name="Accessory x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="745" name="Pavement" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="841" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="873" name="Sunlight" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="845" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="877" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt2DFOwzAUxvFHGSlITCwIiZ2FE0D35i65FEfgJuCZqUdgBVfY6tOTHVXCiqOX//BTktrD8xc7cTqKyAgAAAAAAAAAALAyV9HNhO1En+0C6m+VwWt0Ef1sRHbp/Dn62vydv6Q+ue3pUuRWTm0esriOhjSmu3R8M9d71Sf//qjaHhYwjlY5HKLPdHyPgrreqz6H1BZUm4ccRjWmj4KgfKsstN71t84hz4FM3/vcpzQnetffOgd9v0PlaM895VAam73n+VyvGY852PHbLOyayY6/3y9gDK3zGKW89qeeox72D1owOQTVNkh5Pnh6b5bysGt/kPLzwXMOtWxq79Xetc2dQ+n54Ol9cY6877bWlkNtPqxxXdg5kb85etc2dw61PWfv2uY0tdfuXdvc88H7d9a58yFU9K6tRxZe/4P5Txa9awEAAAAAAAAAAEB/vyRsXWw=
+   eJzt2MFNxDAQheFBe2RB4sQFgSiBCoB70kuaogQ6AZewJXDGCFuMRna0ElEmmvyHT8nGPoxf7MTZSUQmAAAAAAAAAACAnbnMrmccZ/ocN1D/Uhm8ZBfZw0HktZw/ZXL4PX8ufWrbkK/fyF9bhCyusrGM6bYc38zvQfWp1x9V2/0GxrFUDqfssxzfs6R+D6rPqbQl1RYhh0mN6aMhKV8qC827/qVzqHOg0ve+9mnNCe/6l85B3+/UOdrzSDm0xmbveT3XayZiDnb8Ngu7Zqqf63cbGMPSeUzSXvtzz9EI+wctmRySahulPR8ivTdbedi1P0r7+RA5h142vfeqd21r59B6PkR6X5yj7rutveXQmw97XBd2TtRvDu/a1s6ht+f0rm1Nc3tt79rWng/Rv7POnQ+pw7s2jyyi/gfznyy8awEAAAAAAAAAAIC/b3VgW84=
   </data>
  </layer>
  <layer name="Ground 2" width="66" height="72">
@@ -46,28 +49,28 @@
  </layer>
  <layer name="Fringe" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1UFqwkAUBuAx6dZFF609gAt7jC4qaN240JW9SPEM7a4nkZ7PVwwowYASjJp8H/wkE95iZt6ESQkAAAAAAICuG5fG7xV1Vd/bYnlm/W/vItO4qlGW0mtkU4z/iuf8SO06a2hSN2IQ632JfEWG0fu3g/U/xvtz5KGFezLJU5pGPiKzfD9exB6MIj+x5v7Bv/Cd7era4pSe/u/F05FkLTwPXdev0dOe80Chzjnivn1WfF81OovbUL5f3Zndlpf6784EAAAAAAAAADjdFlz+Cxo=
+   eJzt1UtqwlAUBuBr4tSBg6oLcKDLcFDnDtpRuwC1Kyhdg511JeKW6jJ6pAElGLCIjybfBz/JvZzAfZKUAAAAAAAAaLppqf1YUVfVXxfPf6z/al1kGDc1ylIaR9ZFe1M8Z0dqP7IrDepO9GO+g8h7ZBh7PzmYfzfee5F2Dddknqe0iCwjb/m+/RRrMIp8xpw7B3dhlf3W1cUpe7pbi4dSvuO7bQ3PQ9N1ztjTlvNA4ZxzxP/2WtH/ctVR3Ify/zVzLxotL+2/fyYAAAAAAAAAwOl+AFCJDbM=
   </data>
  </layer>
  <layer name="Over" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1s0KgkAUhuFTrruCym1LowLbFdWmn1V1H3kpXXJHZqRJSCU00Xkf+JCBYRg/UI4IAAAAAAAAAAAAUOw5FAkHbd8CaFaiGdVwTmjP6qpfezgGIifNWXMJ/O0hjx6MPvQw1sxL9kUFe6Jab9SORN5dTDUz+1xolpqVXT802y9nbBq/5X8kTtb2udPsNQep79vpoqvmprmL3z24qvTQ9f9kFfRg0INBDwY9GPRg0INRNnunc/VE/Ogh6yKdu92ZO11PnD19l71nLJ8zdyz+dJDnztwAAAAAAAAAAADAC0cnHqI=
+   eJzt1l0KgkAUhuFTXreCytsujQrsrqhWUG2iH8iltOSOzEiTkEpoovM+8CEDwzB+oBwRAAAAAAAAAAAAoNhzKBIO2r4F0KxEM6rhnNCe1VW/9nAJRK6am+Ye+NtDHj0YfehhrJmX7IsK9kS13qgdiby7mGpm9rnQLDUru35otl/O2DR+y/9InKztc6fZaw5S37fTRUfNSXMWv3twVemh6//JKujBoAeDHgx6MOjBoAejbPZO5+qJ+NFD1kU6d7szd7qeOHv6LnvPWD5n7lj86SDPnbkBAAAAAAAAAACAFydxHyI=
   </data>
  </layer>
  <layer name="Collision" width="66" height="72">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKgCAQBVCh+wXd/zJtCkJMWzWDvoG3qc34+ZT7VsoOAAAAAAAAcDkS7BB9/nvqd61nsxrNSj35kkVrovf+M4PRRO+fIYvovTNkMGsWo2/AzOfv5fKlN9F7/u2tKyv9U5/9qLuwWid6E72bPuiDHOSQgRzkUKvvUqvdoVrdiN4BAAAAAACAHE6y4LF0
+   eJzt1rsKgDAMBVDB/xX8/8VFoYT6mExoT+AsuqSXi3Zbl2UDAAAAAAAAOO0Fdsg+/zXxXe/ZqN5mpp58ySJO9s5/Z/A22ftXyCJ77woZjJpF7xvQnnPk8z/l8qU32Xv+7a4rM/1T237ELszWiafJ3k0f9EEOcqhADnKI4l1qtjtUrxvZOwAAAAAAAFDDAcKM8aM=
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
+  <object id="1" name="To Artis North" type="warp" x="960" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1632"/>
     <property name="dest_y" value="2112"/>
    </properties>
   </object>
-  <object name="To Artis South" type="warp" x="1184" y="1472" width="32" height="32">
+  <object id="2" name="To Artis South" type="warp" x="1184" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1760"/>
