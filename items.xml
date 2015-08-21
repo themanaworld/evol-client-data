@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
 <!-- Authors: 4144, Piman, Reid
-Copyright (C) 2010-2013 Evol Online -->
+Copyright (C) 2010-2015 Evol Online -->
 
 <!--
 New organization (04/12/11).
@@ -600,7 +600,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="30"
         maxFloorOffsetX="7"
         maxFloorOffsetY="10"
-        colors="vneck">
+        colors="vneck"
+        iconColors="vneckS">
         <sprite gender="unisex">equipment/chest/vneckjumper-male.xml</sprite>
         <sprite gender="female">equipment/chest/vneckjumper-female.xml</sprite>
     </item>
