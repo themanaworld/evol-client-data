@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="70" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="70" tilewidth="32" tileheight="32" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -51,12 +51,12 @@
  </layer>
  <layer name="Ground 2" width="71" height="70">
   <data encoding="base64" compression="zlib">
-   eJzt1k9OwkAcxfEpgY1bFkQ3RiBx48a48RokGjZyKP+xJxr2wg24gXoCox5ACHsf6UxomqlCQphJ+/0kLwNtF7++tOkYAwAAAAAAAAAAAMDnVrlT7kMPEpGDJF1Hykx5CjlMpEZ2pZu1XiYms8KYRs2YyxrPjdP0HHtRJsp0z7PEpK10lK4yUF6Vt0zew40WnOviUO/RkbLMnf8MMFMsPv45TzfFqtzNj/JdcO5LWexxlhit+pl7UoVeGsqD8qgM7X+k+sqz/T1WrgPOEpPeH3F875NLWQ3smt/PuT3djfHv9/LXlNXqvt1+7ipZH89+m4u+4+6aVn3nY0XB3fe5ejlTLmw/23RzXPJuTtRJW+kk6fOzTTenJe1mk71Llfc3AAAAAAAAAAAAALCpX73TU9s=
+   eJzt1k1qwkAYxvEE6qbbLroUtdCNG+lJhEo39VD9ci+Ke+sNvIH1BKXtAbR030cyQ0KY+AGSGZL/Dx4mJlm8eYhkoggAAAAAAAAAAACAy5PyrLz4HiQgl3GyjpWlMvE5TKDGZqWbVD+TKLMixXuTuHKcmyvvyqLkWULSVjrKjTJUVspHJmt/o3mX7+Ivd/2r9InC8XngOt0Uq3M3G+Wn4Nq38lviLCHa9bN1pA69NJRX5U0Zmd9IPChTczxTBh5nCUl/TyzX/8mmqoZmze9h7J7uMXLv9/L3VNXuue1+7j5Oz2e/zUXfcXvP9cXZxwqCfe6eeukqd6afU7ppVrybljppK504eX9O6ea2ot0cs3ep8/4GAAAAAAAAAAAAAI71D+VeVQc=
   </data>
  </layer>
  <layer name="Fringe" width="71" height="70">
   <data encoding="base64" compression="zlib">
-   eJzt1M0JwjAYxvFai+DBAYonB1AQFbz2IA6kNzfw4AJ+gLiCOoE6gDc/bi7iA41YpIIKGhv+P3jIm0LLm5DU8wAAAAAAAAAAAADgNZd8PPbMvG+tE2RNy/e8uakXVjv5LwXfdgfImhFnJtXe5FGb/cIHODf4hOvnpqsUc3EdauxY7QZZkDd3YqmslLUy1LMgcVfqqqtKTWkm6obj9+lmo2yV3ZvvDRzfn4PWd1ROytm/z18RBt/tzZbIrH+slHPxWDJjWibKVJklvlFxdG/wXOT4vwIAAAAAAAAAAAAAfukKkVUaiw==
+   eJzt1M0JwjAYxvHaFsGDA1RPDqAgKnj1IA6kNzfw4AJ+gLiCOoG6gx83F/GBRuyhQhU0Nvx/8JCk0PLmJannAQAAAAAAAAAAAEA2tyAeh2Y9slYJ8qbje97KzNdWK/kvRfWl69uuAnky5bykitSXSkpvuF/4BOcGn3D93AyUUiGeRxr7VqtBHgTmTmyUrbJTJnoWJu5KU/O60lDaiXnL8fv0sFcOyvHN98aO9+ek/Z2Vi3L1n+ssovC7tdnSM/ufKdVCPJbNmJa5slCWiW/UHO0NXus5/q8AAAAAAAAAAAAAgF+6AygRGVg=
   </data>
  </layer>
  <layer name="Over" width="71" height="70">
@@ -70,7 +70,7 @@
   </data>
  </layer>
  <objectgroup name="Object" opacity="0.87">
-  <object name="To Main Hall" type="warp" x="1472" y="1312" width="32" height="32">
+  <object id="1" name="To Main Hall" type="warp" x="1472" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
