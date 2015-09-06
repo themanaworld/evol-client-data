@@ -83,10 +83,10 @@
  </layer>
  <layer name="Collision" width="72" height="68">
   <data encoding="base64" compression="zlib">
-   eJzt1tEOgiAUBmAvfG433rx14UZMESxE6Tvbt1Yc0/OH1TJP0wIAAAAAAABwgZDofT13I59r81krzJ+P7+o9a+t8jtZzOaw59Z73zGcdV27ekFlbX9vL8Gn5lFTI9KVrud60r/fs3+Zydu6avt45/CKbmhph/5RU2hvPs/X9Ex+Tzr71fJR8tuYrWT+qkfKpdXSP3Tmbknxanqf37HfIZ2//xP+le2fQM5+9XJ60j1plE7/31u/WU/JZ52iZfe3av5BPeUat7mEAAAAAAABgXC/+1EQV
+   eJzt1ssOgjAQBVAWfDdJ/9y4IKkNlIfQoeRMcmK0IzDXik7jMEwAAAAAAAAADaRC9PU8jXza5jNXGn8fvxU96935bK3Xcphzip73zGedV23eVFmbX1vLsLd89lSq9JVrtd6yL3r2f3M5O/eRvugcrsjmSL1h/+ypsjefZ+n+k7+nnH3p+VvyWZpvz/pWvSmfo7a+Y0/OZk8+d54nevYn5LO2f/L/0tEZROazlksv+6hVPku/W/KpH6eHfGoZXXnsnvOZr7V1/r1kAwAAAAAAAMT5AE1MO/U=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To Artis Main Road" type="warp" x="928" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -117,7 +117,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="72" height="68">
+ <layer name="Heights" width="72" height="68" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0rsKwzAMQNEM/t0+/38oHQoRuIoaSmucc0BDLC++ZFkAAAAAAAAAfuPe4hDdWhyia4tDdGlxMucD9Xu+tTe9/fos28/kXZ+9cyp2qt77h2832dtn1H9ulD6jqryzd3d9lu0rZunzuv/Jd8VMfY5Gm5w+OX22abNNDwAAAAAAAABm8wCBBU0r
   </data>
