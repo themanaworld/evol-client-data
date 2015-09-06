@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="250" height="175" tilewidth="32" tileheight="32" nextobjectid="30">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="250" height="175" tilewidth="32" tileheight="32" nextobjectid="25">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -133,58 +133,166 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object id="2" name="To Library" type="warp" x="1632" y="2560" width="32" height="32">
+  <object id="1" name="To Library" type="warp" x="1632" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-4"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="48"/>
+    <property name="dest_y" value="40"/>
    </properties>
   </object>
-  <object id="3" name="To Moon's House" type="warp" x="2240" y="2464" width="32" height="32">
+  <object id="2" name="To Moon's House" type="warp" x="2240" y="2464" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-2"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="38"/>
+    <property name="dest_y" value="38"/>
    </properties>
   </object>
-  <object id="4" name="To Light Armor Shop West" type="warp" x="1632" y="2080" width="32" height="32">
+  <object id="3" name="To Light Armor Shop West" type="warp" x="1632" y="2080" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-0"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="30"/>
+    <property name="dest_y" value="34"/>
    </properties>
   </object>
-  <object id="5" name="To Light Armor Shop East" type="warp" x="1760" y="2272" width="32" height="32">
+  <object id="4" name="To Light Armor Shop East" type="warp" x="1760" y="2272" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-0"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="37"/>
+    <property name="dest_y" value="45"/>
    </properties>
   </object>
-  <object id="6" name="To Harbourmaster Lodge" type="warp" x="5376" y="3168" width="32" height="32">
+  <object id="5" name="To Harbourmaster Lodge" type="warp" x="5376" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-16"/>
+    <property name="dest_x" value="32"/>
+    <property name="dest_y" value="35"/>
+   </properties>
+  </object>
+  <object id="6" name="graphics/particles/panels.xml" type="particle_effect" x="5760" y="800" width="32" height="32"/>
+  <object id="7" name="To Ship" type="warp" x="6208" y="3488" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="0"/>
+    <property name="dest_y" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="To Merchant Hall" type="warp" x="3200" y="1184" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-19"/>
+    <property name="dest_x" value="32"/>
+    <property name="dest_y" value="39"/>
+   </properties>
+  </object>
+  <object id="9" name="To Merchant Hall South" type="warp" x="3328" y="1376" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-19"/>
+    <property name="dest_x" value="41"/>
+    <property name="dest_y" value="49"/>
+   </properties>
+  </object>
+  <object id="10" name="To RedPlush's Right Entrance" type="warp" x="4288" y="2656" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-28"/>
+    <property name="dest_x" value="60"/>
+    <property name="dest_y" value="31"/>
+   </properties>
+  </object>
+  <object id="11" name="To RedPlush's INN" type="warp" x="3776" y="2816" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-28"/>
+    <property name="dest_x" value="29"/>
+    <property name="dest_y" value="39"/>
+   </properties>
+  </object>
+  <object id="12" name="To Dock Warehouse" type="warp" x="5824" y="2368" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-18"/>
+    <property name="dest_x" value="39"/>
+    <property name="dest_y" value="35"/>
+   </properties>
+  </object>
+  <object id="13" name="To Alchemy Lab" type="warp" x="5216" y="2240" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-26"/>
+    <property name="dest_x" value="28"/>
+    <property name="dest_y" value="46"/>
+   </properties>
+  </object>
+  <object id="14" name="To Geo and Meorwen's House" type="warp" x="4224" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-15"/>
+    <property name="dest_x" value="34"/>
+    <property name="dest_y" value="45"/>
+   </properties>
+  </object>
+  <object id="15" name="To Blacksmith" type="warp" x="3232" y="3424" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-27"/>
+    <property name="dest_x" value="35"/>
+    <property name="dest_y" value="35"/>
+   </properties>
+  </object>
+  <object id="16" name="To Town Hall" type="warp" x="2848" y="2080" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-7"/>
+    <property name="dest_x" value="36"/>
+    <property name="dest_y" value="45"/>
+   </properties>
+  </object>
+  <object id="17" name="To Legion of Aemil" type="warp" x="1728" y="1312" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
     <property name="dest_y" value="1"/>
    </properties>
   </object>
-  <object id="7" name="graphics/particles/panels.xml" type="particle_effect" x="5760" y="800" width="32" height="32"/>
-  <object id="11" name="To Ship" x="6208" y="3488" width="32" height="32"/>
-  <object id="12" name="To MerchantHall" x="3200" y="1184" width="32" height="32"/>
-  <object id="13" name="To MerchantHallBottom" x="3328" y="1376" width="32" height="32"/>
-  <object id="19" x="2635" y="2522"/>
-  <object id="26" name="To RedPlush's Right Entrance" type="warp" x="4288" y="2656" width="32" height="32">
+  <object id="18" name="To Noble House #1" type="warp" x="4544" y="960" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="0"/>
-    <property name="dest_y" value="0"/>
+    <property name="dest_map" value="001-2-12"/>
+    <property name="dest_x" value="34"/>
+    <property name="dest_y" value="35"/>
    </properties>
   </object>
-  <object id="28" name="To RedPlush's INN" type="warp" x="3776" y="2816" width="32" height="32">
+  <object id="19" name="To Noble House #2" type="warp" x="4091" y="960" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="0"/>
-    <property name="dest_y" value="0"/>
+    <property name="dest_map" value="001-2-1"/>
+    <property name="dest_x" value="37"/>
+    <property name="dest_y" value="40"/>
+   </properties>
+  </object>
+  <object id="20" name="To Merchant Hall North" type="warp" x="3328" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-19"/>
+    <property name="dest_x" value="41"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
+  <object id="21" name="To Merchant Hall" type="warp" x="3424" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-20"/>
+    <property name="dest_x" value="33"/>
+    <property name="dest_y" value="34"/>
+   </properties>
+  </object>
+  <object id="22" name="To Noble House #3" type="warp" x="4736" y="1728" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-11"/>
+    <property name="dest_x" value="46"/>
+    <property name="dest_y" value="45"/>
+   </properties>
+  </object>
+  <object id="23" name="To Noble House #4 East" type="warp" x="4320" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-10"/>
+    <property name="dest_x" value="51"/>
+    <property name="dest_y" value="44"/>
+   </properties>
+  </object>
+  <object id="24" name="To Noble House #4 West" type="warp" x="3776" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-10"/>
+    <property name="dest_x" value="27"/>
+    <property name="dest_y" value="44"/>
    </properties>
   </object>
  </objectgroup>
