@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="64" tilewidth="32" tileheight="32" backgroundcolor="#808080" nextobjectid="17">
+ <properties>
+  <property name="actorsfix" value="1"/>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-27.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="Blacksmith Shop"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="585" name="Indoor x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="729" name="Artis Accessor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="777" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="813" source="../graphics/tilesets/candle.tsx"/>
+ <tileset firstgid="825" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1081" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="1085" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1149" name="Height Number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <tileset firstgid="1165" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <layer name="Ground" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJAjEQRuEg3kQPYkE2YC+pyaK2AA+pY0eIMAzBi2YH/n2HD42neQybtZZSKgAAAAAAAADs0MvJnmULTyd7Fnp/czKXQLX33Xo3B7OYo3kI955739U0c+vnxcmecUZv623NfVfsraF19Jk934zeSH2/sdWfs+eb0fvZZdyt6n5jo3rvqFn9vop3s/Lz++3Oyp5vRm/cqf8te75/G7Uq9/odx/+U2XNttW/VdxEAAAAAAAAA7N0Ky9+6Pw==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJgDAQBMCAJdiB2pZFqRWIHVih9/CRAjSBZAaWu+duSgAAAAAAfdoie+SoXaSQ871X1Rbl2NueIft72Dtm/52lRVNkjiyRtXKXv7W+DwAAAAAAAAD4xgNnsQoW
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMA8HsDIshNmAyUrAADSm4k15uHQEAAAAAwA9atrJefQS4Ns7O0hcAAAAAAAAAALyyAbxiAw4=
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt2L0KgmAYhmH36gj62ZqLiuaojqA6g2rv/Kde0SBUmkrx67rgRsTlexZBswwAAAAAoPB4K3WD6Brdons07PY4Pzeq3M86OUV7/m3vrnKf+t4qe9OW0t7qu6mJvf1lb529/WVvnb39NY6WH54voklLZ2lD/j2fb55G8/K6itbRJiu2pvbN//qPsS2v++gQHbP0tjY5Refo0vVBAAAAAAD4uieZVgtX
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztzzEKwCAUREGLnF/IjW0lRSp18TML0+/rT2sdAAAAAAC42jtJf9G73rz0l91936W/nWzVez+9eivRq7cSvbV7/5rTv072pz8AAAAAALDeABKLVzk=
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object id="1" name="To Artis Main Road" type="warp" x="1024" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="0"/>
+    <property name="dest_y" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Heights" width="60" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztw7kNADAIBDAK1s4zekp2yNmSqwAAAAAASHB7Jjg9E+yeCVZPAAAAAAAAAAD4zQO2aQYf
+  </data>
+ </layer>
+</map>
