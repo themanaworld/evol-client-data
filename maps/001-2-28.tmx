@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="72" height="68" tilewidth="32" tileheight="32" backgroundcolor="#808080" nextobjectid="15">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="72" height="68" tilewidth="32" tileheight="32" backgroundcolor="#808080" nextobjectid="16">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -73,7 +73,7 @@
  </layer>
  <layer name="Over" width="72" height="68">
   <data encoding="base64" compression="zlib">
-   eJzt11FKw0AQxvGJ7WM9QasvoqAWFBVfBfUE6g3Ud0/S84gn8FjO0CxuQptu3G42qf8ffDQJzexmCMlGBAAAAAAAAAAA/DcftaDqVfNW5j3zXADspv3cEyjdaSa5J7FCvT+nY5EzzblmPu52LofdDhck5/0zKar7u9Sf+n22brvpHH/fLKKuJI3Q/lxoLlvWbnvOkPtj9/5Uwq/XejNrUd8MvT/2nWE9OtCclL+WT2/bHZ+V/3f1C33W7GlGxep918++CemPP3f3PXbrbX+vOR5a3/Tx2WxC5v/Xufv3T6oxUkvZn9D6sWOkRH+a0Z9mXfen/t7axhgpbVrTxL53/frWm6PRcns+gHe7cWuaK8215kaW65djqa5jYutbrS/5XSf5+7FjpGZzu9c8aB6luo7ZVv1N6bsnzbPmJVH9IfcGAAAAAAAAAAAAQF4/t7Ym4g==
+   eJzt11FOwkAQxvGp8IgnAH0xmqgkGjW+mqgnUG+gvnsSzmM8gcdyJnTjtoGypWy3q/9f8oWW0Nlh0tBFBAAAAAAAAAAA/DcftaDqVfNW5j1xLwD+pv3UDZTuNJPUTaxQn8/pWORMc66Zj/vt5bDf5YKkvH8mRfXc5jO0vcS286nfZ+uOm67xz81C8p3PheayZe221+Q8H7v3pxL+fW02sxb1Te7zsd5tRgeak/LV8ukdu/dn5edd/UJ/a/Y0o2L1uZvn0ITMx+/d/R+79Y6/17wfWt8M8dllQvrftnf//om1Rmwx5xNav+saMTGfZsynWd/zqT+3drFGTJv2NF2fu359m83RaHk8z+DZbtye5kpzrbmR5f7lWKr7mK71rdaX/O6T/POua8Rmvd1rHjSPUt3H7Kr+pgzdk+ZZ8xKpfs6zAQAAAAAAAAAAAJDWD9YMKKI=
   </data>
  </layer>
  <layer name="Over 2" width="72" height="68">
@@ -86,29 +86,21 @@
    eJzt1ssOgjAQBVAWfDdJ/9y4IKkNlIfQoeRMcmK0IzDXik7jMEwAAAAAAAAADaRC9PU8jXza5jNXGn8fvxU96935bK3Xcphzip73zGedV23eVFmbX1vLsLd89lSq9JVrtd6yL3r2f3M5O/eRvugcrsjmSL1h/+ypsjefZ+n+k7+nnH3p+VvyWZpvz/pWvSmfo7a+Y0/OZk8+d54nevYn5LO2f/L/0tEZROazlksv+6hVPku/W/KpH6eHfGoZXXnsnvOZr7V1/r1kAwAAAAAAAMT5AE1MO/U=
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
-  <object id="1" name="To Artis Main Road" type="warp" x="928" y="1280" width="32" height="32">
+ <objectgroup name="Object">
+  <object id="1" name="To Artis Main Road" type="warp" x="928" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="0"/>
     <property name="dest_y" value="0"/>
    </properties>
   </object>
-  <object id="5" name="To Artis Main Road" type="warp" x="928" y="1280" width="32" height="32">
+  <object id="8" name="To Artis Right" type="warp" x="1952" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="0"/>
     <property name="dest_y" value="0"/>
    </properties>
   </object>
-  <object id="8" name="To Artis Right" type="warp" x="1952" y="992" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="0"/>
-    <property name="dest_y" value="0"/>
-   </properties>
-  </object>
-  <object id="9" x="930" y="1291" height="1"/>
   <object id="14" name="To Second Level" type="warp" x="1024" y="800" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -117,7 +109,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="72" height="68" visible="0">
+ <layer name="Heights" width="72" height="68">
   <data encoding="base64" compression="zlib">
    eJzt0rsKwzAMQNEM/t0+/38oHQoRuIoaSmucc0BDLC++ZFkAAAAAAAAAfuPe4hDdWhyia4tDdGlxMucD9Xu+tTe9/fos28/kXZ+9cyp2qt77h2832dtn1H9ulD6jqryzd3d9lu0rZunzuv/Jd8VMfY5Gm5w+OX22abNNDwAAAAAAAABm8wCBBU0r
   </data>
