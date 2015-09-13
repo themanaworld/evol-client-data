@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/accessories/water-splash.png"
+              width="32"
+              height="32"
+              offsetX="18"
+              offsetY="-24"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <label name="start"/>
+                <frame index="6" delay="100"/>
+            <goto label="splash" rand="2"/>
+            <goto label="start" rand="100"/>
+            <label name="splash"/>
+                <frame index="0" delay="1500"/>
+                <sequence start="0" end="5" delay="130"/>
+        </animation>
+    </action>
+</sprite>
