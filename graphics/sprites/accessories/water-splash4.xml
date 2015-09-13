@@ -13,10 +13,9 @@ Copyright (C) 2015 Evol Online -->
         <animation direction="default">
             <label name="start"/>
                 <frame index="6" delay="100"/>
-            <goto label="splash" rand="2"/>
+            <goto label="splash" rand="5"/>
             <goto label="start" rand="100"/>
             <label name="splash"/>
-                <frame index="0" delay="1500"/>
                 <sequence start="0" end="5" delay="130"/>
         </animation>
     </action>
