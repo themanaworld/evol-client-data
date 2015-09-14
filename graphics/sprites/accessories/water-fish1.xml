@@ -10,8 +10,8 @@ Copyright (C) 2015 Evol Online -->
     <action name="stand" imageset="npc">
         <animation direction="default">
             <label name="start"/>
-                <frame index="4" delay="400"/>
-            <goto label="swim" rand="2"/>
+                <frame index="4" delay="100"/>
+            <goto label="swim" rand="3"/>
             <goto label="start" rand="100"/>
             <label name="swim"/>
                 <frame index="0" delay="80"/>
