@@ -26,18 +26,18 @@
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="713" name="Accessory x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="128"/>
+  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="745" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="761" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="781" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="797" name="Box x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="789" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="805" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="853" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="869" name="Candle" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -47,7 +47,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="877" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="893" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="57">
@@ -57,27 +57,27 @@
  </layer>
  <layer name="Ground2" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt009qAjEUB+B0PEDxD7QLXRQX1dV4FaHd1Rt4ltJz1aO4sgcQ30BWNjAWBgrx++AtJiRD3o+XlAAAAAAAAIb33qTUPqS0ydW3t9Ptb3v21ui50PPTHeSwHahqsrv6noz6z8xjVk7xhn6iPqP2+T19DH67/zONHGY3ZNFnVeG7WhR6equwz79omt9rL5HJMufSzcG6kNFrrH3H2UM+P46ZOxf+VbvHnM2x0PvXHeYBAAAAAAAAUJML+9IRHg==
+   eJzt07GKwkAQBuA19lpqoYVGUCvvVQ68znsDn0V8Ln0kGyew1d1CTghIct8HW2SYhczPbEoAAAAAAADd+6pSOoxS+sinrbfR9B9aeodoXph59g9y+OzoDMn3j+/1uP3OInZlFH1VnEu8pXN+T6fO/+596pht84cs2uwG+K6WhZmOA5zzFVX1u7aKTOqcS7MH+0JG26jd4u4931/Fzk062Lu+meZsHoUcr4UaAAAAAAAAAP3xBPX+DqE=
   </data>
  </layer>
  <layer name="Fringe" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt1E0KwjAQhuFo1lHbCnoGb6Hn8TDewSN4BLf+7L2F7pV+xSyKtBRFjQ7vAx8EkpbMMMQ5AAAAAAAAAACA71n1U98gjVkv9Q1+10kzsVP2ykE5Klfl1jArj+esWaumeUddQ+/cIp6pzp6VS+2bidZTY73ZvKmeTP/JlcJIf7ZP1lFodsb+M3f5ByG+w6Glb0sjc/GqtvkI/v7ujOJefW1F1lFPtZ/75h4NvM2eAAAAAAAAAAAAALCpBFG1EUU=
+   eJzt1E0KwjAQhuG0WUdQF7rx35W30PN4GO/gETyCW3/2PY1fMYuiLUURI+P7wEDbDCEzTOMcAAAAAAAAAADA9+zy1CdIY5WlPsHvKjQTJ8VZcVFcFcE71/HPuY951uxV07qlron6sok5ZW6m97zSq4G+DY315vCherrap6foG+nP8cU6FpqTZc1/9S9CvIdDQ9+2RubiXU3zMfL3e2ca16rPVsxa6inX576+R2NvsycAAAAAAAAAAAAAbLoBcbIOqQ==
   </data>
  </layer>
  <layer name="Over" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt1EEKglAUQFHFcSvIGjcrqhVUK6iW0AJcT6vtBQkiNtDURM6BO/Ajj88b/CQBAAAAAAAY3yP79w1gWhYDzFwPMHNs9tLs217SNEmytN2s8j2ew16W0a7Hedso73FeX4oO/793s/q0jw7RsXJW9mw429S+8w53mKqi0ik6R5faeZvm6Brdovu/LwIAAAAAAAD87AUH7w95
+   eJzt1EEKglAUQFHFcSvIGjcrqhVUK6gW4qDVtNpekCBiA01N5By4Az/y+LzBTxIAAAAAAIDxPbJ/3wCmZTHAzPUAM8dmL82+7SVNkyRL280q3+M57GUZ7Xqct43yHuf1pejw/3s3q0/76BAdK2dlz4azTe0773CHqSoqnaJzdKmdt2mOrtEtuv/7IgAAAAAAAMDPXmWrD5k=
   </data>
  </layer>
  <layer name="Shadows" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt08kKwjAYhdGCz+CwUduFQzfq+z+dfyFCcWzEjck58NFNNrk0TQMAAAAAAOSYz6a3ibZR++ZMCXI2GdpHh+j44dy/y93lFJ2jS/p3FtEyfVeptsJdxq3Tv3NfV/kuuxe79IXtMn4Xt/dgl8d30dnl6T37incZ/HqXEpV+v2/ZBQAAAAAAAMpxBZDDF9U=
+   eJzt08kKwjAYhdGCz+KwUduFQzfq+z+VfyFCcWzEjck58NFNNrk0TQMAAAAAAOSYz6a3ibZR++ZMCXI2GdpHh+j44dy/y93lFJ2jS/p3FtEyfVeptsJdxq3Tv3NfV/kuuxe79IXtMn4Xt/dgl8d30dnl6T37incZ/HqXEpV+v2/ZBQAAAAAAAMpxBTOmJFU=
   </data>
  </layer>
  <layer name="Collision" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt0UEKgCAQQFGh+wrdf9NWhmKEsAl5wtuIwcyvH611AAAAAAAA4BeyE9/Fb6vnr2wze6r3WN3lfGiVdazeY2WT8T5rsGOP7N/HfccWd/c7mm0T31bP/WWf6hkAAAAAAACA9y5L2L8m
+   eJzt0dEKgCAMQFGh/xb6815lFBPCFnKE8yIG260frXUAAAAAAADgF7IT38Vvq+evbDN7qvdY3eV8aJV1rN5jZZPxPmuwY4/s38d9xxZ39zuabRPfVs/9ZZ/qGQAAAAAAAID3LvBjs7U=
   </data>
  </layer>
  <objectgroup name="Objects">
