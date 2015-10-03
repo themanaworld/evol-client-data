@@ -427,7 +427,7 @@ IDs 990-999 = Special
         <menu name="Sell" command="sell 'NAME'"/>
         <menu name="Poke" command="w2 NPC:'NAME' poke"/>
     </npc>
-    <npc id="801">
+    <npc id="801" walkType="walkswim">
         <!-- npc with player look. -->
         <sprite>races/human-male.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
