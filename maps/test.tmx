@@ -18,7 +18,10 @@
  <tileset firstgid="513" name="level-number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <layer name="Grass" width="100" height="100">
+ <tileset firstgid="529" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <layer name="Grass" width="100" height="100" visible="0">
   <properties>
    <property name="Mask" value="8"/>
   </properties>
@@ -31,7 +34,7 @@
    <property name="Mask" value="4"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1rENACAIAEHYfwuXcw1rC20hesX1hA8JGREJAAAfGhfVs/3otHc99GDf+9SjnPvoRY9e/FcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8YgFJ/DcP
+   eJzt1rEJgFAMBNBk/wls3eRP4xrWgn6wkER9xeuPOwLJiEgAANoaea461xesE9XZ/uiqd3vYg2Pvmz3KuY9e7NGL/woA4FlL3ledGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCtdrjdQ1o=
   </data>
  </layer>
  <layer name="Fringe" width="100" height="100">
@@ -41,7 +44,7 @@
  </layer>
  <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+   eJztw7EJADAIADDxBOn/t/aBLjoJTSARAABsVvkOAAAAAPzlZD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMxdwIAGX
   </data>
  </layer>
  <layer name="Heights" width="100" height="100">
