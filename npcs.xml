@@ -419,7 +419,7 @@ IDs 990-999 = Special
     </npc>
 
     <!-- Test NPCs -->
-    <npc id="800">
+    <npc id="800" allowDelete="false">
         <!-- Test npc. -->
         <sprite>npcs/xml/artisindoor.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
@@ -461,7 +461,7 @@ IDs 990-999 = Special
         <sprite>npcs/xml/hammock-animated2.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-    <npc id="906">
+    <npc id="906" allowDelete="false">
         <!-- Artis door, outside map. -->
         <sprite>npcs/xml/artisdoor.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
@@ -471,7 +471,7 @@ IDs 990-999 = Special
         <sprite>npcs/xml/artisindoor.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
     </npc>
-    <npc id="908">
+    <npc id="908" allowDelete="false">
         <!-- Artis door, indoor map with wood floor. -->
         <sprite>npcs/xml/artisindoor-wood.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
