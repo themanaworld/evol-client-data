@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" nextobjectid="27">
+ <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/001-2-4.png"/>
+  <property name="music" value="bartk - in the forest of the birches.ogg"/>
+  <property name="name" value="City Hall Left Side"/>
+ </properties>
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
+ </tileset>
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="593" name="Indoor x4x2" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="729" name="Accessor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="777" name="Sunlight" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="781" name="Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1037" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1043" source="../graphics/tilesets/candle.tsx"/>
+ <tileset firstgid="1055" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1119" name="Height Number" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
+ </tileset>
+ <layer name="Ground" width="71" height="71">
+  <data encoding="base64" compression="zlib">
+   eJzt0LsKwjAYhuFIRw9rN29FV0/30jsVHBy8GlOsOAhCoOSv9BkeEjJ9ebuUUgcAAAAAAMBfWWabAqsJbK7VZZ8tslvzOnvX5vvtMdx3M+mzzi7D39v06dD+eDtn2wlsr9XmWGAubXqn7F7gMIHNtZR0eYverE08bbTRRhtt4mmjjTbaaBNPG2200UabeNpoo01sn+itAAAAAAAAY3gCGj7+WQ==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="71" height="71">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAMBMCUrqjuv4cLBCSFFnoHD+H5IhEAAAAAAADwnpbcWQfsjUJ+Mov7fuQLAAAAAAAAAAAAAAC4bwH8MgSz
+  </data>
+ </layer>
+ <layer name="Fringe" width="71" height="71">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAwGdOxAAB
+  </data>
+ </layer>
+ <layer name="Over" width="71" height="71">
+  <data encoding="base64" compression="zlib">
+   eJzt0EEKgzAARFEv0BPUuu1Slx6rW6/gqZuAXZURLApi34MhEAiE3zQAAAAAAAAA8O3247tu11+ckzaZNpk2mTaZNpk2mTaZNpk2mTaZNpk2mTaZNpk2mTaZNpk22b1s2PimL2sP+MsZ1T6Psudy1k0rd//S5eNVNi5n3bxyBwAAAAAAcAVvVKAKng==
+  </data>
+ </layer>
+ <layer name="Collision" width="71" height="71">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJACAUQ0ELa/cf1wkEtTAfvMD14Y3e2gAAAAAAAACAhZOlv1bt8luf26V/V22T/qxNnjbaaKONNnnaaKONNtrkaaONNtpok6eNNi/6pL8CAAAAAAD7Jv49TbI=
+  </data>
+ </layer>
+ <objectgroup name="Object" opacity="0.87">
+  <object id="7" name="To Waiting Room" type="warp" x="1184" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-34"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
