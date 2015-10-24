@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32" nextobjectid="20">
+ <properties>
+ </properties>
+ <properties>
+  <property name="actorsfix" value="1"/>
+  <property name="manaplus version" value="1"/>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="minimap" value="graphics/minimaps/000-2-4.png"/>
+  <property name="music" value="guitarz-halloween-theme.ogg"/>
+  <property name="name" value="La Johanne, Alige's hide"/>
+  <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
+ </properties>
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/box.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="421" source="../graphics/tilesets/candle.tsx"/>
+ <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128">
+  <image source="../graphics/tilesets/ship-indoor-x2x4.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160">
+  <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
+ </tileset>
+ <layer name="Ground" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XwU7DMAyA4RQ00EA7gDTEkHgS2I5IPMKO03aa+gZ7eRwRC+M1G4eFVO1/+AR1e7AtJ1nWIYQ1AAAAAAAAAOCkN7E64b0HOf53zdFBzMWtaMSVuE7PMf7RgzoubSkm4ibVOk+aFIvvPl1c+/I0gr5MOvqi8diX12Qq7sS9idWuoZRZYmudmnj8phU7sTFibN+D/EtpTZ36v+W/2bjva+dfsi86C7buvanb92Jrvq2dfym+H/ZZ+9KG3/Nkv6+df8l58WvHzsRDOJ4X+1w7/5Lz4mfE/o19eQzf53KT4vHsek7vaudfsi9d60MtxEv4OadiTM+uRQ/yLz0vubnJrZ9tGPaZpLXtwvH+6vuUO8eHqD3D98S/r51/yb7YubBzo/Ng7we672qsdv6l2H3C7yc6D/Z+YPfdId+Punrh++L3mrH83u3aX21fcr/9htyX3F7r7wF+3xlDX3LrSOv278dwn/4Lv378vRIAAAAAAAAAAODSvgBR7Ot00EMAAA==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3X0Q6CIBiGYbidDr3Btjhmc9Pa1OvoijrsJoKFixR0tUwG77O5it8D/i9EFQIAAAAAAAAAgN+47j0BJK+XQrTmGMzRyeeYMp9a7juvLbWu51ET6HWs+7Uu40ws23Mt53lob0xH8sh5vSjX2ynQey/fzylJv9DzUq0UQyCD0F5Toun6qAO5HP4zlSSM+2fsHuPnVXnjpaynT/eTmzn/uM1UkvHNf38vZL3gxe4tsesndI8qad+dXkPT3zY35d4XKldXgWfk3J1NvxdvHTVyfq/SmecSeie0/Bz82hD5nqN2pT+/HssrR2u5AAAAAAAAAAAAIA0PifOkT9BDAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UoQ0AIBADwGdHtmcRAgYEEoOCkDtTW9E0AgAAAAAAAABgr6TbDQD+lX0sh+raTJvZ7QcAAAAAAACeNgAxiixh0EMAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WTQqCQBgG4IlOUNAFWrXsAtGiH6iWrTpHu+7TPRtBQegrXWRGPg+8yDgiw4uOpgQAAAAAANC/fd8L6MCqxTWHhnm9xPQSG2ov55zjm6w7W11/2vRSmObMckY585xxOZ6k4T4vTfQS00vs9oF7/Jo2vZySfTdSfKdnKd53iwz1PfL/EtNLrN7LffQ8r5fYP/ayydnlLMpjPdW5a8M9/rGXwiVnWR7rqc696q4ab7+/5J8RdVeNAQAAAAAAuvAATo48JNBDAAA=
+  </data>
+ </layer>
+ <layer name="Shadow" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WuwrCMAAFUP3/r6mbr6GIg6KLX2QKKcQ0tBklOQcupe1075LsdgAAAAAAbLntt9Oams5Txvi8hwzZe6u75J1Lve1S7v2Iz3f8n763ukveudT7GfIJecX/6Xuru+SdS72HlbS6y1rnwS6LnEIOledVa9Z2OVZu0tsuo13skrFLmV3KandxTi/vvHb5zXzn7XWX6f52DrkkXdNvve4y39+uSdf0W2m7fLfW1J43+Xb5bj3q8ZwGAAAAAAD4V1+kj4H30EMAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TQQ7DIAwEwPT/v80Lqh4qRRQDPQRHMJbm0KgHe7Wcr+M4AQAAAAAAEnwme4eZt37vvU6ZRfl9B7U8Wrll7zsjj9690WTvPqsn0RvaLZfa+5DL7429m1fOonZn1Jne91WN3N+b7BvuzEUmcV/kMpZP9k7ZeZS5XH9H/1/dPz3ZrUutzuzWk5HelLn03tiKWrm0JnvvJ2a2ey4AAAAAAMB93rb4AVPQQwAA
+  </data>
+ </layer>
+ <objectgroup name="Object" visible="0">
+  <object id="11" name="ToLevel1" type="warp" x="1536" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="000-2-1"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
