@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32" nextobjectid="20">
  <properties>
- </properties>
- <properties>
   <property name="actorsfix" value="1"/>
-  <property name="manaplus version" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="1"/>
   <property name="minimap" value="graphics/minimaps/000-2-4.png"/>
   <property name="music" value="guitarz-halloween-theme.ogg"/>
   <property name="name" value="La Johanne, Alige's hide"/>
@@ -14,29 +12,29 @@
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
- <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="421" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128">
+ <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128" tilecount="1">
   <image source="../graphics/tilesets/ship-indoor-x2x4.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160">
+ <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -66,7 +64,7 @@
  </layer>
  <layer name="Collision" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TQQ7DIAwEwPT/v80Lqh4qRRQDPQRHMJbm0KgHe7Wcr+M4AQAAAAAAEnwme4eZt37vvU6ZRfl9B7U8Wrll7zsjj9690WTvPqsn0RvaLZfa+5DL7429m1fOonZn1Jne91WN3N+b7BvuzEUmcV/kMpZP9k7ZeZS5XH9H/1/dPz3ZrUutzuzWk5HelLn03tiKWrm0JnvvJ2a2ey4AAAAAAMB93rb4AVPQQwAA
+   H4sIAAAAAAAAA+3UQQrDQAgF0PT+t80JSheFMB3rbDrS+IS3SMhCP5rzcRwnAAAAAABAgVdV97Bz1ve81xqzGN93MMvjW27V/e7II5s3qured+1JdEPdcpndh1w+Z8xmvnMWszmjncne39XK/FlVz/DLXGQS74tc1vKJvqvudVceYy7X5865rN5Gp/vJdqa6t2pd/6tyAQAAAAAA+H9PAICx5tBDAAA=
   </data>
  </layer>
  <objectgroup name="Object" visible="0">
