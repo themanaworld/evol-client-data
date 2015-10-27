@@ -824,16 +824,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite>equipment/wings/</sprite>
     </item> -->
 
-    <!-- Shields
+    <!-- Shields -->
     <item id="2700"
-        image="equipment/shield/.png"
-        name=""
-        description="."
-        effect="."
+        image="equipment/shields/barrel.png"
+        name="Barrel"
+        description="It smells as if somebody used to live inside this barrel..."
+        defense="1"
         type="equip-shield"
-        weight="">
-        <sprite>equipment/shield/</sprite>
-    </item> -->
+        weight="400">
+        <sprite>equipment/shields/barrel.xml</sprite>
+    </item>
 
     <!-- Head Gears -->
     <item id="2900"
