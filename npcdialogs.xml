@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+    <dialog name="book">
+        <menu>
+            <button x="0" y="0" name="&lt;&lt;" value="previous" />
+            <button x="40" y="0" name="&gt;&gt;" value="next" />
+        </menu>
+    </dialog>
+    <dialog name="test1" hideText="true">
+        <menu>
+            <image x="0" y="0" image="equipmentbox.png" />
+            <button x="10" y="40" image="buttonplay.png" imageWidth="16" imageHeight="16" value="next" />
+        </menu>
+    </dialog>
+    <dialog name="test2">
+        <menu>
+            <button x="0" y="0" name="&lt;&lt;" value="previous" />
+            <button x="40" y="0" name="&gt;&gt;" value="next" />
+            <text x="10" y="50" width="150" height="30" text="this is ##Bsimple##b ##3text." />
+        </menu>
+    </dialog>
+</dialogs>
