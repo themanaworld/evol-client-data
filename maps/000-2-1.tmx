@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="93" height="59" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="93" height="59" tilewidth="32" tileheight="32" nextobjectid="4">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -47,7 +47,7 @@
  </layer>
  <layer name="Over" width="93" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2Yy0rDQBSGJy1uFdGuxargooIL3XgDsRVaFQWr0r1Ft9K6Ufc+ie/h7RF8l249h87QNMytbXqZ9v/gJ2Tu+XMyOYkQAAAAAAAAAAAAAAAAAAAAAAAAAGBK0WjmqY1mmqHB69/3aPfqqC+Tbhyelx1jvHmsgznwbDepsOeHHu1cfnF9PdLH+lPUabNsuS+uORQvnu0mGVcMMz6eP2v8bETdbQaZQzENnu95tGE/3h31zCd5/EX6Jv1E3WXcpjlDce67h5gweRr3cxRjMKF5bnrPZaj8V9hj1MYtqeLQhaX/vfB7VrgsNM/r8hoyPeZ11476KmmOtErKknJSPE1e1tnGqMgxdFySSqQNeSx6r3q8KM/j7zkVO2mwlM4wWk5Fe/1b8hhKfj7ofj5OlOe7Ihy/mbjnWRnbUdTeY2w58ySgPA8pxhmfOP8bxUL64I50FFMo36GD7i1nwp6TnA9xDH4M+R2cl+eh5S39wnkcXzfnJPOkddKC6PjhmyuqMbjvGmklNsa05uf9kvSjoKnn3JDvBecwD6RH0qIsy8k2VcO7o6WZw0RInp+QrjR1xx79k37saOpbhr6FWBsdH5G9PklInivfS1Kb8tjw6J/G/6lZ/MdVS2hbpPsvN+vIOWfRcx3x2FdxH5fvs5BGnDc18+rOQ/n2N6GLe12Z6b70sj8pT01jFC1rSZ5PO7Zrd90Tnaez7mca+D4r8BQAAAAAAAAAAAAAAAAACIN/8JRkkrxVAAA=
+   H4sIAAAAAAAAA+2Yy0rDQBSGJxa3imjXYlVwUcGFbryBaIVWRcGqdG/RrbRu1L1P4nt4ewTfpVvPoTM0DXNrm16m+T/4CZl7/pxMTiIEAAAAAAAAAAAAAAAAAAAAAAAAAJhSNJp5aqOZZmjw+vc82r066sukG4fnZccYbx7rYPY9200q7PmBRzuXX1xfj/Sx/hR12ixZ7otrDsWLZ7tJxhXDjI/nzxo/G1F3m0HmUEyD57sebdiPd0c980kef5G+ST9Rdxm3aWYozn33EBMmT+N+jmIMJjTPTe+5GSr/FfYYtXFLqjh0Yel/L/yeFS4LzfO6vAb2ONdDbnftqK+SZkkrpBwpL8VTFGSdbYyKHEPHJalEWpfHE+9Vjxflefw9p2InDRbTGUbLqWivf1MeQ8nPB93Px4nyfEeE4zcT91ztKVHU3mNsOfMkoDwPKcYZnzj/G8VC+uCOdBhTKN+hg+4tZ8Kek5wPcQx+DPkdXJDnoeUt/cJ5HF835yRzpDXSvOj44ZsrqjG47yppOTbGtObn/ZL0o6ip59yQ7wXnMA+kR9KCLMvLNlXDu6OlmcNESJ4fk640dUce/ZN+bGvqW4a+xVgbHR+RvT5JSJ4r30tSG/LY8Oifxv+pLP7jqiW0JdL9l+v6rs2i5zrisa/iPi7fZyGNOG9q5tWdh/Ltb0IX97oy033pZX9SnprGOLGsJXk+7diu3XVPdJ5m3c808H1W4CkAAAAAAAAAAAAAAAAAEAb/7fS0+bxVAAA=
   </data>
  </layer>
  <layer name="Collision" width="93" height="59">
@@ -56,21 +56,21 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To Ship's Hold" type="warp" x="2304" y="1092" width="32" height="28">
+  <object id="1" name="To Ship's Hold" type="warp" x="2304" y="1092" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-2"/>
     <property name="dest_x" value="1536"/>
     <property name="dest_y" value="896"/>
    </properties>
   </object>
-  <object name="To First Deck" type="warp" x="2304" y="960" width="32" height="28">
+  <object id="2" name="To First Deck" type="warp" x="2304" y="960" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-0"/>
     <property name="dest_x" value="960"/>
     <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="Piou" type="spawn" x="992" y="736" width="1376" height="640">
+  <object id="3" name="Piou" type="spawn" x="992" y="736" width="1376" height="640">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="30000"/>
