@@ -12,29 +12,29 @@
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
- <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="421" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
+ <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128" tilecount="1">
+ <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/ship-indoor-x2x4.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
+ <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -64,7 +64,7 @@
  </layer>
  <layer name="Collision" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UQQrDQAgF0PT+t80JSheFMB3rbDrS+IS3SMhCP5rzcRwnAAAAAABAgVdV97Bz1ve81xqzGN93MMvjW27V/e7II5s3qured+1JdEPdcpndh1w+Z8xmvnMWszmjncne39XK/FlVz/DLXGQS74tc1vKJvqvudVceYy7X5865rN5Gp/vJdqa6t2pd/6tyAQAAAAAA+H9PAICx5tBDAAA=
+   H4sIAAAAAAAAA+3UQQqFMAwFQL3/bT3BXxXE39hubNBMYcCWLppH4rFv2wEAAAAAAMCj2jp/t307u96ropfHXW7Z712Rx6jeaGW/fVWfRDNULZfefMjlv8ZRzV/Ooldn1DOj86+aqX+0smt4MheZxP0il7l8onvZb12VxzWX875yLrOzUWl+Rj2T/bZsVf+rcgEAAAAAAHi/H2jNnaLQQwAA
   </data>
  </layer>
  <objectgroup name="Object" visible="0">
