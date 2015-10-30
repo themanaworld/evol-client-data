@@ -417,6 +417,11 @@ IDs 990-999 = Special
         <sprite>accessories/water-splash3.xml</sprite>
         <sprite>accessories/water-splash4.xml</sprite>
     </npc>
+    <npc id="442" nameOffsetX="1" targetOffsetX="-1">
+        <!-- Mushroom-addicted guy who can reset charater stats -->
+        <sprite>npcs/xml/rumli.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
