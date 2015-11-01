@@ -667,6 +667,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name=""
         description="."
         effect="."
+        level=""
         type="equip-necklace"
         weight=""/> -->
 
@@ -676,6 +677,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Creased Shirt"
         description="An old shirt given to you by a sailor. It isn't very fashionable..."
         defense="5"
+        level="1"
         type="equip-torso"
         weight="17"
         maxFloorOffsetX="8"
@@ -688,6 +690,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="V-neck Jumper"
         description="A simple %color% jumper made from a lightweight cloth."
         defense="14"
+        level="10"
         type="equip-torso"
         weight="30"
         maxFloorOffsetX="7"
@@ -702,6 +705,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="%Color% Sailor Tank Top"
         description="A %color% tank top"
         defense="10"
+        level="5"
         type="equip-torso"
         weight="11"
         colors="simple"
@@ -714,6 +718,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Sailor Shirt"
         description="Proof that ye be in the crew, matey!"
         defense="18"
+        level="10"
         type="equip-torso"
         weight="22"
         maxFloorOffsetX="8"
@@ -726,6 +731,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Legion's Training Shirt"
         description=""
         defense="20"
+        level="10"
         type="equip-torso"
         weight="120"
         maxFloorOffsetX="8"
@@ -738,6 +744,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Legion's Copper Armor"
         description=""
         defense="40"
+        level="15"
         type="equip-torso"
         weight="340"
         maxFloorOffsetX="8"
@@ -751,8 +758,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
         name="Lousy Moccasins"
         description="Orc-made moccasins. Not sure from which skin these shoes were made."
-        defense="6"
-        level="5"
+        defense="10"
+        level="4"
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
@@ -765,7 +772,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/hands/armbands.png"
         name="Armbands"
         description="Small armbands made of wood and iron."
-        defense="4"
+        defense="8"
         level="3"
         type="equip-arms"
         weight="8"
@@ -777,8 +784,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/hands/copperarmbands.png"
         name="Copper Armbands"
         description=""
-        defense="8"
-        level="6"
+        defense="12"
+        level="8"
         type="equip-arms"
         weight="35"
         maxFloorOffset="16">
@@ -789,8 +796,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/hands/ironarmbands.png"
         name="Iron Armbands"
         description=""
-        defense="11"
-        level="9"
+        defense="18"
+        level="12"
         type="equip-arms"
         weight="9"
         maxFloorOffset="16">
@@ -803,7 +810,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Creased Shorts"
         description="An old pair of shorts given to you by a sailor. They smell awful."
-        defense="5"
+        defense="6"
+        level="1"
         type="equip-legs"
         weight="20"
         maxFloorOffset="9">
@@ -814,7 +822,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/trousers.png"
         name="Brown Trousers"
         description="A classic trousers ornamented with some fluffy fur."
-        defense="9"
+        defense="14"
+        level="5"
         type="equip-legs"
         weight="35"
         maxFloorOffset="8">
@@ -828,6 +837,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name=""
         description="."
         effect="."
+        level=""
         type="equip-charm"
         weight="">
         <sprite>equipment/wings/</sprite>
@@ -838,7 +848,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/shields/barrel.png"
         name="Barrel"
         description="It smells as if somebody used to live inside this barrel..."
-        defense="1"
+        defense="10"
+        level=""
         type="equip-shield"
         weight="400">
         <sprite>equipment/shields/barrel.xml</sprite>
@@ -877,6 +888,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Pumpkin Hat"
         description="A carved pumpkin, the face will scare your enemy off."
         defense="2"
+        level="4"
         type="equip-head"
         weight="50">
         <sprite>equipment/head/pumpkinhat.xml</sprite>
@@ -887,6 +899,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Fancy Hat"
         description="-"
         defense="2"
+        level="4"
         type="equip-head"
         weight="11">
         <sprite>equipment/head/fancyhat.xml</sprite>
@@ -900,7 +913,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/brimmedhat.png"
         name="Brimmed Hat"
         description="-"
-        defense="2"
+        defense="10"
+        level="8"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/brimmedhat.xml</sprite>
@@ -909,7 +923,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/brimmedfeatherhat.png"
         name="Brimmed Feather Hat"
         description="-"
-        defense="6"
+        defense="11"
+        level="8"
         type="equip-head"
         weight="23">
         <sprite>equipment/head/brimmedfeatherhat.xml</sprite>
@@ -918,7 +933,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/head/brimmedflowerhat.png"
         name="Brimmed Flower Hat"
         description="-"
-        defense="6"
+        defense="11"
+        level="8"
         type="equip-head"
         weight="22">
         <sprite>equipment/head/brimmedflowerhat.xml</sprite>
@@ -930,6 +946,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name=""
         description="."
         effect="."
+        level=""
         type="equip-ring"
         weight=""
         <sprite>equipment/neck/</sprite>
@@ -941,6 +958,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Knife"
         description="A simple, but sharp knife."
         attack="5"
+        level=""
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
@@ -971,7 +989,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/traininggladius.png"
         name="Training Gladius"
         description=""
-        attack="25"
+        attack="35"
         level="5"
         type="equip-1hand"
         weapon-type="sword"
@@ -987,8 +1005,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/woodensword.png"
         name="Wooden Sword"
         description=""
-        attack="1"
-        level="1"
+        attack="4"
+        level="5"
         type="equip-1hand"
         weapon-type="sword"
         attack-action="attack"
