@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="160" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="160" tilewidth="32" tileheight="32" nextobjectid="31">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -12,35 +12,35 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../graphics/tilesets/water-calm.tsx"/>
- <tileset firstgid="241" name="Ship Base" tilewidth="32" tileheight="32">
+ <tileset firstgid="241" name="Ship Base" tilewidth="32" tileheight="32" tilecount="220">
   <image source="../graphics/tilesets/ship-base.png" width="704" height="320"/>
  </tileset>
- <tileset firstgid="461" name="Ship Mast" tilewidth="32" tileheight="32">
+ <tileset firstgid="461" name="Ship Mast" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ship-mast.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="717" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="717" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="723" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="723" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="979" name="Tree x3x3" tilewidth="96" tileheight="96">
+ <tileset firstgid="979" name="Tree x3x3" tilewidth="96" tileheight="96" tilecount="1">
   <image source="../graphics/tilesets/tree-x3x3.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="980" name="Tree x3x4" tilewidth="96" tileheight="128">
+ <tileset firstgid="980" name="Tree x3x4" tilewidth="96" tileheight="128" tilecount="10">
   <image source="../graphics/tilesets/tree-x3x4.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="990" source="../graphics/tilesets/accessory.tsx"/>
- <tileset firstgid="1022" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="1022" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="1058" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="1058" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="1066" name="Tree x4x5" tilewidth="128" tileheight="160">
+ <tileset firstgid="1066" name="Tree x4x5" tilewidth="128" tileheight="160" tilecount="1">
   <image source="../graphics/tilesets/tree-x4x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1067" name="Heights Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="1067" name="Heights Number" tilewidth="32" tileheight="32" tilecount="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="120" height="160">
@@ -69,22 +69,14 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To La Johanne" type="warp" x="3008" y="3200" width="28" height="32">
+  <object id="1" name="To La Johanne" type="warp" x="3008" y="3200" width="28" height="32">
    <properties>
     <property name="dest_map" value="000-2-0"/>
     <property name="dest_x" value="672"/>
     <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="Piou" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="15000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="1002"/>
-   </properties>
-  </object>
-  <object name="Tortuga" type="spawn" x="704" y="1280" width="416" height="640">
+  <object id="3" name="Tortuga" type="spawn" x="704" y="1280" width="416" height="640">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="16000"/>
@@ -92,7 +84,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="768" y="3328" width="2240" height="928">
+  <object id="4" name="Tortuga" type="spawn" x="768" y="3328" width="2240" height="928">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -100,7 +92,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="2144" y="2656" width="320" height="800">
+  <object id="5" name="Tortuga" type="spawn" x="2144" y="2656" width="320" height="800">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -108,7 +100,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="1536" y="2400" width="320" height="1120">
+  <object id="6" name="Tortuga" type="spawn" x="1536" y="2400" width="320" height="1120">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -116,7 +108,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="832" y="1952" width="736" height="352">
+  <object id="7" name="Tortuga" type="spawn" x="832" y="1952" width="736" height="352">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -124,7 +116,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="1056" y="800" width="640" height="1088">
+  <object id="8" name="Tortuga" type="spawn" x="1056" y="800" width="640" height="1088">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -132,7 +124,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Tortuga" type="spawn" x="2400" y="800" width="768" height="768">
+  <object id="9" name="Tortuga" type="spawn" x="2400" y="800" width="768" height="768">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -140,7 +132,7 @@
     <property name="monster_id" value="1004"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="1344" y="2368" width="192" height="128">
+  <object id="10" name="Little Blub" type="spawn" x="1344" y="2368" width="192" height="128">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="25000"/>
@@ -148,7 +140,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="1728" y="1728" width="480" height="704">
+  <object id="11" name="Little Blub" type="spawn" x="1728" y="1728" width="480" height="704">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="25000"/>
@@ -156,7 +148,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="1664" y="672" width="704" height="320">
+  <object id="12" name="Little Blub" type="spawn" x="1664" y="672" width="704" height="320">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="25000"/>
@@ -164,7 +156,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="2656" y="2112" width="288" height="256">
+  <object id="13" name="Blub" type="spawn" x="2656" y="2112" width="288" height="256">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="25000"/>
@@ -172,7 +164,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="2656" y="960" width="160" height="256">
+  <object id="14" name="Little Blub" type="spawn" x="2656" y="960" width="160" height="256">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="25000"/>
@@ -180,7 +172,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Little Blub" type="spawn" x="2272" y="1568" width="928" height="640">
+  <object id="15" name="Little Blub" type="spawn" x="2272" y="1568" width="928" height="640">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -188,7 +180,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="LittleBlub" type="spawn" x="1248" y="1760" width="608" height="416">
+  <object id="16" name="LittleBlub" type="spawn" x="1248" y="1760" width="608" height="416">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -196,7 +188,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="LittleBlub" type="spawn" x="800" y="1376" width="224" height="384">
+  <object id="17" name="LittleBlub" type="spawn" x="800" y="1376" width="224" height="384">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="35000"/>
@@ -204,7 +196,7 @@
     <property name="monster_id" value="1007"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="1120" y="1568" width="64" height="96">
+  <object id="18" name="Plushroom" type="spawn" x="1120" y="1568" width="64" height="96">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -212,7 +204,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="1728" y="3648" width="64" height="96">
+  <object id="19" name="Plushroom" type="spawn" x="1728" y="3648" width="64" height="96">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -220,7 +212,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="1888" y="2496" width="320" height="192">
+  <object id="20" name="Plushroom" type="spawn" x="1888" y="2496" width="320" height="192">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -228,7 +220,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="1728" y="1984" width="64" height="192">
+  <object id="21" name="Plushroom" type="spawn" x="1728" y="1984" width="64" height="192">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -236,7 +228,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="2368" y="1696" width="288" height="352">
+  <object id="22" name="Plushroom" type="spawn" x="2368" y="1696" width="288" height="352">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -244,7 +236,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Plushroom" type="spawn" x="2240" y="1952" width="128" height="96">
+  <object id="23" name="Plushroom" type="spawn" x="2240" y="1952" width="128" height="96">
    <properties>
     <property name="eA_death" value="150000"/>
     <property name="eA_spawn" value="35000"/>
@@ -252,7 +244,7 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object name="Croc" type="spawn" x="768" y="3424" width="544" height="640">
+  <object id="24" name="Croc" type="spawn" x="768" y="3424" width="544" height="640">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -260,7 +252,7 @@
     <property name="monster_id" value="1006"/>
    </properties>
   </object>
-  <object name="Croc" type="spawn" x="1696" y="896" width="672" height="224">
+  <object id="25" name="Croc" type="spawn" x="1696" y="896" width="672" height="224">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -268,7 +260,7 @@
     <property name="monster_id" value="1006"/>
    </properties>
   </object>
-  <object name="Croc" type="spawn" x="2400" y="2144" width="128" height="96">
+  <object id="26" name="Croc" type="spawn" x="2400" y="2144" width="128" height="96">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -276,7 +268,7 @@
     <property name="monster_id" value="1006"/>
    </properties>
   </object>
-  <object name="Croc" type="spawn" x="1536" y="24000" width="320" height="1120">
+  <object id="27" name="Croc" type="spawn" x="1536" y="24000" width="320" height="1120">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -284,7 +276,7 @@
     <property name="monster_id" value="1006"/>
    </properties>
   </object>
-  <object name="Croc" type="spawn" x="2144" y="2336" width="320" height="320">
+  <object id="28" name="Croc" type="spawn" x="2144" y="2336" width="320" height="320">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="eA_spawn" value="35000"/>
@@ -292,8 +284,8 @@
     <property name="monster_id" value="1006"/>
    </properties>
   </object>
-  <object name="graphics/particles/panels.xml" type="particle_effect" x="2848" y="1632" width="32" height="32"/>
-  <object name="graphics/particles/panels.xml" type="particle_effect" x="2080" y="2976" width="32" height="32"/>
+  <object id="29" name="graphics/particles/panels.xml" type="particle_effect" x="2848" y="1632" width="32" height="32"/>
+  <object id="30" name="graphics/particles/panels.xml" type="particle_effect" x="2080" y="2976" width="32" height="32"/>
  </objectgroup>
  <layer name="Heights" width="120" height="160">
   <data encoding="base64" compression="gzip">
