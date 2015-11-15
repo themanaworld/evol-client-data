@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Authors: Pad, Reid
-Copyright (C) 2010-2012 Evol Online -->
+Copyright (C) 2010-2015 Evol Online -->
 
 <!--
 IDs 100-300 = Unanimated
@@ -174,6 +174,16 @@ IDs 990-999 = Special
     <npc id="130">
          <!-- Orc Male, Artis's legion leader. -->
         <sprite variant="21">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="131">
+         <!-- Elven Female, Artis's legion training room officer. -->
+        <sprite variant="22">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="132">
+         <!-- Raijin Female, Artis's legion fighting room officer. -->
+        <sprite variant="23">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
