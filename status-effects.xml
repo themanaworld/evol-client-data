@@ -27,6 +27,14 @@ end-message:                Displays a message when the effect end.
         icon="icons/invisible.xml"
     />
     <status-effect
+        name="quagmire"
+        id="8"
+    />
+    <status-effect
+        name="blessing"
+        id="10"
+    />
+    <status-effect
         name="magnificat"
         id="20"
         block-id="24"
@@ -55,16 +63,6 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="post delay"
         id="46"
-    />
-    <status-effect
-        name="invisibility"
-        id="403"
-        block-id="6"
-        icon="icons/invisible.xml"
-        start-message="You are now invisible."
-        end-message="You are no longer invisible."
-        persistent-particle-effect="true"
-        start-particle="graphics/particles/invisibility.xml"
     />
 <!--
     <status-effect
@@ -100,10 +98,19 @@ end-message:                Displays a message when the effect end.
         id="182"
         block-id="14"
     />
+    <!-- fake id -->
     <status-effect
         name="hide"
         id="194"
         icon="icons/hide.xml"
+    />
+    <status-effect
+        name="stasis"
+        id="356"
+    />
+    <status-effect
+        name="camouflage"
+        id="360"
     />
     <status-effect
         name="sphere 1"
@@ -126,6 +133,16 @@ end-message:                Displays a message when the effect end.
         id="367"
     />
     <status-effect
+        name="invisibility"
+        id="403"
+        block-id="6"
+        icon="icons/invisible.xml"
+        start-message="You are now invisible."
+        end-message="You are no longer invisible."
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/invisibility.xml"
+    />
+    <status-effect
         name="sit"
         id="622"
     />
@@ -133,5 +150,11 @@ end-message:                Displays a message when the effect end.
         name="cart"
         id="673"
         icon="icons/hide.xml"
+    />
+    <!-- fake id -->
+    <status-effect
+        name="ruwach"
+        block-id="13"
+        id="2000"
     />
 </status-effects>
