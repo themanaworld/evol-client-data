@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" nextobjectid="25">
+<map version="1.0" orientation="orthogonal" width="71" height="71" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -55,22 +55,22 @@
  </tileset>
  <layer name="Ground" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2EFuwjAQheFBVGwo3bLjKnRLA3fhTJwJOEIuUQnVFlg4xg5BQp5U8y8+BXk1PM0ktvcisgcAAAAAAAAAAMC/Mne+XvA5gppr5fLtTJzL9Pr0fqePa7OP63NtJJ+Fs7v996Xcc1j2rG2d1Qhqr5XNT+T4hJVsvMZpI6cBtGuu5Zxk86xvjiOouZb2lk/IaCPdGQsOEe2aa/ZNnE0rj72UrmnXrJFNKZ+zdPtLu2atvkmzSnvIUjZD58hyNjk+B7+XWUi3h7Rr1uib3GyFbCx/w0szFLKxuvcrvYvjbCz2TSkb+ib/3Y5nyp8td2LzXVzaw4Tf/gzRGM4mtw/u2w9q16yRTd+ZwXo26VyVzlTaNdfOJnemLJ05tWuuZchdltW7rSF3oFbvROmb9/WOdq0AAAAAAAAAAADv8AcyHfqJ
+   eJzt2DsOgkAUQNExGhs/LZ1b0dYPe3FNrgm1t2AJNCbGmSDxAfIxMTOYd4sTEqrh5hFmOBpjjgAAAAAAAAAAAPgrM2v5hfkA1uyry8YaWY9xfnXu4/q96SS/rpX0WVjx69kj8+4Qtdw7WKsBrN1Xm52QdNDSxtlbqXDuIfSafblU2nTNTTKANfuSvvoUjbam/I4VTkLoNfucG9kmNfVZcq5C6DWHaNPU56K4TSZaVFsV9zW2cc99ayBnhzb1Nm4vs6BNaxut3/CmNqloo3Xv16eNxrlpa5MZ3XPT9U65s2Vsyt/z0GsewtwUZwh3HtX4ncpa2sj9oMY21f0wZ4bPbeTZstpKYxv5zJ9mSPN5qs+/LK3/tvr8A9X6T5S5+d3shF4rAAAAAAAAAADALzwBgkz60g==
   </data>
  </layer>
  <layer name="Ground 2" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt180JwkAQBtAFc7AEwR5sQQvQg0d/yhBP4skGtAHREqzQFQyumhg8BIN5Dz7ILnsYBpLZhAAAAAAAAAD/p1vwXLQHr7Yx04q0zfyefqf67LLuYhpilYWwSNaDkt7sYw5J2mCTPa97Jb051V9K4+xeenOMmYXHO5bmkgSgTm2bU1CXYczo10U01DhmEnxviuS9OSfhmXvxu9s/xKLyFJBL58/6Q8wpAAAAAAAAgO9dAXFZHqc=
+   eJzt18EJwjAYhuGgPTiC4A6uoAPowaPWMTyKJxfQBURHcAuP6gTiBOoCpiAYQ9MEpO1P8z7wQdP28PNBm1YpAAAAAAAAAAAAoHk6Ocd55wDbSmfiSWxmn/Ta/nvnZQ8jxCJRKjXWfUc3G52tkRgsk99119HNvvxRxFlb3ex0pur7jJk5GgHOOhdHrjXOJcGt4Nq9silkCu0mtn0qE9rNqVX2JPLwTLn5uhnoDKsZRRxfNyOdseJ9YzO7ORiJRej7JsbvYl832T9EWnBPkz10no68apwLsoXuPzHuUwAAAAAAAAAAAADwrzeAMTo8
   </data>
  </layer>
  <layer name="Ground 3" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2LEJgDAQBdCApTPoCrqKY7iEpb0jOIIbmsZSRRAv4HvwqzSfcIQjKQEAAAAAAABwGKILFGyKLlCws7uZP21RJnNzratS6nOanDanztmiSwG/skQXAH7De3NujS5QMLsx8Jbx5twfDgAAAAAAAMBzO5pkBxo=
+   eJzt2MEJwkAQBdCFPQbsQC1BqxCvXsQWbCJH75ZgCXbogoI5JIIgu4N5Dz4Z5vQJyxKSEgAAAAAAAPyf/cg83O0qdonmNDIPd8eKXSI6tC4QWN+6QGBT7+ZStUVMzs1nm5zStmRZsirpSu6tSwGzcm1dAJgN9820W+sCgfk2Bn7lXLLOz3Sv5yK/d/7hAAAAAAAAAHzvAaSxCl8=
   </data>
  </layer>
  <layer name="Fringe" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJztzjENAAAIA7DZxb8BRCyBp1XQBAAAAAAAAABozHcAAAAAAAAAAAAAAAAOLbRpAGo=
+   eJztzrEJAAAIwDDf9U0v8wNBHFwS6N4IAAAAAAAAAOAivwcAAAAAGNUQAAAAAAAAAHsNJWQFuA==
   </data>
  </layer>
  <layer name="Over" width="71" height="71">
@@ -80,17 +80,17 @@
  </layer>
  <layer name="Collision" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt0jEKgDAQRcEUnir3P5iVYJFIWIUPcRYGLLZYH+lHax0AAAAAAAAAJq65f88mfWuiy2qbv/QZ/bM2z30qOzuqTPpmbfK0qbcZ7aVv1iZPG2200UabvMqkb9YmTxtt3rb5Ym8n3o022mT7pG8FAAAAAADWnRM5hHE=
+   eJzt2EEKgCAQQFEXXirB+18rIoQQNBfBBD7hQQsX08coKjmlAgAAAAAAAAADbV3X9UX0rBFdVtvs0qdqs3xuRvetzXhpo40237Vp+7RJ6ci3vs2zT/TM2sTzTGmjjTZ/aXMt3zfazNq093dPm/m+Hdus/K/Z9dxoo402sX2iZwUAAAAAANadEbirHA==
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
-  <object id="7" name="To Right Chamber" type="warp" x="736" y="928" width="32" height="32">
+ <objectgroup name="Object" width="0" height="0" opacity="0.87">
+  <object name="To Right Chamber" type="warp" x="736" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-32"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="71" height="71">
+ <layer name="Heights" width="71" height="71" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt2LENgDAMRcEU2R6GTo/4wR0I30le4BVx5DEAAAAAAAAAoOac++nsqU3nPnctjssAwNfYU5n/TaZNpk3mvQHgDdX903FPVe58Xe9+2mTa7OkCAAAAAAD/tACJ1TaB
   </data>
