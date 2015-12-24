@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" nextobjectid="24">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" nextobjectid="27">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -98,7 +98,7 @@
    eJzt1lELgjAUgFEffBb2//9sBArDdFNRZ9czOBRhsftVq6HvugEAAAAAAAAAOE0afdcw3k6Ptd7bHa5YrWd6apfofbZ2Kz0/gtT/niFb58uvW3qdfzefaev7P7/uTW1qM6Y+fpu1tadN1POmtvL/OKUeb2xzZLWe6Syls3hPi4jnTe03vPS5yO9HbDPNtdRi3mCt2dLrRHT0O/UG2mhzR5/We31io9Z7ewpN6n1a7wEAAAAAAIDrfQAh8VPB
   </data>
  </layer>
- <objectgroup name="Object" visible="0" opacity="0.87">
+ <objectgroup name="Object" opacity="0.87">
   <object id="1" name="To Artis" type="warp" x="1088" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -128,6 +128,20 @@
    </properties>
   </object>
   <object id="8" name="To Right Chamber" type="warp" x="736" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object id="25" name="To Left PvP Arena" type="warp" x="800" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1"/>
+    <property name="dest_y" value="1"/>
+   </properties>
+  </object>
+  <object id="26" name="To Right PvP Arena" type="warp" x="1376" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
