@@ -47,7 +47,7 @@
  <tileset firstgid="1119" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <layer name="Ground" width="71" height="71">
+ <layer name="Ground" width="71" height="71" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1U1KxEAQhuEax50/oAizEzxCTqCz15xlzuQdvIjMjOByFn0E11ZDN1baJARJ6Nh5Fw/pJEVIfVQ6OxHZAQAAAAAAAAAA4F+5UNcjupxBT2Pl8qRW6m0tchPW3uf6Zz3k/F3Pt3p8LCSfK/USetuoB9PrRpq9+/MqrLcd9/31Z3U/g97GyuZjRKVkM2Ymqdy9kQ3Z5PJq+D31TB3VuTT/W1EV2LpV8pzcPU2VzW3o+U6a/60qWdu6JWRTq5PR983YurrQbGy/vseD0ZeNraulvL0mzcZ/I3vDX3NBmo2tS+/n7mmqbA5/sIRsfI97+T07fTNT8tzYPTSdm6H7jZMy9+I0G7vn9GVjZ+a4gGyc0Tc78Z7P5EuWMTdxBmI+bfMTr9k6lzwrd09TiP0eja7/kkvqc7/71Np6tlxLzVKySTMaklXud82lLYu4zv1uc8GcdGNeAAAAAAAAAAAAAJFvAFQAhA==
   </data>
@@ -69,7 +69,7 @@
  </layer>
  <layer name="Over" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt1U0OgjAQhuGuTTwByt6fBPd6BI0ehZVLj+CZxYTGcWhTUkTN8D7JBAnMRL604BwAAAAAAAAAAAAAAF23kebeR5r7TWQTp7O5DijJQjZzdb7KnKP7ysw5/0RnM8uco/ssZpP7/tF7iGxeyCZuCtlsmlqL2kb6UvdZzEZ/b/buPQNfh0SfhWyKpnbt76qps7p+jPSd1PlFzVl85N/9XtEen8+j11FfpZpjRS2OQ7KRc6yoRck91pffQ3KORT6fpUtnVLX3+Vys02solJHOxPJaCQll5GuqmUix5596LlIoGwAAAAAAAAAAAACQHgwzJcA=
+   eJzt1k0KwjAQhuGsBU9Q7d4fqHs9gqJH6cqlR+iZTaCh6ZDQ0Cqa5H1gsMHOYD6MVikAAAAAAAAAAAAAAMZaXa8vze76+akimzBfNs8F5Uo9G2Mt1ruZc2RfPXPOP5HZrGbOkX05ZjP396cTa7IZkE1YCdkcdO2dOgb6pu7LMRv5f3NW4wxsXSb6csim0nXqrxtdd/H+NdB3E+uHmLP5yKf7LfN8VvXXZj/yexSrFnNSf+4zWjXsw7wuycadk1M2ttwzFsueITkrdXI/Np+tms6o6e/z5ZJDNlJMRqFMSuHLyFapmbhC+y89F5cvGyAG5wgAAAAAAAAAAKAcb5+HL9A=
   </data>
  </layer>
  <layer name="Shadow Top" width="71" height="71" visible="0">

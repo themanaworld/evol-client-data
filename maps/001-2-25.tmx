@@ -7,37 +7,37 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x4x2" tilewidth="64" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4x2" tilewidth="64" tileheight="128" tilecount="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="585" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="713" name="Accessory x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="713" name="Accessory x2" tilewidth="32" tileheight="64" tilecount="48">
   <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="761" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="761" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="797" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="797" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="805" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="805" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="869" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="869" name="Candle" tilewidth="32" tileheight="32" tilecount="24">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -47,7 +47,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="893" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="893" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="57">
@@ -67,7 +67,7 @@
  </layer>
  <layer name="Over" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt1EEKglAUQFHFcSvIGjcrqhVUK6gW4qDVtNpekCBiA01N5By4Az/y+LzBTxIAAAAAAIDxPbJ/3wCmZTHAzPUAM8dmL82+7SVNkyRL280q3+M57GUZ7Xqct43yHuf1pejw/3s3q0/76BAdK2dlz4azTe0773CHqSoqnaJzdKmdt2mOrtEtuv/7IgAAAAAAAMDPXmWrD5k=
+   eJzt1E0KgkAYgOER150ga92uqE5QnaA6iItO02mbIEHEFop/DM8D78JBPoZPMAQAAAAAAIDpvfK5bwDLshph5naEmVOzl3b/9pJlIeRZt1nV/ziFvaxjhwHn7WPFgPOGUvZ4/7ubza9j7BQ7186q3i1nu8Zz0eMOS1XWusSusVvjvEspuscesefcF1mY1L87AAAAAAAAafoAsvgQ6Q==
   </data>
  </layer>
  <layer name="Shadows" width="70" height="57">
@@ -80,7 +80,7 @@
    eJzt0dEKgCAMQFGh/xb6815lFBPCFnKE8yIG260frXUAAAAAAADgF7IT38Vvq+evbDN7qvdY3eV8aJV1rN5jZZPxPmuwY4/s38d9xxZ39zuabRPfVs/9ZZ/qGQAAAAAAAID3LvBjs7U=
   </data>
  </layer>
- <objectgroup name="Objects">
-  <object id="1" name="To main hall" x="927.5" y="992" width="32" height="32"/>
+ <objectgroup name="Object">
+  <object id="1" name="To main hall" type="warp" x="927.5" y="992" width="32" height="32"/>
  </objectgroup>
 </map>

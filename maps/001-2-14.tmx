@@ -7,25 +7,25 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="613" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="613" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="621" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="621" name="Candle" tilewidth="32" tileheight="32" tilecount="24">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -35,19 +35,19 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="645" name="Pavement" tilewidth="32" tileheight="32">
+ <tileset firstgid="645" name="Pavement" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="773" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="773" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="837" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="837" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="843" name="Cellar" tilewidth="32" tileheight="32">
+ <tileset firstgid="843" name="Cellar" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/artis-indoor-cellar.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="907" name="Height Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="907" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="65" height="61">
@@ -67,7 +67,7 @@
  </layer>
  <layer name="Over" width="65" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1jEKwkAUBNCFlNppp53exig2gsfI/Sv/QtKE2Jgi8vc9mCLLFpmpthQAAAAAAID/M4xp2a4rZd9t/RfbeUf3Q+T44wavBNvVDU6Rc+MbXCLXxjdYwwY2qGyQY4M+OjxnPe7x/Vg4n6v3bgk2qO/Dfuw8pfZaOp9nupfBsCKZfOvVSn8AAAAAACCXD+2kGXI=
+   eJzt1jEKwkAUBNCFlNppp53exig2gsfI/Sv/ggEJsTFF5O97MEWWLTJTbSkAAAAAAAD/ZfhIq2r3TVfKtlv7T9bzjO67yP7HDR4JtqsbHCLHxjc4Rc6Nb7CEDWxQ2SDHBn10uE96XOP7NnM+Ve9dEmxQ30j9u/OY2mvufJrxXgbDgmTyrVcr/QEAAAAAgFxeC1MaUg==
   </data>
  </layer>
  <layer name="Shadow" width="65" height="61">

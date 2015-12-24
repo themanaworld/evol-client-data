@@ -7,46 +7,46 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Blacksmith Shop"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+ <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="585" name="Indoor x4" tilewidth="32" tileheight="128">
+ <tileset firstgid="585" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="729" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="741" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="741" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="997" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="997" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1001" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="1001" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="1065" name="Height Number" tilewidth="32" tileheight="32">
+ <tileset firstgid="1065" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <tileset firstgid="1081" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1081" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="68" height="77">
   <data encoding="base64" compression="zlib">
-   eJzt2T1Ow0AQhuG10oUfiYIWiSNwA2hRwllyJiQaSiRuQnyAFDkCddbyjpgMSwCJ3TWZt3gkx9Xk03hmnaxCCCsAAAAAAAAAAIB/4iQ6/4XW9ZbO4jbqoovoeTZei5fZeP8m6SZQc0ln0TJ91+voUmUxT591Fl7y6KNtItcP0Sa5V9etay5Nvn9vDHmsk034nMfpBGovQffFu8nnLVmE8Xm6Cx/PzdUEai/VH7keGT5LfyxUDk9O8rBZ6P7Qz8trOO450of9HSv7ZLifmx/HPldl33bG/IscPOSRmx1634pHpXXdpei9omfHkIedH17y0P2hr+388JCHzUKfUXV/tK6zZh4/6Y/WddbMQ95v9c6154/Wddai328P7dvWddbMwz4ruX3bus5a7CzV+9br/Mj1h9f5kXufs++3nvLQv33Yc7vH/pB9K/tF9q7X88cy7J87JBfP+9buFu/7dhvYt8LuWJ2L13n63e/J3vLI/f/itT8O9ch6ArUBAAAAAAAAAADg7+0A+4U5YQ==
+   eJzt2T1Ow0AQhuG10oUfiYIWiSNwA2hRwllyJiQaSiRuQnyAFDkCddbyjpgMS0jB7prMWzyS42ryaTyzTlYhhBUAAAAAAAAAAMA/cRZdHqF1nbWyuI+66Cp6nY3X4m023r9LugnUXNJFtEzf9Ta6VlnM02edhZc8+mibyPVTtEke1XXrmkuT798bQx7rZBO+53E+gdpL0H3xafL5SBZhfJ4ewtdzczOB2kv1R65Hhs/SHwuVw4uTPGwWuj/08/IeTnuO9GF/x8o+Ge7n5sepz1XZt50x/yEHD3nkZofet+JZaV13KXqv6Nkx5GHnh5c8dH/oazs/PORhs9BnVN0freusmccx/dG6zpp5yPut3rn2/NG6zlr0++2hfdu6zpp52Gclt29b11mLnaV633qdH7n+8Do/cu9z9v3WUx76tw97bvfYH7JvZb/I3vV6/liG/XOH5OJ539rd4n3fbgP7Vtgdq3PxOk9/+z3ZWx65/1+89sehHllPoDYAAAAAAAAAAAD8vR14wTol
   </data>
  </layer>
  <layer name="Ground 2" width="68" height="77">
@@ -66,15 +66,15 @@
  </layer>
  <layer name="Over" width="68" height="77">
   <data encoding="base64" compression="zlib">
-   eJzt2UFOwkAUxvFHt6Jha0DsxgUkBlZs8Qgexb3RE3gIr9XbOBM6cWbyhpYFoG/+v+QlbSckzZfJe6UVAQAAAAAAAAAA+P8eC9enrt4ueSNX1jUiH65WhfWl1JVH8Fm4XnMe783heOPqoa+F2M3j9shavD/2ru6ysuhYHvcXu4u/Y+5qW1gr9VPrWldrpZ4Hfrc8721dxY2rl+zat+uh7WR4f1jMw/ePr0ZfK83bwGoeJXEeWm+tOY9X+X3+iJ9DrBk7b8MzaV7WjJ23teThtTI8by32Co02b7t+3uT7owZj+yl5kEeOPFL5vK3BKfO2Fq0wbwNt3npdU+f+oJ+myCNFHinmbWrMvPXfXiy+69D4/+w+k/CO5yk6nvXnlr8/aeL3GTvlHAAAAAAAAAAAAPb8AHyMIoU=
+   eJzt2UFOwkAUxvFHt6BhS0TsxoUkBFZu8Qgexb3RE3gIr9XbMBM6YWbyhtaFoG/+v+QlbSckzZfJe6UVAQAAAAAAAAAA+P8esvPbvmau3i5/O1fTNSIfrp4K6yupK4/gs3C95jzem+Px1tV9X0uxm8fNmbV4f+zl1D9CWXQuj8XF7uLvuHO1K6yV+ql1rau1UpuB361+97auYurqJbv27XpoOxneHxbz8P3jq9HXSvM2sJpHSZyH1ltrzuNVTs8f8XOINWPnbXgmzcuasfO2ljy8VobnrcVeodHmbdfPm3x/1GBsPyUP8siRRyqftzX4ybytRSvM20Cbt17X1Lk/6Kcp8kiRR4p5mxozb/23F4vvOjT+P7vPJLzjeYyO5/255e9Pmvh9xrNyDgAAAAAAAAAAAHsOsv4ioQ==
   </data>
  </layer>
- <layer name="Collision" width="68" height="77" visible="0">
+ <layer name="Collision" width="68" height="77">
   <data encoding="base64" compression="zlib">
    eJzt1UEKg0AMQFEXnkro/a8lLoYGsXYW0oTmDTyUWcVvO27rsmwAAAAAAAAADRwrXuP+sV7rW/asv+pxXl17zKzsGSs1yZ6tQo+4nz1bJX43n3vEM/Xfz9Xxvs/vvXOPq/9DvO/eo/NZocf3HnE/e74q9NBjPHe8du5xd4bq4fsy0yR7vgo94n72fFXoocd47njt3OPuDNXD92WmSfZ8FXrE/ez5KvXIng0AAAAAAOAJOzB7zRE=
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="15" name="To First Level" type="warp" x="1184" y="1120" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

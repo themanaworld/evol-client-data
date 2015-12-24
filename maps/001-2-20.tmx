@@ -7,28 +7,28 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="593" name="Indoor x4x2" tilewidth="64" tileheight="128">
+ <tileset firstgid="593" name="Indoor x4x2" tilewidth="64" tileheight="128" tilecount="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="729" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="729" name="Candle" tilewidth="32" tileheight="32" tilecount="24">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -38,13 +38,13 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="753" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="753" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="757" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="757" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1013" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1013" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="60">
@@ -64,7 +64,7 @@
  </layer>
  <layer name="Over" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt0k0KwjAQhuFJXHsCq9suFRV0p4gX8OcgvZFn9OcAHbHCEEgt2Wjj+8AHoZMJyVARAAAAAAAAAAAAAECfDBP7NpptpDZJPPOXdJnL1YvcNHfNw7fvWfu85+KciDcZuG7nHVzec0l1yfx/+WSqmUVqOcxlJPH3xTxnUkR637W+q+T1vrFJadZzzUKzNN+Kps/2lkEtF5XJyqx3TX0f7Alje/7BUXPSnL99EQAAAAAAAAAAAKBFDamqFf4=
+   eJzt0k0KwjAQhuFJuvYEVrddKiroThEv4M9BeiPP6M8BOmKFoRAt3aSN7wMfhE4mJENFAAAAAAAAAAAAgLiy2BcABmbUsW+r2QVq045n9kmbudy8yF3z0Dz99z0bn/ZcnBPxJplrd97RpT2Xrq6J/y+/zDTzQC2FuYwl/L6Q10zyQO+nNnSlvN83MSnMeqFZalbmW1732d6iUUtFabI2631dPzT2NGN7/sFJc9ZcYl+kZ+w/AQAAAAAAAAAAgPgq5ywXUQ==
   </data>
  </layer>
  <layer name="Collision" width="70" height="60">
@@ -72,8 +72,8 @@
    eJzt00EKgCAQBdCg+183cBdCSx00oiF7A482Dvg/duzbdgAAAAAAAAB8RJ36LZfs+2R3MTrRbnaONzspjTO93ewsT2tlH3kzK/cS5Z55V3r5Ry9R5rv/1ypmp7eXnSOzl2g3O8fbnWXfAQAAAAAAACInlfl/bw==
   </data>
  </layer>
- <objectgroup name="Objects">
-  <object id="1" name="To balcony" x="1056" y="1120.5" width="32" height="32"/>
-  <object id="2" name="To main hall" x="928" y="832" width="32" height="32"/>
+ <objectgroup name="Object">
+  <object id="1" name="To balcony" type="warp" x="1056" y="1120.5" width="32" height="32"/>
+  <object id="2" name="To main hall" type="warp" x="928" y="832" width="32" height="32"/>
  </objectgroup>
 </map>

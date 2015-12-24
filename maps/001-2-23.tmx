@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32" nextobjectid="3">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -8,32 +8,32 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, Hold"/>
  </properties>
- <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="421" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="433" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="497" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128">
+ <tileset firstgid="503" name="Ship Indoor x2x4" tilewidth="64" tileheight="128" tilecount="1">
   <image source="../graphics/tilesets/ship-indoor-x2x4.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="504" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160">
+ <tileset firstgid="512" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="516" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="516" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -53,7 +53,7 @@
  </layer>
  <layer name="Over" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Xyy4EQRTG8dMRL0AMa3GLxGWDBVaMuIyQIOEBeAHExsM7J1MdlZrqi4lZVNX/l3yhq0ZfvvRUNxEAAAAAAAAAJXj5YzCptN5O/2k/ud1zfXq56pj/7rGPEymvl655cyH0EpNrL09V+3yXXHt5LayXS811R241nwX1cqx51sxrVjVzmhXNsqZyYzb3IO29PTbs/06zrhlqziWNXuwc7Tu06La3g/nw9liQcWd1X9bhwI03sXtkR9J6f7FzfJvxMayXA0mnE2Pn+TXjY6S0ptToJc7O90xz3+OzN9K+7o4a/i7FXkzdzdDLhmYzGHuX8XPJ1tolzZr7Wbnxpud0qr2Y8P/dXc1eMNb17pdjL6FDzZG3TS9x9BJHL3F9evmQ3zV6y/s9lXf/afjPLP+a/e36+i37MrmW58i/vvCaw20AAAAAAAAAADCdH3PwieTQQwAA
+   H4sIAAAAAAAAA+3Xy0rEMBTG8VPEF1C8rMUbgpeNulBXOjLeUFBBH0BfQMWND+85TIoh0zZ1cIQk/x98aJOxl49OWkUAAAAAAAAAlOD5l8G40no7+aP95HbP9enlIjL/1WMfx1JeL7F5cy700iTXXh6r7vmYXHt5KayXoeYykhvNR0G9HGmeNLOaFc2MZlmzpKncmM3dS3dvDy37v9WsaQaaM0mjFztH+w7Nu+2tYD68PeZk1Fndl3W46Mbb2D2yLWm9v9g5vk75GNbLvqTTibHz/JzyMeo1JZVOzH/2khI731PNXY/PXkn3unvd8ncp9mLqbgZe1jUbwdibjJ5LttYuaFbdz8qNtz2nU+3FhP/v7mh2g7HYu1+OvYQONIfeNr00o5dm9NKsTy/v8rNGb3q/p/LuPwn/meVfs79dX79lT8bX8hz51xdec7gNAAAAAAAAAAAm8w3UgnQb0EMAAA==
   </data>
  </layer>
  <layer name="Shadow" width="70" height="62">
@@ -67,14 +67,14 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object name="To Second Deck" type="warp" x="1536" y="928" width="32" height="32">
+  <object id="1" name="To Second Deck" type="warp" x="1536" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-23"/>
     <property name="dest_x" value="1952"/>
     <property name="dest_y" value="1088"/>
    </properties>
   </object>
-  <object name="To ..." type="warp" x="736" y="992" width="32" height="32">
+  <object id="2" name="To ..." type="warp" x="736" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-23"/>
    </properties>

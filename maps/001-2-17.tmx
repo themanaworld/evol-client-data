@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -7,31 +7,31 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="593" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="593" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="721" name="Box" tilewidth="32" tileheight="32">
+ <tileset firstgid="721" name="Box" tilewidth="32" tileheight="32" tilecount="36">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="757" name="Box x1x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="757" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="765" name="Candle" tilewidth="32" tileheight="32">
+ <tileset firstgid="765" name="Candle" tilewidth="32" tileheight="32" tilecount="24">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -41,16 +41,16 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="789" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="789" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="853" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="853" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1109" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="1109" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1113" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1113" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="61" height="61">
@@ -70,7 +70,7 @@
  </layer>
  <layer name="Over" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJztz0EKwjAUBNAfXXsCa3eu68Z79SSe2UArBKFYF8kifQ8GEpjFnwgAAAAAAADo1+XP/qvKFW2Vm1OKOOWc03a/t817HHHzWOWKto64+Zrz2NmdcoaKt7Qyx7L7tuZevL//w9rvwVzk+eMPAAAAAADw8QYOJAlN
+   eJzt0zEKwkAQBdBZrT2BMZ21Nt4rJ/HMbiCBJRCMxS6YvAcfdmGK+cVEAAAAAAAAwH5dfpx/5ww1Fmmo7JxSxCnnnNbn99Z5iyN27qts0dYRO19znhtnHzldxV1aGW9z7H2bci/ey38X/3/Ls6HI68sfAAAAAABg9gFWLQqd
   </data>
  </layer>
  <layer name="Collision" width="61" height="61">
@@ -79,7 +79,7 @@
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="To Right Chamber" type="warp" x="1152" y="928" width="32" height="32">
+  <object id="1" name="To Right Chamber" type="warp" x="1152" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="1"/>
