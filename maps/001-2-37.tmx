@@ -44,35 +44,32 @@
  <tileset firstgid="1055" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="1119" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
-  <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
- </tileset>
  <layer name="Ground" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJztlztuwzAMQBV0TNq1W65iHyC9i29aoEMMZMzgc1RGRZgm6CZDIdbQC/CgHwfqQaKjIaU0AAAAAAAAAAAAAAAAwK44Zt42ODnrp3+Qcy0vfeaQ+Xr5aWc+S/+ceS1ztzLXNeJn3vdH2ft7WtxIX7uRuUuZj869lpspcy2tRtxMKqYVN4PjQ3vw3AjReddyI/u1fXEjc6MiOu8oN/ZOaS+yHp13LTfenZnH8zepN25a8TI4PnR/rrtSq/W5ic65thuvFm+5acWPrjFeq721WIv1Wdn6r2PXo/OueW6sjy0/LdXi4wMPdm3vbyn5PeOlT8s7qjMupG9jovf3F34exei3prwju7Q+J70TE723Goibe+GSlu/2qPo2JjrvWtwNnhsbE51zlBth/GUtOmfcxHMweG5sTHTOUW68etOqG2rx8270ncLNmimt683kxETnHOFG3gnazTW168b6kfFoxi16AQAAAAAAAAAAAADYO98x+uHW
+   eJztlzFuwzAMABV0TNq1W79iPyD9i39aoEMMdMzgJ2SujIowTdBNhkKsoTNwkCxxoA4SBQ0ppQEAAAAAAAAAAAAAAAB2xTHzssHJmT/9g5xreekzh8zn008781H6b5nnMvZVxrpG/Mzrfi9rf02LG+lrNzJ2LuPRuddyM2UupdWIm0nFtOJmcHxoD9rNrYwJ0XnXciPrtX1xI2OjIjrvKDf2TGkvMh+ddy03+hxpT/Od1Bs3rXgZHB+6P9ddqdV630TnXNuNV4u33LTiR9cYr525GT8t1WK9V+Su3rrXpY3Ou+a+sT62/LRUi493PNi5vb+l5HvES5+Wd1RnXEjfxkSv7y/83IvRb015R3ZpvU96JyZ6bTUQN9fCOS339qj6NiY671pcDZ4bGxOdc5QbYfxlLjpn3MRzMHhubEx0zlFuvHrTqhtq8eNu9JnCzZoprevN5MRE5xzhRt4J2s0ltevG+pH/0fy36AUAAAAAAAAAAAAAYO98A1ry4gY=
   </data>
  </layer>
  <layer name="Ground 2" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2EFqwkAUANAhdNFraG2vI13oSg9tbyBtD9BQ905QyRg6NqWBBOc9+PAz8xfDX/xkEgIAAAAAAADcn8dMfmutFKskX/+yX5LXTPy0X5Jtz7pdjLckOGn6ckielw9jnWR69kn+EaMe6yATlPbmfbRTTJPe5KW9+Q5mcWMTTu+xrxifybpZfK3pT50EwBDcDVp97pGl3zU3/6gpweWbppuXaFaFMI/xVA1TB6XL/Qf9a00JzOLWIs7W5xgv5xmb6023DgAAAAAAgPt0BA8/Jwo=
+   eJzt2EsKwjAQgOGkqEhv4XNrbyIiutJD6w1EPYBF9yaE0rE0+EBo6fwfDB3NLMIgk0ZjAAAAAAAAAAAAgO4ZulhYYzIb8rp1rTYi375Z12QVibp1TfYf1PQTYw7ueRSBwPflIT4ve03tpH1OIr+4yJvaSAvJ3pwb20W7pDY86U2c7M3dMIu9nQnn2M3FVXzPLH7l+5OLAIBfZbbMuRuUqvfI4r0mtfEaDfwZ7e+SgySc2bGadRLyWI0GxTtNNddo5H4PYxeT5D910KtuFmsU+x/02xoNmMWlqZutMxdzcUbX9aZaBwAAAAAAAAAAgG56ApQLKD4=
   </data>
  </layer>
  <layer name="Fringe" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt1DEKgDAQBMAl+DXjE2z8/xe0jKWdFoEQmYGDg2u2ODYBAAAAAACA/1kfe325A/0c92zL6BTMaPc30JUuTs6SXGV0irnoYgAAAAAAAAAAAOCrBkW2BGw=
+   eJzt170KwjAUBtDYiqCOTjr5EqKrgvoILr7/K+holkpp/VesNudAILR3uAntlzYEAAAAAAAAaJ91ab65cx94Xy8LYRHHPs633aa7aU4/D2GV1a8N4hjmzfT0L3aJPDfL7H4NddNO0x38pmrelKWcxYVD3J9jwu/cK3mTShYDfNOsksfFd81I5p51rpxZecLnOPBZ48o/ZZHBqWdx9Yy6pFuqeaS+bcZxzZME133L/Mn9WNg/AAAAAACAVjsBNW4H7Q==
   </data>
  </layer>
  <layer name="Over" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt1z8OgjAUx/E3OPrnACpxM3HB0U1WR0cvoaxewcEzeFTbWGIDfSQSQir9fpKXgpSk/EIeVgQAAAAAAAAAAAAAgKZZh3tOE5GnGcu+FxOZLtmcyUZ1IZtWWa+riBPZ6OjFOnqxbmlq/+M9uamXjD8by+azdqXllHtzVgOtKxZzV1dp5mNzuXlzUubnU+VSNx1uOdEp3HhUrqfwDe8qhWz476cLZWN7zD5w7Eshm42pXa0W8s0sa5kzdqH3xvbfInDsS+G9od/oyEZHL9bV95o2C7tf8nuxNicF1V5zK59nLt1v98B5intN+/wHN1b1UM4BAAAAAAAAAMD/eAOVwhuK
+   eJzt1z2KAkEQhuFCTfxZPYA/bLawiYZmmhoaegk19QoGewav4A3tYnuw0S7RQWS03geK7tEe6PkYSlsEAAAAAAAAAAAAAIBrXyXuWTRE/sK4ffZmKibNplkXaYVqh+rEec7SYTb3WpHNTaOn7qKayMZGL7aVycZLL+6Hmjx4zzjUQT4/G6X5DGNZOY2TNYMX7asqurHWcp2P5rJJ1niW5lPkog6185rOa7dUKfM4zozvPfyGl+UhG/772XLZaI+ZZOYpD9l8h/q9qJ6cMxvdWPPpcu+N9t95Zp7y8N7Qb2xkYyvTi481H9lcnjU1Cz0vpb3YWuNBcdb8kf9n3sbPdplrj2dNff5pHIvaG9cAAAAAAAAAAOB9nAB/yB0i
   </data>
  </layer>
- <layer name="Collision" width="71" height="71" visible="0">
+ <layer name="Collision" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt08sKgzAUBFAXXQv+/8+WQoUQTA1aOqE5Fw74WtwM4/pYlhUAAAAAAABgcq/Zivvt/ax8v09611/n0prWN+mdE53Zz/2pNzPlozff7U16Z73J05trvenp1D+reyOXe71J7zxqd9K7pnOSR18+6V3SjnI4up8tq9b/U1/P2KUrk95Zb8YlA9mcZeCf6sumZ9I7yyavde76esZsyrPXz86+AQAAAAAAxvYEbD1UbA==
+   eJzt1LsKg0AUBFCL1IL//7MhEEFkXR8pxnjPwinWpBiHwfE1DCMAAAAAAABAcZ8zLe7T91k6V9rW6f0nnTmxmfm917vZ6+7J9rZTuZezu0lnvstmqndjN9e3s7erp1rv5shJZ05vRjfnt5POmu5JH8f6SWe5I71sb6R1r7alKyedOdVNazdVu+l1ls5wV7rxLT7ajW/xb/2ksya7WT7r/V5F671b94rdAAAAAADAP3sDMuJV5g==
   </data>
  </layer>
- <objectgroup name="Object" visible="0" opacity="0.87">
+ <objectgroup name="Object" opacity="0.87">
   <object id="24" name="To Hall" type="warp" x="1184" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-33"/>
