@@ -519,6 +519,11 @@ IDs 990-999 = Special
         <sprite>npcs/xml/treeleaf.xml</sprite>
         <menu name="Touch" command="talk 'NAME'"/>
     </npc>
+    <npc id="910">
+        <!-- First Savepoint, 32x64 used for the intro. -->
+        <particlefx>graphics/particles/savepoint-32x64.xml</particlefx>
+        <menu name="Save" command="talk 'NAME'"/>
+    </npc>
     <npc id="999">
         <!-- No sprite. -->
         <menu name="Talk" command="talk 'NAME'"/>
