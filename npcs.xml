@@ -192,8 +192,13 @@ IDs 990-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="134">
-         <!-- Ukar Male, Legion member. -->
+         <!-- Ukar Male, Legion member sitting on a box. -->
         <sprite variant="25">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="135">
+         <!-- Human Male, Legion member with axe. -->
+        <sprite variant="26">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
