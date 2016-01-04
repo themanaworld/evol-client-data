@@ -700,8 +700,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
     <item id="1301"
         image="equipment/chest/vneckjumper.png|S"
-        name="V-neck Jumper"
-        description="A simple %color% jumper made from a lightweight cloth."
+        name="%Color% V-neck Jumper"
+        description="A simple %color% jumper made from a lightweight cashmere."
         defense="14"
         level="10"
         type="equip-torso"
@@ -716,7 +716,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="1302"
         image="equipment/chest/tanktop.png|W"
         name="%Color% Artis Tank Top"
-        description="A %color% tank top"
+        description="A %color% tank top made from cotton cloth."
         defense="10"
         level="5"
         type="equip-torso"
@@ -1042,23 +1042,30 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 
     <!-- Cards -->
     <item id="5000"
-        image="generic/pearl.png"
-        name="Card 1"
-        description="test card 1"
+        image="usable/dye.png|S:#3d2323,3e1e28,5e4537,6f2630,886641,a6313f,ab885c,d15b5b,cfb278,e59b77,ebe3b4,efe0c1"
+        name="Crimson Cashmere Dye"
+        useButton="Use"
+        description="Color dye that can be used on cashemere clothing."
         type="card"
-    />
+        weight="1"
+        cardColor="2"
+        maxFloorOffset="15"/>
     <item id="5001"
-        image="generic/pearl.png"
-        name="Card red"
-        description="test card red"
+        image="usable/dye.png|S:#3d2323,302525,5e4537,4a3430,886641,69453a,ab885c,96664c,cfb278,bf8d67,ebe3b4,e6c19c"
+        name="Chocolate Cashmere Dye"
+        useButton="Use"
+        description="Color dye that can be used on cashemere clothing."
         type="card"
-        cardColor="8"
-    />
+        weight="1"
+        cardColor="3"
+        maxFloorOffset="15"/>
     <item id="5002"
-        image="generic/pearl.png"
-        name="Card green"
-        description="test card green"
+        image="usable/dye.png|S:#3d2323,35313d,5e4537,443f4f,886641,485c6b,ab885c,50918f,cfb278,75c7a8,ebe3b4,c3e8c4"
+        name="Mint Cashmere Dye"
+        useButton="Use"
+        description="Color dye that can be used on cashemere clothing."
         type="card"
-        cardColor="17"
-    />
+        weight="1"
+        cardColor="4"
+        maxFloorOffset="15"/>
 </items>
