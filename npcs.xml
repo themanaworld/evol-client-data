@@ -475,6 +475,15 @@ IDs 990-999 = Special
         <sprite>npcs/xml/rumly.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="445">
+        <!-- Demon Female, walking sprite for villager NPC. -->
+        <sprite>races/demon-female.xml</sprite>
+        <sprite>equipment/legs/trousers-female.xml</sprite>
+        <sprite>equipment/feet/boots-female.xml|#594d36,b49b6c,f4d293</sprite>
+        <sprite>equipment/chest/vneckjumper-female.xml|#683c57,75405b,b75a76,db7b88,ff9b9b,ffd7b9,fffff8</sprite>
+        <sprite>hairstyles/hairstyle24.xml|#2b2b2b,470320,3f3f3f,570c27,585858,8e2b41,858585,a42d2d,a7a7a7,c82525,d6d6d6,e89687,ffffff,fcd4a4</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
