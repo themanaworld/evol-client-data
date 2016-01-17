@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Authors: Pad, Reid
-Copyright (C) 2010-2015 Evol Online -->
+Copyright (C) 2010-2016 Evol Online -->
 
 <!--
 IDs 100-300 = Unanimated
@@ -209,6 +209,11 @@ IDs 990-999 = Special
     <npc id="137">
          <!-- Raijin Male, Shield seller. -->
         <sprite variant="28">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="138" nameOffsetY="4" targetOffsetY="16">
+         <!-- Elven Female, Sword seller. -->
+        <sprite>npcs/xml/lydon.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
