@@ -201,7 +201,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="503"
         image="usable/fungus.png"
         name="Fungus"
-        description="A peculiar food, ingredient, or remedy."
+        description="A peculiar food, ingredient, or remedy against poison."
         useButton="Eat"
         effect="Damage -5%; Defense +5%; Heal 25-35 HP"
         type="usable"
@@ -318,7 +318,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Plushroom"
         description="A strange remedy of many possible uses."
         useButton="Eat"
-        effect="Damage +5%; Defense -5%; Heal 20-30 HP"
+        effect="Damage +5%; Heal 20-30 HP"
         type="usable"
         weight="8"
         maxFloorOffsetX="12"
@@ -460,6 +460,17 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="10"
         maxFloorOffset="6"/>
+    <item id="529"
+        image="usable/curshroom.png"
+        name="Curshroom"
+        description="A strange remedy of many possible uses, cure poison."
+        useButton="Eat"
+        effect="Damage per second +10; Heal 40-50 HP"
+        type="usable"
+        weight="10"
+        maxFloorOffset="6"/>
+
+
 
     <!-- Generic Items -->
     <item id="700"
