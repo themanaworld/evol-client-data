@@ -216,6 +216,12 @@ IDs 990-999 = Special
         <sprite>npcs/xml/lydon.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="139" nameOffsetY="4" targetOffsetY="16">
+         <!-- Elven Female, INN keeper. -->
+        <sprite variant="29">npcs/xml/unanimated.xml</sprite>
+        <sprite>npcs/xml/jumpingtipiou.xml|#a36209,892b2e,cc9b14,b84335,ebc12e,ee613c,fff568,fbac71</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
