@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2010-2016 Evol Online -->
+<effect>
+    <particle position-x="16" position-y="32" position-z="32">
+        <emitter>
+            <property name="vertical-angle" min="0" max="90"/>
+            <property name="horizontal-angle" min="0" max="360"/>
+            <property name="power" value="32"/>
+            <property name="lifetime" value="1"/>
+            <property name="output" min="-2" max="1"/>
+            <emitter>
+                <property name="position-y" value="48"/>
+                <property name="position-z" value="32"/>
+                <property name="image" value="graphics/particles/gloworb.png|W:#efeea8"/>
+                <property name="gravity" value="-0.0012"/>
+                <property name="lifetime" value="140"/>
+                <property name="output" min="-10" max="1"/>
+                <property name="output-pause" min="0" max="10"/>
+                <property name="fade-in" value="15"/>
+                <property name="fade-out" value="20"/>
+                <property name="randomness" value="6"/>
+            </emitter>
+            <emitter>
+                <property name="position-y" value="48"/>
+                <property name="position-z" value="32"/>
+                <property name="image" value="graphics/particles/star-small.png|W:#bad162,dde693"/>
+                <property name="lifetime" value="140"/>
+                <property name="output" min="-15" max="1"/>
+                <property name="fade-in" value="40"/>
+                <property name="fade-out" value="40"/>
+                <property name="gravity" value="-0.0014"/>
+                <property name="randomness" value="4"/>
+            </emitter>
+        </emitter>
+    </particle>
+</effect>
