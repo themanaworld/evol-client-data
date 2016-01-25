@@ -222,6 +222,11 @@ IDs 990-999 = Special
         <sprite>npcs/xml/jumpingtipiou.xml|#a36209,892b2e,cc9b14,b84335,ebc12e,ee613c,fff568,fbac71</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="140" nameOffsetY="4" targetOffsetY="16">
+         <!-- Orc Female, INN keeper. -->
+        <sprite variant="30">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
