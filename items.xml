@@ -27,8 +27,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
 <items>
-    <version revision="$Revision$"/>
-
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//item/@name" translate="yes"/>
         <its:translateRule selector="//item/@description" translate="yes"/>
@@ -171,10 +169,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <!-- Special Races -->
     <item id="-150" type="racesprite" name="Piou">
         <sprite gender="unisex">races/piou-unisex.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
         <sound event="miss">monsters/piou/miss1.ogg</sound>
     </item>
 
@@ -195,9 +190,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 25-40 HP"
         type="usable"
-        weight="25"
-        maxFloorOffsetX="6"
-        maxFloorOffsetY="10"/>
+        weight="25"/>
     <item id="503"
         image="usable/fungus.png"
         name="Fungus"
@@ -214,9 +207,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 30-50 HP"
         type="usable"
-        weight="3"
-        maxFloorOffsetX="9"
-        maxFloorOffsetY="8"/>
+        weight="3"/>
     <item id="505"
         image="usable/pioulegs.png"
         name="Piou Legs"
@@ -224,9 +215,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 7-13 HP"
         type="usable"
-        weight="4"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="9"/>
+        weight="4"/>
     <item id="506"
         image="usable/lettuceleaf.png"
         name="Lettuce Leaf"
@@ -234,9 +223,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 15-25 HP"
         type="usable"
-        weight="1"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="5"/>
+        weight="1"/>
     <item id="507"
         image="usable/piberries.png"
         name="Piberries"
@@ -244,9 +231,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 12-23 HP"
         type="usable"
-        weight="2"
-        maxFloorOffsetX="9"
-        maxFloorOffsetY="7"/>
+        weight="2"/>
     <item id="508"
         image="usable/drops.png|S:#898989,7287a0,aeaeae,96abc6,cecece,bccce0,e5e5e5,dce4ee"
         name="Sea Drops"
@@ -254,9 +239,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Drink"
         effect="Headache; Heal 10-20 HP"
         type="usable"
-        weight="4"
-        maxFloorOffsetX="6"
-        maxFloorOffsetY="8"/>
+        weight="4"/>
     <item id="509"
         image="usable/aquada.png"
         name="Aquada"
@@ -264,9 +247,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 75-100 HP"
         type="usable"
-        weight="16"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="10"/>
+        weight="16"/>
     <item id="510"
         image="usable/blobime.png|S:#686868,695977,919191,9f79a9,bababa,d69ec0,dcdcdc,eccddf"
         name="Pink Blobime"
@@ -274,9 +255,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Headache; Heal 2-6 HP"
         type="usable"
-        weight="10"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="12"/>
+        weight="10"/>
     <item id="511"
         image="usable/blobime.png|S:#686868,4e4e86,919191,7966b0,bababa,a384d5,dcdcdc,d7b9ea"
         name="Purple Blobime"
@@ -284,9 +263,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Stomach ache; Heal 30-70 HP"
         type="usable"
-        weight="10"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="12"/>
+        weight="10"/>
     <item id="512"
         image="usable/croconut-half.png"
         name="Half Croconut"
@@ -302,17 +279,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="Fallen from a crocotree, this fruit could be opened."
         useButton="Open"
         type="usable"
-        weight="80"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="11"/>
+        weight="80"/>
     <item id="514"
         image="usable/book-old.png"
         name="Old Book"
         description="A book that threatens to fall apart in your hands as you carefully browse the pages."
         useButton="Read"
         type="usable"
-        weight="25"
-        maxFloorOffsetX="5"/>
+        weight="25"/>
     <item id="515"
         image="usable/plushroom.png"
         name="Plushroom"
@@ -320,9 +294,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Damage +5%; Heal 20-30 HP"
         type="usable"
-        weight="8"
-        maxFloorOffsetX="12"
-        maxFloorOffsetY="9"/>
+        weight="8"/>
     <item id="516"
         image="usable/pumpkinseeds.png"
         name="Pumpkish Seeds"
@@ -331,18 +303,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         hp="1"
         effect="Headache"
         type="usable"
-        weight="1"
-        maxFloorOffsetX="12"
-        maxFloorOffsetY="10"/>
+        weight="1"/>
     <item id="517"
         image="usable/deliciouscookie.png"
         name="Delicious Cookie"
         description="This is a reward from the Cookie Master. Be careful before you eat it, its effects are unknown..."
         useButton="Eat"
         effect="Unknown"
-        type="equip-torso"
-        maxFloorOffsetX="9"
-        maxFloorOffsetY="8">
+        type="equip-torso">
         <replace />
         <replace sprite="race">
             <item from="-100" to="-150"/>
@@ -361,9 +329,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 28-35 HP"
         type="usable"
-        weight="1"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="1"/>
     <item id="519"
         image="usable/easteregg.png"
         name="Easter Egg"
@@ -371,9 +337,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         effect="Heal 60-75 HP"
         type="usable"
-        weight="10"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="10"/>
     <item id="520"
         image="usable/piberriesinfusion.png"
         name="Pibberries Infusion"
@@ -381,9 +345,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 110-130 HP"
         useButton="Drink"
         type="usable"
-        weight="15"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="15"/>
     <item id="521"
         image="usable/fatespotion.png"
         name="Fate's Potion"
@@ -391,9 +353,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 240-260 HP"
         useButton="Drink"
         type="usable"
-        weight="17"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="17"/>
     <item id="522"
         image="usable/clotholiquor.png"
         name="Clotho Liquor"
@@ -401,9 +361,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 575-625 HP"
         useButton="Drink"
         type="usable"
-        weight="16"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="16"/>
     <item id="523"
         image="usable/lachesisbrew.png"
         name="Lachesis Brew"
@@ -411,9 +369,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 1100-1300 HP"
         useButton="Drink"
         type="usable"
-        weight="14"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="14"/>
     <item id="524"
         image="usable/atroposmixture.png"
         name="Atropos Mixture"
@@ -421,9 +377,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 2300-2550 HP"
         useButton="Drink"
         type="usable"
-        weight="15"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="15"/>
     <item id="525"
         image="usable/elixiroflife.png"
         name="Elixir Of Life"
@@ -431,9 +385,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 10000 HP"
         useButton="Eat"
         type="usable"
-        weight="20"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="9"/>
+        weight="20"/>
     <item id="526"
         image="usable/shovel.png"
         name="Iron Shovel"
@@ -485,9 +437,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 40-90 HP"
         useButton="Drink"
         type="usable"
-        weight="10"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="5"/>
+        weight="10"/>
 
 
     <!-- Generic Items -->
@@ -510,56 +460,43 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Tortuga Shell Fragment"
         description="Used to make tools and decorations."
         type="generic"
-        weight="25"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="7"/>
+        weight="25"/>
     <item id="703"
         image="generic/eggshell-half.png"
         name="Half Eggshell"
         description="Maybe something hatched, or someone was cooking."
         type="generic"
-        weight="2"
-        maxFloorOffsetX="13"
-        maxFloorOffsetY="14"/>
+        weight="2"/>
     <item id="704"
         image="generic/rattotail.png"
         name="Ratto Tail"
         description="Hairless tail of ratto."
         type="generic"
-        weight="1"
-        maxFloorOffsetX="9"/>
+        weight="1"/>
     <item id="705"
         image="generic/teeth-ratto.png"
         name="Ratto Teeth"
         description="Sharp incisors of ratto."
         type="generic"
-        weight="1"
-        maxFloorOffsetX="10"
-        maxFloorOffsetY="12"/>
+        weight="1"/>
     <item id="706"
         image="generic/crocclaw.png"
         name="Croc Claw"
         description="It moves and pinches without its body."
         type="generic"
-        weight="45"
-        maxFloorOffsetX="14"
-        maxFloorOffsetY="9"/>
+        weight="45"/>
     <item id="707"
         image="generic/squichyclaws.png"
         name="Squichy Claws"
         description="Claws from a wild squichy."
         type="generic"
-        weight="1"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="10"/>
+        weight="1"/>
     <item id="708"
         image="generic/tortugashell.png"
         name="Tortuga Shell"
         description="A symbol of shelter."
         type="generic"
-        weight="95"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="10"/>
+        weight="95"/>
     <item id="709"
         image="generic/tongue.png"
         name="Tortuga Tongue"
@@ -593,33 +530,25 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Fish Box"
         description="A wooden box full of fresh fish that Couwan gave you."
         type="generic"
-        weight="1250"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="9"/>
+        weight="1250"/>
     <item id="714"
         image="generic/box-aquada.png"
         name="Aquada Box"
         description="Contains 50 aquadas."
         type="generic"
-        weight="850"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="9"/>
+        weight="850"/>
     <item id="715"
         image="generic/box-croconut.png"
         name="Croconut Box"
         description="Contains 17 croconuts."
         type="generic"
-        weight="1400"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="9"/>
+        weight="1400"/>
     <item id="716"
         image="generic/box-plushroom.png"
         name="Plushroom Box"
         description="Contains 87 plushrooms."
         type="generic"
-        weight="720"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="9"/>
+        weight="720"/>
     <item id="717"
         image="generic/dish-poisoned.png"
         name="Poisoned Dish"
@@ -730,9 +659,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="5"
         level="1"
         type="equip-torso"
-        weight="17"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="10">
+        weight="17">
         <sprite gender="unisex">equipment/chest/cottonshirt-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
         <sprite gender="female">equipment/chest/cottonshirt-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
     </item>
@@ -744,8 +671,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         level="10"
         type="equip-torso"
         weight="30"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="10"
         colors="vneck"
         iconColors="vneckS">
         <sprite gender="unisex">equipment/chest/vneckjumper-male.xml</sprite>
@@ -771,9 +696,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="18"
         level="10"
         type="equip-torso"
-        weight="22"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="10">
+        weight="22">
         <sprite gender="unisex">equipment/chest/shirt-male.xml|#4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
         <sprite gender="female">equipment/chest/shirt-female.xml|#4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
     </item>
@@ -784,9 +707,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="20"
         level="10"
         type="equip-torso"
-        weight="120"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="8">
+        weight="120">
         <sprite gender="unisex">equipment/chest/trainingshirt-male.xml</sprite>
         <sprite gender="female">equipment/chest/trainingshirt-female.xml</sprite>
     </item>
@@ -797,9 +718,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="40"
         level="15"
         type="equip-torso"
-        weight="340"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="8">
+        weight="340">
         <sprite gender="unisex">equipment/chest/copperarmor-male.xml</sprite>
         <sprite gender="female">equipment/chest/copperarmor-female.xml</sprite>
     </item>
@@ -923,9 +842,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="4"
         level="5"
         type="equip-head"
-        weight="4"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="12">
+        weight="4">
         <sprite gender="unisex">equipment/head/bandana-male.xml</sprite>
         <sprite gender="female">equipment/head/bandana-female.xml</sprite>
         <replace sprite="hair">
@@ -1020,11 +937,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="5"
         level=""
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
-        weight="6"
-        maxFloorOffsetX="9"
-        maxFloorOffsetY="12">
+        weight="6">
         <sprite>equipment/weapons/knife.xml</sprite>
         <sound event="hit">weapons/knife/hit1.ogg</sound>
         <sound event="miss">weapons/knife/miss1.ogg</sound>
@@ -1036,11 +950,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="15"
         level="3"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
-        weight="26"
-        maxFloorOffsetX="9"
-        maxFloorOffsetY="12">
+        weight="26">
         <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -1052,11 +963,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="35"
         level="5"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
-        weight="58"
-        maxFloorOffsetX="8"
-        maxFloorOffsetY="10">
+        weight="58">
         <sprite>equipment/weapons/traininggladius.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -1068,11 +976,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="4"
         level="5"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
-        weight="25"
-        maxFloorOffsetX="7"
-        maxFloorOffsetY="7">
+        weight="25">
         <sprite>equipment/weapons/woodensword.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -1084,11 +989,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="80"
         level="15"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
-        weight="86"
-        maxFloorOffsetX="6"
-        maxFloorOffsetY="6">
+        weight="86">
         <sprite>equipment/weapons/backsword.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
