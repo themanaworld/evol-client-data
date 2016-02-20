@@ -75,6 +75,9 @@
   </data>
  </layer>
  <layer name="Fence" width="71" height="71">
+  <properties>
+   <property name="TileCondition" value="128"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJzt0LENACAIAEESKgs3YP85rSypMfFugs9HAAAAAAAAAAAAAFfldMG7ljet7Q0AAAAAAAAAAPCRAzRWADw=
   </data>
@@ -91,10 +94,10 @@
  </layer>
  <layer name="Collision" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2DEKw0AMBEAXeZPB//9YSBfM+VBSeJXcCKZzsSySMd4f27YDAAAAAAAAAF97TTpDN59OOm+qm6PYVTrzXUZ9HJO9SuftZsVuqrejm/FtrXpT1W7eO0pn7taNvdGNbnRzdzfpvLrpYTaj59J5dfM7Vr2p8/vk/P0726V/dzVX/3HSeZPdjHZJN7VJ5+3cTzorAAAAAABQ9wSvtUYL
+   eJzt2EEKgzAQBVAXnknw/hcr3ZWQhNhF/2jfwNtl8flMVDz2bTsAAAAAAAAAgK+9J52hmquTzpvq5lzsKp35V3p9nJO9Suet5h+7Wb07uhnfLd2Mu/l8JqUzV+vG3vS7aSedWTd5K92059KZq3aTzqubGmbTO5fOq5v7GPX1dO07uv3+ne3S041m9B8nnTfZTW+XdLM26byV+0lnBQAAAAAA1r0AhDNHZw==
   </data>
  </layer>
- <objectgroup name="Object" visible="0" opacity="0.87">
+ <objectgroup name="Object" opacity="0.87">
   <object id="7" name="To Waiting Room" type="warp" x="1184" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-34"/>
@@ -103,7 +106,7 @@
  </objectgroup>
  <layer name="Heights" width="71" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2DEOgCAQRUEL767HNsbY8QVjoXFnEnp4YSmYJgAAAAAAAADgiXV+ewffsze5syq526ZSn975q3ZZBu9GxTajtGmrOlM9rZnjoE2mTaZNpk2mTaZNny5ZxTb7zKR1qjpPvX+Iym+Nf5tMm0yba9oAAAAAAMA/bTqgV3I=
+   eJzt2DEKgDAQRUEL767HloBW4RvFQnFnYPvkwRLINAEAAAAAAAAAT6zz2yf4ntbkzlRyt02lPqP7V+1ylTaZNpk2vWVvoU1Pm2wp/H6PaJPZqUybTJsxXbKKbdrOpDlU3afRP0Tl99u/TaZNps05bQAAAAAA4J82EYRQVw==
   </data>
  </layer>
 </map>
