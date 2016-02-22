@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="2">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#818181" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-17.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -73,12 +73,12 @@
    eJzt0zEKwkAQBdBZrT2BMZ21Nt4rJ/HMbiCBJRCMxS6YvAcfdmGK+cVEAAAAAAAAwH5dfpx/5ww1Fmmo7JxSxCnnnNbn99Z5iyN27qts0dYRO19znhtnHzldxV1aGW9z7H2bci/ey38X/3/Ls6HI68sfAAAAAABg9gFWLQqd
   </data>
  </layer>
- <layer name="Collision" width="61" height="61">
+ <layer name="Collision" width="61" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0zEKwCAQBEALXyn4/2+EENIIAYvIhjjCYLvrna2W0gAAAAAAANjOee6710s60+q+MyedM9H5T73HPe4P75DO+facZ+aezrmy8y5z3uUfz3ZO51vZedzpdC4AAAAAAOC7DjixP4o=
   </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup name="Objects" visible="0">
   <object id="1" name="To Right Chamber" type="warp" x="1152" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

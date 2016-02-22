@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="3">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="61" tilewidth="32" tileheight="32" backgroundcolor="#a0a0a0" nextobjectid="3">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-16.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -70,12 +70,12 @@
    eJzt080JwkAQBtBAzlZg9OZZ8acBtQK1kFRgGWK5TjCHRVHcQyIJ78FHdpNZmGFJUQAAAAAAAMA41ZFr5pl5F4306NPMt/L5vJfv38Y68zdDn7kxyaw38zBNI6sfa5eRqsNe+tL8083cszaLZL2ObCLbdl+19UNXv2SXrPeRQ+SYvBu7U+Qcufy7kR6l9w8AAAAAADkekB0Ocg==
   </data>
  </layer>
- <layer name="Collision" width="61" height="61">
+ <layer name="Collision" width="61" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1UEKgCAQBVCh+19Q6C7RTqSMQBvMN/AWMpv/mYV5SykDAAAAAACwpHNa778oe5WzV+/onD371tPaR+cd1ftuF51z9K2f7j+7NxOd9cvu0dl07qv+n1bofHX76AwAAAAAADCDA+rYVAY=
   </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup name="Objects" visible="0">
   <object id="1" name="To Artis" type="warp" x="1024" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

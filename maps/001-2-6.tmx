@@ -7,37 +7,37 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Library's Second Floor"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128">
+ <tileset firstgid="577" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="593" name="Indoor x2 x4" tilewidth="64" tileheight="128">
+ <tileset firstgid="593" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="729" name="Sunlight" tilewidth="32" tileheight="160">
+ <tileset firstgid="729" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="733" name="Ground" tilewidth="32" tileheight="32">
+ <tileset firstgid="733" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="989" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="989" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="995" name="Level Height" tilewidth="32" tileheight="32">
+ <tileset firstgid="995" name="Level Height" tilewidth="32" tileheight="32" tilecount="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <tileset firstgid="1011" source="../graphics/tilesets/candle.tsx"/>
@@ -61,12 +61,12 @@
    eJzt2E1KAzEYgOHYnRQvoLY7F7rRjfseQO/idVs9jAm00I5Dm4wJhczzwMdAmEynLwP9CQEAAAAAAAAAAIAp7grOXTe7i37oWZeedelZl551jfV8jfM2sq7nZWM912fWuWwVTp9HPf9nGWeTcZ6eeTaZ5/XY8/nmeq/dS8+S7zQt9dhzuwhhF+c7zs/i79qYc3tK9NjzmubY8z7OS5zbBvcxx54fcdJH1meD+5hjz5b0rEvPuubYM/03NPw9XksvPR9CXp/U8jHOV+Gekmv3IvVJz93T/ng8h7Xh+83dM+XaPUjP3fv+eDyHtal7hmu51wYAAAAAAAAAgFK/M0EgiA==
   </data>
  </layer>
- <layer name="Collision" width="84" height="77">
+ <layer name="Collision" width="84" height="77" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1mEKgzAMBtDB7n9FwZsMfwgi6lJnzWpf4MFwKs23zDq8X68BAAAAAAAAAACAn001fx7/YD2tW1f2eloUrex1tkKe92eavb6WmM+cXLPX1wqzWTfP+fi4kr3OlsizXqa95bns+duzbe/5t3W85Nwnie4VpftM9L5PsNfruJNbJNdo9tm935FnRmVnUDvPvdk8k1HkXtkZ1Mh0a59dZnH0G0Rnfeu87N5rzmf0u2hmY+E1T1EyV9FropXd+91ZlmQy13Iut54ZvWQa/X9eWdm93zmrV89xb5mW9hnNp7ccz+Q51dE7Vul5AAAAAAAAAAC9+QDkQgKw
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.9">
+ <objectgroup name="Object" visible="0" opacity="0.9">
   <object id="1" name="To Library First Floor" type="warp" x="1760" y="1216" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-2-4"/>
@@ -75,7 +75,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="84" height="77">
+ <layer name="Heights" width="84" height="77" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt180KhCAUBtCg93/KmQcZWgSOqHnLNnoOCGG28OPmz7YBAAAAAAAAAAAwwmcvP3PPd/9vxB11eLY8z/QdffIMa41+shxHfb5DnmOozbFq2cn0nlpu6VnJeSlu1TqM3AlrtVXqXzXP3nUtus/kd6KZ5XfCU34nbNVdT5ar7O21e3XvWXxEm8nbGa2W56GUQdp/9Q+X+kt1Xho3m9bcnqyJkTqdTV5TeW2l4/Jvrtbfq/V4Nm+tlb19s2X6ZB9ptcg5YVateY6oY3nGxte+Wy3HU2S+V9lFxwEAAAAAAAAArOYH0+BRYA==
   </data>

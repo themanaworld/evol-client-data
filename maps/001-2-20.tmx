@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-20.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -67,12 +67,12 @@
    eJzt0k0KwjAQhuFJuvYEVrddKiroThEv4M9BeiPP6M8BOmKFoRAt3aSN7wMfhE4mJENFAAAAAAAAAAAAgLiy2BcABmbUsW+r2QVq045n9kmbudy8yF3z0Dz99z0bn/ZcnBPxJplrd97RpT2Xrq6J/y+/zDTzQC2FuYwl/L6Q10zyQO+nNnSlvN83MSnMeqFZalbmW1732d6iUUtFabI2631dPzT2NGN7/sFJc9ZcYl+kZ+w/AQAAAAAAAAAAgPgq5ywXUQ==
   </data>
  </layer>
- <layer name="Collision" width="70" height="60">
+ <layer name="Collision" width="70" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt00EKgCAQBdCg+183cBdCSx00oiF7A482Dvg/duzbdgAAAAAAAAB8RJ36LZfs+2R3MTrRbnaONzspjTO93ewsT2tlH3kzK/cS5Z55V3r5Ry9R5rv/1ypmp7eXnSOzl2g3O8fbnWXfAQAAAAAAACInlfl/bw==
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To balcony" type="warp" x="1056" y="1120.5" width="32" height="32"/>
   <object id="2" name="To main hall" type="warp" x="928" y="832" width="32" height="32"/>
  </objectgroup>

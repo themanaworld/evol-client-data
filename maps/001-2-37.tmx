@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" nextobjectid="26">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="61" height="71" tilewidth="32" tileheight="32" nextobjectid="26">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-4.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-37.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="City Hall Left Side"/>
  </properties>
@@ -44,32 +44,32 @@
  <tileset firstgid="1055" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <layer name="Ground" width="71" height="71">
+ <layer name="Ground" width="61" height="71">
   <data encoding="base64" compression="zlib">
-   eJztlzFuwzAMRRV0TNq1W69iHyC9i29aIEMMdMzgI2SuhIowTdBtJ7GB3vAgWdLw9SBT0JRSmgAAAAAAAAAAAAAAAOChOGZedjg586d/kLmVlzFzyFyevtvCR+2/ZZ7r2GcdGzrxU/b9Xvf+mlY30tduZOxcx6Ozt3KzZK611YibRa3pxc3k+NAetJt7HROic7dyI/u1fXEjY7MiOneUG/tPaS8yH527lRv9H2lP5U4ajZtevEyOD90vdVdqtT430Zlbu/Fq8Z6bXvzoGuO1hbvx01Mt1mdF7uq9e13a6Nwtz431seenp1p8/MWDnevhLSVexrS+owbjQvp2TXTuFui3prwjh7Q9J6OzJjp3Sze3yjmt9/as+nZNdO5W3AyeG7smOnOUG2H+YS46M27iORg8N3ZNdOYoN1696dUNtfjvbvQ/hZstS9rWm8VZE505wo28E7Sba+rXjfUj37P57tELAAAAAAAAAAAAAMCj8wUbUeNW
+   eJztlzFuwzAMRRV0TNq1W69iHyC9i29aIEMMZMzgI2SujIowQ8gpAglg5b7hQbLE4T/Ipu0hhDAAAAAAAAAAAAAAADxgH3lb4ZDZP/yBzKW+fWQXOb38jDNfaf4ReU1rl7TWNe49+3wmp/ewOMtcO8vaMa17Zy91niLnNGrEeVI1rTsPGU/tp51vaU3wzl3qLB52Ls6yNiq8c9d2tve29pV979ylzvp+1v5zj+6Nc+u+Q8ZTz+d+JT1On7N35lrOuR625ty6t36Gc+PMzXhvoYfps5V30tr7S0bv3DXO2XqueW+hh+1/8bN7LX9ri28flu/szjjK3NZ45y5B/2PI/0NnzrXP1HjnruF8TRzD8n4a1dzWeOcu5WrIOdsa78y1nYXxwZ53ZpyfZ2fIOdsa78y1nXPP89ac6WH39/Z/cZ7C/fM8ZWq8M9d0lu9N7XwO23O23nI9must+QIAAAAAAAAAAIAv33xprKc=
   </data>
  </layer>
- <layer name="Ground 2" width="71" height="71">
+ <layer name="Ground 2" width="61" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt2EsKwjAQgOGkqEhv4XNrbyIiutJD6w1EPYBF9yaE0rE0+EBo6fwfDB3NLMIgk0ZjAAAAAAAAAAAAgO4ZulhYYzIb8rp1rTYi375Z12QVibp1TfYf1PQTYw7ueRSBwPflIT4ve03tpH1OIr+4yJvaSAvJ3pwb20W7pDY86U2c7M3dMIu9nQnn2M3FVXzPLH7l+5OLAIBfZbbMuRuUqvfI4r0mtfEaDfwZ7e+SgySc2bGadRLyWI0GxTtNNddo5H4PYxeT5D910KtuFmsU+x/02xoNmMWlqZutMxdzcUbX9aZaBwAAAAAAAAAAgG56ApQLKD4=
+   eJzt2EsKwjAQgOEkqEhv4XNrbyIiutJD6w1EPYCiexNCcSiND5DWJv8HQ8dmFhmESVulAAAAAAAAAABASN/GTCuVa59XrcdmJfL1m/UYLAJRtR6D7Qc1XaPUzl73ImLn+r2L3/NOUzupz0HkJxvXpjZSI9nzsbFd1CPT/ppSzwXZ803FPcM2ys/1i42zuJ/CDHNc31cRAP5Xrp95Cs+Y5feH4lzOdLimzdxZ5N4hesafTaGapfF5qKbNijO5nMdkYP+/oY2R+U0d2qNqhsUk9D3o25o2S2GGje1MmtiYirOoqudyHQAAAAAAAAAArzwA4LooPg==
   </data>
  </layer>
- <layer name="Fringe" width="71" height="71">
+ <layer name="Fringe" width="61" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt170KwjAUBtDYiqCOTjr5EqKrgvoILr7/K+holkpp/VesNudAILR3uAntlzYEAAAAAAAAaJ91ab65cx94Xy8LYRHHPs633aa7aU4/D2GV1a8N4hjmzfT0L3aJPDfL7H4NddNO0x38pmrelKWcxYVD3J9jwu/cK3mTShYDfNOsksfFd81I5p51rpxZecLnOPBZ48o/ZZHBqWdx9Yy6pFuqeaS+bcZxzZME133L/Mn9WNg/AAAAAACAVjsBNW4H7Q==
+   eJzt100KwjAQhuFpUgR16aquvITYrYJ6BDfe/wq6dDaBEK31D0Mm7wOB0GYx0zZfqAgAAAAAAAAAABiyj+aHkfuAJRMn0us46/zY5q7m96ZeZOfur810zH2emnI7Ff6et258TU1WTe4K/ivdzzGLGRZctO+rwW//k/1ceoYBsGWd5Fg4lxcVZFUzkOHe4HkFWNUl/xIhu6xmWJrZj7TRmlfWl6LTXpaG+nlm82affSXPBQAAAAAAAADwnRuThQft
   </data>
  </layer>
- <layer name="Over" width="71" height="71">
+ <layer name="Over" width="61" height="71">
   <data encoding="base64" compression="zlib">
-   eJzt1z2KAkEQhuFCTfxZPYA/bLawiYZmmhoaegk19QoGewav4A3tYnuw0S7RQWS03geK7tEe6PkYSlsEAAAAAAAAAAAAAIBrXyXuWTRE/sK4ffZmKibNplkXaYVqh+rEec7SYTb3WpHNTaOn7qKayMZGL7aVycZLL+6Hmjx4zzjUQT4/G6X5DGNZOY2TNYMX7asqurHWcp2P5rJJ1niW5lPkog6185rOa7dUKfM4zozvPfyGl+UhG/772XLZaI+ZZOYpD9l8h/q9qJ6cMxvdWPPpcu+N9t95Zp7y8N7Qb2xkYyvTi481H9lcnjU1Cz0vpb3YWuNBcdb8kf9n3sbPdplrj2dNff5pHIvaG9cAAAAAAAAAAOB9nAB/yB0i
+   eJzt1z2OwjAQhuERSwPLzwH4Ed1K20BJB+2WlFxioeUKFJyBK3BDPMIRFjiQBdbSmPeRRnbAkfwlihOLAAAAAAAAAAAA4B20Hzjnpy6yc+361ZNJJMzc+BBpuvp01fL9mEVGmatavmFmNXzpLNIiczU5rWFVWV/Deq4mfzxn7GovdjMrzT3wVZZ/HIzpJ5rXf+v4+pXr3Jp3FYzJUZi7yKv2tfOYVtopJTH37azkf8vvqkdZzsw3yYk+w5NIP2Q588jV90V15XwthjfGWBW7z7puzSP9kOX7zPNcXW6Z761hh5rtzJd7DM2o39PhGlY2xrJij/Elpyxr/9smcpzTHkNzTX1b1LbkGAAAAAAAAACedQTvvx0i
   </data>
  </layer>
- <layer name="Collision" width="71" height="71">
+ <layer name="Collision" width="61" height="71" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1LsKg0AUBFCL1IL//7MhEEFkXR8pxnjPwinWpBiHwfE1DCMAAAAAAABAcZ8zLe7T91k6V9rW6f0nnTmxmfm917vZ6+7J9rZTuZezu0lnvstmqndjN9e3s7erp1rv5shJZ05vRjfnt5POmu5JH8f6SWe5I71sb6R1r7alKyedOdVNazdVu+l1ls5wV7rxLT7ajW/xb/2ksya7WT7r/V5F671b94rdAAAAAADAP3sDMuJV5g==
+   eJzt1EEKgzAUBFAXXQve/7Kl0IJIiFqSfPJ9gbfQdjHjiOtrWVYAAAAAAICH+pxtd71970Xn6tm3dGr/ic7ccuNfn+POZ89kRmdbZ+x7d+fozL03ztr5aTtf2frsPZjNcecrJzpzr40zd767dXTWUbtHZxrdOzrL6N7RGUZvWrrOsv0/Jzpz686lnbN1rj2L6Aw6t+3mG5b/G3a3d3TWHp3392q/z67Up3SdqTMAAAAAEOcNWNAj+g==
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
+ <objectgroup name="Object" visible="0" opacity="0.87">
   <object id="24" name="To Hall" type="warp" x="1184" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-33"/>

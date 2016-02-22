@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-27.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-30.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Blacksmith Shop"/>
  </properties>
@@ -78,7 +78,7 @@
    eJzt1cEKgzAQRVEX/f+l4N+WLgrpaLAgOMI7gQOS1eQS4vpalhUAAAAAAAAgzGdtD5ijSz37NuzV1T3rXT2+a/w+Wt2z3uGfNd6ZBGd3Iq3H2KTu6bHvkUiPfYv6biT9V8561DZJ9NDjSqfuOZ5CDz3Gc9fzJ/aoHdLf09mdSO0xa5Dc4+iezPZS6LE/tx6/Z569rd0z3t3j6DtVvR/d83Tzf9UEAAAAAADI8wbQJPr0
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="16" name="To Second Level" type="warp" x="1152" y="1024" width="64" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -94,7 +94,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="68" height="77">
+ <layer name="Heights" width="68" height="77" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt18sKgzAURVEH/nr73SK1tHnc4NizFgQks2xiotsGAAAAAAAAkOe9f0aqfu3/Pb7PSY36Na9GgjsdXtdIkb4nZmbr12OcS6XHT3VupJ4h7tmWHi097tGjpUcrtUd1XiT2qL45Us/Tak+k9ji5b0fV/4se67kE1buR2GP1P5vaY/acqt8f6dyvI00AAAAAAICnOwCS2E89
   </data>

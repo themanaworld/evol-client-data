@@ -4,7 +4,7 @@
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
-  <property name="minimap" value="graphics/minimaps/000-2-23.png"/>
+  <property name="minimap" value="graphics/minimaps/000-2-2.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, Hold"/>
  </properties>
@@ -56,17 +56,17 @@
    H4sIAAAAAAAAA+3Xy0rEMBTG8VPEF1C8rMUbgpeNulBXOjLeUFBBH0BfQMWND+85TIoh0zZ1cIQk/x98aJOxl49OWkUAAAAAAAAAlOD5l8G40no7+aP95HbP9enlIjL/1WMfx1JeL7F5cy700iTXXh6r7vmYXHt5KayXoeYykhvNR0G9HGmeNLOaFc2MZlmzpKncmM3dS3dvDy37v9WsaQaaM0mjFztH+w7Nu+2tYD68PeZk1Fndl3W46Mbb2D2yLWm9v9g5vk75GNbLvqTTibHz/JzyMeo1JZVOzH/2khI731PNXY/PXkn3unvd8ncp9mLqbgZe1jUbwdibjJ5LttYuaFbdz8qNtz2nU+3FhP/v7mh2g7HYu1+OvYQONIfeNr00o5dm9NKsTy/v8rNGb3q/p/LuPwn/meVfs79dX79lT8bX8hz51xdec7gNAAAAAAAAAAAm8w3UgnQb0EMAAA==
   </data>
  </layer>
- <layer name="Shadow" width="70" height="62">
+ <layer name="Shadow" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YwQqCQBDGcff9n8bqUpuESAcrT/VATdDAMmywSMqw/g+/g8uKMx8rOLahaVoAAAAAAAAAAPBXvRgyrg5qW8NJ7MReHMS5MJfcWh/qye5oeuy+6+OPXKaN5GLPhfZ0E8+MRyYXzWoM9eRiz8VUeJ/m9Eqy+mR5T64BzBPFxUEd3gwOagAAoHbpnK3SeVv3RLNWOztn23k73dMt8HyvSv9LRQe1rs32nMtgi9+3+o6oLWYAAAAAAAAAAMAS3po7f7PQQwAA
   </data>
  </layer>
- <layer name="Collision" width="70" height="62">
+ <layer name="Collision" width="70" height="62" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YUQuCMBSAUfv//1bwvSfBbJvKtq62MzgPuRDvxwpqfk3TDAAAAAAAUCm1op/pDvYd9PnskOqUanPUa7nBTC27rPOmuuyvldosiXs+0dEqvefsfaJn7NGmdv/JXXKtWnT75y5H10u9oueobdB6Rc/UqkerVtEz9TgntV2i5+nVpXZFz9OrTenadu/KuRtFbu5R25yZebQuqc+Z8/I9Z+n7aLQuubXd3/6Wjn7mX3XZ/3+wvo5+NgAAAAAAeLo3xXpgI9BDAAA=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To Second Deck" type="warp" x="1536" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-23"/>

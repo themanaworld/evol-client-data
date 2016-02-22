@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
-  <property name="minimap" value="graphics/minimaps/000-2-231.png"/>
+  <property name="minimap" value="graphics/minimaps/000-2-0.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, First Deck"/>
  </properties>
@@ -52,12 +52,12 @@
    H4sIAAAAAAAAA+3TTQqCUBSG4dNuGjq3nJhtIVpArkAQ3LHgJHAiOOgGBeJfXkffjfeBA15R8IWjGQAAAAAAUHXfMcre3xe7STbMycLoOW989mrh9hSH6b1vj/L+LfVkMz03098/n30bU9y/f+zJd777MM2e0k0z87+sqd3zlen2tJ49T/Ge3rOnE+5J3WSfOQ6uf50vptkznMjzrNYDAAAAAAAQihdyzEeQECsAAA==
   </data>
  </layer>
- <layer name="Collision" width="52" height="53">
+ <layer name="Collision" width="52" height="53" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3PwQnAIBAEQO2/G+H6y8tHCAQJwqmZhUEOfOy2WkoDAAAAALYQC3SYqWf0b3bf0T09UZ/vl+2r7BlJdueZW07clN35j3ui3ju/3dmdAQAAAHZ2AYo51aAQKwAA
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="ToArtis" type="warp" x="608" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

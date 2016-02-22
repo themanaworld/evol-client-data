@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-4.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-8.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="City Hall Left Side"/>
  </properties>
@@ -64,12 +64,12 @@
    eJzt1kEKglAUBVCtcbSANJoE0aQmraiat5LW0FJ7QqMo+0Gk/H8OXER4yOMqalUBAAAAAAAArxwjp8h56EWAoiyHXmDESuxmljinm/d089qm1k2fErtZRPYfZnaR5g+7jNEqsu3JfLDNIF+5vYtTv0Epcu+mjv+USWRaf3+ta+Tyi6VG4pfPTW7dpP67pMzcqry66XT9tJH149g+nTeJM7nq7vfhcby8Oe+bAQAAAAAAAMpyB1pjELI=
   </data>
  </layer>
- <layer name="Collision" width="71" height="70">
+ <layer name="Collision" width="71" height="70" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0kEKhDAQRUHB+19U8A4yi4EgBAwzyQ+mGmqhuOg8c+zbdgAAAAAAAABAZ2chvcssPqNNvc190julW9TapPeboU1t0vtpMydttNFmbJ/0bmkrt3lyxrLFCl1q/79l0mcY1eds7PLmPv+4Nyv0Kd+13p/0GXrfm18mfY6efe735Pvc8g0AAAAAAACwhguqe2gA
   </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
+ <objectgroup name="Object" visible="0" opacity="0.87">
   <object id="1" name="To Main Hall" type="warp" x="1472" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -78,7 +78,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="71" height="70">
+ <layer name="Heights" width="71" height="70" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw7EJADAIADAH/9H/r3MUDyh0SCARAAAAAAAAAPBe5+aq3AAAAAAAAAAAAAAA/GEAZvABNg==
   </data>

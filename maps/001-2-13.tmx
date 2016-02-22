@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="66" height="62" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="2">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="66" height="62" tilewidth="32" tileheight="32" backgroundcolor="#a0a0a0" nextobjectid="2">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-13.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -61,12 +61,12 @@
    eJzt0cEKgkAUBdAh2kofYLlzrZv+qz/rF3NQUSIRawhGz4EHs7g8eHdCAAAAAAAAACAqEu6qEu76t/ceLufvd+2ph1/oobfnHppubsO0K9mceyjD8n2xg2s3j2GWss/TlM1ZvG/883r2/nTXlmyOxj+/z94pskehBwAAAAAAgGN7AYEeCqs=
   </data>
  </layer>
- <layer name="Collision" width="66" height="62">
+ <layer name="Collision" width="66" height="62" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0zEKgDAMBdCC979qoTdwseJQsUoxUl/gbRmST5KXlDIAAAAAAAAAu2NFz/KVHO5kMlt2ZXOVSa3S6Ive4Y276Kno2Ufu/iST2hu9R3QOs91D6+f/mEPPbjPncHYTPb3RcwMAAAAAABBrBVEUqzk=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To First Floor" type="warp" x="832" y="928" width="64" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -75,7 +75,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="66" height="62">
+ <layer name="Heights" width="66" height="62" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt00EKgCAQBVAh73/lIiKwxWTZyuk9+Ctx8cexFAAAAAAAAAAuapM/q0Ge3ktiXY6E8zi79s6zuOvZy+y+dG/3ZHbRm9oH/6LXLfMcdm96ZesOAAAAAADAsA1vLAPF
   </data>

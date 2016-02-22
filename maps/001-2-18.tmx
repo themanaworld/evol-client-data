@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-18.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -79,12 +79,12 @@
    eJzt1EtOg1AUxvEbw9QVaNGJj5HtROtIjW20Y+tCmHUJbsO5up+qG/CxAR8TP8wlub0pTQMUetv/L/lCgHK4nFMwBgAAAAAAAAAAAAAAAACA+e1Hxhwoh1HTK0HmSLNoKx3lvOnF4N+JZtFVTmt8T+436rtXiM7S90O54Nu1NK40i2tlwEwqtZlzPFafd5TdAPsdN72AkvJmkqp7Lq1o8p7+/rxWeSa+ttKp4DeLrrlOM0mfdcvk9yft3faS1AzZrH64st4k9prWlLjni9Qc2Tp7djsqUTN0bo/HyrPyoryayX5nEpsH5VF5co6VqXlnt8feftGaIUucvCnvyofy6Z3zr7lUeko/53yRmn7K1gxZ9jxfyrfyo/ya2c95owyV2wprLmKd62QV/5sAAAAAAAAAAAAAAAAAAKBaf6TnTJU=
   </data>
  </layer>
- <layer name="Collision" width="101" height="63">
+ <layer name="Collision" width="101" height="63" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt00EKg0AMBVAXPang/a9QuhBK0ZkkKoP1BR4UtBr/1/k1TTMAAAAAAAAAAAAAwEk+0ztn+TJqx3VG53Xls+1N5D/ZTqtZRne8u16+lWl9P0sw2728/72P7PNXulk7aHXRmyd/J2f0kJ3KLr136c6ieWUzzp7zu1Orp61jo3O8opO9HDMdVrrO3re1z+gsr+xo63c1w0gnR7KPXvfOIp1Ejlc76d3v7GsCAAAAAAAAAAAAPMkbbL+FEg==
   </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup name="Objects" visible="0">
   <object id="1" name="To Artis" type="warp" x="1248" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -93,7 +93,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="101" height="63">
+ <layer name="Heights" width="101" height="63" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw6ENAAAIA7AJfuX/D5BoDKpNmgAAAAAAAAAAAAAA/OraAAAAAAAAAAAAAAAAAHAx5fwBQg==
   </data>

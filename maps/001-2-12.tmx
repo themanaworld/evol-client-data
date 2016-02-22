@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="67" height="61" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="4">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="67" height="61" tilewidth="32" tileheight="32" backgroundcolor="#a0a0a0" nextobjectid="4">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-12.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
@@ -60,17 +60,17 @@
    eJzt08FugkAUheGLsLBRn0Bk59qm6rqmdevG9i264bF1V3d155kIhZBpk1bNBPm/5ISBuZCZm8EMAAAAAAAAAAAAt7CLzfZx6FWEN7CqF0ONR8Xzj17ARQXi9v6pPhyUzKpedI07EyvlS304Ks/F/W9G0a1XFcb3GUjMouQ83PzzW9kV1hNS2Yu++vCQXPate+nFX0X6T3pKXPtfutoLH3pRaXsvxspj41mmcz/TdeKZ+4mrT6+5sAByO/fD7XtaXF3S2tyTMlcWnrppo77N8lqWjfty/kV5VdaeOt87bZWbf//18VZ5U9499b7371mX9goAAAAAAAAAAMI7AfQzHzA=
   </data>
  </layer>
- <layer name="Collision" width="67" height="61">
+ <layer name="Collision" width="67" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1FEKgCAQBcCg+19R6CYRFISVWESbNQ/mJxTah5r6rksAAAAAAAAADxtme9+j/y2yizylbvbWtC4/F0ddlBI9wx2mLF0sM9VkyNZFz3FXF2fy5XtyJbqo76dVutj2sX47S12t38yjPV/2t3kBAAAAAADeYARrpKy/
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To Second level" type="warp" x="832" y="864" width="64" height="32"/>
   <object id="2" name="To Artis" type="warp" x="1088" y="1152" width="32" height="32"/>
   <object id="3" name="To Basement" type="warp" x="928" y="896" width="32" height="32"/>
  </objectgroup>
- <layer name="Heights" width="67" height="61">
+ <layer name="Heights" width="67" height="61" visible="0">
   <data encoding="base64" compression="zlib">
    eJztwzENACAQBLAbzgng3yLDe2AgbdIEAAAAAAAA4L3TSbI7SVYnAAAAAAAAAMBvLkW0APE=
   </data>

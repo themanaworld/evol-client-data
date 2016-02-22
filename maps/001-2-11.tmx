@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-2.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-11.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Moon's House First Floor"/>
  </properties>
@@ -67,12 +67,12 @@
    eJzt18sOwUAUgOFTtuys3HbWBLEleAI8h3g7r+CxnJOadMioadzb/0tOQk3S+lPSEQEAAAAAAAAAAAAAAADCmh86T/9D53mnmFZDndET52jVq9Oq761LEpGaTj3JPo9pWcVWIXOdvdzvZS27Ba/rF3Uk/55w3/PROrO4c9xaNgpf2W+yDj1vBt5r63S4jFt3lHC3dhI4eFGG36Bz8GZ28/52zUni7jNfmVoV5e6z2F5VbmWK9Kp6KxPbi1apmF60ylivvGcwWmVoFY9W8fL+s8qyx3kl12usM9GZSroHcM/+uGZNljornbVkewCEbXS2OrtvX8gfCO0lAQAAAAAAAAAAAOCVzpsuGJs=
   </data>
  </layer>
- <layer name="Collision" width="75" height="72">
+ <layer name="Collision" width="75" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1DsKgDAQQMEUnkHI/S9qlcYPZlXcEGZhKkWyj+C6lLICAAAAAAAAAECHNtnfGFVk7pq0qQPsld3qyczU7cnu0cne8a9W7b39/dDqes/9znU5Pp+9Ve+ePR3qiezd/moVfW/2O/VF36v/ffYZR3LXSq9jL63izfR63yv7XCPSSiut8ukU75V9BgAAAAAAAABK2QAHCRE2
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To Artis" type="warp" x="1472" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -81,7 +81,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="75" height="72">
+ <layer name="Heights" width="75" height="72" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt00sKgDAMQMEuegu9/zldiCD4S0VR4wxkaaCPWAoAAAAAAAAAAMT0dZynd7zV9LbIrH23tSujllZnJwut4qLv3PvftIq1iuzJJNrqqENXl5NN9B7+cDd3mLfKeD9X06qNVgAAAAAAAAAAAN82AGHjElk=
   </data>

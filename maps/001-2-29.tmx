@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-27.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-29.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Blacksmith Shop"/>
  </properties>
@@ -69,12 +69,12 @@
    eJzt2UFOwkAUxvFHt6BhS0TsxoUkBFZu8Qgexb3RE3gIr9XbMBM6YWbyhtaFoG/+v+QlbSckzZfJe6UVAQAAAAAAAAAA+P8esvPbvmau3i5/O1fTNSIfrp4K6yupK4/gs3C95jzem+Px1tV9X0uxm8fNmbV4f+zl1D9CWXQuj8XF7uLvuHO1K6yV+ql1rau1UpuB361+97auYurqJbv27XpoOxneHxbz8P3jq9HXSvM2sJpHSZyH1ltrzuNVTs8f8XOINWPnbXgmzcuasfO2ljy8VobnrcVeodHmbdfPm3x/1GBsPyUP8siRRyqftzX4ybytRSvM20Cbt17X1Lk/6Kcp8kiRR4p5mxozb/23F4vvOjT+P7vPJLzjeYyO5/255e9Pmvh9xrNyDgAAAAAAAAAAAHsOsv4ioQ==
   </data>
  </layer>
- <layer name="Collision" width="68" height="77">
+ <layer name="Collision" width="68" height="77" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1UEKg0AMQFEXnkro/a8lLoYGsXYW0oTmDTyUWcVvO27rsmwAAAAAAAAADRwrXuP+sV7rW/asv+pxXl17zKzsGSs1yZ6tQo+4nz1bJX43n3vEM/Xfz9Xxvs/vvXOPq/9DvO/eo/NZocf3HnE/e74q9NBjPHe8du5xd4bq4fsy0yR7vgo94n72fFXoocd47njt3OPuDNXD92WmSfZ8FXrE/ez5KvXIng0AAAAAAOAJOzB7zRE=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="15" name="To First Level" type="warp" x="1184" y="1120" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -90,7 +90,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="68" height="77">
+ <layer name="Heights" width="68" height="77" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt10EKgzAQBVAXXqZpe//rqQtpRhnTdeY9GATFRT7RT5YFAAAAAAAAoIa2xmt//5j3Pp99vuv93Rmda27dnPer5dGvuSVTTZZDxSwOWQZV88hcc3p1U1HV72jUt9e9Mfv+GPVtNfo2evpPyMP3kpFHVDWPUd9Wkp3n+meVON/e6dtI3/5HHlHVPPTtj76N9O2dvo30bfSUBwAAAAAAwAw2xhcf3A==
   </data>

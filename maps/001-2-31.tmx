@@ -3,7 +3,7 @@
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/001-2-27.png"/>
+  <property name="minimap" value="graphics/minimaps/001-2-31.png"/>
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Blacksmith Shop"/>
  </properties>
@@ -72,12 +72,12 @@
    eJztzjENAAAIA7D5V4NEROwgIa2CJgAAAAAAAABAa64DAAAAAAAAwBsL1R0AsQ==
   </data>
  </layer>
- <layer name="Collision" width="60" height="64">
+ <layer name="Collision" width="60" height="64" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0TEKwCAQRUEh9xe8cSpBbGyMS9YRBsTqP6xPKRUAAAAAAPiNNojeone/1Yned7o3W7Pe3L1jc7/Pb5nc9r969UZv/Kq53+e3TG7739t6V83R2071R28AAAAAAGC/F397QvA=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="1" name="To Artis Main Road" type="warp" x="1024" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -86,7 +86,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="60" height="64">
+ <layer name="Heights" width="60" height="64" visible="0">
   <data encoding="base64" compression="zlib">
    eJztw8cJADAMBDCD504ZPU/vkJNAVQAAAAAA/Ob2THB6Jtg9E6yeAAAAAAAAAACQ4AF5ngYT
   </data>
