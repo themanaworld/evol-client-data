@@ -14,13 +14,13 @@ walkType=""      The walk type is used to manage which monster can fly over coll
 event=""         Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 -->
 
-<monsters>
+<monsters offset="0">
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//monster/@name" translate="yes"/>
         <its:translateRule selector="//*" translate="no"/>
     </its:rules>
 
-    <monster id="0" name="Piou" targetCursor="small" walkType="fly">
+    <monster id="1002" name="Piou" targetCursor="small" walkType="fly">
         <sprite>monsters/piou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -29,7 +29,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="1" name="Piousse" targetCursor="small">
+    <monster id="1003" name="Piousse" targetCursor="small">
         <sprite>monsters/piou.xml</sprite>
         <sprite>accessories/piousse-egg.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
@@ -39,7 +39,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="2" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+    <monster id="1004" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
         <sprite>monsters/tortuga.xml</sprite>
         <sound event="die">monsters/tortuga/die1.ogg</sound> 
         <sound event="hit">monsters/tortuga/hit1.ogg</sound>
@@ -48,7 +48,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/tortuga/miss1.ogg</sound>
         <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
     </monster>
-    <monster id="3" name="Ratto" targetCursor="small">
+    <monster id="1005" name="Ratto" targetCursor="small">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/ratto-tail.xml</sprite>
         <sound event="die">monsters/ratto/die1.ogg</sound>
@@ -57,7 +57,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
         <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
     </monster>
-    <monster id="4" name="Croc" targetCursor="small" sortOffsetY="30">
+    <monster id="1006" name="Croc" targetCursor="small" sortOffsetY="30">
         <sprite>monsters/croc.xml</sprite>
         <sound event="hit">monsters/croc/hit1.ogg</sound>
         <sound event="hit">monsters/croc/hit2.ogg</sound>
@@ -67,42 +67,42 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/croc/miss1.ogg</sound>
         <sound event="spawn">monsters/croc/spawn1.ogg</sound>
     </monster>
-    <monster id="5" name="Little Blub" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+    <monster id="1007" name="Little Blub" targetCursor="small" walkType="walkswim" sortOffsetY="30">
         <sprite>monsters/blub-little.xml</sprite>
         <sprite>accessories/littleblub-tentacle.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="6" name="Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
+    <monster id="1008" name="Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
         <sprite>monsters/blub.xml</sprite>
         <sprite>accessories/blub-tentacle.xml|#3e4164,3a3968,544a82,64437a,7d6db4,a26392,8f99c4,d294ab,b3cdcd,e7b8b8,d9ecd1,f0e8c5</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="7" name="Toppy Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
+    <monster id="1009" name="Toppy Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
         <sprite>monsters/blub-toppy.xml</sprite>
         <sprite>accessories/blub-tentacle.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="8" name="Crocotree" targetCursor="small" targetOffsetX="-28" targetOffsetY="4" nameOffsetX="-29">
+    <monster id="1010" name="Crocotree" targetCursor="small" targetOffsetX="-28" targetOffsetY="4" nameOffsetX="-29">
         <sprite>monsters/crocotree.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
     </monster>
-    <monster id="9" name="Plushroom Field" targetCursor="large" sortOffsetY="70">
+    <monster id="1011" name="Plushroom Field" targetCursor="large" sortOffsetY="70">
         <sprite>monsters/plushroom.xml</sprite>
         <sound event="die">monsters/mushroom/die1.ogg</sound>
         <sound event="die">monsters/mushroom/die2.ogg</sound>
         <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
         <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
     </monster>
-    <monster id="10" name="Frostiana" targetCursor="small">
+    <monster id="1012" name="Frostiana" targetCursor="small">
         <sprite>monsters/frostiana.xml</sprite>
         <attack id="1" effect-id="21"/>
         <sound event="die">monsters/mushroom/die1.ogg</sound>
@@ -111,15 +111,15 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
         <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
     </monster>
-    <monster id="11" name="Pikpik" targetCursor="small">
+    <monster id="1013" name="Pikpik" targetCursor="small">
         <sprite>monsters/pikpik.xml</sprite>
     </monster>
-    <monster id="12" name="Croconut" targetCursor="small">
+    <monster id="1014" name="Croconut" targetCursor="small">
         <sprite>monsters/croconut.xml</sprite>
         <sound event="hit">monsters/crocotree/die1.ogg</sound>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
     </monster>
-    <monster id="13" name="Tipiu" targetCursor="medium" walkType="fly">
+    <monster id="1015" name="Tipiu" targetCursor="medium" walkType="fly">
         <sprite>monsters/tipiou.xml</sprite>
         <sprite>accessories/tipiou-hat.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
@@ -129,7 +129,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="14" name="Tipiou" targetCursor="medium" walkType="fly">
+    <monster id="1016" name="Tipiou" targetCursor="medium" walkType="fly">
         <sprite>monsters/tipiou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -138,14 +138,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="15" name="Manana Tree" targetCursor="medium">
+    <monster id="1017" name="Manana Tree" targetCursor="medium">
         <sprite>monsters/mananatree.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
     </monster>
-    <monster id="16" name="Crafty" targetCursor="small">
+    <monster id="1018" name="Crafty" targetCursor="small">
         <sprite>monsters/crafty.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
         <sound event="hit">monsters/piou/hit1.ogg</sound>
@@ -154,24 +154,24 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="miss">monsters/piou/miss1.ogg</sound>
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
-    <monster id="17" name="Pumpkish" walkType="walk">
+    <monster id="1019" name="Pumpkish" walkType="walk">
         <sprite>monsters/pumpkish.xml</sprite>
         <sound event="die">monsters/pumpkin/die1.ogg</sound>
         <sound event="hit">monsters/pumpkin/hit1.ogg</sound>
     </monster>
-    <monster id="18" name="Cuco" walkType="walk" targetCursor="large">
+    <monster id="1020" name="Cuco" walkType="walk" targetCursor="large">
         <sprite>monsters/cuco.xml</sprite>
         <sound event="die">monsters/pumpkin/die1.ogg</sound>
         <sound event="hit">monsters/pumpkin/hit1.ogg</sound>
     </monster>
-    <monster id="19" name="Pillar Dummy" targetCursor="medium">
+    <monster id="1021" name="Pillar Dummy" targetCursor="medium">
         <sprite>monsters/dummy.xml</sprite>
         <sound event="die">monsters/crocotree/die1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
     </monster>
-    <monster id="20" name="Fluffy" targetCursor="small">
+    <monster id="1022" name="Fluffy" targetCursor="small">
         <sprite>monsters/fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/hit2.ogg</sound>
@@ -179,7 +179,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/fluffy/hurt1.ogg</sound>
         <sound event="miss">monsters/fluffy/miss1.ogg</sound>
     </monster>
-    <monster id="21" name="Mouboo" targetCursor="large">
+    <monster id="1023" name="Mouboo" targetCursor="large">
         <sprite>monsters/mouboo.xml</sprite>
     </monster>
 </monsters>
