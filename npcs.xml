@@ -536,6 +536,11 @@ IDs 990-999 = Special
         <sprite>equipment/head/bandana-male.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="449">
+        <!-- Mouboo, walking sprite for the mouboo. -->
+        <sprite>monsters/mouboo.xml</sprite>
+        <menu name="Mou" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
