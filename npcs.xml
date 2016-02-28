@@ -334,14 +334,14 @@ IDs 990-999 = Special
         <sprite>accessories/eye-down-blink.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-    <npc id="420">
+    <npc id="420" allowDelete="false">
         <!-- Harbour with a funny wheel. -->
         <sprite>npcs/xml/harbour.xml</sprite>
         <sprite>accessories/harbour-hook.xml</sprite>
         <sprite>accessories/harbour-rope.xml</sprite>
         <menu name="Rotate" command="talk 'NAME'"/>
     </npc>
-    <npc id="421" targetOffsetX="20">
+    <npc id="421" targetOffsetX="20" allowDelete="false">
         <!-- Harbour with a funny wheel and a box. -->
         <sprite>npcs/xml/harbour.xml</sprite>
         <sprite>accessories/harbour-box.xml</sprite>
@@ -595,12 +595,12 @@ IDs 990-999 = Special
         <sprite>npcs/xml/artisdoor.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
     </npc>
-    <npc id="907">
+    <npc id="907" allowDelete="false">
         <!-- Artis door, indoor map. -->
         <sprite>npcs/xml/artisindoor.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
     </npc>
-    <npc id="908" allowDelete="false">
+    <npc id="908" allowDelete="false" allowDelete="false">
         <!-- Artis door, indoor map with wood floor. -->
         <sprite>npcs/xml/artisindoor-wood.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
