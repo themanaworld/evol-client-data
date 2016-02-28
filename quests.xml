@@ -598,7 +598,7 @@ Copyright (C) 2012-2013 Evol Online -->
         <effect map="001-2-0.tmx" npc="117" value="5" effect="12"/>
         <effect map="001-1.tmx" npc="119" value="6" effect="13"/>
         <effect map="001-1.tmx" npc="119" value="7" effect="13"/>
-        <effect map="001-1.tmx" npc="140" value="7" effect="12"/>
+        <effect map="001-1.tmx" npc="140" value="7" effect="14"/>
         <effect map="001-1.tmx" npc="119" value="8" effect="13"/>
         <effect map="001-2-26.tmx" npc="127" value="8" effect="12"/>
         <quest name="Newby Quest" group="Artis" incomplete="1">
@@ -701,6 +701,49 @@ Copyright (C) 2012-2013 Evol Online -->
             <text>Coordinates: Artis, Dock (176,113)</text>
             <text>Reward: [@@3502|Training Gladius@@], [@@1302|Artis Tank Top@@], 5 x [@@520|Pibberies Infusion@@]</text>
             <text>Reward: 140 Exp, 500 E.</text>
+        </quest>
+    </var>
+    <var id="29">
+        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="108" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="108" value="2" effect="13"/>
+        <quest name="Fexil's Free Pass" group="Artis" incomplete="1">
+            <name>Fexil's Free Pass</name>
+            <text>Lloyd gave you a pass that Fexil forget when he registered himself in the Merchant Guild.</text>
+            <text></text>
+            <text>Quest Giver: Lloyd.</text>
+            <text>Coordinates: Artis, Merchant Guild (101,37)</text>
+            <text>Reward: Unknown.</text>
+        </quest>
+        <quest name="Fexil's Free Pass" group="Artis" incomplete="2">
+            <name>Fexil's Free Pass</name>
+            <text>Fexil want to open a buisness of [@@729| Fluffy Fur@@]'s clothes.</text>
+            <text>He will reward you for each fur that you bring him back.</text>
+            <text></text>
+            <text>Quest Giver: Fexil.</text>
+            <text>Coordinates: Artis, Market Place (48,134)</text>
+            <text>Reward: Unknown.</text>
+        </quest>
+        <quest name="Fexil's Free Pass" group="Artis" complete="3">
+            <name>Fexil's Free Pass</name>
+            <text>Fexil want to open a buisness of [@@729| Fluffy Fur@@]'s clothes.</text>
+            <text>He rewards you for each fur that you bring him back.</text>
+            <text></text>
+            <text>Quest Giver: Fexil.</text>
+            <text>Coordinates: Artis, Market Place (48,134)</text>
+            <text>Reward: 25 per [@@729|Fluffy Fur@@].</text>
+        </quest>
+    </var>
+    <var id="30">
+        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
+        <quest name="Worship Of Money" group="Artis" complete="1">
+            <name>Worship Of Money</name>
+            <text>You are now registered in the Merchant Guild.</text>
+            <text>This Guild offer some storage and bank service.</text>
+            <text></text>
+            <text>Quest Giver: Lloyd.</text>
+            <text>Coordinates: Artis, Merchant Guild (101,37)</text>
+            <text>Reward: Merchant Guild access.</text>
         </quest>
     </var>
 </quests>
