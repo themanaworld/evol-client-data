@@ -458,6 +458,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="22">
+        <effect map="001-1.tmx" npc="428" value="0" effect="14"/>
+        <effect map="001-1.tmx" npc="428" value="1" effect="15"/>
         <quest name="Fishman" group="Artis" incomplete="1">
             <name>Fishman</name>
             <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
@@ -480,7 +482,10 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="23">
-        <quest name="The Buried Treasure" group="Artis" incomplete="1">
+        <effect map="001-1.tmx" npc="426" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="426" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="426" value="2" effect="13"/>
+            <quest name="The Buried Treasure" group="Artis" incomplete="1">
             <name>The Buried Treasure</name>
             <text>Q'Onan, the orc sailor from Nard's crew, used to be a thief.</text>
             <text>His last "business" involved robbing a nobleman. But he didn't succeed completely, because he had to bury the chest full of coins to save himself.</text>
@@ -510,6 +515,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="24">
+        <effect map="001-1.tmx" npc="443" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="443" value="1" effect="13"/>
         <quest name="Visiting Artis" group="Halloween" incomplete="1">
             <name>Visiting Artis</name>
             <text>Bacchus asked you to bring him a [@@722|Pumpkin@@].</text>
@@ -530,6 +537,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="25">
+        <effect map="001-1.tmx" npc="442" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="442" value="1" effect="13"/>
         <quest name="Alige in the Barrel" group="Halloween" incomplete="1">
             <name>Alige in the Barrel</name>
             <text>Alige was very scared of the Cuco. Now that it's killed, he should be okay.</text>
