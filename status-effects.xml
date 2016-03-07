@@ -125,6 +125,22 @@ end-message:                Displays a message when the effect end.
         icon="icons/hide.xml"
     />
     <status-effect
+        name="heal potion"
+        id="293"
+        block-id="24"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="heal other"
+        id="294"
+        block-id="24"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
         name="stasis"
         id="356"
     />
@@ -163,8 +179,24 @@ end-message:                Displays a message when the effect end.
         start-particle="graphics/particles/invisibility.xml"
     />
     <status-effect
+        name="special potion1"
+        id="578"
+        block-id="24"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
         name="sit"
         id="622"
+    />
+    <status-effect
+        name="special potion2"
+        id="670"
+        block-id="24"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
     />
     <status-effect
         name="cart"
