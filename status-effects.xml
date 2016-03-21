@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Alige, Reid
+<!-- Author: Alige, Reid, 4144
 Copyright (C) 2010-2013 Evol Online -->
 
 <!--
 name:                       Name of the status effect.
 id:                         ID of the status effect.
-block-id:                   Group of different IDs.
 persistent-particle-effect: Displays if the effect is present during all of the timer (?).
 start-particle:             Particles used for the effect, appearing when the effect is enabled.
 icon:                       Displays an icon in the top bar, appearing when the effect is enabled.
@@ -13,22 +12,39 @@ start-message:              Displays a message when you launch the effect.
 end-message:                Displays a message when the effect end.
 -->
 
+<!--
+    block-id field can be used only by ManaPlus 1.6.3.12 and smaller.
+-->
 <status-effects>
     <status-effect
         name="provoke"
         id="0"
     />
     <status-effect
+        name="endure"
+        id="1"
+    />
+    <status-effect
+        name="concentration"
+        id="3"
+    />
+    <status-effect
         name="hiding"
         id="4"
         block-id="1"
+        option="2"
         icon="icons/invisible.xml"
     />
     <status-effect
         name="cloacking"
         id="5"
         block-id="2"
+        option="4"
         icon="icons/invisible.xml"
+    />
+    <status-effect
+        name="enchant poison"
+        id="6"
     />
     <status-effect
         name="poison react"
@@ -43,6 +59,14 @@ end-message:                Displays a message when the effect end.
         id="10"
     />
     <status-effect
+        name="inc agi"
+        id="12"
+    />
+    <status-effect
+        name="dec agi"
+        id="13"
+    />
+    <status-effect
         name="magnificat"
         id="20"
         block-id="24"
@@ -54,7 +78,13 @@ end-message:                Displays a message when the effect end.
         name="riding"
         id="27"
         block-id="5"
+        option="32"
         icon="icons/invisible.xml"
+    />
+    <status-effect
+        name="falcon"
+        id="28"
+        option="16"
     />
     <status-effect
         name="trick dead"
@@ -95,7 +125,7 @@ end-message:                Displays a message when the effect end.
     />
 -->
     <status-effect
-        name="concentration"
+        name="lk concentration"
         id="105"
         icon="icons/concentration.xml"
         persistent-particle-effect="true"
@@ -199,10 +229,174 @@ end-message:                Displays a message when the effect end.
         id="673"
         icon="icons/hide.xml"
     />
-    <!-- fake id -->
+
+
+    <!-- OPTION_SIGHT -->
+    <status-effect
+        name="sight"
+        option="1"
+    />
+    <!-- OPTION_CART1 -->
+    <status-effect
+        name="cart 1"
+        option="8"
+    />
+    <!-- OPTION_INVISIBLE -->
+    <status-effect
+        name="invisible"
+        option="64"
+        icon="icons/invisible.xml"
+    />
+    <!-- OPTION_CART2 -->
+    <status-effect
+        name="cart 2"
+        option="128"
+    />
+    <!-- OPTION_CART3 -->
+    <status-effect
+        name="cart 3"
+        option="256"
+    />
+    <!-- OPTION_CART4 -->
+    <status-effect
+        name="cart 4"
+        option="512"
+    />
+    <!-- OPTION_CART5 -->
+    <status-effect
+        name="cart 5"
+        option="1024"
+    />
+    <!-- OPTION_ORCISH -->
+    <status-effect
+        name="orcish"
+        option="2048"
+    />
+    <!-- OPTION_WEDDING -->
+    <status-effect
+        name="wedding"
+        option="4096"
+    />
+    <!-- OPTION_RUWACH -->
     <status-effect
         name="ruwach"
         block-id="13"
-        id="2000"
+        option="8192"
+    />
+    <!-- OPTION_CHASEWALK -->
+    <status-effect
+        name="chase walk"
+        option="16384"
+    />
+    <!-- OPTION_FLYING -->
+    <status-effect
+        name="flying"
+        option="32768"
+    />
+    <!-- OPTION_XMAS -->
+    <status-effect
+        name="xmas"
+        option="65536"
+    />
+    <!-- OPTION_TRANSFORM -->
+    <status-effect
+        name="transform"
+        option="131072"
+    />
+    <!-- OPTION_SUMMER -->
+    <status-effect
+        name="summer"
+        option="262144"
+    />
+    <!-- OPTION_DRAGON1 -->
+    <status-effect
+        name="dragon 1"
+        option="524288"
+    />
+    <!-- OPTION_WUG -->
+    <status-effect
+        name="wug"
+        option="1048576"
+    />
+    <!-- OPTION_WUGRIDER -->
+    <status-effect
+        name="wug rider"
+        option="2097152"
+    />
+    <!-- OPTION_MADOGEAR -->
+    <status-effect
+        name="mado gear"
+        option="4194304"
+    />
+    <!-- OPTION_DRAGON2 -->
+    <status-effect
+        name="dragon 2"
+        option="8388608"
+    />
+    <!-- OPTION_DRAGON3 -->
+    <status-effect
+        name="dragon 3"
+        option="16777216"
+    />
+    <!-- OPTION_DRAGON4 -->
+    <status-effect
+        name="dragon 4"
+        option="33554432"
+    />
+    <!-- OPTION_DRAGON5 -->
+    <status-effect
+        name="dragon 5"
+        option="67108864"
+    />
+    <!-- OPTION_HANBOK -->
+    <status-effect
+        name="hanbok"
+        option="134217728"
+    />
+    <!-- OPTION_OKTOBERFEST -->
+    <status-effect
+        name="oktoberfest"
+        option="268435456"
+    />
+
+    <!-- OPT1_STONE -->
+    <status-effect
+        name="stone"
+        opt1="1"
+    />
+    <!-- OPT1_FREEZE -->
+    <status-effect
+        name="freeze"
+        opt1="2"
+    />
+    <!-- OPT1_STUN -->
+    <status-effect
+        name="stun"
+        opt1="3"
+    />
+    <!-- OPT1_SLEEP -->
+    <status-effect
+        name="sleep"
+        opt1="4"
+    />
+    <!-- OPT1_STONEWAIT -->
+    <status-effect
+        name="stone"
+        opt1="6"
+    />
+    <!-- OPT1_BURNING -->
+    <status-effect
+        name="burning"
+        opt1="7"
+    />
+    <!-- OPT1_IMPRISON -->
+    <status-effect
+        name="imprison"
+        opt1="8"
+    />
+    <!-- OPT1_CRYSTALIZE -->
+    <status-effect
+        name="crystalize"
+        opt1="9"
     />
 </status-effects>
