@@ -55,6 +55,11 @@ end-message:                Displays a message when the effect end.
         id="8"
     />
     <status-effect
+        name="angelus"
+        id="9"
+        opt2="32"
+    />
+    <status-effect
         name="blessing"
         id="10"
     />
@@ -114,16 +119,6 @@ end-message:                Displays a message when the effect end.
         name="post delay"
         id="46"
     />
-<!--
-    <status-effect
-        name="poison"
-        id="132"
-        block-id="16"
-        icon="icons/poison.xml"
-        persistent-particle-effect="true"
-        start-particle="graphics/particles/poison.xml"
-    />
--->
     <status-effect
         name="lk concentration"
         id="105"
@@ -134,6 +129,11 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="cart boost"
         id="118"
+    />
+    <status-effect
+        name="bleeding"
+        id="124"
+        opt2="64"
     />
     <status-effect
         name="run"
@@ -399,4 +399,44 @@ end-message:                Displays a message when the effect end.
         name="crystalize"
         opt1="9"
     />
+
+    <!-- OPT2_POISON -->
+    <status-effect
+        name="poison"
+        opt2="1"
+        icon="icons/poison.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/poison.xml"
+    />
+    <!-- OPT2_CURSE -->
+    <status-effect
+        name="curse"
+        opt2="2"
+    />
+    <!-- OPT2_SILENCE -->
+    <status-effect
+        name="silence"
+        opt2="4"
+    />
+    <!-- OPT2_SIGNUMCRUCIS -->
+    <status-effect
+        name="signum crucis"
+        opt2="8"
+    />
+    <!-- OPT2_BLIND -->
+    <status-effect
+        name="blind"
+        opt2="16"
+    />
+    <!-- OPT2_DPOISON -->
+    <status-effect
+        name="dpoison"
+        opt2="128"
+    />
+    <!-- OPT2_FEAR -->
+    <status-effect
+        name="fear"
+        opt2="256"
+    />
+
 </status-effects>
