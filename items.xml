@@ -953,17 +953,22 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         </replace>
     </item>
 
-    <!-- Neck Armors
+    <!-- Neck Armors -->
     <item id="3200"
-        image="equipment/neck/.png"
-        name=""
-        description="."
-        effect="."
-        level=""
-        type="equip-ring"
-        weight=""
-        <sprite>equipment/neck/</sprite>
-    </item> -->
+        image="equipment/necks/shemagh.png"
+        name="Shemagh"
+        description="An improved scarf used by mercenaries in tough environment."
+        defense="5"
+        level="3"
+        type="equip-neck"
+        weight="22"
+        drawBefore="head"
+        drawAfter="torso">
+        <sprite gender="unisex">equipment/necks/shemagh.xml</sprite>
+        <sprite gender="female">equipment/necks/shemagh.xml</sprite>
+    </item>
+
+
 
     <!-- Weapons -->
     <item id="3500"
