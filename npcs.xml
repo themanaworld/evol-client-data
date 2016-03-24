@@ -556,6 +556,11 @@ IDs 990-999 = Special
         <sprite>monsters/mouboo.xml</sprite>
         <menu name="Mou" command="talk 'NAME'"/>
     </npc>
+    <npc id="450">
+        <!-- Human Female, bearing a candel on a plate. -->
+        <sprite>npcs/xml/mona.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
