@@ -233,13 +233,18 @@ IDs 990-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="142" nameOffsetX="9" targetOffsetX="9">
-        <!-- Raijin Male, librarian. -->
+        <!-- Raijin Male, librarian on a ladder. -->
         <sprite variant="2">npcs/xml/unanimated-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="143" nameOffsetX="-9" targetOffsetX="-9">
-        <!-- Elven Male, librarian. -->
+        <!-- Elven Male, librarian a ladder. -->
         <sprite variant="3">npcs/xml/unanimated-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="144">
+        <!-- Raijin Male, librarian. -->
+        <sprite variant="32">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
