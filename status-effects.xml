@@ -250,6 +250,10 @@ end-message:                Displays a message when the effect end.
         name="invisible"
         option="64"
         icon="icons/invisible.xml"
+        start-message="You are now invisible."
+        end-message="You are no longer invisible."
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/invisibility.xml"
     />
     <!-- OPTION_CART2 -->
     <status-effect
