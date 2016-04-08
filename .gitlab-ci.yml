@@ -14,7 +14,7 @@ pages:
   - pwd
   - ./tools/gitlab-ci/clientdata.sh
   - pwd
-  - ls .shared
+  - ls clientdata/.shared
 #  artifacts:
 #    paths:
 #    - public
@@ -60,6 +60,7 @@ fail_job:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - ls clientdata/.shared
   - ./tools/gitlab-ci/failaction.sh
   when: on_failure
   cache:
