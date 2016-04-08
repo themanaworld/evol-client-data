@@ -3,10 +3,10 @@ stages:
 - fail
 - ok
 
-cache:
-  key: "$CI_BUILD_REF_NAME"
-  paths:
-  - shared/
+#cache:
+#  key: "$CI_BUILD_REF_NAME"
+#  paths:
+#  - shared/
 
 pages:
   stage: deploy
@@ -21,8 +21,9 @@ pages:
   - ./tools/gitlab-ci/clientdata.sh
   - pwd
   - ls clientdata/shared
-#  artifacts:
-#    paths:
+  artifacts:
+    paths:
+     - shared
 #    - public
   only:
   - pagestest
@@ -44,6 +45,9 @@ ok_job:
   - ls clientdata/shared
   - ./tools/gitlab-ci/susseccaction.sh
   when: on_success
+  artifacts:
+    paths:
+     - shared
   dependencies:
   - pages
   only:
@@ -63,6 +67,9 @@ fail_job:
   - ls clientdata/shared
   - ./tools/gitlab-ci/failaction.sh
   when: on_failure
+  artifacts:
+    paths:
+     - shared
   dependencies:
   - pages
   only:
