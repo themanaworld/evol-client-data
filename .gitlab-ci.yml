@@ -26,7 +26,7 @@ ok_job:
   stage: ok
   script:
   - apt-get update
-  - apt-get -y -qq install ii psmisc
+  - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
