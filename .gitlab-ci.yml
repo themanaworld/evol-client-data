@@ -6,6 +6,7 @@ stages:
 pages:
   stage: deploy
   script:
+  - echo $CI_BUILD_REF_NAME
   - apt-get update
   - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
   - cd ..
@@ -29,6 +30,7 @@ ok_job:
   stage: ok
   script:
   - pwd
+  - echo $CI_BUILD_REF_NAME
   - ls .shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
@@ -54,6 +56,7 @@ fail_job:
   stage: fail
   script:
   - pwd
+  - echo $CI_BUILD_REF_NAME
   - ls .shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
