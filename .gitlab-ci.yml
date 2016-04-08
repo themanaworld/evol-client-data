@@ -6,7 +6,7 @@ stages:
 cache:
   key: "$CI_BUILD_REF_NAME"
   paths:
-  - .shared
+  - shared
 
 pages:
   stage: deploy
@@ -20,7 +20,7 @@ pages:
   - pwd
   - ./tools/gitlab-ci/clientdata.sh
   - pwd
-  - ls clientdata/.shared
+  - ls clientdata/shared
 #  artifacts:
 #    paths:
 #    - public
@@ -32,7 +32,7 @@ ok_job:
   script:
   - pwd
   - echo $CI_BUILD_REF_NAME
-  - ls .shared
+  - ls shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
@@ -41,7 +41,7 @@ ok_job:
   - pwd
   - ls
   - ls clientdata
-  - ls clientdata/.shared
+  - ls clientdata/shared
   - ./tools/gitlab-ci/susseccaction.sh
   when: on_success
   dependencies:
@@ -54,13 +54,13 @@ fail_job:
   script:
   - pwd
   - echo $CI_BUILD_REF_NAME
-  - ls .shared
+  - ls shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
-  - ls clientdata/.shared
+  - ls clientdata/shared
   - ./tools/gitlab-ci/failaction.sh
   when: on_failure
   dependencies:
