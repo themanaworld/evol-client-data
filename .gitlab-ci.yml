@@ -12,6 +12,8 @@ pages:
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
   - ./tools/gitlab-ci/clientdata.sh
+  - cd ../../clientdata
+  - ls .shared
 #  artifacts:
 #    paths:
 #    - public
@@ -25,6 +27,7 @@ pages:
 ok_job:
   stage: ok
   script:
+  - ls .shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
@@ -48,6 +51,7 @@ ok_job:
 fail_job:
   stage: fail
   script:
+  - ls .shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
