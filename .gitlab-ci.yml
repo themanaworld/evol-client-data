@@ -6,7 +6,7 @@ stages:
 cache:
   key: "$CI_BUILD_REF_NAME"
   paths:
-  - shared
+  - shared/
 
 pages:
   stage: deploy
