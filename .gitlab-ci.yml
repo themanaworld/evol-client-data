@@ -30,7 +30,7 @@ ok_job:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
-  - ./tools/gitlab-ci/completeaction.sh "Build success. See https://gitlab.com/evol/clientdata/builds/$(clientdata/.shared/buildid.log)"
+  - ./tools/gitlab-ci/susseccaction.sh
   when: on_success
   cache:
     key: "$CI_BUILD_REF_NAME"
@@ -49,7 +49,7 @@ fail_job:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
-  - ./tools/gitlab-ci/completeaction.sh "Build failed. See https://gitlab.com/evol/clientdata/builds/$(clientdata/.shared/buildid.log)"
+  - ./tools/gitlab-ci/failaction.sh
   when: on_failure
   cache:
     key: "$CI_BUILD_REF_NAME"
