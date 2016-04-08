@@ -1,0 +1,45 @@
+stages:
+- deploy
+- fail
+- ok
+
+pages:
+  stage: deploy
+  script:
+  - apt-get update
+  - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils
+  - cd ..
+  - rm -rf tools
+  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - ./tools/gitlab-ci/clientdata.sh
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+ 
+ok_job:
+  stage: ok
+  script:
+  - apt-get update
+  - apt-get -y -qq install ii psmisc
+  - cd ..
+  - rm -rf tools
+  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - ./tools/gitlab-ci/completeaction.sh "Build success. See https://gitlab.com/evol/clientdata/builds"
+  when: on_success
+  only:
+  - master
+
+fail_job:
+  stage: fail
+  script:
+  - apt-get update
+  - apt-get -y -qq install ii psmisc
+  - cd ..
+  - rm -rf tools
+  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - ./tools/gitlab-ci/completeaction.sh "Build failed. See https://gitlab.com/evol/clientdata/builds"
+  when: on_failure
+  only:
+  - master
