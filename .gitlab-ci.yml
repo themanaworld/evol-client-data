@@ -11,10 +11,17 @@ pages:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - mkdir .shared
+  - echo >.shared/error.log
+  - echo ${CI_BUILD_ID} >.shared/buildid.log
   - ./tools/gitlab-ci/clientdata.sh
   artifacts:
     paths:
     - public
+  cache:
+    key: "$CI_BUILD_REF_NAME"
+    paths:
+    - .shared
   only:
   - master
  
@@ -26,8 +33,15 @@ ok_job:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
-  - ./tools/gitlab-ci/completeaction.sh "Build success. See https://gitlab.com/evol/clientdata/builds"
+#  - ./tools/gitlab-ci/completeaction.sh "Build success. See https://gitlab.com/evol/clientdata/builds/$(tools/.shared/buildid.log)"
+  - rm -rf .shared
   when: on_success
+  cache:
+    key: "$CI_BUILD_REF_NAME"
+    paths:
+    - .shared
+  dependencies:
+  - pages
   only:
   - master
 
@@ -39,7 +53,14 @@ fail_job:
   - cd ..
   - rm -rf tools
   - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
-  - ./tools/gitlab-ci/completeaction.sh "Build failed. See https://gitlab.com/evol/clientdata/builds"
+#  - ./tools/gitlab-ci/completeaction.sh "Build failed. See https://gitlab.com/evol/clientdata/builds/$(tools/.shared/buildid.log)"
+  - rm -rf .shared
   when: on_failure
+  cache:
+    key: "$CI_BUILD_REF_NAME"
+    paths:
+    - .shared
+  dependencies:
+  - pages
   only:
   - master
