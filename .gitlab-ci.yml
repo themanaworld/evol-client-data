@@ -10,7 +10,7 @@ pages:
   - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
   - cd ..
   - rm -rf tools
-  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - git clone https://gitlab.com/evol/evol-tools.git tools
   - pwd
   - ./tools/gitlab-ci/clientdata.sh
   - pwd
@@ -31,7 +31,7 @@ ok_job:
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
   - rm -rf tools
-  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - git clone https://gitlab.com/evol/evol-tools.git tools
   - pwd
   - ls clientdata/shared
   - ./tools/gitlab-ci/susseccaction.sh
@@ -54,7 +54,7 @@ fail_job:
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
   - rm -rf tools
-  - git clone --depth 1 https://gitlab.com/evol/evol-tools.git tools
+  - git clone https://gitlab.com/evol/evol-tools.git tools
   - ls clientdata/shared
   - ./tools/gitlab-ci/failaction.sh
   when: on_failure
