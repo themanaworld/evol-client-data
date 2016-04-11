@@ -3,6 +3,8 @@ stages:
 - fail
 - ok
 
+image: debian:stable
+
 pages:
   stage: deploy
   script:
