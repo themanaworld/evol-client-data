@@ -49,7 +49,7 @@ fail_job:
   script:
   - pwd
   - echo $CI_BUILD_REF_NAME
-  - ls shared
+#  - ls shared
   - apt-get update
   - apt-get -y -qq install ii psmisc pastebinit
   - cd ..
@@ -58,9 +58,9 @@ fail_job:
   - ls clientdata/shared
   - ./tools/gitlab-ci/failaction.sh
   when: on_failure
-  artifacts:
-    paths:
-    - shared
+#  artifacts:
+#    paths:
+#    - shared
   dependencies:
   - pages
   only:
