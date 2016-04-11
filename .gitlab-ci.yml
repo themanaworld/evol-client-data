@@ -30,7 +30,7 @@ ok_job:
   - pwd
   - ls shared
   - apt-get update
-  - apt-get -y -qq install ii psmisc pastebinit
+  - apt-get -y -qq install ii psmisc pastebinit git
   - cd ..
   - rm -rf tools
   - git clone https://gitlab.com/evol/evol-tools.git tools
@@ -53,7 +53,7 @@ fail_job:
   - echo $CI_BUILD_REF_NAME
 #  - ls shared
   - apt-get update
-  - apt-get -y -qq install ii psmisc pastebinit
+  - apt-get -y -qq install ii psmisc pastebinit git
   - cd ..
   - rm -rf tools
   - git clone https://gitlab.com/evol/evol-tools.git tools
