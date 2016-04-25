@@ -37,6 +37,7 @@ function aptget_install {
 }
 
 function clientdata_init {
+    mkdir shared
     cd ..
     ln -s clientdata client-data
 }
