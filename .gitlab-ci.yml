@@ -4,6 +4,8 @@ stages:
 - ok
 
 image: debian:stable
+before_script:
+  - uname -a
 
 pages:
   stage: deploy
@@ -28,15 +30,7 @@ ok_job:
   stage: ok
   script:
   - pwd
-  - ls shared
-  - apt-get update
-  - apt-get -y -qq install ii psmisc pastebinit git
-  - cd ..
-  - rm -rf tools
-  - git clone https://gitlab.com/evol/evol-tools.git tools
-  - pwd
-  - ls clientdata/shared
-  - ./tools/gitlab-ci/susseccaction.sh
+  - echo $CI_BUILD_REF_NAME
   when: on_success
   artifacts:
     paths:
@@ -51,14 +45,6 @@ fail_job:
   script:
   - pwd
   - echo $CI_BUILD_REF_NAME
-#  - ls shared
-  - apt-get update
-  - apt-get -y -qq install ii psmisc pastebinit git
-  - cd ..
-  - rm -rf tools
-  - git clone https://gitlab.com/evol/evol-tools.git tools
-  - ls clientdata/shared
-  - ./tools/gitlab-ci/failaction.sh
   when: on_failure
 #  artifacts:
 #    paths:
