@@ -1,4 +1,5 @@
 stages:
+- test
 - deploy
 - fail
 - ok
@@ -7,8 +8,8 @@ image: debian:stable
 before_script:
   - uname -a
 
-pages:
-  stage: deploy
+testxml:
+  stage: test
   script:
   - apt-get update
   - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
@@ -16,7 +17,24 @@ pages:
   - rm -rf tools
   - git clone https://gitlab.com/evol/evol-tools.git tools
   - pwd
-  - ./tools/gitlab-ci/clientdata.sh
+  - ./tools/gitlab-ci/clientdata/testxml.sh
+  - pwd
+  - ls clientdata/shared
+  artifacts:
+    paths:
+    - shared
+    - public
+
+pages:
+  stage: deploy
+  script:
+  - apt-get update
+  - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python
+  - cd ..
+  - rm -rf tools
+  - git clone https://gitlab.com/evol/evol-tools.git tools
+  - pwd
+  - ./tools/gitlab-ci/clientdata/deploy.sh
   - pwd
   - ls clientdata/shared
   artifacts:
@@ -35,10 +53,6 @@ ok_job:
   artifacts:
     paths:
     - shared
-  dependencies:
-  - pages
-  only:
-  - master
 
 fail_job:
   stage: fail
@@ -49,7 +63,3 @@ fail_job:
 #  artifacts:
 #    paths:
 #    - shared
-  dependencies:
-  - pages
-  only:
-  - master
