@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./tools/gitlab-ci/init.sh
+source ./.tools/init.sh
 
 clientdata_init
 
