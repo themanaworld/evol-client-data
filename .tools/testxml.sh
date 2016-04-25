@@ -11,6 +11,7 @@ gitclone https://gitlab.com/evol/evol-tools.git tools
 cd tools/testxml
 
 ./xsdcheck.sh
+check_error
 export RES=$(cat errors.txt)
 if [[ -n "${RES}" ]]; then
     echo "xml check failed" >../../clientdata/shared/error.log

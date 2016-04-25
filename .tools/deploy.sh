@@ -20,11 +20,14 @@ gitclone https://gitlab.com/evol/evol-music.git music
 cd tools/update
 
 ./createnew.sh
+check_error
 ./create_music.sh
+check_error
 
 cp -r upload/* ../../clientdata/public
 cd ../../clientdata
 gitclone https://gitlab.com/4144/pagesindexgen.git pagesindexgen
 cd pagesindexgen
 ./pagesindexgen.py ../public
+check_error
 ls ../public

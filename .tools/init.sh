@@ -1,5 +1,11 @@
 #!/bin/bash
 
+function check_error {
+    if [ "$1" != 0 ]; then
+        exit $result
+    fi
+}
+
 function gitclone {
     git clone $*
     if [ "$?" != 0 ]; then
@@ -10,6 +16,7 @@ function gitclone {
             git clone $*
         fi
     fi
+    check_error
 }
 
 function aptget_update {
@@ -22,6 +29,7 @@ function aptget_update {
             apt-get update
         fi
     fi
+    check_error
 }
 
 function aptget_install {
@@ -34,10 +42,12 @@ function aptget_install {
             apt-get -y -qq install $*
         fi
     fi
+    check_error
 }
 
 function clientdata_init {
     mkdir shared
     cd ..
     ln -s clientdata client-data
+    check_error
 }

@@ -11,6 +11,8 @@ gitclone https://gitlab.com/evol/evol-tools.git tools
 cd tools/contrib_xsl
 
 make about-server
+check_error
+
 cd ../../clientdata
 
 export RES=$(git diff)
