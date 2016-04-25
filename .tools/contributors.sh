@@ -10,18 +10,14 @@ gitclone https://gitlab.com/evol/evol-tools.git tools
 
 cd tools/contrib_xsl
 
-pwd
 make about-server
 check_error $?
 
 cd ../../clientdata
-pwd
-git diff
 
 export RES=$(git diff)
 if [[ -n "${RES}" ]]; then
     echo "Contributors list not updated"
-    echo "Diff:"
-    echo ${RES}
+    git diff
     exit 1
 fi
