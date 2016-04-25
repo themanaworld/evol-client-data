@@ -19,7 +19,6 @@ pages:
   script:
   - ./.tools/deploy.sh
   - pwd
-  - ls clientdata/shared
   artifacts:
     paths:
     - public
