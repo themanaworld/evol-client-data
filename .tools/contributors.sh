@@ -12,7 +12,7 @@ cd tools/contrib_xsl
 
 pwd
 make about-server
-check_error
+check_error $?
 
 cd ../../clientdata
 pwd

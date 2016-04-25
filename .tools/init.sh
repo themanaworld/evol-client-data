@@ -16,7 +16,7 @@ function gitclone {
             git clone $*
         fi
     fi
-    check_error
+    check_error $?
 }
 
 function aptget_update {
@@ -29,7 +29,7 @@ function aptget_update {
             apt-get update
         fi
     fi
-    check_error
+    check_error $?
 }
 
 function aptget_install {
@@ -42,12 +42,12 @@ function aptget_install {
             apt-get -y -qq install $*
         fi
     fi
-    check_error
+    check_error $?
 }
 
 function clientdata_init {
     mkdir shared
     cd ..
     ln -s clientdata client-data
-    check_error
+    check_error $?
 }
