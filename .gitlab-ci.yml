@@ -11,35 +11,17 @@ before_script:
 testxml:
   stage: test
   script:
-  - apt-get update
-  - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
-  - cd ..
-  - rm -rf tools
-  - git clone https://gitlab.com/evol/evol-tools.git tools
+  - ./.tools/testxml.sh
   - pwd
-  - ./tools/gitlab-ci/clientdata/testxml.sh
-  - pwd
-  - ls clientdata/shared
-  artifacts:
-    paths:
-    - shared
-    - public
 
 pages:
   stage: deploy
   script:
-  - apt-get update
-  - apt-get -y -qq install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python
-  - cd ..
-  - rm -rf tools
-  - git clone https://gitlab.com/evol/evol-tools.git tools
-  - pwd
-  - ./tools/gitlab-ci/clientdata/deploy.sh
+  - ./.tools/deploy.sh
   - pwd
   - ls clientdata/shared
   artifacts:
     paths:
-    - shared
     - public
   only:
   - master
@@ -50,9 +32,6 @@ ok_job:
   - pwd
   - echo $CI_BUILD_REF_NAME
   when: on_success
-  artifacts:
-    paths:
-    - shared
 
 fail_job:
   stage: fail
@@ -60,6 +39,3 @@ fail_job:
   - pwd
   - echo $CI_BUILD_REF_NAME
   when: on_failure
-#  artifacts:
-#    paths:
-#    - shared
