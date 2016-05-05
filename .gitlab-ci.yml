@@ -20,7 +20,7 @@ contributors:
   - ./.tools/contributors.sh
   - pwd
 
-testxml:
+pngcheck:
   stage: test
   script:
   - ./.tools/pngcheck.sh
