@@ -20,6 +20,11 @@ contributors:
   - ./.tools/contributors.sh
   - pwd
 
+testxml:
+  stage: test
+  script:
+  - ./.tools/pngcheck.sh
+
 pages:
   stage: deploy
   script:

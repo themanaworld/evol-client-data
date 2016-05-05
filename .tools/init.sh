@@ -2,7 +2,8 @@
 
 function check_error {
     if [ "$1" != 0 ]; then
-        exit $result
+        echo "Error $1"
+        exit $1
     fi
 }
 
