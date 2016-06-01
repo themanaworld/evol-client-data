@@ -27,15 +27,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
 <items>
-    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-        <its:translateRule selector="//item/@name" translate="yes"/>
-        <its:translateRule selector="//item/@description" translate="yes"/>
-        <its:translateRule selector="//item/@useButton" translate="yes"/>
-        <its:translateRule selector="//item/@useButton2" translate="yes"/>
-        <its:translateRule selector="//item/@effect" translate="yes"/>
-        <its:translateRule selector="//*" translate="no"/>
-    </its:rules>
-
     <!-- Hairstyles -->
     <item id="-1" type="hairsprite" name="Bald">
         <sprite>hairstyles/hairstyle01.xml</sprite>

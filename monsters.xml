@@ -15,11 +15,6 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
 -->
 
 <monsters offset="0">
-    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-        <its:translateRule selector="//monster/@name" translate="yes"/>
-        <its:translateRule selector="//*" translate="no"/>
-    </its:rules>
-
     <monster id="1002" name="Piou" targetCursor="small" walkType="fly">
         <sprite>monsters/piou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>

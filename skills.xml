@@ -2,13 +2,6 @@
 <!-- Authors: 4144, Reid
 Copyright (C) 2010-2013 Evol Online -->
 <skills>
-    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-        <its:translateRule selector="//set/@name" translate="yes"/>
-        <its:translateRule selector="//set/skill/@name" translate="yes"/>
-        <its:translateRule selector="//set/skill/@description" translate="yes"/>
-        <its:translateRule selector="//*" translate="no"/>
-    </its:rules>
-
     <set name="Basic">
         <skill id="1" name="Basic" icon="graphics/skills/emote.png" description="Allow do basic things."/>
 <!--
