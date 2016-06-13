@@ -20,7 +20,24 @@ function gitclone {
     check_error $?
 }
 
+function update_repos {
+    if [ "$CI_SERVER" == "" ];
+    then
+        return
+    fi
+
+    export DATA=$(cat /etc/resolv.conf|grep "nameserver 1.10.100.101")
+    if [ "$DATA" != "" ];
+    then
+        echo "Detected local runner"
+        sed -i 's!http://httpredir.debian.org/debian!http://1.10.100.103/debian!' /etc/apt/sources.list
+    else
+        echo "Detected non local runner"
+    fi
+}
+
 function aptget_update {
+    update_repos
     apt-get update
     if [ "$?" != 0 ]; then
         sleep 1s
