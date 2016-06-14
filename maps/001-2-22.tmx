@@ -8,29 +8,29 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, Second Deck"/>
  </properties>
- <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128" columns="8">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="397" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="397" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="439" name="Ship Indoor x2x4" tilewidth="64" tileheight="128" tilecount="1">
+ <tileset firstgid="439" name="Ship Indoor x2x4" tilewidth="64" tileheight="128" tilecount="1" columns="1">
   <image source="../graphics/tilesets/ship-indoor-x2x4.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="440" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
+ <tileset firstgid="440" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="448" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="448" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="452" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="452" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="93" height="59" opacity="0.99">
@@ -53,12 +53,12 @@
    H4sIAAAAAAAAA+2Yy0rDQBSGJ5ZuFdGuBS/gQsGFbryBaAVvKFgV9xbdWzfq3ifxPbw9gu/SrefgDI5hLqdtWjvm/+AnZG6Z/DkzOYlSAAAAAAAAAAAAAAAAAAAAAAAAAGDq2WCuczmYy/QNnv+aoN1DpH6PdBbxfC8yxqNgHsy6sN2wwp5vCNrF/OL6ZhaOdW4zGamXcC9sN8zEYpiReH7XY5yXyfNVQRv24ylSz7yQ76+kN9J79ruM27RKFOfSPcSHz1Pbz0GMwaTmue89N0LlHyocoyHOSfsRHQX6XynZWuGy1Dxv6ntgjysd5HankfoGqUqaJlVINa1Ml1UjY+zrMVwck+qkOX3cEc/6bzGe2+85EztFMFHMME521ff8F/Uxlfy81/38LzGer6h0/GZsz82ekmXfe0woZx4GjOcpxTgjifPPQUykCy5Im5ZS+Q7tdW85UOGc5LCPY/AyNO9nJrW8pVs4j+P75pxklDRLGlM/fkhzRTMG950hTVlj/Nf8vFvyfiw46jk35GfBOcw16YY0rstquk3D8+5oO67hIyXPt0knjrotQf+8H8uO+ran74LVxsVzFq7Pk5Lnxve61rw+3gr6F/F/qoz/uC5zWlLF/suNfdeW0XMXduybuLclXQtFxHnLcV3XeSrf/j5cce8q8z2XTvYn46lvjJ3AXPLn/53QvceeicvTsvtZBNK1Ak8BAAAAAAAAAAAAAAAAgDT4At6ZG8S8VQAA
   </data>
  </layer>
- <layer name="Collision" width="93" height="59" visible="0">
+ <layer name="Collision" width="93" height="59">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YXY7DIAxG0WT/u4mU/VV5iORYYDCQQuBaOg+TdlL82e38HPu2HQAAAAAAAAAAAAAAAABecVXJY6u66gxcPx15tcz8rpnnlSrPPc79qeQeNecYlT6/3HPZn3fPW81txtxjPbyZ1+qZyx6tWXj2PHS/2LXVMpefsVfJn501fcrnluZkvfZX887pK6c8z62t3nm1zD22//p9UJNTi+qdVS3rcyX0+AjVO7NWOx7rSV8fYQbWe/Mravq2+vfeo+RsvbN7O2+55/J7j8g1axYtz9c7w3/suM7XyiH1dc75cl/rS+7SO5z62z+VQ6pW3fPSXvWsYv+/InNf5rV73jLz0O+0s2XumUsoi5wd7X3+GYVmoucCAAAAAAAAAADG9wOHNwQJvFUAAA==
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="1" name="To Ship's Hold" type="warp" x="2304" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-23"/>

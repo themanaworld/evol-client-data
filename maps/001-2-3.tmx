@@ -7,40 +7,40 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Moon's House Second Floor"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16">
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8">
+ <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8" columns="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="585" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="585" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="621" name="Box x1 x2" tilewidth="32" tileheight="64" tilecount="8">
+ <tileset firstgid="621" name="Box x1 x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="629" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="629" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="757" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="757" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="761" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="761" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1017" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="1017" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="1023" name="Level Height" tilewidth="32" tileheight="32" tilecount="16">
+ <tileset firstgid="1023" name="Level Height" tilewidth="32" tileheight="32" tilecount="16" columns="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="69" height="64">
@@ -68,7 +68,7 @@
    eJzt0kEKgCAQQFGh+19YCNpGkI2LaQrfwNspOB/71loHAAAAAAAAgETXmblX/fa3mtz1iZ77u/1k9GeepnqPrD+iybjP7FS/XZPv99BkjSaRXTXRJLrnKj0AAAAAAAAgywH4Wnj8
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="1" name="To First Level" type="warp" x="832" y="992" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-2"/>

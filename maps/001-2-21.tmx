@@ -7,29 +7,29 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="La Johanne, First Deck"/>
  </properties>
- <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="1" name="Ship Indoor" tilewidth="32" tileheight="32" tilecount="128" columns="8">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="129" name="Ship Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="397" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="397" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="439" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
+ <tileset firstgid="439" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="447" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
+ <tileset firstgid="447" name="Shadow" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="511" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="511" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="515" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="515" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="52" height="53">
@@ -52,12 +52,12 @@
    H4sIAAAAAAAAA+3TTQqCUBSG4dNuGjq3nJhtIVpArkAQ3LHgJHAiOOgGBeJfXkffjfeBA15R8IWjGQAAAAAAUHXfMcre3xe7STbMycLoOW989mrh9hSH6b1vj/L+LfVkMz03098/n30bU9y/f+zJd777MM2e0k0z87+sqd3zlen2tJ49T/Ge3rOnE+5J3WSfOQ6uf50vptkznMjzrNYDAAAAAAAQihdyzEeQECsAAA==
   </data>
  </layer>
- <layer name="Collision" width="52" height="53" visible="0">
+ <layer name="Collision" width="52" height="53">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3PwQnAIBAEQO2/G+H6y8tHCAQJwqmZhUEOfOy2WkoDAAAAALYQC3SYqWf0b3bf0T09UZ/vl+2r7BlJdueZW07clN35j3ui3ju/3dmdAQAAAHZ2AYo51aAQKwAA
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="1" name="ToArtis" type="warp" x="608" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

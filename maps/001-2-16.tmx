@@ -7,25 +7,25 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value=""/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16">
+ <tileset firstgid="513" name="Indoor x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="577" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="613" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8">
+ <tileset firstgid="613" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="621" name="Candle" tilewidth="32" tileheight="32" tilecount="24">
+ <tileset firstgid="621" name="Candle" tilewidth="32" tileheight="32" tilecount="24" columns="3">
   <image source="../graphics/tilesets/candle.png" width="96" height="256"/>
   <tile id="3">
    <animation>
@@ -35,19 +35,19 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="645" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="645" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="901" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
+ <tileset firstgid="901" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="917" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="917" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="921" name="Shadow" tilewidth="32" tileheight="32" tilecount="64">
+ <tileset firstgid="921" name="Shadow" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="985" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="985" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="61" height="61">
@@ -70,12 +70,12 @@
    eJzt080JwkAQBtBAzlZg9OZZ8acBtQK1kFRgGWK5TjCHRVHcQyIJ78FHdpNZmGFJUQAAAAAAAMA41ZFr5pl5F4306NPMt/L5vJfv38Y68zdDn7kxyaw38zBNI6sfa5eRqsNe+tL8083cszaLZL2ObCLbdl+19UNXv2SXrPeRQ+SYvBu7U+Qcufy7kR6l9w8AAAAAADkekB0Ocg==
   </data>
  </layer>
- <layer name="Collision" width="61" height="61" visible="0">
+ <layer name="Collision" width="61" height="61">
   <data encoding="base64" compression="zlib">
    eJzt1UEKgCAQBVCh+19Q6C7RTqSMQBvMN/AWMpv/mYV5SykDAAAAAACwpHNa778oe5WzV+/onD371tPaR+cd1ftuF51z9K2f7j+7NxOd9cvu0dl07qv+n1bofHX76AwAAAAAADCDA+rYVAY=
   </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="To Artis" type="warp" x="1024" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

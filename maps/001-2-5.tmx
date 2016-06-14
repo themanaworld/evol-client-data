@@ -7,25 +7,25 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Library's Warehouse"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
+ <tileset firstgid="513" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="561" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="561" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="689" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="689" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="693" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="693" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="949" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="949" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="60" height="63">
@@ -48,12 +48,12 @@
    eJzt0csJAjEYhdEweyvw0YKiVqBWMFqIrfko0F8YMSCiLiYy4Rz4FhmyyGVSAgAAAAAAgHJGP9yd9faKcvK9pyalc3SJrs3rt9r2fmLv8Nj7nr3DM44WX9ybR5Oe31LKffM0WkaraN2d82rZ+nCMNtE22nXnvBq10T46/PshhdT+PwEAAAAAeLoBlSUNVQ==
   </data>
  </layer>
- <layer name="Collision" width="60" height="63" visible="0">
+ <layer name="Collision" width="60" height="63">
   <data encoding="base64" compression="zlib">
    eJzt08EJgDAQBMCA/bcTSHci+BARFDReuMzBfPLaZUldSqkAAAAAAAAMYbvoDH9oe9e7i87Zq3f2zZ9edM5evbPve/V/z29tgJz2fdfT/83dc6Z9Z+t77B2dAQAAAAAAvrYCfzx7Jg==
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="1" name="To Library First Floor" type="warp" x="896" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>

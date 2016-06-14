@@ -7,44 +7,44 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Blacksmith Shop"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16">
+ <tileset firstgid="513" name="Indor x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48">
+ <tileset firstgid="529" name="Indoor x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8">
+ <tileset firstgid="577" name="Indoor x2 x4" tilewidth="64" tileheight="128" tilecount="8" columns="8">
   <image source="../graphics/tilesets/artis-indoor-x4x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="585" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16">
+ <tileset firstgid="585" name="Indoor x4" tilewidth="32" tileheight="128" tilecount="16" columns="16">
   <image source="../graphics/tilesets/artis-indoor-x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="729" name="Artis Accessor x2" tilewidth="32" tileheight="64" tilecount="48">
+ <tileset firstgid="729" name="Artis Accessor x2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="777" name="Pavement" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="777" name="Pavement" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="905" name="Box" tilewidth="32" tileheight="32" tilecount="36">
+ <tileset firstgid="905" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="941" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="953" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4">
+ <tileset firstgid="953" name="Sunlight" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="957" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
+ <tileset firstgid="957" name="Height Number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <tileset firstgid="973" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="973" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <layer name="Ground" width="72" height="68">
@@ -67,12 +67,12 @@
    eJzt1l0OwUAUhuFJessKlDvXBHFLsALsQ1dgCW4twRLEzwIsy2li4igdLSX9eZ/kS4Ye6fhSMsYAAAAAAAAAAAAAwG9tJOsMZsqKftyq2k+g1nXHXBb9tCL3KwJXPwfPmKPk5D1/d/u+Fp3Rnz975etH4/mhn1f0fhuSbsxcx3EtyUx4zU+3tVwIIuuwo+YtbbX21bWtpCfpSwZqbiUZx9xnJKllvvv/CiIZqrWe2UkmkqlkpuZcv89QK+P95tlcspAsb6/p55F+zqwk/RTt//lT9JMM/bil7adq0pyffFO950ez56e9uZ+b7DnKdlP1fsJczPtzFAAAAAAAAAAAAAB86wq5pDRq
   </data>
  </layer>
- <layer name="Collision" width="72" height="68" visible="0">
+ <layer name="Collision" width="72" height="68">
   <data encoding="base64" compression="zlib">
    eJzt1NEGwDAMBdCx//+10j+aPoyZdvqwSG0nnJdSkitS9m0rAAAAAAAAAAAf1qr31nv/k3rJoVW9ZXOt7F6j9+PtOrPNni1iT97MKHs2+cSLrOzZIjOayW/m/5+M5q4d2b2uxP48G9347L5WMHOfkMtsNjICAAAAAAAAyHEAWxMrDA==
   </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="1" name="To Artis" type="warp" x="1120" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -81,7 +81,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="72" height="68" visible="0">
+ <layer name="Heights" width="72" height="68">
   <data encoding="base64" compression="zlib">
    eJzt0LENgDAMRUFL2X8kmI0iokI4cevcSb9x5xcBAAAAAAAAANDbPeZWt9O8DXbWWaVDdR3ok9Mnp89a9tvO/53bVPz9fY3vAAAAAAAAAACAiAfwzWH+
   </data>

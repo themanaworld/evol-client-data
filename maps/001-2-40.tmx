@@ -8,32 +8,32 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="City Hall Left Side"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Cellar" tilewidth="32" tileheight="32" tilecount="64">
+ <tileset firstgid="257" name="Cellar" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../graphics/tilesets/artis-indoor-cellar.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="321" name="Pavement" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="321" name="Pavement" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-pavement.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="449" name="Ground" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="449" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="705" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256">
+ <tileset firstgid="705" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="961" name="Accessory" tilewidth="32" tileheight="32" tilecount="128">
+ <tileset firstgid="961" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="1089" name="Accessor x2" tilewidth="32" tileheight="64" tilecount="48">
+ <tileset firstgid="1089" name="Accessor x2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-accessory-x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="1137" name="Collision" tilewidth="32" tileheight="32" tilecount="6">
+ <tileset firstgid="1137" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
  <tileset firstgid="1143" source="../graphics/tilesets/candle.tsx"/>
- <tileset firstgid="1155" name="Height Number" tilewidth="32" tileheight="32" tilecount="16">
+ <tileset firstgid="1155" name="Height Number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="71" height="71">
@@ -61,12 +61,12 @@
    eJztzKENAAAIwDD+d8DDoLkA0SaziwAAAAAAAAAAAAAA4IvcausnHwAAAAAAAACAawBK5ANt
   </data>
  </layer>
- <layer name="Collision" width="71" height="71" visible="0">
+ <layer name="Collision" width="71" height="71">
   <data encoding="base64" compression="zlib">
    eJztl9EKgzAMRfewLxb6/3tZIUjaJla9VU7gwJxbm3uMY27fz2cDAAAAAAAAAAAAAAAAAACAFMW8rnXWcTmxTwV315N82fLOlf/1b+Ws52acr+qr5+bsefT2u2Lvq920ZiV67bOl9hBx07uHermqn+Ks2/r8E9xYF1kv+zq6ltqD2o03p6u7aWWbdZMptQf13FgPuIl/T+1BfU/t97PHag97ag713Kg9tLyM8nizNeNGnTvjxet5pkbrqLOPiPQ66yW73yp4fRZD1lFmHXX2M91keYub2n9xmPVi17G/b+rsUTeRGj2XZ5/b1dln/bTmZpTxDV4iebzP2v+KvfNPdRH1c9SNOsudrlpzEXn/jcyUunfcPM+PumcAAAAAAAAAAFiLH8xyIEM=
   </data>
  </layer>
- <objectgroup name="Object" visible="0" opacity="0.87">
+ <objectgroup name="Object" opacity="0.87">
   <object id="7" name="To Right Hall" type="warp" x="1408" y="1376" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-34"/>
@@ -78,7 +78,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Heights" width="71" height="71" visible="0">
+ <layer name="Heights" width="71" height="71">
   <data encoding="base64" compression="zlib">
    eJzt1UEKwjAQBdAuevOq5xYXYpSk0qZNM+E9CJgKzcxnjNMEAAAAAAAAAGx1m78/H72P7N1PyxXFWs01/Y6Q11n1lfov7XvUMpvoc7NU1rlk5uPf/ETI5rWOyGaU+7llNr/npfsemZuyK7LJndsjc1PmvsnL1X/F3PSmVOfZ2fSuVc3RsxnxvBq5Oh/zZ9UovUc242ST/o/ek7W3h9J7Iv6mrlgR7Olhy/dRc0mdmc0IjsxmdKUMtj4f0eh3bQ3ZrJMLAAAAALWe77jkfQ==
   </data>
