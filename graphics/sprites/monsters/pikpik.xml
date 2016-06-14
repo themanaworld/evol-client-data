@@ -10,14 +10,14 @@ Copyright (C) 2013-2014 Evol Online -->
     <action name="spawn" imageset="pikpik">
         <animation>
             <!-- Spines growing. -->
-            <sequence start="0" end="7" delay="120"/>
+            <sequence start="0" end="7" delay="160"/>
             <jump action="stand"/>
         </animation>
     </action>
 
     <action name="stand" imageset="pikpik">
         <animation direction="default">
-            <!-- Static -->
+            <!-- Static. -->
             <frame index="8"/>
         </animation>
     </action>
