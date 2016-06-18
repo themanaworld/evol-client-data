@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author from The Mana World
+Copyright (C) 2016 Evol Online -->
+<effect>
+    <particle position-x="16" position-y="0" position-z="0">
+        <emitter>
+            <property name="output" value="2" change-func="sine" change-amplitude="3" change-period="800"/>
+            <property name="power" min="1.5" max="2.5" change-func="sine" change-amplitude="3" change-period="800"/>
+            <property name="horizontal-angle" min="0" max="360"/>
+            <property name="vertical-angle" min="85" max="90"/>
+            <property name="image" value="graphics/particles/orb-small.png"/>
+            <property name="gravity" value="0.1"/>
+        </emitter>
+    </particle>
+</effect>
