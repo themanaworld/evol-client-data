@@ -7,14 +7,33 @@ function check_error {
     fi
 }
 
+function gitclone1 {
+    echo git clone $2 $3
+    git clone $2 $3
+    if [ "$?" != 0 ]; then
+        echo git clone $1 $3
+        git clone $1 $3
+        return $?
+    fi
+    return $?
+}
+
 function gitclone {
-    git clone $*
+    export name1=$1/$2
+    export name2=${CI_BUILD_REPO##*@}
+    export name2=https://${name2%/*}/$2
+
+    gitclone1 $1 $2 $3
     if [ "$?" != 0 ]; then
         sleep 1s
-        git clone $*
+        gitclone1 $1 $2 $3
         if [ "$?" != 0 ]; then
             sleep 3s
-            git clone $*
+            gitclone1 $1 $2 $3
+            if [ "$?" != 0 ]; then
+                sleep 5s
+                gitclone1 $1 $2 $3
+            fi
         fi
     fi
     check_error $?

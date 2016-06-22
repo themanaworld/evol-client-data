@@ -7,7 +7,7 @@ clientdata_init
 aptget_update
 aptget_install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python
 rm -rf tools
-gitclone https://gitlab.com/evol/evol-tools.git tools
+gitclone https://gitlab.com/evol evol-tools.git tools
 
 cd clientdata
 rm -rf public
@@ -16,7 +16,7 @@ mkdir public
 cd ..
 
 rm -rf music
-gitclone https://gitlab.com/evol/evol-music.git music
+gitclone https://gitlab.com/evol evol-music.git music
 
 cd tools/update
 
@@ -27,7 +27,7 @@ check_error $?
 
 cp -r upload/* ../../clientdata/public
 cd ../../clientdata
-gitclone https://gitlab.com/4144/pagesindexgen.git pagesindexgen
+gitclone https://gitlab.com/4144 pagesindexgen.git pagesindexgen
 cd pagesindexgen
 ./pagesindexgen.py ../public
 check_error $?
