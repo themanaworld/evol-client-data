@@ -23,16 +23,16 @@ function gitclone {
     export name2=${CI_BUILD_REPO##*@}
     export name2=https://${name2%/*}/$2
 
-    gitclone1 $1 $2 $3
+    gitclone1 "$name1" "$name2" $3
     if [ "$?" != 0 ]; then
         sleep 1s
-        gitclone1 $1 $2 $3
+        gitclone1 "$name1" "$name2" $3
         if [ "$?" != 0 ]; then
             sleep 3s
-            gitclone1 $1 $2 $3
+            gitclone1 "$name1" "$name2" $3
             if [ "$?" != 0 ]; then
                 sleep 5s
-                gitclone1 $1 $2 $3
+                gitclone1 "$name1" "$name2" $3
             fi
         fi
     fi
