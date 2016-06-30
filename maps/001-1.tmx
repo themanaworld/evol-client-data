@@ -36,7 +36,7 @@
  <tileset firstgid="1425" name="Fence" tilewidth="32" tileheight="32" tilecount="8" columns="4">
   <image source="../graphics/tilesets/artis-fence.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="1433" name="Pillar 2" tilewidth="32" tileheight="64" tilecount="32" columns="8">
+ <tileset firstgid="1433" name="Pillar x1x2" tilewidth="32" tileheight="64" tilecount="32" columns="8">
   <image source="../graphics/tilesets/artis-pillar-x1x2.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="1465" name="Windows" tilewidth="64" tileheight="32" tilecount="10" columns="5">
@@ -45,28 +45,28 @@
  <tileset firstgid="1475" name="Artis Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="1603" name="Accessory 2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
+ <tileset firstgid="1603" name="Artis Accessory x1x2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
   <image source="../graphics/tilesets/artis-accessory-x1x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="1651" name="Archway_4" tilewidth="32" tileheight="128" tilecount="6" columns="6">
+ <tileset firstgid="1651" name="Archway x1x4" tilewidth="32" tileheight="128" tilecount="6" columns="6">
   <image source="../graphics/tilesets/artis-archway-x1x4.png" width="192" height="128"/>
  </tileset>
- <tileset firstgid="1657" name="Archway_5" tilewidth="32" tileheight="160" tilecount="7" columns="7">
+ <tileset firstgid="1657" name="Archway x1x5" tilewidth="32" tileheight="160" tilecount="7" columns="7">
   <image source="../graphics/tilesets/artis-archway-x1x5.png" width="224" height="160"/>
  </tileset>
- <tileset firstgid="1664" name="Tree_3" tilewidth="96" tileheight="96" tilecount="1" columns="1">
+ <tileset firstgid="1664" name="Tree x3x3" tilewidth="96" tileheight="96" tilecount="1" columns="1">
   <image source="../graphics/tilesets/tree-x3x3.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="1665" name="Tree_4" tilewidth="96" tileheight="128" tilecount="10" columns="5">
+ <tileset firstgid="1665" name="Tree x3x4" tilewidth="96" tileheight="128" tilecount="10" columns="5">
   <image source="../graphics/tilesets/tree-x3x4.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="1675" name="Tree_5" tilewidth="128" tileheight="160" tilecount="1" columns="1">
+ <tileset firstgid="1675" name="Tree x4x5" tilewidth="128" tileheight="160" tilecount="1" columns="1">
   <image source="../graphics/tilesets/tree-x4x5.png" width="128" height="160"/>
  </tileset>
  <tileset firstgid="1676" name="Box" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../graphics/tilesets/box.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="1712" name="Box_2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
+ <tileset firstgid="1712" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="1720" name="Ship Base" tilewidth="32" tileheight="32" tilecount="220" columns="22">
@@ -78,17 +78,17 @@
  <tileset firstgid="2196" name="Fountain" tilewidth="32" tileheight="32" tilecount="55" columns="11">
   <image source="../graphics/tilesets/artis-fountain.png" width="352" height="160"/>
  </tileset>
- <tileset firstgid="2251" name="Foutain_4" tilewidth="32" tileheight="128" tilecount="11" columns="11">
+ <tileset firstgid="2251" name="Foutain x1x4" tilewidth="32" tileheight="128" tilecount="11" columns="11">
   <image source="../graphics/tilesets/artis-fountain-x1x4.png" width="352" height="128"/>
  </tileset>
  <tileset firstgid="2262" source="../graphics/tilesets/accessory.tsx"/>
- <tileset firstgid="2294" name="Harbour_2_4" tilewidth="128" tileheight="64" tilecount="2" columns="2">
+ <tileset firstgid="2294" name="Harbour x4x2" tilewidth="128" tileheight="64" tilecount="2" columns="2">
   <image source="../graphics/tilesets/artis-harbour-x2-x4.png" width="256" height="64"/>
  </tileset>
- <tileset firstgid="2296" name="Harbour_4_6" tilewidth="192" tileheight="128" tilecount="1" columns="1">
+ <tileset firstgid="2296" name="Harbour x6x4" tilewidth="192" tileheight="128" tilecount="1" columns="1">
   <image source="../graphics/tilesets/artis-harbour-x4-x6.png" width="192" height="128"/>
  </tileset>
- <tileset firstgid="2297" name="Harbour_6_4" tilewidth="128" tileheight="192" tilecount="2" columns="2">
+ <tileset firstgid="2297" name="Harbour x4x6" tilewidth="128" tileheight="192" tilecount="2" columns="2">
   <image source="../graphics/tilesets/artis-harbour-x6-x4.png" width="256" height="192"/>
  </tileset>
  <tileset firstgid="2299" source="../graphics/tilesets/artis-chimney.tsx"/>
@@ -98,7 +98,7 @@
  <tileset firstgid="2565" name="Shadows" tilewidth="32" tileheight="32" tilecount="48" columns="8">
   <image source="../graphics/tilesets/artis-shadows.png" width="256" height="192"/>
  </tileset>
- <tileset firstgid="2613" name="Height Number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
+ <tileset firstgid="2613" name="Height Numbers" tilewidth="32" tileheight="32" tilecount="16" columns="16">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <tileset firstgid="2629" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
