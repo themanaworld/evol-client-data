@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="Candle" tilewidth="32" tileheight="64">
- <image source="candle.png" width="96" height="128"/>
+<tileset name="Candle x1x2" tilewidth="32" tileheight="64">
+ <image source="candle-x1x2.png" width="96" height="128"/>
  <tile id="0">
   <properties>
    <property name="animation-delay0" value="13"/>
