@@ -23,9 +23,9 @@ fi
 
 echo >../../clientdata/shared/error.log
 ./testxml.py silent >../../clientdata/shared/error.log
+cat ../../clientdata/shared/error.log
 if [ "$?" != 0 ]; then
     echo "test xml error"
-    cat ../../clientdata/shared/error.log
     exit 1
 fi
 
