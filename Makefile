@@ -33,7 +33,7 @@ check-xml:
 	cd ../tools/testxml/ ; ./xsdcheck.sh ; cat errors.txt
 
 testxml:
-	cd ../tools/testxml/ ; ./testxml.py
+	cd ../tools/testxml/ ; ./testxml.py all
 
 updates:
 	cd ../tools/update/ ; ./createnew.sh
