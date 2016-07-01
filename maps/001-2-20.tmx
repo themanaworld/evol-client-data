@@ -28,28 +28,19 @@
  <tileset firstgid="601" name="Artis Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="729" name="Candle x1x2" tilewidth="32" tileheight="32" tilecount="24" columns="3">
-  <image source="../graphics/tilesets/candle-x1x2.png" width="96" height="256"/>
-  <tile id="3">
-   <animation>
-    <frame tileid="3" duration="100"/>
-    <frame tileid="4" duration="100"/>
-    <frame tileid="5" duration="100"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="753" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
+ <tileset firstgid="729" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="757" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="733" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1013" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+ <tileset firstgid="989" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
+ <tileset firstgid="995" source="../graphics/tilesets/candle-x1x2.tsx"/>
  <layer name="Ground" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1skNwjAUhGGz3FgkEBI3WoECoJd0RUehA+iAM7aIxegpjlgChvAfPpHEtmBGTkLhnCsAAAAAAAAAAADwFiNv+oBxw9rxE9//jUKujder9L3SG8q1/cC5mZyvq/y6NszRsdy5XjXxdu6aO5hXvSzk2lKOg623MmuXZix3rrZ6OYpS1J3bXnS8K70UkrdJaY7jWp1zNmO/LtWB7ULnhH0R98rByJ2nLWeT3eZUei/tEvNz52lzv+jzI+ab925sL/rZ1V7s/dK0X2wnXe4ltV+a7qN/6SX1DrLP23hN91pXe4n5bA91/2GOd/SaO8snnETu3wIAAAAAAAAAAACkXAAO71t5
+   eJzt1skNwjAUhGGz3FgkEBI3WoECoJd0QnehA+iAM7aIxegpjlgChvAfPpHEtmBGTkLhnCsAAAAAAAAAAADwFiNv+oBxw9rxE9//jUKujder9L3SG8q1/cC5mZyvq/y6NszRsdy5XjXxdu6aO5hXvSzk2lKOg623MmuXZix3rrZ6OYpS1J3bXnS8K70UkrdJaY7jWp1zNmO/LtWB7ULnhH0R98rByJ2nLWeT3eZUei/tEvNz52lzv+jzI+ab925sL/rZ1V7s/dK0X2wnXe4ltV+a7qN/6SX1DrLP23hN91pXe4n5bA91/2GOd/SaO8snnETu3wIAAAAAAAAAAACkXADIl1tJ
   </data>
  </layer>
  <layer name="Ground2" width="70" height="60">
@@ -59,17 +50,17 @@
  </layer>
  <layer name="Fringe" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1UEOwUAYhuGa2HaBnQ0HkFiyteACLEn0CC7gQJwGJxAb23IBf2PESHQqZbSdvE/yZSbTTvJ3Op0GAQAAAAAAAAAAAFAu4w/umTivotr6taIrcGOj7u1W2qUkkoTqeb2u3s9bp4xX3dTyXA251pF0JS31ugYLSVOPJ+ZOq/yvUca7nlm+jWTuSdqLzvGHdRWt9+WZsDP6Pq1LmrasVyg5Z+ynWHLV/cjTczePZL8cdLvyaF0Glv1gO1seYqM/9PS/lMfeCAAAAAAAAAAAAACU3Q1YqxZi
+   eJzt1UEOwUAYhuEatl1gZ8MBJJZsLbgASxI9ggs4EKfBCcTKslzAPzGiEh1SRtvJ+yRfZjLTSabT9m8QAAAAAAAAAAAAAMUy+uCasfNdlFuvkvcO3FirW7uRdiGJJKF6zNfU63WrlPGym1juqy5zbUlH0lTPZzCXNMy4NnO6y/8avnnWU8u3odcepT2bHH64r7x1v6wJ20Tfp3NJ05LzCiWnqv26WHIx/cjTupuFfl/2pl16dC59S32x1Za7ONEfePpfymKXCAAAAAAAAAAAAAAU3RWZQhZk
   </data>
  </layer>
  <layer name="Over" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt0k0KwjAQhuFJuvYEVrddKiroThEv4M9BeiPP6M8BOmKFoRAt3aSN7wMfhE4mJENFAAAAAAAAAAAAgLiy2BcABmbUsW+r2QVq045n9kmbudy8yF3z0Dz99z0bn/ZcnBPxJplrd97RpT2Xrq6J/y+/zDTzQC2FuYwl/L6Q10zyQO+nNnSlvN83MSnMeqFZalbmW1732d6iUUtFabI2631dPzT2NGN7/sFJc9ZcYl+kZ+w/AQAAAAAAAAAAgPgq5ywXUQ==
+   eJzt0k0KwjAQhuFJuvYEVrddKiroThEv4M9BeiPP5c9hOmKFoRAt3aSN7wMfhE4mJENFAAAAAAAAAAAAgLiy2BcABmbUsW+r2QVq045n9kmbudy8yF3z0Dz99z0bn/ZcnBPxJplrd97RpT2Xrq6J/y+/zDTzQC2FuYwl/L6Q10zyQO+nNnSlvN83MSnMeqFZalbmW1732d6iUUtFabI2631dPzT2NGN7/sFJc9ZcYl+kZ+w/AQAAAAAAAAAAgPgqia8WwQ==
   </data>
  </layer>
  <layer name="Collision" width="70" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt00EKgCAQBdCg+183cBdCSx00oiF7A482Dvg/duzbdgAAAAAAAAB8RJ36LZfs+2R3MTrRbnaONzspjTO93ewsT2tlH3kzK/cS5Z55V3r5Ry9R5rv/1ypmp7eXnSOzl2g3O8fbnWXfAQAAAAAAACInlfl/bw==
+   eJzt01EKgCAQBcCg+18x8CYh9KmLRrRkszD044LvYce+bQcAAAAAAADAR9Sp33LJvk92F6MT7WbneLOT0jjT283O8rRW9pE3s3IvUe6Zd6WXf/QSZb77f61idnp72Tkye4l2s3O83Vn2HQAAAAAAACByAls8ARA=
   </data>
  </layer>
  <objectgroup name="Object">

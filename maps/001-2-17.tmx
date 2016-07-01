@@ -31,41 +31,32 @@
  <tileset firstgid="757" name="Box x1x2" tilewidth="32" tileheight="64" tilecount="8" columns="4">
   <image source="../graphics/tilesets/box-x1x2.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="765" name="Candle x1x2" tilewidth="32" tileheight="32" tilecount="24" columns="3">
-  <image source="../graphics/tilesets/candle-x1x2.png" width="96" height="256"/>
-  <tile id="3">
-   <animation>
-    <frame tileid="3" duration="100"/>
-    <frame tileid="4" duration="100"/>
-    <frame tileid="5" duration="100"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="789" name="Shadow" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+ <tileset firstgid="765" name="Shadow" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="853" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="829" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1109" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
+ <tileset firstgid="1085" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
   <image source="../graphics/tilesets/ship-sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1113" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+ <tileset firstgid="1089" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
+ <tileset firstgid="1095" source="../graphics/tilesets/candle-x1x2.tsx"/>
  <layer name="Ground" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1D0KwkAQQOEJ2PkDWqYIeARPoAeId9nTeoQcwTpbrDCMGwk4sGF4xUfIkmIeEzaJSAIAAAAAAAAAAF/22WmFwwZm9ep9ZJ3R70TO5uwepPuYPUvTTfVdC908ZsMGZvZqnpTXwnuU5lSaaibz/i7P1vN6NdudLp1FbL509X1Ha9ZNull3fr5pPatns22zZ5F2rPdca9f3V6Q923vr1z3WelbPPdd2a//1SM0AAAAAAAAAAOB/M/8Mdz8=
+   eJzt1M0JwkAQQOGJePMHTAEBS7ACLSD2stVaQkrwnD2sMIwbCTiwYXiHj5Alh3lM2CQiCQAAAAAAAAAAfDlk5xWOG5jVq/eRdcZuL3IxZ/cg3afsWZpuqu9a6OYxGzYws1fzpLwW3qM0p9JUM5n3d3m2nter2e506Sxic9/V9x2tWTfpZt35+ab1rJ7Nts2eRdqx3nOtXd9fkfZs761f91jrWT33XNut/dcjNQMAAAAAAAAAgP/N0p93Jw==
   </data>
  </layer>
  <layer name="Ground2" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt070KwjAUxfGbaAUFB1ERwcGPRdx8AEdHB0E3+/5voB09YEoVFDsp3P5/cAi56dBDiBkAAAAAAAAAAEBlGsy6odpnaZ2k2fOZV+M3s56z3sca8SRXRtFso8zj61mmfSfNLsqu9eu/+7+9k85X3eNJb3Wg9JWhcv7wdg9OOpe26jlLnb1bp44LrUtlFR73DrN2/P6NJzf1LRrSuexaNKgzAAAAAAAAAACo5w48/w5K
+   eJzt070KwjAUxfGbaAUFB1ERwcEPBBEcHHwQQTf7/m+gHT1gShUUOync/n9wCLnp0EOIGQAAAAAAAAAAQGUazLqh2mdpnaTZ85lX4zeznrPexxrxJFdG0WyrzOPrWaZ9J80uyrr167/7v52Tzlfd40lvdaD0laFy/vB2D046l/bqOUudvdukjgutS2UVHvcOs3b8/o0nN/UtGtK57Fo0qDMAAAAAAAAAAKjnDtD4DgI=
   </data>
  </layer>
  <layer name="Fringe" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt1L0KwjAUBtDb2tnFRfQB/HkJcRBHp2p9Dp/d3Yhxsh1LsJwDIdxkuR+XJAIAAAAAAGDYqXQDBbR5X1YR8yoXs1LdjG+XMnZ1xL3+1NtUP+qyPY1tMZDvMKE5H3sytk3ENa1bWl3zOTtPKPPX+v1uU65V1X9/mVDmZ57zPmfdDGSGf9P3hwEAAAAAAPDrBapmBqo=
+   eJzt1D0OgkAQBtABqW1sjB4AtbG08q8wnsBEz+HZ7d0ErIQSSOC9ZLLZrebL7k4EAAAAAABAu9vQDQzgUa/LLGKeDdpKL7Yp4zOPeOXVfpP273zYnrq2aMlXzvrto0vXhozHIuKU6pzqUlRn+xFl/lmnN3xP+VYt//cwosyf+p53ddZyAjOLaWiaYQAAAAAAAPz7AsnEBkc=
   </data>
  </layer>
  <layer name="Over" width="61" height="61">
@@ -75,7 +66,7 @@
  </layer>
  <layer name="Collision" width="61" height="61">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKwCAQBEALXyn4/2+EENIIAYvIhjjCYLvrna2W0gAAAAAAANjOee6710s60+q+MyedM9H5T73HPe4P75DO+facZ+aezrmy8y5z3uUfz3ZO51vZedzpdC4AAAAAAOC7DjixP4o=
+   eJzt0zEKwCAQBEALXyb4/y+FENIIAYvIhjjCYLvrna2W0gAAAAAAANjOee6710s60+q+MyedM9H5T73HPe4P75DO+facZ+aezrmy8y5z3uUfz3ZO51vZedzpdC4AAAAAAOC7DgEt6Hw=
   </data>
  </layer>
  <objectgroup name="Objects">

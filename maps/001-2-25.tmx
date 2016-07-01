@@ -37,19 +37,10 @@
  <tileset firstgid="805" name="Shadow" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../graphics/tilesets/shadow.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="869" name="Candle x1x2" tilewidth="32" tileheight="32" tilecount="24" columns="3">
-  <image source="../graphics/tilesets/candle-x1x2.png" width="96" height="256"/>
-  <tile id="3">
-   <animation>
-    <frame tileid="3" duration="100"/>
-    <frame tileid="4" duration="100"/>
-    <frame tileid="5" duration="100"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="893" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+ <tileset firstgid="869" name="Collision" tilewidth="32" tileheight="32" tilecount="6" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="64"/>
  </tileset>
+ <tileset firstgid="875" source="../graphics/tilesets/candle-x1x2.tsx"/>
  <layer name="Ground" width="70" height="57">
   <data encoding="base64" compression="zlib">
    eJzt1EsOgjAUBVDmfhI3YOJKdAG6F3bNEpjagUxeCkryEkg9g5NAUwb39tG+67oeAAAAAAD42aE4JznuIE9WJ4/ikuTeSDen4lXckjyL6w5yZfUyFsPHWHkfwlpcn55b6aWv9BA7GMOeuDd+s3WeLPHMv81H7Cqub50nu5da9rX9tNhL7X+Zm4ulvrbOk2WpizX38GTrPNkzM5d1rrfWO6nNTkv3BAAAAAAAAPyrN/95/60=
@@ -67,7 +58,7 @@
  </layer>
  <layer name="Over" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt1D0KwkAQgNEN1p7AaG2nqCdQT6AeJIWn8bQOmEAQLQL5Y3kPviJbDMssJCUAAAAAAIDxPRdT3wDmZTnAzM0AM8dmL7/920tRpLQous1q/sc57GUV7Xuct4vKHudNpUqf3azrDtExOrXOml4/zrZf32U9MwdVq3N0ia5f513K0S26R4+pLzIzub87AAAAAAAAeXoDYTUQeQ==
+   eJzt1D0KwkAQgNEN1p7AaG2nqCdQT6AeJF7H0zpgAkG0COSP5T34imwxLLOQlAAAAAAAAMb3XEx9A5iX5QAzNwPMHJu9/PZvL0WR0qLoNqv5H+ewl1W073HeLip7nDeVKn12s647RMfo1Dprev042359l/XMHFStztElun6ddylHt+gePaa+yMzk/u4AAAAAAADk6Q2PnhBz
   </data>
  </layer>
  <layer name="Shadows" width="70" height="57">
@@ -77,7 +68,7 @@
  </layer>
  <layer name="Collision" width="70" height="57">
   <data encoding="base64" compression="zlib">
-   eJzt0dEKgCAMQFGh/xb6815lFBPCFnKE8yIG260frXUAAAAAAADgF7IT38Vvq+evbDN7qvdY3eV8aJV1rN5jZZPxPmuwY4/s38d9xxZ39zuabRPfVs/9ZZ/qGQAAAAAAAID3LvBjs7U=
+   eJzt0VEKgCAQQEGhuwrd/wL9ylKsELYhI8yPGOy++tFaBwAAAAAAAH4hO/Fd/LZ6/so2s6d6j9VdzodWWcfqPVY2Ge+zBjv2yP593HdscXe/o9k28W313F/2qZ4BAAAAAAAAeO8CeYtE5g==
   </data>
  </layer>
  <objectgroup name="Object">
