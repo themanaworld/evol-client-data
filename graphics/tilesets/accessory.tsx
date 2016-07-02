@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="Accessory" tilewidth="32" tileheight="32">
- <image source="accessory.png" width="512" height="64"/>
+ <image source="accessory.png" width="512" height="128"/>
  <tile id="20">
   <properties>
    <property name="animation-delay0" value="750"/>
