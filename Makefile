@@ -40,3 +40,6 @@ updates:
 
 music:
 	cd ../tools/update/ ; ./create_music.sh
+
+license:
+	cd ../tools/licensecheck/ ; ./clientdata.sh
