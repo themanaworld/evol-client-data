@@ -43,3 +43,6 @@ music:
 
 license:
 	cd ../tools/licensecheck/ ; ./clientdata.sh
+
+icc:
+	cd ../tools/imagescheck/ ; ./icccheck.sh
