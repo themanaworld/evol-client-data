@@ -30,6 +30,11 @@ imagemagiccheck:
   script:
   - ./.tools/imagemagiccheck.sh
 
+licensecheck:
+  stage: test
+  script:
+  - ./.tools/licensecheck.sh
+
 pages:
   stage: deploy
   script:
