@@ -25,6 +25,11 @@ pngcheck:
   script:
   - ./.tools/pngcheck.sh
 
+imagemagiccheck:
+  stage: test
+  script:
+  - ./.tools/imagemagiccheck.sh
+
 pages:
   stage: deploy
   script:
