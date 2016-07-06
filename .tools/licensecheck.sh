@@ -16,7 +16,7 @@ check_error $?
 
 export RES=$(cat license.log)
 if [[ -n "${RES}" ]]; then
-    echo "Detected missing licesnes"
+    echo "Detected missing licenses."
     cat license.log
     exit 1
 fi
