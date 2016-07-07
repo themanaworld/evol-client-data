@@ -1,28 +1,31 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
 Copyright (C) 2011-2015 Evol Online -->
 
 <sprite>
-    <imageset name="pious" src="graphics/sprites/monsters/piou.png" width="10" height="9" offsetY="-12"/>
+    <imageset name="pious"
+              src="graphics/sprites/monsters/piou.png"
+              width="10"
+              height="9"
+              offsetY="-12"/>
 
-        <action name="stand" imageset="pious">
-            <animation>
+    <action name="stand" imageset="pious">
+        <animation>
             <!-- static pious -->
-                <frame index="25" delay="9000"/>
-            <!-- jumping -->
-                <frame index="26" delay="150" offsetY="-2"/>
-                <frame index="26" delay="70" offsetY="-3"/>
-                <frame index="27" delay="150" offsetY="-5"/>
-                <frame index="27" delay="70" offsetY="-6"/>
-                <frame index="26" delay="150" offsetY="-8"/>
-                <frame index="27" delay="150" offsetY="-7"/>
-                <frame index="28" delay="100" offsetY="-6"/>
-                <frame index="28" delay="90" offsetY="-5"/>
-                <frame index="28" delay="80" offsetY="-4"/>
-                <frame index="28" delay="80" offsetY="-3"/>
-                <frame index="25" delay="80" offsetY="-2"/>
-                <frame index="25" delay="80" offsetY="-1"/>
-            </animation>
-        </action>
-
+            <frame index="25" delay="9000"/>
+            <!-- jumping pious -->
+            <frame index="26" delay="150" offsetY="-2"/>
+            <frame index="26" delay="70" offsetY="-3"/>
+            <frame index="27" delay="150" offsetY="-5"/>
+            <frame index="27" delay="70" offsetY="-6"/>
+            <frame index="26" delay="150" offsetY="-8"/>
+            <frame index="27" delay="150" offsetY="-7"/>
+            <frame index="28" delay="100" offsetY="-6"/>
+            <frame index="28" delay="90" offsetY="-5"/>
+            <frame index="28" delay="80" offsetY="-4"/>
+            <frame index="28" delay="80" offsetY="-3"/>
+            <frame index="25" delay="80" offsetY="-2"/>
+            <frame index="25" delay="80" offsetY="-1"/>
+        </animation>
+    </action>
 </sprite>

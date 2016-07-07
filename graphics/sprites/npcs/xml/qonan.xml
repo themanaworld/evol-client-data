@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
-Copyright (C) 2015  Evol Online -->
+Copyright (C) 2015 Evol Online -->
+
 <sprite>
-    <imageset name="base"
+    <imageset name="npc"
               src="graphics/sprites/npcs/sprite/qonan.png"
               width="32"
               height="64"/>
 
-    <action name="stand" imageset="base">
+    <action name="stand" imageset="npc">
         <animation direction="default">
             <label name="start"/>
             <goto label="blink" rand="10"/>
