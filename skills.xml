@@ -9,8 +9,18 @@ Copyright (C) 2010-2013 Evol Online -->
         <skill id="3" name="Party" level="1" description="You can join a party."/>
         <skill id="3" name="Party" level="2" description="You can join and create a party."/>
 -->
+        <skill
+            id="20001"
+            name="Magic shield"
+            description="Allow protect from magic attacks."
+            castingDstEffectId="24"
+        />
     </set>
     <set name="Other">
-        <skill id="220" name="Grafiti" description="Draw text on ground." useTextParameter="true"/>
+        <skill
+            id="220"
+            name="Grafiti"
+            description="Draw text on ground."
+            useTextParameter="true"/>
     </set>
 </skills>
