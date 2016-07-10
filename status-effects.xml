@@ -12,9 +12,6 @@ start-message:              Displays a message when you launch the effect.
 end-message:                Displays a message when the effect end.
 -->
 
-<!--
-    block-id field can be used only by ManaPlus 1.6.3.12 and smaller.
--->
 <status-effects>
     <status-effect
         name="provoke"
@@ -31,14 +28,12 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="hiding"
         id="4"
-        block-id="1"
         option="2"
         icon="icons/invisible.xml"
     />
     <status-effect
         name="cloacking"
         id="5"
-        block-id="2"
         option="4"
         icon="icons/invisible.xml"
     />
@@ -74,7 +69,6 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="magnificat"
         id="20"
-        block-id="24"
         icon="icons/healing.xml"
         persistent-particle-effect="true"
         start-particle="graphics/particles/healing.xml"
@@ -82,7 +76,6 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="riding"
         id="27"
-        block-id="5"
         option="32"
         icon="icons/invisible.xml"
     />
@@ -146,7 +139,6 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="inc str"
         id="182"
-        block-id="14"
     />
     <!-- fake id -->
     <status-effect
@@ -203,7 +195,6 @@ end-message:                Displays a message when the effect end.
     <status-effect
         name="invisibility"
         id="403"
-        block-id="6"
         icon="icons/invisible.xml"
         start-message="You are now invisible."
         end-message="You are no longer invisible."
@@ -295,7 +286,6 @@ end-message:                Displays a message when the effect end.
     <!-- OPTION_RUWACH -->
     <status-effect
         name="ruwach"
-        block-id="13"
         option="8192"
     />
     <!-- OPTION_CHASEWALK -->
