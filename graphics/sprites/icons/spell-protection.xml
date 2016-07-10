@@ -5,13 +5,13 @@ Copyright (C) 2016 Evol Online -->
 <sprite>
     <imageset name="icon"
               src="graphics/sprites/icons/spell-protection.png"
-              width="12"
-              height="20"/>
+              width="15"
+              height="21"/>
 
     <action name="default" imageset="icon">
         <animation direction="default">
-            <sequence start="0" end="2" delay="240"/>
-            <frame index="1" delay="240"/>
+            <sequence start="0" end="2" delay="120"/>
+            <frame index="1" delay="120"/>
         </animation>
     </action>
 </sprite>
