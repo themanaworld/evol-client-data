@@ -4,12 +4,23 @@ Copyright (C) 2010-2013 Evol Online -->
 
 <skills>
     <set name="Basic">
-        <skill id="1" name="Basic" icon="graphics/skills/emote.png" description="Allow do basic things."/>
+        <skill
+            id="1"
+            name="Basic"
+            icon="graphics/skills/emote.png"
+            description="Allow do basic things."
+        />
 <!--
         <skill id="2" name="Trade"/>
         <skill id="3" name="Party" level="1" description="You can join a party."/>
         <skill id="3" name="Party" level="2" description="You can join and create a party."/>
 -->
+        <skill
+            id="20000"
+            name="Mass provoke"
+            description="Allow provoke many monsters."
+            castingAnimation="emote.xml"
+        />
         <skill
             id="20001"
             name="Magic shield"
