@@ -15,6 +15,9 @@ Copyright (C) 2010-2013 Evol Online -->
             name="Fire ball"
             description="Attack enemy with fireball."
             castingParticle="graphics/particles/arrow.particle.xml"
+            castingSrcEffectId="23"
+            dstEffectId="23"
+            castingAnimation="emote.xml"
         />
         <skill
             id="20000"
