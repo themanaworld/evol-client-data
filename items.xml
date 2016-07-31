@@ -1261,6 +1261,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="Testing bow 1"
         type="equip-2hand"
         missile-particle="graphics/particles/arrow-directions.xml"
+        attack="15"
+        weight="10"/>
+    <item id="6001"
+        image="usable/dye.png"
+        name="Bow 1"
+        description="Testing bow 1"
+        type="equip-2hand"
+        missile-particle="graphics/particles/arrow-directions.xml"
+        attack="25"
         weight="10"/>
 
     <!-- Arrows -->
@@ -1269,17 +1278,20 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Arrow 1"
         description="Testing arrow 1"
         type="equip-ammo"
+        attack="30"
         weight="1"/>
     <item id="7001"
         image="usable/dye.png"
         name="Arrow 2"
         description="Testing arrow 2"
         type="equip-ammo"
+        attack="50"
         weight="1"/>
     <item id="7002"
         image="usable/dye.png"
         name="Arrow 3"
         description="Testing arrow 3"
         type="equip-ammo"
+        attack="70"
         weight="1"/>
 </items>
