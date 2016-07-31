@@ -21,8 +21,9 @@ New organization (04/12/11).
 3200    3499      = Neck Armors
 3500    3999      = Weapons
 4000    4999      = Pets
-5000    -         = Cards
-
+5000    5999      = Cards
+6000    6999      = Bows
+7000    7999      = Arrows
 Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
@@ -1252,4 +1253,21 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="1"
         cardColor="20"
         maxFloorOffset="15"/>
+
+    <!-- Bows -->
+    <item id="6000"
+        image="usable/dye.png"
+        name="Bow 1"
+        description="Testing bow 1"
+        type="equip-2hand"
+        missile-particle="graphics/particles/arrow-directions.xml"
+        weight="10"/>
+
+    <!-- Arrows -->
+    <item id="7000"
+        image="usable/dye.png"
+        name="Arrow 1"
+        description="Testing arrow 1"
+        type="equip-ammo"
+        weight="1"/>
 </items>
