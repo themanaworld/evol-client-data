@@ -3,18 +3,16 @@
 Copyright (C) 2015 Evol Online -->
 
 <horses>
-    <horse id="1"
-           offsetX="0"
-           offsetY="5">
+    <horse id="1">
         <up>
         </up>
         <down>
+            <offset direction="left" horseOffsetX="-5" />
+            <offset direction="right" horseOffsetX="5" />
             <sprite>monsters/croc.xml</sprite>
         </down>
     </horse>
-    <horse id="2"
-           offsetX="0"
-           offsetY="5">
+    <horse id="2">
         <down>
             <sprite>monsters/tortuga.xml</sprite>
         </down>
