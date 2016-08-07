@@ -20,8 +20,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2016-07-10 23:12+0300\n"
-"PO-Revision-Date: 2016-07-12 09:00+0000\n"
+"POT-Creation-Date: 2016-07-27 02:42+0300\n"
+"PO-Revision-Date: 2016-08-06 19:33+0000\n"
 "Last-Translator: The Micksha\n"
 "Language-Team: German (http://www.transifex.com/akaras/evol/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -391,6 +391,11 @@ msgstr "Sprechen"
 #: emotes.xml:19
 msgid "Blah"
 msgstr "Blah"
+
+#. (itstool) path: homunculuses/homunculus@name
+#: homunculuses.xml:6
+msgid "homum"
+msgstr "homum"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:8 itemcolors.xml:82 itemcolors.xml:90
@@ -1111,12 +1116,12 @@ msgstr "Heilung 60-75 HP"
 
 #. (itstool) path: items/item@name
 #: items.xml:339
-msgid "Pibberries Infusion"
+msgid "Piberries Infusion"
 msgstr "Pibeerentee"
 
 #. (itstool) path: items/item@description
 #: items.xml:339
-msgid "A potion made from pibberries."
+msgid "A potion made from piberries."
 msgstr "Ein Trank aus Pibeeren."
 
 #. (itstool) path: items/item@effect
@@ -1343,7 +1348,7 @@ msgstr "Pioufedern"
 
 #. (itstool) path: items/item@description
 #: items.xml:476
-msgid "Small feathers of innocent little piou."
+msgid "Small feathers of an innocent little piou."
 msgstr "Kleine Federn von unschuldigen, niedlichen Pious."
 
 #. (itstool) path: items/item@name
@@ -1551,8 +1556,8 @@ msgstr "Kürbis"
 
 #. (itstool) path: items/item@description
 #: items.xml:612
-msgid "An invasive specimen carved at festivals somewhere."
-msgstr "Invasive Art, die irgendwo auf Festivals verteilt wurde."
+msgid "An invasive specimen, sometimes carved during festivals."
+msgstr "Invasive Art, aus deren Früchten man lustige Sachen schnitzen kann."
 
 #. (itstool) path: items/item@name
 #: items.xml:619
@@ -1581,7 +1586,7 @@ msgstr "Tentakel"
 
 #. (itstool) path: items/item@description
 #: items.xml:633
-msgid "Boneless appendage of invertebrates"
+msgid "Boneless appendage of invertebrates."
 msgstr "Knochenlose Glieder von Wirbellosen."
 
 #. (itstool) path: items/item@name
@@ -1591,7 +1596,7 @@ msgstr "Gemeiner Karpfen"
 
 #. (itstool) path: items/item@description
 #: items.xml:640
-msgid "Fresh-water is often infested with these pests."
+msgid "Freshwater is often infested with these pests."
 msgstr "Frischwasser ist des Öfteren damit verseucht."
 
 #. (itstool) path: items/item@name
@@ -1601,7 +1606,7 @@ msgstr "Graskarpfen"
 
 #. (itstool) path: items/item@description
 #: items.xml:647
-msgid "A smart fish; difficult to catch."
+msgid "A smart fish, very difficult to catch."
 msgstr "Ein schlauer Fisch, schwer zu fangen."
 
 #. (itstool) path: items/item@name
@@ -1692,8 +1697,9 @@ msgstr "Kupferrüstung der Legion"
 
 #. (itstool) path: items/item@description
 #: items.xml:747
-msgid "Good defense; worn by those with authority."
-msgstr "Gute Rüstung; getragen von Autoritätspersonen."
+msgid ""
+"This armor provides great protection. It is worn by those with authority."
+msgstr "Diese Rüstung bietet hervorragenden Schutz. Sie wird häufig von Autoritäten getragen."
 
 #. (itstool) path: items/item@name
 #: items.xml:761
@@ -1872,8 +1878,8 @@ msgstr "Trainingsschwert"
 
 #. (itstool) path: items/item@description
 #: items.xml:1013
-msgid "A short combat-sword."
-msgstr "Kurzes Kampfschwert."
+msgid "A short sword made for close combat."
+msgstr "Ein Kurzschwert für den Nahkampf."
 
 #. (itstool) path: items/item@name
 #: items.xml:1027
@@ -2501,9 +2507,9 @@ msgstr "Bevor du dein Abenteuer und die Entdeckungsreise fortsetzt, musst du dic
 #. (itstool) path: quest/text
 #: quests.xml:12
 msgid ""
-"Speak to Julia, the shipkeeper of this ship. She is waiting for you on the "
-"first deck."
-msgstr "Sprich mit Julia, die Schiffsverwalterin auf diesem Schiff. Sie wartet auf dich am ersten Deck."
+"Speak to Julia, the keeper of this ship. She is waiting for you on the first"
+" deck."
+msgstr "Sprich mit Julia. Sie verwaltet die Aktivitäten auf diesem Schiff. Sie wartet auf dich auf dem ersten Deck, vor Nards Kajüte."
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:14 quests.xml:24
@@ -2535,8 +2541,8 @@ msgstr "Julia hat dir die Regeln, die du während deines Abenteuers befolgen mus
 #. (itstool) path: quest/text
 #: quests.xml:22
 msgid ""
-"Keep them in mind, but if you think you still need to hear them again, just "
-"talk to Julia."
+"Keep them in mind, but if you think you need to hear them again, just talk "
+"to Julia."
 msgstr "Behalte sie im Kopf, aber falls du sie trotzdem nochmal hören möchtest, rede einfach mit Julia."
 
 #. (itstool) path: quest/reward
@@ -2709,9 +2715,8 @@ msgstr "Ratto Vernichtung"
 
 #. (itstool) path: quest/text
 #: quests.xml:116
-msgid ""
-"Peter needs your help to clean the bottom of the ship from some rattos."
-msgstr "Peter braucht deine Hilfe um den Schiffsrumpf von einigen Rattos zu befreien."
+msgid "Peter needs your help to clear La Johanne's hold of some rattos."
+msgstr "Peter braucht deine Hilfe, um den Schiffsrumpf von einigen Rattos zu befreien."
 
 #. (itstool) path: quest/text
 #: quests.xml:118
@@ -3028,7 +3033,7 @@ msgstr "Zwei Leutnants in einem Boot"
 msgid ""
 "Chef Gado wants you to collect 2 [Piou Legs], 2 [Half Croconut], 1 [Aquada] "
 "and 1 [Sea Drops] to prepare a [Poisoned Dish], for Julia."
-msgstr "Chef Gado will, dass du 2 [Piou Beine], 2 [Halbe Krokosnuss], 1 [Aquada] und 1 [Meerüberreste] sammelst, um ein [Vergiftetes Mahl] für Julia vorzubereiten."
+msgstr "Chef Gado will, dass du 2 [Piou Beine], 2 [Halbe Krokosnuss], 1 [Aquada] und 1 [Meerestropfen] sammelst, um ein [Vergiftetes Gericht] für Julia vorzubereiten."
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:327 quests.xml:337 quests.xml:345 quests.xml:353 quests.xml:361
@@ -3153,7 +3158,7 @@ msgstr "Du kannst das nicht zulassen und hast ihn aufgefordert, nach Hause zu ge
 
 #. (itstool) path: quest/text
 #: quests.xml:403
-msgid "You should tell Katya about it."
+msgid "You should go tell Katja about it."
 msgstr "Du solltest Katya davon erzählen."
 
 #. (itstool) path: quest/text
@@ -3223,7 +3228,7 @@ msgstr "Ein Piou ist vor ihm geflüchtet, und er will, daß Du es fängst."
 
 #. (itstool) path: quest/text
 #: quests.xml:447
-msgid "The piou is flying around the town, not far from the Market."
+msgid "The piou is flying around the town, not far from the market."
 msgstr "Das Piou fliegt in der Stadt herum, nicht weit vom Markt entfernt."
 
 #. (itstool) path: quest/text
@@ -3475,8 +3480,8 @@ msgstr "Artis, Marktplatz. (35,125)"
 
 #. (itstool) path: quest/text
 #: quests.xml:577
-msgid "Rumly is waiting for you to bring him some [Plushroom]."
-msgstr "Rumly wartet darauf, daß du ihm einen [Plushroom] bringst."
+msgid "Rumly is waiting for you to bring him some [Plushroom]s."
+msgstr "Rumly wartet darauf, daß du ihm ein paar [Plushroom]s bringst."
 
 #. (itstool) path: quest/text
 #: quests.xml:584
@@ -3485,8 +3490,8 @@ msgstr "Rumly kann deine Statuspunkte zurücksetzen."
 
 #. (itstool) path: quest/text
 #: quests.xml:585
-msgid "Bring him some [Plushroom] and he will be able to do it for you."
-msgstr "Bring ihm einen [Plushroom], damit kann er das erledigen."
+msgid "Bring him some [Plushroom]s and he will be able to do it for you."
+msgstr "Bring ihm ein paar [Plushroom]s, damit kann er das erledigen."
 
 #. (itstool) path: quest/name
 #: quests.xml:608 quests.xml:617 quests.xml:626 quests.xml:635 quests.xml:644
@@ -3590,9 +3595,9 @@ msgstr "Du bist willens, Q'Pid zu besuchen und Enoras Paket zurückzubringen."
 #. (itstool) path: quest/text
 #: quests.xml:664
 msgid ""
-"Q'Pid is reachable at the Market Place, in the South-West area of Artis "
+"Q'Pid is reachable at the Market Place, in the south-west area of Artis "
 "(61,116)."
-msgstr "Q'Pid ist am Marktplatz erreichbar. Im Südwesten von Artis (61,116)."
+msgstr "Q'Pid befindet sich auf dem Marktplatz im Südwesten von Artis (61, 116)."
 
 #. (itstool) path: quest/text
 #: quests.xml:672
@@ -3607,8 +3612,8 @@ msgstr "Ivan ist in einem kleinen Haus in der Nähe des Kanals zu finden (163,71
 
 #. (itstool) path: quest/text
 #: quests.xml:681
-msgid "Ivan gave you some [Pibberries Infusion]."
-msgstr "Ivan hat dir einige [Pibberies Infusion] gegeben."
+msgid "Ivan gave you some [Piberries Infusion]."
+msgstr "Ivan hat dir einige [Pibbeerentee]s gegeben."
 
 #. (itstool) path: quest/text
 #: quests.xml:682
@@ -3640,8 +3645,8 @@ msgstr "10 Fluffies zu töten sollte genügen, um die Nachbarschaft zu beruhigen
 
 #. (itstool) path: quest/text
 #: quests.xml:693
-msgid "The hill is located on North-East of Artis (172,46)."
-msgstr "Die Berge sind Nordöstlich von Artis (172,46)."
+msgid "The hill is located on north-east of Artis (172,46)."
+msgstr "Der Hügel befindet sich im Nordosten von Artis (172,46)."
 
 #. (itstool) path: quest/text
 #: quests.xml:701
@@ -3653,9 +3658,9 @@ msgstr "Du hast jede Aufgabe erfüllt und sogar den Hügel von diesen schrecklic
 #. (itstool) path: quest/reward
 #: quests.xml:705
 msgid ""
-"[Training Gladius], [%Color% Artis Tank Top, Camel Cotton Dye], 5 "
-"[Pibberries Infusion]q"
-msgstr "[Übungskurzschwert], [%Color% Artis Tank Top, Ocker Baumwoll Farbe], 5 [Pibeeren Tee]"
+"[Training Gladius], [%Color% Artis Tank Top, Camel Cotton Dye], 5 [Piberries"
+" Infusion]s"
+msgstr "[Übungskurzschwert], [%Color% Artis Tank Top, Ocker Baumwoll Farbe], 5 [Pibeerentee]s"
 
 #. (itstool) path: quest/reward
 #: quests.xml:706
@@ -3716,8 +3721,8 @@ msgstr "15 pro [Fluffy Fell]."
 
 #. (itstool) path: quest/name
 #: quests.xml:743
-msgid "Worship Of Money"
-msgstr "Verehrung des Geldes"
+msgid "Worship of Money"
+msgstr "Der Wert des Geldes"
 
 #. (itstool) path: quest/text
 #: quests.xml:744
@@ -3736,27 +3741,47 @@ msgstr "Zugang zur Händlergilde"
 
 #. (itstool) path: skills/set@name
 #. (itstool) path: set/skill@name
-#: skills.xml:6 skills.xml:7
+#: skills.xml:6 skills.xml:12
 msgid "Basic"
 msgstr "Standard"
 
 #. (itstool) path: set/skill@description
-#: skills.xml:7
+#: skills.xml:12
 msgid "Allow do basic things."
 msgstr "Erlauben, einfache Dinge zu machen."
 
 #. (itstool) path: set/skill@name
-#: skills.xml:17
+#: skills.xml:21
+msgid "Fire ball"
+msgstr "Feuerball"
+
+#. (itstool) path: set/skill@description
+#: skills.xml:21
+msgid "Attack enemy with fireball."
+msgstr "Greift Gegner mit einem Feuerball an."
+
+#. (itstool) path: set/skill@name
+#: skills.xml:27
+msgid "Mass provoke"
+msgstr "Massenbeschwörung"
+
+#. (itstool) path: set/skill@description
+#: skills.xml:27
+msgid "Allow provoke many monsters."
+msgstr "Damit lassen sich viele Monster heraufbeschwören."
+
+#. (itstool) path: set/skill@name
+#: skills.xml:32
 msgid "Magic shield"
 msgstr "Magieschild"
 
 #. (itstool) path: set/skill@description
-#: skills.xml:17
+#: skills.xml:32
 msgid "Allow protect from magic attacks."
 msgstr "Gewährt Schutz vor magischen Angriffen."
 
 #. (itstool) path: skills/set@name
-#: skills.xml:19
+#: skills.xml:34
 msgid "Other"
 msgstr "Sonstiges"
 
@@ -3764,12 +3789,12 @@ msgstr "Sonstiges"
 #. (itstool) path: set/skill@name
 #. #-#-#-#-#  skillunits.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: skillunits/skillunit@name
-#: skills.xml:24 skillunits.xml:19
+#: skills.xml:39 skillunits.xml:19
 msgid "Grafiti"
 msgstr "Graffiti"
 
 #. (itstool) path: set/skill@description
-#: skills.xml:24
+#: skills.xml:39
 msgid "Draw text on ground."
 msgstr "Zeichne Text auf Boden."
 
@@ -3844,57 +3869,67 @@ msgid "Luck"
 msgstr "Glück"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:43
+#. (itstool) path: page/stat@name
+#: stats.xml:43 stats.xml:190
 msgid "Attack"
 msgstr "Angriff"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:48
+#. (itstool) path: page/stat@name
+#: stats.xml:48 stats.xml:185
 msgid "Defense"
 msgstr "Verteidigung"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:53
+#. (itstool) path: page/stat@name
+#: stats.xml:53 stats.xml:180
 msgid "M.Attack"
 msgstr "M.Angriff"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:58
+#. (itstool) path: page/stat@name
+#: stats.xml:58 stats.xml:175
 msgid "M.Defense"
 msgstr "M.Verteidigung"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:63
+#. (itstool) path: page/stat@name
+#: stats.xml:63 stats.xml:170
 msgid "% Accuracy"
 msgstr "% Genauigkeit"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:68
+#. (itstool) path: page/stat@name
+#: stats.xml:68 stats.xml:165
 msgid "% Evade"
 msgstr "% Ausweichen"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:73
+#. (itstool) path: page/stat@name
+#: stats.xml:73 stats.xml:160
 msgid "% Critical"
 msgstr "% Kritisch"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:78
-msgid "Attack Delay"
+#. (itstool) path: page/stat@name
+#: stats.xml:78 stats.xml:145
+msgid "Attack delay"
 msgstr "Angriffsverzug"
 
 #. (itstool) path: extended/stat@name
 #: stats.xml:83
-msgid "Walk Delay"
-msgstr "Laufverzug"
+msgid "Walk delay"
+msgstr "Bewegungsverzug"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:88
-msgid "Attack Range"
-msgstr "Angriffsbereich"
+#. (itstool) path: page/stat@name
+#: stats.xml:88 stats.xml:150
+msgid "Attack range"
+msgstr "Angriffsreichweite"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:93
+#. (itstool) path: page/stat@name
+#: stats.xml:93 stats.xml:155
 msgid "Damage per sec."
 msgstr "Schaden pro Sekunde"
 
@@ -3907,6 +3942,46 @@ msgstr "Karma"
 #: stats.xml:103
 msgid "Manner"
 msgstr "Verhalten"
+
+#. (itstool) path: stats/page@name
+#: stats.xml:105
+msgid "Homun"
+msgstr "Homun"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:110
+msgid "Level"
+msgstr "Level"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:115
+msgid "Hp"
+msgstr "Hp"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:120
+msgid "Max hp"
+msgstr "Max. hp"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:125
+msgid "Mana"
+msgstr "Mana"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:130
+msgid "Max mana"
+msgstr "Max. Mana"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:135
+msgid "Exp"
+msgstr "EP"
+
+#. (itstool) path: page/stat@name
+#: stats.xml:140
+msgid "Need exp"
+msgstr "benötigte EP"
 
 #. (itstool) path: status-effects/status-effect@name
 #: status-effects.xml:19
