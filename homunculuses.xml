@@ -3,7 +3,28 @@
 Copyright (C) 2016 Evol Online -->
 
 <homunculuses>
-    <homunculus id="6001" name="homum">
+    <homunculus
+        id="6001"
+        name="homum"
+        startFollowDistance="3"
+        followDistance="1"
+        warpDistance="11"
+        offsetX="0"
+        offsetY="2"
+        sitOffsetX="1"
+        sitOffsetY="0"
+        moveOffsetX="0"
+        moveOffsetY="5"
+        deadOffsetX="0"
+        deadOffsetY="0"
+        attackOffsetX="0"
+        attackOffsetY="2"
+        thinkTime="100"
+        directionType="2"
+        sitDirectionType="1"
+        deadDirectionType="1"
+        attackDirectionType="4"
+    >
         <sprite>races/human-male.xml</sprite>
     </homunculus>
 </homunculuses>
