@@ -8,7 +8,7 @@ Copyright (C) 2010-2013 Evol Online -->
             id="1"
             name="Basic"
             icon="graphics/skills/emote.png"
-            description="Allow do basic things."
+            description="Allow do basic things like sitting, smiling or trading."
         />
         <skill
             id="17"
@@ -29,6 +29,15 @@ Copyright (C) 2010-2013 Evol Online -->
             id="20001"
             name="Magic shield"
             description="Allow protect from magic attacks."
+        />
+    </set>
+    <set name="Offensive">
+        <skill
+            id="5"
+            name="Basic"
+            icon="graphics/skills/bash.png"
+            castingParticle="graphics/particles/critical.xml"
+            description="A violent punch."
         />
     </set>
     <set name="Other">
