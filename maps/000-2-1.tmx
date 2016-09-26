@@ -346,18 +346,18 @@
 </data>
  </layer>
  <objectgroup name="Object">
-  <object id="1" name="To Ship's Hold" type="warp" x="2304" y="1092" width="32" height="28">
+  <object id="1" name="To Ship's Hold" type="script_warp" x="2304" y="1092" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-2"/>
-    <property name="dest_x" value="1536"/>
-    <property name="dest_y" value="896"/>
+    <property name="dest_x" value="48"/>
+    <property name="dest_y" value="28"/>
    </properties>
   </object>
   <object id="2" name="To First Deck" type="warp" x="2304" y="960" width="32" height="28">
    <properties>
     <property name="dest_map" value="000-2-0"/>
-    <property name="dest_x" value="960"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="26"/>
    </properties>
   </object>
   <object id="3" name="Piou" type="spawn" x="992" y="736" width="1376" height="640">

@@ -732,22 +732,28 @@
   <object id="1" name="To Artis" type="warp" x="1088" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_x" value="57"/>
+    <property name="dest_y" value="42"/>
    </properties>
   </object>
-  <object id="4" name="To Left Chamber" type="warp" x="928" y="992" width="32" height="32">
+  <object id="4" name="To Left Chamber" type="ani_warp" x="928" y="992" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_map" value="001-2-37"/>
+    <property name="dest_x" value="36"/>
+    <property name="dest_y" value="28"/>
+    <property name="npc_id" value="NPC_ARTIS_IN_DOOR"/>
+    <property name="trigger_x" value="1"/>
+    <property name="trigger_y" value="2"/>
    </properties>
   </object>
-  <object id="5" name="To Right Chamber" type="warp" x="1248" y="992" width="32" height="32">
+  <object id="5" name="To Right Chamber" type="ani_warp" x="1248" y="992" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_map" value="001-2-38"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="28"/>
+    <property name="npc_id" value="NPC_ARTIS_IN_DOOR"/>
+    <property name="trigger_x" value="1"/>
+    <property name="trigger_y" value="2"/>
    </properties>
   </object>
   <object id="7" name="To Right Chamber" type="warp" x="1440" y="896" width="32" height="32">
@@ -766,16 +772,16 @@
   </object>
   <object id="25" name="To Left PvP Arena" type="warp" x="768" y="1280" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_map" value="001-2-40"/>
+    <property name="dest_x" value="27"/>
+    <property name="dest_y" value="46"/>
    </properties>
   </object>
   <object id="26" name="To Right PvP Arena" type="warp" x="1344" y="1280" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1"/>
-    <property name="dest_y" value="1"/>
+    <property name="dest_map" value="001-2-40"/>
+    <property name="dest_x" value="45"/>
+    <property name="dest_y" value="46"/>
    </properties>
   </object>
  </objectgroup>

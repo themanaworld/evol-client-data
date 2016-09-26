@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="4">
  <properties>
   <property name="manaplus version" value="2"/>
+  <property name="name" value="test"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0mask" value="2"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -760,6 +761,32 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup name="Object">
+  <object id="1" name="Tortuga" type="spawn" x="1440" y="896" width="416" height="640">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="16000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1004"/>
+   </properties>
+  </object>
+  <object id="2" name="Piou" type="spawn" x="2496" y="960">
+   <properties>
+    <property name="eA_death" value="15000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1002"/>
+   </properties>
+  </object>
+  <object id="3" name="Ratto" type="spawn" x="2528" y="1216">
+   <properties>
+    <property name="eA_death" value="420000"/>
+    <property name="eA_spawn" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1005"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer name="Heights" width="100" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
