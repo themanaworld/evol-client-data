@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32" nextobjectid="20">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="62" tilewidth="32" tileheight="32" nextobjectid="22">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -436,8 +436,16 @@
   <object id="11" name="ToLevel1" type="warp" x="1312" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-1"/>
-    <property name="dest_x" value="1952"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="31"/>
+   </properties>
+  </object>
+  <object id="20" name="Cuco" type="spawn" x="928" y="928" width="128" height="128">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="eA_spawn" value="80000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1020"/>
    </properties>
   </object>
  </objectgroup>

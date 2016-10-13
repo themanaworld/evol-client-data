@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="64" tilewidth="32" tileheight="32" nextobjectid="2">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="69" height="64" tilewidth="32" tileheight="32" nextobjectid="3">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -387,8 +387,13 @@
   <object id="1" name="To First Level" type="warp" x="832" y="992" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-2"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="992"/>
+    <property name="dest_x" value="27"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
+  <object id="2" name="save" type="save" x="1344" y="992" width="32" height="32">
+   <properties>
+    <property name="inn" value="CURRENT_INN"/>
    </properties>
   </object>
  </objectgroup>
