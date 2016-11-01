@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="warp" color="#00ff00">
+  <property name="dest_map" type="string"/>
+  <property name="dest_x" type="string"/>
+  <property name="dest_y" type="string"/>
+ </objecttype>
+ <objecttype name="ani_warp" color="#00ff7f">
+  <property name="dest_map" type="string"/>
+  <property name="dest_x" type="string"/>
+  <property name="dest_y" type="string"/>
+  <property name="npc_id" type="string"/>
+  <property name="trigger_x" type="string"/>
+  <property name="trigger_y" type="string"/>
+ </objecttype>
+ <objecttype name="spawn" color="#ff0000">
+  <property name="death" type="string"/>
+  <property name="max_beings" type="string"/>
+  <property name="monster_id" type="string"/>
+  <property name="spawn" type="string"/>
+ </objecttype>
+ <objecttype name="save" color="#ffff00">
+  <property name="inn" type="string"/>
+ </objecttype>
+</objecttypes>
