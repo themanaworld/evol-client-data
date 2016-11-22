@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2016 Evol Online -->
+
+<effect>
+    <particle position-x="16"
+              position-y="128"
+              position-z="116">
+        <emitter>
+            <property name="output" value="3"/>
+            <property name="power" min="-2" max="0"/>
+            <property name="randomness" min="0" max="10"/>
+            <property name="image" value="graphics/particles/fog-medium.png|W:#4a7148"/>
+            <property name="gravity" value="0.35"/>
+            <property name="lifetime" min="30" max="40"/>
+            <property name="fade-in" value="15"/>
+            <property name="fade-out" value="10"/>
+            <property name="horizontal-angle" min="70" max="110"/>
+        </emitter>
+        <emitter>
+            <property name="output" value="3"/>
+            <property name="power" min="-2" max="0"/>
+            <property name="randomness" min="0" max="10"/>
+            <property name="image" value="graphics/particles/fog-medium2.png|W:#618154"/>
+            <property name="gravity" value="0.35"/>
+            <property name="lifetime" min="25" max="50"/>
+            <property name="fade-in" value="15"/>
+            <property name="fade-out" value="30"/>
+            <property name="bounce" value="0.2"/>
+            <property name="horizontal-angle" min="70" max="110"/>
+        </emitter>
+        <emitter>
+            <property name="output" value="3"/>
+            <property name="power" min="-2" max="0"/>
+            <property name="randomness" min="0" max="10"/>
+            <property name="image" value="graphics/particles/fog-medium3.png|W:#acb785"/>
+            <property name="gravity" value="0.35"/>
+            <property name="lifetime" min="25" max="50"/>
+            <property name="fade-in" value="15"/>
+            <property name="fade-out" value="35"/>
+            <property name="bounce" value="0.35"/>
+            <property name="horizontal-angle" min="70" max="110"/>
+        </emitter>
+    </particle>
+</effect>
