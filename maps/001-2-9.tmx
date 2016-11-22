@@ -414,15 +414,6 @@
 990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990,990
 </data>
  </layer>
- <objectgroup name="Object" opacity="0.88">
-  <object id="1" name="To Main Hall" type="warp" x="768" y="1312" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-7"/>
-    <property name="dest_x" value="45"/>
-    <property name="dest_y" value="31"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer name="Heights" width="68" height="70">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -497,4 +488,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup name="Object" opacity="0.88">
+  <object id="1" name="To Main Hall" type="warp" x="768" y="1312" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-7"/>
+    <property name="dest_x" value="45"/>
+    <property name="dest_y" value="31"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
