@@ -455,22 +455,6 @@
 910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910,910
 </data>
  </layer>
- <objectgroup name="Object">
-  <object id="1" name="To Artis Main Road" type="warp" x="1024" y="1280" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="49"/>
-    <property name="dest_y" value="97"/>
-   </properties>
-  </object>
-  <object id="17" name="To Barber" type="warp" x="1152" y="1024" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-41"/>
-    <property name="dest_x" value="25"/>
-    <property name="dest_y" value="32"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer name="Heights" width="60" height="64">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -539,4 +523,20 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup name="Object">
+  <object id="1" name="To Artis Main Road" type="warp" x="1024" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="49"/>
+    <property name="dest_y" value="97"/>
+   </properties>
+  </object>
+  <object id="17" name="To Barber" type="warp" x="1152" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-41"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

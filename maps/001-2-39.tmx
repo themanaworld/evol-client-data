@@ -488,22 +488,6 @@
 810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810,810
 </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
-  <object id="7" name="To Right Chamber" type="warp" x="1440" y="1056" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-38"/>
-    <property name="dest_x" value="24"/>
-    <property name="dest_y" value="33"/>
-   </properties>
-  </object>
-  <object id="8" name="To Left Chamber" type="warp" x="736" y="1056" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-2-37"/>
-    <property name="dest_x" value="36"/>
-    <property name="dest_y" value="33"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer name="Heights" width="71" height="71">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -579,4 +563,20 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup name="Object" opacity="0.87">
+  <object id="7" name="To Right Chamber" type="warp" x="1440" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-38"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="33"/>
+   </properties>
+  </object>
+  <object id="8" name="To Left Chamber" type="warp" x="736" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2-37"/>
+    <property name="dest_x" value="36"/>
+    <property name="dest_y" value="33"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
