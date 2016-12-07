@@ -47,4 +47,11 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Draw text on ground."
             useTextParameter="true"/>
     </set>
+    <set name="Restricted">
+        <skill
+            id="20002"
+            name="Super Menu"
+            description="Gives access to all debug and administrative options"
+            invokeCmd="@numa"/>
+    </set>
 </skills>
