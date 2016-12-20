@@ -372,11 +372,12 @@
 </data>
  </layer>
  <objectgroup name="Object">
-  <object id="1" name="ToOutside" type="script_warp" x="608" y="896" width="32" height="32">
+  <object id="1" name="ToOutside" type="warp" x="608" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-1"/>
     <property name="dest_x" value="93"/>
     <property name="dest_y" value="100"/>
+    <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
   <object id="2" name="To Nard's Room" type="warp" x="1056" y="896" width="32" height="32">
@@ -384,6 +385,7 @@
     <property name="dest_map" value="000-2-3"/>
     <property name="dest_x" value="20"/>
     <property name="dest_y" value="27"/>
+    <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
   <object id="3" name="To Second Deck" type="warp" x="992" y="800" width="32" height="32">
