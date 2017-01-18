@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2016-08-07 16:28+0300\n"
-"PO-Revision-Date: 2016-08-08 08:48+0000\n"
+"POT-Creation-Date: 2016-09-11 23:23+0300\n"
+"PO-Revision-Date: 2016-09-12 10:02+0000\n"
 "Last-Translator: Andrei Karas <akaras@inbox.ru>\n"
 "Language-Team: Japanese (http://www.transifex.com/akaras/evol/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -377,7 +377,7 @@ msgid "Blah"
 msgstr ""
 
 #. (itstool) path: homunculuses/homunculus@name
-#: homunculuses.xml:6
+#: homunculuses.xml:27
 msgid "homum"
 msgstr ""
 
@@ -2029,43 +2029,18 @@ msgid "Yellow Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1265 items.xml:1273
-msgid "Bow 1"
+#: items.xml:1268
+msgid "Wooden Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1265 items.xml:1273
-msgid "Testing bow 1"
+#: items.xml:1268 items.xml:1279
+msgid "For bow training. Does not seem much reliable."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1282
-msgid "Arrow 1"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:1282
-msgid "Testing arrow 1"
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:1289
-msgid "Arrow 2"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:1289
-msgid "Testing arrow 2"
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:1296
-msgid "Arrow 3"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:1296
-msgid "Testing arrow 3"
+#: items.xml:1279
+msgid "Training Arrow"
 msgstr ""
 
 #. (itstool) path: emote/sprite@name
@@ -2346,7 +2321,7 @@ msgid "Right Wing"
 msgstr ""
 
 #. (itstool) path: mercenaries/mercenary@name
-#: mercenaries.xml:6
+#: mercenaries.xml:27
 msgid "merc"
 msgstr ""
 
@@ -2670,7 +2645,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:72
-msgid "A [Creased Shirt] and old [Creased Shorts]."
+msgid "A {@@1} and old {@@2}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -2713,7 +2688,7 @@ msgstr ""
 #: quests.xml:92
 msgid ""
 "In fact, he hides in a hole in the main hallway. It leads to the ship's "
-"storage room where he can reach for some barrels full of [Piberries]."
+"storage room where he can reach for some barrels full of {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -2725,8 +2700,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:102
-msgid ""
-"You brought Alige some food, different from the [Piberries] he usually eats."
+msgid "You brought Alige some food, different from the {@@1} he usually eats."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -2738,7 +2712,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:108
-msgid "A handful of [Piberries]."
+msgid "A handful of {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -2891,7 +2865,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:217 quests.xml:225
-msgid "50 EXP, [Bandana]."
+msgid "50 EXP, {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -2922,8 +2896,8 @@ msgid "La Johanne, Second Deck. (50,24)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:237
-msgid "[Knife]."
+#: quests.xml:237 quests.xml:484 quests.xml:530 quests.xml:560
+msgid "{@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -2999,7 +2973,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:272
-msgid "The chest contains gold and an [Old Book]."
+msgid "The chest contains gold and an {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
@@ -3009,7 +2983,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:275
-msgid "100 E, [Old Book]."
+msgid "100 E, {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3021,8 +2995,7 @@ msgstr ""
 #: quests.xml:301
 msgid ""
 "Gugli told you about the sailors' task on the island. He wants you to help "
-"some of them bringing him 6 boxes full of [Croconut], [Aquada] and "
-"[Plushroom]."
+"some of them bringing him 6 boxes full of {@@1}, {@@2} and {@@3}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3065,8 +3038,8 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:325
 msgid ""
-"Chef Gado wants you to collect 2 [Piou Legs], 2 [Half Croconut], 1 [Aquada] "
-"and 1 [Sea Drops] to prepare a [Poisoned Dish], for Julia."
+"Chef Gado wants you to collect 2 {@@1}, 2 {@@2}, 1 {@@3} and 1 {@@4} to "
+"prepare a {@@5}, for Julia."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
@@ -3083,9 +3056,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:333
-msgid ""
-"Chef Gado prepared the [Poisoned Dish]. He would like you to give it to "
-"Julia."
+msgid "Chef Gado prepared the {@@1}. He would like you to give it to Julia."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3107,7 +3078,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:355
-msgid "15 EXP, 200 E, [Bread]."
+msgid "15 EXP, 200 E, {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3202,12 +3173,12 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:412
-msgid "His sister was very happy and gave you an [Aquada] as a reward."
+msgid "His sister was very happy and gave you an {@@1} as a reward."
 msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:416
-msgid "An [Aquada]."
+msgid "An {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3222,7 +3193,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:425
-msgid "She wants you to bring her [Croc Claw]s to get rid of spikes."
+msgid "She wants you to bring her {@@1}s to get rid of spikes."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
@@ -3307,7 +3278,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:470
-msgid "You need to bring him 10 [Small Tentacles]."
+msgid "You need to bring him 10 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
@@ -3333,11 +3304,6 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:480
 msgid "You can use it to catch fish."
-msgstr ""
-
-#. (itstool) path: quest/reward
-#: quests.xml:484
-msgid "[Fishing Rod]."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3413,7 +3379,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:525
-msgid "Bacchus asked you to bring him a [Pumpkin]."
+msgid "Bacchus asked you to bring him a {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3429,11 +3395,6 @@ msgstr ""
 #. (itstool) path: quest/coordinates
 #: quests.xml:529 quests.xml:538
 msgid "La Johanne, Hold. (31,30)"
-msgstr ""
-
-#. (itstool) path: quest/reward
-#: quests.xml:530
-msgid "[Pumpkin Hat]."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3474,17 +3435,12 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:556
-msgid "For killing the scary Cuco, he gave me a [Barrel]."
+msgid "For killing the scary Cuco, he gave me a {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:559
 msgid "Artis, Dream World. (71,132)"
-msgstr ""
-
-#. (itstool) path: quest/reward
-#: quests.xml:560
-msgid "[Barrel]."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3514,7 +3470,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:577
-msgid "Rumly is waiting for you to bring him some [Plushroom]s."
+msgid "Rumly is waiting for you to bring him some {@@1}s."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3524,7 +3480,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:585
-msgid "Bring him some [Plushroom]s and he will be able to do it for you."
+msgid "Bring him some {@@1}s and he will be able to do it for you."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3613,7 +3569,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:654
-msgid "Resa gave you a cute [%Color% Artis Tank Top, Camel Cotton Dye]."
+msgid "Resa gave you a cute {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/reward
@@ -3646,7 +3602,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:681
-msgid "Ivan gave you some [Piberries Infusion]."
+msgid "Ivan gave you some {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3691,9 +3647,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:705
-msgid ""
-"[Training Gladius], [%Color% Artis Tank Top, Camel Cotton Dye], 5 [Piberries"
-" Infusion]s"
+msgid "{@@1}, {@@2}, 5 {@@3}s"
 msgstr ""
 
 #. (itstool) path: quest/reward
@@ -3725,7 +3679,7 @@ msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:723 quests.xml:732
-msgid "Fexil wants to open a business of [Fluffy Fur]'s clothes."
+msgid "Fexil wants to open a business of {@@1}'s clothes."
 msgstr ""
 
 #. (itstool) path: quest/text
@@ -3750,7 +3704,7 @@ msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:737
-msgid "15 per [Fluffy Fur]."
+msgid "15 per {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
@@ -3873,197 +3827,197 @@ msgid "Hells plant"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:12
+#: stats.xml:14
 msgid "Strength"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:18
+#: stats.xml:20
 msgid "Agility"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:24
+#: stats.xml:26
 msgid "Vitality"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:30
+#: stats.xml:32
 msgid "Intelligence"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:36
+#: stats.xml:38
 msgid "Dexterity"
 msgstr ""
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:42
+#: stats.xml:44
 msgid "Luck"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:49 stats.xml:196 stats.xml:273
+#: stats.xml:51 stats.xml:198 stats.xml:275
 msgid "Attack"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:54 stats.xml:191
+#: stats.xml:56 stats.xml:193
 msgid "Defense"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:59 stats.xml:186
+#: stats.xml:61 stats.xml:188
 msgid "M.Attack"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:64 stats.xml:181 stats.xml:258
+#: stats.xml:66 stats.xml:183 stats.xml:260
 msgid "M.Defense"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:69 stats.xml:176 stats.xml:253
+#: stats.xml:71 stats.xml:178 stats.xml:255
 msgid "% Accuracy"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:74 stats.xml:171 stats.xml:248
+#: stats.xml:76 stats.xml:173 stats.xml:250
 msgid "% Evade"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:79 stats.xml:166 stats.xml:243
+#: stats.xml:81 stats.xml:168 stats.xml:245
 msgid "% Critical"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:84 stats.xml:151 stats.xml:228
+#: stats.xml:86 stats.xml:153 stats.xml:230
 msgid "Attack delay"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:89
+#: stats.xml:91
 msgid "Walk delay"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:94 stats.xml:156 stats.xml:233
+#: stats.xml:96 stats.xml:158 stats.xml:235
 msgid "Attack range"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:99 stats.xml:161 stats.xml:238
+#: stats.xml:101 stats.xml:163 stats.xml:240
 msgid "Damage per sec."
 msgstr ""
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:104
+#: stats.xml:106
 msgid "Karma"
 msgstr ""
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:109
+#: stats.xml:111
 msgid "Manner"
 msgstr ""
 
 #. (itstool) path: stats/page@name
-#: stats.xml:111
+#: stats.xml:113
 msgid "Homun"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:116 stats.xml:203
+#: stats.xml:118 stats.xml:205
 msgid "Level"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:121 stats.xml:208 stats.xml:300
+#: stats.xml:123 stats.xml:210 stats.xml:302
 msgid "Hp"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:126 stats.xml:213 stats.xml:305
+#: stats.xml:128 stats.xml:215 stats.xml:307
 msgid "Max hp"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:131
+#: stats.xml:133
 msgid "Mana"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:136
+#: stats.xml:138
 msgid "Max mana"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:141
+#: stats.xml:143
 msgid "Exp"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:146
+#: stats.xml:148
 msgid "Need exp"
 msgstr ""
 
 #. (itstool) path: stats/page@name
-#: stats.xml:198
+#: stats.xml:200
 msgid "Merc"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:218 stats.xml:310
+#: stats.xml:220 stats.xml:312
 msgid "Mp"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:223 stats.xml:315
+#: stats.xml:225 stats.xml:317
 msgid "Max mp"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:263
+#: stats.xml:265
 msgid "M.Atk"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:268
+#: stats.xml:270
 msgid "Defence"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:278
+#: stats.xml:280
 msgid "Expire"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:283
+#: stats.xml:285
 msgid "Faith"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:288
+#: stats.xml:290
 msgid "Calls"
 msgstr ""
 
 #. (itstool) path: page/stat@name
-#: stats.xml:293
+#: stats.xml:295
 msgid "Kills"
 msgstr ""
 
 #. (itstool) path: stats/page@name
-#: stats.xml:295
+#: stats.xml:297
 msgid "Elemental"
 msgstr ""
 

@@ -9,12 +9,13 @@
 # Escales Loïc <loic.escales@gmail.com>, 2015
 # Jacques Bossu <ja.bossu@caramail.com>, 2015
 # mortis tmw <mortistmw@gmail.com>, 2015
+# mon warez <monwarez@mailoo.org>, 2016
 # reid <reidyaro@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2016-08-07 16:28+0300\n"
-"PO-Revision-Date: 2016-09-07 15:10+0000\n"
+"POT-Creation-Date: 2016-09-11 23:23+0300\n"
+"PO-Revision-Date: 2016-09-18 08:23+0000\n"
 "Last-Translator: Alige\n"
 "Language-Team: French (http://www.transifex.com/akaras/evol/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -386,7 +387,7 @@ msgid "Blah"
 msgstr "Blah"
 
 #. (itstool) path: homunculuses/homunculus@name
-#: homunculuses.xml:6
+#: homunculuses.xml:27
 msgid "homum"
 msgstr "homon"
 
@@ -2038,44 +2039,19 @@ msgid "Yellow Cotton Dye"
 msgstr "Teinture Coton Jaune"
 
 #. (itstool) path: items/item@name
-#: items.xml:1265 items.xml:1273
-msgid "Bow 1"
-msgstr "Arc 1"
+#: items.xml:1268
+msgid "Wooden Bow"
+msgstr "Arc en Bois"
 
 #. (itstool) path: items/item@description
-#: items.xml:1265 items.xml:1273
-msgid "Testing bow 1"
-msgstr "Arc de test 1"
+#: items.xml:1268 items.xml:1279
+msgid "For bow training. Does not seem much reliable."
+msgstr "Pour s'entraîner à l'arc. N'a pas l'air très fiable."
 
 #. (itstool) path: items/item@name
-#: items.xml:1282
-msgid "Arrow 1"
-msgstr "Flèche 1"
-
-#. (itstool) path: items/item@description
-#: items.xml:1282
-msgid "Testing arrow 1"
-msgstr "Flèche de test 1"
-
-#. (itstool) path: items/item@name
-#: items.xml:1289
-msgid "Arrow 2"
-msgstr "Flèche 2"
-
-#. (itstool) path: items/item@description
-#: items.xml:1289
-msgid "Testing arrow 2"
-msgstr "Flèche de test 2"
-
-#. (itstool) path: items/item@name
-#: items.xml:1296
-msgid "Arrow 3"
-msgstr "Flèche 3"
-
-#. (itstool) path: items/item@description
-#: items.xml:1296
-msgid "Testing arrow 3"
-msgstr "Flèche de test 3"
+#: items.xml:1279
+msgid "Training Arrow"
+msgstr "Flèche d'Entraînement"
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:8
@@ -2355,7 +2331,7 @@ msgid "Right Wing"
 msgstr "Aile Droite"
 
 #. (itstool) path: mercenaries/mercenary@name
-#: mercenaries.xml:6
+#: mercenaries.xml:27
 msgid "merc"
 msgstr "merc"
 
@@ -2679,8 +2655,8 @@ msgstr "Ils sont un peu vieux et sentent maivais, mais la sensation de chaleur q
 
 #. (itstool) path: quest/reward
 #: quests.xml:72
-msgid "A [Creased Shirt] and old [Creased Shorts]."
-msgstr "Une [Creased Shirt] et un [Creased Shorts]."
+msgid "A {@@1} and old {@@2}."
+msgstr "Un {@@1} et un vieux {@@2}."
 
 #. (itstool) path: quest/name
 #: quests.xml:79 quests.xml:89 quests.xml:101
@@ -2722,8 +2698,8 @@ msgstr "Alige, le voyageur mistérieux, te demande de l'aide pour lui trouver de
 #: quests.xml:92
 msgid ""
 "In fact, he hides in a hole in the main hallway. It leads to the ship's "
-"storage room where he can reach for some barrels full of [Piberries]."
-msgstr "En fait, il se cache dans un trou dans le couloir principal. Ce trou donne sur l'espace de stockage du bateau où il peut atteindre des tonneaux pleins de [Piberries]."
+"storage room where he can reach for some barrels full of {@@1}."
+msgstr "En fait, il se cache dans un trou dans le couloir principal. Ce dernier donne sur l'espace de stockage du bateau où il peut atteindre des tonneaux pleins de {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:94
@@ -2734,9 +2710,8 @@ msgstr "Il en a marre de manger ces baies tout le temps. C'est pourquoi il aimer
 
 #. (itstool) path: quest/text
 #: quests.xml:102
-msgid ""
-"You brought Alige some food, different from the [Piberries] he usually eats."
-msgstr "Tu as apporté de la nourriture à Alige, différente des [Piberries] qu'il mange habituellement."
+msgid "You brought Alige some food, different from the {@@1} he usually eats."
+msgstr "Tu as apporté de la nourriture à Alige, différente des {@@1} qu'il mange habituellement."
 
 #. (itstool) path: quest/text
 #: quests.xml:104
@@ -2747,8 +2722,8 @@ msgstr "Il semblerait qu'il soit avide de goûter à de nouvelles saveurs. Essay
 
 #. (itstool) path: quest/reward
 #: quests.xml:108
-msgid "A handful of [Piberries]."
-msgstr "Une poignée de [Piberries]."
+msgid "A handful of {@@1}."
+msgstr "Une poignée de {001}."
 
 #. (itstool) path: quest/name
 #: quests.xml:115 quests.xml:125 quests.xml:135 quests.xml:143 quests.xml:153
@@ -2900,8 +2875,8 @@ msgstr "La Johanne, Bureau de Nard. (25,24)"
 
 #. (itstool) path: quest/reward
 #: quests.xml:217 quests.xml:225
-msgid "50 EXP, [Bandana]."
-msgstr "50 EXP, [Bandana]."
+msgid "50 EXP, {@@1}."
+msgstr "50 EXP, {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:221
@@ -2931,9 +2906,9 @@ msgid "La Johanne, Second Deck. (50,24)"
 msgstr "La Johanne, Second Pont. (50,24)"
 
 #. (itstool) path: quest/reward
-#: quests.xml:237
-msgid "[Knife]."
-msgstr "[Knife]."
+#: quests.xml:237 quests.xml:484 quests.xml:530 quests.xml:560
+msgid "{@@1}."
+msgstr "{@@1}."
 
 #. (itstool) path: quest/name
 #: quests.xml:244 quests.xml:254
@@ -3008,8 +2983,8 @@ msgstr "Tu as remarqué un coffre au trésor en haut d'une falaise à l'est de l
 
 #. (itstool) path: quest/text
 #: quests.xml:272
-msgid "The chest contains gold and an [Old Book]."
-msgstr "Le coffre contient de l'or et un [Old Book]."
+msgid "The chest contains gold and an {@@1}."
+msgstr "Le coffre contient de l'or et un {@@1}."
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:274
@@ -3018,8 +2993,8 @@ msgstr "Île Drasil. (83,70)"
 
 #. (itstool) path: quest/reward
 #: quests.xml:275
-msgid "100 E, [Old Book]."
-msgstr "100 E, [Old Book]."
+msgid "100 E, {@@1}."
+msgstr "100 E, {@@1}."
 
 #. (itstool) path: quest/name
 #: quests.xml:300 quests.xml:312
@@ -3030,9 +3005,8 @@ msgstr "Aide Inattendue"
 #: quests.xml:301
 msgid ""
 "Gugli told you about the sailors' task on the island. He wants you to help "
-"some of them bringing him 6 boxes full of [Croconut], [Aquada] and "
-"[Plushroom]."
-msgstr "Gugli t'a parlé de la tâche de marins sur l'île. Il veut que aides certains d'entre eux à lui rapporter 6 boîtes pleines de [Croconut], d'[Aquada]s et de [Plushroom]s."
+"some of them bringing him 6 boxes full of {@@1}, {@@2} and {@@3}."
+msgstr "Gugli t'a parlé de la tâche de marins sur l'île. Il veut que tu aides certains d'entre eux à lui rapporter 6 boîtes pleines de {@@1}, d'{@@2}s et de {@@3}s."
 
 #. (itstool) path: quest/text
 #: quests.xml:303
@@ -3074,9 +3048,9 @@ msgstr "Deux Lieutenants dans Un Bateau"
 #. (itstool) path: quest/text
 #: quests.xml:325
 msgid ""
-"Chef Gado wants you to collect 2 [Piou Legs], 2 [Half Croconut], 1 [Aquada] "
-"and 1 [Sea Drops] to prepare a [Poisoned Dish], for Julia."
-msgstr "Le Chef Gado veut que tu ailles chercher 2 [Piou Legs], 2 [Half Croconut], 1 [Aquada] and 1 [Sea Drops] afin qu'il puisse préparer un [Poisoned Dish] pour Julia."
+"Chef Gado wants you to collect 2 {@@1}, 2 {@@2}, 1 {@@3} and 1 {@@4} to "
+"prepare a {@@5}, for Julia."
+msgstr "Le chef Gado veut que tu ailles chercher 2 {@@1}, 2 {@@2}, 1 {@@3} et 1 {@@4} afin de préparer un {@@5} pour Julia."
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:327 quests.xml:337 quests.xml:345 quests.xml:353 quests.xml:361
@@ -3092,10 +3066,8 @@ msgstr "La Johanne, Second Pont. (17,28)"
 
 #. (itstool) path: quest/text
 #: quests.xml:333
-msgid ""
-"Chef Gado prepared the [Poisoned Dish]. He would like you to give it to "
-"Julia."
-msgstr "Le Chef Gado veut que tu prépares un [Poisoned Dish]. Il voudrait que tu ailles le donner à Julia."
+msgid "Chef Gado prepared the {@@1}. He would like you to give it to Julia."
+msgstr "Le chef Gado a préparé le {@@1}. Il voudrait que tu ailles le donner à Julia."
 
 #. (itstool) path: quest/text
 #: quests.xml:335
@@ -3116,8 +3088,8 @@ msgstr "Tu as bien empoisonné Julia. Chef Gado a enfin eu sa vengeance !"
 
 #. (itstool) path: quest/reward
 #: quests.xml:355
-msgid "15 EXP, 200 E, [Bread]."
-msgstr "15 EXP, 200 E, [Bread]."
+msgid "15 EXP, 200 E, {@@1}."
+msgstr "15 EXP, 200 E, {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:359
@@ -3211,13 +3183,13 @@ msgstr "Tu as trouvé Bob. Il a promi qu'il rentrerait bienôt à la maison."
 
 #. (itstool) path: quest/text
 #: quests.xml:412
-msgid "His sister was very happy and gave you an [Aquada] as a reward."
-msgstr "Sa sœur était très contente et t'a donné une [Aquada] comme récompense."
+msgid "His sister was very happy and gave you an {@@1} as a reward."
+msgstr "Sa sœur était très contente et t'a donné une {@@1} comme récompense."
 
 #. (itstool) path: quest/reward
 #: quests.xml:416
-msgid "An [Aquada]."
-msgstr "Une [Aquada]."
+msgid "An {@@1}."
+msgstr "Une {@@1}."
 
 #. (itstool) path: quest/name
 #: quests.xml:423 quests.xml:432
@@ -3231,8 +3203,8 @@ msgstr "Lune, l'elfe, a accidentellement marché sur un Oursin."
 
 #. (itstool) path: quest/text
 #: quests.xml:425
-msgid "She wants you to bring her [Croc Claw]s to get rid of spikes."
-msgstr "Elle veut que tu lui apportes des [Croc Claw] pour se débarasser de ses épines."
+msgid "She wants you to bring her {@@1}s to get rid of spikes."
+msgstr "Elle veut que tu lui apportes des {@@1} pour se débarrasser de ses épines."
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:427 quests.xml:435
@@ -3316,8 +3288,8 @@ msgstr "Il s'est tellement empressé de l'essayer qu'il a oublié de prendre ass
 
 #. (itstool) path: quest/text
 #: quests.xml:470
-msgid "You need to bring him 10 [Small Tentacles]."
-msgstr "Tu dois lui apporter 10 [Small Tentacles]."
+msgid "You need to bring him 10 {@@1}."
+msgstr "Tu dois lui apporter 10 {@@1}."
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:472 quests.xml:482
@@ -3343,11 +3315,6 @@ msgstr "En signe de gratitude, il t'a donné sa vieille canne à pêche."
 #: quests.xml:480
 msgid "You can use it to catch fish."
 msgstr "Tu peux l'utiliser pour attraper du poisson."
-
-#. (itstool) path: quest/reward
-#: quests.xml:484
-msgid "[Fishing Rod]."
-msgstr "[Fishing Rod]."
 
 #. (itstool) path: quest/name
 #: quests.xml:492 quests.xml:502 quests.xml:511
@@ -3422,8 +3389,8 @@ msgstr "Visiter Artis"
 
 #. (itstool) path: quest/text
 #: quests.xml:525
-msgid "Bacchus asked you to bring him a [Pumpkin]."
-msgstr "Bacchus t'a demandé de lui apporter une [Pumpkin]."
+msgid "Bacchus asked you to bring him a {@@1}."
+msgstr "Bacchus t'a demandé de lui apporter une {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:526
@@ -3439,11 +3406,6 @@ msgstr "Bacchus"
 #: quests.xml:529 quests.xml:538
 msgid "La Johanne, Hold. (31,30)"
 msgstr "La Johanne, Cale. (31,30)"
-
-#. (itstool) path: quest/reward
-#: quests.xml:530
-msgid "[Pumpkin Hat]."
-msgstr "[Pumpkin Hat]."
 
 #. (itstool) path: quest/text
 #: quests.xml:534
@@ -3483,18 +3445,13 @@ msgstr "Je ne sais pas comment mais Alige est apparu dans ma vision du futur."
 
 #. (itstool) path: quest/text
 #: quests.xml:556
-msgid "For killing the scary Cuco, he gave me a [Barrel]."
-msgstr "Pour avoir tué l'effrayant Cuco, il m'a donné un [Barrel]."
+msgid "For killing the scary Cuco, he gave me a {@@1}."
+msgstr "Pour avoir tué l'effrayant Cuco, il m'a donné un {@@1}."
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:559
 msgid "Artis, Dream World. (71,132)"
 msgstr "Artis, Monde de Rêve. (71,132)"
-
-#. (itstool) path: quest/reward
-#: quests.xml:560
-msgid "[Barrel]."
-msgstr "[Barrel]."
 
 #. (itstool) path: quest/name
 #: quests.xml:568 quests.xml:576 quests.xml:583
@@ -3523,18 +3480,18 @@ msgstr "Artis, Place du Marché. (35,125)"
 
 #. (itstool) path: quest/text
 #: quests.xml:577
-msgid "Rumly is waiting for you to bring him some [Plushroom]s."
-msgstr "Rumly t'attend pour que tu lui apportes des [Plushroom]s."
+msgid "Rumly is waiting for you to bring him some {@@1}s."
+msgstr "Rumly t'attend pour que tu lui apportes des {@@1}s."
 
 #. (itstool) path: quest/text
 #: quests.xml:584
 msgid "Rumly is able to reset your character point."
-msgstr "Rumly a le pouvoir de remettre à zéro tes points de personnage."
+msgstr "Rumly a le pouvoir de réinitialiser tes points de personnage."
 
 #. (itstool) path: quest/text
 #: quests.xml:585
-msgid "Bring him some [Plushroom]s and he will be able to do it for you."
-msgstr "Apporte-lui des [Plushroom]s. et il pourra le faire pour toi."
+msgid "Bring him some {@@1}s and he will be able to do it for you."
+msgstr "Apporte-lui des {@@1}s et il pourra le faire pour toi."
 
 #. (itstool) path: quest/name
 #: quests.xml:608 quests.xml:617 quests.xml:626 quests.xml:635 quests.xml:644
@@ -3622,8 +3579,8 @@ msgstr "Resa est joignable au bâtiment des Armures Légères (55,75)."
 
 #. (itstool) path: quest/text
 #: quests.xml:654
-msgid "Resa gave you a cute [%Color% Artis Tank Top, Camel Cotton Dye]."
-msgstr "Resa t'as donné un minion petit [%Color% Artis Tank Top, Camel Cotton Dye]."
+msgid "Resa gave you a cute {@@1}."
+msgstr "Resa t'as donné un {@@1} tout mignon."
 
 #. (itstool) path: quest/reward
 #: quests.xml:659
@@ -3655,8 +3612,8 @@ msgstr "Ivan est dans une petite maison près du canal d'Artis (163,71)."
 
 #. (itstool) path: quest/text
 #: quests.xml:681
-msgid "Ivan gave you some [Piberries Infusion]."
-msgstr "Ivan t'a donné des [Piberries Infusion]."
+msgid "Ivan gave you some {@@1}."
+msgstr "Ivan t'as donné quelques {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:682
@@ -3700,10 +3657,8 @@ msgstr "Tu as maintenant accompli toutes tes tâches et tu as même nettoyé la 
 
 #. (itstool) path: quest/reward
 #: quests.xml:705
-msgid ""
-"[Training Gladius], [%Color% Artis Tank Top, Camel Cotton Dye], 5 [Piberries"
-" Infusion]s"
-msgstr "[Training Gladius], [%Color% Artis Tank Top, Camel Cotton Dye], 5 [Piberries Infusion]s"
+msgid "{@@1}, {@@2}, 5 {@@3}s"
+msgstr "{@@1}, {@@2}, 5 {@@3}"
 
 #. (itstool) path: quest/reward
 #: quests.xml:706
@@ -3734,8 +3689,8 @@ msgstr "Artis, Guilde des Marchands. (101,37)"
 
 #. (itstool) path: quest/text
 #: quests.xml:723 quests.xml:732
-msgid "Fexil wants to open a business of [Fluffy Fur]'s clothes."
-msgstr "Fexil voudrait créer une affaire de vêtements faits à partir de [Fluffy Fur]s."
+msgid "Fexil wants to open a business of {@@1}'s clothes."
+msgstr "Fexil voudrait ouvrir un commerce vêtements faits à partir de {@@1}."
 
 #. (itstool) path: quest/text
 #: quests.xml:724
@@ -3759,8 +3714,8 @@ msgstr "Il te récompense pour chaque fourrure que tu lui apportes."
 
 #. (itstool) path: quest/reward
 #: quests.xml:737
-msgid "15 per [Fluffy Fur]."
-msgstr "15 par [Fluffy Fur]."
+msgid "15 per {@@1}."
+msgstr "15 par {@@1}."
 
 #. (itstool) path: quest/name
 #: quests.xml:743
@@ -3882,197 +3837,197 @@ msgid "Hells plant"
 msgstr "Plantes de l'enfer"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:12
+#: stats.xml:14
 msgid "Strength"
 msgstr "Force"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:18
+#: stats.xml:20
 msgid "Agility"
 msgstr "Agilité"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:24
+#: stats.xml:26
 msgid "Vitality"
 msgstr "Vitalité"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:30
+#: stats.xml:32
 msgid "Intelligence"
 msgstr "Intelligence"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:36
+#: stats.xml:38
 msgid "Dexterity"
 msgstr "Dextérité"
 
 #. (itstool) path: basic/stat@name
-#: stats.xml:42
+#: stats.xml:44
 msgid "Luck"
 msgstr "Chance"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:49 stats.xml:196 stats.xml:273
+#: stats.xml:51 stats.xml:198 stats.xml:275
 msgid "Attack"
 msgstr "Attaque"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:54 stats.xml:191
+#: stats.xml:56 stats.xml:193
 msgid "Defense"
 msgstr "Défense"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:59 stats.xml:186
+#: stats.xml:61 stats.xml:188
 msgid "M.Attack"
 msgstr "AttaqueM."
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:64 stats.xml:181 stats.xml:258
+#: stats.xml:66 stats.xml:183 stats.xml:260
 msgid "M.Defense"
 msgstr "DéfenseM."
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:69 stats.xml:176 stats.xml:253
+#: stats.xml:71 stats.xml:178 stats.xml:255
 msgid "% Accuracy"
 msgstr "% Précision"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:74 stats.xml:171 stats.xml:248
+#: stats.xml:76 stats.xml:173 stats.xml:250
 msgid "% Evade"
 msgstr "% Évasion"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:79 stats.xml:166 stats.xml:243
+#: stats.xml:81 stats.xml:168 stats.xml:245
 msgid "% Critical"
 msgstr "% Critique"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:84 stats.xml:151 stats.xml:228
+#: stats.xml:86 stats.xml:153 stats.xml:230
 msgid "Attack delay"
 msgstr "Délai d'attaque"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:89
+#: stats.xml:91
 msgid "Walk delay"
 msgstr "Délai de marche"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:94 stats.xml:156 stats.xml:233
+#: stats.xml:96 stats.xml:158 stats.xml:235
 msgid "Attack range"
 msgstr "Portée d'attaque"
 
 #. (itstool) path: extended/stat@name
 #. (itstool) path: page/stat@name
-#: stats.xml:99 stats.xml:161 stats.xml:238
+#: stats.xml:101 stats.xml:163 stats.xml:240
 msgid "Damage per sec."
 msgstr "Dégâts par sec."
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:104
+#: stats.xml:106
 msgid "Karma"
 msgstr "Karma"
 
 #. (itstool) path: extended/stat@name
-#: stats.xml:109
+#: stats.xml:111
 msgid "Manner"
 msgstr "Manière"
 
 #. (itstool) path: stats/page@name
-#: stats.xml:111
+#: stats.xml:113
 msgid "Homun"
 msgstr "Homon"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:116 stats.xml:203
+#: stats.xml:118 stats.xml:205
 msgid "Level"
 msgstr "Niveau"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:121 stats.xml:208 stats.xml:300
+#: stats.xml:123 stats.xml:210 stats.xml:302
 msgid "Hp"
 msgstr "Pv"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:126 stats.xml:213 stats.xml:305
+#: stats.xml:128 stats.xml:215 stats.xml:307
 msgid "Max hp"
 msgstr "Max pv"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:131
+#: stats.xml:133
 msgid "Mana"
 msgstr "Mana"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:136
+#: stats.xml:138
 msgid "Max mana"
 msgstr "Max mana"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:141
+#: stats.xml:143
 msgid "Exp"
 msgstr "Exp"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:146
+#: stats.xml:148
 msgid "Need exp"
 msgstr "Besoin d'exp"
 
 #. (itstool) path: stats/page@name
-#: stats.xml:198
+#: stats.xml:200
 msgid "Merc"
 msgstr "Merc"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:218 stats.xml:310
+#: stats.xml:220 stats.xml:312
 msgid "Mp"
 msgstr "Mp"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:223 stats.xml:315
+#: stats.xml:225 stats.xml:317
 msgid "Max mp"
 msgstr "Mp max"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:263
+#: stats.xml:265
 msgid "M.Atk"
 msgstr "Att.M"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:268
+#: stats.xml:270
 msgid "Defence"
 msgstr "Défense"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:278
+#: stats.xml:280
 msgid "Expire"
 msgstr "Expire"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:283
+#: stats.xml:285
 msgid "Faith"
 msgstr "Foi"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:288
+#: stats.xml:290
 msgid "Calls"
 msgstr "Appelle"
 
 #. (itstool) path: page/stat@name
-#: stats.xml:293
+#: stats.xml:295
 msgid "Kills"
 msgstr "Tue"
 
 #. (itstool) path: stats/page@name
-#: stats.xml:295
+#: stats.xml:297
 msgid "Elemental"
 msgstr "Élemental"
 
