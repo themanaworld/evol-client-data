@@ -641,6 +641,10 @@ IDs 990-999 = Special
         <!-- Artis trees for Katja quest. -->
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="912" nameOffsetX="9" nameOffsetY="-16" targetOffsetX="7" targetOffsetY="-10" targetCursor="small">
+        <!-- Dan's note. No sprite. -->
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
     <npc id="998" nameOffsetX="16" targetOffsetX="16">
         <!-- No sprite with a name half-offseted to the right. -->
         <menu name="Talk" command="talk 'NAME'"/>
