@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="4">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="19">
  <properties>
   <property name="manaplus version" value="2"/>
   <property name="name" value="test"/>
@@ -866,28 +866,108 @@
 </data>
  </layer>
  <objectgroup name="Object">
-  <object id="1" name="Tortuga" type="spawn" x="1440" y="896" width="416" height="640">
+  <object id="1" name="Piou" type="spawn" x="1216" y="384" width="32" height="32">
    <properties>
-    <property name="death" value="120000"/>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="2" name="Tortuga" type="spawn" x="1216" y="384" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1004"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="3" name="Piou" type="spawn" x="1408" y="384" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="4" name="Tortuga" type="spawn" x="1536" y="320" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1004"/>
-    <property name="spawn" value="16000"/>
+    <property name="spawn" value="1000"/>
    </properties>
   </object>
-  <object id="2" name="Piou" type="spawn" x="2496" y="960">
+  <object id="5" name="Piou" type="spawn" x="1536" y="320" width="31" height="31">
    <properties>
-    <property name="death" value="15000"/>
-    <property name="max_beings" value="4"/>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="1"/>
     <property name="monster_id" value="1002"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="1000"/>
    </properties>
   </object>
-  <object id="3" name="Ratto" type="spawn" x="2528" y="1216">
+  <object id="6" name="Ratto" type="spawn" x="1536" y="320" width="31" height="31">
    <properties>
-    <property name="death" value="420000"/>
+    <property name="death" value="1000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="1005"/>
-    <property name="spawn" value="240000"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="7" name="Piou" type="spawn" x="1728" y="320" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="8" name="Piou" type="spawn" x="2178" y="288" width="31" height="31">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="9" name="Ratto" type="spawn" x="2178" y="288" width="31" height="31">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1005"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="10" name="Tortuga" type="spawn" x="2178" y="288" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1004"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="11" name="Piou" type="spawn" x="2432" y="320" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="12" name="Ratto" type="spawn" x="2432" y="320" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1005"/>
+    <property name="spawn" value="1000"/>
+   </properties>
+  </object>
+  <object id="13" name="Ratto" type="spawn" x="2496" y="128" width="32" height="32">
+   <properties>
+    <property name="death" value="1000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1005"/>
+    <property name="spawn" value="1000"/>
    </properties>
   </object>
  </objectgroup>
