@@ -247,6 +247,13 @@ IDs 990-999 = Special
         <sprite variant="33">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="146" nameOffsetX="-3" targetCursor="small" targetOffsetX="-2" currency="points">
+        <!-- Shop Bag -->
+        <sprite variant="2">npcs/xml/interactive.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
     <npc id="401" targetCursor="small">
