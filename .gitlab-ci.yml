@@ -52,6 +52,7 @@ ok_job:
   - pwd
   - echo $CI_BUILD_REF_NAME
   when: on_success
+  dependencies: []
   variables:
     GIT_STRATEGY: none
 
@@ -61,5 +62,6 @@ fail_job:
   - pwd
   - echo $CI_BUILD_REF_NAME
   when: on_failure
+  dependencies: []
   variables:
     GIT_STRATEGY: none
