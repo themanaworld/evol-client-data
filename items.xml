@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
 <!-- Authors: 4144, Alige, Piman, Reid
-Copyright (C) 2010-2018 Evol Online -->
+Copyright (C) 2010-2015 Evol Online
+Copyright (C) 2016-2017 The Mana World -->
 
 <!--
 New organization (04/12/11).
@@ -1982,4 +1983,29 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="equip-ammo"
         attack="100"
         weight="1"/>
+
+    <!-- namespace Legacy -->
+    <!-- Legacy: Generic -->
+    <item id="731"
+        image="generic/__LEGACY__rawlog.png"
+        name="Raw Log"
+        description="A raw log."
+        type="generic"
+        weight="10"/>
+
+    <!-- Legacy: Bows -->
+    <item id="6001"
+        image="equipment/weapons/__LEGACY__forestbow.png"
+        name="Forest Bow"
+        description="A bow usually used for hunting."
+        attack="70"
+        attack-range="5"
+        missile-particle="graphics/particles/training-arrow.xml"
+        level="25"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="1200">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <!-- / Legacy -->
 </items>
