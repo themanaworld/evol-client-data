@@ -265,6 +265,23 @@ Copyright (C) 2012-2016 Evol Online -->
         <file name="graphics/tilesets/artis-pillar-x1x2.png"/>
     </atlas>
 
+    <!-- namespace Legacy -->
+    <map name="008-1.tmx">
+        <atlas name="legacy-woodland"/>
+    </map>
+
+    <atlas name="legacy-woodland">
+        <file name="graphics/legacy/tilesets/woodland_ground.png"/>
+        <file name="graphics/legacy/tilesets/woodland_x2.png"/>
+        <file name="graphics/legacy/tilesets/woodland_x3.png"/>
+        <file name="graphics/legacy/tilesets/woodland_village.png"/>
+        <file name="graphics/legacy/tilesets/woodland_village_x2.png"/>
+        <file name="graphics/legacy/tilesets/woodland_village_x3.png"/>
+        <file name="graphics/legacy/tilesets/woodland_indoor.png"/>
+        <file name="graphics/legacy/tilesets/woodenpump.png"/>
+    </atlas>
+    <!-- / Legacy -->
+
     <atlas name="ignored">
         <file name="graphics/tilesets/collision.png"/>
         <file name="graphics/tilesets/level-number.png"/>
