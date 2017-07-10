@@ -35,6 +35,16 @@ licensecheck:
   script:
   - ./.tools/licensecheck.sh
 
+manaplus:
+  stage: test
+  script:
+  - ./.tools/manaplus.sh
+  artifacts:
+    paths:
+    - shared
+    when: always
+    expire_in: 3 week
+
 pages:
   stage: deploy
   script:
@@ -45,7 +55,7 @@ pages:
     - public
   only:
   - master
- 
+
 ok_job:
   stage: ok
   script:
