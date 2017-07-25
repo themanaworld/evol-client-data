@@ -45,6 +45,16 @@ manaplus:
     when: always
     expire_in: 3 week
 
+newlines:
+  stage: test
+  script:
+  - ./.tools/newlines.sh
+  artifacts:
+    paths:
+    - shared
+    when: always
+    expire_in: 3 week
+
 pages:
   stage: deploy
   script:
