@@ -14,7 +14,9 @@ Copyright (C) 2010-2013 Evol Online -->
             id="17"
             name="Fire ball"
             description="Attack enemy with fireball."
-            castingParticle="graphics/particles/arrow-directions.xml"
+            castingMissile-particle="graphics/particles/concentration.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
             castingSrcEffectId="23"
             dstEffectId="23"
             castingAnimation="emote.xml"
@@ -38,7 +40,7 @@ Copyright (C) 2010-2013 Evol Online -->
             id="5"
             name="Basic"
             icon="graphics/skills/bash.png"
-            castingParticle="graphics/particles/critical.xml"
+            castingMissile-particle="graphics/particles/critical.xml"
             description="A violent punch."
         />
     </set>
