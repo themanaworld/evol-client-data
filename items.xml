@@ -174,7 +174,20 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         effect="Heal 12-18 HP"
         type="usable"
         weight="3"
-        maxFloorOffset="10"/>
+        maxFloorOffset="10">
+        <inventory>
+            <menu
+                name1="Eat"
+                command1="useinv 'INVINDEX'"
+                name2="Eat"
+            />
+            <menu
+                name1="Plant"
+                command1="useinv 'INVINDEX' 1"
+                name2="Plant"
+            />
+        </inventory>
+    </item>
     <item id="502"
         image="usable/bread.png"
         name="Bread"
