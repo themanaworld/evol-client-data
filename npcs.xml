@@ -3,9 +3,10 @@
 Copyright (C) 2010-2016 Evol Online -->
 
 <!--
-IDs 100-300 = Unanimated
-IDs 301-900 = Animated
-IDs 990-999 = Special
+IDs 100-400 = Unanimated
+IDs 401-799 = Animated
+IDs 800-899 = Test
+IDs 900-999 = Special
 -->
 
 <npcs>
@@ -257,7 +258,14 @@ IDs 990-999 = Special
         <sprite>npcs/xml/jumpingtipiou.xml|#a36209,892b2e,cc9b14,b84335,ebc12e,ee613c,fff568,fbac71</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+
     <!-- Animated NPCs -->
+
+    <npc id="400" allowDelete="false">
+        <!-- Hurnscald confused tree -->
+        <sprite>npcs/xml/confused-tree.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
     <npc id="401" targetCursor="small">
         <!-- Awesome Eyes, reminds you of someone. -->
         <sprite>npcs/xml/alige.xml</sprite>
@@ -576,10 +584,6 @@ IDs 990-999 = Special
         <!-- Human Female, bearing a candel on a plate. -->
         <sprite>npcs/xml/mona.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-    </npc>
-    <npc id="451" allowDelete="false">
-        <!-- Hurnscald confused tree -->
-        <sprite>npcs/xml/confused-tree.xml</sprite>
     </npc>
 
     <!-- Test NPCs -->
