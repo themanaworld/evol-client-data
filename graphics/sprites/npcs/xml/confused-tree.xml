@@ -4,30 +4,31 @@ Copyright (C) 2017 The Mana World -->
 
 <sprite>
     <imageset name="npc"
-              src="graphics/sprites/npcs/sprite/confused-tree.png"
-              width="160"
+              src="graphics/tilesets/tree-x4x5.png"
+              width="128"
               height="160"/>
 
     <action name="stand" imageset="npc">
-        <!-- TODO: add missing frames -->
         <!-- Winter -->
         <animation direction="default">
-            <frame index="0"/>
+            <!-- TODO: change when we will have remaining frames -->
+            <frame index="1" offsetX="16"/>
         </animation>
 
         <!-- Spring -->
         <animation direction="downleft">
-            <frame index="0"/>
+            <!-- TODO: change when we will have remaining frames -->
+            <frame index="0" offsetX="16"/>
         </animation>
 
         <!-- Summer -->
         <animation direction="left">
-            <frame index="0"/>
+            <frame index="0" offsetX="16"/>
         </animation>
 
         <!-- Autumn -->
         <animation direction="upleft">
-            <frame index="0"/>
+            <frame index="1" offsetX="16"/>
         </animation>
     </action>
 </sprite>
