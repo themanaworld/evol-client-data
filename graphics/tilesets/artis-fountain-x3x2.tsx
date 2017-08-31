@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="Small Artis Fountain" tilewidth="96" tileheight="64">
+<tileset name="Artis Fountain x3x2" tilewidth="96" tileheight="64">
  <image source="artis-fountain-x3x2.png" width="192" height="128"/>
  <tile id="0">
   <properties>

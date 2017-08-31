@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="Chimney" tilewidth="96" tileheight="128">
- <image source="artis-chimney.png" width="480" height="256"/>
+<tileset name="Artis Chimney x3x4" tilewidth="96" tileheight="128">
+ <image source="artis-chimney-x3x4.png" width="480" height="256"/>
  <tile id="0">
   <properties>
    <property name="animation-delay0" value="12"/>
