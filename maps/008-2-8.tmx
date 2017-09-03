@@ -5,12 +5,18 @@
   <property name="manaplus version" value="2"/>
   <property name="name" value="Hurnscald Forge"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="10" source="../graphics/legacy/tilesets/woodland_indoor.tsx"/>
- <tileset firstgid="266" source="../graphics/legacy/tilesets/woodland_indoor_x2.tsx"/>
- <tileset firstgid="314" source="../graphics/legacy/tilesets/woodland_indoor_x3.tsx"/>
+ <tileset firstgid="10" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="266" name="Indoor x1x2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-indoor-x1x2.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="314" name="Indoor x1x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-indoor-x1x3.png" width="512" height="288"/>
+ </tileset>
  <layer name="Ground1" width="64" height="62">
   <data encoding="csv">
 58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,

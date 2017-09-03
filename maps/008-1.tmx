@@ -9,13 +9,25 @@
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
- <tileset firstgid="1" source="../graphics/legacy/tilesets/woodland_ground.tsx"/>
- <tileset firstgid="257" source="../graphics/legacy/tilesets/woodland_x2.tsx"/>
- <tileset firstgid="289" source="../graphics/legacy/tilesets/woodland_x3.tsx"/>
- <tileset firstgid="321" source="../graphics/legacy/tilesets/woodland_village.tsx"/>
- <tileset firstgid="577" source="../graphics/legacy/tilesets/woodland_village_x2.tsx"/>
- <tileset firstgid="593" source="../graphics/legacy/tilesets/woodland_village_x3.tsx"/>
- <tileset firstgid="659" source="../graphics/legacy/tilesets/woodenpump.tsx"/>
+ <tileset firstgid="1" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Woodland x1x3" tilewidth="32" tileheight="64" tilecount="32" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-x1x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="289" name="Woodland x1x3" tilewidth="32" tileheight="96" tilecount="32" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-x1x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="321" name="Woodland Village" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="577" name="Woodland Village x1x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
+  <image source="../graphics/legacy/tilesets/woodland-village-x1x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="593" name="Woodland Village x1x3" tilewidth="32" tileheight="96" tilecount="66" columns="22">
+  <image source="../graphics/legacy/tilesets/woodland-village-x1x3.png" width="704" height="288"/>
+ </tileset>
+ <tileset firstgid="659" source="../graphics/legacy/tilesets/woodenpump-x1x3.tsx"/>
  <tileset firstgid="670" name="Collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
   <image source="../graphics/tilesets/collision.png" width="96" height="96"/>
  </tileset>

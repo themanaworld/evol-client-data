@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="woodenpump" tilewidth="32" tileheight="96">
- <image source="woodenpump.png" width="352" height="96"/>
+<tileset name="Woodenpump" tilewidth="32" tileheight="96">
+ <image source="woodenpump-x1x3.png" width="352" height="96"/>
  <tile id="0">
-  <animation>
-   <frame tileid="1" duration="130"/>
-   <frame tileid="2" duration="130"/>
-   <frame tileid="3" duration="130"/>
-   <frame tileid="4" duration="130"/>
-   <frame tileid="5" duration="130"/>
-   <frame tileid="6" duration="130"/>
-   <frame tileid="7" duration="130"/>
-   <frame tileid="8" duration="130"/>
-   <frame tileid="9" duration="130"/>
-   <frame tileid="10" duration="130"/>
-  </animation>
   <properties>
    <property name="animation-delay0" value="13"/>
    <property name="animation-delay1" value="20"/>
