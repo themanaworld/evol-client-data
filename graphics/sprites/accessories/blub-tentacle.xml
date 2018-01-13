@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2014 Evol Online -->
+<sprite>
+    <imageset name="tentacle"
+              src="graphics/sprites/accessories/blub-tentacle.png|S"
+              width="32"
+              height="32"
+              offsetY="11"/>
+
+    <action name="spawn" imageset="tentacle">
+        <animation direction="default">
+            <!-- Coming out of the ground. -->
+            <frame index="10" delay="360"/>
+            <frame index="9" delay="150"/>
+            <frame index="8" delay="130"/>
+            <frame index="7" delay="120"/>
+            <frame index="6" delay="110"/>
+            <!-- Rotate tentacles. -->
+            <frame index="0" delay="550"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="tentacle">
+        <animation direction="down">
+            <frame index="0" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="0" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="0" end="5" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="2" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="2" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="2" end="5" delay="110"/>
+            <sequence start="0" end="1" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="3" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="3" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="3" end="5" delay="110"/>
+            <sequence start="0" end="2" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="5" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="5" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <frame index="5" delay="110"/>
+            <sequence start="0" end="4" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="0" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="0" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="0" end="5" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="2" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="2" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="2" end="5" delay="110"/>
+            <sequence start="0" end="1" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="3" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="3" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <sequence start="3" end="5" delay="110"/>
+            <sequence start="0" end="2" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="5" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="5" delay="100"/>
+            <goto label="rotate" rand="8"/>
+            <goto label="start" rand="100"/>
+            <!-- Half-Rotate Animation. -->
+            <label name="half-rotate"/>
+            <frame index="5" delay="110"/>
+            <sequence start="0" end="4" delay="110"/>
+            <goto label="half-rotate" rand ="5"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="tentacle">
+        <animation direction="down">
+            <frame index="0" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="0" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="0" end="5" delay="110" repeat="2"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="2" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="2" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="2" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="1" delay="110"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="3" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="3" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="3" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="2" delay="110"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="5" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="5" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <frame index="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="4" delay="110"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="0" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="0" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="0" end="5" delay="110" repeat="2"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="2" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="2" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="2" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="1" delay="110"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="3" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="3" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <sequence start="3" end="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="2" delay="110"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="5" delay="120"/>
+            <!-- Static Animation. -->
+            <label name="start"/>
+            <frame index="5" delay="100"/>
+            <goto label="rotate" rand="80"/>
+            <goto label="start" rand="100"/>
+            <!-- Rotate Animation. -->
+            <label name="rotate"/>
+            <frame index="5" delay="110"/>
+            <sequence start="0" end="5" delay="110"/>
+            <sequence start="0" end="4" delay="110"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="tentacle">
+        <animation direction="down">
+            <frame index="0" delay="100" offsetY="1"/>
+            <frame index="1" delay="50" offsetY="3"/>
+            <frame index="2" delay="50" offsetY="3"/>
+            <frame index="3" delay="40" offsetY="3"/>
+            <frame index="4" delay="90" offsetY="1"/>
+            <frame index="5" delay="80" offsetY="-1"/>
+            <frame index="0" delay="70" offsetY="-3"/>
+            <frame index="1" delay="60" offsetY="-5"/>
+            <frame index="2" delay="60" offsetY="-7"/>
+            <frame index="3" delay="50" offsetY="-9"/>
+            <frame index="4" delay="50" offsetY="-10"/>
+            <frame index="5" delay="40" offsetY="-12"/>
+            <frame index="0" delay="40" offsetY="-14"/>
+            <frame index="1" delay="40" offsetY="-16"/>
+            <frame index="2" delay="40" offsetY="-18"/>
+            <frame index="3" delay="40" offsetY="-20"/>
+            <frame index="4" delay="50" offsetY="-22"/>
+	        <!-- Hit the cible. -->
+            <frame index="5" delay="50" offsetY="-25"/>
+            <frame index="0" delay="60" offsetY="-28"/>
+            <frame index="1" delay="70" offsetY="-32"/>
+            <frame index="2" delay="70" offsetY="-34"/>
+            <!-- Peak reached. -->
+            <frame index="3" delay="100" offsetY="-37"/>
+            <frame index="4" delay="70" offsetY="-37"/>
+            <frame index="5" delay="70" offsetY="-36"/>
+            <frame index="0" delay="60" offsetY="-35"/>
+            <frame index="1" delay="60" offsetY="-34"/>
+            <frame index="2" delay="50" offsetY="-32"/>
+            <frame index="3" delay="40" offsetY="-27"/>
+            <frame index="4" delay="40" offsetY="-25"/>
+            <frame index="5" delay="40" offsetY="-23"/>
+            <frame index="0" delay="40" offsetY="-20"/>
+            <frame index="1" delay="50" offsetY="-16"/>
+            <frame index="2" delay="50" offsetY="-13"/>
+            <frame index="3" delay="60" offsetY="-10"/>
+            <frame index="4" delay="60" offsetY="-7"/>
+            <frame index="5" delay="70" offsetY="-4"/>
+            <frame index="0" delay="70" offsetY="-2"/>
+            <frame index="0" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="2" delay="100" offsetY="1"/>
+            <frame index="2" delay="50" offsetY="3"/>
+            <frame index="3" delay="50" offsetY="3"/>
+            <frame index="4" delay="40" offsetY="3"/>
+            <frame index="5" delay="90" offsetY="1"/>
+            <frame index="0" delay="80" offsetY="-1"/>
+            <frame index="1" delay="70" offsetY="-3"/>
+            <frame index="2" delay="60" offsetY="-5"/>
+            <frame index="3" delay="60" offsetY="-7"/>
+            <frame index="4" delay="50" offsetY="-9" offsetX="-1"/>
+            <frame index="5" delay="50" offsetY="-11" offsetX="-1"/>
+            <frame index="0" delay="40" offsetY="-13" offsetX="-2"/>
+            <frame index="1" delay="40" offsetY="-15" offsetX="-3"/>
+            <frame index="2" delay="40" offsetY="-17" offsetX="-4"/>
+            <frame index="3" delay="40" offsetY="-19" offsetX="-5"/>
+            <frame index="4" delay="40" offsetY="-21" offsetX="-6"/>
+            <frame index="5" delay="50" offsetY="-23" offsetX="-7"/>
+	        <!-- Hit the cible. -->
+            <frame index="0" delay="50" offsetY="-25" offsetX="-8"/>
+            <frame index="1" delay="60" offsetY="-29" offsetX="-7"/>
+            <frame index="2" delay="70" offsetY="-32" offsetX="-7"/>
+            <frame index="3" delay="70" offsetY="-35" offsetX="-6"/>
+            <!-- Peak reached. -->
+            <frame index="4" delay="100" offsetY="-37" offsetX="-6"/>
+            <frame index="5" delay="70" offsetY="-38" offsetX="-5"/>
+            <frame index="0" delay="70" offsetY="-37" offsetX="-5"/>
+            <frame index="1" delay="60" offsetY="-36" offsetX="-4"/>
+            <frame index="2" delay="60" offsetY="-34" offsetX="-4"/>
+            <frame index="3" delay="50" offsetY="-33" offsetX="-3"/>
+            <frame index="4" delay="40" offsetY="-30" offsetX="-3"/>
+            <frame index="5" delay="40" offsetY="-28" offsetX="-2"/>
+            <frame index="0" delay="40" offsetY="-23" offsetX="-2"/>
+            <frame index="1" delay="40" offsetY="-20" offsetX="-1"/>
+            <frame index="2" delay="50" offsetY="-16" offsetX="-1"/>
+            <frame index="3" delay="50" offsetY="-13"/>
+            <frame index="4" delay="60" offsetY="-10"/>
+            <frame index="5" delay="60" offsetY="-7"/>
+            <frame index="0" delay="70" offsetY="-4"/>
+            <frame index="1" delay="70" offsetY="-2"/>
+            <frame index="2" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="left">
+            <frame index="3" delay="100" offsetY="1"/>
+            <frame index="4" delay="50" offsetY="3"/>
+            <frame index="5" delay="50" offsetY="3"/>
+            <frame index="0" delay="40" offsetY="3"/>
+            <frame index="1" delay="90" offsetY="1"/>
+            <frame index="2" delay="80" offsetY="-1"/>
+            <frame index="3" delay="70" offsetY="-3"/>
+            <frame index="4" delay="60" offsetY="-5"/>
+            <frame index="5" delay="60" offsetY="-7" offsetX="-1"/>
+            <frame index="0" delay="50" offsetY="-10" offsetX="-2"/>
+            <frame index="1" delay="50" offsetY="-12" offsetX="-3"/>
+            <frame index="2" delay="40" offsetY="-15" offsetX="-5"/>
+            <frame index="3" delay="40" offsetY="-18" offsetX="-7"/>
+            <frame index="4" delay="40" offsetY="-21" offsetX="-9"/>
+            <frame index="5" delay="40" offsetY="-24" offsetX="-11"/>
+            <frame index="0" delay="40" offsetY="-27" offsetX="-13"/>
+            <frame index="1" delay="50" offsetY="-30" offsetX="-15"/>
+	        <!-- Hit the cible. -->
+            <frame index="2" delay="50" offsetY="-33" offsetX="-16"/>
+            <frame index="3" delay="60" offsetY="-36" offsetX="-15"/>
+            <frame index="4" delay="70" offsetY="-39" offsetX="-14"/>
+            <frame index="5" delay="70" offsetY="-41" offsetX="-13"/>
+            <!-- Peak reached. -->
+            <frame index="0" delay="100" offsetY="-43" offsetX="-12"/>
+            <frame index="1" delay="70" offsetY="-43" offsetX="-11"/>
+            <frame index="2" delay="70" offsetY="-42" offsetX="-10"/>
+            <frame index="3" delay="60" offsetY="-40" offsetX="-9"/>
+            <frame index="4" delay="60" offsetY="-38" offsetX="-8"/>
+            <frame index="5" delay="50" offsetY="-36" offsetX="-7"/>
+            <frame index="0" delay="40" offsetY="-33" offsetX="-6"/>
+            <frame index="1" delay="40" offsetY="-30" offsetX="-5"/>
+            <frame index="2" delay="40" offsetY="-25" offsetX="-4"/>
+            <frame index="3" delay="40" offsetY="-21" offsetX="-3"/>
+            <frame index="4" delay="50" offsetY="-17" offsetX="-2"/>
+            <frame index="5" delay="50" offsetY="-13" offsetX="-1"/>
+            <frame index="0" delay="60" offsetY="-10"/>
+            <frame index="1" delay="60" offsetY="-7"/>
+            <frame index="2" delay="70" offsetY="-4"/>
+            <frame index="3" delay="70" offsetY="-2"/>
+            <frame index="3" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="5" delay="100" offsetY="1"/>
+            <frame index="5" delay="50" offsetY="3"/>
+            <frame index="0" delay="50" offsetY="3"/>
+            <frame index="1" delay="40" offsetY="3"/>
+            <frame index="2" delay="90" offsetY="1"/>
+            <frame index="3" delay="80" offsetY="-1"/>
+            <frame index="4" delay="70" offsetY="-3"/>
+            <frame index="5" delay="60" offsetY="-5"/>
+            <frame index="0" delay="60" offsetY="-7"/>
+            <frame index="1" delay="50" offsetY="-11" offsetX="-1"/>
+            <frame index="2" delay="50" offsetY="-13" offsetX="-1"/>
+            <frame index="3" delay="40" offsetY="-17" offsetX="-2"/>
+            <frame index="4" delay="40" offsetY="-21" offsetX="-3"/>
+            <frame index="5" delay="40" offsetY="-25" offsetX="-4"/>
+            <frame index="0" delay="40" offsetY="-29" offsetX="-5"/>
+            <frame index="1" delay="40" offsetY="-33" offsetX="-6"/>
+            <frame index="2" delay="50" offsetY="-37" offsetX="-7"/>
+	        <!-- Hit the cible. -->
+            <frame index="3" delay="50" offsetY="-41" offsetX="-8"/>
+            <frame index="4" delay="60" offsetY="-43" offsetX="-7"/>
+            <frame index="5" delay="70" offsetY="-46" offsetX="-7"/>
+            <frame index="0" delay="70" offsetY="-47" offsetX="-6"/>
+            <!-- Peak reached. -->
+            <frame index="1" delay="100" offsetY="-49" offsetX="-6"/>
+            <frame index="2" delay="70" offsetY="-48" offsetX="-5"/>
+            <frame index="3" delay="70" offsetY="-47" offsetX="-5"/>
+            <frame index="4" delay="60" offsetY="-44" offsetX="-4"/>
+            <frame index="5" delay="60" offsetY="-42" offsetX="-4"/>
+            <frame index="0" delay="50" offsetY="-39" offsetX="-3"/>
+            <frame index="1" delay="40" offsetY="-36" offsetX="-3"/>
+            <frame index="2" delay="40" offsetY="-32" offsetX="-2"/>
+            <frame index="3" delay="40" offsetY="-27" offsetX="-2"/>
+            <frame index="4" delay="40" offsetY="-22" offsetX="-1"/>
+            <frame index="5" delay="50" offsetY="-18" offsetX="-1"/>
+            <frame index="0" delay="50" offsetY="-13"/>
+            <frame index="1" delay="60" offsetY="-10"/>
+            <frame index="2" delay="60" offsetY="-7"/>
+            <frame index="3" delay="70" offsetY="-4"/>
+            <frame index="4" delay="70" offsetY="-2"/>
+            <frame index="5" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="up">
+            <frame index="0" delay="100" offsetY="1"/>
+            <frame index="1" delay="50" offsetY="3"/>
+            <frame index="2" delay="50" offsetY="3"/>
+            <frame index="3" delay="40" offsetY="3"/>
+            <frame index="4" delay="90" offsetY="1"/>
+            <frame index="5" delay="80" offsetY="-1"/>
+            <frame index="0" delay="70" offsetY="-3"/>
+            <frame index="1" delay="60" offsetY="-5"/>
+            <frame index="2" delay="60" offsetY="-7"/>
+            <frame index="3" delay="50" offsetY="-11"/>
+            <frame index="4" delay="50" offsetY="-13"/>
+            <frame index="5" delay="40" offsetY="-17"/>
+            <frame index="0" delay="40" offsetY="-21"/>
+            <frame index="1" delay="40" offsetY="-25"/>
+            <frame index="2" delay="40" offsetY="-29"/>
+            <frame index="3" delay="40" offsetY="-33"/>
+            <frame index="4" delay="50" offsetY="-37"/>
+	        <!-- Hit the cible. -->
+            <frame index="5" delay="50" offsetY="-41"/>
+            <frame index="0" delay="60" offsetY="-43"/>
+            <frame index="1" delay="70" offsetY="-46"/>
+            <frame index="2" delay="70" offsetY="-47"/>
+            <!-- Peak reached. -->
+            <frame index="3" delay="100" offsetY="-49"/>
+            <frame index="4" delay="70" offsetY="-48"/>
+            <frame index="5" delay="70" offsetY="-47"/>
+            <frame index="0" delay="60" offsetY="-44"/>
+            <frame index="1" delay="60" offsetY="-42"/>
+            <frame index="2" delay="50" offsetY="-39"/>
+            <frame index="3" delay="40" offsetY="-36"/>
+            <frame index="4" delay="40" offsetY="-32"/>
+            <frame index="5" delay="40" offsetY="-27"/>
+            <frame index="0" delay="40" offsetY="-22"/>
+            <frame index="1" delay="50" offsetY="-18"/>
+            <frame index="2" delay="50" offsetY="-14"/>
+            <frame index="3" delay="60" offsetY="-10"/>
+            <frame index="4" delay="60" offsetY="-7"/>
+            <frame index="5" delay="70" offsetY="-4"/>
+            <frame index="0" delay="70" offsetY="-2"/>
+            <frame index="0" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="upright">
+            <frame index="2" delay="100" offsetY="1"/>
+            <frame index="2" delay="50" offsetY="3"/>
+            <frame index="3" delay="50" offsetY="3"/>
+            <frame index="4" delay="40" offsetY="3"/>
+            <frame index="5" delay="90" offsetY="1"/>
+            <frame index="0" delay="80" offsetY="-1"/>
+            <frame index="1" delay="70" offsetY="-3"/>
+            <frame index="2" delay="60" offsetY="-5"/>
+            <frame index="3" delay="60" offsetY="-7"/>
+            <frame index="4" delay="50" offsetY="-11" offsetX="1"/>
+            <frame index="5" delay="50" offsetY="-13" offsetX="1"/>
+            <frame index="0" delay="40" offsetY="-17" offsetX="2"/>
+            <frame index="1" delay="40" offsetY="-21" offsetX="3"/>
+            <frame index="2" delay="40" offsetY="-25" offsetX="4"/>
+            <frame index="3" delay="40" offsetY="-29" offsetX="5"/>
+            <frame index="4" delay="40" offsetY="-33" offsetX="6"/>
+            <frame index="5" delay="50" offsetY="-37" offsetX="7"/>
+	        <!-- Hit the cible. -->
+            <frame index="0" delay="50" offsetY="-41" offsetX="8"/>
+            <frame index="1" delay="60" offsetY="-43" offsetX="7"/>
+            <frame index="2" delay="70" offsetY="-46" offsetX="7"/>
+            <frame index="3" delay="70" offsetY="-47" offsetX="6"/>
+            <!-- Peak reached. -->
+            <frame index="4" delay="100" offsetY="-49" offsetX="6"/>
+            <frame index="5" delay="70" offsetY="-48" offsetX="5"/>
+            <frame index="0" delay="70" offsetY="-47" offsetX="5"/>
+            <frame index="1" delay="60" offsetY="-44" offsetX="4"/>
+            <frame index="2" delay="60" offsetY="-42" offsetX="4"/>
+            <frame index="3" delay="50" offsetY="-39" offsetX="3"/>
+            <frame index="4" delay="40" offsetY="-36" offsetX="3"/>
+            <frame index="5" delay="40" offsetY="-32" offsetX="2"/>
+            <frame index="0" delay="40" offsetY="-27" offsetX="2"/>
+            <frame index="1" delay="40" offsetY="-22" offsetX="1"/>
+            <frame index="2" delay="50" offsetY="-18" offsetX="1"/>
+            <frame index="3" delay="50" offsetY="-13"/>
+            <frame index="4" delay="60" offsetY="-10"/>
+            <frame index="5" delay="60" offsetY="-7"/>
+            <frame index="0" delay="70" offsetY="-4"/>
+            <frame index="1" delay="70" offsetY="-2"/>
+            <frame index="2" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="right">
+            <frame index="3" delay="100" offsetY="1"/>
+            <frame index="4" delay="50" offsetY="3"/>
+            <frame index="5" delay="50" offsetY="3"/>
+            <frame index="0" delay="40" offsetY="3"/>
+            <frame index="1" delay="90" offsetY="1"/>
+            <frame index="2" delay="80" offsetY="-1"/>
+            <frame index="3" delay="70" offsetY="-3"/>
+            <frame index="4" delay="60" offsetY="-5"/>
+            <frame index="5" delay="60" offsetY="-7" offsetX="1"/>
+            <frame index="0" delay="50" offsetY="-10" offsetX="2"/>
+            <frame index="1" delay="50" offsetY="-12" offsetX="3"/>
+            <frame index="2" delay="40" offsetY="-15" offsetX="5"/>
+            <frame index="3" delay="40" offsetY="-18" offsetX="7"/>
+            <frame index="4" delay="40" offsetY="-21" offsetX="9"/>
+            <frame index="5" delay="40" offsetY="-24" offsetX="11"/>
+            <frame index="0" delay="40" offsetY="-27" offsetX="13"/>
+            <frame index="1" delay="50" offsetY="-30" offsetX="15"/>
+	        <!-- Hit the cible. -->
+            <frame index="2" delay="50" offsetY="-33" offsetX="16"/>
+            <frame index="3" delay="60" offsetY="-36" offsetX="15"/>
+            <frame index="4" delay="70" offsetY="-39" offsetX="14"/>
+            <frame index="5" delay="70" offsetY="-41" offsetX="13"/>
+            <!-- Peak reached. -->
+            <frame index="0" delay="100" offsetY="-43" offsetX="12"/>
+            <frame index="1" delay="70" offsetY="-43" offsetX="11"/>
+            <frame index="2" delay="70" offsetY="-42" offsetX="10"/>
+            <frame index="3" delay="60" offsetY="-40" offsetX="9"/>
+            <frame index="4" delay="60" offsetY="-38" offsetX="8"/>
+            <frame index="5" delay="50" offsetY="-36" offsetX="7"/>
+            <frame index="0" delay="40" offsetY="-33" offsetX="6"/>
+            <frame index="1" delay="40" offsetY="-30" offsetX="5"/>
+            <frame index="2" delay="40" offsetY="-25" offsetX="4"/>
+            <frame index="3" delay="40" offsetY="-21" offsetX="3"/>
+            <frame index="4" delay="50" offsetY="-17" offsetX="2"/>
+            <frame index="5" delay="50" offsetY="-13" offsetX="1"/>
+            <frame index="0" delay="60" offsetY="-10"/>
+            <frame index="1" delay="60" offsetY="-7"/>
+            <frame index="2" delay="70" offsetY="-4"/>
+            <frame index="3" delay="70" offsetY="-2"/>
+            <frame index="3" delay="80"/>
+            <end />
+        </animation>
+
+        <animation direction="downright">
+            <frame index="5" delay="100" offsetY="1"/>
+            <frame index="5" delay="50" offsetY="3"/>
+            <frame index="0" delay="50" offsetY="3"/>
+            <frame index="1" delay="40" offsetY="3"/>
+            <frame index="2" delay="90" offsetY="1"/>
+            <frame index="3" delay="80" offsetY="-1"/>
+            <frame index="4" delay="70" offsetY="-3"/>
+            <frame index="5" delay="60" offsetY="-5"/>
+            <frame index="0" delay="60" offsetY="-7"/>
+            <frame index="1" delay="50" offsetY="-9" offsetX="1"/>
+            <frame index="2" delay="50" offsetY="-11" offsetX="1"/>
+            <frame index="3" delay="40" offsetY="-13" offsetX="2"/>
+            <frame index="4" delay="40" offsetY="-15" offsetX="3"/>
+            <frame index="5" delay="40" offsetY="-17" offsetX="4"/>
+            <frame index="0" delay="40" offsetY="-19" offsetX="5"/>
+            <frame index="1" delay="40" offsetY="-21" offsetX="6"/>
+            <frame index="2" delay="50" offsetY="-23" offsetX="7"/>
+	        <!-- Hit the cible. -->
+            <frame index="3" delay="50" offsetY="-25" offsetX="8"/>
+            <frame index="4" delay="60" offsetY="-29" offsetX="7"/>
+            <frame index="5" delay="70" offsetY="-32" offsetX="7"/>
+            <frame index="0" delay="70" offsetY="-35" offsetX="6"/>
+            <!-- Peak reached. -->
+            <frame index="1" delay="100" offsetY="-37" offsetX="6"/>
+            <frame index="2" delay="70" offsetY="-38" offsetX="5"/>
+            <frame index="3" delay="70" offsetY="-37" offsetX="5"/>
+            <frame index="4" delay="60" offsetY="-36" offsetX="4"/>
+            <frame index="5" delay="60" offsetY="-34" offsetX="4"/>
+            <frame index="0" delay="50" offsetY="-33" offsetX="3"/>
+            <frame index="1" delay="40" offsetY="-30" offsetX="3"/>
+            <frame index="2" delay="40" offsetY="-28" offsetX="2"/>
+            <frame index="3" delay="40" offsetY="-23" offsetX="2"/>
+            <frame index="4" delay="40" offsetY="-20" offsetX="1"/>
+            <frame index="5" delay="50" offsetY="-16" offsetX="1"/>
+            <frame index="0" delay="50" offsetY="-13"/>
+            <frame index="1" delay="60" offsetY="-10"/>
+            <frame index="2" delay="60" offsetY="-7"/>
+            <frame index="3" delay="70" offsetY="-4"/>
+            <frame index="4" delay="70" offsetY="-2"/>
+            <frame index="5" delay="80"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="dead" imageset="tentacle">
+        <animation direction="default">
+            <sequence start="6" end="9" delay="110"/>
+            <frame index="10"/>
+		</animation>
+    </action>
+</sprite>

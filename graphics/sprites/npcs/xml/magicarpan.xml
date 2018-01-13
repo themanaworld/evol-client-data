@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/magicarpan.png"
+              width="29"
+              height="62"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <!-- Eyes animation -->
+            <frame index="0" delay="7000"/>
+            <frame index="3" delay="60"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="70"/>
+            <!-- Mouth animation -->
+            <frame index="0" delay="6000"/>
+            <sequence start="1" end="2" delay="130" repeat="4"/>
+            <frame index="1" delay="90"/>
+            <!-- Eyes animation -->
+            <frame index="0" delay="3500"/>
+            <frame index="3" delay="60"/>
+            <frame index="4" delay="120"/>
+            <frame index="3" delay="70"/>
+        </animation>
+    </action>
+</sprite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2010-2011 Evol Online -->
+
+<sprite>
+    <imageset name="icon"
+              src="graphics/sprites/icons/poison.png"
+              width="12"
+              height="20"
+              offsetY="-11"/>
+
+    <action name="default" imageset="icon">
+        <animation direction="default">
+            <sequence start="0" end="8" delay="80"/>
+        </animation>
+    </action>
+</sprite>

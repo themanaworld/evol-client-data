@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Reid
+Copyright (C) 2016 The Mana World & Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/bait.png"
+              width="32"
+              height="32"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Bait Sinking -->
+        <animation direction="left">
+            <sequence start="1" end="4" delay="70"/>
+            <frame index="5"/>
+        </animation>
+
+        <!-- Bait Floating -->
+        <animation direction="up">
+            <label name="start"/>
+            <goto label="fakesinking" rand="8"/>
+                <frame index="0" delay="100"/>
+            <goto label="start" rand="100"/>
+            <label name="fakesinking"/>
+                <frame index="1" delay="170"/>
+            <goto label="fakesinking" rand="50"/>
+        </animation>
+
+        <animation direction="default">
+            <frame index="6"/>
+        </animation>
+    </action>
+</sprite>

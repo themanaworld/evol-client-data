@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/flask.png"
+              width="64"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Flask animation -->
+        <animation direction="default">
+            <sequence start="1" end="3" delay="200" repeat="3"/>
+            <sequence start="4" end="6" delay="150" repeat="3"/>
+            <sequence start="7" end="21" delay="150"/>
+            <sequence start="22" end="36" delay="130" repeat="3"/>
+            <frame index="37" delay="1000"/>
+            <frame index="38" delay="440"/>
+            <frame index="39" delay="230"/>
+        </animation>
+        <!-- Static Flask -->
+        <animation direction="up">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>

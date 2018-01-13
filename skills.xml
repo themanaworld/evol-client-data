@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144, Reid
+Copyright (C) 2010-2013 Evol Online -->
+
+<skills>
+    <set name="Basic">
+        <skill
+            id="1"
+            name="Basic"
+            icon="graphics/skills/emote.png"
+            description="Allow do basic things like sitting, smiling or trading."
+        />
+        <skill
+            id="17"
+            name="Fire ball"
+            description="Attack enemy with fireball."
+            castingMissile-particle="graphics/particles/concentration.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+            dstEffectId="23"
+            castingAnimation="emote.xml"
+        />
+        <skill
+            id="20000"
+            name="Mass provoke"
+            icon="graphics/skills/legacy/resistpoison.png"
+            description="Allow provoke many monsters."
+            castingAnimation="emote.xml"
+        />
+        <skill
+            id="20001"
+            name="Magic shield"
+            icon="graphics/skills/legacy/life.png"
+            description="Allow protect from magic attacks."
+        />
+    </set>
+    <set name="Offensive">
+        <skill
+            id="5"
+            name="Basic"
+            icon="graphics/skills/bash.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="A violent punch."
+        />
+    </set>
+    <set name="Other">
+        <skill
+            id="220"
+            name="Grafiti"
+            description="Draw text on ground."
+            useTextParameter="true"/>
+    </set>
+    <set name="Restricted">
+        <skill
+            id="20002"
+            name="Super Menu"
+            description="Gives access to all debug and administrative options"
+            invokeCmd="@numa"/>
+    </set>
+</skills>

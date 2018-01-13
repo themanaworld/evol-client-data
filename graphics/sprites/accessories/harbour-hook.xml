@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/accessories/harbour-hook.png"
+              width="5"
+              height="40"
+              offsetY="-36"
+              offsetX="76"/>
+
+
+    <action name="stand" imageset="npc">
+        <!-- Static Top -->
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+        <!-- Moving Down, x=3, with x*560 delay in ms -->
+        <animation direction="left">
+            <sequence start="0" end="11" delay="140"/>
+        </animation>
+        <!-- Moving Bottom, x=3, with x*560 delay in ms -->
+        <animation direction="up">
+            <sequence start="11" end="0" delay="140"/>
+        </animation>
+        <!-- Static Bottom-->
+        <animation direction="right">
+            <frame index="11"/>
+        </animation>
+    </action>
+</sprite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Hal9000
+Copyright (C) 2013 Evol Online -->
+<sprite>
+    <imageset name="queststatus"
+              src="graphics/sprites/effects/queststatus.png"
+              width="16"
+              height="32"/>
+
+    <action name="default" imageset="queststatus">
+        <animation direction="default">
+            <frame index="10" delay="90"/>
+            <frame index="11" delay="85"/>
+            <frame index="12" delay="85"/>
+            <frame index="13" delay="80"/>
+            <frame index="14" delay="80"/>
+            <frame index="15" delay="70"/>
+            <frame index="14" delay="5000"/>
+            <label name="loop-anchor"/>
+            <frame index="14" delay="100"/>
+            <frame index="16" delay="100"/>
+            <frame index="17" delay="100"/>
+            <frame index="18" delay="100"/>
+            <frame index="19" delay="100"/>
+            <frame index="14" delay="8000"/>
+            <goto label="loop-anchor"/>
+        </animation>
+    </action>
+</sprite>

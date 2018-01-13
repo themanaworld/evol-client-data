@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2015  Evol Online -->
+
+<sprite>
+    <imageset name="hair"
+                    src="graphics/sprites/accessories/enora-hair.png"
+                    width="18"
+                    height="20"
+                    offsetY="-40"
+                    offsetX="-1"/>
+
+    <action name="stand" imageset="hair">
+        <animation>
+            <sequence start="0" end="3" delay="250"/>
+            <frame index="2" delay="200"/>
+            <frame index="1" delay="300"/>
+            <sequence start="2" end="3" delay="250"/>
+            <frame index="2" delay="200"/>
+            <frame index="1" delay="200"/>
+        </animation>
+    </action>
+</sprite>

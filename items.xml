@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="items.xsl"?>
+<!-- Authors: 4144, Alige, Piman, Reid
+Copyright (C) 2010-2015 Evol Online -->
+
+<!--
+New organization (04/12/11).
+-0      -99       = Hairstyles
+-100    -infinity = Races
+30      500       = Weapon Animations
+501     699       = Usable Items
+700     999       = Generic Items
+1000    1299      = Necklaces
+1300    1799      = Chest Armors
+1800    1999      = Boots
+2000    2199      = Gloves
+2200    2499      = Pants
+2500    2699      = Wings
+2700    2899      = Shields
+2900    3199      = Head Gears
+3200    3499      = Neck Armors
+3500    3999      = Weapons
+4000    4999      = Pets
+5000    5999      = Cards
+6000    6999      = Bows
+7000    7999      = Arrows
+Colors for dyeable equipments or items are now set up by itemcolors.xml.
+-->
+
+<items>
+    <!-- Hairstyles -->
+    <item id="-1" type="hairsprite" name="Bald">
+        <sprite>hairstyles/hairstyle01.xml</sprite>
+    </item>
+    <item id="-2" type="hairsprite" name="Bowl Cut" colors="hairS">
+        <sprite>hairstyles/hairstyle02.xml</sprite>
+    </item>
+    <item id="-3" type="hairsprite" name="Combed Back" colors="hairS">
+        <sprite>hairstyles/hairstyle03.xml</sprite>
+    </item>
+    <item id="-4" type="hairsprite" name="Emo" colors="hairS">
+        <sprite>hairstyles/hairstyle04.xml</sprite>
+    </item>
+    <item id="-5" type="hairsprite" name="Mohawk" colors="hairS">
+        <sprite>hairstyles/hairstyle05.xml</sprite>
+    </item>
+    <item id="-6" type="hairsprite" name="Pompadour" colors="hairS">
+        <sprite>hairstyles/hairstyle06.xml</sprite>
+    </item>
+    <item id="-7" type="hairsprite" name="Center Parting" colors="hairS">
+        <sprite>hairstyles/hairstyle07.xml</sprite>
+    </item>
+    <item id="-8" type="hairsprite" name="Long and Slick" colors="hair">
+        <sprite>hairstyles/hairstyle08.xml</sprite>
+    </item>
+    <item id="-9" type="hairsprite" name="Short and Curly" colors="hair">
+        <sprite>hairstyles/hairstyle09.xml</sprite>
+    </item>
+    <item id="-10" type="hairsprite" name="Pigtails" colors="hair">
+        <sprite>hairstyles/hairstyle10.xml</sprite>
+    </item>
+    <item id="-11" type="hairsprite" name="Long and Curly" colors="hair">
+        <sprite>hairstyles/hairstyle11.xml</sprite>
+    </item>
+    <item id="-12" type="hairsprite" name="Parted" colors="hair">
+        <sprite>hairstyles/hairstyle12.xml</sprite>
+    </item>
+    <item id="-13" type="hairsprite" name="Perky Ponytail" colors="hairS">
+        <sprite>hairstyles/hairstyle13.xml</sprite>
+    </item>
+    <item id="-14" type="hairsprite" name="Wave" colors="hairS">
+        <sprite>hairstyles/hairstyle14.xml</sprite>
+    </item>
+    <item id="-15" type="hairsprite" name="Mane" colors="hairS">
+        <sprite>hairstyles/hairstyle15.xml</sprite>
+    </item>
+    <item id="-16" type="hairsprite" name="Bun" colors="hairS">
+        <sprite>hairstyles/hairstyle16.xml</sprite>
+    </item>
+    <item id="-17" type="hairsprite" name="Wavy" colors="hairS">
+        <sprite>hairstyles/hairstyle17.xml</sprite>
+    </item>
+    <item id="-18" type="hairsprite" name="Bunches" colors="hairS">
+        <sprite>hairstyles/hairstyle18.xml</sprite>
+    </item>
+    <item id="-19" type="hairsprite" name="Long Ponytail" colors="hairS">
+        <sprite>hairstyles/hairstyle19.xml</sprite>
+    </item>
+    <item id="-20" type="hairsprite" name="Infinitely Long" colors="hair">
+        <sprite>hairstyles/hairstyle20.xml</sprite>
+    </item>
+    <item id="-21" type="hairsprite" name="Choppy" colors="hair">
+        <sprite>hairstyles/hairstyle21.xml</sprite>
+    </item>
+    <item id="-22" type="hairsprite" name="Wild" colors="hair">
+        <sprite>hairstyles/hairstyle22.xml</sprite>
+    </item>
+    <item id="-23" type="hairsprite" name="Punk" colors="hairS">
+        <sprite>hairstyles/hairstyle23.xml</sprite>
+    </item>
+    <item id="-24" type="hairsprite" name="Imperial" colors="hairS">
+        <sprite>hairstyles/hairstyle24.xml</sprite>
+    </item>
+    <item id="-25" type="hairsprite" name="Side Strand" colors="hairS">
+        <sprite>hairstyles/hairstyle25.xml</sprite>
+    </item>
+    <item id="-26" type="hairsprite" name="Messy" colors="hairS">
+        <sprite>hairstyles/hairstyle26.xml</sprite>
+    </item>
+    <item id="-27" type="hairsprite" name="Flat Ponytail" colors="hairS">
+        <sprite>hairstyles/hairstyle27.xml</sprite>
+    </item>
+    <item id="-28" type="hairsprite" name="Tapered Nape" colors="hairS">
+        <sprite>hairstyles/hairstyle28.xml</sprite>
+    </item>
+
+    <!-- Races -->
+    <item id="-100" type="racesprite" name="Human">
+        <sprite gender="unisex">races/human-male.xml</sprite>
+        <sprite gender="female">races/human-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-101" type="racesprite" name="Ukar">
+        <sprite gender="unisex">races/ukar-male.xml</sprite>
+        <sprite gender="female">races/ukar-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-102" type="racesprite" name="Demon">
+        <sprite gender="unisex">races/demon-male.xml</sprite>
+        <sprite gender="female">races/demon-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-103" type="racesprite" name="Elven">
+        <sprite gender="unisex">races/elven-male.xml</sprite>
+        <sprite gender="female">races/elven-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-104" type="racesprite" name="Orc">
+        <sprite gender="unisex">races/orc-male.xml</sprite>
+        <sprite gender="female">races/orc-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-105" type="racesprite" name="Raijin">
+        <sprite gender="unisex">races/raijin-male.xml</sprite>
+        <sprite gender="female">races/raijin-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+    <item id="-106" type="racesprite" name="Tritan">
+        <sprite gender="unisex">races/tritan-male.xml</sprite>
+        <sprite gender="female">races/tritan-female.xml</sprite>
+        <sound event="hit">weapons/barehands/hit1.ogg</sound>
+        <sound event="miss">weapons/barehands/miss1.ogg</sound>
+    </item>
+
+    <!-- Special Races -->
+    <item id="-150" type="racesprite" name="Piou">
+        <sprite gender="unisex">races/piou-unisex.xml</sprite>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+    </item>
+
+    <!-- Usable Items -->
+    <item id="501"
+        image="usable/acorn.png"
+        name="Acorn"
+        description="A natural food, ingredient, bait or seed."
+        useButton="Eat"
+        effect="Heal 12-18 HP"
+        type="usable"
+        weight="3"
+        maxFloorOffset="10">
+        <inventory>
+            <menu
+                name1="Eat"
+                command1="useinv 'INVINDEX'"
+                name2="Eat"
+            />
+            <menu
+                name1="Plant"
+                command1="useinv 'INVINDEX' 1"
+                name2="Plant"
+            />
+        </inventory>
+    </item>
+    <item id="502"
+        image="usable/bread.png"
+        name="Bread"
+        description="A baked food, ingredient or bait."
+        useButton="Eat"
+        effect="Heal 25-40 HP"
+        type="usable"
+        weight="25"/>
+    <item id="503"
+        image="usable/fungus.png"
+        name="Fungus"
+        description="A peculiar food, ingredient or remedy against poison."
+        useButton="Eat"
+        effect="Damage -5%; Defense +5%; Heal 25-35 HP"
+        type="usable"
+        weight="8"
+        maxFloorOffset="9"/>
+    <item id="504"
+        image="usable/cheese.png"
+        name="Cheese"
+        description="A yummy food, ingredient or bait."
+        useButton="Eat"
+        effect="Heal 30-50 HP"
+        type="usable"
+        weight="3"/>
+    <item id="505"
+        image="usable/pioulegs.png"
+        name="Piou Legs"
+        description="A tender food, ingredient or bait."
+        useButton="Eat"
+        effect="Heal 7-13 HP"
+        type="usable"
+        weight="4"/>
+    <item id="506"
+        image="usable/lettuceleaf.png"
+        name="Lettuce Leaf"
+        description="A healthy food, ingredient or bait."
+        useButton="Eat"
+        effect="Heal 15-25 HP"
+        type="usable"
+        weight="1"/>
+    <item id="507"
+        image="usable/piberries.png"
+        name="Piberries"
+        description="The famous staining fruit."
+        useButton="Eat"
+        effect="Heal 12-23 HP"
+        type="usable"
+        weight="2"/>
+    <item id="508"
+        image="usable/drops.png|S:#898989,7287a0,aeaeae,96abc6,cecece,bccce0,e5e5e5,dce4ee"
+        name="Sea Drops"
+        description="Yucky drops of salt water."
+        useButton="Drink"
+        effect="Headache; Heal 10-20 HP"
+        type="usable"
+        weight="4"/>
+    <item id="509"
+        image="usable/aquada.png"
+        name="Aquada"
+        description="A nutritious fruit of the sea."
+        useButton="Eat"
+        effect="Heal 75-100 HP"
+        type="usable"
+        weight="16"/>
+    <item id="510"
+        image="usable/blobime.png|S:#686868,695977,919191,9f79a9,bababa,d69ec0,dcdcdc,eccddf"
+        name="Pink Blobime"
+        description="Yucky pink mucus of little blub."
+        useButton="Eat"
+        effect="Headache; Heal 2-6 HP"
+        type="usable"
+        weight="10"/>
+    <item id="511"
+        image="usable/blobime.png|S:#686868,4e4e86,919191,7966b0,bababa,a384d5,dcdcdc,d7b9ea"
+        name="Purple Blobime"
+        description="Stinky purple mucus of blub."
+        useButton="Eat"
+        effect="Stomach ache; Heal 30-70 HP"
+        type="usable"
+        weight="10"/>
+    <item id="512"
+        image="usable/croconut-half.png"
+        name="Half Croconut"
+        description="Its inside seems delicious."
+        useButton="Eat"
+        effect="Heal 65-90 HP"
+        type="usable"
+        weight="38"
+        maxFloorOffset="10"/>
+    <item id="513"
+        image="usable/croconut.png"
+        name="Croconut"
+        description="Fallen from a crocotree, this fruit could be opened."
+        useButton="Open"
+        type="usable"
+        weight="80"/>
+    <item id="514"
+        image="usable/book-old.png"
+        name="Old Book"
+        description="A book that threatens to fall apart in your hands as you carefully browse the pages."
+        useButton="Read"
+        type="usable"
+        weight="25"/>
+    <item id="515"
+        image="usable/plushroom.png"
+        name="Plushroom"
+        description="A strange remedy of many possible uses."
+        useButton="Eat"
+        effect="Damage +5%; Heal 20-30 HP"
+        type="usable"
+        weight="8"/>
+    <item id="516"
+        image="usable/pumpkinseeds.png"
+        name="Pumpkin Seeds"
+        description="Yucky seeds that threaten to grow out-of-control."
+        useButton="Eat"
+        hp="1"
+        effect="Headache"
+        type="usable"
+        weight="1"/>
+    <item id="517"
+        image="usable/deliciouscookie.png"
+        name="Delicious Cookie"
+        description="This is a reward from the Cookie Master. Be careful before you eat it, its effects are unknown..."
+        useButton="Eat"
+        effect="Unknown"
+        type="equip-torso">
+        <replace />
+        <replace sprite="race">
+            <item from="-100" to="-150"/>
+            <item from="-101" to="-150"/>
+            <item from="-102" to="-150"/>
+            <item from="-103" to="-150"/>
+            <item from="-104" to="-150"/>
+            <item from="-105" to="-150"/>
+            <item from="-106" to="-150"/>
+        </replace>
+    </item>
+    <item id="518"
+        image="usable/urchinmeat.png"
+        name="Urchin Meat"
+        description="A seafood ingredient."
+        useButton="Eat"
+        effect="Heal 28-35 HP"
+        type="usable"
+        weight="1"/>
+    <item id="519"
+        image="usable/easteregg.png"
+        name="Easter Egg"
+        description="A chocolate shell covered in a very thin metal layer."
+        useButton="Eat"
+        effect="Heal 60-75 HP"
+        type="usable"
+        weight="10"/>
+    <item id="520"
+        image="usable/piberriesinfusion.png"
+        name="Piberries Infusion"
+        description="A potion made from piberries."
+        effect="Heal 110-130 HP"
+        useButton="Drink"
+        type="usable"
+        weight="15"/>
+    <item id="521"
+        image="usable/fatespotion.png"
+        name="Fate's Potion"
+        description="An effective blood-loss remedy."
+        effect="Heal 240-260 HP"
+        useButton="Drink"
+        type="usable"
+        weight="17"/>
+    <item id="522"
+        image="usable/clotholiquor.png"
+        name="Clotho Liquor"
+        description="Remedy used in feral warrior training sessions."
+        effect="Heal 575-625 HP"
+        useButton="Drink"
+        type="usable"
+        weight="16"/>
+    <item id="523"
+        image="usable/lachesisbrew.png"
+        name="Lachesis Brew"
+        description="Rare, powerful and restricted remedy."
+        effect="Heal 1100-1300 HP"
+        useButton="Drink"
+        type="usable"
+        weight="14"/>
+    <item id="524"
+        image="usable/atroposmixture.png"
+        name="Atropos Mixture"
+        description="The most advanced potion ever synthesized."
+        effect="Heal 2300-2550 HP"
+        useButton="Drink"
+        type="usable"
+        weight="15"/>
+    <item id="525"
+        image="usable/elixiroflife.png"
+        name="Elixir Of Life"
+        description="A potion able to restore even dead trees to life."
+        effect="Heal 10000 HP"
+        useButton="Eat"
+        type="usable"
+        weight="20"/>
+    <item id="526"
+        image="usable/shovel.png"
+        name="Iron Shovel"
+        useButton="Use"
+        description="Discover treasures, dungeons and raw materials."
+        type="usable"
+        weight="210"
+        maxFloorOffset="5"/>
+    <item id="527"
+        image="usable/pumpkinjuice.png"
+        name="Pumpkin Juice"
+        useButton="Use"
+        description="Blood-colored juice from madly swarming pumpkin."
+        effect="Heal 30-50 HP"
+        type="usable"
+        weight="5"
+        maxFloorOffset="15"/>
+    <item id="528"
+        image="usable/manana.png"
+        name="Manana"
+        useButton="Use"
+        description="A fast healing fruit."
+        effect="Heal 70-80 HP"
+        type="usable"
+        weight="10"
+        maxFloorOffset="6"/>
+    <item id="529"
+        image="usable/curshroom.png"
+        name="Curshroom"
+        description="A strange remedy of many possible uses, cures poison."
+        useButton="Eat"
+        effect="Damage per second +10; Heal 40-50 HP"
+        type="usable"
+        weight="10"
+        maxFloorOffset="6"/>
+    <item id="530"
+        image="usable/carrot.png"
+        name="Carrot"
+        description="Good in various recipes."
+        useButton="Eat"
+        effect="Heal 20-30 HP"
+        type="usable"
+        weight="3"
+        maxFloorOffset="6"/>
+    <item id="531"
+        image="usable/wine.png"
+        name="Red Plush Wine"
+        description="Wine produced from black grapes in the south-east of Aurora."
+        effect="Heal 40-90 HP"
+        useButton="Drink"
+        type="usable"
+        weight="10"/>
+    <item id="532"
+        image="usable/book-pioufluffy.png"
+        name="Piou and The Fluffy"
+        description="This story is a warning against listening to flattery."
+        useButton="Read"
+        type="usable"
+        weight="25"/>
+    <item id="533"
+        image="usable/book-poem.png"
+        name="Poem about Poems"
+        description="A heart touching poem written by Nard."
+        useButton="Read"
+        type="usable"
+        weight="20"/>
+    <item id="534"
+        image="usable/book-chorus.png"
+        name="Chorus of the Woods"
+        description="This poem was written centuries ago and is from the ancient city of Keshlam."
+        useButton="Read"
+        type="usable"
+        weight="25"/>
+    <item id="535"
+        image="usable/book-comtheory.png"
+        name="Communication Theory"
+        description="Various meta explanations regarding the dialogue system."
+        useButton="Read"
+        type="usable"
+        weight="20"/>
+    <item id="536"
+        image="usable/book-chorus.png"
+        name="Fluffy Animals who Love Their Owners"
+        description="A quick guide to introduce pet caring."
+        useButton="Read"
+        type="usable"
+        weight="20"/>
+    <item id="537"
+        image="usable/book-laws.png"
+        name="The Book of Laws"
+        description="The basic laws respected and upheld in all parts of Gasaron."
+        useButton="Read"
+        type="usable"
+        weight="10"/>
+    <item id="538"
+        image="usable/book-fishing.png"
+        name="Fishing Guide Vol. I"
+        description="A small book that covers the basics of fishing."
+        useButton="Read"
+        type="usable"
+        weight="25"/>
+
+    <!-- Generic Items -->
+    <item id="700"
+        image="generic/smalltentacles.png"
+        name="Small Tentacles"
+        description="Colorful tentacles with poisonous barbs."
+        type="generic"
+        weight="5"
+        maxFloorOffset="12"/>
+     <item id="701"
+        image="generic/pioufeathers.png"
+        name="Piou Feathers"
+        description="Small feathers of an innocent little piou."
+        type="generic"
+        weight="1"
+        maxFloorOffset="8"/>
+    <item id="702"
+        image="generic/tortugashell-fragment.png"
+        name="Tortuga Shell Fragment"
+        description="Used to make tools and decorations."
+        type="generic"
+        weight="25"/>
+    <item id="703"
+        image="generic/eggshell-half.png"
+        name="Half Eggshell"
+        description="Maybe something hatched, or someone was cooked..."
+        type="generic"
+        weight="2"/>
+    <item id="704"
+        image="generic/rattotail.png"
+        name="Ratto Tail"
+        description="Hairless tail of a ratto."
+        type="generic"
+        weight="1"/>
+    <item id="705"
+        image="generic/teeth-ratto.png"
+        name="Ratto Teeth"
+        description="Sharp incisors of a ratto."
+        type="generic"
+        weight="1"/>
+    <item id="706"
+        image="generic/crocclaw.png"
+        name="Croc Claw"
+        description="It moves and pinches without its body."
+        type="generic"
+        weight="45"/>
+    <item id="707"
+        image="generic/squichyclaws.png"
+        name="Squichy Claws"
+        description="Claws from a wild Squichy."
+        type="generic"
+        weight="1"/>
+    <item id="708"
+        image="generic/tortugashell.png"
+        name="Tortuga Shell"
+        description="A symbol of shelter."
+        type="generic"
+        weight="95"/>
+    <item id="709"
+        image="generic/tongue.png"
+        name="Tortuga Tongue"
+        description="Adept to digesting blubs."
+        type="generic"
+        weight="2"
+        maxFloorOffset="12"/>
+    <item id="710"
+        image="generic/pearl.png"
+        name="Pearl"
+        description="A beautiful round and shiny pearl."
+        type="generic"
+        weight="1"
+        maxFloorOffset="11"/>
+    <item id="711"
+        image="generic/coral.png|S:#535353,693d41,808080,b44e4c,999999,da6858,b9b9b9,f1a082,d7d7d7,fbcbb3"
+        name="Coral"
+        description="Can indicate the health of oceanic ecosystems."
+        type="generic"
+        weight="10"
+        maxFloorOffset="9"/>
+    <item id="712"
+        image="generic/coral.png|S:#535353,473746,808080,5b5a84,999999,6c7ec6,b9b9b9,7eb1e0,d7d7d7,c2f6fa"
+        name="Blue Coral"
+        description="A coral dyed in blue by a blub."
+        type="generic"
+        weight="10"
+        maxFloorOffset="9"/>
+    <item id="713"
+        image="generic/box-fish.png"
+        name="Fish Box"
+        description="A wooden box full of fresh fish that Couwan gave you."
+        type="generic"
+        weight="1250"/>
+    <item id="714"
+        image="generic/box-aquada.png"
+        name="Aquada Box"
+        description="Contains 50 aquadas."
+        type="generic"
+        weight="850"/>
+    <item id="715"
+        image="generic/box-croconut.png"
+        name="Croconut Box"
+        description="Contains 17 croconuts."
+        type="generic"
+        weight="1400"/>
+    <item id="716"
+        image="generic/box-plushroom.png"
+        name="Plushroom Box"
+        description="Contains 87 plushrooms."
+        type="generic"
+        weight="720"/>
+    <item id="717"
+        image="generic/dish-poisoned.png"
+        name="Poisoned Dish"
+        description="A special dish made of strange ingredients."
+        type="generic"
+        weight="20"
+        maxFloorOffset="12"/>
+    <item id="718"
+        image="generic/key-ship.png"
+        name="La Johanne's Key"
+        description="An iron key to open La Johanne's entrance door."
+        type="generic"
+        weight="1"
+        maxFloorOffset="12"/>
+    <item id="719"
+        image="generic/wing-bat.png|S:#4d4d4d,3d2e37,686868,4f3c47,919191,664f4f,b6b6b6,948573"
+        name="Left Crafty Wing"
+        description="This wing is slight and soft unlike its former owner."
+        type="generic"
+        weight="35"
+        maxFloorOffset="17"/>
+    <item id="720"
+        image="generic/teeth-bat.png"
+        name="Bat Teeth"
+        description="What sharp teeth! They seem to be more dangerous than a knife."
+        type="generic"
+        weight="3"
+        maxFloorOffset="16"/>
+    <item id="721"
+        image="generic/wing-bat.png|S:#4d4d4d,4b3126,686868,624632,919191,af6b3b,b6b6b6,de8f40"
+        name="Right Crafty Wing"
+        description="This wing is slight and soft unlike its former owner."
+        type="generic"
+        weight="35"
+        maxFloorOffset="17"/>
+    <item id="722"
+        image="generic/pumpkin.png"
+        name="Pumpkin"
+        description="An invasive species, sometimes carved during festivals."
+        type="generic"
+        weight="530"
+        maxFloorOffset="10"/>
+    <item id="723"
+        image="generic/mushroom-spores.png"
+        name="Mushroom Spores"
+        description="Some colored spores that help mushrooms spread across the land."
+        type="generic"
+        weight="1"
+        maxFloorOffset="12"/>
+    <item id="724"
+        image="generic/moss.png"
+        name="Moss"
+        description="Grows in moist, shady areas."
+        type="generic"
+        weight="2"
+        maxFloorOffset="12"/>
+    <item id="725"
+        image="generic/tentacles.png"
+        name="Tentacles"
+        description="Boneless appendage of an invertebrate."
+        type="generic"
+        weight="8"
+        maxFloorOffset="7"/>
+    <item id="726"
+        image="generic/carp.png"
+        name="Common Carp"
+        description="Freshwater is commonly inhabited by these pests."
+        type="generic"
+        weight="200"
+        maxFloorOffset="9"/>
+    <item id="727"
+        image="generic/carp.png|S:#394f4d,3e4d58,607793,7b6093,6ba6a8,a47ba8,c9dec0,dec0cb,8dc7a2,dec0cb"
+        name="Grass Carp"
+        description="A smart fish, very difficult to catch."
+        type="generic"
+        weight="200"
+        maxFloorOffset="9"/>
+    <item id="728"
+        image="generic/fishingrod.png"
+        name="Fishing Rod"
+        description="Designed for sports fishing."
+        type="generic"
+        weight="20"
+        maxFloorOffset="4"/>
+    <item id="729"
+        image="generic/fur.png"
+        name="Fluffy Fur"
+        description="This soft fur is used to make warm clothing."
+        type="generic"
+        weight="2"
+        maxFloorOffset="8"/>
+    <item id="730"
+        image="generic/letter-stamp.png"
+        name="Clan Certification"
+        description="This piece of paper grants you official permission to found a clan."
+        type="generic"
+        weight="1"
+        maxFloorOffset="4"/>
+
+    <!-- Necklaces
+    <item id="1000"
+        image="equipment/amulet/.png"
+        name=""
+        description="."
+        effect="."
+        level=""
+        type="equip-necklace"
+        weight=""/> -->
+
+    <!-- Chest Armors -->
+    <item id="1300"
+        image="equipment/chest/cottonshirt.png|S:#3c3c3c,3e3c38,4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
+        name="Creased Shirt"
+        description="A spare shirt from the crew of La Johanne."
+        defense="50"
+        level="1"
+        type="equip-torso"
+        weight="17">
+        <sprite gender="unisex">equipment/chest/cottonshirt-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
+        <sprite gender="female">equipment/chest/cottonshirt-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
+    </item>
+    <item id="1301"
+        image="equipment/chest/vneckjumper.png|S"
+        name="%Color% V-neck Jumper"
+        description="A simple %color% jumper made from a lightweight cashmere."
+        defense="140"
+        level="10"
+        type="equip-torso"
+        weight="30"
+        colors="vneck"
+        iconColors="vneckS">
+        <sprite gender="unisex">equipment/chest/vneckjumper-male.xml</sprite>
+        <sprite gender="female">equipment/chest/vneckjumper-female.xml</sprite>
+    </item>
+    <item id="1302"
+        image="equipment/chest/tanktop.png|W"
+        name="%Color% Artis Tank Top"
+        description="A %color% tank top made from cotton cloth."
+        defense="100"
+        level="5"
+        type="equip-torso"
+        weight="11"
+        colors="simple"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/tanktop-male.xml</sprite>
+        <sprite gender="female">equipment/chest/tanktop-female.xml</sprite>
+    </item>
+    <item id="1303"
+        image="equipment/chest/sailorshirt.png"
+        name="Sailor Shirt"
+        description="Proof that ye be in the crew, matey!"
+        defense="180"
+        level="10"
+        type="equip-torso"
+        weight="22">
+        <sprite gender="unisex">equipment/chest/shirt-male.xml|#4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
+        <sprite gender="female">equipment/chest/shirt-female.xml|#4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
+    </item>
+    <item id="1304"
+        image="equipment/chest/trainingshirt.png"
+        name="Legion's Training Shirt"
+        description="Informal shirt worn during intense aerobic exercises."
+        defense="200"
+        level="10"
+        type="equip-torso"
+        weight="120">
+        <sprite gender="unisex">equipment/chest/trainingshirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/trainingshirt-female.xml</sprite>
+    </item>
+    <item id="1305"
+        image="equipment/chest/copperarmor.png"
+        name="Legion's Copper Armor"
+        description="This armor provides great protection. It is worn by those with authority."
+        defense="400"
+        level="15"
+        type="equip-torso"
+        weight="340">
+        <sprite gender="unisex">equipment/chest/copperarmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/copperarmor-female.xml</sprite>
+    </item>
+
+    <!-- Boots -->
+    <item id="1800"
+        image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
+        name="Lousy Moccasins"
+        description="Crudely assembled footwear not for comfort nor fashion."
+        defense="100"
+        level="4"
+        type="equip-feet"
+        weight="18"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    </item>
+
+    <!-- Gloves -->
+    <item id="2000"
+        image="equipment/hands/armbands.png"
+        name="Armbands"
+        description="Small armbands made of wood and iron."
+        defense="80"
+        level="3"
+        type="equip-arms"
+        weight="10"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml</sprite>
+    </item>
+    <item id="2001"
+        image="equipment/hands/copperarmbands.png"
+        name="Copper Armbands"
+        description="Sturdy, combat-issue armbands."
+        defense="120"
+        level="8"
+        type="equip-arms"
+        weight="20"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+    </item>
+    <item id="2002"
+        image="equipment/hands/ironarmbands.png"
+        name="Iron Armbands"
+        description="Heavy armbands that slow down all but experienced warriors."
+        defense="180"
+        level="12"
+        type="equip-arms"
+        weight="30"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+    </item>
+
+    <!-- Pants -->
+    <item id="2200"
+        image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
+        name="Creased Shorts"
+        description="Spare shorts from the crew of La Johanne."
+        defense="60"
+        level="1"
+        type="equip-legs"
+        weight="20"
+        maxFloorOffset="9">
+        <sprite gender="unisex">equipment/legs/shorts-male.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
+        <sprite gender="female">equipment/legs/shorts-female.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
+    </item>
+    <item id="2201"
+        image="equipment/legs/trousers.png"
+        name="Brown Trousers"
+        description="Classic trousers ornated with some fluffy fur."
+        defense="140"
+        level="5"
+        type="equip-legs"
+        weight="35"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/trousers-male.xml</sprite>
+        <sprite gender="female">equipment/legs/trousers-female.xml</sprite>
+    </item>
+
+    <!-- Wings
+    <item id="2500"
+        image="equipment/wings/.png"
+        name=""
+        description="."
+        effect="."
+        level=""
+        type="equip-charm"
+        weight="">
+        <sprite>equipment/wings/</sprite>
+    </item> -->
+
+    <!-- Shields -->
+    <item id="2700"
+        image="equipment/shields/barrel.png"
+        name="Barrel"
+        description="It smells as if somebody used to live inside this barrel..."
+        defense="100"
+        level="5"
+        type="equip-shield"
+        weight="400">
+        <sprite>equipment/shields/barrel.xml</sprite>
+    </item>
+    <item id="2701"
+        image="equipment/shields/leather.png"
+        name="Leather Shield"
+        description="Small and round leather shield with iron reinforcement."
+        defense="50"
+        level="5"
+        type="equip-shield"
+        weight="100">
+    </item>
+
+    <!-- Head Gears -->
+    <item id="2900"
+        image="equipment/head/bandana.png"
+        name="Bandana"
+        description="A striped bandana worn by some sailors."
+        defense="40"
+        level="5"
+        type="equip-head"
+        weight="4">
+        <sprite gender="unisex">equipment/head/bandana-male.xml</sprite>
+        <sprite gender="female">equipment/head/bandana-female.xml</sprite>
+        <replace sprite="hair">
+            <item from="-3" to="-7"/>
+            <item from="-4" to="-7"/>
+            <item from="-5" to="-27"/>
+            <item from="-6" to="-7"/>
+            <item from="-13" to="-1"/>
+            <item from="-14" to="-7"/>
+            <item from="-15" to="-7"/>
+            <item from="-16" to="-10"/>
+            <item from="-21" to="-7"/>
+            <item from="-23" to="-1"/>
+            <item from="-25" to="-7"/>
+            <item from="-26" to="-21"/>
+        </replace>
+    </item>
+    <item id="2901"
+        image="equipment/head/pumpkinhat.png"
+        name="Pumpkin Hat"
+        description="A carved pumpkin. Its face might scare your enemy off!"
+        defense="20"
+        level="4"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/pumpkinhat.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2902"
+        image="equipment/head/fancyhat.png"
+        name="Fancy Hat"
+        description="Worn when living away from cities."
+        defense="20"
+        level="4"
+        type="equip-head"
+        weight="11">
+        <sprite>equipment/head/fancyhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-13" to="-27"/>
+            <item from="-23" to="-27"/>
+        </replace>
+    </item>
+    <item id="2903"
+        image="equipment/head/brimmedhat.png"
+        name="Brimmed Hat"
+        description="Unequip when indoors, please."
+        defense="100"
+        level="8"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/brimmedhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2904"
+        image="equipment/head/brimmedfeatherhat.png"
+        name="Brimmed Feather Hat"
+        description="Distinguishes someone who is traveling."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="23">
+        <sprite>equipment/head/brimmedfeatherhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2905"
+        image="equipment/head/brimmedflowerhat.png"
+        name="Brimmed Flower Hat"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/brimmedflowerhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+            </item>
+    <item id="2909"
+        image="equipment/head/crusadehelmet.png"
+        name="Crusade Helmet"
+        description="A carved pumpkin. Its face might scare your enemy off!"
+        defense="200"
+        level="4"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/crusadehelmet.xml</sprite>
+        <replace sprite="hair"/>
+
+    </item>
+
+    <!-- Neck Armors -->
+    <item id="3200"
+        image="equipment/neck/shemagh.png"
+        name="Shemagh"
+        description="An improved scarf used by mercenaries in tough environments."
+        defense="50"
+        level="3"
+        type="equip-neck"
+        weight="22"
+        drawAfter="torso">
+        <sprite gender="unisex">equipment/neck/shemagh.xml</sprite>
+        <sprite gender="female">equipment/neck/shemagh.xml</sprite>
+    </item>
+
+    <!-- Weapons -->
+    <item id="3500"
+        image="equipment/weapons/knife.png"
+        name="Knife"
+        description="A simple, but sharp knife."
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3501"
+        image="equipment/weapons/piouslayer.png"
+        name="Piou Slayer"
+        description="A short sword for amateurs."
+        attack="150"
+        attack-range="1"
+        level="3"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="26">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3502"
+        image="equipment/weapons/traininggladius.png"
+        name="Training Gladius"
+        description="A short sword made for close combat."
+        attack="350"
+        attack-range="1"
+        level="5"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="58">
+        <sprite>equipment/weapons/traininggladius.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3503"
+        image="equipment/weapons/woodensword.png"
+        name="Wooden Sword"
+        description="For sword training. Do not show-off with it."
+        attack="40"
+        attack-range="1"
+        level="5"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="25">
+        <sprite>equipment/weapons/woodensword.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3504"
+        image="equipment/weapons/backsword.png"
+        name="Artis Backsword"
+        description="An engraved backsword with the symbole of Artis on its brass hilt."
+        attack="800"
+        attack-range="1"
+        level="15"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="86">
+        <sprite>equipment/weapons/backsword.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+
+    <!-- Pets -->
+    <item id="4000"
+        image="usable/piouegg.png"
+        name="Piou egg"
+        description="Piou egg. Not for omelettes!"
+        type="generic"
+        useButton="Hatch"
+    />
+
+    <!-- Cards -->
+    <item id="5000"
+        image="usable/dye.png|S:#3c3c3c,3e1e28,4d4d4d,6f2630,686868,a6313f,919191,d15b5b,b6b6b6,e59b77,dfdfdf,efe0c1"
+        name="Crimson Cashmere Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cashemere clothing."
+        type="card"
+        weight="1"
+        cardColor="2"
+        maxFloorOffset="15"/>
+    <item id="5001"
+        image="usable/dye.png|S:#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"
+        name="Chocolate Cashmere Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cashemere clothing."
+        type="card"
+        weight="1"
+        cardColor="3"
+        maxFloorOffset="15"/>
+    <item id="5002"
+        image="usable/dye.png|S:#3c3c3c,35313d,4d4d4d,443f4f,686868,485c6b,919191,50918f,b6b6b6,75c7a8,dfdfdf,c3e8c4"
+        name="Mint Cashmere Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cashemere clothing."
+        type="card"
+        weight="1"
+        cardColor="4"
+        maxFloorOffset="15"/>
+    <item id="5003"
+        image="usable/dye.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="2"
+        maxFloorOffset="15"/>
+    <item id="5004"
+        image="usable/dye.png|W:#44494b,797a7e,b9bbc1"
+        name="Silver Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="3"
+        maxFloorOffset="15"/>
+    <item id="5005"
+        image="usable/dye.png|W:#594d36,b49b6c,f4d293"
+        name="Camel Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="4"
+        maxFloorOffset="15"/>
+    <item id="5006"
+        image="usable/dye.png|W:#3f221d,754d23,f5cea4"
+        name="Brown Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="5"
+        maxFloorOffset="15"/>
+    <item id="5007"
+        image="usable/dye.png|W:#831f2d,f07401,f8cc8b"
+        name="Orange Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="6"
+        maxFloorOffset="15"/>
+    <item id="5008"
+        image="usable/dye.png|W:#6a0022,7c151a,c60022"
+        name="Dark Red Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="7"
+        maxFloorOffset="15"/>
+    <item id="5009"
+        image="usable/dye.png|W:#580000,a40000,c02020,ff6060"
+        name="Red Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="8"
+        maxFloorOffset="15"/>
+    <item id="5010"
+        image="usable/dye.png|W:#620e48,bf1b8b,e32bcf,ffb6f7"
+        name="Fuchsia Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="9"
+        maxFloorOffset="15"/>
+    <item id="5011"
+        image="usable/dye.png|W:#a92d42,f67189,ffbac7"
+        name="Pink Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="10"
+        maxFloorOffset="15"/>
+    <item id="5012"
+        image="usable/dye.png|W:#640088,b350e0,ecb7ff"
+        name="Mauve Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="11"
+        maxFloorOffset="15"/>
+    <item id="5013"
+        image="usable/dye.png|W:#3c1554,6d3195,c987d1"
+        name="Purple Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="12"
+        maxFloorOffset="15"/>
+    <item id="5014"
+        image="usable/dye.png|W:#0d1430,21337c,4363e5"
+        name="Navy Blue Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="13"
+        maxFloorOffset="15"/>
+    <item id="5015"
+        image="usable/dye.png|W:#2d2d41,4c4d9a,7b7b99"
+        name="Blue Gray Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="14"
+        maxFloorOffset="15"/>
+    <item id="5016"
+        image="usable/dye.png|W:#16486e,498ec5,e4f2fc"
+        name="Blue Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="15"
+        maxFloorOffset="15"/>
+    <item id="5017"
+        image="usable/dye.png|W:#196253,18986c,37cf7d"
+        name="Teal Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="16"
+        maxFloorOffset="15"/>
+    <item id="5018"
+        image="usable/dye.png|W:#115511,22aa22,99dd99"
+        name="Green Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="17"
+        maxFloorOffset="15"/>
+    <item id="5019"
+        image="usable/dye.png|W:#547000,a5dc00,d1ff46"
+        name="Lime Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="18"
+        maxFloorOffset="15"/>
+    <item id="5020"
+        image="usable/dye.png|W:#002504,2d551b,07871d"
+        name="Khaki Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="19"
+        maxFloorOffset="15"/>
+    <item id="5021"
+        image="usable/dye.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow Cotton Dye"
+        useButton="Dye"
+        description="Color dye that can be used on cotton clothing."
+        type="card"
+        weight="1"
+        cardColor="20"
+        maxFloorOffset="15"/>
+
+    <!-- Bows -->
+    <item id="6000"
+        image="equipment/weapons/woodenbow.png"
+        name="Wooden Bow"
+        description="For bow training. Does not seem much reliable."
+        attack="70"
+        attack-range="5"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="5"
+        missile-diedistance="3"
+        level="5"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="12">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+
+    <!-- Arrows -->
+    <item id="6500"
+        image="equipment/ammo/trainingarrow.png"
+        name="Training Arrow"
+        description="For bow training. Does not seem much reliable."
+        type="equip-ammo"
+        attack="100"
+        weight="1"/>
+</items>

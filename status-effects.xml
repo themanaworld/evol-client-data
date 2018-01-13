@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144, Alige, Reid
+Copyright (C) 2010-2013 Evol Online -->
+
+<!--
+name:                       Name of the status effect.
+id:                         ID of the status effect.
+persistent-particle-effect: Displays if the effect is present during all of the timer (?).
+start-particle:             Particles used for the effect, appearing when the effect is enabled.
+icon:                       Displays an icon in the top bar, appearing when the effect is enabled.
+start-message:              Displays a message when you launch the effect.
+end-message:                Displays a message when the effect end.
+-->
+
+<status-effects>
+    <status-effect
+        name="provoke"
+        id="0"
+    />
+    <status-effect
+        name="endure"
+        id="1"
+    />
+    <status-effect
+        name="concentration"
+        id="3"
+    />
+    <status-effect
+        name="hiding"
+        id="4"
+        option="2"
+        icon="icons/invisible.xml"
+    />
+    <status-effect
+        name="cloacking"
+        id="5"
+        option="4"
+        icon="icons/invisible.xml"
+    />
+    <status-effect
+        name="enchant poison"
+        id="6"
+    />
+    <status-effect
+        name="poison react"
+        id="7"
+    />
+    <status-effect
+        name="quagmire"
+        id="8"
+    />
+    <status-effect
+        name="angelus"
+        id="9"
+        opt2="32"
+    />
+    <status-effect
+        name="blessing"
+        id="10"
+    />
+    <status-effect
+        name="inc agi"
+        id="12"
+    />
+    <status-effect
+        name="dec agi"
+        id="13"
+    />
+    <status-effect
+        name="magnificat"
+        id="20"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="riding"
+        id="27"
+        option="32"
+        icon="icons/invisible.xml"
+    />
+    <status-effect
+        name="falcon"
+        id="28"
+        option="16"
+    />
+    <status-effect
+        name="trick dead"
+        id="29"
+    />
+    <status-effect
+        name="weight 50%"
+        id="35"
+    />
+    <status-effect
+        name="weight 90%"
+        id="36"
+    />
+    <status-effect
+        name="att haste 1"
+        id="37"
+    />
+    <status-effect
+        name="att haste 2"
+        id="38"
+    />
+    <status-effect
+        name="att haste 3"
+        id="39"
+    />
+    <status-effect
+        name="post delay"
+        id="46"
+    />
+    <status-effect
+        name="lk concentration"
+        id="105"
+        icon="icons/concentration.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/concentration.xml"
+    />
+    <status-effect
+        name="cart boost"
+        id="118"
+    />
+    <status-effect
+        name="bleeding"
+        id="124"
+        opt2="64"
+    />
+    <status-effect
+        name="run"
+        id="133"
+    />
+    <status-effect
+        name="ting"
+        id="134"
+    />
+    <status-effect
+        name="inc str"
+        id="182"
+    />
+    <!-- fake id -->
+    <status-effect
+        name="hide"
+        id="194"
+        icon="icons/hide.xml"
+    />
+    <status-effect
+        name="cash plus exp"
+        id="250"
+    />
+    <status-effect
+        name="heal s"
+        id="293"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="heal l"
+        id="294"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="stasis"
+        id="356"
+    />
+    <status-effect
+        name="camouflage"
+        id="360"
+    />
+    <status-effect
+        name="sphere 1"
+        id="363"
+    />
+    <status-effect
+        name="sphere 2"
+        id="364"
+    />
+    <status-effect
+        name="sphere 3"
+        id="365"
+    />
+    <status-effect
+        name="sphere 4"
+        id="366"
+    />
+    <status-effect
+        name="sphere 5"
+        id="367"
+    />
+    <status-effect
+        name="invisibility"
+        id="403"
+        icon="icons/invisible.xml"
+        start-message="You are now invisible."
+        end-message="You are no longer invisible."
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/invisibility.xml"
+    />
+    <status-effect
+        name="cloud kill"
+        id="440"
+    />
+    <status-effect
+        name="heal g"
+        id="578"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="sit"
+        id="622"
+    />
+    <status-effect
+        name="heal m"
+        id="670"
+        icon="icons/healing.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/healing.xml"
+    />
+    <status-effect
+        name="cart"
+        id="673"
+        icon="icons/hide.xml"
+    />
+    <status-effect
+        name="equip arrows"
+        id="695"
+    />
+    <status-effect
+        name="daily send mail count"
+        id="824"
+    />
+    <status-effect
+        name="spell-protection"
+        id="966"
+        icon="icons/spell-protection.xml"
+        start-particle="graphics/particles/magic-shield.xml"
+        end-particle="graphics/particles/magic-shield-end.xml"
+    />
+
+    <!-- OPTION_SIGHT -->
+    <status-effect
+        name="sight"
+        option="1"
+    />
+    <!-- OPTION_CART1 -->
+    <status-effect
+        name="cart 1"
+        option="8"
+    />
+    <!-- OPTION_INVISIBLE -->
+    <status-effect
+        name="invisible"
+        option="64"
+        icon="icons/invisible.xml"
+        start-message="You are now invisible."
+        end-message="You are no longer invisible."
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/invisibility.xml"
+    />
+    <!-- OPTION_CART2 -->
+    <status-effect
+        name="cart 2"
+        option="128"
+    />
+    <!-- OPTION_CART3 -->
+    <status-effect
+        name="cart 3"
+        option="256"
+    />
+    <!-- OPTION_CART4 -->
+    <status-effect
+        name="cart 4"
+        option="512"
+    />
+    <!-- OPTION_CART5 -->
+    <status-effect
+        name="cart 5"
+        option="1024"
+    />
+    <!-- OPTION_ORCISH -->
+    <status-effect
+        name="orcish"
+        option="2048"
+    />
+    <!-- OPTION_WEDDING -->
+    <status-effect
+        name="wedding"
+        option="4096"
+    />
+    <!-- OPTION_RUWACH -->
+    <status-effect
+        name="ruwach"
+        option="8192"
+    />
+    <!-- OPTION_CHASEWALK -->
+    <status-effect
+        name="chase walk"
+        option="16384"
+    />
+    <!-- OPTION_FLYING -->
+    <status-effect
+        name="flying"
+        option="32768"
+    />
+    <!-- OPTION_XMAS -->
+    <status-effect
+        name="xmas"
+        option="65536"
+    />
+    <!-- OPTION_TRANSFORM -->
+    <status-effect
+        name="transform"
+        option="131072"
+    />
+    <!-- OPTION_SUMMER -->
+    <status-effect
+        name="summer"
+        option="262144"
+    />
+    <!-- OPTION_DRAGON1 -->
+    <status-effect
+        name="dragon 1"
+        option="524288"
+    />
+    <!-- OPTION_WUG -->
+    <status-effect
+        name="wug"
+        option="1048576"
+    />
+    <!-- OPTION_WUGRIDER -->
+    <status-effect
+        name="wug rider"
+        option="2097152"
+    />
+    <!-- OPTION_MADOGEAR -->
+    <status-effect
+        name="mado gear"
+        option="4194304"
+    />
+    <!-- OPTION_DRAGON2 -->
+    <status-effect
+        name="dragon 2"
+        option="8388608"
+    />
+    <!-- OPTION_DRAGON3 -->
+    <status-effect
+        name="dragon 3"
+        option="16777216"
+    />
+    <!-- OPTION_DRAGON4 -->
+    <status-effect
+        name="dragon 4"
+        option="33554432"
+    />
+    <!-- OPTION_DRAGON5 -->
+    <status-effect
+        name="dragon 5"
+        option="67108864"
+    />
+    <!-- OPTION_HANBOK -->
+    <status-effect
+        name="hanbok"
+        option="134217728"
+    />
+    <!-- OPTION_OKTOBERFEST -->
+    <status-effect
+        name="oktoberfest"
+        option="268435456"
+    />
+
+    <!-- OPT1_STONE -->
+    <status-effect
+        name="stone"
+        opt1="1"
+    />
+    <!-- OPT1_FREEZE -->
+    <status-effect
+        name="freeze"
+        opt1="2"
+    />
+    <!-- OPT1_STUN -->
+    <status-effect
+        name="stun"
+        opt1="3"
+    />
+    <!-- OPT1_SLEEP -->
+    <status-effect
+        name="sleep"
+        opt1="4"
+    />
+    <!-- OPT1_STONEWAIT -->
+    <status-effect
+        name="stone"
+        opt1="6"
+    />
+    <!-- OPT1_BURNING -->
+    <status-effect
+        name="burning"
+        opt1="7"
+    />
+    <!-- OPT1_IMPRISON -->
+    <status-effect
+        name="imprison"
+        opt1="8"
+    />
+    <!-- OPT1_CRYSTALIZE -->
+    <status-effect
+        name="crystalize"
+        opt1="9"
+    />
+
+    <!-- OPT2_POISON -->
+    <status-effect
+        name="poison"
+        opt2="1"
+        icon="icons/poison.xml"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/poison.xml"
+    />
+    <!-- OPT2_CURSE -->
+    <status-effect
+        name="curse"
+        opt2="2"
+    />
+    <!-- OPT2_SILENCE -->
+    <status-effect
+        name="silence"
+        opt2="4"
+    />
+    <!-- OPT2_SIGNUMCRUCIS -->
+    <status-effect
+        name="signum crucis"
+        opt2="8"
+    />
+    <!-- OPT2_BLIND -->
+    <status-effect
+        name="blind"
+        opt2="16"
+    />
+    <!-- OPT2_DPOISON -->
+    <status-effect
+        name="dpoison"
+        opt2="128"
+    />
+    <!-- OPT2_FEAR -->
+    <status-effect
+        name="fear"
+        opt2="256"
+    />
+
+</status-effects>

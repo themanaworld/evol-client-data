@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/accessories/harbour-rope.png"
+              width="192"
+              height="128"
+              offsetY="15"
+              offsetX="-16"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Static Top -->
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+        <!-- Moving Down, common divisor of 560 and delay in ms -->
+        <animation direction="left">
+            <sequence start="0" end="2" delay="80"/>
+        </animation>
+        <!-- Moving Bottom, common divisor of 560 and delay in ms -->
+        <animation direction="up">
+            <sequence start="2" end="0" delay="80"/>
+        </animation>
+        <!-- Static Bottom-->
+        <animation direction="right">
+            <frame index="2"/>
+        </animation>
+    </action>
+</sprite>

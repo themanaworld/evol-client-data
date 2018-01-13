@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2016 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/mona.png"
+              width="32"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <sequence value="0,1,2,1,2" delay="110"/>
+        </animation>
+    </action>
+</sprite>

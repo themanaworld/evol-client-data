@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/sailors.png"
+              width="278"
+              height="149"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0" offsetX="19" offsetY="19"/>
+        </animation>
+    </action>
+</sprite>

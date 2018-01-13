@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2015 Evol Online -->
+
+<sprite>
+    <imageset name="pious"
+              src="graphics/sprites/monsters/piou.png"
+              width="10"
+              height="9"
+              offsetX="4"
+              offsetY="-33"/>
+
+    <action name="stand" imageset="pious">
+        <animation>
+            <!-- static pious -->
+            <frame index="30" delay="2140"/>
+            <!-- biting ground -->
+            <frame index="33" delay="140"/>
+            <frame index="30" delay="140"/>
+            <frame index="33" delay="140"/>
+            <frame index="30" delay="140"/>
+            <frame index="33" delay="140"/>
+            <frame index="30" delay="140"/>
+            <frame index="33" delay="140"/>
+            <frame index="30" delay="140"/>
+            <frame index="33" delay="140"/>
+            <!-- static pious -->
+            <frame index="30" delay="1000"/>
+            <!-- turning on itself -->
+            <frame index="0" delay="120"/>
+            <frame index="35" delay="120"/>
+            <frame index="5" delay="120"/>
+            <frame index="20" delay="120"/>
+            <frame index="15" delay="130"/>
+            <frame index="25" delay="140"/>
+            <frame index="10" delay="150"/>
+            <!-- static pious -->
+            <frame index="30" delay="1500"/>
+            <!-- turning on itself on the other side -->
+            <frame index="10" delay="120"/>
+            <frame index="25" delay="120"/>
+            <frame index="15" delay="120"/>
+            <frame index="20" delay="120"/>
+            <frame index="5" delay="130"/>
+            <frame index="35" delay="140"/>
+            <frame index="0" delay="150"/>
+        </animation>
+    </action>
+</sprite>

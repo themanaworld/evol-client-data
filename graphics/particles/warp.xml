@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2010-2016 Evol Online -->
+
+<effect>
+    <particle position-x="0"
+              position-y="128"
+              position-z="128"
+              size-adjustable="true">
+        <emitter>
+            <property name="image" value="graphics/particles/star-small.png|W:#ffe6ce,ffe6ce"/>
+            <property name="lifetime" value="100"/>
+            <property name="position-x" min="0" max="32"/>
+            <property name="position-y" min="0" max="48"/>
+            <property name="vertical-angle" min="0" max="90"/>
+            <property name="horizontal-angle" min="0" max="360"/>
+            <property name="output" min="0" max="1"/>
+            <property name="output-pause" min="2" max="6"/>
+            <property name="fade-in" value="10"/>
+            <property name="fade-out" value="40"/>
+            <property name="gravity" min="-0.002" max="-0.005"/>
+            <property name="randomness" value="4"/>
+        </emitter>
+    </particle>
+</effect>

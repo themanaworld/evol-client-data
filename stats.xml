@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: 4144
+Copyright (C) 2016 Evol Online -->
+
+<!-- Id attribute used only for ManaPlus < 1.6.8.14 -->
+
+<stats>
+    <basic>
+        <stat
+            id="13"
+            attr="PLAYER_STR"
+            tag="str"
+            name="Strength"
+        />
+        <stat
+            id="14"
+            attr="PLAYER_AGI"
+            tag="agi"
+            name="Agility"
+        />
+        <stat
+            id="15"
+            attr="PLAYER_VIT"
+            tag="vit"
+            name="Vitality"
+        />
+        <stat
+            id="16"
+            attr="PLAYER_INT"
+            tag="int"
+            name="Intelligence"
+        />
+        <stat
+            id="17"
+            attr="PLAYER_DEX"
+            tag="dex"
+            name="Dexterity"
+        />
+        <stat
+            id="18"
+            attr="PLAYER_LUK"
+            tag="luk"
+            name="Luck"
+        />
+    </basic>
+    <extended>
+        <stat
+            id="112"
+            attr="PLAYER_ATK"
+            name="Attack"
+        />
+        <stat
+            id="111"
+            attr="PLAYER_DEF"
+            name="Defense"
+        />
+        <stat
+            id="110"
+            attr="PLAYER_MATK"
+            name="M.Attack"
+        />
+        <stat
+            id="109"
+            attr="PLAYER_MDEF"
+            name="M.Defense"
+        />
+        <stat
+            id="108"
+            attr="PLAYER_HIT"
+            name="% Accuracy"
+        />
+        <stat
+            id="107"
+            attr="PLAYER_FLEE"
+            name="% Evade"
+        />
+        <stat
+            id="106"
+            attr="PLAYER_CRIT"
+            name="% Critical"
+        />
+        <stat
+            id="100"
+            attr="PLAYER_ATTACK_DELAY"
+            name="Attack delay"
+        />
+        <stat
+            id="102"
+            attr="PLAYER_WALK_SPEED"
+            name="Walk delay"
+        />
+        <stat
+            id="101"
+            attr="PLAYER_ATTACK_RANGE"
+            name="Attack range"
+        />
+        <stat
+            id="103"
+            attr="PLAYER_ATTACK_SPEED"
+            name="Damage per sec."
+        />
+        <stat
+            id="104"
+            attr="PLAYER_KARMA"
+            name="Karma"
+        />
+        <stat
+            id="105"
+            attr="PLAYER_MANNER"
+            name="Manner"
+        />
+    </extended>
+    <page name="Homun">
+        <stat
+            id="1002"
+            attr="HOMUN_LEVEL"
+            name="Level"
+        />
+        <stat
+            id="1003"
+            attr="HOMUN_HP"
+            name="Hp"
+        />
+        <stat
+            id="1004"
+            attr="HOMUN_MAX_HP"
+            name="Max hp"
+        />
+        <stat
+            id="1005"
+            attr="HOMUN_MP"
+            name="Mana"
+        />
+        <stat
+            id="1006"
+            attr="HOMUN_MAX_MP"
+            name="Max mana"
+        />
+        <stat
+            id="1007"
+            attr="HOMUN_EXP"
+            name="Exp"
+        />
+        <stat
+            id="1008"
+            attr="HOMUN_MAX_EXP"
+            name="Need exp"
+        />
+        <stat
+            id="1010"
+            attr="HOMUN_ATTACK_DELAY"
+            name="Attack delay"
+        />
+        <stat
+            id="1011"
+            attr="HOMUN_ATTACK_RANGE"
+            name="Attack range"
+        />
+        <stat
+            id="1012"
+            attr="HOMUN_ATTACK_SPEED"
+            name="Damage per sec."
+        />
+        <stat
+            id="1013"
+            attr="HOMUN_CRIT"
+            name="% Critical"
+        />
+        <stat
+            id="1014"
+            attr="HOMUN_FLEE"
+            name="% Evade"
+        />
+        <stat
+            id="1015"
+            attr="HOMUN_HIT"
+            name="% Accuracy"
+        />
+        <stat
+            id="1016"
+            attr="HOMUN_MDEF"
+            name="M.Defense"
+        />
+        <stat
+            id="1017"
+            attr="HOMUN_MATK"
+            name="M.Attack"
+        />
+        <stat
+            id="1018"
+            attr="HOMUN_DEF"
+            name="Defense"
+        />
+        <stat
+            id="1019"
+            attr="HOMUN_ATK"
+            name="Attack"
+        />
+    </page>
+    <page name="Merc">
+        <stat
+            id="1020"
+            attr="MERC_LEVEL"
+            name="Level"
+        />
+        <stat
+            id="1021"
+            attr="MERC_HP"
+            name="Hp"
+        />
+        <stat
+            id="1022"
+            attr="MERC_MAX_HP"
+            name="Max hp"
+        />
+        <stat
+            id="1023"
+            attr="MERC_MP"
+            name="Mp"
+        />
+        <stat
+            id="1024"
+            attr="MERC_MAX_MP"
+            name="Max mp"
+        />
+        <stat
+            id="1025"
+            attr="MERC_ATTACK_DELAY"
+            name="Attack delay"
+        />
+        <stat
+            id="1026"
+            attr="MERC_ATTACK_RANGE"
+            name="Attack range"
+        />
+        <stat
+            id="1027"
+            attr="MERC_ATTACK_SPEED"
+            name="Damage per sec."
+        />
+        <stat
+            id="1028"
+            attr="MERC_CRIT"
+            name="% Critical"
+        />
+        <stat
+            id="1029"
+            attr="MERC_FLEE"
+            name="% Evade"
+        />
+        <stat
+            id="1030"
+            attr="MERC_HIT"
+            name="% Accuracy"
+        />
+        <stat
+            id="1031"
+            attr="MERC_MDEF"
+            name="M.Defense"
+        />
+        <stat
+            id="1032"
+            attr="MERC_MATK"
+            name="M.Atk"
+        />
+        <stat
+            id="1033"
+            attr="MERC_DEF"
+            name="Defence"
+        />
+        <stat
+            id="1034"
+            attr="MERC_ATK"
+            name="Attack"
+        />
+        <stat
+            id="1035"
+            attr="MERC_EXPIRE"
+            name="Expire"
+        />
+        <stat
+            id="1036"
+            attr="MERC_FAITH"
+            name="Faith"
+        />
+        <stat
+            id="1037"
+            attr="MERC_CALLS"
+            name="Calls"
+        />
+        <stat
+            id="1038"
+            attr="MERC_KILLS"
+            name="Kills"
+        />
+    </page>
+    <page name="Elemental">
+        <stat
+            id="1039"
+            attr="ELEMENTAL_HP"
+            name="Hp"
+        />
+        <stat
+            id="1040"
+            attr="ELEMENTAL_MAX_HP"
+            name="Max hp"
+        />
+        <stat
+            id="1041"
+            attr="ELEMENTAL_MP"
+            name="Mp"
+        />
+        <stat
+            id="1042"
+            attr="ELEMENTAL_MAX_MP"
+            name="Max mp"
+        />
+    </page>
+</stats>

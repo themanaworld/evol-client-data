@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144, Alige, Hal9000, Reid
+Copyright (C) 2012-2013 Evol Online -->
+
+<quests>
+    <var id="0">
+        <effect map="000-2-0.tmx" npc="404" value="0,1" effect="12"/>
+        <quest name="Abide by the Rules" group="Ship" incomplete="1">
+            <name>Abide by the Rules</name>
+            <text>Before resuming your adventure and exploration, you need to register on the boarding list of the ship by signing its rules.</text>
+            <text></text>
+            <text>Speak to Julia, the keeper of this ship. She is waiting for you on the first deck.</text>
+            <text></text>
+            <questgiver>Julia</questgiver>
+            <coordinates x="27" y="24">La Johanne, First Deck. (27,24)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Abide by the Rules" group="Ship" complete="2">
+            <name>Abide by the Rules</name>
+            <text>Julia told you about all the rules you have to follow during your adventure so that you behave properly with other people.</text>
+            <text></text>
+            <text>Keep them in mind, but if you think you need to hear them again, just talk to Julia.</text>
+            <text></text>
+            <questgiver>Julia</questgiver>
+            <coordinates x="27" y="24">La Johanne, First Deck. (27,24)</coordinates>
+            <reward>Nothing.</reward>
+        </quest>
+    </var>
+    <var id="1">
+        <effect map="000-2-1.tmx" npc="407" value="0" effect="12"/>
+        <effect map="000-2-1.tmx" npc="407" value="1,2" effect="13"/>
+        <quest name="Warm Smelly Clothes" group="Ship" incomplete="0">
+            <name>Warm Smelly Clothes</name>
+            <text>Magic Arpan is waiting for you. Go speak to him.</text>
+            <text></text>
+            <text>To speak to an NPC, click on it with your mouse or select it using the N key and then chat using the T key.</text>
+            <text></text>
+            <questgiver>Magic Arpan</questgiver>
+            <coordinates x="39" y="33">La Johanne, Second Deck. (39,33)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Warm Smelly Clothes" group="Ship" incomplete="1">
+            <name>Warm Smelly Clothes</name>
+            <text>You need to open the chest and take the clothes from it.</text>
+            <text></text>
+            <text>To perform this action, click on the chest with your mouse or select it with the N key and then interact with it using the T key.</text>
+            <text></text>
+            <questgiver>Magic Arpan</questgiver>
+            <coordinates x="41" y="37">La Johanne, Second Deck. (41,37)</coordinates>
+            <reward>Smelly sailor clothes.</reward>
+        </quest>
+        <quest name="Warm Smelly Clothes" group="Ship" incomplete="2">
+            <name>Warm Smelly Clothes</name>
+            <text>To open your inventory, use the F3 key or use your mouse to select it in the above menu in your client.</text>
+            <text></text>
+            <text>When your inventory is open, you can equip an item by selecting it and clicking 'Equip'. You can do the same to remove an item by clicking on 'Unequip'.</text>
+            <text></text>
+            <text>Items have different effects. Some will heal you, some can be used as weapons or armor and some can be sold for gold.</text>
+            <text></text>
+            <questgiver>Magic Arpan</questgiver>
+            <coordinates x="39" y="33">La Johanne, Second Deck. (39,33)</coordinates>
+            <reward>Smelly sailor clothes.</reward>
+        </quest>
+        <quest name="Warm Smelly Clothes" group="Ship" complete="3">
+            <name>Warm Smelly Clothes</name>
+            <text>You wore the clothes you found in the chest that Magic Arpan showed you.</text>
+            <text></text>
+            <text>They are old and a bit smelly but the warm sensation they give makes you feel at home.</text>
+            <text></text>
+            <questgiver>Magic Arpan</questgiver>
+            <coordinates x="39" y="33">La Johanne, Second Deck. (39,33)</coordinates>
+            <reward text1="[Creased Shirt]" text2="[Creased Shorts]">A {@@1} and old {@@2}.</reward>
+        </quest>
+    </var>
+    <var id="2">
+        <effect map="000-2-1.tmx" npc="401" value="0,1" effect="14"/>
+        <effect map="000-2-1.tmx" npc="401" value="2" effect="15"/>
+        <quest name="Piberries Lover" group="Ship" incomplete="1">
+            <name>Piberries Lover</name>
+            <text>A mysterious stowaway needs your help. He hides at the bottom level of the ship, in the storage room.</text>
+            <text></text>
+            <text>It seems to be an urgent task, but he is afraid that you could be a sailor, so watch out!</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Piberries Lover" group="Ship" incomplete="2">
+            <name>Piberries Lover</name>
+            <text>Alige, the mysterious traveller, is asking for your help to find him some food.</text>
+            <text></text>
+            <text text1="[Piberries]">In fact, he hides in a hole in the main hallway. It leads to the ship's storage room where he can reach for some barrels full of {@@1}.</text>
+            <text></text>
+            <text>He is sick of eating these berries all the time. That is why he would like you to find him other kinds of food and bring them to him.</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Piberries Lover" group="Ship" complete="3">
+            <name>Piberries Lover</name>
+            <text text1="[Piberries]">You brought Alige some food, different from the {@@1} he usually eats.</text>
+            <text></text>
+            <text>It looks like he is eager of tasting new flavors. Try bringing him other types of food. He may have something to give you in exchange.</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
+            <reward text1="[Piberries]">A handful of {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="3">
+        <effect map="000-2-1.tmx" npc="403" value="0,6" effect="12"/>
+        <effect map="000-2-1.tmx" npc="403" value="1,2,4" effect="13"/>
+        <quest name="Ratto Extermination" group="Ship" incomplete="6">
+            <name>Ratto Extermination</name>
+            <text>Peter needs your help to clear La Johanne's hold of some rattos.</text>
+            <text></text>
+            <text>Speak to him when you will have time to help him.</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Ratto Extermination" group="Ship" incomplete="1">
+            <name>Ratto Extermination</name>
+            <text>Peter asked you to empty the bottom of the ship for free.</text>
+            <text></text>
+            <text>Maybe next time he will have something to offer you...</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>Nothing.</reward>
+        </quest>
+        <quest name="Ratto Extermination" group="Ship" incomplete="2">
+            <name>Ratto Extermination</name>
+            <text>Cleaning the bottom of the ship is a tough work, but Peter is offering you some gold for it.</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>100 EXP, 1000 E.</reward>
+        </quest>
+        <quest name="Ratto Extermination" group="Ship" complete="3">
+            <name>Ratto Extermination</name>
+            <text>You helped Peter cleaning the bottom of the ship for free.</text>
+            <text></text>
+            <text>However, it looks like these rattos can come back again. Later, you could ask Peter if he needs your help again.</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>Nothing.</reward>
+        </quest>
+        <quest name="Ratto Extermination" group="Ship" complete="5">
+            <name>Ratto Extermination</name>
+            <text>You helped Peter cleaning the bottom of the ship. He rewarded you with some gold.</text>
+            <text></text>
+            <text>However, it looks like these rattos can come back again. Later, you could ask Peter if he needs your help again.</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>100 EXP, 1000 E.</reward>
+        </quest>
+        <quest name="Ratto Extermination" group="Ship" incomplete="4">
+            <name>Ratto Extermination</name>
+            <text>This time, Peter seems to have a reward for you. After you cleaned the bottom of the ship, ask him for a reward.</text>
+            <text></text>
+            <questgiver>Peter</questgiver>
+            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>100 EXP, 1000 E.</reward>
+        </quest>
+    </var>
+    <var id="4">
+        <effect map="000-2-3.tmx" npc="406" value="0,2" effect="12"/>
+        <effect map="000-2-3.tmx" npc="406" value="1,3" effect="13"/>
+        <effect map="000-2-3.tmx" npc="102" value="4" effect="15"/>
+        <effect map="000-2-0.tmx" npc="404" value="3" effect="13"/>
+        <effect map="000-2-1.tmx" npc="418" value="3" effect="13"/>
+        <effect map="000-2-1.tmx" npc="407" value="5" effect="12"/>
+        <effect map="000-2-1.tmx" npc="910" value="5" effect="12"/>
+        <quest name="One of Us" group="Ship" incomplete="1">
+            <name>One of Us</name>
+            <text>Nard, the captain of the ship, asked you to help his crew on the island outside the ship.</text>
+            <text></text>
+            <text>Gugli, one of his sailors, is waiting for you on the shore to tell you about the task.</text>
+            <text></text>
+            <questgiver>Nard</questgiver>
+            <coordinates x="25" y="26">La Johanne, Nard's Room. (25,26)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="One of Us" group="Ship" incomplete="2">
+            <name>One of Us</name>
+            <text>You reported to Nard that you successfully accomplished Gugli's task.</text>
+            <text></text>
+            <text>As a perfect sailor, you are waiting for the next order, eagerly.</text>
+            <text></text>
+            <questgiver>Nard</questgiver>
+            <coordinates x="25" y="26">La Johanne, Nard's Room. (25,26)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="One of Us" group="Ship" incomplete="3">
+            <name>One of Us</name>
+            <text>Captain Nard has another task for you. It seems he did a mistake in the past, choosing the right lieutenant for this ship.</text>
+            <text></text>
+            <text>Chef Gado, the former shipkeeper, may have something to say about that. So does Julia, the current lieutenant of the ship.</text>
+            <text></text>
+            <questgiver>Nard</questgiver>
+            <coordinates x="25" y="26">La Johanne, Nard's Room. (25,26)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="One of Us" group="Ship" incomplete="4">
+            <name>One of Us</name>
+            <text>You smartly solved the lieutenants' conflict onboard. Nard is proud of his new sailor.</text>
+            <text></text>
+            <text>Take your reward from the box near the captain in order to officially become one of Nard's crew members.</text>
+            <text></text>
+            <questgiver>Nard</questgiver>
+            <coordinates x="25" y="24">La Johanne, Nard's Room. (25,24)</coordinates>
+            <reward text1="[Bandana]">50 EXP, {@@1}.</reward>
+        </quest>
+        <quest name="One of Us" group="Ship" complete="5">
+            <name>One of Us</name>
+            <text>Nard officially proclaimed you as member of his crew!</text>
+            <text></text>
+            <questgiver>Nard</questgiver>
+            <coordinates x="25" y="24">La Johanne, Nard's Room. (25,24)</coordinates>
+            <reward text1="[Bandana]">50 EXP, {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="5">
+        <effect map="000-2-1.tmx" npc="100" value="0" effect="14"/>
+        <quest name="Chef's Secret Blade" group="Ship" complete="1">
+            <name>Chef's Secret Blade</name>
+            <text>You found a sharp knife on a table in one of the rooms of the ship.</text>
+            <text></text>
+            <text>It looks like its previous owner used it to prepare delicious dishes for the crew.</text>
+            <text></text>
+            <coordinates x="50" y="24">La Johanne, Second Deck. (50,24)</coordinates>
+            <reward text1="[Knife]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="8">
+        <effect map="000-1.tmx" npc="111" value="0" effect="12"/>
+        <effect map="000-1.tmx" npc="413" value="1" effect="13"/>
+        <quest name="Fish and Scams" group="Ship" incomplete="1">
+            <name>Fish and Scams</name>
+            <text>A sailor, who wasn't on Gugli's list, gave you a box full of food.</text>
+            <text></text>
+            <text>He did not mention any reward, but he would like you to deliver it to Gugli as soon as you can.</text>
+            <text></text>
+            <questgiver>Couwan</questgiver>
+            <coordinates x="85" y="108">Drasil Island. (85,108)</coordinates>
+            <reward>Reward: Unknown.</reward>
+         </quest>
+         <quest name="Fish and Scams" group="Ship" complete="2">
+            <name>Fish and Scams</name>
+            <text>Couwan is an awful, roguish person. No reward from him...</text>
+            <text></text>
+            <text>However, Gugli gave you some gold pieces and apologized for this unexpected task.</text>
+            <text></text>
+            <text>He also warned you not to trust anyone.</text>
+            <text></text>
+            <questgiver>Couwan</questgiver>
+            <coordinates x="89" y="36">Drasil Island. (89,36)</coordinates>
+            <reward>8 EXP, 10 E.</reward>
+        </quest>
+    </var>
+    <var id="9">
+        <effect map="000-1.tmx" npc="416" value="0" effect="14"/>
+        <quest name="Treasure's Glint" group="Ship" complete="1">
+            <name>Treasure's Glint</name>
+            <text>You spotted a treasure chest at the top of a cliff on the east side of the island.</text>
+            <text></text>
+            <text text1="[Old Book]">The chest contains gold and an {@@1}.</text>
+            <text></text>
+            <coordinates x="83" y="70">Drasil Island. (83,70)</coordinates>
+            <reward text1="[Old Book]">100 E, {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="10">
+        <effect map="000-1.tmx" npc="105" value="0" effect="13"/>
+    </var>
+    <var id="11">
+        <effect map="000-1.tmx" npc="107" value="0" effect="13"/>
+    </var>
+    <var id="12">
+        <effect map="000-1.tmx" npc="113" value="0" effect="13"/>
+    </var>
+    <var id="13">
+        <effect map="000-1.tmx" npc="112" value="0" effect="13"/>
+    </var>
+    <var id="14">
+        <effect map="000-1.tmx" npc="104" value="0" effect="13"/>
+    </var>
+    <var id="15">
+        <effect map="000-1.tmx" npc="110" value="0" effect="13"/>
+    </var>
+    <var id="16">
+        <effect map="000-1.tmx" npc="413" value="0" effect="12"/>
+        <effect map="000-1.tmx" npc="413" value="1" effect="13"/>
+        <quest name="Unexpected Help" group="Ship" incomplete="1">
+            <name>Unexpected Help</name>
+            <text text1="[Croconut]" text2="[Aquada]" text3="[Plushroom]">Gugli told you about the sailors' task on the island. He wants you to help some of them bringing him 6 boxes full of {@@1}, {@@2} and {@@3}.</text>
+            <text></text>
+            <text>You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, Jalad and Ale.</text>
+            <text></text>
+            <text>Max, Silvio and Lean may have some information about where to find these sailors.</text>
+            <text></text>
+            <questgiver>Gugli</questgiver>
+            <coordinates x="85" y="108">Drasil Island. (85,108)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Unexpected Help" group="Ship" complete="2">
+            <name>Unexpected Help</name>
+            <text>You completed all the tasks Gugli gave you. Sailors of the ship will never forget you!</text>
+            <text></text>
+            <questgiver>Gugli</questgiver>
+            <coordinates x="85" y="108">Drasil Island. (85,108)</coordinates>
+            <reward>40 EXP, 250 E.</reward>
+        </quest>
+    </var>
+    <var id="17">
+        <effect map="000-1.tmx" npc="404" value="1,3" effect="13"/>
+        <effect map="000-1.tmx" npc="418" value="2" effect="13"/>
+        <quest name="Two Lieutenants in One Boat" group="Ship" incomplete="1">
+            <name>Two Lieutenants in One Boat</name>
+            <text text1="[Piou Legs]" text2="[Half Croconut]" text3="[Aquada]" text4="[Sea Drops]" text5="[Poisoned Dish]">Chef Gado wants you to collect 2 {@@1}, 2 {@@2}, 1 {@@3} and 1 {@@4} to prepare a {@@5}, for Julia.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Two Lieutenants in One Boat" group="Ship" incomplete="2">
+            <name>Two Lieutenants in One Boat</name>
+            <text text1="[Poisoned Dish]">Chef Gado prepared the {@@1}. He would like you to give it to Julia.</text>
+            <text></text>
+            <text>While Chef Gado wants you to poison Julia, you remember she looked after you when you were sick. She doesn't deserve to be punished... or does she?</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Two Lieutenants in One Boat" group="Ship" incomplete="3">
+            <name>Two Lieutenants in One Boat</name>
+            <text>Go back and talk to Gado. He probably has a reward for you.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Two Lieutenants in One Boat" group="Ship" complete="4">
+            <name>Two Lieutenants in One Boat</name>
+            <text>You successfully poisoned Julia. Chef Gado finally had his revenge!</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward text1="[Bread]">15 EXP, 200 E, {@@1}.</reward>
+        </quest>
+        <quest name="Two Lieutenants in One Boat" group="Ship" complete="5">
+            <name>Two Lieutenants in One Boat</name>
+            <text>You refused to accomplish Chef Gado's evil plan. Julia is now safe.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward>15 EXP, 200 E.</reward>
+        </quest>
+        <quest name="Two Lieutenants in One Boat" group="Ship" complete="6">
+            <name>Two Lieutenants in One Boat</name>
+            <text>You preferred trusting Julia because, after all, she deserves to be the lieutenant of the ship.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="17" y="28">La Johanne, Second Deck. (17,28)</coordinates>
+            <reward>8 EXP, 100 E.</reward>
+        </quest>
+    </var>
+    <var id="19">
+        <effect map="001-1.tmx" npc="123" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="123" value="1,2,3" effect="13"/>
+        <effect map="001-1.tmx" npc="911" value="1" effect="22"/>
+        <quest name="The Lazy Brother" group="Artis" incomplete="1">
+            <name>The Lazy Brother</name>
+            <text>Katja wants you to find her brother.</text>
+            <text>He is hiding somewhere on the hill, not far from here.</text>
+            <text>You should probably go and check behind trees, they are great for hiding.</text>
+            <text></text>
+            <questgiver>Katja</questgiver>
+            <coordinates x="164" y="44">Artis. (164,44)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="The Lazy Brother" group="Artis" complete="2">
+            <name>The Lazy Brother</name>
+            <text>You found Bobo.</text>
+            <text>Apparently he's hanging out here all day, because he doesn't want to do his homework.</text>
+            <text>You decided to let him do so in exchange for a small reward.</text>
+            <text></text>
+            <questgiver>Katja</questgiver>
+            <coordinates x="164" y="44">Artis. (164,44)</coordinates>
+            <reward>100 E.</reward>
+        </quest>
+        <quest name="The Lazy Brother" group="Artis" incomplete="3">
+            <name>The Lazy Brother</name>
+            <text>You found Bobo.</text>
+            <text>Apparently he's hanging out here all day, because he doesn't want to do his homework.</text>
+            <text>You can not allow this. Therefore you told him to go home.</text>
+            <text>You should go tell Katja about it.</text>
+            <text></text>
+            <questgiver>Katja</questgiver>
+            <coordinates x="164" y="44">Artis. (164,44)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="The Lazy Brother" group="Artis" complete="4">
+            <name>The Lazy Brother</name>
+            <text>You found Bobo. He promised to go home soon.</text>
+            <text text1="[Aquada]">His sister was very happy and gave you an {@@1} as a reward.</text>
+            <text></text>
+            <questgiver>Katja</questgiver>
+            <coordinates x="164" y="44">Artis. (164,44)</coordinates>
+            <reward text1="[Aquada]">An {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="20">
+        <effect map="001-1.tmx" npc="427" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="427" value="1" effect="13"/>
+        <quest name="Moon and the Urchin" group="Artis" incomplete="1">
+            <name>Moon and the Urchin</name>
+            <text>Moon, the elven girl, accidently stepped on an urchin.</text>
+            <text text1="[Croc Claw]">She wants you to bring her {@@1}s to get rid of spikes.</text>
+            <text></text>
+            <questgiver>Moon</questgiver>
+            <coordinates x="70" y="78">Artis, Moon's House. (70,78)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Moon and the Urchin" group="Artis" complete="2">
+            <name>Moon and the Urchin</name>
+            <text>You helped Moon to get rid of urchin spikes from her foot.</text>
+            <text></text>
+            <questgiver>Moon</questgiver>
+            <coordinates x="70" y="78">Artis, Moon's House. (70,78)</coordinates>
+            <reward>1500 EXP.</reward>
+        </quest>
+    </var>
+    <var id="21">
+        <effect map="001-1.tmx" npc="125" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="125" value="1" effect="13"/>
+        <quest name="Catch the Piou" group="Artis" incomplete="1">
+            <name>Catch the Piou</name>
+            <text>Salem, the trader from Artis Market, needs your help.</text>
+            <text>A piou escaped from him, and he wants you to catch it.</text>
+            <text>The piou is flying around the town, not far from the market.</text>
+            <text>When you catch it, hurry back to Salem.</text>
+            <text></text>
+            <questgiver>Salem</questgiver>
+            <coordinates x="57" y="118">Artis, Market. (57,118)</coordinates>
+            <reward>90% discount on piou.</reward>
+        </quest>
+        <quest name="Catch the Piou" group="Artis" complete="2">
+            <name>Catch the Piou</name>
+            <text>You successfully returned the piou to the trader.</text>
+            <text></text>
+            <questgiver>Salem</questgiver>
+            <coordinates x="57" y="118">Artis, Market. (57,118)</coordinates>
+            <reward>90% discount on piou.</reward>
+        </quest>
+    </var>
+    <var id="22">
+        <effect map="001-1.tmx" npc="428" value="0" effect="14"/>
+        <effect map="001-1.tmx" npc="428" value="1" effect="15"/>
+        <quest name="Fishman" group="Artis" incomplete="1">
+            <name>Fishman</name>
+            <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
+            <text>He hurried so much to try it out, that he forgot to take enough baits.</text>
+            <text text1="[Small Tentacles]">You need to bring him 10 {@@1}.</text>
+            <text></text>
+            <questgiver>Eugene</questgiver>
+            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Fishman" group="Artis" complete="2">
+            <name>Fishman</name>
+            <text>You helped Eugene.</text>
+            <text>As his gratitude, he gave you his old fishing rod.</text>
+            <text>You can use it to catch fish.</text>
+            <text></text>
+            <questgiver>Eugene</questgiver>
+            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
+            <reward text1="[Fishing Rod]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="23">
+        <effect map="001-1.tmx" npc="426" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="426" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="426" value="2" effect="13"/>
+            <quest name="The Buried Treasure" group="Artis" incomplete="1">
+            <name>The Buried Treasure</name>
+            <text>Q'Onan, the orc sailor from Nard's crew, used to be a thief.</text>
+            <text>His last "business" involved robbing a nobleman. But he didn't succeed completely, he had to bury the chest full of coins to save himself.</text>
+            <text>He only knows an approximate location of the chest on Artis Hill (180, 27), so you'll have to do a little digging to find the chest.</text>
+            <text></text>
+            <questgiver>Q'Onan</questgiver>
+            <coordinates x="186" y="107">Artis, La Johanne. (186,107)</coordinates>
+            <reward>2000 E.</reward>
+        </quest>
+        <quest name="The Buried Treasure" group="Artis" incomplete="2">
+            <name>The Buried Treasure</name>
+            <text>After a lot of digging, you found the treasure chest.</text>
+            <text>It's locked, and Q'Onan has the only key. So you'll have to deliver it to him.</text>
+            <text></text>
+            <questgiver>Q'Onan</questgiver>
+            <coordinates x="186" y="107">Artis, La Johanne. (186,107)</coordinates>
+            <reward>2000 E.</reward>
+        </quest>
+        <quest name="The Buried Treasure" group="Artis" complete="3">
+            <name>The Buried Treasure</name>
+            <text>Q'Onan kept his promise, and gave you your share of the deal.</text>
+            <text>He said that he finally can pay back his debts.</text>
+            <text></text>
+            <questgiver>Q'Onan</questgiver>
+            <coordinates x="186" y="107">Artis, La Johanne. (186,107)</coordinates>
+            <reward>1800 E.</reward>
+        </quest>
+    </var>
+    <var id="24">
+        <effect map="001-1.tmx" npc="443" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="443" value="1" effect="13"/>
+        <quest name="Visiting Artis" group="Halloween" incomplete="1">
+            <name>Visiting Artis</name>
+            <text text1="[Pumpkin]">Bacchus asked you to bring him a {@@1}.</text>
+            <text>Cuco drops them, in the locked room of La Johanne's Hold.</text>
+            <text></text>
+            <questgiver>Bacchus</questgiver>
+            <coordinates x="31" y="30">La Johanne, Hold. (31,30)</coordinates>
+            <reward text1="[Pumpkin Hat]">{@@1}.</reward>
+        </quest>
+        <quest name="Visiting Artis" group="Halloween" complete="2">
+            <name>Visiting Artis</name>
+            <text>Bacchus offers you to see a small part of your future.</text>
+            <text>The payment is 10 Halloween Candy.</text>
+            <text></text>
+            <questgiver>Bacchus</questgiver>
+            <coordinates x="31" y="30">La Johanne, Hold. (31,30)</coordinates>
+            <reward>chance to see the future.</reward>
+        </quest>
+    </var>
+    <var id="25">
+        <effect map="001-1.tmx" npc="442" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="442" value="1" effect="13"/>
+        <quest name="Alige in the Barrel" group="Halloween" incomplete="1">
+            <name>Alige in the Barrel</name>
+            <text>Alige was very scared of the Cuco. Now that it's killed, he should be okay.</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <coordinates x="38" y="22">La Johanne, Hold, Alige's Hideout. (38,22)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Alige in the Barrel" group="Halloween" complete="2">
+            <name>Alige in the Barrel</name>
+            <text>Somehow Alige appeared in my vision of the future.</text>
+            <text text1="[Barrel]">For killing the scary Cuco, he gave me a {@@1}.</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <coordinates x="71" y="132">Artis, Dream World. (71,132)</coordinates>
+            <reward text1="[Barrel]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="26">
+        <effect map="001-1.tmx" npc="444" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="444" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="444" value="2" effect="13"/>
+        <quest name="Plushroom Addict" group="Artis" incomplete="1">
+            <name>Plushroom Addict</name>
+            <text>Rumly is expecting you to return.</text>
+            <text>He is still offering his services.</text>
+            <text></text>
+            <questgiver>Rumly</questgiver>
+            <coordinates x="35" y="125">Artis, Market Place. (35,125)</coordinates>
+        </quest>
+        <quest name="Plushroom Addict" group="Artis" incomplete="2">
+            <name>Plushroom Addict</name>
+            <text text1="[Plushroom]">Rumly is waiting for you to bring him some {@@1}s.</text>
+            <text></text>
+            <questgiver>Rumly</questgiver>
+            <coordinates x="35" y="125">Artis, Market Place. (35,125)</coordinates>
+        </quest>
+        <quest name="Plushroom Addict" group="Artis" complete="3">
+            <name>Plushroom Addict</name>
+            <text>Rumly is able to reset your character point.</text>
+            <text text1="[Plushroom]">Bring him some {@@1}s and he will be able to do it for you.</text>
+            <text></text>
+            <questgiver>Rumly</questgiver>
+            <coordinates x="35" y="125">Artis, Market Place. (35,125)</coordinates>
+        </quest>
+    </var>
+    <var id="27">
+        <effect map="001-1.tmx" npc="119" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="119" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="429" value="1" effect="12"/>
+        <effect map="001-1.tmx" npc="119" value="2" effect="13"/>
+        <effect map="001-1.tmx" npc="429" value="2" effect="13"/>
+        <effect map="001-2-19.tmx" npc="126" value="2" effect="12"/>
+        <effect map="001-1.tmx" npc="429" value="3" effect="13"/>
+        <effect map="001-1.tmx" npc="119" value="4" effect="13"/>
+        <effect map="001-1.tmx" npc="119" value="5" effect="13"/>
+        <effect map="001-2-0.tmx" npc="117" value="5" effect="12"/>
+        <effect map="001-1.tmx" npc="119" value="6" effect="13"/>
+        <effect map="001-1.tmx" npc="119" value="7" effect="13"/>
+        <effect map="001-1.tmx" npc="140" value="7" effect="14"/>
+        <effect map="001-1.tmx" npc="119" value="8" effect="13"/>
+        <effect map="001-2-26.tmx" npc="127" value="8" effect="12"/>
+        <effect map="001-1.tmx" npc="119" value="9" effect="13"/>
+        <quest name="Newby Quest" group="Artis" incomplete="1">
+            <name>Newby Quest</name>
+            <text>You are charged to visit Chelios and bring back Enora's package.</text>
+            <text>Chelios is reachable at the Blacksmith Shop (95,109).</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="2">
+            <name>Newby Quest</name>
+            <text>Chelios asked you to bring him some black iron</text>
+            <text>You should look for Lloyd in the Merchant Hall (100,37).</text>
+            <text></text>
+            <questgiver>Chelios</questgiver>
+            <coordinates x="95" y="109">Artis, Blacksmith Shop. (95,109)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="3">
+            <name>Newby Quest</name>
+            <text>Lloyd gave you the black iron package.</text>
+            <text>Bring it back to Chelios.</text>
+            <text></text>
+            <questgiver>Chelios</questgiver>
+            <coordinates x="95" y="109">Artis, Blacksmith Shop. (95,109)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="4">
+            <name>Newby Quest</name>
+            <text>Chelios made a sword out of black iron ore.</text>
+            <text>This task is done, you can now return it to Enora.</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>60 EXP, 100 E.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="5">
+            <name>Newby Quest</name>
+            <text>You are charged to visit Resa and to bring back Enora's package.</text>
+            <text>Resa is reachable at the Light Armor building (55,72).</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="6">
+            <name>Newby Quest</name>
+            <text text1="[%Color% Artis Tank Top, Camel Cotton Dye]">Resa gave you a cute {@@1}.</text>
+            <text>This task is done, you can now return it to Enora.</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>40 EXP, 125 E.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="7">
+            <name>Newby Quest</name>
+            <text>You are charged to visit Q'Pid and bring back Enora's package.</text>
+            <text>Q'Pid is reachable at the Market Place, in the south-west area of Artis (61,116).</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="8">
+            <name>Newby Quest</name>
+            <text>You lost the riddle of Q'Pid, you have to go to Ivan to get Enora's potions.</text>
+            <text>Ivan is in a small house near Artis's canal (163,71).</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="9">
+            <name>Newby Quest</name>
+            <text text1="[Piberries Infusion]">Ivan gave you a few {@@1}s.</text>
+            <text>This task is done, you can now return them to Enora.</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>80 EXP, 175 E.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" incomplete="10">
+            <name>Newby Quest</name>
+            <text>Some citizen worry about their safety with the growing number of Fluffy on the Hill of Artis.</text>
+            <text>Enora's latest task for you is to clean up this hill.</text>
+            <text>Killing about 10 Fluffy should be enough to calm down the neighborhood.</text>
+            <text>The hill is located on north-east of Artis (172,46).</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Newby Quest" group="Artis" complete="11">
+            <name>Newby Quest</name>
+            <text>You completed every task and you even cleaned up the hill of these terrible Fluffies.</text>
+            <text></text>
+            <questgiver>Enora</questgiver>
+            <coordinates x="176" y="113">Artis, Docks. (176,113)</coordinates>
+            <reward text1="[Training Gladius]" text2="[%Color% Artis Tank Top, Camel Cotton Dye]" text3="[Piberries Infusion]">{@@1}, {@@2}, 5 {@@3}s</reward>
+            <reward>140 EXP, 500 E.</reward>
+        </quest>
+    </var>
+    <var id="29">
+        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
+        <effect map="001-1.tmx" npc="108" value="1" effect="13"/>
+        <effect map="001-1.tmx" npc="108" value="2" effect="13"/>
+        <quest name="Fexil's Free Pass" group="Artis" incomplete="1">
+            <name>Fexil's Free Pass</name>
+            <text>Lloyd gave you a pass that Fexil forgot when he registered himself in the Merchant Guild.</text>
+            <text></text>
+            <questgiver>Lloyd</questgiver>
+            <coordinates x="101" y="37">Artis, Merchant Guild. (101,37)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Fexil's Free Pass" group="Artis" incomplete="2">
+            <name>Fexil's Free Pass</name>
+            <text text1="[Fluffy Fur]">Fexil wants to open a business of {@@1}'s clothes.</text>
+            <text>He will reward you for each fur you bring him.</text>
+            <text></text>
+            <questgiver>Fexil</questgiver>
+            <coordinates x="48" y="134">Artis, Market Place. (48,134)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Fexil's Free Pass" group="Artis" complete="3">
+            <name>Fexil's Free Pass</name>
+            <text text1="[Fluffy Fur]">Fexil wants to open a business of {@@1}'s clothes.</text>
+            <text>He rewards you for each fur you bring him.</text>
+            <text></text>
+            <questgiver>Fexil</questgiver>
+            <coordinates x="48" y="134">Artis, Market Place. (48,134)</coordinates>
+            <reward text1="[Fluffy Fur]">15 per {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="30">
+        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
+        <quest name="Worship of Money" group="Artis" complete="1">
+            <name>Worship of Money</name>
+            <text>You are now registered in the Merchant Guild.</text>
+            <text>This Guild offers storage and bank services.</text>
+            <text></text>
+            <questgiver>Lloyd</questgiver>
+            <coordinates x="101" y="37">Artis, Merchant Guild. (101,37)</coordinates>
+            <reward>Merchant Guild access.</reward>
+        </quest>
+    </var>
+
+    <var id="1000">
+        <quest name="Test quest" group="Tests" complete="2" incomplete="1">
+            <name>Testing quest name with var1={@@var1}</name>
+            <text>Quest text1 with vars: {@@var1}, {@@var2}, {@@var3}</text>
+            <text>Time: {@@time}</text>
+            <questgiver>Giver vars: {@@var1}, {@@var2}, {@@var3}</questgiver>
+            <coordinates x="1" y="1">Vars: {@@var1}, {@@var2}, {@@var3}</coordinates>
+            <reward>Reward: {@@var1}, {@@var2}, {@@var3}</reward>
+        </quest>
+    </var>
+</quests>

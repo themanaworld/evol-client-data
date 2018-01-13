@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Hal9000
+Copyright (C) 2010-2013 Evol Online -->
+
+<effect>
+    <particle position-x="0"
+              position-y="0"
+              position-z="70">
+        <emitter>
+            <property name="output" value="1"/>
+            <property name="output-pause" value="250"/>
+            <property name="gravity" min="-0.005" max="-0.015"/>
+            <property name="momentum" value="0.9"/>
+            <property name="lifetime" value="200"/>
+            <property name="fade-out" min="40" max="80"/>
+            <animation imageset="graphics/particles/zzz.png" width="8" height="10">
+                <sequence start="0" end="5" delay="140"/>
+                <frame index="5" delay="1000"/>
+            </animation>
+        </emitter>
+        <emitter>
+            <property name="position-x" value="-9"/>
+            <property name="position-y" value="10"/>
+            <property name="output" value="1"/>
+            <property name="output-pause" value="250"/>
+            <property name="gravity" min="-0.005" max="-0.015"/>
+            <property name="momentum" value="0.9"/>
+            <property name="lifetime" value="250"/>
+            <property name="fade-out" min="40" max="80"/>
+            <animation imageset="graphics/particles/zzz.png" width="8" height="10">
+                <frame index="0" delay="800"/>
+                <sequence start="0" end="5" delay="140"/>
+                <frame index="5" delay="1000"/>
+            </animation>
+        </emitter>
+        <emitter>
+            <property name="position-x" value="9"/>
+            <property name="position-y" value="16"/>
+            <property name="output" value="1"/>
+            <property name="output-pause" value="250"/>
+            <property name="gravity" min="-0.005" max="-0.015"/>
+            <property name="momentum" value="0.9"/>
+            <property name="lifetime" value="300"/>
+            <property name="fade-out" min="40" max="80"/>
+            <animation imageset="graphics/particles/zzz.png" width="8" height="10">
+                <frame index="0" delay="1600"/>
+                <sequence start="0" end="5" delay="140"/>
+                <frame index="5" delay="1000"/>
+            </animation>
+        </emitter>
+    </particle>
+</effect>

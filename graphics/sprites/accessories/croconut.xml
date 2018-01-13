@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2012-2013 Evol Online -->
+<sprite>
+    <imageset name="acc"
+              src="graphics/sprites/monsters/crocotree.png"
+              width="18"
+              height="17"
+              offsetY="-61"/>
+
+    <action name="stand" imageset="acc">
+        <animation direction="default">
+            <!-- Moves sideways. -->
+            <frame index="1" delay="4210"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="1380"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <!-- Starts to fall. -->
+            <frame index="3" delay="90" offsetY="2"/>
+            <frame index="3" delay="80" offsetY="4"/>
+            <frame index="3" delay="70" offsetY="6"/>
+            <frame index="3" delay="50" offsetY="9"/>
+            <!-- Hits Tarlan's head. -->
+            <frame index="4" delay="60" offsetY="11"/>
+            <frame index="5" delay="60" offsetY="12"/>
+            <frame index="6" delay="50" offsetY="12"/>
+            <frame index="7" delay="10720"/>
+            <frame index="1" delay="3670"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="1"/>
+        </animation>
+    </action>
+</sprite>

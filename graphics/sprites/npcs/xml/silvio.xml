@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/silvio.png"
+              width="30"
+              height="49"
+              offsetX="-4"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0" delay="7000"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="70"/>
+            <frame index="0" delay="3500"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="70"/>
+        </animation>
+    </action>
+</sprite>

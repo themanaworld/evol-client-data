@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Alige
+Copyright (C) 2016 Evol Online -->
+
+<sprite>
+    <imageset name="icon"
+              src="graphics/sprites/icons/spell-protection.png"
+              width="32"
+              height="32"
+              offsetY="-2"/>
+
+    <action name="default" imageset="icon">
+        <animation direction="default">
+            <sequence start="0" end="2" delay="160"/>
+            <frame index="1" delay="160"/>
+        </animation>
+    </action>
+</sprite>

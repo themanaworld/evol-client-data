@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2010-2013 Evol Online -->
+
+<!--
+5% used on "moving" label.
+50% from the 95% unused percent from "moving" label are used on "movinglong" label.
+100% from the 47,5% unused percent from "movinglong" label are used on "static" label.
+-->
+
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/crocotree.png"
+              width="18"
+              height="17"
+              offsetY="-61"/>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="95"/>
+            <goto label="movinglong" rand="50"/>
+            <goto label="moving" rand="100"/>
+            <label name="moving"/>
+            <!-- Simple Move Animation -->
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <goto label="start"/>
+            <label name="static"/>
+            <!-- Static Animation -->
+            <frame index="1" delay="240"/>
+            <goto label="start"/>
+            <label name="movinglong"/>
+            <!-- Long Move Animation -->
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="2" delay="120"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+
+    <action name="hurt" imageset="mob">
+        <animation direction="default">
+            <frame index="2" delay="120"/>
+            <frame index="1" delay="110"/>
+            <frame index="0" delay="120"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation>
+            <!-- Falling Croconut -->
+            <frame index="1" delay="100"/>
+            <frame index="3" delay="80" offsetY="1"/>
+            <frame index="3" delay="60" offsetY="2"/>
+            <frame index="3" delay="50" offsetY="4"/>
+            <frame index="3" delay="50" offsetY="6"/>
+            <frame index="3" delay="50" offsetY="8"/>
+            <frame index="3" delay="40" offsetY="11"/>
+            <frame index="3" delay="40" offsetY="14"/>
+            <frame index="3" delay="40" offsetY="17"/>
+            <frame index="3" delay="40" offsetY="20"/>
+            <frame index="3" delay="40" offsetY="24"/>
+            <frame index="3" delay="40" offsetY="28"/>
+            <frame index="3" delay="30" offsetY="32"/>
+            <frame index="3" delay="30" offsetY="36"/>
+            <frame index="3" delay="30" offsetY="41"/>
+            <frame index="3" delay="30" offsetY="46"/>
+            <frame index="3" delay="30" offsetY="51"/>
+            <frame index="3" delay="30" offsetY="57"/>
+            <frame index="4" delay="60" offsetY="58"/>
+            <frame index="5" delay="70" offsetY="58"/>
+            <frame index="6" offsetY="59"/>
+        </animation>
+    </action>
+</sprite>

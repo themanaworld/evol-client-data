@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2012 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/billybons.png"
+              width="48"
+              height="41"
+              offsetX="17"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0" delay="12000"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+            <frame index="0" delay="5500"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+            <frame index="0" delay="100"/>
+            <frame index="1" delay="2500"/>
+            <frame index="2" delay="5000"/>
+        </animation>
+    </action>
+</sprite>

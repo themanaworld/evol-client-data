@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2010-2013 Evol Online -->
+
+<sprite>
+    <imageset name="icon"
+              src="graphics/sprites/icons/hide.png"
+              width="10"
+              height="9"
+              offsetX="-1"
+              offsetY="-16"/>
+
+    <action name="default" imageset="icon">
+        <animation direction="default">
+            <frame index="0" delay="5000"/>
+            <frame index="1" delay="150"/>
+            <frame index="2" delay="300"/>
+            <frame index="1" delay="200"/>
+            <frame index="0" delay="3000"/>
+            <sequence value="1,2,1" delay="150"/>
+        </animation>
+    </action>
+</sprite>

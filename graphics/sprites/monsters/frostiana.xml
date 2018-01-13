@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2014 Evol Online -->
+<sprite>
+    <imageset name="frostiana"
+              src="graphics/sprites/monsters/frostiana.png"
+              width="32"
+              height="32"/>
+
+    <action name="spawn" imageset="frostiana">
+        <animation direction="default">
+            <frame index="0" delay="120"/>
+            <sequence start="1" end="3" delay="90"/>
+            <frame index="4" delay="110"/>
+            <frame index="5" delay="130"/>
+            <frame index="4" delay="100"/>
+            <frame index="3" delay="90"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+    
+    <action name="stand" imageset="frostiana">
+        <animation direction="default">
+            <frame index="4" delay="120"/>
+            <!-- Static Animation -->
+            <label name="start"/>
+            <frame index="4" delay="100"/>
+            <goto label="bouncing" rand="3"/>
+            <goto label="start" rand="100"/>
+            <label name="bouncing"/>
+            <!-- Bouncing Animation -->
+            <frame index="5" delay="130"/>
+            <frame index="4" delay="100"/>
+            <frame index="3" delay="90"/>
+            <frame index="4" delay="120"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="frostiana">
+        <animation direction="default">
+            <frame index="3" delay="130"/>
+            <frame index="4" delay="100"/>
+            <frame index="5" delay="210"/>
+            <frame index="4"/>
+            <end />
+        </animation>
+    </action>
+    
+    <action name="dead" imageset="frostiana">
+        <animation direction="default">
+            <sequence start="4" end="2" delay="90"/>
+            <frame index="6" delay="100"/>
+            <frame index="7"/>
+        </animation>
+    </action>
+</sprite>

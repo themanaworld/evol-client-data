@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2012  Evol Online -->
+<sprite>
+    <imageset name="acc"
+              src="graphics/sprites/accessories/eye-left-blink.png"
+              width="5"
+              height="5"
+              offsetY="-44"/>
+
+    <action name="stand" imageset="acc">
+        <animation direction="default">
+            <frame index="0" delay="7000"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+            <frame index="0" delay="3500"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+        </animation>
+    </action>
+</sprite>

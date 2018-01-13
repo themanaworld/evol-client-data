@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/eugene.png"
+              width="96"
+              height="128"
+              offsetX="32"
+              offsetY="64"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0" delay="1500"/>
+            <sequence start="1" end="5" delay="130"/>
+        </animation>
+    </action>
+</sprite>
