@@ -3,8 +3,8 @@
 <!-- Authors: 4144, Alige, Piman, Reid
 Copyright (C) 2010-2015 Evol Online -->
 
-<!--
-New organization (04/12/11).
+<!--New organization (04/12/11).
+
 -0      -99       = Hairstyles
 -100    -infinity = Races
 30      500       = Weapon Animations
@@ -22,8 +22,9 @@ New organization (04/12/11).
 3500    3999      = Weapons
 4000    4999      = Pets
 5000    5999      = Cards
-6000    6999      = Bows
-7000    7999      = Arrows
+6000    6499      = Bows
+6500    6999      = Arrows
+7000    7499      = Rings
 Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
@@ -700,16 +701,657 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="1"
         maxFloorOffset="4"/>
+    <item id="731"
+        image="generic/diamond.png"
+        name="Diamond"
+        description="A raw diamond gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="732"
+        image="generic/ruby.png"
+        name="Ruby"
+        description="A raw ruby gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="733"
+        image="generic/emerald.png"
+        name="Emerald"
+        description="A raw emerald gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="734"
+        image="generic/sapphire.png"
+        name="Sapphire"
+        description="A raw sapphire gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="735"
+        image="generic/topaz.png"
+        name="Topaz"
+        description="A raw topaz gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="736"
+        image="generic/amethyst.png"
+        name="Amethyst"
+        description="A raw amethyst gemstone."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="737"
+        image="generic/blackpearl.png"
+        name="Black Pearl"
+        description="A pearl. Round, shiny and black!"
+        type="generic"
+        weight="200"
+        maxFloorOffset="20"/>
+    <item id="738"
+        image="generic/bloodstone.png"
+        name="Bloodstone"
+        description="A stone as red as blood that emits a strange aura."
+        type="generic"
+        weight="25"
+        maxFloorOffset="20"/>
+    <item id="739"
+        image="generic/coinbag.png"
+        name="Coin Bag"
+        description="A bag used to hold coins."
+        type="generic"
+        weight="50"
+        maxFloorOffset="20"/>
+    <item id="740"
+        image="generic/wolverntooth.png"
+        name="Wolvern Tooth"
+        description="A tooth from a wolvern."
+        type="generic"
+        weight="30"
+        maxFloorOffset="20"/>
+    <item id="741"
+        image="generic/bugleg.png"
+        name="Bug Leg"
+        description="A bug's leg. Mostly used for alchemy."
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="742"
+        image="generic/pinkantenna.png"
+        name="Pink Antenna"
+        description="No-one knows why pinkies have these antennas on their heads."
+        type="generic"
+        weight="10"
+        maxFloorOffset="20"/>
+    <item id="743"
+        image="generic/animalbones.png"
+        name="Animal Bones"
+        description="Bones from an animal."
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="744"
+        image="generic/antlers.png"
+        name="Antlers"
+        description="The antlers of a Reinboo."
+        type="generic"
+        weight="3000"
+        maxFloorOffset="20"/>
+    <item id="745"
+        image="generic/bandithood.png"
+        name="Bandit Hood"
+        description="A bandit hood crawling with lice."
+        type="generic"
+        weight="50"
+        maxFloorOffset="20"/>
+    <item id="746"
+        image="generic/batwing.png"
+        name="Bat Wing"
+        description="The wing from a bat."
+        type="generic"
+        weight="3"
+        maxFloorOffset="20"/>
+    <item id="747"
+        image="generic/bentneedle.png"
+        name="Bent Needle"
+        description="A twisted needle. It would be difficult to find one in a haystack, for example."
+        type="generic"
+        weight="3"
+        maxFloorOffset="20"/>
+    <item id="748"
+        image="generic/blanket.png"
+        name="Blanket"
+        description="A blanket big enough to cover a reinboo's back, but not very warm."
+        type="generic"
+        weight="50"
+        maxFloorOffset="20"/>
+    <item id="749"
+        image="generic/bone.png"
+        name="Bone"
+        description="	A bone."
+        type="generic"
+        weight="10"
+        maxFloorOffset="20"/>
+    <item id="750"
+        image="generic/bottleofsand.png"
+        name="Bottle Of Sand"
+        description="A bottle with sand in it."
+        type="generic"
+        weight="10"
+        maxFloorOffset="20"/>
+    <item id="751"
+        image="generic/brainstem.png"
+        name="Brainstem"
+        description="The cortex pulses with enegry."
+        type="generic"
+        weight="10"
+        maxFloorOffset="20"/>
+    <item id="752"
+        image="generic/casinocoins.png"
+        name="Casino Coins"
+        description="	Just some casino coins."
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="753"
+        image="generic/cavesnakelamp.png"
+        name="Cave Snake Lamp"
+        description="The feeler of a cave snake that glows in the dark."
+        type="generic"
+        weight="10"
+        maxFloorOffset="20"/>
+    <item id="754"
+        image="generic/closedchristmasbox.png"
+        name="Closed Christmas Box"
+        description="A closed, but yet unwrapped box that should contain some Christmas present."
+        type="generic"
+        weight="200"
+        maxFloorOffset="20"/>
+    <item id="755"
+        image="generic/coal.png"
+        name="Coal"
+        description="A lump of coal."
+        type="generic"
+        weight="20"
+        maxFloorOffset="20"/>
+    <item id="756"
+        image="generic/cryptkey.png"
+        name="Crypt Key"
+        description="You feel as if the Skeleton Key is staring at you."
+        type="generic"
+        weight="2"
+        maxFloorOffset="20"/>
+    <item id="757"
+        image="generic/darkpetal.png"
+        name="Dark Petal"
+        description="A single, dark, petal, oddly heavy. The edges of the petal are unusually hard, and have a slightly reflective shine to them. But looking into the gleam, you can only see fire."
+        type="generic"
+        weight="250"
+        maxFloorOffset="20"/>
+    <item id="758"
+        image="generic/zombieear.png"
+        name="Zombie Ear"
+        description="	An ear from a zombie."
+        type="generic"
+        weight="5"
+        maxFloorOffset="20"/>
+    <item id="759"
+        image="generic/ectoplasm.png"
+        name="Ectoplasm"
+        description="Someone blows their nose and you want to keep it?"
+        type="generic"
+        weight="4"
+        maxFloorOffset="20"/>
+    <item id="760"
+        image="generic/frozenyetitear.png"
+        name="Frozen Yeti Tear"
+        description="A tear from a yeti, frozen."
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="761"
+        image="generic/cobaltherb.png"
+        name="Cobalt Herb"
+        description="An ingredient for brewing healing potions."
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="762"
+        image="generic/snakeskin.png"
+        name="Sanke Skin"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="763"
+        image="generic/undeadeye.png"
+        name="Undead Eye"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="764"
+        image="generic/cottoncloth.png"
+        name="Cotton Cloth"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="765"
+        image="generic/grassseeds.png"
+        name="Grass Seeds"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="766"
+        image="generic/hardspike.png"
+        name="Hard Spike"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="767"
+        image="generic/diseasedheart.png"
+        name="Diseasd Heart"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="768"
+        image="generic/gambogeherb.png"
+        name="Gamboge Herb"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="769"
+        image="generic/mauveherb.png"
+        name="Mauve Herb"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="770"
+        image="generic/ironingot.png"
+        name="Iron Ingot"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="771"
+        image="generic/ironore.png"
+        name="Iron Ore"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="772"
+        image="generic/maggotslime.png"
+        name="Maggot Slime"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="773"
+        image="generic/rottenrags.png"
+        name="Rotten Rags"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="774"
+        image="generic/rawlog.png"
+        name="Raw Log"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="775"
+        image="generic/brain.png"
+        name="Brain"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="776"
+        image="generic/reedbundle.png"
+        name="Reed Bundle"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="777"
+        image="generic/root.png"
+        name="Root"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="778"
+        image="generic/scorpionstinger.png"
+        name="Scorpion Stinger"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="779"
+        image="generic/silkcocoon.png"
+        name="Silk Cocoon"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="780"
+        image="generic/snaketongue.png"
+        name="Snake Tongue"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="781"
+        image="generic/treasurekey.png"
+        name="Treasure Key"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
 
-    <!-- Necklaces
+    <!-- Necklaces -->
     <item id="1000"
-        image="equipment/amulet/.png"
-        name=""
-        description="."
-        effect="."
-        level=""
+        image="equipment/amulet/bromenalfourleafamulet.png"
+        name="Bromenal Four-Leaf Amulet"
+        description="An amulet that brings the wearer good luck where ever they go."
+        effect=" Defense +5%"
+        level="25"
         type="equip-necklace"
-        weight=""/> -->
+        weight="10">
+    </item>
+<item id="1001"
+        image="equipment/amulet/ironfourleafamulet.png"
+        name="Iron Four-Leaf Amulet"
+        description="An amulet that brings the wearer great luck where ever they go."
+        effect=" Defense +5%"
+        level="35"
+        type="equip-necklace"
+        weight="25">
+    </item>
+    <item id="1002"
+        image="equipment/amulet/goldenfourleafamulet.png"
+        name="Golden Four-Leaf Amulet"
+        description="An amulet that brings the wearer excellent luck where ever they go."
+        effect=" Defense +5%"
+        level="45"
+        type="equip-necklace"
+        weight="35">
+    </item>
+    <item id="1003"
+        image="equipment/amulet/crozenitefourleafamulet.png"
+        name="Crozenite Four-Leaf Amulet"
+        description="An amulet that brings the wearer excellent luck where ever they go."
+        effect=" Defense +15%"
+        level="65"
+        type="equip-necklace"
+        weight="55">
+    </item>
+    <item id="1004"
+        image="equipment/amulet/heartnecklace.png"
+        name="Heart Necklace"
+        description="A gold and ruby heart necklace."
+        level="90"
+        type="equip-necklace"
+        weight="100">
+    </item>
+    <item id="1005"
+        image="equipment/amulet/jacksskeletoncharm.png"
+        name="Jack’s Skeleton Charm"
+        description="A mysterious charm said to only work at a special time of year."
+        level="60"
+        type="equip-necklace"
+        weight="10">
+    </item>
+    <item id="1006"
+        image="equipment/amulet/lifestonependant.png"
+        name="Lifestone Pendant"
+        description="A mystical pendant."
+        effect=" SP +5%"
+        level="25"
+        type="equip-necklace"
+        weight="60">
+    </item>
+<item id="1007"
+        image="equipment/amulet/bloodstonependant.png"
+        name="Bloodstone Pendant"
+        description="A demoniac pendant."
+        effect=" HP +5%"
+        level="45"
+        type="equip-necklace"
+        weight="100">
+    </item>
+    <item id="1008"
+        image="equipment/amulet/rawtalisman.png"
+        name="Raw Talisman"
+        description="Raw form of a talisman, can be enchanted with ancient magic."
+        effect=" HP +15%"
+        level="65"
+        type="equip-necklace"
+        weight="100">
+    </item>
+    <item id="1009"
+        image="equipment/amulet/darktalisman.png"
+        name="Dark Talisman"
+        description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
+        effect=" HP +15%"
+        level="85"
+        type="equip-necklace"
+        weight="1000">
+    </item>
+    <item id="1010"
+        image="equipment/amulet/flighttalisman.png"
+        name="Flight Talisman"
+        description="A talisman created using ancient magic to keep you safe during flights."
+        effect=" HP +15%"
+        level="75"
+        type="equip-necklace"
+        weight="500">
+    </item>
+<item id="1011"
+        image="equipment/amulet/toothnecklace.png"
+        name="Tooth Necklace"
+        description="A basic tooth necklace."
+        level="8"
+        type="equip-necklace"
+        weight="50">
+    </item>
+    <item id="1012"
+        image="equipment/amulet/wolvernteethnecklace.png"
+        name="Wolvern Teeth Necklace"
+        description="A poacher necklace."
+        level="24"
+        type="equip-necklace"
+        weight="150">
+    </item>
+    <item id="1013"
+        image="equipment/amulet/clawpendant.png"
+        name="Claw Pendant "
+        description="a pendant made for hermit"
+        level="34"
+        type="equip-necklace"
+        weight="250">
+    </item>
+    <item id="1014"
+        image="equipment/amulet/barbarianamulet.png"
+        name="Barbarian Amulet"
+        description="A typical amulet for adult barbarian."
+        level="44"
+        type="equip-necklace"
+        weight="350">
+    </item>
+    <item id="1015"
+        image="equipment/amulet/barbarianmasteramulet.png"
+        name="Barbarian Master Amulet"
+        description="An unique amulet in a tribe."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+
+    <!-- Charms -->
+    <item id="1150"
+        image="equipment/charms/fourleafclover.png"
+        name="Four Leaf Clover"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1151"
+        image="equipment/charms/demonashurn.png"
+        name="Demon Ash Urn"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1152"
+        image="equipment/charms/astralcube.png"
+        name="Astral Cube"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1153"
+        image="equipment/charms/brokendoll.png"
+        name="Broken Doll"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1154"
+        image="equipment/charms/doll.png"
+        name="Doll"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1155"
+        image="equipment/charms/firescroll.png"
+        name="Fire Scroll"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1156"
+        image="equipment/charms/heartofisis.png"
+        name="Heart Of Isis"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1157"
+        image="equipment/charms/leatherball.png"
+        name="Leather Ball"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1158"
+        image="equipment/charms/mechamedallion.png"
+        name="Mecha Medallion"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1159"
+        image="equipment/charms/oldtowel.png"
+        name="Old Towel"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1160"
+        image="equipment/charms/plushmouboo.png"
+        name="Plush Mouboo"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1161"
+        image="equipment/charms/redstocking.png"
+        name="Red Stocking"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1162"
+        image="equipment/charms/santaglobe.png"
+        name="Santa Globe"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1163"
+        image="equipment/charms/snowmanglobe.png"
+        name="Snowman Globe"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1164"
+        image="equipment/charms/spectralorb.png"
+        name="Spectral Orb"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1165"
+        image="equipment/charms/thetabook.png"
+        name="Theta Book"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1166"
+        image="equipment/charms/treasuremap.png"
+        name="Treasure Map"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1167"
+        image="equipment/charms/earthscroll.png"
+        name="Earth Scroll"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+    <item id="1168"
+        image="equipment/charms/demonicskull.png"
+        name="Demonic Skull"
+        description="Test."
+        level="54"
+        type="equip-necklace"
+        weight="450">
+    </item>
+
 
     <!-- Chest Armors -->
     <item id="1300"
@@ -782,7 +1424,173 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/copperarmor-male.xml</sprite>
         <sprite gender="female">equipment/chest/copperarmor-female.xml</sprite>
     </item>
-
+    <item id="1306"
+        image="equipment/chest/warlordplate.png"
+        name="Warlord Plate"
+        description="Strong and decorative armor."
+        defense="270"
+        level="15"
+        type="equip-torso"
+        weight="2600">
+        <sprite gender="unisex">equipment/chest/warlordplate-male.xml</sprite>
+        <sprite gender="female">equipment/chest/warlordplate-female.xml</sprite>
+    </item>
+    <item id="1307"
+        image="equipment/chest/bromenalchest.png"
+        name="Bromenal Chest"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/bromenalchest-male.xml</sprite>
+        <sprite gender="female">equipment/chest/bromenalchest-female.xml</sprite>
+    </item>
+    <item id="1308"
+        image="equipment/chest/forestarmor.png"
+        name="Forest Armor"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/forestarmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/forestarmor-female.xml</sprite>
+    </item>
+    <item id="1309"
+        image="equipment/chest/contributorsweater.png"
+        name="%Color% Contributor Sweater"
+         description="This %color% sweater belongs to someone who helped making TMW2 as awesome as it is now!."
+        defense="50"
+        level="15"
+        type="equip-torso"
+        weight="80">
+        <sprite gender="unisex">equipment/chest/contributorsweater-male.xml</sprite>
+        <sprite gender="female">equipment/chest/contributorsweater-female.xml</sprite>
+    </item>
+    <item id="1310"
+        image="equipment/chest/chainmail.png"
+        name="Chainmail"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/chainmail-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chainmail-female.xml</sprite>
+    </item>
+    <item id="1311"
+        image="equipment/chest/terranitearmor.png"
+        name="Terranite Chest"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/terranitearmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/terranitearmor-female.xml</sprite>
+    </item>
+    <item id="1312"
+        image="equipment/chest/lightplatemail.png"
+        name="Light Platemail"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/lightplatemail-male.xml</sprite>
+        <sprite gender="female">equipment/chest/lightplatemail-female.xml</sprite>
+    </item>
+    <item id="1313"
+        image="equipment/chest/shorttanktop.png"
+        name="%Color% Short tank top"
+        description="A %color% short tank top."
+        defense="10"
+        level="8"
+        type="equip-torso"
+        weight="5"
+        colors="simple">
+        <sprite gender="unisex">equipment/chest/shorttanktop-male.xml</sprite>
+        <sprite gender="female">equipment/chest/shorttanktop-female.xml</sprite>
+    </item>
+    <item id="1314"
+        image="equipment/chest/leathershirt.png"
+        name="Leather Shirt"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/leathershirt-male.xml</sprite>
+        <sprite gender="female">equipment/chest/leathershirt-female.xml</sprite>
+    </item> 
+    <item id="1315"
+        image="equipment/chest/tnecksweater.png"
+        name="Tneck Sweater"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/tnecksweater-male.xml</sprite>
+        <sprite gender="female">equipment/chest/tnecksweater-female.xml</sprite>
+    </item>
+    <item id="1316"
+        image="equipment/chest/silkrobe.png"
+        name="Silk Robe"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/silkrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
+    </item>
+    <item id="1317"
+        image="equipment/chest/sorcererrobe.png"
+        name="Sorcerer Robe"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/sorcererrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/sorcererrobe-female.xml</sprite>
+    </item>
+    <item id="1318"
+        image="equipment/chest/uglychristmassweater.png"
+        name="Ugly Christmas Sweater"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml</sprite>
+        <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
+    </item>
+    <item id="1319"
+        image="equipment/chest/valentinedress.png"
+        name="Valentine Dress"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/valentinedress-male.xml</sprite>
+        <sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
+    </item>
+    <item id="1320"
+        image="equipment/chest/vnecksweater.png"
+        name="Vneck Sweater"
+        description="Strong armor."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="3600">
+        <sprite gender="unisex">equipment/chest/vnecksweater-male.xml</sprite>
+        <sprite gendefvner="female">equipment/chest/vnecksweater-female.xml</sprite>
+    </item>
+ 
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -860,18 +1668,198 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/trousers-male.xml</sprite>
         <sprite gender="female">equipment/legs/trousers-female.xml</sprite>
     </item>
+    <item id="2202"
+        image="equipment/legs/assassinpants.png"
+        name="Assassin Pants"
+        description="Pants for a master assassin.."
+        defense="55"
+        level="85"
+        type="equip-legs"
+        weight="35"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/assassinpants-male.xml</sprite>
+    </item>
+    <item id="2203"
+        image="equipment/legs/bromenalpants.png"
+        name="Bromenal Pants"
+        description="A bromenal leg armor."
+        defense="100"
+        level="75"
+        type="equip-legs"
+        weight="435"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/bromenalpants-male.xml</sprite>
+    </item>
+    <item id="2204"
+        image="equipment/legs/jeanchaps.png"
+        name="Jean Chaps"
+        description="Jeans with snake skin chaps."
+        defense="65"
+        level="55"
+        type="equip-legs"
+        weight="65"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/jeanchaps-male.xml</sprite>
+    </item>
+    <item id="2205"
+        image="equipment/legs/cottonshorts.png"
+        name="Cotton Shorts"
+        description="Shorts made of 100% cotton."
+        defense="14"
+        level="11"
+        type="equip-legs"
+        weight="15"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/cottonshorts-male.xml</sprite>
+    </item>
+    <item id="2206"
+        image="equipment/legs/miniskirt.png"
+        name="Mini Skirt"
+        description="A short skirt for hot summer days."
+        defense="10"
+        level="15"
+        type="equip-legs"
+        weight="14"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/miniskirt-male.xml</sprite>
+    </item>
+    <item id="2207"
+        image="equipment/legs/cottontrousers.png"
+        name="Cotton Trousers"
+        description="Ankle-length trousers made of cotton."
+        defense="25"
+        level="25"
+        type="equip-legs"
+        weight="25"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/cottontrousers-male.xml</sprite>
+    </item>
+    <item id="2208"
+        image="equipment/legs/silkpants.png"
+        name="Silk Pants"
+        description="A very light fancy pair of silk trousers."
+        defense="20"
+        level="32"
+        type="equip-legs"
+        weight="16"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/silkpants-male.xml</sprite>
+    </item>
+    <item id="2209"
+        image="equipment/legs/cottonskirt.png"
+        name="Cotton Skirt"
+        description="A skirt made of linen cloth."
+        defense="19"
+        level="20"
+        type="equip-legs"
+        weight="19"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/cottonskirt-male.xml</sprite>
+    </item>
+    <item id="2210"
+        image="equipment/legs/terranitepants.png"
+        name="Terranite Pants"
+        description="Leggings made out of terranite."
+        defense="50"
+        level="80"
+        type="equip-legs"
+        weight="80"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/terranitepants-male.xml</sprite>
+    </item>
+    <item id="2211"
+        image="equipment/legs/chainmailskirt.png"
+        name="Chainmail Skirt"
+        description="Classic trousers ornated with some fluffy fur."
+        defense="110"
+        level="65"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/chainmailskirt-male.xml</sprite>
+    </item>
 
-    <!-- Wings
+    <!-- Rings -->
     <item id="2500"
-        image="equipment/wings/.png"
-        name=""
-        description="."
-        effect="."
-        level=""
+        image="equipment/wings/weddingring.png"
+        name="Wedding Ring"
+        description="Your wedding ring."
+        level="4"
         type="equip-charm"
-        weight="">
-        <sprite>equipment/wings/</sprite>
-    </item> -->
+        weight="1">
+    </item>
+    <item id="2501"
+        image="equipment/wings/goldensimplering.png"
+        name="Golden Simple Ring"
+        description="A golden simple ring."
+        level="10"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2502"
+        image="equipment/wings/goldendiamondring.png"
+        name="Golden Diamond Ring"
+        description="A golden diamond ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2503"
+        image="equipment/wings/goldenrubyring.png"
+        name="Golden Ruby Ring"
+        description="A golden ruby ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2504"
+        image="equipment/wings/goldenamethystring.png"
+        name="Golden Amethyst Ring"
+        description="A golden amethyst ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2505"
+        image="equipment/wings/goldensapphirering.png"
+        name="Golden Sapphire Ring"
+        description="A golden sapphire ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2506"
+        image="equipment/wings/goldentopazring.png"
+        name="Golden Topaz Ring"
+        description="A golden topaz ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2507"
+        image="equipment/wings/goldenemeraldring.png"
+        name="Golden Emerald Ring"
+        description="A golden emerald ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2508"
+        image="equipment/wings/goldenpearlring.png"
+        name="Golden Pearl Ring"
+        description="A golden pearl ring."
+        level="15"
+        type="equip-charm"
+        weight="1">
+    </item>
+    <item id="2509"
+        image="equipment/wings/goldenblackpearlring.png"
+        name="Golden Black Pearl Ring"
+        description="A golden black pearl ring."
+        level="25"
+        type="equip-charm"
+        weight="1">
+    </item>
 
     <!-- Shields -->
     <item id="2700"
@@ -885,13 +1873,58 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite>equipment/shields/barrel.xml</sprite>
     </item>
     <item id="2701"
-        image="equipment/shields/leather.png"
+        image="equipment/shields/leathershield.png"
         name="Leather Shield"
         description="Small and round leather shield with iron reinforcement."
         defense="50"
         level="5"
         type="equip-shield"
         weight="100">
+    </item>
+    <item id="2702"
+        image="equipment/shields/bladeshield.png"
+        name="Blade Shield"
+        description="Small and round shield with iron reinforcement."
+        defense="100"
+        level="35"
+        type="equip-shield"
+        weight="1000">
+    </item>
+    <item id="2703"
+        image="equipment/shields/blueknightshield.png"
+        name="Blue Knight Shield"
+        description="A shield perfect with prsm helmet."
+        defense="200"
+        level="64"
+        type="equip-shield"
+        weight="2100">
+    </item>
+    <item id="2704"
+        image="equipment/shields/britshield.png"
+        name="Brit Shield"
+        description="A wooden shield from nowhere."
+        defense="190"
+        level="54"
+        type="equip-shield"
+        weight="1700">
+    </item>
+    <item id="2705"
+        image="equipment/shields/saviorshield.png"
+        name="Savior Shield"
+        description="The magic savior shield."
+        defense="250"
+        level="66"
+        type="equip-shield"
+        weight="2800">
+    </item>
+    <item id="2706"
+        image="equipment/shields/bromenalshield.png"
+        name="Bromenal Shield"
+        description="A strong bromenal shield."
+        defense="300"
+        level="78"
+        type="equip-shield"
+        weight="3400">
     </item>
 
     <!-- Head Gears -->
@@ -990,18 +2023,390 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
             <item from="-14" to="-9"/>
             <item from="-15" to="-19"/>
         </replace>
-            </item>
+    </item>292930
+    <item id="2906"
+        image="equipment/head/bull.png"
+        name="Bull"
+        description="un truc qui kalmurk!"
+        defense="200"
+        level="90"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/bull.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2907"
+        image="equipment/head/darkhelm.png"
+        name="Darkhelm"
+        description="A black steel helmet worn by the most ferocious warrior"
+        defense="190"
+        level="90"
+        type="equip-head"
+        weight="1300">
+        <sprite>equipment/head/darkhelm.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2908"
+        image="equipment/head/funkyhat.png"
+        name="Funky Hat"
+        description="Yawn."
+        defense="130"
+        level="30"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/funkyhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
     <item id="2909"
         image="equipment/head/crusadehelmet.png"
         name="Crusade Helmet"
-        description="A carved pumpkin. Its face might scare your enemy off!"
-        defense="200"
-        level="4"
+        description="Start your own crusade !"
+        defense="175"
+        level="55"
         type="equip-head"
-        weight="50">
+        weight="1450">
         <sprite>equipment/head/crusadehelmet.xml</sprite>
         <replace sprite="hair"/>
-
+    </item>
+    <item id="2910"
+        image="equipment/head/bucket.png"
+        name="Bucket"
+        description="A bucket for your head!"
+        defense="36"
+        level="10"
+        type="equip-head"
+        weight="90">
+        <sprite>equipment/head/bucket.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2911"
+        image="equipment/head/infantryhelmet.png"
+        name="infantry Helmet"
+        description="A helmet for soldiers and guards."
+        defense="145"
+        level="30"
+        type="equip-head"
+        weight="622">
+        <sprite>equipment/head/infantryhelmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2912"
+        image="equipment/head/bunnyears.png"
+        name="Bunny Ears"
+        description="A headband with plush bunny ears."
+        defense="19"
+        level="61"
+        type="equip-head"
+        weight="10">
+        <sprite>equipment/head/bunnyears.xml</sprite>
+    </item>
+    <item id="2913"
+        image="equipment/head/mouboohat.png"
+        name="Mouboo Hat"
+        description="A tightly fitting mouboo head."
+        defense="58"
+        level="39"
+        type="equip-head"
+        weight="400">
+        <sprite>equipment/head/mouboohat.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2914"
+        image="equipment/head/bromenalhelmet.png"
+        name="Bromenal Helmet"
+        description="A hard bromenal helmet."
+        defense="166"
+        level="45"
+        type="equip-head"
+        weight="900">
+        <sprite>equipment/head/bromenalhelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2915"
+        image="equipment/head/candlehelmet.png"
+        name="Candle Helmet"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/candlehelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2916"
+        image="equipment/head/deserthelmet.png"
+        name="Desert Helmet"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/deserthelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2917"
+        image="equipment/head/deserthat.png"
+        name="Desert Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/deserthat.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2918"
+        image="equipment/head/eggshellhat.png"
+        name="Eggshell Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/eggshellhat.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2919"
+        image="equipment/head/prsmhelmet.png"
+        name="Prsm Helmet"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/prsmhelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2920"
+        image="equipment/head/warlordhelmet.png"
+        name="Warlord Helmet"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/warlordhelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2921"
+        image="equipment/head/trapperhat.png"
+        name="Trapper Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/trapperhat.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2922"
+        image="equipment/head/yetimask.png"
+        name="Yeti Mask"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/yetimask.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2923"
+        image="equipment/head/antlerhat.png"
+        name="Antler Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/antlerhat.xml</sprite>
+    </item>
+    <item id="2924"
+        image="equipment/head/eyepatch.png"
+        name="Eyepatch"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/eyepatch.xml</sprite>
+    </item>
+    <item id="2925"
+        image="equipment/head/operamask.png"
+        name="Opera Mask"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/operamask.xml</sprite>
+    </item>
+    <item id="2926"
+        image="equipment/head/axehat.png"
+        name="Axe Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/axehat.xml</sprite>
+    </item>
+    <item id="2927"
+        image="equipment/head/heartglasses.png"
+        name="Heart Glasses"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/heartglasses.xml</sprite>
+    </item>
+    <item id="2928"
+        image="equipment/head/earmuffs.png"
+        name="Earmuffs"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/earmuffs.xml</sprite>
+    </item>
+    <item id="2929"
+        image="equipment/head/goggles.png"
+        name="Goggles"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/goggles.xml</sprite>
+    </item>
+    <item id="2930"
+        image="equipment/head/pinkiehat.png"
+        name="Pinkie Hat"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/pinkiehat.xml</sprite>
+    </item>
+    <item id="2931"
+        image="equipment/head/skullmask.png"
+        name="Skull Mask"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/skullmask.xml</sprite>
+    </item>
+    <item id="2932"
+        image="equipment/head/rednose.png"
+        name="Red Nose"
+        description="yolo baler!"
+        defense="135"
+        level="20"
+        type="equip-head"
+        weight="1350">
+        <sprite>equipment/head/rednose.xml</sprite>
+    </item>
+    <item id="2933"
+        image="equipment/head/gmcap.png"
+        name="GM Cap"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/gmcap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2934"
+        image="equipment/head/cap.png"
+        name="Cap"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2935"
+        image="equipment/head/tophat.png"
+        name="Top Hat"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/tophat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2936"
+        image="equipment/head/bowlerhat.png"
+        name="Bowler Hat"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/bowlerhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2937"
+        image="equipment/head/chefhat.png"
+        name="Chef Hat"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/chefhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2938"
+        image="equipment/head/captaincap.png"
+        name="Captain Cap"
+        description="To wear at festivals and certain events."
+        defense="110"
+        level="8"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/captaincap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
     </item>
 
     <!-- Neck Armors -->
@@ -1016,6 +2421,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         drawAfter="torso">
         <sprite gender="unisex">equipment/neck/shemagh.xml</sprite>
         <sprite gender="female">equipment/neck/shemagh.xml</sprite>
+    </item>
+    <item id="3201"
+        image="equipment/neck/monocle.png"
+        name="Monocle"
+        description="An improved scarf used by mercenaries in tough environments."
+        defense="50"
+        level="3"
+        type="equip-neck"
+        weight="22"
+        drawAfter="torso">
+        <sprite gender="unisex">equipment/neck/monocle.xml</sprite>
+        <sprite gender="female">equipment/neck/monocle.xml</sprite>
     </item>
 
     <!-- Weapons -->
@@ -1327,3 +2744,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="100"
         weight="1"/>
 </items>
+
+
+
+
