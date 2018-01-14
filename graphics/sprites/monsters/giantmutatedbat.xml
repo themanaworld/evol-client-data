@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<sprite>
+
+  <imageset name="base" src="graphics/sprites/monsters/giantmutatedbat.png|W;R" width="108" height="100" />
+
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="4" delay="50" offsetY ="0" />
+    </animation>
+    <animation direction="left">
+      <sequence start="10" end="14" delay="50" offsetY ="0" />
+    </animation>
+    <animation direction="up">
+      <sequence start="20" end="24" delay="50" offsetY ="0" />
+    </animation>
+    <animation direction="right">
+      <sequence start="30" end="34" delay="50" offsetY ="0" />
+    </animation>
+  </action>
+
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="5" end="8" delay="50" offsetY ="0" />
+      <end />
+    </animation>
+    <animation direction="left">
+      <sequence start="15" end="18" delay="50" offsetY ="0" />
+      <end />
+    </animation>
+    <animation direction="up">
+      <sequence start="25" end="28" delay="50" offsetY ="0" />
+      <end />
+    </animation>
+    <animation direction="right">
+      <sequence start="35" end="38" delay="50" offsetY ="0" />
+      <end />
+    </animation>
+  </action>
+
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="9" offsetY ="0" delay="2500" />
+    </animation>
+  </action>
+
+</sprite>
