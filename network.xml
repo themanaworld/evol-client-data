@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: 4144
-Copyright (C) 2016 Evol Online -->
+Copyright (C) 2016-2018 Evol Online -->
 
 <network>
     <inpackets>
+        <!-- SMSG_SHOW_PROGRESS_BAR_FREE from 20130821 -->
+        <fakepacket
+            id="2513"
+            len="14"
+        />
     </inpackets>
 </network>
