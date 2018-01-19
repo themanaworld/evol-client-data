@@ -173,6 +173,18 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1023" name="Mouboo" targetCursor="small">
         <sprite>monsters/mouboo.xml</sprite>
     </monster>
+    <monster id="1024" name="Green Slime" targetCursor="small">
+        <sprite>monsters/slime.xml|#323b20,73874d,bcdd7d,ffffff</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
+    <monster id="1025" name="Little Green Slime" targetCursor="small">
+        <sprite>monsters/slime-littleslime.xml|#323b20,73874d,bcdd7d,ffffff</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
     <monster id="1026" name="Maggot" targetCursor="small">
         <sprite>monsters/maggot.xml</sprite>
     </monster>
