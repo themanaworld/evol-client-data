@@ -1303,6 +1303,20 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="1"
         maxFloorOffset="20"/>
+    <item id="817"
+        image="generic/key-ship.png"
+        name="Saxso Key"
+        description=""
+        type="generic"
+        weight="1"
+        maxFloorOffset="20"/>
+    <item id="818"
+        image="generic/bluemanapearl.png"
+        name="Blue Mana Pearl"
+        description="A pure pearl of Mana"
+        type="generic"
+        weight="0"
+        maxFloorOffset="20"/>
 
     <!-- Necklaces -->
     <item id="1000"
@@ -1814,15 +1828,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
     </item>
     <item id="1319"
-        image="equipment/chest/valentinedress.png"
+        image="equipment/chest/valentinedress.png|W:#222255,4444ff,ffffff,ffffff"
         name="Valentine Dress"
         description="A dress made for your Valentin's day."
         defense="250"
         level="15"
         type="equip-torso"
         weight="35">
-        <sprite gender="unisex">equipment/chest/valentinedress-male.xml</sprite>
-        <sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
+        <sprite gender="unisex">equipment/chest/valentinedress-male.xml|#222255,4444ff,ffffff,ffffff</sprite>
+        <sprite gender="female">equipment/chest/valentinedress-female.xml|#212121</sprite>
     </item>
     <item id="1320"
         image="equipment/chest/vnecksweater.png"
@@ -1838,7 +1852,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
  
     <!-- Boots -->
     <item id="1800"
-        image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
+        image="equipment/feet/boots.png"
         name="Lousy Moccasins"
         description="Crudely assembled footwear not for comfort nor fashion."
         defense="100"
@@ -1847,6 +1861,29 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="18"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    </item>
+    <item id="1801"
+        image="equipment/feet/assassinboots.png"
+        name="Assassin Pants"
+        description="Crudely assembled footwear not for comfort nor fashion."
+        defense="500"
+        level="4"
+        type="equip-feet"
+        weight="18"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/assassinboots.</sprite>
+    </item>
+    <item id="1802"
+        image="equipment/feet/boots.png|W:#212121"
+        name="red Moccasins"
+        description="Crudely assembled footwear not for comfort nor fashion."
+        defense="100"
+        level="4"
+        type="equip-feet"
+        weight="18"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#212121</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
     </item>
 
@@ -2120,7 +2157,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="2701"
         image="equipment/shields/leathershield.png"
         name="Leather Shield"
-        description="Small and round leather shield with iron reinforcement."
+        description="A shield with iron reinforcement."
         defense="50"
         level="5"
         type="equip-shield"
@@ -2170,6 +2207,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         level="78"
         type="equip-shield"
         weight="3400">
+    </item>
+    <item id="2707"
+        image="equipment/shields/roundleathershield.png"
+        name="Round Leather Shield"
+        description="Small and round leather shield with iron reinforcement."
+        defense="33"
+        level="3"
+        type="equip-shield"
+        weight="90">
     </item>
 
     <!-- Head Gears -->
@@ -2987,5 +3033,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="For bow training. Does not seem much reliable."
         type="equip-ammo"
         attack="100"
+        weight="1"/>  
+   <item id="6501"
+        image="equipment/ammo/tolchiarrow.png"
+        name="Tolchi Arrow"
+        description="a basic arrow."
+        type="equip-ammo"
+        attack="80"
         weight="1"/>
 </items>
