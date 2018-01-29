@@ -2436,15 +2436,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/bromenalpants-male.xml</sprite>
     </item>
     <item id="2204"
-        image="equipment/legs/jeanchaps.png"
-        name="Jean Chaps"
+        image="equipment/legs/jeanschaps.png"
+        name="Jeans Chaps"
         description="Jeans with snake skin chaps."
         defense="65"
         level="55"
         type="equip-legs"
         weight="65"
         maxFloorOffset="8">
-        <sprite gender="unisex">equipment/legs/jeanchaps-male.xml</sprite>
+        <sprite gender="unisex">equipment/legs/jeanschaps-male.xml</sprite>
     </item>
     <item id="2205"
         image="equipment/legs/cottonshorts.png"
@@ -2512,16 +2512,71 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/terranitepants-male.xml</sprite>
     </item>
-    <item id="2211"
+<item id="2211"
         image="equipment/legs/chainmailskirt.png"
         name="Chainmail Skirt"
-        description="Classic trousers ornated with some fluffy fur."
+        description="The perfect medival style."
         defense="110"
         level="65"
         type="equip-legs"
         weight="280"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/chainmailskirt-male.xml</sprite>
+    </item>
+    <item id="2212"
+        image="equipment/legs/jeansshorts.png"
+        name="Jeans Shorts"
+        description="Perfect for the beach."
+        defense="110"
+        level="15"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/jeansshorts-male.xml</sprite>
+    </item>
+    <item id="2213"
+        image="equipment/legs/leathertrousers.png"
+        name="Leather Trousers"
+        description="A normal pair of pants made from leather."
+        defense="110"
+        level="50"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/leathertrousers-male.xml</sprite>
+    </item>
+    <item id="2214"
+        image="equipment/legs/banditpants.png"
+        name="Bandit Pants"
+        description="The Bandits favorite pair of pants."
+        defense="110"
+        level="45"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/banditpants-male.xml</sprite>
+    </item>
+    <item id="2215"
+        image="equipment/legs/warlordpants.png"
+        name="Warlord Pants"
+        description="Usually worn by the best warriors."
+        defense="110"
+        level="65"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/warlord-male.xml</sprite>
+    </item>
+<item id="2216"
+        image="equipment/legs/saviorpants.png"
+        name="Savior Pants"
+        description="Worn by the best of the best."
+        defense="110"
+        level="90"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/savior-male.xml</sprite>
     </item>
 
     <!-- Rings -->
@@ -3306,6 +3361,76 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack"
 
         weight="50">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3506"
+        image="equipment/weapons/rustyknife.png"
+        name="Rusty Knife"
+        description="A lost knife."
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3507"
+        image="equipment/weapons/dagger.png"
+        name="Dagger"
+        description=""
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3508"
+        image="equipment/weapons/boneknife.png"
+        name="Bone Knife"
+        description=""
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3509"
+        image="equipment/weapons/rockknife.png"
+        name="Rock Knife"
+        description=""
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+    <item id="3510"
+        image="equipment/weapons/smallknife.png"
+        name="Small Knife"
+        description="A tiny knife."
+        attack="50"
+        attack-range="1"
+        level=""
+        type="equip-1hand"
+        attack-action="attack"
+        weight="6">
         <sprite>equipment/weapons/knife.xml</sprite>
         <sound event="hit">weapons/knife/hit1.ogg</sound>
         <sound event="miss">weapons/knife/miss1.ogg</sound>
