@@ -3,7 +3,7 @@
 Copyright (C) 2010-2014 Evol Online -->
 
 <!--
-<monsters>       Parent of the monster strings. 
+<monsters>       Parent of the monster strings.
 <monster>        Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
 id=""            ID of the monster. It is different for each monster and starts from 0.
 name=""          Name of the monster which will be displayed in game, it is also used by the server.
@@ -36,7 +36,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1004" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
         <sprite>monsters/tortuga.xml</sprite>
-        <sound event="die">monsters/tortuga/die1.ogg</sound> 
+        <sound event="die">monsters/tortuga/die1.ogg</sound>
         <sound event="hit">monsters/tortuga/hit1.ogg</sound>
         <sound event="hit">monsters/tortuga/hit2.ogg</sound>
         <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
@@ -170,8 +170,17 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/fluffy/hurt1.ogg</sound>
         <sound event="miss">monsters/fluffy/miss1.ogg</sound>
     </monster>
-    <monster id="1023" name="Mouboo" targetCursor="large">
+    <monster id="1023" name="Mouboo" targetCursor="small">
         <sprite>monsters/mouboo.xml</sprite>
+    </monster>
+    <monster id="1026" name="Maggot" targetCursor="small">
+        <sprite>monsters/maggot.xml</sprite>
+    </monster>
+    <monster id="1027" name="Cave Maggot" targetCursor="small">
+        <sprite>monsters/maggot.xml|#0f1315,242214,652b51,6f706f</sprite>
+    </monster>
+    <monster id="1028" name="Forest Maggot" targetCursor="small">
+        <sprite>monsters/maggot.xml|#121c14,223626,334f38,3d5e3d,5e915e</sprite>
     </monster>
     <monster id="1050" name="Poison Skull" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
