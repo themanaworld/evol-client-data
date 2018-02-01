@@ -3364,7 +3364,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="A"
         defense="110"
         level="8"
-        type="equip-head"
+        type="equip-torso"
         weight="22">
         <sprite>equipment/head/graduationcap.xml</sprite>
         <replace sprite="hair">
@@ -3399,6 +3399,22 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/neck/monocle.xml</sprite>
         <sprite gender="female">equipment/neck/monocle.xml</sprite>
     </item>
+            <item id="3202"
+        image="equipment/head/graduationcap.png"
+        name="Graduation Capot"
+        description="A"
+        defense="110"
+        level="8"
+        type="equip-torso"
+        weight="22">
+        <sprite>equipment/head/graduationcap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+
 
     <!-- Weapons -->
     <item id="3500"
