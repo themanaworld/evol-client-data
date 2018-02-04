@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
-<!-- Authors: 4144, Alige, Piman, Reid
-Copyright (C) 2010-2015 Evol Online -->
+<!-- Authors: 4144, Alige, Piman, Reid, Saulc, Rakinorf
+Copyright (C) 2010-2015 Evol Online-->
+<!-- Authors: Saulc, Rakinorf
+Copyright (C) 2018 The Mana World 2-->
 
-<!--New organization (04/12/11).
-
+<!--
 -0      -99       = Hairstyles
 -100    -infinity = Races
 30      500       = Weapon Animations
@@ -25,7 +26,7 @@ Copyright (C) 2010-2015 Evol Online -->
 6000    6499      = Bows
 6500    6999      = Arrows
 7000    7499      = Rings
-Colors for dyeable equipments or items are now set up by itemcolors.xml.
+Colors for dyeable equipments or items are set up by itemcolors.xml.
 -->
 
 <items>
@@ -1599,7 +1600,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="805"
         image="generic/openedchristmasbox.png"
         name="Opened Christmas Box"
-        description=""
+        description="What was inside?"
         type="generic"
         weight="1"
         maxFloorOffset="20"/>
@@ -1711,21 +1712,21 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="821"
         image="generic/sunnycrystal.png"
         name="Sunny Crystal"
-        description=""
+        description="Shines as bright as the sun"
         type="generic"
         weight="10"
         maxFloorOffset="20"/>
     <item id="822"
         image="generic/druidtreebranch.png"
         name="Druid Tree Branch"
-        description=""
+        description="A branch from a druid tree."
         type="generic"
         weight="10"
         maxFloorOffset="20"/>
     <item id="823"
         image="generic/dragonscales.png"
         name="Dragon Scales"
-        description=""
+        description="Taken from a dead dragon"
         type="generic"
         weight="10"
         maxFloorOffset="20"/>
