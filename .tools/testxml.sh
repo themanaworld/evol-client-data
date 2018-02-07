@@ -7,7 +7,7 @@ clientdata_init
 aptget_update
 aptget_install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
 rm -rf tools
-gitclone https://gitlab.com/evol evol-tools.git tools
+gitclone https://gitlab.com/TMW2 evol-tools.git tools
 
 cd tools/testxml
 
