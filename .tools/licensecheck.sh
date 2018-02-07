@@ -7,7 +7,7 @@ clientdata_init
 aptget_update
 aptget_install git-core gcc ca-certificates grep
 rm -rf tools
-gitclone https://gitlab.com/evol evol-tools.git tools
+gitclone https://gitlab.com/TMW2 evol-tools.git tools
 
 cd tools/licensecheck
 
