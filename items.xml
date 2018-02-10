@@ -1288,8 +1288,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="generic/frozenyetitear.png"
         name="Frozen Yeti Tear"
         description="A tear from a yeti, frozen."
-        type="generic"
-        weight="1"
+        type="generic"="1"
         maxFloorOffset="20"/>
     <item id="761"
         image="generic/cobaltherb.png"
@@ -2326,7 +2325,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         level="15"
         type="equip-torso"
         weight="5">
-  <sprite gender="unisex">equipment/chest/silkrobe-male.xml|#831f2d,f07401,f8cc8b</sprite>
+        <sprite gender="unisex">equipment/chest/silkrobe-male.xml|#831f2d,f07401,f8cc8b</sprite>
         <sprite gender="female">equipment/chest/silkrobe-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
     </item>
     <item id="1317"
@@ -2407,7 +2406,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
-        <sprite gender="unisex">equipment/feet/assassinboots.</sprite>
+        <sprite gender="unisex">equipment/feet/assassinboots.xml</sprite>
     </item>
     <item id="1802"
         image="equipment/feet/boots.png|W:#212121"
