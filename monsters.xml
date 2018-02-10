@@ -14,7 +14,7 @@ walkType=""      The walk type is used to manage which monster can fly over coll
 event=""         Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 -->
 
-<monsters offset="0">
+<monsters>
     <monster id="1002" name="Piou" targetCursor="small" walkType="fly">
         <sprite>monsters/piou.xml</sprite>
         <sound event="die">monsters/piou/die1.ogg</sound>
