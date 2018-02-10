@@ -302,6 +302,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         effect="Damage +5%; Heal 20-30 HP"
         type="usable"
         weight="8"/>
+    <!-- FIXME ITEM WITH MISSING IMAGES
     <item id="516"
         image="usable/pumpkinseeds.png"
         name="Pumpkin Seeds"
@@ -311,6 +312,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         effect="Headache"
         type="usable"
         weight="1"/>
+    -->
     <item id="517"
         image="usable/deliciouscookie.png"
         name="Delicious Cookie"
@@ -1862,7 +1864,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-necklace"
         weight="60">
     </item>
-<item id="1007"
+    <item id="1007"
         image="equipment/amulet/bloodstonependant.png"
         name="Bloodstone Pendant"
         description="A demoniac pendant."
@@ -1898,7 +1900,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-necklace"
         weight="500">
     </item>
-<item id="1011"
+    <item id="1011"
         image="equipment/amulet/toothnecklace.png"
         name="Tooth Necklace"
         description="A basic tooth necklace."
@@ -2593,7 +2595,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/terranitepants-male.xml</sprite>
     </item>
-<item id="2211"
+    <item id="2211"
         image="equipment/legs/chainmailskirt.png"
         name="Chainmail Skirt"
         description="The perfect medival style."
@@ -2626,6 +2628,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/leathertrousers-male.xml</sprite>
     </item>
+    <!-- FIXME ITEMS WITH MISSING IMAGES
     <item id="2214"
         image="equipment/legs/banditpants.png"
         name="Bandit Pants"
@@ -2648,7 +2651,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/warlord-male.xml</sprite>
     </item>
-<item id="2216"
+    <item id="2216"
         image="equipment/legs/saviorpants.png"
         name="Savior Pants"
         description="Worn by the best of the best."
@@ -2659,7 +2662,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/savior-male.xml</sprite>
     </item>
-        <item id="2217"
+    -->
+    <item id="2217"
         image="equipment/legs/candorshorts.png"
         name="Candor Shorts"
         description="A Clasic pair of shorts"
