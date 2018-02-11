@@ -18,5 +18,7 @@ export RES=$(cat license.log)
 if [[ -n "${RES}" ]]; then
     echo "Detected missing licenses."
     cat license.log
+    echo "Estimated total missing licenses:"
+    wc -l license.log
     exit 1
 fi
