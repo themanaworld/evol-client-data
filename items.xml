@@ -2357,15 +2357,17 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
     </item>
     <item id="1319"
-        image="equipment/chest/valentinedress.png|W:#222255,4444ff,ffffff,ffffff"
-        name="Valentine Dress"
-        description="A dress made for your Valentin's day. Could be red, though."
+        image="equipment/chest/valentinedress.png|W"
+        name="%Color% Valentine Dress"
+        description="A %Color% dress made for your Valentin's day. Could be red, though."
         defense="250"
         level="15"
         type="equip-torso"
-        weight="35">
-        <sprite gender="unisex">equipment/chest/valentinedress-male.xml|#222255,4444ff,ffffff,ffffff</sprite>
-        <sprite gender="female">equipment/chest/valentinedress-female.xml|#222255,4444ff,ffffff,ffffff</sprite>
+        weight="35"
+        colors="simple"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/valentinedress-male.xml</sprite>
+        <sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
     </item>
     <item id="1320"
         image="equipment/chest/vnecksweater.png"
