@@ -645,6 +645,21 @@ IDs 900-999 = Special
         <sprite>races/human-male.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="802" walkType="all" allowEquipment="true">
+        <!-- npc with player look (female). -->
+        <sprite>races/human-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="803" walkType="all" allowEquipment="true">
+        <!-- npc with elf look. -->
+        <sprite>races/elven-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="804" walkType="all" allowEquipment="true">
+        <!-- npc with elf look (female). -->
+        <sprite>races/elven-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Special NPCs -->
 <!-- WIP     <npc id="900">
