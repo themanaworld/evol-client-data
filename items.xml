@@ -2244,13 +2244,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/forestarmor-female.xml</sprite>
     </item>
     <item id="1309"
-        image="equipment/chest/contributorsweater.png"
-        name="%Color% Contributor Sweater"
-         description="This %color% sweater belongs to someone who helped making TMW2 as awesome as it is now!."
-        defense="50"
-        level="15"
+        image="equipment/chest/contributorsweater.png|W"
+        name="%Color% COntributor Sweater"
+        description="This %color% sweater belongs to someone who helped making TMW2 as awesome as it is now!."
+        defense="90"
+        level="25"
         type="equip-torso"
-        weight="20">
+        weight="25"
+        colors="simple"
+        maxFloorOffset="10">
         <sprite gender="unisex">equipment/chest/contributorsweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/contributorsweater-female.xml</sprite>
     </item>
