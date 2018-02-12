@@ -3011,13 +3011,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <replace sprite="hair"/>
     </item>
     <item id="2908"
-        image="equipment/head/funkyhat.png"
-        name="Funky Hat"
+        image="equipment/head/funkyhat.png|W"
+        name="%Color% Funky Hat"
         description="Yawn."
         defense="130"
         level="30"
         type="equip-head"
-        weight="20">
+        weight="20"
+        colors="simple"
+        maxFloorOffset="10">
         <sprite>equipment/head/funkyhat.xml</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
