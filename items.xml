@@ -3663,8 +3663,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
         <item id="3514"
-        image="equipment/weapons/icedgladius.png"
-        name="Iced Gladius"
+        image="equipment/weapons/icegladius.png"
+        name="Ice Gladius"
         description="Rakinorf"
         attack="200"
         attack-range="1"
@@ -3678,7 +3678,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     </item>
          <item id="3515"
         image="equipment/weapons/setzer.png"
-        name="Iced Gladius"
+        name="Setzer"
         description="Rakinorf"
         attack="200"
         attack-range="1"
@@ -3690,6 +3690,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
+        <item id="3516"
+        image="equipment/weapons/longsword.png"
+        name="Long Sword"
+        description="Rakinorf"
+        attack="200"
+        attack-range="1"
+        level="25"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="26">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>    
     <!-- Pets -->
     <item id="4000"
         image="usable/piouegg.png"
