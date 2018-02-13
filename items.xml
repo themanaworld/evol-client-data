@@ -2393,7 +2393,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/candorshirt-male.xml</sprite>
         <sprite gender="female">equipment/chest/candorshirt-male.xml</sprite>
     </item>
- 
+    <item id="1322"
+        image="equipment/chest/gmrobe.png"
+        name="GM Robe"
+        description="A GM robe."
+        defense="90"
+        level="25"
+        type="equip-torso"
+        weight="25"
+        colors="simple"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/gmrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/gmrobe-male.xml</sprite>
+    </item>
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png"
@@ -3121,13 +3133,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <replace sprite="hair"/>
     </item>
     <item id="2917"
-        image="equipment/head/deserthat.png"
-        name="Desert Hat"
+        image="equipment/head/deserthat.png|W"
+        name="%Color% Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         defense="35"
         level="12"
         type="equip-head"
-        weight="20">
+        weight="20"
+        colors="simple"
+        maxFloorOffset="10">
         <sprite>equipment/head/deserthat.xml</sprite>
         <replace sprite="hair"/>
     </item>
