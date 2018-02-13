@@ -2313,13 +2313,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/leathershirt-female.xml</sprite>
     </item> 
     <item id="1315"
-        image="equipment/chest/tnecksweater.png"
-        name="Turtleneck Sweater"
+        image="equipment/chest/tnecksweater.png|W"
+        name="%Color% Turtleneck Sweater"
         description="A thick, soft and warm sweater."
         defense="100"
         level="23"
         type="equip-torso"
-        weight="30">
+        weight="30"
+        colors="simple">
         <sprite gender="unisex">equipment/chest/tnecksweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/tnecksweater-female.xml</sprite>
     </item>
