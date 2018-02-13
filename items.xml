@@ -3620,6 +3620,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/knife/hit1.ogg</sound>
         <sound event="miss">weapons/knife/miss1.ogg</sound>
     </item>
+        <item id="3511"
+        image="equipment/weapons/divinesword.png"
+        name="Divine Sword"
+        description="Rakinorf"
+        attack="200"
+        attack-range="1"
+        level="25"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="26">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
     <!-- Pets -->
     <item id="4000"
         image="usable/piouegg.png"
