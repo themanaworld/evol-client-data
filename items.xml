@@ -2442,7 +2442,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/feet/boots-male.xml|#212121</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
     </item>
-        <item id="1803"
+    <item id="1803"
         image="equipment/feet/candorboots.png"
         name="Candor Boots"
         description="A Candor favorite"
@@ -2452,6 +2452,17 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="18"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/candorboots-male.xml</sprite>
+    </item>
+    <item id="1804"
+        image="equipment/feet/furboots.png"
+        name="Fur Boots"
+        description="Rakinorf"
+        defense="10"
+        level="3"
+        type="equip-feet"
+        weight="18"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml</sprite>
     </item>
 
     <!-- Gloves -->
