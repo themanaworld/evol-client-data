@@ -3633,10 +3633,24 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    </item>    </item>
+    </item>
         <item id="3512"
         image="equipment/weapons/butcherknife.png"
         name="Butcher Knife"
+        description="Rakinorf"
+        attack="200"
+        attack-range="1"
+        level="25"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="26">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+            <item id="3513"
+        image="equipment/weapons/ancientsword.png"
+        name="Ancient Sword"
         description="Rakinorf"
         attack="200"
         attack-range="1"
