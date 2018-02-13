@@ -2290,7 +2290,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/lightplatemail-female.xml</sprite>
     </item>
     <item id="1313"
-        image="equipment/chest/shorttanktop.png"
+        image="equipment/chest/shorttanktop.png|W"
         name="%Color% Short tank top"
         description="A %color% short tank top."
         defense="30"
@@ -2338,24 +2338,26 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
     </item>
     <item id="1317"
-        image="equipment/chest/sorcererrobe.png"
-        name="Sorcerer Robe"
+        image="equipment/chest/sorcererrobe.png|W"
+        name="%Color% Sorcerer Robe"
         description="A red lined sorcerer robe."
         defense="250"
         level="15"
         type="equip-torso"
-        weight="5">
+        weight="5"
+        colors="simple">
         <sprite gender="unisex">equipment/chest/sorcererrobe-male.xml</sprite>
         <sprite gender="female">equipment/chest/sorcererrobe-female.xml</sprite>
     </item>
     <item id="1318"
-        image="equipment/chest/uglychristmassweater.png"
+        image="equipment/chest/uglychristmassweater.png|W"
         name="Ugly Christmas Sweater"
         description="An ugly Christmas sweater."
         defense="60"
         level="14"
         type="equip-torso"
-        weight="35">
+        weight="35"
+        colors="simple">
         <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
     </item>
@@ -2373,13 +2375,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
     </item>
     <item id="1320"
-        image="equipment/chest/vnecksweater.png"
-        name="Vneck Sweater"
+        image="equipment/chest/vnecksweater.png|W"
+        name="%Color% VVneck Sweater"
         description="A thin, soft and warm sweater."
         defense="70"
         level="15"
         type="equip-torso"
-        weight="35">
+        weight="35"
+        colors="simple">        
         <sprite gender="unisex">equipment/chest/vnecksweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml</sprite>
     </item>
