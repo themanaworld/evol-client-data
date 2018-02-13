@@ -2584,13 +2584,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/cottontrousers-male.xml</sprite>
     </item>
     <item id="2208"
-        image="equipment/legs/silkpants.png"
-        name="Silk Pants"
-        description="A very light fancy pair of silk trousers."
+        image="equipment/legs/silkpants.png|W"
+        name="%Color% Silk Pants"
+        description="A very light fancy pair of %Color% silk trousers."
         defense="20"
         level="32"
         type="equip-legs"
         weight="16"
+        colors="simple"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/silkpants-male.xml</sprite>
     </item>
