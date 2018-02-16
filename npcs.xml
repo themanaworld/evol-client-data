@@ -660,6 +660,20 @@ IDs 900-999 = Special
         <sprite>races/elven-female.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="811" walkType="all" allowEquipment="true">
+        <!-- shopkeeper npc with player look. -->
+        <sprite>races/human-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
+    <npc id="812" walkType="all" allowEquipment="true">
+        <!-- shopkeeper npc with player look (female). -->
+        <sprite>races/human-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
 
     <!-- Special NPCs -->
 <!-- WIP     <npc id="900">
