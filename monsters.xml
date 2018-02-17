@@ -342,4 +342,79 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1078" name="Golden Scorpion" targetCursor="medium">
         <sprite>monsters/goldenscorpion.xml</sprite>
     </monster>
+
+
+  <monster id="1079" name="Fallen King">
+    <sprite>races/elven-male.xml</sprite>
+    <sprite>equipment/legs/assassinpants-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/hands/armbands-male.xml</sprite>
+    <sprite>hairstyles/hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+    <sprite>equipment/head/crown.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/warlordplate-male.xml</sprite>
+    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <!--sound event="die">short-sword-die1.ogg</sound-->
+  </monster>
+  <monster id="1080" name="Fallen King">
+    <sprite>races/raijin-male.xml</sprite>
+    <sprite>equipment/legs/assassinpants-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/hands/armbands-male.xml</sprite>
+    <sprite>hairstyles/hairstyle21.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+    <sprite>equipment/head/crown.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/terranitearmor-male.xml</sprite>
+    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <!--sound event="die">short-sword-die1.ogg</sound-->
+  </monster>
+
+
+  <monster id="1081" name="Fallen Guard">
+    <sprite>races/elven-male.xml</sprite>
+    <sprite>equipment/legs/assassinpants-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/hands/armbands-male.xml</sprite>
+    <sprite>hairstyles/hairstyle16.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+    <sprite>equipment/head/darkhelm.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/warlordplate-male.xml</sprite>
+    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <!--sound event="die">short-sword-die1.ogg</sound-->
+  </monster>
+  <monster id="1082" name="Fallen Guard">
+    <sprite>races/raijin-male.xml</sprite>
+    <sprite>equipment/legs/assassinpants-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/hands/armbands-male.xml</sprite>
+    <sprite>hairstyles/hairstyle26.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+    <sprite>equipment/head/darkhelm.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/terranitearmor-male.xml</sprite>
+    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <!--sound event="die">short-sword-die1.ogg</sound-->
+  </monster>
+
+  <monster id="377" name="Idolo de Froz">
+    <sprite>npcs/npc-estatuas.xml</sprite>
+  </monster>
+  <monster id="382" name="Idolo de Halicarnazo">
+    <sprite>npcs/npc-estatuas.xml</sprite>
+  </monster>
+
+  <monster id="374" name="Reino de Froz">
+    <sprite>npcs/npc-PortaDeCastelo.xml</sprite>
+  </monster>
+  <monster id="379" name="Reino de Halicarnazo">
+    <sprite>npcs/npc-PortaDeCastelo2.xml</sprite>
+  </monster>
+
 </monsters>
