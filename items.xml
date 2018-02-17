@@ -3448,9 +3448,24 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         description="A"
         defense="25"
         level="10"
-        type="equip-torso"
+        type="equip-head"
         weight="22">
         <sprite>equipment/head/graduationcap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+        <item id="2941"
+        image="equipment/head/vikinghelmet.png"
+        name="Viking Helmet"
+        description="Rakinorf"
+        defense="1"
+        level="1"
+        type="equip-head"
+        weight="22">
+        <sprite>equipment/head/vikinghelmet.xml</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
             <item from="-14" to="-9"/>
