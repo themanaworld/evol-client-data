@@ -343,7 +343,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sprite>monsters/goldenscorpion.xml</sprite>
     </monster>
 
-
+  <!-- Need rewrite: Fallen King/Guard -->
   <monster id="1079" name="Fallen King">
     <sprite>races/elven-male.xml</sprite>
     <sprite>equipment/legs/assassinpants-male.xml</sprite>
@@ -372,8 +372,6 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     <!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
-
-
   <monster id="1081" name="Fallen Guard">
     <sprite>races/elven-male.xml</sprite>
     <sprite>equipment/legs/assassinpants-male.xml</sprite>
@@ -401,20 +399,6 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     <!--sound event="die">short-sword-die1.ogg</sound-->
-  </monster>
-
-  <monster id="377" name="Idolo de Froz">
-    <sprite>npcs/npc-estatuas.xml</sprite>
-  </monster>
-  <monster id="382" name="Idolo de Halicarnazo">
-    <sprite>npcs/npc-estatuas.xml</sprite>
-  </monster>
-
-  <monster id="374" name="Reino de Froz">
-    <sprite>npcs/npc-PortaDeCastelo.xml</sprite>
-  </monster>
-  <monster id="379" name="Reino de Halicarnazo">
-    <sprite>npcs/npc-PortaDeCastelo2.xml</sprite>
   </monster>
 
 </monsters>
