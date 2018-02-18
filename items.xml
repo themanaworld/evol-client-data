@@ -3514,19 +3514,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/neck/monocle.xml</sprite>
     </item>
             <item id="3202"
-        image="equipment/head/graduationcap.png"
-        name="Graduation Capot"
-        description="TO BE DELETED - Rakinorf - duplicate of ID 2940!"
-        defense="110"
-        level="8"
-        type="equip-torso"
-        weight="22">
-        <sprite>equipment/head/graduationcap.xml</sprite>
-        <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
-        </replace>
+        image="equipment/neck/mustache.png"
+        name="Mustache"
+        description=""
+        defense="1"
+        level="3"
+        type="equip-neck"
+        weight="1">
+        <sprite gender="unisex">equipment/neck/mustache.xml</sprite>
+        <sprite gender="female">equipment/neck/mustache.xml</sprite>
     </item>
 
 
