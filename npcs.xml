@@ -258,6 +258,67 @@ IDs 900-999 = Special
         <sprite>npcs/xml/jumpingtipiou.xml|#a36209,892b2e,cc9b14,b84335,ebc12e,ee613c,fff568,fbac71</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <!-- childrens: 148-157 -->
+    <npc id="148">
+        <!-- poor girl with blue ponytails (tanisha) (1) -->
+        <sprite variant="2">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="5">equipment/override/child-head.xml|#902808,d87038,f0b050</sprite>
+        <sprite variant="1">equipment/override/child-outfits.xml|#563116,bc5326,f0682e;#594524;#ffffff;#623a34,f0c2b4;#ffffff;#f5c27f</sprite>
+    </npc>
+    <npc id="149">
+        <!-- bald boy with a hat, well dressed (ched) (2) -->
+        <sprite variant="2">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="0">equipment/override/child-head.xml|#201820,5c47a5,8d74d9,7eafee,b9daff,ffffff</sprite>
+        <sprite variant="5">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#623a34,f0c2b4;#ffffff;#7b5541,ac794a,c5a16a,ac9962,deca8b</sprite>
+    </npc>
+    <npc id="150">
+        <!-- boy with green pants and white shirt (3) -->
+        <sprite variant="2">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="2">equipment/override/child-head.xml|#2f1b08,4a2a0d,643a12,844c18</sprite>
+        <sprite variant="7">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#490000,b66d49;#0a0a01,0c4e0e,024f2d,1f8327,178b5a,1ca269,75bd7a;#cdb784,dec38c,eef1c5,ffffff</sprite>
+    </npc>
+    <npc id="151">
+        <!-- knelt with eyes covered purple-ponytails and blue dress girl (ayasha) (4) -->
+        <sprite variant="1">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="0">equipment/override/child-head.xml|#ed9ecc</sprite>
+        <sprite variant="2">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+    </npc>
+    <npc id="152" nameOffsetY="-18" targetOffsetY="-18" nameOffsetX="3" targetOffsetX="3">
+        <!-- lying boy with green clotches and dark hair (roof) (5) -->
+        <sprite variant="3">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="3">equipment/override/child-head.xml|#d9980b</sprite>
+        <sprite variant="3">equipment/override/child-outfits.xml|#962222;#665204;#c68319;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+    </npc>
+    <npc id="153">
+        <!-- blonde ponytail with purple dress girl (6) -->
+        <sprite variant="4">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="4">equipment/override/child-head.xml|#dbd41e</sprite>
+        <sprite variant="4">equipment/override/child-outfits.xml|#dbd41e;#dbd41e;#ffffff;#ffffff;#ffffff;#8c5a9a;#ffffff</sprite>
+    </npc>
+    <npc id="154">
+        <!-- green haired boy behind a box (7) -->
+        <sprite variant="5">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="2">equipment/override/child-head.xml|#326632</sprite>
+        <sprite variant="6">equipment/override/child-outfits.xml|#326632;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+    </npc>
+    <npc id="155">
+        <!-- blue haired boy with red shirt and deep-blue pants (8) -->
+        <sprite variant="2">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="2">equipment/override/child-head.xml|#3d3d63</sprite>
+        <sprite variant="7">equipment/override/child-outfits.xml|#3d3d63;#ffffff;#ffffff;#ffffff;#542d63;#282858;#850707</sprite>
+    </npc>
+    <npc id="156">
+        <!-- blue haired girl with red shirt and deep-blue pants (9) -->
+        <sprite variant="2">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="1">equipment/override/child-head.xml|#328abc</sprite>
+        <sprite variant="7">equipment/override/child-outfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
+    </npc>
+    <npc id="157">
+        <!-- christmas child (0) -->
+        <sprite variant="6">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="9">equipment/override/child-outfits.xml</sprite>
+        <sprite variant="5">equipment/override/child-head.xml|#870a0f,931714,d22b27,ff422c</sprite>
+    </npc>
 
     <!-- Animated NPCs -->
 
