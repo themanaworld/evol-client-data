@@ -3828,7 +3828,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-        <item id="3516"
+    <item id="3516"
         image="equipment/weapons/longsword.png"
         name="Long Sword"
         description="Rakinorf"
@@ -3841,7 +3841,26 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    </item>    
+    </item>
+    <!-- Note: Could use critical-hit-effect-id -->
+    <item id="3517"
+        image="equipment/weapons/staffoflife.png"
+        name="Thunder Staff ★★★"
+        description="Jesusalva's courtesy, impairs holy lightning over your foes!"
+        attack="100"
+        mattack="25"
+        attack-range="2"
+        effect="Secret Item"
+        level="40"
+        hit-effect-id="312"        
+        miss-effect-id="50"
+        type="equip-2hand"
+        weapon-type="staff"
+        weight="1000">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
     <!-- Pets -->
     <item id="4000"
         image="usable/piouegg.png"
