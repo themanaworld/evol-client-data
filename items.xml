@@ -875,6 +875,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         effect="Heal 1000-5000 HP"
         type="usable"
         weight="5"/>
+    <item id="586"
+        image="usable/cactuspotion.png"
+        name="Smoke Grenade"
+        description="Explodes and could cause splash damage... If it didn't missed every single time."
+        useButton="Explode"
+        effect="Splash damage"
+        type="usable"
+        weight="40"/>
 
 
     <!-- Generic Items -->
@@ -3884,6 +3892,22 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         attack-range="2"
         effect="Secret Item"
         level="40"
+        hit-effect-id="312"        
+        miss-effect-id="50"
+        type="equip-2hand"
+        weight="1000">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3518"
+        image="equipment/weapons/staffoflife.png"
+        name="Jesusalva's Judgement ★★★"
+        description="The program is buggy? No worries, maybe it is time to destroy everything."
+        attack="100"
+        effect="Splash damage: cast Magnum Break on attack."
+        level="40"
+        critical-hit-effect-id="312"        
         hit-effect-id="312"        
         miss-effect-id="50"
         type="equip-2hand"
