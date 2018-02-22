@@ -366,7 +366,6 @@ Copyright (C) 2012-2017 Evol Online -->
 
     <atlas name="aeros">
         <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/collision.png"/>
         <file name="graphics/tilesets/woodland_ground.png"/>
         <file name="graphics/tilesets/forest.png"/>
         <file name="graphics/tilesets/woodland_swamp.png"/>
@@ -382,5 +381,81 @@ Copyright (C) 2012-2017 Evol Online -->
         <file name="graphics/tilesets/collision.png"/>
         <file name="graphics/tilesets/level-number.png"/>
     </atlas>
-
+    <!-- / TMW2 -->
+    <map name="005-1.tmx">
+        <atlas name="candor"/>
+    </map>
+    <map name="005-2.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-3.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+        <map name="005-4.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-5.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-6.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="003-1.tmx">
+        <atlas name="tulimshar"/>
+    </map>
+    <map name="003-1-2.tmx">
+        <atlas name="tulimshar"/>
+    </map>
+    <map name="003-1-3.tmx">
+        <atlas name="cave"/>
+    </map>
+    <map name="003-2.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-3.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>    
+    <map name="003-4.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-5.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map> 
+    <map name="003-6.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map> 
+    <map name="003-7.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map> 
+    <map name="003-8.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-13.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>  
+    <map name="004-1.tmx">
+        <atlas name="desert"/>
+    </map>
+    <map name="004-2.tmx">
+        <atlas name="desert"/>
+    </map>  
+    
+    <atlas name="candor">
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+    </atlas>
+    <atlas name="candor-indoor">
+        <file name="graphics/tilesets/woodland-indoor.png"/>
+    </atlas>    
+    <atlas name="tulimshar">
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+    </atlas>      
+    <atlas name="cave">
+        <file name="graphics/tilesets/cave.png"/>
+    </atlas>         
+    <atlas name="tulimshar-indoor">
+        <file name="graphics/tilesets/woodland-indoor.png"/>
+    </atlas>      
+    <atlas name="desert">
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+    </atlas>      
 </maps>
