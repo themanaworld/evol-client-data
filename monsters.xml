@@ -399,6 +399,9 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     <!--sound event="die">short-sword-die1.ogg</sound-->
-  </monster>
+    </monster>
+    <monster id="1083" name="Desert Maggot" targetCursor="small">
+        <sprite>monsters/desertmaggot.xml</sprite>
+    </monster>
 
 </monsters>
