@@ -264,6 +264,39 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Gold and Experience.</reward>
         </quest>
     </var>
+    <!-- var 34 -->
+    <!-- var 35 -->
+    <var id="36">
+        <effect map="005-1.tmx" npc="450" value="0,1,3" effect="12"/>
+        <quest name="Cleaning the Storehouse" group="Candor" incomplete="2">
+            <name>Cleaning the Storehouse</name>
+            <text>Zegas needs someone to find and defuse the Bug Bomb in the storehouse.</text>
+            <text>I must check all barrels.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="34" y="76">Candor Island. (35,77)</coordinates>
+            <reward>Unknown</reward>
+        </quest>
+        <quest name="Cleaning the Storehouse" group="Candor" incomplete="3">
+            <name>Cleaning the Storehouse</name>
+            <text>I defused the bug bomb.</text>
+            <text>I must report back to Zegas at once.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="35" y="77">Candor Island. (35,77)</coordinates>
+            <reward>Unknown</reward>
+        </quest>
+        <quest name="Cleaning the Storehouse" group="Candor" complete="4">
+            <name>Cleaning the Storehouse</name>
+            <text>I helped Zegas to clear the Storehouse.</text>
+            <text>More bugs may attack there later, but that's not my problem anymore.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="35" y="77">Candor Island. (35,77)</coordinates>
+            <reward>60 EXP and 450 GP</reward>
+        </quest>
+    </var>
+
 
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
