@@ -137,7 +137,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
         <quest name="Ratto Extermination" group="Ship" complete="3">
             <name>Ratto Extermination</name>
@@ -157,7 +157,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
         <quest name="Ratto Extermination" group="Ship" incomplete="4">
             <name>Ratto Extermination</name>
@@ -165,7 +165,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
     </var>
     <var id="5">
@@ -328,6 +328,7 @@ Copyright (C) 2012-2013 Evol Online -->
     <var id="38">
         <!--effect map="005-1.tmx" npc="119" value="0" effect="12"/>
         <effect map="005-1.tmx" npc="119" value="2" effect="12"/-->
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Making a Figurine" group="Candor" incomplete="1">
             <name>Making a Figurine</name>
             <text text1="[Bug Leg]">Vincent is making a figurine with {@@1}. He needs 12.</text>
