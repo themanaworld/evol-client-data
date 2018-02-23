@@ -325,6 +325,26 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Bandana]">1x {@@1}, 10 EXP, 1000 GP</reward>
         </quest>
     </var>
+    <var id="38">
+        <!--effect map="005-1.tmx" npc="119" value="0" effect="12"/>
+        <effect map="005-1.tmx" npc="119" value="2" effect="12"/-->
+        <quest name="Making a Figurine" group="Candor" incomplete="1">
+            <name>Making a Figurine</name>
+            <text text1="[Bug Leg]">Vincent is making a figurine with {@@1}. He needs 12.</text>
+            <text></text>
+            <questgiver>Vincent</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Making a Figurine" group="Candor" complete="2">
+            <name>Making a Figurine</name>
+            <text>Vincent was able to make his figurine thanks to the bug legs I gave him.</text>
+            <text></text>
+            <questgiver>Vincent</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>1000 GP</reward>
+        </quest>
+    </var>
 
 
     <var id="1000">
