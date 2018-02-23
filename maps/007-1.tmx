@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextobjectid="7">
  <properties>
+  <property name="license" value="CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
   <property name="minimap" value=""/>
-  <property name="music" value="cavesong.ogg"/>
-  <property name="name" value="Tulimshar Mining Camp"/>
-  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="music" value="bartk - the adventure begins.ogg"/>
+  <property name="name" value="mining cave"/>
+  <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0keepratio" value="true"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../graphics/tilesets/collision.tsx"/>
  <tileset firstgid="10" source="../graphics/tilesets/cave2.tsx"/>
