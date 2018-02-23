@@ -17,7 +17,7 @@ IDs 900-999 = Special
         <menu name="Take" command="talk 'NAME'"/>
     </npc>
     <npc id="101" nameOffsetX="-7" nameOffsetY="-1" targetOffsetX="-8" targetOffsetY="-1">
-        <!-- Demon Man, sitting on a chair. -->
+        <!-- Redy Man, sitting on a chair. -->
         <sprite variant="0">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -36,7 +36,7 @@ IDs 900-999 = Special
         <sprite variant="2">npcs/xml/unanimated.xml</sprite>
     </npc>
     <npc id="105" nameOffsetX="-1" nameOffsetY="-11" targetOffsetY="-7">
-        <!-- Demon Man, sitting sailor with his boots near him. (Ship quest) -->
+        <!-- Redy Man, sitting sailor with his boots near him. (Ship quest) -->
         <sprite variant="3">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -85,12 +85,12 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="114">
-        <!-- Demon Man, sitting sailor with his boots near him. -->
+        <!-- Redy Man, sitting sailor with his boots near him. -->
         <sprite variant="3">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="115" nameOffsetX="-1" nameOffsetY="-11" targetOffsetY="-7">
-        <!-- Demon Man, sitting under a tree. -->
+        <!-- Redy Man, sitting under a tree. -->
         <sprite variant="9">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -118,7 +118,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="120" nameOffsetX="-7" targetOffsetX="-7">
-        <!-- Demon Male, sword trainer. -->
+        <!-- Redy Male, sword trainer. -->
         <sprite variant="12">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -344,7 +344,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="404" nameOffsetX="1" targetOffsetX="-1">
-        <!-- Demon Woman, taking care of the ship. -->
+        <!-- Redy Woman, taking care of the ship. -->
         <sprite>npcs/xml/julia.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -503,7 +503,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="432">
-        <!-- Demon Male, walking sprite for guard NPC. -->
+        <!-- Redy Male, walking sprite for guard NPC. -->
         <sprite>races/demon-male.xml</sprite>
         <sprite>equipment/legs/trousers-male.xml</sprite>
         <sprite>equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
@@ -594,12 +594,12 @@ IDs 900-999 = Special
         <sprite>npcs/xml/bacchus.xml</sprite>
     </npc>
     <npc id="444">
-        <!-- Demon Male, Stat reseter NPC -->
+        <!-- Redy Male, Stat reseter NPC -->
         <sprite>npcs/xml/rumly.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="445">
-        <!-- Demon Female, walking sprite for villager NPC. -->
+        <!-- Redy Female, walking sprite for villager NPC. -->
         <sprite>races/demon-female.xml</sprite>
         <sprite>equipment/legs/trousers-female.xml</sprite>
         <sprite>equipment/feet/boots-female.xml|#594d36,b49b6c,f4d293</sprite>
@@ -654,6 +654,17 @@ IDs 900-999 = Special
         <sprite>equipment/chest/lightplatemail-male.xml</sprite>
         <sprite>equipment/weapons/knife.xml</sprite>
         <sprite>hairstyles/hairstyle28.xml|#2b2b2b,311623,3f3f3f,451a25,585858,602222,858585,7d2b26,a7a7a7,9a3416,d6d6d6,ca7e55,ffffff,e2b88f</sprite>
+        <sprite>equipment/head/infantryhelmet.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="452">
+        <!-- Human Female, walking sprite for guard NPC. -->
+        <sprite>races/human-female.xml</sprite>
+        <sprite>equipment/feet/boots-female.xml|#594d36,b49b6c,f4d293</sprite>
+        <sprite>equipment/legs/jeanschaps-female.xml</sprite>
+        <sprite>equipment/chest/lightplatemail-female.xml</sprite>
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sprite>hairstyles/hairstyle25.xml|#2b2b2b,311623,3f3f3f,451a25,585858,602222,858585,7d2b26,a7a7a7,9a3416,d6d6d6,ca7e55,ffffff,e2b88f</sprite>
         <sprite>equipment/head/infantryhelmet.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>

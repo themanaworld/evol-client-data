@@ -3,8 +3,9 @@
 Copyright (C) 2012-2013 Evol Online -->
 
 <quests>
+    <!-- PROLOGUE QUESTS -->
     <var id="0">
-        <effect map="000-2-0.tmx" npc="404" value="0,1" effect="12"/>
+        <effect map="002-3.tmx" npc="404" value="0,1" effect="12"/>
         <quest name="Abide by the Rules" group="Ship" incomplete="1">
             <name>Abide by the Rules</name>
             <text>Before resuming your adventure and exploration, you need to register on the boarding list of the ship by signing its rules.</text>
@@ -27,8 +28,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="1">
-        <effect map="000-2-1.tmx" npc="407" value="0" effect="12"/>
-        <effect map="000-2-1.tmx" npc="407" value="1,2" effect="13"/>
+        <effect map="002-1.tmx" npc="407" value="0" effect="12"/>
+        <effect map="002-1.tmx" npc="407" value="1,2" effect="13"/>
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="0">
             <name>Warm Smelly Clothes</name>
             <text>Magic Arpan is waiting for you. Go speak to him.</text>
@@ -73,8 +74,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="2">
-        <effect map="000-2-1.tmx" npc="401" value="0,1" effect="14"/>
-        <effect map="000-2-1.tmx" npc="401" value="2" effect="15"/>
+        <effect map="002-1.tmx" npc="401" value="0,1" effect="14"/>
+        <effect map="002-1.tmx" npc="401" value="2" effect="15"/>
         <quest name="Piberries Lover" group="Ship" incomplete="1">
             <name>Piberries Lover</name>
             <text>A mysterious stowaway needs your help. He hides at the bottom level of the ship, in the storage room.</text>
@@ -109,8 +110,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="3">
-        <effect map="000-2-1.tmx" npc="403" value="0,6" effect="12"/>
-        <effect map="000-2-1.tmx" npc="403" value="1,2,4" effect="13"/>
+        <effect map="002-1.tmx" npc="403" value="0,6" effect="12"/>
+        <effect map="002-1.tmx" npc="403" value="1,2,4" effect="13"/>
         <quest name="Ratto Extermination" group="Ship" incomplete="6">
             <name>Ratto Extermination</name>
             <text>Peter needs your help to clear La Johanne's hold of some rattos.</text>
@@ -137,7 +138,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
         <quest name="Ratto Extermination" group="Ship" complete="3">
             <name>Ratto Extermination</name>
@@ -157,7 +158,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
         <quest name="Ratto Extermination" group="Ship" incomplete="4">
             <name>Ratto Extermination</name>
@@ -165,7 +166,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <text></text>
             <questgiver>Peter</questgiver>
             <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 E.</reward>
+            <reward>100 EXP, 1000 GP.</reward>
         </quest>
     </var>
     <var id="5">
@@ -180,63 +181,209 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Knife]">{@@1}.</reward>
         </quest>
     </var>
-    <var id="22">
+
+    <!-- GENERAL QUESTS -->
+    <var id="13">
+        <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
+        <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
+        <quest name="Worship of Money" group="General" complete="1">
+            <name>Worship of Money</name>
+            <text>You are now registered in the Merchant Guild.</text>
+            <text>This Guild offers storage and bank services.</text>
+            <text></text>
+            <questgiver>Banker</questgiver>
+            <coordinates x="101" y="37">Tulimshar, Merchant Guild. (101,37)</coordinates>
+            <reward>Merchant Guild access.</reward>
+        </quest>
+    </var>
+
+    <!-- CANDOR QUESTS -->
+    <var id="32">
+        <effect map="005-1.tmx" npc="119" value="0" effect="12"/>
+        <effect map="005-1.tmx" npc="119" value="2" effect="12"/>
+        <quest name="Hide And Seek" group="Candor" incomplete="1">
+            <name>Hide And Seek</name>
+            <text>Find all the children for Ayasha. They're in the Island.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Hide And Seek" group="Candor" incomplete="2">
+            <name>Hide And Seek</name>
+            <text>You found all childrens, go report to Ayasha.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Hide And Seek" group="Candor" complete="3">
+            <name>Hide And Seek</name>
+            <text>I helped Ayasha to find the children.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>30 EXP and 50 GP</reward>
+        </quest>
+    </var>
+    <var id="33">
+        <effect map="005-4.tmx" npc="433" value="0,1,2" effect="12"/>
+        <quest name="Tolchi's Request" group="Candor" incomplete="1,2">
+            <name>Tolchi's Request</name>
+            <text>I am helping Tolchi, a weapon craftswoman, to find materials.</text>
+            <text></text>
+            <questgiver>Tolchi</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop. (25,41)</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+        <quest name="Tolchi's Request" group="Candor" complete="3">
+            <name>Tolchi's Request</name>
+            <text>I helped Tolchi with her materials needs.</text>
+            <text></text>
+            <questgiver>Tolchi</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop. (25,41)</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+    </var>
+    <!-- var 34 -->
+    <!-- var 35 -->
+    <var id="36">
+        <effect map="005-1.tmx" npc="450" value="0,1,3" effect="12"/>
+        <quest name="Cleaning the Storehouse" group="Candor" incomplete="2">
+            <name>Cleaning the Storehouse</name>
+            <text>Zegas needs someone to find and defuse the Bug Bomb in the storehouse.</text>
+            <text>I must check all barrels.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="34" y="76">Candor Island. (35,77)</coordinates>
+            <reward>Unknown</reward>
+        </quest>
+        <quest name="Cleaning the Storehouse" group="Candor" incomplete="3">
+            <name>Cleaning the Storehouse</name>
+            <text>I defused the bug bomb.</text>
+            <text>I must report back to Zegas at once.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="35" y="77">Candor Island. (35,77)</coordinates>
+            <reward>Unknown</reward>
+        </quest>
+        <quest name="Cleaning the Storehouse" group="Candor" complete="4">
+            <name>Cleaning the Storehouse</name>
+            <text>I helped Zegas to clear the Storehouse.</text>
+            <text>More bugs may attack there later, but that's not my problem anymore.</text>
+            <text></text>
+            <questgiver>Zegas</questgiver>
+            <coordinates x="35" y="77">Candor Island. (35,77)</coordinates>
+            <reward>60 EXP and 450 GP</reward>
+        </quest>
+    </var>
+    <var id="37">
+        <effect map="005-1.tmx" npc="112" value="0,1" effect="12"/>
+        <effect map="002-4.tmx" npc="409" value="2" effect="12"/>
+        <quest name="Preparing a Party" group="Candor" incomplete="1">
+            <name>Preparing a Party</name>
+            <text>Some sailors at beach are planning a party.</text>
+            <text text1="[Beer]">They need 5 {@@1} for the party to happen.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="92" y="99">Candor Island. (92,99)</coordinates>
+            <reward>Become one of the crew.</reward>
+        </quest>
+        <quest name="Preparing a Party" group="Candor" incomplete="2">
+            <name>Preparing a Party</name>
+            <text text1="[Beer]">The sailors have sufficient {@@1} for the party.</text>
+            <text>They now want me to invite Elmo, the captain's assistant, to the party.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="22" y="27">La Johanne, Captain's room. (22,27)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Preparing a Party" group="Candor" complete="3">
+            <name>Preparing a Party</name>
+            <text>Elmo was invited, and with that, the sailors may party.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <reward text1="[Bandana]">1x {@@1}, 10 EXP, 1000 GP</reward>
+        </quest>
+    </var>
+    <var id="38">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Making a Figurine" group="Candor" incomplete="1">
+            <name>Making a Figurine</name>
+            <text text1="[Bug Leg]">Vincent is making a figurine with {@@1}. He needs 12.</text>
+            <text></text>
+            <questgiver>Vincent</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Making a Figurine" group="Candor" complete="2">
+            <name>Making a Figurine</name>
+            <text>Vincent was able to make his figurine thanks to the bug legs I gave him.</text>
+            <text></text>
+            <questgiver>Vincent</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>1000 GP</reward>
+        </quest>
+    </var>
+
+    <!-- TULIMSHAR QUESTS -->
+    <var id="51">
         <effect map="003-1.tmx" npc="428" value="0" effect="14"/>
         <effect map="003-1.tmx" npc="428" value="1" effect="15"/>
-        <quest name="Fishman" group="Artis" incomplete="1">
+        <quest name="Fishman" group="Tulimshar" incomplete="1">
             <name>Fishman</name>
             <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
             <text>He hurried so much to try it out, that he forgot to take enough baits.</text>
             <text text1="[Small Tentacles]">You need to bring him 10 {@@1}.</text>
             <text></text>
             <questgiver>Eugene</questgiver>
-            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
+            <coordinates x="80" y="127">Tulimshar (80,127)</coordinates>
             <reward>Unknown.</reward>
         </quest>
-        <quest name="Fishman" group="Artis" complete="2">
+        <quest name="Fishman" group="Tulimshar" complete="2">
             <name>Fishman</name>
             <text>You helped Eugene.</text>
             <text>As his gratitude, he gave you his old fishing rod.</text>
             <text>You can use it to catch fish.</text>
             <text></text>
             <questgiver>Eugene</questgiver>
-            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
+            <coordinates x="80" y="127">Tulimshar (80,127)</coordinates>
             <reward text1="[Fishing Rod]">{@@1}.</reward>
         </quest>
     </var>
-    <var id="25">
-        <effect map="001-1.tmx" npc="442" value="0" effect="12"/>
-        <effect map="001-1.tmx" npc="442" value="1" effect="13"/>
-        <quest name="Alige in the Barrel" group="Halloween" incomplete="1">
-            <name>Alige in the Barrel</name>
-            <text>Alige was very scared of the Cuco. Now that it's killed, he should be okay.</text>
+    <var id="52">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="I Want Cherry Cakes" group="Tulimshar" complete="1">
+            <name>I Want Cherry Cakes</name>
+            <text>Sarah wanted a cherry cake, so I gave her one.</text>
             <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="38" y="22">La Johanne, Hold, Alige's Hideout. (38,22)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Alige in the Barrel" group="Halloween" complete="2">
-            <name>Alige in the Barrel</name>
-            <text>Somehow Alige appeared in my vision of the future.</text>
-            <text text1="[Barrel]">For killing the scary Cuco, he gave me a {@@1}.</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="71" y="132">Artis, Dream World. (71,132)</coordinates>
-            <reward text1="[Barrel]">{@@1}.</reward>
+            <questgiver>Sarah</questgiver>
+            <coordinates x="91" y="146">Tulimshar (91,146)</coordinates>
+            <reward text1="[Fancy Hat]">{@@1}</reward>
         </quest>
     </var>
-    <var id="30">
-        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
-        <quest name="Worship of Money" group="Artis" complete="1">
-            <name>Worship of Money</name>
-            <text>You are now registered in the Merchant Guild.</text>
-            <text>This Guild offers storage and bank services.</text>
+    <!-- var 53 -->
+    <var id="54">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Quenching My Thirst" group="Tulimshar" complete="1">
+            <name>Quenching My Thirst</name>
+            <text>Swezanne was thirsty, but now she can keep doing her job.</text>
+            <text>I can repeat this request every 24 hours.</text>
             <text></text>
-            <questgiver>Lloyd</questgiver>
-            <coordinates x="101" y="37">Tulimshar, Merchant Guild. (101,37)</coordinates>
-            <reward>Merchant Guild access.</reward>
+            <questgiver>Swezanne</questgiver>
+            <coordinates x="69" y="100">Tulimshar (70,100)</coordinates>
+            <reward>EXP and Gold</reward>
+        </quest>
+        <quest name="Quenching My Thirst" group="Tulimshar" incomplete="2">
+            <name>Quenching My Thirst</name>
+            <text text1="[Cactus Potion]">Swezanne is once again thirsty, I should bring her 5 {@@1} to quench it.</text>
+            <text></text>
+            <questgiver>Swezanne</questgiver>
+            <coordinates x="69" y="100">Tulimshar (70,100)</coordinates>
+            <reward>25 EXP and 200 GP</reward>
         </quest>
     </var>
+
 
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
