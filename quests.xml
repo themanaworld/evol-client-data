@@ -296,6 +296,35 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>60 EXP and 450 GP</reward>
         </quest>
     </var>
+    <var id="37">
+        <effect map="005-1.tmx" npc="112" value="0,1" effect="12"/>
+        <effect map="002-4.tmx" npc="409" value="2" effect="12"/>
+        <quest name="Preparing a Party" group="Candor" incomplete="1">
+            <name>Preparing a Party</name>
+            <text>Some sailors at beach are planning a party.</text>
+            <text text1="[Beer]">They need 5 {@@1} for the party to happen.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="92" y="99">Candor Island. (92,99)</coordinates>
+            <reward>Become one of the crew.</reward>
+        </quest>
+        <quest name="Preparing a Party" group="Candor" incomplete="2">
+            <name>Preparing a Party</name>
+            <text text1="[Beer]">The sailors have sufficient {@@1} for the party.</text>
+            <text>They now want me to invite Elmo, the captain's assistant, to the party.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="22" y="27">La Johanne, Captain's room. (22,27)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Preparing a Party" group="Candor" complete="3">
+            <name>Preparing a Party</name>
+            <text>Elmo was invited, and with that, the sailors may party.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <reward text1="[Bandana]">1x {@@1}, 10 EXP, 1000 GP</reward>
+        </quest>
+    </var>
 
 
     <var id="1000">
