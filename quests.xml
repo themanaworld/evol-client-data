@@ -245,6 +245,25 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>30 EXP and 50 GP</reward>
         </quest>
     </var>
+    <var id="33">
+        <effect map="005-4.tmx" npc="433" value="0,1,2" effect="12"/>
+        <quest name="Tolchi's Request" group="Candor" incomplete="1,2">
+            <name>Tolchi's Request</name>
+            <text>I am helping Tolchi, a weapon craftswoman, to find materials.</text>
+            <text></text>
+            <questgiver>Tolchi</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop. (25,41)</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+        <quest name="Tolchi's Request" group="Candor" complete="3">
+            <name>Tolchi's Request</name>
+            <text>I helped Tolchi with her materials needs.</text>
+            <text></text>
+            <questgiver>Tolchi</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop. (25,41)</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+    </var>
 
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
