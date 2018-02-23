@@ -204,29 +204,6 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Fishing Rod]">{@@1}.</reward>
         </quest>
     </var>
-    <!--
-    <var id="25">
-        <effect map="001-1.tmx" npc="442" value="0" effect="12"/>
-        <effect map="001-1.tmx" npc="442" value="1" effect="13"/>
-        <quest name="Alige in the Barrel" group="Halloween" incomplete="1">
-            <name>Alige in the Barrel</name>
-            <text>Alige was very scared of the Cuco. Now that it's killed, he should be okay.</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="38" y="22">La Johanne, Hold, Alige's Hideout. (38,22)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Alige in the Barrel" group="Halloween" complete="2">
-            <name>Alige in the Barrel</name>
-            <text>Somehow Alige appeared in my vision of the future.</text>
-            <text text1="[Barrel]">For killing the scary Cuco, he gave me a {@@1}.</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="71" y="132">Artis, Dream World. (71,132)</coordinates>
-            <reward text1="[Barrel]">{@@1}.</reward>
-        </quest>
-    </var>
-    -->
     <var id="13">
         <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
         <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
@@ -235,9 +212,37 @@ Copyright (C) 2012-2013 Evol Online -->
             <text>You are now registered in the Merchant Guild.</text>
             <text>This Guild offers storage and bank services.</text>
             <text></text>
-            <questgiver>Lloyd</questgiver>
+            <questgiver>Banker</questgiver>
             <coordinates x="101" y="37">Tulimshar, Merchant Guild. (101,37)</coordinates>
             <reward>Merchant Guild access.</reward>
+        </quest>
+    </var>
+    <var id="32">
+        <effect map="005-1.tmx" npc="119" value="0" effect="12"/>
+        <effect map="005-1.tmx" npc="119" value="2" effect="12"/>
+        <quest name="Hide And Seek" group="Candor" incomplete="1">
+            <name>Hide And Seek</name>
+            <text>Find all the children for Ayasha. They're in the Island.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Hide And Seek" group="Candor" incomplete="2">
+            <name>Hide And Seek</name>
+            <text>You found all childrens, go report to Ayasha.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Hide And Seek" group="Candor" complete="3">
+            <name>Hide And Seek</name>
+            <text>I helped Ayasha to find the children.</text>
+            <text></text>
+            <questgiver>Ayasha</questgiver>
+            <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
+            <reward>30 EXP and 50 GP</reward>
         </quest>
     </var>
 
