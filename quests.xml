@@ -4,7 +4,7 @@ Copyright (C) 2012-2013 Evol Online -->
 
 <quests>
     <var id="0">
-        <effect map="000-2-0.tmx" npc="404" value="0,1" effect="12"/>
+        <effect map="002-3.tmx" npc="404" value="0,1" effect="12"/>
         <quest name="Abide by the Rules" group="Ship" incomplete="1">
             <name>Abide by the Rules</name>
             <text>Before resuming your adventure and exploration, you need to register on the boarding list of the ship by signing its rules.</text>
@@ -27,8 +27,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="1">
-        <effect map="000-2-1.tmx" npc="407" value="0" effect="12"/>
-        <effect map="000-2-1.tmx" npc="407" value="1,2" effect="13"/>
+        <effect map="002-1.tmx" npc="407" value="0" effect="12"/>
+        <effect map="002-1.tmx" npc="407" value="1,2" effect="13"/>
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="0">
             <name>Warm Smelly Clothes</name>
             <text>Magic Arpan is waiting for you. Go speak to him.</text>
@@ -73,8 +73,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="2">
-        <effect map="000-2-1.tmx" npc="401" value="0,1" effect="14"/>
-        <effect map="000-2-1.tmx" npc="401" value="2" effect="15"/>
+        <effect map="002-1.tmx" npc="401" value="0,1" effect="14"/>
+        <effect map="002-1.tmx" npc="401" value="2" effect="15"/>
         <quest name="Piberries Lover" group="Ship" incomplete="1">
             <name>Piberries Lover</name>
             <text>A mysterious stowaway needs your help. He hides at the bottom level of the ship, in the storage room.</text>
@@ -109,8 +109,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="3">
-        <effect map="000-2-1.tmx" npc="403" value="0,6" effect="12"/>
-        <effect map="000-2-1.tmx" npc="403" value="1,2,4" effect="13"/>
+        <effect map="002-1.tmx" npc="403" value="0,6" effect="12"/>
+        <effect map="002-1.tmx" npc="403" value="1,2,4" effect="13"/>
         <quest name="Ratto Extermination" group="Ship" incomplete="6">
             <name>Ratto Extermination</name>
             <text>Peter needs your help to clear La Johanne's hold of some rattos.</text>
@@ -204,6 +204,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Fishing Rod]">{@@1}.</reward>
         </quest>
     </var>
+    <!--
     <var id="25">
         <effect map="001-1.tmx" npc="442" value="0" effect="12"/>
         <effect map="001-1.tmx" npc="442" value="1" effect="13"/>
@@ -225,8 +226,10 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Barrel]">{@@1}.</reward>
         </quest>
     </var>
+    -->
     <var id="30">
-        <effect map="001-2-19.tmx" npc="126" value="0" effect="12"/>
+        <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
+        <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
         <quest name="Worship of Money" group="Artis" complete="1">
             <name>Worship of Money</name>
             <text>You are now registered in the Merchant Guild.</text>
