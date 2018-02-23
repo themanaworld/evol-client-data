@@ -2,6 +2,7 @@
 SHELL=/bin/bash
 .SECONDARY:
 .DELETE_ON_ERROR:
+.PHONY: all about-server wiki check check-png check-xml testxml updates music license icc
 
 XSLTPROC = xsltproc
 
