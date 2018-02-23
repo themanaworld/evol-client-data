@@ -3,6 +3,7 @@
 Copyright (C) 2012-2013 Evol Online -->
 
 <quests>
+    <!-- PROLOGUE QUESTS -->
     <var id="0">
         <effect map="002-3.tmx" npc="404" value="0,1" effect="12"/>
         <quest name="Abide by the Rules" group="Ship" incomplete="1">
@@ -180,34 +181,12 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Knife]">{@@1}.</reward>
         </quest>
     </var>
-    <var id="51">
-        <effect map="003-1.tmx" npc="428" value="0" effect="14"/>
-        <effect map="003-1.tmx" npc="428" value="1" effect="15"/>
-        <quest name="Fishman" group="Artis" incomplete="1">
-            <name>Fishman</name>
-            <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
-            <text>He hurried so much to try it out, that he forgot to take enough baits.</text>
-            <text text1="[Small Tentacles]">You need to bring him 10 {@@1}.</text>
-            <text></text>
-            <questgiver>Eugene</questgiver>
-            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Fishman" group="Artis" complete="2">
-            <name>Fishman</name>
-            <text>You helped Eugene.</text>
-            <text>As his gratitude, he gave you his old fishing rod.</text>
-            <text>You can use it to catch fish.</text>
-            <text></text>
-            <questgiver>Eugene</questgiver>
-            <coordinates x="113" y="120">Artis, Docks. (113,120)</coordinates>
-            <reward text1="[Fishing Rod]">{@@1}.</reward>
-        </quest>
-    </var>
+
+    <!-- GENERAL QUESTS -->
     <var id="13">
         <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
         <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
-        <quest name="Worship of Money" group="Artis" complete="1">
+        <quest name="Worship of Money" group="General" complete="1">
             <name>Worship of Money</name>
             <text>You are now registered in the Merchant Guild.</text>
             <text>This Guild offers storage and bank services.</text>
@@ -217,6 +196,8 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Merchant Guild access.</reward>
         </quest>
     </var>
+
+    <!-- CANDOR QUESTS -->
     <var id="32">
         <effect map="005-1.tmx" npc="119" value="0" effect="12"/>
         <effect map="005-1.tmx" npc="119" value="2" effect="12"/>
@@ -326,8 +307,6 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="38">
-        <!--effect map="005-1.tmx" npc="119" value="0" effect="12"/>
-        <effect map="005-1.tmx" npc="119" value="2" effect="12"/-->
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Making a Figurine" group="Candor" incomplete="1">
             <name>Making a Figurine</name>
@@ -344,6 +323,64 @@ Copyright (C) 2012-2013 Evol Online -->
             <questgiver>Vincent</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>1000 GP</reward>
+        </quest>
+    </var>
+
+    <!-- TULIMSHAR QUESTS -->
+    <var id="51">
+        <effect map="003-1.tmx" npc="428" value="0" effect="14"/>
+        <effect map="003-1.tmx" npc="428" value="1" effect="15"/>
+        <quest name="Fishman" group="Tulimshar" incomplete="1">
+            <name>Fishman</name>
+            <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
+            <text>He hurried so much to try it out, that he forgot to take enough baits.</text>
+            <text text1="[Small Tentacles]">You need to bring him 10 {@@1}.</text>
+            <text></text>
+            <questgiver>Eugene</questgiver>
+            <coordinates x="80" y="127">Tulimshar (80,127)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Fishman" group="Tulimshar" complete="2">
+            <name>Fishman</name>
+            <text>You helped Eugene.</text>
+            <text>As his gratitude, he gave you his old fishing rod.</text>
+            <text>You can use it to catch fish.</text>
+            <text></text>
+            <questgiver>Eugene</questgiver>
+            <coordinates x="80" y="127">Tulimshar (80,127)</coordinates>
+            <reward text1="[Fishing Rod]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="52">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="I Want Cherry Cakes" group="Tulimshar" complete="1">
+            <name>I Want Cherry Cakes</name>
+            <text>Sarah wanted a cherry cake, so I gave her one.</text>
+            <text></text>
+            <questgiver>Sarah</questgiver>
+            <coordinates x="91" y="146">Tulimshar (91,146)</coordinates>
+            <reward text1="[Fancy Hat]">{@@1}</reward>
+        </quest>
+    </var>
+    <!-- var 53 -->
+    <var id="54">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Quenching My Thirst" group="Tulimshar" complete="1">
+            <name>Quenching My Thirst</name>
+            <text>Swezanne was thirsty, but now she can keep doing her job.</text>
+            <text>I can repeat this request every 24 hours.</text>
+            <text></text>
+            <questgiver>Swezanne</questgiver>
+            <coordinates x="69" y="100">Tulimshar (70,100)</coordinates>
+            <reward>EXP and Gold</reward>
+        </quest>
+        <quest name="Quenching My Thirst" group="Tulimshar" incomplete="2">
+            <name>Quenching My Thirst</name>
+            <text text1="[Cactus Potion]">Swezanne is once again thirsty, I should bring her 5 {@@1} to quench it.</text>
+            <text></text>
+            <questgiver>Swezanne</questgiver>
+            <coordinates x="69" y="100">Tulimshar (70,100)</coordinates>
+            <reward>25 EXP and 200 GP</reward>
         </quest>
     </var>
 
