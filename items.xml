@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
-<!-- Authors: 4144, Alige, Piman, Reid, Saulc, Rakinorf
+<!-- Authors: 4144, Alige, Piman, Reid, Saulc, Rakinorf, Jesusalva
 Copyright (C) 2010-2015 Evol Online-->
 <!-- Authors: Saulc, Rakinorf
 Copyright (C) 2018 The Mana World 2-->
@@ -288,13 +288,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         effect="Inedible"
         type="usable"
         weight="80"/>
-    <item id="514"
-        image="usable/book-old.png"
-        name="Old Book"
-        description="A book that threatens to fall apart in your hands as you carefully browse the pages."
-        useButton="Read"
-        type="usable"
-        weight="25"/>
+    <!-- ID 514 is free -->
     <item id="515"
         image="usable/plushroom.png"
         name="Plushroom"
@@ -450,52 +444,25 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         useButton="Drink"
         type="usable"
         weight="10"/>
-    <item id="532"
-        image="usable/book-pioufluffy.png"
-        name="Piou and The Fluffy"
-        description="This story is a warning against listening to flattery."
-        useButton="Read"
-        type="usable"
-        weight="25"/>
-    <item id="533"
-        image="usable/book-poem.png"
-        name="Poem about Poems"
-        description="A heart touching poem written by Nard."
-        useButton="Read"
-        type="usable"
-        weight="20"/>
-    <item id="534"
-        image="usable/book-chorus.png"
-        name="Chorus of the Woods"
-        description="This poem was written centuries ago and is from the ancient city of Keshlam."
-        useButton="Read"
-        type="usable"
-        weight="25"/>
-    <item id="535"
-        image="usable/book-comtheory.png"
-        name="Communication Theory"
-        description="Various meta explanations regarding the dialogue system."
-        useButton="Read"
-        type="usable"
-        weight="20"/>
+    <!-- ID 532 ~ 535 are free. -->
     <item id="536"
         image="usable/book-chorus.png"
         name="Fluffy Animals who Love Their Owners"
-        description="A quick guide to introduce pet caring."
+        description="A quick guide to introduce pet caring. Rakinorf Saulc, Broken Item."
         useButton="Read"
         type="usable"
         weight="20"/>
     <item id="537"
         image="usable/book-laws.png"
         name="The Book of Laws"
-        description="The basic laws respected and upheld in all parts of Gasaron."
+        description="The laws respected and upheld in the World Of Mana, and enforced by the Alliance."
         useButton="Read"
         type="usable"
         weight="10"/>
     <item id="538"
         image="usable/book-fishing.png"
         name="Fishing Guide Vol. I"
-        description="A small book that covers the basics of fishing."
+        description="A small book that covers the basics of fishing. Rakinorf Saulc, Broken Item."
         useButton="Read"
         type="usable"
         weight="25"/>
