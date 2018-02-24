@@ -3870,12 +3870,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
+    <!-- cast Magnum Break on attack. "to Saves" is not a typo, but an Easter Egg -->
     <item id="3518"
         image="equipment/weapons/divinesword.png|W:#ff0000"
         name="Judgement ★★★"
         description="Sometimes, to Saves the ones you like, you must judge the ones you doesn't."
         attack="100"
-        effect="Splash damage: cast Magnum Break on attack."
+        effect="Splash damage and knockback effect"
         level="24"
         critical-hit-effect-id="312"        
         hit-effect-id="312"        
