@@ -3886,7 +3886,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="3518"
         image="equipment/weapons/divinesword.png|W:#ff0000"
         name="Judgement ★★★"
-        description="Sometimes, to Saves the ones you like, you must judge the ones you doesn't."
+        description="Sometimes, to Saves the ones you like, you must judge the ones you don't."
         attack="100"
         effect="Splash damage and knockback effect"
         level="24"
@@ -3896,6 +3896,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-1hand"
         weight="1000">
         <sprite>equipment/weapons/lidersword.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3519"
+        image="equipment/weapons/staffoflife.png"
+        name="Dark Pulsar ★★★"
+        description="This awful blade will seep your enemies life force like a knife cuts butter. Or at least, this is what they told me."
+        attack="100"
+        mattack="25"
+        effect="Work In Progress"
+        level="60"
+        type="equip-1hand"
+        weight="1000">
+        <sprite>equipment/weapons/kurogane.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
