@@ -180,6 +180,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Knife]">{@@1}.</reward>
         </quest>
     </var>
+
     <!-- GENERAL QUESTS -->
     <var id="13">
         <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
@@ -194,6 +195,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Merchant Guild access.</reward>
         </quest>
     </var>
+
     <!-- CANDOR QUESTS -->
     <var id="32">
         <effect map="005-1.tmx" npc="119" value="0,1" effect="12"/>
@@ -322,15 +324,15 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>1000 GP</reward>
         </quest>
     </var>
-    <var id="39">
-        <effect map="005-1.tmx" npc="433" value="0" effect="12"/>
+    <var id="34">
+        <effect map="005-1.tmx" npc="433" value="0,1" effect="12"/>
         <quest name="Helping Maya" group="Candor" incomplete="1">
             <name>Helping Maya</name>
-            <text>You are helping out Maya with finding a few items.</text>
-            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">You need to find three {@@1} and three {@@2}.</text>
+            <text>I am helping out Maya with finding a few items.</text>
+            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">I need to find three {@@1} and three {@@2}.</text>
             <text></text>
             <questgiver>Maya</questgiver>
-            <coordinates x="42" y="37">Artis, Forest. (42,37)</coordinates>
+            <coordinates x="42" y="37">Candor Island. (42,37)</coordinates>
             <reward>Unknown.</reward>
         </quest>
         <quest name="Helping Maya" group="Candor" complete="2">
@@ -343,6 +345,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Candor Shirt]">A {@@1}.</reward>
         </quest>
     </var>
+
     <!-- TULIMSHAR QUESTS -->
     <var id="51">
         <effect map="003-1.tmx" npc="428" value="0" effect="14"/>
