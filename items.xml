@@ -3871,16 +3871,16 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
     <item id="3518"
-        image="equipment/weapons/staffoflife.png"
-        name="Jesusalva's Judgement ★★★"
-        description="The program is buggy? No worries, maybe it is time to destroy everything."
+        image="equipment/weapons/divinesword.png|W:#ff0000"
+        name="Judgement ★★★"
+        description="Sometimes, to Saves the ones you like, you must judge the ones you doesn't."
         attack="100"
         effect="Splash damage: cast Magnum Break on attack."
-        level="40"
+        level="24"
         critical-hit-effect-id="312"        
         hit-effect-id="312"        
         miss-effect-id="50"
-        type="equip-2hand"
+        type="equip-1hand"
         weight="1000">
         <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>

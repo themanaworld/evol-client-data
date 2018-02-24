@@ -199,9 +199,9 @@ Copyright (C) 2012-2013 Evol Online -->
 
     <!-- CANDOR QUESTS -->
     <var id="32">
-        <effect map="005-1.tmx" npc="119" value="0" effect="12"/>
-        <effect map="005-1.tmx" npc="119" value="2" effect="12"/>
-        <quest name="Hide And Seek" group="Candor" incomplete="1">
+        <effect map="005-1.tmx" npc="119" value="0,1" effect="12"/>
+        <effect map="005-1.tmx" npc="119" value="3" effect="12"/>
+        <quest name="Hide And Seek" group="Candor" incomplete="2">
             <name>Hide And Seek</name>
             <text>Find all the children for Ayasha. They're in the Island.</text>
             <text></text>
@@ -209,7 +209,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
             <reward>Unknown.</reward>
         </quest>
-        <quest name="Hide And Seek" group="Candor" incomplete="2">
+        <quest name="Hide And Seek" group="Candor" incomplete="3">
             <name>Hide And Seek</name>
             <text>You found all childrens, go report to Ayasha.</text>
             <text></text>
@@ -217,7 +217,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <coordinates x="52" y="81">Candor Island. (52,81)</coordinates>
             <reward>Unknown.</reward>
         </quest>
-        <quest name="Hide And Seek" group="Candor" complete="3">
+        <quest name="Hide And Seek" group="Candor" complete="4">
             <name>Hide And Seek</name>
             <text>I helped Ayasha to find the children.</text>
             <text></text>
