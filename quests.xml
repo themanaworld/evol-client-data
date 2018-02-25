@@ -197,6 +197,7 @@ Copyright (C) 2012-2013 Evol Online -->
     </var>
 
     <!-- CANDOR QUESTS -->
+    <!-- var 31 -->
     <var id="32">
         <effect map="005-1.tmx" npc="119" value="0,1" effect="12"/>
         <effect map="005-1.tmx" npc="119" value="3" effect="12"/>
@@ -244,7 +245,27 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Gold and Experience.</reward>
         </quest>
     </var>
-    <!-- var 34 -->
+    <var id="34">
+        <effect map="005-1.tmx" npc="433" value="0,1" effect="12"/>
+        <quest name="Helping Maya" group="Candor" incomplete="1">
+            <name>Helping Maya</name>
+            <text>I am helping out Maya with finding a few items.</text>
+            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">I need to find three {@@1} and three {@@2}.</text>
+            <text></text>
+            <questgiver>Maya</questgiver>
+            <coordinates x="42" y="37">Candor Island. (42,37)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Helping Maya" group="Candor" complete="2">
+            <name>Helping Maya</name>
+            <text>You are helping out Maya with finding a few items.</text>
+            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">You need to find three {@@1} and three {@@2}.</text>
+            <text></text>
+            <questgiver>Maya</questgiver>
+            <coordinates x="42" y="37">Candor Island. (42,37)</coordinates>
+            <reward text1="[Candor Shirt]">A {@@1}.</reward>
+        </quest>
+    </var>
     <!-- var 35 -->
     <var id="36">
         <effect map="005-1.tmx" npc="450" value="0,1,3" effect="12"/>
@@ -324,25 +345,47 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>1000 GP</reward>
         </quest>
     </var>
-    <var id="34">
-        <effect map="005-1.tmx" npc="433" value="0,1" effect="12"/>
-        <quest name="Helping Maya" group="Candor" incomplete="1">
-            <name>Helping Maya</name>
-            <text>I am helping out Maya with finding a few items.</text>
-            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">I need to find three {@@1} and three {@@2}.</text>
+    <var id="39">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Trainment" group="Candor" incomplete="1,2">
+            <name>Trainment</name>
+            <text text1="Maggots">I have to kill {@@1}.</text>
             <text></text>
-            <questgiver>Maya</questgiver>
-            <coordinates x="42" y="37">Candor Island. (42,37)</coordinates>
-            <reward>Unknown.</reward>
+            <questgiver>Trainer</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Helping Maya" group="Candor" complete="2">
-            <name>Helping Maya</name>
-            <text>You are helping out Maya with finding a few items.</text>
-            <text text1="[Cotton Cloth]" text2="[Maggot Slime]">You need to find three {@@1} and three {@@2}.</text>
+        <quest name="Trainment" group="Candor" incomplete="4,5">
+            <name>Trainment</name>
+            <text text1="House Maggots">I have to kill {@@1}.</text>
             <text></text>
-            <questgiver>Maya</questgiver>
-            <coordinates x="42" y="37">Candor Island. (42,37)</coordinates>
-            <reward text1="[Candor Shirt]">A {@@1}.</reward>
+            <questgiver>Trainer</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>40 xp, 25 gp</reward>
+        </quest>
+        <quest name="Trainment" group="Candor" incomplete="7,8">
+            <name>Trainment</name>
+            <text text1="Candor Scorpion">I have to kill {@@1}.</text>
+            <text></text>
+            <questgiver>Trainer</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>40 xp, 25 gp</reward>
+        </quest>
+        <quest name="Trainment" group="Candor" incomplete="10,11">
+            <name>Trainment</name>
+            <text text1="Scorpion">I have to kill {@@1}.</text>
+            <text></text>
+            <questgiver>Trainer</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>40 xp, 25 gp</reward>
+        </quest>
+        <quest name="Trainment" group="Candor" complete="12">
+            <name>Trainment</name>
+            <text>I was successfully trained.</text>
+            <text></text>
+            <questgiver>Trainer</questgiver>
+            <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
+            <reward>50 xp</reward>
         </quest>
     </var>
 
