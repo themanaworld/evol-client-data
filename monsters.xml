@@ -316,6 +316,8 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1069" name="Moonshroom" targetCursor="medium">
         <sprite>monsters/moonshroom.xml</sprite>
+        <particlefx>graphics/particles/moonshroom.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
     </monster>
     <monster id="1070" name="Moggun" targetCursor="medium">
         <sprite>monsters/moggun.xml</sprite>
