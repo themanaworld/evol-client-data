@@ -2333,7 +2333,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-torso"
         weight="35"
         colors="simple">
-        <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml</sprite>
+        <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml|#ffffff,2958b5;#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
         <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
     </item>
     <item id="1319"
@@ -2397,6 +2397,40 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/gmrobe-male.xml</sprite>
         <sprite gender="female">equipment/chest/gmrobe-female.xml</sprite>
     </item>
+        <item id="1327"
+        image="equipment/chest/chainmail.png|W:#573f10,9c8226,d3c04b,ffffff"
+        name="Golden Chainmail "
+        description="Rakinorf"
+        defense="1"
+        level="1"
+        type="equip-torso"
+        weight="1">
+        <sprite gender="unisex">equipment/chest/chainmail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">equipment/chest/chainmail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+    </item>
+        <item id="1328"
+        image="equipment/chest/lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
+        name="Golden Light Platemail"
+        description="Rakinorf"
+        defense="21"
+        level="1"
+        type="equip-torso"
+        weight="1">
+        <sprite gender="unisex">equipment/chest/lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">equipment/chest/lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+    </item>
+        <item id="1329"
+        image="equipment/chest/warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
+        name="Golden Warlord Plate"
+        description="1"
+        defense="2"
+        level="1"
+        type="equip-torso"
+        weight="1">
+        <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">equipment/chest/warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+    </item>
+
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png"
