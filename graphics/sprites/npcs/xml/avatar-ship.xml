@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Jesusalva
+Copyright (C) 2012 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/avatar-ship.png"
+              width="64"
+              height="54"
+              offsetX="0"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>
