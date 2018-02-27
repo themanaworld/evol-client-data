@@ -410,5 +410,62 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1084" name="House Maggot" targetCursor="small">
         <sprite>monsters/housemaggot.xml</sprite>
     </monster>
+    <monster id="1085" name="Green Slime">
+        <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1086" name="Rudolph Slime">
+        <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+        <sprite>monsters/accessories/slime-rudolph.xml</sprite>
+    </monster>
+    <monster id="1087" name="Blue Slime">
+        <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
+        <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1088" name="Copper Slime">
+        <sprite>monsters/slime.xml|#a1734c,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#a1744c,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1089" name="Candied Slime">
+        <sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
+        <sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
+        <attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1090" name="Slime Blast">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1091" name="Yellow Slime">
+        <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1092" name="Red Slime">
+        <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1093" name="Sea Slime">
+        <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1094" name="White Slime">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1095" name="Azul Slime">
+        <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+    <monster id="1096" name="Santa Slime">
+        <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
+        <sprite>monsters/accessories/slime-santa.xml</sprite>
+    </monster>
+    <monster id="1097" name="Lava Slime">
+        <sprite>monsters/slime.xml|#bb0201,ff9934,ffd366</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
 
 </monsters>
