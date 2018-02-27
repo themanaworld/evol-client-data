@@ -4,35 +4,11 @@ Copyright (C) 2018 TMW2 -->
 
 <maps>
 
-    <!-- EVOL -->
-    <map name="000-0-0.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="000-0.tmx">
-        <atlas name="island"/>
-    </map>
-    <map name="000-1.tmx">
-        <atlas name="island"/>
-    </map>
-    <map name="002-1.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-2.tmx">
-        <atlas name="ship"/>
-    </map>    
-    <map name="002-3.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-4.tmx">
-        <atlas name="ship"/>
-    </map>    
-    <map name="test.tmx">
-        <atlas name="artis-indoor"/>
-    </map>
-    <map name="testbg.tmx">
-        <atlas name="artis-indoor"/>
-    </map>
-    
+    <!-- namespace base -->
+    <atlas name="ignored">
+        <file name="graphics/tilesets/collision.png"/>
+        <file name="graphics/tilesets/level-number.png"/>
+    </atlas>
 
     <atlas name="all">
         <file name="graphics/particles/bubble.png|W:#80ff80,40a020"/>
@@ -52,7 +28,163 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/particles/star-medium.png|W:#ffffff,ffffff"/>
         <file name="graphics/particles/zzz.png"/>
     </atlas>
+    <!-- / base -->
 
+    <map name="000-0-0.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="000-0.tmx">
+        <atlas name="island"/>
+    </map>
+    <map name="000-1.tmx">
+        <atlas name="island"/>
+    </map>
+    <map name="002-1.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="002-2.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="002-3.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="002-4.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="001-1.tmx">
+        <atlas name="aeros"/>
+    </map>
+    <map name="003-1.tmx">
+        <atlas name="tulimshar"/>
+    </map>
+    <map name="003-1-2.tmx">
+        <atlas name="tulimshar"/>
+    </map>
+    <map name="003-1-3.tmx">
+        <atlas name="cave"/>
+    </map>
+    <map name="003-2.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-2-0.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="003-2-1.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="003-2-2.tmx">
+        <atlas name="ship"/>
+    </map>
+    <map name="003-3.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-4.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-5.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-6.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-7.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-8.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="003-13.tmx">
+        <atlas name="tulimshar-indoor"/>
+    </map>
+    <map name="004-1.tmx">
+        <atlas name="desert"/>
+    </map>
+    <map name="004-2.tmx">
+        <atlas name="desert"/>
+    </map>
+    <map name="005-1.tmx">
+        <atlas name="candor"/>
+    </map>
+    <map name="005-2.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-3.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+        <map name="005-4.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-5.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-6.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="005-7.tmx">
+        <atlas name="candor-indoor"/>
+    </map>
+    <map name="007-1.tmx">
+        <atlas name="mine"/>
+    </map>
+    <map name="008-1.tmx">
+        <atlas name="legacy-woodland"/>
+    </map>
+    <map name="008-2-0.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-1.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-2.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-3.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-4.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-5.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-6.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-7.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-8.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-9.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-10.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-11.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-12.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-13.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="008-2-14.tmx">
+        <atlas name="legacy-woodland-indoor"/>
+    </map>
+    <map name="sec_pri.tmx">
+        <atlas name="prison"/>
+    </map>
+    <map name="test.tmx">
+        <atlas name="artis-indoor"/>
+    </map>
+    <map name="testbg.tmx">
+        <atlas name="artis-indoor"/>
+    </map>
+
+    <!-- namespace Legacy -->
     <atlas name="island">
         <file name="graphics/tilesets/accessory.png"/>
         <file name="graphics/tilesets/box.png"/>
@@ -147,56 +279,6 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/box-x1x2.png"/>
         <file name="graphics/tilesets/shadow.png"/>
     </atlas>
-    
-    <!-- namespace Legacy -->
-    <map name="008-1.tmx">
-        <atlas name="legacy-woodland"/>
-    </map>
-    <map name="008-2-0.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-1.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-2.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-3.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-4.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-5.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-6.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-7.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-8.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-9.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-10.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-11.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-12.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-13.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
-    <map name="008-2-14.tmx">
-        <atlas name="legacy-woodland-indoor"/>
-    </map>
 
     <atlas name="legacy-woodland">
         <file name="graphics/legacy/tilesets/woodenpump-x1x3.png"/>
@@ -215,88 +297,29 @@ Copyright (C) 2018 TMW2 -->
     </atlas>
     <!-- / Legacy -->
 
-    <atlas name="ignored">
-        <file name="graphics/tilesets/collision.png"/>
-        <file name="graphics/tilesets/level-number.png"/>
+
+
+
+
+    <!-- namespace TMW2 -->
+    <atlas name="aeros">
+        <file name="graphics/tilesets/casas-cogumelo.png"/>
+        <file name="graphics/tilesets/concreteWalls.png"/>
+        <file name="graphics/tilesets/docks.png"/>
+        <file name="graphics/tilesets/docks_x2.png"/>
+        <file name="graphics/tilesets/docks_x4.png"/>
+        <file name="graphics/tilesets/desert_city.png"/>
+        <file name="graphics/tilesets/forest.png"/>
+        <file name="graphics/tilesets/snow.png"/>
+        <file name="graphics/tilesets/snow_tree_x3.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_swamp.png"/>
+        <file name="graphics/tilesets/woodland_village.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/woodland_x4.png"/>
+        <file name="graphics/tilesets/woodland_x8.png"/>
     </atlas>
-
-    <!-- / TMW2 -->
-    <map name="001-1.tmx">
-        <atlas name="aeros"/>
-    </map>
-    <map name="005-1.tmx">
-        <atlas name="candor"/>
-    </map>
-    <map name="005-2.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-3.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-        <map name="005-4.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-5.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-6.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-7.tmx">
-        <atlas name="candor-indoor"/>
-    </map>    
-    <map name="003-1.tmx">
-        <atlas name="tulimshar"/>
-    </map>
-    <map name="003-1-2.tmx">
-        <atlas name="tulimshar"/>
-    </map>
-    <map name="003-1-3.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="003-2.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-2-0.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-2-1.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-2-2.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-3.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>    
-    <map name="003-4.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-5.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map> 
-    <map name="003-6.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map> 
-    <map name="003-7.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map> 
-    <map name="003-8.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-13.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>  
-    <map name="004-1.tmx">
-        <atlas name="desert"/>
-    </map>
-    <map name="004-2.tmx">
-        <atlas name="desert"/>
-    </map>
-    <map name="007-1.tmx">
-        <atlas name="mine"/>
-    </map>
-
 
     <atlas name="candor">
         <file name="graphics/tilesets/box.png"/>
@@ -339,24 +362,48 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/woodland-indoor.png"/>
         <file name="graphics/tilesets/wood_lab.png"/>
     </atlas>
-    
-    <atlas name="aeros">
-        <file name="graphics/tilesets/casas-cogumelo.png"/>
-        <file name="graphics/tilesets/concreteWalls.png"/>
+
+    <atlas name="cave">
+        <file name="graphics/tilesets/cave.png"/>
+    </atlas>
+
+    <atlas name="desert">
         <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/docks_x4.png"/>
+        <file name="graphics/tilesets/desert1.png"/>
+        <file name="graphics/tilesets/desert2.png"/>
+        <file name="graphics/tilesets/desert_x3.png"/>
+        <file name="graphics/tilesets/desert_x2.png"/>
+        <file name="graphics/tilesets/desert_x5.png"/>
         <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/forest.png"/>
-        <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/snow_tree_x3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_swamp.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x8.png"/>
+        <file name="graphics/tilesets/desert_city_x2.png"/>
+        <file name="graphics/tilesets/desert_castle.png"/>
+        <file name="graphics/tilesets/signs_x2.png"/>
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+        <file name="graphics/tilesets/tree-x3x3.png"/>
+        <file name="graphics/tilesets/tree-x3x4.png"/>
+        <file name="graphics/tilesets/waterflow.png"/>
+        <file name="graphics/tilesets/water3.png"/>
+    </atlas>
+
+    <atlas name="mine">
+        <file name="graphics/tilesets/barbarians_outdoor.png"/>
+        <file name="graphics/tilesets/cave2.png"/>
+        <file name="graphics/tilesets/cave_lava.png"/>
+        <file name="graphics/tilesets/cave2_x2.png"/>
+        <file name="graphics/tilesets/cave2_base.png"/>
+        <file name="graphics/tilesets/cave2_bilevel.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
+        <file name="graphics/tilesets/cave2_transistions.png"/>
+        <file name="graphics/tilesets/woodland_indoor.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
+    </atlas>
+
+    <atlas name="prison">
+        <file name="graphics/tilesets/blockWalls.png"/>
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/inn.png"/>
+        <file name="graphics/tilesets/grade_x3.png"/>
     </atlas>
 
     <atlas name="tulimshar">
@@ -378,7 +425,7 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/desert_city_indoors.png"/>
         <file name="graphics/tilesets/desert_city_x2.png"/>
         <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>    
+        <file name="graphics/tilesets/inn_x2.png"/>
         <file name="graphics/tilesets/inn_x3.png"/>
         <file name="graphics/tilesets/ship-base.png"/>
         <file name="graphics/tilesets/signs_x2.png"/>
@@ -391,24 +438,6 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/water3.png"/>
         <file name="graphics/tilesets/woodland_indoor.png"/>
         <file name="graphics/tilesets/waterflow.png"/>
-    </atlas>
-
-    <atlas name="cave">
-        <file name="graphics/tilesets/cave.png"/>
-    </atlas>
-
-    <atlas name="mine">
-        <file name="graphics/tilesets/barbarians_outdoor.png"/>
-        <file name="graphics/tilesets/cave2.png"/>
-        <file name="graphics/tilesets/cave_lava.png"/>
-        <file name="graphics/tilesets/cave2_x2.png"/>
-        <file name="graphics/tilesets/cave2_base.png"/>
-        <file name="graphics/tilesets/cave2_bilevel.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
-        <file name="graphics/tilesets/cave2_transistions.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
     </atlas>
 
     <atlas name="tulimshar-indoor">
@@ -425,23 +454,6 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/inn_x4.png"/>
         <file name="graphics/tilesets/woodland_indoor.png"/>
     </atlas>
-
-    <atlas name="desert">
-        <file name="graphics/tilesets/docks.png"/> 
-        <file name="graphics/tilesets/desert1.png"/> 
-        <file name="graphics/tilesets/desert2.png"/> 
-        <file name="graphics/tilesets/desert_x3.png"/> 
-        <file name="graphics/tilesets/desert_x2.png"/> 
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_city_x2.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/tree-x3x3.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-    </atlas>      
+    <!-- / TMW2 -->
 
 </maps>
