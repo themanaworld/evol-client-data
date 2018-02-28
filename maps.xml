@@ -177,6 +177,12 @@ Copyright (C) 2018 TMW2 -->
     <map name="008-2-14.tmx">
         <atlas name="legacy-woodland-indoor"/>
     </map>
+    <map name="012.tmx">
+        <atlas name="magic-forest"/>
+    </map>
+    <map name="botcheck.tmx">
+        <atlas name="botcheck"/>
+    </map>
     <map name="sec_pri.tmx">
         <atlas name="prison"/>
     </map>
@@ -325,6 +331,11 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/woodland_water.png"/>
     </atlas>
 
+    <atlas name="botcheck">
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/arena.png"/>
+    </atlas>
+
     <atlas name="candor">
         <file name="graphics/tilesets/box.png"/>
         <file name="graphics/tilesets/box-x1x2.png"/>
@@ -340,11 +351,11 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/water3.png"/>
         <file name="graphics/tilesets/woodland_village_x2.png"/>
         <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
         <file name="graphics/tilesets/water_overflow.png"/>
         <file name="graphics/tilesets/woodland_village.png"/>
         <file name="graphics/tilesets/woodland_village_x3.png"/>
         <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
         <file name="graphics/tilesets/woodland_x3.png"/>
     </atlas>
 
@@ -387,6 +398,13 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/tree-x3x4.png"/>
         <file name="graphics/tilesets/waterflow.png"/>
         <file name="graphics/tilesets/water3.png"/>
+    </atlas>
+
+    <atlas name="magic-forest">
+        <file name="graphics/tilesets/casas-cogumelo.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
     </atlas>
 
     <atlas name="mine">
