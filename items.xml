@@ -1458,11 +1458,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="generic"
         weight="1"
         maxFloorOffset="20"/>
+    <!-- TODO FIXME: Id must be moved -->
     <item id="788"
         image="generic/toothbrush.png"
         name="Toothbrush"
         description="To keep that beautiful smile going."
-        type="generic"
+        type="usable"
+        useButton="Break"
         weight="1"
         maxFloorOffset="20"/>
     <item id="789"
