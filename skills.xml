@@ -11,8 +11,34 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Allow do basic things like sitting, smiling or trading."
         />
         <skill
+            id="20002"
+            name="Super Menu"
+            icon="graphics/skills/none.png"
+            description="Gives access to all debug and administrative options"
+            invokeCmd="@super"
+        />
+    </set>
+    <set name="Physical">
+        <skill
+            id="20000"
+            name="Mass provoke"
+            icon="graphics/skills/legacy/resistpoison.png"
+            description="Allow provoke many monsters."
+            castingAnimation="emote.xml"
+        />
+        <skill
+            id="5"
+            name="Falkon Punch!"
+            icon="graphics/skills/bash.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="A violent punch."
+        />
+    </set>
+    <set name="Magical">
+        <skill
             id="17"
             name="Fire ball"
+            icon="graphics/skills/big_explosion.png"
             description="Attack enemy with fireball."
             castingMissile-particle="graphics/particles/concentration.xml"
             castingMissile-lifetime="10000"
@@ -22,40 +48,17 @@ Copyright (C) 2010-2013 Evol Online -->
             castingAnimation="emote.xml"
         />
         <skill
-            id="20000"
-            name="Mass provoke"
-            icon="graphics/skills/legacy/resistpoison.png"
-            description="Allow provoke many monsters."
-            castingAnimation="emote.xml"
-        />
-        <skill
             id="20001"
             name="Magic shield"
             icon="graphics/skills/legacy/life.png"
             description="Allow protect from magic attacks."
         />
-    </set>
-    <set name="Offensive">
-        <skill
-            id="5"
-            name="Basic"
-            icon="graphics/skills/bash.png"
-            castingMissile-particle="graphics/particles/critical.xml"
-            description="A violent punch."
-        />
-    </set>
-    <set name="Other">
         <skill
             id="220"
             name="Grafiti"
+            icon="graphics/skills/none.png"
             description="Draw text on ground."
-            useTextParameter="true"/>
-    </set>
-    <set name="Restricted">
-        <skill
-            id="20002"
-            name="Super Menu"
-            description="Gives access to all debug and administrative options"
-            invokeCmd="@numa"/>
+            useTextParameter="true"
+        />
     </set>
 </skills>
