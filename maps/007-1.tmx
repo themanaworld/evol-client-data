@@ -2061,7 +2061,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup name="Object" visible="0">
   <object id="52" name="to Armor Shop" type="warp" x="1632" y="1184" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
@@ -2134,10 +2134,10 @@
     <property name="spawn" value="35000"/>
    </properties>
   </object>
-  <object id="122" name="Cave Bat" type="Spawn" x="4096" y="1504" width="928" height="864">
+  <object id="122" name="Cave Bat" type="Spawn" x="288" y="480" width="4832" height="3680">
    <properties>
     <property name="death" value="300000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="6"/>
     <property name="monster_id" value="1039"/>
     <property name="spawn" value="35000"/>
    </properties>
@@ -2151,7 +2151,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff007f" name="Particles">
+ <objectgroup color="#ff007f" name="Particles" visible="0">
   <object id="118" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2304" y="1248" width="32" height="32"/>
   <object id="120" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2368" y="2080" width="32" height="32"/>
  </objectgroup>
