@@ -2279,7 +2279,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-torso"
         weight="35"
         colors="simple">
-        <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml|#ffffff,2958b5;#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
     </item>
     <item id="1319"
@@ -2548,6 +2548,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
         <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
     </item>
+    <!-- Dye todo
         <item id="2004"
         image="equipment/hands/cottongloves.png|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
         name="Creased Gloves"
@@ -2572,6 +2573,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#a4b2b2,ffffff</sprite>
     </item>
+    -->
         <item id="2006"
         image="equipment/hands/minergloves.png"
         name="Miner Gloves"
@@ -2596,6 +2598,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
     </item>    
+    <!-- dye todo
         <item id="2008"
         image="equipment/hands/leathergloves.png"
         name="Leather Gloves"
@@ -2608,7 +2611,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4e2e18,c8752f</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
     </item>    
-    <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)    
         <item id="2009"
         image="equipment/hands/forestgloves.png"
         name="Forest Gloves"
