@@ -180,6 +180,35 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Knife]">{@@1}.</reward>
         </quest>
     </var>
+    <var id="8">
+        <effect map="002-1.tmx" npc="101" value="0,2" effect="12"/>
+        <quest name="Scary Pious" group="Ship" incomplete="1">
+            <name>Scary Pious</name>
+            <text>Dan is afraid of Pious. I should help him by killing 12 Pious.</text>
+            <text></text>
+            <text>Progress: {@@var2}/12 Pious</text>
+            <text></text>
+            <questgiver>Dan</questgiver>
+            <coordinates x="32" y="32">La Johanne, Second Deck. (32,32)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Scary Pious" group="Ship" incomplete="2">
+            <name>Scary Pious</name>
+            <text>The Pious are gone, now I need to say Dan he can sleep in peace at night.</text>
+            <text></text>
+            <questgiver>Dan</questgiver>
+            <coordinates x="32" y="32">La Johanne, Second Deck. (32,32)</coordinates>
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Scary Pious" group="Ship" complete="3">
+            <name>Scary Pious</name>
+            <text>He gave me a nice outfit for my efforts.</text>
+            <text></text>
+            <questgiver>Dan</questgiver>
+            <coordinates x="32" y="32">La Johanne, Second Deck. (32,32)</coordinates>
+            <reward text="[Creased Boots]">1x {@@1}</reward>
+        </quest>
+    </var>
 
     <!-- GENERAL QUESTS -->
     <var id="12">
