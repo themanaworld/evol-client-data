@@ -2240,10 +2240,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/chest/leathershirt.png"
         name="Leather Shirt"
         description="A shirt made of hardened leather."
-        defense="250"
-        level="15"
+        defense="60"
+        level="20"
         type="equip-torso"
-        weight="20">
+        weight="120">
         <sprite gender="unisex">equipment/chest/leathershirt-male.xml</sprite>
         <sprite gender="female">equipment/chest/leathershirt-female.xml</sprite>
     </item> 
@@ -3143,12 +3143,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/head/bandana.png"
         name="Bandana"
         description="A striped bandana worn by some sailors."
-        defense="40"
-        level="14"
+        defense="39"
+        level="12"
         type="equip-head"
         weight="4">
-        <sprite gender="unisex">equipment/head/bandana-male.xml</sprite>
-        <sprite gender="female">equipment/head/bandana-female.xml</sprite>
+        <sprite gender="unisex">equipment/head/bandana.xml</sprite>
+        <sprite gender="female">equipment/head/bandana.xml</sprite>
         <replace sprite="hair">
             <item from="-3" to="-7"/>
             <item from="-4" to="-7"/>
@@ -3734,10 +3734,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/head/serfhat.png"
         name="Serf Hat"
         description="A very comfortable hat."
-        defense="1"
-        level="1"
+        defense="42"
+        level="15"
         type="equip-head"
-        weight="22">
+        weight="69">
         <sprite>equipment/head/serfhat.xml</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
@@ -4428,10 +4428,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="1"
+        level="5"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="160">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6002"
