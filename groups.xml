@@ -252,8 +252,8 @@ Copyright (C) 2017 Evol Online -->
     </group>
     <group
         id="8"
-        name="Game Master"
-        longName="Game Master"
+        name="Hercules Game Master"
+        longName="Hercules Game Master"
         inherit="4,7"
     >
         <commands>
@@ -265,6 +265,20 @@ Copyright (C) 2017 Evol Online -->
         </commands>
         <permissions>
             <permission name="any_warp" />
+        </permissions>
+    </group>
+    <group
+        id="80"
+        name="Game Master"
+        longName="Game Master"
+        inherit="5,8"
+    >
+        <commands>
+        </commands>
+        <permissions>
+            <permission name="use_check" />
+            <permission name="can_party" />
+            <permission name="use_changemaptype" />
         </permissions>
     </group>
     <group
