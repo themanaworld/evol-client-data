@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
  <properties>
+  <property name="license" value="GPL v2"/>
+  <property name="manaplus version" value="2"/>
   <property name="minimap" value="/graphics/minimaps/009-5.png"/>
   <property name="music" value="3b5.ogg"/>
   <property name="name" value="Depleted Mana Stones Mine"/>
@@ -629,7 +631,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Error" width="200" height="200">
+ <layer name="Heights" width="200" height="200">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1046,46 +1048,45 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" name="spawns" visible="0">
-  <object id="2" name="terranite(ID1062x200)" type="spawn" x="640" y="672" width="5120" height="5120">
+ <objectgroup color="#ff0000" name="spawns">
+  <object id="2" name="Night Scorpion" type="spawn" x="640" y="672" width="5120" height="5120">
    <properties>
-    <property name="amount" value="200"/>
-    <property name="delay1" value="60000"/>
-    <property name="delay2" value="60000"/>
-    <property name="id" value="1062"/>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="200"/>
+    <property name="monster_id" value="1077"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
-  <object id="3" name="caranguejeira(ID1310x100)" type="spawn" x="608" y="704" width="5120" height="5120">
+  <object id="3" name="Dark Lizard" type="spawn" x="608" y="704" width="5120" height="5120">
    <properties>
-    <property name="amount" value="100"/>
-    <property name="delay1" value="60000"/>
-    <property name="delay2" value="60000"/>
-    <property name="id" value="1310"/>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="100"/>
+    <property name="monster_id" value="1051"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
-  <object id="4" name="esqueletoguerreiro(ID1043x100)" type="spawn" x="672" y="640" width="5120" height="5120">
+  <object id="4" name="Lava Slime" type="spawn" x="672" y="640" width="5120" height="5120">
    <properties>
-    <property name="amount" value="100"/>
-    <property name="delay1" value="60000"/>
-    <property name="delay2" value="60000"/>
-    <property name="id" value="1043"/>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="100"/>
+    <property name="monster_id" value="1097"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
-  <object id="5" name="limofogo(ID1371x150)" type="spawn" x="704" y="608" width="5120" height="5120">
+  <object id="5" name="Red Slime" type="spawn" x="704" y="608" width="5120" height="5120">
    <properties>
-    <property name="amount" value="150"/>
-    <property name="delay1" value="60000"/>
-    <property name="delay2" value="60000"/>
-    <property name="id" value="1371"/>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="150"/>
+    <property name="monster_id" value="1092"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="scripts" visible="0"/>
- <objectgroup color="#ffff00" name="particles" visible="0"/>
- <objectgroup color="#5500ff" name="margin" visible="0">
-  <object id="6" x="0" y="0" width="6400" height="640"/>
-  <object id="7" x="0" y="5760" width="6400" height="640"/>
-  <object id="8" x="0" y="0" width="640" height="6400"/>
-  <object id="9" x="5760" y="0" width="640" height="6400"/>
+ <objectgroup color="#ffff00" name="particles"/>
+ <objectgroup color="#5500ff" name="margin">
+  <object id="6" type="fixme" x="0" y="0" width="6400" height="640"/>
+  <object id="7" type="fixme" x="0" y="5760" width="6400" height="640"/>
+  <object id="8" type="fixme" x="0" y="0" width="640" height="6400"/>
+  <object id="9" type="fixme" x="5760" y="0" width="640" height="6400"/>
  </objectgroup>
 </map>
