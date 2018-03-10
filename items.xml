@@ -2939,7 +2939,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/jeansshorts-male.xml</sprite>
     </item>
-    <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)
     <item id="2213"
         image="equipment/legs/leathertrousers.png"
         name="Leather Trousers"
@@ -2949,8 +2948,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-legs"
         weight="280"
         maxFloorOffset="8">
-        <sprite gender="unisex">equipment/legs/leathertrousers-male.xml</sprite>
+        <sprite gender="unisex">equipment/legs/cottontrousers-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+        <sprite gender="female">equipment/legs/cotontrousers-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
     </item>
+ <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)
     <item id="2214"
         image="equipment/legs/banditpants.png"
         name="Bandit Pants"
