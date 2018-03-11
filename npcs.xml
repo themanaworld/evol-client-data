@@ -331,6 +331,10 @@ IDs 900-999 = Special
     <npc id="161"> <!-- fancy circle (for 001-4 mushrooms) -->
         <particlefx>graphics/particles/fancy_circle.xml</particlefx>
     </npc>
+    <npc id="162">
+        <!-- Fakir, Dog statue NPC -->
+        <sprite>npcs/xml/desertdogstatue.xml</sprite>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -679,10 +683,6 @@ IDs 900-999 = Special
         <sprite>hairstyles/hairstyle25.xml|#2b2b2b,311623,3f3f3f,451a25,585858,602222,858585,7d2b26,a7a7a7,9a3416,d6d6d6,ca7e55,ffffff,e2b88f</sprite>
         <sprite>equipment/head/infantryhelmet.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
-    </npc>
-    <npc id="453">
-        <!-- Fakir, Dog statue NPC -->
-        <sprite>npcs/xml/desertdogstatue.xml</sprite>
     </npc>
 
     <!-- Soul Menhirs -->
