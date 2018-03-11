@@ -180,6 +180,26 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Knife]">{@@1}.</reward>
         </quest>
     </var>
+    <var id="7">
+        <effect map="002-1.tmx" npc="418" value="0,1" effect="12"/>
+        <quest name="Good Food makes a Good Crew" group="Ship" incomplete="1">
+            <name>Good Food makes a Good Crew</name>
+            <text>Chef Gado is preparing food for the crew, but supplies are running thin.</text>
+            <text text1="[Piou Legs]">I should help him by getting 5 {@@1}.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="27" y="28">La Johanne, Second Deck (25,41)</coordinates>
+            <reward>A pair of gloves!</reward>
+        </quest>
+        <quest name="Good Food makes a Good Crew" group="Ship" complete="2">
+            <name>Good Food makes a Good Crew</name>
+            <text>Chef Gado went back to cooking, and I'll be back to hunting.</text>
+            <text></text>
+            <questgiver>Chef Gado</questgiver>
+            <coordinates x="27" y="28">La Johanne, Second Deck (25,41)</coordinates>
+            <reward text1="[Creased Gloves]">1x {@@1}, 100 GP.</reward>
+        </quest>
+    </var>
     <var id="8">
         <effect map="002-1.tmx" npc="101" value="0,2" effect="12"/>
         <quest name="Scary Pious" group="Ship" incomplete="1">
