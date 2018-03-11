@@ -685,7 +685,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
-    <!-- Soul Menhirs -->
+    <!-- Soul Menhirs & Mana Stone -->
     <npc id="700">
         <sprite variant="0">npcs/xml/soulmenhirs.xml</sprite>
         <menu name="Touch" command="talk 'NAME'"/>
@@ -716,6 +716,12 @@ IDs 900-999 = Special
     </npc>
     <npc id="707">
         <sprite variant="7">npcs/xml/soulmenhirs.xml</sprite>
+        <menu name="Touch" command="talk 'NAME'"/>
+    </npc>
+    <npc id="708">
+        <sprite variant="8">npcs/xml/soulmenhirs.xml</sprite>
+        <particlefx>graphics/particles/pentagram-linedraw.particle.xml</particlefx>
+        <particlefx>graphics/particles/moonshroom.particle.xml</particlefx>
         <menu name="Touch" command="talk 'NAME'"/>
     </npc>
 
