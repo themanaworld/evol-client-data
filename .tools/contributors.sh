@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "[FIXME][TODO] Our project is not using contributors check."
-echo "[FIXME][TODO] This is an important error. We must auto-check licenses!"
-exit 0
-
 source ./.tools/init.sh
 
 clientdata_init

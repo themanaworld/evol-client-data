@@ -1,7 +1,6 @@
 stages:
 - test
 - integrity
-- deploy
 - fail
 - ok
 
@@ -51,13 +50,13 @@ contributors:
   - ./.tools/contributors.sh
   - pwd
 
-licensecheck:
+.licensecheck:
   stage: integrity
   script:
   - ./.tools/licensecheck.sh
 
-pages:
-  stage: deploy
+.pages:
+  stage: integrity
   script:
   - ./.tools/deploy.sh
   - pwd
