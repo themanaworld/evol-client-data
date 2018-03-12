@@ -7,6 +7,7 @@ Copyright (C) 2017 Evol Online -->
         id="0"
         name="Player"
         longName="Player"
+        highlightName="true"
     >
         <commands>
             <command name="duel" use="self" />
@@ -26,6 +27,7 @@ Copyright (C) 2017 Evol Online -->
         name="Super Player"
         longName="Super Player"
         inherit="0"
+        highlightName="true"
     >
         <commands>
             <command name="autotrade" use="self" />
@@ -184,6 +186,7 @@ Copyright (C) 2017 Evol Online -->
         name="Developer"
         longName="Developer"
         inherit="3,2"
+        highlightName="true"
     >
         <commands>
             <command name="localbroadcast" use="self" />
@@ -272,6 +275,7 @@ Copyright (C) 2017 Evol Online -->
         name="Game Master"
         longName="Game Master"
         inherit="5,8"
+        highlightName="true"
     >
         <commands>
         </commands>
@@ -286,6 +290,7 @@ Copyright (C) 2017 Evol Online -->
         name="Administrator"
         longName="Administrator"
         inherit="5,8"
+        highlightName="true"
     >
         <commands>
         </commands>
