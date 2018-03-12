@@ -1048,20 +1048,20 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" name="spawns" visible="0">
-  <object id="2" name="Night Scorpion" type="spawn" x="640" y="672" width="5120" height="5120">
+ <objectgroup color="#ff0000" name="spawns">
+  <object id="2" name="Mana Ghost" type="spawn" x="640" y="672" width="5120" height="5120">
    <properties>
-    <property name="death" value="60000"/>
-    <property name="max_beings" value="200"/>
-    <property name="monster_id" value="1077"/>
-    <property name="spawn" value="60000"/>
+    <property name="death" value="20000"/>
+    <property name="max_beings" value="40"/>
+    <property name="monster_id" value="1068"/>
+    <property name="spawn" value="20000"/>
    </properties>
   </object>
-  <object id="3" name="Dark Lizard" type="spawn" x="608" y="704" width="5120" height="5120">
+  <object id="3" name="Fire Goblin" type="spawn" x="608" y="704" width="5120" height="5120">
    <properties>
     <property name="death" value="60000"/>
     <property name="max_beings" value="100"/>
-    <property name="monster_id" value="1051"/>
+    <property name="monster_id" value="1067"/>
     <property name="spawn" value="60000"/>
    </properties>
   </object>
@@ -1083,7 +1083,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#ffff00" name="particles"/>
- <objectgroup color="#5500ff" name="margin">
+ <objectgroup color="#5500ff" name="margin" visible="0">
   <object id="6" type="fixme" x="0" y="0" width="6400" height="640"/>
   <object id="7" type="fixme" x="0" y="5760" width="6400" height="640"/>
   <object id="8" type="fixme" x="0" y="0" width="640" height="6400"/>
