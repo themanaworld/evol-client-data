@@ -7,13 +7,17 @@ XSLTPROC = xsltproc
 
 all: about-server check
 
+contrib: about-server wiki
+
+contributors: contrib
+
 about-server:
 	@$(XSLTPROC) -o help/about-server.txt ../tools/contrib_xsl/about-server.xsl ../tools/contrib_xsl/contributors.xml 
 	@echo "The file about-server.txt was created successfully."
 
 wiki:
-	@$(XSLTPROC) ../tools/contrib_xsl/wiki.xsl ../tools/contrib_xsl/contributors.xml | less
-	@echo "You can now place this output in: http://wiki.evolonline.org/contributors"
+	@$(XSLTPROC) ../tools/contrib_xsl/wiki.xsl ../tools/contrib_xsl/contributors.xml > ../wiki/Contributors.md
+	@echo "Wiki generated"
 
 check: check-xml check-png testxml
 
