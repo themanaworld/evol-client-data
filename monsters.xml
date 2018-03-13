@@ -528,4 +528,16 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <particlefx>graphics/particles/demonicmouboo.particle.xml</particlefx>
     </monster>
     -->
+	<monster id="1117" name="Small Magic Bif" targetCursor="small">
+        <sprite>monsters/smallbif.xml|#4b4bbd,888af4</sprite>
+        <particlefx>graphics/particles/magicbif.particle.xml</particlefx>
+    </monster>
+	<monster id="1118" name="Magic Bif" targetCursor="medium">
+        <sprite>monsters/bif.xml|#4b4bbd,ff008e</sprite>
+        <particlefx>graphics/particles/magicbif.particle.xml</particlefx>>
+    </monster>
+	<monster id="1119" name="Big Magic Bif" targetCursor="medium">
+        <sprite>monsters/bigbif.xml|#ff008e,888af4</sprite>
+        <particlefx>graphics/particles/magicbif.particle.xml</particlefx>
+    </monster>
 </monsters>
