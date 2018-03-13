@@ -184,6 +184,15 @@ Copyright (C) 2018 TMW2 -->
     <map name="008-2-14.tmx">
         <atlas name="legacy-woodland-indoor"/>
     </map>
+    <map name="009-1.tmx">
+        <atlas name="halinarzo"/>
+    </map>
+    <map name="009-2.tmx">
+        <atlas name="halinarzo"/>
+    </map>
+    <map name="009-5.tmx">
+        <atlas name="cave"/>
+    </map>
     <map name="botcheck.tmx">
         <atlas name="botcheck"/>
     </map>
@@ -197,21 +206,15 @@ Copyright (C) 2018 TMW2 -->
         <atlas name="artis-indoor"/>
     </map>
 
-    <!-- without an atlas -->
+    <!-- Still unreleased -->
     <map name="soren.tmx">
-        <atlas name="FIXME-TODO-lazy"/>
+        <atlas name="soren"/>
+    </map>
+    <map name="soren-2.tmx">
+        <atlas name="soren"/>
     </map>
     <map name="boss.tmx">
-        <atlas name="FIXME-TODO-lazy"/>
-    </map>
-    <map name="009-1.tmx">
-        <atlas name="FIXME-TODO-lazy"/>
-    </map>
-    <map name="009-2.tmx">
-        <atlas name="FIXME-TODO-lazy"/>
-    </map>
-    <map name="009-5.tmx">
-        <atlas name="FIXME-TODO-lazy"/>
+        <atlas name="gm-castle"/>
     </map>
 
     <!-- namespace Legacy -->
@@ -390,12 +393,9 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/inn_x3.png"/>
         <file name="graphics/tilesets/ship-glags-x3x2.png"/>
         <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland-indoor.png"/>
         <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland-indoor-x1x3.png"/>
         <file name="graphics/tilesets/woodland_indoor_x2.png"/>
         <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/woodland-indoor.png"/>
         <file name="graphics/tilesets/wood_lab.png"/>
     </atlas>
 
@@ -425,6 +425,37 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/tree-x3x4.png"/>
         <file name="graphics/tilesets/waterflow.png"/>
         <file name="graphics/tilesets/water3.png"/>
+    </atlas>
+
+    <atlas name="gm-castle">
+        <file name="graphics/tilesets/arena.png"/>
+        <file name="graphics/tilesets/blockWalls.png"/>
+        <file name="graphics/tilesets/blockWalls_x2.png"/>
+        <file name="graphics/tilesets/treebr_door_x3.png"/>
+        <file name="graphics/tilesets/Throne_x2.png"/>
+        <file name="graphics/tilesets/soccer_field.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+    </atlas>
+
+    <atlas name="halinarzo">
+        <file name="graphics/tilesets/concreteWalls.png"/>
+        <file name="graphics/tilesets/castle1.png"/>
+        <file name="graphics/tilesets/desert1.png"/>
+        <file name="graphics/tilesets/desert2.png"/>
+        <file name="graphics/tilesets/desert3.png"/>
+        <file name="graphics/tilesets/desert_x5.png"/>
+        <file name="graphics/tilesets/desert_castle.png"/>
+        <file name="graphics/tilesets/flags-anime_x2.png"/>
+        <file name="graphics/tilesets/halinarzo.png"/>
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+        <file name="graphics/tilesets/waterflow.png"/>
+        <file name="graphics/tilesets/water3.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_ground2.png"/>
+        <file name="graphics/tilesets/woodland_village.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/woodland_x5.png"/>
     </atlas>
 
     <atlas name="magic-forest">
@@ -505,133 +536,27 @@ Copyright (C) 2018 TMW2 -->
     </atlas>
     <!-- / TMW2 -->
 
-    <!-- FIXME TODO This atlas is for maps still in development stage and must be replaced -->
-    <atlas name="FIXME-TODO-lazy">
-        <file name="accessory.png"/>
-        <file name="arena.png"/>
-        <file name="arrows.png"/>
-        <file name="barbarians_outdoor.png"/>
-        <file name="barbarians_yurt_x4.png"/>
-        <file name="blockWalls.png"/>
-        <file name="blockWalls_x2.png"/>
-        <file name="box.png"/>
-        <file name="box-x1x2.png"/>
-        <file name="candle-x1x2.png"/>
-        <file name="carpet.png"/>
-        <file name="casas-cogumelo.png"/>
-        <file name="castle1.png"/>
-        <file name="castle2.png"/>
-        <file name="cave2_base.png"/>
-        <file name="cave2_bilevel.png"/>
-        <file name="cave2_bilevel_water_lava.png"/>
-        <file name="cave2.png"/>
-        <file name="cave2_sewer_mine.png"/>
-        <file name="cave2_sewer_mine_x2.png"/>
-        <file name="cave2_sewer_mine_x3.png"/>
-        <file name="cave2_sewer_mine_x4.png"/>
-        <file name="cave2_sewers.png"/>
-        <file name="cave2_transistions.png"/>
-        <file name="cave2_x2.png"/>
-        <file name="cave_ani_wetwall.png"/>
-        <file name="cave_bilevel.png"/>
-        <file name="cave_lava.png"/>
-        <file name="cave.png"/>
-        <file name="cave_x2.png"/>
-        <file name="clock.png"/>
-        <file name="collision.png"/>
-        <file name="concreteWalls.png"/>
-        <file name="desert1.png"/>
-        <file name="desert2.png"/>
-        <file name="desert3.png"/>
-        <file name="desert_castle2.png"/>
-        <file name="desert_castle_interior.png"/>
-        <file name="desert_castle_interior_x2.png"/>
-        <file name="desert_castle_interior_x4.png"/>
-        <file name="desert_castle_interior_x5.png"/>
-        <file name="desert_castle.png"/>
-        <file name="desert_castle_x2.png"/>
-        <file name="desert_castle_x3.png"/>
-        <file name="desert_city_indoors.png"/>
-        <file name="desert_city_indoors_x3.png"/>
-        <file name="desert_city.png"/>
-        <file name="desert_city_x2.png"/>
-        <file name="desert_city_x4.png"/>
-        <file name="desert_x2.png"/>
-        <file name="desert_x3.png"/>
-        <file name="desert_x5.png"/>
-        <file name="docks.png"/>
-        <file name="docks_x2.png"/>
-        <file name="docks_x3.png"/>
-        <file name="docks_x4.png"/>
-        <file name="flags-anime_x2.png"/>
-        <file name="forest_cover.png"/>
-        <file name="forest.png"/>
-        <file name="forge_x4.png"/>
-        <file name="grade_x3.png"/>
-        <file name="ground.png"/>
-        <file name="halinarzo.png"/>
-        <file name="icecave.png"/>
-        <file name="inn2.png"/>
-        <file name="inn.png"/>
-        <file name="inn_x2.png"/>
-        <file name="inn_x3.png"/>
-        <file name="inn_x4.png"/>
-        <file name="level-number.png"/>
-        <file name="magecity.png"/>
-        <file name="mountain.png"/>
-        <file name="mushrooms.png"/>
-        <file name="pots_x2.png"/>
-        <file name="power_circle_x2.png"/>
-        <file name="shadow.png"/>
-        <file name="ship-base.png"/>
-        <file name="ship-flags-x3x2.png"/>
-        <file name="ship-indoor-fringe.png"/>
-        <file name="ship-indoor.png"/>
-        <file name="ship-indoor-x2x4.png"/>
-        <file name="ship-mast.png"/>
-        <file name="signs_x2.png"/>
-        <file name="soccer_field.png"/>
-        <file name="soulmenhirs_x2.png"/>
-        <file name="spinning_wheel.png"/>
-        <file name="stoneground.png"/>
-        <file name="stone_lab.png"/>
-        <file name="sunlight-x1x5.png"/>
-        <file name="Throne_x2.png"/>
-        <file name="trans_woodland_desert.png"/>
-        <file name="treebr_door_x3.png"/>
-        <file name="tree-x3x3.png"/>
-        <file name="tree-x3x4.png"/>
-        <file name="tree-x4x5.png"/>
-        <file name="water2.png"/>
-        <file name="water3.png"/>
-        <file name="waterflow.png"/>
-        <file name="water_overflow.png"/>
-        <file name="water.png"/>
-        <file name="witch_sisters_picture_x3.png"/>
-        <file name="woodenpump.png"/>
-        <file name="wood_lab.png"/>
-        <file name="wood_lab_small.png"/>
-        <file name="woodland_graveyard_crypt.png"/>
-        <file name="woodland_graveyard_ground.png"/>
-        <file name="woodland_graveyard_x3.png"/>
-        <file name="woodland_graveyard_x4.png"/>
-        <file name="woodland_ground2.png"/>
-        <file name="woodland_ground.png"/>
-        <file name="woodland_indoor.png"/>
-        <file name="woodland_indoor_x2.png"/>
-        <file name="woodland_indoor_x3.png"/>
-        <file name="woodland_swamp.png"/>
-        <file name="woodland_village.png"/>
-        <file name="woodland_village_x2.png"/>
-        <file name="woodland_village_x3.png"/>
-        <file name="woodland_water.png"/>
-        <file name="woodland_x2.png"/>
-        <file name="woodland_x3.png"/>
-        <file name="woodland_x4.png"/>
-        <file name="woodland_x5_copy.png"/>
-        <file name="woodland_x5_fall.png"/>
-        <file name="woodland_x5.png"/>
-        <file name="woodland_x8.png"/>
+    <!-- A temporary atlas file -->
+    <atlas name="soren">
+        <file name="graphics/tilesets/snow.png"/>
+        <file name="graphics/tilesets/woodland_graveyard_ground.png"/>
+        <file name="graphics/tilesets/woodland_graveyard_x2.png"/>
+        <file name="graphics/tilesets/woodland_graveyard_x3.png"/>
+        <file name="graphics/tilesets/woodland_indoor.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_ground2.png"/>
+        <file name="graphics/tilesets/woodland_swamp.png"/>
+        <file name="graphics/tilesets/woodland_village.png"/>
+        <file name="graphics/tilesets/woodland_village_x2.png"/>
+        <file name="graphics/tilesets/woodland_village_x3.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/woodland_x4.png"/>
+        <file name="graphics/tilesets/woodland_x8.png"/>
+        <file name="graphics/tilesets/woodland_water.png"/>
+
     </atlas>
 
 </maps>
