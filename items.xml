@@ -2555,7 +2555,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/feet/cottonboots-female.xml</sprite>
     </item>
     <item id="1808"
-        image="equipment/feet/assassinboots.png|#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
         name="Red Stockings"
         description="This is another NPC-Only item by Rakinorf"
         defense="10"
@@ -2579,7 +2579,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/feet/bromenalboots-female.xml</sprite>
     </item>
     <item id="1816"
-        image="equipment/feet/boots.png|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
+        image="equipment/feet/boots.png|W:#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
         name="Creased Boots"
         description="Beark !"
         defense="4"
@@ -2641,7 +2641,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
     </item>
         <item id="2004"
-        image="equipment/hands/cottongloves.png|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
+        image="equipment/hands/cottongloves.png|W:#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
         name="Creased Gloves"
         description="Creased Gloves? That is lame!"
         defense="5"
@@ -2653,7 +2653,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
     </item>
         <item id="2005"
-        image="equipment/hands/cottongloves.png|#a4b2b2,ffffff"
+        image="equipment/hands/cottongloves.png|W:#a4b2b2,ffffff"
         name="Cotton Gloves"
         description="A pair of comfy cotton gloves."
         defense="1"
@@ -2688,7 +2688,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
     </item>    
-    <!-- dye todo
+    <!-- FIXME dye todo
         <item id="2008"
         image="equipment/hands/leathergloves.png"
         name="Leather Gloves"
@@ -2937,6 +2937,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/jeansshorts-male.xml</sprite>
     </item>
+ <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)
     <item id="2213"
         image="equipment/legs/leathertrousers.png"
         name="Leather Trousers"
@@ -2949,7 +2950,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/cottontrousers-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
         <sprite gender="female">equipment/legs/cotontrousers-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
     </item>
- <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)
     <item id="2214"
         image="equipment/legs/banditpants.png"
         name="Bandit Pants"
@@ -3663,7 +3663,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         level="20"
         type="equip-head"
         weight="30">
-        <sprite>heads/headmodel-male.xml</sprite>
+        <sprite>equipment/head/bowlerhat.xml</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
             <item from="-14" to="-9"/>
