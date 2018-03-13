@@ -2420,8 +2420,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-torso"
         weight="500"
         maxFloorOffset="10">
-        <sprite gender="unisex">equipment/chest/gmrobe-male.xml</sprite>
-        <sprite gender="female">equipment/chest/gmrobe-female.xml</sprite>
+        <sprite gender="unisex">equipment/chest/redknightarmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/redknightarmor-female.xml</sprite>
     </item>
     <item id="1327"
         image="equipment/chest/chainmail.png|W:#573f10,9c8226,d3c04b,ffffff"
@@ -2455,6 +2455,17 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="1">
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+    </item>
+        <item id="1334"
+        image="equipment/chest/candorshirt.png"
+        name="Crusade Armor"
+        description="Are you a crusader ?"
+        defense="100"
+        level="30"
+        type="equip-torso"
+        weight="1200">
+        <sprite gender="unisex">equipment/chest/crusadearmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/crusadearmor-female.xml</sprite>
     </item>
 
     <!-- Boots -->
