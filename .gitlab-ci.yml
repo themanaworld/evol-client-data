@@ -1,6 +1,5 @@
 stages:
 - test
-- integrity
 - fail
 - ok
 
@@ -45,18 +44,18 @@ newlines:
     expire_in: 3 week
 
 contributors:
-  stage: integrity
+  stage: test
   script:
   - ./.tools/contributors.sh
   - pwd
 
 .licensecheck:
-  stage: integrity
+  stage: test
   script:
   - ./.tools/licensecheck.sh
 
 .pages:
-  stage: integrity
+  stage: test
   script:
   - ./.tools/deploy.sh
   - pwd
