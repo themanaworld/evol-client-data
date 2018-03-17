@@ -520,6 +520,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
 	<monster id="1115" name="Big Sapphire Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#4b4bbd,888af4</sprite>
+    </monster>
     <!-- FIXME broken XML
 	<monster id="1116" name="Demonic Mouboo" targetCursor="medium">
         <sprite>monsters/demonicmouboo.xml</sprite>
@@ -527,7 +528,6 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <particlefx>graphics/particles/demonicmouboo.particle.xml</particlefx>
     </monster>
     -->
-    </monster>
 	<monster id="1117" name="Small Magic Bif" targetCursor="small">
         <sprite>monsters/smallbif.xml|#ffa10c,ff0e93</sprite>
         <particlefx>graphics/particles/smallmagicbif.particle.xml</particlefx>
@@ -540,7 +540,9 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sprite>monsters/bigbif.xml|#ff059d,ff0e93</sprite>
         <particlefx>graphics/particles/bigmagicbif.particle.xml</particlefx>
     </monster>
+    <!-- FIXME missing XML
 	<monster id="1120" name="Jack'O" targetCursor="medium">
         <sprite>monsters/jack.xml</sprite>
     </monster>
+    -->
 </monsters>
