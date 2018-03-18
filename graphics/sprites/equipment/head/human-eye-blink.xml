@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2013  Evol Online -->
+<sprite>
+    <imageset name="eye"
+              src="graphics/sprites/accessories/eye-down-blink.png"
+              width="16"
+              height="8"
+              offsetY="-41"
+              offsetX="-1"/>
+
+    <action name="stand" imageset="eye">
+        <animation direction="default">
+            <frame index="0" delay="1872"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+        </animation>
+    </action>
+    <action name="sit" imageset="eye">
+        <animation direction="default">
+            <frame index="0" delay="1872" offsetY="11"/>
+            <frame index="1" delay="60" offsetY="11"/>
+            <frame index="2" delay="80" offsetY="11"/>
+        </animation>
+    </action>
+</sprite>

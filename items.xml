@@ -3830,7 +3830,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>
-        <item id="2945"
+    <item id="2945"
         image="equipment/head/corsairhat.png"
         name="Corsair Hat"
         description="Watch out, there is a sniper nearby!"
@@ -3845,7 +3845,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>    
-        <item id="2946"
+    <item id="2946"
         image="equipment/neck/eyepatch.png"
         name="Eye Patch"
         description="A cool eye patch!"
@@ -3854,8 +3854,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-head"
         weight="1">
         <sprite>equipment/head/righteyepatch.xml</sprite>
-    </item>   
-        <item id="2983"
+    </item>
+    <item id="2983"
         image="equipment/head/serfhat.png"
         name="Serf Hat"
         description="A very comfortable hat."
@@ -3869,6 +3869,16 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-14" to="-9"/>
             <item from="-15" to="-19"/>
         </replace>
+    </item>  
+    <item id="2984"
+        image="error.png"
+        name="NPC Eyes"
+        description="A set of blinking eyes which NPCs use. Perfect for sleeping in class without anyone noticing."
+        defense="-100"
+        level="150"
+        type="equip-head"
+        weight="200">
+        <sprite>equipment/head/human-eye-blink.xml</sprite>
     </item>  
 
 
