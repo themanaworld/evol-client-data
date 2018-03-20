@@ -10,9 +10,13 @@ Copyright (C) 2017 Evol Online -->
         highlightName="true"
     >
         <commands>
+            <command name="commands" use="self" />
+            <command name="help" use="self" />
+            <command name="request" use="self" />
             <command name="duel" use="self" />
             <command name="accept" use="self" />
             <command name="leave" use="self" />
+            <command name="rates" use="self" />
             <command name="whogm" use="self" />
             <command name="reject" use="self" />
             <command name="email" use="self" />
@@ -30,37 +34,8 @@ Copyright (C) 2017 Evol Online -->
         highlightName="true"
     >
         <commands>
-            <command name="autotrade" use="self" />
-            <command name="showexp" use="self" />
-            <command name="help" use="self" />
-            <command name="jailtime" use="self" />
-            <command name="breakguild" use="self" />
-            <command name="go" use="self" />
-            <command name="autoloottype" use="self" />
-            <command name="iteminfo" use="self" />
-            <command name="uptime" use="self" />
-            <command name="whodrops" use="self" />
-            <command name="whereis" use="self" />
-            <command name="autoloot" use="self" />
-            <command name="rates" use="self" />
-            <command name="noks" use="self" />
-            <command name="channel" use="self" />
-            <command name="mobinfo" use="self" />
-            <command name="showdelay" use="self" />
-            <command name="charcommands" use="self" />
-            <command name="commands" use="self" />
-            <command name="noask" use="self" />
-            <command name="request" use="self" />
-            <command name="refresh" use="self" />
-            <command name="alootid" use="self" />
-            <command name="homstats" use="self" />
-            <command name="exp" use="self" />
-            <command name="time" use="self" />
-            <command name="hominfo" use="self" />
-            <command name="showzeny" use="self" />
         </commands>
         <permissions>
-            <permission name="show_client_version" />
         </permissions>
     </group>
     <group
@@ -68,29 +43,56 @@ Copyright (C) 2017 Evol Online -->
         name="Support"
         longName="Support"
         inherit="1"
+        highlightName="true"
     >
         <commands>
-            <command name="monsterignore" use="self" />
-            <command name="whomap2" use="self" />
-            <command name="users" use="self" />
+            <command name="autotrade" use="self" />
+            <command name="showexp" use="self" />
+            <command name="version" use="self" />
+            <command name="jailtime" use="self" />
+            <command name="breakguild" use="self" />
+            <command name="who2" use="self" />
+            <command name="go" use="self" />
+            <command name="who3" use="self" />
+            <command name="autoloottype" use="self" />
+            <command name="iteminfo" use="self" />
+            <command name="uptime" use="self" />
             <command name="idsearch" use="self" />
-            <command name="whomap3" use="self" />
+            <command name="monsterignore" use="self" />
+            <command name="whodrops" use="self" />
+            <command name="jumpto" use="self" />
+            <command name="whereis" use="self" />
+            <command name="autoloot" use="self" />
+            <command name="rates" use="self" />
+            <command name="mobsearch" use="self" />
+            <command name="showmobs" use="self" />
+            <command name="noks" use="self" />
+            <command name="channel" use="self" />
+            <command name="skillid" use="self" />
+            <command name="gat" use="self" />
+            <command name="users" use="self" />
             <command name="who" use="self" />
             <command name="whomap" use="self" />
-            <command name="who2" use="self" />
-            <command name="who3" use="self" />
-            <command name="jumpto" use="self" />
-            <command name="version" use="self" />
-            <command name="skilltree" use="self" />
-            <command name="mobsearch" use="self" />
-            <command name="gat" use="self" />
-            <command name="skillid" use="self" />
-            <command name="where" use="both" />
-            <command name="showmobs" use="self" />
+            <command name="mobinfo" use="self" />
+            <command name="showdelay" use="self" />
             <command name="mapinfo" use="self" />
+            <command name="skilltree" use="self" />
+            <command name="charcommands" use="self" />
+            <command name="noask" use="self" />
+            <command name="whomap3" use="self" />
+            <command name="whomap2" use="self" />
+            <command name="refresh" use="self" />
+            <command name="alootid" use="self" />
+            <command name="homstats" use="self" />
+            <command name="exp" use="self" />
+            <command name="time" use="self" />
+            <command name="hominfo" use="self" />
+            <command name="where" use="both" />
+            <command name="showzeny" use="self" />
         </commands>
         <permissions>
             <permission name="receive_requests" />
+            <permission name="show_client_version" />
             <permission name="view_equipment" />
         </permissions>
     </group>
@@ -99,6 +101,7 @@ Copyright (C) 2017 Evol Online -->
         name="Script Manager"
         longName="Script Manager"
         inherit="2"
+        highlightName="true"
     >
         <commands>
             <command name="loadnpc" use="self" />
@@ -108,7 +111,7 @@ Copyright (C) 2017 Evol Online -->
             <command name="npcmove" use="self" />
             <command name="unloadnpc" use="self" />
             <command name="tonpc" use="self" />
-            <command name="save" use="self" />
+            <command name="save" use="both" />
         </commands>
         <permissions>
         </permissions>
@@ -118,6 +121,7 @@ Copyright (C) 2017 Evol Online -->
         name="Event Coordinator"
         longName="Event Coordinator"
         inherit="2"
+        highlightName="true"
     >
         <commands>
             <command name="refreshall" use="self" />
@@ -128,7 +132,7 @@ Copyright (C) 2017 Evol Online -->
             <command name="killmonster2" use="self" />
             <command name="alive" use="both" />
             <command name="cleanmap" use="self" />
-            <command name="zeny" use="both" />
+            <command name="pvpon" use="self" />
             <command name="disguise" use="both" />
             <command name="kill" use="self" />
             <command name="refine" use="both" />
@@ -137,10 +141,8 @@ Copyright (C) 2017 Evol Online -->
             <command name="localbroadcast" use="self" />
             <command name="monsterbig" use="self" />
             <command name="nuke" use="both" />
-            <command name="evilclone" use="both" />
             <command name="raise" use="self" />
-            <command name="itembound" use="both" />
-            <command name="item2" use="both" />
+            <command name="undisguise" use="both" />
             <command name="cleanarea" use="self" />
             <command name="jump" use="both" />
             <command name="storage" use="self" />
@@ -153,7 +155,7 @@ Copyright (C) 2017 Evol Online -->
             <command name="killer" use="self" />
             <command name="monster" use="self" />
             <command name="heal" use="both" />
-            <command name="pvpoff" use="self" />
+            <command name="night" use="self" />
             <command name="allowks" use="self" />
             <command name="broadcast" use="self" />
             <command name="produce" use="both" />
@@ -162,18 +164,15 @@ Copyright (C) 2017 Evol Online -->
             <command name="day" use="self" />
             <command name="monsterignore" use="both" />
             <command name="sound" use="self" />
-            <command name="pvpon" use="self" />
+            <command name="evilclone" use="both" />
             <command name="doommap" use="self" />
-            <command name="undisguise" use="both" />
             <command name="unmute" use="self" />
             <command name="raisemap" use="self" />
             <command name="refresh" use="both" />
             <command name="storeall" use="self" />
-            <command name="item" use="both" />
             <command name="itemreset" use="self" />
             <command name="cleargstorage" use="self" />
-            <command name="itembound2" use="both" />
-            <command name="night" use="self" />
+            <command name="pvpoff" use="self" />
             <command name="fakename" use="self" />
             <command name="monstersmall" use="self" />
             <command name="skilloff" use="self" />
@@ -209,6 +208,7 @@ Copyright (C) 2017 Evol Online -->
         name="Patrol"
         longName="Patrol"
         inherit="2"
+        highlightName="true"
     >
         <commands>
             <command name="load" use="self" />
@@ -231,6 +231,7 @@ Copyright (C) 2017 Evol Online -->
         name="Officer"
         longName="Officer"
         inherit="6,2"
+        highlightName="true"
     >
         <commands>
             <command name="stats" use="both" />
@@ -255,9 +256,10 @@ Copyright (C) 2017 Evol Online -->
     </group>
     <group
         id="8"
-        name="Hercules Game Master"
-        longName="Hercules Game Master"
+        name="Herc Game Master"
+        longName="Herc Game Master"
         inherit="4,7"
+        highlightName="true"
     >
         <commands>
             <command name="raisemap" use="both" />
@@ -274,14 +276,21 @@ Copyright (C) 2017 Evol Online -->
         id="80"
         name="Game Master"
         longName="Game Master"
-        inherit="5,8"
+        inherit="5,8,0"
         highlightName="true"
     >
         <commands>
+            <command name="raisemap" use="both" />
+            <command name="raise" use="both" />
+            <command name="unjail" use="self" />
         </commands>
         <permissions>
-            <permission name="use_check" />
+            <permission name="all_equipment" />
+            <permission name="skill_unconditional" />
             <permission name="can_party" />
+            <permission name="use_check" />
+            <permission name="all_skill" />
+            <permission name="can_trade_bound" />
             <permission name="use_changemaptype" />
         </permissions>
     </group>
@@ -293,6 +302,7 @@ Copyright (C) 2017 Evol Online -->
         highlightName="true"
     >
         <commands>
+            <command name="accinfo" use="false" />
         </commands>
         <permissions>
             <permission name="all_equipment" />
