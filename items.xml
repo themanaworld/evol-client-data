@@ -3715,14 +3715,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         </replace>
     </item>
     <item id="2936"
-        image="equipment/head/bowlerhat.png"
-        name="Bowler Hat"
+        image="equipment/head/bowlerhat.png|W"
+        name="%Color% Bowler Hat"
         description="A hat for those with a bit of class."
         defense="40"
         level="20"
         type="equip-head"
         weight="30">
-        <sprite>equipment/head/bowlerhat.xml</sprite>
+        <sprite>equipment/head/bowlerhat.xml|W</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
             <item from="-14" to="-9"/>
