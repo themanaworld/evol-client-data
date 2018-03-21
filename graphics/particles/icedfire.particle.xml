@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect>
+// Blue effect sart from floor and to to sky. taht can be use at teleportation or charge magic iced power
+// TMW2 Effect
+// Autor: Saulc
+  <particle position-x="0" position-y="0" position-z="0" lifetime="15">
+    <emitter>
+      <animation imageset="graphics/particles/blueform.png" width="17" height="17">
+        <sequence start="0" end="9" delay="30"/>
+        <frame index="0" delay="300"/>
+        <end/>
+      </animation>
+      <property name="vertical-angle" value="90"/>
+      <property name="power" value="4"/>
+      <property name="lifetime" value="30"/>
+      <property name="output" min="2" max="5"/>
+      <property name="position-x" min="-15" max="15"/>
+      <property name="position-y" min="-15" max="15"/>
+      <property name="position-z" min="0" max="3"/>
+    </emitter>
+  </particle>
+</effect>
