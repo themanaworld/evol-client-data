@@ -53,6 +53,7 @@ icc:
 
 pipeline: check-xml
 	cd ../tools/testxml/ ; ./testxml.py silent |grep -v "Checking"
-	echo "Now using imagemagic to verify images..."
-	cd ../tools/imagescheck/ ; ./icccheck.sh
-	echo "Now run `make check-png` to check PNG images. Use `make contrib` if contributor list must be updated."
+	#echo "Now using imagemagic to verify images..."
+	#cd ../tools/imagescheck/ ; ./icccheck.sh
+	@echo "Now run `make check-png` to check PNG images. Use `make contrib` if contributor list must be updated."
+	@echo "Use `make icc` to verify for broken images, too."
