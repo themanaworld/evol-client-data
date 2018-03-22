@@ -2002,23 +2002,28 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/charms/fourleafclover.png"
         name="Four Leaf Clover"
         description="A lucky and extremely rare drop."
-        level="54"
+        level="30"
+        luk="1"
+        effect="Receive 10% less Critical hits"
         type="equip-necklace"
-        weight="1">
+        weight="15">
     </item>
     <item id="1151"
         image="equipment/charms/demonashurn.png"
         name="Ash Urn"
         description="An ash urn. Contains something burnt, but you can't quite find out what."
-        level="54"
+        def="15"
+        level="40"
         type="equip-necklace"
         weight="450">
     </item>
     <item id="1152"
         image="equipment/charms/astralcube.png"
         name="Astral Cube"
-        description="The key component to shift worlds."
-        level="54"
+        description="The key component to shift worlds will grant you etheral defense."
+        level="85"
+        def="25"
+        int="1"
         type="equip-necklace"
         weight="800">
     </item>
@@ -2033,10 +2038,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="1154"
         image="equipment/charms/doll.png"
         name="Doll"
-        description="A doll"
-        level="10"
+        description="A doll. Monsters will understimate you, allowing to crit more often."
+        effect="Critical +15%"
+        level="30"
         type="equip-necklace"
-        weight="30">
+        weight="60">
     </item>
     <item id="1155"
         image="equipment/charms/firescroll.png"
