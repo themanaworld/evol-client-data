@@ -1840,6 +1840,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         description="A tench found in pond."
         type="generic"
         weight="120"/>
+     <item id="841"
+        image="generic/gemstone.png|W:#a0a010,ffffa0"
+        name="Lifestone"
+        description="A small stone with some life power on it. Not very useful."
+        type="generic"
+        weight="80"/>
     <!-- Necklaces -->
     <item id="1000"
         image="equipment/amulet/bromenalfourleafamulet.png"
@@ -1897,8 +1903,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/lifestonependant.png"
         name="Lifestone Pendant"
         description="A mystical pendant."
-        effect=" SP +5%"
+        effect="SP Regen +1%, HP Regen +5%"
         level="10"
+        defense="-2"
         type="equip-necklace"
         weight="60">
     </item>
