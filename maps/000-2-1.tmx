@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="93" height="59" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="93" height="59" tilewidth="32" tileheight="32" infinite="0" nextobjectid="11">
  <properties>
   <property name="actorsfix" value="1"/>
   <property name="license" value="CC BY-SA 3.0"/>
@@ -453,5 +453,6 @@
    </properties>
   </object>
   <object id="9" name="graphics/particles/warp.xml" type="particle_effect" x="2304" y="1088" width="32" height="32"/>
+  <object id="10" name="^SECOND|^DECK2$" type="anchor" x="2144" y="1024" width="32" height="32"/>
  </objectgroup>
 </map>
