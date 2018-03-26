@@ -335,7 +335,7 @@ IDs 900-999 = Special
         <!-- Fakir, Dog statue NPC -->
         <sprite>npcs/xml/desertdogstatue.xml</sprite>
     </npc>
-    <npc id="163">
+    <npc id="163" currency="eggs">
         <!-- Easter NPC -->
         <sprite>npcs/xml/easter.xml</sprite>
     </npc>
@@ -832,6 +832,20 @@ IDs 900-999 = Special
     </npc>
     <npc id="812" walkType="all" allowEquipment="true">
         <!-- shopkeeper npc with player look (female). -->
+        <sprite>races/human-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
+    <npc id="813" walkType="all" allowEquipment="true" currency="coins">
+        <!-- coin shopkeeper npc with player look. -->
+        <sprite>races/human-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
+    <npc id="814" walkType="all" allowEquipment="true" currency="coins">
+        <!-- coin shopkeeper npc with player look (female). -->
         <sprite>races/human-female.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
         <menu name="Buy" command="buy 'NAME'"/>
