@@ -316,13 +316,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         type="equip-torso">
         <replace />
         <replace sprite="race">
-            <item from="-100" to="-150"/>
-            <item from="-101" to="-150"/>
-            <item from="-102" to="-150"/>
-            <item from="-103" to="-150"/>
-            <item from="-104" to="-150"/>
-            <item from="-105" to="-150"/>
-            <item from="-106" to="-150"/>
+        <item from="-100" to="-150"/>
+        <item from="-101" to="-150"/>
+        <item from="-102" to="-150"/>
+        <item from="-103" to="-150"/>
+        <item from="-104" to="-150"/>
+        <item from="-105" to="-150"/>
+        <item from="-106" to="-150"/>
         </replace>
     </item>
     <item id="518"
@@ -1987,7 +1987,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/bromenalfourleafamulet.png"
         name="Bromenal Four-Leaf Amulet"
         description="An amulet that brings the wearer good luck where ever they go."
-        effect="Defence +5%"
+        effect="VIT Defence +3%"
         level="25"
         type="equip-necklace"
         weight="10">
@@ -1996,7 +1996,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/ironfourleafamulet.png"
         name="Iron Four-Leaf Amulet"
         description="An amulet that brings the wearer great luck where ever they go."
-        effect=" Defence +5%"
+        effect="VIT Defence +5%"
         level="35"
         type="equip-necklace"
         weight="25">
@@ -2005,7 +2005,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/goldenfourleafamulet.png"
         name="Golden Four-Leaf Amulet"
         description="An amulet that brings the wearer excellent luck where ever they go."
-        effect=" Defence +5%"
+        effect="VIT Defence +7%"
         level="45"
         type="equip-necklace"
         weight="35">
@@ -2014,7 +2014,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/crozenitefourleafamulet.png"
         name="Crozenite Four-Leaf Amulet"
         description="An amulet that brings the wearer luck where ever they go."
-        effect=" Defence +15%"
+        effect="VIT Defence +10%"
         level="65"
         type="equip-necklace"
         weight="55">
@@ -2023,6 +2023,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/amulet/heartnecklace.png"
         name="Heart Necklace"
         description="A gold and ruby heart necklace."
+        effect="NYI"
         level="90"
         type="equip-necklace"
         weight="100">
@@ -2572,7 +2573,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/vnecksweater-male.xml</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml</sprite>
     </item>
-        <item id="1321"
+    <item id="1321"
         image="equipment/chest/candorshirt.png"
         name="Candor Shirt"
         description="A classical Candor shirt"
@@ -2641,7 +2642,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
-        <item id="1334"
+    <item id="1334"
         image="equipment/chest/candorshirt.png"
         name="Crusade Armor"
         description="Are you a crusader ?"
@@ -2848,7 +2849,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
         <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
     </item>
-        <item id="2004"
+    <item id="2004"
         image="equipment/hands/cottongloves.png|W:#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
         name="Creased Gloves"
         description="These gloves were used before..."
@@ -2860,7 +2861,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
     </item>
-        <item id="2005"
+    <item id="2005"
         image="equipment/hands/cottongloves.png|W:#a4b2b2,ffffff"
         name="Cotton Gloves"
         description="A pair of comfy cotton gloves."
@@ -2872,7 +2873,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#a4b2b2,ffffff</sprite>
     </item>
-        <item id="2006"
+    <item id="2006"
         image="equipment/hands/minergloves.png"
         name="Miner Gloves"
         description="Gloves used by miners, very useful."
@@ -2884,7 +2885,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#202020,505050</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#202020,505050</sprite>
     </item>    
-        <item id="2007"
+    <item id="2007"
         image="equipment/hands/cottongloves.png|W:#87876c,bbc39c,edf4e1,ffffff"
         name="Silk Gloves"
         description="Soft and graceful silk gloves which doesn't restrain magic."
@@ -2897,7 +2898,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
     </item>    
     <!-- FIXME dye todo
-        <item id="2008"
+    <item id="2008"
         image="equipment/hands/leathergloves.png"
         name="Leather Gloves"
         description="Gloves made of hardened leather."
@@ -2909,7 +2910,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4e2e18,c8752f</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
     </item>    
-        <item id="2009"
+    <item id="2009"
         image="equipment/hands/forestgloves.png"
         name="Forest Gloves"
         description="Protect your hands from the dirty objects found in nature."
@@ -2922,7 +2923,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
     </item>    
     --> 
-        <item id="2010"
+    <item id="2010"
         image="equipment/hands/bromenalgloves.png"
         name="Bromenal Gloves"
         description="A pair of bromenal gloves"
@@ -2935,7 +2936,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite>
     </item>    
     <!-- FIXME ITEMS WITH MISSING IMAGES (or missing XML)
-        <item id="2011"
+    <item id="2011"
         image="equipment/hands/armband.png"
         name="Golden Armband"
         description="This armband has some gold in it, so it totally must be better than the others."
@@ -2947,7 +2948,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
     </item>    
-        <item id="2012"
+    <item id="2012"
         image="equipment/hands/warlordgloves.png"
         name="Warlord Gloves"
         description="Steel gloves that will make you feel like a knight."
@@ -2959,7 +2960,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
     </item>    
-        <item id="2013"
+    <item id="2013"
         image="equipment/hands/managloves.png"
         name="Mana Gloves"
         description="These gloves are used by powerful mages."
@@ -2971,7 +2972,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
     </item>    
-        <item id="2014"
+    <item id="2014"
         image="equipment/hands/terranitegloves.png"
         name="Terranite Gloves"
         description="A nice pair of gloves made from terranite ore."
@@ -2984,7 +2985,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
     </item>    
 -->    
-        <item id="2015"
+    <item id="2015"
         image="equipment/hands/assassingloves.png"
         name="Assassin Gloves"
         description="Gloves for a master assassin."
@@ -3435,18 +3436,18 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/head/bandana.xml</sprite>
         <sprite gender="female">equipment/head/bandana.xml</sprite>
         <replace sprite="hair">
-            <item from="-3" to="-7"/>
-            <item from="-4" to="-7"/>
-            <item from="-5" to="-27"/>
-            <item from="-6" to="-7"/>
-            <item from="-13" to="-1"/>
-            <item from="-14" to="-7"/>
-            <item from="-15" to="-7"/>
-            <item from="-16" to="-10"/>
-            <item from="-21" to="-7"/>
-            <item from="-23" to="-1"/>
-            <item from="-25" to="-7"/>
-            <item from="-26" to="-21"/>
+        <item from="-3" to="-7"/>
+        <item from="-4" to="-7"/>
+        <item from="-5" to="-27"/>
+        <item from="-6" to="-7"/>
+        <item from="-13" to="-1"/>
+        <item from="-14" to="-7"/>
+        <item from="-15" to="-7"/>
+        <item from="-16" to="-10"/>
+        <item from="-21" to="-7"/>
+        <item from="-23" to="-1"/>
+        <item from="-25" to="-7"/>
+        <item from="-26" to="-21"/>
         </replace>
     </item>
     <item id="2901"
@@ -3470,9 +3471,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="85">
         <sprite>equipment/head/fancyhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-13" to="-27"/>
-            <item from="-23" to="-27"/>
+        <item from="-5" to="-4"/>
+        <item from="-13" to="-27"/>
+        <item from="-23" to="-27"/>
         </replace>
     </item>
     <item id="2903"
@@ -3485,9 +3486,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="20">
         <sprite>equipment/head/brimmedhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2904"
@@ -3500,9 +3501,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="23">
         <sprite>equipment/head/brimmedfeatherhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2905"
@@ -3515,9 +3516,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/brimmedflowerhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2906"
@@ -3554,9 +3555,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="10">
         <sprite>equipment/head/funkyhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2909"
@@ -3591,9 +3592,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="400">
         <sprite>equipment/head/infantryhelmet.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2912"
@@ -3828,9 +3829,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="1">
         <sprite>equipment/head/gmcap.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2934"
@@ -3843,9 +3844,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/cap.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2935"
@@ -3858,9 +3859,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="30">
         <sprite>equipment/head/tophat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2936"
@@ -3873,9 +3874,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="30">
         <sprite>equipment/head/bowlerhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2937"
@@ -3888,9 +3889,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="30">
         <sprite>equipment/head/chefhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2938"
@@ -3903,12 +3904,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/captaincap.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
-        <item id="2939"
+    <item id="2939"
         image="equipment/head/candorheadband.png"
         name="Candor Head Band"
         description="Classical Candor head band."
@@ -3918,9 +3919,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/candorheadband.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2940"
@@ -3933,9 +3934,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/graduationcap.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2941"
@@ -3948,9 +3949,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/vikinghelmet.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2942"
@@ -3963,9 +3964,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/centurionhelmet.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2943"
@@ -3978,9 +3979,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/alphamouboohead.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>        
     <item id="2944"
@@ -3994,9 +3995,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/head/sailorhat.xml</sprite>
         <sprite gender="female">equipment/head/sailorhat-female.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2945"
@@ -4009,9 +4010,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="22">
         <sprite>equipment/head/corsairhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>    
     <item id="2946"
@@ -4034,9 +4035,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="420">
         <sprite>equipment/head/serfhat.xml</sprite>
         <replace sprite="hair">
-            <item from="-5" to="-4"/>
-            <item from="-14" to="-9"/>
-            <item from="-15" to="-19"/>
+        <item from="-5" to="-4"/>
+        <item from="-14" to="-9"/>
+        <item from="-15" to="-19"/>
         </replace>
     </item>  
     <item id="2984"
@@ -4336,7 +4337,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/knife/hit1.ogg</sound>
         <sound event="miss">weapons/knife/miss1.ogg</sound>
     </item>
-        <item id="3511"
+    <item id="3511"
         image="equipment/weapons/divinesword.png"
         name="Divine Sword"
         description="As the name suggests, it is divine."
@@ -4350,7 +4351,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-        <item id="3512"
+    <item id="3512"
         image="equipment/weapons/butcherknife.png"
         name="Butcher Knife"
         description="Usually found in a butchery, yet it can also be found at murderer's hands."
@@ -4364,7 +4365,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-        <item id="3513"
+    <item id="3513"
         image="equipment/weapons/ancientsword.png"
         name="Ancient Sword"
         description="Its so old that no one knows when it was created."
@@ -4378,7 +4379,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-        <item id="3514"
+    <item id="3514"
         image="equipment/weapons/icegladius.png"
         name="Ice Gladius"
         description="A sword with a shimmering blue blade."
@@ -4392,7 +4393,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
-         <item id="3515"
+     <item id="3515"
         image="equipment/weapons/setzer.png"
         name="Setzer"
         description="A knife named after a famous gambler."
