@@ -1048,7 +1048,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" name="spawns" visible="0">
+ <objectgroup color="#ff0000" name="spawns">
   <object id="2" name="Mana Ghost" type="spawn" x="640" y="672" width="5120" height="5120">
    <properties>
     <property name="death" value="20000"/>
@@ -1068,7 +1068,7 @@
   <object id="4" name="Lava Slime" type="spawn" x="672" y="640" width="5120" height="5120">
    <properties>
     <property name="death" value="60000"/>
-    <property name="max_beings" value="100"/>
+    <property name="max_beings" value="75"/>
     <property name="monster_id" value="1097"/>
     <property name="spawn" value="60000"/>
    </properties>
@@ -1076,7 +1076,7 @@
   <object id="5" name="Red Slime" type="spawn" x="704" y="608" width="5120" height="5120">
    <properties>
     <property name="death" value="60000"/>
-    <property name="max_beings" value="150"/>
+    <property name="max_beings" value="120"/>
     <property name="monster_id" value="1092"/>
     <property name="spawn" value="60000"/>
    </properties>
