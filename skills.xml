@@ -18,6 +18,18 @@ Copyright (C) 2010-2013 Evol Online -->
             invokeCmd="@super"
         />
         <skill
+            id="142"
+            name="First Aid"
+            icon="graphics/skills/first_aid.png"
+            description="Minor healing for the wounded."
+            castingMissile-particle="graphics/particles/concentration.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+            dstEffectId="23"
+            castingAnimation="emote.xml"
+        />
+        <skill
             id="20000"
             name="Mass provoke"
             icon="graphics/skills/legacy/resistpoison.png"
@@ -35,7 +47,7 @@ Copyright (C) 2010-2013 Evol Online -->
         <skill
             id="5"
             name="Falkon Punch!"
-            icon="graphics/skills/bash.png"
+            icon="graphics/skills/warrior/bash.png"
             castingMissile-particle="graphics/particles/critical.xml"
             description="A violent punch."
         />
@@ -50,7 +62,7 @@ Copyright (C) 2010-2013 Evol Online -->
         <skill
             id="17"
             name="Fire ball"
-            icon="graphics/skills/big_explosion.png"
+            icon="graphics/skills/wizard/big_explosion.png"
             description="Attack enemy with fireball."
             castingMissile-particle="graphics/particles/concentration.xml"
             castingMissile-lifetime="10000"
