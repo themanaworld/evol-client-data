@@ -17,6 +17,13 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Gives access to administrative options."
             invokeCmd="@super"
         />
+        <skill
+            id="20000"
+            name="Mass provoke"
+            icon="graphics/skills/legacy/resistpoison.png"
+            description="Allow provoke many monsters."
+            castingAnimation="emote.xml"
+        />
     </set>
     <set name="Physical">
         <skill
@@ -24,13 +31,6 @@ Copyright (C) 2010-2013 Evol Online -->
             name="Magic Warrior"
             icon="graphics/skills/warrior.png"
             description="You are a member from the Magic Warrior Class."
-        />
-        <skill
-            id="20000"
-            name="Mass provoke"
-            icon="graphics/skills/legacy/resistpoison.png"
-            description="Allow provoke many monsters."
-            castingAnimation="emote.xml"
         />
         <skill
             id="5"
