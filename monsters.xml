@@ -559,5 +559,16 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1123" name="Mountain Snake" targetCursor="medium">
 	    <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
 	</monster>
+  <monster id="1124" name="Desert Bandit">
+    <sprite>races/raijin-male.xml</sprite>
+    <sprite>equipment/legs/silkpants-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/hands/armbands-male.xml</sprite>
+    <sprite>equipment/head/browndeserthat.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/silkrobe-male.xml|#d58e5f</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
 
 </monsters>
