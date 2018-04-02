@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="160" height="140" tilewidth="32" tileheight="32" infinite="0" nextobjectid="57">
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="160" height="140" tilewidth="32" tileheight="32" infinite="0" nextobjectid="58">
  <properties>
   <property name="license" value="GPL 3.0"/>
   <property name="manaplus version" value="1"/>
@@ -1197,8 +1197,15 @@
   <object id="55" name="to cave " type="warp" x="2688" y="2464" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-2-1"/>
-    <property name="dest_x" value="119"/>
-    <property name="dest_y" value="95"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="46"/>
+   </properties>
+  </object>
+  <object id="57" name="to cave " type="warp" x="3584" y="2016" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-2-1"/>
+    <property name="dest_x" value="51"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
  </objectgroup>
