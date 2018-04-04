@@ -6,6 +6,10 @@
   <property name="minimap" value="graphics/minimaps/000-0.png"/>
   <property name="music" value="water_prelude.ogg"/>
   <property name="name" value="Ocean"/>
+  <property name="overlay0image" value="graphics/images/ambient/light_fog.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../graphics/tilesets/water-raging.tsx"/>
  <tileset firstgid="241" name="Base" tilewidth="32" tileheight="32" tilecount="220" columns="22">
