@@ -4,30 +4,70 @@ Copyright (C) 2016-2018 Evol Online -->
 
 <network>
     <inpackets>
+        <!-- SMSG_FORMAT_MESSAGE_STRING -->
+        <fakepacket
+            id="706"
+            len="-1"
+        />
+        <!-- SMSG_QUEST_NOTIFY_OBJECTIVES from 20150513 -->
+        <fakepacket
+            id="2302"
+            len="-1"
+        />
+        <!-- SMSG_CLAN_ONLINE_COUNT from 20120716 -->
+        <fakepacket
+            id="2440"
+            len="6"
+        />
+        <!-- SMSG_CLAN_LEAVE from 20131223 -->
+        <fakepacket
+            id="2441"
+            len="2"
+        />
+        <!-- SMSG_CLANINFO from 20120702 -->
+        <fakepacket
+            id="2442"
+            len="-1"
+        />
+        <!-- SMSG_CLAN_CHAT from 20120716-->
+        <fakepacket
+            id="2446"
+            len="-1"
+        />
+        <!-- SMSG_FORMAT_COLOR_MESSAGE -->
+        <fakepacket
+            id="2509"
+            len="8"
+        />
         <!-- SMSG_SHOW_PROGRESS_BAR_FREE from 20130821 -->
         <fakepacket
             id="2513"
             len="14"
         />
-        <!-- SMSG_CLANINFO -->
+        <!-- SMSG_QUEST_LIST from 20150513 -->
         <fakepacket
-            id="2442"
+            id="2552"
             len="-1"
         />
-        <!-- SMSG_CLAN_ONLINE_COUNT -->
+        <!-- SMSG_QUEST_ADD from 20150513 -->
         <fakepacket
-            id="2440"
-            len="6"
+            id="2553"
+            len="143"
         />
-        <!-- SMSG_CLAN_LEAVE -->
+        <!-- SMSG_QUEST_UPDATE_OBJECTIVES from 20150513 -->
         <fakepacket
-            id="2441"
-            len="2"
-        />
-        <!-- SMSG_CLAN_CHAT -->
-        <fakepacket
-            id="2446"
+            id="2554"
             len="-1"
+        />
+        <!-- SMSG_BEING_HAT_EFFECTS from 20150422 -->
+        <fakepacket
+            id="2619"
+            len="-1"
+        />
+        <!-- SMSG_SOLVE_CHAR_NAME from 20180307 -->
+        <fakepacket
+            id="2807"
+            len="32"
         />
     </inpackets>
 </network>
