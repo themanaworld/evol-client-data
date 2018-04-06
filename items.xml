@@ -2132,8 +2132,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Tooth Necklace"
         description="A basic tooth necklace."
         level="8"
-        bonus="STR +2"
-        malust="HP -250"
+        effect="STR +2, HP -250"
         type="equip-necklace"
         weight="50">
     </item>
@@ -3364,7 +3363,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/shields/leathershield.png"
         name="Leather Shield"
         description="A shield with iron reinforcement."
-        bonus="Critical DEF +10%"
+        effect="Critical DEF +10%"
         defense="50"
         level="15"
         type="equip-shield"
@@ -3419,7 +3418,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/shields/roundleathershield.png"
         name="Round Leather Shield"
         description="Small and round leather shield with iron reinforcement."
-        bonus="Critical DEF +5%"
+        effect="Critical DEF +5%"
         defense="35"
         level="5"
         type="equip-shield"
