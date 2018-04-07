@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="110" height="110" tilewidth="32" tileheight="32" infinite="0" nextobjectid="49">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="110" height="110" tilewidth="32" tileheight="32" infinite="0" nextobjectid="49">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -869,10 +869,10 @@
     <property name="dest_y" value="35"/>
    </properties>
   </object>
-  <object id="44" name="Snake" type="Spawn" x="1248" y="2048" width="320" height="320">
+  <object id="44" name="Snake" type="Spawn" x="1088" y="1920" width="608" height="448">
    <properties>
     <property name="death" value="150000"/>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="1122"/>
     <property name="spawn" value="35000"/>
    </properties>
@@ -880,15 +880,15 @@
   <object id="45" name="Snake" type="Spawn" x="1344" y="1152" width="320" height="320">
    <properties>
     <property name="death" value="150000"/>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="1122"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
-  <object id="46" name="Snake" type="Spawn" x="2400" y="1504" width="320" height="320">
+  <object id="46" name="Snake" type="Spawn" x="2400" y="1504" width="640" height="640">
    <properties>
     <property name="death" value="150000"/>
-    <property name="max_beings" value="6"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="1122"/>
     <property name="spawn" value="35000"/>
    </properties>
