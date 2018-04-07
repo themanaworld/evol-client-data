@@ -4814,7 +4814,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="6000"
         image="equipment/weapons/woodenbow.png"
         name="Wooden Bow"
-        description="For bow training. Does not seem much reliable."
+        description="For the unexperienced bowman."
         attack="70"
         attack-range="5"
         missile-particle="graphics/particles/training-arrow.xml"
@@ -4822,16 +4822,16 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="15"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="260">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6001"
         image="equipment/weapons/trainingbow.png"
         name="Training Bow"
-        description="Primarily used in training."
+        description="For bow training. Does not seem much reliable."
         attack="20"
         attack-range="5"
         missile-particle="graphics/particles/training-arrow.xml"
@@ -4848,86 +4848,87 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="6002"
         image="equipment/weapons/shortbow.png"
         name="Short Bow"
-        description="The shortest of them all."
-        attack="70"
-        attack-range="5"
+        description="The shortest of them all, and almost a knife, but the only which hits at point-blank range."
+        attack="100"
+        attack-range="4"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="25"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="260">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6003"
         image="equipment/weapons/forestbow.png"
         name="Forest Bow"
         description="A big bow, to hunt monsters in the forest."
-        attack="70"
+        attack="140"
         attack-range="5"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="40"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="480">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6004"
         image="equipment/weapons/championshipbow.png"
         name="Championship Bow"
         description="A great bow which only champions are allowed to use."
-        attack="70"
-        attack-range="5"
+        attack="160"
+        attack-range="6"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="50"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="520">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6005"
         image="equipment/weapons/desertbow.png"
         name="Desert Bow"
-        description="The best bow of Toonori."
-        attack="70"
-        attack-range="5"
+        description="The best bow of Toonori. Light, yet powerful."
+        attack="180"
+        attack-range="6"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="60"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="400">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
     <item id="6006"
         image="equipment/weapons/bansheebow.png"
         name="Banshee Bow"
         description="Need to banish something? Do not fret, use the Banshee Bow!"
-        attack="70"
-        attack-range="5"
+        attack="210"
+        attack-range="7"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
         missile-speed="5"
         missile-diedistance="3"
-        level="5"
+        level="80"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        effect="None"
+        weight="890">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
 
