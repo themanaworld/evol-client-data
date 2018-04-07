@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="110" height="110" tilewidth="32" tileheight="32" infinite="0" nextobjectid="44">
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="110" height="110" tilewidth="32" tileheight="32" infinite="0" nextobjectid="49">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -820,21 +820,21 @@
   <object id="31" name="To Outside" type="warp" x="2496" y="2336" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
-    <property name="dest_x" value="131"/>
-    <property name="dest_y" value="111"/>
+    <property name="dest_x" value="100"/>
+    <property name="dest_y" value="90"/>
    </properties>
   </object>
   <object id="34" name="To Outside" type="warp" x="832" y="2752" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-1"/>
-    <property name="dest_x" value="59"/>
-    <property name="dest_y" value="192"/>
+    <property name="dest_map" value="004-2"/>
+    <property name="dest_x" value="84"/>
+    <property name="dest_y" value="78"/>
    </properties>
   </object>
   <object id="35" name="Cave Snake" type="Spawn" x="832" y="1152" width="1920" height="1500">
    <properties>
     <property name="death" value="150000"/>
-    <property name="max_beings" value="8"/>
+    <property name="max_beings" value="12"/>
     <property name="monster_id" value="1035"/>
     <property name="spawn" value="35000"/>
    </properties>
@@ -857,16 +857,56 @@
   </object>
   <object id="42" name="To Outside" type="warp" x="800" y="1504" width="32" height="32">
    <properties>
-    <property name="dest_map" value="004-2"/>
-    <property name="dest_x" value="84"/>
-    <property name="dest_y" value="78"/>
+    <property name="dest_map" value="010-1"/>
+    <property name="dest_x" value="93"/>
+    <property name="dest_y" value="67"/>
    </properties>
   </object>
   <object id="43" name="To Outside" type="warp" x="1632" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
-    <property name="dest_x" value="112"/>
-    <property name="dest_y" value="64"/>
+    <property name="dest_x" value="116"/>
+    <property name="dest_y" value="35"/>
+   </properties>
+  </object>
+  <object id="44" name="Snake" type="Spawn" x="1248" y="2048" width="320" height="320">
+   <properties>
+    <property name="death" value="150000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1122"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="45" name="Snake" type="Spawn" x="1344" y="1152" width="320" height="320">
+   <properties>
+    <property name="death" value="150000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1122"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="46" name="Snake" type="Spawn" x="2400" y="1504" width="320" height="320">
+   <properties>
+    <property name="death" value="150000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1122"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="47" name="Cave Maggot" type="Spawn" x="992" y="768" width="1920" height="1500">
+   <properties>
+    <property name="death" value="150000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="1027"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="48" name="Small Topaz Bif" type="Spawn" x="860" y="854" width="1920" height="1500">
+   <properties>
+    <property name="death" value="150000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1101"/>
+    <property name="spawn" value="35000"/>
    </properties>
   </object>
  </objectgroup>
