@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Authors: 4144, Reid
-Copyright (C) 2010-2013 Evol Online -->
+<!-- Authors: 4144, Reid, Jesusalva
+Copyright (C) 2010-2013 Evol Online
+Copyright (C) 2018 TMW2 -->
 
 <skills>
     <set name="Basic">
@@ -84,5 +85,59 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Draw text on ground."
             useTextParameter="true"
         />
+    </set>
+
+
+    <!-- Monster Skills -->
+    <set name="Other">
+    <skill
+        id="170"
+        name="NPC_CRITICALSLASH"
+        icon="graphics/skills/none.png"
+        description="Defense disregard attack"
+        dstEffectId="11"
+    />
+    <skill
+        id="173"
+        name="NPC_SELFDESTRUCTION"
+        icon="graphics/skills/none.png"
+        description="Suicide bombing"
+        dstEffectId="11"
+    />
+    <skill
+        id="175"
+        name="NPC_SUICIDE"
+        icon="graphics/skills/none.png"
+        description="Suicide"
+    />
+    <skill
+        id="176"
+        name="NPC_POISON"
+        icon="graphics/skills/none.png"
+        description="Poison Attack"
+        dstEffectId="11"
+    /> <!-- NOTE: Cannot use effect 8 here -->
+    <skill
+        id="196"
+        name="NPC_SUMMONSLAVE"
+        icon="graphics/skills/none.png"
+        description="Follower Summons"
+    />
+    <skill
+        id="197"
+        name="NPC_EMOTION"
+        icon="graphics/skills/none.png"
+        description="Emotion"
+    />
+    <skill
+        id="209"
+        name="NPC_SUMMONMONSTER"
+        icon="graphics/skills/none.png"
+        description="Monster Summons"
+    />
+
+
+
+
     </set>
 </skills>
