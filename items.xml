@@ -4247,12 +4247,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/weapons/piouslayer.png"
         name="Piou Slayer"
         description="A short sword for amateurs."
-        attack="200"
+        attack="150"
         attack-range="1"
-        level="25"
+        level="30"
         type="equip-1hand"
         attack-action="attack"
-        weight="26">
+        effect="Item in need of Balance"
+        weight="1600">
         <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
