@@ -541,5 +541,21 @@
     <property name="dest_y" value="42"/>
    </properties>
   </object>
+  <object id="10" name="Green Slime" type="spawn" x="864" y="800" width="192" height="160">
+   <properties>
+    <property name="death" value="80000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1024"/>
+    <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="11" name="Little Green Slime" type="spawn" x="928" y="832" width="64" height="96">
+   <properties>
+    <property name="death" value="50000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1025"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
