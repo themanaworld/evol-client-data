@@ -1322,6 +1322,20 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="67">
         <sprite>equipment/weapons/trainingwand.xml</sprite>
     </item>
+    <item id="3507"
+        image="equipment/weapons/scythe.png"
+        name="Scythe"
+        description="A farmer's scythe, not new but still deadly."
+        attack="2000"
+        attack-range="2"
+        level="15"
+        type="equip-2hand"
+        attack-action="attack_scythe"
+        weight="1200">
+        <sprite>equipment/weapons/scythe.xml</sprite>
+        <sound event="hit">weapons/scythe/hit1.ogg</sound>
+        <sound event="miss">weapons/scythe/miss1.ogg</sound>
+    </item>
 
     <!-- Pets -->
     <item id="4000"

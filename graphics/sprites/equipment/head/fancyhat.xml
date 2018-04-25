@@ -135,6 +135,41 @@ Copyright (C) 2012-2013 Evol Online -->
         </animation>
     </action>
 
+    <action name="attack_scythe" imageset="base">
+        <animation direction="down">
+            <frame index="0" offsetX="-1" offsetY="-47" delay="190"/>
+            <frame index="0" offsetX="-1" offsetY="-44" delay="80"/>
+            <frame index="0" offsetX="-1" offsetY="-43" delay="100"/>
+            <frame index="0" offsetX="-1" offsetY="-44" delay="90"/>
+            <frame index="0" offsetX="-1" offsetY="-47" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="0" offsetX="2" offsetY="-48" delay="100"/>
+            <frame index="0" offsetX="3" offsetY="-50" delay="90"/>
+            <frame index="0" offsetX="-1" offsetY="-47" delay="80"/>
+            <frame index="0" offsetX="-2" offsetY="-46" delay="90"/>
+            <frame index="0" offsetX="-1" offsetY="-47" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-50" delay="100"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="1" offsetX="-2" offsetY="-48" delay="100"/>
+            <frame index="1" offsetX="-3" offsetY="-48" delay="170"/>
+            <frame index="1" offsetX="-3" offsetY="-46" delay="90"/>
+            <frame index="1" offsetX="-3" offsetY="-48" delay="190"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="1" offsetX="-3" offsetY="-48" delay="100"/>
+            <frame index="1" offsetX="-5" offsetY="-50" delay="90"/>
+            <frame index="1" offsetX="-2" offsetY="-47" delay="80"/>
+            <frame index="1" offsetX="-1" offsetY="-46" delay="90"/>
+            <frame index="1" offsetX="-2" offsetY="-47" delay="100"/>
+            <frame index="1" offsetX="-5" offsetY="-50" delay="100"/>
+            <end />
+        </animation>
+    </action>
 
     <action name="sit" imageset="base">
         <animation direction="down">
