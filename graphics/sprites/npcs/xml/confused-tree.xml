@@ -11,14 +11,12 @@ Copyright (C) 2017 The Mana World -->
     <action name="stand" imageset="npc">
         <!-- Winter -->
         <animation direction="default">
-            <!-- TODO: change when we will have remaining frames -->
             <frame index="1" offsetX="16"/>
         </animation>
 
         <!-- Spring -->
         <animation direction="downleft">
-            <!-- TODO: change when we will have remaining frames -->
-            <frame index="0" offsetX="16"/>
+            <frame index="3" offsetX="16"/>
         </animation>
 
         <!-- Summer -->
@@ -28,7 +26,7 @@ Copyright (C) 2017 The Mana World -->
 
         <!-- Autumn -->
         <animation direction="upleft">
-            <frame index="1" offsetX="16"/>
+            <frame index="2" offsetX="16"/>
         </animation>
     </action>
 </sprite>
