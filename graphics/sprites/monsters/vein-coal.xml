@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprite>
+    <imageset name="mob" 
+              src="graphics/sprites/monsters/vein-coal.png|W" 
+              width="32" 
+              height="32"/>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="90"/>
+            <goto label="topsparkle" rand="50"/>
+            <goto label="fullsparkle" rand="100"/>
+
+            <label name="static"/>
+            <frame index="0" delay="5000" offsetX="0" offsetY="0"/>
+            <goto label="start"/>
+
+            <label name="topsparkle"/>
+            <sequence start="11" end="19" delay="100" offsetX="0" offsetY="0"/>
+            <frame index="0" delay="2000" offsetX="0" offsetY="0"/>
+
+            <label name="fullsparkle"/>
+            <sequence start="0" end="9" delay="100" offsetX="0" offsetY="0"/>
+            <frame index="0" delay="2000" offsetX="0" offsetY="0"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation direction="default">
+            <frame index="10" delay="1000"/>
+        </animation>
+    </action>
+</sprite>

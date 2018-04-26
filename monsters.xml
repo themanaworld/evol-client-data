@@ -162,7 +162,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
         <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
     </monster>
-    <monster id="1022" name="Fluffy" targetCursor="small">
+    <monster id="1022" name="Fluffy" walkType="walk" targetCursor="small">
         <sprite>monsters/fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/hit2.ogg</sound>
@@ -170,31 +170,139 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/fluffy/hurt1.ogg</sound>
         <sound event="miss">monsters/fluffy/miss1.ogg</sound>
     </monster>
-    <monster id="1023" name="Mouboo" targetCursor="small">
+    <monster id="1023" name="Mouboo" walkType="walk" targetCursor="small">
         <sprite>monsters/mouboo.xml</sprite>
     </monster>
-    <monster id="1024" name="Green Slime" targetCursor="small">
+    <monster id="1024" name="Green Slime" walkType="walk" targetCursor="small">
         <sprite>monsters/slime.xml|#323b20,73874d,bcdd7d,ffffff</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="1025" name="Little Green Slime" targetCursor="small">
+    <monster id="1025" name="Little Green Slime" walkType="walk" targetCursor="small">
         <sprite>monsters/slime-littleslime.xml|#323b20,73874d,bcdd7d,ffffff</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
-    <monster id="1026" name="Maggot" targetCursor="small">
+    <monster id="1026" name="Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml</sprite>
     </monster>
-    <monster id="1027" name="Cave Maggot" targetCursor="small">
+    <monster id="1027" name="Cave Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml|#0f1315,242214,652b51,6f706f</sprite>
     </monster>
-    <monster id="1028" name="Forest Maggot" targetCursor="small">
+    <monster id="1028" name="Forest Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml|#121c14,223626,334f38,3d5e3d,5e915e</sprite>
     </monster>
-    <monster id="1050" name="Poison Skull" targetCursor="small">
+    <monster id="1029" name="Bee" walkType="fly" targetCursor="small">
+        <sprite>monsters/bee.xml</sprite>
+    </monster>
+    <monster id="1030" name="Pinkie" walkType="walk" targetCursor="small">
+        <sprite>monsters/pinkie.xml</sprite>
+    </monster>
+    <monster id="1031" name="Log Head" walkType="walk" targetCursor="medium">
+        <sprite>monsters/logmonster.xml</sprite>
+    </monster>
+    <monster id="1032" name="Butterfly" walkType="fly" targetCursor="small">
+        <sprite>monsters/butterfly.xml|#803226,e65a39,ffbf80,ffc4bf</sprite>
+        <sprite>/accessories/generic-shadow-small-circle.xml</sprite>
+    </monster>
+    <monster id="1033" name="Clover" targetCursor="medium">
+        <sprite>monsters/clover.xml</sprite>
+    </monster>
+    <monster id="1034" name="Pink Flower" targetCursor="small">
+        <sprite>monsters/flower.xml|#ee748d,ffd8ce;#f6ffbd;#23285f</sprite>
+        <sound event="hit">monsters/flower/hit1.ogg</sound>
+        <sound event="hit">monsters/flower/hit2.ogg</sound>
+        <sound event="miss">monsters/flower/miss1.ogg</sound>
+    </monster>
+    <monster id="1035" name="Mana Bug" walkType="fly" targetCursor="small">
+        <sprite>monsters/mana-bug.xml</sprite>
+        <sprite>/accessories/generic-shadow-small-circle.xml</sprite>
+    </monster>
+    <monster id="1036" name="Mauve Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#e0b0ff</sprite>
+    </monster>
+    <monster id="1037" name="Alizarin Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#e32636</sprite>
+    </monster>
+    <monster id="1038" name="Gamboge Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#ef9b0f</sprite>
+    </monster>
+    <monster id="1039" name="Cobalt Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#0047ab</sprite>
+    </monster>
+    <monster id="1040" name="Silkworm" walkType="walk" targetCursor="small">
+        <sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+    </monster>
+    <monster id="1041" name="Sqirrel" walkType="walk" targetCursor="small">
+        <sprite>monsters/squirrel.xml|#dfae76</sprite>
+        <sound event="hurt">monsters/squirrel/hit1.ogg</sound>
+        <sound event="hurt">monsters/squirrel/hit2.ogg</sound>
+        <sound event="die">monsters/squirrel/die1.ogg</sound>
+    <sound event="die">monsters/squirrel/die2.ogg</sound>
+    </monster>
+    <monster id="1042" name="Grass Snake" walkType="walk" targetCursor="small">
+        <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+    </monster>
+    <monster id="1043" name="Scorpion" walkType="walk" targetCursor="small">
+        <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,e6e6e6</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+    </monster>
+    <monster id="1044" name="Spider" walkType="walk" targetCursor="small">
+        <sprite>monsters/spider.xml</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+    </monster>
+    <monster id="1045" name="Diamond Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml</sprite>
+    </monster>
+    <monster id="1046" name="Gold Vein" targetCursor="small">
+        <sprite>monsters/vein-gold.xml</sprite>
+    </monster>
+    <monster id="1047" name="Iron Vein" targetCursor="small">
+        <sprite>monsters/vein-iron.xml</sprite>
+    </monster>
+    <monster id="1048" name="Coal Vein" targetCursor="small">
+        <sprite>monsters/vein-coal.xml</sprite>
+    </monster>
+    <monster id="1049" name="Spiky Mushroom" walkType="walk" targetCursor="small">
+        <sprite>monsters/mushroom-spiky.xml</sprite>
+        <sound event="die">monsters/mushroom/die1.ogg</sound>
+        <sound event="die">monsters/mushroom/die2.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+    </monster>
+    <monster id="1050" name="Wicked Mushroom" walkType="walk" targetCursor="small">
+        <sprite>monsters/mushroom-wicked.xml</sprite>
+        <sound event="die">monsters/mushroom/die1.ogg</sound>
+        <sound event="die">monsters/mushroom/die2.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+    </monster>
+    <monster id="1051" name="Ruby Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml|W:#581a1a,a41111,c03a3a,ff6060</sprite>
+    </monster>
+    <monster id="1052" name="Emerald Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml|W:#1f9c1f,89d689</sprite>
+    </monster>
+    <monster id="1053" name="Sapphire Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml|W:#4b4bbd,888af4</sprite>
+    </monster>
+    <monster id="1045" name="Topaz Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml|W:#ccb534,f1ea8e,ffffaa</sprite>
+    </monster>
+    <monster id="1045" name="Amethyst Vein" targetCursor="small">
+        <sprite>monsters/vein-gem.xml|W:#530a7c,b362e1,ca87ef</sprite>
+    </monster>
+    <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
 </monsters>

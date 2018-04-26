@@ -40,12 +40,12 @@ Copyright (C) 2012-2013 Evol Online -->
     <action name="attack" imageset="base">
         <animation direction="down">
             <sequence start="7" end="10" delay="80"/>
-            <frame index="11" delay="250"/>
+
             <end/>
         </animation>
         <animation direction="left">
             <sequence start="23" end="26" delay="80"/>
-            <frame index="27" delay="250"/>
+
             <end/>
         </animation>
         <animation direction="up">
@@ -54,7 +54,7 @@ Copyright (C) 2012-2013 Evol Online -->
         </animation>
         <animation direction="right">
             <sequence start="55" end="58" delay="80"/>
-            <frame index="59" delay="250"/>
+
             <end/>
         </animation>
     </action>
@@ -75,6 +75,25 @@ Copyright (C) 2012-2013 Evol Online -->
         <animation direction="right">
             <sequence start="59" end="63" delay="80"/>
             <end />
+        </animation>
+    </action>
+
+    <action name="attack_wand" imageset="base">
+        <animation direction="down">
+            <sequence start="7" end="10" delay="80"/>
+            <end/>
+        </animation>
+        <animation direction="left">
+            <sequence start="23" end="26" delay="80"/>
+            <end/>
+        </animation>
+        <animation direction="up">
+            <sequence start="39" end="42" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <sequence start="55" end="58" delay="80"/>
+            <end/>
         </animation>
     </action>
 
