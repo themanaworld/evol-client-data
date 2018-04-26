@@ -1298,7 +1298,30 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="250">
         <sprite>equipment/weapons/pickaxe.xml</sprite>
     </item>
-
+    <item id="3505"
+        image="equipment/weapons/wand.png"
+        name="Training Wand"
+        description="A simple wand for your first steps in handling magic."
+        attack="150"
+        attack-range="2"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_wand"
+        weight="67">
+        <sprite>equipment/weapons/trainingwand.xml</sprite>
+    </item>
+    <item id="3506"
+        image="equipment/weapons/wand.png|W:#ece96e"
+        name="Mana Torch"
+        description="A simple wand imbued with a fire spell, it can provide lighting and will never run out on you!"
+        attack="200"
+        attack-range="2"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_wand"
+        weight="67">
+        <sprite>equipment/weapons/trainingwand.xml</sprite>
+    </item>
 
     <!-- Pets -->
     <item id="4000"

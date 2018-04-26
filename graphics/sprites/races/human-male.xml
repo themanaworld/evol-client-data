@@ -75,6 +75,29 @@ Copyright (C) 2012-2013 Evol Online -->
         </animation>
     </action>
 
+    <action name="attack_wand" imageset="base">
+        <animation direction="down">
+            <frame index="7" delay="80"/>
+            <sequence start="7" end="10" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="23" delay="100"/>
+            <sequence start="23" end="26" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="39" delay="100"/>
+            <sequence start="39" end="42" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="55" delay="100"/>
+            <sequence start="55" end="58" delay="80"/>
+            <end />
+        </animation>
+    </action>
+
     <action name="sit" imageset="base">
         <animation direction="down">
             <frame index="68"/>

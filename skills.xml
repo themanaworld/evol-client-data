@@ -11,17 +11,6 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Allow do basic things like sitting, smiling or trading."
         />
         <skill
-            id="17"
-            name="Fire ball"
-            description="Attack enemy with fireball."
-            castingMissile-particle="graphics/particles/concentration.xml"
-            castingMissile-lifetime="10000"
-            castingMissile-speed="3"
-            castingSrcEffectId="23"
-            dstEffectId="23"
-            castingAnimation="emote.xml"
-        />
-        <skill
             id="20000"
             name="Mass provoke"
             icon="graphics/skills/legacy/resistpoison.png"
@@ -43,8 +32,48 @@ Copyright (C) 2010-2013 Evol Online -->
             castingMissile-particle="graphics/particles/critical.xml"
             description="A violent punch."
         />
+        <skill
+            id="17"
+            name="Fire Ball"
+            icon="graphics/skills/fireball.png"
+            description="Attack enemy with fireball."
+            castingMissile-particle="graphics/particles/flame-particle.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+            dstEffectId="34"
+        />
+        <skill
+            id="28"
+            name="Healing"
+            icon="graphics/skills/heal.png"
+            description="Heals you or one of your comrades."
+            castingMissile-particle="graphics/particles/healing.xml"
+            castingMissile-lifetime="5000"
+            castingMissile-speed="3"
+            castingSrcEffectId="7"
+            dstEffectId="7"
+        />
+       <skill
+            id="24"
+            name="Fire Ball"
+            icon="graphics/skills/fireball.png"
+            description="Attack enemy with fireball."
+            castingMissile-particle="graphics/particles/flame-particle.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+            dstEffectId="34"
+        />
     </set>
     <set name="Other">
+       <skill
+            id="28"
+            name="Heal"
+            icon="graphics/skills/heal.png"
+            description="Provides a bit of health to you, and to one of your friends."
+            castingMissile-particle="graphics/particles/healing.xml"
+        />
         <skill
             id="220"
             name="Grafiti"
