@@ -3975,10 +3975,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/head/graduationcap.png"
         name="Graduation Cap"
         description="A nice graduation cap."
-        defense="25"
-        level="10"
+        effect="SP Regen +5%"
+        defense="27"
+        level="50"
         type="equip-head"
-        weight="22">
+        weight="35">
         <sprite>equipment/head/graduationcap.xml</sprite>
         <replace sprite="hair">
         <item from="-5" to="-4"/>
