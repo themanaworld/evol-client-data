@@ -404,6 +404,11 @@ IDs 900-999 = Special
         <!-- Empty Statue -->
         <sprite variant="15">npcs/xml/statues.xml</sprite>
     </npc>
+    <npc id="180">
+        <!-- Construction Worker -->
+        <sprite>npcs/xml/construction-worker.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
