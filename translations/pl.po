@@ -1,23 +1,37 @@
-# 
 # Translators:
-# Avenn <avenn3@gmail.com>, 2013
-# foobo <lukasz.antoni.komorowski@poczta.fm>, 2012
-# Łukasz Wiśniewski <gamelogicpol@gmail.com>, 2016
-# derpella <matwa@poczta.pl>, 2012
-# reid <reidyaro@gmail.com>, 2012
-# Wojciech Łukaszczyk <wojciech.lukaszczyk@sfr.fr>, 2012
+# Denis Trella <trella9007@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Evol Online\n"
-"POT-Creation-Date: 2016-09-11 23:23+0300\n"
-"PO-Revision-Date: 2016-12-01 19:49+0000\n"
-"Last-Translator: Łukasz Wiśniewski <gamelogicpol@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/akaras/evol/language/pl/)\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-02-13 19:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Denis Trella <trella9007@gmail.com>, 2018\n"
+"Language-Team: Polish (https://www.transifex.com/akaras/teams/959/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#. (itstool) path: clans/clan@name
+#: clans.xml:13
+msgid "Sword Clan"
+msgstr "Klan Miecza"
+
+#. (itstool) path: clans/clan@name
+#: clans.xml:21
+msgid "Arc Wand Clan"
+msgstr ""
+
+#. (itstool) path: clans/clan@name
+#: clans.xml:29
+msgid "Golden Mace Clan"
+msgstr ""
+
+#. (itstool) path: clans/clan@name
+#: clans.xml:37
+msgid "Crossbow Clan"
+msgstr "Klan Kuczników"
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:9 deadmessages.xml:6
@@ -27,27 +41,27 @@ msgstr "Nie żyjesz."
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:10 deadmessages.xml:7
 msgid "We regret to inform you that your character was killed in battle."
-msgstr "Bardzo nam przykro, twoja postać zginę‭‭‭‭ła w walce."
+msgstr "Z przykrościa informujemy, że twoja postac zgineła w bitwie."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:11 deadmessages.xml:8
 msgid "You are not that alive anymore."
-msgstr ""
+msgstr "Nie jesteś już tak żywy."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:12 deadmessages.xml:9
 msgid "The cold hands of the grim reaper are grabbing for your soul."
-msgstr ""
+msgstr "Zimne dłonie ponurego żniwiarza chwytają twoją duszę."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:13 deadmessages.xml:10
 msgid "Game Over!"
-msgstr ""
+msgstr "Gra Skończona!"
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:14 deadmessages.xml:11
 msgid "Insert coin to continue."
-msgstr ""
+msgstr "Wsadź monetę, aby kontynuować."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:15 deadmessages.xml:12
@@ -71,7 +85,7 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:19 deadmessages.xml:15
 msgid "Do you want your possessions identified?"
-msgstr ""
+msgstr "Czy chcesz, żeby twoje rzeczy zostały zidentyfikowane?"
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:21 deadmessages.xml:16
@@ -81,12 +95,12 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:23 deadmessages.xml:17
 msgid "Annihilated."
-msgstr ""
+msgstr "Zniszczony."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:25 deadmessages.xml:18
 msgid "Looks like you got your head handed to you."
-msgstr ""
+msgstr "Wygląda na tok jak byś miał głowe pod reką. "
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:27 deadmessages.xml:19
@@ -97,17 +111,17 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:29 deadmessages.xml:20
 msgid "You're not dead yet. You're just resting."
-msgstr ""
+msgstr "Ne jesteś trupem. Po prostu odpoczywasz."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:30 deadmessages.xml:21
 msgid "You are no more."
-msgstr ""
+msgstr "Już cię nie ma."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:31 deadmessages.xml:22
 msgid "You have ceased to be."
-msgstr ""
+msgstr "Przestałeś być."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:32 deadmessages.xml:23
@@ -117,12 +131,12 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:33 deadmessages.xml:24
 msgid "You're a stiff."
-msgstr ""
+msgstr "Jesteś sztywny."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:34 deadmessages.xml:25
 msgid "Bereft of life, you rest in peace."
-msgstr ""
+msgstr "Pozbawieni życie, odpoczywacie w pokoju."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:35 deadmessages.xml:26
@@ -132,7 +146,7 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:36 deadmessages.xml:27
 msgid "Your metabolic processes are now history."
-msgstr ""
+msgstr "Twoje procesy metaboliczne są teraz historią."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:37 deadmessages.xml:28
@@ -142,7 +156,7 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:38 deadmessages.xml:29
 msgid "You've kicked the bucket."
-msgstr ""
+msgstr "Kopnąłeś wiadro."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:39
@@ -154,7 +168,7 @@ msgstr ""
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:40 deadmessages.xml:31
 msgid "You are an ex-player."
-msgstr ""
+msgstr "Jesteś byłym finansowym."
 
 #. (itstool) path: messages/message
 #: tmp/deadmessages.xml:41 deadmessages.xml:32
@@ -171,117 +185,117 @@ msgstr ""
 #. (itstool) path: messages/message
 #: deadmessages.xml:33
 msgid "Right now, you would just love to be resurrected."
-msgstr ""
+msgstr "W tej chwili chciałbyś po prostu zostać wskrzeszonym."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:34
 msgid "Wait, did I just die?"
-msgstr ""
+msgstr "Zaraz, czy ja umarłem?"
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:35
 msgid "What just happened?"
-msgstr ""
+msgstr "Co się stało?"
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:36
 msgid "I guess you're not the One."
-msgstr ""
+msgstr "Chyba nie jesteś jedyny."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:37
 msgid "See you in the underworld."
-msgstr ""
+msgstr "Do zobaczenia w hydrocnym świecie."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:38
 msgid "Try again."
-msgstr ""
+msgstr "Spróbuj ponownie."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:39
 msgid "Don't panic, you're just a bit dead."
-msgstr ""
+msgstr "Nie panikuj, po prostu jesteś trochę martwy."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:40
 msgid "It's a bit late to start digging your grave, don't you think?"
-msgstr ""
+msgstr "Trochę za późno, żeby zacząć kopać grób, nie sądzisz?"
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:41
 msgid "Program terminated."
-msgstr ""
+msgstr "Program zakończony."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:42
 msgid "Mission failed."
-msgstr ""
+msgstr "Misja nie powiodła się."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:43
 msgid "Welcome to the Matrix, Neo."
-msgstr ""
+msgstr "Witamy w Matrix, Neo."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:44
 msgid "Everybody falls the first time."
-msgstr ""
+msgstr "Wszyscy spadają po raz pierwszy."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:45
 msgid "Welcome... to the real world."
-msgstr ""
+msgstr "Witaj ... w prawdziwym świecie."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:46
 msgid "Fate, it seems, is not without a sense of irony."
-msgstr ""
+msgstr "Los, jak się wydaje, nie jest pozbawiony poczucia ironii."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:47
 msgid "There is no spoon."
-msgstr ""
+msgstr "Nie ma łyżki."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:48
 msgid "One shot, one kill."
-msgstr ""
+msgstr "Jeden strzał, jedna śmierć."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:49
 msgid "Some men just want to watch the world burn."
-msgstr ""
+msgstr "Niektórzy mężczyźni po prostu chcą patrzeć, jak świat płonie."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:50
 msgid "You are fulfilling your destiny."
-msgstr ""
+msgstr "Spełniasz swoje przeznaczenie."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:51
 msgid "Rule #8: Do not die."
-msgstr ""
+msgstr "Zasada nr  8: Nie umieraj."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:52
 msgid "There will be no order, only chaos."
-msgstr ""
+msgstr "Nie będzie dobrze, tylko chaos."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:53
 msgid "Too bad, get over it."
-msgstr ""
+msgstr "Szkoda, przebolej to."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:54
 msgid "There's no hope for us here, only death."
-msgstr ""
+msgstr "Tu nie ma dla nas nadziei, tylko śmierć."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:55
 msgid "Death is the road to awe."
-msgstr ""
+msgstr "Śmierć jest drogą do zachwytu."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:56
@@ -294,17 +308,17 @@ msgstr ""
 #. (itstool) path: messages/message
 #: deadmessages.xml:57
 msgid "Stop... Stop it!"
-msgstr ""
+msgstr "Przestań ... Przestań!"
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:58
 msgid "Today is a good day to die."
-msgstr ""
+msgstr "Dziś jest dobry dzień by umrzeć."
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:59
 msgid "Any last words? Oops, too late!"
-msgstr ""
+msgstr "Jakieś ostatnie słowa? Ups, za późno!"
 
 #. (itstool) path: messages/message
 #: deadmessages.xml:60
@@ -314,22 +328,22 @@ msgstr ""
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:6
 msgid "Disgust"
-msgstr "Obrzydzenie"
+msgstr "Niesmak"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:7
 msgid "Surprise"
-msgstr "Zaskoczenie"
+msgstr "Surprise"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:8
 msgid "Happy"
-msgstr "Szczęście"
+msgstr "Happy"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:9 tmp/manaplus_emotes.xml:19
 msgid "Sad"
-msgstr "Smutek"
+msgstr "Smutny"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:10 tmp/manaplus_emotes.xml:21 tmp/manaplus_emotes.xml:28
@@ -339,47 +353,107 @@ msgstr "Zło"
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:11
 msgid "Wink"
-msgstr "Oczko"
+msgstr "Puść oczko"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:12
 msgid "Angel"
-msgstr "Aniołek"
+msgstr "Anioł"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:13
 msgid "Blush"
-msgstr "Wstyd"
+msgstr "Rumieniec"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:14
 msgid "Tongue"
-msgstr "Pokazuje język"
+msgstr "Język"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:15
 msgid "Grin"
-msgstr "Nerwusik"
+msgstr "Szeroki uśmiech"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:16
 msgid "Upset"
-msgstr "Naburmuszony"
+msgstr "Zdenerwowany"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:17
 msgid "Perturbed"
-msgstr "Poirytowany"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:18
 msgid "Speech"
-msgstr "Dymek"
+msgstr "Przemówienie"
 
 #. (itstool) path: emote/sprite@name
 #: emotes.xml:19
 msgid "Blah"
-msgstr "Ble"
+msgstr "Bla"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:10
+msgid "Player"
+msgstr "Gracz"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:29
+msgid "Super Player"
+msgstr "Super Gracz"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:69
+msgid "Support"
+msgstr "Wsparcie"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:100
+msgid "Script Manager"
+msgstr "Menedżer skryptów"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:119
+msgid "Event Coordinator"
+msgstr "Koordynator wydarzenia"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:187
+msgid "Developer"
+msgstr "Deweloper"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:209
+msgid "Patrol"
+msgstr "Patrol"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:231
+msgid "Officer"
+msgstr "Oficer"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:258
+msgid "Game Master"
+msgstr "Mistrz Gry"
+
+#. (itstool) path: groups/group@name
+#. (itstool) path: groups/group@longName
+#: groups.xml:275
+msgid "Administrator"
+msgstr "Administrator"
 
 #. (itstool) path: homunculuses/homunculus@name
 #: homunculuses.xml:27
@@ -389,42 +463,42 @@ msgstr ""
 #. (itstool) path: list/color@name
 #: itemcolors.xml:8 itemcolors.xml:82 itemcolors.xml:90
 msgid "White"
-msgstr ""
+msgstr "Biały"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:9
 msgid "Black"
-msgstr ""
+msgstr "czarny"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:10
 msgid "Silver"
-msgstr ""
+msgstr "Srebro"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:11
 msgid "Camel"
-msgstr ""
+msgstr "Wielbłąd"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:12
 msgid "Brown"
-msgstr ""
+msgstr "brązowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:13
 msgid "Orange"
-msgstr ""
+msgstr "Pomarańczowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:14
 msgid "Dark Red"
-msgstr ""
+msgstr "Ciemno czerwony"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:15
 msgid "Red"
-msgstr ""
+msgstr "Czerwony"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:16
@@ -434,32 +508,32 @@ msgstr ""
 #. (itstool) path: list/color@name
 #: itemcolors.xml:17
 msgid "Pink"
-msgstr ""
+msgstr "Różowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:18
 msgid "Mauve"
-msgstr ""
+msgstr "Fiołkoworóżowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:19
 msgid "Purple"
-msgstr ""
+msgstr "Fioletowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:20 itemcolors.xml:46 itemcolors.xml:71
 msgid "Navy Blue"
-msgstr "Morski Błękit"
+msgstr "Ciemnoniebieski"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:21
 msgid "Blue Gray"
-msgstr ""
+msgstr "Szaroniebieski"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:22
 msgid "Blue"
-msgstr ""
+msgstr "niebieski"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:23
@@ -469,12 +543,12 @@ msgstr ""
 #. (itstool) path: list/color@name
 #: itemcolors.xml:24
 msgid "Green"
-msgstr ""
+msgstr "Zielony"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:25
 msgid "Lime"
-msgstr ""
+msgstr "Limonka"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:26
@@ -484,117 +558,117 @@ msgstr ""
 #. (itstool) path: list/color@name
 #: itemcolors.xml:27
 msgid "Yellow"
-msgstr ""
+msgstr "Żółty"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:32 itemcolors.xml:57
 msgid "Off Black"
-msgstr "ciemnoszare"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:33 itemcolors.xml:58
 msgid "Ash Brown"
-msgstr "Płowy Brąz"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:34 itemcolors.xml:59
 msgid "Dark Brown"
-msgstr "Ciemny Brąz."
+msgstr "Ciemny brąz "
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:35 itemcolors.xml:60
 msgid "Dark Copper"
-msgstr "miedziany"
+msgstr "Ciemna Miedź"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:36 itemcolors.xml:61
 msgid "Auburn Brown"
-msgstr "Kasztanowy Brąz."
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:37 itemcolors.xml:62
 msgid "Honey Brown"
-msgstr "Miodowy Brąz."
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:38 itemcolors.xml:63
 msgid "Copper Blonde"
-msgstr "Miedziany Blond."
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:39 itemcolors.xml:64
 msgid "Golden Blonde"
-msgstr "Złoty Blond."
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:40 itemcolors.xml:65
 msgid "Pure Platinum"
-msgstr "Czysta Platyna"
+msgstr "Czysta platyna"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:41 itemcolors.xml:66
 msgid "Cherry Blossom"
-msgstr "Kwiat wiśni"
+msgstr "Kwiat Wiśni"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:42 itemcolors.xml:67
 msgid "Pinky Pink"
-msgstr "Różowo Różowy"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:43 itemcolors.xml:68
 msgid "Fire Red"
-msgstr "Ognista Czerwień."
+msgstr "Ognista czerwień"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:44 itemcolors.xml:69
 msgid "Light Violet"
-msgstr "Jasny Fiolet."
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:45 itemcolors.xml:70
 msgid "Purple Plum"
-msgstr "Śliwka"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:47 itemcolors.xml:72
 msgid "Lagoon Blue"
-msgstr "Morski Błękit"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:48 itemcolors.xml:73
 msgid "Twisted Teal"
-msgstr "Zakręcony Koralowy"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:49 itemcolors.xml:74
 msgid "Spring Green"
-msgstr "Wiosenna Zieleń."
+msgstr "Wiosenna zieleń"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:50 itemcolors.xml:75
 msgid "Forest Green"
-msgstr "Leśna Zieleń."
+msgstr "Zielony las"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:51 itemcolors.xml:76
 msgid "Silver Grey"
-msgstr "Srebrno Szary"
+msgstr "Srebrnoszary"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:52 itemcolors.xml:77
 msgid "Esperia Blue"
-msgstr "Lazurowy Błękit"
+msgstr ""
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:83 itemcolors.xml:91
 msgid "Crimson"
-msgstr ""
+msgstr "Karmazynowy"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:84 itemcolors.xml:92
 msgid "Chocolate"
-msgstr ""
+msgstr "Czekolada"
 
 #. (itstool) path: list/color@name
 #: itemcolors.xml:85 itemcolors.xml:93
@@ -614,72 +688,72 @@ msgstr "Łysy"
 #. (itstool) path: items/item@name
 #: items.xml:35
 msgid "Bowl Cut"
-msgstr "Od Garnka"
+msgstr "Miseczka"
 
 #. (itstool) path: items/item@name
 #: items.xml:38
 msgid "Combed Back"
-msgstr "Czesane do Tyłu"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:41
 msgid "Emo"
-msgstr "Emo"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:44
 msgid "Mohawk"
-msgstr "Irokez"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:47
 msgid "Pompadour"
-msgstr "Pompadour"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:50
 msgid "Center Parting"
-msgstr "Przedziałek Pośrodku"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:53
 msgid "Long and Slick"
-msgstr "Długie Gładkie"
+msgstr "Wysoki i zgrabny"
 
 #. (itstool) path: items/item@name
 #: items.xml:56
 msgid "Short and Curly"
-msgstr "Krótkie Kędzierzawe"
+msgstr "Krótkie i kręcone"
 
 #. (itstool) path: items/item@name
 #: items.xml:59
 msgid "Pigtails"
-msgstr "Mysie ogonki"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:62
 msgid "Long and Curly"
-msgstr "Długie Kędzierzawe"
+msgstr "Długie i kręcone"
 
 #. (itstool) path: items/item@name
 #: items.xml:65
 msgid "Parted"
-msgstr "Z przedziałkiem"
+msgstr "Podzielone"
 
 #. (itstool) path: items/item@name
 #: items.xml:68
 msgid "Perky Ponytail"
-msgstr "Krotki Koński Ogon"
+msgstr "Dziarski kucyk"
 
 #. (itstool) path: items/item@name
 #: items.xml:71
 msgid "Wave"
-msgstr "Faliste"
+msgstr "Fala"
 
 #. (itstool) path: items/item@name
 #: items.xml:74
 msgid "Mane"
-msgstr "Z grzywką"
+msgstr "Grzywa"
 
 #. (itstool) path: items/item@name
 #: items.xml:77
@@ -689,62 +763,62 @@ msgstr "Kok"
 #. (itstool) path: items/item@name
 #: items.xml:80
 msgid "Wavy"
-msgstr "Falujące"
+msgstr "Falisty"
 
 #. (itstool) path: items/item@name
 #: items.xml:83
 msgid "Bunches"
-msgstr "Wiązka "
+msgstr "Bukiety"
 
 #. (itstool) path: items/item@name
 #: items.xml:86
 msgid "Long Ponytail"
-msgstr "Długi Koński Ogon"
+msgstr "Długi kucyk"
 
 #. (itstool) path: items/item@name
 #: items.xml:89
 msgid "Infinitely Long"
-msgstr "Nieskończenie Dlugie"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:92
 msgid "Choppy"
-msgstr "Zmierzwione"
+msgstr "Niepewny"
 
 #. (itstool) path: items/item@name
 #: items.xml:95
 msgid "Wild"
-msgstr "Dzikie"
+msgstr "Dziki"
 
 #. (itstool) path: items/item@name
 #: items.xml:98
 msgid "Punk"
-msgstr "Punk"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:101
 msgid "Imperial"
-msgstr "Carskie"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:104
 msgid "Side Strand"
-msgstr "Boczne pasmo"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:107
 msgid "Messy"
-msgstr "Bałagańcia"
+msgstr "Niechlujny"
 
 #. (itstool) path: items/item@name
 #: items.xml:110
 msgid "Flat Ponytail"
-msgstr "Płaski Koński Ogon"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:113
 msgid "Tapered Nape"
-msgstr "Stożkowy Kark"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:118
@@ -764,7 +838,7 @@ msgstr "Demon"
 #. (itstool) path: items/item@name
 #: items.xml:136
 msgid "Elven"
-msgstr "Elf"
+msgstr "Elven"
 
 #. (itstool) path: items/item@name
 #: items.xml:142
@@ -774,12 +848,12 @@ msgstr "Ork"
 #. (itstool) path: items/item@name
 #: items.xml:148
 msgid "Raijin"
-msgstr "Radzin"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:154
 msgid "Tritan"
-msgstr "Trytan"
+msgstr ""
 
 #. #-#-#-#-#  items.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: items/item@name
@@ -787,751 +861,797 @@ msgstr "Trytan"
 #. (itstool) path: monsters/monster@name
 #: items.xml:162 monsters.xml:18
 msgid "Piou"
-msgstr "Piusek"
+msgstr ""
 
 #. (itstool) path: items/item@name
 #: items.xml:177
 msgid "Acorn"
-msgstr "Żołędź"
+msgstr "Żołądź"
 
 #. (itstool) path: items/item@description
 #: items.xml:177
-msgid "A natural food, ingredient, bait, or seed."
-msgstr ""
+msgid "A natural food, ingredient, bait or seed."
+msgstr "Naturalny pokarm, składnik, przynęta lub nasiona."
 
 #. (itstool) path: items/item@useButton
-#: items.xml:177 items.xml:185 items.xml:194 items.xml:202 items.xml:210
-#: items.xml:218 items.xml:226 items.xml:242 items.xml:250 items.xml:258
-#: items.xml:267 items.xml:289 items.xml:298 items.xml:305 items.xml:324
-#: items.xml:332 items.xml:380 items.xml:415 items.xml:424
+#. (itstool) path: inventory/menu@name1
+#. (itstool) path: inventory/menu@name2
+#: items.xml:177 items.xml:183 items.xml:198 items.xml:207 items.xml:215
+#: items.xml:223 items.xml:231 items.xml:239 items.xml:255 items.xml:263
+#: items.xml:271 items.xml:280 items.xml:302 items.xml:311 items.xml:318
+#: items.xml:337 items.xml:345 items.xml:393 items.xml:428 items.xml:437
 msgid "Eat"
-msgstr ""
+msgstr "Jeść"
 
 #. (itstool) path: items/item@effect
 #: items.xml:177
 msgid "Heal 12-18 HP"
 msgstr "Ulecz 12-18 HP"
 
+#. (itstool) path: inventory/menu@name1
+#. (itstool) path: inventory/menu@name2
+#: items.xml:188
+msgid "Plant"
+msgstr "Roślina"
+
 #. (itstool) path: items/item@name
-#: items.xml:185
+#: items.xml:198
 msgid "Bread"
 msgstr "Chleb"
 
 #. (itstool) path: items/item@description
-#: items.xml:185
-msgid "A baked food, ingredient, or bait."
-msgstr ""
+#: items.xml:198
+msgid "A baked food, ingredient or bait."
+msgstr "Pieczone jedzenie, składnik lub przynęta."
 
 #. (itstool) path: items/item@effect
-#: items.xml:185
+#: items.xml:198
 msgid "Heal 25-40 HP"
-msgstr "Ulecz 25-40 HP"
+msgstr "Uzdrów 25-40 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:194
+#: items.xml:207
 msgid "Fungus"
 msgstr "Grzyb"
 
 #. (itstool) path: items/item@description
-#: items.xml:194
-msgid "A peculiar food, ingredient, or remedy against poison."
-msgstr ""
+#: items.xml:207
+msgid "A peculiar food, ingredient or remedy against poison."
+msgstr "Osobliwy pokarm, skład lub środek przeciwko truciźnie."
 
 #. (itstool) path: items/item@effect
-#: items.xml:194
+#: items.xml:207
 msgid "Damage -5%; Defense +5%; Heal 25-35 HP"
-msgstr "Obrażenia -5%; Obrona +5%; Leczenie 25-35 HP"
+msgstr "Obrażenia - 5% Obrona + 5% Uzdrów 25-35 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:202
+#: items.xml:215
 msgid "Cheese"
 msgstr "Ser"
 
 #. (itstool) path: items/item@description
-#: items.xml:202
-msgid "A yummy food, ingredient, or bait."
-msgstr ""
+#: items.xml:215
+msgid "A yummy food, ingredient or bait."
+msgstr "Pyszne jedzenie, składnik lub przynęta."
 
 #. (itstool) path: items/item@effect
-#: items.xml:202 items.xml:397
+#: items.xml:215 items.xml:410
 msgid "Heal 30-50 HP"
 msgstr "Ulecz 30-50 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:210
+#: items.xml:223
 msgid "Piou Legs"
-msgstr "Piuskowe Udka"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:210
-msgid "A tender food, ingredient, or bait."
+#: items.xml:223
+msgid "A tender food, ingredient or bait."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:210
+#: items.xml:223
 msgid "Heal 7-13 HP"
 msgstr "Ulecz 7-13 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:218
+#: items.xml:231
 msgid "Lettuce Leaf"
-msgstr "Liść Sałaty"
+msgstr "Liść sałaty"
 
 #. (itstool) path: items/item@description
-#: items.xml:218
-msgid "A healthy food, ingredient, or bait."
-msgstr ""
+#: items.xml:231
+msgid "A healthy food, ingredient or bait."
+msgstr "Zdrowa żywność, składnik lub przynęta."
 
 #. (itstool) path: items/item@effect
-#: items.xml:218
+#: items.xml:231
 msgid "Heal 15-25 HP"
 msgstr "Ulecz 15-25 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:226
+#: items.xml:239
 msgid "Piberries"
-msgstr "Jagódełki"
+msgstr "Piwo"
 
 #. (itstool) path: items/item@description
-#: items.xml:226
+#: items.xml:239
 msgid "The famous staining fruit."
-msgstr "Słynny barwiony owoc."
+msgstr "Słynny owoc barwiący."
 
 #. (itstool) path: items/item@effect
-#: items.xml:226
+#: items.xml:239
 msgid "Heal 12-23 HP"
 msgstr "Ulecz 12-23 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:234
+#: items.xml:247
 msgid "Sea Drops"
-msgstr "Morskie Krople."
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:234
+#: items.xml:247
 msgid "Yucky drops of salt water."
-msgstr ""
+msgstr "Krople słonej wody."
 
 #. (itstool) path: items/item@useButton
-#: items.xml:234 items.xml:340 items.xml:348 items.xml:356 items.xml:364
-#: items.xml:372 items.xml:432
+#: items.xml:247 items.xml:353 items.xml:361 items.xml:369 items.xml:377
+#: items.xml:385 items.xml:445
 msgid "Drink"
-msgstr ""
+msgstr "Drink"
 
 #. (itstool) path: items/item@effect
-#: items.xml:234
+#: items.xml:247
 msgid "Headache; Heal 10-20 HP"
-msgstr "Ból głowy; Ulecz 10-20 HP"
+msgstr "Bół głowy; Leczyć 10-20 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:242
+#: items.xml:255
 msgid "Aquada"
-msgstr "Akwada"
-
-#. (itstool) path: items/item@description
-#: items.xml:242
-msgid "A nutritious fruit of the sea."
 msgstr ""
 
+#. (itstool) path: items/item@description
+#: items.xml:255
+msgid "A nutritious fruit of the sea."
+msgstr "Pożywny owoc morza."
+
 #. (itstool) path: items/item@effect
-#: items.xml:242
+#: items.xml:255
 msgid "Heal 75-100 HP"
 msgstr "Ulecz 75-100 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:250
+#: items.xml:263
 msgid "Pink Blobime"
-msgstr "Różowy Blobim"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:250
+#: items.xml:263
 msgid "Yucky pink mucus of little blub."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:250
+#: items.xml:263
 msgid "Headache; Heal 2-6 HP"
-msgstr "Ból głowy; Ulecz 2-6 HP"
+msgstr "Bół głowy; Ulecz 2-6 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:258
+#: items.xml:271
 msgid "Purple Blobime"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:258
+#: items.xml:271
 msgid "Stinky purple mucus of blub."
-msgstr ""
+msgstr "Śmierdzący fioletowy śluz blub."
 
 #. (itstool) path: items/item@effect
-#: items.xml:258
+#: items.xml:271
 msgid "Stomach ache; Heal 30-70 HP"
-msgstr ""
+msgstr "Ból brzucha; Ulecz 30-70 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:267
+#: items.xml:280
 msgid "Half Croconut"
-msgstr "Pół Krokosa"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:267
+#: items.xml:280
 msgid "Its inside seems delicious."
-msgstr "Wnętrze wydaje się pyszne."
+msgstr "Jego wnętrze wydaje się pyszne."
 
 #. (itstool) path: items/item@effect
-#: items.xml:267
+#: items.xml:280
 msgid "Heal 65-90 HP"
-msgstr "Ulecz 65-90 HP"
+msgstr "Leczyć 65-90 HP"
 
 #. #-#-#-#-#  items.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: items/item@name
 #. #-#-#-#-#  monsters.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: monsters/monster@name
-#: items.xml:274 monsters.xml:112
+#: items.xml:287 monsters.xml:112
 msgid "Croconut"
-msgstr "Krokos"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:274
+#: items.xml:287
 msgid "Fallen from a crocotree, this fruit could be opened."
-msgstr "Tego krokosa można otworzyć."
+msgstr ""
 
 #. #-#-#-#-#  items.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: items/item@useButton
 #. #-#-#-#-#  npcs.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: npc/menu@name
-#: items.xml:274 npcs.xml:334 npcs.xml:339 npcs.xml:618 npcs.xml:623
-#: npcs.xml:628
+#: items.xml:287 npcs.xml:351 npcs.xml:356 npcs.xml:635 npcs.xml:640
+#: npcs.xml:645
 msgid "Open"
-msgstr ""
+msgstr "otwarty"
 
 #. (itstool) path: items/item@name
-#: items.xml:281
+#: items.xml:294
 msgid "Old Book"
-msgstr "Stara Książka"
+msgstr "Stara książka"
 
 #. (itstool) path: items/item@description
-#: items.xml:281
+#: items.xml:294
 msgid ""
 "A book that threatens to fall apart in your hands as you carefully browse "
 "the pages."
-msgstr "Książka która grozi rozwaleniem w twych rękach nawet podczas ostrożnego wertowania stron."
+msgstr ""
+"Książka, która grozi rozpadem w dwóch rzeczach, gdy dokładnie przeglądasz "
+"strony."
 
 #. #-#-#-#-#  items.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: items/item@useButton
 #. #-#-#-#-#  npcs.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: npc/menu@name
-#: items.xml:281 items.xml:439 items.xml:446 items.xml:453 items.xml:460
-#: npcs.xml:97
+#: items.xml:294 items.xml:452 items.xml:459 items.xml:466 items.xml:473
+#: items.xml:480 items.xml:487 items.xml:494 npcs.xml:98
 msgid "Read"
-msgstr ""
+msgstr "Czytać"
 
 #. (itstool) path: items/item@name
-#: items.xml:289
+#: items.xml:302
 msgid "Plushroom"
-msgstr "Plushroom"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:289
+#: items.xml:302
 msgid "A strange remedy of many possible uses."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:289
+#: items.xml:302
 msgid "Damage +5%; Heal 20-30 HP"
-msgstr ""
+msgstr "Obrażenia + 5%; Ulecz 20-30 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:298
-msgid "Pumpkish Seeds"
-msgstr ""
+#: items.xml:311
+msgid "Pumpkin Seeds"
+msgstr "Nasiona dyni"
 
 #. (itstool) path: items/item@description
-#: items.xml:298
+#: items.xml:311
 msgid "Yucky seeds that threaten to grow out-of-control."
-msgstr ""
+msgstr "Nasiona Yucky, które grożą wyrwaniem się spod kontroli."
 
 #. (itstool) path: items/item@effect
-#: items.xml:298
+#: items.xml:311
 msgid "Headache"
-msgstr "Ból Głowy"
+msgstr "Bół głowy"
 
 #. (itstool) path: items/item@name
-#: items.xml:305
+#: items.xml:318
 msgid "Delicious Cookie"
-msgstr "Pyszne ciastko"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:305
+#: items.xml:318
 msgid ""
 "This is a reward from the Cookie Master. Be careful before you eat it, its "
 "effects are unknown..."
 msgstr ""
+"To jest nagroda od Cookie Master. Bądź ostrożny, zanim je zjesz, jego efekty"
+" są nieznane ..."
 
 #. (itstool) path: items/item@effect
-#: items.xml:305
+#: items.xml:318
 msgid "Unknown"
-msgstr "nieznane"
+msgstr "Nieznany"
 
 #. (itstool) path: items/item@name
-#: items.xml:324
+#: items.xml:337
 msgid "Urchin Meat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:324
+#: items.xml:337
 msgid "A seafood ingredient."
-msgstr ""
+msgstr "Składnik z owoców morza."
 
 #. (itstool) path: items/item@effect
-#: items.xml:324
+#: items.xml:337
 msgid "Heal 28-35 HP"
-msgstr ""
+msgstr "Ulecz 28-35 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:332
+#: items.xml:345
 msgid "Easter Egg"
-msgstr ""
+msgstr "Jajko wielkanocne"
 
 #. (itstool) path: items/item@description
-#: items.xml:332
-msgid "A chocolate shell covered of a very thin metal layer."
-msgstr ""
+#: items.xml:345
+msgid "A chocolate shell covered in a very thin metal layer."
+msgstr "Czekoladowa powłoka pokryta bardzo cienką warstwą metalu."
 
 #. (itstool) path: items/item@effect
-#: items.xml:332
+#: items.xml:345
 msgid "Heal 60-75 HP"
-msgstr ""
+msgstr "Leczyć 60-75 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:340
+#: items.xml:353
 msgid "Piberries Infusion"
-msgstr ""
+msgstr "Napój z borówki"
 
 #. (itstool) path: items/item@description
-#: items.xml:340
+#: items.xml:353
 msgid "A potion made from piberries."
-msgstr ""
+msgstr "Eliksir z borówek."
 
 #. (itstool) path: items/item@effect
-#: items.xml:340
+#: items.xml:353
 msgid "Heal 110-130 HP"
-msgstr ""
+msgstr "Leczy 110-130 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:348
+#: items.xml:361
 msgid "Fate's Potion"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:348
+#: items.xml:361
 msgid "An effective blood-loss remedy."
-msgstr ""
+msgstr "Skuteczny lek na utratę krwi."
 
 #. (itstool) path: items/item@effect
-#: items.xml:348
+#: items.xml:361
 msgid "Heal 240-260 HP"
-msgstr ""
+msgstr "Ulecz 240-260 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:356
+#: items.xml:369
 msgid "Clotho Liquor"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:356
-msgid "Remedy used between feral warrior training sessions."
+#: items.xml:369
+msgid "Remedy used in feral warrior training sessions."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:356
+#: items.xml:369
 msgid "Heal 575-625 HP"
-msgstr ""
+msgstr "Ulecz 575-625 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:364
+#: items.xml:377
 msgid "Lachesis Brew"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:364
+#: items.xml:377
 msgid "Rare, powerful and restricted remedy."
-msgstr ""
+msgstr "Rzadkie, mocne i ograniczone środki zaradcze."
 
 #. (itstool) path: items/item@effect
-#: items.xml:364
+#: items.xml:377
 msgid "Heal 1100-1300 HP"
-msgstr ""
+msgstr "Ulecz 1100-1300 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:372
+#: items.xml:385
 msgid "Atropos Mixture"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:372
+#: items.xml:385
 msgid "The most advanced potion ever synthesized."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:372
+#: items.xml:385
 msgid "Heal 2300-2550 HP"
-msgstr ""
+msgstr "Ulecz 2300-2550 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:380
+#: items.xml:393
 msgid "Elixir Of Life"
-msgstr ""
+msgstr "Eliksir życia"
 
 #. (itstool) path: items/item@description
-#: items.xml:380
+#: items.xml:393
 msgid "A potion able to restore even dead trees to life."
-msgstr ""
+msgstr "Eliksir zdolny przywrócić do życia nawet martwe drzewa."
 
 #. (itstool) path: items/item@effect
-#: items.xml:380
+#: items.xml:393
 msgid "Heal 10000 HP"
-msgstr ""
+msgstr "Ulecz 10000 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:388
+#: items.xml:401
 msgid "Iron Shovel"
-msgstr ""
+msgstr "Żelazna łopata"
 
 #. (itstool) path: items/item@useButton
-#: items.xml:388 items.xml:397 items.xml:406
+#: items.xml:401 items.xml:410 items.xml:419
 msgid "Use"
-msgstr ""
+msgstr "Używać "
 
 #. (itstool) path: items/item@description
-#: items.xml:388
-msgid "Discover treasures, dungeons, and raw materials."
+#: items.xml:401
+msgid "Discover treasures, dungeons and raw materials."
+msgstr "Odkryj skarby, lochy i surowce."
+
+#. (itstool) path: items/item@name
+#: items.xml:410
+msgid "Pumpkin Juice"
+msgstr "Sok z dyni"
+
+#. (itstool) path: items/item@description
+#: items.xml:410
+msgid "Blood-colored juice from madly swarming pumpkin."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:397
-msgid "Pumpkish Juice"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:397
-msgid "Blood-colored juice from madly swarming pumpkish."
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:406
+#: items.xml:419
 msgid "Manana"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:406
+#: items.xml:419
 msgid "A fast healing fruit."
-msgstr ""
+msgstr "Szybko leczący owoc."
 
 #. (itstool) path: items/item@effect
-#: items.xml:406
+#: items.xml:419
 msgid "Heal 70-80 HP"
-msgstr ""
+msgstr "Leczyć 70-80 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:415
+#: items.xml:428
 msgid "Curshroom"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:415
-msgid "A strange remedy of many possible uses, cure poison."
-msgstr ""
+#: items.xml:428
+msgid "A strange remedy of many possible uses, cures poison."
+msgstr "Dziwny środek wielu możliwych zastosowań, leczy truciznę."
 
 #. (itstool) path: items/item@effect
-#: items.xml:415
+#: items.xml:428
 msgid "Damage per second +10; Heal 40-50 HP"
-msgstr ""
+msgstr "Obrażenia na sekundę +10; Ulecz 40-50 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:424
+#: items.xml:437
 msgid "Carrot"
-msgstr ""
+msgstr "Marchewka"
 
 #. (itstool) path: items/item@description
-#: items.xml:424
+#: items.xml:437
 msgid "Good in various recipes."
-msgstr ""
+msgstr "Dobry w różnych przepisach."
 
 #. (itstool) path: items/item@effect
-#: items.xml:424
+#: items.xml:437
 msgid "Heal 20-30 HP"
-msgstr ""
+msgstr "Ulecz 20-30 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:432
+#: items.xml:445
 msgid "Red Plush Wine"
-msgstr ""
+msgstr "Czerwone wytrawne wino"
 
 #. (itstool) path: items/item@description
-#: items.xml:432
+#: items.xml:445
 msgid "Wine produced from black grapes in the south-east of Aurora."
 msgstr ""
+"Wino produkowane z czarnych winogron w południowo-wschodniej części Aurory."
 
 #. (itstool) path: items/item@effect
-#: items.xml:432
+#: items.xml:445
 msgid "Heal 40-90 HP"
-msgstr ""
+msgstr "Ulecz 40-90 HP"
 
 #. (itstool) path: items/item@name
-#: items.xml:439
+#: items.xml:452
 msgid "Piou and The Fluffy"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:439
+#: items.xml:452
 msgid "This story is a warning against listening to flattery."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:446
+#: items.xml:459
 msgid "Poem about Poems"
-msgstr ""
+msgstr "Wiersz o wierszach"
 
 #. (itstool) path: items/item@description
-#: items.xml:446
+#: items.xml:459
 msgid "A heart touching poem written by Nard."
-msgstr ""
+msgstr "Wzruszający wiersz napisany przez Narda."
 
 #. (itstool) path: items/item@name
-#: items.xml:453
+#: items.xml:466
 msgid "Chorus of the Woods"
-msgstr ""
+msgstr "Chór z lasu"
 
 #. (itstool) path: items/item@description
-#: items.xml:453
+#: items.xml:466
 msgid ""
-"Historical foundations of this poem is from centuries ago on the great "
-"continent, Ealia."
+"This poem was written centuries ago and is from the ancient city of Keshlam."
 msgstr ""
+"Ten wiersz został napisany przed wiekami i pochodzi ze starożytnego miasta "
+"Keshlam."
 
 #. (itstool) path: items/item@name
-#: items.xml:460
+#: items.xml:473
 msgid "Communication Theory"
-msgstr ""
+msgstr "Teoria komunikacji"
 
 #. (itstool) path: items/item@description
-#: items.xml:460
-msgid "Various explanations on the dialogue system."
+#: items.xml:473
+msgid "Various meta explanations regarding the dialogue system."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:470
+#: items.xml:480
+msgid "Fluffy Animals who Love Their Owners"
+msgstr "Puszyste zwierzęta, które kochają swoich właścicieli"
+
+#. (itstool) path: items/item@description
+#: items.xml:480
+msgid "A quick guide to introduce pet caring."
+msgstr "Krótki przewodnik wprowadzający opiekę nad zwierzętami."
+
+#. (itstool) path: items/item@name
+#: items.xml:487
+msgid "The Book of Laws"
+msgstr "Księga Prawa"
+
+#. (itstool) path: items/item@description
+#: items.xml:487
+msgid "The basic laws respected and upheld in all parts of Gasaron."
+msgstr ""
+"Podstawowe prawa respektowane i przestrzegane we wszystkich częściach "
+"Gasarona."
+
+#. (itstool) path: items/item@name
+#: items.xml:494
+msgid "Fishing Guide Vol. I"
+msgstr "Przewodnik po wędkowaniu część pierwsza "
+
+#. (itstool) path: items/item@description
+#: items.xml:494
+msgid "A small book that covers the basics of fishing."
+msgstr "Mała książka, która opisuje podstawy rybołówstwa."
+
+#. (itstool) path: items/item@name
+#: items.xml:503
 msgid "Small Tentacles"
-msgstr "Małe Macki"
+msgstr "Małe macki"
 
 #. (itstool) path: items/item@description
-#: items.xml:470
+#: items.xml:503
 msgid "Colorful tentacles with poisonous barbs."
-msgstr ""
+msgstr "Kolorowe macki z jadowitymi kolcami."
 
 #. (itstool) path: items/item@name
-#: items.xml:477
+#: items.xml:510
 msgid "Piou Feathers"
-msgstr "Piuskowe Piórka"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:477
+#: items.xml:510
 msgid "Small feathers of an innocent little piou."
-msgstr ""
+msgstr "Małe pióra niewinnego małego piou."
 
 #. (itstool) path: items/item@name
-#: items.xml:483
+#: items.xml:516
 msgid "Tortuga Shell Fragment"
-msgstr "Fragment Muszli Tortugi"
+msgstr "Fragment muszli Tortugi"
 
 #. (itstool) path: items/item@description
-#: items.xml:483
+#: items.xml:516
 msgid "Used to make tools and decorations."
-msgstr ""
+msgstr "Używane do tworzenia narzędzi i dekoracji."
 
 #. (itstool) path: items/item@name
-#: items.xml:489
+#: items.xml:522
 msgid "Half Eggshell"
-msgstr "Pęknięta skorupka"
+msgstr "Pół skorupki z jajka"
 
 #. (itstool) path: items/item@description
-#: items.xml:489
-msgid "Maybe something hatched, or someone was cooking."
+#: items.xml:522
+msgid "Maybe something hatched, or someone was cooked..."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:495
+#: items.xml:528
 msgid "Ratto Tail"
-msgstr "Ogon Szczurzydła"
-
-#. (itstool) path: items/item@description
-#: items.xml:495
-msgid "Hairless tail of ratto."
 msgstr ""
 
+#. (itstool) path: items/item@description
+#: items.xml:528
+msgid "Hairless tail of a ratto."
+msgstr "Bezwłosy ogon z ratto."
+
 #. (itstool) path: items/item@name
-#: items.xml:501
+#: items.xml:534
 msgid "Ratto Teeth"
-msgstr "Ząb Szczurzydła"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:501
-msgid "Sharp incisors of ratto."
+#: items.xml:534
+msgid "Sharp incisors of a ratto."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:507
+#: items.xml:540
 msgid "Croc Claw"
-msgstr "Pazur Kłapa"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:507
+#: items.xml:540
 msgid "It moves and pinches without its body."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:513
+#: items.xml:546
 msgid "Squichy Claws"
-msgstr "Pazurki Tulika"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:513
-msgid "Claws from a wild squichy."
-msgstr "Pazurki dzikiego Tulika."
+#: items.xml:546
+msgid "Claws from a wild Squichy."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:519
+#: items.xml:552
 msgid "Tortuga Shell"
-msgstr "Muszla Tortugi"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:519
+#: items.xml:552
 msgid "A symbol of shelter."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:526
+#: items.xml:559
 msgid "Tortuga Tongue"
-msgstr "Język Tortugi"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:526
+#: items.xml:559
 msgid "Adept to digesting blubs."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:533
+#: items.xml:566
 msgid "Pearl"
-msgstr "Perła"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:533
+#: items.xml:566
 msgid "A beautiful round and shiny pearl."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:540
+#: items.xml:573
 msgid "Coral"
-msgstr "Koral"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:540
+#: items.xml:573
 msgid "Can indicate the health of oceanic ecosystems."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:547
+#: items.xml:580
 msgid "Blue Coral"
-msgstr "Błękitny Koral"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:547
+#: items.xml:580
 msgid "A coral dyed in blue by a blub."
-msgstr "Koral pofarbowany na niebiesko przez Blubka."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:553
+#: items.xml:586
 msgid "Fish Box"
-msgstr "Skrzynka ryb"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:553
+#: items.xml:586
 msgid "A wooden box full of fresh fish that Couwan gave you."
-msgstr "Drewniana skrzynka pełna świeżych ryb od Couwana."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:559
+#: items.xml:592
 msgid "Aquada Box"
-msgstr "Pudło Aquady"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:559
+#: items.xml:592
 msgid "Contains 50 aquadas."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:565
+#: items.xml:598
 msgid "Croconut Box"
-msgstr "Skrzynia z krokosami"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:565
+#: items.xml:598
 msgid "Contains 17 croconuts."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:571
+#: items.xml:604
 msgid "Plushroom Box"
-msgstr "Pudło Plushroom."
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:571
+#: items.xml:604
 msgid "Contains 87 plushrooms."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:578
+#: items.xml:611
 msgid "Poisoned Dish"
-msgstr "Zatruta Potrawa"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:578
+#: items.xml:611
 msgid "A special dish made of strange ingredients."
-msgstr "Wyjątkowe danie zrobione z dziwnych składników."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:585
+#: items.xml:618
 msgid "La Johanne's Key"
-msgstr "Klucz La Johhane."
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:585
+#: items.xml:618
 msgid "An iron key to open La Johanne's entrance door."
-msgstr "Żelazny klucz otwierający drzwi wejściowe La Johanne."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:592
+#: items.xml:625
 msgid "Left Crafty Wing"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:592 items.xml:606
+#: items.xml:625 items.xml:639
 msgid "This wing is slight and soft unlike its former owner."
-msgstr "To skrzydło jest małe i miękkie w przeciwieństwie do byłego właściciela."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:599
+#: items.xml:632
 msgid "Bat Teeth"
-msgstr "Kły Nietoperza"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:599
+#: items.xml:632
 msgid "What sharp teeth! They seem to be more dangerous than a knife."
-msgstr "Jakie ostre zęby, wydają się groźniejsze niż nóż."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:606
+#: items.xml:639
 msgid "Right Crafty Wing"
 msgstr ""
 
@@ -1539,554 +1659,559 @@ msgstr ""
 #. (itstool) path: items/item@name
 #. #-#-#-#-#  manaplus_emotes1.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: emote/sprite@name
-#: items.xml:613 tmp/manaplus_emotes.xml:27
+#. #-#-#-#-#  monsters.pot (PACKAGE VERSION)  #-#-#-#-#
+#. (itstool) path: monsters/monster@name
+#: items.xml:646 tmp/manaplus_emotes.xml:27 monsters.xml:148
 msgid "Pumpkin"
-msgstr "Dynia"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:613
-msgid "An invasive specimen, sometimes carved during festivals."
+#: items.xml:646
+msgid "An invasive species, sometimes carved during festivals."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:620
+#: items.xml:653
 msgid "Mushroom Spores"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:620
-msgid "Some colored spores, it helps mushrooms to spread across the land."
+#: items.xml:653
+msgid "Some colored spores that help mushrooms spread across the land."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:627
+#: items.xml:660
 msgid "Moss"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:627
+#: items.xml:660
 msgid "Grows in moist, shady areas."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:634
+#: items.xml:667
 msgid "Tentacles"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:634
-msgid "Boneless appendage of invertebrates."
+#: items.xml:667
+msgid "Boneless appendage of an invertebrate."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:641
+#: items.xml:674
 msgid "Common Carp"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:641
-msgid "Freshwater is often infested with these pests."
+#: items.xml:674
+msgid "Freshwater is commonly inhabited by these pests."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:648
+#: items.xml:681
 msgid "Grass Carp"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:648
+#: items.xml:681
 msgid "A smart fish, very difficult to catch."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:655
+#: items.xml:688
 msgid "Fishing Rod"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:655
-msgid "Designed for sport's fishing."
+#: items.xml:688
+msgid "Designed for sports fishing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:662
+#: items.xml:695
 msgid "Fluffy Fur"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:662
+#: items.xml:695
 msgid "This soft fur is used to make warm clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:669
-msgid "Guild Certification"
+#: items.xml:702
+msgid "Clan Certification"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:669
-msgid ""
-"This piece of paper grants you the exclusive permission to create a guild."
+#: items.xml:702
+msgid "This piece of paper grants you official permission to found a clan."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:689
+#: items.xml:722
 msgid "Creased Shirt"
-msgstr "Używana koszulka"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:689
+#: items.xml:722
 msgid "A spare shirt from the crew of La Johanne."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:702
+#: items.xml:735
 msgid "%Color% V-neck Jumper"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:702
+#: items.xml:735
 msgid "A simple %color% jumper made from a lightweight cashmere."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:715
+#: items.xml:748
 msgid "%Color% Artis Tank Top"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:715
+#: items.xml:748
 msgid "A %color% tank top made from cotton cloth."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:726
+#: items.xml:759
 msgid "Sailor Shirt"
-msgstr "Koszulka marynarska"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:726
+#: items.xml:759
 msgid "Proof that ye be in the crew, matey!"
-msgstr "Dowód, że należysz do załogi!"
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:737
+#: items.xml:770
 msgid "Legion's Training Shirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:737
+#: items.xml:770
 msgid "Informal shirt worn during intense aerobic exercises."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:748
+#: items.xml:781
 msgid "Legion's Copper Armor"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:748
+#: items.xml:781
 msgid ""
 "This armor provides great protection. It is worn by those with authority."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:762
+#: items.xml:795
 msgid "Lousy Moccasins"
-msgstr "Byle Jaki Mokasyn"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:762
+#: items.xml:795
 msgid "Crudely assembled footwear not for comfort nor fashion."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:776
+#: items.xml:809
 msgid "Armbands"
-msgstr "Opaski"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:776
+#: items.xml:809
 msgid "Small armbands made of wood and iron."
-msgstr "Małe opaski zrobione z drewna i żelaza."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:788
+#: items.xml:821
 msgid "Copper Armbands"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:788
+#: items.xml:821
 msgid "Sturdy, combat-issue armbands."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:800
+#: items.xml:833
 msgid "Iron Armbands"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:800
-msgid "Heavy armbands that slow-down all but experienced warriors."
+#: items.xml:833
+msgid "Heavy armbands that slow down all but experienced warriors."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:814
+#: items.xml:847
 msgid "Creased Shorts"
-msgstr "Używane szorty"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:814
+#: items.xml:847
 msgid "Spare shorts from the crew of La Johanne."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:826
+#: items.xml:859
 msgid "Brown Trousers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:826
-msgid "Classic trousers ornamented with some fluffy fur."
+#: items.xml:859
+msgid "Classic trousers ornated with some fluffy fur."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:851
+#: items.xml:884
 msgid "Barrel"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:851
+#: items.xml:884
 msgid "It smells as if somebody used to live inside this barrel..."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:861
+#: items.xml:894
 msgid "Leather Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:861
+#: items.xml:894
 msgid "Small and round leather shield with iron reinforcement."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:872
+#: items.xml:905
 msgid "Bandana"
-msgstr "Bandana"
+msgstr "Chustka"
 
 #. (itstool) path: items/item@description
-#: items.xml:872
+#: items.xml:905
 msgid "A striped bandana worn by some sailors."
-msgstr "Pasiasta bandana noszona przez niektórych żeglarzy."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:897
+#: items.xml:930
 msgid "Pumpkin Hat"
-msgstr "Kapelusz z Dyni"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:897
-msgid "A carved pumpkin, the face will scare your enemy off."
-msgstr "Wyrzeźbiona dynia, wizerunek z pewnością przestraszy twego wroga."
+#: items.xml:930
+msgid "A carved pumpkin. Its face might scare your enemy off!"
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:908
+#: items.xml:941
 msgid "Fancy Hat"
-msgstr "Fantazyjny Kapelusz. "
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:908
+#: items.xml:941
 msgid "Worn when living away from cities."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:923
+#: items.xml:956
 msgid "Brimmed Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:923
+#: items.xml:956
 msgid "Unequip when indoors, please."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:938
+#: items.xml:971
 msgid "Brimmed Feather Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:938
-msgid "Distinguishes someone as traveling."
+#: items.xml:971
+msgid "Distinguishes someone who is traveling."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:953
+#: items.xml:986
 msgid "Brimmed Flower Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:953
+#: items.xml:986
 msgid "To wear at festivals and certain events."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:971
+#: items.xml:1004
 msgid "Shemagh"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:971
-msgid "An improved scarf used by mercenaries in tough environment."
+#: items.xml:1004
+msgid "An improved scarf used by mercenaries in tough environments."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:986
+#: items.xml:1019
 msgid "Knife"
-msgstr "Nóż"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:986
+#: items.xml:1019
 msgid "A simple, but sharp knife."
-msgstr "Niewyszukany, ale ostry nóż."
+msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1000
+#: items.xml:1033
 msgid "Piou Slayer"
-msgstr "Zabójca Piou"
+msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1000
+#: items.xml:1033
 msgid "A short sword for amateurs."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1014
+#: items.xml:1047
 msgid "Training Gladius"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1014
+#: items.xml:1047
 msgid "A short sword made for close combat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1028
+#: items.xml:1061
 msgid "Wooden Sword"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1028
+#: items.xml:1061
 msgid "For sword training. Do not show-off with it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1042
+#: items.xml:1075
 msgid "Artis Backsword"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1042
+#: items.xml:1075
 msgid "An engraved backsword with the symbole of Artis on its brass hilt."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#. (itstool) path: items/item@description
-#: items.xml:1055
+#: items.xml:1088
 msgid "Piou egg"
 msgstr ""
 
+#. (itstool) path: items/item@description
+#: items.xml:1088
+msgid "Piou egg. Not for omelettes!"
+msgstr ""
+
 #. (itstool) path: items/item@useButton
-#: items.xml:1055
+#: items.xml:1088
 msgid "Hatch"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1066
+#: items.xml:1099
 msgid "Crimson Cashmere Dye"
 msgstr ""
 
 #. (itstool) path: items/item@useButton
-#: items.xml:1066 items.xml:1075 items.xml:1084 items.xml:1093 items.xml:1102
-#: items.xml:1111 items.xml:1120 items.xml:1129 items.xml:1138 items.xml:1147
-#: items.xml:1156 items.xml:1165 items.xml:1174 items.xml:1183 items.xml:1192
-#: items.xml:1201 items.xml:1210 items.xml:1219 items.xml:1228 items.xml:1237
-#: items.xml:1246 items.xml:1255
+#: items.xml:1099 items.xml:1108 items.xml:1117 items.xml:1126 items.xml:1135
+#: items.xml:1144 items.xml:1153 items.xml:1162 items.xml:1171 items.xml:1180
+#: items.xml:1189 items.xml:1198 items.xml:1207 items.xml:1216 items.xml:1225
+#: items.xml:1234 items.xml:1243 items.xml:1252 items.xml:1261 items.xml:1270
+#: items.xml:1279 items.xml:1288
 msgid "Dye"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1066 items.xml:1075 items.xml:1084
+#: items.xml:1099 items.xml:1108 items.xml:1117
 msgid "Color dye that can be used on cashemere clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1075
+#: items.xml:1108
 msgid "Chocolate Cashmere Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1084
+#: items.xml:1117
 msgid "Mint Cashmere Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1093
+#: items.xml:1126
 msgid "Black Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1093 items.xml:1102 items.xml:1111 items.xml:1120 items.xml:1129
-#: items.xml:1138 items.xml:1147 items.xml:1156 items.xml:1165 items.xml:1174
-#: items.xml:1183 items.xml:1192 items.xml:1201 items.xml:1210 items.xml:1219
-#: items.xml:1228 items.xml:1237 items.xml:1246 items.xml:1255
+#: items.xml:1126 items.xml:1135 items.xml:1144 items.xml:1153 items.xml:1162
+#: items.xml:1171 items.xml:1180 items.xml:1189 items.xml:1198 items.xml:1207
+#: items.xml:1216 items.xml:1225 items.xml:1234 items.xml:1243 items.xml:1252
+#: items.xml:1261 items.xml:1270 items.xml:1279 items.xml:1288
 msgid "Color dye that can be used on cotton clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1102
+#: items.xml:1135
 msgid "Silver Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1111
+#: items.xml:1144
 msgid "Camel Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1120
+#: items.xml:1153
 msgid "Brown Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1129
+#: items.xml:1162
 msgid "Orange Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1138
+#: items.xml:1171
 msgid "Dark Red Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1147
+#: items.xml:1180
 msgid "Red Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1156
+#: items.xml:1189
 msgid "Fuchsia Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1165
+#: items.xml:1198
 msgid "Pink Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1174
+#: items.xml:1207
 msgid "Mauve Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1183
+#: items.xml:1216
 msgid "Purple Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1192
+#: items.xml:1225
 msgid "Navy Blue Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1201
+#: items.xml:1234
 msgid "Blue Gray Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1210
+#: items.xml:1243
 msgid "Blue Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1219
+#: items.xml:1252
 msgid "Teal Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1228
+#: items.xml:1261
 msgid "Green Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1237
+#: items.xml:1270
 msgid "Lime Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1246
+#: items.xml:1279
 msgid "Khaki Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1255
+#: items.xml:1288
 msgid "Yellow Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1268
+#: items.xml:1305
 msgid "Wooden Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1268 items.xml:1279
+#: items.xml:1305 items.xml:1316
 msgid "For bow training. Does not seem much reliable."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1279
+#: items.xml:1316
 msgid "Training Arrow"
 msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:8
 msgid "Kitty"
-msgstr ":3"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:9
 msgid "xD"
-msgstr "xD"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:10
 msgid "^.^"
-msgstr "^.^"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:11
 msgid "Heart eye"
-msgstr "♥.♥"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:12
 msgid "Gold eye"
-msgstr "$.$"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:13
 msgid "Sleepy"
-msgstr "Senny"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:14
 msgid "u.u"
-msgstr "u.u"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:15
 msgid "-.-'"
-msgstr "-.-'"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:16
@@ -2096,77 +2221,77 @@ msgstr ""
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:17
 msgid "Dead"
-msgstr "Śmierć"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:18
 msgid "Look away"
-msgstr "Odsuwa wzrok"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:20
 msgid "Palmhead"
-msgstr "Facepalm"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:22
 msgid "Angry"
-msgstr "Wściekłość"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:23
 msgid "Purple Sad"
-msgstr "Foch"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:24
 msgid "Insult Buble"
-msgstr "Ty &$%#!!!"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:25
 msgid "Heart"
-msgstr "Serduszko"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:26
 msgid "Emote"
-msgstr "Emotki"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:29
 msgid "Epic"
-msgstr "Wspaniały dodatek do potraw."
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:30
 msgid "Bad geek"
-msgstr "Nerdzik"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:31
 msgid "Mimi"
-msgstr "Ojejciu"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:32
 msgid "Alien"
-msgstr "Beavis"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:33
 msgid "Troll"
-msgstr "Trollface"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:34
 msgid "Metal"
-msgstr "Metal"
+msgstr ""
 
 #. (itstool) path: emote/sprite@name
 #: tmp/manaplus_emotes.xml:35
 msgid "Crying"
-msgstr "Płacz"
+msgstr ""
 
 #. (itstool) path: properties/property@value
 #: ../../client-data/maps/000-0-0.tmx:9 ../../client-data/maps/000-0-1.tmx:9
@@ -2291,13 +2416,18 @@ msgstr ""
 #: ../../client-data/maps/001-2-34.tmx:8 ../../client-data/maps/001-2-35.tmx:9
 #: ../../client-data/maps/001-2-36.tmx:9 ../../client-data/maps/001-2-37.tmx:8
 #: ../../client-data/maps/001-2-38.tmx:8 ../../client-data/maps/001-2-39.tmx:8
-#: ../../client-data/maps/001-2-40.tmx:9 ../../client-data/maps/001-2-41.tmx:8
+#: ../../client-data/maps/001-2-40.tmx:8 ../../client-data/maps/001-2-41.tmx:8
 msgid "unnamed"
 msgstr ""
 
 #. (itstool) path: properties/property@value
 #: ../../client-data/maps/001-2-33.tmx:8
 msgid "Legion of Aemil Headquarters"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/001-2-42.tmx:8
+msgid "Docks Warehouse Second Level"
 msgstr ""
 
 #. (itstool) path: properties/property@value
@@ -2325,6 +2455,78 @@ msgstr ""
 msgid "Right Wing"
 msgstr ""
 
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/001-3-0.tmx:8
+msgid "Sewer"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/001-3-1.tmx:8
+msgid "Rivercave"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-1.tmx:6
+msgid "Hurnscald"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-0.tmx:6
+msgid "Chez Celestia"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-10.tmx:6 ../../client-data/maps/008-2-11.tmx:6
+msgid "Hurnscald City Hall"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-12.tmx:6 ../../client-data/maps/008-2-13.tmx:6
+#: ../../client-data/maps/008-2-14.tmx:6
+msgid "Hurnscald Clinic"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-1.tmx:6
+msgid "Merchant Guild"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-2.tmx:6 ../../client-data/maps/008-2-3.tmx:6
+#: ../../client-data/maps/008-2-4.tmx:6 ../../client-data/maps/008-2-5.tmx:6
+msgid "The Rusty Pick"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-6.tmx:6
+msgid "Two Guys One Bed"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-7.tmx:6
+msgid "Hurnscald Apothecary"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-8.tmx:6
+msgid "Hurnscald Forge"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/008-2-9.tmx:6
+msgid "Jack's Abode"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/testbg.tmx:4
+msgid "testbg"
+msgstr ""
+
+#. (itstool) path: properties/property@value
+#: ../../client-data/maps/test.tmx:5
+msgid "test"
+msgstr ""
+
 #. (itstool) path: mercenaries/mercenary@name
 #: mercenaries.xml:27
 msgid "merc"
@@ -2333,27 +2535,27 @@ msgstr ""
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:27
 msgid "Piousse"
-msgstr "Piousek w skorupce"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:37
 msgid "Tortuga"
-msgstr "Tortuga"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:46
 msgid "Ratto"
-msgstr "Szczurzydło"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:55
 msgid "Croc"
-msgstr "Kłap"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:65
 msgid "Little Blub"
-msgstr "Mały Bryłek"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:72
@@ -2368,12 +2570,12 @@ msgstr ""
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:86
 msgid "Crocotree"
-msgstr "Krokodrzewo"
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:93
 msgid "Plushroom Field"
-msgstr "Pole Plushroom."
+msgstr ""
 
 #. (itstool) path: monsters/monster@name
 #: monsters.xml:100
@@ -2406,11 +2608,6 @@ msgid "Crafty"
 msgstr ""
 
 #. (itstool) path: monsters/monster@name
-#: monsters.xml:148
-msgid "Pumpkish"
-msgstr ""
-
-#. (itstool) path: monsters/monster@name
 #: monsters.xml:153
 msgid "Cuco"
 msgstr ""
@@ -2431,73 +2628,74 @@ msgid "Mouboo"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:16
+#: npcs.xml:17
 msgid "Take"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:21 npcs.xml:26 npcs.xml:31 npcs.xml:40 npcs.xml:45 npcs.xml:50
-#: npcs.xml:55 npcs.xml:62 npcs.xml:69 npcs.xml:74 npcs.xml:79 npcs.xml:84
-#: npcs.xml:89 npcs.xml:94 npcs.xml:103 npcs.xml:110 npcs.xml:117 npcs.xml:122
-#: npcs.xml:127 npcs.xml:132 npcs.xml:137 npcs.xml:142 npcs.xml:147
-#: npcs.xml:152 npcs.xml:157 npcs.xml:162 npcs.xml:167 npcs.xml:172
-#: npcs.xml:177 npcs.xml:182 npcs.xml:187 npcs.xml:192 npcs.xml:197
-#: npcs.xml:202 npcs.xml:207 npcs.xml:212 npcs.xml:218 npcs.xml:223
-#: npcs.xml:228 npcs.xml:233 npcs.xml:238 npcs.xml:243 npcs.xml:248
-#: npcs.xml:255 npcs.xml:261 npcs.xml:266 npcs.xml:271 npcs.xml:276
-#: npcs.xml:281 npcs.xml:286 npcs.xml:296 npcs.xml:302 npcs.xml:307
-#: npcs.xml:312 npcs.xml:318 npcs.xml:323 npcs.xml:329 npcs.xml:344
-#: npcs.xml:350 npcs.xml:374 npcs.xml:379 npcs.xml:384 npcs.xml:389
-#: npcs.xml:399 npcs.xml:404 npcs.xml:409 npcs.xml:414 npcs.xml:425
-#: npcs.xml:436 npcs.xml:447 npcs.xml:458 npcs.xml:469 npcs.xml:475
-#: npcs.xml:521 npcs.xml:530 npcs.xml:539 npcs.xml:549 npcs.xml:559
-#: npcs.xml:569 npcs.xml:576 npcs.xml:584 npcs.xml:608 npcs.xml:613
-#: npcs.xml:642 npcs.xml:646 npcs.xml:650
+#: npcs.xml:22 npcs.xml:27 npcs.xml:32 npcs.xml:41 npcs.xml:46 npcs.xml:51
+#: npcs.xml:56 npcs.xml:63 npcs.xml:70 npcs.xml:75 npcs.xml:80 npcs.xml:85
+#: npcs.xml:90 npcs.xml:95 npcs.xml:104 npcs.xml:111 npcs.xml:118 npcs.xml:123
+#: npcs.xml:128 npcs.xml:133 npcs.xml:138 npcs.xml:143 npcs.xml:148
+#: npcs.xml:153 npcs.xml:158 npcs.xml:163 npcs.xml:168 npcs.xml:173
+#: npcs.xml:178 npcs.xml:183 npcs.xml:188 npcs.xml:193 npcs.xml:198
+#: npcs.xml:203 npcs.xml:208 npcs.xml:213 npcs.xml:221 npcs.xml:226
+#: npcs.xml:231 npcs.xml:236 npcs.xml:241 npcs.xml:246 npcs.xml:251
+#: npcs.xml:259 npcs.xml:267 npcs.xml:272 npcs.xml:278 npcs.xml:283
+#: npcs.xml:288 npcs.xml:293 npcs.xml:298 npcs.xml:303 npcs.xml:313
+#: npcs.xml:319 npcs.xml:324 npcs.xml:329 npcs.xml:335 npcs.xml:340
+#: npcs.xml:346 npcs.xml:361 npcs.xml:367 npcs.xml:391 npcs.xml:396
+#: npcs.xml:401 npcs.xml:406 npcs.xml:416 npcs.xml:421 npcs.xml:426
+#: npcs.xml:431 npcs.xml:442 npcs.xml:453 npcs.xml:464 npcs.xml:475
+#: npcs.xml:486 npcs.xml:492 npcs.xml:538 npcs.xml:547 npcs.xml:556
+#: npcs.xml:566 npcs.xml:576 npcs.xml:586 npcs.xml:593 npcs.xml:601
+#: npcs.xml:625 npcs.xml:630 npcs.xml:659 npcs.xml:663 npcs.xml:667
+#: npcs.xml:671
 msgid "Talk"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:56 npcs.xml:63 npcs.xml:104 npcs.xml:577
+#: npcs.xml:57 npcs.xml:64 npcs.xml:105 npcs.xml:252 npcs.xml:594
 msgid "Buy"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:57 npcs.xml:64 npcs.xml:105 npcs.xml:578
+#: npcs.xml:58 npcs.xml:65 npcs.xml:106 npcs.xml:253 npcs.xml:595
 msgid "Sell"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:291 npcs.xml:633
+#: npcs.xml:308 npcs.xml:650
 msgid "Touch"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:357 npcs.xml:364
+#: npcs.xml:374 npcs.xml:381
 msgid "Rotate"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:369
+#: npcs.xml:386
 msgid "Launch"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:508
+#: npcs.xml:525
 msgid "Pull"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:564
+#: npcs.xml:581
 msgid "Mou"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:579
+#: npcs.xml:596
 msgid "Poke"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:595 npcs.xml:638
+#: npcs.xml:612 npcs.xml:655
 msgid "Save"
 msgstr ""
 
@@ -2509,14 +2707,14 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:9 quests.xml:19
 msgid "Abide by the Rules"
-msgstr "Przestrzegać zasad."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:10
 msgid ""
 "Before resuming your adventure and exploration, you need to register on the "
 "boarding list of the ship by signing its rules."
-msgstr "Zanim rozpoczniesz swą przygodę, musisz wpisać się na listę pokładową statku i podpisać się pod zasadami."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:12
@@ -2539,9 +2737,9 @@ msgstr ""
 #: quests.xml:16 quests.xml:40 quests.xml:86 quests.xml:98 quests.xml:122
 #: quests.xml:187 quests.xml:197 quests.xml:207 quests.xml:309 quests.xml:329
 #: quests.xml:339 quests.xml:347 quests.xml:386 quests.xml:407 quests.xml:429
-#: quests.xml:474 quests.xml:551 quests.xml:614 quests.xml:623 quests.xml:632
-#: quests.xml:650 quests.xml:668 quests.xml:677 quests.xml:697 quests.xml:719
-#: quests.xml:728
+#: quests.xml:474 quests.xml:551 quests.xml:615 quests.xml:624 quests.xml:633
+#: quests.xml:651 quests.xml:669 quests.xml:678 quests.xml:698 quests.xml:720
+#: quests.xml:729
 msgid "Unknown."
 msgstr ""
 
@@ -2550,7 +2748,7 @@ msgstr ""
 msgid ""
 "Julia told you about all the rules you have to follow during your adventure "
 "so that you behave properly with other people."
-msgstr "Julia powiedziała ci zasady jakich masz przestrzegać w czasie swoich przygód, "
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:22
@@ -2567,12 +2765,12 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:33 quests.xml:43 quests.xml:53 quests.xml:65
 msgid "Warm Smelly Clothes"
-msgstr "Ciepłe śmierdzące ubranie"
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:34
 msgid "Magic Arpan is waiting for you. Go speak to him."
-msgstr "Magiczny Arpan czeka na ciebie. Idź z nim porozmawiać."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:36
@@ -2594,14 +2792,14 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:44
 msgid "You need to open the chest and take the clothes from it."
-msgstr "Musisz otworzyć skrzynię i wziąć z niej ubrania."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:46
 msgid ""
 "To perform this action, click on the chest with your mouse or select it with"
 " the N key and then interact with it using the T key."
-msgstr "By tego dokonać, kilknij myszą na skrzynię lub wybierz ją klawiszem N a następnie dokonaj interakcji naciskając klawisz T."
+msgstr ""
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:49
@@ -2618,7 +2816,7 @@ msgstr ""
 msgid ""
 "To open your inventory, use the F3 key or use your mouse to select it in the"
 " above menu in your client."
-msgstr "Jeżeli chcesz otworzyć ekwipunek naciśnij F3 lub kursorem kliknij w powyższym menu klienta."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:56
@@ -2626,7 +2824,7 @@ msgid ""
 "When your inventory is open, you can equip an item by selecting it and "
 "clicking 'Equip'. You can do the same to remove an item by clicking on "
 "'Unequip'."
-msgstr "Jak już inwentarz zostanie otwarty, to możesz założyć przemiot zaznaczając go i wybierając opcję 'Załóż'. Analogicznie, by zdjąć ekwipunek wybierz opcję 'Zdejmij'."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:58
@@ -2639,14 +2837,14 @@ msgstr ""
 #: quests.xml:66
 msgid ""
 "You wore the clothes you found in the chest that Magic Arpan showed you."
-msgstr "Założyłeś ubranie znalezione w skrzyni, którą pokazał ci Magiczny Arpan."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:68
 msgid ""
 "They are old and a bit smelly but the warm sensation they give makes you "
 "feel at home."
-msgstr "Są stare, trochę śmierdzące, ale sprawiają że czujesz się jak w domu."
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:72
@@ -2656,21 +2854,21 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:79 quests.xml:89 quests.xml:101
 msgid "Piberries Lover"
-msgstr "Miłośnik Jagódełek."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:80
 msgid ""
 "A mysterious stowaway needs your help. He hides at the bottom level of the "
 "ship, in the storage room."
-msgstr "Tajemniczy pasażer na gapę, potrzebuje twojej pomocy. Ukrywa się w dolnym pokładzie statku, w skrytce."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:82
 msgid ""
 "It seems to be an urgent task, but he is afraid that you could be a sailor, "
 "so watch out!"
-msgstr "Wygląda to na ważne zadanie, ale obawia się, że możesz być żeglarzem więc uważaj!"
+msgstr ""
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:84 quests.xml:96 quests.xml:106 quests.xml:549 quests.xml:558
@@ -2701,7 +2899,7 @@ msgstr ""
 msgid ""
 "He is sick of eating these berries all the time. That is why he would like "
 "you to find him other kinds of food and bring them to him."
-msgstr "Jest chory od ciągłego jedzenia jagódenek. Dlatego prosi cię byś znalazł mu coś innego do jedzenia."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:102
@@ -2713,7 +2911,7 @@ msgstr ""
 msgid ""
 "It looks like he is eager of tasting new flavors. Try bringing him other "
 "types of food. He may have something to give you in exchange."
-msgstr "Wygląda na głodnego nowych smaków. Spróbuj przynieść mu coś innego, może da ci coś w zamian."
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:108
@@ -2724,7 +2922,7 @@ msgstr ""
 #: quests.xml:115 quests.xml:125 quests.xml:135 quests.xml:143 quests.xml:153
 #: quests.xml:163
 msgid "Ratto Extermination"
-msgstr "Eksterminacja Szczurzydł."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:116
@@ -2734,7 +2932,7 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:118
 msgid "Speak to him when you will have time to help him."
-msgstr "Porozmawiaj z nim kiedy będziesz miał czas mu pomóc."
+msgstr ""
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:120 quests.xml:130 quests.xml:138 quests.xml:148 quests.xml:158
@@ -2751,19 +2949,19 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:126
 msgid "Peter asked you to empty the bottom of the ship for free."
-msgstr "Peter zapytał cię czy oczyścisz dno statku za darmo"
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:128
 msgid "Maybe next time he will have something to offer you..."
-msgstr "Może następnym razem będzie miał coś dla ciebie..."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:136
 msgid ""
 "Cleaning the bottom of the ship is a tough work, but Peter is offering you "
 "some gold for it."
-msgstr "Oczyszczenie dna statku to ciężka robota, ale Peter oferuje ci za to nieco złota."
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:140 quests.xml:160 quests.xml:168
@@ -2773,47 +2971,47 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:144
 msgid "You helped Peter cleaning the bottom of the ship for free."
-msgstr "Pomogłeś Peterowi oczyścić dno statku za darmo."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:146 quests.xml:156
 msgid ""
 "However, it looks like these rattos can come back again. Later, you could "
 "ask Peter if he needs your help again."
-msgstr "Wygląda na to że szczurzydla mogą wrócić. Porozmawiaj później z Peterem czy nie potrzebuje znowu twojej pomocy."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:154
 msgid ""
 "You helped Peter cleaning the bottom of the ship. He rewarded you with some "
 "gold."
-msgstr "Pomogłeś Peterowi oczyścić dno statku. W nagrodę dostałeś nieco złota."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:164
 msgid ""
 "This time, Peter seems to have a reward for you. After you cleaned the "
 "bottom of the ship, ask him for a reward."
-msgstr "Tym razem wygląda na to że Peter ma dla ciebie nagrodę. Jak skończysz czyścić pokład porozmawiaj z nim o nagrodzie."
+msgstr ""
 
 #. (itstool) path: quest/name
 #: quests.xml:180 quests.xml:190 quests.xml:200 quests.xml:210 quests.xml:220
 msgid "One of Us"
-msgstr "Jeden z Nas."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:181
 msgid ""
 "Nard, the captain of the ship, asked you to help his crew on the island "
 "outside the ship."
-msgstr "Nard, kapitan statku poprosił cię byś pomógł jego załodze na wyspie, po za statkiem."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:183
 msgid ""
 "Gugli, one of his sailors, is waiting for you on the shore to tell you about"
 " the task."
-msgstr "Gugli jeden z marynarzy czeka na ciebie na brzegu by opowiedzieć ci o zadaniu."
+msgstr ""
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:185 quests.xml:195 quests.xml:205 quests.xml:215 quests.xml:223
@@ -2828,40 +3026,40 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:191
 msgid "You reported to Nard that you successfully accomplished Gugli's task."
-msgstr "Zgłosiłeś Nardowi że zakończyłeś zadanie od Gugliego."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:193
 msgid "As a perfect sailor, you are waiting for the next order, eagerly."
-msgstr "Jako idealny marynarz czekasz skwapliwie na następne zadanie."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:201
 msgid ""
 "Captain Nard has another task for you. It seems he did a mistake in the "
 "past, choosing the right lieutenant for this ship."
-msgstr "Kapitan Nard ma dla ciebie nowe zadanie. Wygląda na to, że popełnił w przeszłości błąd wybierając nieodpowiedniego porucznika na swoim statku."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:203
 msgid ""
 "Chef Gado, the former shipkeeper, may have something to say about that. So "
 "does Julia, the current lieutenant of the ship."
-msgstr "Szef Gado, były bosman i Julia, mogą coś o wiedzieć."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:211
 msgid ""
 "You smartly solved the lieutenants' conflict onboard. Nard is proud of his "
 "new sailor."
-msgstr "Rozwiązałeś konflikt między porucznikami na statku. Nard jest z ciebie dumny marynarzu."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:213
 msgid ""
 "Take your reward from the box near the captain in order to officially become"
 " one of Nard's crew members."
-msgstr "Weż swoją nagrodę z kufra niedaleko kapitana, by zostać oficjalnie jednym z załogi Narda."
+msgstr ""
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:216 quests.xml:224
@@ -2876,24 +3074,24 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:221
 msgid "Nard officially proclaimed you as member of his crew!"
-msgstr "Nard oficjalnie przyjął cię do załogi!"
+msgstr ""
 
 #. (itstool) path: quest/name
 #: quests.xml:231
 msgid "Chef's Secret Blade"
-msgstr "Sekretne Ostrze Szefa"
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:232
 msgid "You found a sharp knife on a table in one of the rooms of the ship."
-msgstr "Znalazłeś ostry nóż na stole w jednym z pomieszczeń statku."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:234
 msgid ""
 "It looks like its previous owner used it to prepare delicious dishes for the"
 " crew."
-msgstr "Wygląda na to, że poprzedni właściciel użył go do przygotowania przepysznych potraw dla załogi."
+msgstr ""
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:236
@@ -2908,19 +3106,19 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:244 quests.xml:254
 msgid "Fish and Scams"
-msgstr "Ryby i Oszustwa."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:245
 msgid "A sailor, who wasn't on Gugli's list, gave you a box full of food."
-msgstr "Marynarz, który nie był na liście Gugliego, dał ci skrzynię pełną jedzenia."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:247
 msgid ""
 "He did not mention any reward, but he would like you to deliver it to Gugli "
 "as soon as you can."
-msgstr "Nie wspomniał o jakiejkolwiek nagrodzie, ale poprosił byś dostarczył tę skrzynię Gugliemu najszybciej jak tylko potrafisz."
+msgstr ""
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:249 quests.xml:261
@@ -2935,24 +3133,24 @@ msgstr ""
 #. (itstool) path: quest/reward
 #: quests.xml:251
 msgid "Reward: Unknown."
-msgstr "Nagroda: Nieznana."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:255
 msgid "Couwan is an awful, roguish person. No reward from him..."
-msgstr "Couwan jest straszny i szujowaty. Nie ma nagrody od niego..."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:257
 msgid ""
 "However, Gugli gave you some gold pieces and apologized for this unexpected "
 "task."
-msgstr "Jednakże, Gugli dał ci nieco złota i przeprosił za te nieoczekiwane zadanie."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:259
 msgid "He also warned you not to trust anyone."
-msgstr "Ostrzegł Cię również, byś nie ufał nikomu."
+msgstr ""
 
 #. (itstool) path: quest/coordinates
 #: quests.xml:262
@@ -2967,14 +3165,14 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:269
 msgid "Treasure's Glint"
-msgstr "Migot skarbu"
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:270
 msgid ""
 "You spotted a treasure chest at the top of a cliff on the east side of the "
 "island."
-msgstr "Zauważyłeś skrzynię ze skarbem na szczycie klifu w wschodniej części wyspy."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:272
@@ -2994,7 +3192,7 @@ msgstr ""
 #. (itstool) path: quest/name
 #: quests.xml:300 quests.xml:312
 msgid "Unexpected Help"
-msgstr "Nieoczekiwana pomoc."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:301
@@ -3008,14 +3206,14 @@ msgstr ""
 msgid ""
 "You need to collect the boxes from Tibbo, Gulukan, Q'Muller, Astapolos, "
 "Jalad and Ale."
-msgstr "Musisz zebrać pudła od  Tibbo, Gulukan, Q'Muller, Astapolos, Jalad i Ale."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:305
 msgid ""
 "Max, Silvio and Lean may have some information about where to find these "
 "sailors."
-msgstr "Max, Silvio i Lean mogą mieć jakieś informacje gdzie znaleźć pozostałych marynarzy."
+msgstr ""
 
 #. (itstool) path: quest/questgiver
 #: quests.xml:307 quests.xml:315
@@ -3027,7 +3225,7 @@ msgstr ""
 msgid ""
 "You completed all the tasks Gugli gave you. Sailors of the ship will never "
 "forget you!"
-msgstr "Zakończyłeś wszystkie zadania jakie Gugli ci zlecił. Żeglarze nigdy cię nie zapomną!"
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:317
@@ -3038,7 +3236,7 @@ msgstr ""
 #: quests.xml:324 quests.xml:332 quests.xml:342 quests.xml:350 quests.xml:358
 #: quests.xml:366
 msgid "Two Lieutenants in One Boat"
-msgstr "Dwaj porucznicy na jednej łodzi."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:325
@@ -3069,17 +3267,17 @@ msgstr ""
 msgid ""
 "While Chef Gado wants you to poison Julia, you remember she looked after you"
 " when you were sick. She doesn't deserve to be punished... or does she?"
-msgstr "Kiedy Szef Gado chce byś otruł Julię, przypominasz sobie że to ona opiekowała się tobą kiedy byłeś chory. Ona nie zasługuje na by ją tak potraktować... a może jednak ?"
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:343
 msgid "Go back and talk to Gado. He probably has a reward for you."
-msgstr "Wróć i porozmawiaj z Gado. Prawdopodobnie ma dla ciebie nagrodę."
+msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:351
 msgid "You successfully poisoned Julia. Chef Gado finally had his revenge!"
-msgstr "Udało Ci się otruć Julię. Szef Gado ma wreszcie swoją zemstę !"
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:355
@@ -3089,7 +3287,7 @@ msgstr ""
 #. (itstool) path: quest/text
 #: quests.xml:359
 msgid "You refused to accomplish Chef Gado's evil plan. Julia is now safe."
-msgstr "Odmówiłeś wykonania niecnego planu Szefa Gado. Julia jest teraz bezpieczna."
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:363
@@ -3101,7 +3299,7 @@ msgstr ""
 msgid ""
 "You preferred trusting Julia because, after all, she deserves to be the "
 "lieutenant of the ship."
-msgstr "Wybrałeś zaufanie Juli ponieważ, mimo wszystko, zasługuje na to by być porucznikiem na statku."
+msgstr ""
 
 #. (itstool) path: quest/reward
 #: quests.xml:371
@@ -3489,292 +3687,332 @@ msgid "Bring him some {@@1}s and he will be able to do it for you."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:608 quests.xml:617 quests.xml:626 quests.xml:635 quests.xml:644
-#: quests.xml:653 quests.xml:662 quests.xml:671 quests.xml:680 quests.xml:689
-#: quests.xml:700
+#: quests.xml:609 quests.xml:618 quests.xml:627 quests.xml:636 quests.xml:645
+#: quests.xml:654 quests.xml:663 quests.xml:672 quests.xml:681 quests.xml:690
+#: quests.xml:701
 msgid "Newby Quest"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:609
+#: quests.xml:610
 msgid "You are charged to visit Chelios and bring back Enora's package."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:610
+#: quests.xml:611
 msgid "Chelios is reachable at the Blacksmith Shop (95,109)."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:612 quests.xml:639 quests.xml:648 quests.xml:657 quests.xml:666
-#: quests.xml:675 quests.xml:684 quests.xml:695 quests.xml:703
+#: quests.xml:613 quests.xml:640 quests.xml:649 quests.xml:658 quests.xml:667
+#: quests.xml:676 quests.xml:685 quests.xml:696 quests.xml:704
 msgid "Enora"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:613 quests.xml:640 quests.xml:649 quests.xml:658 quests.xml:667
-#: quests.xml:676 quests.xml:685 quests.xml:696 quests.xml:704
+#: quests.xml:614 quests.xml:641 quests.xml:650 quests.xml:659 quests.xml:668
+#: quests.xml:677 quests.xml:686 quests.xml:697 quests.xml:705
 msgid "Artis, Docks. (176,113)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:618
+#: quests.xml:619
 msgid "Chelios asked you to bring him some black iron"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:619
+#: quests.xml:620
 msgid "You should look for Lloyd in the Merchant Hall (100,37)."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:621 quests.xml:630
+#: quests.xml:622 quests.xml:631
 msgid "Chelios"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:622 quests.xml:631
+#: quests.xml:623 quests.xml:632
 msgid "Artis, Blacksmith Shop. (95,109)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:627
+#: quests.xml:628
 msgid "Lloyd gave you the black iron package."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:628
+#: quests.xml:629
 msgid "Bring it back to Chelios."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:636
+#: quests.xml:637
 msgid "Chelios made a sword out of black iron ore."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:637 quests.xml:655
+#: quests.xml:638 quests.xml:656
 msgid "This task is done, you can now return it to Enora."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:641
+#: quests.xml:642
 msgid "60 EXP, 100 E."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:645
+#: quests.xml:646
 msgid "You are charged to visit Resa and to bring back Enora's package."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:646
+#: quests.xml:647
 msgid "Resa is reachable at the Light Armor building (55,72)."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:654
+#: quests.xml:655
 msgid "Resa gave you a cute {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:659
+#: quests.xml:660
 msgid "40 EXP, 125 E."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:663
+#: quests.xml:664
 msgid "You are charged to visit Q'Pid and bring back Enora's package."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:664
+#: quests.xml:665
 msgid ""
 "Q'Pid is reachable at the Market Place, in the south-west area of Artis "
 "(61,116)."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:672
+#: quests.xml:673
 msgid ""
 "You lost the riddle of Q'Pid, you have to go to Ivan to get Enora's potions."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:673
+#: quests.xml:674
 msgid "Ivan is in a small house near Artis's canal (163,71)."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:681
-msgid "Ivan gave you some {@@1}."
+#: quests.xml:682
+msgid "Ivan gave you a few {@@1}s."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:682
+#: quests.xml:683
 msgid "This task is done, you can now return them to Enora."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:686
+#: quests.xml:687
 msgid "80 EXP, 175 E."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:690
+#: quests.xml:691
 msgid ""
 "Some citizen worry about their safety with the growing number of Fluffy on "
 "the Hill of Artis."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:691
+#: quests.xml:692
 msgid "Enora's latest task for you is to clean up this hill."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:692
+#: quests.xml:693
 msgid ""
 "Killing about 10 Fluffy should be enough to calm down the neighborhood."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:693
+#: quests.xml:694
 msgid "The hill is located on north-east of Artis (172,46)."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:701
+#: quests.xml:702
 msgid ""
 "You completed every task and you even cleaned up the hill of these terrible "
 "Fluffies."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:705
+#: quests.xml:706
 msgid "{@@1}, {@@2}, 5 {@@3}s"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:706
+#: quests.xml:707
 msgid "140 EXP, 500 E."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:714 quests.xml:722 quests.xml:731
+#: quests.xml:715 quests.xml:723 quests.xml:732
 msgid "Fexil's Free Pass"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:715
+#: quests.xml:716
 msgid ""
 "Lloyd gave you a pass that Fexil forgot when he registered himself in the "
 "Merchant Guild."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:717 quests.xml:747
+#: quests.xml:718 quests.xml:748
 msgid "Lloyd"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:718 quests.xml:748
+#: quests.xml:719 quests.xml:749
 msgid "Artis, Merchant Guild. (101,37)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:723 quests.xml:732
+#: quests.xml:724 quests.xml:733
 msgid "Fexil wants to open a business of {@@1}'s clothes."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:724
+#: quests.xml:725
 msgid "He will reward you for each fur you bring him."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:726 quests.xml:735
+#: quests.xml:727 quests.xml:736
 msgid "Fexil"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:727 quests.xml:736
+#: quests.xml:728 quests.xml:737
 msgid "Artis, Market Place. (48,134)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:733
+#: quests.xml:734
 msgid "He rewards you for each fur you bring him."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:737
+#: quests.xml:738
 msgid "15 per {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:743
+#: quests.xml:744
 msgid "Worship of Money"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:744
+#: quests.xml:745
 msgid "You are now registered in the Merchant Guild."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:745
+#: quests.xml:746
 msgid "This Guild offers storage and bank services."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:749
+#: quests.xml:750
 msgid "Merchant Guild access."
+msgstr ""
+
+#. (itstool) path: quest/name
+#: quests.xml:756
+msgid "Testing quest name with var1={@@var1}"
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:757
+msgid "Quest text1 with vars: {@@var1}, {@@var2}, {@@var3}"
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:758
+msgid "Time: {@@time}"
+msgstr ""
+
+#. (itstool) path: quest/questgiver
+#: quests.xml:759
+msgid "Giver vars: {@@var1}, {@@var2}, {@@var3}"
+msgstr ""
+
+#. (itstool) path: quest/coordinates
+#: quests.xml:760
+msgid "Vars: {@@var1}, {@@var2}, {@@var3}"
+msgstr ""
+
+#. (itstool) path: quest/reward
+#: quests.xml:761
+msgid "Reward: {@@var1}, {@@var2}, {@@var3}"
 msgstr ""
 
 #. (itstool) path: skills/set@name
 #. (itstool) path: set/skill@name
-#: skills.xml:6 skills.xml:12
+#: skills.xml:6 skills.xml:12 skills.xml:45
 msgid "Basic"
-msgstr "Podstawowe"
+msgstr ""
 
 #. (itstool) path: set/skill@description
 #: skills.xml:12
-msgid "Allow do basic things."
+msgid "Allow do basic things like sitting, smiling or trading."
 msgstr ""
 
 #. (itstool) path: set/skill@name
-#: skills.xml:21
+#: skills.xml:23
 msgid "Fire ball"
 msgstr ""
 
 #. (itstool) path: set/skill@description
-#: skills.xml:21
+#: skills.xml:23
 msgid "Attack enemy with fireball."
 msgstr ""
 
 #. (itstool) path: set/skill@name
-#: skills.xml:27
+#: skills.xml:30
 msgid "Mass provoke"
 msgstr ""
 
 #. (itstool) path: set/skill@description
-#: skills.xml:27
+#: skills.xml:30
 msgid "Allow provoke many monsters."
 msgstr ""
 
 #. (itstool) path: set/skill@name
-#: skills.xml:32
+#: skills.xml:36
 msgid "Magic shield"
 msgstr ""
 
 #. (itstool) path: set/skill@description
-#: skills.xml:32
+#: skills.xml:36
 msgid "Allow protect from magic attacks."
 msgstr ""
 
 #. (itstool) path: skills/set@name
-#: skills.xml:34
+#: skills.xml:38
+msgid "Offensive"
+msgstr ""
+
+#. (itstool) path: set/skill@description
+#: skills.xml:45
+msgid "A violent punch."
+msgstr ""
+
+#. (itstool) path: skills/set@name
+#: skills.xml:47
 msgid "Other"
 msgstr ""
 
@@ -3782,13 +4020,28 @@ msgstr ""
 #. (itstool) path: set/skill@name
 #. #-#-#-#-#  skillunits.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: skillunits/skillunit@name
-#: skills.xml:39 skillunits.xml:19
+#: skills.xml:52 skillunits.xml:19
 msgid "Grafiti"
 msgstr ""
 
 #. (itstool) path: set/skill@description
-#: skills.xml:39
+#: skills.xml:52
 msgid "Draw text on ground."
+msgstr ""
+
+#. (itstool) path: skills/set@name
+#: skills.xml:54
+msgid "Restricted"
+msgstr ""
+
+#. (itstool) path: set/skill@name
+#: skills.xml:59
+msgid "Super Menu"
+msgstr ""
+
+#. (itstool) path: set/skill@description
+#: skills.xml:59
+msgid "Gives access to all debug and administrative options"
 msgstr ""
 
 #. (itstool) path: skillunits/skillunit@name
@@ -4257,201 +4510,231 @@ msgid "equip arrows"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:241
+#: status-effects.xml:238
+msgid "clan info"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:242
+msgid "swords clan"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:246
+msgid "archwand clan"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:250
+msgid "golden mace clan"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:254
+msgid "cross bow clan"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:258
+msgid "daily send mail count"
+msgstr ""
+
+#. (itstool) path: status-effects/status-effect@name
+#: status-effects.xml:265
 msgid "spell-protection"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:247
+#: status-effects.xml:271
 msgid "sight"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:252
+#: status-effects.xml:276
 msgid "cart 1"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:262
+#: status-effects.xml:286
 msgid "invisible"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:267
+#: status-effects.xml:291
 msgid "cart 2"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:272
+#: status-effects.xml:296
 msgid "cart 3"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:277
+#: status-effects.xml:301
 msgid "cart 4"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:282
+#: status-effects.xml:306
 msgid "cart 5"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:287
+#: status-effects.xml:311
 msgid "orcish"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:292
+#: status-effects.xml:316
 msgid "wedding"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:297
+#: status-effects.xml:321
 msgid "ruwach"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:302
+#: status-effects.xml:326
 msgid "chase walk"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:307
+#: status-effects.xml:331
 msgid "flying"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:312
+#: status-effects.xml:336
 msgid "xmas"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:317
+#: status-effects.xml:341
 msgid "transform"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:322
+#: status-effects.xml:346
 msgid "summer"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:327
+#: status-effects.xml:351
 msgid "dragon 1"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:332
+#: status-effects.xml:356
 msgid "wug"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:337
+#: status-effects.xml:361
 msgid "wug rider"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:342
+#: status-effects.xml:366
 msgid "mado gear"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:347
+#: status-effects.xml:371
 msgid "dragon 2"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:352
+#: status-effects.xml:376
 msgid "dragon 3"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:357
+#: status-effects.xml:381
 msgid "dragon 4"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:362
+#: status-effects.xml:386
 msgid "dragon 5"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:367
+#: status-effects.xml:391
 msgid "hanbok"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:372
+#: status-effects.xml:396
 msgid "oktoberfest"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:378 status-effects.xml:398
+#: status-effects.xml:402 status-effects.xml:422
 msgid "stone"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:383
+#: status-effects.xml:407
 msgid "freeze"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:388
+#: status-effects.xml:412
 msgid "stun"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:393
+#: status-effects.xml:417
 msgid "sleep"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:403
+#: status-effects.xml:427
 msgid "burning"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:408
+#: status-effects.xml:432
 msgid "imprison"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:413
+#: status-effects.xml:437
 msgid "crystalize"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:422
+#: status-effects.xml:446
 msgid "poison"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:427
+#: status-effects.xml:451
 msgid "curse"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:432
+#: status-effects.xml:456
 msgid "silence"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:437
+#: status-effects.xml:461
 msgid "signum crucis"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:442
+#: status-effects.xml:466
 msgid "blind"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:447
+#: status-effects.xml:471
 msgid "dpoison"
 msgstr ""
 
 #. (itstool) path: status-effects/status-effect@name
-#: status-effects.xml:452
+#: status-effects.xml:476
 msgid "fear"
 msgstr ""
