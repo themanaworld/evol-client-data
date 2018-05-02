@@ -313,6 +313,13 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
 	<monster id="1066" name="Log Head" targetCursor="medium">
         <sprite>monsters/loghead.xml</sprite>
+        <sound event="die">monsters/loghead/logheaddie.ogg</sound>
+        <sound event="hit">monsters/loghead/logheadhit.ogg</sound>
+        <sound event="hurt">monsters/loghead/logheadhurt.ogg</sound>
+        <sound event="hurt">monsters/loghead/logheadhurt2.ogg</sound>
+        <sound event="hurt">monsters/loghead/logheadhurt3.ogg</sound>
+        <sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
+        <sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
     </monster>
 	<monster id="1067" name="Fire Goblin" targetCursor="medium">
         <sprite>monsters/firegoblin.xml</sprite>
