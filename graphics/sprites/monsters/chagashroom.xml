@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid Saulc
+Copyright (C) 2018 TMW2 -->
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/chagashroom.png"
+              width="64"
+              height="64"
+              offsetY="19"/>
+
+    <action name="spawn" imageset="mob">
+        <animation direction="default">
+            <!-- Growing Animation -->
+            <sequence start="0" end="4" delay="120"/>
+            <sequence start="5" end="6" delay="90"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <!-- Static -->
+            <frame index="7"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation>
+            <!-- Retreat Animation -->
+            <sequence start="8" end="13" delay="120"/>
+            <frame index="14"/>
+        </animation>
+    </action>
+</sprite>
