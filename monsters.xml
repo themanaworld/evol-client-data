@@ -609,5 +609,12 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
         <sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
     </monster>
+        <monster id="1128" name="Chagashroom Field" targetCursor="large" sortOffsetY="70">
+        <sprite>monsters/chagashroom.xml</sprite>
+        <sound event="die">monsters/mushroom/die1.ogg</sound>
+        <sound event="die">monsters/mushroom/die2.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+    </monster>
 
 </monsters>
