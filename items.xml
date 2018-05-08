@@ -4151,14 +4151,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="2988"
         image="equipment/head/admcap.png"
         name="GM Cap"
-        description="A cap which identifies you as a ADMIN. Only administrator's can wear this."
+        description="A cap which identifies you as an ADMIN. Only administrator's can wear this."
         defense="100"
         type="equip-head">
         <sprite>equipment/head/admcap.xml</sprite>
         <replace sprite="hair">
-    <item from="-5" to="-4"/>
-    <item from="-14" to="-9"/>
-    <item from="-15" to="-19"/>
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
         </replace>
     </item>
 
@@ -4310,7 +4310,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/weapons/woodensword.png"
         name="Wooden Sword"
         description="For sword training. Do not show-off with it."
-        attack="130"
+        attack="132"
         attack-range="1"
         level="20"
         type="equip-1hand"
