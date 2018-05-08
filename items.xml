@@ -4161,6 +4161,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>
+        <item id="2988"
+        image="equipment/head/devcap.png"
+        name="DEV Cap"
+        description="A cap which identifies you as a DEV. Only developer's can wear this."
+        defense="40"
+        type="equip-head">
+        <sprite>equipment/head/admcap.xml|#9999ff</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
 
     <!-- Neck Armors -->
     <item id="3200"
