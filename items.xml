@@ -2651,10 +2651,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/chest/gmrobe.png"
         name="GM Robe"
         description="A GM robe."
-        defense="1"
-        level="1"
+        defense="50"
         type="equip-torso"
-        weight="1"
         colors="simple"
         maxFloorOffset="10">
         <sprite gender="unisex">equipment/chest/gmrobe-male.xml</sprite>
@@ -3888,9 +3886,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="2933"
         image="equipment/head/gmcap.png"
         name="GM Cap"
-        description="A cap which identifies you as a GM. Only GMs can wear this."
-        defense="1"
-        level="1"
+        description="A cap which identifies you as a GM. Only Game Master's can wear this."
+        defense="50"
         type="equip-head"
         weight="1">
         <sprite>equipment/head/gmcap.xml</sprite>
