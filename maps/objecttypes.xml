@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objecttypes>
- <objecttype name="warp" color="#00ff00">
+ <objecttype name="anchor" color="#ffff00"/>
+ <objecttype name="MUSIC" color="#5555ff"/>
+ <objecttype name="save" color="#ff0000">
+  <property name="inn" type="string" default="CURRENT_INN"/>
+ </objecttype>
+ <objecttype name="spawn" color="#aa007f">
+  <property name="death" type="string"/>
+  <property name="max_beings" type="string"/>
+  <property name="spawn" type="string"/>
+ </objecttype>
+ <objecttype name="warp" color="#55ff00">
   <property name="dest_map" type="string"/>
   <property name="dest_x" type="string"/>
   <property name="dest_y" type="string"/>
-  <property name="npc_id" type="string" default="WARP"/>
-  <property name="trigger_x" type="string"/>
-  <property name="trigger_y" type="string"/>
- </objecttype>
- <objecttype name="spawn" color="#ff0000">
-  <property name="death" type="string"/>
-  <property name="max_beings" type="string"/>
-  <property name="monster_id" type="string"/>
-  <property name="spawn" type="string"/>
- </objecttype>
- <objecttype name="save" color="#ffff00">
-  <property name="inn" type="string"/>
  </objecttype>
 </objecttypes>
