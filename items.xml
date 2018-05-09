@@ -2392,7 +2392,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/chest/cottonshirt.png|S:#3c3c3c,3e3c38,4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Creased Shirt"
         description="A spare shirt from the crew of La Johanne."
-        defense="15"
+        defense="12"
         level="1"
         type="equip-torso"
         weight="17">
@@ -2577,8 +2577,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="%Color% Silk Robe"
         description="A light and shimmering %Color%  silk robe."
         effect="SP +30"
-        defense="15"
-        level="15"
+        defense="40"
+        level="20"
         type="equip-torso"
         weight="25"
         colors="simple"
@@ -2641,7 +2641,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Candor Shirt"
         description="A classical Candor shirt"
         defense="20"
-        level="3"
+        level="4"
         type="equip-torso"
         weight="35">
         <sprite gender="unisex">equipment/chest/candorshirt-male.xml</sprite>
@@ -2720,8 +2720,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
         name="Lousy Moccasins"
         description="Crudely assembled footwear not for comfort nor fashion."
-        defense="5"
-        level="1"
+        defense="10"
+        level="10"
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
@@ -2756,8 +2756,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/feet/candorboots.png"
         name="Candor Boots"
         description="A Candor favorite"
-        defense="10"
-        level="3"
+        defense="6"
+        level="7"
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
@@ -2780,8 +2780,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/feet/cottonboots.png"
         name="Cotton Boots"
         description="A pair of quality cotton boots."
-        defense="10"
-        level="3"
+        defense="12"
+        level="14"
         type="equip-feet"
         weight="18"
         maxFloorOffset="8">
@@ -2852,8 +2852,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/feet/tulimsharguardboots.png"
         name="Tulimshar Guard Boots"
         description="These boots are made from dock skins! Whatever that means."
-        defense="14"
-        level="12"
+        defense="16"
+        level="18"
         type="equip-feet"
         weight="35"
         maxFloorOffset="8">
@@ -3064,7 +3064,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
         name="Creased Shorts"
         description="Spare shorts from the crew of La Johanne."
-        defense="15"
+        defense="10"
         level="1"
         type="equip-legs"
         weight="20"
@@ -3123,7 +3123,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Cotton Shorts"
         description="Shorts made of 100% cotton."
         defense="25"
-        level="15"
+        level="13"
         type="equip-legs"
         weight="55"
         maxFloorOffset="8">
@@ -3544,8 +3544,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/head/brimmedhat.png"
         name="Brimmed Hat"
         description="Unequip when indoors, please."
-        defense="100"
-        level="8"
+        defense="55"
+        level="33"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/brimmedhat.xml</sprite>
@@ -3719,8 +3719,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/head/deserthat.png|W"
         name="%Color% Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
-        defense="35"
-        level="12"
+        defense="40"
+        level="25"
         type="equip-head"
         weight="20"
         colors="simple"
@@ -4119,7 +4119,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Green Eggshell Hat"
         description="A novelty hat shaped like an eggshell half."
         defense="55"
-        level="20"
+        level="23
         type="equip-head"
         weight="460">
         <sprite>equipment/head/eggshellhat.xml|#2A9409,70BA59,ACF696</sprite>
@@ -4139,7 +4139,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Dark Eggshell Hat"
         description="A novelty dark hat shaped like an eggshell half."
         defense="60"
-        level="25"
+        level="30"
         effect="Defense +15 during Easter"
         type="equip-head"
         weight="460">
