@@ -166,6 +166,9 @@ Copyright (C) 2018 TMW2 -->
     <map name="011-1.tmx">
         <atlas name="cave2"/>
     </map>
+    <map name="011-2.tmx">
+        <atlas name="woodcave"/>
+    </map>
     <map name="botcheck.tmx">
         <atlas name="botcheck"/>
     </map>
@@ -359,6 +362,17 @@ Copyright (C) 2018 TMW2 -->
     <atlas name="cave">
         <file name="graphics/tilesets/cave.png"/>
         <file name="graphics/tilesets/cave_x2.png"/>
+    </atlas>
+    
+    <atlas name="woodcave">
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/cave_x2.png"/>
+        <file name="graphics/tilesets/cave_bilevel.png"/>
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/woodland_x4.png"/>
+        <file name="graphics/tilesets/woodland_x5.png"/>
+        <file name="graphics/tilesets/woodland_x5_fall.png"/>
     </atlas>
 
     <atlas name="cave2">
