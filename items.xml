@@ -4158,7 +4158,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>
-        <item id="2989"
+    <item id="2989"
         image="equipment/head/devcap.png"
         name="DEV Cap"
         description="A cap which identifies you as a DEV. Only developer's can wear this."
@@ -4171,7 +4171,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>
-        <item id="2990"
+    <item id="2990"
         image="equipment/head/magictophat.png"
         name="Magic Top Hat"
         description="Probably not the best way to stay hidden."
@@ -4179,7 +4179,21 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         effect="flee -80%; Defense -50%; HP 30000"
         type="equip-head"
         weight="800">
-        <sprite>equipment/head/tophat.xml</sprite>
+        <sprite>equipment/head/magictophat.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2991"
+        image="equipment/head/minerhat.png"
+        name="Miner Hat"
+        description="A hat used by miners."
+        defense="44"
+        type="equip-head"
+        weight="245">
+        <sprite>equipment/head/minerhat.xml</sprite>
         <replace sprite="hair">
     <item from="-5" to="-4"/>
     <item from="-14" to="-9"/>
