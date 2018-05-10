@@ -4191,9 +4191,25 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Miner Hat"
         description="A hat used by miners."
         defense="44"
+        level="29"
         type="equip-head"
         weight="245">
         <sprite>equipment/head/minerhat.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2992"
+        image="equipment/head/murderercrown.png|W:#343434,ababab;R:#003300,00FF00;G:#29758A,9BDBEC"
+        name="Murderer Crown"
+        description="Royal blood has been shed for the ownership of this crown."
+        defense="35"
+        level="10"
+        type="equip-head"
+        weight="250">
+        <sprite>equipment/head/murderer.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
         <replace sprite="hair">
     <item from="-5" to="-4"/>
     <item from="-14" to="-9"/>
