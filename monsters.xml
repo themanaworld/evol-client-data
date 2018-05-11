@@ -229,6 +229,8 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1039" name="Bat" targetCursor="small">
         <sprite>monsters/bat.xml</sprite>
+        <sound event="die">monsters/bat/batdie.ogg</sound>
+        <sound event="hit">monsters/bat/bathit.ogg</sound>
     </monster>
     <monster id="1040" name="Yeti King" targetCursor="large">
         <sprite>monsters/yetiking.xml</sprite>
@@ -305,6 +307,8 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     -->
 	<monster id="1063" name="Vampire Bat" targetCursor="small">
         <sprite>monsters/vampirebat.xml</sprite>
+        <sound event="die">monsters/bat/batdie.ogg</sound>
+        <sound event="hit">monsters/bat/bathit.ogg</sound>
     </monster>
 	<monster id="1064" name="Yeti" targetCursor="medium">
         <sprite>monsters/yeti.xml</sprite>
