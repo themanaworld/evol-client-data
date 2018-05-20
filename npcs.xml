@@ -918,6 +918,11 @@ IDs 900-999 = Special
         <!-- Dan's note. No sprite. -->
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="913" currency="casino">
+        <!-- Slot Machine -->
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Trade" command="buy 'NAME'"/>
+    </npc>
     <npc id="998" nameOffsetX="16" targetOffsetX="16">
         <!-- No sprite with a name half-offseted to the right. -->
         <menu name="Talk" command="talk 'NAME'"/>
