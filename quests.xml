@@ -229,6 +229,11 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Creased Boots]">1x {@@1}</reward>
         </quest>
     </var>
+    <!--
+    <var id="9">
+        Secret Quest
+    </var>
+    -->
 
     <!-- GENERAL QUESTS -->
     <var id="12">
@@ -485,6 +490,39 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Candor Head Band]">1x {@@1}, 200 GP</reward>
         </quest>
     </var>
+    <var id="40">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Nurse Candies" group="Candor" incomplete="1,2,3">
+            <name>Nurse Candies</name>
+            <text text1="[Candy]">Candor's Nurse loves {@@1}. I gave her one, and now she wants more!</text>
+            <text>This is an easy way to make some money.</text>
+            <text></text>
+            <questgiver>Nurse</questgiver>
+            <coordinates x="41" y="30">Candor Island, Training Hall. (41,30)</coordinates>
+            <reward>5 EXP, 25 GP.</reward>
+        </quest>
+    </var>
+    <var id="41">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Mud Balls" group="Candor" incomplete="2">
+            <name>Mud Balls</name>
+            <text text1="[Maggot Slime]">Liana is collecting {@@1} to make balls, so the children can play.</text>
+            <text>This quest is repeatable.</text>
+            <text></text>
+            <questgiver>Liana</questgiver>
+            <coordinates x="47" y="86">Candor Island. (47,86)</coordinates>
+            <reward>Experience and Gold.</reward>
+        </quest>
+        <quest name="Mud Balls" group="Candor" complete="1">
+            <name>Mud Balls</name>
+            <text text1="[Maggot Slime]">Liana is collecting {@@1} to make balls, so the children can play.</text>
+            <text>This quest is repeatable every six hours, so I should again to her sometime.</text>
+            <text></text>
+            <questgiver>Liana</questgiver>
+            <coordinates x="47" y="86">Candor Island. (47,86)</coordinates>
+            <reward>Experience and Gold.</reward>
+        </quest>
+    </var>
 
     <!-- TULIMSHAR QUESTS -->
     <var id="51">
@@ -543,6 +581,96 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>25 EXP and 200 GP</reward>
         </quest>
     </var>
+    <var id="55">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Lifestone Pendant" group="Tulimshar" incomplete="1">
+            <name>Lifestone Pendant</name>
+            <text text1="[Lifestone]">Swezanne's Daughter, Silvia, can give you a very useful necklace</text>
+            <text>For just 500 GP and a Lifestone.</text>
+            <text></text>
+            <questgiver>Silvia</questgiver>
+            <coordinates x="109" y="150">Tulimshar. (109,150)</coordinates>
+            <reward text1="[Lifestone Pendant]">{@@1}.</reward>
+        </quest>
+        <quest name="Lifestone Pendant" group="Tulimshar" complete="2">
+            <name>Lifestone Pendant</name>
+            <text>Silvia gave me a Lifestone Pendant, which increases my regeneration.</text>
+            <text>It'll work even better if I sit to think.</text>
+            <text></text>
+            <questgiver>Silvia</questgiver>
+            <coordinates x="109" y="150">Tulimshar. (109,150)</coordinates>
+            <reward text1="[Lifestone Pendant]">{@@1}.</reward>
+        </quest>
+    </var>
+    <!-- var 56 -->
+    <var id="57">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Petty Thief" group="Tulimshar" incomplete="1">
+            <name>Petty Thief</name>
+            <text>While leaving Tulimshar, a petty thief called Hasan stole me.</text>
+            <text>I should warn the leader of the guard, Lieutenant Dausen, about that.</text>
+            <text></text>
+            <questgiver>Hasan</questgiver>
+            <coordinates x="111" y="84">Tulimshar. (111,84)</coordinates>
+        </quest>
+        <quest name="Petty Thief" group="Tulimshar" incomplete="2">
+            <name>Petty Thief</name>
+            <text>Dausen instructed me to seek for his mother, Sorfina.</text>
+            <text>She should be in Mahoud's house, near the Inn.</text>
+            <text></text>
+            <questgiver>Hasan</questgiver>
+            <coordinates x="54" y="138">Tulimshar. (54,138)</coordinates>
+        </quest>
+        <quest name="Petty Thief" group="Tulimshar" incomplete="3">
+            <name>Petty Thief</name>
+            <text>I should talk to Sorfina and complete her task.</text>
+            <text></text>
+            <questgiver>Hasan</questgiver>
+            <coordinates x="111" y="84">Tulimshar, Mahoud's House. (111,84)</coordinates>
+        </quest>
+        <quest name="Petty Thief" group="Tulimshar" incomplete="4">
+            <name>Petty Thief</name>
+            <text>Having avenged his father, I should talk to Hasan.</text>
+            <text>Perhaps now he'll stop stealing from me!</text>
+            <text></text>
+            <questgiver>Hasan</questgiver>
+            <coordinates x="62" y="148">Tulimshar. (62, 148)</coordinates>
+        </quest>
+        <quest name="Petty Thief" group="Tulimshar" complete="5">
+            <name>Petty Thief</name>
+            <text>Hasan swore to never steal from me again.</text>
+            <text>He didn't gave my money back, though...</text>
+            <text></text>
+            <questgiver>Hasan</questgiver>
+            <coordinates x="62" y="148">Tulimshar. (62, 148)</coordinates>
+            <reward text1="[Cotton Shorts]">{@@1}, 75 EXP.</reward>
+        </quest>
+    </var>
+
+    <!-- HALINARZO QUESTS -->
+    <var id="71">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Foxhound's Famine" group="Halinarzo" incomplete="1,2,3,4,5">
+            <name>Foxhound's Famine</name>
+            <text>A poor man in Halinarzo asks for food.</text>
+            <text>His family is starving. I should provide him all sort of delicacies.</text>
+            <text></text>
+            <questgiver>Enliven Reva Foxhound</questgiver>
+            <coordinates x="89" y="57">Halinarzo (89,57)</coordinates>
+        </quest>
+        <quest name="Foxhound's Famine" group="Halinarzo" complete="6">
+            <name>Foxhound's Famine</name>
+            <text>I feed him, and he is forever grateful.</text>
+            <text></text>
+            <questgiver>Enliven Reva Foxhound</questgiver>
+            <coordinates x="89" y="57">Halinarzo (89,57)</coordinates>
+            <reward text1="[Bucket]">{@@1}</reward>
+        </quest>
+    </var>
+
+
+
+    <!-- TEST QUESTS -->
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
             <name>Testing quest name with var1={@@var1}</name>
