@@ -173,7 +173,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Acorn"
         description="A natural food, ingredient, bait or seed."
         useButton="Eat"
-        effect="Heal 12-18 HP"
+        effect="Heal 15-45 HP"
         type="usable"
         weight="3"
         maxFloorOffset="10">
@@ -195,7 +195,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Bread"
         description="A baked food, ingredient or bait."
         useButton="Eat"
-        effect="Heal 35-50 HP"
+        effect="Heal 50-200 HP"
         type="usable"
         weight="25"/>
     <item id="503"
@@ -203,7 +203,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Fungus"
         description="A peculiar food, ingredient or remedy against poison."
         useButton="Eat"
-        effect="Damage -5%; Defense +5%; Heal 25-35 HP"
+        effect="Damage -5%; Defense +5%; Heal 35-70 HP"
         type="usable"
         weight="8"
         maxFloorOffset="9"/>
@@ -212,7 +212,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Cheese"
         description="A yummy food, ingredient or bait."
         useButton="Eat"
-        effect="Heal 40-60 HP"
+        effect="Heal 60-100 HP"
         type="usable"
         weight="3"/>
     <item id="505"
@@ -220,7 +220,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Piou Legs"
         description="A tender food or ingredient."
         useButton="Eat"
-        effect="Heal 12-20 HP"
+        effect="Heal 15-40 HP"
         type="usable"
         weight="4"/>
     <item id="506"
@@ -228,7 +228,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Lettuce Leaf"
         description="A healthy food, ingredient or bait."
         useButton="Eat"
-        effect="Heal 15-25 HP"
+        effect="Heal 15-35 HP"
         type="usable"
         weight="1"/>
     <item id="507"
@@ -236,7 +236,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Piberries"
         description="The famous staining fruit."
         useButton="Eat"
-        effect="Heal 22-33 HP"
+        effect="Heal 60-140 HP"
         type="usable"
         weight="2"/>
     <item id="508"
@@ -244,7 +244,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Sea Drops"
         description="Yucky drops of salt water."
         useButton="Drink"
-        effect="Headache; Heal 10-20 HP"
+        effect="Headache; Heal 20-40 HP"
         type="usable"
         weight="4"/>
     <item id="509"
@@ -252,7 +252,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Aquada"
         description="A nutritious fruit of the sea."
         useButton="Eat"
-        effect="Heal 80-110 HP"
+        effect="Heal 180-320 HP"
         type="usable"
         weight="16"/>
     <item id="510"
@@ -260,7 +260,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Pink Blobime"
         description="Yucky pink mucus of little blub."
         useButton="Eat"
-        effect="Headache; Heal 2-6 HP"
+        effect="Headache; Heal 10-26 HP"
         type="usable"
         weight="10"/>
     <item id="511"
@@ -268,7 +268,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Purple Blobime"
         description="Stinky purple mucus of blub."
         useButton="Eat"
-        effect="Stomach ache; Heal 30-70 HP"
+        effect="Stomach ache; Heal 60-130 HP"
         type="usable"
         weight="10"/>
     <item id="512"
@@ -276,7 +276,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Half Croconut"
         description="Its inside seems delicious."
         useButton="Eat"
-        effect="Heal 65-90 HP"
+        effect="Heal 120-180 HP"
         type="usable"
         weight="38"
         maxFloorOffset="10"/>
@@ -294,7 +294,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Plushroom"
         description="A strange remedy of many possible uses."
         useButton="Eat"
-        effect="Damage +5%; Heal 20-30 HP"
+        effect="Damage +5%; Heal 40-65 HP"
         type="usable"
         weight="8"/>
     <item id="516"
@@ -330,7 +330,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Urchin Meat"
         description="A seafood ingredient."
         useButton="Eat"
-        effect="Heal 28-35 HP"
+        effect="Heal 40-65 HP"
         type="usable"
         weight="1"/>
     <item id="519"
@@ -338,14 +338,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Easter Egg"
         description="A chocolate shell covered in a very thin metal layer."
         useButton="Eat"
-        effect="Heal 60-75 HP"
+        effect="Heal 100-225 HP"
         type="usable"
         weight="10"/>
     <item id="520"
         image="usable/piberriesinfusion.png"
         name="Piberries Infusion"
         description="A potion made from piberries."
-        effect="Heal 110-130 HP"
+        effect="Heal 120-240 HP"
         useButton="Drink"
         type="usable"
         weight="15"/>
@@ -412,7 +412,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Manana"
         useButton="Use"
         description="A fast healing fruit."
-        effect="Heal 70-80 HP"
+        effect="Heal 66-99 HP"
         type="usable"
         weight="10"
         maxFloorOffset="6"/>
@@ -438,7 +438,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="usable/wine.png"
         name="Red Plush Wine"
         description="Wine produced from black grapes in the south-east of Aurora."
-        effect="Heal 40-90 HP"
+        effect="Heal 50-110 HP"
         useButton="Drink"
         type="usable"
         weight="10"/>
@@ -469,7 +469,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Roasted Maggot"
         description="Tasty crunchy snack!"
         useButton="Eat"
-        effect="Heal 55-155 HP"
+        effect="Heal 65-175 HP"
         type="usable"
         weight="5"/>
     <item id="540"
@@ -477,7 +477,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Red Apple"
         description="A healthy apple"
         useButton="Eat"
-        effect="Heal 100-400 HP"
+        effect="Heal 95-225 HP"
         type="usable"
         weight="5"/>
     <item id="541"
@@ -485,7 +485,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Cactus Potion"
         description="A special potion for the desert places."
         useButton="Drink"
-        effect="Heal 80-200 HP"
+        effect="Heal 85-230 HP"
         type="usable"
         weight="4"/>
     <item id="542"
@@ -493,7 +493,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Cactus Drink"
         description="A small drink for the desert places."
         useButton="Drink"
-        effect="Heal 60-140 HP"
+        effect="Heal 65-145 HP"
         type="usable"
         weight="4"/>
     <item id="543"
@@ -501,7 +501,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Apana Cake"
         description="A very tiny cake!"
         useButton="Eat"
-        effect="Heal 6-10 HP"
+        effect="Heal 1-100 HP"
         type="usable"
         weight="1"/>
     <item id="544"
@@ -509,7 +509,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Beer"
         description="A fresh beer."
         useButton="Drink"
-        effect="Heal 150-300 HP"
+        effect="Heal 210-444 HP"
         type="usable"
         weight="10"/>
     <item id="545"
@@ -525,7 +525,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Candy"
         description="A sweet for you."
         useButton="Eat"
-        effect="Heal 24-40 HP"
+        effect="Heal 12-64 HP"
         type="usable"
         weight="1"/>
     <item id="547"
@@ -533,7 +533,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Bottle Of Sea Water"
         description="Very salty. Drink with caution."
         useButton="Drink"
-        effect="Heal 4-400 HP"
+        effect="Heal 10-400 HP"
         type="usable"
         weight="300"/>
     <item id="548"
@@ -637,7 +637,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Orange"
         description="A juicy orange."
         useButton="Drink"
-        effect="Heal 1000-5000 HP"
+        effect="Heal 75-120 HP"
         type="usable"
         weight="7"/>
     <item id="561"
@@ -717,7 +717,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Mouboo Steak"
         description="A tasty piece of steak."
         useButton="Eat"
-        effect="Heal 250-400 HP"
+        effect="Heal 400-500 HP"
         type="usable"
         weight="250"/>
     <item id="571"
@@ -765,7 +765,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Chocolate Bar"
         description="A chocolate bar."
         useButton="Eat"
-        effect="Heal 1000-5000 HP"
+        effect="Heal 130-210 HP"
         type="usable"
         weight="5"/>
     <item id="585"
@@ -789,7 +789,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Bug Leg"
         description="Small but strong! ...Are you really gonna eat that?"
         useButton="Eat"
-        effect="Heal 1-3 HP"
+        effect="Heal 20-40 HP"
         type="usable"
         weight="4"/>
     <item id="588"
@@ -900,7 +900,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Chagashroom"
         description="A strange remedy of many possible uses."
         useButton="Eat"
-        effect="Damage +5%; Heal 20-30 HP"
+        effect="Damage +5%; Heal 40-70 HP"
         type="usable"
         weight="9"/>
 
