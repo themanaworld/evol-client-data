@@ -72,42 +72,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Creased Shirt]" text2="[Creased Shorts]">A {@@1} and old {@@2}.</reward>
         </quest>
     </var>
-    <var id="2">
-        <effect map="002-1.tmx" npc="401" value="0,1" effect="14"/>
-        <effect map="002-1.tmx" npc="401" value="2" effect="15"/>
-        <quest name="Piberries Lover" group="Ship" incomplete="1">
-            <name>Piberries Lover</name>
-            <text>A mysterious stowaway needs your help. He hides at the bottom level of the ship, in the storage room.</text>
-            <text></text>
-            <text>It seems to be an urgent task, but he is afraid that you could be a sailor, so watch out!</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Piberries Lover" group="Ship" incomplete="2">
-            <name>Piberries Lover</name>
-            <text>Alige, the mysterious traveller, is asking for your help to find him some food.</text>
-            <text></text>
-            <text text1="[Piberries]">In fact, he hides in a hole in the main hallway. It leads to the ship's storage room where he can reach for some barrels full of {@@1}.</text>
-            <text></text>
-            <text>He is sick of eating these berries all the time. That is why he would like you to find him other kinds of food and bring them to him.</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Piberries Lover" group="Ship" complete="3">
-            <name>Piberries Lover</name>
-            <text text1="[Piberries]">You brought Alige some food, different from the {@@1} he usually eats.</text>
-            <text></text>
-            <text>It looks like he is eager of tasting new flavors. Try bringing him other types of food. He may have something to give you in exchange.</text>
-            <text></text>
-            <questgiver>Alige</questgiver>
-            <coordinates x="33" y="31">La Johanne, Second Deck. (33,31)</coordinates>
-            <reward text1="[Piberries]">A handful of {@@1}.</reward>
-        </quest>
-    </var>
+    <!-- var id 2 deleted -->
     <var id="3">
         <effect map="002-1.tmx" npc="403" value="0,6" effect="12"/>
         <effect map="002-1.tmx" npc="403" value="1,2,4" effect="13"/>
