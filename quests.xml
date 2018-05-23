@@ -241,18 +241,19 @@ Copyright (C) 2012-2013 Evol Online -->
         <quest name="Greater Hunter Quest" group="Tulimshar" incomplete="1">
             <name>Greater Hunter Quest</name>
             <text>I promised Aidan to conduct an extermination.</text>
-            <text text1="[@@m1030|@@]">Progress: {@@var2}/1000 {@@1}.</text>
+            <text text1="[@@m1030|@@]">Progress: {@@var2}/10000 {@@1}.</text>
             <text></text>
             <questgiver>Aidan</questgiver>
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
-            <reward>5,000 GP</reward>
+            <reward text1="[Maggot Cocoon]">{@@1}</reward>
         </quest>
         <quest name="Greater Hunter Quest" group="Tulimshar" incomplete="2">
             <name>Greater Hunter Quest</name>
-            <text>I promised Aidan to conduct an extermination.</text>
-            <text text1="[@@m1122|@@]">Progress: {@@var2}/1000 {@@1}.</text>
+            <text>I promised Jacob to conduct an extermination.</text>
+            <text>The reward should be collected with Aidan.</text>
+            <text text1="[@@m1122|@@]">Progress: {@@var2}/10000 {@@1}.</text>
             <text></text>
-            <questgiver>Aidan</questgiver>
+            <questgiver>Lieutenant Jacob, Halinarzo (71,24)</questgiver>
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
             <reward>25,000 GP</reward>
         </quest>
