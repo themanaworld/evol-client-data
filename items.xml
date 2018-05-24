@@ -4238,6 +4238,21 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item from="-15" to="-19"/>
         </replace>
     </item>
+    <item id="2993"
+        image="equipment/head/fluffyhat.png"
+        name="Fluffy Hat"
+        description="A cozy sweet fluffy hat."
+        defense="39"
+        level="22"
+        type="equip-head"
+        weight="410">
+        <sprite>equipment/head/fluffyhat.xml/sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>
 
     <!-- Neck Armors -->
     <item id="3200"
