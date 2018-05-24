@@ -857,6 +857,37 @@ IDs 900-999 = Special
         <menu name="Sell" command="sell 'NAME'"/>
     </npc>
 
+    <npc id="820" walkType="all" allowEquipment="true">
+        <!-- orc with player look. -->
+        <sprite>races/orc-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="821" walkType="all" allowEquipment="true">
+        <!-- orc with player look (female). -->
+        <sprite>races/orc-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="822" walkType="all" allowEquipment="true">
+        <!-- Raijin with player look. -->
+        <sprite>races/raijin-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="823" walkType="all" allowEquipment="true">
+        <!-- Raijin with player look (female). -->
+        <sprite>races/raijin-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="824" walkType="all" allowEquipment="true">
+        <!-- Ukar with player look. -->
+        <sprite>races/ukar-male.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="825" walkType="all" allowEquipment="true">
+        <!-- ukar with player look (female). -->
+        <sprite>races/ukar-female.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+
     <!-- Special NPCs -->
 <!-- WIP     <npc id="900">
         Savepoint, 32x32.
