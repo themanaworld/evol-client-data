@@ -2557,8 +2557,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         level="21"
         type="equip-torso"
         weight="340">
-        <sprite gender="unisex">equipment/chest/leathershirt-male.xml</sprite>
-        <sprite gender="female">equipment/chest/leathershirt-female.xml</sprite>
+        <sprite gender="unisex">equipment/chest/leathershirt-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+        <sprite gender="female">equipment/chest/leathershirt-female.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
     </item>
     <item id="1315"
         image="equipment/chest/tnecksweater.png|W"
@@ -2669,6 +2669,18 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         maxFloorOffset="10">
         <sprite gender="unisex">equipment/chest/redknightarmor-male.xml</sprite>
         <sprite gender="female">equipment/chest/redknightarmor-female.xml</sprite>
+    </item>
+    <item id="1324"
+        image="equipment/chest/desertshirt.png"
+        name="Desert Shirt"
+        description="A strong shirt suitable for desert trips. Made of leather and snake skin's."
+        defense="75"
+        level="37"
+        type="equip-torso"
+        weight="610"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/leathershirt-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+        <sprite gender="female">equipment/chest/leathershirt-female.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
     </item>
     <item id="1327"
         image="equipment/chest/chainmail.png|W:#573f10,9c8226,d3c04b,ffffff"
