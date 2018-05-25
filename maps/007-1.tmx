@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextobjectid="124">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextobjectid="124">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -2077,12 +2077,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#0000ff" name="Spawn" visible="0">
+ <objectgroup color="#0000ff" name="Spawn">
   <object id="105" name="Cave Maggot" type="spawn" x="2944" y="352" width="2816" height="5824">
    <properties>
     <property name="death" value="300000"/>
     <property name="max_beings" value="35"/>
     <property name="monster_id" value="1027"/>
+    <property name="script" value="Tycoon:OnKillCaveMaggot"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
@@ -2091,6 +2092,7 @@
     <property name="death" value="300000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1074"/>
+    <property name="script" value="Tycoon:OnKillBlackScorpion"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
@@ -2099,6 +2101,7 @@
     <property name="death" value="300000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1005"/>
+    <property name="script" value="Tycoon:OnKillRatto"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
@@ -2115,6 +2118,7 @@
     <property name="death" value="300000"/>
     <property name="max_beings" value="25"/>
     <property name="monster_id" value="1035"/>
+    <property name="script" value="Tycoon:OnKillCaveSnake"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
@@ -2123,6 +2127,7 @@
     <property name="death" value="300000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="1072"/>
+    <property name="script" value="Tycoon:OnKillRedScorpion"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
@@ -2131,6 +2136,7 @@
     <property name="death" value="300000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="1027"/>
+    <property name="script" value="Tycoon:OnKillCaveMaggot"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
