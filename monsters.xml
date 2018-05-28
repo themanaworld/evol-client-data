@@ -596,7 +596,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
   </monster>
-      <monster id="1126" name="Magic Ratto" targetCursor="small">
+    <monster id="1126" name="Magic Ratto" targetCursor="small">
         <sprite>monsters/magicratto.xml</sprite>
         <sprite>accessories/ratto-tail.xml</sprite>
         <sound event="die">monsters/ratto/die1.ogg</sound>
@@ -605,7 +605,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
         <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
     </monster>
-    	<monster id="1127" name="Desert Log Head" targetCursor="medium">
+    <monster id="1127" name="Desert Log Head" targetCursor="medium">
         <sprite>monsters/desertloghead.xml</sprite>
         <sound event="die">monsters/loghead/logheaddie.ogg</sound>
         <sound event="hit">monsters/loghead/logheadhit.ogg</sound>
@@ -615,7 +615,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
         <sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
     </monster>
-        <monster id="1128" name="Chagashroom Field" targetCursor="large" sortOffsetY="70">
+    <monster id="1128" name="Chagashroom Field" targetCursor="large" sortOffsetY="70">
         <sprite>monsters/chagashroom.xml</sprite>
         <sound event="die">monsters/mushroom/die1.ogg</sound>
         <sound event="die">monsters/mushroom/die2.ogg</sound>
@@ -625,9 +625,19 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <monster id="1129" name="Murderer Scorpion" targetCursor="medium">
         <sprite>monsters/murdererscorpion.xml</sprite>
     </monster>
-      <monster id="1132" name="Pinkie" targetCursor="small">
+    <monster id="1132" name="Pinkie" targetCursor="small">
         <sprite>monsters/pinkie.xml</sprite>
         <sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
         <sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
+    </monster>
+    <monster id="1133" name="Ocean Croc" targetCursor="small" sortOffsetY="30">
+        <sprite>monsters/oceancroc.xml</sprite>
+        <sound event="hit">monsters/croc/hit1.ogg</sound>
+        <sound event="hit">monsters/croc/hit2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt1.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt3.ogg</sound>
+        <sound event="miss">monsters/croc/miss1.ogg</sound>
+        <sound event="spawn">monsters/croc/spawn1.ogg</sound>
     </monster>
 </monsters>
