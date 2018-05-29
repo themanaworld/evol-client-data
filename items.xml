@@ -3355,7 +3355,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         image="equipment/rings/weddingring.png"
         name="Wedding Ring"
         description="Your wedding ring."
-        defense="1"    
+        defense="1"
         effect="HP +5"
         type="equip-charm"
         weight="1">
@@ -3363,10 +3363,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="2501"
         image="equipment/rings/goldensimplering.png"
         name="Golden Ring"
-        description="A golden simple ring."
+        description="A golden simple ring. Not very useful, unless you add a gemstone to it."
+        defense="2"
         level="5"
         type="equip-charm"
-        weight="1">
+        weight="80">
     </item>
     <item id="2502"
         image="equipment/rings/goldendiamondring.png"
