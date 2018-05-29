@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="62" height="62" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="62" height="62" tilewidth="32" tileheight="32" nextobjectid="4">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="1"/>
@@ -33,6 +33,9 @@
  <tileset firstgid="1026" source="../graphics/tilesets/ship-flags-x3x2.tsx"/>
  <tileset firstgid="1040" name="ship-indoor" tilewidth="32" tileheight="32" tilecount="128" columns="8">
   <image source="../graphics/tilesets/ship-indoor.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1168" name="sail" tilewidth="32" tileheight="32" tilecount="272" columns="16">
+  <image source="../graphics/tilesets/sail.png" width="512" height="544"/>
  </tileset>
  <layer name="Ground" width="62" height="62">
   <data encoding="csv">
@@ -298,7 +301,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over 2" width="62" height="62" visible="0">
+ <layer name="Over 2" width="62" height="62">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -496,7 +499,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Spawn">
+ <objectgroup color="#ff00c6" name="Spawn">
   <object id="3" name="Ocean Croc" type="spawn" x="768" y="768" width="544" height="160">
    <properties>
     <property name="death" value="30000"/>
