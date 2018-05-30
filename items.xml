@@ -4971,7 +4971,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="1"
         cardColor="20"
         maxFloorOffset="15"/>
-
     <item id="5022"
         image="usable/necromancercard.png"
         name="Necromancer Card"
@@ -5033,6 +5032,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         name="Desert Thief Card"
         description="This magic card made of dried sand can be placed in certain type of glove to bring you some powers."
         effect="Attack Speed +1%"
+        type="card"
+        weight="4"/>
+    <!-- TEST RING CARD -->
+    <item id="5031"
+        image="generic/ruby.png"
+        name="Polished Ruby"
+        useButton="Insert"
+        description="ruby test."
         type="card"
         weight="4"/>
 
