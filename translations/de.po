@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-05-22 18:02-0300\n"
+"POT-Creation-Date: 2018-05-28 15:56-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jesusaves <cpntb1@ymail.com>, 2018\n"
 "Language-Team: German (https://www.transifex.com/akaras/teams/959/de/)\n"
@@ -981,19 +981,19 @@ msgstr ""
 #: items.xml:335 items.xml:343 items.xml:391 items.xml:427 items.xml:436
 #: items.xml:474 items.xml:482 items.xml:506 items.xml:530 items.xml:578
 #: items.xml:722 items.xml:770 items.xml:778 items.xml:794 items.xml:873
-#: items.xml:881 items.xml:889 items.xml:897 items.xml:905 items.xml:5092
-#: items.xml:5098
+#: items.xml:881 items.xml:889 items.xml:897 items.xml:905 items.xml:913
+#: items.xml:5178 items.xml:5184
 msgid "Eat"
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:179 items.xml:5092
-msgid "Heal 12-18 HP"
+#: items.xml:179
+msgid "Heal 15-45 HP"
 msgstr ""
 
 #. (itstool) path: inventory/menu@name1
 #. (itstool) path: inventory/menu@name2
-#: items.xml:190 items.xml:5103
+#: items.xml:190 items.xml:5189
 msgid "Plant"
 msgstr ""
 
@@ -1009,7 +1009,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:200
-msgid "Heal 35-50 HP"
+msgid "Heal 50-180 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1024,7 +1024,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:209
-msgid "Damage -5%; Defense +5%; Heal 25-35 HP"
+msgid "Damage -5%; Defense +5%; Heal 35-70 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1039,7 +1039,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:217
-msgid "Heal 40-60 HP"
+msgid "Heal 60-100 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1048,13 +1048,13 @@ msgid "Piou Legs"
 msgstr "Piou Beine"
 
 #. (itstool) path: items/item@description
-#: items.xml:225
+#: items.xml:225 items.xml:913
 msgid "A tender food or ingredient."
 msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:225
-msgid "Heal 12-20 HP"
+msgid "Heal 15-40 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1069,7 +1069,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:233
-msgid "Heal 15-25 HP"
+msgid "Heal 35-65 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1084,7 +1084,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:241
-msgid "Heal 22-33 HP"
+msgid "Heal 60-140 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1106,12 +1106,13 @@ msgstr ""
 #: items.xml:658 items.xml:666 items.xml:674 items.xml:682 items.xml:690
 #: items.xml:698 items.xml:706 items.xml:714 items.xml:730 items.xml:738
 #: items.xml:746 items.xml:754 items.xml:762 items.xml:857 items.xml:865
+#: items.xml:921 items.xml:929
 msgid "Drink"
 msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:249
-msgid "Headache; Heal 10-20 HP"
+msgid "Headache; Heal 20-40 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1126,7 +1127,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:257
-msgid "Heal 80-110 HP"
+msgid "Heal 180-320 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1141,7 +1142,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:265
-msgid "Headache; Heal 2-6 HP"
+msgid "Headache; Heal 10-26 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1156,7 +1157,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:273
-msgid "Stomach ache; Heal 30-70 HP"
+msgid "Stomach ache; Heal 60-130 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1171,7 +1172,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:282
-msgid "Heal 65-90 HP"
+msgid "Heal 120-180 HP"
 msgstr ""
 
 #. #-#-#-#-#  items.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1191,8 +1192,8 @@ msgstr ""
 #. (itstool) path: items/item@useButton
 #. #-#-#-#-#  npcs.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: npc/menu@name
-#: items.xml:290 npcs.xml:502 npcs.xml:507 npcs.xml:891 npcs.xml:896
-#: npcs.xml:901
+#: items.xml:290 npcs.xml:502 npcs.xml:507 npcs.xml:922 npcs.xml:927
+#: npcs.xml:932
 msgid "Open"
 msgstr ""
 
@@ -1212,8 +1213,8 @@ msgid "A strange remedy of many possible uses."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:299 items.xml:905
-msgid "Damage +5%; Heal 20-30 HP"
+#: items.xml:299
+msgid "Attack Speed +5%; Heal 30-60 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1247,7 +1248,7 @@ msgstr ""
 #. (itstool) path: items/item@effect
 #. #-#-#-#-#  quests.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: quest/reward
-#: items.xml:316 quests.xml:376 quests.xml:385
+#: items.xml:316 quests.xml:342 quests.xml:351
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -1263,7 +1264,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:335
-msgid "Heal 28-35 HP"
+msgid "Heal 40-65 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1278,7 +1279,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:343
-msgid "Heal 60-75 HP"
+msgid "Heal 100-225 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1293,7 +1294,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:351
-msgid "Heal 110-130 HP"
+msgid "Heal 120-240 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1418,7 +1419,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:418
-msgid "Heal 70-80 HP"
+msgid "Heal 66-99 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1465,7 +1466,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:444
-msgid "Heal 40-90 HP"
+msgid "Heal 50-110 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1520,7 +1521,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:474
-msgid "Heal 55-155 HP"
+msgid "Heal 65-175 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1535,7 +1536,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:482
-msgid "Heal 100-400 HP"
+msgid "Heal 95-225 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1550,7 +1551,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:490
-msgid "Heal 80-200 HP"
+msgid "Heal 85-230 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1565,7 +1566,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:498
-msgid "Heal 60-140 HP"
+msgid "Heal 65-145 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1580,7 +1581,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:506
-msgid "Heal 6-10 HP"
+msgid "Heal 1-100 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1595,7 +1596,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:514
-msgid "Heal 150-300 HP"
+msgid "Heal 210-444 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1625,7 +1626,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:530
-msgid "Heal 24-40 HP"
+msgid "Heal 12-64 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1639,8 +1640,8 @@ msgid "Very salty. Drink with caution."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:538 items.xml:778
-msgid "Heal 4-400 HP"
+#: items.xml:538
+msgid "Heal 10-200 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1685,10 +1686,10 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:570 items.xml:578 items.xml:586 items.xml:594 items.xml:602
-#: items.xml:610 items.xml:618 items.xml:626 items.xml:634 items.xml:642
-#: items.xml:650 items.xml:658 items.xml:666 items.xml:674 items.xml:682
-#: items.xml:690 items.xml:698 items.xml:706 items.xml:714 items.xml:730
-#: items.xml:738 items.xml:746 items.xml:754 items.xml:762 items.xml:770
+#: items.xml:610 items.xml:618 items.xml:626 items.xml:634 items.xml:650
+#: items.xml:658 items.xml:666 items.xml:674 items.xml:682 items.xml:690
+#: items.xml:698 items.xml:706 items.xml:714 items.xml:730 items.xml:738
+#: items.xml:746 items.xml:754 items.xml:762
 msgid "Heal 1000-5000 HP"
 msgstr ""
 
@@ -1770,6 +1771,11 @@ msgstr ""
 #. (itstool) path: items/item@description
 #: items.xml:642
 msgid "A juicy orange."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:642
+msgid "Heal 75-120 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1869,7 +1875,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:722
-msgid "Heal 250-400 HP"
+msgid "Heal 400-500 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1932,6 +1938,11 @@ msgstr ""
 msgid "A chocolate bar."
 msgstr ""
 
+#. (itstool) path: items/item@effect
+#: items.xml:770
+msgid "Heal 130-210 HP"
+msgstr ""
+
 #. (itstool) path: items/item@name
 #: items.xml:778
 msgid "Cave Snake Egg"
@@ -1940,6 +1951,11 @@ msgstr ""
 #. (itstool) path: items/item@description
 #: items.xml:778
 msgid "For omelettes."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:778
+msgid "Heal 4-400 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -1976,7 +1992,7 @@ msgstr ""
 
 #. (itstool) path: items/item@effect
 #: items.xml:794
-msgid "Heal 1-3 HP"
+msgid "Heal 8-14 HP"
 msgstr ""
 
 #. (itstool) path: items/item@name
@@ -2134,218 +2150,263 @@ msgstr ""
 msgid "Chagashroom"
 msgstr ""
 
+#. (itstool) path: items/item@effect
+#: items.xml:905
+msgid "Damage +5%; Heal 30-60 HP"
+msgstr ""
+
 #. (itstool) path: items/item@name
-#: items.xml:914
+#: items.xml:913
+msgid "Pinkie Leg"
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:913
+msgid "Heal 45-75 HP"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:921
+msgid "Haste Potion"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:921
+msgid "Formely known as Concentration Potion, this is made of plushrooms."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:921
+msgid "Attack Speed +30%"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:929
+msgid "Strength Potion"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:929
+msgid "Formely known as Iron Potion, this is made of chagashrooms."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:929
+msgid "Attack Power +30%"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:937
 msgid "Small Tentacles"
 msgstr "Kleine Tentakeln"
 
 #. (itstool) path: items/item@description
-#: items.xml:914
+#: items.xml:937
 msgid "Colorful tentacles with poisonous barbs."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:921
+#: items.xml:944
 msgid "Piou Feathers"
 msgstr "Pioufedern"
 
 #. (itstool) path: items/item@description
-#: items.xml:921
+#: items.xml:944
 msgid "Small feathers of an innocent little piou."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:927
+#: items.xml:950
 msgid "Tortuga Shell Fragment"
 msgstr "Stück Tortugaschale"
 
 #. (itstool) path: items/item@description
-#: items.xml:927
+#: items.xml:950
 msgid "Used to make tools and decorations."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:933
+#: items.xml:956
 msgid "Half Eggshell"
 msgstr "Halbe Eierschale"
 
 #. (itstool) path: items/item@description
-#: items.xml:933
+#: items.xml:956
 msgid "Maybe something hatched, or someone was cooked..."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:939
+#: items.xml:962
 msgid "Ratto Tail"
 msgstr "Rattoschwanz"
 
 #. (itstool) path: items/item@description
-#: items.xml:939
+#: items.xml:962
 msgid "Hairless tail of a ratto."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:945
+#: items.xml:968
 msgid "Ratto Teeth"
 msgstr "Rattozähne"
 
 #. (itstool) path: items/item@description
-#: items.xml:945
+#: items.xml:968
 msgid "Sharp incisors of a ratto."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:951
+#: items.xml:974
 msgid "Croc Claw"
 msgstr "Krokodilsklaue"
 
 #. (itstool) path: items/item@description
-#: items.xml:951
+#: items.xml:974 items.xml:2076
 msgid "It moves and pinches without its body."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:957
+#: items.xml:980
 msgid "Squichy Claws"
 msgstr "Squichyklauen"
 
 #. (itstool) path: items/item@description
-#: items.xml:957
+#: items.xml:980
 msgid "Claws from a wild Squichy."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:963
+#: items.xml:986
 msgid "Tortuga Shell"
 msgstr "Tortugaschale"
 
 #. (itstool) path: items/item@description
-#: items.xml:963
+#: items.xml:986
 msgid "A symbol of shelter."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:970
+#: items.xml:993
 msgid "Tortuga Tongue"
 msgstr "Tortugazunge"
 
 #. (itstool) path: items/item@description
-#: items.xml:970
+#: items.xml:993
 msgid "Adept to digesting blubs."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:977
+#: items.xml:1000
 msgid "Pearl"
 msgstr "Perle"
 
 #. (itstool) path: items/item@description
-#: items.xml:977
+#: items.xml:1000
 msgid "A beautiful round and shiny pearl."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:984
+#: items.xml:1007
 msgid "Coral"
 msgstr "Koralle"
 
 #. (itstool) path: items/item@description
-#: items.xml:984
+#: items.xml:1007
 msgid "Can indicate the health of oceanic ecosystems."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:991
+#: items.xml:1014
 msgid "Blue Coral"
 msgstr "Balue Koralle"
 
 #. (itstool) path: items/item@description
-#: items.xml:991
+#: items.xml:1014
 msgid "A coral dyed in blue by a blub."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:997
+#: items.xml:1020
 msgid "Fish Box"
 msgstr "Fischkiste"
 
 #. (itstool) path: items/item@description
-#: items.xml:997
+#: items.xml:1020
 msgid "A wooden box full of fresh fish."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1003
+#: items.xml:1026
 msgid "Guild Certification"
 msgstr "Gildenurkunde"
 
 #. (itstool) path: items/item@description
-#: items.xml:1003
+#: items.xml:1026
 msgid "This piece of paper grants you official permission to found a Guild."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1009
+#: items.xml:1032
 msgid "Croconut Box"
 msgstr "Krokosnusskiste"
 
 #. (itstool) path: items/item@description
-#: items.xml:1009
+#: items.xml:1032
 msgid "Contains 17 croconuts."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1015
+#: items.xml:1038
 msgid "Plushroom Box"
 msgstr "Plushroomkiste"
 
 #. (itstool) path: items/item@description
-#: items.xml:1015
+#: items.xml:1038
 msgid "Contains 87 plushrooms."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1022
+#: items.xml:1045
 msgid "Poisoned Dish"
 msgstr "Vergiftetes Gericht"
 
 #. (itstool) path: items/item@description
-#: items.xml:1022
+#: items.xml:1045
 msgid "A special dish made of strange ingredients."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1029
+#: items.xml:1052
 msgid "La Johanne's Key"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1029
+#: items.xml:1052
 msgid "An iron key to open La Johanne's entrance door."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1036
+#: items.xml:1059
 msgid "Left Crafty Wing"
 msgstr "Linker Crafty Flügel"
 
 #. (itstool) path: items/item@description
-#: items.xml:1036 items.xml:1050
+#: items.xml:1059 items.xml:1073
 msgid "This wing is slight and soft unlike its former owner."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1043
+#: items.xml:1066
 msgid "Bat Teeth"
 msgstr "Federmauszähne"
 
 #. (itstool) path: items/item@description
-#: items.xml:1043
+#: items.xml:1066
 msgid "What sharp teeth! They seem to be more dangerous than a knife."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1050
+#: items.xml:1073
 msgid "Right Crafty Wing"
 msgstr "Rechter Crafty Flügel"
 
@@ -2353,355 +2414,355 @@ msgstr "Rechter Crafty Flügel"
 #. (itstool) path: items/item@name
 #. #-#-#-#-#  monsters.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: monsters/monster@name
-#: items.xml:1057 monsters.xml:148 monsters.xml:212
+#: items.xml:1080 monsters.xml:148 monsters.xml:212
 msgid "Pumpkin"
 msgstr "Kürbis"
 
 #. (itstool) path: items/item@description
-#: items.xml:1057
+#: items.xml:1080
 msgid "An invasive species, sometimes carved during festivals."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1064
+#: items.xml:1087
 msgid "Mushroom Spores"
 msgstr "Pilzsporen"
 
 #. (itstool) path: items/item@description
-#: items.xml:1064
+#: items.xml:1087
 msgid "Some colored spores that help mushrooms spread across the land."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1071
+#: items.xml:1094
 msgid "Moss"
 msgstr "Moos"
 
 #. (itstool) path: items/item@description
-#: items.xml:1071
+#: items.xml:1094
 msgid "Grows in moist, shady areas."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1078
+#: items.xml:1101
 msgid "Tentacles"
 msgstr "Tentakeln"
 
 #. (itstool) path: items/item@description
-#: items.xml:1078
+#: items.xml:1101
 msgid "Boneless appendage of an invertebrate."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1085
+#: items.xml:1108
 msgid "Common Carp"
 msgstr "Gemeiner Karpfen"
 
 #. (itstool) path: items/item@description
-#: items.xml:1085
+#: items.xml:1108
 msgid "Freshwater is commonly inhabited by these pests."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1092
+#: items.xml:1115
 msgid "Grass Carp"
 msgstr "Graskarpfen"
 
 #. (itstool) path: items/item@description
-#: items.xml:1092
+#: items.xml:1115
 msgid "A smart fish, very difficult to catch."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1099
+#: items.xml:1122
 msgid "Fishing Rod"
 msgstr "Angelrute"
 
 #. (itstool) path: items/item@description
-#: items.xml:1099
+#: items.xml:1122
 msgid "Designed for sports fishing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1106
+#: items.xml:1129
 msgid "Fluffy Fur"
 msgstr "Fluffy Fell"
 
 #. (itstool) path: items/item@description
-#: items.xml:1106
+#: items.xml:1129
 msgid "This soft fur is used to make warm clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1114
+#: items.xml:1137
 msgid "Diamond"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1114
+#: items.xml:1137
 msgid "A raw diamond gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1121
+#: items.xml:1144
 msgid "Ruby"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1121
+#: items.xml:1144
 msgid "A raw ruby gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1128
+#: items.xml:1151
 msgid "Emerald"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1128
+#: items.xml:1151
 msgid "A raw emerald gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1135
+#: items.xml:1158
 msgid "Sapphire"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1135
+#: items.xml:1158
 msgid "A raw sapphire gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1142
+#: items.xml:1165
 msgid "Topaz"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1142
+#: items.xml:1165
 msgid "A raw topaz gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1149
+#: items.xml:1172
 msgid "Amethyst"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1149
+#: items.xml:1172
 msgid "A raw amethyst gemstone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1156
+#: items.xml:1179
 msgid "Black Pearl"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1156
+#: items.xml:1179
 msgid "A pearl. Round, shiny and black!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1163
+#: items.xml:1186
 msgid "Bloodstone"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1163
+#: items.xml:1186
 msgid "A stone as red as blood that emits a strange aura."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1170
+#: items.xml:1193
 msgid "Coin Bag"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1170
+#: items.xml:1193
 msgid "A bag used to hold coins."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1177
+#: items.xml:1200
 msgid "Wolvern Tooth"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1177
+#: items.xml:1200
 msgid "A tooth from a wolvern."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1184
+#: items.xml:1207
 msgid "Iron Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1184
+#: items.xml:1207
 msgid "A pile of powdered iron"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1191
+#: items.xml:1214
 msgid "Pink Antenna"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1191
+#: items.xml:1214
 msgid "No-one knows why pinkies have these antennas on their heads."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1198
+#: items.xml:1221
 msgid "Animal Bones"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1198
+#: items.xml:1221
 msgid "Bones from an animal."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1205
+#: items.xml:1228
 msgid "Antlers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1205
+#: items.xml:1228
 msgid "The antlers of a Reinboo."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1212
+#: items.xml:1235
 msgid "Bandit Hood"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1212
+#: items.xml:1235
 msgid "A bandit hood crawling with lice."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1219
+#: items.xml:1242
 msgid "Bat Wing"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1219
+#: items.xml:1242
 msgid "The wing from a bat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1226
+#: items.xml:1249
 msgid "Bent Needle"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1226
+#: items.xml:1249
 msgid ""
 "A twisted needle. It would be difficult to find one in a haystack, for "
 "example."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1233
+#: items.xml:1256
 msgid "Blanket"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1233
+#: items.xml:1256
 msgid "A blanket big enough to cover a reinboo's back, but not very warm."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1240
+#: items.xml:1263
 msgid "Bone"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1240
+#: items.xml:1263
 msgid "A bone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1247
+#: items.xml:1270
 msgid "Bottle Of Sand"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1247
+#: items.xml:1270
 msgid "A bottle with sand in it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1254
+#: items.xml:1277
 msgid "Brainstem"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1254
+#: items.xml:1277
 msgid "The cortex pulses with enegry."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1261
+#: items.xml:1284
 msgid "Casino Coins"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1261
+#: items.xml:1284
 msgid "Just some casino coins."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1268
+#: items.xml:1291
 msgid "Cave Snake Lamp"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1268
+#: items.xml:1291
 msgid "The feeler of a cave snake that glows in the dark."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1275
+#: items.xml:1298
 msgid "Closed Christmas Box"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1275
+#: items.xml:1298
 msgid ""
 "A closed, but yet unwrapped box that should contain some Christmas present."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1282
+#: items.xml:1305
 msgid "Coal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1282
+#: items.xml:1305
 msgid "A lump of coal."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1289
+#: items.xml:1312
 msgid "Crypt Key"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1289
+#: items.xml:1312
 msgid "You feel as if the Skeleton Key is staring at you."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1296
+#: items.xml:1319
 msgid "Dark Petal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1296
+#: items.xml:1319
 msgid ""
 "A single, dark, petal, oddly heavy. The edges of the petal are unusually "
 "hard, and have a slightly reflective shine to them. But looking into the "
@@ -2709,1161 +2770,1196 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1303
+#: items.xml:1326
 msgid "Zombie Ear"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1303
+#: items.xml:1326
 msgid "An ear from a zombie."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1310
+#: items.xml:1333
 msgid "Ectoplasm"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1310
+#: items.xml:1333
 msgid "Someone blows their nose and you want to keep it?"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1317
+#: items.xml:1340
 msgid "Frozen Yeti Tear"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1317
+#: items.xml:1340
 msgid "A tear from a yeti, frozen."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1324
+#: items.xml:1347
 msgid "Cobalt Herb"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1324 items.xml:1373 items.xml:1380
+#: items.xml:1347 items.xml:1396 items.xml:1403
 msgid "An ingredient for brewing healing potions."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1331
+#: items.xml:1354
 msgid "Snake Skin"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1331
+#: items.xml:1354
 msgid "The skin of a slain snake."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1338
+#: items.xml:1361
 msgid "Undead Eye"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1338
+#: items.xml:1361
 msgid "An eye from a zombie."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1345
+#: items.xml:1368
 msgid "Cotton Cloth"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1345
+#: items.xml:1368
 msgid "A piece of cotton cloth."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1352
+#: items.xml:1375
 msgid "Grass Seeds"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1352
+#: items.xml:1375
 msgid "Some grass seeds."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1359
+#: items.xml:1382
 msgid "Hard Spike"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1359
+#: items.xml:1382
 msgid "The hard spike of a slain monster."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1366
+#: items.xml:1389
 msgid "Diseasd Heart"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1366
+#: items.xml:1389
 msgid "A diseased heart. Likely from a zombie."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1373
+#: items.xml:1396
 msgid "Gamboge Herb"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1380
+#: items.xml:1403
 msgid "Mauve Herb"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1387
+#: items.xml:1410
 msgid "Iron Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1387
+#: items.xml:1410
 msgid "An ingot of iron."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1394
+#: items.xml:1417
 msgid "Iron Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1394
+#: items.xml:1417
 msgid "A lump of iron ore."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1401
+#: items.xml:1424
 msgid "Maggot Slime"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1401
+#: items.xml:1424
 msgid "Slimy maggot slime."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1408
+#: items.xml:1431
 msgid "Rotten Rags"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1408
+#: items.xml:1431
 msgid "Rotten rags from an undead creature."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1415
+#: items.xml:1438
 msgid "Raw Log"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1415
+#: items.xml:1438
 msgid "A raw log."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1422
+#: items.xml:1445
 msgid "Brain"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1422
+#: items.xml:1445
 msgid "One thing you lack."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1429
+#: items.xml:1452
 msgid "Reed Bundle"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1429
+#: items.xml:1452
 msgid "A bundle of reeds."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1436
+#: items.xml:1459
 msgid "Root"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1436
+#: items.xml:1459
 msgid "A root from a plant."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1443
+#: items.xml:1466
 msgid "Scorpion Stinger"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1443
+#: items.xml:1466
 msgid "A poisoned scorpion stinger."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1450
+#: items.xml:1473
 msgid "Silk Cocoon"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1450
+#: items.xml:1473
 msgid "A silkworm's cocoon."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1457
+#: items.xml:1480
 msgid "Snake Tongue"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1457
+#: items.xml:1480
 msgid "The forked tongue of a snake."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1464
+#: items.xml:1487
 msgid "Treasure Key"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1464
+#: items.xml:1487
 msgid "A rusty key."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1471
+#: items.xml:1494
 msgid "Vampire Bat Wing"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1471
+#: items.xml:1494
 msgid "The wing of a bloodsucking Vampire Bat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1478
+#: items.xml:1501
 msgid "Yeti Claw"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1478
+#: items.xml:1501
 msgid "A stolen claw from a Yeti."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1485
+#: items.xml:1508
 msgid "Wolvern Pelt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1485
+#: items.xml:1508
 msgid ""
 "The pelt of a Wolvern. In some lands, this can be used to make clothes, "
 "blankets, or tents."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1492
+#: items.xml:1515
 msgid "White Fur"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1492
+#: items.xml:1515
 msgid "White fleecy fur, useful for making garments."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1499
+#: items.xml:1522
 msgid "Tulip"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1499
+#: items.xml:1522
 msgid "A flower picked in the fields."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1506
+#: items.xml:1529
 msgid "Spell Book Page"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1506
+#: items.xml:1529
 msgid "A page torn from a magic book."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1514
+#: items.xml:1537
 msgid "Skull"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1514
+#: items.xml:1537
 msgid "don't hope to find a brain in it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1521
+#: items.xml:1544
 msgid "Silver Bell"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1521
+#: items.xml:1544
 msgid "A bell made from pure silver."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1528
+#: items.xml:1551
 msgid "Broken-Four-Leaf-Amulet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1528 items.xml:1780
+#: items.xml:1551 items.xml:1803
 msgid "Unlucky."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1535
+#: items.xml:1558
 msgid "Gem Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1535
+#: items.xml:1558
 msgid "Crushed from valuable crystals."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1542
+#: items.xml:1565
 msgid "Gold Coins"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1542
+#: items.xml:1565
 msgid "Used for buying stuff."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1549
+#: items.xml:1572
 msgid "Grass Liner"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1549
+#: items.xml:1572
 msgid "Perfect to feed moobous."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1556
+#: items.xml:1579
 msgid "Ice Cube"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1556
+#: items.xml:1579
 msgid "Dont bring it to Tulimshar."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1563
+#: items.xml:1586
 msgid "Iten"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1563
+#: items.xml:1586
 msgid "Small but heavy."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1570
+#: items.xml:1593
 msgid "Jacko Lantern"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1570
+#: items.xml:1593
 msgid "A pumkin with a face on it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1577
+#: items.xml:1600
 msgid "Lazurite Shard"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1577
+#: items.xml:1600
 msgid "A small shard of Lazurite, with little magic catalysis properties."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1584
+#: items.xml:1607
 msgid "Lazurite Crystal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1584
+#: items.xml:1607
 msgid "A crystal of Lazurite, with magic catalysis properties."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1591
+#: items.xml:1614
 msgid "Lazurite Heart"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1591
+#: items.xml:1614
 msgid "A large crystal of Lazurite, with powerful magic catalysis properties."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1598
+#: items.xml:1621
 msgid "Leather Suitcase"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1598
+#: items.xml:1621
 msgid "A tyipical suitcase."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1605
+#: items.xml:1628
 msgid "Lock Picks"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1605
+#: items.xml:1628
 msgid "You probably will find these useful when in jail."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1612
+#: items.xml:1635
 msgid "Love Letter"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1612
+#: items.xml:1635
 msgid "A letter to confess to that special someone."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1619
+#: items.xml:1642
 msgid "Mylarin Dust"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1619
+#: items.xml:1642
 msgid "A bottle of mylarin particles."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1626
+#: items.xml:1649
 msgid "Opened Christmas Box"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1626
+#: items.xml:1649
 msgid "What was inside?"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1633
+#: items.xml:1656
 msgid "Leather Patch"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1633
+#: items.xml:1656
 msgid "Leather Patch."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1640
+#: items.xml:1663
 msgid "Petal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1640
+#: items.xml:1663
 msgid "This lovely petal was picked from a flower."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1647
+#: items.xml:1670
 msgid "SulfurPowder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1647
+#: items.xml:1670
 msgid "A small pile of dangerous sulphur."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1654
+#: items.xml:1677
 msgid "Present Box"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1654
+#: items.xml:1677
 msgid "What does it contain."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1661
+#: items.xml:1684
 msgid "Quill"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1661
+#: items.xml:1684
 msgid "Used to write letters."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1668
+#: items.xml:1691
 msgid "Rose"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1668
+#: items.xml:1691
 msgid "can come in a variety of colors."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1675
+#: items.xml:1698
 msgid "Sealed Soul"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1675
+#: items.xml:1698
 msgid "A soul, sealed in a mystical vial."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1682
+#: items.xml:1705
 msgid "Silver Mirror"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1682
+#: items.xml:1705
 msgid "This mirror has some mysterious aura around it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1689
+#: items.xml:1712
 msgid "Terranite Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1689
+#: items.xml:1712
 msgid "Some ore collected from the Terranite."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1696
+#: items.xml:1719
 msgid "Tuber"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1696
+#: items.xml:1719
 msgid "A seed that can be replanted."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1703
+#: items.xml:1726
 msgid "Iced Bottle"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1703
+#: items.xml:1726
 msgid "Frozen solid."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1710
+#: items.xml:1733
 msgid "Saxso Key"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1710
+#: items.xml:1733
 msgid "Used to unlock something."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1717
+#: items.xml:1740
 msgid "Blue Mana Pearl"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1717
+#: items.xml:1740
 msgid "A pure pearl of Mana."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1724
+#: items.xml:1747
 msgid "Crystallized Maggot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1724
+#: items.xml:1747
 msgid "Hard as a rock."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1731
+#: items.xml:1754
 msgid "Dark Crystal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1731
+#: items.xml:1754
 msgid "Dark as the night."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1738
+#: items.xml:1761
 msgid "Sunny Crystal"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1738
+#: items.xml:1761
 msgid "Shines as bright as the sun."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1745
+#: items.xml:1768
 msgid "Druid Tree Branch"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1745
+#: items.xml:1768
 msgid "A branch from a druid tree."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1752
+#: items.xml:1775
 msgid "Dragon Scales"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1752
+#: items.xml:1775
 msgid "Taken from a dead dragon."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1759
+#: items.xml:1782
 msgid "Light Green Diamond"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1759
+#: items.xml:1782
 msgid "A light green diamond."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1766
+#: items.xml:1789
 msgid "Demonic Earth Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1766
+#: items.xml:1789
 msgid "let's make The Mana World 2 darker !"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1773
+#: items.xml:1796
 msgid "Fluo Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1773
+#: items.xml:1796
 msgid "Fluoresent powder."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1780
+#: items.xml:1803
 msgid "Broken Medal"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1787
+#: items.xml:1810
 msgid "Strange Coin"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1787
+#: items.xml:1810
 msgid "Doesn't look like the others. I wonder if you can shop with this."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1794
+#: items.xml:1817
 msgid "Butterfly"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1794
+#: items.xml:1817
 msgid "It's made of butter! It flies! It is a BUTTERFLY!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1801
+#: items.xml:1824
 msgid "Cave Snake Tongue"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1801
+#: items.xml:1824
 msgid "It is not kind to show tongues to people, you know."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1808
+#: items.xml:1831
 msgid "Red Scorpion Stinger"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1808 items.xml:1815
+#: items.xml:1831 items.xml:1838
 msgid "It stings!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1815
+#: items.xml:1838
 msgid "Black Scorpion Stinger"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1822
+#: items.xml:1845
 msgid "Empty Bottle"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1822
+#: items.xml:1845
 msgid "If you are thirsty, this won't solve your problems."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1829
+#: items.xml:1852
 msgid "Golden Easter Egg"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1829
+#: items.xml:1852
 msgid "A rare golden egg which can only be used during Easter."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1836
+#: items.xml:1859
 msgid "Silver Easter Egg"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1836
+#: items.xml:1859
 msgid "A silver egg which can only be used during Easter."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1843
+#: items.xml:1866
 msgid "Pile Of Ash"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1843
+#: items.xml:1866
 msgid "A pile of ash similar to volcanic ash."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1850
+#: items.xml:1873
 msgid "Duck Feathers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1850
+#: items.xml:1873
 msgid "Small feathers of an angry Duck."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1856
+#: items.xml:1879
 msgid "Tulimshar Guard Card"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1856
+#: items.xml:1879
 msgid ""
 "Go anywhere you want! Well, not really. But grants you access to restricted "
 "areas in Tulimshar."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1862
+#: items.xml:1885
 msgid "Roach"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1862
+#: items.xml:1885
 msgid "A small fish."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1868
+#: items.xml:1891
 msgid "Tench"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1868
+#: items.xml:1891
 msgid "A tench found in pond."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1874
+#: items.xml:1897
 msgid "Lifestone"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1874
+#: items.xml:1897
 msgid "A small stone with some life power on it. Not very useful."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1880
+#: items.xml:1903
 msgid "Copper Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1880
+#: items.xml:1903
 msgid "Copper in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1886
+#: items.xml:1909
 msgid "Lead Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1886
+#: items.xml:1909
 msgid "Lead in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1893
+#: items.xml:1916
 msgid "Tin Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1893
+#: items.xml:1916
 msgid "Tin in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1899
+#: items.xml:1922
 msgid "Silver Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1899
+#: items.xml:1922
 msgid "Silver in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1905
+#: items.xml:1928
 msgid "Gold Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1905
+#: items.xml:1928
 msgid "Gold in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1911
+#: items.xml:1934
 msgid "Platinum Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1911
+#: items.xml:1934
 msgid "Platinum in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1917
+#: items.xml:1940
 msgid "Iridium Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1917
+#: items.xml:1940
 msgid "Iridium in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1923
+#: items.xml:1946
 msgid "Titanium Ore"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1923
+#: items.xml:1946
 msgid "Titanium in its brute form."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1930
+#: items.xml:1953
 msgid "Copper Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1930
+#: items.xml:1953
 msgid "Used to craft copper objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1936
+#: items.xml:1959
 msgid "Lead Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1936
+#: items.xml:1959
 msgid "Used to craft lead objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1942
+#: items.xml:1965
 msgid "Tin Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1942
+#: items.xml:1965
 msgid "Used to craft tin objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1948
+#: items.xml:1971
 msgid "Silver Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1948
+#: items.xml:1971
 msgid "Used to craft silver objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1954
+#: items.xml:1977
 msgid "Gold Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1954
+#: items.xml:1977
 msgid "Used to craft gold objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1961
+#: items.xml:1984
 msgid "Platinum Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1961
+#: items.xml:1984
 msgid "Used to craft platinum objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1967
+#: items.xml:1990
 msgid "Iridum Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1967
+#: items.xml:1990
 msgid "Used to craft iridium objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1973
+#: items.xml:1996
 msgid "Titanium Ingot"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1973
+#: items.xml:1996
 msgid "Used to craft titanium objects."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1979
-msgid "Ruby Powder"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:1979
-msgid "A red powder made out of a ruby."
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:1985
-msgid "Topaz Powder"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:1985
-msgid "A yellow powder made out of a topaz."
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:1991
+#: items.xml:2002
 msgid "Diamond Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1991
+#: items.xml:2002
 msgid "A white powder made out of a diamond."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:1997
-msgid "Sapphire Powder"
+#: items.xml:2008
+msgid "Ruby Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:1997
-msgid "A blue powder made out of a sapphire."
+#: items.xml:2008
+msgid "A red powder made out of a ruby."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2003
-msgid "Amethyst Powder"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:2003
-msgid "A purple powder made out of an amethyst."
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:2009
+#: items.xml:2014
 msgid "Emerald Powder"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2009
+#: items.xml:2014
 msgid "A green powder made out of an emerald."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2015
+#: items.xml:2020
+msgid "Sapphire Powder"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2020
+msgid "A blue powder made out of a sapphire."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2026
+msgid "Topaz Powder"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2026
+msgid "A yellow powder made out of a topaz."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2032
+msgid "Amethyst Powder"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2032
+msgid "A purple powder made out of an amethyst."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2038
 msgid "Aquada Box"
 msgstr "Aquadakiste"
 
 #. (itstool) path: items/item@description
-#: items.xml:2015
+#: items.xml:2038
 msgid "Contains 50 aquadas."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2021
+#: items.xml:2044
 msgid "Mountain Snake Tongue"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2021
+#: items.xml:2044
 msgid "The forked tongue of a mountain snake."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2028
+#: items.xml:2051
 msgid "Mountain Snake Skin"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2028
+#: items.xml:2051
 msgid "A rare skin of a mountain snake."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2035
+#: items.xml:2058
 msgid "Cave Snake Skin"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2035
+#: items.xml:2058
 msgid "A cave snake skin."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2046
+#: items.xml:2064
+msgid "Scorpion clawn"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2064
+msgid "One scorpion was out of harm's way."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2070
+msgid "Red Scorpion clawn"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2070
+msgid "Not appetizing."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2076
+msgid "Black Scorpion clawn"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2082
+msgid "Golden Scorpion clawn"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2082
+msgid "A dangerous golden scropion claw."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2092
 msgid "Bromenal Four-Leaf Amulet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2046
+#: items.xml:2092
 msgid "An amulet that brings the wearer good luck where ever they go."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2046
-msgid "VIT Defence +3%"
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:2055
-msgid "Iron Four-Leaf Amulet"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:2055
-msgid "An amulet that brings the wearer great luck where ever they go."
-msgstr ""
-
-#. (itstool) path: items/item@effect
-#: items.xml:2055
-msgid "VIT Defence +5%"
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:2064
-msgid "Golden Four-Leaf Amulet"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:2064
-msgid "An amulet that brings the wearer excellent luck where ever they go."
-msgstr ""
-
-#. (itstool) path: items/item@effect
-#: items.xml:2064
-msgid "VIT Defence +7%"
-msgstr ""
-
-#. (itstool) path: items/item@name
-#: items.xml:2073
-msgid "Crozenite Four-Leaf Amulet"
-msgstr ""
-
-#. (itstool) path: items/item@description
-#: items.xml:2073
-msgid "An amulet that brings the wearer luck where ever they go."
-msgstr ""
-
-#. (itstool) path: items/item@effect
-#: items.xml:2073
+#: items.xml:2092
 msgid "VIT Defence +10%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2082
+#: items.xml:2101
+msgid "Iron Four-Leaf Amulet"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2101
+msgid "An amulet that brings the wearer great luck where ever they go."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:2101
+msgid "VIT Defence +5%"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2110
+msgid "Golden Four-Leaf Amulet"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2110
+msgid "An amulet that brings the wearer excellent luck where ever they go."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:2110
+msgid "VIT Defence +7%"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2119
+msgid "Crozenite Four-Leaf Amulet"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2119
+msgid "An amulet that brings the wearer luck where ever they go."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:2119
+msgid "VIT Defence +3%"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2128
 msgid "Heart Necklace"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2082
+#: items.xml:2128
 msgid "A gold and ruby heart necklace."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2082
+#: items.xml:2128
 msgid "NYI"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2090
+#: items.xml:2136
 msgid "Jack's Skeleton Charm"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2090
+#: items.xml:2136
 msgid "A mysterious charm said to only work at a special time of year."
 msgstr ""
 
@@ -3871,2531 +3967,2582 @@ msgstr ""
 #. (itstool) path: items/item@name
 #. #-#-#-#-#  quests.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: quest/name
-#: items.xml:2100 quests.xml:607 quests.xml:616
+#: items.xml:2146 quests.xml:573 quests.xml:582
 msgid "Lifestone Pendant"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2100
+#: items.xml:2146
 msgid "A mystical pendant."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2100
+#: items.xml:2146
 msgid "SP Regen +1%, HP Regen +5%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2109
+#: items.xml:2155
 msgid "Bloodstone Pendant"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2109
+#: items.xml:2155
 msgid "A demoniac pendant."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2109
+#: items.xml:2155
 msgid "HP +5%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2118
+#: items.xml:2164
 msgid "Raw Talisman"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2118
+#: items.xml:2164
 msgid "Raw form of a talisman, can be enchanted with ancient magic."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2118 items.xml:2127 items.xml:2136
+#: items.xml:2164 items.xml:2173 items.xml:2182
 msgid "HP +15%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2127
+#: items.xml:2173
 msgid "Dark Talisman"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2127
+#: items.xml:2173
 msgid ""
 "A small cube. It radiates unimaginable power, and is quite dizzying to look "
 "at."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2136
+#: items.xml:2182
 msgid "Flight Talisman"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2136
+#: items.xml:2182
 msgid ""
 "A talisman created using ancient magic to keep you safe during flights."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2145
+#: items.xml:2191
 msgid "Tooth Necklace"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2145
+#: items.xml:2191
 msgid "A basic tooth necklace."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2145
+#: items.xml:2191
 msgid "STR +2, HP -250"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2153
+#: items.xml:2199
 msgid "Wolvern Teeth Necklace"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2153
+#: items.xml:2199
 msgid "A poacher necklace."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2161
+#: items.xml:2207
 msgid "Claw Pendant"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2161
+#: items.xml:2207
 msgid "A pendant made for hermit"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2169
+#: items.xml:2215
 msgid "Barbarian Amulet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2169
+#: items.xml:2215
 msgid "A typical amulet for adult barbarian."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2177
+#: items.xml:2223
 msgid "Barbarian Master Amulet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2177 items.xml:2185 items.xml:2193
+#: items.xml:2223 items.xml:2231 items.xml:2239
 msgid "An unique amulet in a tribe."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2185
+#: items.xml:2231
 msgid "Monk Pendant"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2193
+#: items.xml:2239
 msgid "Angel Amulet"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2201
+#: items.xml:2247
 msgid "Sponsor Necklace"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2201
+#: items.xml:2247
 msgid "A necklace which only senior sponsors are allowed to use."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2201
+#: items.xml:2247
 msgid "Makes you look cool!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2214
+#: items.xml:2260
 msgid "Four Leaf Clover"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2214
+#: items.xml:2260
 msgid "A lucky and extremely rare drop."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2214
+#: items.xml:2260
 msgid "Receive 10% less Critical hits"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2223
+#: items.xml:2269
 msgid "Ash Urn"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2223
+#: items.xml:2269
 msgid ""
 "An ash urn. Contains something burnt, but you can't quite find out what."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2233
+#: items.xml:2279
 msgid "Astral Cube"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2233
+#: items.xml:2279
 msgid "The key component to shift worlds will grant you etheral defense."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2241
+#: items.xml:2287
 msgid "Broken Doll"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2241
+#: items.xml:2287
 msgid ""
 "An ancient doll taken from a fallen Fey Element that used it as a lure for "
 "its young victims."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2250
+#: items.xml:2296
 msgid "Doll"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2250
+#: items.xml:2296
 msgid "A doll. Monsters will understimate you, allowing to crit more often."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2250
+#: items.xml:2296
 msgid "Critical +15%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2258
+#: items.xml:2304
 msgid "Fire Scroll"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2258
+#: items.xml:2304
 msgid "This scroll should burn!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2266
+#: items.xml:2312
 msgid "Heart Of Isis"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2266
+#: items.xml:2312
 msgid "Life emanates through the natural warmth of this jewel."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2274
+#: items.xml:2320
 msgid "Leather Ball"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2274
+#: items.xml:2320
 msgid "A leather ball handmade by Santa's helpers."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2282
+#: items.xml:2328
 msgid "Mecha Medallion"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2282
+#: items.xml:2328
 msgid "This one is a powerful medallion."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2290
+#: items.xml:2336
 msgid "Old Towel"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2290
+#: items.xml:2336
 msgid ""
 "You can dry yourself off with it if it still seems to be clean enough. - "
 "Douglas Adams"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2298
+#: items.xml:2344
 msgid "Plush Mouboo"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2298
+#: items.xml:2344
 msgid "A Mouboo plush."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2306
+#: items.xml:2352
 msgid "Red Stocking"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2306
+#: items.xml:2352
 msgid "Eww, it's smelly!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2314
+#: items.xml:2360
 msgid "Santa Globe"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2314
+#: items.xml:2360
 msgid "An snow globe featuring Santa."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2322
+#: items.xml:2368
 msgid "Snowman Globe"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2322
+#: items.xml:2368
 msgid "An snow globe featuring a snowman."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2330
+#: items.xml:2376
 msgid "Spectral Orb"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2330 items.xml:2338 items.xml:2346 items.xml:2354 items.xml:2362
-#: items.xml:2370 items.xml:2378 items.xml:2386
+#: items.xml:2376 items.xml:2384 items.xml:2392 items.xml:2400 items.xml:2408
+#: items.xml:2416 items.xml:2424 items.xml:2432
 msgid "Test."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2338
+#: items.xml:2384
 msgid "Theta Book"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2346
+#: items.xml:2392
 msgid "Treasure Map"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2354
+#: items.xml:2400
 msgid "Earth Scroll"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2362
+#: items.xml:2408
 msgid "Demonic Skull"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2370
+#: items.xml:2416
 msgid "goldmedal"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2378
+#: items.xml:2424
 msgid "silvermedal"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2386
+#: items.xml:2432
 msgid "bronzemedal"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2398
+#: items.xml:2444
 msgid "Creased Shirt"
 msgstr "Zerknittertes Hemd"
 
 #. (itstool) path: items/item@description
-#: items.xml:2398
+#: items.xml:2444
 msgid "A spare shirt from the crew of La Johanne."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2411
+#: items.xml:2457
 msgid "%Color% V-neck Jumper"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2411
+#: items.xml:2457
 msgid "A simple %color% jumper made from a lightweight cashmere."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2424
+#: items.xml:2470
 msgid "%Color% Artis Tank Top"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2424
+#: items.xml:2470
 msgid "A %color% tank top made from cotton cloth."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2435
+#: items.xml:2481
 msgid "Sailor Shirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2435
+#: items.xml:2481
 msgid "Proof that ye be in the crew, matey!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2446
+#: items.xml:2492
 msgid "Legion's Training Shirt"
 msgstr "Trainingshemd der Legion"
 
 #. (itstool) path: items/item@description
-#: items.xml:2446
+#: items.xml:2492
 msgid "Informal shirt worn during intense aerobic exercises."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2457
+#: items.xml:2503
 msgid "Legion's Copper Armor"
 msgstr "Kupferrüstung der Legion"
 
 #. (itstool) path: items/item@description
-#: items.xml:2457
+#: items.xml:2503
 msgid ""
 "This armor provides great protection. It is worn by those with authority."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2468
+#: items.xml:2514
 msgid "Warlord Plate"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2468
+#: items.xml:2514
 msgid "Strong and decorative armor."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2479
+#: items.xml:2525
 msgid "Bromenal Chest"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2479
+#: items.xml:2525
 msgid "A bromenal chest armor."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2490
+#: items.xml:2536
 msgid "Forest Armor"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2490
+#: items.xml:2536
 msgid ""
 "A clean and comfortable mantle with dags, made for the finest stalkers."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2503
+#: items.xml:2549
 msgid "%Color% Contributor Sweater"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2503
+#: items.xml:2549
 msgid ""
 "This %color% sweater belongs to someone who helped making TMW2 as awesome as"
 " it is now!."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2514
+#: items.xml:2560
 msgid "Chainmail"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2514
+#: items.xml:2560
 msgid ""
 "A shirt made of chains. It weighs a lot but offers excellent protection."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2525
+#: items.xml:2571
 msgid "Terranite Chest"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2525
+#: items.xml:2571
 msgid "A nice piece of armor made out of terranite ore."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2536
+#: items.xml:2582
 msgid "Light Platemail"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2536
+#: items.xml:2582
 msgid ""
 "A light cuirass with shoulder pads made of iron, usually worn by foot "
 "soldiers."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2548
+#: items.xml:2594
 msgid "%Color% Short tank top"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2548
+#: items.xml:2594
 msgid "A %color% short tank top."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2559
+#: items.xml:2605
 msgid "Leather Shirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2559
+#: items.xml:2605
 msgid "A shirt made of hardened leather."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2571
+#: items.xml:2617
 msgid "%Color% Turtleneck Sweater"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2571
+#: items.xml:2617
 msgid "A thick, soft and warm sweater."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2585
+#: items.xml:2631
 msgid "%Color% Silk Robe"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2585
+#: items.xml:2631
 msgid "A light and shimmering %Color% silk robe."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2585
+#: items.xml:2631
 msgid "SP +30"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2598
+#: items.xml:2644
 msgid "%Color% Sorcerer Robe"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2598
+#: items.xml:2644
 msgid "A red lined sorcerer robe."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:2598
+#: items.xml:2644
 msgid "SP +50"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2610
+#: items.xml:2656
 msgid "Ugly Christmas Sweater"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2610
+#: items.xml:2656
 msgid "An ugly Christmas sweater."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2623
+#: items.xml:2669
 msgid "%Color% Valentine Dress"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2623
+#: items.xml:2669
 msgid "A %Color% dress made for your Valentin's day. Could be red, though."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2635
+#: items.xml:2681
 msgid "%Color% VVneck Sweater"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2635
+#: items.xml:2681
 msgid "A thin, soft and warm sweater."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2646
+#: items.xml:2692
 msgid "Candor Shirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2646
+#: items.xml:2692
 msgid "A classical Candor shirt"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2657
+#: items.xml:2703
 msgid "GM Robe"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2657
+#: items.xml:2703
 msgid "A GM robe."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2669
+#: items.xml:2715
 msgid "Red Knight Armor ★★"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2669
+#: items.xml:2715
 msgid ""
 "An armor, said to belong to the Red Queen's minions, back in the end of the "
 "First Era."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2680
+#: items.xml:2727
+msgid "Desert Shirt"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:2727
+msgid ""
+"A strong shirt suitable for desert trips. Made of leather and snake skin's."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:2738
 msgid "Golden Chainmail"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2680
+#: items.xml:2738
 msgid ""
 "A shirt made of golden chains. It weighs a lot but offers excellent "
 "protection."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2691
+#: items.xml:2749
 msgid "Golden Light Platemail"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2691
+#: items.xml:2749
 msgid "A light platemail with shoulder pads made of gold."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2702
+#: items.xml:2760
 msgid "Golden Warlord Plate"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2702
+#: items.xml:2760
 msgid "1"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2713
+#: items.xml:2771
 msgid "Crusade Armor"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2713
+#: items.xml:2771
 msgid "Are you a crusader ?"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2727
+#: items.xml:2785
 msgid "Lousy Moccasins"
 msgstr "Abgenutzte Mokkasins"
 
 #. (itstool) path: items/item@description
-#: items.xml:2727 items.xml:2739
+#: items.xml:2785 items.xml:2797
 msgid "Crudely assembled footwear not for comfort nor fashion."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2739
+#: items.xml:2797
 msgid "Assassin Boots"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2751
+#: items.xml:2809
 msgid "Deep Black Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2751
+#: items.xml:2809
 msgid "Some robust black boots, ideal for travelling."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2763
+#: items.xml:2821
 msgid "Candor Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2763
+#: items.xml:2821
 msgid "A Candor favorite"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2775
+#: items.xml:2833
 msgid "Furs Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2775
+#: items.xml:2833
 msgid "A pair of warm winter boots."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2787
+#: items.xml:2845
 msgid "Cotton Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2787
+#: items.xml:2845
 msgid "A pair of quality cotton boots."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2799
+#: items.xml:2857
 msgid "Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2799
+#: items.xml:2857
 msgid "Some robust, probably used, boots."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2811
+#: items.xml:2869
 msgid "Leather Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2811
+#: items.xml:2869
 msgid ""
 "Leather boots are resistant, comfortable, and looks cool. Or at least, "
 "that's what was on the ad."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2823
+#: items.xml:2881
 msgid "Red Stockings"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2823
+#: items.xml:2881
 msgid "Someone thought of you at Christmas Eve."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2835
+#: items.xml:2893
 msgid "Bromenal Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2835
+#: items.xml:2893
 msgid "A pair of bromenal boots."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2847
+#: items.xml:2905
 msgid "Creased Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2847
+#: items.xml:2905
 msgid "Beark !"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2859
+#: items.xml:2917
 msgid "Tulimshar Guard Boots"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2859
+#: items.xml:2917
 msgid "These boots are made from dock skins! Whatever that means."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2873
+#: items.xml:2931
 msgid "Armbands"
 msgstr "Armschienen"
 
 #. (itstool) path: items/item@description
-#: items.xml:2873
+#: items.xml:2931
 msgid "Small armbands made of wood and iron."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2885
+#: items.xml:2943
 msgid "Copper Armbands"
 msgstr "Kupfer Armschienen"
 
 #. (itstool) path: items/item@description
-#: items.xml:2885
+#: items.xml:2943
 msgid "Sturdy, combat-issue armbands."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2897
+#: items.xml:2955
 msgid "Iron Armbands"
 msgstr "Eisen Armschienen"
 
 #. (itstool) path: items/item@description
-#: items.xml:2897
+#: items.xml:2955
 msgid "Heavy armbands that slow down all but experienced warriors."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2909
+#: items.xml:2967
 msgid "Scarab Armlet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2909
+#: items.xml:2967
 msgid "A scarab armlet."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2921
+#: items.xml:2979
 msgid "Creased Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2921
+#: items.xml:2979
 msgid "These gloves were used before..."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2933
+#: items.xml:2991
 msgid "Cotton Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2933
+#: items.xml:2991
 msgid "A pair of comfy cotton gloves."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2945
+#: items.xml:3003
 msgid "Miner Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2945
+#: items.xml:3003
 msgid "Gloves used by miners, very useful."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2957
+#: items.xml:3015
 msgid "Silk Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2957
+#: items.xml:3015
 msgid "Soft and graceful silk gloves which doesn't restrain magic."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2969
+#: items.xml:3027
 msgid "Leather Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2969
+#: items.xml:3027
 msgid "Gloves made of hardened leather."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:2995
+#: items.xml:3053
 msgid "Bromenal Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:2995
+#: items.xml:3053
 msgid "A pair of bromenal gloves"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3057
+#: items.xml:3115
 msgid "Assassin Gloves"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3057
+#: items.xml:3115
 msgid "Gloves for a master assassin."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3071
+#: items.xml:3129
 msgid "Creased Shorts"
 msgstr "Zerknitterte kurze Hose"
 
 #. (itstool) path: items/item@description
-#: items.xml:3071
+#: items.xml:3129
 msgid "Spare shorts from the crew of La Johanne."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3083
+#: items.xml:3141
 msgid "Raid Trousers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3083
+#: items.xml:3141
 msgid "Classic trousers ornated with some fluffy fur."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3095
+#: items.xml:3153
 msgid "Assassin Pants"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3095
+#: items.xml:3153
 msgid "Pants for a master assassin.."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3106
+#: items.xml:3164
 msgid "Bromenal Pants"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3106
+#: items.xml:3164
 msgid "A bromenal leg armor."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3117
+#: items.xml:3175
 msgid "Jeans Chaps"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3117
+#: items.xml:3175
 msgid "Jeans with snake skin chaps."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3129
+#: items.xml:3187
 msgid "Cotton Shorts"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3129
+#: items.xml:3187
 msgid "Shorts made of 100% cotton."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3140
+#: items.xml:3198
 msgid "Mini Skirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3140
+#: items.xml:3198
 msgid "A short skirt for hot summer days."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3151
+#: items.xml:3209
 msgid "Cotton Trousers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3151
+#: items.xml:3209
 msgid "Ankle-length trousers made of cotton."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3164
+#: items.xml:3222
 msgid "%Color% Silk Pants"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3164
+#: items.xml:3222
 msgid "A very light fancy pair of %Color% silk trousers."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3175
+#: items.xml:3233
 msgid "Cotton Skirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3175
+#: items.xml:3233
 msgid "A skirt made of linen cloth."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3186
+#: items.xml:3244
 msgid "Terranite Pants"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3186
+#: items.xml:3244
 msgid "Leggings made out of terranite."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3197
+#: items.xml:3255
 msgid "Chainmail Skirt"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3197
+#: items.xml:3255
 msgid "The perfect medieval style."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3208
+#: items.xml:3266
 msgid "Jeans Shorts"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3208
+#: items.xml:3266
 msgid "Perfect for the beach."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3219
+#: items.xml:3277
 msgid "Leather Trousers"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3219
+#: items.xml:3277
 msgid "A normal pair of pants made from leather."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3266
+#: items.xml:3324
 msgid "Candor Shorts"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3266
+#: items.xml:3324
 msgid "Not a classic pair of shorts."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3279
+#: items.xml:3337
 msgid "Wedding Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3279
+#: items.xml:3337
 msgid "Your wedding ring."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:3279
+#: items.xml:3337
 msgid "HP +5"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3287
-msgid "Golden Simple Ring"
+#: items.xml:3345
+msgid "Golden Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3287
+#: items.xml:3345
 msgid "A golden simple ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3295
+#: items.xml:3353
 msgid "Golden Diamond Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3295
+#: items.xml:3353
 msgid "A golden diamond ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3303
+#: items.xml:3361
 msgid "Golden Ruby Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3303
+#: items.xml:3361
 msgid "A golden ruby ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3311
+#: items.xml:3369
 msgid "Golden Amethyst Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3311
+#: items.xml:3369
 msgid "A golden amethyst ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3319
+#: items.xml:3377
 msgid "Golden Sapphire Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3319
+#: items.xml:3377
 msgid "A golden sapphire ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3327
+#: items.xml:3385
 msgid "Golden Topaz Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3327
+#: items.xml:3385
 msgid "A golden topaz ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3335
+#: items.xml:3393
 msgid "Golden Emerald Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3335
+#: items.xml:3393
 msgid "A golden emerald ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3343
+#: items.xml:3401
 msgid "Golden Pearl Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3343
+#: items.xml:3401
 msgid "A golden pearl ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3351
+#: items.xml:3409
 msgid "Golden Black Pearl Ring"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3351 items.xml:3359 items.xml:3367
+#: items.xml:3409 items.xml:3417 items.xml:3425
 msgid "A golden black pearl ring."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3359
+#: items.xml:3417
 msgid "Theta Ring"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3367
+#: items.xml:3425
 msgid "Light Ring"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3378
+#: items.xml:3433
+msgid "Silver Ring"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:3433
+msgid "A silver simple ring."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:3444
 msgid "Barrel"
 msgstr "Fass"
 
 #. (itstool) path: items/item@description
-#: items.xml:3378
+#: items.xml:3444
 msgid "It smells as if somebody used to live inside this barrel..."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3389
+#: items.xml:3455
 msgid "Leather Shield"
 msgstr "Lederschild"
 
 #. (itstool) path: items/item@description
-#: items.xml:3389
+#: items.xml:3455
 msgid "A shield with iron reinforcement."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:3389
+#: items.xml:3455
 msgid "Critical DEF +10%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3398
+#: items.xml:3464
 msgid "Blade Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3398
+#: items.xml:3464
 msgid "Small and round shield with iron reinforcement."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3407
+#: items.xml:3473
 msgid "Blue Knight Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3407
+#: items.xml:3473
 msgid "A shield perfect with prsm helmet."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3416
+#: items.xml:3482
 msgid "Brit Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3416
+#: items.xml:3482
 msgid "A wooden shield from nowhere."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3425
+#: items.xml:3491
 msgid "Savior Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3425
+#: items.xml:3491
 msgid "The magic savior shield."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3434
+#: items.xml:3500
 msgid "Bromenal Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3434
+#: items.xml:3500
 msgid "A strong bromenal shield."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3444
+#: items.xml:3510
 msgid "Round Leather Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3444
+#: items.xml:3510
 msgid "Small and round leather shield with iron reinforcement."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:3444
+#: items.xml:3510
 msgid "Critical DEF +5%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3453
+#: items.xml:3519
 msgid "Ancient Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3453
+#: items.xml:3519
 msgid "No one knows its origins."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3462
+#: items.xml:3528
 msgid "Braknar Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3462
+#: items.xml:3528
 msgid "A sturdy shield."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3471
+#: items.xml:3537
 msgid "Wooden Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3471
+#: items.xml:3537
 msgid "A shield made of wood."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3480
+#: items.xml:3546
 msgid "Steel Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3480
+#: items.xml:3546
 msgid "A shield made of steel."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3489
+#: items.xml:3555
 msgid "Dragon Shield"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3489
+#: items.xml:3555
 msgid "A mighty shield from the dragons."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3500
+#: items.xml:3566
 msgid "Bandana"
 msgstr "Kopftuch"
 
 #. (itstool) path: items/item@description
-#: items.xml:3500
+#: items.xml:3566
 msgid "A striped bandana worn by some sailors."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3525
+#: items.xml:3591
 msgid "Pumpkin Hat"
 msgstr "Kürbishut"
 
 #. (itstool) path: items/item@description
-#: items.xml:3525
+#: items.xml:3591
 msgid "A carved pumpkin. Its face might scare your enemy off!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3536
+#: items.xml:3602
 msgid "Fancy Hat"
 msgstr "Modischer Hut"
 
 #. (itstool) path: items/item@description
-#: items.xml:3536
+#: items.xml:3602
 msgid "Worn when living away from cities."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3551
+#: items.xml:3617
 msgid "Brimmed Hat"
 msgstr "Hut mit Krempe"
 
 #. (itstool) path: items/item@description
-#: items.xml:3551
+#: items.xml:3617
 msgid "Unequip when indoors, please."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3566
+#: items.xml:3632
 msgid "Brimmed Feather Hat"
 msgstr "Federhut mit Krempe"
 
 #. (itstool) path: items/item@description
-#: items.xml:3566
+#: items.xml:3632
 msgid "Distinguishes someone who is travelling."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3581
+#: items.xml:3647
 msgid "Brimmed Flower Hat"
 msgstr "Blumenhut mit Krempe"
 
 #. (itstool) path: items/item@description
-#: items.xml:3581
+#: items.xml:3647
 msgid "To wear at festivals and certain events."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3596
+#: items.xml:3662
 msgid "Bull"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3596
+#: items.xml:3662
 msgid "It causes a lot of carnage!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3607
+#: items.xml:3673
 msgid "Darkhelm"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3607
+#: items.xml:3673
 msgid "A black steel helmet worn by the most ferocious warrior."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3620
+#: items.xml:3686
 msgid "%Color% Funky Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3620
+#: items.xml:3686
 msgid "Yawn."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3635
+#: items.xml:3701
 msgid "Crusade Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3635
+#: items.xml:3701
 msgid "Start your own crusade!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3646
+#: items.xml:3712
 msgid "Bucket"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3646
+#: items.xml:3712
 msgid "A bucket for your head!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3657
+#: items.xml:3723
 msgid "infantry Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3657
+#: items.xml:3723
 msgid "A helmet for soldiers and guards."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3672
+#: items.xml:3738
 msgid "Bunny Ears"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3672
+#: items.xml:3738
 msgid "A headband with plush bunny ears."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3682
+#: items.xml:3748
 msgid "Mouboo Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3682
+#: items.xml:3748
 msgid "A tightly fitting mouboo head."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3693
+#: items.xml:3759
 msgid "Bromenal Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3693
+#: items.xml:3759
 msgid "A hard bromenal helmet."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3704
+#: items.xml:3770
 msgid "Candle Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3704
+#: items.xml:3770
 msgid "Worn by spelunkers."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3715
+#: items.xml:3781
 msgid "Desert Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3715
-msgid "The perfect desert warriors' helmet."
+#: items.xml:3781
+msgid "This item is now unvailable."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3728
+#: items.xml:3794
 msgid "%Color% Desert Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3728
+#: items.xml:3794
 msgid ""
 "While the desert hat is perfect for sand storms, it won't help you much "
 "against a blow to the head."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3739
+#: items.xml:3805
 msgid "Eggshell Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3739 items.xml:4125 items.xml:4135
+#: items.xml:3805 items.xml:4192 items.xml:4202
 msgid "A novelty hat shaped like an eggshell half."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3750
+#: items.xml:3816
 msgid "Prsm Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3750
+#: items.xml:3816
 msgid "A helmet with two small wings on it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3761
+#: items.xml:3827
 msgid "Warlord Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3761
+#: items.xml:3827
 msgid "Worn by great warriors!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3772
+#: items.xml:3838
 msgid "Trapper Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3772
+#: items.xml:3838
 msgid "A hat made of forain fur"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3783
+#: items.xml:3849
 msgid "Yeti Mask"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3783
+#: items.xml:3849
 msgid "A mask made from the yeti's head."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3794
-msgid "Antler Hat"
+#: items.xml:3861
+msgid "Antlers Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3794
-msgid "This is how you warship dears"
+#: items.xml:3861
+msgid "Ready for antlers fight."
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:3861
+msgid "STR +2"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3804
+#: items.xml:3871
 msgid "Dragon Eggshell"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3804
+#: items.xml:3871
 msgid "A dragon once lived in there."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3814
+#: items.xml:3881
 msgid "Opera Mask"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3814
+#: items.xml:3881
 msgid "Pale and broken. There is surely a story to be told here."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3824
+#: items.xml:3891
 msgid "Axe Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3824
+#: items.xml:3891
 msgid "A really cool joke."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3834
+#: items.xml:3901
 msgid "Dark Knight Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3834
+#: items.xml:3901
 msgid "Worn by the dark knight himself."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3844
+#: items.xml:3911
 msgid "Earmuffs"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3844
+#: items.xml:3911
 msgid "These earmuffs can keep your ears enjoyably warm, even in Nivalis."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3854
+#: items.xml:3921
 msgid "Samurai Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3854
+#: items.xml:3921
 msgid "A common wear found in samurai tradition."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3864
+#: items.xml:3931
 msgid "Pinkie Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3864
+#: items.xml:3931
 msgid "With this, you'll fit right in with those strange pinkies."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3874
+#: items.xml:3941
 msgid "Skull Mask"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3874
+#: items.xml:3941
 msgid "A mask made out of bones."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3884
+#: items.xml:3951
 msgid "Imperial Crown"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3884
+#: items.xml:3951
 msgid "Usually worn by a monarch."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3893
+#: items.xml:3960
 msgid "GM Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3893
+#: items.xml:3960
 msgid "A cap which identifies you as a GM. Only Game Master's can wear this."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3908
+#: items.xml:3975
 msgid "Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3908
+#: items.xml:3975
 msgid "A hat with a peak to shield your eyes from the sun."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3923
+#: items.xml:3990
 msgid "Top Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3923
+#: items.xml:3990
 msgid "For the gentry of Mana Worlds."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3938
+#: items.xml:4005
 msgid "Bowler Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3938
+#: items.xml:4005
 msgid "A hat for those with a bit of class."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3953
+#: items.xml:4020
 msgid "Chef Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3953
+#: items.xml:4020
 msgid ""
 "A tall hat designed for the person in charge of a kitchen. It smells like "
 "onions."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3968
+#: items.xml:4035
 msgid "Captain Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3968
+#: items.xml:4035
 msgid "A hat worn by the bravest captains."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3983
+#: items.xml:4050
 msgid "Candor Head Band"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3983
+#: items.xml:4050
 msgid "Classical Candor head band."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:3999
+#: items.xml:4066
 msgid "Graduation Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:3999
+#: items.xml:4066
 msgid "A nice graduation cap."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:3999
+#: items.xml:4066
 msgid "SP Regen +5%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4014
+#: items.xml:4081
 msgid "Viking Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4014
+#: items.xml:4081
 msgid "Every good viking has one."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4029
+#: items.xml:4096
 msgid "Centurion Helmet"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4029
+#: items.xml:4096
 msgid "Worn primarily by centurions."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4044
+#: items.xml:4111
 msgid "Alpha Mouboo Head"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4044
+#: items.xml:4111
 msgid "You murderer!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4059
+#: items.xml:4126
 msgid "Sailor Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4059
+#: items.xml:4126
 msgid "A very common wear amongst sailors."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4075
+#: items.xml:4142
 msgid "Corsair Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4075
+#: items.xml:4142
 msgid "Watch out, there is a sniper nearby!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4090 items.xml:4278
+#: items.xml:4157 items.xml:4344
 msgid "Eye Patch"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4090
+#: items.xml:4157
 msgid "A cool eye patch!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4100
+#: items.xml:4167
 msgid "Serf Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4100
+#: items.xml:4167
 msgid "A very comfortable serf hat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4115
+#: items.xml:4182
 msgid "NPC Eyes"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4115
+#: items.xml:4182
 msgid ""
 "A set of blinking eyes which NPCs use. Perfect for sleeping in class without"
 " anyone noticing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4125
+#: items.xml:4192
 msgid "Green Eggshell Hat"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4135
+#: items.xml:4202
 msgid "Orange Eggshell Hat"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4146
+#: items.xml:4213
 msgid "Dark Eggshell Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4146
+#: items.xml:4213
 msgid "A novelty dark hat shaped like an eggshell half."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4146
+#: items.xml:4213
 msgid "Defense +15 during Easter"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4154
+#: items.xml:4221
 msgid "Admin Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4154
+#: items.xml:4221
 msgid ""
 "A cap which identifies you as an ADMIN. Only administrator's can wear this."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4167
+#: items.xml:4234
 msgid "DEV Cap"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4167
+#: items.xml:4234
 msgid "A cap which identifies you as a DEV. Only developer's can wear this."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4182
+#: items.xml:4249
 msgid "Magic Top Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4182
+#: items.xml:4249
 msgid "Probably not the best way to stay hidden."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4182
+#: items.xml:4249
 msgid "flee -80%; Defense -50%; HP 30000"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4197
+#: items.xml:4264
 msgid "Miner Hat"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4197
+#: items.xml:4264
 msgid "A hat used by miners."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4212
+#: items.xml:4279
 msgid "Murderer Crown"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4212
+#: items.xml:4279
 msgid "Royal blood has been shed for the ownership of this crown."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4230
+#: items.xml:4296
 msgid "Shemagh"
 msgstr "Shemagh"
 
 #. (itstool) path: items/item@description
-#: items.xml:4230
+#: items.xml:4296
 msgid "An improved scarf used by mercenaries in tough environments."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4242
+#: items.xml:4308
 msgid "Monocle"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4242 items.xml:4278
+#: items.xml:4308 items.xml:4344
 msgid "A handy perception tool, even when not at the opera."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4290
+#: items.xml:4356
 msgid "Googles"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4290
+#: items.xml:4356
 msgid "Goggles designed to take care of your eyes."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4302
+#: items.xml:4368
 msgid "Heart Glasses"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4302
+#: items.xml:4368
 msgid "Heart Glasses from another universe. Decisions were different there."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4331
+#: items.xml:4394
+msgid "Burglar Mask"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:4394
+msgid "Marry very well with a crowbar."
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:4409
 msgid "Knife"
 msgstr "Messer"
 
 #. (itstool) path: items/item@description
-#: items.xml:4331
+#: items.xml:4409
 msgid "A simple, but efficient knife."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4346
+#: items.xml:4424
 msgid "Piou Slayer"
 msgstr "Piou Mörder"
 
 #. (itstool) path: items/item@description
-#: items.xml:4346
+#: items.xml:4424
 msgid "A short sword for amateurs."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4346
+#: items.xml:4424
 msgid "Item in need of Balance"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4360
+#: items.xml:4438
 msgid "Training Gladius"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4360
+#: items.xml:4438
 msgid "A short sword made for close combat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4374
+#: items.xml:4452
 msgid "Wooden Sword"
 msgstr "Holzschwert"
 
 #. (itstool) path: items/item@description
-#: items.xml:4374
+#: items.xml:4452
 msgid "For sword training. Do not show-off with it."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4388
+#: items.xml:4466
 msgid "Artis Backsword"
 msgstr "Artis Backsword"
 
 #. (itstool) path: items/item@description
-#: items.xml:4388
+#: items.xml:4466
 msgid "An engraved backsword with the symbol of Artis on its brass hilt."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4402
+#: items.xml:4480
 msgid "Sharp Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4402
+#: items.xml:4480
 msgid "a sharp knife perfect for cut meat."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4415
+#: items.xml:4493
 msgid "Rusty Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4415
+#: items.xml:4493
 msgid "A lost knife."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4429
+#: items.xml:4507
 msgid "Dagger"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4429
+#: items.xml:4507
 msgid "Use to stab."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4443
+#: items.xml:4521
 msgid "Bone Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4443
+#: items.xml:4521
 msgid "A knife made from bones. Quite effective."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4457
+#: items.xml:4535
 msgid "Rock Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4457
+#: items.xml:4535
 msgid "A rock solid knife."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4471
+#: items.xml:4549
 msgid "Small Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4471
+#: items.xml:4549
 msgid "A tiny knife."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4485
+#: items.xml:4563
 msgid "Divine Sword"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4485
+#: items.xml:4563
 msgid "As the name suggests, it is divine."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4499
+#: items.xml:4577
 msgid "Butcher Knife"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4499
+#: items.xml:4577
 msgid ""
 "Usually found in a butchery, yet it can also be found at murderer's hands."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4513
+#: items.xml:4591
 msgid "Ancient Sword"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4513
+#: items.xml:4591
 msgid "Its so old that no one knows when it was created."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4527
+#: items.xml:4605
 msgid "Ice Gladius"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4527
+#: items.xml:4605
 msgid "A sword with a shimmering blue blade."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4541
+#: items.xml:4619
 msgid "Setzer"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4541
+#: items.xml:4619
 msgid "A knife named after a famous gambler."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4555
+#: items.xml:4633
 msgid "Long Sword"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4555
+#: items.xml:4633
 msgid "It has a very long blade."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4573
+#: items.xml:4651
 msgid "Thunder Staff ★★★"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4573
+#: items.xml:4651
 msgid "Jesusalva's courtesy, impairs holy lightning over your foes!"
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4573
+#: items.xml:4651
 msgid "Secret Item"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4590
+#: items.xml:4668
 msgid "Judgement ★★★"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4590
+#: items.xml:4668
 msgid ""
 "Sometimes, to Saves the ones you like, you must judge the ones you don't."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4590
+#: items.xml:4668
 msgid "Splash damage and knockback effect"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4604
+#: items.xml:4682
 msgid "Dark Pulsar ★★★"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4604
+#: items.xml:4682
 msgid ""
 "This awful blade will seep your enemies life force like a knife cuts butter."
 " Or at least, this is what they told me."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4604
+#: items.xml:4682
 msgid "Work In Progress"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4618
+#: items.xml:4696
 msgid "Bronze Gladius"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4618
+#: items.xml:4696
 msgid "A short sword made of bronze for lucky adventurer."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4631
+#: items.xml:4709
 msgid "Piou egg"
 msgstr "Piou Ei"
 
 #. (itstool) path: items/item@description
-#: items.xml:4631
+#: items.xml:4709
 msgid "Piou egg. Not for omelettes!"
 msgstr ""
 
 #. (itstool) path: items/item@useButton
-#: items.xml:4631 items.xml:4639
+#: items.xml:4709 items.xml:4717 items.xml:4725
 msgid "Hatch"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4639
+#: items.xml:4717
 msgid "Bhopper egg"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4639
+#: items.xml:4717
 msgid ""
 "Whaaaaaat, it is a lucky Bhopper Egg! With proper care, this pet will "
 "increase your luck!"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4650
+#: items.xml:4725
+msgid "Maggot Cocoon"
+msgstr ""
+
+#. (itstool) path: items/item@description
+#: items.xml:4725
+msgid "Hey, this cocoon is really rare!"
+msgstr ""
+
+#. (itstool) path: items/item@name
+#: items.xml:4736
 msgid "Crimson Cashmere Dye"
 msgstr "Karminrote Kashmir Farbe"
 
 #. (itstool) path: items/item@useButton
-#: items.xml:4650 items.xml:4659 items.xml:4668 items.xml:4677 items.xml:4686
-#: items.xml:4695 items.xml:4704 items.xml:4713 items.xml:4722 items.xml:4731
-#: items.xml:4740 items.xml:4749 items.xml:4758 items.xml:4767 items.xml:4776
-#: items.xml:4785 items.xml:4794 items.xml:4803 items.xml:4812 items.xml:4821
-#: items.xml:4830 items.xml:4839
+#: items.xml:4736 items.xml:4745 items.xml:4754 items.xml:4763 items.xml:4772
+#: items.xml:4781 items.xml:4790 items.xml:4799 items.xml:4808 items.xml:4817
+#: items.xml:4826 items.xml:4835 items.xml:4844 items.xml:4853 items.xml:4862
+#: items.xml:4871 items.xml:4880 items.xml:4889 items.xml:4898 items.xml:4907
+#: items.xml:4916 items.xml:4925
 msgid "Dye"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4650 items.xml:4659 items.xml:4668
+#: items.xml:4736 items.xml:4745 items.xml:4754
 msgid "Color dye that can be used on cashemere clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4659
+#: items.xml:4745
 msgid "Chocolate Cashmere Dye"
 msgstr "Schokobraune Kashmir Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4668
+#: items.xml:4754
 msgid "Mint Cashmere Dye"
 msgstr "Mintgrüne Kashmir Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4677
+#: items.xml:4763
 msgid "Black Cotton Dye"
 msgstr "Schwarze Baumwoll Farbe"
 
 #. (itstool) path: items/item@description
-#: items.xml:4677 items.xml:4686 items.xml:4695 items.xml:4704 items.xml:4713
-#: items.xml:4722 items.xml:4731 items.xml:4740 items.xml:4749 items.xml:4758
-#: items.xml:4767 items.xml:4776 items.xml:4785 items.xml:4794 items.xml:4803
-#: items.xml:4812 items.xml:4821 items.xml:4830 items.xml:4839
+#: items.xml:4763 items.xml:4772 items.xml:4781 items.xml:4790 items.xml:4799
+#: items.xml:4808 items.xml:4817 items.xml:4826 items.xml:4835 items.xml:4844
+#: items.xml:4853 items.xml:4862 items.xml:4871 items.xml:4880 items.xml:4889
+#: items.xml:4898 items.xml:4907 items.xml:4916 items.xml:4925
 msgid "Color dye that can be used on cotton clothing."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4686
+#: items.xml:4772
 msgid "Silver Cotton Dye"
 msgstr "Silberne Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4695
+#: items.xml:4781
 msgid "Camel Cotton Dye"
 msgstr "Ocker Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4704
+#: items.xml:4790
 msgid "Brown Cotton Dye"
 msgstr "Braune Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4713
+#: items.xml:4799
 msgid "Orange Cotton Dye"
 msgstr "Orange Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4722
+#: items.xml:4808
 msgid "Dark Red Cotton Dye"
 msgstr "Dunkelrote Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4731
+#: items.xml:4817
 msgid "Red Cotton Dye"
 msgstr "Rote Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4740
+#: items.xml:4826
 msgid "Fuchsia Cotton Dye"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4749
+#: items.xml:4835
 msgid "Pink Cotton Dye"
 msgstr "Pinke Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4758
+#: items.xml:4844
 msgid "Mauve Cotton Dye"
 msgstr "Malve Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4767
+#: items.xml:4853
 msgid "Purple Cotton Dye"
 msgstr "Violette Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4776
+#: items.xml:4862
 msgid "Navy Blue Cotton Dye"
 msgstr "Navyblaue Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4785
+#: items.xml:4871
 msgid "Blue Gray Cotton Dye"
 msgstr "Blaugraue Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4794
+#: items.xml:4880
 msgid "Blue Cotton Dye"
 msgstr "Blaue Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4803
+#: items.xml:4889
 msgid "Teal Cotton Dye"
 msgstr "Aquamarine Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4812
+#: items.xml:4898
 msgid "Green Cotton Dye"
 msgstr "Grüne Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4821
+#: items.xml:4907
 msgid "Lime Cotton Dye"
 msgstr "Lindgrüne Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4830
+#: items.xml:4916
 msgid "Khaki Cotton Dye"
 msgstr "Khaki Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4839
+#: items.xml:4925
 msgid "Yellow Cotton Dye"
 msgstr "Gelbe Baumwoll Farbe"
 
 #. (itstool) path: items/item@name
-#: items.xml:4847
+#: items.xml:4933
 msgid "Necromancer Card"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4847 items.xml:4854 items.xml:4861 items.xml:4868 items.xml:4875
-#: items.xml:4882 items.xml:4889 items.xml:4896
+#: items.xml:4933 items.xml:4940 items.xml:4947 items.xml:4954 items.xml:4961
+#: items.xml:4968 items.xml:4975 items.xml:4982
 msgid "A powerful card."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4847 items.xml:4854 items.xml:4861 items.xml:4868 items.xml:4875
-#: items.xml:4882 items.xml:4889 items.xml:4896
+#: items.xml:4933 items.xml:4940 items.xml:4947 items.xml:4954 items.xml:4961
+#: items.xml:4968 items.xml:4975 items.xml:4982
 msgid "Prints an error"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4854
+#: items.xml:4940
 msgid "Hero Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4861
+#: items.xml:4947
 msgid "Crusader Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4868
+#: items.xml:4954
 msgid "Paladin Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4875
+#: items.xml:4961
 msgid "Forest Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4882
+#: items.xml:4968
 msgid "Oldur Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4889
+#: items.xml:4975
 msgid "Slide Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4896
+#: items.xml:4982
 msgid "Natural Card"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4903
+#: items.xml:4989
 msgid "Desert Thief Card"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4903
+#: items.xml:4989
 msgid ""
 "This magic card made of dried sand can be placed in certain type of glove to"
 " bring you some powers."
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:4903
+#: items.xml:4989
 msgid "Attack Speed +1%"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4920
+#: items.xml:5006
 msgid "Wooden Bow"
 msgstr "Holzbogen"
 
 #. (itstool) path: items/item@description
-#: items.xml:4920
+#: items.xml:5006
 msgid "For the unexperienced bowman."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4937
+#: items.xml:5023
 msgid "Training Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4937 items.xml:5034
+#: items.xml:5023 items.xml:5120
 msgid "For bow training. Does not seem much reliable."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4954
+#: items.xml:5040
 msgid "Short Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4954
+#: items.xml:5040
 msgid ""
 "The shortest of them all, and almost a knife, but the only which hits at "
 "point-blank range."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4971
+#: items.xml:5057
 msgid "Forest Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4971
+#: items.xml:5057
 msgid "A big bow, to hunt monsters in the forest."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:4988
+#: items.xml:5074
 msgid "Championship Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:4988
+#: items.xml:5074
 msgid "A great bow which only champions are allowed to use."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5005
+#: items.xml:5091
 msgid "Desert Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5005
+#: items.xml:5091
 msgid "The best bow of Toonori. Light, yet powerful."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5023
+#: items.xml:5109
 msgid "Banshee Bow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5023
+#: items.xml:5109
 msgid "Need to banish something? Do not fret, use the Banshee Bow!"
 msgstr ""
 
 #. (itstool) path: items/item@effect
-#: items.xml:5023
+#: items.xml:5109
 msgid "None"
 msgstr "Keine"
 
 #. (itstool) path: items/item@name
-#: items.xml:5034
+#: items.xml:5120
 msgid "Training Arrow"
 msgstr "Trainingspfeil"
 
 #. (itstool) path: items/item@name
-#: items.xml:5041
+#: items.xml:5127
 msgid "Tolchi Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5041
+#: items.xml:5127
 msgid "a basic arrow."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5048
+#: items.xml:5134
 msgid "Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5048
+#: items.xml:5134
 msgid "an arrow used at archery."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5055
+#: items.xml:5141
 msgid "Cursed Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5055
+#: items.xml:5141
 msgid "A cursed arrow"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5062
+#: items.xml:5148
 msgid "Iron Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5062
+#: items.xml:5148
 msgid "An arrow made from iron"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5069
+#: items.xml:5155
 msgid "Poison Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5069
+#: items.xml:5155
 msgid "A normal arrow diped in poison"
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5076
+#: items.xml:5162
 msgid "Thorn Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5076
+#: items.xml:5162
 msgid "Take care when handling it to don't hurt yourself."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5083
+#: items.xml:5169
 msgid "Bone Arrow"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5083
+#: items.xml:5169
 msgid "A bone-breaker arrow."
 msgstr ""
 
 #. (itstool) path: items/item@name
-#: items.xml:5092
+#: items.xml:5178
 msgid "Acorn Of Death"
 msgstr ""
 
 #. (itstool) path: items/item@description
-#: items.xml:5092
+#: items.xml:5178
 msgid "You died, and all you got was this nasty acorn!"
+msgstr ""
+
+#. (itstool) path: items/item@effect
+#: items.xml:5178
+msgid "Heal 12-18 HP"
 msgstr ""
 
 #. (itstool) path: properties/property@value
@@ -6404,7 +6551,7 @@ msgid "Sailor's Room"
 msgstr ""
 
 #. (itstool) path: properties/property@value
-#: ../../client-data/maps/000-0.tmx:8
+#: ../../client-data/maps/000-0.tmx:8 ../../client-data/maps/002-5.tmx:8
 msgid "Ocean"
 msgstr ""
 
@@ -7219,6 +7366,11 @@ msgstr ""
 msgid "Murderer Scorpion"
 msgstr ""
 
+#. (itstool) path: monsters/monster@name
+#: monsters.xml:628
+msgid "Pinkie"
+msgstr ""
+
 #. (itstool) path: npc/menu@name
 #: npcs.xml:17
 msgid "Take"
@@ -7243,8 +7395,9 @@ msgstr ""
 #: npcs.xml:707 npcs.xml:717 npcs.xml:727 npcs.xml:737 npcs.xml:748
 #: npcs.xml:759 npcs.xml:806 npcs.xml:814 npcs.xml:819 npcs.xml:824
 #: npcs.xml:829 npcs.xml:834 npcs.xml:841 npcs.xml:848 npcs.xml:855
-#: npcs.xml:881 npcs.xml:886 npcs.xml:915 npcs.xml:919 npcs.xml:923
-#: npcs.xml:928 npcs.xml:932
+#: npcs.xml:863 npcs.xml:868 npcs.xml:873 npcs.xml:878 npcs.xml:883
+#: npcs.xml:888 npcs.xml:912 npcs.xml:917 npcs.xml:946 npcs.xml:950
+#: npcs.xml:954 npcs.xml:959 npcs.xml:963
 msgid "Talk"
 msgstr ""
 
@@ -7263,7 +7416,7 @@ msgstr ""
 #. (itstool) path: npc/menu@name
 #: npcs.xml:459 npcs.xml:765 npcs.xml:769 npcs.xml:773 npcs.xml:777
 #: npcs.xml:781 npcs.xml:785 npcs.xml:789 npcs.xml:793 npcs.xml:799
-#: npcs.xml:906
+#: npcs.xml:937
 msgid "Touch"
 msgstr ""
 
@@ -7293,12 +7446,12 @@ msgid "Poke"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:868 npcs.xml:911
+#: npcs.xml:899 npcs.xml:942
 msgid "Save"
 msgstr ""
 
 #. (itstool) path: npc/menu@name
-#: npcs.xml:924
+#: npcs.xml:955
 msgid "Trade"
 msgstr "Handel"
 
@@ -7309,6 +7462,11 @@ msgstr ""
 
 #. (itstool) path: pets/pet@name
 #: pets.xml:9
+msgid "Cute Maggot"
+msgstr ""
+
+#. (itstool) path: pets/pet@name
+#: pets.xml:12
 msgid "Bhopper Fluffy"
 msgstr ""
 
@@ -7342,9 +7500,9 @@ msgid "La Johanne, First Deck. (27,24)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:16 quests.xml:40 quests.xml:86 quests.xml:98 quests.xml:122
-#: quests.xml:213 quests.xml:221 quests.xml:307 quests.xml:315 quests.xml:354
-#: quests.xml:416 quests.xml:434 quests.xml:559
+#: quests.xml:16 quests.xml:40 quests.xml:87 quests.xml:178 quests.xml:186
+#: quests.xml:273 quests.xml:281 quests.xml:320 quests.xml:382 quests.xml:400
+#: quests.xml:525
 msgid "Unknown."
 msgstr ""
 
@@ -7363,7 +7521,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:26 quests.xml:132 quests.xml:150
+#: quests.xml:26 quests.xml:97 quests.xml:115
 msgid "Nothing."
 msgstr "Nichts."
 
@@ -7462,1035 +7620,978 @@ msgid "A {@@1} and old {@@2}."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:79 quests.xml:89 quests.xml:101
-msgid "Piberries Lover"
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:80
-msgid ""
-"A mysterious stowaway needs your help. He hides at the bottom level of the "
-"ship, in the storage room."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:82
-msgid ""
-"It seems to be an urgent task, but he is afraid that you could be a sailor, "
-"so watch out!"
-msgstr ""
-
-#. (itstool) path: quest/questgiver
-#: quests.xml:84 quests.xml:96 quests.xml:106
-msgid "Alige"
-msgstr "Alige"
-
-#. (itstool) path: quest/coordinates
-#: quests.xml:85 quests.xml:97 quests.xml:107
-msgid "La Johanne, Second Deck. (33,31)"
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:90
-msgid ""
-"Alige, the mysterious traveller, is asking for your help to find him some "
-"food."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:92
-msgid ""
-"In fact, he hides in a hole in the main hallway. It leads to the ship's "
-"storage room where he can reach for some barrels full of {@@1}."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:94
-msgid ""
-"He is sick of eating these berries all the time. That is why he would like "
-"you to find him other kinds of food and bring them to him."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:102
-msgid "You brought Alige some food, different from the {@@1} he usually eats."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:104
-msgid ""
-"It looks like he is eager of tasting new flavors. Try bringing him other "
-"types of food. He may have something to give you in exchange."
-msgstr ""
-
-#. (itstool) path: quest/reward
-#: quests.xml:108
-msgid "A handful of {@@1}."
-msgstr ""
-
-#. (itstool) path: quest/name
-#: quests.xml:115 quests.xml:125 quests.xml:135 quests.xml:143 quests.xml:153
-#: quests.xml:163
+#: quests.xml:80 quests.xml:90 quests.xml:100 quests.xml:108 quests.xml:118
+#: quests.xml:128
 msgid "Ratto Extermination"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:116
+#: quests.xml:81
 msgid "Peter needs your help to clear La Johanne's hold of some rattos."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:118
+#: quests.xml:83
 msgid "Speak to him when you will have time to help him."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:120 quests.xml:130 quests.xml:138 quests.xml:148 quests.xml:158
-#: quests.xml:166
+#: quests.xml:85 quests.xml:95 quests.xml:103 quests.xml:113 quests.xml:123
+#: quests.xml:131
 msgid "Peter"
 msgstr "Peter"
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:121 quests.xml:131 quests.xml:139 quests.xml:149 quests.xml:159
-#: quests.xml:167
+#: quests.xml:86 quests.xml:96 quests.xml:104 quests.xml:114 quests.xml:124
+#: quests.xml:132
 msgid "La Johanne, Second Deck. (60,35)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:126
+#: quests.xml:91
 msgid "Peter asked you to empty the bottom of the ship for free."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:128
+#: quests.xml:93
 msgid "Maybe next time he will have something to offer you..."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:136
+#: quests.xml:101
 msgid ""
 "Cleaning the bottom of the ship is a tough work, but Peter is offering you "
 "some gold for it."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:140 quests.xml:160 quests.xml:168
+#: quests.xml:105 quests.xml:125 quests.xml:133
 msgid "100 EXP, 1000 GP."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:144
+#: quests.xml:109
 msgid "You helped Peter cleaning the bottom of the ship for free."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:146 quests.xml:156
+#: quests.xml:111 quests.xml:121
 msgid ""
 "However, it looks like these rattos can come back again. Later, you could "
 "ask Peter if he needs your help again."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:154
+#: quests.xml:119
 msgid ""
 "You helped Peter cleaning the bottom of the ship. He rewarded you with some "
 "gold."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:164
+#: quests.xml:129
 msgid ""
 "This time, Peter seems to have a reward for you. After you cleaned the "
 "bottom of the ship, ask him for a reward."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:174
+#: quests.xml:139
 msgid "Chef's Secret Blade"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:175
+#: quests.xml:140
 msgid "You found a sharp knife on a table in one of the rooms of the ship."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:177
+#: quests.xml:142
 msgid ""
 "It looks like its previous owner used it to prepare delicious dishes for the"
 " crew."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:179
+#: quests.xml:144
 msgid "La Johanne, Second Deck. (50,24)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:180 quests.xml:569 quests.xml:613 quests.xml:622
+#: quests.xml:145 quests.xml:535 quests.xml:579 quests.xml:588
 msgid "{@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:186 quests.xml:195
+#: quests.xml:151 quests.xml:160
 msgid "Good Food makes a Good Crew"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:187
+#: quests.xml:152
 msgid ""
 "Chef Gado is preparing food for the crew, but supplies are running thin."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:188
+#: quests.xml:153
 msgid "I should help him by getting 5 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:190 quests.xml:198
+#: quests.xml:155 quests.xml:163
 msgid "Chef Gado"
 msgstr "Koch Gado"
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:191 quests.xml:199
+#: quests.xml:156 quests.xml:164
 msgid "La Johanne, Second Deck (25,41)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:192
+#: quests.xml:157
 msgid "A pair of gloves!"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:196
+#: quests.xml:161
 msgid "Chef Gado went back to cooking, and I'll be back to hunting."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:200
+#: quests.xml:165
 msgid "1x {@@1}, 100 GP."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:206 quests.xml:216 quests.xml:224
+#: quests.xml:171 quests.xml:181 quests.xml:189
 msgid "Scary Pious"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:207
+#: quests.xml:172
 msgid "Dan is afraid of Pious. I should help him by killing 12 Pious."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:209
+#: quests.xml:174
 msgid "Progress: {@@var2}/12 Pious"
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:211 quests.xml:219 quests.xml:227
+#: quests.xml:176 quests.xml:184 quests.xml:192
 msgid "Dan"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:212 quests.xml:220 quests.xml:228
+#: quests.xml:177 quests.xml:185 quests.xml:193
 msgid "La Johanne, Second Deck. (32,32)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:217
+#: quests.xml:182
 msgid ""
 "The Pious are gone, now I need to say Dan he can sleep in peace at night."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:225
+#: quests.xml:190
 msgid "He gave me a nice outfit for my efforts."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:229
+#: quests.xml:194
 msgid "1x {@@1}"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:242 quests.xml:249 quests.xml:255
+#: quests.xml:207 quests.xml:214 quests.xml:220
 msgid "In Seek Of True Identity"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:243
+#: quests.xml:208
 msgid "I better find out who I am."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:244
+#: quests.xml:209
 msgid "I mean, it is annoying when all you know is your name."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:246
+#: quests.xml:211
 msgid "I bet the ##BShip's captain##b can help."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:250
+#: quests.xml:215
 msgid ""
 "In Tulimshar, after getting out of the ship, I should visit the first "
 "building."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:251
+#: quests.xml:216
 msgid "It is the townhall. ##BLua##b should be able to help me."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:256
+#: quests.xml:221
 msgid "I was born at Halinarzo but moved at just 4."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:257
+#: quests.xml:222
 msgid "I must get some levels before attempting such dangerous journey."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:259
+#: quests.xml:224
 msgid ""
 "##1##BWARNING:##b You need to wait further releases to continue this "
 "quest!##0"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:266
+#: quests.xml:231
 msgid "Pride of Money"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:267
+#: quests.xml:232
 msgid "You are now registered in the Merchant Guild."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:268
+#: quests.xml:233
 msgid "This Guild offers storage and bank services."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:270
+#: quests.xml:235
 msgid "Banker"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:271
+#: quests.xml:236
 msgid "Tulimshar, Merchant Guild. (101,37)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:272
+#: quests.xml:237
 msgid "Merchant Guild access."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:277 quests.xml:286
+#: quests.xml:242 quests.xml:251
 msgid "Greater Hunter Quest"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:278 quests.xml:287
+#: quests.xml:243
 msgid "I promised Aidan to conduct an extermination."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:279 quests.xml:288
-msgid "Progress: {@@var2}/1000 {@@1}."
+#: quests.xml:244 quests.xml:254
+msgid "Progress: {@@var2}/10000 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:281 quests.xml:290
+#: quests.xml:246
 msgid "Aidan"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:282 quests.xml:291
+#: quests.xml:247 quests.xml:257
 msgid "Tulimshar (95,97)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:283
-msgid "5,000 GP"
+#: quests.xml:248 quests.xml:546 quests.xml:653
+msgid "{@@1}"
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:252
+msgid "I promised Jacob to conduct an extermination."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:253
+msgid "The reward should be collected with Aidan."
+msgstr ""
+
+#. (itstool) path: quest/questgiver
+#: quests.xml:256
+msgid "Lieutenant Jacob, Halinarzo (71,24)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:292
+#: quests.xml:258
 msgid "25,000 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:302 quests.xml:310 quests.xml:318
+#: quests.xml:268 quests.xml:276 quests.xml:284
 msgid "Hide And Seek"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:303
+#: quests.xml:269
 msgid "Find all the children for Ayasha. They're in the Island."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:305 quests.xml:313 quests.xml:321
+#: quests.xml:271 quests.xml:279 quests.xml:287
 msgid "Ayasha"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:306 quests.xml:314 quests.xml:322
+#: quests.xml:272 quests.xml:280 quests.xml:288
 msgid "Candor Island. (52,81)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:311
+#: quests.xml:277
 msgid "You found all childrens, go report to Ayasha."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:319
+#: quests.xml:285
 msgid "I helped Ayasha to find the children."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:323
+#: quests.xml:289
 msgid "30 EXP and 50 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:329 quests.xml:337
+#: quests.xml:295 quests.xml:303
 msgid "Tolchi's Request"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:330
+#: quests.xml:296
 msgid "I am helping Tolchi, a weapon craftswoman, to find materials."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:332 quests.xml:340
+#: quests.xml:298 quests.xml:306
 msgid "Tolchi"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:333 quests.xml:341
+#: quests.xml:299 quests.xml:307
 msgid "Candor Island, Armor Shop. (25,41)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:334 quests.xml:342
+#: quests.xml:300 quests.xml:308
 msgid "Gold and Experience."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:338
+#: quests.xml:304
 msgid "I helped Tolchi with her materials needs."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:348 quests.xml:357
+#: quests.xml:314 quests.xml:323
 msgid "Helping Maya"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:349
+#: quests.xml:315
 msgid "I am helping out Maya with finding a few items."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:350
+#: quests.xml:316
 msgid "I need to find three {@@1} and three {@@2}."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:352 quests.xml:361
+#: quests.xml:318 quests.xml:327
 msgid "Maya"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:353 quests.xml:362
+#: quests.xml:319 quests.xml:328
 msgid "Candor Island. (42,37)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:358
+#: quests.xml:324
 msgid "You are helping out Maya with finding a few items."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:359
+#: quests.xml:325
 msgid "You need to find three {@@1} and three {@@2}."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:363
+#: quests.xml:329
 msgid "A {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:370 quests.xml:379 quests.xml:388
+#: quests.xml:336 quests.xml:345 quests.xml:354
 msgid "Cleaning the Storehouse"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:371
+#: quests.xml:337
 msgid "Zegas needs someone to find and defuse the Bug Bomb in the storehouse."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:372
+#: quests.xml:338
 msgid "I must check all barrels."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:374 quests.xml:383 quests.xml:392
+#: quests.xml:340 quests.xml:349 quests.xml:358
 msgid "Zegas"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:375 quests.xml:384 quests.xml:393
+#: quests.xml:341 quests.xml:350 quests.xml:359
 msgid "Candor Island. (35,77)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:380
+#: quests.xml:346
 msgid "I defused the bug bomb."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:381
+#: quests.xml:347
 msgid "I must report back to Zegas at once."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:389
+#: quests.xml:355
 msgid "I helped Zegas to clear the Storehouse."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:390
+#: quests.xml:356
 msgid "More bugs may attack there later, but that's not my problem anymore."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:394
+#: quests.xml:360
 msgid "60 EXP and 450 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:401 quests.xml:410 quests.xml:419
+#: quests.xml:367 quests.xml:376 quests.xml:385
 msgid "Preparing a Party"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:402
+#: quests.xml:368
 msgid "Some sailors at beach are planning a party."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:403
+#: quests.xml:369
 msgid "They need 5 {@@1} for the party to happen."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:405 quests.xml:414 quests.xml:422
+#: quests.xml:371 quests.xml:380 quests.xml:388
 msgid "Sailors"
 msgstr "Matrosen"
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:406
+#: quests.xml:372
 msgid "Candor Island. (92,99)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:407
+#: quests.xml:373
 msgid "Become one of the crew."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:411
+#: quests.xml:377
 msgid "The sailors have sufficient {@@1} for the party."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:412
+#: quests.xml:378
 msgid ""
 "They now want me to invite Elmo, the captain's assistant, to the party."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:415
+#: quests.xml:381
 msgid "La Johanne, Captain's room. (22,27)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:420
+#: quests.xml:386
 msgid "Elmo was invited, and with that, the sailors may party."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:423
+#: quests.xml:389
 msgid "1x {@@1}, 10 EXP, 1000 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:429 quests.xml:437
+#: quests.xml:395 quests.xml:403
 msgid "Making a Figurine"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:430
+#: quests.xml:396
 msgid "Vincent is making a figurine with {@@1}. He needs 12."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:432 quests.xml:440
+#: quests.xml:398 quests.xml:406
 msgid "Vincent"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:433 quests.xml:441 quests.xml:452 quests.xml:460 quests.xml:468
-#: quests.xml:476 quests.xml:484 quests.xml:492 quests.xml:501 quests.xml:509
+#: quests.xml:399 quests.xml:407 quests.xml:418 quests.xml:426 quests.xml:434
+#: quests.xml:442 quests.xml:450 quests.xml:458 quests.xml:467 quests.xml:475
 msgid "Candor Island. (92,96)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:438
+#: quests.xml:404
 msgid ""
 "Vincent was able to make his figurine thanks to the bug legs I gave him."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:442
+#: quests.xml:408
 msgid "1000 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:448 quests.xml:456 quests.xml:464 quests.xml:472 quests.xml:480
-#: quests.xml:488 quests.xml:496 quests.xml:505
+#: quests.xml:414 quests.xml:422 quests.xml:430 quests.xml:438 quests.xml:446
+#: quests.xml:454 quests.xml:462 quests.xml:471
 msgid "Trainment"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:449
+#: quests.xml:415
 msgid "I have to report to the trainer."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:451 quests.xml:459 quests.xml:467 quests.xml:475 quests.xml:483
-#: quests.xml:491 quests.xml:500 quests.xml:508
+#: quests.xml:417 quests.xml:425 quests.xml:433 quests.xml:441 quests.xml:449
+#: quests.xml:457 quests.xml:466 quests.xml:474
 msgid "Trainer"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:453 quests.xml:461 quests.xml:469 quests.xml:477 quests.xml:485
+#: quests.xml:419 quests.xml:427 quests.xml:435 quests.xml:443 quests.xml:451
 msgid "40 xp, 25 gp"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:457
+#: quests.xml:423
 msgid "I already killed {@@var2}/10 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:465
+#: quests.xml:431
 msgid "I already killed {@@var2}/5 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:473
+#: quests.xml:439
 msgid "I already killed {@@var2}/3 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:481
+#: quests.xml:447
 msgid "I already killed {@@var2}/2 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:489
+#: quests.xml:455
 msgid "I was successfully trained."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:493
+#: quests.xml:459
 msgid "50 xp"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:497
+#: quests.xml:463
 msgid "The Trainer gave me a bonus task."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:498
+#: quests.xml:464
 msgid "I already killed {@@var2}/1 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:502
+#: quests.xml:468
 msgid "???"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:506
+#: quests.xml:472
 msgid "I did the bonus task from the Trainer and he was very impressed."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:510
+#: quests.xml:476
 msgid "1x {@@1}, 200 GP"
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:516
+#: quests.xml:482
 msgid "Nurse Candies"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:517
+#: quests.xml:483
 msgid "Candor's Nurse loves {@@1}. I gave her one, and now she wants more!"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:518
+#: quests.xml:484
 msgid "This is an easy way to make some money."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:520
+#: quests.xml:486
 msgid "Nurse"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:521
+#: quests.xml:487
 msgid "Candor Island, Training Hall. (41,30)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:522
+#: quests.xml:488
 msgid "5 EXP, 25 GP."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:528 quests.xml:537
+#: quests.xml:494 quests.xml:503
 msgid "Mud Balls"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:529 quests.xml:538
+#: quests.xml:495 quests.xml:504
 msgid "Liana is collecting {@@1} to make balls, so the children can play."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:530
+#: quests.xml:496
 msgid "This quest is repeatable."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:532 quests.xml:541
+#: quests.xml:498 quests.xml:507
 msgid "Liana"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:533 quests.xml:542
+#: quests.xml:499 quests.xml:508
 msgid "Candor Island. (47,86)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:534 quests.xml:543
+#: quests.xml:500 quests.xml:509
 msgid "Experience and Gold."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:539
+#: quests.xml:505
 msgid ""
 "This quest is repeatable every six hours, so I should again to her sometime."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:552 quests.xml:562
+#: quests.xml:518 quests.xml:528
 msgid "Fishman"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:553
+#: quests.xml:519
 msgid "Eugene, the fishman in Artis docks, bought a new fishing rod."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:554
+#: quests.xml:520
 msgid "He hurried so much to try it out, that he forgot to take enough baits."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:555
+#: quests.xml:521
 msgid "You need to bring him 10 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:557 quests.xml:567
+#: quests.xml:523 quests.xml:533
 msgid "Eugene"
 msgstr "Eugene"
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:558 quests.xml:568
+#: quests.xml:524 quests.xml:534
 msgid "Tulimshar (80,127)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:563
+#: quests.xml:529
 msgid "You helped Eugene."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:564
+#: quests.xml:530
 msgid "As his gratitude, he gave you his old fishing rod."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:565
+#: quests.xml:531
 msgid "You can use it to catch fish."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:575
+#: quests.xml:541
 msgid "I Want Cherry Cakes"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:576
+#: quests.xml:542
 msgid "Sarah wanted a cherry cake, so I gave her one."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:578
+#: quests.xml:544
 msgid "Sarah"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:579
+#: quests.xml:545
 msgid "Tulimshar (91,146)"
 msgstr ""
 
-#. (itstool) path: quest/reward
-#: quests.xml:580 quests.xml:687
-msgid "{@@1}"
-msgstr ""
-
 #. (itstool) path: quest/name
-#: quests.xml:587 quests.xml:596
+#: quests.xml:553 quests.xml:562
 msgid "Quenching My Thirst"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:588
+#: quests.xml:554
 msgid "Swezanne was thirsty, but now she can keep doing her job."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:589
+#: quests.xml:555
 msgid "I can repeat this request every 24 hours."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:591 quests.xml:599
+#: quests.xml:557 quests.xml:565
 msgid "Swezanne"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:592 quests.xml:600
+#: quests.xml:558 quests.xml:566
 msgid "Tulimshar (70,100)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:593
+#: quests.xml:559
 msgid "EXP and Gold"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:597
+#: quests.xml:563
 msgid ""
 "Swezanne is once again thirsty, I should bring her 5 {@@1} to quench it."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:601
+#: quests.xml:567
 msgid "25 EXP and 200 GP"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:608
+#: quests.xml:574
 msgid "Swezanne's Daughter, Silvia, can give you a very useful necklace"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:609
+#: quests.xml:575
 msgid "For just 500 GP and a Lifestone."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:611 quests.xml:620
+#: quests.xml:577 quests.xml:586
 msgid "Silvia"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:612 quests.xml:621
+#: quests.xml:578 quests.xml:587
 msgid "Tulimshar. (109,150)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:617
+#: quests.xml:583
 msgid "Silvia gave me a Lifestone Pendant, which increases my regeneration."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:618
+#: quests.xml:584
 msgid "It'll work even better if I sit to think."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:629 quests.xml:637 quests.xml:645 quests.xml:652 quests.xml:660
+#: quests.xml:595 quests.xml:603 quests.xml:611 quests.xml:618 quests.xml:626
 msgid "Petty Thief"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:630
+#: quests.xml:596
 msgid "While leaving Tulimshar, a petty thief called Hasan stole me."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:631
+#: quests.xml:597
 msgid "I should warn the leader of the guard, Lieutenant Dausen, about that."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:633 quests.xml:641 quests.xml:648 quests.xml:656 quests.xml:664
+#: quests.xml:599 quests.xml:607 quests.xml:614 quests.xml:622 quests.xml:630
 msgid "Hasan"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:634
+#: quests.xml:600
 msgid "Tulimshar. (111,84)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:638
+#: quests.xml:604
 msgid "Dausen instructed me to seek for his mother, Sorfina."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:639
+#: quests.xml:605
 msgid "She should be in Mahoud's house, near the Inn."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:642
+#: quests.xml:608
 msgid "Tulimshar. (54,138)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:646
+#: quests.xml:612
 msgid "I should talk to Sorfina and complete her task."
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:649
+#: quests.xml:615
 msgid "Tulimshar, Mahoud's House. (111,84)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:653
+#: quests.xml:619
 msgid "Having avenged his father, I should talk to Hasan."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:654
+#: quests.xml:620
 msgid "Perhaps now he'll stop stealing from me!"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:657 quests.xml:665
+#: quests.xml:623 quests.xml:631
 msgid "Tulimshar. (62, 148)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:661
+#: quests.xml:627
 msgid "Hasan swore to never steal from me again."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:662
+#: quests.xml:628
 msgid "He didn't gave my money back, though..."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:666
+#: quests.xml:632
 msgid "{@@1}, 75 EXP."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:674 quests.xml:682
+#: quests.xml:640 quests.xml:648
 msgid "Foxhound's Famine"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:675
+#: quests.xml:641
 msgid "A poor man in Halinarzo asks for food."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:676
+#: quests.xml:642
 msgid "His family is starving. I should provide him all sort of delicacies."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:678 quests.xml:685
+#: quests.xml:644 quests.xml:651
 msgid "Enliven Reva Foxhound"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:679 quests.xml:686
+#: quests.xml:645 quests.xml:652
 msgid "Halinarzo (89,57)"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:683
+#: quests.xml:649
 msgid "I feed him, and he is forever grateful."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:696
+#: quests.xml:662
 msgid "Testing quest name with var1={@@var1}"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:697
+#: quests.xml:663
 msgid "Quest text1 with vars: {@@var1}, {@@var2}, {@@var3}"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:698
+#: quests.xml:664
 msgid "Time: {@@time}"
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:699
+#: quests.xml:665
 msgid "Giver vars: {@@var1}, {@@var2}, {@@var3}"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:700
+#: quests.xml:666
 msgid "Vars: {@@var1}, {@@var2}, {@@var3}"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:701
+#: quests.xml:667
 msgid "Reward: {@@var1}, {@@var2}, {@@var3}"
 msgstr ""
 
