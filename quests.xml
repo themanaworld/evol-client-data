@@ -509,6 +509,18 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Experience and Gold.</reward>
         </quest>
     </var>
+    <var id="42">
+        <!-- This quest conflicts another one -->
+        <quest name="Sailor Cure" group="Candor" complete="1">
+            <name>Sailor Cure</name>
+            <text text1="[Scorpion Stinger]">In order to help a sailor to recover from hangover, I collected {@@1}.</text>
+            <text>Juliet was successful in making a hangover potion. If I ever need one, I already know to whom ask.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="22" y="27">La Johanne, Captain's room. (22,27)</coordinates>
+            <reward>Experience and Gold.</reward>
+        </quest>
+    </var>
 
     <!-- TULIMSHAR QUESTS -->
     <var id="51">
@@ -546,7 +558,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Serf Hat]">{@@1}</reward>
         </quest>
     </var>
-    <!-- var 53 -->
+    <!-- var 53 TODO -->
     <var id="54">
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Quenching My Thirst" group="Tulimshar" complete="1">
@@ -588,7 +600,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Lifestone Pendant]">{@@1}.</reward>
         </quest>
     </var>
-    <!-- var 56 -->
+    <!-- var 56 TODO -->
     <var id="57">
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Petty Thief" group="Tulimshar" incomplete="1">
@@ -632,6 +644,8 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Cotton Shorts]">{@@1}, 75 EXP.</reward>
         </quest>
     </var>
+    <!-- var 58 TODO -->
+    <!-- var 59 TODO -->
 
     <!-- HALINARZO QUESTS -->
     <var id="71">
@@ -653,6 +667,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Bucket]">{@@1}</reward>
         </quest>
     </var>
+    <!-- var 72 TODO -->
 
 
 
