@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" nextobjectid="18">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" nextobjectid="19">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="1"/>
@@ -732,6 +732,13 @@
     <property name="eA_spawn" value="30"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="53"/>
+   </properties>
+  </object>
+  <object id="18" name="To Hurnscald Inn" type="warp" x="2080" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="012-2"/>
+    <property name="dest_x" value="36"/>
+    <property name="dest_y" value="46"/>
    </properties>
   </object>
  </objectgroup>
