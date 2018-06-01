@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" nextobjectid="25">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" nextobjectid="31">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="1"/>
@@ -22,7 +22,7 @@
   <image source="../graphics/tilesets/signs_x2.png" width="256" height="192"/>
  </tileset>
  <tileset firstgid="906" name="magecity" tilewidth="32" tileheight="32" tilecount="360" columns="8">
-  <image source="../graphics/tilesets/magecity.png" width="256" height="1450"/>
+  <image source="../graphics/tilesets/magecity.png" width="256" height="1440"/>
  </tileset>
  <layer name="Ground1" width="162" height="120">
   <data encoding="csv">
@@ -1016,7 +1016,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="5" name="To Woodland" type="fixme" x="704" y="1920" width="32" height="128">
    <properties>
     <property name="dest_map" value="011-1"/>
@@ -1052,7 +1052,9 @@
     <property name="dest_y" value="46"/>
    </properties>
   </object>
-  <object id="19" name="Red Butterfly" type="spawn" x="1760" y="1600" width="2304" height="960">
+ </objectgroup>
+ <objectgroup color="#fffa00" name="Spawns">
+  <object id="25" name="Red Butterfly" type="spawn" x="1760" y="1568" width="2304" height="960">
    <properties>
     <property name="death" value="90000"/>
     <property name="max_beings" value="4"/>
@@ -1060,7 +1062,7 @@
     <property name="spawn" value="30000"/>
    </properties>
   </object>
-  <object id="20" name="Mana Bug" type="spawn" x="1728" y="1504" width="2368" height="1024">
+  <object id="26" name="Mana Bug" type="spawn" x="1728" y="1504" width="2368" height="1024">
    <properties>
     <property name="death" value="90000"/>
     <property name="max_beings" value="5"/>
@@ -1068,7 +1070,7 @@
     <property name="spawn" value="30000"/>
    </properties>
   </object>
-  <object id="21" name="Pinkie" type="spawn" x="1504" y="480" width="2944" height="1024">
+  <object id="27" name="Pinkie" type="spawn" x="1504" y="576" width="2944" height="1024">
    <properties>
     <property name="death" value="90000"/>
     <property name="max_beings" value="8"/>
@@ -1076,7 +1078,15 @@
     <property name="spawn" value="30000"/>
    </properties>
   </object>
-  <object id="22" name="Piousse" type="spawn" x="4096" y="960" width="512" height="1888">
+  <object id="28" name="Clover Patch" type="spawn" x="736" y="480" width="1376" height="2112">
+   <properties>
+    <property name="death" value="90000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1028"/>
+    <property name="spawn" value="60000"/>
+   </properties>
+  </object>
+  <object id="29" name="Piousse" type="spawn" x="4096" y="928" width="512" height="1888">
    <properties>
     <property name="death" value="60000"/>
     <property name="max_beings" value="6"/>
@@ -1084,20 +1094,12 @@
     <property name="spawn" value="40000"/>
    </properties>
   </object>
-  <object id="23" name="Silk Worm" type="spawn" x="1056" y="2272" width="3360" height="1024">
+  <object id="30" name="Silk Worm" type="spawn" x="1056" y="2272" width="3360" height="1024">
    <properties>
     <property name="death" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="1034"/>
     <property name="spawn" value="30000"/>
-   </properties>
-  </object>
-  <object id="24" name="Clover Patch" type="spawn" x="800" y="512" width="1376" height="2112">
-   <properties>
-    <property name="death" value="90000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="1028"/>
-    <property name="spawn" value="60000"/>
    </properties>
   </object>
  </objectgroup>
