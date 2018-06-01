@@ -181,6 +181,9 @@ Copyright (C) 2018 TMW2 -->
     <map name="011-2.tmx">
         <atlas name="woodcave"/>
     </map>
+    <map name="012-1.tmx">
+        <atlas name="woodland"/>
+    </map>
     <map name="botcheck.tmx">
         <atlas name="botcheck"/>
     </map>
@@ -580,6 +583,18 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/woodland_indoor_x2.png"/>
         <file name="graphics/tilesets/woodland_indoor_x3.png"/>
     </atlas>
+
+    <atlas name="woodland">
+        <file name="graphics/tilesets/ship-base.png"/>
+        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
+        <file name="graphics/tilesets/ship-mast.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_village.png"/>
+        <file name="graphics/tilesets/woodland_village_x2.png"/>
+        <file name="graphics/tilesets/woodland_village_x3.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+    </atlas>
     <!-- / TMW2 -->
 
     <!-- A temporary atlas file -->
@@ -604,7 +619,6 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/woodland_x5.png"/>
         <file name="graphics/tilesets/woodland_x8.png"/>
         <file name="graphics/tilesets/woodland_water.png"/>
-
     </atlas>
 
 </maps>
