@@ -409,6 +409,18 @@ IDs 900-999 = Special
         <sprite>npcs/xml/construction-worker.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="181" nameOffsetY="4" targetOffsetY="16">
+         <!-- TMW-BR Bow Master -->
+        <sprite variant="34">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
+    <npc id="182">
+         <!-- Lumberjack -->
+        <sprite>npcs/xml/lumberjack.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- NPCs from TMW-BR (that's why the jump) -->
     <npc id="300"><sprite variant="0">npcs/xml/npcs-br.xml</sprite></npc> <!-- Invisible -->
