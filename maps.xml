@@ -79,6 +79,9 @@ Copyright (C) 2018 TMW2 -->
     <map name="003-1.tmx">
         <atlas name="tulimshar"/>
     </map>
+    <map name="003-1-1.tmx">
+        <atlas name="sewer"/>
+    </map>
     <map name="003-1-2.tmx">
         <atlas name="tulimshar"/>
     </map>
@@ -601,6 +604,21 @@ Copyright (C) 2018 TMW2 -->
         <!-- TODO: Maybe this is a bad idea, and should not be in Tulimshar Indoor... -->
         <file name="graphics/tilesets/woodland_indoor_x2.png"/>
         <file name="graphics/tilesets/woodland_indoor_x3.png"/>
+    </atlas>
+
+    <atlas name="sewer">
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/cave_x2.png"/>
+        <file name="graphics/tilesets/cave2.png"/>
+        <file name="graphics/tilesets/cave_x2.png"/>
+        <file name="graphics/tilesets/cave2_bilevel.png"/>
+        <file name="graphics/tilesets/cave2_bilevel_water_lava.png"/>
+        <file name="graphics/tilesets/cave2_sewers.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine_x3.png"/>
+        <file name="graphics/tilesets/cave2_sewer_mine_x4.png"/>
+        <file name="graphics/tilesets/cave2_transistions.png"/>
     </atlas>
 
     <atlas name="woodland">
