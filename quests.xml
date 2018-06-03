@@ -558,7 +558,34 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Serf Hat]">{@@1}</reward>
         </quest>
     </var>
-    <!-- var 53 TODO -->
+    <var id="53">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Water For Guards" group="Tulimshar" incomplete="1">
+            <name>Water For Guards</name>
+            <text>Dausen asked me to give water to his guards.</text>
+            <text>There should be a well in the city. I already gave water to {@@var2}/17 guards.</text>
+            <text></text>
+            <questgiver>Lt. Dausen</questgiver>
+            <coordinates x="111" y="84">Tulimshar. (111,84)</coordinates>
+        </quest>
+        <quest name="Water For Guards" group="Tulimshar" incomplete="2">
+            <name>Water For Guards</name>
+            <text>All guards drank water.</text>
+            <text>I should now report to Dausen that this mission is complete.</text>
+            <text></text>
+            <questgiver>Lt. Dausen</questgiver>
+            <coordinates x="111" y="84">Tulimshar. (111,84)</coordinates>
+        </quest>
+        <quest name="Water For Guards" group="Tulimshar" complete="3">
+            <name>Water For Guards</name>
+            <text>I gave water to all Tulimshar guards, and Dausen was very glad.</text>
+            <text>He told me I can find more ways to help the city guard inside the Guard House.</text>
+            <text></text>
+            <questgiver>Lt. Dausen</questgiver>
+            <coordinates x="111" y="84">Tulimshar. (111,84)</coordinates>
+            <reward text1="[Tulimshar Guard Boots]" text2="[Tulimshar Guard Card]">1x {@@1}, 1x {@@2}</reward>
+        </quest>
+    </var>
     <var id="54">
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Quenching My Thirst" group="Tulimshar" complete="1">
@@ -600,7 +627,31 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Lifestone Pendant]">{@@1}.</reward>
         </quest>
     </var>
-    <!-- var 56 TODO -->
+    <var id="42">
+        <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
+        <quest name="Eistein" group="Tulimshar" incomplete="1">
+            <name>Eistein</name>
+            <text>I should obtain level 50 and get a reward on Tulimshar's City Hall.</text>
+            <text></text>
+            <questgiver>Eistein</questgiver>
+            <reward>Graduation Cap.</reward>
+        </quest>
+        <quest name="Eistein" group="Tulimshar" incomplete="2">
+            <name>Eistein</name>
+            <text>I should obtain level 75 and get a reward on Tulimshar's City Hall.</text>
+            <text></text>
+            <questgiver>Eistein</questgiver>
+            <reward>Gift Box.</reward>
+        </quest>
+        <quest name="Eistein" group="Tulimshar" incomplete="3">
+            <name>Eistein</name>
+            <text>I should obtain level 100 and get a reward on Tulimshar's City Hall.</text>
+            <text></text>
+            <questgiver>Eistein</questgiver>
+            <reward>Gift Box.</reward>
+        </quest>
+        <!-- TODO Incomplete. -->
+    </var>
     <var id="57">
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Petty Thief" group="Tulimshar" incomplete="1">
@@ -646,6 +697,11 @@ Copyright (C) 2012-2013 Evol Online -->
     </var>
     <!-- var 58 TODO -->
     <!-- var 59 TODO -->
+    <!-- var 60 TODO -->
+    <!-- var 61 TODO -->
+    <!-- var 62 TODO -->
+    <!-- var 191 TODO -->
+    <!-- var 192 TODO -->
 
     <!-- HALINARZO QUESTS -->
     <var id="71">
@@ -668,6 +724,10 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <!-- var 72 TODO -->
+
+    <!-- HURNSCALD QUESTS -->
+    <!-- var 91 TODO -->
+    <!-- var 92 TODO -->
 
 
 
