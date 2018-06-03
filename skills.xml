@@ -88,8 +88,15 @@ Copyright (C) 2018 TMW2 -->
     </set>
 
 
-    <!-- Monster Skills -->
     <set name="Other">
+    <skill
+        id="382"
+        name="Sharpshooter"
+        icon="graphics/skills/other/sharpshooter.png"
+        castingMissile-particle="graphics/particles/critical.xml"
+        description="Focus and do a magical shoot which multihits."
+    />
+    <!-- Monster Skills -->
     <skill
         id="170"
         name="NPC_CRITICALSLASH"
