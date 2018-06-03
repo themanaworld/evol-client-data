@@ -73,6 +73,13 @@ Copyright (C) 2018 TMW2 -->
             castingAnimation="emote.xml"
         />
         <skill
+            id="382"
+            name="Sharpshooter"
+            icon="graphics/skills/other/sharpshooter.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Focus and do a magical shoot which multihits."
+        />
+        <skill
             id="20001"
             name="Magic shield"
             icon="graphics/skills/life.png"
@@ -89,13 +96,6 @@ Copyright (C) 2018 TMW2 -->
 
 
     <set name="Other">
-    <skill
-        id="382"
-        name="Sharpshooter"
-        icon="graphics/skills/other/sharpshooter.png"
-        castingMissile-particle="graphics/particles/critical.xml"
-        description="Focus and do a magical shoot which multihits."
-    />
     <!-- Monster Skills -->
     <skill
         id="170"
