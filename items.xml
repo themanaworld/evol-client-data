@@ -2780,7 +2780,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     </item>
     <item id="1327"
         image="equipment/chest/chainmail.png|W:#573f10,9c8226,d3c04b,ffffff"
-        name="Golden Chainmail "
+        name="Golden Chainmail"
         description="A shirt made of golden chains. It weighs a lot but offers excellent protection."
         defense="1"
         level="1"
@@ -3418,12 +3418,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="1">
     </item>
     <item id="2501"
-        image="equipment/rings/goldensimplering.png"
-        name="Golden Ring"
+        image="equipment/rings/goldendiamondring.png|W"
+        name="Golden %Color% Ring"
         description="A golden simple ring. Not very useful, unless you add a gemstone to it."
         defense="2"
         level="5"
         type="equip-charm"
+        colors="rings"
+        iconColors="rings"
         weight="80">
     </item>
     <item id="2502"
@@ -5126,6 +5128,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         useButton="Insert"
         description="ruby test."
         type="card"
+        cardColor="2"
         weight="4"/>
 
     <!-- Bows -->
