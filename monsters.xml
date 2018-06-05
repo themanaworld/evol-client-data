@@ -206,7 +206,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1031" name="Giant Maggot" targetCursor="large">
         <sprite>monsters/giantmaggot.xml</sprite>
     </monster>
-    <monster id="1032" name="Gamboge Plant" targetCursor="medium">
+    <monster id="1032" name="BUG, REPORT ME!" targetCursor="medium">
         <sprite>monsters/plant.xml|#ef9b0f</sprite>
     </monster>
     <monster id="1033" name="Pumpkin" targetCursor="medium">
@@ -622,8 +622,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
         <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
     </monster>
-        <monster id="1129" name="Murderer Scorpion" targetCursor="medium">
+    <monster id="1129" name="Murderer Scorpion" targetCursor="medium">
         <sprite>monsters/murdererscorpion.xml</sprite>
+    </monster>
+    <monster id="1130" name="Angry Red Scorpion" targetCursor="medium">
+        <sprite>monsters/redscorpion.xml</sprite>
+    </monster>
+    <monster id="1131" name="Angry Scorpion" targetCursor="medium">
+        <sprite>monsters/scorpion.xml</sprite>
     </monster>
     <monster id="1132" name="Pinkie" targetCursor="small">
         <sprite>monsters/pinkie.xml</sprite>
@@ -639,5 +645,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/croc/hurt3.ogg</sound>
         <sound event="miss">monsters/croc/miss1.ogg</sound>
         <sound event="spawn">monsters/croc/spawn1.ogg</sound>
+    </monster>
+    <monster id="1134" name="Gamboge Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#ef9b0f</sprite>
+    </monster>
+    <monster id="1135" name="Mauve Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#e0b0ff</sprite>
+    </monster>
+    <monster id="1136" name="Cobalt Plant" targetCursor="small">
+        <sprite>monsters/plant.xml|#0047ab</sprite>
     </monster>
 </monsters>
