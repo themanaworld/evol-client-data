@@ -2671,7 +2671,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="1316"
         image="equipment/chest/silkrobe.png|W"
         name="%Color% Silk Robe"
-        description="A light and shimmering %Color%  silk robe."
+        description="A light and shimmering %Color% silk robe."
         effect="SP +30"
         defense="40"
         level="20"
@@ -2698,7 +2698,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="1318"
         image="equipment/chest/uglychristmassweater.png"
         name="Ugly Christmas Sweater"
-        description="An ugly Christmas sweater."
+        description="An ugly %Color% Christmas sweater."
         defense="60"
         level="14"
         type="equip-torso"
@@ -2811,9 +2811,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
-    <!-- @Saulc you need itemColors attribute to dye icon, not an empty dye command -->
+    <!-- @Saulc you need itemColors (or colors) attribute to dye icon, not an empty dye command -->
     <item id="1332"
-        image="equipment/chest/cottonshirt.png"
+        image="equipment/chest/cottonshirt.png|W"
         name="%Color% Cotton Shirt"
         description="Shirt made of 100% cotton"
         defense="30"
@@ -2910,9 +2910,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/feet/fursboots-female.xml</sprite>
     </item>
     <item id="1805"
-        image="equipment/feet/cottonboots.png"
+        image="equipment/feet/cottonboots.png|W"
         name="Cotton Boots"
-        description="A pair of quality cotton boots."
+        description="A pair of quality %Color% cotton boots."
         defense="12"
         level="14"
         type="equip-feet"
@@ -3060,7 +3060,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item id="2005"
         image="equipment/hands/cottongloves.png|W"
         name="Cotton Gloves"
-        description="A pair of comfy cotton gloves."
+        description="A pair of comfy %Color% cotton gloves."
         defense="10"
         level="6"
         type="equip-arms"
@@ -3255,9 +3255,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <sprite gender="female">equipment/legs/jeanschaps-female.xml</sprite>
     </item>
     <item id="2205"
-        image="equipment/legs/cottonshorts.png"
+        image="equipment/legs/cottonshorts.png|W"
         name="Cotton Shorts"
-        description="Shorts made of 100% cotton."
+        description="Shorts made of 100% %Color% cotton."
         defense="25"
         level="13"
         type="equip-legs"
@@ -3468,7 +3468,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         weight="1">
     </item>
     <item id="2512"
-        image="equipment/rings/goldensimplering.png"
+        image="equipment/rings/goldensimplering.png|S"
         name="Silver %Color% Ring"
         description="A silver simple ring. Not so good as the golden one."
         defense="2"
@@ -3603,12 +3603,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 
     <!-- Head Gears -->
     <item id="2900"
-        image="equipment/head/bandana.png"
+        image="equipment/head/bandana.png|W"
         name="Bandana"
-        description="A striped bandana worn by some sailors."
+        description="A striped %Color% bandana worn by some sailors."
         defense="26"
         level="12"
         type="equip-head"
+        colors="simple"
         weight="35">
         <sprite gender="unisex">equipment/head/bandana.xml</sprite>
         <sprite gender="female">equipment/head/bandana.xml</sprite>
@@ -3738,12 +3739,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         </replace>
     </item>
     <item id="2909"
-        image="equipment/head/crusadehelmet.png"
+        image="equipment/head/crusadehelmet.png|W"
         name="Crusade Helmet"
-        description="Start your own crusade!"
+        description="Start your own crusade with this %Color% helmet!"
         defense="175"
         level="55"
         type="equip-head"
+        colors="simple"
         weight="1450">
         <sprite>equipment/head/crusadehelmet.xml</sprite>
         <replace sprite="hair"/>
@@ -3854,12 +3856,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         <replace sprite="hair"/>
     </item>
     <item id="2919"
-        image="equipment/head/prsmhelmet.png"
+        image="equipment/head/prsmhelmet.png|W"
         name="Prsm Helmet"
-        description="A helmet with two small wings on it."
+        description="A %Color% helmet with two small wings on it. By the way, thanks to Saulc, Prsm was promoted to Santa!"
         defense="135"
         level="20"
         type="equip-head"
+        colors="simple"
         weight="600">
         <sprite>equipment/head/santabeardhat.xml</sprite>
         <replace sprite="hair"/>
@@ -4043,12 +4046,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
         </replace>
     </item>
     <item id="2936"
-        image="equipment/head/bowlerhat.png"
+        image="equipment/head/bowlerhat.png|W"
         name="Bowler Hat"
-        description="A hat for those with a bit of class."
+        description="A %Color% hat for those with a bit of class."
         defense="40"
         level="20"
         type="equip-head"
+        colors="simple"
         weight="30">
         <sprite>equipment/head/bowlerhat.xml</sprite>
         <replace sprite="hair">
