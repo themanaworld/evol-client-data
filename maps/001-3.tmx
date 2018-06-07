@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" nextobjectid="3">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" nextobjectid="36">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
@@ -3087,5 +3087,82 @@
  <objectgroup name="Objects">
   <object id="1" name="Margin" type="fixme" x="0" y="0" width="640" height="640"/>
   <object id="2" name="Margin" type="fixme" x="5760" y="5760" width="640" height="640"/>
+  <object id="25" name="To Tower" type="warp" x="2560" y="3936" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
+  <object id="26" name="To Tower" type="warp" x="4320" y="2592" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="55"/>
+    <property name="dest_y" value="61"/>
+   </properties>
+  </object>
+  <object id="27" name="To Tower" type="warp" x="4064" y="3968" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="117"/>
+    <property name="dest_y" value="61"/>
+   </properties>
+  </object>
+  <object id="28" name="To Hall" type="warp" x="3296" y="2560" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="44"/>
+    <property name="dest_y" value="127"/>
+   </properties>
+  </object>
+  <object id="29" name="To Hall" type="warp" x="3392" y="2080" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="116"/>
+    <property name="dest_y" value="127"/>
+   </properties>
+  </object>
+  <object id="30" name="To Tower" type="warp" x="4320" y="3296" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="86"/>
+    <property name="dest_y" value="61"/>
+   </properties>
+  </object>
+  <object id="31" name="To Tower" type="warp" x="2304" y="3296" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="55"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
+  <object id="32" name="To Tower" type="warp" x="4064" y="2048" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="61"/>
+   </properties>
+  </object>
+  <object id="33" name="To Tower" type="warp" x="2304" y="2592" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="86"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
+  <object id="34" name="To Hall" type="warp" x="3232" y="2080" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="97"/>
+    <property name="dest_y" value="127"/>
+   </properties>
+  </object>
+  <object id="35" name="To Tower" type="warp" x="2592" y="2048" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3-1"/>
+    <property name="dest_x" value="117"/>
+    <property name="dest_y" value="30"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
