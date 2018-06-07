@@ -806,6 +806,16 @@ IDs 900-999 = Special
         <sprite>equipment/head/infantryhelmet.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="453">
+        <!-- Summoning circle. -->
+        <particlefx>graphics/particles/circle-magic.xml</particlefx>
+        <menu name="Summon" command="talk 'NAME'"/>
+    </npc>
+    <npc id="454">
+        <!-- Yeti King -->
+        <sprite>monsters/yetiking.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Soul Menhirs & Mana Stone -->
     <npc id="700">
