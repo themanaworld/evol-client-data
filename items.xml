@@ -4374,7 +4374,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
     <item from="-25" to="-7"/>
     <item from="-26" to="-21"/>
         </replace>
-    </item>    
+    </item>
+    <item id="2995"
+        image="equipment/head/papaerbag.png"
+        name="Paper Bag"
+        description="You looks totally crazy!"
+        defense="40"
+        type="equip-head"
+        weight="12">
+        <sprite>equipment/head/paperbag.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
     <!-- Neck Armors -->
     <item id="3200"
         image="equipment/neck/shemagh.png"
