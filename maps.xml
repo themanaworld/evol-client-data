@@ -49,6 +49,12 @@ Copyright (C) 2018 TMW2 -->
     <map name="001-2.tmx">
         <atlas name="coliseum"/>
     </map>
+    <map name="001-3.tmx">
+        <atlas name="gm-palace"/>
+    </map>
+    <map name="001-3-1.tmx">
+        <atlas name="gm-indoor"/>
+    </map>
     <map name="001-4.tmx">
         <atlas name="magic-forest"/>
     </map>
@@ -362,24 +368,6 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/cave.png"/>
         <file name="graphics/tilesets/cave_x2.png"/>
     </atlas>
-    
-    <atlas name="woodcave">
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-        <file name="graphics/tilesets/cave_bilevel.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-        <file name="graphics/tilesets/woodland_x5_fall.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-    </atlas>
 
     <atlas name="cave2">
         <file name="graphics/tilesets/arena.png"/>
@@ -451,6 +439,40 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/Throne_x2.png"/>
         <file name="graphics/tilesets/soccer_field.png"/>
         <file name="graphics/tilesets/woodland_ground.png"/>
+    </atlas>
+
+    <atlas name="gm-palace">
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+        <file name="graphics/tilesets/desert1.png"/>
+        <file name="graphics/tilesets/desert2.png"/>
+        <file name="graphics/tilesets/desert3.png"/>
+        <file name="graphics/tilesets/desert_x2.png"/>
+        <file name="graphics/tilesets/desert_x5.png"/>
+        <file name="graphics/tilesets/desert_city.png"/>
+        <file name="graphics/tilesets/desert_castle.png"/>
+        <file name="graphics/tilesets/desert_castle2.png"/>
+        <file name="graphics/tilesets/desert_castle_x2.png"/>
+        <file name="graphics/tilesets/desert_castle_x3.png"/>
+        <file name="graphics/tilesets/docks.png"/>
+        <file name="graphics/tilesets/docks_x2.png"/>
+        <file name="graphics/tilesets/woodland_indoor.png"/>
+        <file name="graphics/tilesets/water_overflow.png"/>
+    </atlas>
+
+    <atlas name="gm-indoor">
+        <file name="graphics/tilesets/Throne_x2.png"/>
+        <file name="graphics/tilesets/inn.png"/>
+        <file name="graphics/tilesets/inn2.png"/>
+        <file name="graphics/tilesets/inn_x2.png"/>
+        <file name="graphics/tilesets/desert_castle_interior.png"/>
+        <file name="graphics/tilesets/desert_castle_interior_x2.png"/>
+        <file name="graphics/tilesets/desert_castle_interior_x4.png"/>
+        <file name="graphics/tilesets/desert_castle_interior_x5.png"/>
+        <file name="graphics/tilesets/desert_city_indoors.png"/>
+        <file name="graphics/tilesets/desert_city_indoors_x3.png"/>
+        <file name="graphics/tilesets/woodland_indoor.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
+        <file name="graphics/tilesets/wood_lab.png"/>
     </atlas>
 
     <atlas name="halinarzo">
@@ -619,6 +641,24 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/woodland_indoor.png"/>
         <file name="graphics/tilesets/woodland_indoor_x2.png"/>
         <file name="graphics/tilesets/woodland_indoor_x3.png"/>
+    </atlas>
+    
+    <atlas name="woodcave">
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/cave_x2.png"/>
+        <file name="graphics/tilesets/cave_bilevel.png"/>
+        <file name="graphics/tilesets/trans_woodland_desert.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_indoor.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
+        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
+        <file name="graphics/tilesets/woodland_x2.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/woodland_x4.png"/>
+        <file name="graphics/tilesets/woodland_x5.png"/>
+        <file name="graphics/tilesets/woodland_x5_fall.png"/>
+        <file name="graphics/tilesets/woodland_village.png"/>
+        <file name="graphics/tilesets/woodland_village_x2.png"/>
     </atlas>
     <!-- / TMW2 -->
 
