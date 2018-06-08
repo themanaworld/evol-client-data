@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="230" height="200" tilewidth="32" tileheight="32" nextobjectid="19">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="230" height="200" tilewidth="32" tileheight="32" nextobjectid="20">
  <properties>
   <property name="license" value="GPL v3"/>
   <property name="manaplus version" value="2"/>
@@ -1745,16 +1745,24 @@
   </object>
   <object id="17" name="Unexplained Mountain Snake" type="spawn" x="2400" y="2048" width="1952" height="1536">
    <properties>
-    <property name="death" value="10000"/>
-    <property name="max_beings" value="5"/>
+    <property name="death" value="15000"/>
+    <property name="max_beings" value="4"/>
     <property name="monster_id" value="1123"/>
-    <property name="spawn" value="10000"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="18" name="Guardians Of Soren" type="spawn" x="3104" y="1664" width="800" height="352">
    <properties>
     <property name="death" value="10000"/>
-    <property name="max_beings" value="8"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1130"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="19" name="Angry Red Scorpion" type="spawn" x="224" y="512" width="6656" height="5248">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="18"/>
     <property name="monster_id" value="1130"/>
     <property name="spawn" value="5000"/>
    </properties>
