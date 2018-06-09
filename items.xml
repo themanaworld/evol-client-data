@@ -940,14 +940,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="usable/book-fishing.png" 
 		name="Pirate Treasure Map"
 		description="It's time to become rich!"
-		useButton="Read"
+		useButton="Blame Saulc"
 		type="usable"
 		weight="14"/>
 	<item id="607"
 		image="generic/bottleofsand.png" 
 		name="Mysterious Bottle"
-		description="What's inside! maybe a Treasure Map"
-		useButton="Broke"
+		description="What's inside? Perhaps... a Treasure Map?"
+		useButton="Blame Saulc"
+		type="usable"
+		weight="25"/>
+    <!-- /FIXME Saulc -->
+	<item id="608"
+		image="usable/juice.png|G:#009900"
+		name="Celestia's Tea"
+		description="A lovely tea from a lovely person. It's dead cold."
+		useButton="Drink"
+		effect="Heal 15% SP, -5% HP"
 		type="usable"
 		weight="25"/>
 	<!-- Generic Items -->
