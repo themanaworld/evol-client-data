@@ -313,6 +313,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		useButton="Eat"
 		defense="0"
 		effect="Unknown"
+		sellProtected="true"
 		type="equip-torso">
 		<replace />
 		<replace sprite="race">
@@ -388,6 +389,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Complete Healing"
 		useButton="Eat"
 		type="usable"
+		sellProtected="true"
 		weight="20"/>
 	<item id="526"
 		image="usable/shovel.png"
@@ -397,6 +399,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Dig holes"
 		type="usable"
 		weight="210"
+		sellProtected="true"
 		maxFloorOffset="5"/>
 	<item id="527"
 		image="usable/pumpkinjuice.png"
@@ -591,6 +594,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		useButton="Drink"
 		effect="Heal 1000-5000 HP"
 		type="usable"
+		sellProtected="true"
 		weight="30"/>
 	<item id="555"
 		image="usable/jarofblood.png"
@@ -699,7 +703,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="568"
 		image="usable/skullpotion.png"
 		name="Skull Potion"
-		description="A bottle in th shape of a skull."
+		description="A bottle in the shape of a skull."
 		useButton="Drink"
 		effect="Heal 1000-5000 HP"
 		type="usable"
@@ -807,6 +811,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="usable"
 		useButton="Unwrap"
 		weight="25"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="590"
 		image="usable/gift-silver.png"
@@ -815,6 +820,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="usable"
 		useButton="Unwrap"
 		weight="45"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="591"
 		image="usable/gift-golden.png"
@@ -823,6 +829,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="usable"
 		useButton="Unwrap"
 		weight="65"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="592"
 		image="usable/gift-prism.png"
@@ -831,6 +838,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="usable"
 		useButton="Unwrap"
 		weight="85"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="593"
 		image="usable/gift-supreme.png"
@@ -839,6 +847,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="usable"
 		useButton="Unwrap"
 		weight="115"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="594"
 		image="generic/deserttablet.png"
@@ -846,6 +855,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A tablet found in the sand ocean."
 		useButton="Read"
 		type="usable"
+		sellProtected="true"
 		weight="860"/>
 	<item id="595"
 		image="usable/bottleofseawater.png"
@@ -854,6 +864,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		useButton="Drink"
 		effect="Heal 400-1400 HP"
 		type="usable"
+		sellProtected="true"
 		weight="290"/>
 	<item id="596"
 		image="usable/bottleoftonoriwater.png"
@@ -878,6 +889,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		useButton="Eat"
 		effect="Heal 5000-10000 HP"
 		type="usable"
+		sellProtected="true"
 		weight="1"/>
 	<item id="599"
 		image="usable/snakeeggmodel.png|W:#c0c0a0;R:#b09070;G:#b8a888"
@@ -942,6 +954,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="It's time to become rich!"
 		useButton="Blame Saulc"
 		type="usable"
+		sellProtected="true"
 		weight="14"/>
 	<item id="607"
 		image="generic/bottleofsand.png" 
@@ -949,8 +962,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="What's inside? Perhaps... a Treasure Map?"
 		useButton="Blame Saulc"
 		type="usable"
+		sellProtected="true"
 		weight="25"/>
-    <!-- /FIXME Saulc -->
+	<!-- /FIXME Saulc -->
 	<item id="608"
 		image="usable/juice.png|G:#009900"
 		name="Celestia's Tea"
@@ -1055,6 +1069,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Guild Certification"
 		description="This piece of paper grants you official permission to found a Guild."
 		type="generic"
+		sellProtected="true"
 		weight="5"/>
 	<item id="715"
 		image="generic/box-croconut.png"
@@ -1151,6 +1166,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Designed for sports fishing."
 		type="generic"
 		weight="20"
+		sellProtected="true"
 		maxFloorOffset="4"/>
 	<item id="729"
 		image="generic/fur.png"
@@ -1208,6 +1224,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A pearl. Round, shiny and black!"
 		type="generic"
 		weight="200"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="738"
 		image="generic/bloodstone.png"
@@ -1215,6 +1232,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A stone as red as blood that emits a strange aura."
 		type="generic"
 		weight="25"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="739"
 		image="generic/coinbag.png"
@@ -1439,6 +1457,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="An ingot of iron."
 		type="generic"
 		weight="260"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="771"
 		image="generic/ironore.png"
@@ -1544,6 +1563,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A strange lava pearl that did not burn you."
 		type="generic"
 		weight="0"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="786"
 		image="generic/tulip.png"
@@ -1762,6 +1782,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Used to unlock something."
 		type="generic"
 		weight="1"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="818"
 		image="generic/bluemanapearl.png"
@@ -1769,6 +1790,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A pure pearl of Mana."
 		type="generic"
 		weight="0"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="819"
 		image="generic/crystallizedmaggot.png"
@@ -1776,6 +1798,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Hard as a rock."
 		type="generic"
 		weight="10"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="820"
 		image="generic/darkcrystal.png"
@@ -1811,6 +1834,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A light green diamond."
 		type="generic"
 		weight="10"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="825"
 		image="generic/powder.png|W:#9E0000"
@@ -1839,6 +1863,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Doesn't look like the others. I wonder if you can shop with this."
 		type="generic"
 		weight="0"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="829"
 		image="generic/butterfly.png"
@@ -1846,6 +1871,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="It's made of butter! It flies! It is a BUTTERFLY!"
 		type="generic"
 		weight="1"
+		sellProtected="true"
 		maxFloorOffset="20"/>
 	<item id="830"
 		image="generic/cavesnaketongue.png"
@@ -1864,7 +1890,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="832"
 		image="generic/blackscorpionstinger.png"
 		name="Black Scorpion Stinger"
-		description="It stings!"
+		description="It stings a lot!"
 		type="generic"
 		weight="1"
 		maxFloorOffset="20"/>
@@ -1908,6 +1934,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Tulimshar Guard Card"
 		description="Go anywhere you want! Well, not really. But grants you access to restricted areas in Tulimshar."
 		type="generic"
+		sellProtected="true"
 		weight="1"/>
 	 <item id="839"
 		image="generic/roach.png"
@@ -1982,30 +2009,35 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Copper Ingot"
 		description="Used to craft copper objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="851"
 		image="generic/ingot.png|W:#111111,333333,555555"
 		name="Lead Ingot"
 		description="Used to craft lead objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="852"
 		image="generic/ingot.png|W:#555555,777777,999999"
 		name="Tin Ingot"
 		description="Used to craft tin objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="853"
 		image="generic/ingot.png"
 		name="Silver Ingot"
 		description="Used to craft silver objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="854"
 		image="generic/ingot.png|W:#888844,CCCC66,FFFF88"
 		name="Gold Ingot"
 		description="Used to craft gold objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<!-- Note: Can we rename it to “Platyna Ingot”? :> -->
 	<item id="855"
@@ -2013,18 +2045,21 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Platinum Ingot"
 		description="Used to craft platinum objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="856"
 		image="generic/ingot.png|W:#884444,CC6666,FF8888"
 		name="Iridum Ingot"
 		description="Used to craft iridium objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="857"
 		image="generic/ingot.png|W:#9999BB,BBBBDD,DDDDFF"
 		name="Titanium Ingot"
 		description="Used to craft titanium objects."
 		type="generic"
+		sellProtected="true"
 		weight="2000"/>
 	<item id="858"
 		image="generic/gempowder.png|W:#5e7480,f1ffff,ffffff"
@@ -2130,12 +2165,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Everburn Powder"
 		description="Infinite Burning Powder. 100% magic. Extremely rare reagent."
 		type="generic"
+		sellProtected="true"
 		weight="100"/>
 	<item id="875"
 		image="generic/darkdesertmushroom.png"
 		name="Dark Desert Mushroom"
 		description="Extremely rare, only found on the deepest part of the Hard Desert. Useful for all potions."
 		type="generic"
+		sellProtected="true"
 		weight="40"/>
 
 
@@ -2302,6 +2339,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A necklace which only senior sponsors are allowed to use."
 		effect="Makes you look cool!"
 		type="equip-necklace"
+		sellProtected="true"
 		weight="1">
 		<particlefx>graphics/particles/circle-magic.xml</particlefx>
 	</item>
@@ -2377,7 +2415,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-necklace"
 		weight="50">
 	</item>
-    <!--
+	<!--
 	<item id="1158"
 		image="equipment/charms/mechamedallion.png"
 		name="Mecha Medallion"
@@ -2386,7 +2424,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-necklace"
 		weight="40">
 	</item>
-    -->
+	-->
 	<item id="1159"
 		image="equipment/charms/oldtowel.png"
 		name="Old Towel"
@@ -2607,6 +2645,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-torso"
 		weight="25"
 		colors="simple"
+		sellProtected="true"
 		maxFloorOffset="10">
 		<sprite gender="unisex">equipment/chest/contributorsweater-male.xml</sprite>
 		<sprite gender="female">equipment/chest/contributorsweater-female.xml</sprite>
@@ -2773,6 +2812,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="20"
 		type="equip-torso"
 		weight="500"
+		sellProtected="true"
 		maxFloorOffset="10">
 		<sprite gender="unisex">equipment/chest/redknightarmor-male.xml</sprite>
 		<sprite gender="female">equipment/chest/redknightarmor-female.xml</sprite>
@@ -3774,7 +3814,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="2911"
 		image="equipment/head/infantryhelmet.png"
-		name="infantry Helmet"
+		name="Infantry Helmet"
 		description="A helmet for soldiers and guards."
 		defense="145"
 		level="30"
@@ -4009,6 +4049,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="135"
 		level="20"
 		type="equip-head"
+		sellProtected="true"
 		weight="4">
 		<sprite>equipment/head/imperialcrown.xml</sprite>
 	</item>
@@ -4018,6 +4059,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A cap which identifies you as a GM. Only Game Master's can wear this."
 		defense="50"
 		type="equip-head"
+		sellProtected="true"
 		weight="1">
 		<sprite>equipment/head/gmcap.xml</sprite>
 		<replace sprite="hair">
@@ -4048,6 +4090,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="50"
 		level="23"
 		type="equip-head"
+		sellProtected="true"
 		weight="30">
 		<sprite>equipment/head/tophat.xml</sprite>
 		<replace sprite="hair">
@@ -4064,6 +4107,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="20"
 		type="equip-head"
 		colors="simple"
+		sellProtected="true"
 		weight="30">
 		<sprite>equipment/head/bowlerhat.xml</sprite>
 		<replace sprite="hair">
@@ -4251,6 +4295,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="55"
 		level="23"
 		type="equip-head"
+		sellProtected="true"
 		weight="460">
 		<sprite>equipment/head/eggshellhat.xml|#2A9409,70BA59,ACF696</sprite>
 	</item>
@@ -4261,6 +4306,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="55"
 		level="20"
 		type="equip-head"
+		sellProtected="true"
 		weight="460">
 		<sprite>equipment/head/eggshellhat.xml|#9B5D00,E17828,F7B37E</sprite>
 	</item>
@@ -4272,6 +4318,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="30"
 		effect="Defense +15 during Easter"
 		type="equip-head"
+		sellProtected="true"
 		weight="460">
 		<sprite>equipment/head/eggshellhat.xml|#111111,222222,333333,444444,555555,666666</sprite>
 	</item>
@@ -4280,6 +4327,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Admin Cap"
 		description="A cap which identifies you as an ADMIN. Only administrator's can wear this."
 		defense="100"
+		sellProtected="true"
 		type="equip-head">
 		<sprite>equipment/head/admcap.xml</sprite>
 		<replace sprite="hair">
@@ -4293,6 +4341,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="DEV Cap"
 		description="A cap which identifies you as a DEV. Only developer's can wear this."
 		defense="40"
+		sellProtected="true"
 		type="equip-head">
 		<sprite>equipment/head/devcap.xml|#22ff22,ffffff;#9999ff</sprite>
 		<replace sprite="hair">
@@ -4308,6 +4357,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="25"
 		effect="flee -80%; Defense -50%; HP 30000"
 		type="equip-head"
+		sellProtected="true"
 		weight="800">
 		<sprite>equipment/head/magictophat.xml</sprite>
 		<replace sprite="hair">
@@ -4338,6 +4388,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		defense="35"
 		level="10"
 		type="equip-head"
+		sellProtected="true"
 		weight="250">
 		<sprite>equipment/head/murderercrown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
 		<replace sprite="hair">
@@ -4421,6 +4472,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="3"
 		type="equip-neck"
 		weight="22"
+		sellProtected="true"
 		drawAfter="torso">
 		<sprite gender="unisex">equipment/neck/monocle.xml</sprite>
 		<sprite gender="female">equipment/neck/monocle.xml</sprite>
@@ -4469,6 +4521,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="40"
 		type="equip-neck"
 		weight="22"
+		sellProtected="true"
 		drawAfter="torso">
 		<sprite gender="unisex">equipment/neck/goggles.xml</sprite>
 		<sprite gender="female">equipment/neck/goggles.xml</sprite>
@@ -4763,6 +4816,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		hit-effect-id="312"
 		miss-effect-id="50"
 		type="equip-2hand"
+		sellProtected="true"
 		weight="1000">
 		<sprite>equipment/weapons/piouslayer.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
@@ -4780,6 +4834,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		hit-effect-id="312"
 		miss-effect-id="50"
 		type="equip-1hand"
+		sellProtected="true"
 		weight="1000">
 		<sprite>equipment/weapons/lidersword.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
@@ -4794,6 +4849,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Work In Progress"
 		level="60"
 		type="equip-1hand"
+		sellProtected="true"
 		weight="1000">
 		<sprite>equipment/weapons/kurogane.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
@@ -4820,6 +4876,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Piou egg. Not for omelettes!"
 		type="generic"
 		useButton="Hatch"
+		sellProtected="true"
 		weight="300"
 	/>
 	<item id="4001"
@@ -4828,6 +4885,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Whaaaaaat, it is a lucky Bhopper Egg! With proper care, this pet will increase your luck!"
 		type="generic"
 		useButton="Hatch"
+		sellProtected="true"
 		weight="1000"
 	/>
 	<item id="4002"
@@ -4836,6 +4894,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Hey, this cocoon is really rare!"
 		type="generic"
 		useButton="Hatch"
+		sellProtected="true"
 		weight="520"
 	/>
 
@@ -5240,6 +5299,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="80"
 		type="equip-2hand"
 		attack-action="attack_bow"
+		sellProtected="true"
 		weight="520">
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
