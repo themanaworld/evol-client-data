@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: 4144
-Copyright (C) 2011-2012 Evol Online -->
+<!-- Author: 4144, Jesusalva
+Copyright (C) 2011-2012 Evol Online
+Copyright (C) 2018 TMW2: Moubootaur Legends -->
 
 <equipment>
-    <page name="default">
+    <page name="Default">
         <playerbox x="50" y="80" width="74" height="168"/>
         <slot name="torso" x="94" y="48" image="0"/>
         <slot name="gloves" x="8" y="92" image="1"/>
@@ -18,8 +19,24 @@ Copyright (C) 2011-2012 Evol Online -->
         <slot name="ammo" x="136" y="92" image="9"/>
         <slot name="amulet" x="8" y="137" image="6"/>
         <slot name="ring" x="136" y="137" image="5"/>
-    </page>
-    <page name="all">
+     </page>
+     <page name="Quick">
+         <slot name="hat" x="0" y="0" image="2"/>
+         <slot name="torso" x="40" y="0" image="0"/>
+         <slot name="pants" x="80" y="0" image="3"/>
+         <slot name="boots" x="120" y="0" image="4"/>
+
+         <slot name="gloves" x="0" y="40" image="1"/>
+         <slot name="ammo" x="120" y="40" image="9"/>
+         <slot name="weapon" x="80" y="40" image="7"/>
+         <slot name="shield" x="40" y="40" image="8"/>
+
+         <slot name="scarf" x="0" y="80" image="11"/>
+         <slot name="wings" x="40" y="80" image="10"/>
+        <slot name="amulet" x="80" y="80" image="6"/>
+        <slot name="ring" x="120" y="80" image="5"/>
+     </page>
+    <page name="All">
         <slot name="slot0" x="8" y="0" image="0"/>
         <slot name="slot1" x="48" y="0" image="0"/>
         <slot name="slot2" x="88" y="0" image="0"/>
