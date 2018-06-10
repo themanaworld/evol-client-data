@@ -3458,7 +3458,18 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite gender="unisex">equipment/legs/candorshorts-male.xml</sprite>
 		<sprite gender="female">equipment/legs/candorshorts-female.xml</sprite>
 	</item>
-
+	<item id="2218"
+		image="equipment/legs/pirateshorts.png"
+		name="Pirate Shorts"
+		description="A torm pirate short that travel around the world.."
+		defense="35"
+		effect="Flee +1%"
+		level="20"
+		type="equip-legs"
+		weight="195"
+		maxFloorOffset="8">
+		<sprite gender="unisex">equipment/legs/pirateshorts-male.xml</sprite>
+	</item>
 	<!-- Rings -->
 	<item id="2500"
 		image="equipment/rings/weddingring.png"
