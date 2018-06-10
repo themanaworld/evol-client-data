@@ -658,4 +658,10 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
       <monster id="1137" name="Skeleton">
     <sprite>monsters/skeleton.xml</sprite>
   </monster>
+    <monster id="1138" name="Ocean Pirate">
+    <sprite>monsters/oceanpirate.xml</sprite>
+    <sprite>equipment/head/piratebandana.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
 </monsters>
