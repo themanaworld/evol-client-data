@@ -140,6 +140,13 @@ end-message:                Displays a message when the effect end.
         id="134"
     />
     <status-effect
+        name="inc str 2"
+        id="150"
+        icon="icons/bpotionsprite.xml|G:#c05000,f0a000,f0f09f"
+        persistent-particle-effect="true"
+        start-particle="graphics/particles/strengthfurry.particle.xml"
+    />
+    <status-effect
         name="inc str"
         id="182"
     />
