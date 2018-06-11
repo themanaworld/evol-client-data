@@ -3,669 +3,669 @@
 Copyright (C) 2010-2014 Evol Online -->
 
 <!--
-<monsters>       Parent of the monster strings. 
-<monster>        Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
-id=""            ID of the monster. It is different for each monster and starts from 0.
-name=""          Name of the monster which will be displayed in game, it is also used by the server.
+<monsters>	   Parent of the monster strings. 
+<monster>		Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
+id=""			ID of the monster. It is different for each monster and starts from 0.
+name=""		  Name of the monster which will be displayed in game, it is also used by the server.
 targetCursor=""  Cursor size used by the client, different size are: small, medium and large.
-walkType=""      The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. Different walktype are: walk, walkswim and fly. By default, walk option is used and if the monster is static, this tag can be removed.
-<sprite>         This tag shows the path to the xml of the monster.
-<sound>          Sound tag. Contains an event which displays the sound effects to the corresponding action. The next paramaters lists them:
-event=""         Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
+walkType=""	  The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. Different walktype are: walk, walkswim and fly. By default, walk option is used and if the monster is static, this tag can be removed.
+<sprite>		 This tag shows the path to the xml of the monster.
+<sound>		  Sound tag. Contains an event which displays the sound effects to the corresponding action. The next paramaters lists them:
+event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 -->
 
 <monsters>
-    <monster id="1002" name="Piou" targetCursor="small" walkType="fly">
-        <sprite>monsters/piou.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
-        <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
-        <sound event="miss">monsters/piou/miss1.ogg</sound>
-        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
-    </monster>
-    <monster id="1003" name="Piousse" targetCursor="small">
-        <sprite>monsters/piou.xml</sprite>
-        <sprite>accessories/piousse-egg.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
-        <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
-        <sound event="miss">monsters/piou/miss1.ogg</sound>
-        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
-    </monster>
-    <monster id="1004" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
-        <sprite>monsters/tortuga.xml</sprite>
-        <sound event="die">monsters/tortuga/die1.ogg</sound> 
-        <sound event="hit">monsters/tortuga/hit1.ogg</sound>
-        <sound event="hit">monsters/tortuga/hit2.ogg</sound>
-        <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
-        <sound event="miss">monsters/tortuga/miss1.ogg</sound>
-        <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
-    </monster>
-    <monster id="1005" name="Ratto" targetCursor="small">
-        <sprite>monsters/ratto.xml</sprite>
-        <sprite>accessories/ratto-tail.xml</sprite>
-        <sound event="die">monsters/ratto/die1.ogg</sound>
-        <sound event="hit">monsters/ratto/hit1.ogg</sound>
-        <sound event="hit">monsters/ratto/hit2.ogg</sound>
-        <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
-        <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
-    </monster>
-    <monster id="1006" name="Croc" targetCursor="small" sortOffsetY="30">
-        <sprite>monsters/croc.xml</sprite>
-        <sound event="hit">monsters/croc/hit1.ogg</sound>
-        <sound event="hit">monsters/croc/hit2.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt1.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt2.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt3.ogg</sound>
-        <sound event="miss">monsters/croc/miss1.ogg</sound>
-        <sound event="spawn">monsters/croc/spawn1.ogg</sound>
-    </monster>
-    <monster id="1007" name="Little Blub" targetCursor="small" walkType="walkswim" sortOffsetY="30">
-        <sprite>monsters/blub-little.xml</sprite>
-        <sprite>accessories/littleblub-tentacle.xml</sprite>
-        <sound event="die">monsters/blub/die1.ogg</sound>
-        <sound event="hit">monsters/blub/hit1.ogg</sound>
-        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
-    </monster>
-    <monster id="1008" name="Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
-        <sprite>monsters/blub.xml</sprite>
-        <sprite>accessories/blub-tentacle.xml|#3e4164,3a3968,544a82,64437a,7d6db4,a26392,8f99c4,d294ab,b3cdcd,e7b8b8,d9ecd1,f0e8c5</sprite>
-        <sound event="die">monsters/blub/die1.ogg</sound>
-        <sound event="hit">monsters/blub/hit1.ogg</sound>
-        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
-    </monster>
-    <monster id="1009" name="Toppy Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
-        <sprite>monsters/blub-toppy.xml</sprite>
-        <sprite>accessories/blub-tentacle.xml</sprite>
-        <sound event="die">monsters/blub/die1.ogg</sound>
-        <sound event="hit">monsters/blub/hit1.ogg</sound>
-        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
-    </monster>
-    <monster id="1010" name="Crocotree" targetCursor="small" targetOffsetX="-28" targetOffsetY="4" nameOffsetX="-29">
-        <sprite>monsters/crocotree.xml</sprite>
-        <sound event="die">monsters/crocotree/die1.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
-    </monster>
-    <monster id="1011" name="Plushroom Field" targetCursor="large" sortOffsetY="70">
-        <sprite>monsters/plushroom.xml</sprite>
-        <sound event="die">monsters/mushroom/die1.ogg</sound>
-        <sound event="die">monsters/mushroom/die2.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
-    </monster>
-    <monster id="1012" name="Frostiana" targetCursor="small">
-        <sprite>monsters/frostiana.xml</sprite>
-        <attack id="1" effect-id="21"/>
-        <sound event="die">monsters/mushroom/die1.ogg</sound>
-        <sound event="die">monsters/mushroom/die2.ogg</sound>
-        <sound event="hit">monsters/frostiana/hit1.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
-    </monster>
-    <monster id="1013" name="Pikpik" targetCursor="small">
-        <sprite>monsters/pikpik.xml</sprite>
-    </monster>
-    <monster id="1014" name="Croconut" targetCursor="small">
-        <sprite>monsters/croconut.xml</sprite>
-        <sound event="hit">monsters/crocotree/die1.ogg</sound>
-        <sound event="die">monsters/crocotree/die1.ogg</sound>
-    </monster>
-    <monster id="1015" name="Tipiu" targetCursor="medium" walkType="fly">
-        <sprite>monsters/tipiou.xml</sprite>
-        <sprite>accessories/tipiou-hat.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
-        <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
-        <sound event="miss">monsters/piou/miss1.ogg</sound>
-        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
-    </monster>
-    <monster id="1016" name="Tipiou" targetCursor="medium" walkType="fly">
-        <sprite>monsters/tipiou.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
-        <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
-        <sound event="miss">monsters/piou/miss1.ogg</sound>
-        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
-    </monster>
-    <monster id="1017" name="Manana Tree" targetCursor="medium">
-        <sprite>monsters/mananatree.xml</sprite>
-    </monster>
-    <monster id="1018" name="Crafty" targetCursor="small">
-        <sprite>monsters/crafty.xml</sprite>
-        <sound event="die">monsters/piou/die1.ogg</sound>
-        <sound event="hit">monsters/piou/hit1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
-        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
-        <sound event="miss">monsters/piou/miss1.ogg</sound>
-        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
-    </monster>
-    <monster id="1019" name="Pumpkin" walkType="walk">
-        <sprite>monsters/pumpkish.xml</sprite>
-        <sound event="die">monsters/pumpkin/die1.ogg</sound>
-        <sound event="hit">monsters/pumpkin/hit1.ogg</sound>
-    </monster>
-    <monster id="1020" name="Cuco" walkType="walk" targetCursor="large">
-        <sprite>monsters/cuco.xml</sprite>
-        <sound event="die">monsters/pumpkin/die1.ogg</sound>
-        <sound event="hit">monsters/pumpkin/hit1.ogg</sound>
-    </monster>
-    <monster id="1021" name="Pillar Dummy" targetCursor="medium">
-        <sprite>monsters/dummy.xml</sprite>
-        <sound event="die">monsters/crocotree/die1.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
-        <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
-    </monster>
-    <monster id="1022" name="Fluffy" targetCursor="small">
-        <sprite>monsters/fluffy.xml</sprite>
-        <sound event="hit">monsters/fluffy/hit1.ogg</sound>
-        <sound event="hit">monsters/fluffy/hit2.ogg</sound>
-        <sound event="hit">monsters/fluffy/hit3.ogg</sound>
-        <sound event="hurt">monsters/fluffy/hurt1.ogg</sound>
-        <sound event="miss">monsters/fluffy/miss1.ogg</sound>
-    </monster>
-    <monster id="1023" name="Mouboo" targetCursor="large">
-        <sprite>monsters/mouboo.xml</sprite>
-    </monster>
+	<monster id="1002" name="Piou" targetCursor="small" walkType="fly">
+		<sprite>monsters/piou.xml</sprite>
+		<sound event="die">monsters/piou/die1.ogg</sound>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt2.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+		<sound event="spawn">monsters/piou/spawn1.ogg</sound>
+	</monster>
+	<monster id="1003" name="Piousse" targetCursor="small">
+		<sprite>monsters/piou.xml</sprite>
+		<sprite>accessories/piousse-egg.xml</sprite>
+		<sound event="die">monsters/piou/die1.ogg</sound>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt2.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+		<sound event="spawn">monsters/piou/spawn1.ogg</sound>
+	</monster>
+	<monster id="1004" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+		<sprite>monsters/tortuga.xml</sprite>
+		<sound event="die">monsters/tortuga/die1.ogg</sound> 
+		<sound event="hit">monsters/tortuga/hit1.ogg</sound>
+		<sound event="hit">monsters/tortuga/hit2.ogg</sound>
+		<sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
+		<sound event="miss">monsters/tortuga/miss1.ogg</sound>
+		<sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
+	</monster>
+	<monster id="1005" name="Ratto" targetCursor="small">
+		<sprite>monsters/ratto.xml</sprite>
+		<sprite>accessories/ratto-tail.xml</sprite>
+		<sound event="die">monsters/ratto/die1.ogg</sound>
+		<sound event="hit">monsters/ratto/hit1.ogg</sound>
+		<sound event="hit">monsters/ratto/hit2.ogg</sound>
+		<sound event="hurt">monsters/ratto/hurt1.ogg</sound>
+		<sound event="spawn">monsters/ratto/spawn1.ogg</sound>
+	</monster>
+	<monster id="1006" name="Croc" targetCursor="small" sortOffsetY="30">
+		<sprite>monsters/croc.xml</sprite>
+		<sound event="hit">monsters/croc/hit1.ogg</sound>
+		<sound event="hit">monsters/croc/hit2.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt1.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt2.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt3.ogg</sound>
+		<sound event="miss">monsters/croc/miss1.ogg</sound>
+		<sound event="spawn">monsters/croc/spawn1.ogg</sound>
+	</monster>
+	<monster id="1007" name="Little Blub" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+		<sprite>monsters/blub-little.xml</sprite>
+		<sprite>accessories/littleblub-tentacle.xml</sprite>
+		<sound event="die">monsters/blub/die1.ogg</sound>
+		<sound event="hit">monsters/blub/hit1.ogg</sound>
+		<sound event="spawn">monsters/blub/spawn1.ogg</sound>
+	</monster>
+	<monster id="1008" name="Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
+		<sprite>monsters/blub.xml</sprite>
+		<sprite>accessories/blub-tentacle.xml|#3e4164,3a3968,544a82,64437a,7d6db4,a26392,8f99c4,d294ab,b3cdcd,e7b8b8,d9ecd1,f0e8c5</sprite>
+		<sound event="die">monsters/blub/die1.ogg</sound>
+		<sound event="hit">monsters/blub/hit1.ogg</sound>
+		<sound event="spawn">monsters/blub/spawn1.ogg</sound>
+	</monster>
+	<monster id="1009" name="Toppy Blub" targetCursor="medium" walkType="walkswim" targetOffsetY="10">
+		<sprite>monsters/blub-toppy.xml</sprite>
+		<sprite>accessories/blub-tentacle.xml</sprite>
+		<sound event="die">monsters/blub/die1.ogg</sound>
+		<sound event="hit">monsters/blub/hit1.ogg</sound>
+		<sound event="spawn">monsters/blub/spawn1.ogg</sound>
+	</monster>
+	<monster id="1010" name="Crocotree" targetCursor="small" targetOffsetX="-28" targetOffsetY="4" nameOffsetX="-29">
+		<sprite>monsters/crocotree.xml</sprite>
+		<sound event="die">monsters/crocotree/die1.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+	</monster>
+	<monster id="1011" name="Plushroom Field" targetCursor="large" sortOffsetY="70">
+		<sprite>monsters/plushroom.xml</sprite>
+		<sound event="die">monsters/mushroom/die1.ogg</sound>
+		<sound event="die">monsters/mushroom/die2.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+	</monster>
+	<monster id="1012" name="Frostiana" targetCursor="small">
+		<sprite>monsters/frostiana.xml</sprite>
+		<attack id="1" effect-id="21"/>
+		<sound event="die">monsters/mushroom/die1.ogg</sound>
+		<sound event="die">monsters/mushroom/die2.ogg</sound>
+		<sound event="hit">monsters/frostiana/hit1.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+	</monster>
+	<monster id="1013" name="Pikpik" targetCursor="small">
+		<sprite>monsters/pikpik.xml</sprite>
+	</monster>
+	<monster id="1014" name="Croconut" targetCursor="small">
+		<sprite>monsters/croconut.xml</sprite>
+		<sound event="hit">monsters/crocotree/die1.ogg</sound>
+		<sound event="die">monsters/crocotree/die1.ogg</sound>
+	</monster>
+	<monster id="1015" name="Tipiu" targetCursor="medium" walkType="fly">
+		<sprite>monsters/tipiou.xml</sprite>
+		<sprite>accessories/tipiou-hat.xml</sprite>
+		<sound event="die">monsters/piou/die1.ogg</sound>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt2.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+		<sound event="spawn">monsters/piou/spawn1.ogg</sound>
+	</monster>
+	<monster id="1016" name="Tipiou" targetCursor="medium" walkType="fly">
+		<sprite>monsters/tipiou.xml</sprite>
+		<sound event="die">monsters/piou/die1.ogg</sound>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt2.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+		<sound event="spawn">monsters/piou/spawn1.ogg</sound>
+	</monster>
+	<monster id="1017" name="Manana Tree" targetCursor="medium">
+		<sprite>monsters/mananatree.xml</sprite>
+	</monster>
+	<monster id="1018" name="Crafty" targetCursor="small">
+		<sprite>monsters/crafty.xml</sprite>
+		<sound event="die">monsters/piou/die1.ogg</sound>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
+		<sound event="hurt">monsters/piou/hurt2.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+		<sound event="spawn">monsters/piou/spawn1.ogg</sound>
+	</monster>
+	<monster id="1019" name="Pumpkin" walkType="walk">
+		<sprite>monsters/pumpkish.xml</sprite>
+		<sound event="die">monsters/pumpkin/die1.ogg</sound>
+		<sound event="hit">monsters/pumpkin/hit1.ogg</sound>
+	</monster>
+	<monster id="1020" name="Cuco" walkType="walk" targetCursor="large">
+		<sprite>monsters/cuco.xml</sprite>
+		<sound event="die">monsters/pumpkin/die1.ogg</sound>
+		<sound event="hit">monsters/pumpkin/hit1.ogg</sound>
+	</monster>
+	<monster id="1021" name="Pillar Dummy" targetCursor="medium">
+		<sprite>monsters/dummy.xml</sprite>
+		<sound event="die">monsters/crocotree/die1.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
+		<sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+	</monster>
+	<monster id="1022" name="Fluffy" targetCursor="small">
+		<sprite>monsters/fluffy.xml</sprite>
+		<sound event="hit">monsters/fluffy/hit1.ogg</sound>
+		<sound event="hit">monsters/fluffy/hit2.ogg</sound>
+		<sound event="hit">monsters/fluffy/hit3.ogg</sound>
+		<sound event="hurt">monsters/fluffy/hurt1.ogg</sound>
+		<sound event="miss">monsters/fluffy/miss1.ogg</sound>
+	</monster>
+	<monster id="1023" name="Mouboo" targetCursor="large">
+		<sprite>monsters/mouboo.xml</sprite>
+	</monster>
    <monster id="1024" name="Bandit" targetCursor="medium">
-        <sprite>monsters/bandit.xml</sprite>
-        <sound event="die">monsters/mushroom/die1.ogg</sound>
-        <sound event="die">monsters/mushroom/die2.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
-    </monster>
-    <monster id="1025" name="Red Butterfly" targetCursor="small">
-        <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
-        <sprite>monsters/accessories/smallcircleshadow.xml</sprite>
-    </monster>
-    <monster id="1026" name="Archant" targetCursor="small">
-        <sprite>monsters/archant.xml</sprite>
-    </monster>
-    <monster id="1027" name="Cave Maggot" targetCursor="small">
-        <sprite>monsters/cavemaggot.xml</sprite>
-    </monster>
-    <monster id="1028" name="Clover Patch" targetCursor="medium">
-        <sprite>monsters/cloverpatch.xml</sprite>
-    </monster>
-    <monster id="1029" name="Duck" targetCursor="medium">
-        <sprite>monsters/duck.xml</sprite>
-    </monster>
-    <monster id="1030" name="Maggot" targetCursor="small">
-        <sprite>monsters/maggot.xml</sprite>
-        <sound event="hit">monsters/maggot/maggothit1.ogg</sound>    
-        <sound event="hit">monsters/maggot/maggothit2.ogg</sound>
-        <sound event="miss">monsters/maggot/maggotmiss.ogg</sound>
-        <sound event="die">monsters/maggot/maggotdying.ogg</sound>    
-    </monster>
-    <monster id="1031" name="Giant Maggot" targetCursor="large">
-        <sprite>monsters/giantmaggot.xml</sprite>
-    </monster>
-    <monster id="1032" name="Squirrel">
-        <sprite>monsters/squirrel.xml|#dfae76</sprite>
-        <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
-        <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
-        <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
-        <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
-    </monster>
-    <monster id="1033" name="Pumpkin" targetCursor="medium">
-        <sprite>monsters/pumpkin.xml</sprite>
-    </monster>
-    <monster id="1034" name="Silk Worm" targetCursor="medium">
-        <sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
-    </monster>
-    <monster id="1035" name="Cave Snake" targetCursor="medium">
-        <sprite>monsters/cavesnake.xml</sprite>
-    </monster>
-    <monster id="1036" name="Demonic Scythe" targetCursor="large">
-        <sprite>monsters/demonicscythe.xml</sprite>
-    </monster>
-    <monster id="1037" name="Wolvern" targetCursor="medium">
-        <sprite>monsters/wolvern.xml</sprite>
-    </monster>
-    <monster id="1038" name="Zombie" targetCursor="medium">
-        <sprite>monsters/zombie.xml</sprite>
-    </monster>
-    <monster id="1039" name="Bat" targetCursor="small">
-        <sprite>monsters/bat.xml</sprite>
-        <sound event="die">monsters/bat/batdie.ogg</sound>
-        <sound event="hit">monsters/bat/bathit.ogg</sound>
-    </monster>
-    <monster id="1040" name="Yeti King" targetCursor="large">
-        <sprite>monsters/yetiking.xml</sprite>
-    </monster>
-    <monster id="1041" name="Iced FLuffy" targetCursor="medium">
-        <sprite>monsters/icedfluffy.xml</sprite>
-    </monster>
-    <monster id="1042" name="Red Mushroom" targetCursor="medium">
-        <sprite>monsters/redmushroom.xml</sprite>
-    </monster>
-    <monster id="1043" name="Poison Spiky Mushroom" targetCursor="medium">
-        <sprite>monsters/poisonspikymushroom.xml</sprite>
-    </monster>
-    <monster id="1044" name="Giant Mutated Bat" targetCursor="large">
-        <sprite>monsters/giantmutatedbat.xml</sprite>
-    </monster>
-    <monster id="1045" name="Warlord Skull" targetCursor="medium">
-        <sprite>monsters/warlordskull.xml</sprite>
-    </monster>
-    <monster id="1046" name="Red Dragon" targetCursor="large">
-        <sprite>monsters/reddragon.xml</sprite>
-    </monster>
-    <monster id="1047" name="Golden Skull" targetCursor="medium">
-        <sprite>monsters/goldenskull.xml</sprite>
-    </monster>
-    <monster id="1048" name="Smoke Dragon" targetCursor="large">
-        <sprite>monsters/smokedragon.xml</sprite>
-    </monster>
-    <monster id="1049" name="Bhop Fluffy" targetCursor="medium">
-        <sprite>monsters/bhopfluffy.xml</sprite>
-    </monster>
-    <monster id="1050" name="Forest Dragon" targetCursor="large">
-        <sprite>monsters/forestdragon.xml</sprite>
-    </monster>
-    <monster id="1051" name="Dark Lizard" targetCursor="medium">
-        <sprite>monsters/darklizard.xml</sprite>
-    </monster>
-    <monster id="1052" name="Magic Goblin" targetCursor="medium">
-        <sprite>monsters/demonicgoblin.xml</sprite>
-    </monster>
+		<sprite>monsters/bandit.xml</sprite>
+		<sound event="die">monsters/mushroom/die1.ogg</sound>
+		<sound event="die">monsters/mushroom/die2.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+	</monster>
+	<monster id="1025" name="Red Butterfly" targetCursor="small">
+		<sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+		<sprite>monsters/accessories/smallcircleshadow.xml</sprite>
+	</monster>
+	<monster id="1026" name="Archant" targetCursor="small">
+		<sprite>monsters/archant.xml</sprite>
+	</monster>
+	<monster id="1027" name="Cave Maggot" targetCursor="small">
+		<sprite>monsters/cavemaggot.xml</sprite>
+	</monster>
+	<monster id="1028" name="Clover Patch" targetCursor="medium">
+		<sprite>monsters/cloverpatch.xml</sprite>
+	</monster>
+	<monster id="1029" name="Duck" targetCursor="medium">
+		<sprite>monsters/duck.xml</sprite>
+	</monster>
+	<monster id="1030" name="Maggot" targetCursor="small">
+		<sprite>monsters/maggot.xml</sprite>
+		<sound event="hit">monsters/maggot/maggothit1.ogg</sound>	
+		<sound event="hit">monsters/maggot/maggothit2.ogg</sound>
+		<sound event="miss">monsters/maggot/maggotmiss.ogg</sound>
+		<sound event="die">monsters/maggot/maggotdying.ogg</sound>	
+	</monster>
+	<monster id="1031" name="Giant Maggot" targetCursor="large">
+		<sprite>monsters/giantmaggot.xml</sprite>
+	</monster>
+	<monster id="1032" name="Squirrel">
+		<sprite>monsters/squirrel.xml|#dfae76</sprite>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+	</monster>
+	<monster id="1033" name="Pumpkin" targetCursor="medium">
+		<sprite>monsters/pumpkin.xml</sprite>
+	</monster>
+	<monster id="1034" name="Silk Worm" targetCursor="medium">
+		<sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+	</monster>
+	<monster id="1035" name="Cave Snake" targetCursor="medium">
+		<sprite>monsters/cavesnake.xml</sprite>
+	</monster>
+	<monster id="1036" name="Demonic Scythe" targetCursor="large">
+		<sprite>monsters/demonicscythe.xml</sprite>
+	</monster>
+	<monster id="1037" name="Wolvern" targetCursor="medium">
+		<sprite>monsters/wolvern.xml</sprite>
+	</monster>
+	<monster id="1038" name="Zombie" targetCursor="medium">
+		<sprite>monsters/zombie.xml</sprite>
+	</monster>
+	<monster id="1039" name="Bat" targetCursor="small">
+		<sprite>monsters/bat.xml</sprite>
+		<sound event="die">monsters/bat/batdie.ogg</sound>
+		<sound event="hit">monsters/bat/bathit.ogg</sound>
+	</monster>
+	<monster id="1040" name="Yeti King" targetCursor="large">
+		<sprite>monsters/yetiking.xml</sprite>
+	</monster>
+	<monster id="1041" name="Iced FLuffy" targetCursor="medium">
+		<sprite>monsters/icedfluffy.xml</sprite>
+	</monster>
+	<monster id="1042" name="Red Mushroom" targetCursor="medium">
+		<sprite>monsters/redmushroom.xml</sprite>
+	</monster>
+	<monster id="1043" name="Poison Spiky Mushroom" targetCursor="medium">
+		<sprite>monsters/poisonspikymushroom.xml</sprite>
+	</monster>
+	<monster id="1044" name="Giant Mutated Bat" targetCursor="large">
+		<sprite>monsters/giantmutatedbat.xml</sprite>
+	</monster>
+	<monster id="1045" name="Warlord Skull" targetCursor="medium">
+		<sprite>monsters/warlordskull.xml</sprite>
+	</monster>
+	<monster id="1046" name="Red Dragon" targetCursor="large">
+		<sprite>monsters/reddragon.xml</sprite>
+	</monster>
+	<monster id="1047" name="Golden Skull" targetCursor="medium">
+		<sprite>monsters/goldenskull.xml</sprite>
+	</monster>
+	<monster id="1048" name="Smoke Dragon" targetCursor="large">
+		<sprite>monsters/smokedragon.xml</sprite>
+	</monster>
+	<monster id="1049" name="Bhop Fluffy" targetCursor="medium">
+		<sprite>monsters/bhopfluffy.xml</sprite>
+	</monster>
+	<monster id="1050" name="Forest Dragon" targetCursor="large">
+		<sprite>monsters/forestdragon.xml</sprite>
+	</monster>
+	<monster id="1051" name="Dark Lizard" targetCursor="medium">
+		<sprite>monsters/darklizard.xml</sprite>
+	</monster>
+	<monster id="1052" name="Magic Goblin" targetCursor="medium">
+		<sprite>monsters/demonicgoblin.xml</sprite>
+	</monster>
 	<monster id="1053" name="Halloween Jack'O" targetCursor="medium">
-        <sprite>monsters/halloweenjack'o.xml</sprite>
-    </monster>
+		<sprite>monsters/halloweenjack'o.xml</sprite>
+	</monster>
 	<monster id="1054" name="Witch Jack'O" targetCursor="medium">
-        <sprite>monsters/witchjack'o.xml</sprite>
-    </monster>
+		<sprite>monsters/witchjack'o.xml</sprite>
+	</monster>
 	<monster id="1055" name="Scar" targetCursor="medium">
-        <sprite>monsters/scar.xml</sprite>
-    </monster>
+		<sprite>monsters/scar.xml</sprite>
+	</monster>
 	<monster id="1056" name="Alpha Mouboo" targetCursor="medium">
-        <sprite>monsters/alphamouboo.xml</sprite>
-    </monster>
+		<sprite>monsters/alphamouboo.xml</sprite>
+	</monster>
 	<monster id="1057" name="Witched Zombie" targetCursor="medium">
-        <sprite>monsters/witchedzombie.xml</sprite>
-    </monster>
+		<sprite>monsters/witchedzombie.xml</sprite>
+	</monster>
 	<monster id="1058" name="Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml</sprite>
-    </monster>
+		<sprite>monsters/bif.xml</sprite>
+	</monster>
 	<monster id="1059" name="Night Dragon" targetCursor="large">
-        <sprite>monsters/nightdragon.xml</sprite>
-    </monster>
+		<sprite>monsters/nightdragon.xml</sprite>
+	</monster>
 	<monster id="1060" name="Forest Mushroom" targetCursor="medium">
-        <sprite>monsters/forestmushroom.xml</sprite>
-    </monster>
+		<sprite>monsters/forestmushroom.xml</sprite>
+	</monster>
 	<monster id="1061" name="Forain" targetCursor="medium">
-        <sprite>monsters/forain.xml</sprite>
-        <particlefx>graphics/particles/black.particle.xml</particlefx>
-        <particlefx>graphics/particles/black.particle.xml</particlefx>
-    </monster>
-        <!-- XML NEED FIX
+		<sprite>monsters/forain.xml</sprite>
+		<particlefx>graphics/particles/black.particle.xml</particlefx>
+		<particlefx>graphics/particles/black.particle.xml</particlefx>
+	</monster>
+		<!-- XML NEED FIX
 	<monster id="1062" name="Assassin" targetCursor="medium">
-        <sprite>monsters/assassin.xml</sprite>
-    </monster>
-    -->
+		<sprite>monsters/assassin.xml</sprite>
+	</monster>
+	-->
 	<monster id="1063" name="Vampire Bat" targetCursor="small">
-        <sprite>monsters/vampirebat.xml</sprite>
-        <sound event="die">monsters/bat/batdie.ogg</sound>
-        <sound event="hit">monsters/bat/bathit.ogg</sound>
-    </monster>
+		<sprite>monsters/vampirebat.xml</sprite>
+		<sound event="die">monsters/bat/batdie.ogg</sound>
+		<sound event="hit">monsters/bat/bathit.ogg</sound>
+	</monster>
 	<monster id="1064" name="Yeti" targetCursor="medium">
-        <sprite>monsters/yeti.xml</sprite>
-    </monster>
+		<sprite>monsters/yeti.xml</sprite>
+	</monster>
 	<monster id="1065" name="Bee" targetCursor="small">
-        <sprite>monsters/bee.xml</sprite>
-    </monster>
+		<sprite>monsters/bee.xml</sprite>
+	</monster>
 	<monster id="1066" name="Log Head" targetCursor="medium">
-        <sprite>monsters/loghead.xml</sprite>
-        <sound event="die">monsters/loghead/logheaddie.ogg</sound>
-        <sound event="hit">monsters/loghead/logheadhit.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt2.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt3.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
-    </monster>
+		<sprite>monsters/loghead.xml</sprite>
+		<sound event="die">monsters/loghead/logheaddie.ogg</sound>
+		<sound event="hit">monsters/loghead/logheadhit.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt2.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt3.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
+	</monster>
 	<monster id="1067" name="Fire Goblin" targetCursor="medium">
-        <sprite>monsters/firegoblin.xml</sprite>
-    </monster>
-    <monster id="1068" name="Mana Ghost" targetCursor="medium">
-        <sprite>monsters/managhost.xml</sprite>
-    </monster>
-    <monster id="1069" name="Moonshroom" targetCursor="medium">
-        <sprite>monsters/moonshroom.xml</sprite>
-        <particlefx>graphics/particles/moonshroom.particle.xml</particlefx>
-        <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
-    </monster>
-    <monster id="1070" name="Moggun" targetCursor="medium">
-        <sprite>monsters/moggun.xml</sprite>
-    </monster>
-    <monster id="1071" name="Scorpion" targetCursor="medium">
-        <sprite>monsters/scorpion.xml</sprite>
-    </monster>
-    <monster id="1072" name="Red Scorpion" targetCursor="medium">
-        <sprite>monsters/redscorpion.xml</sprite>
-    </monster>
-    <monster id="1073" name="Candor Scorpion" targetCursor="medium">
-        <sprite>monsters/candorscorpion.xml</sprite>
-    </monster>
-    <monster id="1074" name="Black Scorpion" targetCursor="medium">
-        <sprite>monsters/blackscorpion.xml</sprite>
-    </monster>
-    <monster id="1075" name="Mana Bug" targetCursor="medium">
-        <sprite>monsters/manabug.xml</sprite>
-        <sprite>monsters/accessories/smallcircleshadow.xml</sprite>
-    </monster>
-    <monster id="1076" name="Saxso Ghost" targetCursor="medium">
-        <sprite>monsters/managhost.xml</sprite>
-    </monster>
-    <monster id="1077" name="Night Scorpion" targetCursor="medium">
-        <sprite>monsters/nightscorpion.xml</sprite>
-    </monster>
-    <monster id="1078" name="Golden Scorpion" targetCursor="medium">
-        <sprite>monsters/goldenscorpion.xml</sprite>
-    </monster>
+		<sprite>monsters/firegoblin.xml</sprite>
+	</monster>
+	<monster id="1068" name="Mana Ghost" targetCursor="medium">
+		<sprite>monsters/managhost.xml</sprite>
+	</monster>
+	<monster id="1069" name="Moonshroom" targetCursor="medium">
+		<sprite>monsters/moonshroom.xml</sprite>
+		<particlefx>graphics/particles/moonshroom.particle.xml</particlefx>
+		<attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
+	</monster>
+	<monster id="1070" name="Moggun" targetCursor="medium">
+		<sprite>monsters/moggun.xml</sprite>
+	</monster>
+	<monster id="1071" name="Scorpion" targetCursor="medium">
+		<sprite>monsters/scorpion.xml</sprite>
+	</monster>
+	<monster id="1072" name="Red Scorpion" targetCursor="medium">
+		<sprite>monsters/redscorpion.xml</sprite>
+	</monster>
+	<monster id="1073" name="Candor Scorpion" targetCursor="medium">
+		<sprite>monsters/candorscorpion.xml</sprite>
+	</monster>
+	<monster id="1074" name="Black Scorpion" targetCursor="medium">
+		<sprite>monsters/blackscorpion.xml</sprite>
+	</monster>
+	<monster id="1075" name="Mana Bug" targetCursor="medium">
+		<sprite>monsters/manabug.xml</sprite>
+		<sprite>monsters/accessories/smallcircleshadow.xml</sprite>
+	</monster>
+	<monster id="1076" name="Saxso Ghost" targetCursor="medium">
+		<sprite>monsters/managhost.xml</sprite>
+	</monster>
+	<monster id="1077" name="Night Scorpion" targetCursor="medium">
+		<sprite>monsters/nightscorpion.xml</sprite>
+	</monster>
+	<monster id="1078" name="Golden Scorpion" targetCursor="medium">
+		<sprite>monsters/goldenscorpion.xml</sprite>
+	</monster>
 
   <!-- Need rewrite: Fallen King/Guard -->
   <monster id="1079" name="Fallen King">
-    <sprite>races/elven-male.xml</sprite>
-    <sprite>equipment/legs/assassinpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>hairstyles/hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
-    <sprite>equipment/head/crown.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>equipment/chest/warlordplate-male.xml</sprite>
-    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    <!--sound event="die">short-sword-die1.ogg</sound-->
+	<sprite>races/elven-male.xml</sprite>
+	<sprite>equipment/legs/assassinpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>hairstyles/hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>equipment/head/crown.xml</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sprite>equipment/chest/warlordplate-male.xml</sprite>
+	<!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
   <monster id="1080" name="Fallen King">
-    <sprite>races/raijin-male.xml</sprite>
-    <sprite>equipment/legs/assassinpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>hairstyles/hairstyle21.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
-    <sprite>equipment/head/crown.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>equipment/chest/terranitearmor-male.xml</sprite>
-    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    <!--sound event="die">short-sword-die1.ogg</sound-->
+	<sprite>races/raijin-male.xml</sprite>
+	<sprite>equipment/legs/assassinpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>hairstyles/hairstyle21.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>equipment/head/crown.xml</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sprite>equipment/chest/terranitearmor-male.xml</sprite>
+	<!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
   <monster id="1081" name="Fallen Guard">
-    <sprite>races/elven-male.xml</sprite>
-    <sprite>equipment/legs/assassinpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>hairstyles/hairstyle16.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
-    <sprite>equipment/head/darkhelm.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>equipment/chest/warlordplate-male.xml</sprite>
-    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    <!--sound event="die">short-sword-die1.ogg</sound-->
+	<sprite>races/elven-male.xml</sprite>
+	<sprite>equipment/legs/assassinpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>hairstyles/hairstyle16.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>equipment/head/darkhelm.xml</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sprite>equipment/chest/warlordplate-male.xml</sprite>
+	<!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
   <monster id="1082" name="Fallen Guard">
-    <sprite>races/raijin-male.xml</sprite>
-    <sprite>equipment/legs/assassinpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>hairstyles/hairstyle26.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
-    <sprite>equipment/head/darkhelm.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>equipment/chest/terranitearmor-male.xml</sprite>
-    <!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    <!--sound event="die">short-sword-die1.ogg</sound-->
-    </monster>
-    <monster id="1083" name="Desert Maggot" targetCursor="small">
-        <sprite>monsters/desertmaggot.xml</sprite>
-    </monster>
-    <monster id="1084" name="House Maggot" targetCursor="small">
-        <sprite>monsters/housemaggot.xml</sprite>
-    </monster>
-    <monster id="1085" name="Green Slime">
-        <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1086" name="Rudolph Slime">
-        <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
-        <sprite>monsters/accessories/slime-rudolph.xml</sprite>
-    </monster>
-    <monster id="1087" name="Blue Slime">
-        <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
-        <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1088" name="Copper Slime">
-        <sprite>monsters/slime.xml|#a1734c,ffffff</sprite>
-        <sprite>monsters/accessories/slime-seajelly.xml|#a1744c,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1089" name="Candied Slime">
-        <sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
-        <sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
-        <!--attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/-->
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1090" name="Slime Blast">
-        <sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
-        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1091" name="Yellow Slime">
-        <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1092" name="Red Slime">
-        <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1093" name="Sea Slime">
-        <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
-        <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1094" name="White Slime">
-        <sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
-        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1095" name="Azul Slime">
-        <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
-        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-    <monster id="1096" name="Santa Slime">
-        <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
-        <sprite>monsters/accessories/slime-santa.xml</sprite>
-    </monster>
-    <monster id="1097" name="Lava Slime">
-        <sprite>monsters/slime.xml|#bb0201,ff9934,ffd366</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-    </monster>
-	<monster id="1098" name="Small Ruby Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
-    </monster>
-	<monster id="1099" name="Ruby Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
-    </monster>
-	<monster id="1100" name="Big Ruby Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
-    </monster>
-	<monster id="1101" name="Small Topaz Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
-    </monster>
-	<monster id="1102" name="Topaz Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#ccb534,f1ea8e,ffffaa</sprite>
-    </monster>
-	<monster id="1103" name="Big Topaz Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
-    </monster>
-	<monster id="1104" name="Small Emerald Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#1f9c1f,89d689</sprite>
-    </monster>
-	<monster id="1105" name="Emerald Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#1f9c1f,89d689</sprite>
-    </monster>
-	<monster id="1106" name="Big Emerald Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#1f9c1f,89d689</sprite>
-    </monster>
-	<monster id="1107" name="Small Diamond Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml</sprite>
-    </monster>
-	<monster id="1108" name="Diamond Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml</sprite>
-    </monster>
-	<monster id="1109" name="Big Diamond Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml</sprite>
-    </monster>
-	<monster id="1110" name="Small Amethyst Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#530a7c,b362e1,ca87ef</sprite>
-    </monster>
-	<monster id="1111" name="Amethyst Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#530a7c,b362e1,ca87ef</sprite>
-    </monster>
-	<monster id="1112" name="Big Amethyst Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#530a7c,b362e1,ca87ef</sprite>
-    </monster>
-	<monster id="1113" name="Small Sapphire Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#4b4bbd,888af4</sprite>
-    </monster>
-	<monster id="1114" name="Sapphire Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#4b4bbd,888af4</sprite>
-    </monster>
-	<monster id="1115" name="Big Sapphire Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#4b4bbd,888af4</sprite>
-    </monster>
-    <!-- FIXME broken XML
-	<monster id="1116" name="Demonic Mouboo" targetCursor="medium">
-        <sprite>monsters/demonicmouboo.xml</sprite>
-        <sprite>accessories/demonicmoubooantlers.xml</sprite>
-        <particlefx>graphics/particles/demonicmouboo.particle.xml</particlefx>
-    </monster>
-    -->
-	<monster id="1117" name="Small Magic Bif" targetCursor="small">
-        <sprite>monsters/smallbif.xml|#ffa10c,ff0e93</sprite>
-        <particlefx>graphics/particles/smallmagicbif.particle.xml</particlefx>
-    </monster>
-	<monster id="1118" name="Magic Bif" targetCursor="medium">
-        <sprite>monsters/bif.xml|#6a00fc,1c9fff</sprite>
-        <particlefx>graphics/particles/magicbif.particle.xml</particlefx>
-    </monster>
-	<monster id="1119" name="Big Magic Bif" targetCursor="medium">
-        <sprite>monsters/bigbif.xml|#ff059d,ff0e93</sprite>
-        <particlefx>graphics/particles/bigmagicbif.particle.xml</particlefx>
-    <!-- FIXME missing XML
-	<monster id="1120" name="Jack'O" targetCursor="medium">
-        <sprite>monsters/jack.xml</sprite>
-    </monster>
-    -->
-    </monster>
-	<monster id="1121" name="Easter Mouboo" targetCursor="medium">
-        <sprite>monsters/mouboo.xml</sprite>
-        <sprite>monsters/accessories/moubooeasterears.xml</sprite>
-        <sprite>monsters/accessories/moubooeastereyes.xml</sprite>
-        <sprite>monsters/accessories/moubooeastertail.xml</sprite>
-    </monster>
-    <monster id="1122" name="Snake" targetCursor="medium">
-	    <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+	<sprite>races/raijin-male.xml</sprite>
+	<sprite>equipment/legs/assassinpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>hairstyles/hairstyle26.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>equipment/head/darkhelm.xml</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sprite>equipment/chest/terranitearmor-male.xml</sprite>
+	<!--sprite>equipment/charm/manta-imperial-male.xml</sprite-->
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<!--sound event="die">short-sword-die1.ogg</sound-->
 	</monster>
-    <monster id="1123" name="Mountain Snake" targetCursor="medium">
-	    <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+	<monster id="1083" name="Desert Maggot" targetCursor="small">
+		<sprite>monsters/desertmaggot.xml</sprite>
+	</monster>
+	<monster id="1084" name="House Maggot" targetCursor="small">
+		<sprite>monsters/housemaggot.xml</sprite>
+	</monster>
+	<monster id="1085" name="Green Slime">
+		<sprite>monsters/slime.xml|#72982c,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1086" name="Rudolph Slime">
+		<sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+		<sprite>monsters/accessories/slime-rudolph.xml</sprite>
+	</monster>
+	<monster id="1087" name="Blue Slime">
+		<sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
+		<sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1088" name="Copper Slime">
+		<sprite>monsters/slime.xml|#a1734c,ffffff</sprite>
+		<sprite>monsters/accessories/slime-seajelly.xml|#a1744c,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1089" name="Candied Slime">
+		<sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
+		<sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
+		<!--attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/-->
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1090" name="Slime Blast">
+		<sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
+		<sound event="die">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1091" name="Yellow Slime">
+		<sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1092" name="Red Slime">
+		<sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1093" name="Sea Slime">
+		<sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
+		<sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1094" name="White Slime">
+		<sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
+		<sound event="die">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1095" name="Azul Slime">
+		<sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
+		<sound event="die">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1096" name="Santa Slime">
+		<sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
+		<sprite>monsters/accessories/slime-santa.xml</sprite>
+	</monster>
+	<monster id="1097" name="Lava Slime">
+		<sprite>monsters/slime.xml|#bb0201,ff9934,ffd366</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+	<monster id="1098" name="Small Ruby Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+	</monster>
+	<monster id="1099" name="Ruby Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+	</monster>
+	<monster id="1100" name="Big Ruby Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+	</monster>
+	<monster id="1101" name="Small Topaz Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
+	</monster>
+	<monster id="1102" name="Topaz Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#ccb534,f1ea8e,ffffaa</sprite>
+	</monster>
+	<monster id="1103" name="Big Topaz Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
+	</monster>
+	<monster id="1104" name="Small Emerald Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#1f9c1f,89d689</sprite>
+	</monster>
+	<monster id="1105" name="Emerald Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#1f9c1f,89d689</sprite>
+	</monster>
+	<monster id="1106" name="Big Emerald Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#1f9c1f,89d689</sprite>
+	</monster>
+	<monster id="1107" name="Small Diamond Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml</sprite>
+	</monster>
+	<monster id="1108" name="Diamond Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml</sprite>
+	</monster>
+	<monster id="1109" name="Big Diamond Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml</sprite>
+	</monster>
+	<monster id="1110" name="Small Amethyst Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#530a7c,b362e1,ca87ef</sprite>
+	</monster>
+	<monster id="1111" name="Amethyst Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#530a7c,b362e1,ca87ef</sprite>
+	</monster>
+	<monster id="1112" name="Big Amethyst Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#530a7c,b362e1,ca87ef</sprite>
+	</monster>
+	<monster id="1113" name="Small Sapphire Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#4b4bbd,888af4</sprite>
+	</monster>
+	<monster id="1114" name="Sapphire Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#4b4bbd,888af4</sprite>
+	</monster>
+	<monster id="1115" name="Big Sapphire Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#4b4bbd,888af4</sprite>
+	</monster>
+	<!-- FIXME broken XML
+	<monster id="1116" name="Demonic Mouboo" targetCursor="medium">
+		<sprite>monsters/demonicmouboo.xml</sprite>
+		<sprite>accessories/demonicmoubooantlers.xml</sprite>
+		<particlefx>graphics/particles/demonicmouboo.particle.xml</particlefx>
+	</monster>
+	-->
+	<monster id="1117" name="Small Magic Bif" targetCursor="small">
+		<sprite>monsters/smallbif.xml|#ffa10c,ff0e93</sprite>
+		<particlefx>graphics/particles/smallmagicbif.particle.xml</particlefx>
+	</monster>
+	<monster id="1118" name="Magic Bif" targetCursor="medium">
+		<sprite>monsters/bif.xml|#6a00fc,1c9fff</sprite>
+		<particlefx>graphics/particles/magicbif.particle.xml</particlefx>
+	</monster>
+	<monster id="1119" name="Big Magic Bif" targetCursor="medium">
+		<sprite>monsters/bigbif.xml|#ff059d,ff0e93</sprite>
+		<particlefx>graphics/particles/bigmagicbif.particle.xml</particlefx>
+	<!-- FIXME missing XML
+	<monster id="1120" name="Jack'O" targetCursor="medium">
+		<sprite>monsters/jack.xml</sprite>
+	</monster>
+	-->
+	</monster>
+	<monster id="1121" name="Easter Mouboo" targetCursor="medium">
+		<sprite>monsters/mouboo.xml</sprite>
+		<sprite>monsters/accessories/moubooeasterears.xml</sprite>
+		<sprite>monsters/accessories/moubooeastereyes.xml</sprite>
+		<sprite>monsters/accessories/moubooeastertail.xml</sprite>
+	</monster>
+	<monster id="1122" name="Snake" targetCursor="medium">
+		<sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+	</monster>
+	<monster id="1123" name="Mountain Snake" targetCursor="medium">
+		<sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
 	</monster>
   <monster id="1124" name="Desert Bandit">
-    <sprite>races/raijin-male.xml</sprite>
-    <sprite>equipment/legs/silkpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>equipment/head/browndeserthat.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>equipment/chest/silkrobe-male.xml|#d58e5f</sprite>
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<sprite>races/raijin-male.xml</sprite>
+	<sprite>equipment/legs/silkpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>equipment/head/browndeserthat.xml</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sprite>equipment/chest/silkrobe-male.xml|#d58e5f</sprite>
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
   </monster>
   <monster id="1125" name="Sarracenus">
-    <sprite>races/raijin-male.xml</sprite>
-    <sprite>equipment/legs/silkpants-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml|#d58e5f</sprite>
-    <sprite>equipment/hands/armbands-male.xml</sprite>
-    <sprite>equipment/weapons/backsword.xml</sprite>
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<sprite>races/raijin-male.xml</sprite>
+	<sprite>equipment/legs/silkpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#d58e5f</sprite>
+	<sprite>equipment/hands/armbands-male.xml</sprite>
+	<sprite>equipment/weapons/backsword.xml</sprite>
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
   </monster>
-    <monster id="1126" name="Magic Ratto" targetCursor="small">
-        <sprite>monsters/magicratto.xml</sprite>
-        <sprite>accessories/ratto-tail.xml</sprite>
-        <sound event="die">monsters/ratto/die1.ogg</sound>
-        <sound event="hit">monsters/ratto/hit1.ogg</sound>
-        <sound event="hit">monsters/ratto/hit2.ogg</sound>
-        <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
-        <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
-    </monster>
-    <monster id="1127" name="Desert Log Head" targetCursor="medium">
-        <sprite>monsters/desertloghead.xml</sprite>
-        <sound event="die">monsters/loghead/logheaddie.ogg</sound>
-        <sound event="hit">monsters/loghead/logheadhit.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt2.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt3.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
-        <sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
-    </monster>
-    <monster id="1128" name="Chagashroom Field" targetCursor="large" sortOffsetY="70">
-        <sprite>monsters/chagashroom.xml</sprite>
-        <sound event="die">monsters/mushroom/die1.ogg</sound>
-        <sound event="die">monsters/mushroom/die2.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
-        <sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
-    </monster>
-    <monster id="1129" name="Murderer Scorpion" targetCursor="medium">
-        <sprite>monsters/murdererscorpion.xml</sprite>
-    </monster>
-    <monster id="1130" name="Angry Red Scorpion" targetCursor="medium">
-        <sprite>monsters/redscorpion.xml</sprite>
-    </monster>
-    <monster id="1131" name="Angry Scorpion" targetCursor="medium">
-        <sprite>monsters/scorpion.xml</sprite>
-    </monster>
-    <monster id="1132" name="Pinkie" targetCursor="small">
-        <sprite>monsters/pinkie.xml</sprite>
-        <sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
-        <sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
-    </monster>
-    <monster id="1133" name="Ocean Croc" targetCursor="small" sortOffsetY="30">
-        <sprite>monsters/oceancroc.xml</sprite>
-        <sound event="hit">monsters/croc/hit1.ogg</sound>
-        <sound event="hit">monsters/croc/hit2.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt1.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt2.ogg</sound>
-        <sound event="hurt">monsters/croc/hurt3.ogg</sound>
-        <sound event="miss">monsters/croc/miss1.ogg</sound>
-        <sound event="spawn">monsters/croc/spawn1.ogg</sound>
-    </monster>
-    <monster id="1134" name="Gamboge Plant" targetCursor="small">
-        <sprite>monsters/plant.xml|#ef9b0f</sprite>
-    </monster>
-    <monster id="1135" name="Mauve Plant" targetCursor="small">
-        <sprite>monsters/plant.xml|#e0b0ff</sprite>
-    </monster>
-    <monster id="1136" name="Cobalt Plant" targetCursor="small">
-        <sprite>monsters/plant.xml|#0047ab</sprite>
-    </monster>
-      <monster id="1137" name="Skeleton">
-    <sprite>monsters/skeleton.xml</sprite>
+	<monster id="1126" name="Magic Ratto" targetCursor="small">
+		<sprite>monsters/magicratto.xml</sprite>
+		<sprite>accessories/ratto-tail.xml</sprite>
+		<sound event="die">monsters/ratto/die1.ogg</sound>
+		<sound event="hit">monsters/ratto/hit1.ogg</sound>
+		<sound event="hit">monsters/ratto/hit2.ogg</sound>
+		<sound event="hurt">monsters/ratto/hurt1.ogg</sound>
+		<sound event="spawn">monsters/ratto/spawn1.ogg</sound>
+	</monster>
+	<monster id="1127" name="Desert Log Head" targetCursor="medium">
+		<sprite>monsters/desertloghead.xml</sprite>
+		<sound event="die">monsters/loghead/logheaddie.ogg</sound>
+		<sound event="hit">monsters/loghead/logheadhit.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt2.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt3.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt4.ogg</sound>
+		<sound event="hurt">monsters/loghead/logheadhurt5.ogg</sound>
+	</monster>
+	<monster id="1128" name="Chagashroom Field" targetCursor="large" sortOffsetY="70">
+		<sprite>monsters/chagashroom.xml</sprite>
+		<sound event="die">monsters/mushroom/die1.ogg</sound>
+		<sound event="die">monsters/mushroom/die2.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn1.ogg</sound>
+		<sound event="spawn">monsters/mushroom/spawn2.ogg</sound>
+	</monster>
+	<monster id="1129" name="Murderer Scorpion" targetCursor="medium">
+		<sprite>monsters/murdererscorpion.xml</sprite>
+	</monster>
+	<monster id="1130" name="Angry Red Scorpion" targetCursor="medium">
+		<sprite>monsters/redscorpion.xml</sprite>
+	</monster>
+	<monster id="1131" name="Angry Scorpion" targetCursor="medium">
+		<sprite>monsters/scorpion.xml</sprite>
+	</monster>
+	<monster id="1132" name="Pinkie" targetCursor="small">
+		<sprite>monsters/pinkie.xml</sprite>
+		<sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
+		<sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
+	</monster>
+	<monster id="1133" name="Ocean Croc" targetCursor="small" sortOffsetY="30">
+		<sprite>monsters/oceancroc.xml</sprite>
+		<sound event="hit">monsters/croc/hit1.ogg</sound>
+		<sound event="hit">monsters/croc/hit2.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt1.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt2.ogg</sound>
+		<sound event="hurt">monsters/croc/hurt3.ogg</sound>
+		<sound event="miss">monsters/croc/miss1.ogg</sound>
+		<sound event="spawn">monsters/croc/spawn1.ogg</sound>
+	</monster>
+	<monster id="1134" name="Gamboge Plant" targetCursor="small">
+		<sprite>monsters/plant.xml|#ef9b0f</sprite>
+	</monster>
+	<monster id="1135" name="Mauve Plant" targetCursor="small">
+		<sprite>monsters/plant.xml|#e0b0ff</sprite>
+	</monster>
+	<monster id="1136" name="Cobalt Plant" targetCursor="small">
+		<sprite>monsters/plant.xml|#0047ab</sprite>
+	</monster>
+	  <monster id="1137" name="Skeleton">
+	<sprite>monsters/skeleton.xml</sprite>
   </monster>
-    <monster id="1138" name="Ocean Pirate">
-    <sprite>monsters/oceanpirate.xml</sprite>
-    <sprite>equipment/head/piratebandana.xml</sprite>
-    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<monster id="1138" name="Ocean Pirate">
+	<sprite>monsters/oceanpirate.xml</sprite>
+	<sprite>equipment/head/piratebandana.xml</sprite>
+	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
   </monster>
 </monsters>
