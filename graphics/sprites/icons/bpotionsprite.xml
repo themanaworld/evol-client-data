@@ -2,14 +2,14 @@
 <!-- Author: Saulc
 Copyright (C) 2018 TMW2 -->
 <sprite>
-  <imageset name="base" 
-  			src="graphics/sprites/icons/bpotionsprite.png|G:#da69e5,ffdaff" 
-  			width="13" 
+  <imageset name="base"
+  			src="graphics/sprites/icons/bpotionsprite.png|G:#da69e5,ffdaff"
+  			width="13"
   			height="20"/>
 
   <action name="default" imageset="base">
     <animation direction="default">
-            <sequence start="0" end="4" delay="155"/>
+            <sequence start="0" end="3" delay="155"/>
             <frame index="1" delay="150"/>
     </animation>
   </action>
