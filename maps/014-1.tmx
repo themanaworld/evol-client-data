@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="120" tilewidth="32" tileheight="32" nextobjectid="57">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="120" tilewidth="32" tileheight="32" nextobjectid="59">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="1"/>
@@ -929,6 +929,22 @@
     <property name="death" value="45000"/>
     <property name="max_beings" value="12"/>
     <property name="monster_id" value="1032"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="57" name="Tipiou" type="spawn" x="1120" y="1984" width="3392" height="1216">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1016"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="58" name="Blub" type="spawn" x="4128" y="2016" width="448" height="1856">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1008"/>
     <property name="spawn" value="30000"/>
    </properties>
   </object>
