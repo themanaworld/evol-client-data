@@ -4880,6 +4880,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
+	<item id="3521"
+		image="equipment/weapons/scythe.png"
+		name="Scythe"
+		description="Too heavy and clumbersome to use, clearly was not designed to be a weapon."
+        defense="-2"
+        agi="-2"
+        dex="-2"
+		attack="159"
+		attack-range="2"
+		level="20"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="820">
+		<sprite>equipment/weapons/scythe.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
 	<!-- Pets -->
 	<item id="4000"
 		image="usable/piouegg.png"
