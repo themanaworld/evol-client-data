@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/monsters/centaur.png" width="136" height="106"/>
+	<action name="stand" imageset="base">
+		<animation direction="down">
+			<frame index="32"/>
+		</animation>
+		<animation direction="left">
+			<frame index="16"/>
+		</animation>
+		<animation direction="up">
+			<frame index="48"/>
+		</animation>
+		<animation direction="right">
+			<frame index="0"/>
+		</animation>
+	</action>
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="33" end="39" delay="120"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="17" end="23" delay="120"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="49" end="55" delay="120"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="1" end="7" delay="120"/>
+		</animation>
+	</action>
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<frame index="15" delay="300"/>
+			<frame index="15" delay="200"/>
+			<frame index="31" delay="300"/>
+			<frame index="31" delay="200"/>
+			<frame index="47" delay="500"/>
+		</animation>
+		<animation direction="up">
+			<frame index="15" delay="300"/>
+			<frame index="15" delay="200"/>
+			<frame index="31" delay="300"/>
+			<frame index="31" delay="200"/>
+			<frame index="47" delay="500"/>
+		</animation>
+		<animation direction="left">
+			<frame index="15" delay="300"/>
+			<frame index="15" delay="200"/>
+			<frame index="31" delay="300"/>
+			<frame index="31" delay="200"/>
+			<frame index="47" delay="500"/>
+		</animation>
+		<animation direction="right">
+			<frame index="15" delay="300"/>
+			<frame index="15" delay="200"/>
+			<frame index="31" delay="300"/>
+			<frame index="31" delay="200"/>
+			<frame index="47" delay="500"/>
+		</animation>
+	</action>
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="40" end="46" delay="100"/>
+			<end/>
+		</animation>
+		<animation direction="left">
+			<sequence start="24" end="30" delay="100"/>
+			<end/>
+		</animation>
+		<animation direction="up">
+			<sequence start="24" end="30" delay="100"/>
+			<end/>
+		</animation>
+		<animation direction="right">
+			<sequence start="8" end="14" delay="100"/>
+			<end/>
+		</animation>
+	</action>
+</sprite>

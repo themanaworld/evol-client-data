@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="254" height="174" tilewidth="32" tileheight="32" infinite="0" nextobjectid="27">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="254" height="174" tilewidth="32" tileheight="32" infinite="0" nextobjectid="28">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
@@ -1314,7 +1314,7 @@
   </object>
   <object id="23" name="graphics/particles/wispdance.particle.xml" type="particle_effect" x="7072" y="4064" width="32" height="32"/>
  </objectgroup>
- <objectgroup color="#ffff00" name="Spawns" visible="0">
+ <objectgroup color="#ffff00" name="Spawns">
   <object id="24" name="Mouboo" type="spawn" x="1344" y="1344" width="5888" height="3392">
    <properties>
     <property name="death" value="45000"/>
@@ -1323,7 +1323,7 @@
     <property name="spawn" value="30000"/>
    </properties>
   </object>
-  <object id="25" name="Forest Mushroom" type="spawn" x="2432" y="992" width="3360" height="3776">
+  <object id="25" name="Forest Mushroom" type="spawn" x="2432" y="3520" width="4544" height="1376">
    <properties>
     <property name="death" value="45000"/>
     <property name="max_beings" value="9"/>
@@ -1337,6 +1337,14 @@
     <property name="max_beings" value="26"/>
     <property name="monster_id" value="1032"/>
     <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="27" name="Centaur" type="spawn" x="800" y="2208" width="2400" height="2112">
+   <properties>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1139"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
  </objectgroup>

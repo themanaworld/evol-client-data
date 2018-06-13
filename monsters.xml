@@ -659,13 +659,18 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<monster id="1136" name="Cobalt Plant" targetCursor="small">
 		<sprite>monsters/plant.xml|#0047ab</sprite>
 	</monster>
-	  <monster id="1137" name="Skeleton">
-	<sprite>monsters/skeleton.xml</sprite>
-  </monster>
+	<monster id="1137" name="Skeleton">
+		<sprite>monsters/skeleton.xml</sprite>
+	</monster>
 	<monster id="1138" name="Ocean Pirate">
-	<sprite>monsters/oceanpirate.xml</sprite>
-	<sprite>equipment/head/piratebandana.xml</sprite>
-	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-  </monster>
+		<sprite>monsters/oceanpirate.xml</sprite>
+		<sprite>equipment/head/piratebandana.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</monster>
+	<monster id="1139" name="Centaur" targetCursor="medium">
+		<sprite>monsters/centaur.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</monster>
 </monsters>
