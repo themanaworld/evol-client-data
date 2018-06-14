@@ -3920,13 +3920,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="2919"
 		image="equipment/head/prsmhelmet.png|W"
 		name="Prsm Helmet"
-		description="A %Color% helmet with two small wings on it. By the way, thanks to Saulc, Prsm was promoted to Santa!"
+		description="A %Color% helmet with two small wings on it, used by Paladins and by Prsm."
 		defense="135"
 		level="20"
 		type="equip-head"
 		colors="simple"
 		weight="600">
-		<sprite>equipment/head/santabeardhat.xml</sprite>
+		<sprite>equipment/head/prsmhelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
 	<item id="2920"
@@ -4461,6 +4461,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 			<item from="-14" to="-9"/>
 			<item from="-15" to="-19"/>
 		</replace>
+	</item>
+	<item id="2996"
+		image="equipment/head/ricehat.png"
+		name="Rice Hat"
+		description="Hat commonly used by farmers. Currently NPC-Only."
+		defense="0"
+		type="equip-head"
+		weight="0">
+		<sprite>equipment/head/ricehat.xml</sprite>
 	</item>
 	<!-- Neck Armors -->
 	<item id="3200"
