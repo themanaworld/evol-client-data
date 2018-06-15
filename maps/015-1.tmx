@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" nextobjectid="69">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" nextobjectid="80">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
@@ -1449,7 +1449,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup name="Warps">
   <object id="63" name="To Woodlands" type="warp" x="3168" y="4256" width="64" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
@@ -1458,7 +1458,20 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#fcff00" name="Spawns">
+ <objectgroup color="#ff7f00" name="Particles" visible="0">
+  <object id="69" name="graphics/particles/flame.particle.xml" type="particle_effect" x="4384" y="3200" width="32" height="32"/>
+  <object id="70" name="graphics/particles/flame.particle.xml" type="particle_effect" x="5504" y="832" width="32" height="32"/>
+  <object id="71" name="graphics/particles/flame.particle.xml" type="particle_effect" x="5664" y="832" width="32" height="32"/>
+  <object id="72" name="graphics/particles/flame.particle.xml" type="particle_effect" x="3808" y="1056" width="32" height="32"/>
+  <object id="73" name="graphics/particles/flame.particle.xml" type="particle_effect" x="4096" y="4544" width="32" height="32"/>
+  <object id="74" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1376" y="4864" width="32" height="32"/>
+  <object id="75" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1024" y="4224" width="32" height="32"/>
+  <object id="76" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1376" y="2080" width="32" height="32"/>
+  <object id="77" name="graphics/particles/flame.particle.xml" type="particle_effect" x="896" y="2016" width="32" height="32"/>
+  <object id="78" name="graphics/particles/flame.particle.xml" type="particle_effect" x="992" y="896" width="32" height="32"/>
+  <object id="79" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="960" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#fcff00" name="Spawns" visible="0">
   <object id="64" name="Silk Worm" type="spawn" x="-1280" y="-448" width="7680" height="6272">
    <properties>
     <property name="death" value="30000"/>
