@@ -2538,13 +2538,35 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="1172"
 		image="equipment/neck/quiver.png"
 		name="Leather Quiver"
-		description="A leather quiver which only benefits people using bows and arrows. Otherwise, it won't buff you."
-        mp="-10"
+		description="A leather quiver which only benefits people using bows. Otherwise, it will only hinder you."
+        mp="-10%"
         luck="-1"
-        effect="AtkSpeed +10%, MaxWeight +100."
+        effect="AtkSpeed +6%, MaxWeight +100g"
 		level="30"
 		type="equip-necklace"
 		weight="60">
+	</item>
+	<item id="1173"
+		image="equipment/neck/quiver.png"
+		name="Terranite Quiver"
+		description="A terranite quiver which only benefits people using bows. Otherwise, it will only hinder you."
+        mp="-20%"
+        luck="-2"
+        effect="AtkSpeed +12%, MaxWeight +200g"
+		level="50"
+		type="equip-necklace"
+		weight="140">
+	</item>
+	<item id="1174"
+		image="equipment/neck/quiver.png"
+		name="Platinum Quiver"
+		description="A platinum quiver which only benefits people using bows. Otherwise, it will only hinder you."
+        mp="-30%"
+        luck="-3"
+        effect="AtkSpeed +20%, MaxWeight +300g"
+		level="70"
+		type="equip-necklace"
+		weight="200">
 	</item>
 
 
