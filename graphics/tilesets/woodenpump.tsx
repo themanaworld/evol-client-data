@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="woodenpump" tilewidth="32" tileheight="96">
- <image source="../graphics/tiles/woodenpump.png" width="352" height="96"/>
+ <image source="woodenpump.png" width="352" height="96"/>
  <tile id="0">
   <animation>
    <frame tileid="1" duration="130"/>
