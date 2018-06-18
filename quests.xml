@@ -238,8 +238,8 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
     <var id="15">
-        <quest name="Greater Hunter Quest" group="Tulimshar" incomplete="1">
-            <name>Greater Hunter Quest</name>
+        <quest name="Great Hunter Quest" group="Tulimshar" incomplete="1">
+            <name>Great Hunter Quest</name>
             <text>I promised Aidan to conduct an extermination.</text>
             <text text1="[@@m1030|@@]">Progress: {@@var2}/10000 {@@1}.</text>
             <text></text>
@@ -247,8 +247,8 @@ Copyright (C) 2012-2013 Evol Online -->
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
             <reward text1="[Maggot Cocoon]">{@@1}</reward>
         </quest>
-        <quest name="Greater Hunter Quest" group="Tulimshar" incomplete="2">
-            <name>Greater Hunter Quest</name>
+        <quest name="Great Hunter Quest" group="Tulimshar" incomplete="2">
+            <name>Great Hunter Quest</name>
             <text>I promised Jacob to conduct an extermination.</text>
             <text>The reward should be collected with Aidan.</text>
             <text text1="[@@m1122|@@]">Progress: {@@var2}/10000 {@@1}.</text>
@@ -260,7 +260,15 @@ Copyright (C) 2012-2013 Evol Online -->
     </var>
 
     <!-- CANDOR QUESTS -->
-    <!-- var 31 -->
+    <var id="31">
+        <quest name="Saxso Chest" group="Candor" complete="1">
+            <name>Saxso Chest</name>
+            <text>I managed to open the chest on Saxso's house.</text>
+            <text></text>
+            <coordinates x="31" y="79">Candor Island, Saxso's House.</coordinates>
+            <reward text1="[Tooth Necklace]">{@@1}</reward>
+        </quest>
+    </var>
     <var id="32">
         <effect map="005-1.tmx" npc="119" value="0,1" effect="12"/>
         <effect map="005-1.tmx" npc="119" value="3" effect="12"/>
@@ -627,7 +635,7 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Lifestone Pendant]">{@@1}.</reward>
         </quest>
     </var>
-    <var id="42">
+    <var id="56">
         <!-- LiveNPCs (the ones with equipment) cannot have quest log effects -->
         <quest name="Eistein" group="Tulimshar" incomplete="1">
             <name>Eistein</name>
@@ -695,13 +703,42 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Cotton Shorts]">{@@1}, 75 EXP.</reward>
         </quest>
     </var>
-    <!-- var 58 TODO -->
-    <!-- var 59 TODO -->
+    <var id="58">
+        <quest name="Red Scorpion Plague" group="Tulimshar" incomplete="1,2">
+            <name>Red Scorpion Plague</name>
+            <text>Red Scorpions are threating Tulimshar.</text>
+            <text>I need to bring some stingers, to prove my worth.</text>
+            <text></text>
+            <questgiver>Guard Devoir</questgiver>
+            <coordinates x="114" y="83">Tulimshar's Guard House, 2nd floor.</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+    </var>
+    <var id="59">
+        <effect map="003-1.tmx" npc="112" value="0,1" effect="14"/>
+        <quest name="Sailors Help" group="Tulimshar" incomplete="1">
+            <name>Sailors Help</name>
+            <text>Some Sailors in Tulimshar, above Terranite Forge, are in need of some supplies.</text>
+            <text>I should fetch them 3 Fish Box, 4 Croconut Box and 10 Cotton Clothes.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="110" y="100">Tulimshar's Terranite Forge Rooftop.</coordinates>
+        </quest>
+        <quest name="Sailors Help" group="Tulimshar" complete="2">
+            <name>Sailors Help</name>
+            <text>I gave them what they needed, and now they can resume their journey.</text>
+            <text></text>
+            <questgiver>Sailors</questgiver>
+            <coordinates x="110" y="100">Tulimshar's Terranite Forge Rooftop.</coordinates>
+            <reward text1="[Sharp Knife]" text2="[Cotton Shirt]">1x {@@1}, 1x {@@2}, 21500 GP, Experience.</reward>
+        </quest>
+    </var>
     <!-- var 60 TODO -->
     <!-- var 61 TODO -->
     <!-- var 62 TODO -->
     <!-- var 191 TODO -->
     <!-- var 192 TODO -->
+    <!-- var 193 TODO -->
 
     <!-- HALINARZO QUESTS -->
     <var id="71">
@@ -723,15 +760,40 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward text1="[Bucket]">{@@1}</reward>
         </quest>
     </var>
-    <!-- var 72 TODO -->
+    <var id="72">
+        <quest name="The King Of Blackmarket" group="Halinarzo" incomplete="1">
+            <name>The King Of Blackmarket</name>
+            <text>I did a deal with Charles, an apparently famous contrabandist.</text>
+            <text>He is offering me a mask for my silence, and many items.</text>
+            <text>All the items are dropped by Sarracenus and Desert Bandits, thankfully!</text>
+            <text></text>
+            <questgiver>Charles</questgiver>
+            <coordinates x="24" y="105">Halinarzo Outskirts.</coordinates>
+            <reward text1="[Burglar Mask]">1x {@@1}</reward>
+        </quest>
+        <quest name="The King Of Blackmarket" group="Halinarzo" complete="2">
+            <name>The King Of Blackmarket</name>
+            <text>I got my mask, and won't say anyone where Charles is.</text>
+            <text>But, this is Halinarzo, and Halin is always too far from the forces of law.</text>
+            <text>I doubt the City Guard doesn't knows where and who he is already, anyway...</text>
+            <text></text>
+            <questgiver>Charles</questgiver>
+            <coordinates x="24" y="105">Halinarzo Outskirts.</coordinates>
+            <reward text1="[Burglar Mask]">1x {@@1}</reward>
+        </quest>
+    </var>
 
     <!-- HURNSCALD QUESTS -->
     <!-- var 91 TODO -->
     <!-- var 92 TODO -->
+    <!-- var 93 TODO -->
+    <!-- var 94 TODO -->
+    <!-- var 95 TODO -->
 
 
 
     <!-- TEST QUESTS -->
+    <!--
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
             <name>Testing quest name with var1={@@var1}</name>
@@ -742,4 +804,15 @@ Copyright (C) 2012-2013 Evol Online -->
             <reward>Reward: {@@var1}, {@@var2}, {@@var3}</reward>
         </quest>
     </var>
+    <var id="00">
+        <quest name="Saxso Chest" group="Tests" complete="1">
+            <name>Saxso Chest</name>
+            <text>I managed to open the chest on Saxso's house.</text>
+            <text></text>
+            <questgiver>Nurse</questgiver>
+            <coordinates x="31" y="79">Candor Island, Saxso's House.</coordinates>
+            <reward text1="[Tooth Necklace]">{@@1}</reward>
+        </quest>
+    </var>
+    -->
 </quests>
