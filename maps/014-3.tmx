@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="254" height="174" tilewidth="32" tileheight="32" nextobjectid="29">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="254" height="174" tilewidth="32" tileheight="32" nextobjectid="30">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
@@ -1491,7 +1491,7 @@
   </object>
   <object id="23" name="graphics/particles/wispdance.particle.xml" type="particle_effect" x="7072" y="4064" width="32" height="32"/>
  </objectgroup>
- <objectgroup color="#ffff00" name="Spawns" visible="0">
+ <objectgroup color="#ffff00" name="Spawns">
   <object id="24" name="Mouboo" type="spawn" x="1344" y="1344" width="5888" height="3392">
    <properties>
     <property name="death" value="45000"/>
@@ -1531,6 +1531,14 @@
     <property name="monster_id" value="1132"/>
     <property name="script" value="Oscar::OnKillPinkie"/>
     <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="29" name="Poison Spiky Mushroom" type="spawn" x="2048" y="1888" width="3200" height="1632">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="11"/>
+    <property name="monster_id" value="1043"/>
+    <property name="spawn" value="45000"/>
    </properties>
   </object>
  </objectgroup>
