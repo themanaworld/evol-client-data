@@ -736,8 +736,69 @@ Copyright (C) 2012-2013 Evol Online -->
     <!-- var 60 TODO -->
     <!-- var 61 TODO -->
     <!-- var 62 TODO -->
-    <!-- var 191 TODO -->
-    <!-- var 192 TODO -->
+    <var id="191">
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="2,3,5,6,8,9,11,14">
+            <name>Tycoon's Hunt</name>
+            <text>I have to report to the Tycoon.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="1">
+            <name>Tycoon's Hunt</name>
+            <text text1="Ratto">I already killed {@@var2}/10 {@@1}.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="4">
+            <name>Tycoon's Hunt</name>
+            <text text1="Cave Maggot">I already killed {@@var2}/25 {@@1}.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="7">
+            <name>Tycoon's Hunt</name>
+            <text text1="Cave Snake">I already killed {@@var2}/50 {@@1}.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="10">
+            <name>Tycoon's Hunt</name>
+            <text text1="Red Scorpion">I already killed {@@var2}/100 {@@1}.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" complete="12">
+            <name>Tycoon's Hunt</name>
+            <text>I helped the miners.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+            <reward text1="[Miner Hat]">1x {@@1}</reward>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="13">
+            <name>Tycoon's Hunt</name>
+            <text>Tycoon had another task on his sleeve! This one is harder, though.</text>
+            <text text1="Black Scorpion">I already killed {@@var2}/200 {@@1}.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+            <reward>???</reward>
+        </quest>
+        <quest name="Tycoon's Hunt" group="Tulimshar" complete="15">
+            <name>Tycoon's Hunt</name>
+            <text>I did the bonus task from the Tycoon and he was very impressed.</text>
+            <text></text>
+            <questgiver>Tycoon</questgiver>
+            <coordinates x="66" y="65">Tulimshar Mines.</coordinates>
+            <reward text1="[Ruby]">1x {@@1}, 5000 GP</reward>
+        </quest>
+    </var>
+    <!-- var 192 TODO - Not writen yet -->
     <!-- var 193 TODO -->
 
     <!-- HALINARZO QUESTS -->
