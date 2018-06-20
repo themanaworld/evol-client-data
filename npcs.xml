@@ -421,6 +421,13 @@ IDs 900-999 = Special
         <sprite>npcs/xml/lumberjack.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="183">
+         <!-- Contrabandist Ship -->
+        <sprite>npcs/xml/koga.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+        <menu name="Buy" command="buy 'NAME'"/>
+        <menu name="Sell" command="sell 'NAME'"/>
+    </npc>
 
     <!-- NPCs from TMW-BR (that's why the jump) -->
     <npc id="300"><sprite variant="0">npcs/xml/npcs-br.xml</sprite></npc> <!-- Invisible -->
