@@ -2682,10 +2682,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/forestarmor.png"
 		name="Forest Armor"
 		description="A clean and comfortable mantle with dags, made for the finest stalkers."
-		defense="250"
-		level="15"
+		defense="58"
+		level="50"
+        effect="+2 Agi w/ bow"
+        dex="2"
 		type="equip-torso"
-		weight="40">
+		weight="380">
 		<sprite gender="unisex">equipment/chest/forestarmor-male.xml</sprite>
 		<sprite gender="female">equipment/chest/forestarmor-female.xml</sprite>
 	</item>
@@ -4538,13 +4540,17 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="0">
 		<sprite>equipment/head/ricehat.xml</sprite>
 	</item>
-	<item id="2997"
+    <!-- 2997-2998 reserved -->
+	<item id="2999"
 		image="equipment/head/fairyhat.png"
 		name="Sacred Forest Hat"
 		description="Master of the Sacred Forest."
-		defense="0"
+		defense="50"
+		level="50"
+        agi="1"
+        vit="1"
 		type="equip-head"
-		weight="0">
+		weight="80">
 		<sprite>equipment/head/fairyhat.xml</sprite>
 	</item>
 
