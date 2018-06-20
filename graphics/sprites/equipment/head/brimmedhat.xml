@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Reid
-Copyright (C) 2014 Evol Online -->
+<!-- Author: Reid, Saulc
+Copyright (C) 2014 Evol Online
+Copyright (C) 2018 TMW2 -->
 <sprite>
     <imageset name="base"
               src="graphics/sprites/equipment/head/brimmedhat.png"
-              width="27"
-              height="20"/>
+              width="32"
+              height="64"
+              offsetY="1"/>
 
-    <include file="equipment/head/pumpkinhat.xml"/>
+    <include file="equipment/head/headmodel-male.xml"/>
 </sprite>
