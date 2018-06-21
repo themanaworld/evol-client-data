@@ -1,6 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Saulc
+Copyright (C) 2018 TMW 2 Moubootaur Legends -->
+
 <sprite>
-  <imageset name="base" src="graphics/sprites/monsters/candorscorpion.png" width="48" height="45"/>
+  <imageset name="base" src="graphics/sprites/monsters/candorscorpion.png" 
+            width="48" 
+            height="45"/>
+            
   <action name="stand" imageset="base">
     <animation direction="down">
       <frame index="0" offsetY="2"/>
@@ -15,6 +21,7 @@
       <frame index="30" offsetY="2"/>
     </animation>
   </action>
+  
   <action name="walk" imageset="base">
     <animation direction="down">
       <sequence start="1" end="4" delay="75" offsetY="2"/>
@@ -29,6 +36,7 @@
       <sequence start="31" end="34" delay="75" offsetY="2"/>
     </animation>
   </action>
+  
   <action name="dead" imageset="base">
     <animation direction="down">
       <frame index="9" offsetY="2"/>
@@ -43,6 +51,7 @@
       <frame index="39" offsetY="2"/>
     </animation>
   </action>
+  
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="5" end="8" delay="75" offsetY="2"/>
