@@ -1,9 +1,9 @@
-# 
-#, fuzzy
+# Translators:
+# Jesusaves <cpntb1@ymail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-18 19:08-0300\n"
+"POT-Creation-Date: 2018-06-19 23:58-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jesusaves <cpntb1@ymail.com>, 2018\n"
 "Language-Team: German (https://www.transifex.com/akaras/teams/959/de/)\n"
@@ -7160,6 +7160,11 @@ msgid "Bandit Cave"
 msgstr ""
 
 #. (itstool) path: properties/property@value
+#: ../../client-data/maps/015-3.tmx:9
+msgid "Butterfly Caves"
+msgstr ""
+
+#. (itstool) path: properties/property@value
 #: ../../client-data/maps/016-1.tmx:8
 msgid "La Marine First Deck"
 msgstr ""
@@ -7874,6 +7879,21 @@ msgstr ""
 msgid "Prism Chest"
 msgstr ""
 
+#. (itstool) path: monsters/monster@name
+#: monsters.xml:702
+msgid "Supreme Chest"
+msgstr ""
+
+#. (itstool) path: monsters/monster@name
+#: monsters.xml:705
+msgid "Wildx Chest"
+msgstr ""
+
+#. (itstool) path: monsters/monster@name
+#: monsters.xml:708
+msgid "Sleeping Bandit"
+msgstr ""
+
 #. (itstool) path: npc/menu@name
 #: npcs.xml:17
 msgid "Take"
@@ -8309,7 +8329,7 @@ msgid "He gave me a nice outfit for my efforts."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:194 quests.xml:772 quests.xml:782
+#: quests.xml:194 quests.xml:781 quests.xml:833 quests.xml:843
 msgid "1x {@@1}"
 msgstr ""
 
@@ -8418,7 +8438,7 @@ msgid "Tulimshar (95,97)"
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:248 quests.xml:269 quests.xml:566 quests.xml:760
+#: quests.xml:248 quests.xml:269 quests.xml:566 quests.xml:821
 msgid "{@@1}"
 msgstr ""
 
@@ -8729,7 +8749,7 @@ msgid "40 xp, 25 gp"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:431
+#: quests.xml:431 quests.xml:749
 msgid "I already killed {@@var2}/10 {@@1}."
 msgstr ""
 
@@ -8769,7 +8789,7 @@ msgid "I already killed {@@var2}/1 {@@1}."
 msgstr ""
 
 #. (itstool) path: quest/reward
-#: quests.xml:476
+#: quests.xml:476 quests.xml:790
 msgid "???"
 msgstr ""
 
@@ -9221,79 +9241,142 @@ msgid "1x {@@1}, 1x {@@2}, 21500 GP, Experience."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:747 quests.xml:755
-msgid "Foxhound's Famine"
+#: quests.xml:741 quests.xml:748 quests.xml:755 quests.xml:762 quests.xml:769
+#: quests.xml:776 quests.xml:784 quests.xml:793
+msgid "Tycoon's Hunt"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:748
-msgid "A poor man in Halinarzo asks for food."
-msgstr ""
-
-#. (itstool) path: quest/text
-#: quests.xml:749
-msgid "His family is starving. I should provide him all sort of delicacies."
+#: quests.xml:742
+msgid "I have to report to the Tycoon."
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:751 quests.xml:758
-msgid "Enliven Reva Foxhound"
+#: quests.xml:744 quests.xml:751 quests.xml:758 quests.xml:765 quests.xml:772
+#: quests.xml:779 quests.xml:788 quests.xml:796
+msgid "Tycoon"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:752 quests.xml:759
-msgid "Halinarzo (89,57)"
+#: quests.xml:745 quests.xml:752 quests.xml:759 quests.xml:766 quests.xml:773
+#: quests.xml:780 quests.xml:789 quests.xml:797
+msgid "Tulimshar Mines."
 msgstr ""
 
 #. (itstool) path: quest/text
 #: quests.xml:756
+msgid "I already killed {@@var2}/25 {@@1}."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:763
+msgid "I already killed {@@var2}/50 {@@1}."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:770
+msgid "I already killed {@@var2}/100 {@@1}."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:777
+msgid "I helped the miners."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:785
+msgid "Tycoon had another task on his sleeve! This one is harder, though."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:786
+msgid "I already killed {@@var2}/200 {@@1}."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:794
+msgid "I did the bonus task from the Tycoon and he was very impressed."
+msgstr ""
+
+#. (itstool) path: quest/reward
+#: quests.xml:798
+msgid "1x {@@1}, 5000 GP"
+msgstr ""
+
+#. (itstool) path: quest/name
+#: quests.xml:808 quests.xml:816
+msgid "Foxhound's Famine"
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:809
+msgid "A poor man in Halinarzo asks for food."
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:810
+msgid "His family is starving. I should provide him all sort of delicacies."
+msgstr ""
+
+#. (itstool) path: quest/questgiver
+#: quests.xml:812 quests.xml:819
+msgid "Enliven Reva Foxhound"
+msgstr ""
+
+#. (itstool) path: quest/coordinates
+#: quests.xml:813 quests.xml:820
+msgid "Halinarzo (89,57)"
+msgstr ""
+
+#. (itstool) path: quest/text
+#: quests.xml:817
 msgid "I feed him, and he is forever grateful."
 msgstr ""
 
 #. (itstool) path: quest/name
-#: quests.xml:765 quests.xml:775
+#: quests.xml:826 quests.xml:836
 msgid "The King Of Blackmarket"
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:766
+#: quests.xml:827
 msgid "I did a deal with Charles, an apparently famous contrabandist."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:767
+#: quests.xml:828
 msgid "He is offering me a mask for my silence, and many items."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:768
+#: quests.xml:829
 msgid ""
 "All the items are dropped by Sarracenus and Desert Bandits, thankfully!"
 msgstr ""
 
 #. (itstool) path: quest/questgiver
-#: quests.xml:770 quests.xml:780
+#: quests.xml:831 quests.xml:841
 msgid "Charles"
 msgstr ""
 
 #. (itstool) path: quest/coordinates
-#: quests.xml:771 quests.xml:781
+#: quests.xml:832 quests.xml:842
 msgid "Halinarzo Outskirts."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:776
+#: quests.xml:837
 msgid "I got my mask, and won't say anyone where Charles is."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:777
+#: quests.xml:838
 msgid ""
 "But, this is Halinarzo, and Halin is always too far from the forces of law."
 msgstr ""
 
 #. (itstool) path: quest/text
-#: quests.xml:778
+#: quests.xml:839
 msgid ""
 "I doubt the City Guard doesn't knows where and who he is already, anyway..."
 msgstr ""
