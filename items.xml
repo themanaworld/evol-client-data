@@ -166,6 +166,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">monsters/piou/hit1.ogg</sound>
 		<sound event="miss">monsters/piou/miss1.ogg</sound>
 	</item>
+	<item id="-151" type="racesprite" name="Tipiou">
+		<sprite gender="unisex">monsters/tipiou.xml</sprite>
+		<sound event="hit">monsters/piou/hit1.ogg</sound>
+		<sound event="miss">monsters/piou/miss1.ogg</sound>
+	</item>
 
 	<!-- Usable Items -->
 	<item id="501"
@@ -317,13 +322,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-torso">
 		<replace />
 		<replace sprite="race">
-			<item from="-100" to="-150"/>
-			<item from="-101" to="-150"/>
-			<item from="-102" to="-150"/>
-			<item from="-103" to="-150"/>
-			<item from="-104" to="-150"/>
-			<item from="-105" to="-150"/>
-			<item from="-106" to="-150"/>
+			<item from="-100" to="-151"/>
+			<item from="-101" to="-151"/>
+			<item from="-102" to="-151"/>
+			<item from="-103" to="-151"/>
+			<item from="-104" to="-151"/>
+			<item from="-105" to="-151"/>
+			<item from="-106" to="-151"/>
 		</replace>
 	</item>
 	<item id="518"
