@@ -4539,7 +4539,33 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="0">
 		<sprite>equipment/head/ricehat.xml</sprite>
 	</item>
-    <!-- 2997-2998 reserved -->
+	<item id="2997"
+		image="equipment/head/farmerhat.png"
+		name="%Color% Farmer Hat"
+		description="Hat commonly used by farmers."
+		defense="40"
+		level="30"
+		str="2"
+		type="equip-head"
+		colors="simple"
+		weight="120">
+		<sprite>equipment/head/farmerhat.xml</sprite>
+		<replace sprite="hair">
+			<item from="-3" to="-7"/>
+			<item from="-4" to="-7"/>
+			<item from="-5" to="-27"/>
+			<item from="-6" to="-7"/>
+			<item from="-13" to="-1"/>
+			<item from="-14" to="-7"/>
+			<item from="-15" to="-7"/>
+			<item from="-16" to="-10"/>
+			<item from="-21" to="-7"/>
+			<item from="-23" to="-1"/>
+			<item from="-25" to="-7"/>
+			<item from="-26" to="-21"/>
+		</replace>
+	</item>
+    <!-- 2998 reserved -->
 	<item id="2999"
 		image="equipment/head/fairyhat.png"
 		name="Sacred Forest Hat"
