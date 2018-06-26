@@ -385,7 +385,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	</monster>
 
   <!-- Need rewrite: Fallen King/Guard -->
-  <monster id="1079" name="Fallen King">
+  <monster id="1079" name="Frostia King">
 	<sprite>races/elven-male.xml</sprite>
 	<sprite>equipment/legs/assassinpants-male.xml</sprite>
 	<sprite>equipment/feet/boots-male.xml</sprite>
@@ -399,7 +399,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
-  <monster id="1080" name="Fallen King">
+  <monster id="1080" name="Halinarzo King">
 	<sprite>races/raijin-male.xml</sprite>
 	<sprite>equipment/legs/assassinpants-male.xml</sprite>
 	<sprite>equipment/feet/boots-male.xml</sprite>
@@ -413,7 +413,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
-  <monster id="1081" name="Fallen Guard">
+  <monster id="1081" name="Frostia Guard">
 	<sprite>races/elven-male.xml</sprite>
 	<sprite>equipment/legs/assassinpants-male.xml</sprite>
 	<sprite>equipment/feet/boots-male.xml</sprite>
@@ -427,7 +427,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	<!--sound event="die">short-sword-die1.ogg</sound-->
   </monster>
-  <monster id="1082" name="Fallen Guard">
+  <monster id="1082" name="Halinarzo Guard">
 	<sprite>races/raijin-male.xml</sprite>
 	<sprite>equipment/legs/assassinpants-male.xml</sprite>
 	<sprite>equipment/feet/boots-male.xml</sprite>
@@ -746,5 +746,18 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<monster id="1156" name="Bronze Chest" targetCursor="medium">
 		<sprite>monsters/mimic.xml|#ccaa00</sprite>
 	</monster>
+	<monster id="1157" name="Silver Chest" targetCursor="medium">
+		<sprite>monsters/mimic.xml|#aaaaaa</sprite>
+	</monster>
     <!-- 1156 to 1166 reserved for mimics -->
+	<monster id="1167" name="Terranite">
+	    <sprite>races/raijin-male.xml</sprite>
+	    <sprite>hairstyles/hairstyle26.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	    <sprite>equipment/legs/terranitepants-male.xml</sprite>
+	    <sprite>equipment/chest/terranitearmor-male.xml</sprite>
+	    <sprite>equipment/feet/boots-male.xml</sprite>
+	    <sprite>equipment/head/trapperhat.xml</sprite>
+	    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+	    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</monster>
 </monsters>
