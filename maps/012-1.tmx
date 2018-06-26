@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" infinite="0" nextobjectid="39">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" nextobjectid="39">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="1"/>
@@ -54,6 +54,13 @@
  <tileset firstgid="922" name="magecity" tilewidth="32" tileheight="32" tilecount="360" columns="8">
   <image source="../graphics/tilesets/magecity.png" width="256" height="1440"/>
  </tileset>
+ <tileset firstgid="1282" name="ship-base" tilewidth="32" tileheight="32" tilecount="220" columns="22">
+  <image source="../graphics/tilesets/ship-base.png" width="704" height="320"/>
+ </tileset>
+ <tileset firstgid="1502" name="ship-mast" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../graphics/tilesets/ship-mast.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1758" source="../graphics/tilesets/ship-flags-x3x2.tsx"/>
  <layer name="Ground1" width="162" height="120">
   <data encoding="csv">
 26,26,26,26,10,26,26,240,225,190,219,205,206,206,206,222,222,222,222,222,223,241,206,206,206,206,222,251,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,95,96,96,96,96,97,79,135,136,136,136,80,80,137,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,95,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
