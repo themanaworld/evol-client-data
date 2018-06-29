@@ -6,26 +6,6 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <!-- PROLOGUE QUESTS -->
     <var id="0">
         <effect map="002-3.tmx" npc="404" value="0,1" effect="12"/>
-        <quest name="Abide by the Rules" group="Ship" incomplete="1">
-            <name>Abide by the Rules</name>
-            <text>Before resuming your adventure and exploration, you need to register on the boarding list of the ship by signing its rules.</text>
-            <text></text>
-            <text>Speak to Juliet, the keeper of this ship. She is waiting for you on the first deck.</text>
-            <text></text>
-            <questgiver>Juliet</questgiver>
-            <coordinates x="27" y="24">La Johanne, First Deck. (27,24)</coordinates>
-            <reward>Unknown.</reward>
-        </quest>
-        <quest name="Abide by the Rules" group="Ship" complete="2">
-            <name>Abide by the Rules</name>
-            <text>Juliet told you about all the rules you have to follow during your adventure so that you behave properly with other people.</text>
-            <text></text>
-            <text>Keep them in mind, but if you think you need to hear them again, just talk to Juliet.</text>
-            <text></text>
-            <questgiver>Juliet</questgiver>
-            <coordinates x="27" y="24">La Johanne, First Deck. (27,24)</coordinates>
-            <reward>Nothing.</reward>
-        </quest>
     </var>
     <var id="1">
         <effect map="002-1.tmx" npc="407" value="0" effect="12"/>
@@ -144,6 +124,19 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <text></text>
             <coordinates x="50" y="24">La Johanne, Second Deck. (50,24)</coordinates>
             <reward text1="[Knife]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="6">
+        <effect map="002-1.tmx" npc="407" value="0" effect="14"/>
+        <quest name="My Money" group="Ship" complete="1">
+            <name>My Money</name>
+            <text>Arpan was holding my money.</text>
+            <text></text>
+            <text>It is a small amount, but hey, it is better than nothing!.</text>
+            <text></text>
+            <questgiver>Magic Arpan</questgiver>
+            <coordinates x="39" y="33">La Johanne, Second Deck. (39,33)</coordinates>
+            <reward>35 GP.</reward>
         </quest>
     </var>
     <var id="7">
