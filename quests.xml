@@ -974,17 +974,89 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <!-- var 92 TODO -->
     <!-- var 93 TODO -->
     <var id="94">
-        <quest name="Celestia Tea Party" group="Hurnscald" complete="1">
+        <quest name="Celestia Tea Party" group="Hurnscald" incomplete="1">
             <name>Celestia Tea Party</name>
-            <text>I managed to open the chest on Saxso's house.</text>
+            <text>Celestia need many sweets to replace the lack of Cookies.</text>
+            <text>I could help her, too much sugar is bad to health!</text>
             <text></text>
             <questgiver>Celestia</questgiver>
-            <coordinates x="31" y="79">Hurnscald, Town Hall.</coordinates>
+            <coordinates x="102" y="69">Hurnscald, Town Hall.</coordinates>
+        </quest>
+        <quest name="Celestia Tea Party" group="Hurnscald" complete="2">
+            <name>Celestia Tea Party</name>
+            <text>I gave lot of sweeties to Celestia, and now I can drink tea!</text>
+            <text>Her tea regens some Mana. Maybe in future, she gives me some for travel?</text>
+            <text></text>
+            <questgiver>Celestia</questgiver>
+            <coordinates x="102" y="69">Hurnscald, Town Hall.</coordinates>
         </quest>
     </var>
     <!-- var 95 TODO -->
     <!-- var 96 -->
-    <!-- var 97 TODO -->
+    <var id="97">
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="1">
+            <name>Hurnscald Bandits</name>
+            <text>Bandits frequently raid Hurnscald Tavern and steal stuff.</text>
+            <text>They're often caught, but the slimes on the Mines eat the keys!</text>
+            <text>I should bring her 5 [Treasure Key] to fix that slimey problem.</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="2,4">
+            <name>Hurnscald Bandits</name>
+            <text>I helped Helena, but she might have another task to me.</text>
+            <text>I wonder if I am strong enough to help her!</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="3">
+            <name>Hurnscald Bandits</name>
+            <text>Helena was cursed to don't enter the bandit cave!</text>
+            <text>She wants to give me a great mission, but first,</text>
+            <text>I need to collect some Bandit Hoods and prove my worth.</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="5">
+            <name>Hurnscald Bandits</name>
+            <text>Helena sent me to kill the Bandit Lord on the Bandit Cave.</text>
+            <text>But first, I need to find her friend and get the key to his lair.</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+            <reward text1="[Forest Armor]">{@@1}</reward>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="6">
+            <name>Hurnscald Bandits</name>
+            <text>Helena sent me to kill the Bandit Lord on the Bandit Cave.</text>
+            <text>The Bandit Lord is on a locked cave, but fear not. I got the key.</text>
+            <text>The only problem now, is finding his lair on these pesky caves!</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+            <reward text1="[Forest Armor]">{@@1}</reward>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" incomplete="7">
+            <name>Hurnscald Bandits</name>
+            <text>The bandit lord is dead. I should claim my reward with Helena.</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+            <reward text1="[Forest Armor]">{@@1}</reward>
+        </quest>
+        <quest name="Hurnscald Bandits" group="Hurnscald" complete="8">
+            <name>Hurnscald Bandits</name>
+            <text>I'm now friends with Helena.</text>
+            <text>Every day, I can bring her some Treasure Keys or Bandit Hoods.</text>
+            <text>The keys will also help with Melina's beer supply - great!</text>
+            <text></text>
+            <questgiver>Helena</questgiver>
+            <coordinates x="65" y="55">Hurnscald, Inn.</coordinates>
+        </quest>
+    </var>
 
 
 
