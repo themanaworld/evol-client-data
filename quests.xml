@@ -302,7 +302,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <text></text>
             <questgiver>Hinnak, Hurnscald (105,30)</questgiver>
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
-            <reward>Surprise...</reward>
+            <reward text1="[Pink Helmet]">{@@1}</reward>
         </quest>
     </var>
 
@@ -780,9 +780,86 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Sharp Knife]" text2="[%Color% Cotton Shirt]">1x {@@1}, 1x {@@2}, 21500 GP, Experience.</reward>
         </quest>
     </var>
-    <!-- var 60 TODO -->
+    <var id="60">
+        <quest name="Dark Invocator" group="Tulimshar" incomplete="1">
+            <name>Dark Invocator</name>
+            <text>After paying Zarkor a token of loyalty, he told me his plans.</text>
+            <text>He wants to summon the Monster King.</text>
+            <text>I should talk to Zitoni, on Candor, for some Everburn Powder.</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Dark Invocator" group="Tulimshar" incomplete="2">
+            <name>Dark Invocator</name>
+            <text>Zitoni refused to make the powder.</text>
+            <text>I must report this to Zarkor.</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Dark Invocator" group="Tulimshar" incomplete="3">
+            <name>Dark Invocator</name>
+            <text>Zarkor gave a precious Dark Desert Mushroom.</text>
+            <text>I should deliver this rare item to Zitoni on Candor.</text>
+            <text>...I could just sell it instead, but I think I'll regret doing so later...</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Dark Invocator" group="Tulimshar" incomplete="4">
+            <name>Dark Invocator</name>
+            <text>Zitoni on Candor is now making Everburn Powders.</text>
+            <text>I need 5 Powders for the ritual.</text>
+            <text>For each powder, it will cost me 3000 GP, Iron and Sulfur Powder, and a Pile of Ash.</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Dark Invocator" group="Tulimshar" incomplete="5,6">
+            <name>Dark Invocator</name>
+            <text>I need to lit every torch.</text>
+            <text>The blue flame get invisible after a while. There's no way to remember!</text>
+            <text>Ahh... I better find a good way to lit all of them without dying!</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+        </quest>
+        <quest name="Dark Invocator" group="Tulimshar" complete="7">
+            <name>Dark Invocator</name>
+            <text>Zarkor summoned the Monster King and got a nice electrical discharge as a gift.</text>
+            <text>Well, he didn't gave me anything of worth, but some money and experience.</text>
+            <text>At least, now I can craft Everburn Powder. I'm sure it'll be useful later.</text>
+            <text></text>
+            <questgiver>Zarkor</questgiver>
+            <coordinates x="152" y="155">Tulimshar Mines.</coordinates>
+            <reward>20.000 GP, 7995 EXP</reward>
+        </quest>
+    </var>
     <!-- var 61 TODO -->
     <!-- var 62 Secret -->
+    <var id="63">
+        <quest name="Neked Shop" group="Tulimshar" incomplete="1">
+            <name>Neked Shop</name>
+            <text>My best attempt at a pun with the word naked.</text>
+            <text>Neko had his Jean Shorts ate by Cave Snakes, who love to eat that.</text>
+            <text></text>
+            <text>It is a good item, I should get some Shorts for me!</text>
+            <text>But Neko needs them, too... How many can I make they drop?</text>
+            <text></text>
+            <questgiver>Neko</questgiver>
+            <coordinates x="103" y="106">Tulimshar.</coordinates>
+        </quest>
+        <quest name="Neked Shop" group="Tulimshar" complete="2">
+            <name>Neked Shop</name>
+            <text>Well... I probably should regret having helped him.</text>
+            <text>But hey, maybe some of the ship's captains see my good deed and give me a discount?</text>
+            <text></text>
+            <questgiver>Neko</questgiver>
+            <coordinates x="103" y="106">Tulimshar.</coordinates>
+            <reward>6000 GP, 1620 EXP.</reward>
+        </quest>
+    </var>
     <var id="191">
         <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="2,3,5,6,8,9,11,14">
             <name>Tycoon's Hunt</name>
