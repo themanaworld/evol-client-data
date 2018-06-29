@@ -970,7 +970,26 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <!-- var 73 TODO -->
 
     <!-- HURNSCALD QUESTS -->
-    <!-- var 91 TODO -->
+    <var id="91">
+        <quest name="Forest Bow" group="Hurnscald" incomplete="1">
+            <name>Forest Bow</name>
+            <text>Alan is willing to do a Forest Bow, for free...</text>
+            <text>If I get a very resistant wood chunk with Jack.</text>
+            <text>And I also need a good string, from a Fisherman in Halinarzo.</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <coordinates x="89" y="58">Hurnscald, Archery Shop.</coordinates>
+            <reward text1="[Forest Bow]">{@@1}</reward>
+        </quest>
+        <quest name="Forest Bow" group="Hurnscald" complete="2">
+            <name>Forest Bow</name>
+            <text>I got the Forest Bow. I hope to have fun with it!</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <coordinates x="89" y="58">Hurnscald, Archery Shop.</coordinates>
+            <reward text1="[Forest Bow]">{@@1}</reward>
+        </quest>
+    </var>
     <var id="92">
         <quest name="Archery Training" group="Hurnscald" incomplete="1">
             <name>Archery Training</name>
