@@ -131,6 +131,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>100 EXP, 1000 GP.</reward>
         </quest>
     </var>
+    <!-- var 4 is free -->
     <var id="5">
         <effect map="002-1.tmx" npc="100" value="0" effect="14"/>
         <quest name="Chef's Secret Blade" group="Ship" complete="1">
@@ -238,6 +239,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <var id="13">
         <effect map="005-5.tmx" npc="126" value="0" effect="12"/>
         <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
+        <effect map="009-3.tmx" npc="126" value="0" effect="12"/>
+        <effect map="012-1.tmx" npc="126" value="0" effect="12"/>
         <quest name="Pride of Money" group="General" complete="1">
             <name>Pride of Money</name>
             <text>You are now registered in the Merchant Guild.</text>
@@ -248,8 +251,21 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>Merchant Guild access.</reward>
         </quest>
     </var>
+    <var id="14">
+        <quest name="Friendly Players" group="General" complete="1">
+            <name>Friendly Players</name>
+            <text>After paying the taxes, I'm now allowed to create small parties for raids.</text>
+            <text>With a small group of friends, we can grow a lot!</text>
+            <text></text>
+            <text>Later I can ask him to buy the license to create Guilds.</text>
+            <text>A guild is harder to manage, but there are various benefits in being a Guild Leader.</text>
+            <text></text>
+            <questgiver>Estard</questgiver>
+            <reward>Create Social Groups</reward>
+        </quest>
+    </var>
     <var id="15">
-        <quest name="Great Hunter Quest" group="Tulimshar" incomplete="1">
+        <quest name="Great Hunter Quest" group="General" incomplete="1">
             <name>Great Hunter Quest</name>
             <text>I promised Aidan to conduct an extermination.</text>
             <text text1="[@@m1030|@@]">Progress: {@@var2}/10000 {@@1}.</text>
@@ -258,7 +274,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
             <reward text1="[Maggot Cocoon]">{@@1}</reward>
         </quest>
-        <quest name="Great Hunter Quest" group="Tulimshar" incomplete="2">
+        <quest name="Great Hunter Quest" group="General" incomplete="2">
             <name>Great Hunter Quest</name>
             <text>I promised Jacob to conduct an extermination.</text>
             <text>The reward should be collected with Aidan.</text>
@@ -266,7 +282,27 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <text></text>
             <questgiver>Lieutenant Jacob, Halinarzo (71,24)</questgiver>
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
-            <reward>25,000 GP</reward>
+            <reward>300,000 GP and 80 Strange Coins</reward>
+        </quest>
+        <quest name="Great Hunter Quest" group="General" incomplete="4">
+            <name>Great Hunter Quest</name>
+            <text>I promised Lufix to conduct an extermination.</text>
+            <text>The reward should be collected with Aidan.</text>
+            <text text1="[@@m1060|@@]">Progress: {@@var2}/10000 {@@1}.</text>
+            <text></text>
+            <questgiver>Lufix, Hurnscald (68,74)</questgiver>
+            <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
+            <reward>275,000 GP and 60 Strange Coins</reward>
+        </quest>
+        <quest name="Great Hunter Quest" group="General" incomplete="5">
+            <name>Great Hunter Quest</name>
+            <text>I promised Hinnak to conduct an extermination.</text>
+            <text>The reward should be collected with Aidan.</text>
+            <text text1="[@@m1132|@@]">Progress: {@@var2}/10000 {@@1}.</text>
+            <text></text>
+            <questgiver>Hinnak, Hurnscald (105,30)</questgiver>
+            <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
+            <reward>Surprise...</reward>
         </quest>
     </var>
 
