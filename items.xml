@@ -4198,10 +4198,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/chefhat.png"
 		name="Chef Hat"
 		description="A tall hat designed for the person in charge of a kitchen. It smells like onions."
-		defense="110"
-		level="8"
+		defense="51"
+		effect="HP Regen +30%"
+		level="45"
 		type="equip-head"
-		weight="30">
+		weight="185">
 		<sprite>equipment/head/chefhat.xml</sprite>
 		<replace sprite="hair">
 			<item from="-5" to="-4"/>
