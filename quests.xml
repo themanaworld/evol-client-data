@@ -53,7 +53,24 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Creased Shirt]" text2="[Creased Shorts]">A {@@1} and old {@@2}.</reward>
         </quest>
     </var>
-    <!-- var id 2 deleted -->
+    <var id="2">
+        <effect map="002-1.tmx" npc="401" value="0,1" effect="14"/>
+        <quest name="Contrabandist Aboard" group="Ship" incomplete="1">
+            <name>Contrabandist Aboard</name>
+            <text>You found a contrabandist aboard Nard's Ship!</text>
+            <text>He needs your help. Bring him the many items he is asking for!</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+        </quest>
+        <quest name="Contrabandist Aboard" group="Ship" complete="2">
+            <name>Contrabandist Aboard</name>
+            <text>I helped Alige. He claims to be lawful now, but I don't quite believe it.</text>
+            <text>Well, it is hard to get Artis goods around here, so perhaps I did the right thing?</text>
+            <text></text>
+            <questgiver>Alige</questgiver>
+            <reward text1="[Crozenite Four-Leaf Amulet]">{@@1}.</reward>
+        </quest>
+    </var>
     <var id="3">
         <effect map="002-1.tmx" npc="403" value="0,6" effect="12"/>
         <effect map="002-1.tmx" npc="403" value="1,2,4" effect="13"/>
