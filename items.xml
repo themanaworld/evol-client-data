@@ -1009,6 +1009,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Heal 165-395 HP"
 		type="usable"
 		weight="14"/>
+	<item id="612"
+		image="generic/clothespack.png"
+		name="Friend Gift"
+		description="Sent by your friend. Can be open at level 5."
+		type="usable"
+		useButton="Unwrap"
+		weight="25"
+		sellProtected="true"
+		maxFloorOffset="20"/>
 	<!-- Generic Items -->
 	<item id="700"
 		image="generic/smalltentacles.png"
