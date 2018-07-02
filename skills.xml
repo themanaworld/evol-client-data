@@ -69,9 +69,29 @@ Copyright (C) 2018 TMW2 -->
         <skill
             id="20023"
             name="Summon Cave Maggot"
-            icon="graphics/skills/warrior/bash.png"
-            description="400 MP. Req. Zarkor Scroll."
+            icon="graphics/skills/magic.png"
+            description="400 MP."
             invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="1"
+        />
+        <skill
+            id="20023"
+            name="Summon Cave Maggot"
+            icon="graphics/skills/magic.png"
+            description="475 MP."
+            invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="2"
+        />
+        <skill
+            id="20023"
+            name="Summon Cave Maggot"
+            icon="graphics/skills/magic.png"
+            description="550 MP."
+            invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="3"
         />
     </set>
     <set name="Magical">
