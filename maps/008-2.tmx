@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="160" height="280" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="160" height="280" tilewidth="32" tileheight="32" nextobjectid="36">
  <properties>
   <property name="author" value="Jesusalva"/>
   <property name="license" value="GPL v2+, CC BY SA 3.0+"/>
@@ -1463,6 +1463,220 @@
     <property name="dest_map" value="008-2"/>
     <property name="dest_x" value="54"/>
     <property name="dest_y" value="237"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7fff00" name="Monsters Layer 1" visible="0">
+  <object id="10" name="Slime Blast" type="Spawn" x="2048" y="7424" width="1024" height="832">
+   <properties>
+    <property name="death" value="15000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1090"/>
+    <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="11" name="Bandit" type="Spawn" x="832" y="5152" width="1376" height="2560">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1024"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="12" name="Mouboo" type="Spawn" x="2336" y="5664" width="2144" height="1728">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1023"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="13" name="Cave Snake" type="Spawn" x="736" y="512" width="3968" height="1280">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="1035"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="14" name="Giant Maggot" type="Spawn" x="800" y="1792" width="2272" height="1184">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1031"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="15" name="Moggun" type="Spawn" x="2496" y="2976" width="544" height="960">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1070"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="16" name="Mana Bug" type="Spawn" x="640" y="2976" width="1824" height="2144">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1075"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="17" name="Copper Slime" type="Spawn" x="3072" y="7392" width="1504" height="864">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1088"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="18" name="Red Slime" type="Spawn" x="3072" y="1824" width="1376" height="1760">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1092"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="19" name="Yellow Slime" type="Spawn" x="3232" y="4480" width="1376" height="1120">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1091"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="20" name="Lava Slime" type="Spawn" x="2848" y="3552" width="1376" height="928">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1097"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="21" name="Snake" type="Spawn" x="2560" y="4512" width="608" height="1120">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1122"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff7f00" name="Monsters Layer 2" visible="0">
+  <object id="22" name="Bandit" type="Spawn" x="512" y="768" width="1376" height="2560">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1024"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="23" name="Desert Log Head" type="Spawn" x="3136" y="512" width="1408" height="4992">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1127"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="24" name="Desert Bandit" type="Spawn" x="3072" y="5568" width="1376" height="2560">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1124"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="25" name="Sarracenus" type="Spawn" x="416" y="5536" width="1152" height="1568">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1125"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="26" name="Angry Red Scorpion" type="Spawn" x="2496" y="704" width="672" height="3136">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1130"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="27" name="Sea Slime" type="Spawn" x="1824" y="864" width="704" height="3904">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="1093"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="28" name="Robin Bandit" type="Spawn" x="384" y="3392" width="1408" height="2080">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1153"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="29" name="Murderer Scorpion" type="Spawn" x="1536" y="5440" width="768" height="2208">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1129"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="30" name="Green Slime" type="Spawn" x="2432" y="3776" width="704" height="3520">
+   <properties>
+    <property name="death" value="25000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1085"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" name="Monsters Layer 3" visible="0">
+  <object id="31" name="Plushroom Field" type="Spawn" x="256" y="704" width="4704" height="2560">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1011"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="32" name="Piou" type="Spawn" x="1920" y="7264" width="1376" height="1024">
+   <properties>
+    <property name="death" value="15000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1002"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="33" name="Chagashroom Field" type="Spawn" x="256" y="2496" width="4704" height="2560">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1128"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="34" name="Big Ruby Bif" type="Spawn" x="256" y="5152" width="2080" height="2560">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1100"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="35" name="Sapphire Bif" type="Spawn" x="2368" y="5152" width="1920" height="2560">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1114"/>
+    <property name="spawn" value="25000"/>
    </properties>
   </object>
  </objectgroup>
