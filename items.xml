@@ -857,36 +857,41 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="generic/gem-shard.png|W:#581a1a,a41111,c03a3a,ff6060,ffffff"
         name="Ruby Shard"
         description="A small ruby shard."
+        type="generic"
         weight="10"
         maxFloorOffset="15"/>
     <item id="802"
         image="generic/gem-shard.png|W:#1f9c1f,89d689,ffffff"
         name="Emerald Shard"
         description="A small emerald shard."
+        type="generic"
         weight="10"
         maxFloorOffset="15"/>
     <item id="803"
         image="generic/gem-shard.png|W:#4b4bbd,888af4,ffffff"
         name="Sapphire Shard"
         description="A small sapphire shard."
+        type="generic"
         weight="10"
         maxFloorOffset="15"/>
     <item id="804"
         image="generic/gem-shard.png|W:#ccb534,f1ea8e,ffffaa,ffffff"
         name="Topaz Shard"
         description="A small topaz shard."
+        type="generic"
         weight="10"
         maxFloorOffset="15"/>
     <item id="805"
         image="generic/gem-shard.png|W:#530a7c,b362e1,ca87ef,ffffff"
         name="Amethyst Shard"
         description="A small amethyst shard."
+        type="generic"
         weight="10"
         maxFloorOffset="15"/>
 
     <!-- Necklaces  -->
     <item id="1000"
-        image="equipment/neck/copper-necklace.png|W:#ce8b5b,764938,e4dfca,e0d5bf"
+        image="equipment/neck/copper-necklace.png|W"
         name="%Color% Necklace (Copper)"
         description="A %color% necklace, made of copper."
         level="10"
@@ -894,8 +899,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="50"
         colors="gem"
         iconColors="gem">
-        <sprite gender="unisex">equipment/neck/copper-necklace.xml|</sprite>
-        <sprite gender="female">equipment/neck/copper-necklace.xml|</sprite>
+        <sprite gender="unisex">equipment/neck/copper-necklace.xml</sprite>
      </item>
 
     <!-- Chest Armors -->
