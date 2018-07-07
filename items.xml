@@ -2958,6 +2958,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite gender="unisex">equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
 		<sprite gender="female">equipment/chest/warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
 	</item>
+	<item id="1331"
+		image="equipment/chest/savior-armor.png|W"
+		name="%Color% Savior Armor"
+		description="Worn by the best of the best."
+		defense="420"
+		level="109"
+		type="equip-torso"
+		colors="simple"
+		weight="2800"
+		>
+		<sprite gender="unisex">equipment/chest/saviorarmor-male.xml</sprite>
+		<sprite gender="female">equipment/chest/saviorarmor-female.xml</sprite>
+	</item>
 	<!-- @Saulc you need itemColors (or colors) attribute to dye icon, not an empty dye command -->
 	<item id="1332"
 		image="equipment/chest/cottonshirt.png|W"
