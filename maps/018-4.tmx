@@ -789,9 +789,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="graphics/particles/bonfire.particle.xml" type="PARTICLE_EFFECT" x="2144" y="736" width="32" height="32"/>
-  <object id="2" name="graphics/particles/warper.particle.xml" type="PARTICLE_EFFECT" x="5248" y="3360" width="32" height="32"/>
   <object id="10" name="To Cave" type="warp" x="3008" y="2848" width="32" height="32">
    <properties>
     <property name="dest_map" value="si-cave"/>
@@ -799,16 +798,16 @@
     <property name="dest_y" type="int" value="84"/>
    </properties>
   </object>
-  <object id="3" name="To Hurnscald" type="warp" x="5248" y="3360" width="32" height="32">
+  <object id="3" name="To LoF" type="warp" x="5248" y="3360" width="32" height="32">
    <properties>
-    <property name="dest_map" value="018-1"/>
-    <property name="dest_x" type="int" value="166"/>
-    <property name="dest_y" type="int" value="49"/>
+    <property name="dest_map" value="017-1"/>
+    <property name="dest_x" type="int" value="0"/>
+    <property name="dest_y" type="int" value="0"/>
    </properties>
   </object>
   <object id="9" name="To House" type="warp" x="2336" y="768" width="32" height="32">
    <properties>
-    <property name="dest_map" value="si-house"/>
+    <property name="dest_map" value="018-4-2"/>
     <property name="dest_x" type="int" value="33"/>
     <property name="dest_y" type="int" value="34"/>
    </properties>
@@ -833,7 +832,7 @@
    <properties>
     <property name="death" value="10000"/>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="117"/>
+    <property name="monster_id" value="1002"/>
     <property name="spawn" value="15000"/>
    </properties>
   </object>
