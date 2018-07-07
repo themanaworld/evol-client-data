@@ -4,8 +4,8 @@
   <property name="author" value="Jesusalva, Jefferson, Ernando, Diogo, et al: TMW BR v2 Team, TMW-BR Team, TMW2, LoF Team"/>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
-  <property name="minimap" value=""/>
-  <property name="music" value=""/>
+  <property name="minimap" value="graphics/minimaps/017-1.png"/>
+  <property name="music" value="Unforgiving_Lands.ogg"/>
   <property name="name" value="Land Of Fire Village"/>
  </properties>
  <tileset firstgid="1" name="trans_woodland-desert (2)" tilewidth="32" tileheight="32" tilecount="128" columns="16">
@@ -2499,7 +2499,7 @@
 </data>
  </layer>
  <objectgroup name="Warps" visible="0"/>
- <objectgroup name="Margin">
+ <objectgroup name="Margin" visible="0">
   <object id="13" name="N" type="fixme" x="0" y="0" width="9312" height="640"/>
   <object id="14" name="S" type="fixme" x="0" y="7840" width="9312" height="640"/>
   <object id="16" name="E" type="fixme" x="8640" y="0" width="640" height="8512"/>
