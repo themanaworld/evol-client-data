@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="7">
  <properties>
-  <property name="name" value="Easter Island Cave"/>
+  <property name="name" value="Sincerity Island Cave"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
+  <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/000-1.png"/>
+
+  <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
+
+  <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
+  <property name="overlay1mask" value="2"/>
+  <property name="overlay1parallax" value="1.0"/>
+  <property name="overlay1scrollX" value="0.2"/>
+  <property name="overlay1scrollY" value="0.1"/>
+  <property name="overlay2image" value="graphics/images/ambient/darkness1.png"/>
+  <property name="overlay2mask" value="4"/>
+  <property name="overlay2parallax" value="1.0"/>
+  <property name="overlay2scrollX" value="0.3"/>
+  <property name="overlay2scrollY" value="0.2"/>
+  <property name="overlay3image" value="graphics/images/ambient/night.png"/>
+  <property name="overlay3mask" value="8"/>
+  <property name="overlay3parallax" value="1.0"/>
+  <property name="overlay3scrollX" value="0.2"/>
+  <property name="overlay3scrollY" value="0.1"/>
+  <property name="overlay4image" value="graphics/images/ambient/rain.png"/>
+  <property name="overlay4mask" value="16"/>
+  <property name="overlay4parallax" value="1.0"/>
+  <property name="overlay4scrollX" value="-0.3"/>
+  <property name="overlay4scrollY" value="1.6"/>
+  <property name="overlay5image" value="graphics/images/ambient/sandstorm.png"/>
+  <property name="overlay5mask" value="32"/>
+  <property name="overlay5parallax" value="1.0"/>
+  <property name="overlay5scrollX" value="0.2"/>
+  <property name="overlay5scrollY" value="0.1"/>
+  <property name="overlay6image" value="graphics/images/ambient/snow.png"/>
+  <property name="overlay6mask" value="64"/>
+  <property name="overlay6parallax" value="1.0"/>
+  <property name="overlay6scrollX" value="0.2"/>
+  <property name="overlay6scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../graphics/tilesets/collision.tsx"/>
  <tileset firstgid="10" source="../graphics/tilesets/cave.tsx"/>
