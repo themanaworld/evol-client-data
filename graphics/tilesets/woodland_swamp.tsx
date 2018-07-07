@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="woodland_swamp" tilewidth="32" tileheight="32">
- <image source="../graphics/tiles/woodland_swamp.png" width="512" height="512"/>
+ <image source="woodland_swamp.png" width="512" height="512"/>
  <tile id="69">
   <properties>
    <property name="animation-delay0" value="32"/>
