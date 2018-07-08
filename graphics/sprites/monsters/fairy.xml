@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<sprite>
+
+  <imageset name="base" src="graphics/sprites/monsters/fairy.png|G" width="37" height="58" />
+
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="5" delay="25" />
+      <end />
+    </animation>
+    <animation direction="left">
+      <sequence start="9" end="14" delay="25" />
+    </animation>
+    <animation direction="up">
+      <sequence start="18" end="23" delay="25" />
+    </animation>
+    <animation direction="right">
+      <sequence start="27" end="32" delay="25" />
+    </animation>
+  </action>
+
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="6" end="8" delay="150" />
+      <frame index="8" delay="150" />
+      <end />
+    </animation>
+    <animation direction="left">
+      <sequence start="15" end="17" delay="150" />
+      <frame index="17" delay="150" />
+      <end />
+    </animation>
+    <animation direction="up">
+      <sequence start="24" end="26" delay="150" />
+      <frame index="26" delay="150" />
+      <end />
+    </animation>
+    <animation direction="right">
+      <sequence start="33" end="35" delay="150" />
+      <frame index="35" delay="150" />
+      <end />
+    </animation>
+  </action>
+
+  <action name="dead" imageset="base">
+    <animation>
+      <sequence start="36" end="44" delay="0" />
+      <frame index="44"/>
+      <end />
+    </animation>
+  </action>
+
+</sprite>
