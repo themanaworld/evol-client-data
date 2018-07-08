@@ -283,6 +283,9 @@ Copyright (C) 2018 TMW2 -->
     <map name="017-2.tmx">
         <atlas name="lof-indoor"/>
     </map>
+    <map name="017-2-1.tmx">
+        <atlas name="lof-cave"/>
+    </map>
     <map name="018-1.tmx">
         <atlas name="lof-island"/>
     </map>
@@ -292,11 +295,20 @@ Copyright (C) 2018 TMW2 -->
     <map name="018-2.tmx">
         <atlas name="lof-island"/>
     </map>
+    <map name="018-2-1.tmx">
+        <atlas name="lof-castle"/>
+    </map>
+    <map name="018-3.tmx">
+        <atlas name="lof-cave"/>
+    </map>
     <map name="018-3-1.tmx">
         <atlas name="cave"/>
     </map>
     <map name="018-4.tmx">
         <atlas name="lof-island"/>
+    </map>
+    <map name="018-4-1.tmx">
+        <atlas name="lof-cave"/>
     </map>
     <map name="018-4-2.tmx">
         <atlas name="lof-indoor"/>
@@ -621,6 +633,31 @@ Copyright (C) 2018 TMW2 -->
         <file name="graphics/tilesets/box.png"/>
         <file name="graphics/tilesets/crypt_blockwall.png"/>
         <file name="graphics/tilesets/lof/warp_gates.png"/>
+    </atlas>
+
+    <atlas name="lof-castle">
+        <file name="graphics/tilesets/inn.png"/>
+        <file name="graphics/tilesets/lof/woodland_indoor.png"/>
+        <file name="graphics/tilesets/lof/castle_1.png"/>
+        <file name="graphics/tilesets/lof/castle_2.png"/>
+        <file name="graphics/tilesets/lof/castle_3.png"/>
+    </atlas>
+
+    <atlas name="lof-cave">
+        <file name="graphics/tilesets/cave.png"/>
+        <file name="graphics/tilesets/cave2.png"/>
+        <file name="graphics/tilesets/cave_x2.png"/>
+        <file name="graphics/tilesets/cave_bilevel.png"/>
+        <file name="graphics/tilesets/cave2_bilevel.png"/>
+        <file name="graphics/tilesets/cave_lava.png"/>
+        <file name="graphics/tilesets/mushrooms.png"/>
+        <file name="graphics/tilesets/lof/woodland_indoor.png"/>
+        <file name="graphics/tilesets/lof/woodland_indoor_x2.png"/>
+        <file name="graphics/tilesets/lof/woodland_indoor_x3.png"/>
+        <file name="graphics/tilesets/lof/woodland_indoor_extra.png"/>
+        <file name="graphics/tilesets/woodland_ground.png"/>
+        <file name="graphics/tilesets/woodland_x3.png"/>
+        <file name="graphics/tilesets/mountain.png"/>
     </atlas>
 
     <atlas name="lof-indoor">
