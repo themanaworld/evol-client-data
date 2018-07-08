@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="51" height="50" tilewidth="32" tileheight="32" nextobjectid="3">
  <properties>
-  <property name="name" value="Heroes' Hold - Castle"/>
-  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/018-2-1.png"/>
-
+  <property name="name" value="Heroes' Hold - Castle"/>
   <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
-
   <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
   <property name="overlay1mask" value="2"/>
   <property name="overlay1parallax" value="1.0"/>
@@ -430,12 +428,12 @@
  <objectgroup name="Objects">
   <object id="1" name="To Heroes' Hold - Overworld" type="warp" x="800" y="1056" width="96" height="32">
    <properties>
-    <property name="dest_map" value="hh-outside"/>
+    <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="72"/>
     <property name="dest_y" value="65"/>
    </properties>
   </object>
-  <object id="2" name="To Heroes' Hold - Main Cave" type="warp" x="800" y="1056" width="96" height="32">
+  <object id="2" name="To Heroes' Hold - Main Cave" type="warp" x="800" y="864" width="96" height="32">
    <properties>
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="0"/>

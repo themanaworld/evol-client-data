@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="8">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="9">
  <properties>
-  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/018-1.png"/>
   <property name="music" value="dariunas_forest.ogg"/>
   <property name="name" value="Sincerity"/>
-
   <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
-
   <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
   <property name="overlay1mask" value="2"/>
   <property name="overlay1parallax" value="1.0"/>
@@ -726,6 +724,13 @@
     <property name="dest_map" value="018-1-1"/>
     <property name="dest_x" value="33"/>
     <property name="dest_y" value="77"/>
+   </properties>
+  </object>
+  <object id="8" name="To LoF" type="warp" x="1024" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-1"/>
+    <property name="dest_x" value="179"/>
+    <property name="dest_y" value="196"/>
    </properties>
   </object>
  </objectgroup>

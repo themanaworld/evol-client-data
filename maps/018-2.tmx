@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" nextobjectid="23">
  <properties>
+  <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/018-2.png"/>
   <property name="music" value="Richard_Wagner_-_Ride_of_the_Valkyries.ogg"/>
   <property name="name" value="Heroes' Hold - Outside"/>
-  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
-  <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
-  <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/018-2.png"/>
-
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.307"/>
   <property name="overlay0scrollY" value="0.211"/>
-
   <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
   <property name="overlay1mask" value="2"/>
   <property name="overlay1parallax" value="1.0"/>
@@ -929,9 +926,9 @@
  <objectgroup name="Objects">
   <object id="1" name="To LoF" type="warp" x="2016" y="3392" width="32" height="32">
    <properties>
-    <property name="dest_map" value="000-1"/>
-    <property name="dest_x" value="22"/>
-    <property name="dest_y" value="22"/>
+    <property name="dest_map" value="017-1"/>
+    <property name="dest_x" value="176"/>
+    <property name="dest_y" value="196"/>
    </properties>
   </object>
   <object id="2" name="Spawn Area 1" type="spawn" x="2022" y="948" width="1902" height="704">

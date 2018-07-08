@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="180" height="120" tilewidth="32" tileheight="32" nextobjectid="15">
  <properties>
-  <property name="minimap" value="graphics/minimaps/018-4.png"/>
+  <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
+  <property name="manaplus version" value="2"/>
+  <property name="minimap" value="graphics/minimaps/000-1.png"/>
   <property name="music" value="mystique-forest.ogg"/>
   <property name="name" value="Secret Island"/>
   <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
-  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
-  <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
-  <property name="manaplus version" value="2"/>
-  <property name="minimap" value="graphics/minimaps/000-1.png"/>
-
-  <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
-  <property name="overlay0parallax" value="1.0"/>
-  <property name="overlay0scrollX" value="0.2"/>
-  <property name="overlay0scrollY" value="0.1"/>
-
   <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
   <property name="overlay1mask" value="2"/>
   <property name="overlay1parallax" value="1.0"/>
@@ -833,7 +826,7 @@
   <object id="1" name="graphics/particles/bonfire.particle.xml" type="PARTICLE_EFFECT" x="2144" y="736" width="32" height="32"/>
   <object id="10" name="To Cave" type="warp" x="3008" y="2848" width="32" height="32">
    <properties>
-    <property name="dest_map" value="si-cave"/>
+    <property name="dest_map" value="018-4-1"/>
     <property name="dest_x" type="int" value="102"/>
     <property name="dest_y" type="int" value="84"/>
    </properties>
@@ -841,8 +834,8 @@
   <object id="3" name="To LoF" type="warp" x="5248" y="3360" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" type="int" value="0"/>
-    <property name="dest_y" type="int" value="0"/>
+    <property name="dest_x" type="int" value="182"/>
+    <property name="dest_y" type="int" value="196"/>
    </properties>
   </object>
   <object id="9" name="To House" type="warp" x="2336" y="768" width="32" height="32">
