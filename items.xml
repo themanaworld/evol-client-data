@@ -5611,6 +5611,42 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
 
+	<!-- guns. TODO: Sprite, attack animation, particles -->
+	<item id="6010"
+		image="error.png"
+		name="Pyn Rifle"
+		description="When a single big hole in your enemies' chests is all you need."
+		attack="210"
+		attack-range="6"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="70"
+		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="1390">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+	<item id="6020"
+		image="error.png"
+		name="Pyn Gatling Gun"
+		description="That things shoot so fast! It is so fun shooting with it! Oh... Ran out of ammo already? %%a"
+		attack="30"
+		attack-range="6"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="70"
+		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="1390">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+
 	<!-- Arrows -->
 	<item id="6500"
 		image="equipment/ammo/trainingarrow.png"
@@ -5650,7 +5686,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
    <item id="6505"
 		image="equipment/ammo/poisonarrow.png"
 		name="Poison Arrow"
-		description="A normal arrow diped in poison"
+		description="A normal arrow diped in poison."
+		effect="May poison foes"
 		type="equip-ammo"
 		attack="90"
 		weight="2"/>
@@ -5668,6 +5705,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-ammo"
 		attack="350"
 		weight="5"/>
+   <item id="6510"
+		image="error.png"
+		name="Bullet"
+		description="The only thing which will fit on that gun of yours."
+		type="equip-ammo"
+		attack="10"
+		weight="10"/>
+   <item id="6511"
+		image="error.png"
+		name="Sacred Bullet"
+		description="Saulc added skeltons? No prob, we will get rid of them %%e"
+		type="equip-ammo"
+		attack="10"
+		weight="12"/>
 	<item id="7420"
 		image="usable/acorn.png"
 		name="Acorn Of Death"
