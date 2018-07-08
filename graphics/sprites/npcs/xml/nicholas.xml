@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Saulc
+Copyright (C) 2018 TMW2 Moubootaur Legends -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/nicholas.png"
+              width="40"
+              height="64"/>
+
+    <action name="stand" imageset="npc">    
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="90"/>
+            <goto label="hamlong" rand="50"/>
+            <goto label="ham" rand="100"/>
+            <!-- Long Hammering -->
+            <label name="hamlong"/>
+                <sequence start="0" end="3" repeat="6" delay="200"/>
+                <sequence start="0" end="2" repeat="2" delay="180"/>
+                <frame index="4" delay="240"/>
+            <goto label="start"/>
+            <!-- Long Move Animation -->
+            <label name="ham"/>
+                <sequence start="0" end="3" repeat="2" delay="200"/>
+                <sequence start="0" end="2" repeat="2" delay="180"/>
+                <frame index="4" delay="240"/>
+            <!-- Static Animation -->
+            <label name="static"/>
+                <frame index="4" delay="240"/>
+            <goto label="start"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>
