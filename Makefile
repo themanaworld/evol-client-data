@@ -5,7 +5,10 @@ SHELL=/bin/bash
 
 XSLTPROC = xsltproc
 
-all: about-server check
+all:
+	@echo "Standard: contrib about-server wiki check-png testxml updates music license icc"
+	@echo "Groups: check pipeline"
+
 
 contrib: about-server wiki
 
@@ -37,13 +40,13 @@ check-xml:
 	cd ../tools/testxml/ ; ./xsdcheck.sh ; cat errors.txt
 
 testxml:
-	cd ../tools/testxml/ ; ./testxml.py all
+	cd ../tools/testxml/ ; ./testxml.py silent
 
 updates:
-	cd ../tools/update/ ; ./createnew.sh
+	cd ../tools/update/ ; ./update.sh
 
 music:
-	cd ../tools/update/ ; ./create_music.sh
+	cd ../tools/update/ ; ./update_music.sh
 
 license:
 	cd ../tools/licensecheck/ ; ./clientdata.sh
