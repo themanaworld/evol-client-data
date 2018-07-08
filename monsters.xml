@@ -346,6 +346,9 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	</monster>
 	<monster id="1067" name="Fire Goblin" targetCursor="medium">
 		<sprite>monsters/firegoblin.xml</sprite>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit2.ogg</sound>
+    <sound event="miss">monsters/firegoblin/firegoblinmiss.ogg</sound>
 	</monster>
 	<monster id="1068" name="Mana Ghost" targetCursor="medium">
 		<sprite>monsters/managhost.xml</sprite>
@@ -799,18 +802,18 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
   </monster>
   <monster id="1176" name="Wicked Mushroom">
     <sprite>monsters/mushroom-wicked.xml</sprite>
-    <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+    <sound event="hit">monsters/shroom/shroomhit.ogg</sound>
   </monster>
   <monster id="1177" name="Bluepar" targetCursor="small">
     <sprite>monsters/bluepar.xml</sprite>
-    <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
-    <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
+    <sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
+    <sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
   </monster>
   <monster id="1178" name="Black Slime">
     <sprite>monsters/slime.xml|#494949,ffffff</sprite>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
-  <monster id="1179" name="Fafi Dragon" targetCursor="big">
+  <monster id="1179" name="Fafi Dragon" targetCursor="large">
     <sprite>monsters/dragon.xml</sprite>
   </monster>
   <monster id="1180" name="Chocolate Slime">
@@ -824,33 +827,38 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 
   <monster id="1182" name="Earth Fairy">
     <sprite>monsters/fairy.xml|#ff9e00</sprite>
-    <sound event="hit">fire-goblin-hit1.ogg</sound>
-    <sound event="miss">flower-miss1.ogg</sound>
-    <sound event="die">fada-die1.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="miss">monster/flower/miss.ogg</sound>
+    <sound event="die">monster/fairy/fada-die1.ogg</sound>
+    <sound event="die">monster/fairy/fada-die2.ogg</sound>
   </monster>
   <monster id="1183" name="Fire Fairy">
     <sprite>monsters/fairy.xml|#ff0000</sprite>
-    <sound event="hit">fire-goblin-hit1.ogg</sound>
-    <sound event="miss">flower-miss1.ogg</sound>
-    <sound event="die">fada-die2.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="miss">monster/flower/miss.ogg</sound>
+    <sound event="die">monster/fairy/fada-die1.ogg</sound>
+    <sound event="die">monster/fairy/fada-die2.ogg</sound>
   </monster>
   <monster id="1184" name="Water Fairy">
     <sprite>monsters/fairy.xml|#0000ff</sprite>
-    <sound event="hit">fire-goblin-hit1.ogg</sound>
-    <sound event="miss">flower-miss1.ogg</sound>
-    <sound event="die">fada-die1.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="miss">monster/flower/miss.ogg</sound>
+    <sound event="die">monster/fairy/fada-die1.ogg</sound>
+    <sound event="die">monster/fairy/fada-die2.ogg</sound>
   </monster>
   <monster id="1185" name="Wind Fairy">
     <sprite>monsters/fairy.xml|#ffffff</sprite>
-    <sound event="hit">fire-goblin-hit1.ogg</sound>
-    <sound event="miss">flower-miss1.ogg</sound>
-    <sound event="die">fada-die1.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="miss">monster/flower/miss.ogg</sound>
+    <sound event="die">monster/fairy/fada-die1.ogg</sound>
+    <sound event="die">monster/fairy/fada-die2.ogg</sound>
   </monster>
   <monster id="1186" name="Poison Fairy">
     <sprite>monsters/fairy.xml</sprite>
-    <sound event="hit">fire-goblin-hit1.ogg</sound>
-    <sound event="miss">flower-miss1.ogg</sound>
-    <sound event="die">fada-die1.ogg</sound>
+    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+    <sound event="miss">monster/flower/miss.ogg</sound>
+    <sound event="die">monster/fairy/fada-die1.ogg</sound>
+    <sound event="die">monster/fairy/fada-die2.ogg</sound>
   </monster>
 
   <!-- Resume -->
