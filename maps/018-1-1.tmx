@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="7">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="11">
  <properties>
-  <property name="name" value="Sincerity Island Cave"/>
-  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
+  <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/018-1-1.png"/>
-
+  <property name="name" value="Sincerity Island Cave"/>
   <property name="overlay1image" value="graphics/images/ambient/darkness2.png"/>
   <property name="overlay1mask" value="2"/>
   <property name="overlay1parallax" value="1.0"/>
@@ -565,7 +564,7 @@
  </layer>
  <objectgroup name="Objects">
   <object id="1" name="graphics/particles/waterfall.particle.xml" type="particle_effect" x="1824" y="1472"/>
-  <object id="2" name="Silkworm" type="spawn" x="1280" y="1344" width="736" height="512">
+  <object id="2" name="Silkworm" type="spawn" x="1248" y="1248" width="928" height="800">
    <properties>
     <property name="death" value="3000"/>
     <property name="max_beings" value="10"/>
@@ -602,6 +601,38 @@
     <property name="dest_map" value="018-1"/>
     <property name="dest_x" value="54"/>
     <property name="dest_y" value="38"/>
+   </properties>
+  </object>
+  <object id="7" name="Chocolate Slime" type="spawn" x="1696" y="896" width="800" height="1600">
+   <properties>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1180"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="8" name="Wicked Mushroom" type="spawn" x="704" y="1760" width="1760" height="704">
+   <properties>
+    <property name="death" value="3000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1176"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="9" name="Lavern" type="spawn" x="704" y="704" width="896" height="1152">
+   <properties>
+    <property name="death" value="3000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1175"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="10" name="Evil Mushroom" type="spawn" x="2272" y="1056" width="32" height="32">
+   <properties>
+    <property name="death" value="5000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1042"/>
+    <property name="spawn" value="40000"/>
    </properties>
   </object>
  </objectgroup>
