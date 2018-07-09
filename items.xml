@@ -1018,6 +1018,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="25"
 		sellProtected="true"
 		maxFloorOffset="20"/>
+	<item id="613"
+		image="usable/snakeeggmodel.png|W:#373737;R:#901010;G:#1a1a1a"
+		name="Black Mamba Egg"
+        description="An edible black mamba egg."
+		useButton="Eat"
+		effect="Heal 100-250 HP"
+		type="usable"
+		weight="4"/>
 	<!-- Generic Items -->
 	<item id="700"
 		image="generic/smalltentacles.png"
@@ -2226,6 +2234,18 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="generic"
 		weight="1"
 		maxFloorOffset="20"/>
+    <item id="878"
+        image="generic/black-mamba-skin.png"
+        name="Black Mamba Skin"
+        description="The skin of a slain black mamba."
+        type="generic"
+        weight="22"/>
+    <item id="879"
+        image="generic/snaketongue.png|W:#0a0a0a,e02020"
+        name="Black Mamba Tongue"
+        description="The forked tongue of a black mamba."
+        type="generic"
+        weight="2"/>
 
 
 	<!-- Necklaces -->
@@ -5134,10 +5154,61 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		attack="159"
 		attack-range="2"
 		level="20"
-		type="equip-1hand"
+		type="equip-2hand"
 		attack-action="attack"
 		weight="820">
 		<sprite>equipment/weapons/scythe.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
+	<item id="3522"
+		image="equipment/weapons/kanabo.png"
+		name="Kanabo"
+		description="A heavy and clumbersome mace from the lands of fire."
+		defense="-2"
+		dex="-2"
+		str="1"
+		attack="284"
+		attack-range="1"
+		level="30"
+		type="equip-2hand"
+		attack-action="attack"
+		weight="500">
+		<sprite>equipment/weapons/kanabo.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
+	<item id="3523"
+		image="equipment/weapons/cleaver.png"
+		name="Cleaver"
+		description="A heavy and dangerous cleaver from the lands of fire."
+		defense="-2"
+		dex="-2"
+		str="2"
+		attack="409"
+		attack-range="1"
+		level="40"
+		type="equip-2hand"
+		attack-action="attack"
+		weight="600">
+		<sprite>equipment/weapons/heavyaxe.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
+	<item id="3524"
+		image="equipment/weapons/broadsword.png"
+		name="Broadsword"
+		description="A heavy sword from the lands of fire. Useful even for bashing."
+		defense="-2"
+		dex="-2"
+		str="3"
+		attack="534"
+		attack-range="1"
+		level="50"
+		type="equip-2hand"
+		attack-action="attack"
+		weight="500">
+		<sprite>equipment/weapons/heavyaxe.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
