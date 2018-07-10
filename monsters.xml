@@ -739,6 +739,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	</monster>
 	<monster id="1155" name="Mana Piou" targetCursor="small" walkType="fly">
 		<sprite>monsters/piou.xml</sprite>
+		<particlefx>graphics/particles/smallmagicbif.particle.xml</particlefx>
 		<sound event="die">monsters/piou/die1.ogg</sound>
 		<sound event="hit">monsters/piou/hit1.ogg</sound>
 		<sound event="hurt">monsters/piou/hurt1.ogg</sound>
