@@ -852,14 +852,21 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
     <sound event="miss">monsters/flower/miss.ogg</sound>
     <sound event="die">monsters/fairy/fada-die1.ogg</sound>
     <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-  </monster>
-  <monster id="1186" name="Poison Fairy">
+</monster>
+<monster id="1186" name="Poison Fairy">
     <sprite>monsters/fairy.xml|#00ff00</sprite>
     <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
     <sound event="miss">monsters/flower/miss.ogg</sound>
     <sound event="die">monsters/fairy/fada-die1.ogg</sound>
     <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-  </monster>
+</monster>
+<monster id="1187" name="Vicious Squirrel">
+		<sprite>monsters/squirrel.xml|#736443</sprite>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+</monster>
 
   <!-- Resume -->
 
