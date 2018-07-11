@@ -47,8 +47,15 @@ Copyright (C) 2018 TMW2 -->
         <skill
             id="143"
             name="Fake Death"
-            icon="graphics/skills/poison.png"
+            icon="graphics/skills/none.png"
             description="Geez, I thought you were a goner for real!"
+            castingAnimation="emote.xml"
+        />
+        <skill
+            id="22"
+            name="Divine Protection"
+            icon="graphics/skills/wizard/potion.png"
+            description="Jesus' blessing, extra defense against unholy things."
             castingAnimation="emote.xml"
         />
     </set>
