@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="250" height="257" tilewidth="32" tileheight="32" nextobjectid="27">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="250" height="257" tilewidth="32" tileheight="32" nextobjectid="31">
  <properties>
   <property name="author" value="Jesusalva, Jefferson, Ernando, Diogo, et al: TMW BR v2 Team, TMW-BR Team, TMW2, LoF Team"/>
   <property name="license" value="GPL v2+"/>
@@ -2504,5 +2504,30 @@
   <object id="16" name="E" type="fixme" x="7360" y="-32" width="640" height="8256"/>
   <object id="17" name="W" type="fixme" x="0" y="0" width="640" height="8224"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
+ <objectgroup color="#ff7f00" name="Spawn">
+  <object id="27" name="Cyan Butterfly" type="spawn" x="960" y="1696" width="4864" height="4928">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="40"/>
+    <property name="monster_id" value="1172"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="28" name="Squirrel" type="spawn" x="704" y="704" width="6624" height="3040">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="25"/>
+    <property name="monster_id" value="1032"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="30" name="Living Potato" type="spawn" x="640" y="3776" width="6624" height="3776">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="36"/>
+    <property name="monster_id" value="1181"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
