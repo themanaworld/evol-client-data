@@ -765,110 +765,116 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 	    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</monster>
-  <monster id="1168" name="Tulimshar Guard">
-	<sprite>races/human-male.xml</sprite>
-    <sprite>equipment/feet/boots-male.xml|#594d36,b49b6c,f4d293</sprite>
-    <sprite>equipment/legs/jeanschaps-male.xml</sprite>
-    <sprite>equipment/chest/lightplatemail-male.xml</sprite>
-    <sprite>equipment/weapons/knife.xml</sprite>
-    <sprite>hairstyles/hairstyle28.xml|#2b2b2b,311623,3f3f3f,451a25,585858,602222,858585,7d2b26,a7a7a7,9a3416,d6d6d6,ca7e55,ffffff,e2b88f</sprite>
-    <sprite>equipment/head/infantryhelmet.xml</sprite>
-	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-  </monster>
+    <monster id="1168" name="Tulimshar Guard">
+        <sprite>races/human-male.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml|#594d36,b49b6c,f4d293</sprite>
+        <sprite>equipment/legs/jeanschaps-male.xml</sprite>
+        <sprite>equipment/chest/lightplatemail-male.xml</sprite>
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sprite>hairstyles/hairstyle28.xml|#2b2b2b,311623,3f3f3f,451a25,585858,602222,858585,7d2b26,a7a7a7,9a3416,d6d6d6,ca7e55,ffffff,e2b88f</sprite>
+        <sprite>equipment/head/infantryhelmet.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </monster>
 
   <!-- Stop here. Monsters added because LoF and Fairy Lands -->
-  <monster id="1169" name="Grass Snake">
-    <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff;#ffffff;#ffffff</sprite>
-  </monster>
-  <monster id="1170" name="Gift Box">
-    <sprite>monsters/presente-surpresa.xml</sprite>
-    <particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
-  </monster>
-  <monster id="1171" name="Troll">
-    <sprite>monsters/troll.xml|#ffdec2;#ff4d4d;#ff99ff;#ffc88a</sprite>
-    <attack id="1" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" action="attack"/>
-  </monster>
-  <monster id="1172" name="Cyan Butterfly" targetCursor="small">
-    <sprite>monsters/butterfly.xml|#33cccc,000066,33cccc,ffffff</sprite>
-    <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
-  </monster>
-  <monster id="1173" name="Electro Worm">
-    <sprite>monsters/serqet.xml</sprite>
-  </monster>
-  <monster id="1174" name="Black Mamba">
-    <sprite>monsters/snake.xml|#151515,505050,e02020;#a01010;#ffffff</sprite>
-  </monster>
-  <monster id="1175" name="Larvern" targetCursor="small">
-    <sprite>monsters/larvespa.xml|#211b0e,5c3e20,a68d42;#667C26</sprite>
-  </monster>
-  <monster id="1176" name="Wicked Mushroom">
-    <sprite>monsters/mushroom-wicked.xml</sprite>
-    <sound event="hit">monsters/shroom/shroomhit.ogg</sound>
-  </monster>
-  <monster id="1177" name="Bluepar" targetCursor="small">
-    <sprite>monsters/bluepar.xml</sprite>
-    <sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
-    <sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
-  </monster>
-  <monster id="1178" name="Black Slime">
-    <sprite>monsters/slime.xml|#494949,ffffff</sprite>
-    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-  </monster>
-  <monster id="1179" name="Fafi Dragon" targetCursor="large">
-    <sprite>monsters/dragon.xml</sprite>
-  </monster>
-  <monster id="1180" name="Chocolate Slime">
-    <sprite>monsters/slime.xml|#8a5825</sprite>
-    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-  </monster>
-  <monster id="1181" name="Living Potato">
-    <sprite>monsters/batata.xml|#C45E00</sprite>
-    <sprite>monsters/batata-folhas.xml</sprite>
-  </monster>
+      <monster id="1169" name="Grass Snake">
+        <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff;#ffffff;#ffffff</sprite>
+      </monster>
+      <monster id="1170" name="Gift Box">
+        <sprite>monsters/presente-surpresa.xml</sprite>
+        <particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+      </monster>
+      <monster id="1171" name="Troll">
+        <sprite>monsters/troll.xml|#ffdec2;#ff4d4d;#ff99ff;#ffc88a</sprite>
+        <attack id="1" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" action="attack"/>
+      </monster>
+      <monster id="1172" name="Cyan Butterfly" targetCursor="small">
+        <sprite>monsters/butterfly.xml|#33cccc,000066,33cccc,ffffff</sprite>
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+      </monster>
+      <monster id="1173" name="Electro Worm">
+        <sprite>monsters/serqet.xml</sprite>
+      </monster>
+      <monster id="1174" name="Black Mamba">
+        <sprite>monsters/snake.xml|#151515,505050,e02020;#a01010;#ffffff</sprite>
+      </monster>
+      <monster id="1175" name="Larvern" targetCursor="small">
+        <sprite>monsters/larvespa.xml|#211b0e,5c3e20,a68d42;#667C26</sprite>
+      </monster>
+      <monster id="1176" name="Wicked Mushroom">
+        <sprite>monsters/mushroom-wicked.xml</sprite>
+        <sound event="hit">monsters/shroom/shroomhit.ogg</sound>
+      </monster>
+      <monster id="1177" name="Bluepar" targetCursor="small">
+        <sprite>monsters/bluepar.xml</sprite>
+        <sound event="hit">monsters/pinkie/pinkiehit.ogg</sound>
+        <sound event="miss">monsters/pinkie/pinkiemiss.ogg</sound>
+      </monster>
+      <monster id="1178" name="Black Slime">
+        <sprite>monsters/slime.xml|#494949,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+      </monster>
+      <monster id="1179" name="Fafi Dragon" targetCursor="large">
+        <sprite>monsters/dragon.xml</sprite>
+      </monster>
+      <monster id="1180" name="Chocolate Slime">
+        <sprite>monsters/slime.xml|#8a5825</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+      </monster>
+      <monster id="1181" name="Living Potato">
+        <sprite>monsters/batata.xml|#C45E00</sprite>
+        <sprite>monsters/batata-folhas.xml</sprite>
+      </monster>
 
-  <monster id="1182" name="Earth Fairy">
-    <sprite>monsters/fairy.xml|#ff9e00</sprite>
-    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
-    <sound event="miss">monsters/flower/miss.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die1.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-  </monster>
-  <monster id="1183" name="Fire Fairy">
-    <sprite>monsters/fairy.xml|#ff0000</sprite>
-    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
-    <sound event="miss">monsters/flower/miss.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die1.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-  </monster>
-  <monster id="1184" name="Water Fairy">
-    <sprite>monsters/fairy.xml|#0000ff</sprite>
-    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
-    <sound event="miss">monsters/flower/miss.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die1.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-  </monster>
-  <monster id="1185" name="Wind Fairy">
-    <sprite>monsters/fairy.xml|#ffffff</sprite>
-    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
-    <sound event="miss">monsters/flower/miss.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die1.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-</monster>
-<monster id="1186" name="Poison Fairy">
-    <sprite>monsters/fairy.xml|#00ff00</sprite>
-    <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
-    <sound event="miss">monsters/flower/miss.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die1.ogg</sound>
-    <sound event="die">monsters/fairy/fada-die2.ogg</sound>
-</monster>
-<monster id="1187" name="Vicious Squirrel">
-		<sprite>monsters/squirrel.xml|#736443</sprite>
-		<sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
-		<sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
-		<sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
-		<sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
-</monster>
+      <monster id="1182" name="Earth Fairy">
+        <sprite>monsters/fairy.xml|#ff9e00</sprite>
+        <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+        <sound event="miss">monsters/flower/miss.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die1.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die2.ogg</sound>
+      </monster>
+      <monster id="1183" name="Fire Fairy">
+        <sprite>monsters/fairy.xml|#ff0000</sprite>
+        <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+        <sound event="miss">monsters/flower/miss.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die1.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die2.ogg</sound>
+      </monster>
+      <monster id="1184" name="Water Fairy">
+        <sprite>monsters/fairy.xml|#0000ff</sprite>
+        <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+        <sound event="miss">monsters/flower/miss.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die1.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die2.ogg</sound>
+      </monster>
+      <monster id="1185" name="Wind Fairy">
+        <sprite>monsters/fairy.xml|#ffffff</sprite>
+        <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+        <sound event="miss">monsters/flower/miss.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die1.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die2.ogg</sound>
+    </monster>
+    <monster id="1186" name="Poison Fairy">
+        <sprite>monsters/fairy.xml|#00ff00</sprite>
+        <sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+        <sound event="miss">monsters/flower/miss.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die1.ogg</sound>
+        <sound event="die">monsters/fairy/fada-die2.ogg</sound>
+    </monster>
+    <monster id="1187" name="Vicious Squirrel">
+	    <sprite>monsters/squirrel.xml|#736443</sprite>
+	    <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+	    <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+	    <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+	    <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+    </monster>
+    <monster id="1188" name="Alizarin Plant">
+        <sprite>monsters/plant.xml|#e32636</sprite>
+    </monster>
+    <monster id="1189" name="Shadow Plant">
+        <sprite>monsters/plant.xml|#332636</sprite>
+    </monster>
 
   <!-- Resume -->
 
