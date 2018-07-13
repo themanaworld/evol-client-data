@@ -5729,6 +5729,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="error.png"
 		name="Pyn Rifle"
 		description="When a single big hole in your enemies' chests is all you need."
+		effect="Critical +40%"
 		attack="510"
 		attack-range="6"
 		missile-particle="graphics/particles/training-arrow.xml"
@@ -5774,6 +5775,24 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		missile-diedistance="3"
 		level="70"
 		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="1190">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+	<item id="6040"
+		image="error.png"
+		name="Pyn Revolver"
+		description="You better raise your dextry, or you won't hit anything with it."
+		effect="Acc. -40%, Critical -60%"
+		attack="160"
+		attack-range="4"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="70"
+		type="equip-1hand"
 		attack-action="attack_bow"
 		weight="1190">
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
