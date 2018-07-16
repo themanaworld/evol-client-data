@@ -12,6 +12,23 @@ Copyright (C) 2018 TMW2 -->
             description="Gives you an identity."
         />
         <skill
+            id="20031"
+            name="Resync"
+            icon="graphics/skills/life.png"
+            description="Corrects ManaPlus desync."
+            invokeCmd="@resync"
+            alwaysVisible="true"
+        />
+        <skill
+            id="20032"
+            name="Language"
+            icon="graphics/skills/none.png"
+            description="Change language."
+            invokeCmd="@lang"
+            alwaysVisible="true"
+        />
+    </set>
+        <skill
             id="20002"
             name="Super Menu"
             icon="graphics/skills/none.png"
