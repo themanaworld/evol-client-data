@@ -232,6 +232,7 @@ Copyright (C) 2018 TMW2 -->
             description="Draw text on ground."
             useTextParameter="true"
         />
+        <!-- Mana Skills -->
         <skill
             id="20024"
             name="Parum"
@@ -239,6 +240,12 @@ Copyright (C) 2018 TMW2 -->
             castingMissile-particle="graphics/particles/critical.xml"
             description="Transmutate wood into stuff."
             invokeCmd="@sk-parum"
+        />
+        <skill
+            id="20025"
+            name="Summon Maggots"
+            icon="graphics/skills/none.png"
+            description="200 MP. 2x Maggot Slime. May fail."
         />
     </set>
 
