@@ -181,34 +181,6 @@ Copyright (C) 2018 TMW2 -->
             description="ATK +32%, VIT DEF -55% when HP is below 25%. Drains MP."
         />
 
-        <!-- Mana Skills -->
-        <skill
-            id="20023"
-            name="Summon Cave Maggot"
-            icon="graphics/skills/magic.png"
-            description="400 MP."
-            invokeCmd="@sk-zarkor"
-            castingSrcEffectId="23"
-            level="1"
-        />
-        <skill
-            id="20023"
-            name="Summon Cave Maggot"
-            icon="graphics/skills/magic.png"
-            description="475 MP."
-            invokeCmd="@sk-zarkor"
-            castingSrcEffectId="23"
-            level="2"
-        />
-        <skill
-            id="20023"
-            name="Summon Cave Maggot"
-            icon="graphics/skills/magic.png"
-            description="550 MP."
-            invokeCmd="@sk-zarkor"
-            castingSrcEffectId="23"
-            level="3"
-        />
     </set>
     <set name="Magical">
         <skill
@@ -236,6 +208,51 @@ Copyright (C) 2018 TMW2 -->
             castingMissile-particle="graphics/particles/critical.xml"
             description="Focus and do a magical shoot which multihits."
         />
+
+        <!-- Sage -->
+        <skill
+            id="278"
+            name="Action Casting"
+            icon="graphics/skills/wizard/freecast.png"
+            description="Allows to move and attack while casting."
+        />
+        <skill
+            id="284"
+            name="Dragon Slayer"
+            icon="graphics/skills/wizard/dragon.png"
+            description="Raises attack and defense while fighting dragons. Raise int."
+        />
+        <skill
+            id="20026"
+            name="Mana Wisdom"
+            icon="graphics/skills/wizard/manaexp.png"
+            description="Increases Mana Experience Gain."
+        />
+        <skill
+            id="280"
+            name="Fire Weapon"
+            icon="graphics/skills/wizard/firesword.png"
+            description="Switch attack element to fire. 70% chance to fail."
+        />
+        <skill
+            id="281"
+            name="Ice Weapon"
+            icon="graphics/skills/wizard/icesword.png"
+            description="Switch attack element to ice. 70% chance to fail."
+        />
+        <skill
+            id="282"
+            name="Wind Weapon"
+            icon="graphics/skills/wizard/windsword.png"
+            description="Switch attack element to wind. 70% chance to fail."
+        />
+        <skill
+            id="283"
+            name="Earth Weapon"
+            icon="graphics/skills/wizard/earthsword.png"
+            description="Switch attack element to earth. 70% chance to fail."
+        />
+        <!-- NYI -->
         <skill
             id="20001"
             name="Magic shield"
@@ -264,6 +281,34 @@ Copyright (C) 2018 TMW2 -->
             icon="graphics/skills/other/kalmurk.png"
             description="200 MP. 2x Maggot Slime. May fail."
             invokeCmd="@sk-kalmurk"
+        />
+        <!-- Mana Skill: Summon Cave Maggot -->
+        <skill
+            id="20023"
+            name="Summon Cave Maggot"
+            icon="graphics/skills/magic.png"
+            description="400 MP."
+            invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="1"
+        />
+        <skill
+            id="20023"
+            name="Summon Cave Maggot"
+            icon="graphics/skills/magic.png"
+            description="475 MP."
+            invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="2"
+        />
+        <skill
+            id="20023"
+            name="Summon Cave Maggot"
+            icon="graphics/skills/magic.png"
+            description="550 MP."
+            invokeCmd="@sk-zarkor"
+            castingSrcEffectId="23"
+            level="3"
         />
     </set>
 
