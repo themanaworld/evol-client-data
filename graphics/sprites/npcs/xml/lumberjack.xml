@@ -1,3 +1,4 @@
+<<<<<<< 21c4c83ea02e1292391aaa7fdbaf3dc3202a100a
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid, Micksha
 Copyright (C) 2010-2018 Evol Online -->
@@ -10,12 +11,25 @@ Copyright (C) 2010-2018 Evol Online -->
 
     <action name="stand" imageset="base">
         <animation direction="default">
+=======
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/npc-lumberjack.png" width="42" height="63"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- eyes movements -->
+>>>>>>> Add the first few npcs: old Koga, Lumberjack, Richard.
       <frame index="0" delay="3000"/>
       <frame index="1" delay="80"/>
       <frame index="0" delay="1500"/>
       <frame index="1" delay="80"/>
       <frame index="0" delay="3000"/>
       <frame index="1" delay="300"/>
+<<<<<<< 21c4c83ea02e1292391aaa7fdbaf3dc3202a100a
         </animation>
     </action>
+=======
+    </animation>
+  </action>
+>>>>>>> Add the first few npcs: old Koga, Lumberjack, Richard.
 </sprite>
