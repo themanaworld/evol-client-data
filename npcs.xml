@@ -258,6 +258,11 @@ IDs 900-999 = Special
         <sprite>npcs/xml/jumpingtipiou.xml|#a36209,892b2e,cc9b14,b84335,ebc12e,ee613c,fff568,fbac71</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="148">
+        <!-- The good old Koga. -->
+        <sprite>npcs/xml/koga.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -593,6 +598,14 @@ IDs 900-999 = Special
         <sprite>equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
         <sprite>equipment/neck/copper-necklace.xml|#315a67,a4a4ae,dce5d6,ffffff</sprite>
         <sprite>hairstyles/hairstyle22.xml|#16211f,162e29,195145,1d7a62,29a27a,51de9c,c9f7bc</sprite>
+    <npc id="453">
+        <!-- Legendary Luberjack. -->
+        <sprite>npcs/xml/lumberjack.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+        <npc id="454">
+        <!-- Human Male, removing his monocle for winking. -->
+        <sprite>npcs/xml/richard.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 

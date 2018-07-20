@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/richard.png"
+              width="64"
+              height="64"/>
+
+    <action name="stand" imageset="npc">    
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="95"/>
+            <goto label="winking" rand="5"/>
+            <!-- winking -->
+            <label name="winking"/>
+                <sequence start="0" end="2" delay="160"/>
+                <sequence start="2" end="4" repeat="2" delay="120"/>
+                <frame index="4" delay="50"/>
+                <frame index="1" delay="80"/>
+                <frame index="0" delay="240"/>
+            <goto label="start"/>
+            <!-- Static Animation -->
+            <label name="static"/>
+                <frame index="0" delay="400"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>
