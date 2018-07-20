@@ -344,11 +344,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="165">
-<<<<<<< a934ccc6b08044005ed62f27e9503b21b46a6ed3
-        <!-- LEGACY - Waitress, former Melinda. -->
-=======
         <!-- LEGACY - Waitress, Melinda. -->
->>>>>>> add a bunch of hurns NPCs - most of them LEGACY versions, to be changed one by one
         <sprite variant="16">npcs/xml/unanimated-legacy.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -373,14 +369,6 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="170">
-<<<<<<< a934ccc6b08044005ed62f27e9503b21b46a6ed3
-=======
-        <!-- LEGACY - Young Boy, Mike.  -->
-        <sprite variant="20">npcs/xml/unanimated-legacy.xml</sprite>
-        <menu name="Talk" command="talk 'NAME'"/>
-    </npc>
-    <npc id="170">
->>>>>>> add a bunch of hurns NPCs - most of them LEGACY versions, to be changed one by one
         <!-- LEGACY - Princess, Celestia.  -->
         <sprite variant="0">npcs/xml/unanimated-legacy-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
@@ -405,7 +393,6 @@ IDs 900-999 = Special
         <sprite variant="4">npcs/xml/unanimated-legacy-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-<<<<<<< a934ccc6b08044005ed62f27e9503b21b46a6ed3
     <npc id="175">
         <!-- LEGACY - Drinker Roamingo, sitting.  -->
         <sprite variant="22">npcs/xml/unanimated-legacy.xml</sprite>
@@ -461,8 +448,6 @@ IDs 900-999 = Special
         <sprite variant="28">npcs/xml/unanimated-legacy.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-=======
->>>>>>> add a bunch of hurns NPCs - most of them LEGACY versions, to be changed one by one
 
     <!-- Animated NPCs -->
 
@@ -809,7 +794,6 @@ IDs 900-999 = Special
         <sprite>npcs/xml/hinnak.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-<<<<<<< a934ccc6b08044005ed62f27e9503b21b46a6ed3
     <npc id="454">
         <!-- Human Male, removing his monocle for winking. -->
         <sprite>npcs/xml/richard.xml</sprite>
@@ -827,8 +811,11 @@ IDs 900-999 = Special
         <sprite>equipment/chest/shirt-male.xml|#2b2b2b,382140,3f3f3f,3a254e,585858,3b3769,858585,3c3d83,a7a7a7,4246a6,d6d6d6,5a9cdb,ffffff,afedd2</sprite>
         <sprite>hairstyles/hairstyle01.xml</sprite>
     </npc>
-=======
->>>>>>> add a bunch of hurns NPCs - most of them LEGACY versions, to be changed one by one
+    <npc id="452">
+        <!-- Legendary Luberjack. -->
+        <sprite>npcs/xml/lumberjack.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">

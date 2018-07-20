@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Micksha
-
 Copyright (C) 2018 Evol Online -->
 
 <sprite>
@@ -13,7 +12,6 @@ Copyright (C) 2018 Evol Online -->
             <label name="start"/>
             <goto label="static" rand="95"/>
             <goto label="winking" rand="100"/>
-            <goto label="winking" rand="5"/>
             <!-- winking -->
             <label name="winking"/>
                 <sequence start="0" end="2" delay="160"/>
