@@ -1342,7 +1342,27 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="75" y="68">Dimond's Cove, Third Floor.</coordinates>
         </quest>
     </var>
-    <!-- var 271 TODO -->
+    <var id="271">
+        <quest name="True Buccaneer" group="LoF Village" incomplete="1">
+            <name>True Buccaneer</name>
+            <text>Arr, I was told that George needs help! Gotta help pirates, 'cause I'm so cool! Arr!</text>
+        </quest>
+        <quest name="True Buccaneer" group="LoF Village" incomplete="2">
+            <name>True Buccaneer</name>
+            <text>Arr, I should return with 30 Beer, 30 Casino Coins and 50 Empty Bottles! Arr Yarr!</text>
+            <text></text>
+            <questgiver>George</questgiver>
+            <coordinates x="26" y="36">Sincerity Island</coordinates>
+        </quest>
+        <quest name="True Buccaneer" group="LoF Village" complete="3">
+            <name>True Buccaneer</name>
+            <text>Yarr, I got a nice hat for helping! Arr, he might need help later!</text>
+            <text></text>
+            <questgiver>George</questgiver>
+            <coordinates x="26" y="36">Sincerity Island</coordinates>
+            <reward text1="[Sailor Hat]">{@@1}</reward>
+        </quest>
+    </var>
     <!-- var 272 TODO -->
     <!-- var 273 TODO -->
 
