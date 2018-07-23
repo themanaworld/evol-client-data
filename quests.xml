@@ -836,7 +836,81 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>20.000 GP, 7995 EXP</reward>
         </quest>
     </var>
-    <!-- var 61 TODO -->
+    <var id="61">
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="1">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Go talk to Eomie, on Tulimshar Magic School</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="2">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Go talk to Tinris, on Tulimshar Magic School</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="3">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Bring 12 [Cherry Cake] to Tinris, on Tulimshar Magic School.</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="4,5,6">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>To make a fertilizer with Tinris, I need 3 [Plushroom] and 10 [Maggot Slime].</text>
+            <text>Then I need to report to anwar, and cross my fingers.</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="7">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Report to Tinris the result of his fertilizer.</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="8">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Deliver to Anwar the bug bomb, to protect the crops.</text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" incomplete="9">
+            <name>Anwar's Field</name>
+            <text>Anwar need help to save his crops!!</text>
+            <text>If nothing is done Tulimshar will face a famine.</text>
+            <text></text>
+            <text>Give to Tinris and Eomie the gift from Anwar.</text>
+            <text></text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+        </quest>
+        <quest name="Anwar's Field" group="Tulimshar" complete="10">
+            <name>Anwar's Field</name>
+            <text>I help Anwar to save his crops, Tulimshar should now be safe from a famine.</text>
+            <text></text>
+            <questgiver>Anwar</questgiver>
+            <coordinates x="107" y="67">Tulimshar's Desert.</coordinates>
+            <reward text1="[Orange Farmer Pants]">{@@1}</reward>
+        </quest>
+    </var>
     <!-- var 62 Secret -->
     <var id="63">
         <quest name="Neked Shop" group="Tulimshar" incomplete="1">
@@ -922,8 +996,29 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Ruby]">1x {@@1}, 5000 GP</reward>
         </quest>
     </var>
-    <!-- var 192 TODO -->
-    <!-- var 193 TODO -->
+    <!-- var 192 daily quest «I will omit it here» -->
+    <var id="193">
+        <quest name="Miner Banage" group="Tulimshar" incomplete="1">
+            <name>Miner Banage</name>
+            <text>Caelum hurt himself while mining, and now he wants to improvise an bandage.</text>
+            <text>For that, he needs a lifestone and a cotton cloth. He also needs 2 Black Scorpion Stinger.</text>
+            <text>Besides 5 Scorpion Claw, 10 Bat Teeth, 10 Cactus Drink, 20 Maggot Slime, and 8 Bug Legs.</text>
+            <text></text>
+            <text>Ah, these NPCs which require an empire of items...</text>
+            <text></text>
+            <questgiver>Caelum</questgiver>
+            <coordinates x="143" y="49">Tulimshar Mines.</coordinates>
+            <reward text1="[Miner Gloves]">{@@1}</reward>
+        </quest>
+        <quest name="Miner Banage" group="Tulimshar" complete="2">
+            <name>Miner Banage</name>
+            <text>Caelum hurt himself while mining, but now he have an improvised bandage.</text>
+            <text></text>
+            <questgiver>Caelum</questgiver>
+            <coordinates x="143" y="49">Tulimshar Mines.</coordinates>
+            <reward text1="[Miner Gloves]">{@@1}</reward>
+        </quest>
+    </var>
 
     <!-- HALINARZO QUESTS -->
     <var id="71">
@@ -1077,7 +1172,26 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>New Skill</reward>
         </quest>
     </var>
-    <!-- var 93 TODO -->
+    <var id="93">
+        <quest name="The Yeti King Quest" group="Hurnscald" incomplete="1,2,3,4,5">
+            <name>The Yeti King Quest ({@@var1})</name>
+            <text>I need to find the Yeti King and convince him to fight on our side.</text>
+            <text text1="[Everburn Powder]">To (re)start this quest, I need to pour 1x {@@1} on Tulimshar Sewer.</text>
+            <text></text>
+            <text>This is a loose co-op quest. I cannot start it alone, but I can finish it alone.</text>
+            <text></text>
+            <questgiver>Celestia</questgiver>
+            <coordinates x="102" y="69">Hurnscald, Town Hall.</coordinates>
+        </quest>
+        <quest name="The Yeti King Quest" group="Hurnscald" complete="6,7">
+            <name>The Yeti King Quest ({@@var1})</name>
+            <text>I can now return home, and optionally report Celestia the result.</text>
+            <text>The Yeti King gave me a reward, maybe I should do that again!</text>
+            <text></text>
+            <questgiver>Celestia</questgiver>
+            <coordinates x="102" y="69">Hurnscald, Town Hall.</coordinates>
+        </quest>
+    </var>
     <var id="94">
         <quest name="Celestia Tea Party" group="Hurnscald" incomplete="1">
             <name>Celestia Tea Party</name>

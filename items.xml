@@ -4216,9 +4216,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Axe Hat"
 		description="A really cool joke."
 		defense="8"
-		level="5"
+		level="8"
 		type="equip-head"
-		weight="50">
+		weight="82">
 		<sprite>equipment/head/axehat.xml</sprite>
 	</item>
 	<item id="2927"
@@ -5172,16 +5172,16 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/staffoflife.png"
 		name="Thunder Staff ★★★"
 		description="Jesusalva's courtesy, impairs holy lightning over your foes!"
-		attack="100"
+		attack="150"
 		mattack="25"
 		attack-range="2"
-		effect="Secret Item"
+		effect="Wind Attack, Rare Item"
 		level="40"
 		hit-effect-id="312"
 		miss-effect-id="50"
 		type="equip-2hand"
 		sellProtected="true"
-		weight="1000">
+		weight="600">
 		<sprite>equipment/weapons/piouslayer.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -5191,7 +5191,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/divinesword.png|W:#ff0000"
 		name="Judgement ★★★"
 		description="Sometimes, to Saves the ones you like, you must judge the ones you don't."
-		attack="100"
+		attack="140"
 		effect="Splash damage and knockback effect"
 		level="24"
 		critical-hit-effect-id="312"
