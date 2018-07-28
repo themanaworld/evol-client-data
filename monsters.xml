@@ -887,6 +887,11 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
     <monster id="1193" name="Fire Skull" targetCursor="small">
         <sprite>monsters/fireskull.xml</sprite>
       </monster>
+    <monster id="1194" name="Angry Bat" targetCursor="small">
+		<sprite>monsters/bat.xml</sprite>
+		<sound event="die">monsters/bat/batdie.ogg</sound>
+		<sound event="hit">monsters/bat/bathit.ogg</sound>
+	</monster>
 
   <!-- Resume -->
 
