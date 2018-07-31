@@ -5356,6 +5356,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
+		<item id="3526"
+		image="equipment/weapons/indianspear.png"
+		name="Centaur Spear"
+		description="heavy spear made for centaur."
+		defense="-10"
+		agi="-4"
+		dex="-2"
+		attack="400"
+		attack-range="2"
+		level="70"
+		type="equip-2hand"
+		attack-action="attack"
+		weight="900">
+		<sprite>equipment/weapons/scythe.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
 	<!-- Pets -->
 	<item id="4000"
 		image="usable/piouegg.png"
