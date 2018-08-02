@@ -1378,7 +1378,30 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Sailor Hat]">{@@1}</reward>
         </quest>
     </var>
-    <!-- var 272 TODO -->
+    <var id="272">
+        <quest name="Slaying the Fafi Dragon" group="LoF Village" incomplete="1">
+            <name>Slaying the Fafi Dragon</name>
+            <text>Susanne asked me to slay the Fafi Dragon which roams this island.</text>
+            <text></text>
+            <questgiver>Susanne</questgiver>
+            <coordinates x="31" y="26">Secret Island, Fairy House.</coordinates>
+        </quest>
+        <quest name="Slaying the Fafi Dragon" group="LoF Village" incomplete="2">
+            <name>Slaying the Fafi Dragon</name>
+            <text>The dragon was slain. I need to report to Susanne.</text>
+            <text></text>
+            <questgiver>Susanne</questgiver>
+            <coordinates x="31" y="26">Secret Island, Fairy House.</coordinates>
+        </quest>
+        <quest name="Slaying the Fafi Dragon" group="LoF Village" complete="3">
+            <name>Slaying the Fafi Dragon</name>
+            <text>I can pay Susanne some items for a respawn.</text>
+            <text></text>
+            <questgiver>Susanne</questgiver>
+            <coordinates x="31" y="26">Secret Island, Fairy House.</coordinates>
+            <reward text1="[Fafi Mask]">{@@1}</reward>
+        </quest>
+    </var>
     <!-- var 273 TODO -->
 
 
