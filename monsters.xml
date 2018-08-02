@@ -817,6 +817,7 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
       </monster>
       <monster id="1179" name="Fafi Dragon" targetCursor="large">
         <sprite>monsters/dragon.xml</sprite>
+		<particlefx>graphics/particles/circle-magic.xml</particlefx>
       </monster>
       <monster id="1180" name="Chocolate Slime">
         <sprite>monsters/slime.xml|#8a5825</sprite>
@@ -894,5 +895,8 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	</monster>
 
   <!-- Resume -->
+      <monster id="1195" name="Green Dragon" targetCursor="large">
+        <sprite>monsters/dragon.xml</sprite>
+      </monster>
 
 </monsters>
