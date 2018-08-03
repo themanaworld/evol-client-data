@@ -579,11 +579,9 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 	<monster id="1119" name="Big Magic Bif" targetCursor="medium">
 		<sprite>monsters/bigbif.xml|#ff059d,ff0e93</sprite>
 		<particlefx>graphics/particles/bigmagicbif.particle.xml</particlefx>
-	<!-- FIXME missing XML
-	<monster id="1120" name="Jack'O" targetCursor="medium">
-		<sprite>monsters/jack.xml</sprite>
 	</monster>
-	-->
+	<monster id="1120" name="Jack'O" targetCursor="medium">
+		<sprite>monsters/jacko.xml</sprite>
 	</monster>
 	<monster id="1121" name="Easter Mouboo" targetCursor="medium">
 		<sprite>monsters/mouboo.xml</sprite>
