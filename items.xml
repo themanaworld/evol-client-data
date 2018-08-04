@@ -4845,22 +4845,22 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="3008"
 		image="equipment/head/moonshroomhat.png"
 		name="Moonshroom Hat"
-		description="Do you feel this magic ora?"
+		description="Do you feel this magic aura?"
 		defense="70"
 		level="70"
 		int="7"
 		type="equip-head"
 		weight="50">
-		<sprite>equipment/head/wickedshroomhat.xml</sprite>
+		<sprite>equipment/head/shroomhat.xml</sprite>
 	</item>
 	<item id="3009"
 		image="equipment/head/fafimask.png"
 		name="Fafi Mask"
 		description="Your friends will think you're a dragon!"
 		defense="30"
+        int="1"
+        mp="25"
 		level="50"
-		int="1"
-		mp="25"
 		type="equip-head"
 		weight="40">
 		<sprite>equipment/head/fafimask.xml</sprite>
