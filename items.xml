@@ -3112,6 +3112,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite gender="unisex">equipment/chest/chemistrobe-male.xml</sprite>
 		<sprite gender="female">equipment/chest/chemistrobe-female.xml</sprite>
 	</item>
+		<item id="1337"
+		image="silkrobe.png|W:#000000"
+		name="Graduation Robe"
+		description="Congrats you're part of master of TMW2."
+		effect="SP +100, Matk +20"
+		defense="70"
+		level="75"
+		type="equip-torso"
+		weight="25"
+		maxFloorOffset="10">
+		<sprite gender="unisex">equipment/chest/silkrobe-male.xml|#000000</sprite>
+		<sprite gender="female">equipment/chest/silkrobe-female.xml|#000000</sprite>
+	</item>
 
 	<!-- Boots -->
 	<item id="1800"
