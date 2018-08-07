@@ -4880,7 +4880,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="40">
 		<sprite>equipment/head/fafimask.xml</sprite>
 	</item>
-
+	<item id="3010"
+		image="equipment/head/afkcap.png"
+		name="AFK Cap"
+		description="A cap which identifies you as an useless player."
+		defense="5"
+		type="equip-head"
+		weight="30">
+		<sprite>equipment/head/afkcap.xml</sprite>
+		<replace sprite="hair">
+			<item from="-5" to="-4"/>
+			<item from="-14" to="-9"/>
+			<item from="-15" to="-19"/>
+		</replace>
+	</item>
 	<!-- Neck Armors -->
 	<item id="3200"
 		image="equipment/neck/shemagh.png"
