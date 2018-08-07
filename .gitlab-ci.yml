@@ -49,7 +49,7 @@ contributors:
   - ./.tools/contributors.sh
   - pwd
 
-.licensecheck:
+licensecheck:
   stage: test
   script:
   - ./.tools/licensecheck.sh
