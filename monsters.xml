@@ -891,10 +891,11 @@ event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 		<sound event="die">monsters/bat/batdie.ogg</sound>
 		<sound event="hit">monsters/bat/bathit.ogg</sound>
 	</monster>
-
   <!-- Resume -->
       <monster id="1195" name="Green Dragon" targetCursor="large">
         <sprite>monsters/dragon.xml</sprite>
       </monster>
-
+    <monster id="1196" name="Reaper" targetCursor="medium">
+		<sprite>monsters/reaper.xml</sprite>
+	</monster>
 </monsters>
