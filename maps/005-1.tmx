@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" nextobjectid="93">
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextobjectid="93">
  <properties>
+  <property name="author" value="Saulc, jesusalva, "/>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/005-1.png"/>
@@ -1319,7 +1320,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object" visible="0">
+ <objectgroup name="Object">
   <object id="50" name="to Saxso House" type="warp" x="992" y="2528" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-2"/>
@@ -1372,9 +1373,10 @@
   </object>
   <object id="74" name="Diamond Bif" type="spawn" x="704" y="1793" width="96" height="64">
    <properties>
-    <property name="death" value="300000"/>
+    <property name="death" value="250000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="1108"/>
+    <property name="script" value="Rosen::OnKillMBif"/>
     <property name="spawn" value="35000"/>
    </properties>
   </object>
