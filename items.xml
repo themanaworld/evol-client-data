@@ -5279,13 +5279,14 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="3514"
 		image="equipment/weapons/icegladius.png"
 		name="Ice Gladius"
-		description="A sword with a shimmering blue blade."
+		description="A dagger with a shimmering blue blade."
 		attack="200"
+        effect="Ice Attack"
 		attack-range="1"
-		level="25"
+		level="35"
 		type="equip-1hand"
 		attack-action="attack"
-		weight="26">
+		weight="67">
 		<sprite>equipment/weapons/piouslayer.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
