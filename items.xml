@@ -4505,12 +4505,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="2943"
 		image="equipment/head/alphamouboohead.png"
-		name="Alpha Mouboo Head"
+		name="Alpha Mouboo Hat"
 		description="You murderer!"
-		defense="1"
-		level="1"
+		defense="70"
+		level="65"
+		effect="HP +300"
+		str="1"
+		dex=" 1"
 		type="equip-head"
-		weight="22">
+		weight="300">
 		<sprite>equipment/head/alphamouboohead.xml</sprite>
 		<replace sprite="hair">
 			<item from="-5" to="-4"/>
