@@ -5109,10 +5109,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="Jesusalva introduced another bug!! We must slay it!"
 		attack="150"
 		attack-range="1"
-		level="25"
+		level="29"
 		type="equip-1hand"
 		attack-action="attack"
-		weight="1600">
+		weight="1450">
 		<sprite>equipment/weapons/piouslayer.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -5123,10 +5123,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A short sword made for close combat."
 		attack="175"
 		attack-range="1"
-		level="30"
+		level="37"
 		type="equip-1hand"
 		attack-action="attack"
-		weight="1058">
+		weight="958">
 		<sprite>equipment/weapons/traininggladius.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
@@ -5402,7 +5402,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		dex=" -2"
 		attack="159"
 		attack-range="2"
-		level="20"
+		level="25"
 		type="equip-2hand"
 		attack-action="attack"
 		weight="820">
@@ -5416,10 +5416,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A heavy and clumbersome mace from the lands of fire."
 		defense=" -2"
 		dex=" -2"
-		str="1"
-		attack="284"
+		str="3"
+		attack="450"
 		attack-range="1"
-		level="30"
+		level="60"
 		type="equip-2hand"
 		attack-action="attack"
 		weight="500">
@@ -5431,9 +5431,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/miere.png"
 		name="Miere Cleaver"
 		description="From the lands of fire, used to break Lava Mana Stones in two."
-		defense=" -2"
-		dex=" -2"
-		str="2"
+		defense=" -3"
+		dex=" -3"
+		agi="-5"
 		attack="409"
 		attack-range="1"
 		level="40"
