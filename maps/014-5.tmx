@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="230" height="250" tilewidth="32" tileheight="32" infinite="0" nextobjectid="55">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="230" height="250" tilewidth="32" tileheight="32" infinite="0" nextobjectid="62">
  <properties>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
@@ -2343,12 +2343,44 @@
   <object id="41" name="Margin" type="fixme" x="0" y="4000" width="640" height="640"/>
   <object id="42" name="Margin" type="fixme" x="0" y="320" width="640" height="640"/>
  </objectgroup>
- <objectgroup color="#007fff" name="Spawns">
+ <objectgroup color="#007fff" name="Spawns" visible="0">
   <object id="50" name="Log Head" type="spawn" x="3456" y="1984" width="3136" height="2848">
    <properties>
     <property name="death" value="20000"/>
     <property name="max_beings" value="21"/>
     <property name="monster_id" value="1066"/>
+    <property name="spawn" value="20000"/>
+   </properties>
+  </object>
+  <object id="55" name="Mouboo" type="spawn" x="640" y="4288" width="3136" height="2848">
+   <properties>
+    <property name="death" value="20000"/>
+    <property name="max_beings" value="21"/>
+    <property name="monster_id" value="1023"/>
+    <property name="spawn" value="20000"/>
+   </properties>
+  </object>
+  <object id="56" name="Poison Spiky Mushroom" type="spawn" x="896" y="864" width="4000" height="3584">
+   <properties>
+    <property name="death" value="20000"/>
+    <property name="max_beings" value="21"/>
+    <property name="monster_id" value="1043"/>
+    <property name="spawn" value="20000"/>
+   </properties>
+  </object>
+  <object id="57" name="Red Mushroom" type="spawn" x="640" y="2688" width="2368" height="1952">
+   <properties>
+    <property name="death" value="20000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1042"/>
+    <property name="spawn" value="40000"/>
+   </properties>
+  </object>
+  <object id="58" name="Forest Mushroom" type="spawn" x="2624" y="2816" width="3136" height="2848">
+   <properties>
+    <property name="death" value="20000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="1060"/>
     <property name="spawn" value="20000"/>
    </properties>
   </object>
@@ -2367,6 +2399,30 @@
     <property name="death" value="80000"/>
     <property name="max_beings" value="16"/>
     <property name="monster_id" value="1128"/>
+    <property name="spawn" value="80000"/>
+   </properties>
+  </object>
+  <object id="59" name="Cobalt Herb" type="spawn" x="3360" y="1408" width="3136" height="2848">
+   <properties>
+    <property name="death" value="80000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1136"/>
+    <property name="spawn" value="80000"/>
+   </properties>
+  </object>
+  <object id="60" name="Gamboge Herb" type="spawn" x="2272" y="3424" width="3936" height="2176">
+   <properties>
+    <property name="death" value="80000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1134"/>
+    <property name="spawn" value="80000"/>
+   </properties>
+  </object>
+  <object id="61" name="Mauve Herb" type="spawn" x="1184" y="2208" width="3520" height="4064">
+   <properties>
+    <property name="death" value="80000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="1135"/>
     <property name="spawn" value="80000"/>
    </properties>
   </object>
@@ -2412,7 +2468,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#00ff7f" name="Particles">
+ <objectgroup color="#00ff7f" name="Particles" visible="0">
   <object id="1" name="graphics/particles/waterfall.particle.xml" type="particle_effect" x="989" y="5419"/>
   <object id="3" name="graphics/particles/waterfall.particle.xml" type="particle_effect" x="2720" y="5248"/>
   <object id="4" name="graphics/particles/waterfall.particle.xml" type="particle_effect" x="2380" y="5294"/>
