@@ -6216,6 +6216,50 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-ammo"
 		attack="10"
 		weight="12"/>
+	<item id="7000"
+		image="equipment/weapons/woodenstaff.png"
+		name="Training Wand"
+		description="A short wand for wanna be mages."
+        effect="Magic Attack +50"
+		attack-range="1"
+		level="20"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="158">
+	</item>
+	<item id="7001"
+		image="equipment/weapons/woodenstaff.png"
+		name="Novice Wand"
+		description="A short wand for those whom just learn magic."
+        effect="Magic Attack +100"
+		attack-range="1"
+		level="40"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="158">
+	</item>
+	<item id="7002"
+		image="equipment/weapons/woodenstaff.png"
+		name="Apprentice Wand"
+		description="A wand for mages."
+        effect="Magic Attack +150"
+		attack-range="1"
+		level="60"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="158">
+	</item>
+	<item id="7003"
+		image="equipment/weapons/woodenstaff.png"
+		name="Leader Wand"
+		description="A wand for real mages, respected by newbies."
+        effect="Magic Attack +200"
+		attack-range="1"
+		level="80"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="158">
+	</item>
 	<item id="7420"
 		image="usable/food/acorn.png"
 		name="Acorn Of Death"
