@@ -3,15 +3,15 @@
 Copyright (C) 2010-2014 Evol Online
 Copyright (C) 2018 TMW2: Moubootaur Legends -->
 <!--
-<monsters>	   Parent of the monster strings. 
-<monster>		Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
-id=""			ID of the monster. It is different for each monster and starts from 0.
-name=""		  Name of the monster which will be displayed in game, it is also used by the server.
-targetCursor=""  Cursor size used by the client, different size are: small, medium and large.
-walkType=""	  The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. Different walktype are: walk, walkswim and fly. By default, walk option is used and if the monster is static, this tag can be removed.
-<sprite>		 This tag shows the path to the xml of the monster.
-<sound>		  Sound tag. Contains an event which displays the sound effects to the corresponding action. The next paramaters lists them:
-event=""		 Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
+<monsters>      Parent of the monster strings. 
+<monster>       Monster tag. Every new tag contain some specific attribute of the monster. The following paramaters is a list of them:
+id=""           ID of the monster. It is different for each monster and starts from 0.
+name=""         Name of the monster which will be displayed in game, it is also used by the server.
+targetCursor="" Cursor size used by the client, different size are: small, medium and large.
+walkType=""     The walk type is used to manage which monster can fly over collision tiles or swim under the sea, or fly over it. Different walktype are: walk, walkswim and fly. By default, walk option is used and if the monster is static, this tag can be removed.
+<sprite>        This tag shows the path to the xml of the monster.
+<sound>         Sound tag. Contains an event which displays the sound effects to the corresponding action. The next paramaters lists them:
+event=""        Links the sfx to an action, like die, hit, hurt, miss, move or spawn.
 -->
 
 <monsters>
