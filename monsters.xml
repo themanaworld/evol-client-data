@@ -926,4 +926,8 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<!--sound event="die">short-sword-die1.ogg</sound-->
 	<!--attack id="1" missile-particle="graphics/particles/lightning-lunovox.xml" action="attack"/-->
   </monster>
+  	<monster id="1201" name="Mouboo Slime">
+		<sprite>monsters/moubooslime.xml</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
 </monsters>
