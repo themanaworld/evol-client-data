@@ -754,12 +754,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	</monster>
 	<!-- 1156 to 1166 reserved for mimics -->
 	<monster id="1167" name="Terranite">
-		<sprite>races/raijin-male.xml</sprite>
-		<sprite>hairstyles/hairstyle26.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
-		<sprite>equipment/legs/terranitepants-male.xml</sprite>
-		<sprite>equipment/chest/terranitearmor-male.xml</sprite>
-		<sprite>equipment/feet/boots-male.xml</sprite>
-		<sprite>equipment/head/trapperhat.xml</sprite>
+		<sprite>monsters/terranite.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</monster>
