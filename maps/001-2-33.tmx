@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="71" height="71" tilewidth="32" tileheight="32" infinite="0" nextobjectid="43">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="71" height="71" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -7,44 +8,44 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Legion of Aemil Headquarters"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x1x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
+ <tileset firstgid="513" name="Indoor x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/artis-indoor-x1x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="529" name="Indoor x1x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
+ <tileset firstgid="529" name="Indoor x1x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x1x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="577" name="Indoor x1x4" tilewidth="32" tileheight="128" tilecount="16" columns="16">
+ <tileset firstgid="577" name="Indoor x1x4" tilewidth="32" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x1x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="593" name="Indoor x4x2" tilewidth="64" tileheight="128" tilecount="8" columns="8">
+ <tileset firstgid="593" name="Indoor x4x2" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x2x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="601" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="729" name="Accessory x1x2" tilewidth="32" tileheight="64" tilecount="48" columns="16">
+ <tileset firstgid="729" name="Accessory x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/artis-accessory-x1x2.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="777" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
+ <tileset firstgid="777" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="781" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="781" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1037" name="Collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+ <tileset firstgid="1037" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="96"/>
  </tileset>
  <tileset firstgid="1046" source="../graphics/tilesets/candle-x1x2.tsx"/>
- <tileset firstgid="1058" name="Shadow" tilewidth="32" tileheight="32" tilecount="128" columns="8">
+ <tileset firstgid="1058" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/shadow.png" width="256" height="512"/>
  </tileset>
- <tileset firstgid="1186" name="Level Number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
+ <tileset firstgid="1186" name="Level Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <layer name="Ground" width="71" height="71">
@@ -803,8 +804,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object" opacity="0.87">
-  <object id="35" name="To Left Chamber" type="warp" x="928" y="1024" width="32" height="32">
+ <objectgroup name="Object" width="0" height="0" opacity="0.87">
+  <object name="To Left Chamber" type="warp" x="928" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-34"/>
     <property name="dest_x" value="29"/>
@@ -814,7 +815,7 @@
     <property name="trigger_y" value="2"/>
    </properties>
   </object>
-  <object id="36" name="To Right Chamber" type="warp" x="1248" y="1024" width="32" height="32">
+  <object name="To Right Chamber" type="warp" x="1248" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-32"/>
     <property name="dest_x" value="27"/>
@@ -824,41 +825,41 @@
     <property name="trigger_y" value="2"/>
    </properties>
   </object>
-  <object id="37" name="To Right Dormroom" type="warp" x="1440" y="896" width="32" height="32">
+  <object name="To Right Dormroom" type="warp" x="1440" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-38"/>
     <property name="dest_x" value="24"/>
     <property name="dest_y" value="28"/>
    </properties>
   </object>
-  <object id="38" name="To Left Dormroom" type="warp" x="736" y="896" width="32" height="32">
+  <object name="To Left Dormroom" type="warp" x="736" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-37"/>
     <property name="dest_x" value="36"/>
     <property name="dest_y" value="28"/>
    </properties>
   </object>
-  <object id="39" name="To Left PvP Arena" type="warp" x="768" y="1280" width="96" height="32">
+  <object name="To Left PvP Arena" type="warp" x="768" y="1280" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-40"/>
     <property name="dest_x" value="27"/>
     <property name="dest_y" value="46"/>
    </properties>
   </object>
-  <object id="40" name="To Right PvP Arena" type="warp" x="1344" y="1280" width="96" height="32">
+  <object name="To Right PvP Arena" type="warp" x="1344" y="1280" width="96" height="32">
    <properties>
     <property name="dest_map" value="001-2-40"/>
     <property name="dest_x" value="45"/>
     <property name="dest_y" value="46"/>
    </properties>
   </object>
-  <object id="41" name="To Artis" type="warp" x="1088" y="1472" width="32" height="32">
+  <object name="To Artis" type="warp" x="1088" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="57"/>
     <property name="dest_y" value="42"/>
    </properties>
   </object>
-  <object id="42" name="^LEG" type="anchor" x="1088" y="1344" width="32" height="32"/>
+  <object name="^LEG" type="anchor" x="1088" y="1344" width="32" height="32"/>
  </objectgroup>
 </map>

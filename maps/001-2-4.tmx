@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="84" height="67" tilewidth="32" tileheight="32" infinite="0" nextobjectid="5">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="84" height="67" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -7,31 +8,31 @@
   <property name="music" value="bartk - in the forest of the birches.ogg"/>
   <property name="name" value="Library"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="257" name="Indoor Fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="513" name="Indoor x1x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
+ <tileset firstgid="513" name="Indoor x1x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x1x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="561" name="Indoor x1x4" tilewidth="32" tileheight="128" tilecount="16" columns="16">
+ <tileset firstgid="561" name="Indoor x1x4" tilewidth="32" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x1x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="577" name="Accessory" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="577" name="Accessory" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-accessory.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="705" name="Sunlight x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
+ <tileset firstgid="705" name="Sunlight x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="709" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="709" name="Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="965" name="Collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+ <tileset firstgid="965" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="974" name="Level Number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
+ <tileset firstgid="974" name="Level Number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
  <tileset firstgid="990" source="../graphics/tilesets/candle-x1x2.tsx"/>
@@ -461,22 +462,22 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object" opacity="0.9">
-  <object id="1" name="To Artis" type="warp" x="1536" y="1312" width="32" height="32">
+ <objectgroup name="Object" width="0" height="0" opacity="0.9">
+  <object name="To Artis" type="warp" x="1536" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_x" value="51"/>
     <property name="dest_y" value="81"/>
    </properties>
   </object>
-  <object id="2" name="To Library Second Floor" type="warp" x="1760" y="832" width="128" height="32">
+  <object name="To Library Second Floor" type="warp" x="1760" y="864" width="128" height="32">
    <properties>
     <property name="dest_map" value="001-2-6"/>
     <property name="dest_x" value="57"/>
     <property name="dest_y" value="36"/>
    </properties>
   </object>
-  <object id="3" name="To Library Warehouse" type="warp" x="1664" y="864" width="32" height="32">
+  <object name="To Library Warehouse" type="warp" x="1664" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2-5"/>
     <property name="dest_x" value="28"/>
@@ -486,6 +487,6 @@
     <property name="trigger_y" value="3"/>
    </properties>
   </object>
-  <object id="4" name="^LIB" type="anchor" x="1344" y="1120" width="32" height="32"/>
+  <object name="^LIB" type="anchor" x="1344" y="1120" width="32" height="32"/>
  </objectgroup>
 </map>
