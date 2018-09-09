@@ -5199,13 +5199,24 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<item id="3210"
 		image="equipment/neck/sunglasses.png"
 		name="SunGlasses"
-		description="MProtect your eyes from Tonori hard sun."
+		description="Protect your eyes from Tonori hard sun"
 		defense="5"
 		level="15"
 		type="equip-neck"
 		weight="29"
 		drawAfter="torso">
 		<sprite>equipment/neck/sunglasses.xml</sprite>
+	</item>
+	<item id="3211"
+		image="equipment/neck/autumnmask.png|C:#ffffff;B:#cf7c04;M:#ee0427;R:#2a2a2a"
+		name="Autumn Mask"
+		description="Party away! No one will recognize you wearing this ugly mask"
+		defense="7"
+		level="35"
+		type="equip-neck"
+		weight="24"
+		drawAfter="torso">
+		<sprite>equipment/neck/autumnmask.xml</sprite>
 	</item>
 
 	<!-- Weapons -->
