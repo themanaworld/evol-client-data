@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Saulc
+Copyright (C) 2018 TMW2: Moubootaur Legends
+-->
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/pumpkandy.png" width="50" height="50"/>
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0" offsetX="4" offsetY="3"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="1" offsetX="4" offsetY="3"/>
+    </animation>
+  </action>
+</sprite>
