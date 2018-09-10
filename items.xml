@@ -5635,6 +5635,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
+	<item id="3527"
+		image="equipment/weapons/sword.png"
+		name="Short Sword"
+		description="A short sword made for close combat. Careful with that!"
+		attack="200"
+		attack-range="1"
+		level="44"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="958">
+		<sprite>equipment/weapons/traininggladius.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
 	<!-- Pets -->
 	<item id="4000"
 		image="usable/pets/piouegg.png"
