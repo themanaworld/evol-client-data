@@ -1538,7 +1538,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" name="Spawns" visible="0">
+ <objectgroup color="#ffff00" name="Spawns">
   <object id="24" name="Mouboo" type="spawn" x="1344" y="1344" width="5888" height="3392">
    <properties>
     <property name="death" value="45000"/>
@@ -1574,7 +1574,7 @@
   <object id="28" name="Pinkie" type="spawn" x="5440" y="2528" width="1440" height="992">
    <properties>
     <property name="death" value="50000"/>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="6"/>
     <property name="monster_id" value="1132"/>
     <property name="script" value="Oscar::OnKillPinkie"/>
     <property name="spawn" value="30000"/>
