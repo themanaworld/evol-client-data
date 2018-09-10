@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid, Micksha
+Copyright (C) 2018 Evol Online -->
+
+<sprite variants="21" variant_offset="1">
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/unanimated-legacy.png|S"
+              width="64"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>

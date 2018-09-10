@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2018 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/hinnak.png"
+              width="64"
+              height="64"/>
+
+    <action name="stand" imageset="npc">    
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="98"/>
+            <goto label="cutting" rand="2"/>
+            <!-- winking -->
+            <label name="cutting"/>
+                <frame index="0" delay="200"/>
+                <frame index="1" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="3" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="1" delay="100"/>
+                <frame index="0" delay="200"/>
+            <goto label="start"/>
+            <!-- Static Animation -->
+            <label name="static"/>
+                <frame index="0" delay="400"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>
