@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Jesusalva
+Copyright (C) 2018 TMW2: The Moubootaur Legends -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/petter.png"
+              width="60"
+              height="62"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0" delay="3000"/>
+            <frame index="1" delay="60"/>
+            <frame index="0" delay="100"/>
+            <frame index="1" delay="120"/>
+            <frame index="0" delay="100"/>
+        </animation>
+    </action>
+</sprite>

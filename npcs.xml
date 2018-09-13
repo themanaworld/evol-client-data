@@ -6,7 +6,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
 
 <!--
 IDs 100-400 = Unanimated
-IDs 401-799 = Animated
+IDs 401-699 = Animated
+IDs 700-799 = Soul Menhirs
 IDs 800-899 = Test
 IDs 900-999 = Special
 -->
@@ -889,6 +890,11 @@ IDs 900-999 = Special
     <npc id="455">
          <!-- LoF Furnace -->
         <sprite>npcs/xml/furnace.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="456">
+         <!-- Petter -->
+        <sprite>npcs/xml/petter.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
