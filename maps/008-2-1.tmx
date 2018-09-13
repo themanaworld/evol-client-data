@@ -1,57 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="70" height="68" tilewidth="32" tileheight="32" infinite="0" nextobjectid="27">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="70" height="68" tilewidth="32" tileheight="32">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="name" value="Merchant Guild"/>
  </properties>
- <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/collision.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="10" name="level-number" tilewidth="32" tileheight="32" tilecount="16" columns="16">
+ <tileset firstgid="10" name="level-number" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/level-number.png" width="512" height="32"/>
  </tileset>
- <tileset firstgid="26" name="hurns-indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="26" name="hurns-indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/hurns-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="282" name="artis-indoor-x1x3" tilewidth="32" tileheight="96" tilecount="48" columns="16">
+ <tileset firstgid="282" name="artis-indoor-x1x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/artis-indoor-x1x3.png" width="512" height="288"/>
  </tileset>
- <tileset firstgid="330" name="artis-indoor-fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="330" name="artis-indoor-fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="586" name="hurns-ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="586" name="hurns-ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/hurns-ground.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="842" name="ship-indoor-fringe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="842" name="ship-indoor-fringe" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/ship-indoor-fringe.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1098" name="artis-indoor" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="1098" name="artis-indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tilesets/artis-indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1354" name="hurns-indoor-x1x3" tilewidth="32" tileheight="96" tilecount="16" columns="16">
+ <tileset firstgid="1354" name="hurns-indoor-x1x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tilesets/hurns-indoor-x1x3.png" width="512" height="96"/>
  </tileset>
- <tileset firstgid="1370" name="artis-indoor-x1x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
+ <tileset firstgid="1370" name="artis-indoor-x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/artis-indoor-x1x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="1386" name="sunlight-x1x5" tilewidth="32" tileheight="160" tilecount="4" columns="4">
+ <tileset firstgid="1386" name="sunlight-x1x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tilesets/sunlight-x1x5.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="1390" name="artis-indoor-x2x4" tilewidth="64" tileheight="128" tilecount="8" columns="8">
+ <tileset firstgid="1390" name="artis-indoor-x2x4" tilewidth="64" tileheight="128">
   <image source="../graphics/tilesets/artis-indoor-x2x4.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="1398" name="candle-x1x2" tilewidth="32" tileheight="64" tilecount="12" columns="3">
+ <tileset firstgid="1398" name="candle-x1x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tilesets/candle-x1x2.png" width="96" height="256"/>
-  <tile id="0">
-   <animation>
-    <frame tileid="0" duration="100"/>
-    <frame tileid="1" duration="100"/>
-    <frame tileid="2" duration="100"/>
-   </animation>
-  </tile>
  </tileset>
- <layer name="Ground1" width="70" height="68">
+ <layer name="Ground1" width="70" height="68" visible="0">
   <data encoding="csv">
 1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,
 1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,
@@ -123,7 +117,7 @@
 1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209,1209
 </data>
  </layer>
- <layer name="Ground2" width="70" height="68">
+ <layer name="Ground2" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -195,7 +189,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Ground3" width="70" height="68">
+ <layer name="Ground3" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -267,7 +261,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="70" height="68">
+ <layer name="Fringe" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -339,7 +333,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="70" height="68">
+ <layer name="Over1" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -411,7 +405,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over2" width="70" height="68">
+ <layer name="Over2" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -526,7 +520,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,5,5,0,0,5,5,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,2,2,0,0,2,2,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,5,2,2,5,0,2,2,0,0,0,0,0,0,2,0,2,2,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
-2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,1610612738,1610612738,0,0,1610612738,1610612738,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,2,2,0,0,2,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -555,7 +549,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <layer name="Heights" width="70" height="68">
+ <layer name="Heights" width="70" height="68" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -627,22 +621,22 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Objects">
-  <object id="24" name="To Outside" type="warp" x="1184" y="864" width="32" height="32">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
+  <object name="To Outside" type="warp" x="1184" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_x" value="260"/>
     <property name="dest_y" value="111"/>
    </properties>
   </object>
-  <object id="25" name="To Outside" type="warp" x="1056" y="1440" width="32" height="32">
+  <object name="To Outside" type="warp" x="1056" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_x" value="259"/>
     <property name="dest_y" value="119"/>
    </properties>
   </object>
-  <object id="26" name="save" type="save" x="1344" y="864" width="32" height="32">
+  <object name="save" type="save" x="1344" y="864" width="32" height="32">
    <properties>
     <property name="inn" value="CURRENT_INN"/>
    </properties>
