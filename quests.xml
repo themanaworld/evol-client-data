@@ -1351,6 +1351,26 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
 
+    <!-- NIVALIS QUESTS -->
+    <var id="111">
+        <quest name="Someone On The Well" group="Nivalis" incomplete="1">
+            <name>Someone On The Well</name>
+            <text>Someone fell on the well, near Nivalis.</text>
+            <text>I should ask somebody for help, but whom...?</text>
+            <text></text>
+            <questgiver>???</questgiver>
+            <coordinates x="110" y="101">Winterlands.</coordinates>
+        </quest>
+        <quest name="Someone On The Well" group="Nivalis" complete="2">
+            <name>Someone On The Well</name>
+            <text>I asked Miler to get that person out of the hole they've struck themselves into.</text>
+            <text>I wonder who was that person, anyway?</text>
+            <text></text>
+            <questgiver>???</questgiver>
+            <coordinates x="110" y="101">Winterlands.</coordinates>
+        </quest>
+    </var>
+
     <!-- LAND OF FIRE VILLAGE QUESTS -->
     <var id="270">
         <quest name="A Tea For Two" group="LoF Village" incomplete="1">
@@ -1367,12 +1387,40 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <questgiver>The Doctor</questgiver>
             <coordinates x="75" y="68">Dimond's Cove, Third Floor.</coordinates>
         </quest>
-        <quest name="An Early Christmas" group="LoF Village" incomplete="2">
+        <quest name="An Early Christmas" group="LoF Village" incomplete="3">
             <name>An Early Christmas</name>
             <text>Bring an Herbal Tea to Miler, a friend from The Doctor.</text>
             <text></text>
             <questgiver>The Doctor</questgiver>
             <coordinates x="75" y="68">Dimond's Cove, Third Floor.</coordinates>
+        </quest>
+        <quest name="An Early Christmas" group="LoF Village" incomplete="4">
+            <name>An Early Christmas</name>
+            <text>Mission complete, tea delivered.</text>
+            <text>Seems like Miler lost something, though...</text>
+            <text></text>
+            <questgiver>Miler</questgiver>
+            <coordinates x="41" y="24">Winterlands, Steampunk House.</coordinates>
+        </quest>
+        <quest name="An Early Christmas" group="LoF Village" incomplete="5">
+            <name>An Early Christmas</name>
+            <text>Miler lost a precious ring.</text>
+            <text>I must bring Present Boxes to Miler pry them open with his screwdriver.</text>
+            <text>LoF Technology is awesome. The slimes have them, gotta kill lots!</text>
+            <text></text>
+            <questgiver>Miler</questgiver>
+            <coordinates x="41" y="24">Winterlands, Steampunk House.</coordinates>
+        </quest>
+        <quest name="An Early Christmas" group="LoF Village" complete="6,7,8,9,10,11,12,13,14,15">
+            <name>An Early Christmas</name>
+            <text>Miler recovered his ring and thanked me.</text>
+            <text>I guess for him, Christmas just came.</text>
+            <text>I thought he asked me to come by later, though?</text>
+            <text></text>
+            <text>##1##BWARNING:##b You need to wait further releases to continue this quest!##0</text>
+            <text></text>
+            <questgiver>Miler</questgiver>
+            <coordinates x="41" y="24">Winterlands, Steampunk House.</coordinates>
         </quest>
     </var>
     <var id="271">
@@ -1421,6 +1469,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
     <!-- var 273 TODO -->
+    <!-- var 274 not required -->
 
 
 
