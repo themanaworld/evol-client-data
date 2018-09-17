@@ -1127,11 +1127,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="628"
 		image="usable/candy/manapop.png"
 		name="Manapop"
-		description="You can now tast Mana in your mouth"
+		description="You can now taste Mana in your mouth"
 		useButton="Eat"
 		effect="Heal 1-500 SP"
 		type="usable"
 		weight="1"/>
+	<item id="699"
+		image="generic/tortugashell.png"
+		name="4144's Tortuga"
+		description="Faster than the average. Runs faster than you, even."
+		useButton="Ride"
+		effect="Damage dealt/taken -50%, no regen"
+		type="usable"
+		weight="500"/>
 	<!-- Generic Items -->
 	<item id="700"
 		image="generic/smalltentacles.png"
