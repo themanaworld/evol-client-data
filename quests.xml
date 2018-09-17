@@ -1112,7 +1112,38 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="64" y="38">Halinarzo, Church.</coordinates>
         </quest>
     </var>
-    <!-- var 74 TODO -->
+    <var id="74">
+        <quest name="Life Delight" group="Halinarzo" incomplete="1">
+            <name>Life Delight</name>
+            <text>Ryan loves Tonori Delight. He finds them tasty and yummy.</text>
+            <text></text>
+            <text>I should keep feeding him these to get a good payment.</text>
+            <text>There's a special reward after a few...</text>
+            <text></text>
+            <questgiver>Ryan</questgiver>
+            <coordinates x="29" y="57">Halinarzo, Library.</coordinates>
+            <reward text1="[Chef Hat]">{@@1}</reward>
+        </quest>
+        <quest name="Life Delight" group="Halinarzo" complete="2">
+            <name>Life Delight</name>
+            <text>Ryan loves Tonori Delight. He finds them tasty and yummy.</text>
+            <text></text>
+            <text>I feed him plenty and he gave me a Chef Hat.</text>
+            <text>But he can always eat more...</text>
+            <text></text>
+            <questgiver>Ryan</questgiver>
+            <coordinates x="29" y="57">Halinarzo, Library.</coordinates>
+            <reward text1="[Chef Hat]">{@@1}</reward>
+        </quest>
+        <quest name="Life Delight" group="Halinarzo" complete="3">
+            <name>Life Delight</name>
+            <text>I fed Ryan so much Tonori Delight, he gave me the ultimate reward.</text>
+            <text>Now, THAT is a rare item... It's useful even for Savior set!</text>
+            <text></text>
+            <questgiver>Ryan</questgiver>
+            <coordinates x="29" y="57">Halinarzo, Library.</coordinates>
+        </quest>
+    </var>
     <!-- var 75 TODO -->
     <var id="76">
         <quest name="Church Party" group="Halinarzo" incomplete="1">
