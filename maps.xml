@@ -4,1002 +4,1002 @@ Copyright (C) 2018 TMW2 -->
 
 <maps>
 
-    <!-- namespace base -->
-    <atlas name="ignored">
-        <file name="graphics/tilesets/collision.png"/>
-        <file name="graphics/tilesets/level-number.png"/>
-    </atlas>
+	<!-- namespace base -->
+	<atlas name="ignored">
+		<file name="graphics/tilesets/collision.png"/>
+		<file name="graphics/tilesets/level-number.png"/>
+	</atlas>
 
-    <atlas name="all">
-        <file name="graphics/particles/bubble.png|W:#80ff80,40a020"/>
-        <file name="graphics/particles/circle-magic.png"/>
-        <file name="graphics/particles/circle-magic-trail.png"/>
-        <file name="graphics/particles/gloworb.png|W:#e1e1e1"/>
-        <file name="graphics/particles/gloworb.png|W:#fffecb"/>
-        <file name="graphics/particles/gloworb.png|W:#ffffff"/>
-        <file name="graphics/particles/gloworb-medium.png|W:#da69e5"/>
-        <file name="graphics/particles/gloworb-small.png|W:#ffffff"/>
-        <file name="graphics/particles/orb-medium.png"/>
-        <file name="graphics/particles/orb-small.png|W:#fffecb"/>
-        <file name="graphics/particles/orb-small.png"/>
-        <file name="graphics/particles/star-small.png|W:#f3ffbe,f3ffe3"/>
-        <file name="graphics/particles/star-small.png|W:#ff0000,ffff00"/>
-        <file name="graphics/particles/star-small.png|W:#ffe6ce,ffe6ce"/>
-        <file name="graphics/particles/star-small.png|W:#ffffff,ffffff"/>
-        <file name="graphics/particles/star-medium.png|W:#00ff00,ffffff"/>
-        <file name="graphics/particles/star-medium.png|W:#ff0000,ffffff"/>
-        <file name="graphics/particles/star-medium.png|W:#ffffff,ffffff"/>
-        <file name="graphics/particles/zzz.png"/>
+	<atlas name="all">
+		<file name="graphics/particles/bubble.png|W:#80ff80,40a020"/>
+		<file name="graphics/particles/circle-magic.png"/>
+		<file name="graphics/particles/circle-magic-trail.png"/>
+		<file name="graphics/particles/gloworb.png|W:#e1e1e1"/>
+		<file name="graphics/particles/gloworb.png|W:#fffecb"/>
+		<file name="graphics/particles/gloworb.png|W:#ffffff"/>
+		<file name="graphics/particles/gloworb-medium.png|W:#da69e5"/>
+		<file name="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		<file name="graphics/particles/orb-medium.png"/>
+		<file name="graphics/particles/orb-small.png|W:#fffecb"/>
+		<file name="graphics/particles/orb-small.png"/>
+		<file name="graphics/particles/star-small.png|W:#f3ffbe,f3ffe3"/>
+		<file name="graphics/particles/star-small.png|W:#ff0000,ffff00"/>
+		<file name="graphics/particles/star-small.png|W:#ffe6ce,ffe6ce"/>
+		<file name="graphics/particles/star-small.png|W:#ffffff,ffffff"/>
+		<file name="graphics/particles/star-medium.png|W:#00ff00,ffffff"/>
+		<file name="graphics/particles/star-medium.png|W:#ff0000,ffffff"/>
+		<file name="graphics/particles/star-medium.png|W:#ffffff,ffffff"/>
+		<file name="graphics/particles/zzz.png"/>
 
-        <file name="graphics/images/ambient/cloud.png"/>
-        <file name="graphics/images/ambient/night.png"/>
-        <file name="graphics/images/ambient/rain.png"/>
-    </atlas>
-    <!-- / base -->
+		<file name="graphics/images/ambient/cloud.png"/>
+		<file name="graphics/images/ambient/night.png"/>
+		<file name="graphics/images/ambient/rain.png"/>
+	</atlas>
+	<!-- / base -->
 
-    <map name="000-0-0.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="000-0.tmx">
-        <atlas name="ocean"/>
-    </map>
-    <map name="000-1.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="001-1.tmx">
-        <atlas name="aeros"/>
-    </map>
-    <map name="001-2.tmx">
-        <atlas name="coliseum"/>
-    </map>
-    <map name="001-3.tmx">
-        <atlas name="gm-palace"/>
-    </map>
-    <map name="001-3-1.tmx">
-        <atlas name="gm-indoor"/>
-    </map>
-    <map name="001-4.tmx">
-        <atlas name="magic-forest"/>
-    </map>
-    <map name="001-5.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="001-6.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="001-7.tmx">
-        <atlas name="snow"/>
-    </map>
-    <map name="001-8.tmx">
-        <atlas name="magic-forest"/>
-    </map>
-    <map name="001-9.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="002-1.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-2.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-3.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-4.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="002-5.tmx">
-        <atlas name="ocean"/>
-    </map>
-    <map name="003-0.tmx">
-        <atlas name="tulimshar-council"/>
-    </map>
-    <map name="003-0-1.tmx">
-        <atlas name="tulimshar-council"/>
-    </map>
-    <map name="003-1.tmx">
-        <atlas name="tulimshar"/>
-    </map>
-    <map name="003-1-1.tmx">
-        <atlas name="sewer"/>
-    </map>
-    <map name="003-1-2.tmx">
-        <atlas name="tulimshar"/>
-    </map>
-    <map name="003-1-3.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="003-2.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-2-0.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-2-1.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-2-2.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="003-3.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-4.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-4-1.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-5.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-6.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-7.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-8.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-10.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="003-13.tmx">
-        <atlas name="tulimshar-indoor"/>
-    </map>
-    <map name="004-1.tmx">
-        <atlas name="desert"/>
-    </map>
-    <map name="004-2.tmx">
-        <atlas name="desert"/>
-    </map>
-    <map name="004-2-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="005-1.tmx">
-        <atlas name="candor"/>
-    </map>
-    <map name="005-2.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-2-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="005-3.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-4.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-5.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-6.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="005-7.tmx">
-        <atlas name="candor-indoor"/>
-    </map>
-    <map name="006-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="007-1.tmx">
-        <atlas name="mine"/>
-    </map>
-    <map name="008-0.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="008-1.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="008-2.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="009-1.tmx">
-        <atlas name="halinarzo"/>
-    </map>
-    <map name="009-2.tmx">
-        <atlas name="halinarzo-indoor"/>
-    </map>
-    <map name="009-3.tmx">
-        <atlas name="halinarzo-indoor"/>
-    </map>
-    <map name="009-4.tmx">
-        <atlas name="halinarzo-indoor"/>
-    </map>
-    <map name="009-5.tmx">
-        <atlas name="halinarzo-indoor"/>
-    </map>
-    <map name="010-1.tmx">
-        <atlas name="desert-canyon"/>
-    </map>
-    <map name="010-1-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="010-2.tmx">
-        <atlas name="desert-canyon"/>
-    </map>
-    <map name="010-2-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="011-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="011-2.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="012-1.tmx">
-        <atlas name="woodland"/>
-    </map>
-    <map name="012-2.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="012-3.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="012-4.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="012-5.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="012-6.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="012-7.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
-    <map name="014-1.tmx">
-        <atlas name="woodland"/>
-    </map>
-    <map name="014-2.tmx">
-        <atlas name="woodland"/>
-    </map>
-    <map name="014-2-1.tmx">
-        <atlas name="saulc"/>
-    </map>
-    <map name="014-3.tmx">
-        <atlas name="woodland"/>
-    </map>
-    <map name="014-4.tmx">
-        <atlas name="thunderhill"/>
-    </map>
-    <map name="014-5.tmx">
-        <atlas name="woodland-snow"/>
-    </map>
-    <map name="015-1.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-2.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-3.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-4.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-5.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-6.tmx">
-        <atlas name="woodcave"/>
-    </map>
-    <map name="015-7.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="016-1.tmx">
-        <atlas name="ship"/>
-    </map>
-    <map name="016-6.tmx">
-        <atlas name="ocean"/>
-    </map>
-    <map name="016-7.tmx">
-        <atlas name="ocean"/>
-    </map>
-    <map name="017-1.tmx">
-        <atlas name="lof"/>
-    </map>
-    <map name="017-2.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="017-2-1.tmx">
-        <atlas name="lof-cave"/>
-    </map>
-    <map name="017-3.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="017-4.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="017-5.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="017-6.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="018-1.tmx">
-        <atlas name="lof-island"/>
-    </map>
-    <map name="018-1-1.tmx">
-        <atlas name="cave2"/>
-    </map>
-    <map name="018-2.tmx">
-        <atlas name="lof-island"/>
-    </map>
-    <map name="018-2-1.tmx">
-        <atlas name="lof-castle"/>
-    </map>
-    <map name="018-3.tmx">
-        <atlas name="lof-cave"/>
-    </map>
-    <map name="018-3-1.tmx">
-        <atlas name="cave"/>
-    </map>
-    <map name="018-4.tmx">
-        <atlas name="lof-island"/>
-    </map>
-    <map name="018-4-1.tmx">
-        <atlas name="lof-cave"/>
-    </map>
-    <map name="018-4-2.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="018-5.tmx">
-        <atlas name="lilit"/>
-    </map>
-    <map name="019-1.tmx">
-        <atlas name="snow"/>
-    </map>
-    <map name="019-1-1.tmx">
-        <atlas name="lof-indoor"/>
-    </map>
-    <map name="019-2.tmx">
-        <atlas name="snow-village"/>
-    </map>
-    <map name="botcheck.tmx">
-        <atlas name="botcheck"/>
-    </map>
-    <map name="sec_pri.tmx">
-        <atlas name="prison"/>
-    </map>
-    <map name="test.tmx">
-        <atlas name="testarea"/>
-    </map>
-    <map name="testbg.tmx">
-        <atlas name="testarea"/>
-    </map>
-    <map name="soren.tmx">
-        <atlas name="soren"/>
-    </map>
-    <map name="soren-2.tmx">
-        <atlas name="woodland-indoor"/>
-    </map>
+	<map name="000-0-0.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="000-0.tmx">
+		<atlas name="ocean"/>
+	</map>
+	<map name="000-1.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="001-1.tmx">
+		<atlas name="aeros"/>
+	</map>
+	<map name="001-2.tmx">
+		<atlas name="coliseum"/>
+	</map>
+	<map name="001-3.tmx">
+		<atlas name="gm-palace"/>
+	</map>
+	<map name="001-3-1.tmx">
+		<atlas name="gm-indoor"/>
+	</map>
+	<map name="001-4.tmx">
+		<atlas name="magic-forest"/>
+	</map>
+	<map name="001-5.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="001-6.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="001-7.tmx">
+		<atlas name="snow"/>
+	</map>
+	<map name="001-8.tmx">
+		<atlas name="magic-forest"/>
+	</map>
+	<map name="001-9.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="002-1.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="002-2.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="002-3.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="002-4.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="002-5.tmx">
+		<atlas name="ocean"/>
+	</map>
+	<map name="003-0.tmx">
+		<atlas name="tulimshar-council"/>
+	</map>
+	<map name="003-0-1.tmx">
+		<atlas name="tulimshar-council"/>
+	</map>
+	<map name="003-1.tmx">
+		<atlas name="tulimshar"/>
+	</map>
+	<map name="003-1-1.tmx">
+		<atlas name="sewer"/>
+	</map>
+	<map name="003-1-2.tmx">
+		<atlas name="tulimshar"/>
+	</map>
+	<map name="003-1-3.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="003-2.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-2-0.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="003-2-1.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="003-2-2.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="003-3.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-4.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-4-1.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-5.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-6.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-7.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-8.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-10.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="003-13.tmx">
+		<atlas name="tulimshar-indoor"/>
+	</map>
+	<map name="004-1.tmx">
+		<atlas name="desert"/>
+	</map>
+	<map name="004-2.tmx">
+		<atlas name="desert"/>
+	</map>
+	<map name="004-2-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="005-1.tmx">
+		<atlas name="candor"/>
+	</map>
+	<map name="005-2.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="005-2-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="005-3.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="005-4.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="005-5.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="005-6.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="005-7.tmx">
+		<atlas name="candor-indoor"/>
+	</map>
+	<map name="006-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="007-1.tmx">
+		<atlas name="mine"/>
+	</map>
+	<map name="008-0.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="008-1.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="008-2.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="009-1.tmx">
+		<atlas name="halinarzo"/>
+	</map>
+	<map name="009-2.tmx">
+		<atlas name="halinarzo-indoor"/>
+	</map>
+	<map name="009-3.tmx">
+		<atlas name="halinarzo-indoor"/>
+	</map>
+	<map name="009-4.tmx">
+		<atlas name="halinarzo-indoor"/>
+	</map>
+	<map name="009-5.tmx">
+		<atlas name="halinarzo-indoor"/>
+	</map>
+	<map name="010-1.tmx">
+		<atlas name="desert-canyon"/>
+	</map>
+	<map name="010-1-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="010-2.tmx">
+		<atlas name="desert-canyon"/>
+	</map>
+	<map name="010-2-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="011-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="011-2.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="012-1.tmx">
+		<atlas name="woodland"/>
+	</map>
+	<map name="012-2.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="012-3.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="012-4.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="012-5.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="012-6.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="012-7.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
+	<map name="014-1.tmx">
+		<atlas name="woodland"/>
+	</map>
+	<map name="014-2.tmx">
+		<atlas name="woodland"/>
+	</map>
+	<map name="014-2-1.tmx">
+		<atlas name="saulc"/>
+	</map>
+	<map name="014-3.tmx">
+		<atlas name="woodland"/>
+	</map>
+	<map name="014-4.tmx">
+		<atlas name="thunderhill"/>
+	</map>
+	<map name="014-5.tmx">
+		<atlas name="woodland-snow"/>
+	</map>
+	<map name="015-1.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-2.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-3.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-4.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-5.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-6.tmx">
+		<atlas name="woodcave"/>
+	</map>
+	<map name="015-7.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="016-1.tmx">
+		<atlas name="ship"/>
+	</map>
+	<map name="016-6.tmx">
+		<atlas name="ocean"/>
+	</map>
+	<map name="016-7.tmx">
+		<atlas name="ocean"/>
+	</map>
+	<map name="017-1.tmx">
+		<atlas name="lof"/>
+	</map>
+	<map name="017-2.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="017-2-1.tmx">
+		<atlas name="lof-cave"/>
+	</map>
+	<map name="017-3.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="017-4.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="017-5.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="017-6.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="018-1.tmx">
+		<atlas name="lof-island"/>
+	</map>
+	<map name="018-1-1.tmx">
+		<atlas name="cave2"/>
+	</map>
+	<map name="018-2.tmx">
+		<atlas name="lof-island"/>
+	</map>
+	<map name="018-2-1.tmx">
+		<atlas name="lof-castle"/>
+	</map>
+	<map name="018-3.tmx">
+		<atlas name="lof-cave"/>
+	</map>
+	<map name="018-3-1.tmx">
+		<atlas name="cave"/>
+	</map>
+	<map name="018-4.tmx">
+		<atlas name="lof-island"/>
+	</map>
+	<map name="018-4-1.tmx">
+		<atlas name="lof-cave"/>
+	</map>
+	<map name="018-4-2.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="018-5.tmx">
+		<atlas name="lilit"/>
+	</map>
+	<map name="019-1.tmx">
+		<atlas name="snow"/>
+	</map>
+	<map name="019-1-1.tmx">
+		<atlas name="lof-indoor"/>
+	</map>
+	<map name="019-2.tmx">
+		<atlas name="snow-village"/>
+	</map>
+	<map name="botcheck.tmx">
+		<atlas name="botcheck"/>
+	</map>
+	<map name="sec_pri.tmx">
+		<atlas name="prison"/>
+	</map>
+	<map name="test.tmx">
+		<atlas name="testarea"/>
+	</map>
+	<map name="testbg.tmx">
+		<atlas name="testarea"/>
+	</map>
+	<map name="soren.tmx">
+		<atlas name="soren"/>
+	</map>
+	<map name="soren-2.tmx">
+		<atlas name="woodland-indoor"/>
+	</map>
 
-    <!-- Still unreleased -->
-    <map name="boss.tmx">
-        <atlas name="gm-castle"/>
-    </map>
+	<!-- Still unreleased -->
+	<map name="boss.tmx">
+		<atlas name="gm-castle"/>
+	</map>
 
-    <!-- namespace Evol -->
-    <atlas name="ocean">
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1x2.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/ground.png"/>
-        <file name="graphics/tilesets/sail.png"/>
-        <file name="graphics/tilesets/ship-base.png"/>
-        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
-        <file name="graphics/tilesets/ship-mast.png"/>
-        <file name="graphics/tilesets/water.png"/>
-        <file name="graphics/tilesets/ship-indoor.png"/>
-    </atlas>
-    <atlas name="ship">
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1x2.png"/>
-        <file name="graphics/tilesets/candle-x1x2.png"/>
-        <file name="graphics/tilesets/carpet.png"/>
-        <file name="graphics/tilesets/shadow.png"/>
-        <file name="graphics/tilesets/ship-indoor.png"/>
-        <file name="graphics/tilesets/ship-indoor-x2x4.png"/>
-        <file name="graphics/tilesets/ship-indoor-fringe.png"/>
-        <file name="graphics/tilesets/sunlight-x1x5.png"/>
-    </atlas>
-    <atlas name="testarea">
-        <file name="graphics/tilesets/artis-indoor.png"/>
-        <file name="graphics/tilesets/ground.png"/>
-    </atlas>
-    <!-- / Evol -->
-
-
+	<!-- namespace Evol -->
+	<atlas name="ocean">
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/box-x1x2.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/ground.png"/>
+		<file name="graphics/tilesets/sail.png"/>
+		<file name="graphics/tilesets/ship-base.png"/>
+		<file name="graphics/tilesets/ship-flags-x3x2.png"/>
+		<file name="graphics/tilesets/ship-mast.png"/>
+		<file name="graphics/tilesets/water.png"/>
+		<file name="graphics/tilesets/ship-indoor.png"/>
+	</atlas>
+	<atlas name="ship">
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/box-x1x2.png"/>
+		<file name="graphics/tilesets/candle-x1x2.png"/>
+		<file name="graphics/tilesets/carpet.png"/>
+		<file name="graphics/tilesets/shadow.png"/>
+		<file name="graphics/tilesets/ship-indoor.png"/>
+		<file name="graphics/tilesets/ship-indoor-x2x4.png"/>
+		<file name="graphics/tilesets/ship-indoor-fringe.png"/>
+		<file name="graphics/tilesets/sunlight-x1x5.png"/>
+	</atlas>
+	<atlas name="testarea">
+		<file name="graphics/tilesets/artis-indoor.png"/>
+		<file name="graphics/tilesets/ground.png"/>
+	</atlas>
+	<!-- / Evol -->
 
 
 
-    <!-- namespace TMW2 -->
-    <atlas name="aeros">
-        <file name="graphics/tilesets/casas-cogumelo.png"/>
-        <file name="graphics/tilesets/concreteWalls.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/docks_x4.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/forest.png"/>
-        <file name="graphics/tilesets/snow2.png"/>
-        <file name="graphics/tilesets/snow_tree_x3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_swamp.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x8.png"/>
-        <file name="graphics/tilesets/woodland_water.png"/>
-    </atlas>
 
-    <atlas name="botcheck">
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/arena.png"/>
-    </atlas>
 
-    <atlas name="candor">
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1x2.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/ship-base.png"/>
-        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
-        <file name="graphics/tilesets/ship-mast.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/tree-x3x3.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/water_overflow.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-    </atlas>
+	<!-- namespace TMW2 -->
+	<atlas name="aeros">
+		<file name="graphics/tilesets/casas-cogumelo.png"/>
+		<file name="graphics/tilesets/concreteWalls.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/docks_x2.png"/>
+		<file name="graphics/tilesets/docks_x4.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/forest.png"/>
+		<file name="graphics/tilesets/snow2.png"/>
+		<file name="graphics/tilesets/snow_tree_x3.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_swamp.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x4.png"/>
+		<file name="graphics/tilesets/woodland_x8.png"/>
+		<file name="graphics/tilesets/woodland_water.png"/>
+	</atlas>
 
-    <atlas name="candor-indoor">
-        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
-        <file name="graphics/tilesets/desert_city_indoors.png"/>
-        <file name="graphics/tilesets/desert_castle2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/ship-glags-x3x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/wood_lab.png"/>
-    </atlas>
+	<atlas name="botcheck">
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/arena.png"/>
+	</atlas>
 
-    <atlas name="cave">
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-    </atlas>
+	<atlas name="candor">
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/box-x1x2.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/docks_x2.png"/>
+		<file name="graphics/tilesets/ship-base.png"/>
+		<file name="graphics/tilesets/ship-flags-x3x2.png"/>
+		<file name="graphics/tilesets/ship-mast.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/tree-x3x3.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/water3.png"/>
+		<file name="graphics/tilesets/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/waterflow.png"/>
+		<file name="graphics/tilesets/water_overflow.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village_x3.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+	</atlas>
 
-    <atlas name="cave2">
-        <file name="graphics/tilesets/arena.png"/>
-        <file name="graphics/tilesets/candle-x1x2.png"/>
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave2.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-        <file name="graphics/tilesets/cave_bilevel.png"/>
-        <file name="graphics/tilesets/cave2_bilevel.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/cave_lava.png"/>
-        <file name="graphics/tilesets/mushrooms.png"/>
-    </atlas>
+	<atlas name="candor-indoor">
+		<file name="graphics/tilesets/cave2_sewer_mine.png"/>
+		<file name="graphics/tilesets/desert_city_indoors.png"/>
+		<file name="graphics/tilesets/desert_castle2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/ship-glags-x3x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x3.png"/>
+		<file name="graphics/tilesets/wood_lab.png"/>
+	</atlas>
 
-    <atlas name="coliseum">
-        <file name="graphics/tilesets/concreteWalls.png"/>
-        <file name="graphics/tilesets/grade_x3.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-    </atlas>
+	<atlas name="cave">
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave_x2.png"/>
+	</atlas>
 
-    <atlas name="desert">
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-        <file name="graphics/tilesets/desert_x3.png"/>
-        <file name="graphics/tilesets/desert_x2.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_city_x2.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/tree-x3x3.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-    </atlas>
-    <atlas name="desert-canyon">
-        <file name="graphics/tilesets/concreteWalls.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-        <file name="graphics/tilesets/desert3.png"/>
-        <file name="graphics/tilesets/desertstone.png"/>
-        <file name="graphics/tilesets/desert_x3.png"/>
-        <file name="graphics/tilesets/desert_x2.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_city_x2.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/halinarzo.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/tree-x3x3.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground2.png"/>
-    </atlas>
+	<atlas name="cave2">
+		<file name="graphics/tilesets/arena.png"/>
+		<file name="graphics/tilesets/candle-x1x2.png"/>
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave2.png"/>
+		<file name="graphics/tilesets/cave_x2.png"/>
+		<file name="graphics/tilesets/cave_bilevel.png"/>
+		<file name="graphics/tilesets/cave2_bilevel.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/cave_lava.png"/>
+		<file name="graphics/tilesets/mushrooms.png"/>
+	</atlas>
 
-    <atlas name="gm-castle">
-        <file name="graphics/tilesets/arena.png"/>
-        <file name="graphics/tilesets/blockWalls.png"/>
-        <file name="graphics/tilesets/blockWalls_x2.png"/>
-        <file name="graphics/tilesets/treebr_door_x3.png"/>
-        <file name="graphics/tilesets/Throne_x2.png"/>
-        <file name="graphics/tilesets/soccer_field.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-    </atlas>
+	<atlas name="coliseum">
+		<file name="graphics/tilesets/concreteWalls.png"/>
+		<file name="graphics/tilesets/grade_x3.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+	</atlas>
 
-    <atlas name="gm-palace">
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-        <file name="graphics/tilesets/desert3.png"/>
-        <file name="graphics/tilesets/desert_x2.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/desert_castle2.png"/>
-        <file name="graphics/tilesets/desert_castle_x2.png"/>
-        <file name="graphics/tilesets/desert_castle_x3.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/water_overflow.png"/>
-    </atlas>
+	<atlas name="desert">
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+		<file name="graphics/tilesets/desert_x3.png"/>
+		<file name="graphics/tilesets/desert_x2.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/desert_city_x2.png"/>
+		<file name="graphics/tilesets/desert_castle.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/tree-x3x3.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/waterflow.png"/>
+		<file name="graphics/tilesets/water3.png"/>
+	</atlas>
+	<atlas name="desert-canyon">
+		<file name="graphics/tilesets/concreteWalls.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+		<file name="graphics/tilesets/desert3.png"/>
+		<file name="graphics/tilesets/desertstone.png"/>
+		<file name="graphics/tilesets/desert_x3.png"/>
+		<file name="graphics/tilesets/desert_x2.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/desert_city_x2.png"/>
+		<file name="graphics/tilesets/desert_castle.png"/>
+		<file name="graphics/tilesets/halinarzo.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/tree-x3x3.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/waterflow.png"/>
+		<file name="graphics/tilesets/water3.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground2.png"/>
+	</atlas>
 
-    <atlas name="gm-indoor">
-        <file name="graphics/tilesets/Throne_x2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/desert_castle_interior.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x2.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x4.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x5.png"/>
-        <file name="graphics/tilesets/desert_city_indoors.png"/>
-        <file name="graphics/tilesets/desert_city_indoors_x3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/wood_lab.png"/>
-    </atlas>
+	<atlas name="gm-castle">
+		<file name="graphics/tilesets/arena.png"/>
+		<file name="graphics/tilesets/blockWalls.png"/>
+		<file name="graphics/tilesets/blockWalls_x2.png"/>
+		<file name="graphics/tilesets/treebr_door_x3.png"/>
+		<file name="graphics/tilesets/Throne_x2.png"/>
+		<file name="graphics/tilesets/soccer_field.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+	</atlas>
 
-    <atlas name="halinarzo">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/concreteWalls.png"/>
-        <file name="graphics/tilesets/castle1.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-        <file name="graphics/tilesets/desert3.png"/>
-        <file name="graphics/tilesets/desert_x2.png"/>
-        <file name="graphics/tilesets/desert_x3.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/flags-anime_x2.png"/>
-        <file name="graphics/tilesets/halinarzo.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground2.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-    </atlas>
+	<atlas name="gm-palace">
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+		<file name="graphics/tilesets/desert3.png"/>
+		<file name="graphics/tilesets/desert_x2.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/desert_castle.png"/>
+		<file name="graphics/tilesets/desert_castle2.png"/>
+		<file name="graphics/tilesets/desert_castle_x2.png"/>
+		<file name="graphics/tilesets/desert_castle_x3.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/docks_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/water_overflow.png"/>
+	</atlas>
 
-    <atlas name="halinarzo-indoor">
-        <file name="graphics/tilesets/cabana_in.png"/>
-        <file name="graphics/tilesets/cabana_in_fada.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/inn_x4.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/pots_x2.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/staircase.png"/>
-        <file name="graphics/tilesets/blockWalls.png"/>
-    </atlas>
+	<atlas name="gm-indoor">
+		<file name="graphics/tilesets/Throne_x2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/desert_castle_interior.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x2.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x4.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x5.png"/>
+		<file name="graphics/tilesets/desert_city_indoors.png"/>
+		<file name="graphics/tilesets/desert_city_indoors_x3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/wood_lab.png"/>
+	</atlas>
 
-    <atlas name="lilit">
-        <file name="graphics/tilesets/br/arvore_raiz.png"/>
-        <file name="graphics/tilesets/br/arvore_tronco_x3.png"/>
-        <file name="graphics/tilesets/casas-cogumelo.png"/>
-        <file name="graphics/tilesets/concreteWalls.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/treebr_door_x3.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground2.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-    </atlas>
+	<atlas name="halinarzo">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/concreteWalls.png"/>
+		<file name="graphics/tilesets/castle1.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+		<file name="graphics/tilesets/desert3.png"/>
+		<file name="graphics/tilesets/desert_x2.png"/>
+		<file name="graphics/tilesets/desert_x3.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/desert_castle.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/docks_x2.png"/>
+		<file name="graphics/tilesets/flags-anime_x2.png"/>
+		<file name="graphics/tilesets/halinarzo.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/waterflow.png"/>
+		<file name="graphics/tilesets/water3.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground2.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x5.png"/>
+	</atlas>
 
-    <atlas name="lof">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/casas-cogumelo.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/desert2_old.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/br/dirt2.png"/>
-        <file name="graphics/tilesets/blockWalls2.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/br/pavement.png"/>
-        <file name="graphics/tilesets/magecity.png"/>
-        <file name="graphics/tilesets/woodland_water.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-        <file name="graphics/tilesets/lof/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/lof/warp_gates.png"/>
-    </atlas>
+	<atlas name="halinarzo-indoor">
+		<file name="graphics/tilesets/cabana_in.png"/>
+		<file name="graphics/tilesets/cabana_in_fada.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/inn_x4.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x3.png"/>
+		<file name="graphics/tilesets/pots_x2.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/staircase.png"/>
+		<file name="graphics/tilesets/blockWalls.png"/>
+	</atlas>
 
-    <atlas name="lof-castle">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor.png"/>
-        <file name="graphics/tilesets/lof/castle_1.png"/>
-        <file name="graphics/tilesets/lof/castle_2.png"/>
-        <file name="graphics/tilesets/lof/castle_3.png"/>
-    </atlas>
+	<atlas name="lilit">
+		<file name="graphics/tilesets/br/arvore_raiz.png"/>
+		<file name="graphics/tilesets/br/arvore_tronco_x3.png"/>
+		<file name="graphics/tilesets/casas-cogumelo.png"/>
+		<file name="graphics/tilesets/concreteWalls.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/treebr_door_x3.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground2.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+	</atlas>
 
-    <atlas name="lof-cave">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave2.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-        <file name="graphics/tilesets/cave_bilevel.png"/>
-        <file name="graphics/tilesets/cave2_bilevel.png"/>
-        <file name="graphics/tilesets/cave_lava.png"/>
-        <file name="graphics/tilesets/mushrooms.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_extra.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/mountain.png"/>
-        <file name="graphics/tilesets/lof/warp_gates.png"/>
-    </atlas>
+	<atlas name="lof">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/casas-cogumelo.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/desert2_old.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/br/dirt2.png"/>
+		<file name="graphics/tilesets/blockWalls2.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/br/pavement.png"/>
+		<file name="graphics/tilesets/magecity.png"/>
+		<file name="graphics/tilesets/woodland_water.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+		<file name="graphics/tilesets/lof/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/lof/warp_gates.png"/>
+	</atlas>
 
-    <atlas name="lof-indoor">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/lof/garland.png"/>
-        <file name="graphics/tilesets/forge_x4.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/pots_x2.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_extra.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/lof/woodland_indoor_x3_extra.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-    </atlas>
+	<atlas name="lof-castle">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor.png"/>
+		<file name="graphics/tilesets/lof/castle_1.png"/>
+		<file name="graphics/tilesets/lof/castle_2.png"/>
+		<file name="graphics/tilesets/lof/castle_3.png"/>
+	</atlas>
 
-    <atlas name="lof-island">
-        <file name="graphics/tilesets/christmas.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground2.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-        <file name="graphics/tilesets/woodland_x8.png"/>
-        <file name="graphics/tilesets/woodland_swamp.png"/>
-        <file name="graphics/tilesets/forest.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-        <file name="graphics/tilesets/lof/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/lof/castle_1.png"/>
-        <file name="graphics/tilesets/lof/castle_2.png"/>
-        <file name="graphics/tilesets/lof/castle_3.png"/>
-        <file name="graphics/tilesets/lof/warp_gates.png"/>
-    </atlas>
+	<atlas name="lof-cave">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave2.png"/>
+		<file name="graphics/tilesets/cave_x2.png"/>
+		<file name="graphics/tilesets/cave_bilevel.png"/>
+		<file name="graphics/tilesets/cave2_bilevel.png"/>
+		<file name="graphics/tilesets/cave_lava.png"/>
+		<file name="graphics/tilesets/mushrooms.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_x3.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_extra.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/mountain.png"/>
+		<file name="graphics/tilesets/lof/warp_gates.png"/>
+	</atlas>
 
-    <atlas name="magic-forest">
-        <file name="graphics/tilesets/casas-cogumelo.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-    </atlas>
+	<atlas name="lof-indoor">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/lof/garland.png"/>
+		<file name="graphics/tilesets/forge_x4.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/pots_x2.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_extra.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_x3.png"/>
+		<file name="graphics/tilesets/lof/woodland_indoor_x3_extra.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+	</atlas>
 
-    <atlas name="mine">
-        <file name="graphics/tilesets/barbarians_outdoor.png"/>
-        <file name="graphics/tilesets/cave2.png"/>
-        <file name="graphics/tilesets/cave_lava.png"/>
-        <file name="graphics/tilesets/cave2_x2.png"/>
-        <file name="graphics/tilesets/cave2_base.png"/>
-        <file name="graphics/tilesets/cave2_bilevel.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
-        <file name="graphics/tilesets/cave2_transistions.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-    </atlas>
+	<atlas name="lof-island">
+		<file name="graphics/tilesets/christmas.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground2.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x4.png"/>
+		<file name="graphics/tilesets/woodland_x5.png"/>
+		<file name="graphics/tilesets/woodland_x8.png"/>
+		<file name="graphics/tilesets/woodland_swamp.png"/>
+		<file name="graphics/tilesets/forest.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+		<file name="graphics/tilesets/lof/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/lof/castle_1.png"/>
+		<file name="graphics/tilesets/lof/castle_2.png"/>
+		<file name="graphics/tilesets/lof/castle_3.png"/>
+		<file name="graphics/tilesets/lof/warp_gates.png"/>
+	</atlas>
 
-    <atlas name="prison">
-        <file name="graphics/tilesets/blockWalls.png"/>
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/grade_x3.png"/>
-    </atlas>
+	<atlas name="magic-forest">
+		<file name="graphics/tilesets/casas-cogumelo.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x4.png"/>
+	</atlas>
 
-    <atlas name="thunderhill">
-        <file name="graphics/tilesets/blockWalls.png"/>
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave_bilevel.png"/>
-        <file name="graphics/tilesets/concreteWalls2013.png"/>
-        <file name="graphics/tilesets/magecity.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/lof/warp_gates.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-    </atlas>
+	<atlas name="mine">
+		<file name="graphics/tilesets/barbarians_outdoor.png"/>
+		<file name="graphics/tilesets/cave2.png"/>
+		<file name="graphics/tilesets/cave_lava.png"/>
+		<file name="graphics/tilesets/cave2_x2.png"/>
+		<file name="graphics/tilesets/cave2_base.png"/>
+		<file name="graphics/tilesets/cave2_bilevel.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
+		<file name="graphics/tilesets/cave2_transistions.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+	</atlas>
 
-    <atlas name="tulimshar">
-        <file name="graphics/tilesets/accessory.png"/>
-        <file name="graphics/tilesets/artis-dock.png"/>
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1x2.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/docks_x2.png"/>
-        <file name="graphics/tilesets/desert_x2.png"/>
-        <file name="graphics/tilesets/desert_x3.png"/>
-        <file name="graphics/tilesets/desert_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_castle.png"/>
-        <file name="graphics/tilesets/desert_city_x4.png"/>
-        <file name="graphics/tilesets/desert1.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-        <file name="graphics/tilesets/desert_city_indoors_x3.png"/>
-        <file name="graphics/tilesets/desert_city_indoors.png"/>
-        <file name="graphics/tilesets/desert_city_x2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/ship-base.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/ship-mast.png"/>
-        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
-        <file name="graphics/tilesets/tree-x3x3.png"/>
-        <file name="graphics/tilesets/tree-x3x4.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/water3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/waterflow.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/> <!-- TODO: better off the atlas, we use only chimney -->
-    </atlas>
+	<atlas name="prison">
+		<file name="graphics/tilesets/blockWalls.png"/>
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/grade_x3.png"/>
+	</atlas>
 
-    <atlas name="tulimshar-council">
-        <file name="graphics/tilesets/carpet.png"/>
-        <file name="graphics/tilesets/desert_castle_interior.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x2.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x4.png"/>
-        <file name="graphics/tilesets/desert_castle_interior_x5.png"/>
-        <file name="graphics/tilesets/desert_city.png"/>
-        <file name="graphics/tilesets/desert_city_indoors.png"/>
-        <file name="graphics/tilesets/desert_city_indoors_x3.png"/>
-        <file name="graphics/tilesets/grade_x3.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/wood_lab.png"/>
-    </atlas>
+	<atlas name="thunderhill">
+		<file name="graphics/tilesets/blockWalls.png"/>
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave_bilevel.png"/>
+		<file name="graphics/tilesets/concreteWalls2013.png"/>
+		<file name="graphics/tilesets/magecity.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/lof/warp_gates.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x5.png"/>
+	</atlas>
 
-    <atlas name="tulimshar-indoor">
-        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
-        <file name="graphics/tilesets/castle2.png"/>
-        <file name="graphics/tilesets/desert_city_indoors.png"/>
-        <file name="graphics/tilesets/desert_city_x2.png"/>
-        <file name="graphics/tilesets/desert_city_indoors_x3.png"/>
-        <file name="graphics/tilesets/desert_castle2.png"/>
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/inn_x4.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <!-- TODO: Maybe this is a bad idea, and should not be in Tulimshar Indoor... -->
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-    </atlas>
+	<atlas name="tulimshar">
+		<file name="graphics/tilesets/accessory.png"/>
+		<file name="graphics/tilesets/artis-dock.png"/>
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/box-x1x2.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/docks_x2.png"/>
+		<file name="graphics/tilesets/desert_x2.png"/>
+		<file name="graphics/tilesets/desert_x3.png"/>
+		<file name="graphics/tilesets/desert_x5.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/desert_castle.png"/>
+		<file name="graphics/tilesets/desert_city_x4.png"/>
+		<file name="graphics/tilesets/desert1.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+		<file name="graphics/tilesets/desert_city_indoors_x3.png"/>
+		<file name="graphics/tilesets/desert_city_indoors.png"/>
+		<file name="graphics/tilesets/desert_city_x2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/ship-base.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/ship-mast.png"/>
+		<file name="graphics/tilesets/ship-flags-x3x2.png"/>
+		<file name="graphics/tilesets/tree-x3x3.png"/>
+		<file name="graphics/tilesets/tree-x3x4.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/water3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/waterflow.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/> <!-- TODO: better off the atlas, we use only chimney -->
+	</atlas>
 
-    <atlas name="sewer">
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-        <file name="graphics/tilesets/cave2.png"/>
-        <file name="graphics/tilesets/cave2_x2.png"/>
-        <file name="graphics/tilesets/cave2_bilevel.png"/>
-        <file name="graphics/tilesets/cave2_bilevel_water_lava.png"/>
-        <file name="graphics/tilesets/cave2_sewers.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine_x3.png"/>
-        <file name="graphics/tilesets/cave2_sewer_mine_x4.png"/>
-        <file name="graphics/tilesets/cave2_transistions.png"/>
-    </atlas>
+	<atlas name="tulimshar-council">
+		<file name="graphics/tilesets/carpet.png"/>
+		<file name="graphics/tilesets/desert_castle_interior.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x2.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x4.png"/>
+		<file name="graphics/tilesets/desert_castle_interior_x5.png"/>
+		<file name="graphics/tilesets/desert_city.png"/>
+		<file name="graphics/tilesets/desert_city_indoors.png"/>
+		<file name="graphics/tilesets/desert_city_indoors_x3.png"/>
+		<file name="graphics/tilesets/grade_x3.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/wood_lab.png"/>
+	</atlas>
 
-    <atlas name="snow">
-        <file name="graphics/tilesets/barbarians_yurt_x4.png"/>
-        <file name="graphics/tilesets/br/snow_cold.png"/>
-        <file name="graphics/tilesets/br/snow_x3.png"/>
-        <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/snow2.png"/>
-        <file name="graphics/tilesets/snow_x2.png"/>
-        <file name="graphics/tilesets/snow_ground.png"/>
-        <file name="graphics/tilesets/snow_tree_x3.png"/>
-        <file name="graphics/tilesets/snow_village.png"/>
-        <file name="graphics/tilesets/woodland_snow_x3.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/lof/woodland_village_winter.png"/>
-    </atlas>
-    <atlas name="snow-village">
-        <file name="graphics/tilesets/snow_docks.png"/>
-        <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/snow2.png"/>
-        <file name="graphics/tilesets/snow_x2.png"/>
-        <file name="graphics/tilesets/snow_x3.png"/>
-        <file name="graphics/tilesets/snow_ground.png"/>
-        <file name="graphics/tilesets/snow_tree_x3.png"/>
-        <file name="graphics/tilesets/snow_village.png"/>
-        <file name="graphics/tilesets/snow_village_x3.png"/>
-        <file name="graphics/tilesets/snow_village_x4.png"/>
-        <file name="graphics/tilesets/woodland_snow_x3.png"/>
-        <file name="graphics/tilesets/lof/woodland_village_winter.png"/>
-    </atlas>
+	<atlas name="tulimshar-indoor">
+		<file name="graphics/tilesets/cave2_sewer_mine.png"/>
+		<file name="graphics/tilesets/castle2.png"/>
+		<file name="graphics/tilesets/desert_city_indoors.png"/>
+		<file name="graphics/tilesets/desert_city_x2.png"/>
+		<file name="graphics/tilesets/desert_city_indoors_x3.png"/>
+		<file name="graphics/tilesets/desert_castle2.png"/>
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/inn_x4.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<!-- TODO: Maybe this is a bad idea, and should not be in Tulimshar Indoor... -->
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x3.png"/>
+	</atlas>
 
-    <atlas name="woodland">
-        <file name="graphics/tilesets/box.png"/>
-        <file name="graphics/tilesets/box-x1x2.png"/>
-        <file name="graphics/tilesets/docks.png"/>
-        <file name="graphics/tilesets/lof/woodland_village.png"/>
-        <file name="graphics/tilesets/magecity.png"/>
-        <file name="graphics/tilesets/soccer_field.png"/>
-        <file name="graphics/tilesets/signs_x2.png"/>
-        <file name="graphics/tilesets/ship-base.png"/>
-        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
-        <file name="graphics/tilesets/ship-mast.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/woodland_village_x3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x3_fall.png"/>
-        <file name="graphics/tilesets/woodland_water.png"/>
-        <file name="graphics/tilesets/ship-base.png"/>
-        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
-        <file name="graphics/tilesets/ship-mast.png"/>
-    </atlas>
+	<atlas name="sewer">
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave_x2.png"/>
+		<file name="graphics/tilesets/cave2.png"/>
+		<file name="graphics/tilesets/cave2_x2.png"/>
+		<file name="graphics/tilesets/cave2_bilevel.png"/>
+		<file name="graphics/tilesets/cave2_bilevel_water_lava.png"/>
+		<file name="graphics/tilesets/cave2_sewers.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine_x2.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine_x3.png"/>
+		<file name="graphics/tilesets/cave2_sewer_mine_x4.png"/>
+		<file name="graphics/tilesets/cave2_transistions.png"/>
+	</atlas>
 
-    <atlas name="woodland-indoor">
-        <file name="graphics/tilesets/inn2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/inn_x3.png"/>
-        <file name="graphics/tilesets/inn_x4.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-    </atlas>
+	<atlas name="snow">
+		<file name="graphics/tilesets/barbarians_yurt_x4.png"/>
+		<file name="graphics/tilesets/br/snow_cold.png"/>
+		<file name="graphics/tilesets/br/snow_x3.png"/>
+		<file name="graphics/tilesets/snow.png"/>
+		<file name="graphics/tilesets/snow2.png"/>
+		<file name="graphics/tilesets/snow_x2.png"/>
+		<file name="graphics/tilesets/snow_ground.png"/>
+		<file name="graphics/tilesets/snow_tree_x3.png"/>
+		<file name="graphics/tilesets/snow_village.png"/>
+		<file name="graphics/tilesets/woodland_snow_x3.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/lof/woodland_village_winter.png"/>
+	</atlas>
+	<atlas name="snow-village">
+		<file name="graphics/tilesets/snow_docks.png"/>
+		<file name="graphics/tilesets/snow.png"/>
+		<file name="graphics/tilesets/snow2.png"/>
+		<file name="graphics/tilesets/snow_x2.png"/>
+		<file name="graphics/tilesets/snow_x3.png"/>
+		<file name="graphics/tilesets/snow_ground.png"/>
+		<file name="graphics/tilesets/snow_tree_x3.png"/>
+		<file name="graphics/tilesets/snow_village.png"/>
+		<file name="graphics/tilesets/snow_village_x3.png"/>
+		<file name="graphics/tilesets/snow_village_x4.png"/>
+		<file name="graphics/tilesets/woodland_snow_x3.png"/>
+		<file name="graphics/tilesets/lof/woodland_village_winter.png"/>
+	</atlas>
 
-    <atlas name="woodland-snow">
-        <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/snow2.png"/>
-        <file name="graphics/tilesets/snow_ground.png"/>
-        <file name="graphics/tilesets/snow_tree_x3.png"/>
-        <file name="graphics/tilesets/snow_village.png"/>
-        <file name="graphics/tilesets/woodland_snow_x3.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/woodland_village_x3.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_water.png"/>
-    </atlas>
-    
-    <atlas name="woodcave">
-        <file name="graphics/tilesets/cave.png"/>
-        <file name="graphics/tilesets/cave_x2.png"/>
-        <file name="graphics/tilesets/cave_bilevel.png"/>
-        <file name="graphics/tilesets/cave_ani_wetwall.png"/>
-        <file name="graphics/tilesets/mushrooms.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x3.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-        <file name="graphics/tilesets/woodland_x5_fall.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/inn_x2.png"/>
-        <file name="graphics/tilesets/desert2.png"/>
-    </atlas>
-    <!-- / TMW2 -->
+	<atlas name="woodland">
+		<file name="graphics/tilesets/box.png"/>
+		<file name="graphics/tilesets/box-x1x2.png"/>
+		<file name="graphics/tilesets/docks.png"/>
+		<file name="graphics/tilesets/lof/woodland_village.png"/>
+		<file name="graphics/tilesets/magecity.png"/>
+		<file name="graphics/tilesets/soccer_field.png"/>
+		<file name="graphics/tilesets/signs_x2.png"/>
+		<file name="graphics/tilesets/ship-base.png"/>
+		<file name="graphics/tilesets/ship-flags-x3x2.png"/>
+		<file name="graphics/tilesets/ship-mast.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/woodland_village_x3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x3_fall.png"/>
+		<file name="graphics/tilesets/woodland_water.png"/>
+		<file name="graphics/tilesets/ship-base.png"/>
+		<file name="graphics/tilesets/ship-flags-x3x2.png"/>
+		<file name="graphics/tilesets/ship-mast.png"/>
+	</atlas>
 
-    <atlas name="soren">
-        <file name="graphics/tilesets/snow.png"/>
-        <file name="graphics/tilesets/snow2.png"/>
-        <file name="graphics/tilesets/trans_woodland_desert.png"/>
-        <file name="graphics/tilesets/woodland_graveyard_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground.png"/>
-        <file name="graphics/tilesets/woodland_ground2.png"/>
-        <file name="graphics/tilesets/woodland_swamp.png"/>
-        <file name="graphics/tilesets/woodland_village.png"/>
-        <file name="graphics/tilesets/woodland_village_x2.png"/>
-        <file name="graphics/tilesets/woodland_village_x3.png"/>
-        <file name="graphics/tilesets/woodland_x2.png"/>
-        <file name="graphics/tilesets/woodland_x3.png"/>
-        <file name="graphics/tilesets/woodland_x4.png"/>
-        <file name="graphics/tilesets/woodland_x5.png"/>
-        <file name="graphics/tilesets/woodland_x8.png"/>
-        <file name="graphics/tilesets/woodland_water.png"/>
-    </atlas>
+	<atlas name="woodland-indoor">
+		<file name="graphics/tilesets/inn2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/inn_x3.png"/>
+		<file name="graphics/tilesets/inn_x4.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x3.png"/>
+	</atlas>
 
-    <atlas name="saulc">
-        <file name="graphics/tilesets/inn.png"/>
-        <file name="graphics/tilesets/woodland_indoor.png"/>
-        <file name="graphics/tilesets/woodland_indoor_x2.png"/>
-        <file name="graphics/tilesets/indoor-accessories.png"/>
-    </atlas>
+	<atlas name="woodland-snow">
+		<file name="graphics/tilesets/snow.png"/>
+		<file name="graphics/tilesets/snow2.png"/>
+		<file name="graphics/tilesets/snow_ground.png"/>
+		<file name="graphics/tilesets/snow_tree_x3.png"/>
+		<file name="graphics/tilesets/snow_village.png"/>
+		<file name="graphics/tilesets/woodland_snow_x3.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/woodland_village_x3.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_water.png"/>
+	</atlas>
+	
+	<atlas name="woodcave">
+		<file name="graphics/tilesets/cave.png"/>
+		<file name="graphics/tilesets/cave_x2.png"/>
+		<file name="graphics/tilesets/cave_bilevel.png"/>
+		<file name="graphics/tilesets/cave_ani_wetwall.png"/>
+		<file name="graphics/tilesets/mushrooms.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x3.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x4.png"/>
+		<file name="graphics/tilesets/woodland_x5.png"/>
+		<file name="graphics/tilesets/woodland_x5_fall.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/inn_x2.png"/>
+		<file name="graphics/tilesets/desert2.png"/>
+	</atlas>
+	<!-- / TMW2 -->
+
+	<atlas name="soren">
+		<file name="graphics/tilesets/snow.png"/>
+		<file name="graphics/tilesets/snow2.png"/>
+		<file name="graphics/tilesets/trans_woodland_desert.png"/>
+		<file name="graphics/tilesets/woodland_graveyard_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground.png"/>
+		<file name="graphics/tilesets/woodland_ground2.png"/>
+		<file name="graphics/tilesets/woodland_swamp.png"/>
+		<file name="graphics/tilesets/woodland_village.png"/>
+		<file name="graphics/tilesets/woodland_village_x2.png"/>
+		<file name="graphics/tilesets/woodland_village_x3.png"/>
+		<file name="graphics/tilesets/woodland_x2.png"/>
+		<file name="graphics/tilesets/woodland_x3.png"/>
+		<file name="graphics/tilesets/woodland_x4.png"/>
+		<file name="graphics/tilesets/woodland_x5.png"/>
+		<file name="graphics/tilesets/woodland_x8.png"/>
+		<file name="graphics/tilesets/woodland_water.png"/>
+	</atlas>
+
+	<atlas name="saulc">
+		<file name="graphics/tilesets/inn.png"/>
+		<file name="graphics/tilesets/woodland_indoor.png"/>
+		<file name="graphics/tilesets/woodland_indoor_x2.png"/>
+		<file name="graphics/tilesets/indoor-accessories.png"/>
+	</atlas>
 
 </maps>
