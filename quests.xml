@@ -766,10 +766,21 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
     <var id="58">
-        <quest name="Red Scorpion Plague" group="Tulimshar" incomplete="1,2">
+        <quest name="Red Scorpion Plague" group="Tulimshar" incomplete="1">
             <name>Red Scorpion Plague</name>
             <text>Red Scorpions are threating Tulimshar.</text>
             <text>I need to bring some stingers, to prove my worth.</text>
+            <text></text>
+            <questgiver>Guard Devoir</questgiver>
+            <coordinates x="114" y="83">Tulimshar's Guard House, 2nd floor.</coordinates>
+            <reward>Gold and Experience.</reward>
+        </quest>
+        <quest name="Red Scorpion Plague" group="Tulimshar" complete="2">
+            <name>Red Scorpion Plague</name>
+            <text>Red Scorpions are threating Tulimshar.</text>
+            <text>I need to bring some stingers, to help with extermination.</text>
+            <text></text>
+            <text>##2Repeatable Quest##0</text>
             <text></text>
             <questgiver>Guard Devoir</questgiver>
             <coordinates x="114" y="83">Tulimshar's Guard House, 2nd floor.</coordinates>
