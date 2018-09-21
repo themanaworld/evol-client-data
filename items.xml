@@ -3048,7 +3048,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
 	</item>
 	<item id="1319"
-		image="equipment/chest/valentinedress.png|W"
+		image="equipment/chest/valentinedress.png|W:#a5a5a5,fefefe,ffffff,ffffff"
 		name="%Color% Valentine Dress"
 		description="A %Color% dress made for your Valentin's day. Could be red, though."
 		defense="250"
@@ -3057,8 +3057,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="35"
 		colors="simple"
 		maxFloorOffset="10">
-		<sprite gender="unisex">equipment/chest/valentinedress-male.xml</sprite>
-		<sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
+		<sprite gender="unisex">equipment/chest/valentinedress-male.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
+		<sprite gender="female">equipment/chest/valentinedress-female.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
 	</item>
 	<item id="1320"
 		image="equipment/chest/vnecksweater.png|W"
@@ -3166,7 +3166,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<!-- @Saulc you need itemColors (or colors) attribute to dye icon, not an empty dye command -->
 	<item id="1332"
-		image="equipment/chest/cottonshirt.png|W"
+		image="equipment/chest/cottonshirt.png|W:#a4b2b2,ffffff"
 		name="%Color% Cotton Shirt"
 		description="Shirt made of 100% cotton"
 		defense="30"
@@ -3174,8 +3174,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-torso"
 		colors="simple"
 		weight="90">
-		<sprite gender="unisex">equipment/chest/cottonshirt-male.xml</sprite>
-		<sprite gender="female">equipment/chest/cottonshirt-female.xml</sprite>
+		<sprite gender="unisex">equipment/chest/cottonshirt-male.xml|#a4b2b2,ffffff</sprite>
+		<sprite gender="female">equipment/chest/cottonshirt-female.xml|#a4b2b2,ffffff</sprite>
 	</item>
 	<item id="1334"
 		image="equipment/chest/candorshirt.png"
