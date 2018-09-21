@@ -3436,7 +3436,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<!-- |W:#a4b2b2,ffffff -->
 	<item id="2005"
-		image="equipment/hands/cottongloves.png|W"
+		image="equipment/hands/cottongloves.png|W:#a4b2b2,ffffff"
 		name="%Color% Cotton Gloves"
 		description="A pair of comfy %Color% cotton gloves."
 		defense="10"
@@ -3446,8 +3446,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="60"
 		colors="simple"
 		maxFloorOffset="16">
-		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
-		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
+		<sprite gender="unisex">equipment/hands/cottongloves-male.xml|#a4b2b2,ffffff</sprite>
+		<sprite gender="female">equipment/hands/cottongloves-female.xml|#a4b2b2,ffffff</sprite>
 	</item>
 	<item id="2006"
 		image="equipment/hands/minergloves.png"
