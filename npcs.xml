@@ -744,10 +744,19 @@ IDs 900-999 = Special
         <sprite>npcs/xml/richard.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-=======
->>>>>>> Add the first few npcs: old Koga, Lumberjack, Richard.
-=======
->>>>>>> add a bunch of hurns NPCs - most of them LEGACY versions, to be changed one by one
+    <npc id="455">
+        <!-- Old Lady reading a sheet of paper - Sophialla. -->
+        <sprite>npcs/xml/sophialla.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="456">
+<!-- Human Male, walking sprite for Mundane. -->
+        <sprite>races/human-male.xml</sprite>
+        <sprite>equipment/legs/shorts-male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite>equipment/chest/shirt-male.xml|#2b2b2b,382140,3f3f3f,3a254e,585858,3b3769,858585,3c3d83,a7a7a7,4246a6,d6d6d6,5a9cdb,ffffff,afedd2</sprite>
+        <sprite>hairstyles/hairstyle01.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
