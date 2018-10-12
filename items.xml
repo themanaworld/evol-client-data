@@ -5666,6 +5666,24 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
+    <!-- Fill new weapons HERE -->
+	<item id="3600"
+		image="equipment/weapons/savior.png"
+		name="Lightbringer ★★★★★"
+		description="The most powerful sword from TMW-BR, has a mind of its own."
+        effect="Drain HP of unworthy users"
+		attack="950"
+		attack-range="1"
+		level="255"
+		critical-hit-effect-id="312"
+		hit-effect-id="312"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="958">
+		<sprite>equipment/weapons/traininggladius.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
 	<!-- Pets -->
 	<item id="4000"
 		image="usable/pets/piouegg.png"
