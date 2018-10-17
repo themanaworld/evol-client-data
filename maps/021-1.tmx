@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="321" height="320" tilewidth="32" tileheight="32" nextobjectid="193">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="321" height="320" tilewidth="32" tileheight="32" infinite="0" nextobjectid="196">
  <properties>
   <property name="author" value="The Mana World Team, Jesusalva"/>
   <property name="license" value="GPL v2+"/>
@@ -1630,7 +1630,7 @@
 </data>
  </layer>
  <objectgroup name="Objects" visible="0"/>
- <objectgroup name="Warps">
+ <objectgroup name="Warps" visible="0">
   <object id="140" name="To Ice Labyrinth" type="warp" x="3296" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-1"/>
@@ -1980,6 +1980,32 @@
     <property name="dest_map" value="021-1"/>
     <property name="dest_x" value="192"/>
     <property name="dest_y" value="71"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff5500" name="Spawns">
+  <object id="193" name="White Slime" type="spawn" x="576" y="640" width="9248" height="5184">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="75"/>
+    <property name="monster_id" value="1094"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="194" name="Blue Slime" type="spawn" x="1056" y="1984" width="8192" height="7200">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="90"/>
+    <property name="monster_id" value="1087"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="195" name="Moggun" type="spawn" x="448" y="4992" width="9472" height="4800">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="62"/>
+    <property name="monster_id" value="1070"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
  </objectgroup>
