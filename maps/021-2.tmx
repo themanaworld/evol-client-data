@@ -842,7 +842,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff5500" name="Spawns" visible="0">
+ <objectgroup color="#ff5500" name="Spawns">
   <object id="11" name="Moggun" type="spawn" x="800" y="1856" width="1440" height="1416">
    <properties>
     <property name="death" value="30000"/>
@@ -854,9 +854,9 @@
   <object id="12" name="Blue Slime" type="spawn" x="1952" y="1376" width="1944" height="1952">
    <properties>
     <property name="death" value="30000"/>
-    <property name="max_beings" value="20"/>
+    <property name="max_beings" value="27"/>
     <property name="monster_id" value="1087"/>
-    <property name="spawn" value="100000"/>
+    <property name="spawn" value="20000"/>
    </properties>
   </object>
   <object id="13" name="White Slime" type="spawn" x="800" y="512" width="3168" height="1408">
