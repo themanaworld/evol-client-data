@@ -1,4 +1,5 @@
 # Client Data for TMW2
+[![pipeline status](https://gitlab.com/TMW2/clientdata/badges/master/pipeline.svg)](https://gitlab.com/TMW2/clientdata/commits/master)
 
 Remember to link music repo music folder here.
 Example command:
