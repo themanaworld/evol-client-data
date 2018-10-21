@@ -519,6 +519,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="25"
         maxFloorOffset="6"/>
+    <item id="563"
+        image="usable/beer.png"
+        name="Beer"
+        useButton="Eat"
+        description="Just a beer, nothing else. Don`t drink and drive!"
+        effect="Heal 400-500 HP"
+        type="usable"
+        weight="50"
+        maxFloorOffset="6"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -996,6 +1005,19 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
     </item>
     <item id="1308"
+        image="equipment/chest/finedress.png|W"
+        name="%Color% Fine Dress"
+        description="A fine %Color% dress for the Lady or the Gentleman of today."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="240"
+        colors="simple"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/finedress-male.xml|#606060,aaaaaa,dddddd,fcfcfc</sprite>
+        <sprite gender="female">equipment/chest/finedress-female.xml||#606060,aaaaaa,dddddd,fcfcfc</sprite>
+    </item>
+    <item id="1309"
         image="equipment/chest/warlordplate.png"
         name="Warlord Plate"
         description="Strong and decorative armor."
