@@ -1103,6 +1103,12 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
         <menu name="Trade" command="buy 'NAME'"/>
     </npc>
+    <npc id="914"> <!-- switch (left - offline) -->
+        <sprite>npcs/xml/switch-offline.xml</sprite>
+    </npc>
+    <npc id="915"> <!-- switch (right - online) -->
+        <sprite>npcs/xml/switch-online.xml</sprite>
+    </npc>
     <npc id="998" nameOffsetX="16" targetOffsetX="16">
         <!-- No sprite with a name half-offseted to the right. -->
         <menu name="Talk" command="talk 'NAME'"/>

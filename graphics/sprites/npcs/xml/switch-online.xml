@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/sprite/switch.png" width="32" height="32" />
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="1" delay="75"/>
+      <frame index="2" delay="75"/>
+      <frame index="3" delay="75"/>
+      <frame index="4"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
