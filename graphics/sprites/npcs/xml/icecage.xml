@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprite variants="2">
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/ice_cage.png"
+              width="64"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>

@@ -497,6 +497,33 @@ IDs 900-999 = Special
     <npc id="240"><sprite variant="40">npcs/xml/npcs-lof.xml</sprite></npc> <!-- Thermin Lady -->
     <npc id="241"><sprite variant="41">npcs/xml/npcs-lof.xml</sprite></npc> <!-- Bard (Harp) -->
  
+    <npc id="250">
+        <!-- Cindy Locked -->
+        <sprite variant="1">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="0">equipment/override/child-head.xml|#ed5ecc</sprite>
+        <sprite variant="2">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+        <sprite variant="0">npcs/xml/icecage.xml</sprite>
+    </npc>
+ 
+    <npc id="251">
+        <!-- Cindy Unlocked -->
+        <sprite variant="1">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="0">equipment/override/child-head.xml|#ed5ecc</sprite>
+        <sprite variant="2">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+        <sprite variant="1">npcs/xml/icecage.xml</sprite>
+    </npc>
+ 
+    <npc id="252">
+        <!-- Cindy Free -->
+        <sprite variant="1">npcs/xml/child.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#1f3d23,72982c,ffeebd,ffffff;#3a3a3a,d5d5d5</sprite>
+        <sprite variant="0">equipment/override/child-head.xml|#ed5ecc</sprite>
+        <sprite variant="2">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+    </npc>
+ 
+    <npc id="253">
+        <!-- Ice Cage (for cleaning up) -->
+        <sprite variant="0">npcs/xml/icecage.xml</sprite>
+    </npc>
 
     <!-- NPCs from TMW-BR (that's why the jump) -->
     <npc id="300"><sprite variant="0">npcs/xml/npcs-br.xml</sprite></npc> <!-- Invisible -->
