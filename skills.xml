@@ -66,54 +66,6 @@ Copyright (C) 2010-2013 Evol Online -->
             dstEffectId="34"
         />
     </set>
-    <set name="Onehand">
-        <skill
-            id="2474"
-            name="Sword training"
-            description="Passive skill. Sword training will improve your efficiency with one-handed weapons and enable further skills."
-            icon="graphics/skills/dagger.png"
-            levelUpEffectId="1"
-        />
-        <skill
-            id="2"
-            name="Sword mastery"
-            description="Passive skill. Sword mastery will make you a great fighter and provide further skills at a certain level."
-            icon="graphics/skills/dagger.png"
-            levelUpEffectId="1"
-        />
-        <skill
-            id="7"
-            name="Magnum break"
-            description="Produces a fire blast at a 5x5 area around the caster. Pushes enemies back 2 cells. Costs a small amount of hp."
-            icon="graphics/skills/swordslash.png"
-            particle="hellblaze.particle.xml"
-            levelUpEffectId="1"
-        />
-        <skill
-            id="48"
-            name="Double attack"
-            description="Allows a doubled attack with a chance of up to 50%, depending on skill level."
-            icon="graphics/skills/doubledagger.png"
-            particle="crit.particle.xml"
-            levelUpEffectId="1"
-        />
-        <skill
-            id="110"
-            name="Hammerfall"
-            description="Slams your weapon on the ground and makes all enemies within range stunned."
-            icon="graphics/skills/axe.png"
-            particle="circle.particle.xml"
-            levelUpEffectId="1"
-        />
-    <skill
-            id="155"
-            name="Crazy uproar"
-            description="Makes you scream like a viking, which will improve your strength."
-            icon="graphics/skills/aura.png"
-            particle="circle.particle.xml"
-            castingAnimation="emote.xml"
-        />
-    </set>
     <set name="Other">
        <skill
             id="28"
