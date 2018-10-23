@@ -1984,28 +1984,4 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack="100"
         weight="1"/>
 
-    <!-- namespace Legacy -->
-    <!-- Legacy: Generic -->
-    <item id="731"
-        image="generic/__LEGACY__rawlog.png"
-        name="Raw Log"
-        description="A raw log."
-        type="generic"
-        weight="10"/>
-
-    <!-- Legacy: Bows -->
-    <item id="6001"
-        image="equipment/weapons/__LEGACY__forestbow.png"
-        name="Forest Bow"
-        description="A bow usually used for hunting."
-        attack="70"
-        attack-range="5"
-        missile-particle="graphics/particles/training-arrow.xml"
-        level="25"
-        type="equip-2hand"
-        attack-action="attack_bow"
-        weight="1200">
-        <sprite>equipment/weapons/woodenbow.xml</sprite>
-    </item>
-    <!-- / Legacy -->
 </items>

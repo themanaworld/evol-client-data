@@ -1,15 +1,14 @@
-<?xml version="1.0"?>
-<sprite>
-  <imageset name="base" src="graphics/sprites/npcs/lumberjack.png" width="42" height="63"/>
-  <action name="stand" imageset="npc">
-    <animation direction="default">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2018 Evol Online -->
 
-      <!-- eyes movements -->
 <sprite>
     <imageset name="base"
               src="graphics/sprites/npcs/sprite/lumberjack.png"
               width="42"
               height="63"/>
+
+      <!-- eyes movements -->
 
     <action name="stand" imageset="base">
         <animation direction="default">
