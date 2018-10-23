@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid, Micksha
+Copyright (C) 2018 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/rowboat.png"
+              width="192"
+              height="160"
+              offsetY="0"
+              offsetX="0"/>
+
+    <action name="stand" imageset="npc">
+        <!-- Static Top -->
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+        <!-- Right -->
+        <animation direction="right">
+            <sequence start="0" end="2" delay="175"/>
+            <sequence start="3" end="5" delay="150"/>
+        </animation>
+        <!-- Left  -->
+        <animation direction="left">
+            <sequence start="6" end="8" delay="175"/>
+            <sequence start="9" end="11" delay="150"/>
+        </animation>
+        <!-- Up -->
+        <animation direction="up">
+            <sequence start="12" end="14" delay="175"/>
+            <sequence start="15" end="17" delay="150"/>
+        </animation>
+        <!-- Down -->
+        <animation direction="down">
+            <sequence start="18" end="20" delay="175"/>
+            <sequence start="21" end="23" delay="150"/>
+        </animation>
+    </action>
+</sprite>
