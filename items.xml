@@ -529,6 +529,33 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="50"
         maxFloorOffset="6"/>
+    <item id="564"
+        image="usable/roastedmaggot.png"
+        name="Roasted Maggot"
+        useButton="Eat"
+        description="a maggot, roasted on fire. Mmh, crunchy!"
+        effect="Heal 100-250 HP"
+        type="usable"
+        weight="5"
+        maxFloorOffset="6"/>
+    <item id="565"
+        image="usable/bottleofwater.png"
+        name="Bottle of Water"
+        useButton="Eat"
+        description="Fresh springwater from Hurnscald area. Healthy!"
+        effect="Heal 300-500 HP"
+        type="usable"
+        weight="25"
+        maxFloorOffset="6"/>
+    <item id="566"
+        image="usable/cherrycake.png"
+        name="Cherry Cake"
+        useButton="Eat"
+        description="If you like sweets, you will love this homemade cherry cake."
+        effect="Heal 180-360 HP"
+        type="usable"
+        weight="10"
+        maxFloorOffset="6"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -1445,6 +1472,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item from="-14" to="-9"/>
     <item from="-15" to="-19"/>
         </replace>
+    </item>    
+    <item id="2914"
+        image="equipment/head/nohmask.png"
+        name="Noh Mask"
+        description="A traditional chinese Noh Mask."
+        defense="0"
+        level="15"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/nohmask.xml</sprite>
     </item>
 
     <!-- Neck Armors -->
