@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Reid, Micksha
+<!-- Author: Micksha
 Copyright (C) 2018 Evol Online -->
 
 <sprite>
@@ -11,10 +11,16 @@ Copyright (C) 2018 Evol Online -->
               offsetX="0"/>
 
     <action name="stand" imageset="npc">
-        <!-- Static Top -->
-        <animation direction="down">
-            <frame index="0"/>
+
+        <animation direction="up">
+            <frame index="6"/>
         </animation>
+        <animation direction="right">
+            <frame index="13"/>
+        </animation>
+    </action>
+        <!-- Rowing -->
+    <action name="row" imageset="npc">
         <!-- Right -->
         <animation direction="right">
             <sequence start="0" end="2" delay="175"/>
@@ -22,18 +28,25 @@ Copyright (C) 2018 Evol Online -->
         </animation>
         <!-- Left  -->
         <animation direction="left">
-            <sequence start="6" end="8" delay="175"/>
-            <sequence start="9" end="11" delay="150"/>
+            <sequence start="7" end="9" delay="175"/>
+            <sequence start="10" end="12" delay="150"/>
         </animation>
         <!-- Up -->
         <animation direction="up">
-            <sequence start="12" end="14" delay="175"/>
-            <sequence start="15" end="17" delay="150"/>
+            <sequence start="14" end="16" delay="175"/>
+            <sequence start="17" end="19" delay="150"/>
         </animation>
         <!-- Down -->
         <animation direction="down">
             <sequence start="18" end="20" delay="175"/>
             <sequence start="21" end="23" delay="150"/>
+        </animation>
+    </action>
+    <action name="dead" imageset="npc">
+        <!-- Dead -->
+        <animation direction="down">
+            <frame index="20" delay="250"/>
+            <frame index="27" delay="250"/>
         </animation>
     </action>
 </sprite>
