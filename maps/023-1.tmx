@@ -579,20 +579,16 @@
 </data>
  </layer>
  <objectgroup name="warps">
-  <object id="2" name="D(paraC)" type="warp" x="1888" y="640" width="32" height="32">
+  <object id="2" name="D(paraC)" type="slide" x="1888" y="640" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="1504"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="36"/>
+    <property name="dest_y" value="46"/>
    </properties>
   </object>
-  <object id="3" name="B(paraA)" type="warp" x="1984" y="1024" width="32" height="32">
+  <object id="3" name="B(paraA)" type="slide" x="1984" y="1024" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1760"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="50"/>
+    <property name="dest_y" value="56"/>
    </properties>
   </object>
   <object id="4" name="paraFora" type="warp" x="1184" y="896" width="32" height="32">
@@ -603,12 +599,10 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="5" name="F(paraE)" type="warp" x="1120" y="1056" width="32" height="32">
+  <object id="5" name="F(paraE)" type="slide" x="1120" y="1056" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="1984"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
   <object id="6" name="paraFora" type="warp" x="1824" y="1376" width="32" height="32">
@@ -619,12 +613,10 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="7" name="H(paraG)" type="warp" x="1600" y="1376" width="32" height="32">
+  <object id="7" name="H(paraG)" type="slide" x="1600" y="1376" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1536"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="50"/>
+    <property name="dest_y" value="49"/>
    </properties>
   </object>
   <object id="8" name="paraFora" type="warp" x="832" y="1152" width="32" height="32">
@@ -635,28 +627,22 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="9" name="C(paraD)" type="warp" x="1152" y="1504" width="32" height="32">
+  <object id="9" name="C(paraD)" type="slide" x="1152" y="1504" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1888"/>
-    <property name="dest_y" value="640"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="59"/>
+    <property name="dest_y" value="21"/>
    </properties>
   </object>
-  <object id="10" name="G(paraH)" type="warp" x="1600" y="1536" width="32" height="32">
+  <object id="10" name="G(paraH)" type="slide" x="1600" y="1536" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1376"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="50"/>
+    <property name="dest_y" value="42"/>
    </properties>
   </object>
-  <object id="11" name="A(paraB)" type="warp" x="1600" y="1760" width="32" height="32">
+  <object id="11" name="A(paraB)" type="slide" x="1600" y="1760" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1984"/>
-    <property name="dest_y" value="1024"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="62"/>
+    <property name="dest_y" value="31"/>
    </properties>
   </object>
   <object id="12" name="paraFora" type="warp" x="1504" y="1888" width="32" height="32">
@@ -675,20 +661,17 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="14" name="E(paraF)" type="warp" x="992" y="1984" width="32" height="32">
+  <object id="14" name="E(paraF)" type="slide" x="992" y="1984" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1120"/>
-    <property name="dest_y" value="1056"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="35"/>
+    <property name="dest_y" value="34"/>
    </properties>
   </object>
-  <object id="15" name="paraFora" type="warp" x="1440" y="2240" width="32" height="32">
+  <object id="15" name="Outside" type="warp" x="1440" y="2240" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2176"/>
-    <property name="dest_y" value="2880"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_map" value="022-1"/>
+    <property name="dest_x" value="68"/>
+    <property name="dest_y" value="91"/>
    </properties>
   </object>
   <object id="16" name="I(paraJ)" type="warp" x="1248" y="640" width="32" height="32">
@@ -699,32 +682,27 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="17" name="J(paraI)" type="warp" x="1472" y="1056" width="32" height="32">
+  <object id="17" name="J(paraI)" type="slide" x="1472" y="1056" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1472"/>
-    <property name="dest_y" value="1024"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="39"/>
+    <property name="dest_y" value="21"/>
    </properties>
   </object>
-  <object id="18" name="I(paraJ)" type="warp" x="1248" y="640" width="32" height="32">
+  <object id="18" name="I(paraJ)" type="slide" x="1248" y="640" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1472"/>
-    <property name="dest_y" value="1024"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_x" value="46"/>
+    <property name="dest_y" value="32"/>
    </properties>
   </object>
-  <object id="19" name="paraFora" type="warp" x="1344" y="1056" width="32" height="32">
+  <object id="19" name="to Frostia" type="warp" x="1344" y="1056" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2400"/>
-    <property name="dest_y" value="1120"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_map" value="024-1"/>
+    <property name="dest_x" value="75"/>
+    <property name="dest_y" value="135"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff7d00" name="spawns">
+ <objectgroup color="#ff7d00" name="spawns" visible="0">
   <object id="20" name="Noel Slime" type="spawn" x="608" y="640" width="1536" height="896">
    <properties>
     <property name="max_beings" value="4"/>

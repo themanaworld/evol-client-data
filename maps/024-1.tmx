@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="160" tilewidth="32" tileheight="32" nextobjectid="59">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="200" height="160" tilewidth="32" tileheight="32" nextobjectid="60">
  <properties>
   <property name="author" value="The Mana World Brazil Team"/>
   <property name="license" value="GPL v2+"/>
@@ -1940,7 +1940,15 @@
 </data>
  </layer>
  <objectgroup color="#ffff00" name="spawns"/>
- <objectgroup color="#00aa00" name="warps"/>
+ <objectgroup color="#00aa00" name="warps">
+  <object id="59" name="To Frozen Cave" type="warp" x="2400" y="4288" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="023-1"/>
+    <property name="dest_x" value="42"/>
+    <property name="dest_y" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#ff55ff" name="particles">
   <object id="32" name="graphics/particles/smoke.xml" type="PARTICLE_EFFECT" x="1141" y="1349"/>
   <object id="33" name="graphics/particles/smoke.xml" type="PARTICLE_EFFECT" x="1525" y="1349"/>

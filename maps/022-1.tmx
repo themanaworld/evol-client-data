@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" nextobjectid="59">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" nextobjectid="60">
  <properties>
   <property name="author" value="The Mana World Brazil Team"/>
   <property name="license" value="GPL v2+"/>
@@ -1363,7 +1363,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup color="#ff5500" name="spawns">
+ <objectgroup color="#ff5500" name="spawns" visible="0">
   <object id="1" name="Rudolph Slime" type="spawn" x="640" y="1248" width="704" height="2240">
    <properties>
     <property name="max_beings" value="8"/>
@@ -1456,28 +1456,11 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="19" name="paraCaverna" type="warp" x="2176" y="2880" width="32" height="32">
+  <object id="19" name="to Frozen Cave" type="warp" x="2176" y="2880" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1440"/>
-    <property name="dest_y" value="2240"/>
-    <property name="npc_id" value="SCRIPT"/>
-   </properties>
-  </object>
-  <object id="26" name="paraCaverna" type="warp" x="2400" y="1088" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1344"/>
-    <property name="dest_y" value="1024"/>
-    <property name="npc_id" value="SCRIPT"/>
-   </properties>
-  </object>
-  <object id="27" name="Froz" type="warp" x="2944" y="640" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="froz"/>
-    <property name="dest_x" value="93"/>
-    <property name="dest_y" value="118"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_map" value="023-1"/>
+    <property name="dest_x" value="45"/>
+    <property name="dest_y" value="69"/>
    </properties>
   </object>
   <object id="31" name="paraCaverna" type="warp" x="1568" y="1760" width="32" height="32">
@@ -1496,24 +1479,15 @@
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
-  <object id="41" name="Para Dentro do Coliseu" type="warp" x="1280" y="768" width="96" height="16">
+  <object id="59" name="to Ice Labyrinth" type="warp" x="2208" y="3584" width="64" height="32">
    <properties>
-    <property name="dest_map" value="coliseu001"/>
-    <property name="dest_x" value="127"/>
-    <property name="dest_y" value="48"/>
-    <property name="npc_id" value="SCRIPT"/>
-   </properties>
-  </object>
-  <object id="42" name="Para Dentro do Coliseu" type="warp" x="1184" y="768" width="96" height="16">
-   <properties>
-    <property name="dest_map" value="coliseu001"/>
-    <property name="dest_x" value="124"/>
-    <property name="dest_y" value="48"/>
-    <property name="npc_id" value="SCRIPT"/>
+    <property name="dest_map" value="021-1"/>
+    <property name="dest_x" value="136"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#55007f" name="margin">
+ <objectgroup color="#55007f" name="margin" visible="0">
   <object id="54" type="fixme" x="0" y="0" width="4480" height="640"/>
   <object id="55" type="fixme" x="0" y="3840" width="4480" height="640"/>
   <object id="56" type="fixme" x="1" y="-17" width="640" height="4480"/>
