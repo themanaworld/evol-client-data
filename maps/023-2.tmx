@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="150" height="140" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="150" height="140" tilewidth="32" tileheight="32" nextobjectid="20">
  <properties>
   <property name="author" value="The Mana World Brazil Team"/>
   <property name="license" value="GPL v2+"/>
@@ -734,7 +734,7 @@
 130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130
 </data>
  </layer>
- <layer name="Heights" width="150" height="140" visible="0" locked="1">
+ <layer name="Heights" width="150" height="140" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -882,25 +882,25 @@
   <object id="10" name="Safe Zone" type="slide" x="2752" y="2560" width="32" height="32">
    <properties>
     <property name="dest_x" value="86"/>
-    <property name="dest_y" value="124"/>
+    <property name="dest_y" value="83"/>
    </properties>
   </object>
   <object id="11" name="Dangerous Zone" type="slide" x="2752" y="2624" width="32" height="32">
    <properties>
     <property name="dest_x" value="86"/>
-    <property name="dest_y" value="120"/>
+    <property name="dest_y" value="79"/>
    </properties>
   </object>
   <object id="12" name="Dangerous Zone" type="slide" x="960" y="3456" width="32" height="32">
    <properties>
     <property name="dest_x" value="30"/>
-    <property name="dest_y" value="146"/>
+    <property name="dest_y" value="105"/>
    </properties>
   </object>
   <object id="13" name="Safe Zone" type="slide" x="960" y="3392" width="32" height="32">
    <properties>
     <property name="dest_x" value="30"/>
-    <property name="dest_y" value="150"/>
+    <property name="dest_y" value="109"/>
    </properties>
   </object>
   <object id="19" name="Outside" type="warp" x="3872" y="1216" width="32" height="32">

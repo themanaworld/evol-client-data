@@ -935,4 +935,18 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 		<monster id="1204" name="Pumpkandy" targetCursor="medium">
 		<sprite>monsters/pumpkandy.xml</sprite>
 	</monster>
+  <monster id="1205" name="The Monster King">
+	<sprite>races/human-male.xml</sprite>
+	<sprite>hairstyles/hairstyle7.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+
+	<sprite>equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+	<sprite>equipment/weapons/lidersword.xml</sprite>
+	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+
+	<sound event="hit">special/nature-thunder.ogg</sound>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	<!--sound event="die">short-sword-die1.ogg</sound-->
+	<!--attack id="1" missile-particle="graphics/particles/lightning-lunovox.xml" action="attack"/-->
+  </monster>
 </monsters>
