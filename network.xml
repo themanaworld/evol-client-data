@@ -119,6 +119,11 @@ Copyright (C) 2016-2018 Evol Online -->
             id="2671"
             len="-1"
         />
+        <!-- SMSG_CAMERA_INFO from 20160525 -->
+        <fakepacket
+            id="2680"
+            len="15"
+        />
         <!-- SMSG_GUILD_EXPULSION2 from 20160622 -->
         <fakepacket
             id="2690"
@@ -144,6 +149,11 @@ Copyright (C) 2016-2018 Evol Online -->
             id="2750"
             len="-1"
         />
+        <!-- SMSG_ITEM_PREVIEW from 20170726 -->
+        <fakepacket
+            id="2745"
+            len="39"
+        />
         <!-- SMSG_OVERWEIGHT_PERCENT from 20171108 -->
         <fakepacket
             id="2782"
@@ -168,6 +178,16 @@ Copyright (C) 2016-2018 Evol Online -->
         <fakepacket
             id="2793"
             len="13"
+        />
+        <!-- SMSG_BEING_REMOVE_SPECIAL_EFFECT from 20181002 -->
+        <fakepacket
+            id="2829"
+            len="10"
+        />
+        <!-- SMSG_ITEM_PREVIEW from 20181017 -->
+        <fakepacket
+            id="2835"
+            len="40"
         />
     </inpackets>
 </network>
