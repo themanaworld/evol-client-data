@@ -2,6 +2,10 @@
 <!-- Author: Micksha, Reid
 Copyright (C) 2011-2018 Evol Online -->
 <sprite>
+	<saedit>
+		<layer type="repeater" file="races/human-male.xml"/>
+		<layer type="background" color="rgba(128,128,128,128)" zindex="-2"/>
+	</saedit>
     <imageset name="base"
               src="graphics/sprites/equipment/weapons/torch.png|W"
               width="64"
