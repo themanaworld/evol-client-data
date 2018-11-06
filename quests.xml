@@ -751,6 +751,288 @@ Copyright (C) 2012-2013 Evol Online -->
         </quest>
     </var>
 
+    <!-- Placeholder quests below -->
+    <var id="36">
+        <!-- TODO: effect -->
+        <quest name="Farmer's Scythe" group="Hurnscald" incomplete="2">
+            <name>Farmer's Scythe</name>
+            <text>Hinnak wants you to kill 10 pinkies and bring back their antennae.</text>
+            <text></text>
+            <text>Pinkies killed: {@@var2}/10.</text>
+            <text></text>
+            <questgiver>Hinnak</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Scythe]">{@@1}.</reward>
+        </quest>
+        <quest name="Farmer's Scythe" group="Hurnscald" complete="3">
+            <name>Farmer's Scythe</name>
+            <text>You helped Hinnak.</text>
+            <text></text>
+            <questgiver>Hinnak</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Scythe]">{@@1}.</reward>
+        </quest>
+    </var>
+    <var id="37">
+        <!-- TODO: effect -->
+        <quest name="Maggot slime soup" group="Hurnscald" incomplete="2">
+            <name>Maggot slime soup</name>
+            <text text1="[Roasted Maggot]">Bernard wants a {@@1}.</text>
+            <text></text>
+            <questgiver>Bernard</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Maggot slime soup" group="Hurnscald" complete="3">
+            <name>Maggot slime soup</name>
+            <text text1="[Roasted Maggot]">You gave Bernard a {@@1}.</text>
+            <text></text>
+            <questgiver>Bernard</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Cherry Cake]">100 EXP, 5 {@@1}.</reward>
+        </quest>
+        <quest name="Maggot slime soup" group="Hurnscald" incomplete="4">
+            <name>Maggot slime soup</name>
+            <text text1="[Maggot Slime]">Bernard wants 3 {@@1}.</text>
+            <text></text>
+            <questgiver>Bernard</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Maggot slime soup" group="Hurnscald" complete="5,6,7">
+            <name>Maggot slime soup</name>
+            <text text1="[Maggot Slime]">You gave Bernard 3 {@@1}.</text>
+            <text></text>
+            <questgiver>Bernard</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Beer]">100 EXP, 3 {@@1}.</reward>
+        </quest>
+        <quest name="A slimy situation" group="Hurnscald" incomplete="6">
+            <name>A slimy situation</name>
+            <text text1="[Maggot Slime]">Mikhail wants 5 {@@1}.</text>
+            <text></text>
+            <questgiver>Mikhail</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="A slimy situation" group="Hurnscald" complete="7">
+            <name>A slimy situation</name>
+            <text text1="[Maggot Slime]">You gave Mikhail 5 {@@1}.</text>
+            <text></text>
+            <questgiver>Mikhail</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>100 EXP.</reward>
+        </quest>
+    </var>
+    <var id="38">
+        <!-- TODO: effect -->
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="2">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector tasked you with finding clues about the recent robberies.</text>
+            <text>You should question everyone in town.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="3">
+            <name>Robberies in Hurnscald</name>
+            <text>An old woman said she saw something unusual, but she refuses to tell anyone but the Inspector himself.</text>
+            <text>Perhaps there is a way to convince her?</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="4">
+            <name>Robberies in Hurnscald</name>
+            <text>The old woman said she saw someone wearing a theater mask sneaking around.</text>
+            <text>You should inform the Inspector about your findings.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="5">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector told you to go interrogate the leader of the traveling troupe in Tulimshar.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="6">
+            <name>Robberies in Hurnscald</name>
+            <text>The troupe leader said she saw an old man behaving oddly.</text>
+            <text>You should report to the Inspector.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="7">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector asked you to find and question the old man.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="8">
+            <name>Robberies in Hurnscald</name>
+            <text>The old man told you to ask his wife.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="9">
+            <name>Robberies in Hurnscald</name>
+            <text>The old woman confirmed the story of the old man.</text>
+            <text>You should report to the Inspector.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="10">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector told you to question everyone again.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="11">
+            <name>Robberies in Hurnscald</name>
+            <text>The old woman remembered something.</text>
+            <text>She saw someone with a large satchel heading north.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="12">
+            <name>Robberies in Hurnscald</name>
+            <text>Malek said he heard someone go down to the basement.</text>
+            <text>You should search the basement for clues.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="13">
+            <name>Robberies in Hurnscald</name>
+            <text text1="[Noh Mask]">You found a {@@1} hidden in the basement.</text>
+            <text>You should report to the Inspector.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" incomplete="14">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector is still deciphering the letter.</text>
+            <text>You should head back to the Troupe Leader meanwhile.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>Unknown.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" complete="15">
+            <name>Robberies in Hurnscald</name>
+            <text text1="[Noh Mask]">You brought back the stolen {@@1}.</text>
+            <text>The troupe leader said you should keep it.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Noh Mask]">1500 EXP, {@@1}.</reward>
+        </quest>
+        <quest name="Robberies in Hurnscald" group="Hurnscald" complete="16">
+            <name>Robberies in Hurnscald</name>
+            <text>The inspector and his associates found all the stolen goods.</text>
+            <text></text>
+            <questgiver>Inspector</questgiver>
+            <!-- TODO: coordinates -->
+            <reward>2500 EXP.</reward>
+        </quest>
+    </var>
+    <var id="39">
+        <!-- TODO: effect -->
+        <quest name="Forest Bow" group="Hurnscald" incomplete="2">
+            <name>Forest Bow</name>
+            <text>Jack the handsome lumberjack won't give any more wood to Alan.</text>
+            <text>Alan is desperate to get his wood.</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Forest Bow]">a splendid {@@1}.</reward>
+        </quest>
+        <quest name="Forest Bow" group="Hurnscald" incomplete="3">
+            <name>Forest Bow</name>
+            <text>Jack says the trees became alive and he won't cut them anymore.</text>
+            <text>You should tell Alan about this.</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Forest Bow]">a splendid {@@1}.</reward>
+        </quest>
+        <quest name="Forest Bow" group="Hurnscald" incomplete="4">
+            <name>Forest Bow</name>
+            <text>Alan needs wood badly.</text>
+            <text>Perhaps you could satisfy him yourself?</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Forest Bow]">a splendid {@@1}.</reward>
+        </quest>
+        <quest name="Forest Bow" group="Hurnscald" incomplete="5">
+            <name>Forest Bow</name>
+            <text>Alan says your wood is perfect.</text>
+            <text text1="[Forest Bow]">He can make a beautiful {@@1} out of it but he needs 10000 E.</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Forest Bow]">a splendid {@@1}.</reward>
+        </quest>
+        <quest name="Forest Bow" group="Hurnscald" complete="6">
+            <name>Forest Bow</name>
+            <text text1="[Forest Bow]">You gave your wood to Alan and he loved it so much he gave you a {@@1}.</text>
+            <text></text>
+            <questgiver>Alan</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Forest Bow]">a splendid {@@1}.</reward>
+        </quest>
+    </var>
+    <var id="40">
+        <!-- TODO: effect -->
+        <quest name="Wooden Shield" group="Hurnscald" incomplete="2">
+            <name>Wooden Shield</name>
+            <text>Jack the handsome lumberjack has a proposal for you.</text>
+            <text></text>
+            <questgiver>Jack</questgiver>
+            <!-- TODO: coordinates -->
+        </quest>
+        <quest name="Wooden Shield" group="Hurnscald" incomplete="3">
+            <name>Wooden Shield</name>
+            <text text1="[Raw Log]">Jack can make you a sturdy shield but he needs 40 {@@1}.</text>
+            <text>He also wants 5000 E for his time.</text>
+            <text></text>
+            <questgiver>Jack</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Wooden Shield]">{@@1}</reward>
+        </quest>
+        <quest name="Wooden Shield" group="Hurnscald" complete="4">
+            <name>Wooden Shield</name>
+            <text>Jack made you a shield.</text>
+            <text></text>
+            <questgiver>Jack</questgiver>
+            <!-- TODO: coordinates -->
+            <reward text1="[Wooden Shield]">2500 EXP, {@@1}</reward>
+        </quest>
+    </var>
+
+    <!-- Test quests below -->
     <var id="1000">
         <quest name="Test quest" group="Tests" complete="2" incomplete="1">
             <name>Testing quest name with var1={@@var1}</name>

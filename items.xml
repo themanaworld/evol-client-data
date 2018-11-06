@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="items.xsl"?>
 <!-- Authors: 4144, Alige, Piman, Reid
-Copyright (C) 2010-2015 Evol Online -->
+Copyright (C) 2010-2015 Evol Online
+Copyright (C) 2016-2017 The Mana World -->
 
 <!--
 New organization (04/12/11).
@@ -519,6 +520,106 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="25"
         maxFloorOffset="6"/>
+    <item id="563"
+        image="usable/beer.png"
+        name="Beer"
+        useButton="Eat"
+        description="Just a beer, nothing else. Don`t drink and drive!"
+        effect="Heal 400-500 HP"
+        type="usable"
+        weight="50"
+        maxFloorOffset="6"/>
+    <item id="564"
+        image="usable/roastedmaggot.png"
+        name="Roasted Maggot"
+        useButton="Eat"
+        description="a maggot, roasted on fire. Mmh, crunchy!"
+        effect="Heal 100-250 HP"
+        type="usable"
+        weight="5"
+        maxFloorOffset="6"/>
+    <item id="565"
+        image="usable/bottleofwater.png"
+        name="Bottle of Water"
+        useButton="Eat"
+        description="Fresh springwater from Hurnscald area. Healthy!"
+        effect="Heal 300-500 HP"
+        type="usable"
+        weight="25"
+        maxFloorOffset="6"/>
+    <item id="566"
+        image="usable/cherrycake.png"
+        name="Cherry Cake"
+        useButton="Eat"
+        description="If you like sweets, you will love this homemade cherry cake."
+        effect="Heal 180-360 HP"
+        type="usable"
+        weight="10"
+        maxFloorOffset="6"/>
+    <item id="600"
+        image="usable/potion1.png|W:#b6322c,fe8b70,f4d2be"
+        name="Small Healing Potion"
+        description="A small Healing Potion for little wounds."
+        effect="Heal 250 HP"
+        useButton="Drink"
+        type="usable"
+        weight="32"/>
+    <item id="601"
+        image="usable/potion2.png|W:#b6322c,fe8b70,f4d2be"
+        name="Medium Healing Potion"
+        description="A medium Healing Potion for painful wounds. Slightly addictive, handle with care."
+        effect="Heal 500 HP"
+        useButton="Drink"
+        type="usable"
+        weight="64"/>
+    <item id="602"
+        image="usable/potion3.png|W:#b6322c,fe8b70,f4d2be"
+        name="Large Healing Potion"
+        description="A large Healing Potion. To countermand involuntary amputations."
+        effect="Heal 1000 HP"
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
+    <item id="603"
+        image="usable/potion1.png|W:#16486e,498ec5,e4f2fc"
+        name="Small Mana Potion"
+        description="A small Mana Potion for 'Not-at-all-a-Mage' players."
+        effect="Heal 20 SP"
+        useButton="Drink"
+        type="usable"
+        weight="32"/>
+    <item id="604"
+        image="usable/potion2.png|W:#16486e,498ec5,e4f2fc"
+        name="Medium Mana Potion"
+        description="A medium Mana Potion for the Sorcerer's Apprentice."
+        effect="Heal 50 SP"
+        useButton="Drink"
+        type="usable"
+        weight="64"/>
+    <item id="605"
+        image="usable/potion3.png|W:#16486e,498ec5,e4f2fc"
+        name="Large Mana Potion"
+        description="A large Mana Potion for the magic Ones.."
+        effect="Heal 100 SP"
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
+    <item id="606"
+        image="usable/potion4.png|W:#da69e5,ffdaff"
+        name="Concentration Potion"
+        description="A Potion to make you faster, and to make your attacks hit with higher accuracy."
+        effect="Higher Concentration."
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
+    <item id="607"
+        image="usable/potion4.png|W:#c05000,f0a000,f0f09f"
+        name="Iron Potion"
+        description="This potion contains powderized Iron. It makes you strong and resistant against physical attacks."
+        effect="Higher Strength and Defense."
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -995,6 +1096,31 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/silkrobe-male.xml</sprite>
         <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
     </item>
+    <item id="1308"
+        image="equipment/chest/finedress.png|W"
+        name="%Color% Fine Dress"
+        description="A fine %Color% dress for the Lady or the Gentleman of today."
+        defense="250"
+        level="15"
+        type="equip-torso"
+        weight="240"
+        colors="simple"
+        iconColors="simple"
+        maxFloorOffset="10">
+        <sprite gender="unisex">equipment/chest/finedress-male.xml</sprite>
+        <sprite gender="female">equipment/chest/finedress-female.xml</sprite>
+    </item>
+    <item id="1309"
+        image="equipment/chest/warlordplate.png"
+        name="Warlord Plate"
+        description="Strong and decorative armor."
+        defense="450"
+        level="20"
+        type="equip-torso"
+        weight="1500">
+        <sprite gender="unisex">equipment/chest/warlordplate-male.xml</sprite>
+        <sprite gender="female">equipment/chest/warlordplate-female.xml</sprite>
+    </item>
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -1007,6 +1133,19 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    </item>
+    <item id="1801"
+        image="equipment/feet/cottonboots.png|W"
+        name="%Color% Cotton Boots"
+        description="A pair of %color% quality cotton boots."
+        defense="1202"
+        level="14"
+        type="equip-feet"
+        weight="35"
+        colors="simple"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml</sprite>
     </item>
 
     <!-- Gloves -->
@@ -1046,6 +1185,31 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
         <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
     </item>
+    <item id="2003"
+        image="equipment/hands/cottongloves.png|W"
+        name="%Color% Cotton Gloves"
+        description="A pair of comfy, %color% cotton gloves."
+        defense="10"
+        level="10"
+        type="equip-arms"
+        weight="60"
+        colors="simple"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
+    </item>
+    <item id="2004"
+        image="equipment/hands/leathergloves.png"
+        name="Leather Gloves"
+        description="Gloves made of hardened leather."
+        defense="20"
+        level="20"
+        type="equip-arms"
+        weight="140"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="female">equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
+    </item>
 
     <!-- Pants -->
     <item id="2200"
@@ -1064,13 +1228,62 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/trousers.png"
         name="Brown Trousers"
         description="Classic trousers ornated with some fluffy fur."
-        defense="140"
+        defense="80"
         level="5"
         type="equip-legs"
         weight="35"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/trousers-male.xml</sprite>
         <sprite gender="female">equipment/legs/trousers-female.xml</sprite>
+    </item>
+    <item id="2202"
+        image="equipment/legs/jeanschaps.png"
+        name="Jeans Chaps"
+        description="Jeans with snake skin chaps."
+        defense="240"
+        level="12"
+        type="equip-legs"
+        weight="360"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/jeanschaps-male.xml</sprite>
+        <sprite gender="female">equipment/legs/jeanschaps-female.xml</sprite>
+    </item>
+    <item id="2203"
+        image="equipment/legs/silkpants.png|W"
+        name="%Color% Cashmere Pants"
+        description="A very light fancy pair of %Color% cashmere trousers."
+        defense="80"
+        level="17"
+        type="equip-legs"
+        weight="20"
+        colors="vneck"
+        iconColors="vneckS"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/silkpants-male.xml</sprite>
+    </item>
+    <item id="2204"
+        image="equipment/legs/cottonskirt.png|W"
+        name="%Color% Cotton Skirt"
+        description="A %color% skirt made of simple cotton."
+        defense="20"
+        level="5"
+        type="equip-legs"
+        weight="15"
+        colors="simple"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/cottonskirt-male.xml</sprite>
+    </item>
+    <item id="2205"
+        image="equipment/legs/leathertrousers.png"
+        name="Leather Trousers"
+        description="A common pair of pants made from leather."
+        defense="160"
+        level="15"
+        type="equip-legs"
+        weight="280"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/cottontrousers-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+        <sprite gender="female">equipment/legs/cottontrousers-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
     </item>
 
     <!-- Wings
@@ -1103,8 +1316,26 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         defense="50"
         level="5"
         type="equip-shield"
-        weight="100">
+        weight="1000">
         <sprite>equipment/shields/leathershield.xml</sprite>
+    </item>
+    <item id="2702"
+        image="equipment/shields/woodenshield.png"
+        name="Wooden Shield"
+        description="A shield made of wood."
+        defense="72"
+        level="12"
+        type="equip-shield"
+        weight="2450">
+    </item>
+    <item id="2703"
+        image="equipment/shields/steelshield.png"
+        name="Steel Shield"
+        description="A shield made of steel."
+        defense="200"
+        level="20"
+        type="equip-shield"
+        weight="5500">
     </item>
 
     <!-- Head Gears -->
@@ -1204,6 +1435,127 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
             <item from="-15" to="-19"/>
         </replace>
     </item>
+    <item id="2906"
+        image="equipment/head/infantryhelmet.png"
+        name="infantry Helmet"
+        description="A helmet for soldiers and guards."
+        defense="160"
+        level="12"
+        type="equip-head"
+        weight="400">
+        <sprite>equipment/head/infantryhelmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-3" to="-7"/>
+            <item from="-4" to="-7"/>
+            <item from="-5" to="-27"/>
+            <item from="-6" to="-7"/>
+            <item from="-13" to="-1"/>
+            <item from="-14" to="-7"/>
+            <item from="-15" to="-7"/>
+            <item from="-16" to="-10"/>
+            <item from="-21" to="-7"/>
+            <item from="-23" to="-1"/>
+            <item from="-25" to="-7"/>
+            <item from="-26" to="-21"/>
+        </replace>
+    </item>
+    <item id="2907"
+        image="equipment/head/candlehelmet.png"
+        name="Candle Helmet"
+        description="Worn by spelunkers."
+        defense="180"
+        level="16"
+        type="equip-head"
+        weight="500">
+        <sprite>equipment/head/candlehelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2908"
+        image="equipment/head/warlordhelmet.png"
+        name="Warlord Helmet"
+        description="Worn by great warriors!"
+        defense="340"
+        level="24"
+        type="equip-head"
+        weight="1000">
+        <sprite>equipment/head/warlordhelmet.xml</sprite>
+        <replace sprite="hair"/>
+    </item>
+    <item id="2909"
+        image="equipment/head/axehat.png"
+        name="Axe Hat"
+        description="A really cool joke, but not very helpful."
+        defense="12"
+        level="5"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/axehat.xml</sprite>
+    </item>
+    <item id="2910"
+        image="equipment/head/pinkiehat.png"
+        name="Pinkie Hat"
+        description="With this, you'll fit right in with those strange pinkies."
+        defense="7"
+        level="10"
+        type="equip-head"
+        weight="5">
+        <sprite>equipment/head/pinkiehat.xml</sprite>
+    </item>
+    <item id="2911"
+        image="equipment/head/tophat.png"
+        name="Top Hat"
+        description="For the gentry of The Mana World, and other worlds."
+        defense="50"
+        level="17"
+        type="equip-head"
+        weight="40">
+        <sprite>equipment/head/tophat.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2912"
+        image="equipment/head/bowlerhat.png"
+        name="Bowler Hat"
+        description="A hat for those with a bit of class."
+        defense="40"
+        level="15"
+        type="equip-head"
+        weight="30">
+        <sprite>equipment/head/bowlerhat.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>
+    <item id="2913"
+        image="equipment/head/fairyhat.png"
+        name="Fairy Hat"
+        description="Worn by people that are living and hunting in the woods."
+        defense="25"
+        level="10"
+        type="equip-head"
+        weight="5">
+        <sprite>equipment/head/fairyhat.xml</sprite>
+        <replace sprite="hair">
+    <item from="-5" to="-4"/>
+    <item from="-14" to="-9"/>
+    <item from="-15" to="-19"/>
+        </replace>
+    </item>    
+    <item id="2914"
+        image="equipment/head/nohmask.png"
+        name="Noh Mask"
+        description="A traditional chinese Noh Mask."
+        defense="0"
+        level="15"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/nohmask.xml</sprite>
+    </item>
 
     <!-- Neck Armors -->
     <item id="3200"
@@ -1266,7 +1618,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/woodensword.png"
         name="Wooden Sword"
         description="For sword training. Do not show-off with it."
-        attack="40"
+        attack="75"
         attack-range="1"
         level="5"
         type="equip-1hand"
@@ -1280,13 +1632,79 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/backsword.png"
         name="Artis Backsword"
         description="An engraved backsword with the symbole of Artis on its brass hilt."
-        attack="800"
+        attack="500"
         attack-range="1"
         level="15"
         type="equip-1hand"
         attack-action="attack"
         weight="86">
         <sprite>equipment/weapons/backsword.xml</sprite>
+        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    </item>
+    <item id="3505"
+        image="equipment/weapons/wand.png"
+        name="Training Wand"
+        description="A simple wand for your first steps in handling magic."
+        attack="75"
+        attack-range="2"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_wand"
+        weight="67">
+        <sprite>equipment/weapons/trainingwand.xml</sprite>
+    </item>
+    <item id="3506"
+        image="equipment/weapons/wand.png|W:#ece96e"
+        name="Mana Torch"
+        description="A simple wand imbued with a fire spell, it can provide lighting and will never run out on you!"
+        attack="100"
+        attack-range="2"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_wand"
+        weight="67">
+        <sprite>equipment/weapons/trainingwand.xml</sprite>
+    </item>
+    <item id="3507"
+        image="equipment/weapons/scythe.png"
+        name="Scythe"
+        description="A farmer's scythe, not new but still deadly."
+        attack="750"
+        attack-range="2"
+        level="15"
+        type="equip-2hand"
+        attack-action="attack_scythe"
+        weight="1200">
+        <sprite>equipment/weapons/scythe.xml</sprite>
+        <sound event="hit">weapons/scythe/hit1.ogg</sound>
+        <sound event="miss">weapons/scythe/miss1.ogg</sound>
+    </item>
+    <item id="3508"
+        image="equipment/weapons/dagger.png"
+        name="Dagger"
+        description="Use to stab."
+        attack="350"
+        attack-range="1"
+        level="15"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="350">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
+    </item>
+     <item id="3509"
+        image="equipment/weapons/setzer.png"
+        name="Setzer"
+        description="A knife named after a famous gambler."
+        attack="600"
+        attack-range="1"
+        level="20"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="250">
+        <sprite>equipment/weapons/piouslayer.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
@@ -1302,44 +1720,19 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="250">
         <sprite>equipment/weapons/pickaxe.xml</sprite>
     </item>
-    <item id="3505"
-        image="equipment/weapons/wand.png"
-        name="Training Wand"
-        description="A simple wand for your first steps in handling magic."
+    <item id="3511"
+        image="equipment/weapons/torch.png"
+        name="Torch"
+        description="A burning Torch. Handle with care."
         attack="150"
-        attack-range="2"
-        level="10"
-        type="equip-1hand"
-        attack-action="attack_wand"
-        weight="67">
-        <sprite>equipment/weapons/trainingwand.xml</sprite>
-    </item>
-    <item id="3506"
-        image="equipment/weapons/wand.png|W:#ece96e"
-        name="Mana Torch"
-        description="A simple wand imbued with a fire spell, it can provide lighting and will never run out on you!"
-        attack="200"
-        attack-range="2"
-        level="10"
-        type="equip-1hand"
-        attack-action="attack_wand"
-        weight="67">
-        <sprite>equipment/weapons/trainingwand.xml</sprite>
-    </item>
-    <item id="3507"
-        image="equipment/weapons/scythe.png"
-        name="Scythe"
-        description="A farmer's scythe, not new but still deadly."
-        attack="2000"
-        attack-range="2"
+        attack-range="1"
         level="15"
         type="equip-2hand"
-        attack-action="attack_scythe"
-        weight="1200">
-        <sprite>equipment/weapons/scythe.xml</sprite>
-        <sound event="hit">weapons/scythe/hit1.ogg</sound>
-        <sound event="miss">weapons/scythe/miss1.ogg</sound>
+        attack-action="attack"
+        weight="100">
+        <sprite>equipment/weapons/torch.xml</sprite>
     </item>
+
 
     <!-- Pets -->
     <item id="4000"
@@ -1552,6 +1945,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5022"
         image="usable/gem3-polished.png|W:#315a67,a4a4ae,dce5d6,ffffff"
         name="Diamond"
+        useButton="Gem"
         description="A diamond, polished and shining."
         type="card"
         weight="50"
@@ -1559,6 +1953,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5023"
         image="usable/gem1-polished.png|W:#581a1a,a41111,c03a3a,ff6060,ffffff"
         name="Ruby"
+        useButton="Gem"
         description="A polished ruby, blinking in bright red color."
         type="card"
         weight="50"
@@ -1566,6 +1961,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5024"
         image="usable/gem2-polished.png|W:#1f9c1f,89d689,ffffff"
         name="Emerald"
+        useButton="Gem"
         description="A polished Emerald, beautiful and green."
         type="card"
         weight="50"
@@ -1573,6 +1969,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5025"
         image="usable/gem2-polished.png|W:#4b4bbd,888af4,ffffff"
         name="Sapphire"
+        useButton="Gem"
         description="A polished sapphire, blinking in dark blue."
         type="card"
         weight="50"
@@ -1580,6 +1977,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5026"
         image="usable/gem1-polished.png|W:#ccb534,f1ea8e,ffffaa,ffffff"
         name="Topaz"
+        useButton="Gem"
         description="A Topaz, polished and beautiful."
         type="card"
         weight="50"
@@ -1587,7 +1985,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5027"
         image="usable/gem3-polished.png|W:#530a7c,b362e1,ca87ef,ffffff"
         name="Amethyst"
-        useButton="Dye"
+        useButton="Gem"
         description="A polished Amethyst. Some say it has the power to heal."
         type="card"
         weight="50"
@@ -1595,6 +1993,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5028"
         image="usable/gem-crude.png|W:#315a67,a4a4ae,dce5d6,ffffff"
         name="Crude Diamond"
+        useButton="Gem"
         description="A crude diamond, fresh from the mines."
         type="card"
         cardColor="2"
@@ -1603,6 +2002,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5029"
         image="usable/gem-crude.png|W:#581a1a,a41111,c03a3a,ff6060"
         name="Crude Ruby"
+        useButton="Gem"
         description="A crude ruby, fresh from the mines."
         type="card"
         cardColor="3"
@@ -1611,6 +2011,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5030"
         image="usable/gem-crude.png|W:#1f9c1f,89d689"
         name="Crude Emerald"
+        useButton="Gem"
         description="A crude emerald, fresh from the mines."
         type="card"
         cardColor="4"
@@ -1619,6 +2020,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5031"
         image="usable/gem-crude.png|W:#4b4bbd,888af4"
         name="Crude Sapphire"
+        useButton="Gem"
         description="A crude sapphire, fresh from the mines."
         type="card"
         cardColor="5"
@@ -1627,6 +2029,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5032"
         image="usable/gem-crude.png|W:#ccb534,f1ea8e,ffffaa"
         name="Crude Topaz"
+        useButton="Gem"
         description="A crude topaz, fresh from the mines."
         type="card"
         cardColor="6"
@@ -1635,6 +2038,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5033"
         image="usable/gem-crude.png|W:#530a7c,b362e1,ca87ef"
         name="Crude Amethyst"
+        useButton="Gem"
         description="A crude amethyst, fresh from the mines."
         type="card"
         cardColor="7"
@@ -1643,10 +2047,10 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <!-- Bows -->
     <item id="6000"
         image="equipment/weapons/woodenbow.png"
-        name="Wooden Bow"
+        name="Training Bow"
         description="For bow training. Does not seem much reliable."
         attack="70"
-        attack-range="5"
+        attack-range="4"
         missile-particle="graphics/particles/training-arrow.xml"
         missile-z="32"
         missile-lifetime="500"
@@ -1655,7 +2059,41 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         level="5"
         type="equip-2hand"
         attack-action="attack_bow"
-        weight="12">
+        weight="120">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <item id="6001"
+        image="equipment/weapons/shortbow.png"
+        name="Short Bow"
+        description="The shortest of them all, and almost a knife, but the only which hits at point-blank range."
+        attack="100"
+        attack-range="5"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="15"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="260">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <item id="6002"
+        image="equipment/weapons/forestbow.png"
+        name="Forest Bow"
+        description="A big bow, to hunt monsters in the forest."
+        attack="150"
+        attack-range="6"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="20"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="480">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
     </item>
 
@@ -1667,4 +2105,5 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="equip-ammo"
         attack="100"
         weight="1"/>
+
 </items>
