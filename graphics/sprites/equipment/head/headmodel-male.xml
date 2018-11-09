@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Saulc
+<!-- Author: Micksha, Saulc
 Copyright (C) 2018 TMW2 -->
 <sprite>
     <imageset name="base"
               src="graphics/sprites/equipment/head/headmodel-male.png"
               width="32"
               height="64"/>
-
     <action name="stand" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-26"/>
@@ -50,7 +49,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="1" offsetY="-26" delay="80"/>
         </animation>
     </action>
-
     <action name="attack" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="80"/>
@@ -79,7 +77,6 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-
     <action name="attack_bow" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-25" delay="240"/>
@@ -105,7 +102,6 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-
     <action name="attack_wand" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="80"/>
@@ -139,7 +135,6 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-
   <action name="attack_scythe" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-25" delay="200"/>
@@ -181,7 +176,6 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-
 <action name="attack_axe" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="100"/>
@@ -202,7 +196,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="2" offsetX="-1" offsetY="-26" delay="200"/>
             <frame index="2" offsetX="-2" offsetY="-24" delay="80"/>
             <frame index="2" offsetX="-2" offsetY="-26" delay="130"/>
-
             <end />
         </animation>
         <animation direction="right">
@@ -214,7 +207,6 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-
     <action name="sit" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-19"/>
@@ -229,7 +221,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
-
     <action name="sittop" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -244,7 +235,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
-
     <action name="standride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -259,7 +249,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
-
     <action name="spawnride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -274,7 +263,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-7" offsetY="-17"/>
         </animation>
     </action>
-
     <action name="ride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -289,7 +277,6 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
-
     <action name="dead" imageset="base">
         <animation direction="default">
             <frame index="4" offsetX="13" offsetY="8"/>
