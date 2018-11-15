@@ -7,9 +7,15 @@ Copyright (C) 2015 Evol Online -->
         <up>
         </up>
         <down>
-            <offset direction="left" horseOffsetX="-5" />
-            <offset direction="right" horseOffsetX="5" />
-            <sprite>monsters/croc.xml</sprite>
+            <offset direction="left" horseOffsetX="-44" horseOffsetY="64" />
+            <offset direction="right" horseOffsetX="46" horseOffsetY="64" />
+            <offset direction="up" horseOffsetY="35" />
+            <offset direction="upleft" horseOffsetY="35" />
+            <offset direction="upright" horseOffsetY="35" />
+            <offset direction="down" horseOffsetY="102" />
+            <offset direction="downleft" horseOffsetY="102" />
+            <offset direction="downright" horseOffsetY="102" />
+            <sprite>npcs/xml/rowboat.xml</sprite>
         </down>
     </horse>
     <horse id="2">
