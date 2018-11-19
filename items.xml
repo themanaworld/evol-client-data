@@ -2393,6 +2393,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="generic"
 		weight="1"
 		maxFloorOffset="12"/>
+	<item id="886"
+		image="generic/bottleofsand.png"
+		name="Dusty In A Bottle"
+		description="Dusty in a bottle. Part from Call Of Dusty Event."
+		type="generic"
+		weight="25"/>
 
 	<!-- Necklaces -->
 	<item id="1000"
@@ -6212,7 +6218,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		missile-lifetime="500"
 		missile-speed="5"
 		missile-diedistance="3"
-		level="70"
+		level="50"
 		type="equip-2hand"
 		attack-action="attack_bow"
 		weight="1190">
@@ -6230,7 +6236,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		missile-lifetime="500"
 		missile-speed="5"
 		missile-diedistance="3"
-		level="70"
+		level="50"
 		type="equip-2hand"
 		attack-action="attack_bow"
 		weight="1190">
@@ -6248,7 +6254,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		missile-lifetime="500"
 		missile-speed="5"
 		missile-diedistance="3"
-		level="70"
+		level="50"
 		type="equip-2hand"
 		attack-action="attack_bow"
 		weight="1190">
@@ -6266,10 +6272,28 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		missile-lifetime="500"
 		missile-speed="5"
 		missile-diedistance="3"
-		level="70"
+		level="50"
 		type="equip-1hand"
 		attack-action="attack_bow"
 		weight="760">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+	<item id="6050"
+		image="equipment/weapons/placeholder.png"
+		name="Dustynator 2000"
+		description="The best weapon on the market! I'm not trying to scam you, I swear"
+		effect="Acc. +20%, No Criticals"
+		attack="100"
+		attack-range="9"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="70"
+		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="970">
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
 

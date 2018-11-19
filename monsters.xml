@@ -949,4 +949,42 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<!--sound event="die">short-sword-die1.ogg</sound-->
 	<!--attack id="1" missile-particle="graphics/particles/lightning-lunovox.xml" action="attack"/-->
   </monster>
+  <monster id="1206" name="Gatling Shooter">
+	<sprite>races/human-male.xml</sprite>
+	<sprite>hairstyles/hairstyle06.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+	<sprite>equipment/chest/bromenalchest-male.xml</sprite>
+	<!--sprite>equipment/weapons/lidersword.xml</sprite-->
+	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1207" name="Rifle Shooter">
+	<sprite>races/human-male.xml</sprite>
+	<sprite>hairstyles/hairstyle09.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+	<sprite>equipment/chest/warlordplate-male.xml</sprite>
+	<!--sprite>equipment/weapons/lidersword.xml</sprite-->
+	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1208" name="Revolver Shooter">
+	<sprite>races/human-male.xml</sprite>
+	<sprite>hairstyles/hairstyle12.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+	<sprite>equipment/chest/copperarmor-male.xml</sprite>
+	<!--sprite>equipment/weapons/lidersword.xml</sprite-->
+	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1209" name="Boss Of The Dusty People">
+	<sprite>races/orc-male.xml</sprite>
+	<sprite>hairstyles/hairstyle04.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+	<sprite>equipment/chest/trainingshirt-male.xml</sprite>
+	<!--sprite>equipment/weapons/lidersword.xml</sprite-->
+	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+	<sprite>equipment/head/bromenalhelmet.xml</sprite>
+	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+
 </monsters>
