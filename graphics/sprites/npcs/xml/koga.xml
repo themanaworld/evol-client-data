@@ -5,12 +5,12 @@ Copyright (C) 2018 Evol Online -->
 <sprite>
     <imageset name="npc"
               src="graphics/sprites/npcs/sprite/koga.png"
-              width="634"
-              height="477"/>
+              width="672"
+              height="512"/>
 
     <action name="stand" imageset="npc">
         <animation direction="default">
-            <frame index="0"/>
+            <sequence start="0" end="2" delay="300"/>
         </animation>
     </action>
 </sprite>

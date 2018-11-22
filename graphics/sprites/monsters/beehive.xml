@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" 
+            src="graphics/sprites/monsters/beehive.png" 
+            width="30" 
+            height="30"
+            />
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0"
+             offsetX="-3"
+             offsetY="15"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="1"
+             offsetX="-3"
+             offsetY="15"/>
+    </animation>
+  </action>
+</sprite>
