@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: 4144
-Copyright (C) 2016 Evol Online -->
+<!-- Author: 4144, Jesusalva
+Copyright (C) 2016 Evol Online
+Copyright (C) 2018 TMW2: Moubootaur Legends -->
 
 <mercenaries>
     <mercenary
-        id="1191"
+        id="3000"
         name="merc"
         startFollowDistance="3"
         followDistance="1"
@@ -26,5 +27,38 @@ Copyright (C) 2016 Evol Online -->
         attackDirectionType="4"
     >
         <sprite>races/human-male.xml</sprite>
+    </mercenary>
+    <mercenary
+        id="3001"
+        name="Andrei Sakar"
+        startFollowDistance="3"
+        followDistance="1"
+        warpDistance="11"
+        offsetX="0"
+        offsetY="2"
+        sitOffsetX="1"
+        sitOffsetY="0"
+        moveOffsetX="0"
+        moveOffsetY="5"
+        deadOffsetX="0"
+        deadOffsetY="0"
+        attackOffsetX="0"
+        attackOffsetY="2"
+        thinkTime="100"
+        directionType="2"
+        sitDirectionType="1"
+        deadDirectionType="1"
+        attackDirectionType="4"
+    >
+        <sprite>races/human-male.xml</sprite>
+	    <sprite>hairstyles/hairstyle07.xml|#2b2b2b,3d2613,3f3f3f,4e3117,585858,774c20,858585,8f5d22,a7a7a7,ae772d,d6d6d6,dbae5c,ffffff,f7e1ad</sprite>
+
+	    <sprite>equipment/chest/warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+	    <sprite>equipment/weapons/lidersword.xml</sprite>
+	    <sprite>equipment/legs/bromenalpants-male.xml</sprite>
+	    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+
+	    <sound event="hit">special/nature-thunder.ogg</sound>
+	    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </mercenary>
 </mercenaries>
