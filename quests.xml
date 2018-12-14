@@ -1433,6 +1433,31 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="144" y="80">Southeast Woodlands.</coordinates>
         </quest>
     </var>
+    <var id="99">
+        <quest name="Blood Donor" group="Hurnscald" complete="1">
+            <name>Blood Donor</name>
+            <text>I donated blood to Hurnscald Hospital.</text>
+            <text></text>
+            <text>This quest can be repeated every 30 days.</text>
+            <text></text>
+            <questgiver>Nurse</questgiver>
+            <coordinates x="31" y="79">Hurnscald Hospital.</coordinates>
+            <reward>EXP. Other possible rewards: Chocolate, Water, Bread.</reward>
+        </quest>
+        <quest name="Blood Donor" group="Hurnscald" incomplete="2">
+            <name>Blood Donor</name>
+            <text>I am donating blood to Hurnscald Hospital.</text>
+            <text>I must stay on this bed for three minutes.</text>
+            <text>I cannot move, use skills or items, nor attack.</text>
+            <text></text>
+            <text>If I disconnect, I'll be penalized!</text>
+            <text>This quest can be repeated every 30 days.</text>
+            <text></text>
+            <questgiver>Nurse</questgiver>
+            <coordinates x="31" y="79">Hurnscald Hospital.</coordinates>
+            <reward>EXP. Other possible rewards: Chocolate, Water, Bread.</reward>
+        </quest>
+    </var>
 
     <!-- NIVALIS QUESTS -->
     <var id="111">
