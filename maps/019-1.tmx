@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="138" height="128" tilewidth="32" tileheight="32" infinite="0" nextobjectid="16">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="138" height="128" tilewidth="32" tileheight="32" nextobjectid="16">
  <properties>
+  <property name="author" value="TMW/LoF"/>
   <property name="license" value="GPL v2+"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/019-1.png"/>
@@ -1247,9 +1248,9 @@
   </object>
   <object id="2" name="To Woodlands" type="warp" x="1888" y="3264" width="128" height="32">
    <properties>
-    <property name="dest_map" value="014-5"/>
-    <property name="dest_x" value="192"/>
-    <property name="dest_y" value="17"/>
+    <property name="dest_map" value="019-4"/>
+    <property name="dest_x" value="95"/>
+    <property name="dest_y" value="28"/>
    </properties>
   </object>
   <object id="9" name="To Snow Path" type="warp" x="672" y="2208" width="32" height="64">
@@ -1268,7 +1269,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" name="Spawns">
+ <objectgroup color="#ff0000" name="Spawns" visible="0">
   <object id="11" name="Fluffy" type="spawn" x="576" y="608" width="3392" height="3104">
    <properties>
     <property name="death" value="30000"/>
