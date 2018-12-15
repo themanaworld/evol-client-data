@@ -27,7 +27,9 @@ Copyright (C) 2018 TMW2: Moubootaur Legends
 6000	6499        = Ranged Weapons
 6500	6999        = Ammo
 7000	7399        = Magical Weapons (MAtk weapons)
-7400    9999        = Others
+7400    7499        = System Reserved
+7500    7699        = Mercenary Cards
+7700    9999        = System Reserved
 Colors for dyeable equipments or items are set up by itemcolors.xml.
 -->
 
@@ -6318,4 +6320,140 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 			/>
 		</inventory>
 	</item>
+    <!-- Mercenary Boxsets (7500 - 7509) and cards (7510-7599) -->
+	<item id="7500"
+		image="usable/box/prismgift.png"
+		name="Mercenary Boxset"
+		description="Test your luck, test your luck!"
+		type="usable"
+		useButton="Open"
+		weight="85"
+		sellProtected="true"/>
+	<item id="7501"
+		image="usable/box/prismgift.png"
+		name="Mercenary Boxset+"
+		description="Test your luck, test your luck!"
+		type="usable"
+		useButton="Open"
+		weight="115"
+		sellProtected="true"/>
+	<item id="7502"
+		image="usable/box/prismgift.png"
+		name="Mercenary Boxset++"
+		description="Test your luck, test your luck!"
+		type="usable"
+		useButton="Open"
+		weight="135"
+		sellProtected="true"/>
+
+    <!-- Second digit rule:
+            0:    Boxset
+            1~2: ★★★★★
+            3~4: ★★★★
+            5~6: ★★★
+            7~8: ★★
+            9~A: ★                  -->
+	<item id="7510"
+		image="usable/card/herocard.png"
+		name="Andrei Sakar Card ★★★★★"
+		description="Summons Andrei Sakar to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7511"
+		image="usable/card/herocard.png"
+		name="DragonStar Card ★★★★★"
+		description="Summons DragonStar to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+
+	<item id="7530"
+		image="usable/card/herocard.png"
+		name="Aisen Card ★★★★"
+		description="Summons Aisen to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7531"
+		image="usable/card/herocard.png"
+		name="Msawis Card ★★★★"
+		description="Summons Msawis to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7532"
+		image="usable/card/herocard.png"
+		name="Swezanne Card ★★★★"
+		description="Summons Swezanne to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+
+	<item id="7550"
+		image="usable/card/herocard.png"
+		name="Saulc Card ★★★"
+		description="Summons Saulc to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7551"
+		image="usable/card/herocard.png"
+		name="Crazyfefe Card ★★★"
+		description="Summons Crazyfefe to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7552"
+		image="usable/card/herocard.png"
+		name="LawnCable Card ★★★"
+		description="Summons LawnCable to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+
+	<item id="7570"
+		image="usable/card/herocard.png"
+		name="Pookie Card ★★"
+		description="Summons Pookie to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7571"
+		image="usable/card/herocard.png"
+		name="Jesusalva Card ★★"
+		description="Summons Jesusalva to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7572"
+		image="usable/card/herocard.png"
+		name="Demure Card ★★"
+		description="Summons Demure to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+
+	<item id="7590"
+		image="usable/card/herocard.png"
+		name="Apane Card ★"
+		description="Summons Apane to your aid?!"
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7591"
+		image="usable/card/herocard.png"
+		name="Soren Card ★"
+		description="Summons Soren to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+	<item id="7592"
+		image="usable/card/herocard.png"
+		name="GonzoDark Card ★"
+		description="Summons GonzoDark to your aid."
+		effect="Summon a Mercenary for 5 minutes"
+		type="usable"
+		weight="5"/>
+
 </items>
