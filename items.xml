@@ -1127,6 +1127,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Heal 1-500 SP"
 		type="usable"
 		weight="1"/>
+    <!-- 629 free -->
+	<item id="630"
+		image="generic/box/presentbox.png"
+		name="Christmas Present Box"
+		description="What does it contain."
+		useButton="Open"
+		type="usable"
+		weight="25"/>
+
 	<item id="699"
 		image="generic/tortugashell.png"
 		name="4144's Tortuga"
@@ -2574,6 +2583,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Red Stocking"
 		description="Eww, it's smelly!"
 		level="25"
+		defense="5"
+		effect="Water Resist +11%, DMG vs Water +11%"
 		type="equip-necklace"
 		weight="10">
 	</item>
@@ -2581,17 +2592,21 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/charms/santaglobe.png"
 		name="Santa Globe"
 		description="An snow globe featuring Santa."
-		level="54"
+		level="24"
+		defense="4"
+		effect="Water Resist +15%, DMG vs Water +5%"
 		type="equip-necklace"
-		weight="1">
+		weight="32">
 	</item>
 	<item id="1163"
 		image="equipment/charms/snowmanglobe.png"
 		name="Snowman Globe"
 		description="An snow globe featuring a snowman."
-		level="54"
+		level="24"
+		defense="4"
+		effect="Water Resist +10%, DMG vs Water +5%"
 		type="equip-necklace"
-		weight="1">
+		weight="32">
 	</item>
 	<item id="1164"
 		image="equipment/charms/spectralorb.png"
@@ -2892,8 +2907,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/tnecksweater.png|W"
 		name="%Color% Turtleneck Sweater"
 		description="A thick, soft and warm sweater."
-		defense="100"
-		level="23"
+		defense="40"
+		level="13"
 		type="equip-torso"
 		weight="30"
 		colors="simple">
@@ -2931,10 +2946,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/uglychristmassweater.png"
 		name="Ugly Christmas Sweater"
 		description="An ugly %Color% Christmas sweater."
-		defense="60"
-		level="14"
+        effect="MAtk +15, MDef +20"
+		defense="20"
+		level="40"
 		type="equip-torso"
-		weight="35"
+		weight="350"
 		colors="simple">
 		<sprite gender="unisex">equipment/chest/uglychristmassweater-male.xml</sprite>
 		<sprite gender="female">equipment/chest/uglychristmassweater-female.xml</sprite>
@@ -4914,9 +4930,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="3006"
 		image="equipment/head/santabeardhat.png"
 		name="Santa Beard Hat"
-		description="NPC Only Item."
-		defense="50"
-		level="80"
+		description="Hohoho! Gifts for the nice! Coal for the naughty!"
+		defense="5"
+		level="18"
 		type="equip-head"
 		weight="320">
 		<sprite>equipment/head/santabeardhat.xml</sprite>
