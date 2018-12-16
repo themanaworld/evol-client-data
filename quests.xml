@@ -960,6 +960,26 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>Experience</reward>
         </quest>
     </var>
+    <var id="64">
+        <quest name="Newbie's Sword" group="Tulimshar" incomplete="1">
+            <name>Newbie's Sword</name>
+            <text>A veteran officer at Tulimshar Guard House offered me a Wooden Sword.</text>
+            <text>I need to bring him 30 [Raw Log] if I want the item.</text>
+            <text></text>
+            <questgiver>Veteran Officer</questgiver>
+            <coordinates x="114" y="83">Tulimshar's Guard House.</coordinates>
+            <reward text1="[Wooden Sword]">{@@1}</reward>
+        </quest>
+        <quest name="Newbie's Sword" group="Tulimshar" complete="2">
+            <name>Newbie's Sword</name>
+            <text>A veteran officer at Tulimshar Guard House offered me a Wooden Sword.</text>
+            <text>It's not a great sword but it'll get the job done for a while.</text>
+            <text></text>
+            <questgiver>Veteran Officer</questgiver>
+            <coordinates x="114" y="83">Tulimshar's Guard House.</coordinates>
+            <reward text1="[Wooden Sword]">{@@1}</reward>
+        </quest>
+    </var>
     <var id="191">
         <quest name="Tycoon's Hunt" group="Tulimshar" incomplete="2,3,5,6,8,9,11,14">
             <name>Tycoon's Hunt</name>
