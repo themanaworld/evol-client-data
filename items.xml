@@ -5449,7 +5449,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="3520"
 		image="equipment/weapons/bronzegladius.png"
 		name="Bronze Gladius"
-		description="A short sword made of bronze for lucky adventurer."
+		description="A short sword for the lucky adventurer. It's actually done with wood."
 		attack="125"
 		attack-range="1"
 		level="22"
@@ -5570,6 +5570,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-1hand"
 		attack-action="attack"
 		weight="958">
+		<sprite>equipment/weapons/traininggladius.xml</sprite>
+		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+	</item>
+	<item id="3528"
+		image="equipment/weapons/bronzegladius.png"
+		name="Real Bronze Gladius"
+		description="A short sword really made with bronze."
+		attack="240"
+		attack-range="1"
+		level="37"
+		type="equip-1hand"
+		attack-action="attack"
+		weight="840">
 		<sprite>equipment/weapons/traininggladius.xml</sprite>
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
