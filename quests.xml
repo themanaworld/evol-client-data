@@ -1596,9 +1596,60 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Fafi Mask]">{@@1}</reward>
         </quest>
     </var>
-    <!-- var 273 TODO -->
-    <!-- var 274 not required -->
-
+    <!-- var 273 daily -->
+    <var id="274">
+        <quest name="Pet Caring Guild" group="LoF Village" complete="1">
+            <name>Pet Caring Guild</name>
+            <text>I paid the expensive fee, and now I'm affiliated with the Pet Caring Guild.</text>
+            <text></text>
+            <text>If my pet runs away, they can give another one to me... For a fee.</text>
+            <text></text>
+            <questgiver>Pet Detective</questgiver>
+            <coordinates x="192" y="23">LoF Village, Noble District.</coordinates>
+        </quest>
+    </var>
+    <!-- var 275 TODO -->
+    <var id="276">
+        <quest name="Heroes Hold" group="LoF Village" incomplete="1">
+            <name>Heroes Hold</name>
+            <text>I accepted to seek for DUSTMAN's men, and he open the Heroes Hold for me.</text>
+            <text>The Heroes Hold is a high level area for the best of best players.</text>
+            <text>In other words: for heroes. Like myself, I hope.</text>
+            <text></text>
+            <questgiver>Colonel DUSTMAN</questgiver>
+            <coordinates x="180" y="193">Heroes Hold, Main Castle.</coordinates>
+        </quest>
+        <quest name="Heroes Hold" group="LoF Village" complete="2">
+            <name>Heroes Hold</name>
+            <text>I accepted to seek for DUSTMAN's men, and he open the Heroes Hold for me.</text>
+            <text>The Heroes Hold is a high level area for the best of best players.</text>
+            <text>In other words: for heroes. Like myself, I hope.</text>
+            <text></text>
+            <questgiver>Colonel DUSTMAN</questgiver>
+            <coordinates x="180" y="193">Heroes Hold, Main Castle.</coordinates>
+        </quest>
+    </var>
+    <var id="277">
+        <quest name="Culinary Contest" group="LoF Village" incomplete="1">
+            <name>Culinary Contest</name>
+            <text>Dimond's Cove chef wants to beat Ryan on a cooking contest, and he thought on the ultimate recipe.</text>
+            <text>For that, he needs some Small Mushrooms and Mouboo Steaks.</text>
+            <text></text>
+            <questgiver>Dimond's Cove Chef</questgiver>
+            <coordinates x="55" y="144">LoF Village, Dimond's Cove.</coordinates>
+            <reward text1="[Butcher Knife]">{@@1}</reward>
+        </quest>
+        <quest name="Culinary Contest" group="LoF Village" complete="2">
+            <name>Culinary Contest</name>
+            <text>Dimond's Cove chef wants to beat Ryan on a cooking contest, and he thought on the ultimate recipe.</text>
+            <text>I gave him what he wanted, and he went to cook.</text>
+            <text>On hindsight, he never told me when the contest will be. I wanted to watch.</text>
+            <text></text>
+            <questgiver>Dimond's Cove Chef</questgiver>
+            <coordinates x="55" y="144">LoF Village, Dimond's Cove.</coordinates>
+            <reward text1="[Butcher Knife]">{@@1}</reward>
+        </quest>
+    </var>
 
 
     <!-- TEST QUESTS -->
