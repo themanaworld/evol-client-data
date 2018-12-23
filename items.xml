@@ -297,7 +297,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Inedible"
 		type="usable"
 		weight="80"/>
-	<!-- ID 514 is free -->
+	<item id="514"
+		image="usable/food/caramelcandy.png"
+		name="Caramel Candy"
+		description="Tasty delicacy from winter, with love from grandmas. During Winter, heals 3x more."
+		useButton="Eat"
+		effect="Heal 35-100 HP"
+		type="usable"
+		weight="3"
+		maxFloorOffset="6"/>
 	<item id="515"
 		image="usable/food/plushroom.png"
 		name="Plushroom"
