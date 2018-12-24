@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="128" height="148" tilewidth="32" tileheight="32" infinite="0" nextobjectid="26">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="128" height="148" tilewidth="32" tileheight="32" nextobjectid="28">
  <properties>
   <property name="author" value="The Mana World Team, Jesusalva"/>
   <property name="license" value="GPL v2+"/>
@@ -1466,15 +1466,13 @@
     <property name="dest_map" value="019-1"/>
     <property name="dest_x" value="70"/>
     <property name="dest_y" value="22"/>
-    <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
   <object id="8" name="To Nivalis Port" type="warp" x="3424" y="1760" width="32" height="32">
    <properties>
-    <property name="dest_map" value="031-1"/>
+    <property name="dest_map" value="019-2"/>
     <property name="dest_x" value="38"/>
     <property name="dest_y" value="55"/>
-    <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
   <object id="9" name="To Nivalis Storage" type="warp" x="1888" y="1440" width="32" height="32">
@@ -1482,6 +1480,22 @@
     <property name="dest_map" value="020-2"/>
     <property name="dest_x" value="127"/>
     <property name="dest_y" value="68"/>
+    <property name="npc_id" value="SCRIPT"/>
+   </properties>
+  </object>
+  <object id="26" name="To Nivalis House" type="warp" x="2304" y="1664" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-2"/>
+    <property name="dest_x" value="72"/>
+    <property name="dest_y" value="70"/>
+    <property name="npc_id" value="SCRIPT"/>
+   </properties>
+  </object>
+  <object id="27" name="To Nivalis Gift Shop" type="warp" x="1056" y="3008" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-2"/>
+    <property name="dest_x" value="72"/>
+    <property name="dest_y" value="70"/>
     <property name="npc_id" value="SCRIPT"/>
    </properties>
   </object>
