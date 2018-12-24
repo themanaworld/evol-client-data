@@ -2368,14 +2368,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-necklace"
 		weight="55">
 	</item>
+    <!-- Maximum, forged with golden 4leaf amulet, a real 4leaf clover, a platinum ingot and 3 iridium ingots -->
 	<item id="1004"
-		image="equipment/amulet/heartnecklace.png"
-		name="Heart Necklace"
-		description="A gold and ruby heart necklace."
-		effect="NYI"
-		level="90"
+		image="equipment/amulet/goldenfourleafamulet.png"
+		name="Platinum Four-Leaf Amulet"
+		description="An amulet that brings the wearer absolute luck where ever they go."
+		effect="Critical Defense +12%, VIT Defence +10%, Luck +5, Critical +2"
+		level="45"
 		type="equip-necklace"
-		weight="100">
+		weight="35">
 	</item>
 	<item id="1005"
 		image="equipment/amulet/jacksskeletoncharm.png"
@@ -2518,6 +2519,15 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		level="21"
 		type="equip-necklace"
 		weight="50"/>
+	<item id="1021"
+		image="equipment/amulet/heartnecklace.png"
+		name="Heart Necklace"
+		description="A gold and ruby heart necklace."
+		effect="NYI"
+		level="90"
+		type="equip-necklace"
+		weight="100">
+	</item>
 
 	<!-- Charms -->
 	<item id="1150"
