@@ -6077,23 +6077,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 
 	<!-- Bows -->
 	<item id="6000"
-		image="equipment/weapons/woodenbow.png"
-		name="Wooden Bow"
-		description="For the unexperienced bowman."
-		attack="70"
-		attack-range="5"
-		missile-particle="graphics/particles/training-arrow.xml"
-		missile-z="32"
-		missile-lifetime="500"
-		missile-speed="5"
-		missile-diedistance="3"
-		level="15"
-		type="equip-2hand"
-		attack-action="attack_bow"
-		weight="260">
-		<sprite>equipment/weapons/woodenbow.xml</sprite>
-	</item>
-	<item id="6001"
 		image="equipment/weapons/trainingbow.png"
 		name="Training Bow"
 		description="For bow training. Does not seem much reliable."
@@ -6108,6 +6091,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-2hand"
 		attack-action="attack_bow"
 		weight="160">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+	<item id="6001"
+		image="equipment/weapons/woodenbow.png"
+		name="Wooden Bow"
+		description="For the unexperienced bowman."
+		attack="70"
+		attack-range="5"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="15"
+		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="260">
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
 	<item id="6002"
@@ -6145,6 +6145,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
 	<item id="6004"
+		image="equipment/weapons/desertbow.png"
+		name="Desert Bow"
+		description="The best bow of Toonori. Light, yet powerful."
+		attack="160"
+		attack-range="6"
+		missile-particle="graphics/particles/training-arrow.xml"
+		missile-z="32"
+		missile-lifetime="500"
+		missile-speed="5"
+		missile-diedistance="3"
+		level="60"
+		type="equip-2hand"
+		attack-action="attack_bow"
+		weight="400">
+		<sprite>equipment/weapons/woodenbow.xml</sprite>
+	</item>
+	<item id="6005"
 		image="equipment/weapons/championshipbow.png"
 		name="Championship Bow"
 		description="A great bow which only champions are allowed to use."
@@ -6160,23 +6177,6 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		attack-action="attack_bow"
 		sellProtected="true"
 		weight="520">
-		<sprite>equipment/weapons/woodenbow.xml</sprite>
-	</item>
-	<item id="6005"
-		image="equipment/weapons/desertbow.png"
-		name="Desert Bow"
-		description="The best bow of Toonori. Light, yet powerful."
-		attack="160"
-		attack-range="6"
-		missile-particle="graphics/particles/training-arrow.xml"
-		missile-z="32"
-		missile-lifetime="500"
-		missile-speed="5"
-		missile-diedistance="3"
-		level="60"
-		type="equip-2hand"
-		attack-action="attack_bow"
-		weight="400">
 		<sprite>equipment/weapons/woodenbow.xml</sprite>
 	</item>
 	<item id="6006"
