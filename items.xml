@@ -1143,7 +1143,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		effect="Heal 1-500 SP"
 		type="usable"
 		weight="1"/>
-    <!-- 629 free -->
+	<!-- 629 free -->
 	<item id="630"
 		image="generic/box/presentbox.png"
 		name="Christmas Present Box"
@@ -1795,7 +1795,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A tyipical suitcase."
 		type="generic"
 		weight="1"/>
-    <!-- ID 802 is free -->
+	<!-- ID 802 is free -->
 	<item id="803"
 		image="generic/loveletter.png"
 		name="Love Letter"
@@ -2368,7 +2368,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-necklace"
 		weight="55">
 	</item>
-    <!-- Maximum, forged with golden 4leaf amulet, a real 4leaf clover, a platinum ingot and 3 iridium ingots -->
+	<!-- Maximum, forged with golden 4leaf amulet, a real 4leaf clover, a platinum ingot and 3 iridium ingots -->
 	<item id="1004"
 		image="equipment/amulet/goldenfourleafamulet.png"
 		name="Platinum Four-Leaf Amulet"
@@ -2992,7 +2992,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/uglychristmassweater.png"
 		name="Ugly Christmas Sweater"
 		description="An ugly %Color% Christmas sweater."
-        effect="MAtk +15, MDef +20"
+		effect="MAtk +15, MDef +20"
 		defense="20"
 		level="40"
 		type="equip-torso"
@@ -3052,7 +3052,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/redknight.png"
 		name="Red Knight Armor ★★"
 		description="An armor, said to belong to the Red Queen's minions, back in the end of the First Era."
-        effect="Fire Elemental"
+		effect="Fire Elemental"
 		defense="100"
 		level="20"
 		type="equip-torso"
@@ -3142,7 +3142,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-torso"
 		weight="1">
 		<!--sprite gender="unisex">equipment/chest/assassinchest-male.xml</sprite-->
-        <!-- TODO FIXME SAULC -->
+		<!-- TODO FIXME SAULC -->
 		<sprite gender="unisex">equipment/chest/cottonshirt-male.xml</sprite>
 		<sprite gender="female">equipment/chest/assassinchest-female.xml</sprite>
 	</item>
@@ -5221,7 +5221,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		drawAfter="torso">
 		<sprite>equipment/neck/sunglasses.xml</sprite>
 	</item>
-    <!-- TODO SAULC FIXME
+	<!-- TODO SAULC FIXME
 	<item id="3211"
 		image="equipment/neck/autumnmask.png|C:#ffffff;B:#cf7c04;M:#ee0427;R:#2a2a2a"
 		name="Autumn Mask"
@@ -5233,7 +5233,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		drawAfter="torso">
 		<sprite>equipment/neck/autumnmask.xml|#2a3a3a;#ee0427;#cf7c04;#ffffff</sprite>
 	</item>
-    -->
+	-->
 
 	<!-- Weapons -->
 	<item id="3500"
@@ -5347,10 +5347,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/knife/hit1.ogg</sound>
 		<sound event="miss">weapons/knife/miss1.ogg</sound>
 	</item>
-    <!-- NOTE: I'm pretty sure that is not a knife, but a saber. -->
-    <!-- https://en.wikipedia.org/wiki/Sabre -->
-    <!-- I also like more TMW-BR storyline, where this is “Boni & Claide Dagger” -->
-    <!-- BR Desc: Dagger which killed the bank robbers mafia leaders couple. -->
+	<!-- NOTE: I'm pretty sure that is not a knife, but a saber. -->
+	<!-- https://en.wikipedia.org/wiki/Sabre -->
+	<!-- I also like more TMW-BR storyline, where this is “Boni & Claide Dagger” -->
+	<!-- BR Desc: Dagger which killed the bank robbers mafia leaders couple. -->
 	<item id="3508"
 		image="equipment/weapons/boneknife.png"
 		name="Bone Knife"
@@ -5393,7 +5393,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/knife/hit1.ogg</sound>
 		<sound event="miss">weapons/knife/miss1.ogg</sound>
 	</item>
-    <!-- NOTE: That was a Jackal on TMW-BR -->
+	<!-- NOTE: That was a Jackal on TMW-BR -->
 	<item id="3511"
 		image="equipment/weapons/divinesword.png"
 		name="Divine Sword"
@@ -5422,8 +5422,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
-    <!-- NOTE: That was a Sandcutter on TMW-BR -->
-    <!-- From TMW-BR lore: “the sword of the desert nightraiders” -->
+	<!-- NOTE: That was a Sandcutter on TMW-BR -->
+	<!-- From TMW-BR lore: “the sword of the desert nightraiders” -->
 	<item id="3513"
 		image="equipment/weapons/ancientsword.png"
 		name="Ancient Sword"
@@ -5675,12 +5675,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 		<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	</item>
-    <!-- Fill new weapons HERE -->
+	<!-- Fill new weapons HERE -->
 	<item id="3600"
 		image="equipment/weapons/savior.png"
 		name="Lightbringer ★★★★★"
 		description="The most powerful sword from TMW-BR, has a mind of its own."
-        effect="HIT +50% / Holy Damage / Drain HP and MP of unworthy users"
+		effect="HIT +50% / Holy Damage / Drain HP and MP of unworthy users"
 		attack="750"
 		attack-range="1"
 		level="255"
@@ -6381,7 +6381,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/woodenstaff.png"
 		name="Training Wand"
 		description="A short wand for wanna be mages."
-        effect="Magic Attack +50"
+		effect="Magic Attack +50"
 		attack-range="1"
 		level="20"
 		type="equip-1hand"
@@ -6392,7 +6392,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/woodenstaff.png"
 		name="Novice Wand"
 		description="A short wand for those whom just learn magic."
-        effect="Magic Attack +150"
+		effect="Magic Attack +150"
 		attack-range="1"
 		level="40"
 		type="equip-1hand"
@@ -6403,7 +6403,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/woodenstaff.png"
 		name="Apprentice Wand"
 		description="A wand for mages."
-        effect="Magic Attack +450"
+		effect="Magic Attack +450"
 		attack-range="1"
 		level="60"
 		type="equip-1hand"
@@ -6414,7 +6414,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/woodenstaff.png"
 		name="Leader Wand"
 		description="A wand for real mages, respected by newbies."
-        effect="Magic Attack +800"
+		effect="Magic Attack +800"
 		attack-range="1"
 		level="80"
 		type="equip-1hand"
@@ -6425,7 +6425,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/woodenstaff.png"
 		name="Legendary Wand"
 		description="Only great mages dare to use this. It's damage is as high as its name."
-        effect="Magic Attack +1250"
+		effect="Magic Attack +1250"
 		attack-range="1"
 		level="100"
 		type="equip-1hand"
@@ -6436,7 +6436,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/reinboowand.png"
 		name="Reinboo Wand"
 		description="Said to be created by Santa himself, to control his reins."
-        effect="Magic Attack +250"
+		effect="Magic Attack +250"
 		attack-range="1"
 		level="50"
 		type="equip-1hand"
@@ -6444,12 +6444,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="158">
 	</item>
 
-    <!-- System Reserved -->
+	<!-- System Reserved -->
 	<item id="7400"
 		image="equipment/weapons/miere.png"
 		name="Legacy Miere Cleaver"
 		description="From the lands of fire, used to break Lava Mana Stones in two. Made with pure unobtanium."
-        effect="Knockback"
+		effect="Knockback"
 		defense=" -3"
 		dex=" -3"
 		agi="-5"
@@ -6467,7 +6467,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/weapons/broadsword.png"
 		name="Legacy Broadsword"
 		description="A heavy sword from the lands of fire. Useful even for bashing. Made with pure unobtanium."
-        effect="Knockback"
+		effect="Knockback"
 		defense=" -2"
 		dex=" -2"
 		str="3"
@@ -6503,7 +6503,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 			/>
 		</inventory>
 	</item>
-    <!-- Mercenary Boxsets (7500 - 7509) and cards (7510-7599) -->
+	<!-- Mercenary Boxsets (7500 - 7509) and cards (7510-7599) -->
 	<item id="7500"
 		image="usable/box/prismgift.png"
 		name="Mercenary Boxset"
@@ -6529,13 +6529,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		weight="135"
 		sellProtected="true"/>
 
-    <!-- Second digit rule:
-            0:    Boxset
-            1~2: ★★★★★
-            3~4: ★★★★
-            5~6: ★★★
-            7~8: ★★
-            9~A: ★                  -->
+	<!-- Second digit rule:
+			0:	Boxset
+			1~2: ★★★★★
+			3~4: ★★★★
+			5~6: ★★★
+			7~8: ★★
+			9~A: ★				  -->
 	<item id="7510"
 		image="usable/card/herocard.png"
 		name="Andrei Sakar Card ★★★★★"
