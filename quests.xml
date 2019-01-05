@@ -72,63 +72,26 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
     <var id="3">
-        <effect map="002-1.tmx" npc="403" value="0,6" effect="12"/>
-        <effect map="002-1.tmx" npc="403" value="1,2,4" effect="13"/>
-        <quest name="Ratto Extermination" group="Ship" incomplete="6">
+        <effect map="002-1.tmx" npc="403" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" effect="12"/>
+        <quest name="Ratto Extermination" group="Ship" incomplete="1,2,3,4,5,6,7,8,9,10,11,12,13,14">
             <name>Ratto Extermination</name>
-            <text>Peter needs your help to clear La Johanne's hold of some rattos.</text>
+            <text>Peter needs your help to clear La Johanne's hold of some monsters.</text>
             <text></text>
             <text>Speak to him when you will have time to help him.</text>
             <text></text>
             <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>Unknown.</reward>
+            <coordinates x="33" y="26">La Johanne, Second Deck.</coordinates>
+            <reward>Gold.</reward>
         </quest>
-        <quest name="Ratto Extermination" group="Ship" incomplete="1">
-            <name>Ratto Extermination</name>
-            <text>Peter asked you to empty the bottom of the ship for free.</text>
-            <text></text>
-            <text>Maybe next time he will have something to offer you...</text>
-            <text></text>
-            <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>Nothing.</reward>
-        </quest>
-        <quest name="Ratto Extermination" group="Ship" incomplete="2">
-            <name>Ratto Extermination</name>
-            <text>Cleaning the bottom of the ship is a tough work, but Peter is offering you some gold for it.</text>
-            <text></text>
-            <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 GP.</reward>
-        </quest>
-        <quest name="Ratto Extermination" group="Ship" complete="3">
-            <name>Ratto Extermination</name>
-            <text>You helped Peter cleaning the bottom of the ship for free.</text>
-            <text></text>
-            <text>However, it looks like these rattos can come back again. Later, you could ask Peter if he needs your help again.</text>
-            <text></text>
-            <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>Nothing.</reward>
-        </quest>
-        <quest name="Ratto Extermination" group="Ship" complete="5">
+        <quest name="Ratto Extermination" group="Ship" complete="15">
             <name>Ratto Extermination</name>
             <text>You helped Peter cleaning the bottom of the ship. He rewarded you with some gold.</text>
             <text></text>
-            <text>However, it looks like these rattos can come back again. Later, you could ask Peter if he needs your help again.</text>
+            <text>However, it looks like the rattos can come back again. Although Peter won't pay you anymore...</text>
             <text></text>
             <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 GP.</reward>
-        </quest>
-        <quest name="Ratto Extermination" group="Ship" incomplete="4">
-            <name>Ratto Extermination</name>
-            <text>This time, Peter seems to have a reward for you. After you cleaned the bottom of the ship, ask him for a reward.</text>
-            <text></text>
-            <questgiver>Peter</questgiver>
-            <coordinates x="60" y="35">La Johanne, Second Deck. (60,35)</coordinates>
-            <reward>100 EXP, 1000 GP.</reward>
+            <coordinates x="33" y="26">La Johanne, Second Deck. (60,35)</coordinates>
+            <reward>Gold.</reward>
         </quest>
     </var>
     <!-- var 4 is free -->
