@@ -1164,6 +1164,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Tolchi Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="10"
 		useButton="Open"
 		type="usable"
 		weight="215"/>
@@ -1171,6 +1172,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Training Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="20"
 		useButton="Open"
 		type="usable"
 		weight="215"/>
@@ -1178,6 +1180,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Standard Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="30"
 		useButton="Open"
 		type="usable"
 		weight="215"/>
@@ -1185,6 +1188,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Iron Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="45"
 		useButton="Open"
 		type="usable"
 		weight="215"/>
@@ -1192,6 +1196,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Cursed Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="60"
 		useButton="Open"
 		type="usable"
 		weight="215"/>
@@ -1199,6 +1204,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Poison Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="90"
 		useButton="Open"
 		type="usable"
 		weight="430"/>
@@ -1206,6 +1212,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Thorn Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="160"
 		useButton="Open"
 		type="usable"
 		weight="430"/>
@@ -1213,6 +1220,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="generic/box/notabox.png"
 		name="Bone Arrow Ammo Box"
 		description="Contains roughly 200 arrows for your shooting purposes."
+		attack="350"
 		useButton="Open"
 		type="usable"
 		weight="1100"/>
@@ -2942,8 +2950,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="1304"
 		image="equipment/chest/trainingshirt.png"
-		name="Legion's Training Shirt"
-		description="Informal shirt worn during intense aerobic exercises."
+		name="Lieutenant Armor"
+		description="Lieutenants use those to show off their advanced ranks."
 		defense="45"
 		level="30"
 		type="equip-torso"
@@ -2953,7 +2961,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="1305"
 		image="equipment/chest/copperarmor.png"
-		name="Legion's Copper Armor"
+		name="Lieutenant Copper Armor"
 		description="This armor provides great protection. It is worn by those with authority."
 		defense="95"
 		level="55"
@@ -3343,7 +3351,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="1802"
 		image="equipment/feet/boots.png|W:#212121"
-		name="Deep Black Boots"
+		name="Black Cat Boots"
 		description="Some robust black boots, ideal for travelling."
 		defense="100"
 		level="4"
@@ -3404,7 +3412,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		<sprite gender="female">equipment/feet/cottonboots-female.xml|#623a34,f0c2b4</sprite>
 	</item>
 	<item id="1807"
-		image="equipment/feet/cottonboots.png"
+		image="equipment/feet/cottonboots.png|W:#4f2d29,c89078"
 		name="Leather Boots"
 		description="Leather boots are resistant, comfortable, and looks cool. Or at least, that's what was on the ad."
 		defense="10"
@@ -3432,7 +3440,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Bromenal Boots"
 		description="A pair of bromenal boots."
 		defense="10"
-		level="3"
+		level="55"
 		type="equip-feet"
 		weight="18"
 		maxFloorOffset="8">
@@ -3656,7 +3664,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Assassin Gloves"
 		description="Gloves for a master assassin."
 		defense="1"
-		level="1"
+		level="99"
 		type="equip-arms"
 		weight="1"
 		maxFloorOffset="16">
@@ -3811,7 +3819,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Chainmail Skirt"
 		description="The perfect medieval style."
 		defense="190"
-		level="65"
+		level="64"
 		type="equip-legs"
 		weight="280"
 		maxFloorOffset="8">
