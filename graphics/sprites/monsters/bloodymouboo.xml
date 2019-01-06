@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="mob" src="graphics/sprites/monsters/demonicmouboo.png" width="80" height="80"/>
+  <imageset name="mob" src="graphics/sprites/monsters/bloodymouboo.png" width="80" height="80"/>
   <action name="stand" imageset="mob">
     <animation direction="down">
       <frame index="0"/>
@@ -52,7 +52,7 @@
       <frame index="14" delay="150"/>
       <frame index="29" delay="150"/>
       <frame index="44" delay="150"/>
-      <frame index="59" delay="5150"/>
+      <frame index="59"/>
     </animation>
   </action>
 </sprite>

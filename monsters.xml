@@ -223,7 +223,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 		<sprite>monsters/cavesnake.xml</sprite>
 		<sound event="hit">monsters/cavesnake/hit1.ogg</sound>
 	</monster>
-	<monster id="1036" name="Demonic Scythe" targetCursor="large">
+	<monster id="1036" name="Evil Scythe" targetCursor="large">
 		<sprite>monsters/demonicscythe.xml</sprite>
 	</monster>
 	<monster id="1037" name="Wolvern" targetCursor="medium">
@@ -575,13 +575,11 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 		<sprite>monsters/bigbif.xml|#ff059d,ff0e93</sprite>
 		<particlefx>graphics/particles/bigmagicbif.particle.xml</particlefx>
 	</monster>
-	<!-- FIXME broken XML
-	<monster id="1119" name="Bloody Mouboo" targetCursor="medium">
-		<sprite>monsters/demonicmouboo.xml</sprite>
+	<monster id="1119" name="Cursed Mouboo" targetCursor="medium">
+		<sprite>monsters/bloodymouboo.xml</sprite>
 		<sprite>accessories/demonicmoubooantlers.xml</sprite>
 		<particlefx>graphics/particles/demonicmouboo.particle.xml</particlefx>
 	</monster>
-	-->
 	<monster id="1120" name="Jack'O" targetCursor="medium">
 		<sprite>monsters/jacko.xml</sprite>
 	</monster>
