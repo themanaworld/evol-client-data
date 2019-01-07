@@ -1375,8 +1375,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Bat Teeth"
 		description="What sharp teeth! They seem to be more dangerous than a knife."
 		type="generic"
-		weight="3"
-		maxFloorOffset="16"/>
+		weight="3"/>
 	<item id="721"
 		image="generic/batwingmodel.png|S:#4d4d4d,4b3126,686868,624632,919191,af6b3b,b6b6b6,de8f40"
 		name="Right Crafty Wing"
@@ -3327,7 +3326,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
 		name="Lousy Moccasins"
 		description="Crudely assembled footwear not for comfort nor fashion."
-		defense="10"
+		defense="3"
 		level="10"
 		type="equip-feet"
 		weight="18">
@@ -3338,8 +3337,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/assassinboots.png"
 		name="Assassin Boots"
 		description="Crudely assembled footwear not for comfort nor fashion."
-		defense="500"
-		level="4"
+		defense="34"
+		level="88"
 		type="equip-feet"
 		weight="18">
 		<sprite gender="unisex">equipment/feet/assassinboots-male.xml</sprite>
@@ -3349,8 +3348,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/boots.png|W:#212121"
 		name="Black Cat Boots"
 		description="Some robust black boots, ideal for travelling."
-		defense="100"
-		level="4"
+		defense="16"
+		level="50"
 		type="equip-feet"
 		weight="18">
 		<sprite gender="unisex">equipment/feet/boots-male.xml|#212121</sprite>
@@ -3360,7 +3359,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/candorboots.png"
 		name="Candor Boots"
 		description="A Candor favorite"
-		defense="6"
+		defense="2"
 		level="7"
 		type="equip-feet"
 		weight="18">
@@ -3371,8 +3370,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/fursboots.png"
 		name="Furs Boots"
 		description="A pair of warm winter boots."
-		defense="10"
-		level="3"
+		defense="12"
+		level="39"
 		type="equip-feet"
 		weight="18">
 		<sprite gender="unisex">equipment/feet/fursboots-male.xml</sprite>
@@ -3382,7 +3381,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/cottonboots.png|W"
 		name="%Color% Cotton Boots"
 		description="A pair of quality %Color% cotton boots."
-		defense="12"
+		defense="6"
 		effect="SP +10, Matk +10"
 		level="20"
 		type="equip-feet"
@@ -3395,7 +3394,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/boots.png|W:#4f2d29,c89078"
 		name="Boots"
 		description="Some robust, probably used, boots."
-		defense="14"
+		defense="4"
 		level="13"
 		type="equip-feet"
 		weight="80">
@@ -3406,10 +3405,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/cottonboots.png|W:#4f2d29,c89078"
 		name="Leather Boots"
 		description="Leather boots are resistant, comfortable, and looks cool. Or at least, that's what was on the ad."
-		defense="10"
-		level="3"
+		defense="9"
+		level="32"
 		type="equip-feet"
-		weight="18">
+		weight="1">
 		<sprite gender="unisex">equipment/feet/boots-male.xml</sprite>
 		<sprite gender="female">equipment/feet/cottonboots-female.xml</sprite>
 	</item>
@@ -3417,10 +3416,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
 		name="Red Stockings"
 		description="Someone thought of you at Christmas Eve."
-		defense="10"
-		level="3"
+		defense="14"
+		level="45"
 		type="equip-feet"
-		weight="18">
+		weight="1">
 		<sprite gender="unisex">equipment/feet/assassinboots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
 		<sprite gender="female">equipment/feet/assassinboots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
 	</item>
@@ -3428,10 +3427,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/bromenalboots.png"
 		name="Bromenal Boots"
 		description="A pair of bromenal boots."
-		defense="10"
+		defense="19"
 		level="55"
 		type="equip-feet"
-		weight="18">
+		weight="1">
 		<sprite gender="unisex">equipment/feet/bromenalboots-male.xml</sprite>
 		<sprite gender="female">equipment/feet/bromenalboots-female.xml</sprite>
 	</item>
@@ -3439,10 +3438,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/boots.png|W:#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
 		name="Creased Boots"
 		description="Beark !"
-		defense="4"
+		defense="1"
 		level="3"
 		type="equip-feet"
-		weight="14">
+		weight="12">
 		<sprite gender="unisex">equipment/feet/boots-male.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
 		<sprite gender="female">equipment/feet/boots-female.xml|#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e0d5bf</sprite>
 	</item>
@@ -3450,7 +3449,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/feet/tulimsharguardboots.png"
 		name="Tulimshar Guard Boots"
 		description="These boots are made from dock skins! Whatever that means."
-		defense="16"
+		defense="5"
 		level="17"
 		type="equip-feet"
 		weight="35">
@@ -3462,7 +3461,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Squirrel Boots"
 		description="Sprite missing, blame Saulc!"
 		effect="Move Speed +1%"
-		defense="15"
+		defense="7"
 		level="26"
 		type="equip-feet"
 		weight="32">
@@ -3475,11 +3474,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/armbands.png"
 		name="Armbands"
 		description="Small armbands made of wood and iron."
-		defense="80"
-		level="3"
+		effect="SP +10, MAtk +10"
+		defense="7"
+		level="30"
 		type="equip-arms"
-		weight="10"
-		maxFloorOffset="16">
+		weight="10">
 		<sprite gender="unisex">equipment/hands/armbands-male.xml</sprite>
 		<sprite gender="female">equipment/hands/armbands-female.xml</sprite>
 	</item>
@@ -3487,11 +3486,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/copperarmbands.png"
 		name="Copper Armbands"
 		description="Sturdy, combat-issue armbands."
-		defense="120"
-		level="8"
+		effect="SP +20, MAtk +15"
+		defense="15"
+		level="50"
 		type="equip-arms"
-		weight="20"
-		maxFloorOffset="16">
+		weight="20">
 		<sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
 		<sprite gender="female">equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
 	</item>
@@ -3499,23 +3498,23 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/ironarmbands.png"
 		name="Iron Armbands"
 		description="Heavy armbands that slow down all but experienced warriors."
-		defense="180"
-		level="12"
+		effect="SP +30, MAtk +20"
+		defense="24"
+		level="70"
 		type="equip-arms"
-		weight="30"
-		maxFloorOffset="16">
+		weight="30">
 		<sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
 		<sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
 	</item>
 	<item id="2003"
 		image="equipment/hands/scarabarmlet.png"
-		name="Scarab Armlet"
+		name="Sarab Armlet"
 		description="A scarab armlet."
-		defense="180"
-		level="12"
+		effect="SP +40, MAtk +40"
+		defense="35"
+		level="93"
 		type="equip-arms"
-		weight="30"
-		maxFloorOffset="16">
+		weight="30">
 		<sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
 		<sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
 	</item>
@@ -3523,11 +3522,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/cottongloves.png|W:#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf"
 		name="Creased Gloves"
 		description="These gloves were used before..."
-		defense="5"
+		defense="1"
 		level="2"
 		type="equip-arms"
-		weight="40"
-		maxFloorOffset="16">
+		weight="40">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml|#43413d,59544f,7a706c,8a8176,a69e88,d1c7a7,e0d5bf</sprite>
 	</item>
@@ -3536,13 +3534,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/cottongloves.png|W"
 		name="%Color% Cotton Gloves"
 		description="A pair of comfy %Color% cotton gloves."
-		defense="10"
+		defense="3"
 		effect="SP +10, Matk +10"
 		level="6"
 		type="equip-arms"
 		weight="60"
-		colors="simple"
-		maxFloorOffset="16">
+		colors="simple">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3550,7 +3547,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/minergloves.png"
 		name="Miner Gloves"
 		description="Gloves used by miners, very useful."
-		defense="23"
+		defense="8"
 		level="28"
 		type="equip-arms"
 		weight="180">
@@ -3561,11 +3558,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/cottongloves.png|W:#87876c,bbc39c,edf4e1,ffffff"
 		name="%Color% Silk Gloves"
 		description="Soft and graceful %Color% silk gloves which doesn't restrain magic."
-		defense="1"
-		level="1"
+		defense="4"
+		level="12"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
 	</item>
@@ -3573,11 +3569,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/leathergloves.png"
 		name="Leather Gloves"
 		description="Gloves made of hardened leather."
-		defense="40"
+		defense="12"
 		level="40"
 		type="equip-arms"
-		weight="140"
-		maxFloorOffset="16">
+		weight="140">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4e2e18,c8752f</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
 	</item>
@@ -3586,11 +3581,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/forestgloves.png"
 		name="Forest Gloves"
 		description="Protect your hands from the dirty objects found in nature."
-		defense="1"
-		level="1"
+		defense="20"
+		level="59"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3599,11 +3593,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/bromenalgloves.png"
 		name="Bromenal Gloves"
 		description="A pair of bromenal gloves"
-		defense="1"
-		level="1"
+		defense="24"
+		level="66"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/bromenalgloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite>
 	</item>
@@ -3612,11 +3605,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/armband.png"
 		name="Golden Armband"
 		description="This armband has some gold in it, so it totally must be better than the others."
-		defense="1"
-		level="1"
+		effect="SP +30, MAtk +25, MDef +30"
+		defense="33"
+		level="90"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3624,11 +3617,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/warlordgloves.png"
 		name="Warlord Gloves"
 		description="Steel gloves that will make you feel like a knight."
-		defense="1"
-		level="1"
+		defense="35"
+		level="90"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3636,11 +3628,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/managloves.png"
 		name="Mana Gloves"
 		description="These gloves are used by powerful mages."
-		defense="1"
-		level="1"
+		effect="SP +50"
+		defense="29"
+		level="77"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3648,11 +3640,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/terranitegloves.png"
 		name="Terranite Gloves"
 		description="A nice pair of gloves made from terranite ore."
-		defense="1"
-		level="1"
+		effect="Mdef +30"
+		defense="30"
+		level="80"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/cottongloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/cottongloves-female.xml</sprite>
 	</item>
@@ -3661,11 +3653,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/assassingloves.png"
 		name="Assassin Gloves"
 		description="Gloves for a master assassin."
-		defense="1"
+		defense="39"
 		level="99"
 		type="equip-arms"
-		weight="1"
-		maxFloorOffset="16">
+		weight="1">
 		<sprite gender="unisex">equipment/hands/assassingloves-male.xml</sprite>
 		<sprite gender="female">equipment/hands/assassingloves-female.xml</sprite>
 	</item>
@@ -3673,11 +3664,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/hands/candorgloves.png"
 		name="Candor Gloves"
 		description="Perfect glove to complete your Candor outfit."
-		defense="9"
-		level="2"
+		defense="2"
+		level="4"
 		type="equip-arms"
-		weight="45"
-		maxFloorOffset="16">
+		weight="45">
 		<sprite gender="unisex">equipment/hands/candorgloves-male.xml</sprite>
 	</item>
 
