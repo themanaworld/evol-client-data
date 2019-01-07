@@ -2921,8 +2921,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/vneckjumper.png|S"
 		name="%Color% V-neck Jumper"
 		description="A simple %color% jumper made from a lightweight cashmere."
-		defense="11"
-		level="10"
+		defense="99"
+		level="49"
 		type="equip-torso"
 		weight="30"
 		colors="vneck"
@@ -2947,7 +2947,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/sailorshirt.png"
 		name="Sailor Shirt"
 		description="Proof that ye be in the crew, matey!"
-		defense="37"
+		defense="44"
 		str="1"
 		level="26"
 		type="equip-torso"
@@ -2959,7 +2959,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/trainingshirt.png"
 		name="Lieutenant Armor"
 		description="Lieutenants use those to show off their advanced ranks."
-		defense="45"
+		defense="43"
 		level="30"
 		type="equip-torso"
 		weight="120">
@@ -2970,7 +2970,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/copperarmor.png"
 		name="Lieutenant Copper Armor"
 		description="This armor provides great protection. It is worn by those with authority."
-		defense="95"
+		defense="114"
 		level="55"
 		type="equip-torso"
 		weight="340">
@@ -2982,7 +2982,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Warlord Plate"
 		description="Strong and decorative armor."
 		effect="Move Speed -5%"
-		defense="181"
+		defense="206"
 		level="70"
 		type="equip-torso"
 		weight="2600">
@@ -2993,10 +2993,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/bromenalchest.png"
 		name="Bromenal Chest"
 		description="A bromenal chest armor."
-		defense="54"
-		level="35"
+		defense="163"
+		level="73"
 		type="equip-torso"
-		weight="2000">
+		weight="3600">
 		<sprite gender="unisex">equipment/chest/bromenalchest-male.xml</sprite>
 		<sprite gender="female">equipment/chest/bromenalchest-female.xml</sprite>
 	</item>
@@ -3004,7 +3004,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/forestarmor.png"
 		name="Forest Armor"
 		description="A clean and comfortable mantle with dags, made for the finest stalkers."
-		defense="64"
+		defense="74"
 		level="50"
 		effect="+2 Agi w/ bow"
 		dex="2"
@@ -3022,8 +3022,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		type="equip-torso"
 		weight="25"
 		colors="simple"
-		sellProtected="true"
-		maxFloorOffset="10">
+		sellProtected="true">
 		<sprite gender="unisex">equipment/chest/contributorsweater-male.xml</sprite>
 		<sprite gender="female">equipment/chest/contributorsweater-female.xml</sprite>
 	</item>
@@ -3032,10 +3031,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Chainmail"
 		description="A heavy shirt made of chains. It weighs a lot but offers excellent protection."
 		effect="Move Speed -1%"
-		defense="100"
+		defense="118"
 		level="45"
 		type="equip-torso"
-		weight="800">
+		weight="1200">
 		<sprite gender="unisex">equipment/chest/chainmail-male.xml</sprite>
 		<sprite gender="female">equipment/chest/chainmail-female.xml</sprite>
 	</item>
@@ -3044,10 +3043,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Terranite Chest"
 		description="A nice piece of armor made out of terranite ore."
 		effect="MDEF +100"
-		defense="140"
+		defense="143"
 		level="80"
 		type="equip-torso"
-		weight="800">
+		weight="3600">
 		<sprite gender="unisex">equipment/chest/terranitearmor-male.xml</sprite>
 		<sprite gender="female">equipment/chest/terranitearmor-female.xml</sprite>
 	</item>
@@ -3056,10 +3055,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Light Platemail"
 		description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
 		effect="Move Speed -3%"
-		defense="150"
+		defense="170"
 		level="60"
 		type="equip-torso"
-		weight="1200">
+		weight="3600">
 		<sprite gender="unisex">equipment/chest/lightplatemail-male.xml</sprite>
 		<sprite gender="female">equipment/chest/lightplatemail-female.xml</sprite>
 	</item>
@@ -3067,7 +3066,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/shorttanktop.png|W"
 		name="%Color% Short tank top"
 		description="A %color% short tank top."
-		defense="9"
+		defense="10"
 		level="8"
 		type="equip-torso"
 		weight="5"
@@ -3079,7 +3078,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/leathershirt.png"
 		name="Leather Shirt"
 		description="A shirt made of hardened leather."
-		defense="29"
+		defense="34"
 		level="21"
 		type="equip-torso"
 		weight="310">
@@ -3090,7 +3089,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/tnecksweater.png|W"
 		name="%Color% Turtleneck Sweater"
 		description="A thick, soft and warm sweater."
-		defense="16"
+		defense="18"
 		level="13"
 		type="equip-torso"
 		weight="30"
@@ -3103,12 +3102,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="%Color% Silk Robe"
 		description="A light and shimmering %Color% silk robe."
 		effect="SP +40, Matk +20, Mdef +25"
-		defense="26"
+		defense="29"
 		level="20"
 		type="equip-torso"
 		weight="25"
-		colors="simple"
-		maxFloorOffset="10">
+		colors="simple">
 		<sprite gender="unisex">equipment/chest/silkrobe-male.xml</sprite>
 		<sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
 	</item>
@@ -3117,8 +3115,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="%Color% Sorcerer Robe"
 		description="A red lined sorcerer robe."
 		effect="SP +80, Matk +40, Mdef +50"
-		defense="52"
-		level="35"
+		defense="94"
+		level="55"
 		type="equip-torso"
 		weight="40"
 		colors="simple">
@@ -3129,8 +3127,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/uglychristmassweater.png"
 		name="Ugly Christmas Sweater"
 		description="An ugly %Color% Christmas sweater."
-		effect="MAtk +15, MDef +20"
-		defense="64"
+		effect="MP +10, MAtk +15, MDef +20"
+		defense="72"
 		level="40"
 		type="equip-torso"
 		weight="350"
@@ -3142,12 +3140,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/valentinedress.png|W"
 		name="%Color% Valentine Dress"
 		description="A %Color% dress made for your Valentin's day. Could be red, though."
-		defense="19"
+		defense="22"
 		level="15"
 		type="equip-torso"
 		weight="100"
-		colors="simple"
-		maxFloorOffset="10">
+		colors="simple">
 		<sprite gender="unisex">equipment/chest/valentinedress-male.xml</sprite>
 		<sprite gender="female">equipment/chest/valentinedress-female.xml</sprite>
 	</item>
@@ -3155,8 +3152,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/vnecksweater.png|W"
 		name="%Color% V-neck Sweater"
 		description="A thin, soft and warm sweater."
-		defense="16"
-		level="15"
+		defense="58"
+		level="32"
 		type="equip-torso"
 		weight="36"
 		colors="simple">
@@ -3168,9 +3165,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Candor Shirt"
 		description="A classical Candor shirt"
 		defense="5"
-		level="4"
+		level="3"
 		type="equip-torso"
-		weight="35">
+		weight="36">
 		<sprite gender="unisex">equipment/chest/candorshirt-male.xml</sprite>
 		<sprite gender="female">equipment/chest/candorshirt-female.xml</sprite>
 	</item>
@@ -3190,12 +3187,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Red Knight Armor ★★"
 		description="An armor, said to belong to the Red Queen's minions, back in the end of the First Era."
 		effect="Fire Elemental"
-		defense="100"
-		level="20"
+		defense="189"
+		level="82"
 		type="equip-torso"
 		weight="500"
-		sellProtected="true"
-		maxFloorOffset="10">
+		sellProtected="true">
 		<sprite gender="unisex">equipment/chest/redknightarmor-male.xml</sprite>
 		<sprite gender="female">equipment/chest/redknightarmor-female.xml</sprite>
 	</item>
@@ -3203,11 +3199,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/desertshirt.png"
 		name="Desert Shirt"
 		description="A strong shirt suitable for desert trips. Made of leather and snake skin's."
-		defense="58"
+		defense="69"
 		level="37"
 		type="equip-torso"
-		weight="390"
-		maxFloorOffset="10">
+		weight="390">
 		<sprite gender="unisex">equipment/chest/leathershirt-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
 		<sprite gender="female">equipment/chest/leathershirt-female.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
 	</item>
@@ -3226,8 +3221,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Golden Light Platemail"
 		description="A light platemail with shoulder pads made of gold."
-		defense="100"
-		level="70"
+		defense="184"
+		level="64"
 		type="equip-torso"
 		weight="1">
 		<sprite gender="unisex">equipment/chest/lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
@@ -3237,7 +3232,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Golden Warlord Plate"
 		description="One of the most desired armors of all."
-		defense="120"
+		defense="225"
 		level="75"
 		type="equip-torso"
 		weight="1">
@@ -3248,7 +3243,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/saviorarmor.png|W"
 		name="%Color% Savior Armor"
 		description="Worn by the best of the best."
-		defense="420"
+		defense="270"
 		level="109"
 		type="equip-torso"
 		colors="simple"
@@ -3261,7 +3256,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/cottonshirt.png|W"
 		name="%Color% Cotton Shirt"
 		description="Shirt made of 100% cotton"
-		defense="30"
+		defense="22"
 		level="15"
 		type="equip-torso"
 		colors="simple"
@@ -3273,8 +3268,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/assassinchest.png"
 		name="Assassin Chestplate"
 		description="Entirely broken item, blame Saulc, do not use, do not eat."
-		defense="1"
-		level="1"
+		defense="177"
+		level="78"
 		effect="Instantly kills the wearer"
 		type="equip-torso"
 		weight="1">
@@ -3287,9 +3282,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/chest/candorshirt.png"
 		name="Crusade Armor"
 		description="Are you a crusader?"
-		defense="100"
+		defense="53"
 		level="30"
-		effect="TODO"
 		type="equip-torso"
 		weight="1200">
 		<sprite gender="unisex">equipment/chest/crusadearmor-male.xml</sprite>
@@ -3310,8 +3304,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="error.png"
 		name="Alchemist Robe"
 		description="Unreleased item, added for a NPC. Do not use."
-		defense="50"
-		level="80"
+		defense="146"
+		level="67"
 		type="equip-torso"
 		weight="120">
 		<sprite gender="unisex">equipment/chest/chemistrobe-male.xml</sprite>
@@ -3322,11 +3316,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Graduation Robe"
 		description="Congrats you're part of master of TMW2."
 		effect="SP +100, Matk +20"
-		defense="70"
+		defense="149"
 		level="75"
 		type="equip-torso"
-		weight="25"
-		maxFloorOffset="10">
+		weight="25">
 		<sprite gender="unisex">equipment/chest/silkrobe-male.xml|#000000</sprite>
 		<sprite gender="female">equipment/chest/silkrobe-female.xml|#000000</sprite>
 	</item>
