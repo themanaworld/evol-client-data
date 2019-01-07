@@ -4233,7 +4233,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/bandana.png|W"
 		name="Bandana"
 		description="A striped %Color% bandana worn by some sailors."
-		defense="26"
+		defense="5"
 		level="12"
 		type="equip-head"
 		colors="simple"
@@ -4259,7 +4259,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/pumpkinhat.png"
 		name="Pumpkin Hat"
 		description="A carved pumpkin. Its face might scare your enemy off!"
-		defense="20"
+		defense="5"
 		level="4"
 		type="equip-head"
 		weight="50">
@@ -4270,7 +4270,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/fancyhat.png"
 		name="Fancy Hat"
 		description="Worn when living away from cities."
-		defense="42"
+		effect="MP +5"
+		defense="10"
 		level="19"
 		type="equip-head"
 		weight="85">
@@ -4285,7 +4286,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/brimmedhat.png"
 		name="Brimmed Hat"
 		description="Unequip when indoors, please."
-		defense="55"
+		defense="20"
 		level="33"
 		type="equip-head"
 		weight="20">
@@ -4300,8 +4301,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/brimmedfeatherhat.png"
 		name="Brimmed Feather Hat"
 		description="Distinguishes someone who is travelling."
-		defense="110"
-		level="8"
+		defense="20"
+		level="34"
 		type="equip-head"
 		weight="23">
 		<sprite>equipment/head/brimmedfeatherhat.xml</sprite>
@@ -4315,8 +4316,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/brimmedflowerhat.png"
 		name="Brimmed Flower Hat"
 		description="To wear at festivals and certain events."
-		defense="110"
-		level="8"
+		defense="20"
+		level="34"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/brimmedflowerhat.xml</sprite>
@@ -4330,10 +4331,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/bull.png"
 		name="Bull"
 		description="It causes a lot of carnage!"
-		defense="200"
+		effect="Move Speed -3%"
+		defense="106"
 		level="90"
 		type="equip-head"
-		weight="50">
+		weight="220">
 		<sprite>equipment/head/bull.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4341,7 +4343,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/darkhelm.png"
 		name="Darkhelm"
 		description="A black steel helmet worn by the most ferocious warrior."
-		defense="190"
+		defense="70"
 		level="90"
 		type="equip-head"
 		weight="1300">
@@ -4352,10 +4354,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/funkyhat.png|W"
 		name="%Color% Funky Hat"
 		description="Yawn."
-		defense="130"
+		defense="17"
 		level="30"
 		type="equip-head"
-		weight="20"
+		weight="50"
 		colors="simple"
 		maxFloorOffset="10">
 		<sprite>equipment/head/funkyhat.xml</sprite>
@@ -4369,7 +4371,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/crusadehelmet.png|W"
 		name="Crusade Helmet"
 		description="Start your own crusade with this %Color% helmet!"
-		defense="175"
+		effect="Move Speed -1%"
+		defense="57"
 		level="55"
 		type="equip-head"
 		colors="simple"
@@ -4381,7 +4384,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/bucket.png"
 		name="Bucket"
 		description="A bucket for your head!"
-		defense="50"
+		defense="22"
 		level="36"
 		type="equip-head"
 		weight="880">
@@ -4392,10 +4395,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/infantryhelmet.png"
 		name="Infantry Helmet"
 		description="A helmet for soldiers and guards."
-		defense="145"
+		effect="Move Speed -1%"
+		defense="26"
 		level="30"
 		type="equip-head"
-		weight="400">
+		weight="622">
 		<sprite>equipment/head/infantryhelmet.xml</sprite>
 		<replace sprite="hair">
 			<item from="-5" to="-4"/>
@@ -4418,7 +4422,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/mouboohat.png"
 		name="Mouboo Hat"
 		description="A tightly fitting mouboo head."
-		defense="58"
+		defense="20"
 		level="33"
 		type="equip-head"
 		weight="280">
@@ -4429,10 +4433,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/bromenalhelmet.png"
 		name="Bromenal Helmet"
 		description="A hard bromenal helmet."
-		defense="166"
+		defense="29"
 		level="45"
 		type="equip-head"
-		weight="400">
+		weight="900">
 		<sprite>equipment/head/bromenalhelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4440,21 +4444,21 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/candlehelmet.png"
 		name="Candle Helmet"
 		description="Worn by spelunkers."
-		defense="135"
-		level="20"
+		defense="33"
+		level="50"
 		type="equip-head"
-		weight="450">
+		weight="22">
 		<sprite>equipment/head/candlehelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
 	<item id="2916"
 		image="equipment/head/deserthelmet.png"
 		name="Desert Helmet"
-		description="This item is now unvailable."
-		defense="100"
+		description="Desert warriors use this to protect themselves."
+		defense="25"
 		level="40"
 		type="equip-head"
-		weight="450">
+		weight="480">
 		<sprite>equipment/head/deserthelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4462,12 +4466,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/deserthat.png|W"
 		name="%Color% Desert Hat"
 		description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
-		defense="40"
+		defense="14"
 		level="25"
 		type="equip-head"
-		weight="20"
-		colors="simple"
-		maxFloorOffset="10">
+		weight="22"
+		colors="simple">
 		<sprite>equipment/head/deserthat.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4475,10 +4478,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/eggshellhat.png"
 		name="Eggshell Hat"
 		description="A novelty hat shaped like an eggshell half."
-		defense="135"
-		level="20"
+		defense="3"
+		level="8"
 		type="equip-head"
-		weight="15">
+		weight="22">
 		<sprite>equipment/head/eggshellhat.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4486,11 +4489,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/prsmhelmet.png|W"
 		name="Prsm Helmet"
 		description="A %Color% helmet with two small wings on it, used by Paladins and by Prsm."
-		defense="135"
-		level="20"
+		defense="42"
+		level="60"
 		type="equip-head"
 		colors="simple"
-		weight="600">
+		weight="22">
 		<sprite>equipment/head/prsmhelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4498,10 +4501,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/warlordhelmet.png"
 		name="Warlord Helmet"
 		description="Worn by great warriors!"
-		defense="135"
-		level="20"
+		effect="Move Speed -2%"
+		defense="70"
+		level="65"
 		type="equip-head"
-		weight="900">
+		weight="22">
 		<sprite>equipment/head/warlordhelmet.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4509,10 +4513,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/trapperhat.png"
 		name="Trapper Hat"
 		description="A hat made of forain fur"
-		defense="135"
-		level="20"
+		defense="32"
+		level="48"
 		type="equip-head"
-		weight="1350">
+		weight="22">
 		<sprite>equipment/head/trapperhat.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4520,10 +4524,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/yetimask.png"
 		name="Yeti Mask"
 		description="A mask made from the yeti's head."
-		defense="135"
-		level="20"
+		defense="28"
+		level="43"
 		type="equip-head"
-		weight="10">
+		weight="22">
 		<sprite>equipment/head/yetimask.xml</sprite>
 		<replace sprite="hair"/>
 	</item>
@@ -4531,9 +4535,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/antlerhat.png"
 		name="Antlers Hat"
 		description="Ready for antlers fight."
-		defense="32"
+		defense="6"
 		level="13"
-		effect="STR +2"
+		str="2"
 		type="equip-head"
 		weight="835">
 		<sprite>equipment/head/antlershat.xml</sprite>
@@ -4542,27 +4546,27 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/dragoneggshell.png"
 		name="Dragon Eggshell"
 		description="A dragon once lived in there."
-		defense="135"
-		level="20"
+		defense="3"
+		level="8"
 		type="equip-head"
-		weight="1350">
+		weight="22">
 		<sprite>equipment/head/dragoneggshell.xml</sprite>
 	</item>
 	<item id="2925"
 		image="equipment/head/operamask.png"
 		name="Opera Mask"
 		description="Pale and broken. There is surely a story to be told here."
-		defense="135"
-		level="20"
+		defense="3"
+		level="8"
 		type="equip-head"
-		weight="50">
+		weight="22">
 		<sprite>equipment/head/operamask.xml</sprite>
 	</item>
 	<item id="2926"
 		image="equipment/head/axehat.png"
 		name="Axe Hat"
 		description="A really cool joke."
-		defense="8"
+		defense="3"
 		level="8"
 		type="equip-head"
 		weight="82">
@@ -4572,8 +4576,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/darkknighthelmet.png"
 		name="Dark Knight Helmet"
 		description="Worn by the dark knight himself."
-		defense="135"
-		level="20"
+		effect="Move Speed -5%"
+		defense="112"
+		level="94"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/darkknighthelmet.xml</sprite>
@@ -4582,8 +4587,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/earmuffs.png"
 		name="Earmuffs"
 		description="These earmuffs can keep your ears enjoyably warm, even in Nivalis."
-		defense="135"
-		level="20"
+		defense="23"
+		level="37"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/earmuffs.xml</sprite>
@@ -4592,8 +4597,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/samuraihelmet.png"
 		name="Samurai Helmet"
 		description="A common wear found in samurai tradition."
-		defense="135"
-		level="20"
+		defense="78"
+		level="98"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/samuraihelmet.xml</sprite>
@@ -4602,7 +4607,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/pinkiehat.png"
 		name="Pinkie Hat"
 		description="With this, you'll fit right in with those strange pinkies."
-		defense="25"
+		defense="8"
 		level="16"
 		type="equip-head"
 		weight="5">
@@ -4612,7 +4617,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/skullmask.png"
 		name="Skull Mask"
 		description="A mask made out of bones."
-		defense="60"
+		defense="33"
 		level="50"
 		type="equip-head"
 		weight="150">
@@ -4622,11 +4627,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/imperialcrown.png"
 		name="Imperial Crown"
 		description="Usually worn by a monarch."
-		defense="135"
-		level="20"
+		defense="42"
+		level="60"
 		type="equip-head"
 		sellProtected="true"
-		weight="4">
+		weight="22">
 		<sprite>equipment/head/imperialcrown.xml</sprite>
 	</item>
 	<item id="2933"
@@ -4648,8 +4653,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/cap.png"
 		name="Cap"
 		description="A hat with a peak to shield your eyes from the sun."
-		defense="35"
-		level="17"
+		defense="3"
+		level="8"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/cap.xml</sprite>
@@ -4663,11 +4668,11 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/tophat.png"
 		name="Top Hat"
 		description="For the gentry of Mana Worlds."
-		defense="50"
-		level="23"
+		defense="3"
+		level="8"
 		type="equip-head"
 		sellProtected="true"
-		weight="30">
+		weight="22">
 		<sprite>equipment/head/tophat.xml</sprite>
 		<replace sprite="hair">
 			<item from="-5" to="-4"/>
@@ -4679,12 +4684,12 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/bowlerhat.png|W"
 		name="Bowler Hat"
 		description="A %Color% hat for those with a bit of class."
-		defense="40"
-		level="20"
+		defense="10"
+		level="19"
 		type="equip-head"
 		colors="simple"
 		sellProtected="true"
-		weight="30">
+		weight="22">
 		<sprite>equipment/head/bowlerhat.xml</sprite>
 		<replace sprite="hair">
 			<item from="-5" to="-4"/>
@@ -4696,7 +4701,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/chefhat.png"
 		name="Chef Hat"
 		description="A tall hat designed for the person in charge of a kitchen. It smells like onions."
-		defense="44"
+		defense="29"
 		effect="HP/MP Regen +30%; Skill and Items HP Regen +10%; Attack -60%"
 		level="45"
 		type="equip-head"
@@ -4712,7 +4717,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/captaincap.png"
 		name="Captain Cap"
 		description="A hat worn by the bravest captains."
-		defense="110"
+		defense="3"
 		level="8"
 		type="equip-head"
 		weight="22">
@@ -4727,7 +4732,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/candorheadband.png"
 		name="Candor Head Band"
 		description="Classical Candor head band."
-		defense="18"
+		defense="3"
 		level="9"
 		type="equip-head"
 		weight="23">
@@ -4743,8 +4748,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Graduation Cap"
 		description="A nice graduation cap."
 		effect="SP Regen +5%"
-		defense="27"
-		level="50"
+		defense="25"
+		level="40"
 		type="equip-head"
 		weight="35">
 		<sprite>equipment/head/graduationcap.xml</sprite>
@@ -4758,8 +4763,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/vikinghelmet.png"
 		name="Viking Helmet"
 		description="Every good viking has one."
-		defense="1"
-		level="1"
+		defense="51"
+		level="70"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/vikinghelmet.xml</sprite>
@@ -4773,8 +4778,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/centurionhelmet.png"
 		name="Centurion Helmet"
 		description="Worn primarily by centurions."
-		defense="1"
-		level="1"
+		effect="Move Speed -2%"
+		defense="91"
+		level="80"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/centurionhelmet.xml</sprite>
@@ -4788,7 +4794,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/alphamouboohead.png"
 		name="Alpha Mouboo Hat"
 		description="You murderer!"
-		defense="70"
+		defense="47"
 		level="65"
 		effect="HP +300"
 		str="1"
@@ -4807,7 +4813,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Sailor Hat"
 		description="A very common wear amongst sailors."
 		effect="+10% damage against water monsters"
-		defense="1"
+		defense="25"
 		level="40"
 		type="equip-head"
 		weight="22">
@@ -4823,8 +4829,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/corsairhat.png"
 		name="Corsair Hat"
 		description="Watch out, there is a sniper nearby!"
-		defense="1"
-		level="1"
+		defense="24"
+		level="38"
 		type="equip-head"
 		weight="22">
 		<sprite>equipment/head/corsairhat.xml</sprite>
@@ -4838,7 +4844,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/neck/eyepatch.png"
 		name="Right Eye Patch"
 		description="A cool eye patch! You'll see 50% less with this!"
-		defense="3"
+		defense="8"
 		level="16"
 		type="equip-head"
 		weight="22">
@@ -4848,7 +4854,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/serfhat.png"
 		name="Serf Hat"
 		description="A very comfortable serf hat."
-		defense="38"
+		defense="7"
 		level="15"
 		type="equip-head"
 		weight="420">
@@ -4863,7 +4869,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/neck/basiceye.png"
 		name="NPC Eyes"
 		description="A set of blinking eyes which NPCs use. Perfect for sleeping in class without anyone noticing."
-		defense=" -100"
+		defense="(-100)"
 		level="150"
 		type="equip-head"
 		weight="200">
@@ -4873,7 +4879,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/eggshellhat.png|W:#2A9409,70BA59,ACF696"
 		name="Green Eggshell Hat"
 		description="A novelty hat shaped like an eggshell half."
-		defense="55"
+		defense="12"
 		level="23"
 		type="equip-head"
 		sellProtected="true"
@@ -4884,7 +4890,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/eggshellhat.png|W:#9B5D00,E17828,F7B37E"
 		name="Orange Eggshell Hat"
 		description="A novelty hat shaped like an eggshell half."
-		defense="55"
+		defense="10"
 		level="20"
 		type="equip-head"
 		sellProtected="true"
@@ -4895,7 +4901,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/eggshellhat.png|W:#111111,222222,333333,444444,555555,666666"
 		name="Dark Eggshell Hat"
 		description="A novelty dark hat shaped like an eggshell half."
-		defense="60"
+		defense="17"
 		level="30"
 		effect="Defense +15 during Easter"
 		type="equip-head"
@@ -4951,7 +4957,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/minerhat.png"
 		name="Miner Hat"
 		description="A hat used by miners."
-		defense="44"
+		defense="17"
 		level="29"
 		type="equip-head"
 		weight="245">
@@ -4967,7 +4973,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Murderer Crown"
 		description="Royal blood has been shed for the ownership of this crown."
 		effect="Doubles Critical, Holy Damage Taken +25%, Dark Resist +25%. Item lost after Kill Saulc events."
-		defense="35"
+		defense="12"
 		level="10"
 		type="equip-head"
 		sellProtected="true"
@@ -4983,7 +4989,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/fluffyhat.png"
 		name="Fluffy Hat"
 		description="How many fluffy did you kill for that!!!"
-		defense="39"
+		defense="12"
 		level="22"
 		type="equip-head"
 		weight="410">
@@ -4998,7 +5004,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/piratebandana.png"
 		name="Pirate Bandana"
 		description="A rare bandana worn by some dangerous pirates."
-		defense="36"
+		defense="16"
 		level="28"
 		type="equip-head"
 		weight="38">
@@ -5023,7 +5029,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/paperbag.png"
 		name="Paper Bag"
 		description="You looks totally crazy!"
-		defense="40"
+		defense="14"
+		level="30"
 		type="equip-head"
 		weight="12">
 		<sprite>equipment/head/paperbag.xml</sprite>
@@ -5037,7 +5044,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/ricehat.png"
 		name="Rice Hat"
 		description="Hat commonly used by farmers. Currently NPC-Only."
-		defense="0"
+		defense="35"
 		type="equip-head"
 		weight="0">
 		<sprite>equipment/head/ricehat.xml</sprite>
@@ -5046,7 +5053,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/farmerhat.png"
 		name="%Color% Farmer Hat"
 		description="Hat commonly used by farmers."
-		defense="40"
+		defense="17"
 		level="30"
 		str="2"
 		type="equip-head"
@@ -5073,7 +5080,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/fairyhat.png"
 		name="Sacred Forest Hat"
 		description="Master of the Sacred Forest."
-		defense="50"
+		defense="33"
 		level="50"
 		agi="1"
 		vit="1"
@@ -5085,7 +5092,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/standardheadband.png"
 		name="Cave Snake Hat"
 		description="Shine in the darkness of the cave."
-		defense="40"
+		defense="10"
 		level="20"
 		agi="2"
 		type="equip-head"
@@ -5096,9 +5103,10 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/pinkhelmet.png"
 		name="Pink Helmet"
 		description="Hated by pinkies"
-		defense="60"
+		defense="33"
 		level="50"
-		str="1"
+		str="2"
+		vit="2"
 		type="equip-head"
 		weight="320">
 		<sprite>equipment/head/pinkhelmet.xml</sprite>
@@ -5107,7 +5115,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/shroomhat.png"
 		name="Shroom Hat"
 		description="rare item"
-		defense="50"
+		defense="25"
 		level="40"
 		str="1"
 		type="equip-head"
@@ -5118,7 +5126,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/forestshroomhat.png"
 		name="Forest Shroom Hat"
 		description="You are now a invisible in forest"
-		defense="50"
+		defense="29"
 		level="45"
 		str="3"
 		type="equip-head"
@@ -5129,7 +5137,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/alchemisthelmet.png"
 		name="Alchemist Helmet"
 		description="A strong steampunk helmet."
-		defense="50"
+		defense="61"
 		level="80"
 		type="equip-head"
 		weight="320">
@@ -5139,7 +5147,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/clericcap.png"
 		name="Cleric Cap"
 		description="Jesus"
-		defense="50"
+		defense="61"
 		level="80"
 		type="equip-head"
 		weight="320">
@@ -5149,7 +5157,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/santabeardhat.png"
 		name="Santa Beard Hat"
 		description="Hohoho! Gifts for the nice! Coal for the naughty!"
-		defense="5"
+		defense="9"
 		level="18"
 		type="equip-head"
 		weight="32">
@@ -5158,19 +5166,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="3007"
 		image="equipment/head/wickedshroomhat.png"
 		name="Wicked Shroom Hat"
-		description="You are now a invisible in forest"
-		defense="60"
+		description="Cursed hat, are you really going to dress it?"
+		defense="42"
 		level="60"
 		str="5"
 		type="equip-head"
-		weight="422">
+		weight="420">
 		<sprite>equipment/head/wickedshroomhat.xml</sprite>
 	</item>
 	<item id="3008"
 		image="equipment/head/moonshroomhat.png"
 		name="Moonshroom Hat"
 		description="Do you feel this magic aura?"
-		defense="70"
+		defense="51"
 		level="70"
 		int="7"
 		type="equip-head"
@@ -5181,7 +5189,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/fafimask.png"
 		name="Fafi Mask"
 		description="Your friends will think you're a dragon!"
-		defense="30"
+		defense="36"
 		effect="SP Regen +5%"
 		int="1"
 		mp="25"
@@ -5195,6 +5203,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="AFK Cap"
 		description="A cap which identifies you as an useless player."
 		defense="5"
+		level="2"
 		type="equip-head"
 		weight="30">
 		<sprite>equipment/head/afkcap.xml</sprite>
@@ -5209,7 +5218,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Knit Hat"
 		description="Winter is coming!"
 		effect="+20 DEF / +5% EXP on Winter"
-		defense="35"
+		defense="17"
 		level="29"
 		type="equip-head"
 		weight="70">
@@ -5219,7 +5228,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/leprechaunhat.png"
 		name="Leprechaun Hat"
 		description="Have you found the Leprechaun gold pot?"
-		defense="30"
+		defense="33"
+		luck="4"
 		level="50"
 		type="equip-head"
 		weight="40">
@@ -5229,7 +5239,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/catears.png|M:#774444;W:#777777"
 		name="Cat Ears"
 		description="Meow! A pair of plush cat ears. Meow!"
-		defense="14"
+		defense="20"
 		level="33"
 		agi="2"
 		type="equip-head"
@@ -5240,7 +5250,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/head/santahat.png"
 		name="Santa Hat"
 		description="The beard is missing, but at least you could pretend to be him. Or his fan."
-		defense="4"
+		defense="6"
 		level="14"
 		type="equip-head"
 		weight="28">
