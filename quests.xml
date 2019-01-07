@@ -178,6 +178,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <!-- GENERAL QUESTS -->
     <var id="12">
         <effect map="002-4.tmx" npc="406" value="0" effect="12"/>
+        <effect map="012-2.tmx" npc="315" value="3,4,5" effect="12"/>
+        <effect map="012-2.tmx" npc="315" value="6" effect="13"/>
         <quest name="★ - Who Am I?" group="General" incomplete="0">
             <name>In Seek Of True Identity</name>
             <text>I better find out who I am.</text>
@@ -251,6 +253,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         <effect map="003-3.tmx" npc="126" value="0" effect="12"/>
         <effect map="009-3.tmx" npc="126" value="0" effect="12"/>
         <effect map="012-1.tmx" npc="126" value="0" effect="12"/>
+        <effect map="017-3.tmx" npc="126" value="0" effect="12"/>
+        <effect map="020-2.tmx" npc="126" value="0" effect="12"/>
         <quest name="Pride of Money" group="General" complete="1">
             <name>Pride of Money</name>
             <text>You are now registered in the Merchant Guild.</text>
@@ -313,6 +317,42 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <questgiver>Hinnak, Hurnscald (105,30)</questgiver>
             <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
             <reward text1="[Pink Helmet]">{@@1}</reward>
+        </quest>
+        <quest name="Grand Hunter Quest" group="General" incomplete="6">
+            <name>Grand Hunter Quest</name>
+            <text>I promised Miler to conduct an extermination.</text>
+            <text>The reward should be collected with Aidan.</text>
+            <text text1="[@@m1070|@@]">Progress: {@@var2}/10000 {@@1}.</text>
+            <text></text>
+            <questgiver>Miler, Winterlands</questgiver>
+            <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
+            <reward>150,000 GP and 60 Strange Coins</reward>
+        </quest>
+        <quest name="Grand Hunter Quest" group="General" incomplete="7">
+            <name>Grand Hunter Quest</name>
+            <text>I promised Serge to conduct an extermination.</text>
+            <text>The reward should be collected with Aidan.</text>
+            <text text1="[@@m1022|@@]">Progress: {@@var2}/10000 {@@1}.</text>
+            <text></text>
+            <questgiver>Serge, Nivalis</questgiver>
+            <coordinates x="95" y="97">Tulimshar (95,97)</coordinates>
+            <reward>125,000 GP and 60 Strange Coins</reward>
+        </quest>
+    </var>
+    <var id="16">
+        <quest name="Transmutation Magic" group="Magic" incomplete="1,2,3,4">
+            <name>Transmutation Magic</name>
+            <text>Auldsbel needs help to transmute stuff.</text>
+            <text></text>
+            <questgiver>Auldsbel</questgiver>
+            <coordinates x="32" y="24">Magic Academy.</coordinates>
+        </quest>
+        <quest name="Transmutation Magic" group="Magic" complete="5">
+            <name>Transmutation Magic</name>
+            <text>Auldsbel needs help to transmute stuff.</text>
+            <text></text>
+            <questgiver>Auldsbel</questgiver>
+            <coordinates x="32" y="24">Magic Academy.</coordinates>
         </quest>
     </var>
 
@@ -394,7 +434,47 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward text1="[Candor Shirt]">A {@@1}.</reward>
         </quest>
     </var>
-    <!-- var 35 -->
+    <var id="35">
+        <quest name="Rosen's Improvement" group="Candor" incomplete="1">
+            <name>Rosen's Improvement</name>
+            <text>Rosen asked me to kill 5 Diamond Bifs.</text>
+            <text></text>
+            <questgiver>Rosen</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop.</coordinates>
+        </quest>
+        <quest name="Rosen's Improvement" group="Candor" incomplete="2">
+            <name>Rosen's Improvement</name>
+            <text>I should report back to Rosen.</text>
+            <text></text>
+            <questgiver>Rosen</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop.</coordinates>
+        </quest>
+        <quest name="Rosen's Improvement" group="Candor" complete="3">
+            <name>Rosen's Improvement</name>
+            <text>Rosen gave me Candor Gloves for mining Bifs.</text>
+            <text>Bifs are a great source of raw ore.</text>
+            <text></text>
+            <questgiver>Rosen</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop.</coordinates>
+        </quest>
+        <quest name="Rosen's Improvement" group="Candor" incomplete="4">
+            <name>Rosen's Improvement</name>
+            <text>Rosen asked me if I don't want to use a bow.</text>
+            <text>He is asking for a Cactus Drink and Piberries.</text>
+            <text></text>
+            <questgiver>Rosen</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop.</coordinates>
+        </quest>
+        <quest name="Rosen's Improvement" group="Candor" complete="5">
+            <name>Rosen's Improvement</name>
+            <text>Rosen warned me that you can't dodge with a bow.</text>
+            <text>He also teach that Bifs are a great source of raw ore.</text>
+            <text>Rosen is a so good professor!</text>
+            <text></text>
+            <questgiver>Rosen</questgiver>
+            <coordinates x="25" y="41">Candor Island, Armor Shop.</coordinates>
+        </quest>
+    </var>
     <var id="36">
         <effect map="005-1.tmx" npc="450" value="0,1,3" effect="12"/>
         <quest name="Cleaning the Storehouse" group="Candor" incomplete="2">
@@ -1170,7 +1250,25 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="29" y="57">Halinarzo, Library.</coordinates>
         </quest>
     </var>
-    <!-- var 75 TODO -->
+    <var id="75">
+        <quest name="Red Desert Shirt Experiment" group="Halinarzo" incomplete="1">
+            <name>Red Desert Shirt Experiment</name>
+            <text>Sawis is experimenting a kind of desert shirt to protect from sun and snakes.</text>
+            <text></text>
+            <text>He requires a leather shirt, cotton cloth, cave snake skin and snake skin.</text>
+            <text></text>
+            <questgiver>Sawis</questgiver>
+            <coordinates x="138" y="122">Canyons, Halinarzo Desert.</coordinates>
+        </quest>
+        <quest name="Red Desert Shirt Experiment" group="Halinarzo" complete="2">
+            <name>Red Desert Shirt Experiment</name>
+            <text>Sawis is experimenting a kind of desert shirt to protect from sun and snakes.</text>
+            <text>I got a Desert Shirt from him. I hope it works.</text>
+            <text></text>
+            <questgiver>Sawis</questgiver>
+            <coordinates x="138" y="122">Canyons, Halinarzo Desert.</coordinates>
+        </quest>
+    </var>
     <var id="76">
         <quest name="Church Party" group="Halinarzo" incomplete="1">
             <name>Church Party</name>
@@ -1473,6 +1571,31 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <reward>EXP. Other possible rewards: Chocolate, Water, Bread.</reward>
         </quest>
     </var>
+    <var id="100">
+        <quest name="Woody's Request" group="Hurnscald" incomplete="1,2,3,4">
+            <name>Woody's Request</name>
+            <text>Woody's wife needs help.</text>
+            <text></text>
+            <questgiver>Woody's Wife</questgiver>
+            <coordinates x="0" y="0">Southeast Woodlands.</coordinates>
+        </quest>
+        <quest name="Woody's Request" group="Hurnscald" incomplete="3,4">
+            <name>Woody's Request</name>
+            <text>Woody's wife was helped.</text>
+            <text>Now woody needs help.</text>
+            <text></text>
+            <questgiver>Woody</questgiver>
+            <coordinates x="0" y="0">Southeast Woodlands.</coordinates>
+        </quest>
+        <quest name="Woody's Request" group="Hurnscald" complete="5">
+            <name>Woody's Request</name>
+            <text>I helped Woody's family and learnt to respect elderly.</text>
+            <text>These Squirrel Boots makes me faster, good call!</text>
+            <text></text>
+            <questgiver>Woody</questgiver>
+            <coordinates x="31" y="79">Southeast Woodlands.</coordinates>
+        </quest>
+    </var>
 
     <!-- NIVALIS QUESTS -->
     <var id="111">
@@ -1491,6 +1614,22 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <text></text>
             <questgiver>???</questgiver>
             <coordinates x="110" y="101">Winterlands.</coordinates>
+        </quest>
+    </var>
+    <var id="112">
+        <quest name="Cindy's Quest" group="Nivalis" incomplete="1,2,3,4">
+            <name>Cindy's Quest</name>
+            <text>Form a party and rescue Cindy from evil Yetis!</text>
+            <text>Failure will be penalized!</text>
+            <text></text>
+            <questgiver>Angela</questgiver>
+        </quest>
+        <quest name="Cindy's Quest" group="Nivalis" complete="5">
+            <name>Cindy's Quest</name>
+            <text>Form a party and rescue Cindy from evil Yetis!</text>
+            <text>Failure will be penalized!</text>
+            <text></text>
+            <questgiver>Angela</questgiver>
         </quest>
     </var>
 
@@ -1643,6 +1782,18 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <questgiver>Dimond's Cove Chef</questgiver>
             <coordinates x="55" y="144">LoF Village, Dimond's Cove.</coordinates>
             <reward text1="[Butcher Knife]">{@@1}</reward>
+        </quest>
+    </var>
+    <var id="278">
+        <quest name="A Towel For A Hitchhiker" group="LoF Village" complete="1,2">
+            <name>A Towel For A Hitchhiker</name>
+            <text>Help the stranger who only knows about Hitchhiker Guide's to Galaxy.</text>
+            <text></text>
+            <text>This quest is only available on days 18~25.</text>
+            <text>It must be February, May, August or September to do this quest.</text>
+            <text></text>
+            <questgiver>Stranger</questgiver>
+            <coordinates x="44" y="37">LoF Village.</coordinates>
         </quest>
     </var>
 
