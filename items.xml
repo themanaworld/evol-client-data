@@ -3978,8 +3978,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/barrel.png"
 		name="Barrel"
 		description="It smells as if somebody used to live inside this barrel..."
-		defense="100"
-		level="5"
+		effect="Crit DEF +50% ; Evade -50%"
+		defense="40"
+		level="4"
 		type="equip-shield"
 		weight="400">
 		<sprite>equipment/shields/barrel.xml</sprite>
@@ -3988,9 +3989,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/leathershield.png"
 		name="Leather Shield"
 		description="A shield with iron reinforcement."
-		effect="Critical DEF +10% ; Attack Speed -14%; Block +1%"
-		defense="50"
-		level="15"
+		effect="Crit DEF +6% ; Evade -6%; Block +1%"
+		defense="23"
+		level="18"
 		type="equip-shield"
 		weight="410">
 		<sprite>equipment/shields/leather.xml</sprite>
@@ -3999,9 +4000,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/bladeshield.png"
 		name="Blade Shield"
 		description="Small and round shield with iron reinforcement."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +8%"
-		defense="85"
-		level="31"
+		effect="Crit DEF +12% ; Evade -12%; Block +3%"
+		defense="56"
+		level="36"
 		type="equip-shield"
 		weight="1980">
 	</item>
@@ -4009,19 +4010,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/blueknightshield.png"
 		name="Blue Knight Shield"
 		description="A shield perfect with prsm helmet."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +6%"
-		defense="172"
-		level="66"
+		effect="Crit DEF +23% ; Evade -23%; Block +7%"
+		defense="129"
+		level="70"
 		type="equip-shield"
 		weight="2400">
 	</item>
 	<item id="2704"
 		image="equipment/shields/britshield.png"
 		name="Brit Shield"
-		description="A wooden shield from nowhere."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +4%"
-		defense="120"
-		level="45"
+		description="A shield from nowhere."
+		effect="Crit DEF +17% ; Evade -17%; Block +5%"
+		defense="84"
+		level="50"
 		type="equip-shield"
 		weight="2240">
 	</item>
@@ -4029,9 +4030,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/saviorshield.png"
 		name="Savior Shield"
 		description="The magic savior shield."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +9%"
-		defense="250"
-		level="92"
+		effect="Crit DEF +34% ; Evade -34%; Block +10%"
+		defense="207"
+		level="102"
 		type="equip-shield"
 		weight="2710">
 	</item>
@@ -4039,8 +4040,8 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/bromenalshield.png"
 		name="Bromenal Shield"
 		description="A strong bromenal shield."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +6%"
-		defense="160"
+		effect="Crit DEF +20% ; Evade -20%; Block +6%"
+		defense="106"
 		level="60"
 		type="equip-shield"
 		weight="2900">
@@ -4049,9 +4050,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/roundleathershield.png"
 		name="Round Leather Shield"
 		description="Small and round leather shield with iron reinforcement."
-		effect="Critical DEF +5% ; Attack Speed -10%; Block +3%"
-		defense="35"
-		level="5"
+		effect="Crit DEF +3% ; Evade -3%"
+		defense="9"
+		level="9"
 		type="equip-shield"
 		weight="90">
 		<sprite>equipment/shields/buckler.xml</sprite>
@@ -4060,19 +4061,19 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/ancientshield.png"
 		name="Ancient Shield"
 		description="No one knows its origins."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +5%"
-		defense="190"
-		level="50"
+		effect="Crit DEF +12% ; Evade -15%; Block +6%"
+		defense="102"
+		level="60"
 		type="equip-shield"
 		weight="6500">
 	</item>
 	<item id="2709"
 		image="equipment/shields/braknarshield.png"
 		name="Braknar Shield"
-		description="A sturdy shield."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +3%"
-		defense="105"
-		level="39"
+		description="A sturdy bronze shield."
+		effect="Crit DEF +15% ; Evade -15%; Block +4%"
+		defense="72"
+		level="44"
 		type="equip-shield"
 		weight="2360">
 	</item>
@@ -4080,9 +4081,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/woodenshield.png"
 		name="Wooden Shield"
 		description="A shield made of wood."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +2%"
-		defense="72"
-		level="24"
+		effect="Crit DEF +9% ; Evade -9%; Block +2%"
+		defense="39"
+		level="27"
 		type="equip-shield"
 		weight="1650">
 		<sprite>equipment/shields/wooden.xml</sprite>
@@ -4091,9 +4092,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/steelshield.png"
 		name="Steel Shield"
 		description="A shield made of steel."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +7%"
-		defense="200"
-		level="76"
+		effect="Crit DEF +27% ; Evade -27%; Block +8%"
+		defense="152"
+		level="80"
 		type="equip-shield"
 		weight="2500">
 	</item>
@@ -4101,9 +4102,9 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/shields/dragonshield.png"
 		name="Dragon Shield"
 		description="A mighty shield from the dragons."
-		effect="Critical DEF +15% ; Attack Speed -15%; Block +7%"
-		defense="200"
-		level="76"
+		effect="Crit DEF +31% ; Evade -31%; Block +9%"
+		defense="182"
+		level="92"
 		type="equip-shield"
 		weight="2500">
 	</item>
