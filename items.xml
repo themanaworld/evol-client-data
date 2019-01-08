@@ -2853,7 +2853,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		image="equipment/neck/quiver.png"
 		name="Leather Quiver"
 		description="A leather quiver which only benefits people using bows. Otherwise, it will only hinder you."
-		effect="Req. Agi 15 / AtkSpeed +6% / MaxWeight +100g"
+		effect="Req. Agi 15 / AtkSpeed +10% / MaxWeight +100g"
 		mp=" -10%"
 		luck=" -1"
 		level="30"
@@ -2862,31 +2862,31 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	</item>
 	<item id="1173"
 		image="equipment/neck/quiver.png"
-		name="Terranite Quiver"
-		description="A terranite quiver which only benefits people using bows. Otherwise, it will only hinder you."
-		effect="Req. Agi 25 / AtkSpeed +12% / MaxWeight +200g"
-		mp=" -20%"
-		luck=" -2"
-		level="50"
-		type="equip-necklace"
-		weight="140">
-	</item>
-	<item id="1174"
-		image="equipment/neck/quiver.png"
-		name="Platinum Quiver"
-		description="A platinum quiver which only benefits people using bows. Otherwise, it will only hinder you."
-		effect="Req. Agi 35 / AtkSpeed +20% / MaxWeight +300g"
+		name="Bronze Quiver"
+		description="A bronze quiver which only benefits people using bows. Otherwise, it will only hinder you."
+		effect="Req. Agi 35 / AtkSpeed +23% / MaxWeight +300g"
 		mp=" -30%"
 		luck=" -3"
 		level="70"
 		type="equip-necklace"
 		weight="200">
 	</item>
+	<item id="1174"
+		image="equipment/neck/quiver.png"
+		name="Platinum Quiver"
+		description="A platinum quiver which only benefits people using bows. Otherwise, it will only hinder you."
+		effect="Req. Agi 45 / AtkSpeed +30% / MaxWeight +400g"
+		mp=" -40%"
+		luck=" -4"
+		level="90"
+		type="equip-necklace"
+		weight="250">
+	</item>
 	<item id="1175"
 		image="equipment/charms/dragonstar.png"
 		name="Dragon Star"
 		description="Don't stare at it too much. It's too shiny for your eyes."
-		effect="MaxWeight +600g, HP -12%"
+		effect="MaxWeight +700g, HP -12%"
 		level="70"
 		type="equip-necklace"
 		weight="30">
@@ -2897,9 +2897,20 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		description="A tortured soul."
 		level="45"
 		int="1"
-		effect="Mdefence 25"
+		effect="MDEF 25"
 		type="equip-necklace"
 		weight="120">
+	</item>
+	<item id="1177"
+		image="equipment/neck/quiver.png"
+		name="Iron Quiver"
+		description="An iron quiver which only benefits people using bows. Otherwise, it will only hinder you."
+		effect="Req. Agi 25 / AtkSpeed +16% / MaxWeight +200g"
+		mp=" -20%"
+		luck=" -2"
+		level="50"
+		type="equip-necklace"
+		weight="140">
 	</item>
 
 	<!-- Chest Armors -->
