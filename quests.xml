@@ -1756,7 +1756,21 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="192" y="23">LoF Village, Noble District.</coordinates>
         </quest>
     </var>
-    <!-- var 275 TODO -->
+    <var id="275">
+        <quest name="Call Of Dusty" group="LoF Village" complete="1">
+            <name>Call Of Dusty</name>
+            <text>I'm supposed to kill some boss or other on a desert canyon.</text>
+            <text>They stole pyndragon's gunstaffs, so they're dangerous.</text>
+            <text>Wasn't that enough, it is a timed quest, and it is party PVP.</text>
+            <text></text>
+            <text>The challenges starts hourly, when the minute clock reaches the zero.</text>
+            <text>They're over when the minute clock reaches fifteen regardless of a winner.</text>
+            <text></text>
+            <questgiver>Colonel DUSTMAN</questgiver>
+            <coordinates x="180" y="193">Heroes Hold, Main Castle.</coordinates>
+            <reward text1="[Dustynator 2000]">{@@1}</reward>
+        </quest>
+    </var>
     <var id="276">
         <quest name="Heroes Hold" group="LoF Village" incomplete="1">
             <name>Heroes Hold</name>
