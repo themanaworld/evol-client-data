@@ -101,6 +101,13 @@ Copyright (C) 2018 TMW2 -->
             icon="graphics/skills/none.png"
             description="FIXME: Increase maximum weight."
         />
+        <skill
+            id="50"
+            name="Stealing"
+            icon="graphics/skills/none.png"
+            description="Attempt to steal drops from mobs."
+        />
+
     </set>
     <set name="Physical">
         <!-- Common -->
@@ -323,6 +330,13 @@ Copyright (C) 2018 TMW2 -->
             icon="graphics/skills/other/kalmurk.png"
             description="200 MP. 2x Maggot Slime. May fail."
             invokeCmd="@sk-kalmurk"
+        />
+        <skill
+            id="20026"
+            name="Make Potion"
+            icon="graphics/skills/transmutation.png"
+            description="185 MP. 10x plushroom, 1x milk. Create potions."
+            invokeCmd="@sk-mkpot"
         />
         <!-- Mana Skill: Summon Cave Maggot -->
         <skill
