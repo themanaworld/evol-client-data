@@ -257,6 +257,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	</monster>
 	<monster id="1044" name="Giant Mutated Bat" targetCursor="large">
 		<sprite>monsters/giantmutatedbat.xml</sprite>
+		<particlefx>graphics/particles/black.particle.xml</particlefx>
 	</monster>
 	<monster id="1045" name="Warlord Skull" targetCursor="medium">
 		<sprite>monsters/warlordskull.xml</sprite>
@@ -300,6 +301,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	</monster>
 	<monster id="1056" name="Alpha Mouboo" targetCursor="medium">
 		<sprite>monsters/alphamouboo.xml</sprite>
+		<particlefx>graphics/particles/treeglow.xml</particlefx>
 	</monster>
 	<monster id="1057" name="Witched Zombie" targetCursor="medium">
 		<sprite>monsters/witchedzombie.xml</sprite>
@@ -403,6 +405,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	<!--sound event="die">short-sword-die1.ogg</sound-->
+	<particlefx>graphics/particles/fancy_circle.xml</particlefx>
   </monster>
   <monster id="1080" name="Halinarzo King">
 	<sprite>races/raijin-male.xml</sprite>
@@ -417,6 +420,7 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<sound event="hit">weapons/piouslayer/hit1.ogg</sound>
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
 	<!--sound event="die">short-sword-die1.ogg</sound-->
+	<particlefx>graphics/particles/fancy_circle.xml</particlefx>
   </monster>
   <monster id="1081" name="Frostia Guard">
 	<sprite>races/elven-male.xml</sprite>
@@ -915,6 +919,8 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<sprite>equipment/weapons/lidersword.xml</sprite>
 	<sprite>equipment/legs/bromenalpants-male.xml</sprite>
 	<sprite>equipment/feet/boots-male.xml|#212121</sprite>
+	<particlefx>graphics/particles/fancy_circle.xml</particlefx>
+	<!--particlefx>graphics/particles/magica-cartola.particle.xml</particlefx-->
 
 	<sound event="hit">special/nature-thunder.ogg</sound>
 	<sound event="miss">weapons/piouslayer/miss1.ogg</sound>
