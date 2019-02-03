@@ -384,6 +384,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         <quest name="Saxso Chest" group="Candor" complete="1">
             <name>Saxso Chest</name>
             <text>I managed to open the chest on Saxso's house.</text>
+            <text>Getting the key from the Saxso Ghost took me some time.</text>
             <text></text>
             <coordinates x="31" y="79">Candor Island, Saxso's House.</coordinates>
             <reward text1="[Tooth Necklace]">{@@1}</reward>
@@ -578,56 +579,56 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     </var>
     <var id="39">
         <effect map="005-7.tmx" npc="801" value="0,2,3,5,6,8,9,11,14" effect="12"/>
-        <quest name="Trainment" group="Candor" incomplete="2,3,5,6,8,9,11,14">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="2,3,5,6,8,9,11,14">
+            <name>Training</name>
             <text>I have to report to the trainer.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" incomplete="1">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="1">
+            <name>Training</name>
             <text text1="Maggot">I already killed {@@var2}/10 {@@1}.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" incomplete="4">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="4">
+            <name>Training</name>
             <text text1="House Maggot">I already killed {@@var2}/5 {@@1}.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" incomplete="7">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="7">
+            <name>Training</name>
             <text text1="Candor Scorpion">I already killed {@@var2}/3 {@@1}.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" incomplete="10">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="10">
+            <name>Training</name>
             <text text1="[@@m1071|@@]">I already killed {@@var2}/2 {@@1}.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>40 xp, 25 gp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" complete="12">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" complete="12">
+            <name>Training</name>
             <text>I was successfully trained.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>50 xp</reward>
         </quest>
-        <quest name="Trainment" group="Candor" incomplete="13">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" incomplete="13">
+            <name>Training</name>
             <text>The Trainer gave me a bonus task.</text>
             <text text1="[@@m1075|@@]">I already killed {@@var2}/1 {@@1}.</text>
             <text></text>
@@ -635,8 +636,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="92" y="96">Candor Island. (92,96)</coordinates>
             <reward>???</reward>
         </quest>
-        <quest name="Trainment" group="Candor" complete="15">
-            <name>Trainment</name>
+        <quest name="Training" group="Candor" complete="15">
+            <name>Training</name>
             <text>I did the bonus task from the Trainer and he was very impressed.</text>
             <text></text>
             <questgiver>Trainer</questgiver>
@@ -694,8 +695,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <var id="51">
         <effect map="003-1.tmx" npc="428" value="0" effect="14"/>
         <effect map="003-1.tmx" npc="428" value="1" effect="15"/>
-        <quest name="Fishman" group="Tulimshar" incomplete="1">
-            <name>Fishman</name>
+        <quest name="Fisherman" group="Tulimshar" incomplete="1">
+            <name>Fisherman</name>
             <text>Eugene, the fishman in Artis docks, bought a new fishing rod.</text>
             <text>He hurried so much to try it out, that he forgot to take enough baits.</text>
             <text text1="[Small Tentacles]">You need to bring him 10 {@@1}.</text>
@@ -704,8 +705,8 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <coordinates x="80" y="127">Tulimshar (80,127)</coordinates>
             <reward>Unknown.</reward>
         </quest>
-        <quest name="Fishman" group="Tulimshar" complete="2">
-            <name>Fishman</name>
+        <quest name="Fisherman" group="Tulimshar" complete="2">
+            <name>Fisherman</name>
             <text>You helped Eugene.</text>
             <text>As his gratitude, he gave you his old fishing rod.</text>
             <text>You can use it to catch fish.</text>
@@ -1144,9 +1145,17 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
     <var id="193">
         <quest name="Miner Bandage" group="Tulimshar" incomplete="1">
             <name>Miner Bandage</name>
-            <text>Caelum hurt himself while mining, and now he wants to improvise an bandage.</text>
-            <text>For that, he needs a lifestone and a cotton cloth. He also needs 2 Black Scorpion Stinger.</text>
-            <text>Besides 5 Scorpion Claw, 10 Bat Teeth, 10 Cactus Drink, 20 Maggot Slime, and 8 Bug Legs.</text>
+			<text>Caelum hurt himself while mining, and now he wants an improvised bandage.</text>
+			<text>For that, he needs:</text>
+			<text></text>
+			<text>* 20 Maggot Slimes</text>
+			<text>* 10 Bat Teeth</text>
+			<text>* 10 Cactus Drinks</text>
+			<text>*  8 Bug Legs</text>
+			<text>*  5 Scorpion Claws</text>
+			<text>*  2 Red Scorpion Stingers</text>
+			<text>*  1 cotton cloth</text>
+			<text>*  1 lifestone</text>
             <text></text>
             <text>Ah, these NPCs which require an empire of items...</text>
             <text></text>
@@ -1156,7 +1165,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
         <quest name="Miner Bandage" group="Tulimshar" complete="2">
             <name>Miner Bandage</name>
-            <text>Caelum hurt himself while mining, but now he have an improvised bandage.</text>
+            <text>Caelum hurt himself while mining, but now he has an improvised bandage.</text>
             <text></text>
             <questgiver>Caelum</questgiver>
             <coordinates x="143" y="49">Tulimshar Mines.</coordinates>
