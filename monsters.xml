@@ -280,10 +280,9 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 	<monster id="1049" name="Bhop Fluffy" targetCursor="medium">
 		<sprite>monsters/bhopfluffy.xml</sprite>
 	</monster>
-	<monster id="1050" name="Forest Dragon" targetCursor="large">
-		<sprite>monsters/forestdragon.xml</sprite>
-		<sound event="die">monsters/dragon/die.ogg</sound>
-		<sound event="hit">monsters/dragon/hit.ogg</sound>
+	<monster id="1050" name="Lovely Fluffy" targetCursor="medium">
+		<sprite>monsters/bhopfluffy.xml</sprite>
+		<particlefx>graphics/particles/pinkheart.particle.xml</particlefx>
 	</monster>
 	<monster id="1051" name="Dark Lizard" targetCursor="medium">
 		<sprite>monsters/darklizard.xml</sprite>
@@ -327,6 +326,11 @@ event=""        Links the sfx to an action, like die, hit, hurt, miss, move or s
 		<!-- XML NEED FIX
 	<monster id="1062" name="Assassin" targetCursor="medium">
 		<sprite>monsters/assassin.xml</sprite>
+	</monster>
+	<monster id="10xx" name="Forest Dragon" targetCursor="large">
+		<sprite>monsters/forestdragon.xml</sprite>
+		<sound event="die">monsters/dragon/die.ogg</sound>
+		<sound event="hit">monsters/dragon/hit.ogg</sound>
 	</monster>
 	-->
 	<monster id="1063" name="Vampire Bat" targetCursor="small">
