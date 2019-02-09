@@ -1140,20 +1140,6 @@
     <property name="spawn" value="10000"/>
    </properties>
   </object>
-  <object id="5" name="Lava Slime" type="spawn" x="0" y="0">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="1097"/>
-    <property name="spawn" value="10000"/>
-   </properties>
-  </object>
-  <object id="6" name="Fire Goblin" type="spawn" x="0" y="0">
-   <properties>
-    <property name="max_beings" value="30"/>
-    <property name="monster_id" value="1067"/>
-    <property name="spawn" value="20"/>
-   </properties>
-  </object>
   <object id="7" name="Black Slime" type="spawn" x="2368" y="1664" width="128" height="128">
    <properties>
     <property name="death" value="20000"/>
@@ -1167,13 +1153,6 @@
     <property name="death" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="1074"/>
-   </properties>
-  </object>
-  <object id="9" name="Evil Mushroom" type="spawn" x="0" y="0">
-   <properties>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="1042"/>
-    <property name="spawn" value="20"/>
    </properties>
   </object>
   <object id="10" name="Lava Slime" type="spawn" x="576" y="608" width="1408" height="2464">
@@ -1243,8 +1222,8 @@
   <object id="5" name="Secret Island" type="warp" x="3008" y="3072" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-4"/>
-    <property name="dest_x" value="164"/>
-    <property name="dest_y" type="int" value="104"/>
+    <property name="dest_x" value="169"/>
+    <property name="dest_y" type="int" value="114"/>
    </properties>
   </object>
   <object id="6" name="Shadow Plant" type="spawn" x="3840" y="768" width="256" height="256">

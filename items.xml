@@ -448,7 +448,7 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 	<item id="530"
 		image="usable/food/carrot.png"
 		name="Carrot"
-		description="Good in various recipes, and found with bunnies. During Easter, heals 10x more."
+		description="Good in various recipes, and found with bunnies. During Easter and Valentine, heals 10x more."
 		useButton="Eat"
 		effect="Heal 20-30 HP"
 		type="usable"
@@ -1229,6 +1229,13 @@ Colors for dyeable equipments or items are set up by itemcolors.xml.
 		name="Return Potion"
 		description="Returns you back to Soul Menhir. Expires rapidly."
 		useButton="Warp"
+		type="usable"
+		weight="11"/>
+	<item id="641"
+		image="usable/boxofchocolates.png"
+		name="Box Of Chocolates"
+		description="Someone thought on you this Valentine."
+		useButton="Eat"
 		type="usable"
 		weight="11"/>
 
