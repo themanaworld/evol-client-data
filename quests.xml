@@ -8,6 +8,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         <effect map="002-3.tmx" npc="404" value="0,1" effect="12"/>
     </var>
     <var id="1">
+		<!-- Warm Smelly Clothes -->
         <effect map="002-1.tmx" npc="407" value="0" effect="12"/>
         <effect map="002-1.tmx" npc="407" value="1,2" effect="13"/>
         <quest name="Warm Smelly Clothes" group="Ship" incomplete="0">
@@ -54,6 +55,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
     <var id="2">
+		<!-- Contrabandist Aboard -->
         <effect map="002-1.tmx" npc="401" value="0,1" effect="14"/>
         <quest name="Contrabandist Aboard" group="Ship" incomplete="1">
             <name>Contrabandist Aboard</name>
@@ -72,6 +74,7 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
         </quest>
     </var>
     <var id="3">
+		<!-- Ratto Extermination -->
         <effect map="002-1.tmx" npc="403" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" effect="12"/>
         <quest name="Ratto Extermination" group="Ship" incomplete="1,2,3,4,5,6,7,8,9,10,11,12,13,14">
             <name>Ratto Extermination</name>
@@ -1203,6 +1206,13 @@ Copyright (C) 2018 TMW2: Moubootaur Legends -->
             <name>Foxhound's Famine</name>
             <text>A poor man in Halinarzo asks for food.</text>
             <text>His family is starving. I should provide him all sort of delicacies.</text>
+            <text></text>
+            <text>Costs (He will take them in this order):</text>
+            <text>*  5 Loaves of Bread; He gives you 125gp</text>
+            <text>*  3 Hunks of Cheese; He gives you 75gp</text>
+            <text>*  1 Pink Blobime; He gives you 10gp</text>
+            <text>* 12 Plushrooms; He gives you 180 gp</text>
+            <text>*  6 Cave Snake Eggs</text>
             <text></text>
             <questgiver>Enliven Reva Foxhound</questgiver>
             <coordinates x="89" y="57">Halinarzo (89,57)</coordinates>
