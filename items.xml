@@ -1604,7 +1604,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/traininggladius.png"
         name="Training Gladius"
         description="A short sword made for close combat."
-        attack="350"
+        attack="300"
         attack-range="1"
         level="5"
         type="equip-1hand"
@@ -1646,9 +1646,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/wand.png"
         name="Training Wand"
         description="A simple wand for your first steps in handling magic."
-        attack="75"
+        attack="50"
         attack-range="2"
-        level="10"
+        level="8"
         type="equip-1hand"
         attack-action="attack_wand"
         weight="67">
@@ -1658,9 +1658,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/wand.png|W:#ece96e"
         name="Mana Torch"
         description="A simple wand imbued with a fire spell, it can provide lighting and will never run out on you!"
-        attack="100"
+        attack="60"
         attack-range="2"
-        level="10"
+        level="8"
         type="equip-1hand"
         attack-action="attack_wand"
         weight="67">
@@ -1670,7 +1670,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/scythe.png"
         name="Scythe"
         description="A farmer's scythe, not new but still deadly."
-        attack="750"
+        attack="500"
         attack-range="2"
         level="15"
         type="equip-2hand"
@@ -1686,7 +1686,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="Use to stab."
         attack="350"
         attack-range="1"
-        level="15"
+        level="12"
         type="equip-1hand"
         attack-action="attack"
         weight="350">
@@ -1716,7 +1716,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-range="1"
         level="15"
         type="equip-2hand"
-        attack-action="attack_axe"
+        attack-action="attack_chop"
         weight="250">
         <sprite>equipment/weapons/pickaxe.xml</sprite>
     </item>
@@ -1728,9 +1728,33 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-range="1"
         level="15"
         type="equip-2hand"
-        attack-action="attack"
+        attack-action="attack_wand"
         weight="100">
         <sprite>equipment/weapons/torch.xml</sprite>
+    </item>
+    <item id="3512"
+        image="equipment/weapons/axe.png"
+        name="Axe"
+        description="A rusty axe, made for chopping trees rather than battle."
+        attack="300"
+        attack-range="1"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="500">
+        <sprite>equipment/weapons/axe.xml</sprite>
+    </item>
+    <item id="3513"
+        image="equipment/weapons/chopstick.png"
+        name="Chopstick"
+        description="A long chopstick, simple but effective for smashing."
+        attack="400"
+        attack-range="2"
+        level="10"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="800">
+        <sprite>equipment/weapons/chopstick.xml</sprite>
     </item>
 
 
