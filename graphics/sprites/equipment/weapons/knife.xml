@@ -154,37 +154,72 @@ Copyright (C) 2012-2013 Evol Online -->
         </animation>
     </action>
 
-   <action name="attack_axe" imageset="base">
+   <action name="attack_chop" imageset="base">
         <animation direction="down">
             <frame index="7" delay="100"/>
             <frame index="8" delay="100"/>
-            <frame index="11" delay="90"/>
-            <frame index="9" delay="80"/>
-            <frame index="10" delay="80"/>
+            <frame index="11" delay="120"/>
+            <frame index="9" delay="90"/>
+            <frame index="10" delay="70"/>
             <end />
         </animation>
         <animation direction="left">
             <frame index="23" delay="100"/>
             <frame index="24" delay="100"/>
-            <frame index="27" delay="90"/>
-            <frame index="25" delay="80"/>
-            <frame index="26" delay="80"/>
+            <frame index="27" delay="120"/>
+            <frame index="25" delay="90"/>
+            <frame index="26" delay="70"/>
             <end />
         </animation>
         <animation direction="up">
-            <frame index="44" delay="120"/>
-            <frame index="43" delay="80"/>
-            <frame index="42" delay="80"/>
-            <frame index="41" delay="80"/>
-            <frame index="40" delay="50"/>
+            <frame index="39" delay="100"/>
+            <frame index="40" delay="100"/>
+            <frame index="41" delay="120"/>
+            <frame index="42" delay="90"/>
+            <frame index="44" delay="70"/>
             <end />
         </animation>
         <animation direction="right">
             <frame index="55" delay="100"/>
             <frame index="56" delay="100"/>
-            <frame index="59" delay="90"/>
-            <frame index="57" delay="80"/>
+            <frame index="59" delay="120"/>
+            <frame index="57" delay="90"/>
+            <frame index="58" delay="70"/>
+            <end />
+        </animation>
+    </action>
+
+   <action name="attack_chop_long" imageset="base">
+        <animation direction="down">
+            <frame index="8" delay="120"/>
+            <frame index="11" delay="130"/>
+            <frame index="7" delay="70"/>
+            <frame index="10" delay="70"/>
+            <frame index="9" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="23" delay="120"/>
+            <frame index="27" delay="130"/>
+            <frame index="26" delay="80"/>
+            <frame index="25" delay="100"/>
+            <frame index="24" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="39" delay="120"/>
+            <frame index="40" delay="80"/>
+            <frame index="41" delay="130"/>
+            <frame index="42" delay="70"/>
+            <frame index="44" delay="100"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="55" delay="120"/>
+            <frame index="59" delay="130"/>
             <frame index="58" delay="80"/>
+            <frame index="57" delay="100"/>
+            <frame index="56" delay="80"/>
             <end />
         </animation>
     </action>
