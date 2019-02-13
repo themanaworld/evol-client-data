@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2010-2019 Evol Online -->
+
+<sprite>
+    <imageset name="base"
+              src="graphics/sprites/npcs/sprite/blossom.png"
+              width="26"
+              height="58"/>
+
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <frame index="0" delay="7000"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+            <frame index="0" delay="3500"/>
+            <frame index="1" delay="60"/>
+            <frame index="2" delay="80"/>
+        </animation>
+    </action>
+</sprite>

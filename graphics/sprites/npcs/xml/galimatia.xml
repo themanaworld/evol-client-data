@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2019 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/galimatia.png"
+              width="40"
+              height="63"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">    
+            <label name="start"/>
+            <goto label="static" rand="70"/>
+            <goto label="welcome" rand="35"/>
+            <goto label="welcomewink" rand="65"/>
+            <!-- removing hat for a short time -->
+            <label name="welcome"/>
+                <frame index="0" delay="500"/>
+                <frame index="1" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="3" delay="100"/>
+                <frame index="4" delay="100"/>
+                <frame index="5" delay="4000"/>
+                <frame index="4" delay="100"/>
+                <frame index="3" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="1" delay="100"/>
+                <frame index="0" delay="5000"/>
+            <goto label="start"/>
+            <!-- removing hat for a short time, winking -->
+            <label name="welcomewink"/>
+                <frame index="0" delay="500"/>
+                <frame index="1" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="3" delay="100"/>
+                <frame index="4" delay="100"/>
+                <frame index="5" delay="1000"/>
+                <frame index="6" delay="70"/>
+                <frame index="5" delay="200"/>
+                <frame index="6" delay="70"/>
+                <frame index="5" delay="2000"/>
+                <frame index="4" delay="100"/>
+                <frame index="3" delay="100"/>
+                <frame index="2" delay="100"/>
+                <frame index="1" delay="100"/>
+                <frame index="0" delay="5000"/>
+            <goto label="start"/>
+            <!-- Static Animation -->
+            <label name="static"/>
+                <frame index="0" delay="3000"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+</sprite>

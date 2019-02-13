@@ -305,6 +305,33 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1056" name="Beehive" targetCursor="medium" targetOffsetX="-3" targetOffsetY="15" sortOffsetY="-32">
         <sprite>monsters/beehive.xml</sprite>
     </monster>
+    <monster id="1058" name="Bad Bee" walkType="fly" targetCursor="small">
+        <sprite>monsters/bee.xml</sprite>
+    </monster>
+    <monster id="1059" name="Yellow Tulip" targetCursor="small">
+        <sprite>monsters/tulip.xml|#ccb534,f1ea8e,ffffaa</sprite>
+        <sound event="hit">monsters/flower/hit1.ogg</sound>
+        <sound event="hit">monsters/flower/hit2.ogg</sound>
+        <sound event="miss">monsters/flower/miss1.ogg</sound>
+    </monster>
+    <monster id="1060" name="Yellow Roses" targetCursor="small">
+        <sprite>monsters/rose1.xml|#ccb534,f1ea8e,ffffaa</sprite>
+        <sound event="hit">monsters/flower/hit1.ogg</sound>
+        <sound event="hit">monsters/flower/hit2.ogg</sound>
+        <sound event="miss">monsters/flower/miss1.ogg</sound>
+    </monster>
+    <monster id="1061" name="Blue Roses" targetCursor="small">
+        <sprite>monsters/rose2.xml|#4b4bbd,888af4</sprite>
+        <sound event="hit">monsters/flower/hit1.ogg</sound>
+        <sound event="hit">monsters/flower/hit2.ogg</sound>
+        <sound event="miss">monsters/flower/miss1.ogg</sound>
+    </monster>
+    <monster id="1062" name="Red Roses" targetCursor="small">
+        <sprite>monsters/rose3.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+        <sound event="hit">monsters/flower/hit1.ogg</sound>
+        <sound event="hit">monsters/flower/hit2.ogg</sound>
+        <sound event="miss">monsters/flower/miss1.ogg</sound>
+    </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
