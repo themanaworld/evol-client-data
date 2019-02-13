@@ -620,6 +620,22 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Drink"
         type="usable"
         weight="128"/>
+    <item id="608"
+        image="usable/fertility-potion.png"
+        name="Fertility Potion"
+        description="A bottle containing some magical fertilizer, used for making soil fruitful again."
+        effect="Better dont drink it, it could be toxic."
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
+    <item id="609"
+        image="usable/honey.png"
+        name="Honey"
+        description="A glass full of the finest honey. Enjoy it, and don't forget to thank the bees!"
+        effect="Heals some HP and SP."
+        useButton="Drink"
+        type="usable"
+        weight="250"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -947,6 +963,63 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="1"
         maxFloorOffset="4"/>
+    <item id="748"
+        image="generic/rose.png|W:#580000,a40000,c02020,ff6060"
+        name="Red Rose"
+        description="A beautiful red rose. Be careful, it has thorns!"
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="749"
+        image="generic/rose.png|W:#585858,aaaaaa,d0d0d0,ffffff"
+        name="White Rose"
+        description="A beautiful white rose. Be careful, it has thorns!"
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="750"
+        image="generic/rose.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow Rose"
+        description="A beautiful yellow rose. Be careful, it has thorns!"
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="751"
+        image="generic/rose.png|W:#16486e,498ec5,e4f2fc"
+        name="Blue Rose"
+        description="A blue rose. You haven't seen blue roses before. Where might they grow?"
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="752"
+        image="generic/tulip.png|W:#580000,a40000,c02020,ff6060"
+        name="Red Tulip"
+        description="A nice red tulip. It smells nice."
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="753"
+        image="generic/tulip.png|W:#585858,aaaaaa,d0d0d0,ffffff"
+        name="White Tulip"
+        description="A beautiful white tulip. Whom could you present it?"
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="754"
+        image="generic/tulip.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow Tulip"
+        description="A yellow tulip. I seems to be not really fresh."
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+    <item id="755"
+        image="generic/tulip.png|W:#16486e,498ec5,e4f2fc"
+        name="Blue Tulip"
+        description="A shiny blue tulip. There must be a creative grower of flowers somewhere around."
+        type="generic"
+        weight="10"
+        maxFloorOffset="4"/>
+
     <item id="800"
         image="generic/gem-shard.png|W:#315a67,a4a4ae,dce5d6,ffffff"
         name="Diamond Shard"
@@ -1555,6 +1628,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="equip-head"
         weight="50">
         <sprite>equipment/head/nohmask.xml</sprite>
+    </item>   
+    <item id="2915"
+        image="equipment/head/rosehat.png"
+        name="Rosehat"
+        description="A hat made out of a rose. You cant be sure whether this is the proper usage for a rose."
+        defense="10"
+        level="10"
+        type="equip-head"
+        weight="50">
+        <sprite>equipment/head/rosehat.xml</sprite>
     </item>
 
     <!-- Neck Armors -->

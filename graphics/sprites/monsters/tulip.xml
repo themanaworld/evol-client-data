@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Micksha
+Copyright (C) 2011-2019 Evol Online -->
+<sprite>
+    <imageset name="base"
+              src="graphics/sprites/monsters/flower-growing.png|W"
+              width="32"
+              height="32"
+              offsetY="0"/>
+
+    <action name="spawn" imageset="base">
+        <animation direction="default">
+            <frame index="0" delay="2500"/>
+            <frame index="1" delay="1000"/>
+            <frame index="2" delay="700"/>
+            <frame index="3" delay="500"/>
+            <frame index="4" delay="500"/>
+            <frame index="5" delay="500"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+    
+    <action name="stand" imageset="base">
+        <animation>
+            <frame index="6"/>
+        </animation>
+    </action>
+
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="7" delay="10000"/>
+    </animation>
+  </action>
+
+</sprite>
