@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="425" height="210" tilewidth="32" tileheight="32" nextobjectid="33">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="425" height="210" tilewidth="32" tileheight="32" nextobjectid="39">
  <properties>
   <property name="license" value="GPL"/>
   <property name="manaplus version" value="2"/>
@@ -1315,7 +1315,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" name="Mobs" visible="0">
+ <objectgroup color="#ffff00" name="Mobs">
   <object id="13" name="Cave Maggot" type="spawn" x="11008" y="1984" width="608" height="256">
    <properties>
     <property name="death" value="30000"/>
@@ -1421,6 +1421,54 @@
    </properties>
   </object>
   <object id="26" name="Cave Maggot" type="spawn" x="1984" y="3104" width="576" height="608">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="1027"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="33" name="Small Emerald Bif" type="spawn" x="8256" y="1824" width="2576" height="2480">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1104"/>
+    <property name="spawn" value="45000"/>
+   </properties>
+  </object>
+  <object id="34" name="Copper Slime" type="spawn" x="4544" y="3344" width="6144" height="2560">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="14"/>
+    <property name="monster_id" value="1088"/>
+    <property name="spawn" value="45000"/>
+   </properties>
+  </object>
+  <object id="35" name="Earth Fairy" type="spawn" x="2336" y="528" width="7264" height="3120">
+   <properties>
+    <property name="death" value="35000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1182"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="36" name="Small Emerald Bif" type="spawn" x="6736" y="3280" width="384" height="416">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1104"/>
+    <property name="spawn" value="45000"/>
+   </properties>
+  </object>
+  <object id="37" name="Mouboo Slime" type="spawn" x="1200" y="5040" width="2128" height="1024">
+   <properties>
+    <property name="death" value="180000"/>
+    <property name="max_beings" value="12"/>
+    <property name="monster_id" value="1201"/>
+    <property name="spawn" value="360000"/>
+   </properties>
+  </object>
+  <object id="38" name="Cave Maggot" type="spawn" x="6640" y="3184" width="576" height="608">
    <properties>
     <property name="death" value="30000"/>
     <property name="max_beings" value="10"/>

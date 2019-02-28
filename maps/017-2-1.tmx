@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="9">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="11">
  <properties>
   <property name="author" value="Pydsigner, Jesusalva, TMW2/LoF Team"/>
   <property name="license" value="GPL v2 ; CC BY-SA 3.0"/>
@@ -18,8 +18,8 @@
   <property name="overlay2scrollX" value="0.3"/>
   <property name="overlay2scrollY" value="0.2"/>
   <property name="overlay3image" value="graphics/images/ambient/night.png"/>
-  <property name="overlay3mask" value="8"/>
   <property name="overlay3keepratio" value="true"/>
+  <property name="overlay3mask" value="8"/>
   <property name="overlay4image" value="graphics/images/ambient/rain.png"/>
   <property name="overlay4mask" value="16"/>
   <property name="overlay4parallax" value="1.0"/>
@@ -1595,11 +1595,11 @@
 </data>
  </layer>
  <objectgroup name="Objects">
-  <object id="4" name="Small Emerald Bif" type="spawn" x="1824" y="2464" width="384" height="416">
+  <object id="4" name="Big Emerald Bif" type="spawn" x="1824" y="2464" width="384" height="416">
    <properties>
     <property name="death" value="45000"/>
     <property name="max_beings" value="1"/>
-    <property name="monster_id" value="1104"/>
+    <property name="monster_id" value="1106"/>
     <property name="spawn" value="45000"/>
    </properties>
   </object>
@@ -1616,6 +1616,14 @@
     <property name="death" value="45000"/>
     <property name="max_beings" value="29"/>
     <property name="monster_id" value="1092"/>
+    <property name="spawn" value="45000"/>
+   </properties>
+  </object>
+  <object id="10" name="Copper Slime" type="spawn" x="456" y="488" width="3784" height="1848">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1088"/>
     <property name="spawn" value="45000"/>
    </properties>
   </object>
