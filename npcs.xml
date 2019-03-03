@@ -831,6 +831,16 @@ IDs 900-999 = Special
         <sprite>npcs/xml/valia.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="463">
+        <!-- Yannika, Hinnaks sandwich-making wife. -->
+        <sprite>races/human-female.xml</sprite>
+        <sprite>hairstyles/hairstyle13.xml</sprite>
+        <sprite>equipment/chest/tanktop-female.xml|#620e48,bf1b8b,e32bcf,ffb6f7</sprite>
+        <sprite>equipment/legs/cottonskirt-female.xml|#3c1554,6d3195,c987d1</sprite>
+        <sprite>equipment/head/brimmedflowerhat.xml</sprite>
+        <sprite>equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
