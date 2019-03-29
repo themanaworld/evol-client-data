@@ -841,6 +841,16 @@ IDs 900-999 = Special
         <sprite>equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="464">
+        <!-- Flag, blowing to the left, for rowboat scripts -->
+        <sprite>npcs/xml/flag-small-l.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="465">
+        <!-- Flag, blowing to the right, for rowboat scripts -->
+        <sprite>npcs/xml/flag-small-r.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
