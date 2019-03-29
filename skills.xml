@@ -24,6 +24,26 @@ Copyright (C) 2010-2013 Evol Online -->
             description="Allow protect from magic attacks."
         />
     </set>
+    <set name="Passive">
+        <skill
+            id="2"
+            name="Sword Mastery"
+            icon="graphics/skills/dagger.png"
+            description="Improves your damage when using dagger- or sword-type weapons."
+        />
+        <skill
+            id="3"
+            name="2-Hand Mastery"
+            icon="graphics/skills/scythe.png"
+            description="Improves your damage when using two-hand weapons."
+        />
+        <skill
+            id="43"
+            name="Owl's Eye"
+            icon="graphics/skills/owls-eye.png"
+            description="Improves your dexterity, based on the skill level."
+        />
+    </set>
     <set name="Offensive">
         <skill
             id="5"
@@ -53,18 +73,18 @@ Copyright (C) 2010-2013 Evol Online -->
             castingSrcEffectId="23"
             dstEffectId="34"
         />
+    </set>
+    <set name="Other">
         <skill
             id="28"
             name="Healing"
             icon="graphics/skills/heal.png"
             description="Heals you or one of your comrades."
             castingMissile-particle="graphics/particles/healing.xml"
-            castingMissile-lifetime="5000"
-            castingMissile-speed="3"
             castingSrcEffectId="7"
             dstEffectId="7"
         />
-       <skill
+        <skill
             id="24"
             name="Fire Ball"
             icon="graphics/skills/fireball.png"
@@ -77,13 +97,6 @@ Copyright (C) 2010-2013 Evol Online -->
         />
     </set>
     <set name="Other">
-       <skill
-            id="28"
-            name="Heal"
-            icon="graphics/skills/heal.png"
-            description="Provides a bit of health to you, and to one of your friends."
-            castingMissile-particle="graphics/particles/healing.xml"
-        />
         <skill
             id="220"
             name="Grafiti"
