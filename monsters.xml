@@ -338,4 +338,30 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1101" name="Mana Ghost" walkType="fly" targetCursor="small">
         <sprite>monsters/mana-ghost.xml</sprite>
     </monster>
+    <monster id="1102" name="Game Balance" walkType="fly" targetCursor="medium">
+        <sprite>monsters/mana-ghost.xml</sprite>
+    </monster>
+    <monster id="1103" name="Angry Crafty" targetCursor="small">
+        <sprite>monsters/crafty.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
+    </monster>
+    <monster id="1104" name="Black Scorpion" walkType="walk" targetCursor="small">
+        <sprite>monsters/scorpion.xml|#1d121d,121212,181212,161616</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+    </monster>
+    <monster id="1105" name="Thief Slime" walkType="walk" targetCursor="small">
+        <sprite>monsters/slime.xml|#9092b9,9db4d4,f8f9fa</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
 </monsters>

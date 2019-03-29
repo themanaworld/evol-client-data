@@ -33,6 +33,16 @@ Copyright (C) 2010-2013 Evol Online -->
             description="A violent punch."
         />
         <skill
+            id="14"
+            name="Cold Touch"
+            icon="graphics/skills/legacy/astralsoul.png"
+            description="Sends water darts on your foe."
+            castingMissile-particle="graphics/particles/ice-particle.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+        />
+        <skill
             id="17"
             name="Fire Ball"
             icon="graphics/skills/fireball.png"
