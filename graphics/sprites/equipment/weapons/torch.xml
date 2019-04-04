@@ -1,12 +1,356 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Micksha, Reid
-Copyright (C) 2011-2018 Evol Online -->
+Copyright (C) 2012-2019 Evol Online -->
 <sprite>
-
     <imageset name="base"
-              src="graphics/sprites/equipment/weapons/torch.png|W"
+              src="graphics/sprites/equipment/weapons/torch.png"
               width="64"
               height="64"/>
 
-    <include file="equipment/weapons/knife.xml"/>
+    <action name="stand" imageset="base">
+        <animation direction="down">
+            <frame index="0" delay="80"/>
+            <frame index="76" delay="80"/>
+            <frame index="77" delay="80"/>
+            <frame index="78" delay="80"/>
+            <frame index="79" delay="80"/>
+        </animation>
+        <animation direction="left">
+            <frame index="16" delay="80"/>
+            <frame index="92" delay="80"/>
+            <frame index="93" delay="80"/>
+            <frame index="94" delay="80"/>
+            <frame index="95" delay="80"/>
+        </animation>
+        <animation direction="up">
+            <frame index="32" delay="80"/>
+            <frame index="108" delay="80"/>
+            <frame index="109" delay="80"/>
+            <frame index="110" delay="80"/>
+            <frame index="111" delay="80"/>
+        </animation>
+        <animation direction="right">
+            <frame index="48" delay="80"/>
+            <frame index="124" delay="80"/>
+            <frame index="125" delay="80"/>
+            <frame index="126" delay="80"/>
+            <frame index="127" delay="80"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="base">
+        <animation direction="down">
+            <sequence start="1" end="6" delay="80"/>
+        </animation>
+        <animation direction="left">
+            <sequence start="17" end="22" delay="80"/>
+        </animation>
+        <animation direction="up">
+            <sequence start="33" end="38" delay="80"/>
+        </animation>
+        <animation direction="right">
+            <sequence start="49" end="54" delay="80"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="base">
+        <animation direction="down">
+            <sequence start="7" end="10" delay="80"/>
+            <end/>
+        </animation>
+        <animation direction="left">
+            <sequence start="23" end="26" delay="80"/>
+            <end/>
+        </animation>
+        <animation direction="up">
+            <sequence start="39" end="42" delay="80"/>
+            <end/>
+        </animation>
+        <animation direction="right">
+            <sequence start="55" end="58" delay="80"/>
+            <end/>
+        </animation>
+    </action>
+
+    <action name="attack_bow" imageset="base">
+        <animation direction="down">
+            <sequence start="11" end="15" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <sequence start="27" end="31" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <sequence start="43" end="47" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <sequence start="59" end="63" delay="80"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="attack_wand" imageset="base">
+        <animation direction="down">
+            <frame index="7" delay="80"/>
+            <frame index="8" delay="80"/>
+            <frame index="11" delay="90"/>
+            <sequence start="8" end="10" delay="70"/>
+            <end />
+        </animation>
+        <animation direction="left">
+             <frame index="23" delay="80"/>
+             <frame index="28" delay="80"/>
+             <frame index="27" delay="90"/>
+             <frame index="28" delay="70"/>
+            <sequence start="24" end="26" delay="70"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="39" delay="90"/>
+            <frame index="43" delay="90"/>
+            <sequence start="40" end="42" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="55" delay="80"/>
+            <frame index="60" delay="80"/>
+            <frame index="59" delay="90"/>
+            <frame index="60" delay="70"/>
+            <sequence start="56" end="58" delay="70"/>
+            <end />
+        </animation>
+    </action>
+
+   <action name="attack_scythe" imageset="base">
+        <animation direction="down">
+            <frame index="11" delay="100"/>
+            <frame index="8" delay="100"/>
+            <frame index="9" delay="90"/>
+            <frame index="7" delay="90"/>
+            <frame index="10" delay="85"/>
+            <frame index="7" delay="90"/>
+            <frame index="9" delay="90"/>
+            <frame index="8" delay="100"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="27" delay="100"/>
+            <frame index="23" delay="90"/>
+            <frame index="24" delay="90"/>
+            <frame index="25" delay="80"/>
+            <frame index="26" delay="90"/>
+            <frame index="25" delay="90"/>
+            <frame index="24" delay="100"/>
+            <frame index="23" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="43" delay="100"/>
+            <frame index="42" delay="90"/>
+            <frame index="41" delay="90"/>
+            <frame index="40" delay="80"/>
+            <frame index="39" delay="90"/>
+            <frame index="40" delay="90"/>
+            <frame index="41" delay="100"/>
+            <frame index="42" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="59" delay="100"/>
+            <frame index="55" delay="90"/>
+            <frame index="56" delay="90"/>
+            <frame index="57" delay="80"/>
+            <frame index="58" delay="90"/>
+            <frame index="57" delay="90"/>
+            <frame index="56" delay="100"/>
+            <frame index="55" delay="90"/>
+            <end />
+        </animation>
+    </action>
+
+   <action name="attack_chop" imageset="base">
+        <animation direction="down">
+            <frame index="7" delay="100"/>
+            <frame index="8" delay="100"/>
+            <frame index="11" delay="120"/>
+            <frame index="9" delay="90"/>
+            <frame index="10" delay="70"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="23" delay="100"/>
+            <frame index="24" delay="100"/>
+            <frame index="27" delay="120"/>
+            <frame index="25" delay="90"/>
+            <frame index="26" delay="70"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="39" delay="100"/>
+            <frame index="40" delay="100"/>
+            <frame index="41" delay="120"/>
+            <frame index="42" delay="90"/>
+            <frame index="44" delay="70"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="55" delay="100"/>
+            <frame index="56" delay="100"/>
+            <frame index="59" delay="120"/>
+            <frame index="57" delay="90"/>
+            <frame index="58" delay="70"/>
+            <end />
+        </animation>
+    </action>
+
+   <action name="attack_chop_long" imageset="base">
+        <animation direction="down">
+            <frame index="8" delay="120"/>
+            <frame index="11" delay="130"/>
+            <frame index="7" delay="70"/>
+            <frame index="10" delay="70"/>
+            <frame index="9" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="23" delay="120"/>
+            <frame index="27" delay="130"/>
+            <frame index="26" delay="80"/>
+            <frame index="25" delay="100"/>
+            <frame index="24" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="39" delay="120"/>
+            <frame index="40" delay="80"/>
+            <frame index="41" delay="130"/>
+            <frame index="42" delay="70"/>
+            <frame index="44" delay="100"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="55" delay="120"/>
+            <frame index="59" delay="130"/>
+            <frame index="58" delay="80"/>
+            <frame index="57" delay="100"/>
+            <frame index="56" delay="80"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="sit" imageset="base">
+        <animation direction="down">
+            <frame index="68" delay="80"/>
+            <frame index="84" delay="80"/>
+            <frame index="100" delay="80"/>
+            <frame index="116" delay="80"/>
+        </animation>
+        <animation direction="left">
+            <frame index="69" delay="80"/>
+            <frame index="85" delay="80"/>
+            <frame index="101" delay="80"/>
+            <frame index="117" delay="80"/>
+        </animation>
+        <animation direction="up">
+            <frame index="70" delay="80"/>
+            <frame index="86" delay="80"/>
+            <frame index="102" delay="80"/>
+            <frame index="118" delay="80"/>
+        </animation>
+        <animation direction="right">
+            <frame index="71" delay="80"/>
+            <frame index="87" delay="80"/>
+            <frame index="103" delay="80"/>
+            <frame index="119" delay="80"/>
+        </animation>
+    </action>
+
+    <action name="sittop" imageset="base">
+        <animation direction="down">
+            <frame index="64" delay="80"/>
+            <frame index="80" delay="80"/>
+            <frame index="96" delay="80"/>
+            <frame index="112" delay="80"/>
+        </animation>
+        <animation direction="left">
+            <frame index="65" delay="80"/>
+            <frame index="81" delay="80"/>
+            <frame index="97" delay="80"/>
+            <frame index="113" delay="80"/>
+        </animation>
+        <animation direction="up">
+            <frame index="66" delay="80"/>
+            <frame index="82" delay="80"/>
+            <frame index="98" delay="80"/>
+            <frame index="114" delay="80"/>
+        </animation>
+        <animation direction="right">
+            <frame index="67" delay="80"/>
+            <frame index="83" delay="80"/>
+            <frame index="99" delay="80"/>
+            <frame index="115" delay="80"/>
+        </animation>
+    </action>
+
+    <action name="standride" imageset="base">
+        <animation direction="down">
+            <frame index="64"/>
+        </animation>
+        <animation direction="left">
+            <frame index="65"/>
+        </animation>
+        <animation direction="up">
+            <frame index="66"/>
+        </animation>
+        <animation direction="right">
+            <frame index="67"/>
+        </animation>
+    </action>
+
+    <action name="spawnride" imageset="base">
+        <animation direction="down">
+            <frame index="64"/>
+        </animation>
+        <animation direction="left">
+            <frame index="65"/>
+        </animation>
+        <animation direction="up">
+            <frame index="66"/>
+        </animation>
+        <animation direction="right">
+            <frame index="67"/>
+        </animation>
+    </action>
+
+    <action name="ride" imageset="base">
+        <animation direction="down">
+            <frame index="64"/>
+        </animation>
+        <animation direction="left">
+            <frame index="65"/>
+        </animation>
+        <animation direction="up">
+            <frame index="66"/>
+        </animation>
+        <animation direction="right">
+            <frame index="67"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="base">
+        <animation direction="down">
+            <frame index="72"/>
+        </animation>
+        <animation direction="left">
+            <frame index="72"/>
+        </animation>
+        <animation direction="up">
+            <frame index="72"/>
+        </animation>
+        <animation direction="right">
+            <frame index="72"/>
+        </animation>
+    </action>
 </sprite>

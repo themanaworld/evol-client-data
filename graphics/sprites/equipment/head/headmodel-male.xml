@@ -2,10 +2,12 @@
 <!-- Author: Micksha, Saulc
 Copyright (C) 2018 TMW2 -->
 <sprite>
+
     <imageset name="base"
               src="graphics/sprites/equipment/head/headmodel-male.png"
               width="32"
               height="64"/>
+
     <action name="stand" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-26"/>
@@ -49,6 +51,7 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="1" offsetY="-26" delay="80"/>
         </animation>
     </action>
+
     <action name="attack" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="80"/>
@@ -77,6 +80,7 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
+
     <action name="attack_bow" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-25" delay="240"/>
@@ -102,6 +106,7 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
+
     <action name="attack_wand" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="80"/>
@@ -135,6 +140,7 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
+
   <action name="attack_scythe" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-25" delay="200"/>
@@ -176,37 +182,71 @@ Copyright (C) 2018 TMW2 -->
             <end />
         </animation>
     </action>
-<action name="attack_axe" imageset="base">
+
+    <action name="attack_chop" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-24" delay="100"/>
-            <frame index="0" offsetX="-1" offsetY="-25" delay="190"/>
-            <frame index="0" offsetX="-1" offsetY="-22" delay="80"/>
-            <frame index="0" offsetX="-1" offsetY="-21" delay="80"/>
+            <frame index="0" offsetX="-1" offsetY="-25" delay="220"/>
+            <frame index="0" offsetX="-1" offsetY="-22" delay="90"/>
+            <frame index="0" offsetX="-1" offsetY="-21" delay="70"/>
             <end />
         </animation>
         <animation direction="left">
             <frame index="1" offsetX="3" offsetY="-27" delay="100"/>
             <frame index="1" offsetX="3" offsetY="-28" delay="100"/>
-            <frame index="1" offsetX="2" offsetY="-26" delay="90"/>
-            <frame index="1" offsetX="-1" offsetY="-25" delay="80"/>
-            <frame index="1" offsetX="-2" offsetY="-24" delay="80"/>
+            <frame index="1" offsetX="2" offsetY="-26" delay="120"/>
+            <frame index="1" offsetX="-1" offsetY="-25" delay="90"/>
+            <frame index="1" offsetX="-2" offsetY="-24" delay="70"/>
             <end />
         </animation>
         <animation direction="up">
-            <frame index="2" offsetX="-1" offsetY="-26" delay="200"/>
-            <frame index="2" offsetX="-2" offsetY="-24" delay="80"/>
-            <frame index="2" offsetX="-2" offsetY="-26" delay="130"/>
+            <frame index="2" offsetX="-2" offsetY="-26" delay="320"/>
+            <frame index="2" offsetX="-2" offsetY="-24" delay="90"/>
+            <frame index="2" offsetX="-1" offsetY="-26" delay="70"/>
             <end />
         </animation>
         <animation direction="right">
-            <frame index="3" offsetX="-2" offsetY="-27" delay="100"/>
-            <frame index="3" offsetX="-2" offsetY="-29" delay="100"/>
-            <frame index="3" offsetX="-2" offsetY="-26" delay="90"/>
-            <frame index="3" offsetX="1" offsetY="-25" delay="80"/>
-            <frame index="3" offsetX="2" offsetY="-24" delay="80"/>
+            <frame index="3" offsetX="-3" offsetY="-27" delay="100"/>
+            <frame index="3" offsetX="-3" offsetY="-29" delay="100"/>
+            <frame index="3" offsetX="-3" offsetY="-26" delay="120"/>
+            <frame index="3" offsetY="-25" delay="90"/>
+            <frame index="3" offsetX="1" offsetY="-24" delay="70"/>
             <end />
         </animation>
     </action>
+
+    <action name="attack_chop_long" imageset="base">
+        <animation direction="down">
+            <frame index="0" offsetX="-1" offsetY="-25" delay="250"/>
+            <frame index="0" offsetX="-1" offsetY="-24" delay="70"/>
+            <frame index="0" offsetX="-1" offsetY="-21" delay="70"/>
+            <frame index="0" offsetX="-1" offsetY="-22" delay="90"/>
+            <end />
+        </animation>
+        <animation direction="left">
+            <frame index="1" offsetX="3" offsetY="-27" delay="120"/>
+            <frame index="1" offsetX="2" offsetY="-26" delay="130"/>
+            <frame index="1" offsetX="-2" offsetY="-24" delay="80"/>
+            <frame index="1" offsetX="-1" offsetY="-25" delay="100"/>
+            <frame index="1" offsetX="3" offsetY="-28" delay="80"/>
+            <end />
+        </animation>
+        <animation direction="up">
+            <frame index="2" offsetX="-2" offsetY="-26" delay="330"/>
+            <frame index="2" offsetX="-2" offsetY="-24" delay="70"/>
+            <frame index="2" offsetX="-1" offsetY="-26" delay="100"/>
+            <end />
+        </animation>
+        <animation direction="right">
+            <frame index="3" offsetX="-3" offsetY="-27" delay="120"/>
+            <frame index="3" offsetX="-3" offsetY="-26" delay="130"/>
+            <frame index="3" offsetX="1" offsetY="-24" delay="80"/>
+            <frame index="3" offsetY="-25" delay="100"/>
+            <frame index="3" offsetX="-3" offsetY="-29" delay="80"/>
+            <end />
+        </animation>
+    </action>
+
     <action name="sit" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-19"/>
@@ -221,6 +261,7 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
+
     <action name="sittop" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -235,6 +276,7 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
+
     <action name="standride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -249,6 +291,7 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-5" offsetY="-17"/>
         </animation>
     </action>
+
     <action name="spawnride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -263,6 +306,7 @@ Copyright (C) 2018 TMW2 -->
             <frame index="3" offsetX="-7" offsetY="-17"/>
         </animation>
     </action>
+
     <action name="ride" imageset="base">
         <animation direction="down">
             <frame index="0" offsetX="-1" offsetY="-14"/>
@@ -282,4 +326,5 @@ Copyright (C) 2018 TMW2 -->
             <frame index="4" offsetX="13" offsetY="8"/>
         </animation>
     </action>
+
 </sprite>

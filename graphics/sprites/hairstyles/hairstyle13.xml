@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Author: Reid
 Copyright (C) 2012 Evol Online -->
+
 <sprite>
     <imageset name="base"
               src="graphics/sprites/hairstyles/hairstyle13.png|S"
@@ -110,65 +111,78 @@ Copyright (C) 2012 Evol Online -->
 
     <action name="attack_wand" imageset="base">
         <animation direction="down">
-            <frame index="0" offsetX="3" offsetY="-30" delay="160"/>
+            <frame index="0" offsetX="3" offsetY="-30" delay="80"/>
             <frame index="0" offsetX="3" offsetY="-31" delay="80"/>
-            <frame index="0" offsetX="3" offsetY="-28" delay="80"/>
-            <frame index="0" offsetX="3" offsetY="-27" delay="80"/>
+            <frame index="0" offsetX="3" offsetY="-32" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-31" delay="70"/>
+            <frame index="0" offsetX="3" offsetY="-28" delay="70"/>
+            <frame index="0" offsetX="3" offsetY="-27" delay="70"/>
             <end />
         </animation>
         <animation direction="left">
-            <frame index="3" offsetX="7" offsetY="-34" delay="160"/>
-            <frame index="3" offsetX="7" offsetY="-35" delay="80"/>
-            <frame index="3" offsetX="3" offsetY="-32" delay="80"/>
-            <frame index="3" offsetX="2" offsetY="-31" delay="80"/>
+            <frame index="3" offsetX="7" offsetY="-34" delay="80"/>
+            <frame index="3" offsetX="6" offsetY="-33" delay="240"/>
+            <frame index="3" offsetX="7" offsetY="-35" delay="70"/>
+            <frame index="3" offsetX="3" offsetY="-32" delay="70"/>
+            <frame index="3" offsetX="2" offsetY="-31" delay="70"/>
             <end />
         </animation>
         <animation direction="up">
-            <frame index="6" offsetX="2" offsetY="-33" delay="320"/>
+            <frame index="6" offsetX="2" offsetY="-33" delay="90"/>
+            <frame index="6" offsetX="3" offsetY="-33" delay="90"/>
+            <frame index="6" offsetX="2" offsetY="-32" delay="160"/>
             <frame index="6" offsetX="2" offsetY="-31" delay="80"/>
             <end />
         </animation>
         <animation direction="right">
-            <frame index="9" offsetY="-34" delay="160"/>
-            <frame index="9" offsetY="-35" delay="80"/>
-            <frame index="9" offsetX="3" offsetY="-32" delay="80"/>
-            <frame index="9" offsetX="4" offsetY="-31" delay="80"/>
+            <frame index="9" offsetY="-34" delay="80"/>
+            <frame index="9" offsetY="-33" delay="240"/>
+            <frame index="9" offsetY="-35" delay="70"/>
+            <frame index="9" offsetX="3" offsetY="-32" delay="70"/>
+            <frame index="9" offsetX="4" offsetY="-31" delay="70"/>
             <end />
         </animation>
     </action>
 
     <action name="attack_scythe" imageset="base">
         <animation direction="down">
-            <frame index="0" offsetX="3" offsetY="-31" delay="190"/>
-            <frame index="0" offsetX="3" offsetY="-28" delay="80"/>
-            <frame index="0" offsetX="3" offsetY="-27" delay="100"/>
+            <frame index="0" offsetX="3" offsetY="-32" delay="100"/>
+            <frame index="0" offsetX="3" offsetY="-31" delay="100"/>
             <frame index="0" offsetX="3" offsetY="-28" delay="90"/>
-            <frame index="0" offsetX="3" offsetY="-31" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-30" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-27" delay="85"/>
+            <frame index="0" offsetX="3" offsetY="-30" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-28" delay="90"/>
+            <frame index="0" offsetX="3" offsetY="-31" delay="100"/>
             <end />
         </animation>
         <animation direction="left">
             <frame index="3" offsetX="6" offsetY="-33" delay="100"/>
+            <frame index="3" offsetX="7" offsetY="-34" delay="90"/>
             <frame index="3" offsetX="7" offsetY="-35" delay="90"/>
             <frame index="3" offsetX="3" offsetY="-32" delay="80"/>
             <frame index="3" offsetX="2" offsetY="-31" delay="90"/>
-            <frame index="3" offsetX="3" offsetY="-32" delay="90"/>
-            <frame index="3" offsetX="7" offsetY="-35" delay="100"/>
+            <frame index="3" offsetX="3" offsetY="-32" delay="80"/>
+            <frame index="3" offsetX="7" offsetY="-35" delay="90"/>
+            <frame index="3" offsetX="7" offsetY="-34" delay="90"/>
             <end />
         </animation>
         <animation direction="up">
             <frame index="6" offsetX="3" offsetY="-33" delay="100"/>
-            <frame index="6" offsetX="2" offsetY="-33" delay="170"/>
             <frame index="6" offsetX="2" offsetY="-31" delay="90"/>
-            <frame index="6" offsetX="2" offsetY="-33" delay="190"/>
+            <frame index="6" offsetX="2" offsetY="-33" delay="450"/>
+            <frame index="6" offsetX="2" offsetY="-31" delay="90"/>
             <end />
         </animation>
         <animation direction="right">
             <frame index="9" offsetY="-33" delay="100"/>
+            <frame index="9" offsetY="-34" delay="90"/>
             <frame index="9" offsetY="-35" delay="90"/>
             <frame index="9" offsetX="3" offsetY="-32" delay="80"/>
             <frame index="9" offsetX="4" offsetY="-31" delay="90"/>
-            <frame index="9" offsetX="3" offsetY="-32" delay="100"/>
+            <frame index="9" offsetX="3" offsetY="-32" delay="90"/>
             <frame index="9" offsetY="-35" delay="100"/>
+            <frame index="9" offsetY="-34" delay="90"/>
             <end />
         </animation>
     </action>
