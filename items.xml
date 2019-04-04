@@ -1173,13 +1173,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/forestarmor-female.xml</sprite>
     </item>
     <item id="1307"
-        image="equipment/chest/silkrobe.png"
+        image="equipment/chest/silkrobe.png|S"
         name="Silk Robe"
         description="A light robe out of silk. Does not provide much protection, though."
         defense="100"
         level="17"
         type="equip-torso"
-        weight="70">
+        weight="70"
+        colors="vneck"
+        iconColors="vneckS">
         <sprite gender="unisex">equipment/chest/silkrobe-male.xml</sprite>
         <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
     </item>
@@ -1213,7 +1215,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
         name="Lousy Moccasins"
         description="Crudely assembled footwear not for comfort nor fashion."
-        defense="100"
+        defense="20"
         level="4"
         type="equip-feet"
         weight="18"
@@ -1225,7 +1227,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/feet/cottonboots.png|W"
         name="%Color% Cotton Boots"
         description="A pair of %color% quality cotton boots."
-        defense="1202"
+        defense="25"
         level="14"
         type="equip-feet"
         weight="35"
@@ -1233,6 +1235,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/boots-male.xml</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml</sprite>
+    </item>
+    <item id="1802"
+        image="equipment/feet/furboots.png"
+        name="Fur Boots"
+        description="A pair of warming boots, made with fluffy fur."
+        defense="35"
+        level="20"
+        type="equip-feet"
+        weight="75"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/furboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/furboots-female.xml</sprite>
     </item>
 
     <!-- Gloves -->
@@ -1347,6 +1361,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         iconColors="vneckS"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/silkpants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/silkpants-female.xml</sprite>
     </item>
     <item id="2204"
         image="equipment/legs/cottonskirt.png|W"
@@ -1359,6 +1374,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         colors="simple"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/cottonskirt-male.xml</sprite>
+        <sprite gender="female">equipment/legs/cottonskirt-female.xml</sprite>
     </item>
     <item id="2205"
         image="equipment/legs/leathertrousers.png"
