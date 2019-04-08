@@ -85,6 +85,6 @@ function aptget_install {
 function clientdata_init {
     mkdir shared
     cd ..
-    ln -s clientdata client-data
+    ln -s ${CI_PROJECT_NAME:=clientdata} client-data
     check_error $?
 }
