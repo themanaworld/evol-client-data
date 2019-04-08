@@ -14,13 +14,13 @@ aptget_install gcc g++ \
 pwd
 ls
 
-./clientdata/.tools/downloadlib.sh manaplus master || exit 1
+./client-data/.tools/downloadlib.sh manaplus master || exit 1
 
-export HOME=`pwd`/clientdata/shared
+export HOME=`pwd`/client-data/shared
 
 cd manaplus_master || exit 1
 export SDL_VIDEODRIVER=dummy
-./bin/manaplus --validate -u -d ../clientdata || exit 1
+./bin/manaplus --validate -u -d ../client-data || exit 1
 
 ls "${HOME}/.local/share/mana/manaplus.log" || exit 1
 grep -A 10 "Assert:" "${HOME}/.local/share/mana/manaplus.log"

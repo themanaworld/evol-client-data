@@ -15,19 +15,19 @@ cd tools/testxml
 check_error $?
 export RES=$(cat errors.txt)
 if [[ -n "${RES}" ]]; then
-    echo "xml check failed" >../../clientdata/shared/error.log
-    echo ${RES} >>../../clientdata/shared/error.log
-    cat ../../clientdata/shared/error.log
+    echo "xml check failed" >../../client-data/shared/error.log
+    echo ${RES} >>../../client-data/shared/error.log
+    cat ../../client-data/shared/error.log
     exit 1
 fi
 
-echo >../../clientdata/shared/error.log
-./testxml.py silent >../../clientdata/shared/error.log
+echo >../../client-data/shared/error.log
+./testxml.py silent >../../client-data/shared/error.log
 res="$?"
-cat ../../clientdata/shared/error.log
+cat ../../client-data/shared/error.log
 if [ "$res" != 0 ]; then
     echo "test xml error"
     exit 1
 fi
 
-echo >../../clientdata/shared/error.log
+echo >../../client-data/shared/error.log
