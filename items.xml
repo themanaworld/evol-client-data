@@ -1033,6 +1033,13 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="10"
         maxFloorOffset="4"/>
+    <item id="756"
+        image="generic/coinbag.png"
+        name="Coin Bag"
+        description="A bag full of coins. They were most probably stolen from someone."
+        type="generic"
+        weight="250"
+        maxFloorOffset="4"/>
 
     <item id="800"
         image="generic/gem-shard.png|W:#315a67,a4a4ae,dce5d6,ffffff"
@@ -1248,6 +1255,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/feet/furboots-male.xml</sprite>
         <sprite gender="female">equipment/feet/furboots-female.xml</sprite>
     </item>
+    <item id="1803"
+        image="equipment/feet/banditboots.png"
+        name="Fur Boots"
+        description="A pair of light, sneaky boots. Good to sneak without being noisy."
+        defense="27"
+        level="20"
+        type="equip-feet"
+        weight="60"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    </item>
 
     <!-- Gloves -->
     <item id="2000"
@@ -1311,6 +1330,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4e2e18,c8752f</sprite>
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
     </item>
+    <item id="2005"
+        image="equipment/hands/banditgloves.png"
+        name="Bandit Gloves"
+        description="Gloves made soft leather, perfect for stealing or backstabbing."
+        defense="15"
+        level="25"
+        type="equip-arms"
+        weight="85"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+        <sprite gender="female">equipment/hands/cottongloves-female.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+    </item>
 
     <!-- Pants -->
     <item id="2200"
@@ -1341,7 +1372,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/jeanschaps.png"
         name="Jeans Chaps"
         description="Jeans with snake skin chaps."
-        defense="240"
+        defense="130"
         level="12"
         type="equip-legs"
         weight="360"
@@ -1353,7 +1384,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/silkpants.png|W"
         name="%Color% Cashmere Pants"
         description="A very light fancy pair of %Color% cashmere trousers."
-        defense="80"
+        defense="75"
         level="17"
         type="equip-legs"
         weight="20"
@@ -1380,13 +1411,25 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/legs/leathertrousers.png"
         name="Leather Trousers"
         description="A common pair of pants made from leather."
-        defense="160"
+        defense="145"
         level="15"
         type="equip-legs"
         weight="280"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/cottontrousers-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
         <sprite gender="female">equipment/legs/cottontrousers-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    </item>
+    <item id="2206"
+        image="equipment/legs/bandittrousers.png"
+        name="Bandit Trousers"
+        description="Not really odoriferous trousers, formerly worn by some stinky bandit."
+        defense="105"
+        level="25"
+        type="equip-legs"
+        weight="110"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/bandittrousers-male.xml</sprite>
+        <sprite gender="female">equipment/legs/bandittrousers-female.xml</sprite>
     </item>
 
     <!-- Wings
@@ -1669,6 +1712,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="50">
         <sprite>equipment/head/rosehat.xml</sprite>
     </item>
+   <item id="2916"
+        image="equipment/head/bandithood.png"
+        name="Bandit Hood"
+        description="A woolen hood, very useful to hide your face from too curious constables, for example."
+        defense="15"
+        level="20"
+        type="equip-head"
+        weight="30">
+        <sprite>equipment/head/bandithood.xml</sprite>
+    </item>
 
     <!-- Neck Armors -->
     <item id="3200"
@@ -1682,6 +1735,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         drawAfter="torso">
         <sprite gender="unisex">equipment/neck/shemagh.xml</sprite>
         <sprite gender="female">equipment/neck/shemagh.xml</sprite>
+    </item>
+    <item id="3201"
+        image="equipment/neck/banditshawl.png"
+        name="Bandit Shawl"
+        description="A shawl, more for hiding you face than for keeping you warm."
+        defense="75"
+        level="30"
+        type="equip-neck"
+        weight="45"
+        drawAfter="torso">
+        <sprite gender="unisex">equipment/neck/banditshawl.xml</sprite>
+        <sprite gender="female">equipment/neck/banditshawl.xml</sprite>
     </item>
 
     <!-- Weapons -->
