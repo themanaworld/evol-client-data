@@ -332,6 +332,41 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hit">monsters/flower/hit2.ogg</sound>
         <sound event="miss">monsters/flower/miss1.ogg</sound>
     </monster>
+  <monster id="1063" name="Bandit">
+    <sprite>races/orc-male.xml</sprite>
+    <sprite>equipment/legs/bandittrousers-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+    <sprite>equipment/head/bandithood.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/forestarmor-male.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1064" name="Robin Bandit">
+    <sprite>races/orc-male.xml</sprite>
+    <sprite>equipment/legs/bandittrousers-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+    <sprite>equipment/head/bandithood.xml</sprite>
+    <sprite>equipment/weapons/woodenbow.xml</sprite>
+    <sprite>equipment/chest/forestarmor-male.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/training-arrow.xml" action="attack"/>
+  </monster>
+  <monster id="1065" name="Bandit Lord">
+    <sprite>races/orc-male.xml</sprite>
+    <sprite>equipment/legs/bandittrousers-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/hands/cottongloves-female.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+    <sprite>equipment/head/bandithood.xml</sprite>
+    <sprite>equipment/weapons/woodenbow.xml</sprite>
+    <sprite>equipment/chest/forestarmor-female.xml</sprite>
+    <sprite>equipment/neck/banditshawl.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
