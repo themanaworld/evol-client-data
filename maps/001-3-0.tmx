@@ -8,6 +8,13 @@
   <property name="name" value="Sewer"/>
   <property name="overlay0image" value="graphics/images/ambient/spot.png"/>
   <property name="overlay0keepratio" value="true"/>
+  <property name="overlay0mask" value="2"/>
+  <property name="overlay1image" value="graphics/images/ambient/spot2.png"/>
+  <property name="overlay1keepratio" value="true"/>
+  <property name="overlay1mask" value="4"/>
+  <property name="overlay2image" value="graphics/images/ambient/spot3.png"/>
+  <property name="overlay2keepratio" value="true"/>
+  <property name="overlay2mask" value="8"/>
  </properties>
  <tileset firstgid="1" name="Sewer" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tilesets/artis-sewer.png" width="512" height="512"/>
