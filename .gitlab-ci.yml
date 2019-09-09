@@ -37,6 +37,7 @@ licensecheck:
 
 manaplus:
   stage: test
+  image: debian:unstable
   script:
   - ./.tools/manaplus.sh
   artifacts:
