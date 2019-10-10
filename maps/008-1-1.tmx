@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="270" height="220" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="76">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="270" height="220" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="77">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -2628,6 +2628,13 @@
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="1060"/>
     <property name="spawn" value="195000"/>
+   </properties>
+  </object>
+  <object id="76" name="To Merchant House" type="warp" x="1632" y="1824" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-2-32"/>
+    <property name="dest_x" value="40"/>
+    <property name="dest_y" value="37"/>
    </properties>
   </object>
  </objectgroup>
