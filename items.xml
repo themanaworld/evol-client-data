@@ -1190,15 +1190,15 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/chest/trainingshirt-female.xml</sprite>
     </item>
     <item id="1305"
-        image="equipment/chest/copperarmor.png"
+        image="equipment/chest/legionarmor.png|W:#531e15,8f3b1e,b14417,d8822b,ee9352,fdbd8c,fce9b0;R:#4b6167,698089,89a1a7,8ebdbf,d2f2e1"
         name="Legion's Copper Armor"
         description="This armor provides great protection. It is worn by those with authority."
         defense="400"
         level="15"
         type="equip-torso"
         weight="340">
-        <sprite gender="unisex">equipment/chest/copperarmor-male.xml</sprite>
-        <sprite gender="female">equipment/chest/copperarmor-female.xml</sprite>
+        <sprite gender="unisex">equipment/chest/legionarmor-male.xml|#531e15,8f3b1e,b14417,d8822b,ee9352,fdbd8c,fce9b0;#4b6167,698089,89a1a7,8ebdbf,d2f2e1</sprite>
+        <sprite gender="female">equipment/chest/legionarmor-female.xml|#531e15,8f3b1e,b14417,d8822b,ee9352,fdbd8c,fce9b0;#4b6167,698089,89a1a7,8ebdbf,d2f2e1</sprite>
     </item>
     <item id="1306"
         image="equipment/chest/forestarmor.png"
@@ -1249,6 +1249,17 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml</sprite>
     </item>
+    <item id="1310"
+        image="equipment/chest/legionarmor.png|W:#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1;R:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Legion's Iron Armor"
+        description="This armor provides even greater protection. It is worn by those with even more authority."
+        defense="550"
+        level="25"
+        type="equip-torso"
+        weight="680">
+        <sprite gender="unisex">equipment/chest/legionarmor-male.xml|#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1;#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+        <sprite gender="female">equipment/chest/legionarmor-female.xml|#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1;#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+    </item>
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -1289,7 +1300,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
     <item id="1803"
         image="equipment/feet/banditboots.png"
-        name="Fur Boots"
+        name="Bandit Boots"
         description="A pair of light, sneaky boots. Good to sneak without being noisy."
         defense="27"
         level="20"
@@ -1880,7 +1891,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/weapons/scythe.png"
         name="Scythe"
         description="A farmer's scythe, not new but still deadly."
-        attack="500"
+        attack="600"
         attack-range="2"
         level="15"
         type="equip-2hand"
@@ -1965,6 +1976,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_chop_long"
         weight="800">
         <sprite>equipment/weapons/chopstick.xml</sprite>
+    </item>
+    <item id="3514"
+        image="equipment/weapons/halberd.png"
+        name="Halberd"
+        description="A halberd, commonly used by knights. Sharp and dangerous."
+        attack="600"
+        attack-range="2"
+        level="20"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="1200">
+        <sprite>equipment/weapons/halberd.xml</sprite>
     </item>
 
 

@@ -353,7 +353,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sprite>equipment/chest/forestarmor-male.xml</sprite>
     <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
-    <attack id="1" missile-particle="graphics/particles/training-arrow.xml" action="attack"/>
+    <attack id="1" missile-particle="graphics/particles/training-arrow.xml" action="attack_bow"/>
   </monster>
   <monster id="1065" name="Bandit Lord">
     <sprite>races/orc-male.xml</sprite>
@@ -366,6 +366,41 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sprite>equipment/neck/banditshawl.xml</sprite>
     <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1066" name="Legion Swordswoman">
+    <sprite>races/human-female-medium.xml</sprite>
+    <sprite>equipment/legs/trousers-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    <sprite>equipment/hands/cottongloves-female.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/head/infantryhelmet.xml</sprite>
+    <sprite>equipment/weapons/traininggladius.xml</sprite>
+    <sprite>equipment/chest/legionarmor-female.xml|#402e33,5e3434,824d39,995b44,c47f4e,e0af81;#4b6167,698089,89a1a7,8ebdbf,d2f2e1</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1067" name="Legion Halberdier">
+    <sprite>races/human-female-dark.xml</sprite>
+    <sprite>equipment/legs/trousers-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    <sprite>equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+    <sprite>equipment/head/infantryhelmet.xml</sprite>
+    <sprite>equipment/chest/legionarmor-female.xml|#402e33,5e3434,824d39,995b44,c47f4e,e0af81;#4b6167,698089,89a1a7,8ebdbf,d2f2e1</sprite>
+    <sprite>equipment/weapons/halberd.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <attack id="1" action="attack_chop_long"/>
+  </monster>
+  <monster id="1068" name="Legion Lieutenant">
+    <sprite>races/raijin-male.xml</sprite>
+    <sprite>equipment/legs/trousers-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#40332d,5e4a3d,705740,a1825d,b59767,dbbf88</sprite>
+    <sprite>equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+    <sprite>equipment/head/warlordhelmet.xml</sprite>
+    <sprite>equipment/chest/legionarmor-male.xml|#4b6167,698089,89a1a7,8ebdbf,d2f2e1;#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+    <sprite>equipment/weapons/axe.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <attack id="1" action="attack_chop"/>
   </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
