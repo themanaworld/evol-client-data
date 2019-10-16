@@ -667,9 +667,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="128"/>
     <item id="608"
-        image="usable/fertility-potion.png"
+        image="usable/potion5.png|W:#594d36,b49b6c,f4d293"
         name="Fertility Potion"
-        description="A bottle containing some magical fertilizer, used for making soil fruitful again."
+        description="A bottle containing some fertilizer, used for making soil fruitful again."
         effect="Better dont drink it, it could be toxic."
         useButton="Drink"
         type="usable"
@@ -679,7 +679,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Honey"
         description="A glass full of the finest honey. Enjoy it, and don't forget to thank the bees!"
         effect="Heals some HP and SP."
-        useButton="Drink"
+        useButton="Eat"
         type="usable"
         weight="250"/>
     <item id="610"
@@ -690,6 +690,45 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Drink"
         type="usable"
         weight="512"/>
+	<item id="611"
+		image="usable/seeds-grass.png"
+		name="Grass Seeds"
+		description="Common seeds to plant clovers, as food for your Mouboos or for usual clover purposes."
+		type="usable"
+        useButton="Plant"
+		weight="3"
+		maxFloorOffset="2">
+		<inventory>
+			<menu
+				name1="Plant"
+				command1="useinv 'INVINDEX' 1"
+				name2="Plant"
+			/>
+		</inventory>
+	</item>
+	<item id="612"
+		image="usable/seeds-flower.png"
+		name="Flower Seeds"
+		description="If you like colorful places.. they need fertile soil so be careful where you plant them."
+		type="usable"
+        useButton="Plant"
+		weight="4"
+		maxFloorOffset="2">
+		<inventory>
+			<menu
+				name1="Plant"
+				command1="useinv 'INVINDEX' 1"
+				name2="Plant"
+			/>
+		</inventory>
+	</item>
+    <item id="613"
+        image="usable/potion5.png|W:#831f2d,f07401,f8cc8b"
+        name="Purification Potion"
+        description="A bottle containing a magical potion, to clean soil from evil sway."
+        useButton="Drink"
+        type="usable"
+        weight="128"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -920,14 +959,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="25"
         maxFloorOffset="4"/>
     <item id="734"
-        image="generic/mug-empty.png|W:#743e66,955372,bd6f8c,e68e9a,f0b49c,efe1c7"
+        image="generic/mug-empty.png"
         name="Empty Mug"
         description="This Tea Mug is pretty empty."
         type="generic"
         weight="100"
         maxFloorOffset="4"/>
     <item id="735"
-        image="generic/petal.png|S:#743e66,955372,bd6f8c,e68e9a,f0b49c,efe1c7"
+        image="generic/petal.png|S:#606060,620e48,b1b1b1,bf1b8b,c3c3c3,e32bcf,ededed,ffb6f7"
         name="Pink Petal"
         description="A fragile Petal with an aromatic smell."
         type="generic"
@@ -1080,6 +1119,13 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="250"
         maxFloorOffset="4"/>
+    <item id="757"
+        image="generic/magic-feather.png"
+        name="Magic Feather"
+        description="A very rare feather, full of mana power. You may use it to take notes used for wizard purposes, for example."
+        type="generic"
+        weight="25"
+        maxFloorOffset="1"/>
 
     <item id="800"
         image="generic/gem-shard.png|W:#315a67,a4a4ae,dce5d6,ffffff"
