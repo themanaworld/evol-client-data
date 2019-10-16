@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/firedummy.png"
+              width="96"
+              height="96"/>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <sequence start="0" end="6" delay="125"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation direction="default">
+            <sequence start="8" end="10" delay="150"/>
+            <frame index="11" delay="5000"/>
+        </animation>
+    </action>
+    
+</sprite>
