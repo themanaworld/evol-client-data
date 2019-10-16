@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author from The Mana World
+Copyright (C) 2010-2013 Evol Online -->
+
+<effect>
+    <particle position-x="20"
+              position-y="30"
+              position-z="20"
+              lifetime="80">
+        <emitter>
+            <property name="position-x" value="5"/>
+            <property name="position-y" value="-15"/>
+            <property name="horizontal-angle" min="0" max="45"/>
+            <property name="vertical-angle" value="15"/>
+            <property name="power" min="5" max="7"/>
+            <property name="gravity" value="0.8"/>
+            <property name="image" value="graphics/particles/glowdot-small.png|W:#f07401"/>
+            <property name="alpha" value="0.5"/>
+            <property name="lifetime" min="50" max="100"/>
+            <property name="output" min="2" max="3"/>
+            <property name="bounce" value="0.3"/>
+            <property name="acceleration" value="0.1"/>
+                <emitter>
+                    <property name="position-x" value="100"/>
+                    <property name="position-y" value="10"/>
+                    <property name="horizontal-angle" min="0" max="360"/>
+                    <property name="power" min="10" max="50"/>
+                    <property name="lifetime" value="200"/>
+                    <property name="output" value="1"/>
+                        <emitter>
+                            <property name="power" min="1" max="2"/>
+                            <property name="alpha" value="0.5"/>
+                            <property name="gravity" value="-2"/>
+                            <property name="momentum" value="0.4"/>
+                            <property name="image" value="graphics/particles/orb-small.png|W:#f8cc8b"/>
+                            <property name="lifetime" value="200"/>
+                            <property name="fade-out" value="100"/>
+                        </emitter>
+                </emitter>
+        </emitter>
+    </particle>
+</effect>
