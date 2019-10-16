@@ -682,6 +682,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Drink"
         type="usable"
         weight="250"/>
+    <item id="610"
+        image="usable/potiondeath.png|W:#580000,a40000,c02020,ff6060"
+        name="Death Potion"
+        description="Used for really powerful magic. You should not drink this!"
+        effect="Instakill."
+        useButton="Drink"
+        type="usable"
+        weight="512"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -2362,5 +2370,13 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="equip-ammo"
         attack="100"
         weight="1"/>
+
+    <!-- Fun Items -->
+    <item id="7420"
+        image="generic/adventurersoul.png|W:#846211,dab333,fffb93,ffffff;R:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Adventurer's Soul"
+        description="Seems like someone fell prey to PK'ing."
+        type="generic"
+        weight="100"/>
 
 </items>
