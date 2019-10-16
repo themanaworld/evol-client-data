@@ -442,4 +442,20 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hit">monsters/scorpion/hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/miss1.ogg</sound>
     </monster>
+    <monster id="1108" name="Fire Dummy" targetCursor="medium">
+        <sprite>monsters/firedummy.xml</sprite>
+        <sound event="die">monsters/crocotree/die1.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+    </monster>
+    <monster id="1120" name="Tengu" walkType="walk" targetCursor="large">
+        <sprite>monsters/tengu.xml</sprite>
+        <sound event="die">monsters/tortuga/die1.ogg</sound>
+        <sound event="hit">monsters/tortuga/hit1.ogg</sound>
+        <sound event="hit">monsters/tortuga/hit2.ogg</sound>
+        <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
+        <sound event="miss">monsters/tortuga/miss1.ogg</sound>
+        <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
+    </monster>
 </monsters>
