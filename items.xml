@@ -25,6 +25,8 @@ New organization (04/12/11).
 5000    5999      = Cards
 6000    6999      = Bows
 7000    7999      = Arrows
+8000    8499      = LEGACY merge items, generic or usable
+
 Colors for dyeable equipments or items are now set up by itemcolors.xml.
 -->
 
@@ -1314,6 +1316,17 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/legionarmor-male.xml|#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1;#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
         <sprite gender="female">equipment/chest/legionarmor-female.xml|#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1;#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
     </item>
+    <item id="1311"
+        image="equipment/chest/warlordplate.png|W:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Golden Warlord Plate"
+        description="Strong and decorative armor, made of pure gold."
+        defense="650"
+        level="50"
+        type="equip-torso"
+        weight="2500">
+        <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+        <sprite gender="female">equipment/chest/warlordplate-female.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+    </item>
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -1754,9 +1767,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="40">
         <sprite>equipment/head/tophat.xml</sprite>
         <replace sprite="hair">
-    <item from="-5" to="-4"/>
-    <item from="-14" to="-9"/>
-    <item from="-15" to="-19"/>
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2912"
@@ -1769,9 +1782,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="30">
         <sprite>equipment/head/bowlerhat.xml</sprite>
         <replace sprite="hair">
-    <item from="-5" to="-4"/>
-    <item from="-14" to="-9"/>
-    <item from="-15" to="-19"/>
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
         </replace>
     </item>
     <item id="2913"
@@ -1784,9 +1797,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="5">
         <sprite>equipment/head/fairyhat.xml</sprite>
         <replace sprite="hair">
-    <item from="-5" to="-4"/>
-    <item from="-14" to="-9"/>
-    <item from="-15" to="-19"/>
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
         </replace>
     </item>    
     <item id="2914"
@@ -1819,6 +1832,89 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="30">
         <sprite>equipment/head/bandithood.xml</sprite>
     </item>
+    <item id="2917"
+        image="equipment/head/bowlerhat-brown.png"
+        name="Brown Bowler Hat"
+        description="A hat for those with a bit of class."
+        defense="40"
+        level="15"
+        type="equip-head"
+        weight="30">
+        <sprite>equipment/head/bowlerhat-brown.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5" to="-4"/>
+            <item from="-14" to="-9"/>
+            <item from="-15" to="-19"/>
+        </replace>
+    </item>
+   <item id="2918"
+        image="equipment/head/catears.png|M:#774444;W:#777777"
+        name="Cat Ears"
+        description="Meow! A pair of plush cat ears. Meow!"
+        defense="25"
+        level="35"
+        type="equip-head"
+        weight="10">
+        <sprite>equipment/head/catears.xml|#774444;#777777</sprite>
+    </item>
+	<item id="2919"
+		image="equipment/head/santahat.png"
+		name="Santa Hat"
+		description="The beard is missing, but at least you could pretend to be him. Or his fan."
+		defense="6"
+		level="14"
+		type="equip-head"
+		weight="28">
+		<sprite>equipment/head/santahat.xml</sprite>
+	</item>
+	<item id="2920"
+		image="equipment/head/moonshroomhat.png"
+		name="Moonshroom Hat"
+		description="Do you feel this magic aura?"
+		defense="51"
+		level="70"
+		int="7"
+		type="equip-head"
+		weight="50">
+		<sprite>equipment/head/moonshroomhat.xml</sprite>
+	</item>
+	<item id="2921"
+		image="equipment/head/santabeardhat.png"
+		name="Santa Beard Hat"
+		description="Hohoho! Gifts for the nice! Coal for the naughty!"
+		defense="9"
+		level="18"
+		type="equip-head"
+		weight="32">
+		<sprite>equipment/head/santabeardhat.xml</sprite>
+	</item>
+	<item id="2922"
+		image="equipment/head/funkyhat.png|W"
+		name="%Color% Funky Hat"
+		description="Yawn."
+		defense="17"
+		level="30"
+		type="equip-head"
+		weight="50"
+		colors="simple"
+		maxFloorOffset="10">
+		<sprite>equipment/head/funkyhat.xml</sprite>
+		<replace sprite="hair">
+			<item from="-5" to="-4"/>
+			<item from="-14" to="-9"/>
+			<item from="-15" to="-19"/>
+		</replace>
+	</item>
+	<item id="2923"
+		image="equipment/head/cashiershade.png"
+		name="Cashier Shade"
+		description="Do you have something to hide? Or are you just sensitive against the sun?"
+		defense="12"
+		level="9"
+		type="equip-head"
+		weight="28">
+		<sprite>equipment/head/cashiershade.xml</sprite>
+	</item>
 
     <!-- Neck Armors -->
     <item id="3200"
@@ -1845,6 +1941,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/neck/banditshawl.xml</sprite>
         <sprite gender="female">equipment/neck/banditshawl.xml</sprite>
     </item>
+	<item id="3202"
+		image="equipment/neck/eyepatch.png"
+		name="Eye Patch"
+		description="Arr! What's a pirate with two eyes? A not-pirate! Ar Arr!"
+		defense="3"
+		level="16"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/neck/eyepatch.xml</sprite>
+		<sprite gender="female">equipment/neck/eyepatch.xml</sprite>
+	</item>
 
     <!-- Weapons -->
     <item id="3500"
@@ -2042,6 +2150,20 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_chop_long"
         weight="1200">
         <sprite>equipment/weapons/halberd.xml</sprite>
+    </item>
+    <item id="3515"
+        image="equipment/weapons/sharpknife.png"
+        name="Sharp Knife"
+        description="A sharp knife, commonly used by chefs."
+        attack="120"
+        attack-range="1"
+        level="5"
+        type="equip-1hand"
+        attack-action="attack"
+        weight="15">
+        <sprite>equipment/weapons/knife.xml</sprite>
+        <sound event="hit">weapons/knife/hit1.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
     </item>
 
 
@@ -2425,4 +2547,230 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="100"/>
 
+    <!-- LEGACY merge items, generic or usable -->
+    <item id="8000"
+        image="merge/blackpearl.png"
+        name="Black Pearl"
+        description="A shiny, black pearl. It must be old!"
+        type="generic"
+        weight="100"/>
+    <item id="8001"
+        image="merge/bloodstone.png"
+        name="Bloodstone"
+        description="A dark read, shimmering stone. It looks scary."
+        type="generic"
+        weight="100"/>
+    <item id="8002"
+        image="merge/bottle-sand.png"
+        name="Bottle of Sand"
+        description="A bottle filled with sand. Where this sand may originate?"
+        type="generic"
+        weight="200"/>
+    <item id="8003"
+        image="merge/brainstem.png"
+        name="Brainstem"
+        description="If only someone knew what kind of being exactly that comes from."
+        type="generic"
+        weight="50"/>
+    <item id="8004"
+        image="merge/christmasbox-closed.png"
+        name="Closed Christmas Box"
+        description="Surprise surprise, what might be inside?"
+        type="generic"
+        weight="100"/>
+    <item id="8005"
+        image="merge/christmasbox-open.png"
+        name="Open Christmas Box"
+        description="Surprise surprise, what might have been inside?"
+        type="generic"
+        weight="100"/>
+    <item id="8006"
+        image="merge/christmasbulb.png|W:#f00000"
+        name="Red Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8007"
+        image="merge/christmasbulb.png|W:#f0e000"
+        name="Yellow Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8008"
+        image="merge/christmasbulb.png|W:#00f000"
+        name="Green Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8009"
+        image="merge/christmasbulb.png|W:#00f0ee"
+        name="Aqua Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8010"
+        image="merge/christmasbulb.png|W:#0000d0"
+        name="Blue Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8011"
+        image="merge/christmasbulb.png|W:#d000ef"
+        name="Purple Christmas Ornament"
+        description="An ornament from Santa's tree."
+        type="generic"
+        weight="20"/>
+    <item id="8012"
+        image="merge/doll.png"
+        name="Doll"
+        description="You see right. This doll is not broken."
+        type="generic"
+        weight="75"/>
+    <item id="8013"
+        image="merge/easterbasket.png"
+        name="Easter Basket"
+        description="A nice basket. Someone may hide it during easter and fill it with chocolate."
+        type="generic"
+        weight="200"/>
+    <item id="8014"
+        image="merge/easteregg.png"
+        name="Easteregg"
+        description="A chocolate egg, wrapped in silver paper."
+        type="generic"
+        weight="50"/>
+    <item id="8015"
+        image="merge/fakefangs.png"
+        name="Plastic Fangs"
+        description="You will look like a vampire with these!"
+        type="generic"
+        weight="25"/>
+    <item id="8016"
+        image="merge/flawed-lens.png"
+        name="Flawed Lens"
+        description="A failed attempt at making a lens with powerful properties. Perhaps, one day, you will be able to salvage the remains from this effort."
+        type="generic"
+        weight="50"/>
+    <item id="8017"
+        image="merge/dark-petal.png"
+        name="Dark Petal"
+        description="A single, dark, petal, oddly heavy. The edges of the petal are unusually hard, and have a slightly reflective shine to them. But looking into the gleam, you can only see fire..."
+        type="generic"
+        weight="250"/>
+    <item id="8018"
+        image="merge/flighttalisman.png"
+        name="Flight Talisman"
+        description="A talisman created using ancient magic to keep you safe during flights."
+        type="generic"
+        weight="500"/>
+   <item id="8019"
+        image="merge/jellybeans.png"
+        name="Jellybeans"
+        description="Colorful and tasty Jelly Beans."
+        type="generic"
+        weight="150"/>
+   <item id="8020"
+        image="merge/leatherball.png"
+        name="Leatherball"
+        description="A heavy ball made out of leather, used for playing soccer in the old days."
+        type="generic"
+        weight="750"/>
+  <item id="8021"
+        image="merge/lollipop.png|W:#2502d6"
+        name="Booberry Blue Lollipop"
+        description="A lollipop. Mmm."
+        type="usable"
+        effect="Heal 1500-2500 HP"
+        weight="150"/>
+  <item id="8022"
+        image="merge/lollipop.png|W:#00ba16"
+        name="Ghastly Green Lollipop"
+        description="A lollipop. Tasty."
+        type="usable"
+        effect="Heal 1500-2500 HP"
+        weight="150"/>
+  <item id="8023"
+        image="merge/lollipop.png|W:#e00418"
+        name="Blood Red Lollipop"
+        description="A lollipop. Yum."
+        type="usable"
+        effect="Heal 1500-2500 HP"
+        weight="150"/>
+   <item id="8024"
+        image="merge/plushmouboo.png"
+        name="Plush Mouboo"
+        description="A mouboo made of plush. How cute!"
+        type="generic"
+        weight="250"/>
+   <item id="8025"
+        image="merge/redstocking.png"
+        name="Red Stocking"
+        description="Eww, it's smelly!"
+        type="generic"
+        weight="100"/>
+   <item id="8026"
+        image="merge/reinboo-stick.png"
+        name="Stick Reinboo"
+        description="A stick reinboo. This is fun!"
+        type="generic"
+        weight="100"/>
+   <item id="8027"
+        image="merge/rubberbat.png"
+        name="Rubber Bat"
+        description="Squeaks when you squeeze it."
+        type="generic"
+        weight="30"/>
+   <item id="8028"
+        image="merge/santacookie.png"
+        name="Santa Cookie"
+        description="A cookie, given to you by the one and only Santa Claus!"
+        type="generic"
+        weight="25"/>
+   <item id="8029"
+        image="merge/santaglobe.png"
+        name="Santa Globe"
+        description="A snow globe featuring Santa."
+        type="generic"
+        weight="500"/>
+   <item id="8030"
+        image="merge/scissors.png"
+        name="Scissors"
+        description="A pair of awkward and unwieldy scissors."
+        type="generic"
+        weight="150"/>
+   <item id="8031"
+        image="merge/silverbell.png"
+        name="Silver Bell"
+        description="A tiny bell made of silver."
+        type="generic"
+        weight="250"/>
+   <item id="8032"
+        image="merge/snowmanglobe.png"
+        name="Snowman Globe"
+        description="A snow globe featuring Snowman."
+        type="generic"
+        weight="500"/>
+   <item id="8033"
+        image="merge/strange-coin.png"
+        name="Strange Coin"
+        description="A cheap looking yellow plastic coin. Seems to be rather useless."
+        type="generic"
+        weight="10"/>
+   <item id="8034"
+        image="merge/tongue.png"
+        name="Tongue"
+        description="A tongue. Ewww."
+        type="generic"
+        weight="100"/>
+   <item id="8035"
+        image="merge/wrapping-paper-dotted.png"
+        name="Dotted Wrapping Paper"
+        description="Nice dotted wrapping paper, to be used for wrapping presents."
+        type="generic"
+        weight="50"/>
+   <item id="8036"
+        image="merge/wrapping-paper-striped.png"
+        name="Dotted Wrapping Paper"
+        description="Nice striped wrapping paper, to be used for wrapping presents."
+        type="generic"
+        weight="50"/>
 </items>
