@@ -731,6 +731,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Drink"
         type="usable"
         weight="128"/>
+    <item id="614"
+        image="usable/bowl-sailorstew.png|W:#192d2c,1c3e33,2c6b52,339455,32ae4d,95d469,f7fed5"
+        name="Sailor's Stew"
+        description="A bowl containing a fine dish for sailors, makes you strong and sturdy."
+        effect="Max. HP +2000, STR +10, VIT +5. Effect lasts for 5 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="650"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -1171,6 +1179,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="generic"
         weight="10"
         maxFloorOffset="15"/>
+    <item id="806"
+        image="generic/bowl-empty.png"
+        name="Empty Bowl"
+        description="An empty bowl. You may fill it with fine food, in case you get hungry."
+        type="generic"
+        weight="150"/>
 
     <!-- Necklaces  -->
     <item id="1000"
