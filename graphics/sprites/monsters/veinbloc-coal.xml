@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprite>
+    <imageset name="mob" 
+              src="graphics/sprites/monsters/veinbloc.png" 
+              width="32" 
+              height="32"/>
+
+
+     <action name="stand" imageset="mob">
+        <animation direction="default">
+            <frame index="15"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation direction="default">
+            <frame index="12"/>
+        </animation>
+    </action>
+
+</sprite>

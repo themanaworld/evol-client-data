@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprite>
+    <imageset name="mob" 
+              src="graphics/sprites/monsters/veinbloc.png|W" 
+              width="32" 
+              height="32"/>
+
+<action name="stand" imageset="mob">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="95"/>
+            <goto label="glance" rand="100"/>
+      
+            <label name="static"/>
+            <frame index="0" delay="2000" offsetX="0" offsetY="0"/>
+            <goto label="start"/>
+
+            <label name="glance"/>
+            <sequence start="0" end="6" delay="80" offsetX="0" offsetY="0"/>
+            <frame index="0" delay="500" offsetX="0" offsetY="0"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+
+     <action name="stand" imageset="mob" hp="75">
+        <animation direction="default">
+            <frame index="8"/>
+        </animation>
+    </action>
+
+     <action name="stand" imageset="mob" hp="50">
+        <animation direction="default">
+            <frame index="9"/>
+        </animation>
+    </action>
+
+     <action name="stand" imageset="mob" hp="25">
+        <animation direction="default">
+            <frame index="10"/>
+        </animation>
+    </action>
+
+     <action name="stand" imageset="mob" hp="10">
+        <animation direction="default">
+            <frame index="11"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob" hp="1">
+        <animation direction="default">
+            <frame index="12"/>
+        </animation>
+    </action>
+
+</sprite>
