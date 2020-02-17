@@ -402,6 +402,15 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     <attack id="1" action="attack_chop"/>
   </monster>
+    <monster id="1069" name="Gem Veinbloc" targetCursor="small">
+        <sprite>monsters/veinbloc-gem.xml</sprite>
+    </monster>
+    <monster id="1070" name="Gold Veinbloc" targetCursor="small">
+        <sprite>monsters/veinbloc-gold.xml</sprite>
+    </monster>
+    <monster id="1071" name="Coal Veinbloc" targetCursor="small">
+        <sprite>monsters/veinbloc-coal.xml</sprite>
+    </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
