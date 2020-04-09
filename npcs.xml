@@ -463,6 +463,101 @@ IDs 900-999 = Special
         <sprite variant="35">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="190">
+        <!-- Morgan, Candor's witch.  -->
+        <sprite variant="35">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="191">
+        <!-- Zitoni, Morgan's apprentice.  -->
+        <sprite variant="7">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="192">
+        <!-- Rosen, the salesman in Candor smith.  -->
+        <sprite variant="32">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="193">
+        <!-- Tanisha, the little girl in Sorfina's home.  -->
+        <sprite variant="11">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="194">
+        <!-- Sorfina, the old and helpful lady in Candor.  -->
+        <sprite variant="0">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="195">
+        <!-- Jessie, Sorfina's Husband and Trainer in Candor.  -->
+        <sprite variant="31">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="196">
+        <!-- Prawors, former ferry master in Candor.  -->
+        <sprite variant="36">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="197">
+        <!-- Kaan, a useless Candor citizen.  -->
+        <sprite variant="34">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="198">
+        <!-- Aidan, a useless Candor citizen.  -->
+        <sprite variant="10">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="199">
+        <!-- Ishi, another useless Candor citizen.  -->
+        <sprite variant="30">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="200">
+        <!-- Liana, a surprisingly useless Candor citizen.  -->
+        <sprite variant="38">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="201">
+        <!-- Ayasha, a girl playing hide-and-seek in Candor.  -->
+        <sprite variant="37">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="202">
+        <!-- Zegas, a uselsess Candor citizen with a Top Hat.  -->
+        <sprite variant="2">npcs/xml/unanimated-legacy-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="203">
+        <!-- Nyle, the Candor shopkeeper.  -->
+        <sprite variant="39">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="204">
+        <!-- Cynric, the banker in Candor.  -->
+        <sprite variant="40">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="205">
+        <!-- Vincent, a child refusing to play hide-and-seek.  -->
+        <sprite variant="20">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="206">
+        <!-- Aahna, a useless (and homeless) Candor citizen.  -->
+        <sprite variant="41">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="207">
+        <!-- Hasan, the one and only Candor asshole.  -->
+        <sprite variant="33">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="208">
+        <!-- Crasmande, a scared man.  -->
+        <sprite variant="34">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -864,6 +959,11 @@ IDs 900-999 = Special
     <npc id="465">
         <!-- Flag, blowing to the right, for rowboat scripts -->
         <sprite>npcs/xml/flag-small-r.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="466">
+        <!-- Toichi, the lazy smith in Candor. -->
+        <sprite>npcs/xml/toichi.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
