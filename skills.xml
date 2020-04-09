@@ -3,25 +3,12 @@
 Copyright (C) 2010-2013 Evol Online -->
 
 <skills>
-    <set name="Basic">
+    <set name="General">
         <skill
             id="1"
             name="Basic"
             icon="graphics/skills/emote.png"
             description="Allow do basic things like sitting, smiling or trading."
-        />
-        <skill
-            id="20000"
-            name="Mass provoke"
-            icon="graphics/skills/legacy/resistpoison.png"
-            description="Allow provoke many monsters."
-            castingAnimation="emote.xml"
-        />
-        <skill
-            id="20001"
-            name="Magic shield"
-            icon="graphics/skills/legacy/life.png"
-            description="Allow protect from magic attacks."
         />
     </set>
     <set name="Passive">
@@ -55,7 +42,7 @@ Copyright (C) 2010-2013 Evol Online -->
         <skill
             id="14"
             name="Cold Touch"
-            icon="graphics/skills/legacy/astralsoul.png"
+            icon="graphics/skills/coldbolt.png"
             description="Sends water darts on your foe."
             castingMissile-particle="graphics/particles/ice-particle.xml"
             castingMissile-lifetime="10000"
@@ -73,16 +60,22 @@ Copyright (C) 2010-2013 Evol Online -->
             castingSrcEffectId="23"
             dstEffectId="34"
         />
-    </set>
-    <set name="Other">
         <skill
-            id="28"
-            name="Healing"
-            icon="graphics/skills/heal.png"
-            description="Heals you or one of your comrades."
-            castingMissile-particle="graphics/particles/healing.xml"
-            castingSrcEffectId="7"
-            dstEffectId="7"
+            id="19"
+            name="Fire Bolt"
+            icon="graphics/skills/fireball.png"
+            description="Throw a fire bolt."
+            castingMissile-particle="graphics/particles/arrow.particle.xml"
+            dstEffectId="34"
+        />
+        <skill
+            id="20"
+            name="Lightning Bolt"
+            icon="graphics/skills/lightning.png"
+            description="A single lightning from sky."
+            hitEffectId="37"
+            castingSrcEffectId="38"
+            castingDstEffectId="-1"
         />
         <skill
             id="24"
@@ -96,18 +89,44 @@ Copyright (C) 2010-2013 Evol Online -->
             dstEffectId="34"
         />
     </set>
+    <set name="Support">
+        <skill
+            id="28"
+            name="Healing"
+            icon="graphics/skills/heal.png"
+            description="Heals you or one of your comrades."
+            castingMissile-particle="graphics/particles/healing.xml"
+            castingSrcEffectId="7"
+            dstEffectId="7"
+        />
+        <skill
+            id="20001"
+            name="Magic shield"
+            icon="graphics/skills/legacy/life.png"
+            description="Allow protect from magic attacks."
+        />
+    </set>
     <set name="Other">
         <skill
             id="220"
             name="Grafiti"
             description="Draw text on ground."
-            useTextParameter="true"/>
+            useTextParameter="true"
+        />
+        <skill
+            id="20000"
+            name="Mass provoke"
+            icon="graphics/skills/provoke.png"
+            description="Allow provoke many monsters."
+            castingAnimation="emote.xml"
+        />
     </set>
     <set name="Restricted">
         <skill
             id="20002"
             name="Super Menu"
             description="Gives access to all debug and administrative options"
-            invokeCmd="@numa"/>
+            invokeCmd="@numa"
+        />
     </set>
 </skills>
