@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Author: Gumi
+Copyright (C) 2004-2020 The Mana World -->
+
+<effect>
+    <particle
+            position-x="0"
+            position-y="0"
+            position-z="270"
+            lifetime="300">
+        <animation
+                imageset="graphics/particles/python.png"
+                width="512"
+                height="512">
+            <sequence start="0" end="8" delay="40"/>
+            <frame index="8"/>
+        </animation>
+    </particle>
+</effect>
