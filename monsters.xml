@@ -430,7 +430,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="spawn">monsters/piou/spawn1.ogg</sound>
     </monster>
     <monster id="1104" name="Black Scorpion" walkType="walk" targetCursor="small">
-        <sprite>monsters/scorpion.xml|#1d121d,121212,181212,161616</sprite>
+        <sprite>monsters/scorpion.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sound event="hit">monsters/scorpion/hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/hit3.ogg</sound>
@@ -469,6 +469,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sprite>monsters/swampling.xml</sprite>
         <sound event="die">monsters/blub/die1.ogg</sound>
         <sound event="hit">monsters/blub/hit1.ogg</sound>
+    </monster>
+    <monster id="1110" name="Golden Scorpion" walkType="walk" targetCursor="small">
+        <sprite>monsters/scorpion.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
     </monster>
     <monster id="1120" name="Tengu" walkType="walk" targetCursor="large">
         <sprite>monsters/tengu.xml</sprite>
