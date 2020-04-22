@@ -88,6 +88,16 @@ Copyright (C) 2010-2013 Evol Online -->
             castingSrcEffectId="23"
             dstEffectId="34"
         />
+        <skill
+            id="52"
+            name="Poisoned Touch"
+            icon="graphics/skills/legacy/resistpoison.png"
+            description="Increases your attack power, and has a chance to poison your enemy."
+            castingMissile-particle="graphics/particles/ice-particle.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+        />
     </set>
     <set name="Support">
         <skill
