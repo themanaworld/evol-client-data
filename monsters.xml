@@ -414,6 +414,21 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1072" name="Moubi" walkType="walk" targetCursor="small">
         <sprite>monsters/moubi.xml</sprite>
     </monster>
+    <monster id="1073" name="Yellow Slime" walkType="walk" targetCursor="small">
+        <sprite>monsters/slime.xml|#51341e,664224,91642f,a67b32,ccad4d,e8de6c,feffe6</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
+    <monster id="1074" name="Red Slime" walkType="walk" targetCursor="small">
+        <sprite>monsters/slime.xml|#470320,570c27,8e2b41,a42d2d,c82525,e89687,fcd4a4</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
+    <monster id="1075" name="Snake" walkType="walk" targetCursor="small">
+        <sprite>monsters/snake.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+    </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
