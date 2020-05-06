@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="160" height="160" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="8">
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="160" height="160" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="15">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -1679,6 +1679,61 @@
     <property name="dest_map" value="012-2-4"/>
     <property name="dest_x" value="31"/>
     <property name="dest_y" value="43"/>
+   </properties>
+  </object>
+  <object id="8" name="To Candor Cave" type="warp" x="1536" y="2144" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="012-3-1"/>
+    <property name="dest_x" value="37"/>
+    <property name="dest_y" value="40"/>
+   </properties>
+  </object>
+  <object id="9" name="Mana Bug" type="spawn" x="1504" y="1696" width="1952" height="1632">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1035"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
+  <object id="10" name="Butterfly" type="spawn" x="1376" y="2560" width="1280" height="992">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1032"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="11" name="Maggot" type="spawn" x="1280" y="2912" width="2464" height="800">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="500"/>
+   </properties>
+  </object>
+  <object id="12" name="Grass Snake" type="spawn" x="1184" y="1376" width="1312" height="928">
+   <properties>
+    <property name="death" value="12000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1042"/>
+    <property name="spawn" value="3000"/>
+   </properties>
+  </object>
+  <object id="13" name="Scorpion" type="spawn" x="2880" y="1120" width="1056" height="512">
+   <properties>
+    <property name="death" value="50000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1043"/>
+    <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="14" name="Scorpion" type="spawn" x="3232" y="3712" width="928" height="512">
+   <properties>
+    <property name="death" value="40000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1043"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
  </objectgroup>

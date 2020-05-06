@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2015 - 2020 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/artis-sewer-wheel.png"
+              width="32"
+              height="32"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <frame index="0"/>
+        </animation>
+    </action>
+    <action name="move" imageset="npc">
+        <!-- Opening -->
+        <animation direction="default">
+            <sequence start="0" end="7" delay="50" repeat="4"/>
+            <end/>
+        </animation>
+    </action>
+</sprite>
