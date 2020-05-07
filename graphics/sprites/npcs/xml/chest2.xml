@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha, Hal9000
+Copyright (C) 2012 - 2020 Evol Online -->
+
+<sprite>
+    <imageset name="chest"
+              src="graphics/sprites/npcs/sprite/chest2.png"
+              width="32"
+              height="32"/>
+
+    <action name="stand" imageset="chest">
+        <!-- Chest Closed. -->
+        <animation direction="default">
+            <frame index="0"/>
+        </animation>
+
+        <!-- Chest Opening. -->
+        <animation direction="left">
+            <frame index="1" delay="110"/>
+        </animation>
+
+        <!-- Chest Opened. -->
+        <animation direction="up">
+            <frame index="2"/>
+        </animation>
+
+        <!-- Chest Closing. -->
+        <animation direction="right">
+            <frame index="1" delay="110"/>
+        </animation>
+    </action>
+</sprite>
