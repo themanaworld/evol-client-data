@@ -739,6 +739,13 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         useButton="Eat"
         weight="650"/>
+    <item id="615"
+        image="generic/map-treasure.png"
+        name="Treasure Map"
+        description="Points to a location where a valuable treasure may be bured. Perhaps you should try to find the place and dig there."
+        useButton="Read"
+        type="usable"
+        weight="14"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -1213,6 +1220,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 		type="generic"
 		weight="25"
 		sellProtected="true"/>
+	<item id="808"
+		image="generic/key-treasure.png"
+		name="Treasure Key"
+		description="A small, golden Key. Which chest would it fit in?"
+		type="generic"
+		weight="2"/>
 
     <!-- Necklaces  -->
     <item id="1000"

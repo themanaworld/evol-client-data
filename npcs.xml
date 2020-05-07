@@ -976,6 +976,11 @@ IDs 900-999 = Special
         <sprite>npcs/xml/toichi.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="469" targetCursor="small" targetOffsetX="4" targetOffsetY="2">
+        <!-- Chest, an opening container. -->
+        <sprite>npcs/xml/chest2.xml</sprite>
+        <menu name="Open" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
