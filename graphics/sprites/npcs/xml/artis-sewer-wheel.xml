@@ -9,15 +9,20 @@ Copyright (C) 2015 - 2020 Evol Online -->
               height="32"/>
 
     <action name="stand" imageset="npc">
-        <animation direction="default">
+        <!-- Moving -->
+        <animation direction="up">
+            <sequence start="0" end="7" delay="50" repeat="4"/>
             <frame index="0"/>
         </animation>
-    </action>
-    <action name="move" imageset="npc">
-        <!-- Opening -->
-        <animation direction="default">
-            <sequence start="0" end="7" delay="50" repeat="4"/>
-            <end/>
+        <!-- Static -->
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+        <animation direction="left">
+            <frame index="0"/>
+        </animation>
+        <animation direction="right">
+            <frame index="0"/>
         </animation>
     </action>
 </sprite>
