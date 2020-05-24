@@ -568,6 +568,16 @@ IDs 900-999 = Special
         <sprite>npcs/xml/manatree.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="211">
+        <!-- Henry, a Brotherhood member in Artis Hideout.  -->
+        <sprite variant="36">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="212">
+        <!-- Nunia, Henry's friend and a master thief.  -->
+        <sprite variant="37">npcs/xml/unanimated.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -975,6 +985,16 @@ IDs 900-999 = Special
         <!-- Toichi, the lazy smith in Candor. -->
         <sprite>npcs/xml/toichi.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="467">
+        <!-- Sewer Gate. -->
+        <sprite>npcs/xml/artis-sewer-gate.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="468">
+        <!-- Sewer Wheel. -->
+        <sprite>npcs/xml/artis-sewer-wheel.xml</sprite>
+        <menu name="Rotate" command="talk 'NAME'"/>
     </npc>
     <npc id="469" targetCursor="small" targetOffsetX="4" targetOffsetY="2">
         <!-- Chest, an opening container. -->
