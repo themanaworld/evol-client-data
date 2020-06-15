@@ -216,6 +216,9 @@ Copyright (C) 2012-2017 Evol Online -->
     <map name="012-3-3.tmx">
         <atlas name="legacy-woodland-cave"/>
     </map>
+    <map name="020-1.tmx">
+        <atlas name="desert"/>
+    </map>
 
     <atlas name="all">
         <file name="graphics/particles/bubble.png|W:#80ff80,40a020"/>
@@ -353,11 +356,38 @@ Copyright (C) 2012-2017 Evol Online -->
         <file name="graphics/tilesets/artis-accessory.png"/>
         <file name="graphics/tilesets/artis-dock.png"/>
         <file name="graphics/tilesets/box.png"/>
+        <file name="graphics/tilesets/box-x1x2.png"/>
         <file name="graphics/tilesets/ground.png"/>
         <file name="graphics/tilesets/hurns-accessory.png"/>
         <file name="graphics/tilesets/hurns-accessory-x1x2.png"/>
         <file name="graphics/tilesets/hurns-ground.png"/>
         <file name="graphics/tilesets/hurns-house.png"/>
+        <file name="graphics/tilesets/ship-base.png"/>
+        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
+        <file name="graphics/tilesets/ship-mast.png"/>
+        <file name="graphics/tilesets/tree-x3x3.png"/>
+        <file name="graphics/tilesets/tree-x3x4.png"/>
+        <file name="graphics/tilesets/water.png"/>
+        <file name="graphics/tilesets/waterfall.png"/>
+    </atlas>
+
+    <atlas name="desert">        
+        <file name="graphics/tilesets/accessory.png"/>
+        <file name="graphics/tilesets/artis-accessory-x1x2.png"/>
+        <file name="graphics/tilesets/artis-dock.png"/>
+        <file name="graphics/tilesets/box.png"/>
+        <file name="graphics/tilesets/box-x1x2.png"/>
+        <file name="graphics/tilesets/desert-accessory.png"/>
+        <file name="graphics/tilesets/desert-accessory-x1x2.png"/>
+        <file name="graphics/tilesets/desert-accessory-x1x3.png"/>
+        <file name="graphics/tilesets/desert-castle.png"/>
+        <file name="graphics/tilesets/desert-ground.png"/>
+        <file name="graphics/tilesets/desert-hut.png"/>
+        <file name="graphics/tilesets/ground.png"/>
+        <file name="graphics/tilesets/ship-base.png"/>
+        <file name="graphics/tilesets/ship-flags-x3x2.png"/>
+        <file name="graphics/tilesets/ship-mast.png"/>
+        <file name="graphics/tilesets/signs-x1x2.png"/>
         <file name="graphics/tilesets/tree-x3x3.png"/>
         <file name="graphics/tilesets/tree-x3x4.png"/>
         <file name="graphics/tilesets/water.png"/>
