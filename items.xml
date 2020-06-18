@@ -750,6 +750,46 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Read"
         type="usable"
         weight="14"/>
+    <item id="616"
+        image="usable/chocolatebar.png"
+        name="Chocolate Bar"
+        description="Sweet, sweet chocolate. Do not forget to brush your teeth after eating."
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="100"/>
+    <item id="617"
+        image="usable/mouboomilk.png"
+        name="Mouboo Milk"
+        description="Healthy milk."
+        effect="PLACEHOLDER"
+        useButton="Drink"
+        type="usable"
+        weight="200"/>
+    <item id="618"
+        image="usable/mouboosteak.png"
+        name="Mouboo Steak"
+        description="A huge steak from a Mouboo. Are you fine with killing animals to eat them?"
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="250"/>
+    <item id="619"
+        image="usable/roastedacorn.png"
+        name="Roasted Acorn"
+        description="A great snack, especially in wintertime."
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="50"/>
+    <item id="620"
+        image="usable/redapple.png"
+        name="Red Apple"
+        description="A non-poisoned, shiny red apple. Healthy, and yummy!"
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="100"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -1180,6 +1220,180 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="Small metal sticks, mostly used to open locks illegally. Don't be caught with this!"
         type="generic"
         weight="50"/>
+  <item id="763"
+        image="generic/bone.png"
+        name="Bone"
+        description="Bone from a viro thigh. Scary."
+        type="generic"
+        weight="100"/>
+  <item id="764"
+        image="generic/druidtreebranch.png"
+        name="Druid Tree Branch"
+        description="A branch from the mysterious Druid Tree."
+        type="generic"
+        weight="200"/>
+  <item id="765"
+        image="generic/leftscorpionclaw.png|W:#2c2924,2c2924,403b2f,534d3f,716d5d,8c8675,c5bbaa"
+        name="Left Scorpion Claw"
+        description="A left claw from a scorpion."
+        type="generic"
+        weight="150"/>
+  <item id="766"
+        image="generic/rightscorpionclaw.png|W:#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"
+        name="Right Scorpion Claw"
+        description="A right claw from a scorpion."
+        type="generic"
+        weight="150"/>
+  <item id="767"
+        image="generic/ore.png|W:#433623,534227,6b522d,725e42,846b48,937e5a;R:#402e33,5e3434,824d39,995b44,c47f4e,e0af81"
+        name="Copper Ore"
+        description="Copper Ore. Cannot be used in this brute form, so it should be purified."
+        type="generic"
+        weight="500"/>
+  <item id="768"
+        image="generic/ore.png|W:#483a3c,5b4343,6c5248,7a6253,846c62;R:#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1"
+        name="Silver Ore"
+        description="Silver Ore. Cannot be used in this brute form, so it should be purified."
+        type="generic"
+        weight="500"/>
+  <item id="769"
+        image="generic/ore.png|W:#554c31,645b41,7b735e,91876e,a49b7e,aeae92;R:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Gold Ore"
+        description="Gold Ore. Cannot be used in this brute form, so it should be purified."
+        type="generic"
+        weight="500"/>
+  <item id="770"
+        image="generic/ore.png|W:#706042,957f5d,a48c66,b1a071,c0a982,ddc9a9;R:#315a67,a4a4ae,dce5d6,ffffff"
+        name="Platinum Ore"
+        description="Platinum Ore. Cannot be used in this brute form, so it should be purified."
+        type="generic"
+        weight="500"/>
+  <item id="771"
+        image="generic/gempowder.png|W:#315a67,a4a4ae,dce5d6,ffffff"
+        name="Diamond Powder"
+        description="A powderized Diamond. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="772"
+        image="generic/gempowder.png|W:#581a1a,a41111,c03a3a,ff6060"
+        name="Ruby Powder"
+        description="A powderized Ruby. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="773"
+        image="generic/gempowder.png|W:#1f9c1f,89d689"
+        name="Emerald Powder"
+        description="A powderized Emerald. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="774"
+        image="generic/gempowder.png|W:#4b4bbd,888af4"
+        name="Sapphire Powder"
+        description="A powderized Sapphire. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="775"
+        image="generic/gempowder.png|W:#ccb534,f1ea8e,ffffaa"
+        name="Topaz Powder"
+        description="A powderized Topaz. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="776"
+        image="generic/gempowder.png|W:#530a7c,b362e1,ca87ef"
+        name="Amethyst Powder"
+        description="A powderized Amethyst. Has a magic aura, maybe it is useful for something?"
+        type="generic"
+        weight="50"/>
+  <item id="777"
+        image="generic/scorpionstinger.png|W:#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"
+        name="Scorpion Stinger"
+        description="Stinger from a common Scorpion."
+        type="generic"
+        weight="20"/>
+  <item id="778"
+        image="generic/skull.png"
+        name="Skull"
+        description="Viro Skull. Why are you carrying around this?!?"
+        type="generic"
+        weight="350"/>
+  <item id="779"
+        image="generic/snakeskin.png|W:#3d2613,4e3117,774c20,8f5d22,ae772d,dbae5c,f7e1ad"
+        name="Snake Skin"
+        description="Skin from a snake. Can be used to make clothes, or other stuff."
+        type="generic"
+        weight="100"/>
+  <item id="780"
+        image="generic/snaketongue.png|W:#6a0022,7c151a,c60022"
+        name="Snake Tongue"
+        description="Tongue from a snake. Its forked."
+        type="generic"
+        weight="35"/>
+  <item id="781"
+        image="generic/terraniteore.png"
+        name="Terranite Ore"
+        description="Terranite Ore. Rare mineral, has a natural repugnancy with Mana."
+        type="generic"
+        weight="500"/>
+  <item id="782"
+        image="generic/ingot.png|W:#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1"
+        name="Iron Ingot"
+        description="A heavy bloc of purified iron, can be used by blacksmiths."
+        type="generic"
+        weight="1000"/>
+  <item id="783"
+        image="generic/ingot.png|W:#402e33,5e3434,824d39,995b44,c47f4e,e0af81"
+        name="Copper Ingot"
+        description="A heavy bloc of purified copper, can be used by blacksmiths."
+        type="generic"
+        weight="1000"/>
+  <item id="784"
+        image="generic/ingot.png|W:#4b3e44,59494c,887565,a29171,ccbb9b,e7debd,faf8f1"
+        name="Silver Ingot"
+        description="A heavy bloc of purified silver, can be used by silversmiths."
+        type="generic"
+        weight="1000"/>
+  <item id="785"
+        image="generic/ingot.png|W:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Gold Ingot"
+        description="A heavy, valuable bloc of purified gold, can be used by goldsmiths."
+        type="generic"
+        weight="1000"/>
+  <item id="786"
+        image="generic/ingot.png|W:#315a67,a4a4ae,dce5d6,ffffff"
+        name="Platinum Ingot"
+        description="A heavy, valuable bloc of purified platinum, can be used by platinumsmiths."
+        type="generic"
+        weight="1000"/>
+  <item id="787"
+        image="generic/ingot.png|W:#171714,3c352a,554a39,7b6a4f,ab9372"
+        name="Terranite Ingot"
+        description="A heavy bloc of purified terranite. You wonder who could deal with that mysterious material."
+        type="generic"
+        weight="1000"/>
+  <item id="788"
+        image="generic/ore.png|W:#433623,534227,6b522d,725e42,846b48,937e5a;R:#473d0c,a67e18,daa520,ffdb94"
+        name="Rotonium Ore"
+        description="Rotonium Ore. Cannot be used in this brute form, so it must be purified."
+        type="generic"
+        weight="500"/>
+  <item id="789"
+        image="generic/ore.png|W:#483a3c,5b4343,6c5248,7a6253,846c62;R:#10201f,223a23,0b4936,4b7145,497e5e,b2d6ab,daf7fa"
+        name="Zealite Ore"
+        description="Zealite Ore. One of the rarest ores in the world. Hard to process, you should find a specialized smith for this."
+        type="generic"
+        weight="500"/>
+  <item id="790"
+        image="generic/ingot.png|W:#473d0c,a67e18,daa520,ffdb94"
+        name="Rotonium Ingot"
+        description="A valuable bloc of purified Rotonium. Light material, useful for special weapons and tactics."
+        type="generic"
+        weight="450"/>
+  <item id="791"
+        image="generic/ingot.png|W:#10201f,223a23,0b4936,4b7145,497e5e,b2d6ab,daf7fa"
+        name="Zealite Ingot"
+        description="A heavy, very valuable bloc of purified Zealite. It has a manaic aura."
+        type="generic"
+        weight="1200"/>
 
     <item id="800"
         image="generic/gem-shard.png|W:#315a67,a4a4ae,dce5d6,ffffff"
@@ -1271,13 +1485,13 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="1301"
         image="equipment/chest/vneckjumper.png|S"
         name="%Color% V-neck Jumper"
-        description="A simple %color% jumper made from a lightweight cashmere."
+        description="A simple %color% jumper made from a lightweight silk."
         defense="140"
         level="10"
         type="equip-torso"
         weight="30"
-        colors="vneck"
-        iconColors="vneckS">
+        colors="silk"
+        iconColors="silkS">
         <sprite gender="unisex">equipment/chest/vneckjumper-male.xml</sprite>
         <sprite gender="female">equipment/chest/vneckjumper-female.xml</sprite>
     </item>
@@ -1340,16 +1554,19 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
     <item id="1307"
         image="equipment/chest/silkrobe.png|S"
-        name="Silk Robe"
-        description="A light robe out of silk. Does not provide much protection, though."
+        name="%Color% Silk Robe"
+        description="A %color% light robe out of silk. Does not provide much protection, though."
         defense="100"
         level="17"
         type="equip-torso"
         weight="70"
-        colors="vneck"
-        iconColors="vneckS">
+        colors="silk"
+        iconColors="silkS">
         <sprite gender="unisex">equipment/chest/silkrobe-male.xml</sprite>
         <sprite gender="female">equipment/chest/silkrobe-female.xml</sprite>
+        <replace sprite="shoes">
+            <item from="1806" to="1810"/>
+        </replace>
     </item>
     <item id="1308"
         image="equipment/chest/finedress.png|W"
@@ -1398,6 +1615,157 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
     </item>
+
+<!-- PLACEHODERS -->
+    <item id="1312"
+        image="equipment/chest/apprenticerobe.png|W"
+        name="Apprentice Robe"
+        description="A Robe for those interested in using magic."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        colors="simple"
+        iconColors="simple"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/apprenticerobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/apprenticerobe-female.xml</sprite>
+        <replace sprite="shoes">
+            <item from="1806" to="1810"/>
+        </replace>
+    </item>
+    <item id="1313"
+        image="equipment/chest/assassinchest.png"
+        name="Assassin Chest Armor"
+        description="A hard but flexible plate armor, protects but does not reduce mobility."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/assassinchest-male.xml</sprite>
+        <sprite gender="female">equipment/chest/assassinchest-female.xml</sprite>
+    </item>
+    <item id="1314"
+        image="equipment/chest/blackarmor.png"
+        name="Black Armor"
+        description="If you like black, this may be suitable. If you dont, better choose something else."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/blackarmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/blackarmor-female.xml</sprite>
+    </item>
+    <item id="1315"
+        image="equipment/chest/chainmail.png"
+        name="Chainmail"
+        description="A chainmail armor, originally used by knights. Good for protection, but heavy."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/chainmail-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chainmail-female.xml</sprite>
+    </item>
+    <item id="1316"
+        image="equipment/chest/evocatorrobe.png"
+        name="Evocator Robe"
+        description="A robe for advanced mages who are focused on creating life, and taking it."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/evocatorrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/evocatorrobe-female.xml</sprite>
+        <replace sprite="shoes">
+            <item from="1806" to="1810"/>
+        </replace>
+    </item>
+    <item id="1317"
+        image="equipment/chest/justifierchest.png|W"
+        name="%Color% Justifier Chest"
+        description="A %color% chest armor, due to its lightweight mainly used by archers."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100"
+        colors="simple"
+        iconColors="simple">
+        <sprite gender="unisex">equipment/chest/justifierchest-male.xml</sprite>
+        <sprite gender="female">equipment/chest/justifierchest-female.xml</sprite>
+    </item>
+    <item id="1318"
+        image="equipment/chest/lightplatemail.png"
+        name="Light Platemail"
+        description="A plate armor, originally used by strong knights. Good for protection, but very heavy."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/platemail-male.xml</sprite>
+        <sprite gender="female">equipment/chest/platemail-female.xml</sprite>
+    </item>
+    <item id="1319"
+        image="equipment/chest/peltjacket.png"
+        name="Pelt Jacket"
+        description="A warm jacket with pelt. Be aware of PETA when wearing this."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/peltjacket-male.xml</sprite>
+        <sprite gender="female">equipment/chest/peltjacket-female.xml</sprite>
+    </item>
+    <item id="1320"
+        image="equipment/chest/snakeplate.png"
+        name="Snake Plate"
+        description="A light plate armor, made of snake leather. Very robust, and not too heavy."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/snakeplate-male.xml</sprite>
+        <sprite gender="female">equipment/chest/snakeplate-female.xml</sprite>
+    </item>
+    <item id="1321"
+        image="equipment/chest/sorcererrobe.png"
+        name="Sorcerer Robe"
+        description="A Robe for experienced sorcerers."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/sorcererrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/sorcererrobe-female.xml</sprite>
+        <replace sprite="shoes">
+            <item from="1806" to="1810"/>
+        </replace>
+    </item>
+    <item id="1322"
+        image="equipment/chest/terranitearmor.png"
+        name="Terranite Armor"
+        description="A piece of chest armor, made from Terranite. Very useful against magic attacks."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/terranitearmor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/terranitearmor-female.xml</sprite>
+    </item>
+    <item id="1323"
+        image="equipment/chest/wizardrobe.png"
+        name="Wizard Robe"
+        description="A protective light robe, mostly used by Wizards."
+        defense="100"
+        level="10"
+        type="equip-torso"
+        weight="100">
+        <sprite gender="unisex">equipment/chest/wizardrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/wizardrobe-female.xml</sprite>
+        <replace sprite="shoes">
+            <item from="1806" to="1810"/>
+        </replace>
+    </item>
+
     <!-- Boots -->
     <item id="1800"
         image="equipment/feet/boots.png|S:#3c3c3c,40332d,4d4d4d,5e4a3d,686868,705740,919191,a1825d,b6b6b6,b59767,dfdfdf,dbbf88"
@@ -1447,6 +1815,94 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    </item>
+
+<!-- PLACEHODERS -->
+    <item id="1804"
+        image="equipment/feet/assassinboots.png"
+        name="Assassin Boots"
+        description="Special, thin boots, used to move silently."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/assassinboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/assassinboots-female.xml</sprite>
+    </item>
+    <item id="1805"
+        image="equipment/feet/bromenalboots.png"
+        name="Bromenal Boots"
+        description="Robust boots for experienced fighters."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/bromenalboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/bromenalboots-female.xml</sprite>
+    </item>
+    <item id="1806"
+        image="equipment/feet/ridingboots.png|W:#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84"
+        name="Riding Boots"
+        description="Heavy boots with a long shaft, used for riding or for a good stand."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/ridingboots-male.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+        <sprite gender="female">equipment/feet/ridingboots-female.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+    </item>
+    <item id="1807"
+        image="equipment/feet/slippers.png|W:#495661,7b90a2,97afc6,abc7e1,c2e2ff,d9edff"
+        name="Slippers"
+        description="Very light slippers. Normally used indoors, but they also help to have a good connection to the earth, and to the Mana within."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/slippers-male.xml</sprite>
+        <sprite gender="female">equipment/feet/slippers-female.xml</sprite>
+    </item>
+    <item id="1808"
+        image="equipment/feet/warlordboots.png"
+        name="Warlord Boots"
+        description="Only the best swordsmen are capable of fighting with those heavy shoes."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/warlordboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/warlordboots-female.xml</sprite>
+    </item>
+    <item id="1809"
+        image="equipment/feet/slippers.png|S"
+        name="%Color% Mana Slippers"
+        description="Very light %color% slippers, with a robust sole. They also help to have a good connection to the earth, and to the Mana within, so they are quite useful for mages."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8"
+        colors="silk"
+        iconColors="silkS">
+        <sprite gender="unisex">equipment/feet/slippers-male.xml</sprite>
+        <sprite gender="female">equipment/feet/slippers-female.xml</sprite>
+    </item>
+    <item id="1810"
+        image="equipment/feet/squirrelboots.png|W:#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84"
+        name="Squirrel Boots"
+        description="Shoort boots made of squirrel leather, well-designed for moving in the forest."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="10"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/squirrelboots-male.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+        <sprite gender="female">equipment/feet/squirrelboots-female.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
     </item>
 
     <!-- Gloves -->
@@ -1524,6 +1980,58 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/hands/cottongloves-female.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
     </item>
 
+<!-- PLACEHODERS -->
+    <item id="2006"
+        image="equipment/hands/assassingloves.png"
+        name="Assassin Gloves"
+        description="Thin, but deadly gloves, best to be used when fighting with bare hands."
+        defense="10"
+        level="10"
+        type="equip-arms"
+        weight="0"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/assassingloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/assassingloves-female.xml</sprite>
+    </item>
+    <item id="2007"
+        image="equipment/hands/bromenalgloves.png"
+        name="Bromenal Gloves"
+        description="A Fighter's gloves from material pretty unknown nowadays."
+        defense="10"
+        level="10"
+        type="equip-arms"
+        weight="0"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/bromenalgloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite>
+    </item>
+    <item id="2008"
+        image="equipment/hands/shortgloves.png"
+        name="Short Gloves"
+        description="Very thin gloves. They do not protect well, but they are not a big barrier for Mana either."
+        defense="10"
+        level="10"
+        type="equip-arms"
+        weight="0"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/shortgloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/shortgloves-female.xml</sprite>
+    </item>
+    <item id="2009"
+        image="equipment/hands/shortgloves.png|S"
+        name="%Color% Silk Gloves"
+        description="Very thin %color% gloves, made of silk. They do not protect well, but they are no barrier for Mana at all."
+        defense="10"
+        level="10"
+        type="equip-arms"
+        weight="0"
+        maxFloorOffset="16"
+        colors="silk"
+		iconColors="silkS">
+        <sprite gender="unisex">equipment/hands/shortgloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/shortgloves-female.xml</sprite>
+    </item>
+
     <!-- Pants -->
     <item id="2200"
         image="equipment/legs/shorts.png|S:#4d4d4d,514d47,686868,706662,919191,99917b,b6b6b6,c0b698,dfdfdf,e4dfca"
@@ -1563,14 +2071,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     </item>
     <item id="2203"
         image="equipment/legs/silkpants.png|W"
-        name="%Color% Cashmere Pants"
-        description="A very light fancy pair of %Color% cashmere trousers."
+        name="%Color% Silk Pants"
+        description="A very light fancy pair of %Color% silk trousers."
         defense="75"
         level="17"
         type="equip-legs"
         weight="20"
-        colors="vneck"
-        iconColors="vneckS"
+        colors="silk"
+        iconColors="silkS"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/legs/silkpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/silkpants-female.xml</sprite>
@@ -1612,6 +2120,57 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="unisex">equipment/legs/bandittrousers-male.xml</sprite>
         <sprite gender="female">equipment/legs/bandittrousers-female.xml</sprite>
     </item>
+
+<!-- PLACEHODERS -->
+    <item id="2207"
+        image="equipment/legs/assassinpants.png"
+        name="Assassin Pants"
+        description="Dark colored pants, for fighters to be invisible in darkness."
+        defense="100"
+        level="10"
+        type="equip-legs"
+        weight="100"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/assassinpants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/assassinpants-female.xml</sprite>
+    </item>
+    <item id="2208"
+        image="equipment/legs/chainmailskirt.png"
+        name="Chainmail Skirt"
+        description="A heavy skirt made of chainmail material. Quite protective."
+        defense="100"
+        level="10"
+        type="equip-legs"
+        weight="100"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/chainmailskirt-male.xml</sprite>
+        <sprite gender="female">equipment/legs/chainmailskirt-female.xml</sprite>
+    </item>
+    <item id="2209"
+        image="equipment/legs/pirateshorts.png"
+        name="Pirate Shorts"
+        description="Tattered, washed-out shorts. Not really protective, but good for spending a life on a ship."
+        defense="100"
+        level="10"
+        type="equip-legs"
+        weight="100"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/pirateshorts-male.xml</sprite>
+        <sprite gender="female">equipment/legs/pirateshorts-female.xml</sprite>
+    </item>    
+	<item id="2210"
+        image="equipment/legs/terranitepants.png"
+        name="Terranite Pants"
+        description="A pair of pretty stiff pants, made from Terranite. Very useful against magic attacks."
+        defense="100"
+        level="10"
+        type="equip-legs"
+        weight="100"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/legs/terranitepants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/terranitepants-female.xml</sprite>
+    </item>
+
 
     <!-- Wings
     <item id="2500"
@@ -1844,14 +2403,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         </replace>
     </item>
     <item id="2912"
-        image="equipment/head/bowlerhat.png"
+        image="equipment/head/bowlerhat.png|W:#0d1430,21337c,4363e5"
         name="Bowler Hat"
         description="A hat for those with a bit of class."
         defense="40"
         level="15"
         type="equip-head"
         weight="30">
-        <sprite>equipment/head/bowlerhat.xml</sprite>
+        <sprite>equipment/head/bowlerhat.xml|#0d1430,21337c,4363e5</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
             <item from="-14" to="-9"/>
@@ -1904,14 +2463,14 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite>equipment/head/bandithood.xml</sprite>
     </item>
     <item id="2917"
-        image="equipment/head/bowlerhat-brown.png"
+        image="equipment/head/bowlerhat.png|W:#3f221d,754d23,f5cea4"
         name="Brown Bowler Hat"
         description="A hat for those with a bit of class."
         defense="40"
         level="15"
         type="equip-head"
         weight="30">
-        <sprite>equipment/head/bowlerhat-brown.xml</sprite>
+        <sprite>equipment/head/bowlerhat.xml|#3f221d,754d23,f5cea4</sprite>
         <replace sprite="hair">
             <item from="-5" to="-4"/>
             <item from="-14" to="-9"/>
@@ -1989,12 +2548,119 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 	<item id="2924"
 		image="equipment/head/beaniecopter.png"
 		name="Beanie Copter"
-		description="A funny beanie cap with a spinning propeller"
+		description="A funny beanie cap with a spinning propeller."
 		defense="4"
 		level="3"
 		type="equip-head"
 		weight="20">
 		<sprite>equipment/head/beaniecopter.xml</sprite>
+	</item>
+
+    <!-- Placeholder Hats -->
+	<item id="2925"
+		image="equipment/head/bull.png"
+		name="Bull Helmet"
+		description="Heavy helmet for the merciless fighter."
+		defense="5"
+		level="10"
+		type="equip-head"
+		weight="100">
+		<sprite>equipment/head/bull.xml</sprite>
+	</item>
+	<item id="2926"
+		image="equipment/head/bunnyears.png|W"
+		name="Bunny Ears"
+		description="So cute! You look like a bunny!"
+		defense="5"
+		level="10"
+		type="equip-head"
+        colors="simple"
+        iconColors="simple"
+		weight="100">
+		<sprite>equipment/head/bunnyears.xml</sprite>
+	</item>
+	<item id="2927"
+		image="equipment/head/deserthat.png|R"
+		name="Desert Hat"
+		description="If you stroll under the burning suns, be sure to protect your head."
+		defense="5"
+		level="10"
+		type="equip-head"
+		weight="100"
+        colors="simple"
+        iconColors="simple">
+		<sprite>equipment/head/deserthat.xml</sprite>
+	</item>
+	<item id="2928"
+		image="equipment/head/minerhat.png"
+		name="Miner Hat"
+		description="You would like to wear a protective helmet, which can enlight the area in front of you, if you are in deep caves."
+		defense="5"
+		level="10"
+		type="equip-head"
+		weight="100">
+		<sprite>equipment/head/minerhat.xml</sprite>
+	</item>
+	<item id="2929"
+		image="equipment/head/silkheadband.png|S"
+		name="Silk Headband"
+		description="Wow! With this you look like Rambo!"
+		defense="5"
+		level="10"
+		type="equip-head"
+        colors="silk"
+        iconColors="silkS"
+		weight="100">
+		<sprite>equipment/head/silkheadband.xml</sprite>
+	</item>
+	<item id="2930"
+		image="equipment/head/standardheadband.png|W"
+		name="Headband"
+		description="Hmm, you look like a cheap version of Rambo."
+		defense="5"
+		level="10"
+		type="equip-head"
+        colors="simple"
+        iconColors="simple"
+		weight="100">
+		<sprite>equipment/head/standardheadband.xml</sprite>
+	</item>
+	<item id="2931"
+		image="equipment/head/terranitehelmet.png"
+		name="Terranite Helmet"
+		description="Even though this is a bit stinky, the material properly protects your head, and its internals."
+		defense="5"
+		level="10"
+		type="equip-head"
+		weight="100">
+		<sprite>equipment/head/terranitehelmet.xml</sprite>
+		<replace sprite="hair">
+			<item from="-5" to="-4"/>
+			<item from="-14" to="-9"/>
+			<item from="-15" to="-19"/>
+		</replace>
+	</item>
+	<item id="2932"
+		image="equipment/head/trapperhat.png"
+		name="Trapper Hat"
+		description="When you are exploring the cold areas of the planet, be sure to keep your ears warm."
+		defense="5"
+		level="10"
+		type="equip-head"
+		weight="100">
+		<sprite>equipment/head/trapperhat.xml</sprite>
+	</item>
+	<item id="2933"
+		image="equipment/head/wizardhat.png|S"
+		name="Wizard Hat"
+		description="You call yourself a mage? Be sure to equip proper headwear!"
+		defense="5"
+		level="10"
+		type="equip-head"
+        colors="silk"
+        iconColors="silkS"
+		weight="100">
+		<sprite>equipment/head/wizardhat.xml</sprite>
 	</item>
 
     <!-- Neck Armors -->
@@ -2273,28 +2939,28 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 
     <!-- Cards -->
     <item id="5000"
-        image="usable/dye.png|S:#3c3c3c,3e1e28,4d4d4d,6f2630,686868,a6313f,919191,d15b5b,b6b6b6,e59b77,dfdfdf,efe0c1"
-        name="Crimson Cashmere Dye"
+        image="usable/dye.png|S:#3c3c3c,010101,4d4d4d,111111,686868,222222,919191,333333,b6b6b6,444444,dfdfdf,555555"
+        name="Pitch Black Silk Dye"
         useButton="Dye"
-        description="Color dye that can be used on cashemere clothing."
+        description="Color dye that can be used on silk clothing."
         type="card"
         weight="1"
         cardColor="2"
         maxFloorOffset="15"/>
     <item id="5001"
         image="usable/dye.png|S:#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"
-        name="Chocolate Cashmere Dye"
+        name="Chocolate Silk Dye"
         useButton="Dye"
-        description="Color dye that can be used on cashemere clothing."
+        description="Color dye that can be used on silk clothing."
         type="card"
         weight="1"
         cardColor="3"
         maxFloorOffset="15"/>
     <item id="5002"
-        image="usable/dye.png|S:#3c3c3c,35313d,4d4d4d,443f4f,686868,485c6b,919191,50918f,b6b6b6,75c7a8,dfdfdf,c3e8c4"
-        name="Mint Cashmere Dye"
+        image="usable/dye.png|S:#3c3c3c,2b1b29,4d4d4d,3e1e28,686868,6f2630,919191,a6313f,b6b6b6,d15b5b,dfdfdf,e59b77"
+        name="Crimson Silk Dye"
         useButton="Dye"
-        description="Color dye that can be used on cashemere clothing."
+        description="Color dye that can be used on silk clothing."
         type="card"
         weight="1"
         cardColor="4"
@@ -2572,6 +3238,97 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         cardColor="7"
         weight="80"
         maxFloorOffset="15"/>
+    <item id="5034"
+        image="usable/dye.png|S:#3c3c3c,54290b,4d4d4d,762113,686868,9b3726,919191,e66752,b6b6b6,f3b898,dfdfdf,fbddd9"
+        name="Tomato Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="5"
+        maxFloorOffset="15"/>
+    <item id="5035"
+        image="usable/dye.png|S:#3c3c3c,473d0c,4d4d4d,806828,686868,a67e18,919191,daa520,b6b6b6,e3c24f,dfdfdf,ffdb94"
+        name="Goldenrod Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="6"
+        maxFloorOffset="15"/>
+    <item id="5036"
+        image="usable/dye.png|S:#3c3c3c,655329,4d4d4d,a08412,686868,cba225,919191,ecc714,b6b6b6,fade1e,dfdfdf,ffef85"
+        name="Sunflower Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="7"
+        maxFloorOffset="15"/>
+    <item id="5037"
+        image="usable/dye.png|S:#3c3c3c,292b00,4d4d4d,393b03,686868,5b5e0a,919191,767a13,b6b6b6,adb22d,dfdfdf,b5c059"
+        name="Olive Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="8"
+        maxFloorOffset="15"/>
+    <item id="5038"
+        image="usable/dye.png|S:#3c3c3c,22241d,4d4d4d,2f3b2d,686868,3f6543,919191,689c46,b6b6b6,bac75f,dfdfdf,deeba3"
+        name="Sea Green Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="9"
+        maxFloorOffset="15"/>
+    <item id="5039"
+        image="usable/dye.png|S:#3c3c3c,35313d,4d4d4d,443f4f,686868,485c6b,919191,50918f,b6b6b6,75c7a8,dfdfdf,c3e8c4"
+        name="Mint Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="10"
+        maxFloorOffset="15"/>
+    <item id="5040"
+        image="usable/dye.png|S:#3c3c3c,030323,4d4d4d,10104d,686868,191970,919191,3333a8,b6b6b6,404e95,dfdfdf,6382ce"
+        name="Midnight Blue Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="11"
+        maxFloorOffset="15"/>
+    <item id="5041"
+        image="usable/dye.png|S:#3c3c3c,353d51,4d4d4d,414169,686868,585889,919191,6a5acd,b6b6b6,9e94de,dfdfdf,d8c3ff"
+        name="Slat Blue Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="12"
+        maxFloorOffset="15"/>
+    <item id="5042"
+        image="usable/dye.png|S:#3c3c3c,3d3d4c,4d4d4d,674789,686868,9355b0,919191,ba55d3,b6b6b6,d578f8,dfdfdf,d2aaff"
+        name="Orchid Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="13"
+        maxFloorOffset="15"/>
+    <item id="5043"
+        image="usable/dye.png|S:#3c3c3c,603452,4d4d4d,993d5a,686868,c5536e,919191,de718c,b6b6b6,f096b6,dfdfdf,ffc4d9"
+        name="Pinkie Pink Silk Dye"
+        useButton="Dye"
+        description="Color dye that can be used on silk clothing."
+        type="card"
+        weight="1"
+        cardColor="14"
+        maxFloorOffset="15"/>
+
     <!-- Bows -->
     <item id="6000"
         image="equipment/weapons/woodenbow.png"
