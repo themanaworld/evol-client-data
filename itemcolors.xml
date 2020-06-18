@@ -3,29 +3,6 @@
 Copyright (C) 2010-2015 Evol Online -->
 
 <colors>
-    <!-- Colors For Simple Items -->
-    <list name="simple">
-        <color id="1" name="White" value="#585858,aaaaaa,d0d0d0,ffffff"/>
-        <color id="2" name="Black" value="#111111,222222,333333,444444,555555,aaaaaa"/>
-        <color id="3" name="Silver" value="#44494b,797a7e,b9bbc1"/>
-        <color id="4" name="Camel" value="#594d36,b49b6c,f4d293"/>
-        <color id="5" name="Brown" value="#3f221d,754d23,f5cea4"/>
-        <color id="6" name="Orange" value="#831f2d,f07401,f8cc8b"/>
-        <color id="7" name="Dark Red" value="#6a0022,7c151a,c60022"/>
-        <color id="8" name="Red" value="#580000,a40000,c02020,ff6060"/>
-        <color id="9" name="Fuchsia" value="#620e48,bf1b8b,e32bcf,ffb6f7"/>
-        <color id="10" name="Pink" value="#a92d42,f67189,ffbac7"/>
-        <color id="11" name="Mauve" value="#640088,b350e0,ecb7ff"/>
-        <color id="12" name="Purple" value="#3c1554,6d3195,c987d1"/>
-        <color id="13" name="Navy Blue" value="#0d1430,21337c,4363e5"/>
-        <color id="14" name="Blue Gray" value="#2d2d41,4c4d9a,7b7b99"/>
-        <color id="15" name="Blue" value="#16486e,498ec5,e4f2fc"/>
-        <color id="16" name="Teal" value="#196253,18986c,37cf7d"/>
-        <color id="17" name="Green" value="#115511,22aa22,99dd99"/>
-        <color id="18" name="Lime" value="#547000,a5dc00,d1ff46"/>
-        <color id="19" name="Khaki" value="#002504,2d551b,07871d"/>
-        <color id="20" name="Yellow" value="#846211,dab333,fffb93,ffffff"/>
-    </list>
 
     <!-- Simple Hair Colors -->
     <list name="hair">
@@ -77,20 +54,64 @@ Copyright (C) 2010-2015 Evol Online -->
         <color id="20" name="Esperia Blue" value="#2b2b2b,37273b,3f3f3f,422c48,585858,615282,858585,6f78ab,a7a7a7,90abcd,d6d6d6,96cdd9,ffffff,d1e9eb"/>
     </list>
 
-    <!-- Colors For V-Neck item icon -->
-    <list name="vneckS">
-        <color id="1" name="White" value="#3c3c3c,443c3e,4d4d4d,59504f,686868,857671,919191,b39f8a,b6b6b6,d7c9aa,dfdfdf,efeddb"/>
-        <color id="2" name="Crimson" value="#3c3c3c,2b1b29,4d4d4d,3e1e28,686868,6f2630,919191,a6313f,b6b6b6,d15b5b,dfdfdf,e59b77"/>
-        <color id="3" name="Chocolate" value="#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"/>
-        <color id="4" name="Mint" value="#3c3c3c,35313d,4d4d4d,443f4f,686868,485c6b,919191,50918f,b6b6b6,75c7a8,dfdfdf,c3e8c4"/>
+    <!-- Colors For Simple Items -->
+    <list name="simple">
+        <color id="1" name="White" value="#585858,aaaaaa,d0d0d0,ffffff"/>
+        <color id="2" name="Black" value="#111111,222222,333333,444444,555555,aaaaaa"/>
+        <color id="3" name="Silver" value="#44494b,797a7e,b9bbc1"/>
+        <color id="4" name="Camel" value="#594d36,b49b6c,f4d293"/>
+        <color id="5" name="Brown" value="#3f221d,754d23,f5cea4"/>
+        <color id="6" name="Orange" value="#831f2d,f07401,f8cc8b"/>
+        <color id="7" name="Dark Red" value="#6a0022,7c151a,c60022"/>
+        <color id="8" name="Red" value="#580000,a40000,c02020,ff6060"/>
+        <color id="9" name="Fuchsia" value="#620e48,bf1b8b,e32bcf,ffb6f7"/>
+        <color id="10" name="Pink" value="#a92d42,f67189,ffbac7"/>
+        <color id="11" name="Mauve" value="#640088,b350e0,ecb7ff"/>
+        <color id="12" name="Purple" value="#3c1554,6d3195,c987d1"/>
+        <color id="13" name="Navy Blue" value="#0d1430,21337c,4363e5"/>
+        <color id="14" name="Blue Gray" value="#2d2d41,4c4d9a,7b7b99"/>
+        <color id="15" name="Blue" value="#16486e,498ec5,e4f2fc"/>
+        <color id="16" name="Teal" value="#196253,18986c,37cf7d"/>
+        <color id="17" name="Green" value="#115511,22aa22,99dd99"/>
+        <color id="18" name="Lime" value="#547000,a5dc00,d1ff46"/>
+        <color id="19" name="Khaki" value="#002504,2d551b,07871d"/>
+        <color id="20" name="Yellow" value="#846211,dab333,fffb93,ffffff"/>
     </list>
 
-    <!-- Colors For V-Neck item sprite -->
-    <list name="vneck">
+    <!-- Colors For Silk item icons (S dye, take care on icon palette) -->
+    <list name="silkS">
+        <color id="1" name="White" value="#3c3c3c,443c3e,4d4d4d,59504f,686868,857671,919191,b39f8a,b6b6b6,d7c9aa,dfdfdf,efeddb"/>
+        <color id="2" name="Pitch Black" value="#3c3c3c,010101,4d4d4d,111111,686868,222222,919191,333333,b6b6b6,444444,dfdfdf,555555"/>
+        <color id="3" name="Chocolate" value="#3c3c3c,302525,4d4d4d,4a3430,686868,69453a,919191,96664c,b6b6b6,bf8d67,dfdfdf,e6c19c"/>
+        <color id="4" name="Crimson" value="#3c3c3c,2b1b29,4d4d4d,3e1e28,686868,6f2630,919191,a6313f,b6b6b6,d15b5b,dfdfdf,e59b77"/>
+        <color id="5" name="Tomato" value="#3c3c3c,54290b,4d4d4d,762113,686868,9b3726,919191,e66752,b6b6b6,f3b898,dfdfdf,fbddd9"/>
+        <color id="6" name="Goldenrod" value="#3c3c3c,473d0c,4d4d4d,806828,686868,a67e18,919191,daa520,b6b6b6,e3c24f,dfdfdf,ffdb94"/>
+        <color id="7" name="Sunflower" value="#3c3c3c,655329,4d4d4d,a08412,686868,cba225,919191,ecc714,b6b6b6,fade1e,dfdfdf,ffef85"/>
+        <color id="8" name="Olive" value="#3c3c3c,292b00,4d4d4d,393b03,686868,5b5e0a,919191,767a13,b6b6b6,adb22d,dfdfdf,b5c059"/>
+        <color id="9" name="Sea Green" value="#3c3c3c,22241d,4d4d4d,2f3b2d,686868,3f6543,919191,689c46,b6b6b6,bac75f,dfdfdf,deeba3"/>
+        <color id="10" name="Mint" value="#3c3c3c,35313d,4d4d4d,443f4f,686868,485c6b,919191,50918f,b6b6b6,75c7a8,dfdfdf,c3e8c4"/>
+        <color id="11" name="Midnight Blue" value="#3c3c3c,030323,4d4d4d,10104d,686868,191970,919191,3333a8,b6b6b6,404e95,dfdfdf,6382ce"/>
+        <color id="12" name="Slate Blue" value="#3c3c3c,353d51,4d4d4d,414169,686868,585889,919191,6a5acd,b6b6b6,9e94de,dfdfdf,d8c3ff"/>
+        <color id="13" name="Orchid" value="#3c3c3c,3d3d4c,4d4d4d,674789,686868,9355b0,919191,ba55d3,b6b6b6,d578f8,dfdfdf,d2aaff"/>
+        <color id="14" name="Pinkie Pink" value="#3c3c3c,603452,4d4d4d,993d5a,686868,c5536e,919191,de718c,b6b6b6,f096b6,dfdfdf,ffc4d9"/>
+    </list>
+
+    <!-- Colors For Silk item sprite -->
+    <list name="silk">
         <color id="1" name="White" value="#585858,a39f8a,d7c9be,ffffff"/>
-        <color id="2" name="Crimson" value="#512325,c14759,e7bfad"/>
+        <color id="2" name="Pitch Black" value="#010101,222222,444444"/>
         <color id="3" name="Chocolate" value="#4a3430,69453a,bf8d67,e6c19c"/>
-        <color id="4" name="Mint" value="#2e4c4b,59a886,bbe4bb"/>
+        <color id="4" name="Crimson" value="#512325,c14759,e7bfad"/>
+        <color id="5" name="Tomato" value="#54290b,9b3726,e66752,fbddd9"/>
+        <color id="6" name="Goldenrod" value="#473d0c,a67e18,daa520,ffdb94"/>
+        <color id="7" name="Sunflower" value="#a08412,ecc714,ffef85"/>
+        <color id="8" name="Olive" value="#393b03,767a13,adb22d,b5c059"/>
+        <color id="9" name="Sea Green" value="#22241d,3f6543,689c46,deeba3"/>
+        <color id="10" name="Mint" value="#2e4c4b,59a886,bbe4bb"/>
+        <color id="11" name="Midnight Blue" value="#030323,191970,6382ce"/>
+        <color id="12" name="Slate Blue" value="#353d51,585889,6a5acd,d8c3ff"/>
+        <color id="13" name="Orchid" value="#3d3d4c,9355b0,ba55d3,d2aaff"/>
+        <color id="14" name="Pinkie Pink" value="#993d5a,f096b6,ffc4d9"/>
     </list>
 
     <!-- Colors For mineral-based item sprite and icon-->
@@ -105,5 +126,6 @@ Copyright (C) 2010-2015 Evol Online -->
         <color id="8" name="Copper" value="#402e33,5e3434,824d39,995b44,c47f4e,e0af81"/>
         <color id="9" name="Iron" value="#2f382e,48504f,5b6c6b,7d8d8a,929d9d,b6bac2,ced2d1"/>
         <color id="10" name="Gold" value="#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"/>
+        <color id="11" name="Zealite" value="#10201f,223a23,0b4936,4b7145,497e5e,b2d6ab,daf7fa"/>
     </list>
 </colors>

@@ -427,10 +427,69 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="spawn">monsters/blub/spawn1.ogg</sound>
     </monster>
     <monster id="1075" name="Snake" walkType="walk" targetCursor="small">
-        <sprite>monsters/snake.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+        <sprite>monsters/snake.xml|#594d36,b49b6c,f4d293</sprite>
     </monster>
     <monster id="1076" name="Giant Maggot" walkType="walk" targetCursor="medium">
         <sprite>monsters/giant-maggot.xml</sprite>
+    </monster>
+    <monster id="1077" name="Desert Snake" walkType="walk" targetCursor="small">
+        <sprite>monsters/snake.xml|#3d2613,4e3117,774c20,8f5d22,ae772d,dbae5c,f7e1ad</sprite>
+    </monster>
+    <monster id="1078" name="Desert Scorpion" walkType="walk" targetCursor="small">
+        <sprite>monsters/scorpion.xml|#594d36,b49b6c,f4d293</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+    </monster>
+    <monster id="1079" name="Black Slime" walkType="walk" targetCursor="small">
+        <sprite>monsters/slime.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
+	<monster id="1080" name="Fire Goblin" targetCursor="medium">
+		<sprite>monsters/firegoblin.xml</sprite>
+	<sound event="hit">monsters/firegoblin/firegoblinhit.ogg</sound>
+	<sound event="hit">monsters/firegoblin/firegoblinhit2.ogg</sound>
+	<sound event="miss">monsters/firegoblin/firegoblinmiss.ogg</sound>
+	</monster>
+  <monster id="1081" name="Brotherhood Fighter">
+    <sprite>races/human-male-medium.xml</sprite>
+    <sprite>equipment/legs/jeanschaps-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/hands/armbands-male.xml|#663d38,4b6167,8f5c52,708892,ad7c65,a5bebf,d9c9b2,a5bebf</sprite>
+    <sprite>equipment/head/fancyhat.xml</sprite>
+    <sprite>equipment/weapons/knife.xml</sprite>
+    <sprite>equipment/chest/shirt-male.xml|#4e6059,6c8279;#72571e,836737,a5854d,b18f45</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+  <monster id="1082" name="Brotherhood Archer">
+    <sprite>races/elven-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/head/fairyhat.xml</sprite>
+    <sprite>equipment/weapons/woodenbow.xml</sprite>
+    <sprite>equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
+    <sprite>equipment/chest/wizardrobe-female.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/training-arrow.xml" action="attack_bow"/>
+  </monster>
+  <monster id="1083" name="Brotherhood Leader">
+    <sprite>races/human-male-dark.xml</sprite>
+    <sprite>equipment/legs/trousers-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#222222,343434,3d3d3d,545454,606060,6c6c6c</sprite>
+    <sprite>equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+    <sprite>equipment/head/infantryhelmet.xml</sprite>
+    <sprite>equipment/weapons/piouslayer.xml</sprite>
+    <sprite>equipment/chest/forestarmor-male.xml</sprite>
+    <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
+    <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
+  </monster>
+    <monster id="1084" name="Skeleton" targetCursor="small">
+        <sprite>monsters/skeleton.xml</sprite>
     </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>

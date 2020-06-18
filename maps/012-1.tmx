@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="160" height="160" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="15">
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="160" height="160" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="17">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
@@ -1637,7 +1637,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="9" name="Objects" visible="0">
+ <objectgroup id="9" name="Objects">
   <properties>
    <property name="license" value="CC BY-SA 3.0"/>
    <property name="manaplus version" value="2"/>
@@ -1746,5 +1746,6 @@
     <property name="spawn" value="15000"/>
    </properties>
   </object>
+  <object id="15" name="^CANDOR" type="anchor" x="1568" y="3648" width="32" height="32"/>
  </objectgroup>
 </map>

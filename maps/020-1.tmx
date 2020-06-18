@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="320" height="280" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="7">
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="320" height="280" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="149">
  <properties>
-  <property name="NoOverlappingRules" value="true"/>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/020-1.png"/>
@@ -2950,8 +2949,181 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="11" name="Objects" visible="0">
-  <object id="1" name="Manana Tree" type="spawn" x="2368" y="3040">
+ <objectgroup id="11" name="Objects">
+  <object id="2" name="^GARDEN" type="anchor" x="2432" y="3168" width="32" height="32"/>
+  <object id="3" name="^TULIM|MARKET" type="anchor" x="7168" y="5600" width="32" height="32"/>
+  <object id="4" name="^OASIS" type="anchor" x="9184" y="7872" width="32" height="32"/>
+  <object id="5" name="^MAGIC|ACAD" type="anchor" x="1632" y="3808" width="32" height="32"/>
+  <object id="6" name="^MINE" type="anchor" x="2432" y="7584" width="32" height="32"/>
+  <object id="26" name="To Valley" type="warp" x="5280" y="7744" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="020-1"/>
+    <property name="dest_x" value="165"/>
+    <property name="dest_y" value="250"/>
+   </properties>
+  </object>
+  <object id="27" name="To Desert" type="warp" x="5280" y="7968" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="020-1"/>
+    <property name="dest_x" value="165"/>
+    <property name="dest_y" value="241"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="Spawns">
+  <object id="28" name="Maggot" type="spawn" x="4832" y="2080" width="928" height="800">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="29" name="Maggot" type="spawn" x="5376" y="4928" width="3488" height="1216">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="30" name="Maggot" type="spawn" x="8640" y="2400" width="832" height="2528">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="31" name="Desert Scorpion" type="spawn" x="1504" y="5472" width="8224" height="2496">
+   <properties>
+    <property name="death" value="36000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="1078"/>
+    <property name="spawn" value="12000"/>
+   </properties>
+  </object>
+  <object id="32" name="Desert Scorpion" type="spawn" x="1312" y="4224" width="1216" height="1696">
+   <properties>
+    <property name="death" value="36000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1078"/>
+    <property name="spawn" value="12000"/>
+   </properties>
+  </object>
+  <object id="33" name="Desert Snake" type="spawn" x="1088" y="4256" width="3744" height="3648">
+   <properties>
+    <property name="death" value="72000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1077"/>
+    <property name="spawn" value="18000"/>
+   </properties>
+  </object>
+  <object id="34" name="Black Slime" type="spawn" x="1184" y="4640" width="1504" height="1920">
+   <properties>
+    <property name="death" value="36000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1079"/>
+    <property name="spawn" value="8500"/>
+   </properties>
+  </object>
+  <object id="35" name="Maggot" type="spawn" x="3328" y="5888" width="5440" height="2112">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="36" name="Golden Scorpion" type="spawn" x="4736" y="7968" width="608" height="224">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1110"/>
+    <property name="spawn" value="120000"/>
+   </properties>
+  </object>
+  <object id="37" name="Brotherhood Fighter" type="spawn" x="4672" y="2240" width="1408" height="736">
+   <properties>
+    <property name="death" value="18000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1081"/>
+    <property name="spawn" value="6000"/>
+   </properties>
+  </object>
+  <object id="38" name="Legion Swordswoman" type="spawn" x="8512" y="2592" width="896" height="1024">
+   <properties>
+    <property name="death" value="18000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1066"/>
+    <property name="spawn" value="6000"/>
+   </properties>
+  </object>
+  <object id="39" name="Yellow Slime" type="spawn" x="1632" y="4448" width="1504" height="2976">
+   <properties>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1073"/>
+    <property name="spawn" value="13500"/>
+   </properties>
+  </object>
+  <object id="40" name="Desert Snake" type="spawn" x="6720" y="6272" width="2880" height="1984">
+   <properties>
+    <property name="death" value="36000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1077"/>
+    <property name="spawn" value="18000"/>
+   </properties>
+  </object>
+  <object id="41" name="Thief Slime" type="spawn" x="8288" y="7616" width="1216" height="672">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1105"/>
+    <property name="spawn" value="11500"/>
+   </properties>
+  </object>
+  <object id="42" name="Giant Maggot" type="spawn" x="2592" y="6048" width="2944" height="736">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1076"/>
+    <property name="spawn" value="36000"/>
+   </properties>
+  </object>
+  <object id="43" name="Giant Maggot" type="spawn" x="1920" y="1824" width="704" height="1088">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1076"/>
+    <property name="spawn" value="36000"/>
+   </properties>
+  </object>
+  <object id="44" name="Maggot" type="spawn" x="1792" y="2272" width="928" height="1056">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="1026"/>
+    <property name="spawn" value="5000"/>
+   </properties>
+  </object>
+  <object id="45" name="Thief Slime" type="spawn" x="2016" y="2048" width="512" height="672">
+   <properties>
+    <property name="death" value="45000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1105"/>
+    <property name="spawn" value="11500"/>
+   </properties>
+  </object>
+  <object id="46" name="Fire Goblin" type="spawn" x="1440" y="4160" width="3744" height="3712">
+   <properties>
+    <property name="death" value="50000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="1080"/>
+    <property name="spawn" value="8000"/>
+   </properties>
+  </object>
+  <object id="49" name="Manana Tree" type="spawn" x="2368" y="3040">
    <properties>
     <property name="death" value="240000"/>
     <property name="max_beings" value="1"/>
@@ -2959,10 +3131,285 @@
     <property name="spawn" value="420000"/>
    </properties>
   </object>
-  <object id="2" name="^GARDEN" type="anchor" x="2432" y="3168" width="32" height="32"/>
-  <object id="3" name="^TULIM|MARKET" type="anchor" x="7168" y="5600" width="32" height="32"/>
-  <object id="4" name="^OASIS" type="anchor" x="9184" y="7872" width="32" height="32"/>
-  <object id="5" name="^MAGIC|ACAD" type="anchor" x="1632" y="3808" width="32" height="32"/>
-  <object id="6" name="^MINE" type="anchor" x="2432" y="7584" width="32" height="32"/>
+  <object id="51" name="Tortuga" type="spawn" x="1088" y="3040" width="7904" height="2272">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="1004"/>
+    <property name="spawn" value="35000"/>
+   </properties>
+  </object>
+  <object id="52" name="Blub" type="spawn" x="1248" y="5056" width="288" height="1472">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1008"/>
+    <property name="spawn" value="60000"/>
+   </properties>
+  </object>
+  <object id="53" name="Blub" type="spawn" x="8640" y="7744" width="800" height="512">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1008"/>
+    <property name="spawn" value="60000"/>
+   </properties>
+  </object>
+  <object id="54" name="Little Blub" type="spawn" x="1920" y="1824" width="3488" height="4032">
+   <properties>
+    <property name="death" value="120000"/>
+    <property name="max_beings" value="12"/>
+    <property name="monster_id" value="1007"/>
+    <property name="spawn" value="25000"/>
+   </properties>
+  </object>
+  <object id="118" name="Crocotree" type="spawn" x="9408" y="3040">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="119" name="Crocotree" type="spawn" x="8768" y="3360">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="120" name="Crocotree" type="spawn" x="8896" y="4000">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="121" name="Crocotree" type="spawn" x="8288" y="4672">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="122" name="Crocotree" type="spawn" x="9248" y="4608">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="123" name="Crocotree" type="spawn" x="7872" y="5120">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="124" name="Crocotree" type="spawn" x="6880" y="5888">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="125" name="Crocotree" type="spawn" x="6208" y="5600">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="126" name="Crocotree" type="spawn" x="5984" y="5024">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="127" name="Crocotree" type="spawn" x="5504" y="4928">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="128" name="Crocotree" type="spawn" x="4480" y="4256">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="129" name="Crocotree" type="spawn" x="5632" y="4384">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="130" name="Crocotree" type="spawn" x="4992" y="2688">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="131" name="Crocotree" type="spawn" x="4544" y="2464">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="132" name="Crocotree" type="spawn" x="3328" y="5856">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="133" name="Crocotree" type="spawn" x="2560" y="6208">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="134" name="Crocotree" type="spawn" x="1600" y="6016">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="135" name="Crocotree" type="spawn" x="1568" y="5408">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="136" name="Crocotree" type="spawn" x="2272" y="5312">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="137" name="Crocotree" type="spawn" x="2560" y="4928">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="138" name="Crocotree" type="spawn" x="2880" y="4416">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="139" name="Crocotree" type="spawn" x="2144" y="4544">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="140" name="Crocotree" type="spawn" x="1280" y="4448">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="141" name="Crocotree" type="spawn" x="1248" y="4000">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="142" name="Crocotree" type="spawn" x="2464" y="3968">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="143" name="Crocotree" type="spawn" x="2848" y="3104">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="144" name="Crocotree" type="spawn" x="2016" y="2656">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="145" name="Crocotree" type="spawn" x="1760" y="3072">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="146" name="Crocotree" type="spawn" x="2112" y="2048">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="147" name="Crocotree" type="spawn" x="9312" y="8128">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
+  <object id="148" name="Crocotree" type="spawn" x="9120" y="7872">
+   <properties>
+    <property name="death" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1010"/>
+    <property name="spawn" value="420000"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
