@@ -2835,8 +2835,6 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack"
         weight="250">
         <sprite>equipment/weapons/piouslayer.xml</sprite>
-        <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
-        <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
     <item id="3510"
         image="equipment/weapons/pickaxe.png"
@@ -3346,6 +3344,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_bow"
         weight="120">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
+	<sound event="hit">weapons/bow-wooden/hit1.ogg</sound>
+	<sound event="miss">weapons/bow-wooden/miss1.ogg</sound>
     </item>
     <item id="6001"
         image="equipment/weapons/shortbow.png"
@@ -3363,6 +3363,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_bow"
         weight="260">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
+	<sound event="hit">weapons/bow-short/hit1.ogg</sound>
+	<sound event="miss">weapons/bow-short/miss1.ogg</sound>
     </item>
     <item id="6002"
         image="equipment/weapons/forestbow.png"
@@ -3380,6 +3382,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_bow"
         weight="480">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
+	<sound event="hit">weapons/bow-forest/hit1.ogg</sound>
+	<sound event="miss">weapons/bow-forest/miss1.ogg</sound>
     </item>
 
     <!-- Arrows -->
