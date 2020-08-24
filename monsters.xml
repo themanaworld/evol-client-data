@@ -255,11 +255,15 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1044" name="Spider" walkType="walk" targetCursor="small">
         <sprite>monsters/spider.xml</sprite>
-        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
-        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
-        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
-        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
-        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+        <sound event="die">monsters/spider/die1.ogg</sound>
+        <sound event="hit">monsters/spider/hit1.ogg</sound>
+        <sound event="hit">monsters/spider/hit2.ogg</sound>
+        <sound event="hit">monsters/spider/hit3.ogg</sound>
+        <sound event="move">monsters/spider/move1.ogg</sound>
+        <sound event="move">monsters/spider/move2.ogg</sound>
+        <sound event="move">monsters/spider/move3.ogg</sound>
+        <sound event="move">monsters/spider/move4.ogg</sound>
+        <sound event="move">monsters/spider/move5.ogg</sound>
     </monster>
     <monster id="1045" name="Diamond Vein" targetCursor="small">
         <sprite>monsters/vein-gem.xml</sprite>
