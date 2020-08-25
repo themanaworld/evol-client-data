@@ -500,9 +500,16 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1101" name="Mana Ghost" walkType="fly" targetCursor="small">
         <sprite>monsters/mana-ghost.xml</sprite>
+        <sound event="move">monsters/ghost/move1.ogg</sound>
+        <sound event="move">monsters/ghost/move2.ogg</sound>
+        <sound event="move">monsters/ghost/move3.ogg</sound>
     </monster>
     <monster id="1102" name="Game Balance" walkType="fly" targetCursor="medium">
         <sprite>monsters/mana-ghost.xml</sprite>
+	<sound event="die">monsters/ghost/die1.ogg</sound>
+        <sound event="move">monsters/ghost/move1.ogg</sound>
+        <sound event="move">monsters/ghost/move2.ogg</sound>
+        <sound event="move">monsters/ghost/move3.ogg</sound>
     </monster>
     <monster id="1103" name="Angry Crafty" targetCursor="small">
         <sprite>monsters/crafty.xml</sprite>
