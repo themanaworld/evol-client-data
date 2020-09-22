@@ -499,6 +499,56 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     <monster id="1084" name="Skeleton" targetCursor="small">
         <sprite>monsters/skeleton.xml</sprite>
     </monster>
+    <monster id="1085" name="Mister Prickel" targetCursor="medium">
+        <sprite>monsters/mister-prickel.xml</sprite>
+        <attack id="1" action="attack"/>
+        <attack id="382" action="attack_distance"/>
+    </monster>
+    <monster id="1086" name="Small Frog" targetCursor="small">
+        <sprite>monsters/frog-small.xml</sprite>
+    </monster>
+    <monster id="1087" name="Big Frog" targetCursor="small">
+        <sprite>monsters/frog-big.xml</sprite>
+    </monster>
+    <monster id="1088" name="Bluepar" targetCursor="small">
+        <sprite>monsters/bluepar.xml</sprite>
+    </monster>
+    <monster id="1089" name="Lightning" targetCursor="small">
+        <sprite>monsters/ball-lightning.xml</sprite>
+    </monster>
+    <monster id="1090" name="Element" targetCursor="small">
+        <sprite>monsters/ball-element.xml</sprite>
+    </monster>
+    <monster id="1091" name="Jack-O" targetCursor="medium">
+        <sprite>monsters/ghost-pumpkin.xml</sprite>
+    </monster>
+    <monster id="1092" name="Ice Goblin" targetCursor="small">
+        <sprite>monsters/goblin-ice.xml</sprite>
+    </monster>
+    <monster id="1093" name="Nutcracker" targetCursor="small">
+        <sprite>monsters/nutcracker.xml</sprite>
+    </monster>
+    <monster id="1094" name="Penguin" targetCursor="small">
+        <sprite>monsters/penguin.xml</sprite>
+    </monster>
+    <monster id="1095" name="Reaper" targetCursor="medium">
+        <sprite>monsters/reaper.xml</sprite>
+    </monster>
+    <monster id="1096" name="Mud Slime" walkType="walk" targetCursor="small">
+        <sprite>monsters/slime.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+        <sound event="die">monsters/blub/die1.ogg</sound>
+        <sound event="hit">monsters/blub/hit1.ogg</sound>
+        <sound event="spawn">monsters/blub/spawn1.ogg</sound>
+    </monster>
+    <monster id="1097" name="Green Slime Progenitor" targetCursor="medium">
+        <sprite>monsters/slime-mother.xml|#323b20,73874d,bcdd7d,ffffff</sprite>
+    </monster>
+    <monster id="1098" name="Mud Slime Progenitor" targetCursor="medium">
+        <sprite>monsters/slime-mother.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+    </monster>
+    <monster id="1099" name="Yellow Slime Progenitor" targetCursor="medium">
+        <sprite>monsters/slime-mother.xml|#51341e,664224,91642f,a67b32,ccad4d,e8de6c,feffe6</sprite>
+    </monster>
     <monster id="1100" name="Poison Skull" walkType="fly" targetCursor="small">
         <sprite>monsters/skull-poison.xml</sprite>
     </monster>
@@ -573,6 +623,33 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hit">monsters/scorpion/hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/miss1.ogg</sound>
     </monster>
+    <monster id="1111" name="Snowflower" targetCursor="small">
+        <sprite>monsters/snowflower.xml</sprite>
+    </monster>
+    <monster id="1112" name="Demonic Spirit" targetCursor="medium">
+        <sprite>monsters/spirit-demonic.xml</sprite>
+    </monster>
+    <monster id="1113" name="Terranite" targetCursor="medium">
+        <sprite>monsters/terranite.xml</sprite>
+    </monster>
+    <monster id="1114" name="Troll" targetCursor="small">
+        <sprite>monsters/troll.xml</sprite>
+    </monster>
+    <monster id="1115" name="Fire Wisp" targetCursor="small">
+        <sprite>monsters/wisp.xml|#580000,a40000,c02020,ff6060</sprite>
+    </monster>
+    <monster id="1116" name="Water Wisp" targetCursor="small">
+        <sprite>monsters/wisp.xml|#16486e,498ec5,e4f2fc</sprite>
+    </monster>
+    <monster id="1117" name="Wolvern" targetCursor="medium">
+        <sprite>monsters/wolvern.xml</sprite>
+    </monster>
+    <monster id="1118" name="Zombie" targetCursor="medium">
+        <sprite>monsters/zombie.xml</sprite>
+    </monster>
+    <monster id="1119" name="Serqet" targetCursor="large">
+        <sprite>monsters/serqet.xml</sprite>
+    </monster>
     <monster id="1120" name="Tengu" walkType="walk" targetCursor="large">
         <sprite>monsters/tengu.xml</sprite>
         <sound event="die">monsters/tortuga/die1.ogg</sound>
@@ -590,5 +667,68 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
         <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
         <sound event="miss">monsters/tortuga/miss1.ogg</sound>
         <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
+    </monster>
+  <monster id="1122" name="General Krukan">
+	<sprite>monsters/skeleton.xml</sprite>
+	<sprite>equipment/legs/jeanschaps-male.xml</sprite>
+	<sprite>equipment/chest/warlordplate-male.xml</sprite>
+	<sprite>equipment/head/bull.xml</sprite>
+	<sound event="hit">monsters/frostiana/hit1.ogg</sound>
+	<sound event="die">system/warp.ogg</sound>
+  </monster>
+  <monster id="1123" name="General Razha">
+	<sprite>races/human-male.xml</sprite>
+	<sprite>equipment/head/bull.xml</sprite>
+	<sprite>equipment/feet/warlordboots-male.xml|#333333,878787</sprite>
+	<sprite>equipment/chest/warlordplate-male.xml|#ea0000,979797</sprite>
+	<sprite>equipment/hands/cottongloves-male.xml|#242424,626262</sprite>
+	<sprite>equipment/weapons/knife.xml</sprite>
+	<sound event="hit">monsters/frostiana/hit1.ogg</sound>
+	<sound event="die">system/warp.ogg</sound>
+	<!--particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx-->
+  </monster>
+  <monster id="1124" name="General Terogan">
+	<sprite>monsters/skeleton.xml</sprite>
+	<sprite>equipment/head/tophat.xml</sprite>
+	<sprite>equipment/chest/silkrobe-male.xml|#ea0000,333333</sprite>
+	<sprite>equipment/hands/cottongloves-male.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+	<sound event="hit">monsters/frostiana/hit1.ogg</sound>
+	<sound event="die">system/warp.ogg</sound>
+		<!--attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/-->
+  </monster>
+    <monster id="1125" name="Crafty Ghost" targetCursor="small">
+        <sprite>monsters/ghost-crafty.xml</sprite>
+        <sound event="die">monsters/piou/die1.ogg</sound>
+        <sound event="hit">monsters/piou/hit1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt1.ogg</sound>
+        <sound event="hurt">monsters/piou/hurt2.ogg</sound>
+        <sound event="miss">monsters/piou/miss1.ogg</sound>
+        <sound event="spawn">monsters/piou/spawn1.ogg</sound>
+    </monster>
+    <monster id="1126" name="Snake Ghost" walkType="walk" targetCursor="small">
+        <sprite>monsters/ghost-snake.xml</sprite>
+    </monster>
+    <monster id="1127" name="Scorpion Ghost" walkType="walk" targetCursor="small">
+        <sprite>monsters/ghost-scorpion.xml</sprite>
+        <sound event="hit">monsters/scorpion/hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/miss1.ogg</sound>
+    </monster>
+    <monster id="1128" name="Spider Ghost" walkType="walk" targetCursor="small">
+        <sprite>monsters/ghost-spider.xml</sprite>
+        <sound event="die">monsters/spider/die1.ogg</sound>
+        <sound event="hit">monsters/spider/hit1.ogg</sound>
+        <sound event="hit">monsters/spider/hit2.ogg</sound>
+        <sound event="hit">monsters/spider/hit3.ogg</sound>
+        <sound event="move">monsters/spider/move1.ogg</sound>
+        <sound event="move">monsters/spider/move2.ogg</sound>
+        <sound event="move">monsters/spider/move3.ogg</sound>
+        <sound event="move">monsters/spider/move4.ogg</sound>
+        <sound event="move">monsters/spider/move5.ogg</sound>
+    </monster>
+    <monster id="1129" name="Skeleton Ghost" targetCursor="small">
+        <sprite>monsters/ghost-skeleton.xml</sprite>
     </monster>
 </monsters>

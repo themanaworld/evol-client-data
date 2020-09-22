@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+A circle on the ground 60 pixels in diameter made from particles.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-y" value="-16"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="power" value="15"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="-0.7"/>
+        <property name="momentum" value="1.2"/>
+        <property name="image" value="graphics/particles/gloworb.png|W:#abf2ff"/>
+        <property name="lifetime" value="10"/>
+        <property name="fade-out" value="50"/>
+        <property name="output" value="1"/>
+        <property name="follow-parent"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Alige, Micksha
+Copyright (C) 2016 - 2020 Evol Online -->
+
+<effect>
+    <particle position-x="0"
+              position-y="0"
+              position-z="27"
+              lifetime="150">
+        <emitter>
+            <animation imageset="graphics/particles/sparkles.png|W:#982701,e75700,ff8900,ffbe00" width="15" height="15">
+                <sequence start="0" end="3" delay="50"/>
+                <frame index="0" delay="100"/>
+            </animation>
+            <property name="vertical-angle" value="90"/>
+            <property name="power" value="1.1"/>
+            <property name="lifetime" min="50" max="60"/>
+            <property name="output" value="1"/>
+            <property name="output-pause" value="4"/>
+            <property name="fade-in" min="5" max="10"/>
+            <property name="fade-out" value="15"/>
+            <property name="position-x" min="-12" max="12"/>
+            <property name="position-y" value="32"/>
+        </emitter>
+    </particle>
+</effect>

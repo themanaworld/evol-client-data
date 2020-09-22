@@ -454,7 +454,7 @@ IDs 900-999 = Special
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
     <npc id="188">
-        <!-- Morcant, the Captain in West Woodlands.  -->
+        <!-- Formerly Morcant, the Captain in West Woodlands. Now a random Captain, unused. -->
         <sprite variant="34">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
@@ -911,7 +911,7 @@ IDs 900-999 = Special
         <sprite>equipment/feet/boots-female.xml|#594d36,b49b6c,f4d293</sprite>
         <sprite>equipment/chest/finedress-female.xml|#620e48,bf1b8b,e32bcf,ffb6f7</sprite>
         <sprite>equipment/hands/armbands-female.xml|#663d38,5e3434,8f5c52,a46349,ad7c65,ce8b5b,d9c9b2,ce8b5b</sprite>
-        <sprite>equipment/neck/copper-necklace.xml|#315a67,a4a4ae,dce5d6,ffffff</sprite>
+        <sprite>equipment/neck/necklace1-gem-copper.xml|#315a67,a4a4ae,dce5d6,ffffff</sprite>
         <sprite>hairstyles/hairstyle22.xml|#16211f,162e29,195145,1d7a62,29a27a,51de9c,c9f7bc</sprite>
     </npc>
     <npc id="452">
@@ -1000,6 +1000,17 @@ IDs 900-999 = Special
         <!-- Chest, an opening container. -->
         <sprite>npcs/xml/chest2.xml</sprite>
         <menu name="Open" command="talk 'NAME'"/>
+    </npc>
+    <npc id="470">
+        <!-- Morcant, the Captain in West Woodland. -->
+        <sprite>races/human-male-medium.xml</sprite>
+        <sprite>hairstyles/hairstyle07.xml|#1c261a,3e3e31,514f42,92887f,9b9890,cfcdbf,fffff6</sprite>
+        <sprite>equipment/accessoires/fullbeard-white.xml</sprite>
+        <sprite>equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite>equipment/legs/cottontrousers-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/head/captainhat.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
     </npc>
 
     <!-- Test NPCs -->

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="72" lifetime="100">
+    <emitter>
+      <property name="lifetime" value="100"/>
+      <property name="position-x" min="-16" max="16"/>
+      <property name="position-y" min="-16" max="16"/>
+      <property name="vertical-angle" value="270"/>
+      <property name="power" value="0.25"/>
+      <property name="output" min="1" max="3"/>
+      <property name="gravity" value="0.1"/>
+      <property name="image" value="graphics/particles/star-small.png|W:#d3c443,fff38d,fff7df"/>
+    </emitter>
+  </particle>
+</effect>

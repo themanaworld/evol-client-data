@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Authors: 4144, Alige, Hal9000, Reid
-Copyright (C) 2010-2014 Evol Online -->
+<!-- Authors: 4144, Alige, Hal9000, Micksha, Reid
+Copyright (C) 2010-2020 Evol Online -->
 
 <being-effects>
     <effect id="0" audio="system/levelup.ogg" particle="graphics/particles/levelup.xml"/> <!-- Level up particle effect. -->
@@ -43,6 +43,20 @@ Copyright (C) 2010-2014 Evol Online -->
     <effect id="37" particle="graphics/particles/lightning1.xml"/>
     <effect id="38" particle="graphics/particles/magic.black.xml"/>
     <effect id="39" particle="graphics/particles/electricity.blue.xml"/>
+    <effect id="40" particle="graphics/particles/selfbuff-persistent.xml"/>
+    <effect id="41" particle="graphics/particles/selfbuff-persistent-hp.xml"/>
+    <effect id="42" particle="graphics/particles/selfbuff-persistent-sp.xml"/>
+    <effect id="43" particle="graphics/particles/magic-shield2.xml"/>
+    <effect id="44" audio="system/critical.ogg" particle="graphics/particles/critical-low.xml"/>
+    <effect id="45" particle="graphics/particles/circle-red.xml"/>
+    <effect id="46" particle="graphics/particles/circle-green.xml"/>
+    <effect id="47" particle="graphics/particles/circle-blue.xml"/>
+    <effect id="48" particle="graphics/particles/accumulate-magic.xml"/>
+    <effect id="49" particle="graphics/particles/hellfire-low.xml"/>
+    <effect id="50" particle="graphics/particles/blackball.xml"/>
+    <effect id="51" particle="graphics/particles/nova-circle.xml"/>
+    <effect id="52" particle="graphics/particles/spiral-falling-green.xml"/>
+    <effect id="53" particle="graphics/particles/magic-fire.xml"/>
     <effect id="69" particle="graphics/particles/python.xml" audio="env/fart.ogg"/>
     <effect id="70" audio="items/legacy/rubberbat.ogg"/> <!-- Legacy Rubber Bat squeeze sound  -->
     <effect id="344"/> <!-- @summon GM command particle effect. -->

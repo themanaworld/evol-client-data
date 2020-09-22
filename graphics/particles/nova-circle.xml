@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: 4144
+Copyright (C) 2015 Evol Online -->
+
+<effect>
+    <particle position-x="0"
+              position-y="32"
+              position-z="32"
+              lifetime="1">
+        <emitter>
+            <property name="follow-parent" value="1"/>
+            <property name="position-x" value="0"/>
+            <property name="position-y" value="72"/>
+            <property name="position-z" value="32"/>
+            <property name="image" value="graphics/particles/orb-oversized.png|W:#19AEBF,1567FF,59E6FF"/>
+            <property name="horizontal-angle" min="0" max="360"/>
+            <property name="vertical-angle" min="0" max="360"/>
+            <property name="power" value="1"/>
+            <property name="acceleration" value="0.05"/>
+            <property name="alpha" value="0.5"/>
+            <emitter>
+              <property name="horizontal-angle" min="0" max="360"/>
+              <property name="vertical-angle" min="0" max="90"/>
+              <property name="power" min="0.3" max="0.8"/>
+              <property name="gravity" value="-0.02"/>
+              <animation imageset="graphics/particles/aniblaze.png|W:#19AEBF,1567FF,59E6FF" width="8" height="8">
+                <sequence start="0" end="8" delay="30"/>
+                <frame index="8" delay="1000"/>
+              </animation>
+              <property name="lifetime" min="35" max="50"/>
+              <property name="output" min="1" max="3"/>
+              <property name="fade-in" value="2"/>
+              <property name="fade-out" value="10"/>
+                <emitter>
+                  <property name="horizontal-angle" min="0" max="360"/>
+                  <property name="vertical-angle" min="0" max="90"/>
+                  <property name="power" min="0.3" max="0.8"/>
+                  <property name="gravity" value="-0.02"/>
+                  <property name="image" value="graphics/particles/glow-medium.png|W:#19AEBF,1567FF,59E6FF"/>
+                  <property name="lifetime" min="5" max="10"/>
+                  <property name="output" value="1"/>
+                  <property name="alpha" value="0.7"/>
+                </emitter>
+            </emitter>
+        </emitter>
+    </particle>
+</effect>
