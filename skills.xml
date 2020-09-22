@@ -1,17 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Authors: 4144, Reid
-Copyright (C) 2010-2013 Evol Online -->
+<!-- Authors: 4144, Micksha, Reid
+Copyright (C) 2010-2020 Evol Online -->
 
 <skills>
-    <set name="General">
+    <set name="Passive">
+        <skill
+            id="284"
+            name="Dragonology"
+            icon="graphics/skills/pumpkin.png"
+            description="Increases attack power, MATK and DEF against dragon type monsters."
+        />
+        <skill
+            id="248"
+            name="Last Standing Man"
+            icon="graphics/skills/person-standing.png"
+            srcEffectId="43"
+            description="Increases max. HP and holy defense."
+        />
+        <skill
+            id="4"
+            name="HP Recovery"
+            icon="graphics/skills/heart-red.png"
+            srcEffectId="41"
+            description="Increases HP recovery while standing."
+        />
+        <skill
+            id="9"
+            name="SP Recovery"
+            icon="graphics/skills/heart-blue.png"
+            srcEffectId="42"
+            description="Increases SP recovery while standing."
+        />
+        <skill
+            id="278"
+            name="Free Cast"
+            icon="graphics/skills/person-sitting.png" 
+            description="Allows movement and attack actions while casting a spell."
+        />
+    </set>
+    <set name="Physical">
+        <skill
+            id="44"
+            name="Mallard's Eye"
+            icon="graphics/skills/owls-eye.png"
+            description="Increases the attack range when using a bow."
+        />
+        <skill
+            id="148"
+            name="Charged Shot"
+            icon="graphics/skills/arrow.png"
+            castingAction="attack_bow"
+            castingMissile-particle="graphics/particles/arrow-particle.xml"
+            description="Increases bow attack rate. Pushes back the target."
+        />
+        <skill
+            id="47"
+            name="Arrow Shower"
+            icon="graphics/skills/arrow-rain.png"
+            castingMissile-particle="graphics/particles/arrow-hail.xml"
+            description="3x3 splash attack. Pushes back the hitten enemies."
+        />
+        <skill
+            id="382"
+            name="Sharp Shooter"
+            icon="graphics/skills/bow.png"
+            castingMissile-particle="graphics/particles/arrow-particle-high.xml"
+            description="The arrow hits all enemies in a 3-tile wide corridor on its way."
+        />
+        <skill
+            id="42"
+            name="Mammonite"
+            icon="graphics/skills/coinbag.png"
+            castingMissile-particle="graphics/particles/mammonite.xml"
+            description="Increases attack speed by spending Esperin."
+        />
+        <skill
+            id="2023"
+            name="Sudden Attack"
+            icon="graphics/skills/pinkie-in-danger.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Makes you jump to your target and attack immediately."
+        />
+        <skill
+            id="406"
+            name="Meteor Assault"
+            icon="graphics/skills/meteor.png"
+            castingMissile-particle="graphics/particles/meteor-hail.xml"
+            hitEffectId="44"
+            description="5x5 splash attack around the caster. Causes status changes on enemies."
+        />
+        <skill
+            id="61"
+            name="Counterattack"
+            icon="graphics/skills/dagger-double.png"
+            castingMissile-particle="graphics/particles/counter.xml"
+            description="The character awaits an attack and cannot move. If attacked from front in that phase, it counterattacks with doubled crit rate."
+        />
+        <skill
+            id="283"
+            name="Nature Weapon"
+            icon="graphics/skills/weapon-nature.png"
+            srcEffectId="46"
+            description="Enchants a weapon with nature element."
+        />
+        <skill
+            id="280"
+            name="Fire Weapon"
+            icon="graphics/skills/weapon-fire.png"
+            srcEffectId="45"
+            description="Enchants your weapon with the fire element."
+        />
+        <skill
+            id="281"
+            name="Frost Weapon"
+            icon="graphics/skills/weapon-ice.png"
+            srcEffectId="47"
+            description="Enchants your weapon with the water element."
+        />
+    </set>
+    <set name="Magical">
+        <skill
+            id="366"
+            name="Accumulate Magic Power"
+            icon="graphics/skills/meditating.png"
+            castingSrcEffectId="48"
+            description="Increases MATK for your next spell."
+        />
+        <skill
+            id="52"
+            name="Poison"
+            icon="graphics/skills/skull-ugly.png"
+            castingMissile-particle="graphics/particles/dart-green.xml"
+            srcEffectId="7"
+            description="An attack with increased damage and a chance to poison your enemy."
+        />
+        <skill
+            id="13"
+            name="Soul Strike"
+            icon="graphics/skills/circle-dark.png"
+            castingMissile-particle="graphics/particles/dart-black.xml"
+            srcEffectId="7"
+            description="Standard magical strike."
+        />
+        <skill
+            id="11"
+            name="Napalm Beat"
+            icon="graphics/skills/orb-fire.png"
+            castingMissile-particle="graphics/particles/dart-red.xml"
+            hitEffectId="34"
+            description="Hits enemies in a 3x3 area around the target. Total damage is split between affected targets."
+        />
+        <skill
+            id="20"
+            name="Lightning Bolt"
+            icon="graphics/skills/lightning.png"
+            description="Hits the enemy with a single lightning bolt."
+            dstEffectId="37"
+        />
+        <skill
+            id="18"
+            name="Nature Wall"
+            icon="graphics/skills/thorns.png"
+            description="Creates a thorn wall between the caster and the target."
+            castingDstEffectId="50"
+        />
+        <skill
+            id="19"
+            name="Fire Arrow"
+            icon="graphics/skills/dart-fire.png"
+            description="Hits the enemy with a single fire bolt."
+            castingMissile-particle="graphics/particles/dart-red.xml"
+            castingSrcEffectId="23"
+            dstEffectId="34"
+        />
+        <skill
+            id="17"
+            name="Fire Ball"
+            icon="graphics/skills/fireball.png"
+            description="Hits every enemy in a 5x5 area around the target with a fireball."
+            castingMissile-particle="graphics/particles/dart-red.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+            castingDstEffectId="49"
+        />
+        <skill
+            id="2443"
+            name="Fire Walk"
+            icon="graphics/skills/fire.png"
+            srcEffectId="53"
+            description="Generates fire under your feet, leaving a trail of fire element damage zones."
+        />
+        <skill
+            id="14"
+            name="Cold Touch"
+            icon="graphics/skills/dart-ice.png"
+            description="Sends a water dart on your foe."
+            castingMissile-particle="graphics/particles/dart-blue.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+        />
+        <skill
+            id="15"
+            name="Frost Diver"
+            icon="graphics/skills/slash-ice.png"
+            description="Hits a single enemy with water element attack. Has a chance to freeze enemies."
+            castingMissile-particle="graphics/particles/dart-blue.xml"
+            castingMissile-lifetime="10000"
+            castingMissile-speed="3"
+            castingSrcEffectId="23"
+        />
+        <skill
+            id="88"
+            name="Frost Nova"
+            icon="graphics/skills/snowflake.png"
+            description="Hits every enemy in a 5x5 area around the caster with water element attack. Has a chance to freeze enemies."
+            srcEffectId="51"
+        />
+        <skill
+            id="156"
+            name="Holy Light"
+            icon="graphics/skills/circle-light.png"
+            description="A single harmonic energy hit."
+            castingMissile-particle="graphics/particles/particle-dart-white.xml"
+        />
+    </set>
+    <set name="Support">
+            <skill
+            id="53"
+            name="Detoxify"
+            icon="graphics/skills/skull-legendary.png"
+            description="Cures poison on target."
+            castingSrcEffectId="52"
+        />
+        <skill
+            id="5014"
+            name="Full Throttle"
+            icon="graphics/skills/person-standing.png"
+            description="Boosts all stats, recovers HP and increased movement speed. After ending of skill duration, you will have reduced speed and no natural HP/SP recovery for a while."
+            castingSrcEffectId="50"
+        />
+        <skill
+            id="143"
+            name="Trick Dead"
+            icon="graphics/skills/emote-trickdead.png"
+            description="You pretend to be dead. Monsters will not target you, but you can't recover HP or SP."
+            castingAction="Dead"
+        />
+        <skill
+            id="150"
+            name="Backsliding"
+            icon="graphics/skills/masked.png"
+            description="Moves you backwards 5 cells."
+            castingSrcEffectId="50"
+        />
+        <skill
+            id="383"
+            name="Wind Walker"
+            icon="graphics/skills/wind.png"
+            description="Increases movement speed at 2% per skill level."
+            srcEffectId="47"
+        />
+        <skill
+            id="681"
+            name="Backpack Floating"
+            icon="graphics/skills/cloud.png"
+            description="Improves maximum weight limit."
+        />
+        <skill
+            id="28"
+            name="Healing"
+            icon="graphics/skills/healing.png"
+            description="Heals you or one of your comrades."
+            castingMissile-particle="graphics/particles/healing.xml"
+            castingSrcEffectId="7"
+            dstEffectId="7"
+        />
+        <skill
+            id="2051"
+            name="High Healing"
+            icon="graphics/skills/healing2.png"
+            description="Heals a target for much more than the basic Heal skill."
+            castingMissile-particle="graphics/particles/healing.xml"
+            castingSrcEffectId="7"
+            dstEffectId="7"
+        />
+    </set>
+    <set name="(Un)social">
         <skill
             id="1"
             name="Basic"
-            icon="graphics/skills/emote.png"
+            icon="graphics/skills/emote.png" 
             description="Allow do basic things like sitting, smiling or trading."
         />
+        <skill
+            id="6"
+            name="Provoke"
+            icon="graphics/skills/mouboo.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Lowers the enemies defense while increasing their attack."
+        />
+        <skill
+            id="20000"
+            name="Mass Provoke"
+            icon="graphics/skills/cursing.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Provokes every monster around the target (mouse-centered) to attack the caster. Buggy."
+        />
+        <skill
+            id="50"
+            name="Stealing"
+            icon="graphics/skills/stealing.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Provides a chance to steal drops from enemies."
+        />
+        <skill
+            id="38"
+            name="Barter"
+            icon="graphics/skills/emote-cash.png"
+            castingMissile-particle="graphics/particles/critical.xml"
+            description="Allows to sell items at increased prices."
+        />
     </set>
-    <set name="Passive">
+    <set name="ODT-Passive">
         <skill
             id="2"
             name="Sword Mastery"
@@ -24,14 +336,8 @@ Copyright (C) 2010-2013 Evol Online -->
             icon="graphics/skills/scythe.png"
             description="Improves your damage when using two-hand weapons."
         />
-        <skill
-            id="43"
-            name="Owl's Eye"
-            icon="graphics/skills/owls-eye.png"
-            description="Improves your dexterity, based on the skill level."
-        />
     </set>
-    <set name="Offensive">
+    <set name="ODT-Offensive">
         <skill
             id="5"
             name="Basic"
@@ -39,99 +345,21 @@ Copyright (C) 2010-2013 Evol Online -->
             castingMissile-particle="graphics/particles/critical.xml"
             description="A violent punch."
         />
-        <skill
-            id="14"
-            name="Cold Touch"
-            icon="graphics/skills/coldbolt.png"
-            description="Sends water darts on your foe."
-            castingMissile-particle="graphics/particles/ice-particle.xml"
-            castingMissile-lifetime="10000"
-            castingMissile-speed="3"
-            castingSrcEffectId="23"
-        />
-        <skill
-            id="17"
-            name="Fire Ball"
-            icon="graphics/skills/fireball.png"
-            description="Attack enemy with fireball."
-            castingMissile-particle="graphics/particles/flame-particle.xml"
-            castingMissile-lifetime="10000"
-            castingMissile-speed="3"
-            castingSrcEffectId="23"
-            dstEffectId="34"
-        />
-        <skill
-            id="19"
-            name="Fire Bolt"
-            icon="graphics/skills/fireball.png"
-            description="Throw a fire bolt."
-            castingMissile-particle="graphics/particles/arrow.particle.xml"
-            dstEffectId="34"
-        />
-        <skill
-            id="20"
-            name="Lightning Bolt"
-            icon="graphics/skills/lightning.png"
-            description="A single lightning from sky."
-            hitEffectId="37"
-            castingSrcEffectId="38"
-            castingDstEffectId="-1"
-        />
-        <skill
-            id="24"
-            name="Fire Ball"
-            icon="graphics/skills/fireball.png"
-            description="Attack enemy with fireball."
-            castingMissile-particle="graphics/particles/flame-particle.xml"
-            castingMissile-lifetime="10000"
-            castingMissile-speed="3"
-            castingSrcEffectId="23"
-            dstEffectId="34"
-        />
-        <skill
-            id="52"
-            name="Poisoned Touch"
-            icon="graphics/skills/legacy/resistpoison.png"
-            description="Increases your attack power, and has a chance to poison your enemy."
-            castingMissile-particle="graphics/particles/ice-particle.xml"
-            castingMissile-lifetime="10000"
-            castingMissile-speed="3"
-            castingSrcEffectId="23"
-        />
     </set>
-    <set name="Support">
-        <skill
-            id="28"
-            name="Healing"
-            icon="graphics/skills/heal.png"
-            description="Heals you or one of your comrades."
-            castingMissile-particle="graphics/particles/healing.xml"
-            castingSrcEffectId="7"
-            dstEffectId="7"
-        />
+    <set name="Others">
         <skill
             id="20001"
             name="Magic shield"
-            icon="graphics/skills/legacy/life.png"
+            icon="graphics/skills/legacy/astralsoul.png"
             description="Allow protect from magic attacks."
+            castingSrcEffectId="7"
         />
-    </set>
-    <set name="Other">
         <skill
             id="220"
             name="Grafiti"
             description="Draw text on ground."
             useTextParameter="true"
         />
-        <skill
-            id="20000"
-            name="Mass provoke"
-            icon="graphics/skills/provoke.png"
-            description="Allow provoke many monsters."
-            castingAnimation="emote.xml"
-        />
-    </set>
-    <set name="Restricted">
         <skill
             id="20002"
             name="Super Menu"

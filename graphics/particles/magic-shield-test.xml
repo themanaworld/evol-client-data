@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author from The Mana World
+Copyright (C) 2016 Evol Online -->
+
+<effect>
+    <particle position-x="0"
+              position-y="0"
+              position-z="0"
+              lifetime="1">
+        <emitter>
+            <property name="vertical-angle" value="90"/>
+            <property name="power" value="4"/>
+            <property name="lifetime" value="25"/>
+            <property name="output" min="1" max="1"/>            
+            <emitter>
+                <property name="vertical-angle" value="0"/>
+                <property name="horizontal-angle" min="0" max="360"/>
+                <property name="power" min="15" max="25"/>
+                <property name="lifetime" value="1"/>
+                <property name="output" min="0" max="2"/>
+                <emitter>
+                    <animation imageset="graphics/particles/hexagon.png|W:#ff0000" width="9" height="11">
+                        <sequence start="5" end="5" delay="10000"/>
+                    </animation>
+                    <property name="lifetime" value="20"/>
+                    <property name="fade-in" value="5"/>
+                </emitter>
+            </emitter>
+        </emitter>
+    </particle>
+</effect>

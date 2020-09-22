@@ -11,7 +11,9 @@ New organization (04/12/11).
 30      500       = Weapon Animations
 501     699       = Usable Items
 700     999       = Generic Items
-1000    1299      = Necklaces
+1000    1099      = Necklaces
+1100    1199      = Rings
+1200    1299      = Charms
 1300    1799      = Chest Armors
 1800    1999      = Boots
 2000    2199      = Gloves
@@ -542,7 +544,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Carp Sandwich"
         useButton="Eat"
         description="A yummy sandwich, made with a fresh carp."
-        effect="Heal 200-300 HP"
+        effect="Heal 800 - 1200 HP, increases hit rate."
         type="usable"
         weight="25"
         maxFloorOffset="6"/>
@@ -551,7 +553,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Piouleg Sandwich"
         useButton="Eat"
         description="A typical Artis food. How can you just eat these little Pious?"
-        effect="Heal 150-300 HP"
+        effect="Heal 1000 - 1500 HP, increases hit rate."
         type="usable"
         weight="25"
         maxFloorOffset="6"/>
@@ -559,8 +561,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="usable/sandwich-manana.png"
         name="Manana Sandwich"
         useButton="Eat"
-        description="A vegetarian sandwich, for those who like it."
-        effect="Heal 250-400 HP"
+        description="A veggie sandwich, for those who like it."
+        effect="Heal 1200 - 1800 HP, increases hit rate."
         type="usable"
         weight="25"
         maxFloorOffset="6"/>
@@ -592,7 +594,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="25"
         maxFloorOffset="6"/>
     <item id="566"
-        image="usable/cherrycake.png"
+        image="usable/cake-cherry.png"
         name="Cherry Cake"
         useButton="Eat"
         description="If you like sweets, you will love this homemade cherry cake."
@@ -736,10 +738,10 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         type="usable"
         weight="128"/>
     <item id="614"
-        image="usable/bowl-sailorstew.png|W:#192d2c,1c3e33,2c6b52,339455,32ae4d,95d469,f7fed5"
+        image="usable/bowl-stew.png|W:#16486e,498ec5,e4f2fc"
         name="Sailor's Stew"
         description="A bowl containing a fine dish for sailors, makes you strong and sturdy."
-        effect="Max. HP +2000, STR +10, VIT +5. Effect lasts for 5 minutes."
+        effect="Max. HP +20%, Healing 2000 HP, HIT +5, VIT +3, AGI -3. Effect lasts for 3 minutes."
         type="usable"
         useButton="Eat"
         weight="650"/>
@@ -790,6 +792,94 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         useButton="Eat"
         type="usable"
         weight="100"/>
+    <item id="621"
+        image="usable/gift.png"
+        name="A Friend's Gift"
+        description="A gift from a friend, just for you! What might be inside?"
+        effect="PLACEHOLDER"
+        useButton="Open"
+        type="usable"
+        weight="50"/>
+    <item id="622"
+        image="usable/bowl-stew.png|W:#3f221d,754d23,f5cea4"
+        name="Squirrel Stew"
+        description="A bowl containing a fine dish made from cute Squirrels, very healthy. Also it makes you strong and sturdy."
+        effect="Max. HP +25%, Healing 2500 HP, VIT +5, AGI +3, DEX -3. Effect lasts for 4 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="650"/>
+    <item id="623"
+        image="usable/bowl-stew.png|W:#6a0022,7c151a,c60022"
+        name="Mouboo Stew"
+        description="Its easy. Hunt a Mouboo, slaughter it, make a great healthy dish out of it."
+        effect="Max. HP +30%, Healing 3000 HP, VIT +5, DEX +3, AGI -3. Effect lasts for 5 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="650"/>
+    <item id="624"
+        image="usable/squirrelmeat.png"
+        name="Squirrel Meat"
+        description="Edible parts of slaughtered Squirrels. Are you sure Squirrels are not way too cute to eat them?"
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="250"/>
+    <item id="625"
+        image="usable/plate-dish.png|W:#6a0022,7c151a,c60022;R:#115511,22aa22,99dd99"
+        name="Seafood Plate"
+        description="Nicely arranged plate with some seafood ingredients. Yummy?"
+        effect="Max. HP -5%, Healing 3000 HP, VIT +5, DEX +3, AGI -3. Effect lasts for 5 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="400"/>
+    <item id="626"
+        image="usable/plate-dish.png|W:#6a0022,7c151a,c60022;R:#002504,2d551b,07871d"
+        name="Barbecue Plate"
+        description="The best way to prepare good meat is to make barbecue on an open fire."
+        effect="Max. HP +30%, Healing 3000 HP, VIT +5, DEX +3, AGI -3. Effect lasts for 5 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="500"/>
+    <item id="627"
+        image="usable/plate-dish.png|W:#6a0022,7c151a,c60022;R:#22241d,3f6543,689c46,deeba3"
+        name="Veggie Plate"
+        description="Killing animals is unethical? Well, after all it is not needed for human nutrition. Yummy!"
+        effect="Max. HP +30%, Healing 3000 HP, VIT +5, DEX +3, AGI -3. Effect lasts for 5 minutes."
+        type="usable"
+        useButton="Eat"
+        weight="450"/>
+    <item id="628"
+        image="usable/blueberries.png"
+        name="Blueberries"
+        description="Tasty, healty little blue berries. Harvest in summer. Do not mix it up with deadly nightshades!"
+        effect="PLACEHOLDER"
+        useButton="Eat"
+        type="usable"
+        weight="30"/>
+    <item id="629"
+        image="usable/donut.png"
+        name="Donut"
+        description="Sweet chocolate donut. Do not eat too much, especially if you do not have your toothbrush with you."
+        effect="Healing 2250 HP, LUK +5, VIT +3. Effect lasts for 60 seconds."
+        type="usable"
+        useButton="Eat"
+        weight="100"/>
+    <item id="630"
+        image="usable/cake-blueberry.png"
+        name="Blueberry Cake"
+        description="Sweet cake made with blueberries. Comes with some cream."
+        effect="Healing 2000 HP, LUK +5, VIT +3. Effect lasts for 90 seconds."
+        type="usable"
+        useButton="Eat"
+        weight="150"/>
+    <item id="631"
+        image="usable/cake-carrot.png"
+        name="Carrot Cake"
+        description="Healthy, tasty carrot cake. Are you a rabbit, or what?"
+        effect="Healing 2700 HP, INT +5, DEX +3. Effect lasts for 120 seconds."
+        type="usable"
+        useButton="Eat"
+        weight="180"/>
 
     <!-- Generic Items -->
     <item id="700"
@@ -1313,7 +1403,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
   <item id="778"
         image="generic/skull.png"
         name="Skull"
-        description="Viro Skull. Why are you carrying around this?!?"
+        description="Human Skull. Why are you carrying around this?!?"
         type="generic"
         weight="350"/>
   <item id="779"
@@ -1455,11 +1545,87 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 		name="Treasure Key"
 		description="A small, golden Key. Which chest would it fit in?"
 		type="generic"
-		weight="2"/>
+		weight="20"/>
+  <item id="809"
+        image="generic/cottoncloth.png"
+        name="Cotton Cloth"
+        description="A patch made of cotton. Mainly used for tailoring."
+        type="generic"
+        weight="10"/>
+  <item id="810"
+        image="generic/leatherpatch.png"
+        name="Leather Patch"
+        description="A patch made of leather. Can be used for tailoring, or smithery."
+        type="generic"
+        weight="50"/>
+  <item id="811"
+        image="generic/snakescales.png"
+        name="Snake Scales"
+        description="Scales from a snake. You may need to find a specialized smith to take advantage of their lightweight and durability."
+        type="generic"
+        weight="25"/>
+  <item id="812"
+        image="generic/squirrelpelt.png"
+        name="Squirrel Pelt"
+        description="Pelt from a cute squirrel. Who killed that poor animal, anyways."
+        type="generic"
+        weight="200"/>
+  <item id="813"
+        image="generic/wolvernpelt.png"
+        name="Wolvern Pelt"
+        description="Pelt from a wolvern. Must have been an experienced hunter, eh."
+        type="generic"
+        weight="500"/>
+    <item id="814"
+        image="generic/plate-empty.png"
+        name="Empty Plate"
+        description="An empty plate. Look for an experienced chef to prepare a nice meal on this!"
+        type="generic"
+        weight="80"/>
+    <item id="815"
+        image="generic/waxchunk.png"
+        name="Wax Chunk"
+        description="A chunk beeswax. It is burning pretty fine."
+        type="generic"
+        weight="100"/>
+    <item id="816"
+        image="generic/codfish.png"
+        name="Codfish"
+        description="A seafish, large and saturating."
+        type="generic"
+        weight="300"
+        maxFloorOffset="9"/>
+    <item id="817"
+        image="generic/codfish.png|S:#5b7f5d,ad8e3c,7ba477,c5ba3c,8dc7a2,d5d549,607793,76818e,6ba6a8,7b9798,c9dec0,a8b2a3"
+        name="Tuna"
+        description="Tasty seafish, can grow incredibly large. Hard to catch - if you are not a school of dolphins."
+        type="generic"
+        weight="270"
+        maxFloorOffset="9"/>
+    <item id="818"
+        image="generic/trout.png"
+        name="Trout"
+        description="A very tasty fish. Not simple to prepare properly, though."
+        type="generic"
+        weight="150"
+        maxFloorOffset="9"/>
+    <item id="819"
+        image="generic/salmon.png"
+        name="Salmon"
+        description="Fascinating fish, easy to catch (if you are a bear)."
+        type="generic"
+        weight="210"
+        maxFloorOffset="9"/>
+    <item id="820"
+        image="generic/flour-acorn.png"
+        name="Acorn Flour"
+        description="Yes, you will need the finest flour only for your baker attempts."
+        type="generic"
+        weight="110"/>
 
     <!-- Necklaces  -->
     <item id="1000"
-        image="equipment/neck/copper-necklace.png|W"
+        image="equipment/neck/necklace1-gem-copper.png|W"
         name="%Color% Necklace (Copper)"
         description="A %color% necklace, made of copper."
         level="10"
@@ -1467,7 +1633,304 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="50"
         colors="gem"
         iconColors="gem">
-        <sprite gender="unisex">equipment/neck/copper-necklace.xml</sprite>
+        <sprite gender="unisex">equipment/neck/necklace1-gem-copper.xml</sprite>
+     </item>
+    <item id="1001"
+        image="equipment/neck/necklace1-gem-silver.png|W"
+        name="%Color% Necklace (Silver)"
+        description="A %color% necklace, made of silver."
+        level="20"
+        type="equip-necklace"
+        weight="70"
+        colors="gem"
+        iconColors="gem">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-silver.xml</sprite>
+     </item>
+    <item id="1002"
+        image="equipment/neck/necklace1-gem-gold.png|W"
+        name="%Color% Necklace (Gold)"
+        description="A %color% necklace, made of gold."
+        level="32"
+        type="equip-necklace"
+        weight="100"
+        colors="gem"
+        iconColors="gem">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-gold.xml</sprite>
+     </item>
+    <item id="1003"
+        image="equipment/neck/necklace1-gem-platinum.png|W"
+        name="%Color% Necklace (Platinum)"
+        description="A %color% necklace, made of pure platinum."
+        level="50"
+        type="equip-necklace"
+        weight="50"
+        colors="gem"
+        iconColors="gem">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-platinum.xml</sprite>
+     </item>
+    <item id="1004"
+        image="equipment/neck/necklace-fourleaf.png|W:#402e33,5e3434,824d39,995b44,c47f4e,e0af81"
+        name="Copper Four-Leaf Necklace"
+        description="A copper necklace, in the shape of a four-leaf clover. If it makes you lucky?"
+        level="10"
+        type="equip-necklace"
+        weight="50">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-copper.xml|#402e33,5e3434,824d39,995b44,c47f4e,e0af81</sprite>
+     </item>
+    <item id="1005"
+        image="equipment/neck/necklace-fourleaf.png|W:#4b3e44,59494c,887565,a29171,ccbb9b,e7debd,faf8f1"
+        name="Silver Four-Leaf Necklace"
+        description="A silver necklace, in the shape of a four-leaf clover. If it makes you lucky?"
+        level="25"
+        type="equip-necklace"
+        weight="50">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-silver.xml|#4b3e44,59494c,887565,a29171,ccbb9b,e7debd,faf8f1</sprite>
+     </item>
+    <item id="1006"
+        image="equipment/neck/necklace-fourleaf.png|W:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Golden Four-Leaf Necklace"
+        description="A golden necklace, in the shape of a four-leaf clover. If it makes you lucky?"
+        level="40"
+        type="equip-necklace"
+        weight="50">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-gold.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+     </item>
+    <item id="1007"
+        image="equipment/neck/necklace-fourleaf.png|W:#315a67,a4a4ae,dce5d6,ffffff"
+        name="Platinum Four-Leaf Necklace"
+        description="A platinum necklace, in the shape of a four-leaf clover. If it makes you lucky?"
+        level="60"
+        type="equip-necklace"
+        weight="50">
+        <sprite gender="unisex">equipment/neck/necklace1-gem-platinum.xml|#315a67,a4a4ae,dce5d6,ffffff</sprite>
+     </item>
+    <item id="1008"
+        image="equipment/neck/necklace-tooth.png"
+        name="Tooth Necklace"
+        description="A necklace with a wolvern tooth on it."
+        level="10"
+        type="equip-necklace"
+        weight="70">
+     </item>
+    <item id="1009"
+        image="equipment/neck/necklace-teeth.png"
+        name="Teeth Necklace"
+        description="A necklace with three wolvern teeth on it. Chapeau!"
+        level="30"
+        type="equip-necklace"
+        weight="100">
+     </item>
+    <item id="1010"
+        image="equipment/neck/necklace-barbarian.png"
+        name="Teeth Necklace"
+        description="A necklace with five wolvern teeth on it. Hunting mastery!"
+        level="50"
+        type="equip-necklace"
+        weight="120">
+     </item>
+    <item id="1011"
+        image="equipment/neck/necklace-heart.png"
+        name="Heart Necklace"
+        description="A shiny, golden heart necklace, for your beloved ones."
+        level="5"
+        type="equip-necklace"
+        weight="150">
+     </item>
+    <item id="1012"
+        image="equipment/neck/necklace-mouboo.png"
+        name="Mouboo Necklace"
+        description="You like Mouboos? You need this!"
+        level="15"
+        type="equip-necklace"
+        weight="150">
+     </item>
+    <item id="1013"
+        image="equipment/neck/necklace-skel.png"
+        name="Skull Necklace"
+        description="A necklace holding the model of a human skull. It has a weird aura."
+        level="25"
+        type="equip-necklace"
+        weight="200">
+     </item>
+
+    <!-- Rings  -->
+    <item id="1100"
+        image="equipment/accessoires/ring-simple.png|W:#402e33,5e3434,824d39,995b44,c47f4e,e0af81"
+        name="Copper Ring"
+        description="A simple ring, made of copper."
+        level="10"
+        type="equip-ring"
+        weight="20">
+     </item>
+    <item id="1101"
+        image="equipment/accessoires/ring-simple.png|W:#4b3e44,59494c,887565,a29171,ccbb9b,e7debd,faf8f1"
+        name="Silver Ring"
+        description="A simple ring, made of silver."
+        level="20"
+        type="equip-ring"
+        weight="20">
+     </item>
+    <item id="1102"
+        image="equipment/accessoires/ring-simple.png|W:#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1"
+        name="Golden Ring"
+        description="A simple ring, made of gold."
+        level="25"
+        type="equip-ring"
+        weight="20">
+     </item>
+    <item id="1103"
+        image="equipment/accessoires/ring-simple.png|W:#315a67,a4a4ae,dce5d6,ffffff"
+        name="Platinum Ring"
+        description="A simple ring, made of platinum."
+        level="40"
+        type="equip-ring"
+        weight="20">
+     </item>
+    <item id="1104"
+        image="equipment/accessoires/ring-simple.png|W:#10201f,223a23,0b4936,4b7145,497e5e,b2d6ab,daf7fa"
+        name="Soul Ring"
+        description="A very special ring, made of zealite. It can connect two souls."
+        level="20"
+        type="equip-ring"
+        weight="1">
+     </item>
+    <item id="1105"
+        image="equipment/accessoires/ring1-gem-copper.png|W"
+        name="%Color% Ring (Copper)"
+        description="A %color% ring, made of copper."
+        level="10"
+        type="equip-ring"
+        weight="50"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1106"
+        image="equipment/accessoires/ring1-gem-silver.png|W"
+        name="%Color% Ring (Silver)"
+        description="A %color% ring, made of silver."
+        level="10"
+        type="equip-ring"
+        weight="50"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1107"
+        image="equipment/accessoires/ring1-gem-gold.png|W"
+        name="%Color% Ring (Gold)"
+        description="A %color% ring, made of gold."
+        level="10"
+        type="equip-ring"
+        weight="50"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1108"
+        image="equipment/accessoires/ring1-gem-platinum.png|W"
+        name="%Color% Ring (Platinum)"
+        description="A %color% ring, made of platinum."
+        level="10"
+        type="equip-ring"
+        weight="50"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1109"
+        image="equipment/accessoires/ring2-gem-copper.png|W"
+        name="%Color% Signet Ring (Copper)"
+        description="A %color% signet ring, made of copper."
+        level="10"
+        type="equip-ring"
+        weight="80"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1110"
+        image="equipment/accessoires/ring2-gem-silver.png|W"
+        name="%Color% Signet Ring (Silver)"
+        description="A %color% signet ring, made of silver."
+        level="10"
+        type="equip-ring"
+        weight="80"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1111"
+        image="equipment/accessoires/ring2-gem-gold.png|W"
+        name="%Color% Signet Ring (Gold)"
+        description="A %color% signet ring, made of gold."
+        level="10"
+        type="equip-ring"
+        weight="80"
+        colors="gem"
+        iconColors="gem">
+     </item>
+    <item id="1112"
+        image="equipment/accessoires/ring2-gem-platinum.png|W"
+        name="%Color% Signet Ring (Platinum)"
+        description="A %color% signet ring, made of platinum."
+        level="10"
+        type="equip-ring"
+        weight="80"
+        colors="gem"
+        iconColors="gem">
+     </item>
+
+    <!-- Charms -->
+    <item id="1200"
+        image="equipment/accessoires/ancientscroll.png"
+        name="Ancient Scroll"
+        description="A scroll, with writings in a long forgotten language. It may be mananese, but you are not sure at all."
+        level="25"
+        type="equip-charm"
+        weight="80">
+     </item>
+    <item id="1201"
+        image="equipment/accessoires/clover.png"
+        name="Four-Leaf Clover"
+        description="Look what you have found! Lucky you!"
+        level="20"
+        type="equip-charm"
+        weight="10">
+     </item>
+    <item id="1202"
+        image="equipment/accessoires/firescroll.png"
+        name="Fire Scroll"
+        description="Equippable scroll with a fire spell on it. What kind of effect may this have?"
+        level="45"
+        type="equip-charm"
+        weight="120">
+     </item>
+    <item id="1203"
+        image="equipment/accessoires/grimoire.png"
+        name="Grimoire"
+        description="A Sage's spellbook. Sure it contains useful information for mages."
+        level="30"
+        type="equip-charm"
+        weight="220">
+     </item>
+    <item id="1204"
+        image="equipment/accessoires/heart-isis.png"
+        name="Heart of Isis"
+        description="Heart-shaped ruby, used for this magic piece of magic. Looks somewhat legacy."
+        level="70"
+        type="equip-charm"
+        weight="150">
+     </item>
+    <item id="1205"
+        image="equipment/accessoires/thetabook.png"
+        name="Theta Book"
+        description="A Wizard's spell book from the old days. What could be written inside?"
+        level="50"
+        type="equip-charm"
+        weight="200">
+     </item>
+    <item id="1206"
+        image="equipment/accessoires/towel-flowers.png"
+        name="Hitchhiker's Towel"
+        description="Never, never travel without your towel on you!"
+        level="20"
+        type="equip-charm"
+        weight="100">
      </item>
 
     <!-- Chest Armors -->
@@ -1609,7 +2072,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Golden Warlord Plate"
         description="Strong and decorative armor, made of pure gold."
         defense="650"
-        level="50"
+        level="70"
         type="equip-torso"
         weight="2500">
         <sprite gender="unisex">equipment/chest/warlordplate-male.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
@@ -1621,8 +2084,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/chest/apprenticerobe.png|W"
         name="Apprentice Robe"
         description="A Robe for those interested in using magic."
-        defense="100"
-        level="10"
+        defense="10"
+        level="30"
         type="equip-torso"
         colors="simple"
         iconColors="simple"
@@ -1637,8 +2100,8 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/chest/assassinchest.png"
         name="Assassin Chest Armor"
         description="A hard but flexible plate armor, protects but does not reduce mobility."
-        defense="100"
-        level="10"
+        defense="50"
+        level="60"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/assassinchest-male.xml</sprite>
@@ -1649,7 +2112,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Black Armor"
         description="If you like black, this may be suitable. If you dont, better choose something else."
         defense="100"
-        level="10"
+        level="55"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/blackarmor-male.xml</sprite>
@@ -1660,7 +2123,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Chainmail"
         description="A chainmail armor, originally used by knights. Good for protection, but heavy."
         defense="100"
-        level="10"
+        level="30"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/chainmail-male.xml</sprite>
@@ -1671,7 +2134,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Evocator Robe"
         description="A robe for advanced mages who are focused on creating life, and taking it."
         defense="100"
-        level="10"
+        level="70"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/evocatorrobe-male.xml</sprite>
@@ -1685,7 +2148,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="%Color% Justifier Chest"
         description="A %color% chest armor, due to its lightweight mainly used by archers."
         defense="100"
-        level="10"
+        level="65"
         type="equip-torso"
         weight="100"
         colors="simple"
@@ -1698,7 +2161,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Light Platemail"
         description="A plate armor, originally used by strong knights. Good for protection, but very heavy."
         defense="100"
-        level="10"
+        level="20"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/platemail-male.xml</sprite>
@@ -1709,7 +2172,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Pelt Jacket"
         description="A warm jacket with pelt. Be aware of PETA when wearing this."
         defense="100"
-        level="10"
+        level="33"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/peltjacket-male.xml</sprite>
@@ -1720,7 +2183,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Snake Plate"
         description="A light plate armor, made of snake leather. Very robust, and not too heavy."
         defense="100"
-        level="10"
+        level="80"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/snakeplate-male.xml</sprite>
@@ -1731,7 +2194,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Sorcerer Robe"
         description="A Robe for experienced sorcerers."
         defense="100"
-        level="10"
+        level="65"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/sorcererrobe-male.xml</sprite>
@@ -1745,7 +2208,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Terranite Armor"
         description="A piece of chest armor, made from Terranite. Very useful against magic attacks."
         defense="100"
-        level="10"
+        level="55"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/terranitearmor-male.xml</sprite>
@@ -1756,7 +2219,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Wizard Robe"
         description="A protective light robe, mostly used by Wizards."
         defense="100"
-        level="10"
+        level="85"
         type="equip-torso"
         weight="100">
         <sprite gender="unisex">equipment/chest/wizardrobe-male.xml</sprite>
@@ -1823,7 +2286,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Assassin Boots"
         description="Special, thin boots, used to move silently."
         defense="10"
-        level="10"
+        level="40"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
@@ -1835,7 +2298,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Bromenal Boots"
         description="Robust boots for experienced fighters."
         defense="10"
-        level="10"
+        level="55"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
@@ -1847,7 +2310,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Riding Boots"
         description="Heavy boots with a long shaft, used for riding or for a good stand."
         defense="10"
-        level="10"
+        level="75"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
@@ -1859,7 +2322,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Slippers"
         description="Very light slippers. Normally used indoors, but they also help to have a good connection to the earth, and to the Mana within."
         defense="10"
-        level="10"
+        level="23"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
@@ -1871,7 +2334,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Warlord Boots"
         description="Only the best swordsmen are capable of fighting with those heavy shoes."
         defense="10"
-        level="10"
+        level="60"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
@@ -1883,7 +2346,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="%Color% Mana Slippers"
         description="Very light %color% slippers, with a robust sole. They also help to have a good connection to the earth, and to the Mana within, so they are quite useful for mages."
         defense="10"
-        level="10"
+        level="42"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8"
@@ -1897,12 +2360,48 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Squirrel Boots"
         description="Shoort boots made of squirrel leather, well-designed for moving in the forest."
         defense="10"
-        level="10"
+        level="37"
         type="equip-feet"
         weight="10"
         maxFloorOffset="8">
         <sprite gender="unisex">equipment/feet/squirrelboots-male.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
         <sprite gender="female">equipment/feet/squirrelboots-female.xml|#25211a,30291c,3c3022,574731,6d5b3e,a0804c,c1ad84</sprite>
+    </item>
+    <item id="1811"
+        image="equipment/feet/blackboots.png"
+        name="Black Boots"
+        description="Heavy, black boots. Normally worn by soldiers. Equipped with a steel cap, for tough operations."
+        defense="7"
+        level="60"
+        type="equip-feet"
+        weight="200"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="1812"
+        image="equipment/feet/leatherboots.png"
+        name="Leather Boots"
+        description="Stylish boots made of leather. Protective, comfortable, lightweight."
+        defense="5"
+        level="27"
+        type="equip-feet"
+        weight="150"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/boots-male.xml|#3f221d,754d23,f5cea4</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#3f221d,754d23,f5cea4</sprite>
+    </item>
+    <item id="1813"
+        image="equipment/feet/goldenwarlordboots.png"
+        name="Golden Warlord Boots"
+        description="Shiny, golden boots for rich fighters who do not need to focus on fighting - because that may give diry shoes."
+        defense="10"
+        level="10"
+        type="equip-feet"
+        weight="400"
+        maxFloorOffset="8">
+        <sprite gender="unisex">equipment/feet/warlordboots-male.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
+        <sprite gender="female">equipment/feet/warlordboots-female.xml|#4e431e,87681f,b48221,ce9c3d,f9c466,f1d7a4,fffef1</sprite>
     </item>
 
     <!-- Gloves -->
@@ -1986,9 +2485,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Assassin Gloves"
         description="Thin, but deadly gloves, best to be used when fighting with bare hands."
         defense="10"
-        level="10"
+        level="45"
         type="equip-arms"
-        weight="0"
+        weight="10"
         maxFloorOffset="16">
         <sprite gender="unisex">equipment/hands/assassingloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/assassingloves-female.xml</sprite>
@@ -1998,9 +2497,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Bromenal Gloves"
         description="A Fighter's gloves from material pretty unknown nowadays."
         defense="10"
-        level="10"
+        level="50"
         type="equip-arms"
-        weight="0"
+        weight="10"
         maxFloorOffset="16">
         <sprite gender="unisex">equipment/hands/bromenalgloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite>
@@ -2010,9 +2509,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Short Gloves"
         description="Very thin gloves. They do not protect well, but they are not a big barrier for Mana either."
         defense="10"
-        level="10"
+        level="22"
         type="equip-arms"
-        weight="0"
+        weight="01"
         maxFloorOffset="16">
         <sprite gender="unisex">equipment/hands/shortgloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/shortgloves-female.xml</sprite>
@@ -2022,14 +2521,62 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="%Color% Silk Gloves"
         description="Very thin %color% gloves, made of silk. They do not protect well, but they are no barrier for Mana at all."
         defense="10"
-        level="10"
+        level="30"
         type="equip-arms"
-        weight="0"
+        weight="10"
         maxFloorOffset="16"
         colors="silk"
 		iconColors="silkS">
         <sprite gender="unisex">equipment/hands/shortgloves-male.xml</sprite>
         <sprite gender="female">equipment/hands/shortgloves-female.xml</sprite>
+    </item>
+    <item id="2010"
+        image="equipment/hands/blackgloves.png"
+        name="Black Gloves"
+        description="Heavy, black gloves for melee fighters. Protective, but not so easy to fight with."
+        defense="10"
+        level="55"
+        type="equip-arms"
+        weight="100"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/shortgloves-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">equipment/hands/shortgloves-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2011"
+        image="equipment/hands/fursgloves.png"
+        name="Fur Gloves"
+        description="Leather gloves with comfy fur inside. Never again cold fingers!"
+        defense="10"
+        level="35"
+        type="equip-arms"
+        weight="100"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/fursgloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/fursgloves-female.xml</sprite>
+    </item>
+    <item id="2012"
+        image="equipment/hands/goldenarmbands.png"
+        name="Golden Armbands"
+        description="Shiny golden armbands. Not exceptionally useful for fighting, but great to show off with."
+        defense="10"
+        level="65"
+        type="equip-arms"
+        weight="100"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/armbands-male.xml|#663d38,4e431e,8f5c52,b48221,ad7c65,f9c466,d9c9b2,f1d7a4</sprite>
+        <sprite gender="female">equipment/hands/armbands-female.xml|#663d38,4e431e,8f5c52,b48221,ad7c65,f9c466,d9c9b2,f1d7a4</sprite>
+    </item>
+    <item id="2013"
+        image="equipment/hands/managloves.png"
+        name="Mana Gloves"
+        description="Light gloves, shimmering in a light blue. You can feel the manaic aura even when just looking at them."
+        defense="10"
+        level="50"
+        type="equip-arms"
+        weight="100"
+        maxFloorOffset="16">
+        <sprite gender="unisex">equipment/hands/managloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/managloves-female.xml</sprite>
     </item>
 
     <!-- Pants -->
@@ -2127,7 +2674,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Assassin Pants"
         description="Dark colored pants, for fighters to be invisible in darkness."
         defense="100"
-        level="10"
+        level="40"
         type="equip-legs"
         weight="100"
         maxFloorOffset="8">
@@ -2139,7 +2686,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Chainmail Skirt"
         description="A heavy skirt made of chainmail material. Quite protective."
         defense="100"
-        level="10"
+        level="30"
         type="equip-legs"
         weight="100"
         maxFloorOffset="8">
@@ -2163,7 +2710,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         name="Terranite Pants"
         description="A pair of pretty stiff pants, made from Terranite. Very useful against magic attacks."
         defense="100"
-        level="10"
+        level="55"
         type="equip-legs"
         weight="100"
         maxFloorOffset="8">
@@ -2209,10 +2756,11 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         image="equipment/shields/woodenshield.png"
         name="Wooden Shield"
         description="A shield made of wood."
-        defense="72"
+        defense="150"
         level="12"
         type="equip-shield"
         weight="2450">
+        <sprite>equipment/shields/woodenshield.xml</sprite>
     </item>
     <item id="2703"
         image="equipment/shields/steelshield.png"
@@ -2222,6 +2770,47 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         level="20"
         type="equip-shield"
         weight="5500">
+        <sprite>equipment/shields/steelshield.xml</sprite>
+    </item>
+    <item id="2704"
+        image="equipment/shields/ancientshield.png"
+        name="Ancient Shield"
+        description="A shield made wood and leather. It has drawings on it, looks like from a forgotten tribe."
+        defense="180"
+        level="35"
+        type="equip-shield"
+        weight="2500">
+        <sprite>equipment/shields/dragonshield.xml</sprite>
+    </item>
+    <item id="2705"
+        image="equipment/shields/bladeshield.png"
+        name="Blade Shield"
+        description="An iron shield, the edges are designed with blades. Pretty dangerous."
+        defense="150"
+        level="50"
+        type="equip-shield"
+        weight="4500">
+        <sprite>equipment/shields/bladeshield.xml</sprite>
+    </item>
+    <item id="2706"
+        image="equipment/shields/dragonshield.png"
+        name="Dragon Shield"
+        description="A steel shield, hardened in the blood of dragons. The ultimate defense item."
+        defense="350"
+        level="65"
+        type="equip-shield"
+        weight="6500">
+        <sprite>equipment/shields/dragonshield.xml</sprite>
+    </item>
+    <item id="2707"
+        image="equipment/shields/buckler.png"
+        name="Buckler"
+        description="A small, round wooden shield. Small, but still somewhat protective."
+        defense="100"
+        level="12"
+        type="equip-shield"
+        weight="850">
+        <sprite>equipment/shields/buckler.xml</sprite>
     </item>
 
     <!-- Head Gears -->
@@ -2662,8 +3251,18 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 		weight="100">
 		<sprite>equipment/head/wizardhat.xml</sprite>
 	</item>
+	<item id="2934"
+		image="equipment/head/captainhat.png"
+		name="Captain's Hat"
+		description="Harr harr! Aboard, you stinky landlubbers! Hoist the sails!"
+		defense="12"
+		level="50"
+		type="equip-head"
+		weight="100">
+		<sprite>equipment/head/captainhat.xml</sprite>
+	</item>
 
-    <!-- Neck Armors -->
+    <!-- Neck Armors & Accessoires -->
     <item id="3200"
         image="equipment/neck/shemagh.png"
         name="Shemagh"
@@ -2689,7 +3288,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite gender="female">equipment/neck/banditshawl.xml</sprite>
     </item>
 	<item id="3202"
-		image="equipment/neck/eyepatch.png"
+		image="equipment/accessoires/eyepatch.png"
 		name="Eye Patch"
 		description="Arr! What's a pirate with two eyes? A not-pirate! Ar Arr!"
 		defense="3"
@@ -2697,8 +3296,93 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 		type="equip-neck"
 		weight="8"
 		drawAfter="torso">
-		<sprite gender="unisex">equipment/neck/eyepatch.xml</sprite>
-		<sprite gender="female">equipment/neck/eyepatch.xml</sprite>
+		<sprite gender="unisex">equipment/accessoires/eyepatch.xml</sprite>
+		<sprite gender="female">equipment/accessoires/eyepatch.xml</sprite>
+	</item>
+    <!-- Placeholder Neck -->
+	<item id="3203"
+		image="equipment/accessoires/burglarmask.png"
+		name="Burglar Mask"
+		description="Wear it, and noone will recognize you! Okay, the police will."
+		defense="4"
+		level="25"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/burglarmask.xml</sprite>
+		<sprite gender="female">equipment/accessoires/burglarmask.xml</sprite>
+	</item>
+	<item id="3204"
+		image="equipment/accessoires/heartglasses.png"
+		name="Heart Glasses"
+		description="Heart-shaped glasses. Its so 80's style."
+		defense="5"
+		level="45"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/heartglasses.xml</sprite>
+		<sprite gender="female">equipment/accessoires/heartglasses.xml</sprite>
+	</item>
+	<item id="3205"
+		image="equipment/accessoires/mustache.png"
+		name="Mustache"
+		description="You are not serious, are you?"
+		defense="1"
+		level="10"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/mustache.xml</sprite>
+		<sprite gender="female">equipment/accessoires/mustache.xml</sprite>
+	</item>
+	<item id="3206"
+		image="equipment/accessoires/rednose.png"
+		name="Red Nose"
+		description="A red nose, made of plastic. Wearing this you look like Rudolph."
+		defense="2"
+		level="15"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/rednose.xml</sprite>
+		<sprite gender="female">equipment/accessoires/rednose.xml</sprite>
+	</item>
+	<item id="3207"
+		image="equipment/accessoires/sunglasses.png"
+		name="Sunglasses"
+		description="The sun shines too bright? No problem, just wear those sunglasses."
+		defense="8"
+		level="65"
+		type="equip-neck"
+		weight="8"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/sunglasses.xml</sprite>
+		<sprite gender="female">equipment/accessoires/sunglasses.xml</sprite>
+	</item>
+	<item id="3208"
+		image="equipment/accessoires/beard.png"
+		name="Beard"
+		description="This definitely makes you look.. erm.. wiser."
+		defense="1"
+		level="10"
+		type="equip-neck"
+		weight="12"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/beard.xml</sprite>
+		<sprite gender="female">equipment/accessoires/beard.xml</sprite>
+	</item>
+	<item id="3209"
+		image="equipment/accessoires/fullbeard-white.png"
+		name="Full Beard"
+		description="If only you had a red bobble hat now, you would look like Santa!"
+		defense="2"
+		level="10"
+		type="equip-neck"
+		weight="16"
+		drawAfter="torso">
+		<sprite gender="unisex">equipment/accessoires/fullbeard-white.xml</sprite>
+		<sprite gender="female">equipment/accessoires/fullbeard-white.xml</sprite>
 	</item>
 
     <!-- Weapons -->
@@ -2719,7 +3403,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="3501"
         image="equipment/weapons/piouslayer.png"
         name="Piou Slayer"
-        description="A short sword for amateurs."
+        description="A short sword for amateurs. Well, more a dagger than a sword, that is."
         attack="150"
         attack-range="1"
         level="3"
@@ -2752,9 +3436,9 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-range="1"
         level="5"
         type="equip-1hand"
-        attack-action="attack"
+        attack-action="attack_chop"
         weight="25">
-        <sprite>equipment/weapons/woodensword.xml</sprite>
+        <sprite>equipment/weapons/sword-wooden.xml</sprite>
         <sound event="hit">weapons/piouslayer/hit1.ogg</sound>
         <sound event="miss">weapons/piouslayer/miss1.ogg</sound>
     </item>
@@ -2873,16 +3557,16 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sprite>equipment/weapons/axe.xml</sprite>
     </item>
     <item id="3513"
-        image="equipment/weapons/chopstick.png"
-        name="Chopstick"
-        description="A long chopstick, simple but effective for smashing."
+        image="equipment/weapons/staff.png"
+        name="Wooden Staff"
+        description="A long wooden staff, simple but effective for smashing. Or for magic. Or for both."
         attack="400"
         attack-range="2"
         level="10"
         type="equip-2hand"
         attack-action="attack_chop_long"
-        weight="800">
-        <sprite>equipment/weapons/chopstick.xml</sprite>
+        weight="400">
+        <sprite>equipment/weapons/staff.xml</sprite>
     </item>
     <item id="3514"
         image="equipment/weapons/halberd.png"
@@ -2925,6 +3609,155 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         <sound event="miss">weapons/knife/miss1.ogg</sound>
     </item>
 
+    <!-- Placeholder Weapons -->
+    <item id="3517"
+        image="equipment/weapons/chopper.png"
+        name="Chopper"
+        description="Chop, chop, parsley. Chop, chop, head."
+        attack="400"
+        attack-range="1"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="900">
+        <sprite>equipment/weapons/chopper.xml</sprite>
+    </item>
+    <item id="3518"
+        image="equipment/weapons/cleaver.png"
+        name="Cleaver"
+        description="Good for chopping, but even better for fighting, smashing, killing."
+        attack="500"
+        attack-range="1"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="1100">
+        <sprite>equipment/weapons/chopper.xml</sprite>    <!-- FIXME -->
+    </item>
+    <item id="3519"
+        image="equipment/weapons/rockknife.png"
+        name="Rock Knife"
+        description="Machete-like weapon, made of hard stone. Not a weapon for pacifists."
+        attack="600"
+        attack-range="1"
+        level="10"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="1300">
+        <sprite>equipment/weapons/chopper.xml</sprite>    <!-- FIXME -->
+    </item>
+   <item id="3520"
+        image="equipment/weapons/bronzegladius.png"
+        name="Bronze Gladius"
+        description="A typical one-handed sword, made out of bronze."
+        attack="280"
+        attack-range="1"
+        level="15"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="200">
+        <sprite>equipment/weapons/sword-bronze.xml</sprite>
+    </item>
+   <item id="3521"
+        image="equipment/weapons/shortsword.png"
+        name="Short Sword"
+        description="Iron short sword. The standard weapon for experienced knights."
+        attack="380"
+        attack-range="1"
+        level="30"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="350">
+        <sprite>equipment/weapons/sword-iron.xml</sprite>
+    </item>
+   <item id="3522"
+        image="equipment/weapons/longsword.png"
+        name="Long Sword"
+        description="If you are strong enough, this long sword gives you quite more destructive power."
+        attack="480"
+        attack-range="1"
+        level="45"
+        type="equip-1hand"
+        attack-action="attack_chop"
+        weight="600">
+        <sprite>equipment/weapons/sword-iron-long.xml</sprite>
+    </item>
+    <item id="3523"
+        image="equipment/weapons/spear.png"
+        name="Spear"
+        description="If you train hard, you can defeat whole armies with that, keeping your enemies on distance."
+        attack="750"
+        attack-range="2"
+        level="40"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="1500">
+        <sprite>equipment/weapons/halberd.xml</sprite>    <!-- FIXME -->
+    </item>
+    <item id="3524"
+        image="equipment/weapons/katana.png"
+        name="Katana"
+        description="A typical japanese two-hand sword. Incredibly sharp, incredibly dangerous."
+        attack="850"
+        attack-range="2"
+        level="20"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="900">
+        <sprite>equipment/weapons/halberd.xml</sprite>    <!-- FIXME -->
+    </item>
+    <item id="3525"
+        image="equipment/weapons/warpedstaff.png"
+        name="Warped Staff"
+        description="A staff made out of a strange branch, warped within itself."
+        attack="400"
+        attack-range="2"
+        level="40"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="600">
+        <sprite>equipment/weapons/staff-warped.xml</sprite>
+    </item>
+    <item id="3526"
+        image="equipment/weapons/wizardstaff.png|W"
+        name="Wizard Staff (%Color%)"
+        description="A professional staff with a %color%. In the hands of an experienced wizard, it is able to move the mountains."
+        attack="400"
+        attack-range="2"
+        level="10"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        colors="gem"
+        iconColors="gem"
+        weight="800">
+        <sprite>equipment/weapons/staff-wizard.xml</sprite>
+    </item>
+    <item id="3527"
+        image="equipment/weapons/lifestaff.png"
+        name="Staff of Life"
+        description="A enchanted piece of wood. Very suitable for mages."
+        attack="400"
+        attack-range="2"
+        level="10"
+        type="equip-2hand"
+        attack-action="attack_chop_long"
+        weight="900">
+        <sprite>equipment/weapons/staff-life.xml</sprite>
+    </item>
+    <item id="3528"
+        image="equipment/weapons/wand.png"
+        name="Apprentice Wand (%Color%)"
+        description="A simple %color% wand for you once may become an awesome magician."
+        attack="50"
+        attack-range="2"
+        level="20"
+        type="equip-1hand"
+        attack-action="attack_wand"
+        colors="gem"
+        iconColors="gem"
+        weight="75">
+        <sprite>equipment/weapons/trainingwand.xml</sprite>
+    </item>
 
     <!-- Pets -->
     <item id="4000"
@@ -3137,47 +3970,52 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5022"
         image="usable/gem3-polished.png|W:#315a67,a4a4ae,dce5d6,ffffff"
         name="Diamond"
-        useButton="Gem"
+        useButton="Insert"
         description="A diamond, polished and shining."
         type="card"
+        cardColor="2"
         weight="50"
         maxFloorOffset="15"/>
     <item id="5023"
         image="usable/gem1-polished.png|W:#581a1a,a41111,c03a3a,ff6060,ffffff"
         name="Ruby"
-        useButton="Gem"
+        useButton="Insert"
         description="A polished ruby, blinking in bright red color."
         type="card"
+        cardColor="3"
         weight="50"
         maxFloorOffset="15"/>
     <item id="5024"
         image="usable/gem2-polished.png|W:#1f9c1f,89d689,ffffff"
         name="Emerald"
-        useButton="Gem"
+        useButton="Insert"
         description="A polished Emerald, beautiful and green."
         type="card"
+        cardColor="4"
         weight="50"
         maxFloorOffset="15"/>
     <item id="5025"
         image="usable/gem2-polished.png|W:#4b4bbd,888af4,ffffff"
         name="Sapphire"
-        useButton="Gem"
+        useButton="Insert"
         description="A polished sapphire, blinking in dark blue."
         type="card"
+        cardColor="5"
         weight="50"
         maxFloorOffset="15"/>
     <item id="5026"
         image="usable/gem1-polished.png|W:#ccb534,f1ea8e,ffffaa,ffffff"
         name="Topaz"
-        useButton="Gem"
+        useButton="Insert"
         description="A Topaz, polished and beautiful."
         type="card"
+        cardColor="6"
         weight="50"
         maxFloorOffset="15"/>
     <item id="5027"
         image="usable/gem3-polished.png|W:#530a7c,b362e1,ca87ef,ffffff"
         name="Amethyst"
-        useButton="Gem"
+        useButton="Insert"
         description="A polished Amethyst. Some say it has the power to heal."
         type="card"
         weight="50"
@@ -3185,7 +4023,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5028"
         image="usable/gem-crude.png|W:#315a67,a4a4ae,dce5d6,ffffff"
         name="Crude Diamond"
-        useButton="Gem"
+        useButton="Insert"
         description="A crude diamond, fresh from the mines."
         type="card"
         cardColor="2"
@@ -3194,7 +4032,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5029"
         image="usable/gem-crude.png|W:#581a1a,a41111,c03a3a,ff6060"
         name="Crude Ruby"
-        useButton="Gem"
+        useButton="Insert"
         description="A crude ruby, fresh from the mines."
         type="card"
         cardColor="3"
@@ -3203,7 +4041,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5030"
         image="usable/gem-crude.png|W:#1f9c1f,89d689"
         name="Crude Emerald"
-        useButton="Gem"
+        useButton="Insert"
         description="A crude emerald, fresh from the mines."
         type="card"
         cardColor="4"
@@ -3212,7 +4050,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5031"
         image="usable/gem-crude.png|W:#4b4bbd,888af4"
         name="Crude Sapphire"
-        useButton="Gem"
+        useButton="Insert"
         description="A crude sapphire, fresh from the mines."
         type="card"
         cardColor="5"
@@ -3221,7 +4059,7 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
     <item id="5032"
         image="usable/gem-crude.png|W:#ccb534,f1ea8e,ffffaa"
         name="Crude Topaz"
-        useButton="Gem"
+        useButton="Insert"
         description="A crude topaz, fresh from the mines."
         type="card"
         cardColor="6"
@@ -3326,6 +4164,54 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         weight="1"
         cardColor="14"
         maxFloorOffset="15"/>
+   <item id="5044"
+        image="usable/runestone-uruz.png"
+        name="Uruz Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents strength."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
+   <item id="5045"
+        image="usable/runestone-raido.png"
+        name="Raido Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents agility."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
+   <item id="5046"
+        image="usable/runestone-thurisaz.png"
+        name="Thurisaz Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents vitality."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
+   <item id="5047"
+        image="usable/runestone-kaunaz.png"
+        name="Kaunaz Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents intelligence."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
+   <item id="5048"
+        image="usable/runestone-dagaz.png"
+        name="Dagaz Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents dexterity."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
+   <item id="5049"
+        image="usable/runestone-peorth.png"
+        name="Peorth Runestone"
+        useButton="Insert"
+        description="A small, round stone with a symbol on it. Represents luck."
+        type="card"
+        weight="100"
+        maxFloorOffset="15"/>
 
     <!-- Bows -->
     <item id="6000"
@@ -3385,6 +4271,74 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
 	<sound event="hit">weapons/bow-forest/hit1.ogg</sound>
 	<sound event="miss">weapons/bow-forest/miss1.ogg</sound>
     </item>
+    <item id="6003"
+        image="equipment/weapons/desertbow.png"
+        name="Desert Bow"
+        description="Fragile long bow, for open ranges. Needs some training."
+        attack="250"
+        attack-range="7"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="30"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="390">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <item id="6004"
+        image="equipment/weapons/championbow.png"
+        name="Champion Bow"
+        description="A bow for champions. Ask Jesusalva."
+        attack="350"
+        attack-range="6"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="40"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="580">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <item id="6005"
+        image="equipment/weapons/bansheebow.png"
+        name="Banshee Bow"
+        description="A bow, holding the evil powers of a legacy world."
+        attack="450"
+        attack-range="6"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="60"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="480">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
+    <item id="6006"
+        image="equipment/weapons/slingshot.png"
+        name="Slingshot"
+        description="Some say its a toy, I say its a weapon. Ask David."
+        attack="250"
+        attack-range="5"
+        missile-particle="graphics/particles/training-arrow.xml"
+        missile-z="32"
+        missile-lifetime="500"
+        missile-speed="6"
+        missile-diedistance="3"
+        level="20"
+        type="equip-2hand"
+        attack-action="attack_bow"
+        weight="100">
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+    </item>
 
     <!-- Arrows -->
     <item id="6500"
@@ -3393,6 +4347,41 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         description="For bow training. Does not seem much reliable."
         type="equip-ammo"
         attack="100"
+        weight="1"/>
+    <item id="6501"
+        image="equipment/ammo/ironarrow.png"
+        name="Iron Arrow"
+        description="Solid arrow for bowmen. Careful, its sharp!"
+        type="equip-ammo"
+        attack="150"
+        weight="2"/>
+    <item id="6502"
+        image="equipment/ammo/bonearrow.png"
+        name="Bone Arrow"
+        description="Scary arrow, carved from a pice of bone. Very lightweight."
+        type="equip-ammo"
+        attack="180"
+        weight="0"/>
+    <item id="6503"
+        image="equipment/ammo/poisonedarrow.png"
+        name="Poisoned Arrow"
+        description="Sharp arrow, with a poisoned tip. Don't touch it!"
+        type="equip-ammo"
+        attack="200"
+        weight="1"/>
+    <item id="6504"
+        image="equipment/ammo/terranitearrow.png"
+        name="Terranit Arrow"
+        description="Professioal arrow, made from terranite. Sharp, stiff, deadly."
+        type="equip-ammo"
+        attack="250"
+        weight="1"/>
+    <item id="6505"
+        image="equipment/ammo/stoneprojectile.png"
+        name="Stone Projectile"
+        description="Ammo for your slingshot. Can be very powerful, when its in David's hands. What about yours?"
+        type="equip-ammo"
+        attack="200"
         weight="1"/>
 
     <!-- Fun Items -->

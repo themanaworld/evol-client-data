@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-y" value="-16"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="power" value="40"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="5"/>
+      <emitter>
+        <property name="image" value="graphics/particles/glowdot-small.png|W:#000000"/>
+        <property name="lifetime" value="77"/>
+        <property name="fade-in" value="57"/>
+        <property name="fade-out" value="20"/>
+        <property name="output" value="1"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>
