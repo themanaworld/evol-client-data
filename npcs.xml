@@ -578,7 +578,82 @@ IDs 900-999 = Special
         <sprite variant="37">npcs/xml/unanimated.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-
+    <npc id="213">
+        <!-- Eomie, the green mage lady.  -->
+        <sprite variant="42">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="214">
+        <!-- The Bard in Tulimshar.  -->
+        <sprite variant="43">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="215">
+        <!-- Adrian, a sailor.  -->
+        <sprite variant="45">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="216">
+        <!-- Joelin, a captain.  -->
+        <sprite variant="44">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="217">
+        <!-- Hetchel, the golden dressed silk weaver lady.  -->
+        <sprite variant="46">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="218">
+        <!-- Michel, some random guy in Tulimshar.  -->
+        <sprite variant="47">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="219">
+        <!-- Former KPG manager, dressed in black with a cylinder.  -->
+        <sprite variant="49">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="220">
+        <!-- Sander, a free soldier helping the mining efforts in Tulimshar.  -->
+        <sprite variant="50">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="221">
+        <!-- Nickos, the free soldier protecting the Tulimshar mines.  -->
+        <sprite variant="51">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="222">
+        <!-- Inya, the Jeweler lady in Tulimshar.  -->
+        <sprite variant="53">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="223">
+        <!-- Karl, some other random guy in Tulimshar.  -->
+        <sprite variant="54">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="224">
+        <!-- Silvia, some random lady in Tulimshar.  -->
+        <sprite variant="55">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="225">
+        <!-- Anwar, the farmer in Tulimshar.  -->
+        <sprite variant="56">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="226">
+        <!-- Rebecca, the former Receptionist of main building in Tulimshar.  -->
+        <sprite variant="57">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="227">
+        <!-- Pauline, the War Mage.  -->
+        <sprite variant="6">npcs/xml/unanimated-legacy-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    
     <!-- Animated NPCs -->
 
     <npc id="400" allowDelete="false">
@@ -1012,6 +1087,78 @@ IDs 900-999 = Special
         <sprite>equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="471">
+        <!-- Ukar Female, walking sprite for Brotherhood guard NPC. -->
+        <sprite>races/ukar-female.xml</sprite>
+        <sprite>equipment/legs/bandittrousers-female.xml</sprite>
+        <sprite>equipment/feet/boots-female.xml|#3f221d,754d23,f5cea4</sprite>
+        <sprite>equipment/chest/forestarmor-female.xml</sprite>
+        <sprite>equipment/hands/armbands-female.xml</sprite>
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+        <sprite>hairstyles/hairstyle08.xml|#2b2b2b,4b3e44,3f3f3f,59494c,585858,887565,858585,a29171,a7a7a7,ccbb9b,d6d6d6,e7debd,ffffff,faf8f1</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="472">
+        <!-- Raijin Male, walking sprite for Brotherhood guard NPC. -->
+        <sprite>races/raijin-male.xml</sprite>
+        <sprite>equipment/legs/assassinpants-male.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/chest/justifierchest-male.xml|#6a0022,7c151a,c60022</sprite>
+        <sprite>equipment/hands/assassingloves-male.xml</sprite>
+        <sprite>equipment/weapons/sword-iron.xml</sprite>
+        <sprite>hairstyles/hairstyle28.xml|#4b3e44,59494c,887565,a29171,ccbb9b,e7debd,faf8f1</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="473">
+        <!-- Human Male, walking sprite for Brotherhood guard NPC. -->
+        <sprite>races/human-male-medium.xml</sprite>
+        <sprite>equipment/legs/cottontrousers-male.xml|#002504,2d551b,07871d</sprite>
+        <sprite>equipment/feet/boots-male.xml|#594d36,b49b6c,f4d293</sprite>
+        <sprite>equipment/chest/peltjacket-male.xml</sprite>
+        <sprite>equipment/head/bandithood.xml</sprite>
+        <sprite>equipment/weapons/woodenbow.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="474">
+        <!-- Male Mage, made from elven race, fire type (which means, um, red). -->
+        <sprite>races/elven-male.xml</sprite>
+        <sprite>equipment/feet/slippers-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/chest/sorcererrobe-male.xml|#6a0022,7c151a,c60022;#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/head/wizardhat.xml|#6a0022,7c151a,c60022</sprite>
+        <sprite>equipment/weapons/staff-wizard.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="475">
+        <!-- Male Mage, Ukar, Hocus type (which means, um, brownish). -->
+        <sprite>races/ukar-male.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/chest/wizardrobe-male.xml</sprite>
+        <sprite>equipment/head/bandithood.xml</sprite>
+        <sprite>equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+        <sprite>equipment/weapons/trainingwand.xml|#1f9c1f,89d689</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="476">
+        <!-- Male Mage, made from elven race, water type (which means, um, blue). -->
+        <sprite>races/elven-male.xml</sprite>
+        <sprite>equipment/feet/slippers-male.xml|#22241d,3f6543,689c46,deeba3</sprite>
+        <sprite>equipment/chest/sorcererrobe-male.xml|#030323,191970,6382ce;#a08412,ecc714,ffef85</sprite>
+        <sprite>equipment/head/wizardhat.xml|#a08412,ecc714,ffef85</sprite>
+        <sprite>equipment/weapons/staff-wizard.xml|#4b4bbd,888af4</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="477">
+        <!-- Hal, Male Ukar, Captain of the Legion.. -->
+        <sprite>races/ukar-male.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite>equipment/chest/wizardrobe-male.xml</sprite>
+        <sprite>equipment/head/bandithood.xml</sprite>
+        <sprite>equipment/hands/cottongloves-male.xml|#4d3e21,624f2a,766033,8a703b,9e8043</sprite>
+        <sprite>equipment/weapons/sword-iron.xml</sprite>
+        <sprite>equipment/shields/woodenshield.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+
 
     <!-- Test NPCs -->
     <npc id="800" allowDelete="false">
