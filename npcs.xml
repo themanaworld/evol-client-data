@@ -653,7 +653,12 @@ IDs 900-999 = Special
         <sprite variant="6">npcs/xml/unanimated-legacy-tall.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
-    
+    <npc id="228">
+        <!-- Lurwitzer Jukebox, a closet that makes music.  -->
+        <sprite>npcs/xml/jukebox.xml</sprite>
+        <menu name="Select Track" command="talk 'NAME'"/>
+    </npc>
+
     <!-- Animated NPCs -->
 
     <npc id="400" allowDelete="false">
