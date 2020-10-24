@@ -658,6 +658,16 @@ IDs 900-999 = Special
         <sprite>npcs/xml/jukebox.xml</sprite>
         <menu name="Select Track" command="talk 'NAME'"/>
     </npc>
+    <npc id="229">
+        <!-- La Marine.  -->
+        <sprite>npcs/xml/marine.xml</sprite>
+        <menu name="Board" command="talk 'NAME'"/>
+    </npc>
+    <npc id="230">
+        <!-- Tiki, Candor's Sandwich Maker -->
+        <sprite>npcs/xml/tiki.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -1163,6 +1173,11 @@ IDs 900-999 = Special
         <sprite>equipment/shields/woodenshield.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+	<npc id="478">
+		<!-- Summoning circle. -->
+		<particlefx>graphics/particles/circle-magic.xml</particlefx>
+		<menu name="Summon" command="talk 'NAME'"/>
+	</npc>
 
 
     <!-- Test NPCs -->
