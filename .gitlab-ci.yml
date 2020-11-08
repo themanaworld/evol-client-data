@@ -14,12 +14,6 @@ testxml:
   - ./.tools/testxml.sh
   - pwd
 
-contributors:
-  stage: test
-  script:
-  - ./.tools/contributors.sh
-  - pwd
-
 pngcheck:
   stage: test
   script:
