@@ -3535,6 +3535,10 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack"
         weight="250">
         <sprite>equipment/weapons/piouslayer.xml</sprite>
+        <sound event="hit">weapons/knife/setzer-hit1.ogg</sound>
+        <sound event="hit">weapons/knife/setzer-hit2.ogg</sound>
+        <sound event="hit">weapons/knife/setzer-hit3.ogg</sound>
+        <sound event="miss">weapons/knife/miss1.ogg</sound>
     </item>
     <item id="3510"
         image="equipment/weapons/pickaxe.png"
