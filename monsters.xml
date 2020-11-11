@@ -260,6 +260,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1042" name="Grass Snake" walkType="walk" targetCursor="small">
         <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+        <sound event="hit">monsters/snake/hit1.ogg</sound>
     </monster>
     <monster id="1043" name="Scorpion" walkType="walk" targetCursor="small">
         <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,e6e6e6</sprite>
@@ -448,12 +449,14 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1075" name="Snake" walkType="walk" targetCursor="small">
         <sprite>monsters/snake.xml|#594d36,b49b6c,f4d293</sprite>
+        <sound event="hit">monsters/snake/hit1.ogg</sound>
     </monster>
     <monster id="1076" name="Giant Maggot" walkType="walk" targetCursor="medium">
         <sprite>monsters/giant-maggot.xml</sprite>
     </monster>
     <monster id="1077" name="Desert Snake" walkType="walk" targetCursor="small">
         <sprite>monsters/snake.xml|#3d2613,4e3117,774c20,8f5d22,ae772d,dbae5c,f7e1ad</sprite>
+        <sound event="hit">monsters/snake/hit1.ogg</sound>
     </monster>
     <monster id="1078" name="Desert Scorpion" walkType="walk" targetCursor="small">
         <sprite>monsters/scorpion.xml|#594d36,b49b6c,f4d293</sprite>
@@ -719,6 +722,7 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1126" name="Snake Ghost" walkType="walk" targetCursor="small">
         <sprite>monsters/ghost-snake.xml</sprite>
+        <sound event="hit">monsters/snake/hit1.ogg</sound>
     </monster>
     <monster id="1127" name="Scorpion Ghost" walkType="walk" targetCursor="small">
         <sprite>monsters/ghost-scorpion.xml</sprite>
