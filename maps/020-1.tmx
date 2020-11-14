@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="320" height="280" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="204">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="320" height="280" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="205">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/020-1.png"/>
-  <property name="music" value="bartk - the adventure begins.ogg"/>
+  <property name="music" value="faith.ogg"/>
   <property name="name" value="Tulimshar"/>
   <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -3263,6 +3263,7 @@
     <property name="dest_y" value="22"/>
    </properties>
   </object>
+  <object id="204" name="academy.ogg" type="MUSIC" x="1088" y="1280" width="2404" height="2876"/>
  </objectgroup>
  <objectgroup id="13" name="Spawns" visible="0">
   <object id="28" name="Maggot" type="spawn" x="4832" y="2080" width="928" height="800">
