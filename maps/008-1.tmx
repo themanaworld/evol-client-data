@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="350" height="250" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="272">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="350" height="250" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="272">
  <properties>
   <property name="license" value="CC BY-SA 3.0"/>
   <property name="manaplus version" value="2"/>
   <property name="minimap" value="graphics/minimaps/008-1.png"/>
+  <property name="music" value="real.ogg"/>
   <property name="name" value="Hurnscald"/>
   <property name="overlay0image" value="graphics/images/ambient/cloud.png"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -3076,7 +3077,7 @@
 </data>
  </layer>
  <objectgroup id="12" name="Object">
-  <object id="18" name="magick-real.ogg" type="MUSIC" x="7168" y="2944" width="2400" height="1664"/>
+  <object id="18" name="hurns.ogg" type="MUSIC" x="6268" y="2946" width="4514" height="1858"/>
   <object id="32" name="To Celestia's house" type="warp" x="8832" y="3904" width="32" height="32">
    <properties>
     <property name="dest_map" value="008-2-0"/>
@@ -4286,5 +4287,6 @@
     <property name="spawn" value="18000"/>
    </properties>
   </object>
+  <object id="251" name="hurns.ogg" type="MUSIC" x="6914" y="776" width="3200" height="2202"/>
  </objectgroup>
 </map>
