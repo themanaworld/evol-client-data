@@ -187,12 +187,24 @@ event=""         Links the sfx to an action, like die, hit, hurt, miss, move or 
     </monster>
     <monster id="1026" name="Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml</sprite>
+        <sound event="die">monsters/maggot/die1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/miss1.ogg</sound>
     </monster>
     <monster id="1027" name="Cave Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml|#0f1315,242214,652b51,6f706f</sprite>
+        <sound event="die">monsters/maggot/die1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/miss1.ogg</sound>
     </monster>
     <monster id="1028" name="Forest Maggot" walkType="walk" targetCursor="small">
         <sprite>monsters/maggot.xml|#121c14,223626,334f38,3d5e3d,5e915e</sprite>
+        <sound event="die">monsters/maggot/die1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/miss1.ogg</sound>
     </monster>
     <monster id="1029" name="Bee" walkType="fly" targetCursor="small">
         <sprite>monsters/bee.xml</sprite>
