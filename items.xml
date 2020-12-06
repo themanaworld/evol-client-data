@@ -3587,6 +3587,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_chop_long"
         weight="400">
         <sprite>equipment/weapons/staff.xml</sprite>
+        <sound event="hit">weapons/staff/hit1.ogg</sound>
+        <sound event="hit">weapons/staff/hit2.ogg</sound>
+        <sound event="hit">weapons/staff/hit3.ogg</sound>
+        <sound event="miss">weapons/staff/miss1.ogg</sound>
+        <sound event="miss">weapons/staff/miss2.ogg</sound>
+        <sound event="miss">weapons/staff/miss3.ogg</sound>
     </item>
     <item id="3514"
         image="equipment/weapons/halberd.png"
@@ -3599,6 +3605,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_chop_long"
         weight="1200">
         <sprite>equipment/weapons/halberd.xml</sprite>
+        <sound event="hit">weapons/halberd/hit1.ogg</sound>
+        <sound event="hit">weapons/halberd/hit2.ogg</sound>
+        <sound event="hit">weapons/halberd/hit3.ogg</sound>
+        <sound event="miss">weapons/staff/miss1.ogg</sound>
+        <sound event="miss">weapons/staff/miss2.ogg</sound>
+        <sound event="miss">weapons/staff/miss3.ogg</sound>
     </item>
     <item id="3515"
         image="equipment/weapons/sharpknife.png"
