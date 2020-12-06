@@ -4363,6 +4363,12 @@ Colors for dyeable equipments or items are now set up by itemcolors.xml.
         attack-action="attack_bow"
         weight="480">
         <sprite>equipment/weapons/woodenbow.xml</sprite>
+        <sound event="hit">weapons/bow-banshee/hit1.ogg</sound>
+        <sound event="hit">weapons/bow-banshee/hit2.ogg</sound>
+        <sound event="hit">weapons/bow-banshee/hit3.ogg</sound>
+        <sound event="miss">weapons/bow-banshee/miss1.ogg</sound>
+        <sound event="miss">weapons/bow-banshee/miss2.ogg</sound>
+        <sound event="miss">weapons/bow-banshee/miss3.ogg</sound>
     </item>
     <item id="6006"
         image="equipment/weapons/slingshot.png"
