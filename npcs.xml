@@ -668,6 +668,76 @@ IDs 900-999 = Special
         <sprite>npcs/xml/tiki.xml</sprite>
         <menu name="Talk" command="talk 'NAME'"/>
     </npc>
+    <npc id="231">
+        <!-- Golbenez. No more info required. -->
+        <sprite variant="7">npcs/xml/unanimated-legacy-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="232">
+        <!-- Chef, The undead chef. -->
+        <sprite variant="8">npcs/xml/unanimated-legacy-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="233">
+        <!-- Archibald, Chef's Apprentice. -->
+        <sprite variant="8">npcs/xml/unanimated-legacy-tall.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="234">
+        <!-- Leofwin, the Asphodel Moor Alchemist. -->
+        <sprite variant="59">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="235">
+        <!-- Umfrey, a trader in Asphodel Moor. -->
+        <sprite variant="60">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="236">
+        <!-- Lovers, laying in a bed in Asphodel Moor. -->
+        <sprite variant="61">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="237">
+        <!-- Barbara, a skel Lady in Asphodel Moor. -->
+        <sprite variant="62">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="238">
+        <!-- Wolfgang, a game-addicted werewolf in Asphodel Moor. -->
+        <sprite variant="63">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="239">
+        <!-- Bennet, a skeleton behind a desk. -->
+        <sprite variant="64">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="240">
+        <!-- Edwin, another skeleton behind a desk. -->
+        <sprite variant="65">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="241">
+        <!-- Darnel, a totally drunk undead..? After all, he still got beer. -->
+        <sprite variant="66">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="242">
+        <!-- Estrilda, Waitress in the Inn in Asphodel Moor. -->
+        <sprite variant="67">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="243">
+        <!-- The one and only Caretaker. -->
+        <sprite variant="68">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="244">
+        <!-- The Caretaker's Wife. A bit not so alive, unfortunately. -->
+        <sprite variant="69">npcs/xml/unanimated-legacy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
 
     <!-- Animated NPCs -->
 
@@ -1178,6 +1248,67 @@ IDs 900-999 = Special
 		<particlefx>graphics/particles/circle-magic.xml</particlefx>
 		<menu name="Summon" command="talk 'NAME'"/>
 	</npc>
+    <npc id="479">
+        <!-- The formerly unused undead Mouboo Master. Mmh undead Mouboo steak. -->
+        <sprite>npcs/xml/undead-mouboomaster.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="480">
+        <!-- The undead receptionist, formerly known as Barbara Grey. -->
+        <sprite>npcs/xml/undead-receptionist.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="481">
+        <!-- The strange guards from Asphodel Moor. Feel free to not use them. -->
+        <sprite>npcs/xml/undead-guard.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="482">
+        <!-- J.P. Morbid, the undead banker in Asphodel Moor. -->
+        <sprite>npcs/xml/undead-banker.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="483">
+        <!-- Hamond, the man holding a lantern in the Moor. -->
+        <sprite>npcs/xml/lightman.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="484">
+        <!-- Thurstan, that weird guy carrying his head around. In his hands. -->
+        <sprite>npcs/xml/headlessman.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="485">
+        <!-- Nothing to see here, just some guy formerly known as Savaric hanging around. -->
+        <sprite>npcs/xml/hangman.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="486">
+        <!-- Reid's Ghost. -->
+        <sprite>npcs/xml/ghost-innkeeper.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="487">
+        <!-- Nigel. If there is still any question if alcohol is bad - yes, it is. -->
+        <sprite>npcs/xml/ghost-beerguy.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="488">
+        <!-- Eurni. Need boobs? Three of them? A whale's dick? Eurni cares about you. -->
+        <sprite>npcs/xml/creepysurgeon.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="489">
+        <!-- Chronos. Formerly unused I think, but if you need to travel in time he may be the guy to ask. -->
+        <sprite>npcs/xml/chronos.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+    <npc id="490">
+        <!-- A crying child. Did not see much sun lately. -->
+        <sprite>npcs/xml/cryingchild.xml</sprite>
+        <menu name="Talk" command="talk 'NAME'"/>
+    </npc>
+
 
 
     <!-- Test NPCs -->
