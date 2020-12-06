@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha
+Copyright (C) 2020 Evol Online -->
+
+<sprite>
+    <imageset name="npc"
+              src="graphics/sprites/npcs/sprite/undead-mouboo-master.png"
+              width="160"
+              height="64"/>
+
+    <action name="stand" imageset="npc">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="90"/>
+            <goto label="pull" rand="100"/>
+
+            <!-- static -->
+            <label name="static"/>
+            <frame index="2" delay="2000"/>
+            <goto label="start"/>
+
+            <!-- pull -->
+            <label name="pull"/>
+            <frame index="2" delay="200"/>
+            <frame index="1" delay="100"/>
+            <frame index="0" delay="100"/>
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="200"/>
+            <goto label="start"/>
+
+        </animation>
+    </action>
+</sprite>
