@@ -6,7 +6,7 @@ export libname="$1_$2"
 mkdir libdownload
 cd libdownload
 rm "${zipname}"
-../client-data/.tools/retry.sh wget -O "${zipname}" "https://gitlab.com/simplepackagemanager/spm/builds/artifacts/$1/download?job=${libname}"
+../client-data/.tools/retry.sh wget -O "${zipname}" "https://gitlab.com/themanaworld/manaplus/spm/builds/artifacts/$1/download?job=${libname}"
 unzip "${zipname}"
 cp -r "bin/${libname}" ..
 cd ..

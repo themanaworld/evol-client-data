@@ -27,7 +27,7 @@ check_error $?
 
 cp -r upload/* ../../clientdata/public
 cd ../../clientdata
-gitclone https://gitlab.com/4144 pagesindexgen.git pagesindexgen
+gitclone https://gitlab.com/themanaworld/manaplus/ pagesindexgen.git pagesindexgen
 cd pagesindexgen
 ./pagesindexgen.py ../public
 check_error $?
